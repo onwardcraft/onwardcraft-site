@@ -1,0 +1,532 @@
+---
+const cases = [
+  {
+    company: 'Roofing Company',
+    industry: 'Home Services',
+    metric: '+412%',
+    metricLabel: 'Qualified Leads',
+    beforeDesc: 'Outdated site. Zero SEO. 12 leads/month.',
+    afterDesc: 'Modern funnel. #1 rankings. 62 leads/month.',
+    beforeShort: '12 leads/mo',
+    afterShort: '62 leads/mo',
+    tags: ['Local SEO', 'Lead Funnel', 'Conversion Design'],
+    gradient: 'linear-gradient(135deg, rgba(59, 130, 246, 0.35) 0%, rgba(139, 92, 246, 0.25) 50%, rgba(59, 130, 246, 0.15) 100%)',
+    accent: '#3B82F6',
+    cardData: {
+      title: 'Lead Growth',
+      value: '+412%',
+      chart: 'line',
+    },
+  },
+  {
+    company: 'B2B SaaS Platform',
+    industry: 'SaaS',
+    metric: '4.9x',
+    metricLabel: 'ROAS',
+    beforeDesc: '2.1% trial conversion. High churn. No funnel.',
+    afterDesc: '8.7% trial conversion. Optimized onboarding.',
+    beforeShort: '2.1% convert',
+    afterShort: '8.7% convert',
+    tags: ['Onboarding Flow', 'CRO', 'Paid Acquisition'],
+    gradient: 'linear-gradient(135deg, rgba(139, 92, 246, 0.35) 0%, rgba(59, 130, 246, 0.25) 50%, rgba(34, 211, 238, 0.15) 100%)',
+    accent: '#8B5CF6',
+    cardData: {
+      title: 'Conversion Rate',
+      value: '8.7%',
+      chart: 'bar',
+    },
+  },
+  {
+    company: 'Healthcare Provider',
+    industry: 'Healthcare',
+    metric: '+267%',
+    metricLabel: 'Organic Traffic',
+    beforeDesc: 'Invisible online. Competitors dominated search.',
+    afterDesc: 'Top 3 for 40+ keywords. 3x appointments.',
+    beforeShort: 'Invisible',
+    afterShort: 'Top 3 ranks',
+    tags: ['Healthcare SEO', 'Content System', 'Local Search'],
+    gradient: 'linear-gradient(135deg, rgba(34, 211, 238, 0.3) 0%, rgba(59, 130, 246, 0.25) 50%, rgba(139, 92, 246, 0.15) 100%)',
+    accent: '#22D3EE',
+    cardData: {
+      title: 'Organic Traffic',
+      value: '+267%',
+      chart: 'area',
+    },
+  },
+];
+---
+
+<section class="cases-section" id="work">
+  <div class="container">
+    <div class="cases-header reveal">
+      <p class="section-label scramble-text">Selected Work</p>
+      <h2 class="section-title">Real Transformations.<br>Real Revenue.</h2>
+      <p class="section-subtitle">These are not just redesigns. These are business transformations — from invisible to undeniable.</p>
+    </div>
+
+    <div class="cases-list">
+      {cases.map((c, i) => (
+        <div class={`case-item ${i % 2 === 1 ? 'case-reverse' : ''} reveal`}>
+          <div class="case-visual">
+            <div class="case-gradient-box tilt-card" style={`background: ${c.gradient}`}>
+              <!-- Floating metric card -->
+              <div class="case-float-card">
+                <div class="float-card-header">
+                  <span>{c.cardData.title}</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></svg>
+                </div>
+                <div class="float-card-value" style={`color: ${c.accent}`}>{c.cardData.value}</div>
+                <div class="float-card-chart">
+                  {c.cardData.chart === 'line' && (
+                    <svg viewBox="0 0 200 60" width="100%" height="60">
+                      <defs>
+                        <linearGradient id={`grad-${i}`} x1="0%" y1="0%" x2="0%" y2="100%">
+                          <stop offset="0%" stop-color={c.accent} stop-opacity="0.3"/>
+                          <stop offset="100%" stop-color={c.accent} stop-opacity="0"/>
+                        </linearGradient>
+                      </defs>
+                      <path d="M0,45 Q25,42 50,38 T100,28 T150,18 T200,8" fill={`url(#grad-${i})`} stroke="none" opacity="0.5"/>
+                      <path d="M0,45 Q25,42 50,38 T100,28 T150,18 T200,8" fill="none" stroke={c.accent} stroke-width="2.5" stroke-linecap="round"/>
+                      <circle cx="200" cy="8" r="4" fill={c.accent}/>
+                    </svg>
+                  )}
+                  {c.cardData.chart === 'bar' && (
+                    <div class="bar-chart">
+                      {[35, 48, 42, 55, 68, 72, 85, 87].map((h, j) => (
+                        <div class="bar" style={`height: ${h}%; background: ${j === 7 ? c.accent : 'rgba(255,255,255,0.08)'}`}></div>
+                      ))}
+                    </div>
+                  )}
+                  {c.cardData.chart === 'area' && (
+                    <svg viewBox="0 0 200 60" width="100%" height="60">
+                      <defs>
+                        <linearGradient id={`grad2-${i}`} x1="0%" y1="0%" x2="0%" y2="100%">
+                          <stop offset="0%" stop-color={c.accent} stop-opacity="0.25"/>
+                          <stop offset="100%" stop-color={c.accent} stop-opacity="0"/>
+                        </linearGradient>
+                      </defs>
+                      <path d="M0,50 L30,45 L60,40 L90,32 L120,25 L150,18 L180,12 L200,8 L200,60 L0,60 Z" fill={`url(#grad2-${i})`}/>
+                      <path d="M0,50 L30,45 L60,40 L90,32 L120,25 L150,18 L180,12 L200,8" fill="none" stroke={c.accent} stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                  )}
+                </div>
+              </div>
+
+              <!-- Floating stats card -->
+              <div class="case-stats-card">
+                <div class="stats-card-row">
+                  <span class="stats-label">Before</span>
+                  <span class="stats-sep">→</span>
+                  <span class="stats-label" style={`color: ${c.accent}`}>After</span>
+                </div>
+                <div class="stats-card-row">
+                  <span class="stats-val">{c.beforeShort}</span>
+                  <span class="stats-val" style={`color: ${c.accent}`}>{c.afterShort}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="case-content">
+            <div class="case-meta">
+              <span class="case-industry" style={`background: ${c.accent}15; color: ${c.accent}; border-color: ${c.accent}30;`}>{c.industry}</span>
+              <span class="case-year">2025</span>
+            </div>
+            <h3>{c.company}</h3>
+            <div class="case-transformation">
+              <div class="transform-block transform-before">
+                <span class="transform-label">Before</span>
+                <p>{c.beforeDesc}</p>
+              </div>
+              <div class="transform-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </div>
+              <div class="transform-block transform-after">
+                <span class="transform-label" style={`color: ${c.accent}`}>After</span>
+                <p>{c.afterDesc}</p>
+              </div>
+            </div>
+            <div class="case-tags">
+              {c.tags.map(tag => (
+                <span class="case-tag">{tag}</span>
+              ))}
+            </div>
+            <a href="#" class="case-link magnetic">
+              Read Full Case Study
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .cases-section {
+    padding: 160px 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cases-header {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto 120px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .cases-header .section-title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cases-header .section-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .case-item {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 80px;
+    align-items: center;
+    margin-bottom: 180px;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.5s var(--transition);
+  }
+
+  .case-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .case-reverse {
+    direction: rtl;
+  }
+
+  .case-reverse > * {
+    direction: ltr;
+  }
+
+  .case-visual {
+    position: relative;
+  }
+
+  .case-gradient-box {
+    position: relative;
+    border-radius: var(--radius-xl);
+    min-height: 420px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s var(--transition), box-shadow 0.5s;
+    transform-style: preserve-3d;
+    will-change: transform;
+  }
+
+  .case-item:hover .case-gradient-box {
+    box-shadow: 0 32px 80px rgba(0, 0, 0, 0.4);
+  }
+
+  .case-float-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 280px;
+    background: rgba(17, 24, 39, 0.85);
+    backdrop-filter: blur(20px);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: 28px;
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    transition: transform 0.5s var(--transition);
+  }
+
+  .case-item:hover .case-float-card {
+    transform: translate(-50%, -54%);
+  }
+
+  /* Scroll swipe animations for inner cards */
+  .case-float-card,
+  .case-stats-card {
+    opacity: 0;
+    transform: translate(-50%, calc(-50% + 60px));
+    transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+                transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .case-stats-card {
+    transform: translateY(60px);
+  }
+
+  .case-item.revealed .case-float-card {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    transition-delay: 0.15s;
+  }
+
+  .case-item.revealed .case-stats-card {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.35s;
+  }
+
+  .case-item.revealed:hover .case-float-card {
+    transform: translate(-50%, -54%);
+  }
+
+  .float-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+
+  .float-card-value {
+    font-family: var(--font-heading);
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    margin-bottom: 16px;
+    line-height: 1;
+  }
+
+  .float-card-chart {
+    height: 60px;
+  }
+
+  .bar-chart {
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+    height: 100%;
+  }
+
+  .bar-chart .bar {
+    flex: 1;
+    border-radius: 3px 3px 0 0;
+    transition: height 0.8s var(--transition);
+  }
+
+  .case-stats-card {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 16px 20px;
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.4);
+    z-index: 3;
+    min-width: 180px;
+  }
+
+  .case-item.revealed:hover .case-stats-card {
+    transform: translateY(-4px);
+  }
+
+  .stats-card-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .stats-card-row:last-child {
+    margin-bottom: 0;
+  }
+
+  .stats-label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+  }
+
+  .stats-sep {
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+
+  .stats-val {
+    font-size: 11px;
+    color: var(--text-secondary);
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .case-content h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    letter-spacing: -0.03em;
+  }
+
+  .case-meta {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+    align-items: center;
+  }
+
+  .case-industry {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 5px 14px;
+    border-radius: 100px;
+    border: 1px solid;
+  }
+
+  .case-year {
+    font-size: 13px;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  .case-transformation {
+    margin-bottom: 28px;
+  }
+
+  .transform-block {
+    padding: 16px 20px;
+    border-radius: var(--radius-md);
+    background: rgba(17, 24, 39, 0.4);
+    border: 1px solid var(--border);
+    margin-bottom: 12px;
+    transition: all 0.4s var(--transition);
+  }
+
+  .transform-before {
+    border-left: 3px solid rgba(239, 68, 68, 0.5);
+  }
+
+  .transform-after {
+    border-left: 3px solid var(--accent-primary);
+  }
+
+  .case-item:hover .transform-after {
+    border-left-color: var(--accent-secondary);
+    background: rgba(17, 24, 39, 0.5);
+    box-shadow: 0 4px 20px rgba(59, 130, 246, 0.08);
+  }
+
+  .transform-label {
+    display: block;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+  }
+
+  .transform-block p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  .transform-arrow {
+    display: flex;
+    justify-content: center;
+    padding: 4px 0;
+    color: var(--text-muted);
+  }
+
+  .case-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+
+  .case-tag {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-muted);
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--border);
+    padding: 5px 12px;
+    border-radius: 100px;
+    transition: all 0.3s;
+  }
+
+  .case-tag:hover {
+    border-color: var(--border-hover);
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .case-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--accent-primary);
+    transition: gap 0.3s, color 0.3s;
+    position: relative;
+  }
+
+  .case-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+    transition: width 0.3s;
+  }
+
+  .case-link:hover {
+    gap: 14px;
+    color: var(--accent-secondary);
+  }
+
+  .case-link:hover::after {
+    width: 100%;
+  }
+
+  @media (max-width: 1024px) {
+    .cases-header { text-align: center; margin: 0 auto 80px; }
+    .case-item,
+    .case-reverse {
+      grid-template-columns: 1fr;
+      direction: ltr;
+      gap: 48px;
+      margin-bottom: 120px;
+    }
+    .case-item > * { direction: ltr; }
+    .case-gradient-box { min-height: 340px; }
+    .case-float-card { width: 240px; padding: 20px; }
+    .float-card-value { font-size: 36px; }
+    .case-stats-card { right: 20px; bottom: -10px; }
+    .case-content h3 { font-size: 32px; }
+  }
+
+  @media (max-width: 640px) {
+    .cases-section { padding: 100px 0; }
+    .case-gradient-box { min-height: 280px; }
+    .case-float-card { width: 200px; padding: 16px; }
+    .float-card-value { font-size: 28px; }
+    .case-stats-card { display: none; }
+    .case-content h3 { font-size: 28px; }
+    .cases-header { margin-bottom: 64px; }
+  }
+</style>

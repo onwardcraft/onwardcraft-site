@@ -1,0 +1,63 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+
+const title = 'Terms of Service — OnwardCraft';
+const description = 'OnwardCraft terms of service. The rules and guidelines for using our website and services.';
+---
+
+<Layout title={title} description={description}>
+  <Navbar />
+  <article class="legal-page">
+    <div class="container">
+      <header class="legal-header reveal">
+        <h1>Terms of Service</h1>
+        <p>Last updated: May 2026</p>
+      </header>
+      <div class="legal-content reveal">
+        <p>By accessing and using the OnwardCraft website and services, you agree to be bound by these Terms of Service.</p>
+
+        <h2>Services</h2>
+        <p>OnwardCraft provides web design, development, SEO, and digital marketing services. Specific terms for each project will be outlined in a separate agreement or statement of work.</p>
+
+        <h2>Intellectual Property</h2>
+        <p>Upon full payment, clients receive ownership of the final website design and code. OnwardCraft retains the right to use project work for portfolio and marketing purposes unless otherwise agreed.</p>
+
+        <h2>Payment Terms</h2>
+        <p>Unless otherwise specified in your project agreement, payment terms are 50% deposit to begin and 50% upon project completion. Late payments may result in project delays.</p>
+
+        <h2>Revisions and Changes</h2>
+        <p>Each project includes a specified number of revision rounds. Additional revisions beyond the agreed scope may incur extra charges.</p>
+
+        <h2>Limitation of Liability</h2>
+        <p>OnwardCraft shall not be liable for any indirect, incidental, special, or consequential damages arising from the use of our services or website.</p>
+
+        <h2>Termination</h2>
+        <p>Either party may terminate a project with written notice. Upon termination, the client is responsible for payment for all work completed up to the termination date.</p>
+
+        <h2>Governing Law</h2>
+        <p>These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which OnwardCraft operates.</p>
+
+        <h2>Changes to Terms</h2>
+        <p>We reserve the right to modify these Terms at any time. Continued use of our services constitutes acceptance of the updated Terms.</p>
+
+        <h2>Contact</h2>
+        <p>For questions about these Terms, contact us at hello@onwardcraft.com.</p>
+      </div>
+    </div>
+  </article>
+  <Footer />
+</Layout>
+
+<style>
+  .legal-page { padding: 160px 0 80px; background: var(--bg-primary); min-height: 100vh; }
+  .legal-header { max-width: 720px; margin: 0 auto 48px; text-align: center; }
+  .legal-header h1 { font-size: clamp(32px, 4vw, 48px); font-weight: 700; margin-bottom: 12px; }
+  .legal-header p { font-size: 14px; color: var(--text-muted); }
+  .legal-content { max-width: 720px; margin: 0 auto; }
+  .legal-content h2 { font-size: 22px; font-weight: 700; margin: 40px 0 16px; color: var(--text-primary); }
+  .legal-content p { font-size: 16px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 16px; }
+  .legal-content ul { margin: 0 0 20px 24px; }
+  .legal-content li { font-size: 16px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 8px; }
+</style>

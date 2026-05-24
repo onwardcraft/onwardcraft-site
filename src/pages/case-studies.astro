@@ -1,0 +1,614 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+
+const title = 'Case Studies — Real Results from Real Clients';
+const description = 'See how we have helped businesses across industries generate more leads, rank higher, and convert more visitors into customers.';
+
+const caseStudies = [
+  {
+    industry: 'Roofing',
+    title: 'How a Roofing Company Got 412% More Qualified Leads',
+    metric: '+412%',
+    metricLabel: 'Qualified Leads',
+    timeline: '90 Days',
+    challenge: 'A roofing company had a website that looked professional but generated almost zero leads. They relied entirely on expensive lead gen services that ate their margins.',
+    solution: 'Built a conversion-focused website with location-specific landing pages, instant quote forms, and aggressive local SEO. Added social proof and trust signals throughout.',
+    results: [
+      '412% increase in qualified leads in 90 days',
+      'Reduced cost per lead from $180 to $42',
+      'Page 1 Google rankings for 12 local keywords',
+      'Website became the #1 lead source',
+    ],
+    tags: ['Web Design', 'SEO', 'Lead Gen'],
+  },
+  {
+    industry: 'B2B SaaS',
+    title: 'B2B SaaS Platform 4.9x Return on Ad Spend',
+    metric: '4.9x',
+    metricLabel: 'ROAS',
+    timeline: '6 Months',
+    challenge: 'A B2B SaaS platform was spending $8K/month on ads with a 0.8x ROAS. Their website was confusing visitors and killing conversions before they even saw the product.',
+    solution: 'Redesigned the entire marketing site with a clear value proposition, benefit-driven copy, and strategic CTAs. Built a demo request funnel that pre-qualified prospects.',
+    results: [
+      '4.9x return on ad spend (up from 0.8x)',
+      '63% increase in demo requests',
+      '38% reduction in cost per acquisition',
+      'Average deal size increased 22%',
+    ],
+    tags: ['Web Design', 'Conversion Opt.'],
+  },
+  {
+    industry: 'Law Firm',
+    title: 'Law Firm Dominates Local Search in 4 Months',
+    metric: '#1',
+    metricLabel: 'Local Ranking',
+    timeline: '4 Months',
+    challenge: 'A personal injury law firm was invisible on Google. They ranked on page 3 for "personal injury lawyer [city]" and received almost no organic inquiries.',
+    solution: 'Complete website rebuild with practice area pages, attorney profiles, case result pages, and structured data. Aggressive local SEO and content strategy.',
+    results: [
+      '#1 Google ranking for primary keyword',
+      'Page 1 rankings for 28 related keywords',
+      '280% increase in organic inquiries',
+      '5 new retained clients/month from search',
+    ],
+    tags: ['SEO', 'Web Design', 'Local SEO'],
+  },
+  {
+    industry: 'E-commerce',
+    title: 'E-commerce Brand 2.3x Revenue with Faster Site',
+    metric: '2.3x',
+    metricLabel: 'Revenue Increase',
+    timeline: '3 Months',
+    challenge: 'An e-commerce brand had a slow, clunky Shopify site. Load times were 6+ seconds, mobile conversion was terrible, and cart abandonment was at 78%.',
+    solution: 'Headless rebuild with Astro + Shopify. Sub-second load times, optimized checkout flow, mobile-first design, and abandoned cart recovery integration.',
+    results: [
+      '2.3x revenue increase in 90 days',
+      'Load time reduced from 6.2s to 0.9s',
+      'Cart abandonment dropped from 78% to 52%',
+      'Mobile conversion up 184%',
+    ],
+    tags: ['Web Design', 'E-commerce', 'Performance'],
+  },
+  {
+    industry: 'Med Spa',
+    title: 'Med Spa Books 40+ Appointments/Week from Website',
+    metric: '40+',
+    metricLabel: 'Appts/Week',
+    timeline: '5 Months',
+    challenge: 'A med spa had a pretty website built on Wix that loaded in 8 seconds and had no booking integration. Staff spent hours scheduling over the phone.',
+    solution: 'Custom build with integrated online booking, treatment-specific landing pages, before/after galleries, and automated appointment reminders.',
+    results: [
+      '40+ appointments booked online per week',
+      'Phone scheduling reduced by 70%',
+      'New patient inquiries up 340%',
+      'Average rating improved to 4.9 stars',
+    ],
+    tags: ['Web Design', 'Lead Gen', 'Automation'],
+  },
+  {
+    industry: 'Contractor',
+    title: 'General Contractor Goes from 2 to 30 Leads/Month',
+    metric: '15x',
+    metricLabel: 'Lead Growth',
+    timeline: '6 Months',
+    challenge: 'A general contractor relied entirely on referrals. Their outdated website had not been updated in 5 years and generated exactly zero leads.',
+    solution: 'Full website rebuild with project galleries, service area pages, instant estimate forms, and review integration. Local SEO campaign for surrounding cities.',
+    results: [
+      'From 2 to 30+ qualified leads per month',
+      'Website generates 60% of all new business',
+      'Ranks #1-3 for 15 local service keywords',
+      'Hired 3 new crew members to keep up with demand',
+    ],
+    tags: ['Web Design', 'SEO', 'Local SEO'],
+  },
+];
+---
+
+<Layout title={title} description={description}>
+  <Navbar />
+
+  <!-- Hero -->
+  <section class="cases-hero">
+    <div class="hero-bg">
+      <div class="gradient-blob blob-1"></div>
+      <div class="gradient-blob blob-2"></div>
+    </div>
+    <div class="cases-hero-inner container">
+      <p class="section-label reveal">Case Studies</p>
+      <h1 class="cases-title reveal">
+        Real Results.<br/>
+        <span class="accent">Not Empty Promises.</span>
+      </h1>
+      <p class="cases-desc reveal">
+        Every case study below shows actual metrics from actual clients. We do not share vanity numbers — we share the leads, revenue, and rankings that changed their business.
+      </p>
+    </div>
+  </section>
+
+  <!-- Case Studies Grid -->
+  <section class="cases-grid-section">
+    <div class="container">
+      <div class="cases-grid">
+        {caseStudies.map((study, i) => (
+          <article class="case-card reveal">
+            <div class="case-card-inner">
+              <div class="case-header">
+                <span class="case-industry">{study.industry}</span>
+                <div class="case-tags">
+                  {study.tags.map(tag => <span class="case-tag">{tag}</span>)}
+                </div>
+              </div>
+              <h2 class="case-title">{study.title}</h2>
+              <div class="case-metric">
+                <span class="case-metric-num">{study.metric}</span>
+                <span class="case-metric-label">{study.metricLabel}</span>
+                <span class="case-timeline">{study.timeline}</span>
+              </div>
+              <div class="case-body">
+                <div class="case-block">
+                  <h4>The Challenge</h4>
+                  <p>{study.challenge}</p>
+                </div>
+                <div class="case-block">
+                  <h4>Our Solution</h4>
+                  <p>{study.solution}</p>
+                </div>
+                <div class="case-block results">
+                  <h4>Results</h4>
+                  <ul>
+                    {study.results.map(r => <li>{r}</li>)}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section class="cases-testimonial">
+    <div class="container">
+      <div class="testimonial-card reveal gradient-border">
+        <div class="testimonial-card-inner">
+          <svg class="quote-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V21c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+          <p class="testimonial-quote">"We went from 2-3 leads a month to 30+. Our website went from an embarrassment to our #1 salesperson. The ROI has been insane — we made our investment back in the first month."</p>
+          <div class="testimonial-author">
+            <strong>James Mitchell</strong>
+            <span>Owner, Mitchell General Contracting</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="final-cta-section">
+    <div class="container">
+      <div class="final-cta-card reveal gradient-border pulse-glow">
+        <div class="final-cta-content">
+          <h2>Want Results Like These?</h2>
+          <p>Every case study started with a free strategy call. Book yours and get a custom growth plan for your business.</p>
+          <a href="/book-call" class="cta-button magnetic">Book Your Free Strategy Call</a>
+          <p class="cta-guarantee">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            No commitment. No pressure. Just honest insights.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Footer />
+</Layout>
+
+<style>
+  .cases-hero {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 160px 0 100px;
+    position: relative;
+    overflow: hidden;
+    background: #030712;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+  }
+
+  .gradient-blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(120px);
+    opacity: 0.5;
+  }
+
+  .blob-1 {
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.4), transparent 70%);
+    top: -10%;
+    left: -5%;
+    animation: blobFloat1 20s ease-in-out infinite;
+  }
+
+  .blob-2 {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.3), transparent 70%);
+    bottom: -5%;
+    right: -5%;
+    animation: blobFloat2 18s ease-in-out infinite;
+  }
+
+  @keyframes blobFloat1 {
+    0%, 100% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(40px, -30px) scale(1.1); }
+  }
+
+  @keyframes blobFloat2 {
+    0%, 100% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(-30px, 20px) scale(1.15); }
+  }
+
+  .cases-hero-inner {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .cases-title {
+    font-size: clamp(40px, 6vw, 72px);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    margin-bottom: 28px;
+  }
+
+  .cases-title .accent {
+    background: linear-gradient(135deg, #A78BFA 0%, #22D3EE 50%, #34D399 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-style: italic;
+    font-weight: 500;
+    font-family: 'Georgia', 'Times New Roman', serif;
+  }
+
+  .cases-desc {
+    font-size: 18px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  /* Cases Grid */
+  .cases-grid-section {
+    padding: 120px 0;
+    background: var(--bg-primary);
+    position: relative;
+  }
+
+  .cases-grid-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border), transparent);
+  }
+
+  .cases-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .case-card {
+    background: linear-gradient(180deg, rgba(17, 24, 39, 0.6) 0%, rgba(5, 8, 22, 0.4) 100%);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    transition: all 0.5s var(--transition);
+  }
+
+  .case-card:hover {
+    border-color: var(--border-hover);
+    transform: translateY(-6px);
+    box-shadow: 0 32px 64px rgba(0, 0, 0, 0.35);
+  }
+
+  .case-card-inner {
+    padding: 40px;
+  }
+
+  .case-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .case-industry {
+    font-family: var(--font-heading);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent-primary);
+    padding: 6px 14px;
+    background: rgba(59, 130, 246, 0.1);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    border-radius: 100px;
+  }
+
+  .case-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .case-tag {
+    font-size: 12px;
+    color: var(--text-muted);
+    padding: 4px 10px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 100px;
+  }
+
+  .case-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+  }
+
+  .case-metric {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 28px;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .case-metric-num {
+    font-family: var(--font-heading);
+    font-size: 36px;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-primary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: -0.03em;
+  }
+
+  .case-metric-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+
+  .case-timeline {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-left: auto;
+    padding: 4px 10px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 100px;
+  }
+
+  .case-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .case-block h4 {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+  }
+
+  .case-block p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+
+  .case-block.results h4 {
+    color: #34D399;
+  }
+
+  .case-block.results ul {
+    list-style: none;
+  }
+
+  .case-block.results li {
+    font-size: 14px;
+    color: var(--text-secondary);
+    padding: 6px 0;
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .case-block.results li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 12px;
+    width: 8px;
+    height: 8px;
+    background: #34D399;
+    border-radius: 50%;
+  }
+
+  /* Testimonial */
+  .cases-testimonial {
+    padding: 80px 0;
+    background: var(--bg-primary);
+    position: relative;
+  }
+
+  .cases-testimonial::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border), transparent);
+  }
+
+  .testimonial-card {
+    padding: 1px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .testimonial-card-inner {
+    background: linear-gradient(180deg, rgba(17, 24, 39, 0.8) 0%, rgba(5, 8, 22, 0.6) 100%);
+    border-radius: calc(var(--radius-xl) - 1px);
+    padding: 60px;
+    text-align: center;
+  }
+
+  .quote-icon {
+    color: rgba(139, 92, 246, 0.3);
+    margin-bottom: 24px;
+  }
+
+  .testimonial-quote {
+    font-size: 22px;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin-bottom: 28px;
+  }
+
+  .testimonial-author strong {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+
+  .testimonial-author span {
+    font-size: 14px;
+    color: var(--text-muted);
+  }
+
+  /* Final CTA */
+  .final-cta-section {
+    padding: 120px 0 80px;
+    background: var(--bg-primary);
+    position: relative;
+  }
+
+  .final-cta-card {
+    position: relative;
+    background: linear-gradient(180deg, rgba(139, 92, 246, 0.08) 0%, rgba(17, 24, 39, 0.6) 100%);
+    border-radius: var(--radius-xl);
+    padding: 80px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .final-cta-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.4), rgba(59, 130, 246, 0.3), transparent);
+  }
+
+  .final-cta-content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .final-cta-content h2 {
+    font-size: clamp(32px, 4.5vw, 52px);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin-bottom: 20px;
+  }
+
+  .final-cta-content > p {
+    font-size: 17px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 36px;
+  }
+
+  .cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 18px 36px;
+    background: var(--accent-primary);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: var(--radius-md);
+    transition: all 0.35s var(--transition);
+    box-shadow: 0 4px 24px rgba(59, 130, 246, 0.3);
+  }
+
+  .cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 32px rgba(59, 130, 246, 0.4);
+  }
+
+  .cta-guarantee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 24px;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+
+  .cta-guarantee svg {
+    color: #34D399;
+  }
+
+  @media (max-width: 1024px) {
+    .cases-grid { grid-template-columns: 1fr; }
+    .case-card-inner { padding: 32px 24px; }
+    .testimonial-card-inner { padding: 40px 28px; }
+    .final-cta-card { padding: 48px 28px; }
+  }
+
+  @media (max-width: 640px) {
+    .cases-hero { padding: 140px 0 80px; }
+    .cases-title { font-size: 36px; }
+    .cases-grid-section { padding: 80px 0; }
+    .case-metric { flex-wrap: wrap; }
+    .case-timeline { margin-left: 0; width: 100%; }
+    .gradient-blob { display: none; }
+  }
+</style>

@@ -1,0 +1,66 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+
+const title = 'Privacy Policy — OnwardCraft';
+const description = 'OnwardCraft privacy policy. How we collect, use, and protect your data.';
+---
+
+<Layout title={title} description={description}>
+  <Navbar />
+  <article class="legal-page">
+    <div class="container">
+      <header class="legal-header reveal">
+        <h1>Privacy Policy</h1>
+        <p>Last updated: May 2026</p>
+      </header>
+      <div class="legal-content reveal">
+        <p>At OnwardCraft, we take your privacy seriously. This Privacy Policy describes how we collect, use, and protect your personal information when you visit our website or use our services.</p>
+
+        <h2>Information We Collect</h2>
+        <p>We collect information you provide directly to us, such as when you fill out a contact form, book a call, or subscribe to our newsletter. This may include:</p>
+        <ul>
+          <li>Name and contact information</li>
+          <li>Business information</li>
+          <li>Website URL</li>
+          <li>Any other information you choose to provide</li>
+        </ul>
+
+        <h2>How We Use Your Information</h2>
+        <p>We use the information we collect to:</p>
+        <ul>
+          <li>Respond to your inquiries and provide our services</li>
+          <li>Send you marketing communications (with your consent)</li>
+          <li>Improve our website and services</li>
+          <li>Comply with legal obligations</li>
+        </ul>
+
+        <h2>Information Sharing</h2>
+        <p>We do not sell, trade, or rent your personal information to third parties. We may share information with trusted service providers who assist us in operating our website and conducting our business.</p>
+
+        <h2>Data Security</h2>
+        <p>We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.</p>
+
+        <h2>Your Rights</h2>
+        <p>You have the right to access, correct, or delete your personal information. To exercise these rights, please contact us at hello@onwardcraft.com.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at hello@onwardcraft.com.</p>
+      </div>
+    </div>
+  </article>
+  <Footer />
+</Layout>
+
+<style>
+  .legal-page { padding: 160px 0 80px; background: var(--bg-primary); min-height: 100vh; }
+  .legal-header { max-width: 720px; margin: 0 auto 48px; text-align: center; }
+  .legal-header h1 { font-size: clamp(32px, 4vw, 48px); font-weight: 700; margin-bottom: 12px; }
+  .legal-header p { font-size: 14px; color: var(--text-muted); }
+  .legal-content { max-width: 720px; margin: 0 auto; }
+  .legal-content h2 { font-size: 22px; font-weight: 700; margin: 40px 0 16px; color: var(--text-primary); }
+  .legal-content p { font-size: 16px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 16px; }
+  .legal-content ul { margin: 0 0 20px 24px; }
+  .legal-content li { font-size: 16px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 8px; }
+</style>
