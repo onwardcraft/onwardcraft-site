@@ -6,27 +6,27 @@ import Footer from '../components/Footer.astro';
 const title = 'Work With Us — OnwardCraft Growth Partner';
 const description = 'Stop burning money on pretty websites that do not convert. Partner with OnwardCraft to turn your online presence into a revenue-generating machine. Book your free strategy call.';
 
-const services = [
+const systems = [
   {
-    title: 'Web Design & Development',
-    desc: 'Conversion-focused websites built for speed, SEO, and results. Not digital brochures — growth engines.',
-    icon: `<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>`,
-    features: ['Custom conversion-focused design', 'Astro-powered development', 'Mobile-first responsive', 'CMS integration'],
-    accent: '#3B82F6',
+    title: 'Conversion Infrastructure',
+    desc: 'We redesign your website to turn visitors into booked calls. Every headline, button, and page flow is engineered for one outcome: action.',
+    outcome: 'Typical result: 2-3x more form fills and calls within 60 days',
+    icon: `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>`,
+    includes: ['Conversion audit & wireframes', 'Custom design + development', 'Mobile-first, sub-2s load times', 'CMS you can actually use'],
   },
   {
-    title: 'SEO & Organic Growth',
-    desc: 'Get found on Google by the people actively searching for what you offer. Technical SEO + content strategy + link building.',
-    icon: `<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>`,
-    features: ['On-page SEO optimization', 'Technical SEO audits', 'Content strategy', 'Local SEO'],
-    accent: '#22D3EE',
+    title: 'Demand Capture System',
+    desc: 'We put you where your best prospects are already looking — page one of Google — and build the authority that keeps you there.',
+    outcome: 'Typical result: Top 3 rankings for 20+ buyer-intent keywords in 90 days',
+    icon: `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>`,
+    includes: ['Technical SEO foundation', 'Content that ranks & converts', 'Local search dominance', 'Monthly ranking reports'],
   },
   {
-    title: 'Lead Generation & Paid Ads',
-    desc: 'Turn your website into a lead machine with optimized funnels, landing pages, and conversion systems that work 24/7.',
-    icon: `<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>`,
-    features: ['Landing page optimization', 'Lead capture systems', 'A/B testing', 'Conversion tracking'],
-    accent: '#EC4899',
+    title: 'Scalable Customer Acquisition',
+    desc: 'We build automated funnels that capture, qualify, and deliver high-intent leads to your inbox — so you spend your time closing, not chasing.',
+    outcome: 'Typical result: 40-60% reduction in cost per lead within 90 days',
+    icon: `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>`,
+    includes: ['High-intent landing pages', 'Lead capture & qualification', 'A/B testing setup', 'Conversion tracking'],
   },
 ];
 
@@ -35,7 +35,7 @@ const pricing = [
     name: 'Foundation',
     price: '$2,500',
     period: 'one-time',
-    desc: 'Perfect for small businesses ready to look professional and start capturing leads online.',
+    desc: 'A professional conversion-focused website that starts generating leads from day one.',
     features: ['5-page custom website', 'Basic on-page SEO setup', 'Mobile-first responsive design', 'Lead capture forms', 'Google Analytics integration', '2 rounds of revisions'],
     cta: 'Book My Free Call',
     popular: false,
@@ -44,8 +44,8 @@ const pricing = [
     name: 'Growth',
     price: '$5,000',
     period: 'one-time',
-    desc: 'For businesses serious about growth. More pages, better SEO, and conversion funnels built in.',
-    features: ['10-page custom website', 'Advanced SEO + blog setup', 'Conversion funnel design', 'A/B test ready pages', 'CMS integration (Sanity/Strapi)', '3 rounds of revisions', '30-day post-launch support'],
+    desc: 'The complete system: conversion architecture, SEO dominance, and lead funnels that work while you sleep.',
+    features: ['10-page custom website', 'Advanced SEO + blog setup', 'Conversion funnel design', 'A/B test ready pages', 'CMS integration', '3 rounds of revisions', '30-day post-launch support'],
     cta: 'Book My Free Call',
     popular: true,
   },
@@ -60,21 +60,15 @@ const pricing = [
   },
 ];
 
-const addons = [
-  { title: 'Website Maintenance', price: 'From $500/mo', desc: 'Ongoing updates, security, performance monitoring, and priority support.' },
-  { title: 'SEO Retainer', price: 'From $1,000/mo', desc: 'Monthly content, backlinks, technical audits, and ranking reports.' },
-  { title: 'PPC Management', price: 'From $1,500/mo', desc: 'Google Ads + Meta Ads setup, optimization, and monthly reporting.' },
-];
-
 const results = [
-  { metric: '+412%', label: 'Qualified Leads', client: 'Roofing Company', detail: '12 leads/mo → 62 leads/mo in 90 days' },
-  { metric: '4.9x', label: 'ROAS', client: 'B2B SaaS Platform', detail: 'Trial conversion: 2.1% → 8.7%' },
-  { metric: '+267%', label: 'Organic Traffic', client: 'Healthcare Provider', detail: 'Top 3 rankings for 40+ keywords' },
-  { metric: '15x', label: 'Lead Growth', client: 'General Contractor', detail: '2 leads/mo → 30+ leads/mo' },
+  { metric: '+412%', label: 'Qualified Leads', client: 'Apex Roofing', before: '12 leads/mo', after: '62 leads/mo', timeline: '90 days', detail: 'Redesigned conversion funnel + local SEO' },
+  { metric: '4.9x', label: 'ROAS', client: 'CloudSync SaaS', before: '1.9x ROAS', after: '4.9x ROAS', timeline: '90 days', detail: 'Landing page optimization + onboarding flow' },
+  { metric: '+267%', label: 'Organic Traffic', client: 'MedFirst Healthcare', before: 'Page 5 for key terms', after: 'Top 3 for 40+ keywords', timeline: '4 months', detail: 'Technical SEO + content strategy' },
+  { metric: '15x', label: 'Lead Growth', client: 'BuildRight Construction', before: '2 leads/mo', after: '30+ leads/mo', timeline: '6 months', detail: 'Full website rebuild + local SEO + lead funnel' },
 ];
 
 const whatToExpect = [
-  { title: 'Website Audit', desc: 'We will review your current site and identify the top 3 things costing you leads.', time: '5 min' },
+  { title: 'Website Audit', desc: 'We review your current site and identify the top 3 things costing you leads.', time: '5 min' },
   { title: 'Competitive Analysis', desc: 'See what your top competitors are doing and where they are vulnerable.', time: '5 min' },
   { title: 'Growth Roadmap', desc: 'Get a clear plan for turning your website into a lead-generating machine.', time: '10 min' },
 ];
@@ -85,106 +79,129 @@ const faqs = [
   { q: 'What do I need to prepare?', a: 'Just your website URL and a general sense of your goals. We do the homework before the call.' },
   { q: 'What if I do not have a website yet?', a: 'No problem. We will analyze your competitors and give you a roadmap for what to build first.' },
 ];
+
+const notFor = [
+  'Businesses doing under $20K/month in revenue',
+  'People looking for the cheapest option',
+  'Businesses unwilling to invest in growth for 90+ days',
+  'Companies that want a "set it and forget it" solution',
+];
 ---
 
 <Layout title={title} description={description}>
   <Navbar />
 
-  <!-- ═══════════════════════════════════════════════════════════════
-       SECTION 1: HERO — GET ATTENTION
-       ═══════════════════════════════════════════════════════════════ -->
+  <!-- HERO -->
   <section class="deck-hero">
-    <div class="hero-bg">
-      <div class="gradient-blob blob-1"></div>
-      <div class="gradient-blob blob-2"></div>
-      <div class="gradient-blob blob-3"></div>
-    </div>
     <div class="deck-hero-inner container">
-      <div class="hero-badge reveal">
-        <span class="badge-dot"></span>
-        <span>Only 3 client spots open this month</span>
-      </div>
+      <p class="hero-eyebrow reveal">Only 3 client spots open this month</p>
       <h1 class="deck-hero-title reveal">
-        Your Website Is Costing You<br>
-        <span class="accent">Thousands in Lost Revenue.</span>
-        <br>Here Is How We Fix It.
+        Your Website Is Costing You<br>Thousands in Lost Revenue.
       </h1>
       <p class="deck-hero-sub reveal">
-        Most agencies build pretty websites. We build growth engines that turn visitors into leads,
-        leads into customers, and customers into repeat revenue. In the next 30 minutes, you will see exactly how.
+        Every month your site underperforms, you are losing leads your competitors are capturing. In 30 minutes, we will show you exactly where your funnel is leaking — and how to fix it.
       </p>
       <div class="hero-ctas reveal">
-        <a href="/book-call" class="cta-button magnetic">Book My Free Strategy Call</a>
-        <a href="#results" class="btn-secondary">See Our Results First</a>
+        <a href="/book-call" class="btn-primary">Book My Free Strategy Call</a>
+        <a href="#results" class="btn-secondary">See Results First</a>
       </div>
-      <p class="hero-guarantee reveal">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        No credit card required. No commitment. No pitch-fest.
-      </p>
       <div class="hero-trust reveal">
         <div class="trust-avatars">
-          <div class="trust-avatar">MC</div>
-          <div class="trust-avatar">SW</div>
-          <div class="trust-avatar">DP</div>
-          <div class="trust-avatar">ER</div>
+          <div class="trust-avatar" style="background: linear-gradient(135deg, #3B82F6, #22D3EE);">MC</div>
+          <div class="trust-avatar" style="background: linear-gradient(135deg, #8B5CF6, #EC4899);">SW</div>
+          <div class="trust-avatar" style="background: linear-gradient(135deg, #F59E0B, #EF4444);">DP</div>
+          <div class="trust-avatar" style="background: linear-gradient(135deg, #10B981, #22D3EE);">ER</div>
         </div>
         <p>Trusted by 100+ businesses. 4.9/5 average rating.</p>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════════════════
-       SECTION 2: THE PROBLEM — IDENTIFY & AGITATE
-       ═══════════════════════════════════════════════════════════════ -->
+  <!-- PROBLEM -->
   <section class="problem-section" id="problem">
     <div class="container">
       <div class="problem-header reveal">
-        <p class="section-label scramble-text">The Real Problem</p>
-        <h2 class="section-title">You Did Not Hire a Designer.<br>You Hired an <span class="accent">Expense.</span></h2>
+        <p class="section-label">The Real Problem</p>
+        <h2 class="section-title">Your Website Looks Good.<br>It Just Does Not Sell.</h2>
       </div>
-      <div class="problem-grid">
-        <div class="problem-card tilt-card reveal">
-          <div class="problem-num">01</div>
-          <h3>Your Website Looks Good. It Just Does Not Sell.</h3>
-          <p>It is beautiful. Your team loves it. Your mom loves it. But here is the truth nobody wants to say: <strong>pretty does not pay the bills.</strong> If your site is not generating qualified leads every single week, it is a liability — not an asset.</p>
+      <div class="problem-grid stagger-children">
+        <div class="problem-card reveal stagger-item">
+          <span class="problem-num">01</span>
+          <h3>You Are Invisible on Google</h3>
+          <p>Your competitors show up on page one. You are on page three. Every single day, your ideal customer searches for what you offer, clicks on your competitor, and never knows you exist.</p>
         </div>
-        <div class="problem-card tilt-card reveal">
-          <div class="problem-num">02</div>
-          <h3>You Are Invisible on Google.</h3>
-          <p>You are on page 3. Maybe page 5. Your competitors are eating your lunch because they invested in SEO while you were focused on "brand aesthetics." Every day you are not on page one, your ideal customer is clicking on someone else.</p>
+        <div class="problem-card reveal stagger-item">
+          <span class="problem-num">02</span>
+          <h3>Visitors Leave Without Acting</h3>
+          <p>People visit your site, browse for 12 seconds, and leave. No phone call. No form fill. No booking. You paid to get them there — through ads, referrals, or word of mouth — and they vanish.</p>
         </div>
-        <div class="problem-card tilt-card reveal">
-          <div class="problem-num">03</div>
-          <h3>Your "Funnel" Is a Leaky Bucket.</h3>
-          <p>People visit. They browse. They leave. No phone number captured. No email. No retargeting pixel. You spent money to get them there — ads, SEO, referrals — and they vanish into the void. That is not a funnel. That is a black hole.</p>
+        <div class="problem-card reveal stagger-item">
+          <span class="problem-num">03</span>
+          <h3>Your "Funnel" Is a Black Hole</h3>
+          <p>No lead capture. No follow-up system. No retargeting. The few inquiries you get are price shoppers and tire kickers. No qualification. Just noise in your inbox.</p>
         </div>
       </div>
       <div class="problem-closing reveal">
         <p class="problem-closing-text">
-          Here is what happens if nothing changes: Six months from now, you will be in the exact same place. Same revenue plateau. Same frustration. Same competitors winning the customers that should have been yours. The only difference? You will have spent another six months waiting.
+          Here is what happens if nothing changes: Six months from now, you will be in the exact same place. Same revenue plateau. Same frustration. Same competitors winning the customers that should have been yours.
         </p>
-        <a href="/book-call" class="cta-button">I Want This Fixed — Book a Call</a>
+        <a href="/book-call" class="btn-primary">I Want This Fixed — Book a Call</a>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════════════════
-       SECTION 3: WHO WE ARE — CREDENTIALS & AUTHORITY
-       ═══════════════════════════════════════════════════════════════ -->
+  <!-- PROOF / RESULTS (moved BEFORE services) -->
+  <section class="results-section" id="results">
+    <div class="container">
+      <div class="results-header reveal">
+        <p class="section-label">Proof It Works</p>
+        <h2 class="section-title">Real Clients. Real Numbers.<br>Real Revenue Growth.</h2>
+        <p class="section-subtitle">These are not cherry-picked outliers. They are typical outcomes when strategy and execution actually align.</p>
+      </div>
+      <div class="results-grid stagger-children">
+        {results.map((r, i) => (
+          <div class="result-card-deck reveal stagger-item">
+            <div class="result-metric">{r.metric}</div>
+            <div class="result-label">{r.label}</div>
+            <div class="result-divider"></div>
+            <div class="result-client">{r.client}</div>
+            <div class="result-before-after">
+              <span class="result-before">{r.before}</span>
+              <span class="result-arrow">→</span>
+              <span class="result-after">{r.after}</span>
+            </div>
+            <div class="result-timeline">{r.timeline}</div>
+            <div class="result-detail">{r.detail}</div>
+          </div>
+        ))}
+      </div>
+      <div class="results-testimonial reveal">
+        <div class="testimonial-card">
+          <p class="testimonial-text">"I was skeptical — I had been burned by two agencies before. But OnwardCraft delivered 412% more qualified leads in 90 days. My only regret is not finding them sooner."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background: linear-gradient(135deg, #3B82F6, #22D3EE);">MC</div>
+            <div>
+              <strong>Marcus Chen</strong>
+              <span>CEO, Apex Roofing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO WE ARE -->
   <section class="who-section" id="who">
     <div class="container">
       <div class="who-grid">
         <div class="who-left reveal">
           <p class="section-label">Who We Are</p>
-          <h2 class="section-title">We Are Not Another<br><span class="accent">"Agency."</span></h2>
+          <h2 class="section-title">We Are Not Another Agency.<br>We Are Your Growth Partner.</h2>
           <p class="who-body">
-            We are OnwardCraft — a digital growth partner for businesses that are done playing small. We do not build digital brochures. We build <strong>growth engines</strong>.
+            After 100+ projects across roofing, healthcare, SaaS, law, and home services, we know what actually moves the needle. We have influenced over <strong>$10M in client revenue</strong> and our average client sees a <strong>312% increase in leads</strong> within 90 days.
           </p>
           <p class="who-body">
-            After 100+ projects across roofing, healthcare, SaaS, law, and home services, we have seen what actually moves the needle — and what is just expensive noise. We have influenced over <strong>$10M in client revenue</strong> and our average client sees a <strong>312% increase in leads</strong> within 90 days.
-          </p>
-          <p class="who-body">
-            We are not designers who learned marketing. We are marketers who happen to design exceptionally well. Every pixel, every line of code, every headline — it all serves one purpose: <strong>making you more money.</strong>
+            We are not designers who learned marketing. We are marketers who happen to design exceptionally well. Every pixel, every headline, every line of code — it all serves one purpose: <strong>making you more money.</strong>
           </p>
           <div class="who-stats">
             <div class="who-stat">
@@ -201,49 +218,9 @@ const faqs = [
             </div>
           </div>
         </div>
-        <div class="who-right reveal reveal-right">
-          <div class="who-image-card gradient-border">
-            <div class="who-image-inner">
-              <div class="who-mockup">
-                <div class="mockup-header">
-                  <div class="mockup-dots">
-                    <span></span><span></span><span></span>
-                  </div>
-                  <div class="mockup-url">onwardcraft.com</div>
-                </div>
-                <div class="mockup-body">
-                  <div class="mockup-hero">
-                    <div class="mockup-line wide"></div>
-                    <div class="mockup-line medium"></div>
-                    <div class="mockup-line short"></div>
-                    <div class="mockup-btn"></div>
-                  </div>
-                  <div class="mockup-stats">
-                    <div class="mockup-stat">
-                      <div class="mockup-stat-bar"></div>
-                      <div class="mockup-line tiny"></div>
-                    </div>
-                    <div class="mockup-stat">
-                      <div class="mockup-stat-bar tall"></div>
-                      <div class="mockup-line tiny"></div>
-                    </div>
-                    <div class="mockup-stat">
-                      <div class="mockup-stat-bar"></div>
-                      <div class="mockup-line tiny"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="who-right reveal">
           <div class="who-trust-card">
-            <div class="who-trust-stars">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-            </div>
+            <div class="who-trust-stars">★★★★★</div>
             <p class="who-trust-text">"I got more value in a 20-minute call than I did from my last $15,000 agency engagement."</p>
             <div class="who-trust-author">
               <strong>Marcus Chen</strong>
@@ -255,91 +232,41 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════════════════
-       SECTION 4: SERVICES — WHAT WE DO
-       ═══════════════════════════════════════════════════════════════ -->
+  <!-- SYSTEMS (renamed from Services) -->
   <section class="services-section" id="services">
     <div class="container">
       <div class="services-header reveal">
-        <p class="section-label scramble-text">What We Do</p>
-        <h2 class="section-title">Three Services.<br><span class="accent">One Goal:</span> Grow Your Revenue.</h2>
+        <p class="section-label">What We Do</p>
+        <h2 class="section-title">Three Systems. One Goal:<br>Grow Your Revenue.</h2>
         <p class="section-subtitle">We do not do everything. We do the three things that actually move the needle — and we do them better than anyone else.</p>
       </div>
       <div class="services-grid stagger-children">
-        {services.map((s) => (
-          <div class="service-card-deck stagger-item" style={`--card-accent: ${s.accent}`}>
+        {systems.map((s, i) => (
+          <div class="service-card-deck reveal stagger-item">
             <div class="service-icon-deck" set:html={s.icon} />
             <h3>{s.title}</h3>
             <p>{s.desc}</p>
+            <p class="service-outcome">{s.outcome}</p>
             <ul class="service-features-deck">
-              {s.features.map(f => <li>{f}</li>)}
+              {s.includes.map(f => <li>{f}</li>)}
             </ul>
           </div>
         ))}
       </div>
-      <div class="addons-deck reveal">
-        <p class="addons-label">Need more firepower? We also offer:</p>
-        <div class="addons-list">
-          {addons.map((a) => (
-            <div class="addon-tag">
-              <span class="addon-tag-name">{a.title}</span>
-              <span class="addon-tag-price">{a.price}</span>
-            </div>
-          ))}
-        </div>
-      </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════════════════
-       SECTION 5: RESULTS — SOCIAL PROOF
-       ═══════════════════════════════════════════════════════════════ -->
-  <section class="results-section" id="results">
-    <div class="container">
-      <div class="results-header reveal">
-        <p class="section-label scramble-text">Proof It Works</p>
-        <h2 class="section-title">We Do Not Talk.<br>We <span class="accent">Deliver.</span></h2>
-      </div>
-      <div class="results-grid stagger-children">
-        {results.map((r) => (
-          <div class="result-card-deck stagger-item">
-            <div class="result-metric">{r.metric}</div>
-            <div class="result-label">{r.label}</div>
-            <div class="result-divider"></div>
-            <div class="result-client">{r.client}</div>
-            <div class="result-detail">{r.detail}</div>
-          </div>
-        ))}
-      </div>
-      <div class="results-testimonial reveal">
-        <div class="testimonial-card">
-          <svg class="testimonial-quote-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V21c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
-          <p class="testimonial-text">"I was skeptical — I had been burned by two agencies before. But OnwardCraft delivered 412% more qualified leads in 90 days. My only regret is not finding them sooner."</p>
-          <div class="testimonial-author">
-            <div class="testimonial-avatar">MC</div>
-            <div>
-              <strong>Marcus Chen</strong>
-              <span>CEO, Apex Roofing</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════════════════════════
-       SECTION 6: PRICING — THE OFFER
-       ═══════════════════════════════════════════════════════════════ -->
+  <!-- PRICING -->
   <section class="pricing-section" id="pricing">
     <div class="container">
       <div class="pricing-header reveal">
-        <p class="section-label scramble-text">Investment</p>
-        <h2 class="section-title">Transparent Pricing.<br><span class="accent">Real ROI.</span></h2>
+        <p class="section-label">Investment</p>
+        <h2 class="section-title">Transparent Pricing.<br>Real ROI.</h2>
         <p class="section-subtitle">No hidden fees. No surprise invoices. You know exactly what you are investing — and exactly what you are getting.</p>
       </div>
       <div class="pricing-grid stagger-children">
         {pricing.map((p) => (
-          <div class={`pricing-card-deck stagger-item ${p.popular ? 'popular' : ''}`}>
+          <div class={`pricing-card-deck reveal stagger-item ${p.popular ? 'popular' : ''}`}>
             {p.popular && <div class="popular-badge">Most Popular</div>}
             <div class="pricing-card-header">
               <h3>{p.name}</h3>
@@ -355,54 +282,54 @@ const faqs = [
                 {f}
               </li>)}
             </ul>
-            <a href="/book-call" class={`pricing-cta ${p.popular ? 'cta-button' : 'btn-secondary'}`}>{p.cta}</a>
+            <a href="/book-call" class={`pricing-cta ${p.popular ? 'btn-primary' : 'btn-secondary'}`}>{p.cta}</a>
           </div>
         ))}
       </div>
+
       <div class="pricing-guarantee reveal">
         <div class="guarantee-card">
           <div class="guarantee-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
           </div>
           <div class="guarantee-content">
-            <h3>Our 100% Satisfaction Guarantee</h3>
-            <p>If you are not completely satisfied with the direction we take after the first design round, we will keep revising until you are — or you do not pay a cent. We have never had a client ask for a refund. We plan to keep it that way.</p>
+            <h3>Performance Guarantee</h3>
+            <p>If your metrics do not improve within 90 days, we keep working until they do — at no extra cost. We have never had a client need to use this. We plan to keep it that way.</p>
           </div>
         </div>
       </div>
+
+      <div class="not-for reveal">
+        <h4>Who This Is NOT For</h4>
+        <ul>
+          {notFor.map(item => <li>{item}</li>)}
+        </ul>
+      </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════════════════
-       SECTION 7: WARNING — COST OF INACTION
-       ═══════════════════════════════════════════════════════════════ -->
+  <!-- WARNING / COST OF INACTION -->
   <section class="warning-section">
     <div class="container">
-      <div class="warning-card reveal gradient-border pulse-glow">
+      <div class="warning-card reveal">
         <div class="warning-content">
           <h2>Here Is What I Know About You.</h2>
-          <p>You have read this far. Which means the pain is real. You know your website should be doing more. You know your competitors are pulling ahead.</p>
-          <p>But here is what I also know: <strong>90% of people who read this will do nothing.</strong> They will bookmark this page. They will think "I will come back to it." And then Monday will hit, and they will be right back in the same cycle — invisible on Google, leaking leads, watching competitors win.</p>
-          <p>The 10% who act? They are the ones sending us those "I can not believe I waited this long" emails 30 days from now.</p>
+          <p>You have read this far. That means the pain is real. You know your website should be doing more. You know your competitors are pulling ahead.</p>
+          <p>But here is what I also know: <strong>90% of people who read this will do nothing.</strong> They will bookmark this page, think "I will come back to it," and then Monday hits — same cycle, same frustration, same competitors winning.</p>
+          <p>The 10% who act? They are the ones sending us "I can not believe I waited this long" emails 30 days from now.</p>
           <p class="warning-question"><strong>Which group are you in?</strong></p>
-          <a href="/book-call" class="cta-button magnetic">I Am in the 10% — Book My Call</a>
+          <a href="/book-call" class="btn-primary">I Am in the 10% — Book My Call</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════════════════════════
-       SECTION 8: BOOK A CALL — THE CTA
-       ═══════════════════════════════════════════════════════════════ -->
+  <!-- BOOK A CALL -->
   <section class="book-section" id="book">
-    <div class="hero-bg">
-      <div class="gradient-blob blob-1"></div>
-      <div class="gradient-blob blob-2"></div>
-    </div>
     <div class="container">
       <div class="book-header reveal">
         <p class="section-label">Book a Call</p>
-        <h2 class="section-title">Get Your Free 30-Minute<br><span class="accent">Strategy Call.</span></h2>
+        <h2 class="section-title">Get Your Free 30-Minute<br>Strategy Call.</h2>
         <p class="section-subtitle">No strings attached. In 30 minutes, we will audit your site, analyze your competitors, and map out exactly what it takes to 3x your leads.</p>
       </div>
       <div class="book-grid">
@@ -422,7 +349,7 @@ const faqs = [
                 </svg>
               </div>
               <p class="calendly-cta-text">30 minutes. Zero obligation. A clear roadmap to more leads.</p>
-              <a href="/book-call" class="cta-button magnetic">
+              <a href="/book-call" class="btn-primary">
                 Pick a Time
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </a>
@@ -433,7 +360,7 @@ const faqs = [
             </div>
           </div>
         </div>
-        <div class="expect-wrapper reveal reveal-right">
+        <div class="expect-wrapper reveal">
           <div class="expect-card-deck">
             <h3>What Happens on the Call</h3>
             <div class="expect-steps">
@@ -454,11 +381,10 @@ const faqs = [
           <div class="trust-card-deck">
             <h3>Why Business Owners Love These Calls</h3>
             <div class="trust-quote">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V21c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
               <p>"I expected a sales pitch. Instead I got a 30-minute masterclass on what was wrong with my website and exactly how to fix it. Even if I had not hired them, that call alone was worth it."</p>
               <div class="trust-author">
-                <strong>Sarah Chen</strong>
-                <span>Founder, Bloom Med Spa</span>
+                <strong>Sarah Williams</strong>
+                <span>Founder, CloudSync</span>
               </div>
             </div>
           </div>
@@ -482,9 +408,7 @@ const faqs = [
 </Layout>
 
 <style>
-  /* ═══════════════════════════════════════════════════════════════
-     HERO SECTION
-     ═══════════════════════════════════════════════════════════════ */
+  /* HERO */
   .deck-hero {
     min-height: 100vh;
     display: flex;
@@ -492,20 +416,12 @@ const faqs = [
     justify-content: center;
     padding: 160px 0 100px;
     position: relative;
-    overflow: hidden;
     background: #030712;
   }
-  .hero-bg { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
-  .gradient-blob { position: absolute; border-radius: 50%; filter: blur(120px); opacity: 0.5; }
-  .blob-1 { width: 600px; height: 600px; background: radial-gradient(circle, rgba(59,130,246,0.35), transparent 70%); top: -15%; left: -10%; animation: blobFloat1 20s ease-in-out infinite; }
-  .blob-2 { width: 500px; height: 500px; background: radial-gradient(circle, rgba(139,92,246,0.25), transparent 70%); bottom: -10%; right: -5%; animation: blobFloat2 18s ease-in-out infinite; }
-  .blob-3 { width: 400px; height: 400px; background: radial-gradient(circle, rgba(34,211,238,0.2), transparent 70%); top: 40%; left: 60%; animation: blobFloat3 22s ease-in-out infinite; }
-  @keyframes blobFloat1 { 0%,100%{transform:translate(0,0)scale(1)} 50%{transform:translate(40px,-30px)scale(1.1)} }
-  @keyframes blobFloat2 { 0%,100%{transform:translate(0,0)scale(1)} 50%{transform:translate(-30px,20px)scale(1.15)} }
-  @keyframes blobFloat3 { 0%,100%{transform:translate(0,0)scale(1)} 50%{transform:translate(-20px,-40px)scale(1.05)} }
 
-  .deck-hero-inner { position: relative; z-index: 1; text-align: center; max-width: 840px; margin: 0 auto; }
-  .hero-badge {
+  .deck-hero-inner { position: relative; z-index: 1; text-align: center; max-width: 800px; margin: 0 auto; }
+
+  .hero-eyebrow {
     display: inline-flex;
     align-items: center;
     gap: 10px;
@@ -516,89 +432,51 @@ const faqs = [
     font-size: 13px;
     font-weight: 600;
     color: #EC4899;
-    margin-bottom: 32px;
-  }
-  .badge-dot {
-    width: 8px;
-    height: 8px;
-    background: #EC4899;
-    border-radius: 50%;
-    animation: pulseDot 2s ease-in-out infinite;
-  }
-  @keyframes pulseDot { 0%,100%{opacity:1} 50%{opacity:0.4} }
-  .deck-hero-title {
-    font-size: clamp(40px, 6vw, 68px);
-    font-weight: 700;
-    line-height: 1.05;
-    letter-spacing: -0.04em;
     margin-bottom: 28px;
   }
-  .deck-hero-title .accent {
-    background: linear-gradient(135deg, #A78BFA 0%, #22D3EE 50%, #34D399 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-style: italic;
-    font-weight: 500;
-    font-family: 'Georgia', 'Times New Roman', serif;
+
+  .deck-hero-title {
+    font-size: clamp(38px, 5.5vw, 64px);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    margin-bottom: 24px;
+    color: var(--text-primary);
   }
+
   .deck-hero-sub {
-    font-size: 18px;
+    font-size: 19px;
     color: var(--text-secondary);
-    line-height: 1.75;
-    max-width: 640px;
-    margin: 0 auto 36px;
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto 32px;
   }
+
   .hero-ctas {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
-    margin-bottom: 20px;
+    gap: 14px;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
   }
-  .cta-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    padding: 18px 36px;
-    background: var(--accent-primary);
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: var(--radius-md);
-    transition: all 0.35s var(--transition);
-    box-shadow: 0 4px 24px rgba(59,130,246,0.3);
-    text-decoration: none;
-  }
-  .cta-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 32px rgba(59,130,246,0.4);
-  }
-  .hero-guarantee {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    font-size: 13px;
-    color: var(--text-muted);
-    margin-bottom: 40px;
-  }
-  .hero-guarantee svg { color: #34D399; }
+
   .hero-trust {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 14px;
   }
+
   .trust-avatars {
     display: flex;
     align-items: center;
   }
+
   .trust-avatar {
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -608,25 +486,14 @@ const faqs = [
     border: 2px solid var(--bg-primary);
     margin-left: -8px;
   }
-  .trust-avatar:first-child { margin-left: 0; }
-  .hero-trust p { font-size: 13px; color: var(--text-muted); }
 
-  /* ═══════════════════════════════════════════════════════════════
-     PROBLEM SECTION
-     ═══════════════════════════════════════════════════════════════ */
-  .problem-section { padding: 120px 0; background: var(--bg-primary); position: relative; }
+  .trust-avatar:first-child { margin-left: 0; }
+  .hero-trust p { font-size: 14px; color: var(--text-muted); font-weight: 500; }
+
+  /* PROBLEM */
+  .problem-section { padding: 180px 0; position: relative; }
   .problem-section::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--border), transparent); }
-  .problem-header { text-align: center; max-width: 720px; margin: 0 auto 60px; }
-  .problem-header .section-title { margin: 0 auto; }
-  .problem-header .accent {
-    background: linear-gradient(135deg, #A78BFA 0%, #22D3EE 50%, #34D399 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-style: italic;
-    font-weight: 500;
-    font-family: 'Georgia', 'Times New Roman', serif;
-  }
+  .problem-header { text-align: center; max-width: 640px; margin: 0 auto 80px; }
   .problem-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -634,16 +501,16 @@ const faqs = [
     margin-bottom: 60px;
   }
   .problem-card {
-    background: linear-gradient(180deg, rgba(17,24,39,0.6) 0%, rgba(5,8,22,0.4) 100%);
+    background: rgba(17, 24, 39, 0.5);
     border: 1px solid var(--border);
     border-radius: var(--radius-xl);
     padding: 40px 32px;
-    transition: all 0.5s var(--transition);
+    transition: all 0.3s var(--transition);
   }
   .problem-card:hover {
     border-color: var(--border-hover);
-    transform: translateY(-6px);
-    box-shadow: 0 32px 64px rgba(0,0,0,0.35);
+    background: rgba(17, 24, 39, 0.65);
+    transform: translateY(-4px);
   }
   .problem-num {
     font-family: var(--font-heading);
@@ -665,27 +532,148 @@ const faqs = [
     line-height: 1.3;
   }
   .problem-card p {
-    font-size: 15px;
+    font-size: 16px;
     color: var(--text-secondary);
     line-height: 1.7;
   }
-  .problem-card p strong { color: var(--text-primary); }
   .problem-closing {
     text-align: center;
-    max-width: 720px;
+    max-width: 640px;
     margin: 0 auto;
   }
   .problem-closing-text {
     font-size: 18px;
     color: var(--text-secondary);
-    line-height: 1.8;
-    margin-bottom: 32px;
+    line-height: 1.7;
+    margin-bottom: 28px;
   }
 
-  /* ═══════════════════════════════════════════════════════════════
-     WHO WE ARE SECTION
-     ═══════════════════════════════════════════════════════════════ */
-  .who-section { padding: 120px 0; background: var(--bg-primary); position: relative; }
+  /* RESULTS */
+  .results-section { padding: 180px 0; position: relative; }
+  .results-section::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--border), transparent); }
+  .results-header { text-align: center; max-width: 640px; margin: 0 auto 80px; }
+  .results-header .section-title { margin-left: auto; margin-right: auto; }
+  .results-header .section-subtitle { margin-left: auto; margin-right: auto; }
+  .results-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 60px;
+  }
+  .result-card-deck {
+    background: rgba(17, 24, 39, 0.5);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: 32px 24px;
+    text-align: center;
+    transition: all 0.3s var(--transition);
+  }
+  .result-card-deck:hover {
+    border-color: var(--border-hover);
+    background: rgba(17, 24, 39, 0.65);
+    transform: translateY(-4px);
+  }
+  .result-metric {
+    font-family: var(--font-heading);
+    font-size: clamp(28px, 3.5vw, 40px);
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: -0.03em;
+    margin-bottom: 6px;
+  }
+  .result-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--accent-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 16px;
+  }
+  .result-divider {
+    width: 32px;
+    height: 2px;
+    background: var(--accent-primary);
+    border-radius: 2px;
+    margin: 0 auto 16px;
+  }
+  .result-client {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+  }
+  .result-before-after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+  }
+  .result-before {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-decoration: line-through;
+  }
+  .result-arrow {
+    font-size: 12px;
+    color: var(--accent-primary);
+  }
+  .result-after {
+    font-size: 12px;
+    color: var(--accent-secondary);
+    font-weight: 600;
+  }
+  .result-timeline {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 8px;
+  }
+  .result-detail {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+  .results-testimonial {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .testimonial-card {
+    background: rgba(17, 24, 39, 0.4);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: 40px;
+  }
+  .testimonial-text {
+    font-size: 18px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 24px;
+  }
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .testimonial-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+  }
+  .testimonial-author strong { display: block; font-size: 15px; font-weight: 700; color: var(--text-primary); }
+  .testimonial-author span { font-size: 13px; color: var(--text-muted); }
+
+  /* WHO WE ARE */
+  .who-section { padding: 180px 0; position: relative; }
   .who-section::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--border), transparent); }
   .who-grid {
     display: grid;
@@ -695,17 +683,8 @@ const faqs = [
   }
   .who-left .section-label { margin-bottom: 20px; }
   .who-left .section-title { margin-bottom: 28px; }
-  .who-left .accent {
-    background: linear-gradient(135deg, #A78BFA 0%, #22D3EE 50%, #34D399 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-style: italic;
-    font-weight: 500;
-    font-family: 'Georgia', 'Times New Roman', serif;
-  }
   .who-body {
-    font-size: 16px;
+    font-size: 17px;
     color: var(--text-secondary);
     line-height: 1.8;
     margin-bottom: 20px;
@@ -729,89 +708,23 @@ const faqs = [
     margin-bottom: 4px;
   }
   .who-stat-label {
-    font-size: 13px;
+    font-size: 14px;
     color: var(--text-muted);
   }
-  .who-right { position: relative; }
-  .who-image-card {
-    border-radius: var(--radius-xl);
-    overflow: hidden;
-  }
-  .who-image-inner {
-    background: linear-gradient(180deg, rgba(17,24,39,0.8) 0%, rgba(5,8,22,0.6) 100%);
-    border-radius: calc(var(--radius-xl) - 1px);
-    padding: 32px;
-    margin: 1px;
-  }
-  .who-mockup {
-    background: linear-gradient(180deg, rgba(5,8,22,0.9) 0%, rgba(11,16,32,0.8) 100%);
-    border-radius: var(--radius-md);
-    border: 1px solid var(--border);
-    overflow: hidden;
-  }
-  .mockup-header {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 12px 16px;
-    border-bottom: 1px solid var(--border);
-  }
-  .mockup-dots { display: flex; gap: 6px; }
-  .mockup-dots span { width: 8px; height: 8px; border-radius: 50%; }
-  .mockup-dots span:nth-child(1) { background: #EF4444; }
-  .mockup-dots span:nth-child(2) { background: #F59E0B; }
-  .mockup-dots span:nth-child(3) { background: #22C55E; }
-  .mockup-url {
-    font-size: 11px;
-    color: var(--text-muted);
-    background: rgba(255,255,255,0.04);
-    padding: 4px 12px;
-    border-radius: 6px;
-    flex: 1;
-    text-align: center;
-  }
-  .mockup-body { padding: 24px; }
-  .mockup-hero { margin-bottom: 24px; }
-  .mockup-line {
-    height: 8px;
-    border-radius: 4px;
-    background: linear-gradient(90deg, rgba(59,130,246,0.3), rgba(139,92,246,0.2));
-    margin-bottom: 10px;
-  }
-  .mockup-line.wide { width: 100%; height: 12px; }
-  .mockup-line.medium { width: 70%; }
-  .mockup-line.short { width: 45%; margin-bottom: 20px; }
-  .mockup-line.tiny { width: 60%; height: 6px; margin-bottom: 0; }
-  .mockup-btn {
-    width: 120px;
-    height: 32px;
-    border-radius: 8px;
-    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-  }
-  .mockup-stats { display: flex; gap: 12px; }
-  .mockup-stat { flex: 1; text-align: center; }
-  .mockup-stat-bar {
-    height: 60px;
-    border-radius: 6px 6px 0 0;
-    background: linear-gradient(180deg, rgba(59,130,246,0.4), rgba(59,130,246,0.1));
-    margin-bottom: 8px;
-  }
-  .mockup-stat-bar.tall { height: 100px; }
   .who-trust-card {
-    margin-top: 20px;
-    background: linear-gradient(180deg, rgba(17,24,39,0.5) 0%, rgba(5,8,22,0.3) 100%);
+    background: rgba(17, 24, 39, 0.4);
     border: 1px solid var(--border);
     border-radius: var(--radius-xl);
-    padding: 28px;
+    padding: 32px;
   }
   .who-trust-stars {
-    display: flex;
-    gap: 4px;
-    margin-bottom: 12px;
     color: #F59E0B;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
   }
   .who-trust-text {
-    font-size: 15px;
+    font-size: 16px;
     color: var(--text-secondary);
     line-height: 1.7;
     margin-bottom: 16px;
@@ -819,40 +732,32 @@ const faqs = [
   .who-trust-author strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
   .who-trust-author span { font-size: 13px; color: var(--text-muted); }
 
-  /* ═══════════════════════════════════════════════════════════════
-     SERVICES SECTION
-     ═══════════════════════════════════════════════════════════════ */
-  .services-section { padding: 120px 0; background: var(--bg-primary); position: relative; }
+  /* SERVICES / SYSTEMS */
+  .services-section { padding: 180px 0; position: relative; }
   .services-section::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--border), transparent); }
-  .services-header { text-align: center; max-width: 680px; margin: 0 auto 60px; }
-  .services-header .section-title { margin: 0 auto 16px; }
-  .services-header .accent {
-    background: linear-gradient(135deg, #A78BFA 0%, #22D3EE 50%, #34D399 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-style: italic;
-    font-weight: 500;
-    font-family: 'Georgia', 'Times New Roman', serif;
-  }
-  .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 48px; }
+  .services-header { text-align: center; max-width: 600px; margin: 0 auto 80px; }
+  .services-header .section-title { margin-left: auto; margin-right: auto; }
+  .services-header .section-subtitle { margin-left: auto; margin-right: auto; }
+  .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
   .service-card-deck {
-    background: linear-gradient(180deg, rgba(17,24,39,0.6) 0%, rgba(5,8,22,0.4) 100%);
+    background: rgba(17, 24, 39, 0.5);
     border: 1px solid var(--border);
     border-radius: var(--radius-xl);
-    padding: 44px 36px;
-    transition: all 0.5s var(--transition);
+    padding: 40px 32px;
+    transition: all 0.3s var(--transition);
+    display: flex;
+    flex-direction: column;
   }
   .service-card-deck:hover {
-    border-color: var(--card-accent, var(--border-hover));
-    transform: translateY(-8px);
-    box-shadow: 0 32px 64px rgba(0,0,0,0.35), 0 0 40px rgba(59,130,246,0.08);
+    border-color: var(--border-hover);
+    background: rgba(17, 24, 39, 0.65);
+    transform: translateY(-4px);
   }
   .service-icon-deck {
-    width: 64px;
-    height: 64px;
-    background: rgba(59,130,246,0.1);
-    border: 1px solid rgba(59,130,246,0.2);
+    width: 56px;
+    height: 56px;
+    background: rgba(59,130,246,0.08);
+    border: 1px solid rgba(59,130,246,0.15);
     border-radius: var(--radius-md);
     display: flex;
     align-items: center;
@@ -861,18 +766,29 @@ const faqs = [
     margin-bottom: 24px;
   }
   .service-card-deck h3 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 12px;
     color: var(--text-primary);
   }
   .service-card-deck > p {
-    font-size: 15px;
+    font-size: 16px;
     color: var(--text-secondary);
     line-height: 1.7;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
   }
-  .service-features-deck { list-style: none; }
+  .service-outcome {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-secondary);
+    margin-bottom: 20px;
+    padding: 8px 12px;
+    background: rgba(34, 211, 238, 0.06);
+    border: 1px solid rgba(34, 211, 238, 0.1);
+    border-radius: var(--radius-sm);
+    line-height: 1.5;
+  }
+  .service-features-deck { list-style: none; margin-top: auto; }
   .service-features-deck li {
     font-size: 14px;
     color: var(--text-secondary);
@@ -886,159 +802,17 @@ const faqs = [
     content: '';
     width: 6px;
     height: 6px;
-    background: var(--card-accent, var(--accent-primary));
+    background: var(--accent-primary);
     border-radius: 50%;
     flex-shrink: 0;
   }
-  .addons-deck { text-align: center; }
-  .addons-label { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-  .addons-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
-  .addon-tag {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 18px;
-    background: rgba(255,255,255,0.03);
-    border: 1px solid var(--border);
-    border-radius: 100px;
-    font-size: 14px;
-  }
-  .addon-tag-name { color: var(--text-primary); font-weight: 600; }
-  .addon-tag-price { color: var(--accent-secondary); font-weight: 500; }
 
-  /* ═══════════════════════════════════════════════════════════════
-     RESULTS SECTION
-     ═══════════════════════════════════════════════════════════════ */
-  .results-section { padding: 120px 0; background: var(--bg-primary); position: relative; }
-  .results-section::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--border), transparent); }
-  .results-header { text-align: center; max-width: 600px; margin: 0 auto 60px; }
-  .results-header .section-title { margin: 0 auto; }
-  .results-header .accent {
-    background: linear-gradient(135deg, #A78BFA 0%, #22D3EE 50%, #34D399 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-style: italic;
-    font-weight: 500;
-    font-family: 'Georgia', 'Times New Roman', serif;
-  }
-  .results-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    margin-bottom: 60px;
-  }
-  .result-card-deck {
-    background: linear-gradient(180deg, rgba(17,24,39,0.6) 0%, rgba(5,8,22,0.4) 100%);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-xl);
-    padding: 36px 28px;
-    text-align: center;
-    transition: all 0.4s var(--transition);
-  }
-  .result-card-deck:hover {
-    border-color: var(--border-hover);
-    transform: translateY(-6px);
-  }
-  .result-metric {
-    font-family: var(--font-heading);
-    font-size: clamp(28px, 4vw, 40px);
-    font-weight: 700;
-    color: var(--text-primary);
-    letter-spacing: -0.03em;
-    margin-bottom: 6px;
-  }
-  .result-label {
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--accent-secondary);
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    margin-bottom: 16px;
-  }
-  .result-divider {
-    width: 32px;
-    height: 2px;
-    background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
-    border-radius: 2px;
-    margin: 0 auto 16px;
-  }
-  .result-client {
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin-bottom: 4px;
-  }
-  .result-detail {
-    font-size: 13px;
-    color: var(--text-muted);
-    line-height: 1.5;
-  }
-  .results-testimonial {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  .testimonial-card {
-    background: linear-gradient(180deg, rgba(139,92,246,0.06) 0%, rgba(17,24,39,0.5) 100%);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-xl);
-    padding: 48px;
-    position: relative;
-    overflow: hidden;
-  }
-  .testimonial-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(139,92,246,0.4), rgba(59,130,246,0.3), transparent);
-  }
-  .testimonial-quote-icon { color: rgba(139,92,246,0.3); margin-bottom: 20px; }
-  .testimonial-text {
-    font-size: 18px;
-    color: var(--text-secondary);
-    line-height: 1.8;
-    margin-bottom: 28px;
-    font-style: italic;
-  }
-  .testimonial-author {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-  }
-  .testimonial-avatar {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 13px;
-    font-weight: 700;
-    color: white;
-  }
-  .testimonial-author strong { display: block; font-size: 15px; font-weight: 700; color: var(--text-primary); }
-  .testimonial-author span { font-size: 13px; color: var(--text-muted); }
-
-  /* ═══════════════════════════════════════════════════════════════
-     PRICING SECTION
-     ═══════════════════════════════════════════════════════════════ */
-  .pricing-section { padding: 120px 0; background: var(--bg-primary); position: relative; }
+  /* PRICING */
+  .pricing-section { padding: 180px 0; position: relative; }
   .pricing-section::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--border), transparent); }
-  .pricing-header { text-align: center; max-width: 680px; margin: 0 auto 60px; }
-  .pricing-header .section-title { margin: 0 auto 16px; }
-  .pricing-header .accent {
-    background: linear-gradient(135deg, #A78BFA 0%, #22D3EE 50%, #34D399 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-style: italic;
-    font-weight: 500;
-    font-family: 'Georgia', 'Times New Roman', serif;
-  }
+  .pricing-header { text-align: center; max-width: 600px; margin: 0 auto 80px; }
+  .pricing-header .section-title { margin-left: auto; margin-right: auto; }
+  .pricing-header .section-subtitle { margin-left: auto; margin-right: auto; }
   .pricing-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1046,29 +820,26 @@ const faqs = [
     margin-bottom: 48px;
   }
   .pricing-card-deck {
-    background: linear-gradient(180deg, rgba(17,24,39,0.6) 0%, rgba(5,8,22,0.4) 100%);
+    background: rgba(17, 24, 39, 0.5);
     border: 1px solid var(--border);
     border-radius: var(--radius-xl);
     padding: 40px 32px;
-    transition: all 0.5s var(--transition);
+    transition: all 0.3s var(--transition);
     position: relative;
     display: flex;
     flex-direction: column;
   }
   .pricing-card-deck:hover {
     border-color: var(--border-hover);
-    transform: translateY(-6px);
-    box-shadow: 0 32px 64px rgba(0,0,0,0.35);
+    background: rgba(17, 24, 39, 0.65);
+    transform: translateY(-4px);
   }
   .pricing-card-deck.popular {
     border-color: rgba(59,130,246,0.3);
-    background: linear-gradient(180deg, rgba(59,130,246,0.06) 0%, rgba(17,24,39,0.6) 100%);
-    transform: scale(1.03);
+    background: rgba(59, 130, 246, 0.05);
   }
   .pricing-card-deck.popular:hover {
-    transform: scale(1.03) translateY(-6px);
-    border-color: rgba(59,130,246,0.5);
-    box-shadow: 0 32px 64px rgba(0,0,0,0.4), 0 0 40px rgba(59,130,246,0.1);
+    border-color: rgba(59,130,246,0.4);
   }
   .popular-badge {
     position: absolute;
@@ -1104,7 +875,7 @@ const faqs = [
     color: var(--text-muted);
   }
   .pricing-desc {
-    font-size: 14px;
+    font-size: 15px;
     color: var(--text-secondary);
     line-height: 1.6;
   }
@@ -1126,32 +897,32 @@ const faqs = [
   .pricing-cta {
     display: block;
     text-align: center;
-    padding: 16px 28px;
+    padding: 14px 28px;
     font-size: 15px;
     font-weight: 600;
     border-radius: var(--radius-md);
-    transition: all 0.35s var(--transition);
+    transition: all 0.3s var(--transition);
     text-decoration: none;
     cursor: pointer;
     border: none;
   }
-  .pricing-cta.btn-secondary { color: var(--text-primary); }
-  .pricing-guarantee { max-width: 720px; margin: 0 auto; }
+
+  .pricing-guarantee { max-width: 720px; margin: 0 auto 48px; }
   .guarantee-card {
     display: flex;
     align-items: flex-start;
     gap: 24px;
-    background: linear-gradient(180deg, rgba(52,211,153,0.05) 0%, rgba(17,24,39,0.4) 100%);
-    border: 1px solid rgba(52,211,153,0.15);
+    background: rgba(52, 211, 153, 0.04);
+    border: 1px solid rgba(52, 211, 153, 0.12);
     border-radius: var(--radius-xl);
-    padding: 36px;
+    padding: 32px;
   }
   .guarantee-icon {
-    width: 56px;
-    height: 56px;
+    width: 48px;
+    height: 48px;
     border-radius: var(--radius-md);
-    background: rgba(52,211,153,0.1);
-    border: 1px solid rgba(52,211,153,0.2);
+    background: rgba(52, 211, 153, 0.08);
+    border: 1px solid rgba(52, 211, 153, 0.15);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1159,9 +930,9 @@ const faqs = [
     flex-shrink: 0;
   }
   .guarantee-content h3 {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     color: var(--text-primary);
   }
   .guarantee-content p {
@@ -1170,35 +941,65 @@ const faqs = [
     line-height: 1.7;
   }
 
-  /* ═══════════════════════════════════════════════════════════════
-     WARNING SECTION
-     ═══════════════════════════════════════════════════════════════ */
-  .warning-section { padding: 120px 0; background: var(--bg-primary); position: relative; }
+  .not-for {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+    border-top: 1px solid var(--border);
+  }
+  .not-for h4 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    margin-bottom: 20px;
+  }
+  .not-for ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .not-for li {
+    font-size: 14px;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .not-for li::before {
+    content: '✕';
+    color: var(--text-muted);
+    font-size: 12px;
+  }
+
+  /* WARNING */
+  .warning-section { padding: 180px 0; position: relative; }
   .warning-section::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, var(--border), transparent); }
   .warning-card {
-    background: linear-gradient(180deg, rgba(236,72,153,0.04) 0%, rgba(17,24,39,0.5) 100%);
+    background: rgba(17, 24, 39, 0.5);
+    border: 1px solid var(--border);
     border-radius: var(--radius-xl);
     padding: 80px;
-    overflow: hidden;
     text-align: center;
     max-width: 900px;
     margin: 0 auto;
   }
-  .warning-card::before {
-    opacity: 0.4;
-  }
-  .warning-content { position: relative; z-index: 1; }
   .warning-content h2 {
-    font-size: clamp(32px, 4.5vw, 48px);
+    font-size: clamp(32px, 4vw, 48px);
     font-weight: 700;
     line-height: 1.1;
     letter-spacing: -0.03em;
     margin-bottom: 28px;
+    color: var(--text-primary);
   }
   .warning-content p {
-    font-size: 17px;
+    font-size: 18px;
     color: var(--text-secondary);
-    line-height: 1.8;
+    line-height: 1.7;
     margin-bottom: 20px;
     max-width: 640px;
     margin-left: auto;
@@ -1209,49 +1010,35 @@ const faqs = [
     font-size: 20px !important;
     color: var(--text-primary) !important;
     margin: 32px 0 !important;
+    font-weight: 700;
   }
 
-  /* ═══════════════════════════════════════════════════════════════
-     BOOK SECTION
-     ═══════════════════════════════════════════════════════════════ */
+  /* BOOK SECTION */
   .book-section {
-    padding: 120px 0 80px;
+    padding: 180px 0 100px;
     background: #030712;
     position: relative;
-    overflow: hidden;
   }
-  .book-section .hero-bg { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
-  .book-section .blob-1 { top: -20%; right: -10%; left: auto; }
-  .book-section .blob-2 { bottom: -15%; left: -10%; right: auto; }
-  .book-section .container { position: relative; z-index: 1; }
-  .book-header { text-align: center; max-width: 680px; margin: 0 auto 60px; }
-  .book-header .section-title { margin: 0 auto 16px; }
-  .book-header .accent {
-    background: linear-gradient(135deg, #A78BFA 0%, #22D3EE 50%, #34D399 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-style: italic;
-    font-weight: 500;
-    font-family: 'Georgia', 'Times New Roman', serif;
-  }
+  .book-header { text-align: center; max-width: 640px; margin: 0 auto 80px; }
+  .book-header .section-title { margin-left: auto; margin-right: auto; }
+  .book-header .section-subtitle { margin-left: auto; margin-right: auto; }
   .book-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 40px; align-items: start; }
   .calendly-card-deck {
-    background: linear-gradient(180deg, rgba(17,24,39,0.6) 0%, rgba(5,8,22,0.4) 100%);
+    background: rgba(17, 24, 39, 0.5);
     border: 1px solid var(--border);
     border-radius: var(--radius-xl);
     overflow: hidden;
   }
   .calendly-header-deck { padding: 36px 40px; border-bottom: 1px solid rgba(255,255,255,0.06); }
   .calendly-header-deck h3 { font-size: 22px; font-weight: 700; margin-bottom: 8px; color: var(--text-primary); }
-  .calendly-header-deck p { font-size: 15px; color: var(--text-secondary); line-height: 1.6; }
+  .calendly-header-deck p { font-size: 16px; color: var(--text-secondary); line-height: 1.6; }
   .calendly-cta-body { padding: 48px 40px; text-align: center; }
   .calendly-cta-icon {
-    width: 80px;
-    height: 80px;
+    width: 72px;
+    height: 72px;
     border-radius: 50%;
-    background: rgba(59,130,246,0.1);
-    border: 1px solid rgba(59,130,246,0.2);
+    background: rgba(59,130,246,0.08);
+    border: 1px solid rgba(59,130,246,0.15);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1259,7 +1046,7 @@ const faqs = [
     margin: 0 auto 20px;
   }
   .calendly-cta-text {
-    font-size: 16px;
+    font-size: 17px;
     color: var(--text-secondary);
     line-height: 1.7;
     margin-bottom: 24px;
@@ -1273,20 +1060,20 @@ const faqs = [
     justify-content: center;
     gap: 6px;
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 14px;
     color: var(--text-muted);
   }
   .calendly-cta-sub svg { color: #34D399; }
 
   .expect-wrapper { display: flex; flex-direction: column; gap: 24px; position: sticky; top: 120px; }
   .expect-card-deck, .trust-card-deck, .faq-card-deck {
-    background: linear-gradient(180deg, rgba(17,24,39,0.5) 0%, rgba(5,8,22,0.3) 100%);
+    background: rgba(17, 24, 39, 0.4);
     border: 1px solid var(--border);
     border-radius: var(--radius-xl);
-    padding: 36px;
+    padding: 32px;
   }
   .expect-card-deck h3, .trust-card-deck h3, .faq-card-deck h3 {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
     margin-bottom: 24px;
     color: var(--text-primary);
@@ -1308,14 +1095,13 @@ const faqs = [
   .expect-header { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 4px; }
   .expect-header h4 { font-size: 15px; font-weight: 700; color: var(--text-primary); }
   .expect-time { font-size: 12px; color: var(--text-muted); padding: 2px 8px; background: rgba(255,255,255,0.04); border-radius: 100px; flex-shrink: 0; }
-  .expect-content p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
-  .trust-card-deck .trust-quote svg { color: rgba(139,92,246,0.3); margin-bottom: 16px; }
+  .expect-content p { font-size: 15px; color: var(--text-secondary); line-height: 1.6; }
   .trust-card-deck .trust-quote > p { font-size: 15px; color: var(--text-secondary); line-height: 1.7; margin-bottom: 16px; }
   .trust-author strong { display: block; font-size: 14px; font-weight: 700; color: var(--text-primary); }
   .trust-author span { font-size: 13px; color: var(--text-muted); }
   .faq-mini-list { display: flex; flex-direction: column; gap: 8px; }
   .faq-mini-item {
-    background: linear-gradient(180deg, rgba(17,24,39,0.3) 0%, rgba(5,8,22,0.15) 100%);
+    background: rgba(17, 24, 39, 0.3);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     overflow: hidden;
@@ -1323,7 +1109,7 @@ const faqs = [
   }
   .faq-mini-item:hover { border-color: var(--border-hover); }
   .faq-mini-item summary {
-    padding: 18px 20px;
+    padding: 16px 20px;
     font-size: 14px;
     font-weight: 600;
     color: var(--text-primary);
@@ -1336,29 +1122,27 @@ const faqs = [
   .faq-mini-item summary::-webkit-details-marker { display: none; }
   .faq-mini-item summary::after { content: '+'; font-size: 20px; color: var(--accent-primary); transition: transform 0.3s; }
   .faq-mini-item[open] summary::after { transform: rotate(45deg); }
-  .faq-mini-item p { padding: 0 20px 18px; font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+  .faq-mini-item p { padding: 0 20px 16px; font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
 
-  /* ═══════════════════════════════════════════════════════════════
-     RESPONSIVE
-     ═══════════════════════════════════════════════════════════════ */
+  /* RESPONSIVE */
   @media (max-width: 1024px) {
-    .problem-grid { grid-template-columns: 1fr; }
-    .problem-card { max-width: 500px; margin: 0 auto; }
-    .services-grid { grid-template-columns: 1fr; }
-    .service-card-deck { max-width: 500px; margin: 0 auto; }
+    .problem-grid { grid-template-columns: 1fr; max-width: 500px; margin: 0 auto 48px; }
     .results-grid { grid-template-columns: repeat(2, 1fr); }
-    .pricing-grid { grid-template-columns: 1fr; }
+    .services-grid { grid-template-columns: 1fr; max-width: 500px; margin: 0 auto; }
+    .pricing-grid { grid-template-columns: 1fr; max-width: 420px; margin: 0 auto 48px; }
     .pricing-card-deck.popular { transform: none; }
-    .pricing-card-deck.popular:hover { transform: translateY(-6px); }
+    .pricing-card-deck.popular:hover { transform: translateY(-4px); }
     .who-grid { grid-template-columns: 1fr; gap: 48px; }
     .book-grid { grid-template-columns: 1fr; }
     .expect-wrapper { position: static; }
     .warning-card { padding: 48px 32px; }
   }
-  @media (max-width: 640px) {
+
+  @media (max-width: 768px) {
     .deck-hero { padding: 140px 0 80px; }
-    .deck-hero-title { font-size: 34px; }
-    .hero-ctas { flex-direction: column; }
+    .deck-hero-title { font-size: 32px; }
+    .hero-ctas { flex-direction: column; align-items: stretch; }
+    .hero-ctas .btn-primary, .hero-ctas .btn-secondary { width: 100%; justify-content: center; }
     .results-grid { grid-template-columns: 1fr; }
     .who-stats { flex-direction: column; gap: 20px; }
     .guarantee-card { flex-direction: column; text-align: center; }
@@ -1366,6 +1150,6 @@ const faqs = [
     .testimonial-card { padding: 32px 24px; }
     .calendly-header-deck { padding: 24px; }
     .calendly-cta-body { padding: 36px 24px; }
-    .gradient-blob { display: none; }
+    .problem-section, .results-section, .who-section, .services-section, .pricing-section, .warning-section, .book-section { padding: 100px 0; }
   }
 </style>
