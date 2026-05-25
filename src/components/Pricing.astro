@@ -33,14 +33,14 @@ const plans = [
 <section class="pricing-section" id="pricing">
   <div class="container">
     <div class="pricing-header reveal">
-      <p class="section-label scramble-text">Engagement Models</p>
-      <h2 class="section-title">Invest Once.<br>Profit Forever.</h2>
+      <p class="section-label">Investment</p>
+      <h2 class="section-title">Invest Once. Profit Forever.</h2>
       <p class="section-subtitle">No hidden fees. No surprise invoices. Every package is structured as an investment with a measurable return — not an expense with a vague promise.</p>
     </div>
 
     <div class="pricing-grid stagger-children">
       {plans.map(plan => (
-        <div class:list={['pricing-card', 'stagger-item', 'tilt-card', { highlight: plan.highlight }]}>
+        <div class:list={['pricing-card', 'stagger-item', 'reveal', { highlight: plan.highlight }]}>
           {plan.highlight && <div class="pricing-badge">Recommended</div>}
           <div class="pricing-name">{plan.name}</div>
           <div class="pricing-desc">{plan.desc}</div>
@@ -56,21 +56,20 @@ const plans = [
               </li>
             ))}
           </ul>
-          <a href="#contact" class:list={['pricing-cta', 'magnetic', { primary: plan.highlight }]}>{plan.cta}</a>
+          <a href="/book-call" class:list={['pricing-cta', { primary: plan.highlight }]}>{plan.cta}</a>
         </div>
       ))}
     </div>
 
     <div class="pricing-note reveal">
-      <p>Not sure which fits? <a href="#contact">Tell us your situation</a> and we will diagnose the right solution — no upsell, no pressure. Every project is backed by our performance guarantee: if your metrics do not improve, we keep working until they do.</p>
+      <p>Not sure which fits? <a href="/book-call">Tell us your situation</a> and we will diagnose the right solution — no upsell, no pressure. Every project is backed by our performance guarantee: if your metrics do not improve, we keep working until they do.</p>
     </div>
   </div>
 </section>
 
 <style>
   .pricing-section {
-    padding: 160px 0;
-    background: var(--bg-primary);
+    padding: 180px 0;
     position: relative;
   }
 
@@ -110,33 +109,27 @@ const plans = [
   }
 
   .pricing-card {
-    background: linear-gradient(180deg, rgba(17, 24, 39, 0.6) 0%, rgba(5, 8, 22, 0.4) 100%);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(17, 24, 39, 0.5);
+    border: 1px solid var(--border);
     border-radius: var(--radius-xl);
     padding: 44px 28px;
     position: relative;
-    transition: all 0.5s var(--transition);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    transform-style: preserve-3d;
-    will-change: transform;
+    transition: all 0.3s var(--transition);
   }
 
   .pricing-card:hover {
-    border-color: rgba(255, 255, 255, 0.15);
-    background: linear-gradient(180deg, rgba(17, 24, 39, 0.8) 0%, rgba(5, 8, 22, 0.6) 100%);
-    transform: perspective(1000px) translateY(-4px);
-    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.3);
+    border-color: var(--border-hover);
+    background: rgba(17, 24, 39, 0.65);
+    transform: translateY(-4px);
   }
 
   .pricing-card.highlight {
-    border-color: rgba(59, 130, 246, 0.25);
-    background: linear-gradient(180deg, rgba(59, 130, 246, 0.08) 0%, rgba(5, 8, 22, 0.5) 100%);
-    box-shadow: 0 20px 60px rgba(59, 130, 246, 0.1);
+    border-color: rgba(59, 130, 246, 0.3);
+    background: rgba(59, 130, 246, 0.06);
   }
 
   .pricing-card.highlight:hover {
     border-color: rgba(59, 130, 246, 0.4);
-    box-shadow: 0 24px 60px rgba(59, 130, 246, 0.2);
   }
 
   .pricing-badge {
@@ -163,10 +156,11 @@ const plans = [
   }
 
   .pricing-desc {
-    font-size: 13px;
+    font-size: 14px;
     color: var(--text-muted);
     margin-bottom: 24px;
-    min-height: 36px;
+    min-height: 40px;
+    line-height: 1.5;
   }
 
   .pricing-price {
@@ -175,18 +169,13 @@ const plans = [
     font-weight: 700;
     margin-bottom: 28px;
     letter-spacing: -0.02em;
-    background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-primary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--text-primary);
   }
 
   .pricing-price span {
     font-size: 14px;
     color: var(--text-muted);
     font-weight: 500;
-    -webkit-text-fill-color: var(--text-muted);
-    background: none;
   }
 
   .pricing-features {
@@ -224,10 +213,8 @@ const plans = [
     font-weight: 600;
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: var(--text-primary);
-    transition: all 0.35s;
+    transition: all 0.3s;
     text-decoration: none;
-    position: relative;
-    overflow: hidden;
   }
 
   .pricing-cta:hover {
@@ -243,14 +230,18 @@ const plans = [
 
   .pricing-cta.primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 12px 40px rgba(59, 130, 246, 0.3);
+    box-shadow: 0 8px 24px rgba(59, 130, 246, 0.25);
   }
 
   .pricing-note {
     text-align: center;
     margin-top: 56px;
-    font-size: 14px;
+    font-size: 15px;
     color: var(--text-muted);
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
   }
 
   .pricing-note a {

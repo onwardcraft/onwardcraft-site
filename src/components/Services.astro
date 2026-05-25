@@ -5,45 +5,39 @@ const services = [
     title: 'Website Design & Development',
     desc: 'Your current site is a silent salesperson who never shows up to work. We build conversion-first websites where every headline, every button, and every scroll is engineered to turn strangers into buyers.',
     features: ['Conversion-first architecture', 'Sub-2-second load times', 'Mobile-optimized'],
-    accent: '#3B82F6',
   },
   {
     icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>`,
     title: 'SEO & Organic Growth',
     desc: 'Stop renting your customers from Google Ads. We put you where your best prospects are already looking — page one — and build the authority that keeps you there without writing another check.',
     features: ['Local search dominance', 'Technical SEO foundation', 'Authority content systems'],
-    accent: '#22D3EE',
   },
   {
     icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>`,
     title: 'Lead Generation Systems',
     desc: 'Hope is not a strategy. We build automated funnels that capture, qualify, and deliver high-intent leads to your inbox — so you spend your time closing, not chasing.',
     features: ['High-intent landing pages', 'CRM & automation', 'Conversion tracking'],
-    accent: '#8B5CF6',
   },
   {
     icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>`,
     title: 'Brand & Creative',
     desc: 'In a sea of sameness, the brands that win are the ones that make the choice obvious. We build visual identities and positioning systems that make prospects choose you before they ever talk to sales.',
     features: ['Strategic positioning', 'Visual identity systems', 'Differentiation that converts'],
-    accent: '#EC4899',
   },
 ];
 ---
 
 <section class="services-section" id="services">
-  <div class="services-glow parallax-glow" data-speed="0.02"></div>
   <div class="container">
     <div class="services-header reveal">
-      <p class="section-label scramble-text">Services</p>
-      <h2 class="section-title">Four Systems.<br>One Outcome: Revenue.</h2>
+      <p class="section-label">Services</p>
+      <h2 class="section-title">Four Systems. One Outcome: Revenue.</h2>
       <p class="section-subtitle">Most agencies sell you tactics. We engineer interconnected systems that compound — each one making the others more effective. The result is growth that accelerates, not flatlines.</p>
     </div>
 
     <div class="services-grid stagger-children">
       {services.map((service, i) => (
-        <div class="service-card stagger-item tilt-card shine-sweep" style={`--card-accent: ${service.accent}`}>
-          <div class="service-card-shine"></div>
+        <div class="service-card stagger-item reveal" style={`transition-delay: ${i * 100}ms`}>
           <div class="service-card-top">
             <div class="service-icon" set:html={service.icon} />
             <h3>{service.title}</h3>
@@ -62,28 +56,14 @@ const services = [
 
 <style>
   .services-section {
-    padding: 160px 0;
+    padding: 180px 0;
     position: relative;
-    overflow: hidden;
-  }
-
-  .services-glow {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 700px;
-    height: 500px;
-    background: radial-gradient(ellipse, rgba(59, 130, 246, 0.04) 0%, transparent 60%);
-    pointer-events: none;
   }
 
   .services-header {
     text-align: center;
     max-width: 560px;
     margin: 0 auto 100px;
-    position: relative;
-    z-index: 1;
   }
 
   .services-header .section-title {
@@ -100,112 +80,46 @@ const services = [
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    position: relative;
-    z-index: 1;
   }
 
   .service-card {
-    background:
-      radial-gradient(ellipse 120% 100% at 20% 0%, color-mix(in srgb, var(--card-accent) 18%, transparent) 0%, transparent 60%),
-      radial-gradient(ellipse 80% 80% at 80% 100%, color-mix(in srgb, var(--card-accent) 10%, transparent) 0%, transparent 50%),
-      linear-gradient(180deg, rgba(17, 24, 39, 0.95) 0%, rgba(5, 8, 22, 0.98) 100%);
-    border: 1px solid color-mix(in srgb, var(--card-accent) 20%, rgba(255, 255, 255, 0.04));
+    background: rgba(17, 24, 39, 0.5);
+    border: 1px solid var(--border);
     border-radius: var(--radius-xl);
     padding: 44px 36px;
-    transition: all 0.5s var(--transition);
-    position: relative;
-    overflow: hidden;
+    transition: all 0.3s var(--transition);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: 320px;
-    cursor: pointer;
-    transform-style: preserve-3d;
-    will-change: transform;
-  }
-
-  .service-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, var(--card-accent), transparent);
-    opacity: 0.6;
-    transition: opacity 0.5s;
-  }
-
-  .service-card::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(circle at 50% 0%, color-mix(in srgb, var(--card-accent) 12%, transparent) 0%, transparent 70%);
-    opacity: 0.3;
-    pointer-events: none;
-    transition: opacity 0.5s;
-  }
-
-  .service-card-shine {
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 50%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.03), transparent);
-    transition: left 0.7s;
-    pointer-events: none;
-    z-index: 1;
   }
 
   .service-card:hover {
-    border-color: color-mix(in srgb, var(--card-accent) 40%, transparent);
-    transform: perspective(1000px) translateY(-6px);
-    box-shadow:
-      0 32px 64px rgba(0, 0, 0, 0.4),
-      0 0 80px color-mix(in srgb, var(--card-accent) 12%, transparent),
-      inset 0 1px 0 color-mix(in srgb, var(--card-accent) 30%, transparent);
-  }
-
-  .service-card:hover::before {
-    opacity: 1;
-  }
-
-  .service-card:hover::after {
-    opacity: 0.6;
-  }
-
-  .service-card:hover .service-card-shine {
-    left: 150%;
+    border-color: var(--border-hover);
+    background: rgba(17, 24, 39, 0.65);
+    transform: translateY(-4px);
   }
 
   .service-icon {
-    width: 52px;
-    height: 52px;
-    background: color-mix(in srgb, var(--card-accent) 8%, transparent);
-    border: 1px solid color-mix(in srgb, var(--card-accent) 15%, transparent);
+    width: 48px;
+    height: 48px;
+    background: rgba(59, 130, 246, 0.08);
+    border: 1px solid rgba(59, 130, 246, 0.15);
     border-radius: var(--radius-md);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--card-accent);
-    margin-bottom: 28px;
-    transition: all 0.5s;
-    position: relative;
+    color: var(--accent-primary);
+    margin-bottom: 24px;
+    transition: transform 0.3s;
   }
 
   .service-card:hover .service-icon {
-    background: color-mix(in srgb, var(--card-accent) 15%, transparent);
-    border-color: color-mix(in srgb, var(--card-accent) 30%, transparent);
-    box-shadow: 0 0 30px color-mix(in srgb, var(--card-accent) 15%, transparent);
-    transform: scale(1.05) rotate(-3deg);
+    transform: scale(1.05);
   }
 
   .service-card h3 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     margin-bottom: 14px;
     color: var(--text-primary);
@@ -213,10 +127,10 @@ const services = [
   }
 
   .service-card p {
-    font-size: 15px;
+    font-size: 16px;
     color: var(--text-secondary);
     line-height: 1.7;
-    margin-bottom: 28px;
+    margin-bottom: 24px;
   }
 
   .service-features {
@@ -233,13 +147,6 @@ const services = [
     border: 1px solid var(--border);
     padding: 6px 12px;
     border-radius: 100px;
-    transition: all 0.3s;
-  }
-
-  .service-card:hover .service-tag {
-    border-color: color-mix(in srgb, var(--card-accent) 30%, transparent);
-    background: color-mix(in srgb, var(--card-accent) 8%, transparent);
-    color: color-mix(in srgb, var(--card-accent) 80%, white);
   }
 
   @media (max-width: 1024px) {

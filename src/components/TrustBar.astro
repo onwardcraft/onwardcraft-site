@@ -6,52 +6,34 @@ const stats = [
   { value: '4.9/5', label: 'Client Rating' },
 ];
 
-const partners = [
-  { name: 'Roofing', icon: 'sun', color: '#F59E0B' },
-  { name: 'SaaS', icon: 'compass', color: '#3B82F6' },
-  { name: 'Healthcare', icon: 'leaf', color: '#10B981' },
-  { name: 'Solar', icon: 'triangle', color: '#8B5CF6' },
-  { name: 'Law Firms', icon: 'hexagon', color: '#22D3EE' },
-  { name: 'Home Services', icon: 'diamond', color: '#EC4899' },
+const industries = [
+  'Roofing',
+  'Solar',
+  'HVAC',
+  'Law Firms',
+  'Healthcare',
+  'SaaS',
 ];
-
-const icons: Record<string, string> = {
-  sun: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>`,
-  compass: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M16.24 7.76l-2.12 6.36-6.36 2.12 2.12-6.36 6.36-2.12z"/></svg>`,
-  leaf: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 20A7 7 0 019 6a7 7 0 0113-3 7 7 0 01-11 17z"/><path d="M12 20v-8"/><path d="M12 12l4-2"/></svg>`,
-  triangle: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg>`,
-  hexagon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>`,
-  diamond: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h12l4 6-10 13L2 9z"/><path d="M12 22V9"/><path d="M12 9L2 9"/><path d="M12 9l10 0"/></svg>`,
-};
 ---
 
 <section class="trust-bar">
-  <div class="trust-stats container">
-    {stats.map((stat, i) => (
-      <div class="trust-stat reveal" style={`transition-delay: ${i * 100}ms`}>
-        <span class="trust-stat-value">{stat.value}</span>
-        <span class="trust-stat-label">{stat.label}</span>
-      </div>
-    ))}
-  </div>
+  <div class="container">
+    <div class="trust-stats">
+      {stats.map((stat, i) => (
+        <div class="trust-stat reveal" style={`transition-delay: ${i * 100}ms`}>
+          <span class="trust-stat-value">{stat.value}</span>
+          <span class="trust-stat-label">{stat.label}</span>
+        </div>
+      ))}
+    </div>
 
-  <div class="trust-divider"></div>
+    <div class="trust-divider"></div>
 
-  <div class="trust-logos-wrapper">
-    <p class="trust-logos-label reveal">Industries We Serve</p>
-    <div class="trust-logos">
-      <div class="trust-logos-track">
-        {partners.map(p => (
-          <div class="partner-logo">
-            <div class="partner-icon" style={`color: ${p.color}; background: ${p.color}10; border-color: ${p.color}25;`} set:html={icons[p.icon]} />
-            <span class="partner-name">{p.name}</span>
-          </div>
-        ))}
-        {partners.map(p => (
-          <div class="partner-logo">
-            <div class="partner-icon" style={`color: ${p.color}; background: ${p.color}10; border-color: ${p.color}25;`} set:html={icons[p.icon]} />
-            <span class="partner-name">{p.name}</span>
-          </div>
+    <div class="trust-industries reveal">
+      <span class="trust-industries-label">Serving:</span>
+      <div class="trust-industries-pills">
+        {industries.map(name => (
+          <span class="industry-pill">{name}</span>
         ))}
       </div>
     </div>
@@ -60,42 +42,26 @@ const icons: Record<string, string> = {
 
 <style>
   .trust-bar {
-    padding: 80px 0 60px;
+    padding: 60px 0 40px;
     position: relative;
-    overflow: hidden;
   }
 
   .trust-stats {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
-    margin-bottom: 56px;
+    margin-bottom: 40px;
   }
 
   .trust-stat {
     text-align: center;
-    padding: 24px;
+    padding: 20px;
     border-radius: var(--radius-lg);
-    transition: all 0.4s var(--transition);
-    position: relative;
-  }
-
-  .trust-stat::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    background: linear-gradient(135deg, rgba(59, 130, 246, 0.06), rgba(139, 92, 246, 0.06));
-    opacity: 0;
-    transition: opacity 0.4s;
-  }
-
-  .trust-stat:hover::before {
-    opacity: 1;
+    transition: all 0.3s var(--transition);
   }
 
   .trust-stat:hover {
-    transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.02);
   }
 
   .trust-stat-value {
@@ -103,129 +69,57 @@ const icons: Record<string, string> = {
     font-family: var(--font-heading);
     font-size: clamp(32px, 3.5vw, 48px);
     font-weight: 700;
-    background: linear-gradient(135deg, #ffffff 0%, var(--accent-primary) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--text-primary);
     margin-bottom: 8px;
     letter-spacing: -0.03em;
-    position: relative;
-    z-index: 1;
   }
 
   .trust-stat-label {
-    font-size: 13px;
+    font-size: 14px;
     color: var(--text-muted);
     font-weight: 500;
-    position: relative;
-    z-index: 1;
   }
 
   .trust-divider {
-    max-width: var(--container);
-    margin: 0 auto 40px;
-    padding: 0 32px;
-  }
-
-  .trust-divider::before {
-    content: '';
-    display: block;
     height: 1px;
     background: linear-gradient(90deg, transparent, var(--border), transparent);
-  }
-
-  .trust-logos-wrapper {
-    text-align: center;
-  }
-
-  .trust-logos-label {
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    color: var(--text-muted);
     margin-bottom: 28px;
   }
 
-  .trust-logos {
-    overflow: hidden;
-    mask-image: linear-gradient(90deg, transparent, black 10%, black 90%, transparent);
-    -webkit-mask-image: linear-gradient(90deg, transparent, black 10%, black 90%, transparent);
-  }
-
-  .trust-logos-track {
-    display: flex;
-    gap: 48px;
-    width: max-content;
-    animation: scroll-logos 30s linear infinite;
-  }
-
-  .trust-logos:hover .trust-logos-track {
-    animation-play-state: paused;
-  }
-
-  @keyframes scroll-logos {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
-  }
-
-  .partner-logo {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 12px 24px;
-    background: linear-gradient(180deg, rgba(17, 24, 39, 0.6) 0%, rgba(5, 8, 22, 0.4) 100%);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-lg);
-    transition: all 0.4s var(--transition);
-    cursor: pointer;
-    white-space: nowrap;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  }
-
-  .partner-logo:hover {
-    transform: translateY(-3px) scale(1.02);
-    border-color: var(--border-hover);
-    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
-  }
-
-  .partner-icon {
-    width: 36px;
-    height: 36px;
-    border-radius: 10px;
+  .trust-industries {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid;
-    transition: all 0.4s;
+    gap: 16px;
+    flex-wrap: wrap;
   }
 
-  .partner-icon svg {
-    width: 18px;
-    height: 18px;
+  .trust-industries-label {
+    font-size: 13px;
+    color: var(--text-muted);
+    font-weight: 500;
   }
 
-  .partner-logo:hover .partner-icon {
-    transform: scale(1.1) rotate(5deg);
+  .trust-industries-pills {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .partner-name {
-    font-family: var(--font-heading);
-    font-size: 15px;
-    font-weight: 600;
+  .industry-pill {
+    font-size: 13px;
+    font-weight: 500;
     color: var(--text-secondary);
-    letter-spacing: 0.02em;
-    transition: color 0.3s;
-  }
-
-  .partner-logo:hover .partner-name {
-    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    padding: 6px 14px;
+    border-radius: 100px;
   }
 
   @media (max-width: 768px) {
     .trust-stats { grid-template-columns: repeat(2, 1fr); gap: 20px; }
-    .trust-bar { padding: 56px 0 48px; }
-    .partner-logo { padding: 10px 18px; }
-    .partner-name { font-size: 14px; }
+    .trust-bar { padding: 48px 0 32px; }
+    .trust-industries { gap: 10px; }
   }
 </style>

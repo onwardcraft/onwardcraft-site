@@ -3,20 +3,35 @@
 
 <section class="cta-section" id="contact">
   <div class="container">
-    <div class="cta-card reveal gradient-border pulse-glow">
-      <div class="cta-glow"></div>
+    <div class="cta-card reveal">
       <div class="cta-content">
-        <h2>Your Next Customer Just<br>Chose Your Competitor.</h2>
-        <p>In one 30-minute call, we will audit your current site, reverse-engineer your top three competitors, and show you the exact leaks costing you revenue every single day. No pitch deck. No pressure. Just a precise diagnosis and a clear path to fix it.</p>
-        <a href="#" class="cta-button magnetic">
-          Get My Free Revenue Audit
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-        </a>
-      </div>
-      <div class="cta-decoration">
-        <div class="cta-ring cta-ring-1"></div>
-        <div class="cta-ring cta-ring-2"></div>
-        <div class="cta-ring cta-ring-3"></div>
+        <h2>Ready to Stop Losing Leads?</h2>
+        <p>Book a free 30-minute Revenue Audit. We'll diagnose your funnel, reverse-engineer your top competitors, and show you exactly where your site is hemorrhaging revenue.</p>
+
+        <ul class="cta-bullets">
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+            No pitch deck — just a precise diagnosis
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+            Leave with a clear fix-it roadmap
+          </li>
+          <li>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+            100% free. No commitment required.
+          </li>
+        </ul>
+
+        <div class="cta-actions">
+          <a href="/book-call" class="btn-primary">
+            Book My Free Audit
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="/pricing" class="cta-secondary">Or view pricing first →</a>
+        </div>
+
+        <p class="cta-urgency">Limited to 5 audits per week. Average response time: under 4 hours.</p>
       </div>
     </div>
   </div>
@@ -29,37 +44,14 @@
   }
 
   .cta-card {
-    position: relative;
-    background: linear-gradient(180deg, rgba(139, 92, 246, 0.08) 0%, rgba(17, 24, 39, 0.6) 100%);
+    background: rgba(17, 24, 39, 0.5);
+    border: 1px solid var(--border);
     border-radius: var(--radius-xl);
     padding: 80px;
-    overflow: hidden;
     text-align: center;
   }
 
-  .cta-card::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.4), rgba(59, 130, 246, 0.3), transparent);
-  }
-
-  .cta-glow {
-    position: absolute;
-    top: -100px;
-    right: -100px;
-    width: 400px;
-    height: 400px;
-    background: radial-gradient(circle, rgba(139, 92, 246, 0.12) 0%, transparent 70%);
-    pointer-events: none;
-  }
-
   .cta-content {
-    position: relative;
-    z-index: 1;
     max-width: 600px;
     margin: 0 auto;
   }
@@ -70,91 +62,73 @@
     line-height: 1.1;
     letter-spacing: -0.03em;
     margin-bottom: 20px;
+    color: var(--text-primary);
   }
 
-  .cta-content p {
-    font-size: 17px;
+  .cta-content > p {
+    font-size: 18px;
     color: var(--text-secondary);
     line-height: 1.7;
-    margin-bottom: 36px;
+    margin-bottom: 32px;
   }
 
-  .cta-button {
-    display: inline-flex;
+  .cta-bullets {
+    list-style: none;
+    text-align: left;
+    max-width: 360px;
+    margin: 0 auto 36px;
+  }
+
+  .cta-bullets li {
+    display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 18px 36px;
-    background: var(--accent-primary);
-    color: white;
+    gap: 12px;
+    font-size: 15px;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+  }
+
+  .cta-bullets svg {
+    color: var(--accent-primary);
+    flex-shrink: 0;
+  }
+
+  .cta-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+
+  .cta-actions .btn-primary {
+    padding: 16px 32px;
     font-size: 16px;
-    font-weight: 600;
-    border-radius: var(--radius-md);
-    transition: all 0.35s var(--transition);
-    box-shadow: 0 4px 24px rgba(59, 130, 246, 0.3);
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
   }
 
-  .cta-button::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
-    transition: left 0.6s;
+  .cta-secondary {
+    font-size: 15px;
+    color: var(--text-muted);
+    font-weight: 500;
+    transition: color 0.3s;
   }
 
-  .cta-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 32px rgba(59, 130, 246, 0.4);
-    gap: 14px;
+  .cta-secondary:hover {
+    color: var(--text-secondary);
   }
 
-  .cta-button:hover::before {
-    left: 100%;
-  }
-
-  .cta-decoration {
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    overflow: hidden;
-  }
-
-  .cta-ring {
-    position: absolute;
-    border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.03);
-  }
-
-  .cta-ring-1 {
-    width: 600px;
-    height: 600px;
-    bottom: -300px;
-    left: -200px;
-  }
-
-  .cta-ring-2 {
-    width: 400px;
-    height: 400px;
-    top: -150px;
-    right: -100px;
-  }
-
-  .cta-ring-3 {
-    width: 200px;
-    height: 200px;
-    bottom: -80px;
-    right: 100px;
-    border-color: rgba(139, 92, 246, 0.08);
+  .cta-urgency {
+    font-size: 13px;
+    color: var(--text-muted);
+    font-weight: 500;
   }
 
   @media (max-width: 768px) {
     .cta-card { padding: 48px 28px; }
-    .cta-content h2 { font-size: 32px; }
-    .cta-content p { font-size: 15px; }
+    .cta-content h2 { font-size: 28px; }
+    .cta-content > p { font-size: 16px; }
+    .cta-actions { flex-direction: column; gap: 16px; }
+    .cta-actions .btn-primary { width: 100%; max-width: 320px; justify-content: center; }
   }
 </style>

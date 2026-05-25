@@ -2,28 +2,35 @@
 ---
 
 <section class="hero" id="home">
-  <div class="hero-bg">
-    <img src="/Homepage hero.png" alt="" class="hero-bg-img" loading="eager" />
-    <div class="hero-overlay"></div>
-  </div>
+  <div class="hero-bg"></div>
 
   <div class="hero-content">
-    <h1 class="hero-title" id="heroTitle">
-      <span class="title-line" data-animate="words">You Paid for a Site</span>
-      <span class="title-line" data-animate="words">That Looks Great.</span>
-      <span class="title-line accent" data-animate="fade">Where Are the Leads?</span>
+    <p class="hero-eyebrow">Growth Systems for Home Service & Local Businesses</p>
+
+    <h1 class="hero-title">
+      We Turn Your Website Into Your Best Salesperson
     </h1>
 
     <p class="hero-desc">
-      The traffic is there. The intent is real. But between your headline and your contact form, something is broken — and your best prospects are landing on your competitor's site instead. We find the leak, fix the architecture, and build you a site that closes deals while you sleep.
+      Most agencies build pretty sites that don't sell. We engineer conversion systems that rank on Google, capture qualified leads, and close deals while you sleep. Built for roofing, solar, HVAC, law firms, and SaaS companies ready to scale.
     </p>
 
     <div class="hero-actions">
       <a href="/book-call" class="btn-primary">
-        Get My Free Revenue Audit
+        Book Free Revenue Audit
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
       </a>
-      <a href="/work-with-us#results" class="btn-secondary">See How It Works</a>
+      <a href="/case-studies" class="btn-secondary">See Our Results</a>
+    </div>
+
+    <div class="hero-trust">
+      <div class="hero-avatars">
+        <div class="hero-avatar" style="background: linear-gradient(135deg, #3B82F6, #22D3EE);">M</div>
+        <div class="hero-avatar" style="background: linear-gradient(135deg, #8B5CF6, #EC4899);">S</div>
+        <div class="hero-avatar" style="background: linear-gradient(135deg, #F59E0B, #EF4444);">D</div>
+        <div class="hero-avatar" style="background: linear-gradient(135deg, #10B981, #22D3EE);">E</div>
+      </div>
+      <span class="hero-trust-text">Join 90+ businesses generating leads on autopilot</span>
     </div>
   </div>
 </section>
@@ -32,7 +39,7 @@
   .hero {
     min-height: 100vh;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     position: relative;
     overflow: hidden;
   }
@@ -41,22 +48,9 @@
     position: absolute;
     inset: 0;
     z-index: 0;
-  }
-
-  .hero-bg-img {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center top;
-  }
-
-  .hero-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(90deg, rgba(3, 7, 18, 0.82) 0%, rgba(3, 7, 18, 0.55) 40%, rgba(3, 7, 18, 0.2) 100%);
-    z-index: 1;
+    background:
+      radial-gradient(ellipse at 70% 20%, rgba(59, 130, 246, 0.06) 0%, transparent 50%),
+      linear-gradient(160deg, #050816 0%, #0a1229 50%, #050816 100%);
   }
 
   .hero-content {
@@ -65,202 +59,129 @@
     max-width: var(--container);
     margin: 0 auto;
     width: 100%;
-    padding: 140px 32px 100px;
+    padding: 140px 40px 100px;
+  }
+
+  .hero-eyebrow {
+    font-family: var(--font-heading);
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent-primary);
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(12px);
+    animation: heroFadeIn 0.6s var(--transition) 0.2s forwards;
   }
 
   .hero-title {
-    font-size: clamp(43px, 5.4vw, 70px);
+    font-size: clamp(40px, 5vw, 64px);
     font-weight: 700;
     line-height: 1.08;
     letter-spacing: -0.03em;
-    margin-bottom: 28px;
-    color: white;
-    max-width: 640px;
-  }
-
-  .title-line {
-    display: block;
-    white-space: nowrap;
-  }
-
-  .title-line .word {
-    display: inline-block;
+    margin-bottom: 24px;
+    color: var(--text-primary);
+    max-width: 680px;
     opacity: 0;
-    filter: blur(8px);
-    transform: translateY(20px);
-    transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
-                filter 0.7s cubic-bezier(0.22, 1, 0.36, 1),
-                transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
-  }
-
-  .title-line .word.visible {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateY(0);
-  }
-
-  .title-line.accent {
-    background: linear-gradient(135deg, #A78BFA 0%, #22D3EE 50%, #34D399 100%);
-    background-size: 200% 200%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-style: italic;
-    font-weight: 500;
-    font-family: 'Georgia', 'Times New Roman', serif;
-    letter-spacing: -0.02em;
-    animation: gradientTextShift 6s ease infinite;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.6s,
-                transform 0.8s cubic-bezier(0.22, 1, 0.36, 1) 0.6s;
-  }
-
-  .title-line.accent.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  @keyframes gradientTextShift {
-    0%, 100% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
+    transform: translateY(16px);
+    animation: heroFadeIn 0.7s var(--transition) 0.35s forwards;
   }
 
   .hero-desc {
-    font-size: 16px;
-    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    color: var(--text-secondary);
     line-height: 1.7;
     margin-bottom: 36px;
-    max-width: 500px;
+    max-width: 540px;
     opacity: 0;
     transform: translateY(16px);
-    transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.4s,
-                transform 0.7s cubic-bezier(0.22, 1, 0.36, 1) 0.4s;
-  }
-
-  .hero-desc.visible {
-    opacity: 1;
-    transform: translateY(0);
+    animation: heroFadeIn 0.7s var(--transition) 0.5s forwards;
   }
 
   .hero-actions {
     display: flex;
     gap: 14px;
     flex-wrap: wrap;
+    margin-bottom: 32px;
     opacity: 0;
     transform: translateY(16px);
-    transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.6s,
-                transform 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.6s;
-  }
-
-  .hero-actions.visible {
-    opacity: 1;
-    transform: translateY(0);
+    animation: heroFadeIn 0.6s var(--transition) 0.65s forwards;
   }
 
   .hero-actions .btn-primary {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    padding: 14px 28px;
-    background: var(--accent-primary);
-    color: white;
-    font-size: 14px;
-    font-weight: 600;
-    border-radius: 100px;
-    border: none;
-    transition: all 0.35s cubic-bezier(0.22, 1, 0.36, 1);
-    box-shadow: 0 4px 20px rgba(59, 130, 246, 0.2);
-    text-decoration: none;
-  }
-
-  .hero-actions .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 28px rgba(59, 130, 246, 0.3);
-  }
-
-  .hero-actions .btn-primary svg {
-    transition: transform 0.3s;
-  }
-
-  .hero-actions .btn-primary:hover svg {
-    transform: translateX(3px);
+    padding: 16px 28px;
+    font-size: 15px;
   }
 
   .hero-actions .btn-secondary {
-    display: inline-flex;
-    align-items: center;
-    padding: 14px 28px;
-    background: transparent;
-    color: white;
-    font-size: 14px;
-    font-weight: 600;
-    border-radius: 100px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    transition: all 0.35s cubic-bezier(0.22, 1, 0.36, 1);
-    text-decoration: none;
+    padding: 16px 28px;
+    font-size: 15px;
   }
 
-  .hero-actions .btn-secondary:hover {
-    background: rgba(255, 255, 255, 0.08);
-    border-color: rgba(255, 255, 255, 0.4);
-    transform: translateY(-2px);
+  .hero-trust {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    opacity: 0;
+    transform: translateY(12px);
+    animation: heroFadeIn 0.6s var(--transition) 0.8s forwards;
+  }
+
+  .hero-avatars {
+    display: flex;
+  }
+
+  .hero-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-heading);
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    border: 2px solid var(--bg-primary);
+    margin-left: -10px;
+  }
+
+  .hero-avatar:first-child {
+    margin-left: 0;
+  }
+
+  .hero-trust-text {
+    font-size: 14px;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  @keyframes heroFadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   @media (max-width: 768px) {
-    .hero-title { font-size: 36px; }
-    .hero-content { padding: 120px 20px 140px; }
-    .hero-actions { flex-direction: column; align-items: flex-start; }
-    .hero-actions .btn-primary, .hero-actions .btn-secondary { width: 100%; max-width: 280px; justify-content: center; }
-    .hero-overlay { background: linear-gradient(90deg, rgba(3, 7, 18, 0.92) 0%, rgba(3, 7, 18, 0.8) 100%); }
+    .hero-title { font-size: 32px; max-width: 100%; }
+    .hero-desc { font-size: 16px; max-width: 100%; }
+    .hero-content { padding: 120px 20px 100px; }
+    .hero-actions { flex-direction: column; align-items: stretch; }
+    .hero-actions .btn-primary,
+    .hero-actions .btn-secondary { width: 100%; justify-content: center; min-height: 52px; }
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .title-line .word, .title-line.accent, .hero-desc, .hero-actions {
-      opacity: 1 !important;
-      transform: none !important;
-      filter: none !important;
-      transition: none !important;
+    .hero-eyebrow,
+    .hero-title,
+    .hero-desc,
+    .hero-actions,
+    .hero-trust {
+      opacity: 1;
+      transform: none;
+      animation: none;
     }
   }
 </style>
-
-<script is:inline>
-  (function() {
-    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-    function initWordReveal() {
-      document.querySelectorAll('.hero .title-line[data-animate="words"]').forEach((line, lineIndex) => {
-        const text = line.textContent || '';
-        line.innerHTML = '';
-        const words = text.split(' ');
-        words.forEach((word, i) => {
-          const span = document.createElement('span');
-          span.className = 'word';
-          span.textContent = word;
-          span.style.transitionDelay = `${(lineIndex * 0.2) + (i * 0.08) + 0.3}s`;
-          line.appendChild(span);
-          if (i < words.length - 1) {
-            line.appendChild(document.createTextNode(' '));
-          }
-        });
-      });
-    }
-    initWordReveal();
-
-    function triggerHeroAnimations() {
-      if (prefersReducedMotion) return;
-      setTimeout(() => {
-        document.querySelectorAll('.title-line .word, .title-line.accent, .hero-desc, .hero-actions').forEach((el) => {
-          el.classList.add('visible');
-        });
-      }, 100);
-    }
-
-    if (document.readyState === 'complete') {
-      triggerHeroAnimations();
-    } else {
-      window.addEventListener('load', triggerHeroAnimations);
-    }
-  })();
-</script>

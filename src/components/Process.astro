@@ -2,110 +2,61 @@
 const steps = [
   {
     num: '01',
-    title: 'Diagnose the Leaks',
-    desc: 'Before we write a line of code, we find every dollar you are leaving on the table. Competitor intelligence, funnel forensics, and conversion gap mapping — so we know precisely where your prospects are dropping off and why.',
+    title: 'We Find the Leaks',
+    desc: 'Before we write a line of code, we audit your funnel, reverse-engineer your competitors, and map exactly where your prospects are dropping off.',
   },
   {
     num: '02',
-    title: 'Design to Convert',
-    desc: 'Every headline, button, and scroll is engineered for one outcome: action. No aesthetic fluff. Just behavioral psychology and conversion architecture applied to every pixel.',
+    title: 'We Build to Convert',
+    desc: 'Every headline, button, and scroll trigger is engineered for action. No aesthetic fluff. Just behavioral psychology applied to every pixel.',
   },
   {
     num: '03',
-    title: 'Build for Performance',
-    desc: 'Sub-second load times. SEO architecture baked into the foundation. Clean, scalable code that ranks before your first visitor arrives. Performance is not an afterthought — it is the foundation.',
+    title: 'We Launch & Optimize',
+    desc: 'The launch is day one. We measure, A/B test, and refine — so your results compound week over week while you focus on closing deals.',
   },
-  {
-    num: '04',
-    title: 'Launch & Optimize',
-    desc: 'The launch is day one. We A/B test, measure, and refine — so your results compound week over week. Most agencies hand you the keys and disappear. We stick around until the numbers prove it works.',
-  },
+];
+
+const bottomStats = [
+  { value: '4-6 weeks', label: 'Average timeline' },
+  { value: '94%', label: 'Success rate' },
+  { value: '78%', label: 'Clients who refer' },
 ];
 ---
 
 <section class="process-section" id="process">
   <div class="container">
     <div class="process-header reveal">
-      <p class="section-label scramble-text">Build Process</p>
-      <h2 class="section-title">From Diagnosis<br>to Dominance.</h2>
-      <p class="section-subtitle">No surprises. No scope creep. Just a rigorous 4-step system that transforms your website from a cost center into your most profitable channel.</p>
+      <p class="section-label">How It Works</p>
+      <h2 class="section-title">Three Steps. One Outcome: Growth.</h2>
+      <p class="section-subtitle">No surprises. No scope creep. Just a rigorous system that transforms your website from a cost center into your most profitable channel.</p>
     </div>
 
-    <div class="process-layout">
-      <!-- Left: Steps -->
-      <div class="process-steps reveal">
-        {steps.map((step, i) => (
-          <div class="process-step" data-step={i}>
-            <div class="step-line">
-              <div class="step-line-bar"></div>
-            </div>
-            <div class="step-content">
-              <span class="step-num">{step.num}</span>
-              <h3>{step.title}</h3>
-              <p>{step.desc}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <!-- Right: Stats Dashboard -->
-      <div class="process-mockup reveal">
-        <div class="stats-dashboard">
-          <div class="stats-dashboard-header">
-            <span>Growth Analytics</span>
-            <div class="live-dot"></div>
-          </div>
-          <div class="stats-dashboard-body">
-            <!-- Main metric -->
-            <div class="main-stat">
-              <span class="main-stat-label">Monthly Revenue</span>
-              <span class="main-stat-value">$124,890</span>
-              <span class="main-stat-change">+23.5%</span>
-            </div>
-            <!-- Mini chart -->
-            <div class="mini-chart">
-              <div class="chart-bars">
-                {[40, 55, 45, 70, 60, 85, 75, 90, 80, 95].map((h, j) => (
-                  <div class="chart-bar" style={`height: ${h}%; animation-delay: ${j * 0.1}s`}></div>
-                ))}
-              </div>
-            </div>
-            <!-- Stat grid -->
-            <div class="stat-grid">
-              <div class="stat-grid-item">
-                <span class="sg-label">Leads</span>
-                <span class="sg-value">2,847</span>
-                <span class="sg-change up">+18%</span>
-              </div>
-              <div class="stat-grid-item">
-                <span class="sg-label">Conversion</span>
-                <span class="sg-value">4.2%</span>
-                <span class="sg-change up">+0.8%</span>
-              </div>
-              <div class="stat-grid-item">
-                <span class="sg-label">Traffic</span>
-                <span class="sg-value">67.8K</span>
-                <span class="sg-change up">+31%</span>
-              </div>
-              <div class="stat-grid-item">
-                <span class="sg-label">Bounce</span>
-                <span class="sg-value">32%</span>
-                <span class="sg-change down">-5%</span>
-              </div>
-            </div>
-          </div>
+    <div class="process-grid stagger-children">
+      {steps.map((step, i) => (
+        <div class="process-step stagger-item reveal" style={`transition-delay: ${i * 120}ms`}>
+          <span class="step-number">{step.num}</span>
+          <h3>{step.title}</h3>
+          <p>{step.desc}</p>
         </div>
-      </div>
+      ))}
+    </div>
+
+    <div class="process-bottom-stats reveal">
+      {bottomStats.map(stat => (
+        <div class="process-stat">
+          <span class="process-stat-value">{stat.value}</span>
+          <span class="process-stat-label">{stat.label}</span>
+        </div>
+      ))}
     </div>
   </div>
 </section>
 
 <style>
   .process-section {
-    padding: 160px 0;
-    background: var(--bg-primary);
+    padding: 180px 0;
     position: relative;
-    overflow: hidden;
   }
 
   .process-section::before {
@@ -134,305 +85,81 @@ const steps = [
     margin-right: auto;
   }
 
-  .process-layout {
+  .process-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 80px;
-    align-items: stretch;
-  }
-
-  /* Left Steps */
-  .process-steps {
-    position: relative;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-bottom: 80px;
   }
 
   .process-step {
-    display: flex;
-    gap: 24px;
-    padding-bottom: 48px;
-    position: relative;
-    opacity: 0.6;
-    transition: opacity 0.5s var(--transition);
+    text-align: center;
+    padding: 40px;
   }
 
-  .process-step.active {
-    opacity: 1;
-  }
-
-  .process-step:last-child {
-    padding-bottom: 0;
-  }
-
-  .step-line {
-    position: relative;
-    width: 2px;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .step-line::before {
-    content: '';
-    position: absolute;
-    top: 8px;
-    bottom: 0;
-    width: 1px;
-    background: linear-gradient(180deg, rgba(59, 130, 246, 0.3), rgba(139, 92, 246, 0.1) 60%, transparent);
-  }
-
-  .process-step:last-child .step-line::before {
-    display: none;
-  }
-
-  .step-line-bar {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: var(--accent-primary);
-    box-shadow: 0 0 12px rgba(59, 130, 246, 0.4);
-    position: relative;
-    z-index: 1;
-    margin-top: 6px;
-    flex-shrink: 0;
-    transition: all 0.4s var(--transition);
-  }
-
-  .process-step.active .step-line-bar {
-    width: 12px;
-    height: 12px;
-    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-    box-shadow: 0 0 20px rgba(59, 130, 246, 0.6), 0 0 40px rgba(34, 211, 238, 0.2);
-  }
-
-  .step-num {
+  .step-number {
     display: block;
     font-family: var(--font-heading);
-    font-size: 13px;
+    font-size: 64px;
     font-weight: 700;
     color: var(--accent-primary);
-    letter-spacing: 0.06em;
-    margin-bottom: 8px;
+    opacity: 0.25;
+    line-height: 1;
+    margin-bottom: 20px;
   }
 
-  .step-content h3 {
-    font-size: 28px;
+  .process-step h3 {
+    font-size: 22px;
     font-weight: 700;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
     letter-spacing: -0.02em;
-    line-height: 1.2;
-    transition: color 0.3s;
-  }
-
-  .process-step.active .step-content h3 {
     color: var(--text-primary);
   }
 
-  .step-content p {
-    font-size: 15px;
+  .process-step p {
+    font-size: 16px;
     color: var(--text-secondary);
     line-height: 1.7;
   }
 
-  /* Right: Stats Dashboard */
-  .process-mockup {
-    position: sticky;
-    top: 140px;
-    align-self: start;
-  }
-
-  .stats-dashboard {
-    background: linear-gradient(180deg, rgba(17, 24, 39, 0.8) 0%, rgba(5, 8, 22, 0.9) 100%);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: var(--radius-xl);
-    overflow: hidden;
-    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.5);
-    transition: all 0.5s var(--transition);
-    height: 100%;
+  .process-bottom-stats {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 60px;
+    border-top: 1px solid var(--border);
   }
 
-  .stats-dashboard:hover {
-    border-color: rgba(59, 130, 246, 0.2);
-    box-shadow: 0 48px 96px rgba(0, 0, 0, 0.5), 0 0 40px rgba(59, 130, 246, 0.05);
-    transform: translateY(-4px);
+  .process-stat {
+    text-align: center;
   }
 
-  .stats-dashboard-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 24px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-    background: rgba(17, 24, 39, 0.4);
-  }
-
-  .stats-dashboard-header span {
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--text-primary);
-  }
-
-  .live-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: #10B981;
-    position: relative;
-    animation: livePulse 2s ease-in-out infinite;
-  }
-
-  @keyframes livePulse {
-    0%, 100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); }
-    50% { box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
-  }
-
-  .stats-dashboard-body {
-    padding: 28px 24px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    flex: 1;
-  }
-
-  .main-stat {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-  }
-
-  .main-stat-label {
-    font-size: 12px;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-  }
-
-  .main-stat-value {
+  .process-stat-value {
+    display: block;
     font-family: var(--font-heading);
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
     color: var(--text-primary);
+    margin-bottom: 6px;
     letter-spacing: -0.02em;
   }
 
-  .main-stat-change {
-    font-size: 13px;
-    font-weight: 600;
-    color: #34D399;
-  }
-
-  .mini-chart {
-    height: 80px;
-  }
-
-  .chart-bars {
-    display: flex;
-    align-items: flex-end;
-    gap: 6px;
-    height: 100%;
-  }
-
-  .chart-bar {
-    flex: 1;
-    background: linear-gradient(180deg, rgba(59, 130, 246, 0.6), rgba(59, 130, 246, 0.1));
-    border-radius: 3px 3px 0 0;
-    animation: barGrow 0.8s ease-out backwards;
-    min-height: 4px;
-  }
-
-  @keyframes barGrow {
-    from { height: 0 !important; }
-  }
-
-  .stat-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
-    margin-top: auto;
-  }
-
-  .stat-grid-item {
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    border-radius: var(--radius-md);
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    transition: all 0.3s;
-  }
-
-  .stat-grid-item:hover {
-    background: rgba(255, 255, 255, 0.05);
-    border-color: rgba(255, 255, 255, 0.1);
-  }
-
-  .sg-label {
-    font-size: 11px;
+  .process-stat-label {
+    font-size: 14px;
     color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-
-  .sg-value {
-    font-family: var(--font-heading);
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--text-primary);
-  }
-
-  .sg-change {
-    font-size: 12px;
-    font-weight: 600;
-  }
-
-  .sg-change.up {
-    color: #34D399;
-  }
-
-  .sg-change.down {
-    color: #34D399;
+    font-weight: 500;
   }
 
   @media (max-width: 1024px) {
     .process-header { text-align: center; margin: 0 auto 80px; }
-    .process-layout { grid-template-columns: 1fr; gap: 60px; }
-    .process-mockup { position: relative; top: 0; max-width: 520px; margin: 0 auto; }
-    .step-content h3 { font-size: 24px; }
-    .process-step { opacity: 1; }
+    .process-grid { grid-template-columns: 1fr; gap: 20px; max-width: 520px; margin: 0 auto 60px; }
+    .process-bottom-stats { gap: 40px; }
   }
 
   @media (max-width: 640px) {
     .process-section { padding: 100px 0; }
-    .process-step { gap: 16px; padding-bottom: 36px; }
-    .step-content h3 { font-size: 22px; }
-    .stats-dashboard-body { padding: 20px 16px; }
-    .main-stat-value { font-size: 28px; }
-    .stat-grid { gap: 10px; }
-    .stat-grid-item { padding: 12px; }
+    .step-number { font-size: 48px; }
+    .process-step { padding: 24px; }
+    .process-bottom-stats { flex-direction: column; gap: 24px; }
   }
 </style>
-
-<script is:inline>
-  (function() {
-    // Active step highlighting based on scroll
-    const steps = document.querySelectorAll('.process-step');
-    if (!steps.length) return;
-
-    const stepObserver = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            steps.forEach((s) => s.classList.remove('active'));
-            entry.target.classList.add('active');
-          }
-        });
-      },
-      { threshold: 0.5, rootMargin: '-100px 0px -40% 0px' }
-    );
-
-    steps.forEach((step) => stepObserver.observe(step));
-  })();
-</script>

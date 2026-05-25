@@ -2,141 +2,70 @@
 const testimonials = [
   {
     name: 'Marcus Chen',
-    role: 'CEO, Roofing Company',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop&crop=face',
-    text: 'Our website went from a digital brochure to our best salesperson. 412% more qualified leads in 90 days. The strategic thinking behind every page is something I have never seen from an agency before.',
+    company: 'Apex Roofing',
+    role: 'CEO',
+    initials: 'MC',
+    color: 'linear-gradient(135deg, #3B82F6, #22D3EE)',
+    text: '412% more qualified leads in 90 days. Our website went from a cost to our best salesperson.',
   },
   {
     name: 'Sarah Williams',
-    role: 'Founder, B2B SaaS Platform',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=500&fit=crop&crop=face',
-    text: 'The level of strategic thinking they brought was unlike any agency we have worked with. They do not just build websites — they architect growth systems. Our trial conversion rate jumped from 2.1% to 8.7%.',
+    company: 'CloudSync',
+    role: 'Founder',
+    initials: 'SW',
+    color: 'linear-gradient(135deg, #8B5CF6, #EC4899)',
+    text: 'Trial conversion jumped from 2.1% to 8.7%. They do not just build sites — they architect growth.',
   },
   {
     name: 'David Park',
-    role: 'CMO, Healthcare Provider',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=500&fit=crop&crop=face',
-    text: 'Our organic traffic tripled within four months. The SEO strategy was meticulous, the execution flawless, and the results speak for themselves. We went from invisible to ranking top 3 for 40+ keywords.',
+    company: 'MedFirst',
+    role: 'CMO',
+    initials: 'DP',
+    color: 'linear-gradient(135deg, #F59E0B, #EF4444)',
+    text: 'From invisible to top 3 for 40+ keywords in four months. The SEO strategy was surgical.',
   },
   {
     name: 'Elena Rodriguez',
-    role: 'Director, Tech Startup',
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=500&fit=crop&crop=face',
-    text: 'They understood our complex B2B sales cycle and built a site that nurtures prospects at every stage. Conversion rate went from 1.2% to 4.7%. That is the difference between a vendor and a true partner.',
+    company: 'Nexus Tech',
+    role: 'Director',
+    initials: 'ER',
+    color: 'linear-gradient(135deg, #10B981, #22D3EE)',
+    text: 'Conversion rate went from 1.2% to 4.7%. That is the difference between a vendor and a partner.',
   },
-];
-
-const stats = [
-  { value: '412%', label: 'Average Lead Increase', desc: 'Within 90 days of launch' },
-  { value: '90+', label: 'Growth Systems Built', desc: 'Across every major industry' },
-  { value: '4.9', label: 'Client Satisfaction', desc: 'Rated on 50+ reviews' },
 ];
 ---
 
 <section class="testimonials-section">
   <div class="container">
     <div class="testimonials-header reveal">
-      <h2 class="section-title">Skeptical at First.<br>Believers Now.</h2>
-      <p class="section-subtitle">Every person here hired an agency before us. Paid premium prices. Got templated mediocrity. Then they experienced what happens when strategy, engineering, and execution actually align.</p>
+      <p class="section-label">Testimonials</p>
+      <h2 class="section-title">What Our Clients Say</h2>
+      <p class="section-subtitle">Real results from real businesses.</p>
     </div>
 
-    <div class="testimonials-carousel">
-      <button class="carousel-arrow carousel-prev" aria-label="Previous testimonial">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
-      </button>
-
-      <div class="carousel-viewport">
-        {testimonials.map((t, i) => (
-          <div class={`testimonial-slide ${i === 0 ? 'active' : ''}`} data-slide={i}>
-            <div class="testimonial-card">
-              <div class="testimonial-content">
-                <svg class="quote-mark" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V21c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
-                <p class="testimonial-text">"{t.text}"</p>
-                <div class="testimonial-author">
-                  <strong>{t.name}</strong>
-                  <span>{t.role}</span>
-                </div>
-              </div>
+    <div class="testimonials-grid stagger-children">
+      {testimonials.map((t, i) => (
+        <div class="testimonial-card stagger-item reveal" style={`transition-delay: ${i * 100}ms`}>
+          <p class="testimonial-text">"{t.text}"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style={`background: ${t.color}`}>
+              {t.initials}
+            </div>
+            <div class="testimonial-author-info">
+              <strong>{t.name}</strong>
+              <span>{t.role}, {t.company}</span>
             </div>
           </div>
-        ))}
-      </div>
-
-      <button class="carousel-arrow carousel-next" aria-label="Next testimonial">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
-      </button>
-    </div>
-
-    <!-- Dots -->
-    <div class="carousel-dots">
-      {testimonials.map((_, i) => (
-        <button class={`carousel-dot ${i === 0 ? 'active' : ''}`} data-dot={i} aria-label={`Go to testimonial ${i + 1}`}></button>
-      ))}
-    </div>
-
-    <!-- Stats -->
-    <div class="testimonial-stats">
-      {stats.map(s => (
-        <div class="t-stat reveal">
-          <span class="t-stat-value">{s.value}</span>
-          <span class="t-stat-label">{s.label}</span>
-          <span class="t-stat-desc">{s.desc}</span>
         </div>
       ))}
     </div>
   </div>
 </section>
 
-<script is:inline>
-  (function() {
-    var slides = document.querySelectorAll('.testimonial-slide');
-    var prevBtn = document.querySelector('.carousel-prev');
-    var nextBtn = document.querySelector('.carousel-next');
-    var dots = document.querySelectorAll('.carousel-dot');
-
-    if (!slides.length) return;
-
-    var current = 0;
-    var total = slides.length;
-    var intervalId;
-
-    function goTo(index) {
-      if (index < 0) index = total - 1;
-      if (index >= total) index = 0;
-      current = index;
-
-      slides.forEach(function(slide, i) {
-        slide.classList.toggle('active', i === current);
-      });
-
-      dots.forEach(function(dot, i) {
-        dot.classList.toggle('active', i === current);
-      });
-    }
-
-    prevBtn && prevBtn.addEventListener('click', function() { goTo(current - 1); resetTimer(); });
-    nextBtn && nextBtn.addEventListener('click', function() { goTo(current + 1); resetTimer(); });
-
-    dots.forEach(function(dot, i) {
-      dot.addEventListener('click', function() { goTo(i); resetTimer(); });
-    });
-
-    function resetTimer() {
-      clearInterval(intervalId);
-      intervalId = setInterval(function() { goTo(current + 1); }, 6000);
-    }
-
-    goTo(0);
-    intervalId = setInterval(function() { goTo(current + 1); }, 6000);
-  })();
-</script>
-
 <style>
   .testimonials-section {
-    padding: 160px 0;
-    background: var(--bg-primary);
+    padding: 180px 0;
     position: relative;
-    overflow: hidden;
   }
 
   .testimonials-section::before {
@@ -151,219 +80,87 @@ const stats = [
 
   .testimonials-header {
     text-align: center;
-    max-width: 640px;
+    max-width: 560px;
     margin: 0 auto 80px;
   }
 
   .testimonials-header .section-title {
-    font-size: clamp(32px, 5vw, 52px);
-    font-weight: 700;
-    letter-spacing: -0.03em;
-    line-height: 1.1;
-    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .testimonials-header .section-subtitle {
-    font-size: 17px;
-    color: var(--text-secondary);
-    line-height: 1.6;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .testimonials-carousel {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-
-  .carousel-viewport {
-    position: relative;
-    width: 100%;
-    min-height: 400px;
-  }
-
-  .testimonial-slide {
-    display: none;
-    opacity: 0;
-    transform: translateX(30px) scale(0.98);
-    transition: opacity 0.5s ease, transform 0.5s ease;
-  }
-
-  .testimonial-slide.active {
-    display: block;
-    opacity: 1;
-    transform: translateX(0) scale(1);
   }
 
   .testimonial-card {
-    display: block;
-    background: linear-gradient(180deg, rgba(139, 92, 246, 0.06) 0%, rgba(17, 24, 39, 0.5) 100%);
-    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: rgba(17, 24, 39, 0.4);
+    border: 1px solid var(--border);
     border-radius: var(--radius-xl);
-    overflow: hidden;
-    position: relative;
-    text-align: center;
+    padding: 40px;
+    transition: all 0.3s var(--transition);
   }
 
-  .testimonial-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.3), rgba(59, 130, 246, 0.2), transparent);
-    z-index: 1;
-  }
-
-  .testimonial-content {
-    padding: 64px 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
-
-  .quote-mark {
-    color: rgba(139, 92, 246, 0.25);
-    margin-bottom: 20px;
+  .testimonial-card:hover {
+    border-color: var(--border-hover);
+    background: rgba(17, 24, 39, 0.55);
   }
 
   .testimonial-text {
-    font-size: 20px;
+    font-size: 17px;
     line-height: 1.7;
     color: var(--text-secondary);
-    margin-bottom: 32px;
+    margin-bottom: 28px;
   }
 
-  .testimonial-author strong {
-    display: block;
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--text-primary);
-    margin-bottom: 4px;
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 14px;
   }
 
-  .testimonial-author span {
-    font-size: 15px;
-    color: var(--text-muted);
-  }
-
-  .carousel-arrow {
-    width: 52px;
-    height: 52px;
+  .testimonial-avatar {
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid var(--border);
-    color: var(--text-muted);
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
-    transition: all 0.3s;
-    flex-shrink: 0;
-    z-index: 2;
-  }
-
-  .carousel-arrow:hover {
-    background: rgba(59, 130, 246, 0.1);
-    border-color: rgba(59, 130, 246, 0.3);
-    color: var(--accent-primary);
-    transform: scale(1.05);
-  }
-
-  .carousel-dots {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 28px;
-  }
-
-  .carousel-dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s;
-    padding: 0;
-  }
-
-  .carousel-dot.active {
-    background: var(--accent-primary);
-    width: 24px;
-    border-radius: 4px;
-  }
-
-  .carousel-dot:hover {
-    background: rgba(255, 255, 255, 0.2);
-  }
-
-  .testimonial-stats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 60px;
-    max-width: 900px;
-    margin: 100px auto 0;
-    padding-top: 80px;
-    border-top: 1px solid var(--border);
-  }
-
-  .t-stat {
-    text-align: center;
-  }
-
-  .t-stat-value {
-    display: block;
     font-family: var(--font-heading);
-    font-size: clamp(48px, 6vw, 72px);
+    font-size: 13px;
     font-weight: 700;
-    background: linear-gradient(135deg, var(--text-primary), var(--accent-secondary));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    letter-spacing: -0.03em;
-    line-height: 1;
-    margin-bottom: 12px;
+    color: white;
+    flex-shrink: 0;
   }
 
-  .t-stat-label {
+  .testimonial-author-info strong {
     display: block;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 700;
     color: var(--text-primary);
-    margin-bottom: 8px;
+    margin-bottom: 2px;
   }
 
-  .t-stat-desc {
-    display: block;
+  .testimonial-author-info span {
     font-size: 14px;
     color: var(--text-muted);
-    line-height: 1.5;
-    max-width: 240px;
-    margin: 0 auto;
   }
 
-  @media (max-width: 1024px) {
-    .testimonial-content { padding: 48px 40px; }
-    .testimonial-text { font-size: 17px; }
-    .testimonials-carousel { gap: 12px; }
-    .carousel-viewport { min-height: auto; }
-    .testimonial-stats { gap: 40px; padding-top: 60px; margin-top: 60px; }
-    .t-stat-value { font-size: 40px; }
+  @media (max-width: 768px) {
+    .testimonials-grid { grid-template-columns: 1fr; }
+    .testimonial-card { padding: 28px; }
+    .testimonial-text { font-size: 15px; }
   }
 
   @media (max-width: 640px) {
     .testimonials-section { padding: 100px 0; }
-    .testimonial-content { padding: 36px 24px; }
-    .testimonial-text { font-size: 15px; }
-    .carousel-arrow { width: 44px; height: 44px; }
-    .testimonial-stats { grid-template-columns: 1fr; gap: 32px; }
-    .t-stat-value { font-size: 36px; }
+    .testimonials-header { margin-bottom: 48px; }
   }
 </style>

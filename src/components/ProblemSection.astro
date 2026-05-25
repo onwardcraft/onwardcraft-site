@@ -1,0 +1,140 @@
+---
+const problems = [
+  {
+    icon: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>`,
+    title: 'Traffic Without Conversion',
+    body: 'You rank. You get visitors. But 97% leave without taking action. Your site is a revolving door, not a funnel.',
+  },
+  {
+    icon: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>`,
+    title: 'Leads That Go Nowhere',
+    body: 'The few inquiries you get are price shoppers and tire kickers. No qualification. No nurturing. Just noise in your inbox.',
+  },
+  {
+    icon: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>`,
+    title: 'Losing to Inferior Competitors',
+    body: 'Your competitor has worse service, higher prices, and a Wix site from 2019. But they show up first on Google and you don\'t.',
+  },
+];
+---
+
+<section class="problem-section" id="problems">
+  <div class="container">
+    <div class="problem-header reveal">
+      <p class="section-label">The Real Problem</p>
+      <h2 class="section-title">Your Website Looks Professional. It Just Doesn&rsquo;t Work.</h2>
+      <p class="section-subtitle">You spent $5K, $10K, maybe $20K on a site that loads fast and looks modern. But the leads? Crickets. Here&rsquo;s what we see every day:</p>
+    </div>
+
+    <div class="problem-grid stagger-children">
+      {problems.map((p, i) => (
+        <div class="problem-card stagger-item reveal" style={`transition-delay: ${i * 120}ms`}>
+          <div class="problem-icon" set:html={p.icon} />
+          <h3>{p.title}</h3>
+          <p>{p.body}</p>
+        </div>
+      ))}
+    </div>
+
+    <div class="problem-cta reveal">
+      <a href="/book-call" class="btn-primary">
+        This Sounds Like Me &mdash; Book a Free Audit
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .problem-section {
+    padding: 180px 0;
+    position: relative;
+  }
+
+  .problem-header {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto 80px;
+  }
+
+  .problem-header .section-title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .problem-header .section-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .problem-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-bottom: 60px;
+  }
+
+  .problem-card {
+    background: rgba(17, 24, 39, 0.5);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: 40px;
+    transition: all 0.3s var(--transition);
+  }
+
+  .problem-card:hover {
+    border-color: var(--border-hover);
+    background: rgba(17, 24, 39, 0.65);
+    transform: translateY(-4px);
+  }
+
+  .problem-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(59, 130, 246, 0.08);
+    border: 1px solid rgba(59, 130, 246, 0.15);
+    color: var(--accent-primary);
+    margin-bottom: 24px;
+  }
+
+  .problem-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: var(--text-primary);
+    letter-spacing: -0.02em;
+  }
+
+  .problem-card p {
+    font-size: 16px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+
+  .problem-cta {
+    text-align: center;
+  }
+
+  .problem-cta .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    padding: 16px 28px;
+  }
+
+  @media (max-width: 1024px) {
+    .problem-grid { grid-template-columns: 1fr; max-width: 540px; margin: 0 auto 48px; }
+  }
+
+  @media (max-width: 768px) {
+    .problem-section { padding: 100px 0; }
+    .problem-header { margin-bottom: 48px; }
+    .problem-card { padding: 32px 24px; }
+    .problem-cta .btn-primary { width: 100%; max-width: 360px; justify-content: center; }
+  }
+</style>
