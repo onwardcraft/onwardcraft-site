@@ -409,18 +409,27 @@ const faqs = [
         <div class="calendly-wrapper reveal">
           <div class="calendly-card-deck">
             <div class="calendly-header-deck">
-              <h3>Select a Time</h3>
+              <h3>Book Your Free Call</h3>
               <p>Pick a 30-minute slot. We will send a calendar invite with a meeting link.</p>
             </div>
-            <div class="calendly-embed">
-              <iframe
-                src="https://cal.com/rachit-nand-ud0itz/30min?embed=true&theme=dark"
-                width="100%"
-                height="600"
-                frameborder="0"
-                title="Book a call with OnwardCraft"
-                style="border-radius: 0 0 var(--radius-xl) var(--radius-xl);"
-              ></iframe>
+            <div class="calendly-cta-body">
+              <div class="calendly-cta-icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                  <line x1="16" y1="2" x2="16" y2="6"/>
+                  <line x1="8" y1="2" x2="8" y2="6"/>
+                  <line x1="3" y1="10" x2="21" y2="10"/>
+                </svg>
+              </div>
+              <p class="calendly-cta-text">30 minutes. Zero obligation. A clear roadmap to more leads.</p>
+              <a href="https://cal.com/rachit-nand-ud0itz/30min" target="_blank" rel="noopener" class="cta-button magnetic">
+                Pick a Time
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <p class="calendly-cta-sub">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                No credit card required
+              </p>
             </div>
           </div>
         </div>
@@ -1236,8 +1245,38 @@ const faqs = [
   .calendly-header-deck { padding: 36px 40px; border-bottom: 1px solid rgba(255,255,255,0.06); }
   .calendly-header-deck h3 { font-size: 22px; font-weight: 700; margin-bottom: 8px; color: var(--text-primary); }
   .calendly-header-deck p { font-size: 15px; color: var(--text-secondary); line-height: 1.6; }
-  .calendly-embed { min-height: 600px; }
-  .calendly-embed iframe { display: block; width: 100%; min-height: 600px; border: none; }
+  .calendly-cta-body { padding: 48px 40px; text-align: center; }
+  .calendly-cta-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(59,130,246,0.1);
+    border: 1px solid rgba(59,130,246,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent-primary);
+    margin: 0 auto 20px;
+  }
+  .calendly-cta-text {
+    font-size: 16px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 24px;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .calendly-cta-sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 20px;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  .calendly-cta-sub svg { color: #34D399; }
 
   .expect-wrapper { display: flex; flex-direction: column; gap: 24px; position: sticky; top: 120px; }
   .expect-card-deck, .trust-card-deck, .faq-card-deck {
@@ -1326,7 +1365,7 @@ const faqs = [
     .guarantee-icon { margin: 0 auto; }
     .testimonial-card { padding: 32px 24px; }
     .calendly-header-deck { padding: 24px; }
-    .calendly-embed iframe { min-height: 500px; }
+    .calendly-cta-body { padding: 36px 24px; }
     .gradient-blob { display: none; }
   }
 </style>
