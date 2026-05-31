@@ -36,6 +36,95 @@ const {
     <script>
       document.body.classList.add('js-enabled');
 
+      // ── GA4 Event Tracking ──
+      (function () {
+        function getCtaLocation(el) {
+          const section = el.closest('section[id]');
+          if (section) return section.id;
+          const component = el.closest('[class*="cta"], [class*="hero"], [class*="pricing"], [class*="navbar"], [class*="footer"]');
+          if (component) {
+            const cls = component.className;
+            if (cls.includes('hero')) return 'hero';
+            if (cls.includes('navbar')) return 'navbar';
+            if (cls.includes('pricing')) return 'pricing';
+            if (cls.includes('footer')) return 'footer';
+            if (cls.includes('cta')) return 'cta_section';
+          }
+          return 'unknown';
+        }
+
+        // Track CTA link clicks
+        document.addEventListener('click', function (e) {
+          const link = e.target.closest('a');
+          if (!link) return;
+
+          const href = link.getAttribute('href') || '';
+          const text = (link.textContent || '').trim();
+          const location = getCtaLocation(link);
+
+          // Calendly bookings
+          if (href.includes('calendly.com')) {
+            gtag && gtag('event', 'cta_click', {
+              event_category: 'engagement',
+              event_label: text || 'Book a Call',
+              destination: 'calendly',
+              cta_location: location,
+            });
+            return;
+          }
+
+          // Contact page / #contact
+          if (href === '/contact' || href === '#contact') {
+            gtag && gtag('event', 'cta_click', {
+              event_category: 'engagement',
+              event_label: text || 'Contact',
+              destination: 'contact',
+              cta_location: location,
+            });
+            return;
+          }
+
+          // Pricing page
+          if (href === '/pricing') {
+            gtag && gtag('event', 'cta_click', {
+              event_category: 'engagement',
+              event_label: text || 'Pricing',
+              destination: 'pricing',
+              cta_location: location,
+            });
+            return;
+          }
+
+          // Case studies
+          if (href === '/case-studies') {
+            gtag && gtag('event', 'cta_click', {
+              event_category: 'engagement',
+              event_label: text || 'Case Studies',
+              destination: 'case_studies',
+              cta_location: location,
+            });
+            return;
+          }
+        });
+
+        // Track contact form submissions
+        const contactForm = document.querySelector('.contact-form');
+        if (contactForm) {
+          contactForm.addEventListener('submit', function () {
+            const need = contactForm.querySelector('input[name="need"]:checked')?.value || '';
+            const budget = contactForm.querySelector('input[name="budget"]:checked')?.value || '';
+
+            gtag && gtag('event', 'form_submit', {
+              event_category: 'lead',
+              event_label: 'contact_form',
+              form_id: 'contact',
+              need_type: need,
+              budget_range: budget,
+            });
+          });
+        }
+      })();
+
       // ── IntersectionObserver reveal ──
       const observer = new IntersectionObserver(
         (entries) => {
