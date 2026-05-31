@@ -1,0 +1,55 @@
+# OnwardCraft
+
+> OnwardCraft is a digital growth agency that turns websites into revenue machines for home service and local businesses. We specialize in high-converting web design, SEO, and lead generation.
+
+## Overview
+
+OnwardCraft helps ambitious business owners grow through:
+
+- **Web Design** — Custom, conversion-focused websites built to generate leads
+- **SEO** — Data-driven search optimization that ranks you on page one
+- **Lead Generation** — Complete systems to attract, capture, and convert qualified prospects
+
+Our approach combines strategic design, technical excellence, and continuous optimization to deliver measurable business results.
+
+## Key Pages
+
+- [Homepage](https://onwardcraft.com/) — Learn about our services and approach
+- [Services](https://onwardcraft.com/services/) — Overview of all services we offer
+- [Web Design](https://onwardcraft.com/services/web-design/) — Custom website design services
+- [SEO](https://onwardcraft.com/services/seo/) — Search engine optimization services
+- [Lead Generation](https://onwardcraft.com/services/lead-generation/) — Lead generation systems
+- [Pricing](https://onwardcraft.com/pricing/) — Transparent pricing for all packages
+- [Process](https://onwardcraft.com/process/) — How we work with clients
+- [Case Studies](https://onwardcraft.com/case-studies/) — Results we've delivered for clients
+- [Blog](https://onwardcraft.com/blog/) — Growth tactics, web design & SEO insights
+- [About](https://onwardcraft.com/about/) — Meet the team
+- [Contact](https://onwardcraft.com/contact/) — Get in touch
+- [Book a Call](https://onwardcraft.com/book-call/) — Schedule a free strategy call
+
+## Blog
+
+Our blog covers actionable insights for business owners:
+
+- [How Much Does a Website Cost in 2026?](https://onwardcraft.com/blog/how-much-does-a-website-cost-2026/)
+- [How Much Does SEO Cost in 2026?](https://onwardcraft.com/blog/how-much-does-seo-cost-in-2026/)
+- [DIY Website vs Hiring an Agency](https://onwardcraft.com/blog/diy-website-vs-hiring-an-agency/)
+- [DIY SEO vs Hiring an Agency](https://onwardcraft.com/blog/diy-seo-vs-hiring-an-agency-pros-and-cons/)
+- [How to Choose a Web Design Agency](https://onwardcraft.com/blog/how-to-choose-a-web-design-agency/)
+- [How to Choose the Right SEO Agency](https://onwardcraft.com/blog/how-to-choose-the-right-seo-agency/)
+- [What Does an SEO Agency Actually Do?](https://onwardcraft.com/blog/what-does-an-seo-agency-actually-do/)
+- [How Long Does It Take to Build a Website?](https://onwardcraft.com/blog/how-long-does-it-take-to-build-a-website/)
+- [SEO vs Google Ads: Which Has Better ROI?](https://onwardcraft.com/blog/seo-vs-google-ads-which-has-better-roi/)
+- [Custom Website vs Template](https://onwardcraft.com/blog/custom-website-vs-template-which-is-better/)
+- [Wix vs Custom Website](https://onwardcraft.com/blog/wix-vs-custom-website/)
+- [Signs Your Website Needs a Redesign](https://onwardcraft.com/blog/signs-your-website-needs-redesign/)
+- [Why Cheap Websites Cost Money](https://onwardcraft.com/blog/why-cheap-websites-cost-money/)
+- [SEO for Local Businesses](https://onwardcraft.com/blog/seo-for-local-businesses/)
+- [SEO Services Complete Guide](https://onwardcraft.com/blog/seo-services-complete-guide-for-business-owners/)
+- [Conversion Rate Optimization Basics](https://onwardcraft.com/blog/conversion-rate-optimization-basics/)
+
+## Contact
+
+- Website: https://onwardcraft.com
+- Email: hello@onwardcraft.com
+- Free strategy call: https://calendly.com/getonwardcraft/30min

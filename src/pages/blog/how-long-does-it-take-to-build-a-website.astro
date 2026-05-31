@@ -2,13 +2,14 @@
 import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
+import FinalCTA from '../../components/FinalCTA.astro';
 
 const title = 'How Long Does It Take to Build a Website in 2026?';
 const description = 'A realistic breakdown of website build timelines in 2026. From DIY builders to custom agency builds — see exactly how long each approach takes and what slows projects down.';
 ---
 
 <Layout title={title} description={description}>
-  <Navbar />
+  <Navbar dark />
 
   <article class="blog-post">
     <div class="hero-bg">
@@ -17,7 +18,9 @@ const description = 'A realistic breakdown of website build timelines in 2026. F
     </div>
 
     <div class="container">
-      <header class="post-header reveal">
+      <div class="blog-layout">
+        <div class="blog-main">
+      <header class="post-header">
         <div class="post-meta">
           <span class="post-category">Web Design</span>
           <span class="post-date">May 2026 · 12 min read</span>
@@ -26,7 +29,7 @@ const description = 'A realistic breakdown of website build timelines in 2026. F
         <p class="post-excerpt">A realistic breakdown of website build timelines in 2026. From DIY builders to custom agency builds — see exactly how long each approach takes and what slows projects down.</p>
       </header>
 
-      <div class="post-content reveal">
+      <div class="post-content">
         <p class="lead">If you are planning a new website, the first question is usually about cost. The second question is almost always about time. How long does it take to build a website? The honest answer: anywhere from a few hours to over a year. The real answer depends on what you are building, how you are building it, and how prepared you are when the project starts.</p>
 
         <p>This guide breaks down realistic timelines for every type of website build in 2026. We cover DIY builders, template-based sites, custom agency builds, and enterprise platforms. We also walk through each phase of the process, identify the most common causes of delay, and show you how to keep your project on schedule.</p>
@@ -190,7 +193,7 @@ const description = 'A realistic breakdown of website build timelines in 2026. F
 
         <p>Hiring an agency takes longer — typically 4–8 weeks — but the result is a custom-built asset designed specifically for your business. You get strategic guidance, professional design, clean code, and ongoing support. Most importantly, you get a site that actually generates leads and revenue.</p>
 
-        <p>For a deeper comparison, read our full guide on <a href="/blog/diy-website-vs-hiring-an-agency">DIY website vs hiring an agency</a>. For a detailed cost breakdown, see <a href="/blog/how-much-does-a-website-cost-2026">how much does a website cost in 2026</a>.</p>
+        <p>For a deeper comparison, read our full guide on <a href="/blog/diy-website-vs-hiring-an-agency">DIY website vs hiring an agency</a>. For a detailed cost breakdown, see <a href="/blog/how-much-does-a-website-cost">how much does a website cost in 2026</a>.</p>
 
         <h2>Frequently Asked Questions</h2>
 
@@ -215,7 +218,7 @@ const description = 'A realistic breakdown of website build timelines in 2026. F
         <p class="conclusion">The timeline for building a website in 2026 ranges from a few hours to several months. The right timeline for your project depends on your goals, your budget, and how you want your site to perform. A rushed build might get you online faster, but a disciplined, professional build will get you results that last. If you are ready to build a website that drives real business growth, <a href="https://calendly.com/getonwardcraft/30min">let us talk</a>.</p>
       </div>
 
-      <div class="post-footer reveal">
+      <div class="post-footer">
         <div class="post-tags">
           <span>Web Design</span>
           <span>Timeline</span>
@@ -226,33 +229,75 @@ const description = 'A realistic breakdown of website build timelines in 2026. F
           Back to Blog
         </a>
       </div>
+        </div>
+      <aside class="blog-sidebar">
+        <div class="sidebar-cta">
+          <h3>Need a Website That Actually Converts?</h3>
+          <p>Book a free 30-minute strategy call. We'll audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+          <a href="https://calendly.com/getonwardcraft/30min" class="sidebar-cta-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            Book Your Free Call
+          </a>
+          <div class="sidebar-trust">
+            <div class="trust-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>No obligation</span>
+            </div>
+            <div class="trust-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Free site audit</span>
+            </div>
+            <div class="trust-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Actionable plan</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+      </div>
     </div>
   </article>
 
+  <FinalCTA dark />
   <Footer />
 </Layout>
 
 <style>
-  .blog-post { padding: 140px 0 80px; position: relative; overflow: hidden; background: var(--bg-primary); min-height: 100vh; }
-  .hero-bg { position: absolute; inset: 0; overflow: hidden; }
+  .blog-post {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8fafc;
+    --bg-card: #ffffff;
+    --bg-card-hover: #f1f5f9;
+    --text-primary: #0f172a;
+    --text-secondary: rgba(15, 23, 42, 0.75);
+    --text-muted: rgba(15, 23, 42, 0.5);
+    --border: rgba(0, 0, 0, 0.08);
+    --border-hover: rgba(0, 0, 0, 0.15);
+    padding: 140px 0 80px;
+    position: relative;
+    background: #ffffff;
+    color: var(--text-primary);
+    min-height: 100vh;
+  }
+  .hero-bg { display: none; }
   .gradient-blob { position: absolute; border-radius: 50%; filter: blur(120px); opacity: 0.3; }
   .blob-1 { width: 400px; height: 400px; background: radial-gradient(circle, rgba(59,130,246,0.3), transparent 70%); top: 5%; right: -10%; }
   .blob-2 { width: 300px; height: 300px; background: radial-gradient(circle, rgba(139,92,246,0.25), transparent 70%); bottom: 20%; left: -5%; }
 
-  .post-header { position: relative; z-index: 1; max-width: 800px; margin: 0 auto 60px; text-align: center; }
-  .post-meta { display: flex; justify-content: center; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+  .post-header { position: relative; z-index: 1; max-width: none; margin: 0 0 60px; text-align: left; }
+  .post-meta { display: flex; justify-content: flex-start; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
   .post-category { font-size: 13px; font-weight: 600; color: var(--accent-primary); text-transform: uppercase; letter-spacing: 0.06em; }
-  .post-date { font-size: 13px; color: var(--text-muted); }
-  .post-title { font-size: clamp(32px, 5vw, 52px); font-weight: 700; line-height: 1.1; margin-bottom: 20px; }
-  .post-excerpt { font-size: 18px; color: var(--text-secondary); line-height: 1.7; max-width: 640px; margin: 0 auto; }
+  .post-date { font-size: 13px; color: #666666; }
+  .post-title { font-size: clamp(32px, 5vw, 52px); font-weight: 700; line-height: 1.1; margin-bottom: 20px; color: #000000; }
+  .post-excerpt { font-size: 18px; color: #444444; line-height: 1.7; max-width: 640px; margin: 0; }
 
-  .post-content { position: relative; z-index: 1; max-width: 720px; margin: 0 auto; }
-  .post-content .lead { font-size: 20px; color: var(--text-primary); line-height: 1.7; margin-bottom: 40px; }
-  .post-content h2 { font-size: 28px; font-weight: 700; margin: 48px 0 20px; color: var(--text-primary); }
-  .post-content h3 { font-size: 20px; font-weight: 700; margin: 32px 0 12px; color: var(--text-primary); }
-  .post-content p { font-size: 16px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 20px; }
+  .post-content { position: relative; z-index: 1; max-width: none; margin: 0; }
+  .post-content .lead { font-size: 20px; color: #111111; line-height: 1.7; margin-bottom: 40px; }
+  .post-content h2 { font-size: 28px; font-weight: 700; margin: 48px 0 20px; color: #000000; }
+  .post-content h3 { font-size: 20px; font-weight: 700; margin: 32px 0 12px; color: #000000; }
+  .post-content p { font-size: 16px; color: #333333; line-height: 1.8; margin-bottom: 20px; }
   .post-content ul, .post-content ol { margin: 0 0 24px 24px; }
-  .post-content li { font-size: 16px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 10px; }
+  .post-content li { font-size: 16px; color: #333333; line-height: 1.8; margin-bottom: 10px; }
   .post-content li strong { color: var(--text-primary); }
   .post-content a { color: var(--accent-primary); text-decoration: underline; text-underline-offset: 3px; }
   .post-content a:hover { color: var(--accent-secondary); }
@@ -260,21 +305,21 @@ const description = 'A realistic breakdown of website build timelines in 2026. F
   .timeline-table { margin: 32px 0; overflow-x: auto; }
   .timeline-table table { width: 100%; border-collapse: collapse; font-size: 14px; }
   .timeline-table th { padding: 16px; text-align: left; font-family: var(--font-heading); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); border-bottom: 1px solid var(--border); }
-  .timeline-table td { padding: 16px; color: var(--text-secondary); border-bottom: 1px solid rgba(255,255,255,0.04); }
+  .timeline-table td { padding: 16px; color: var(--text-secondary); border-bottom: 1px solid var(--border); }
   .timeline-table td strong { color: var(--text-primary); }
   .timeline-table small { color: var(--text-muted); }
 
-  .cta-box { background: linear-gradient(180deg, rgba(59,130,246,0.08) 0%, rgba(17,24,39,0.5) 100%); border: 1px solid rgba(59,130,246,0.2); border-radius: var(--radius-xl); padding: 40px; margin: 40px 0; text-align: center; }
-  .cta-box h3 { font-size: 22px; font-weight: 700; margin-bottom: 12px; color: var(--text-primary); }
-  .cta-box p { font-size: 16px; color: var(--text-secondary); line-height: 1.7; margin-bottom: 24px; }
+  .cta-box { background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-xl); padding: 40px; margin: 40px 0; text-align: center; }
+  .cta-box h3 { font-size: 22px; font-weight: 700; margin-bottom: 12px; color: #ffffff; }
+  .cta-box p { font-size: 16px; color: rgba(255,255,255,0.85); line-height: 1.7; margin-bottom: 24px; }
   .cta-button { display: inline-flex; align-items: center; gap: 10px; padding: 16px 32px; background: var(--accent-primary); color: white; font-size: 15px; font-weight: 600; border-radius: var(--radius-md); transition: all 0.35s var(--transition); box-shadow: 0 4px 24px rgba(59,130,246,0.3); }
   .cta-button:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(59,130,246,0.4); }
 
   .conclusion { font-size: 18px; color: var(--text-primary); font-weight: 500; margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--border); }
 
-  .post-footer { max-width: 720px; margin: 60px auto 0; padding-top: 40px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
+  .post-footer { max-width: none; margin: 60px 0 0; padding-top: 40px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
   .post-tags { display: flex; gap: 10px; flex-wrap: wrap; }
-  .post-tags span { font-size: 13px; color: var(--text-muted); padding: 6px 14px; background: rgba(255,255,255,0.04); border-radius: 100px; }
+  .post-tags span { font-size: 13px; color: var(--text-muted); padding: 6px 14px; background: rgba(0,0,0,0.04); border-radius: 100px; }
   .back-link { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; color: var(--accent-primary); transition: gap 0.3s; }
   .back-link:hover { gap: 12px; }
 
@@ -285,5 +330,25 @@ const description = 'A realistic breakdown of website build timelines in 2026. F
     .post-content h2 { font-size: 24px; }
     .cta-box { padding: 28px 24px; }
     .gradient-blob { display: none; }
+  }
+  /* Blog Layout */
+  .blog-layout { display: grid; grid-template-columns: 1fr 320px; gap: 48px; align-items: start; }
+  .blog-main { min-width: 0; }
+
+  /* Sidebar */
+  .blog-sidebar { position: sticky; top: 120px; }
+  .sidebar-cta { background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-xl); padding: 32px; text-align: center; }
+  .sidebar-cta h3 { font-size: 18px; font-weight: 700; margin-bottom: 12px; color: #ffffff; line-height: 1.3; }
+  .sidebar-cta p { font-size: 14px; color: rgba(255,255,255,0.85); line-height: 1.6; margin-bottom: 20px; }
+  .sidebar-cta-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; width: 100%; padding: 14px 20px; background: var(--accent-primary); color: white; font-size: 14px; font-weight: 600; border-radius: var(--radius-md); transition: all 0.35s var(--transition); box-shadow: 0 4px 20px rgba(59,130,246,0.3); text-decoration: none; }
+  .sidebar-cta-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(59,130,246,0.4); }
+  .sidebar-trust { margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--border); display: flex; flex-direction: column; gap: 10px; }
+  .trust-item { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--text-muted); }
+  .trust-item svg { width: 14px; height: 14px; color: var(--accent-secondary); flex-shrink: 0; }
+
+  @media (max-width: 1024px) {
+    .blog-layout { grid-template-columns: 1fr; }
+    .blog-sidebar { position: static; margin-top: 40px; }
+    .sidebar-cta { max-width: 400px; margin: 0 auto; }
   }
 </style>

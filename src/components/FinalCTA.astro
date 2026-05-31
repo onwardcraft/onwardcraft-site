@@ -1,9 +1,10 @@
 ---
+const { dark = false } = Astro.props;
 ---
 
-<section class="cta-section" id="contact">
+<section class={`cta-section ${dark ? 'cta-section-dark' : ''}`} id="contact">
   <div class="container">
-    <div class="cta-card reveal">
+    <div class={`cta-card ${dark ? 'cta-card-dark' : ''}`}>
       <div class="cta-content">
         <h2>Ready to Stop Losing Leads?</h2>
         <p>Book a free 30-minute Revenue Audit. We'll diagnose your funnel, reverse-engineer your top competitors, and show you exactly where your site is hemorrhaging revenue.</p>
@@ -28,10 +29,10 @@
             Book My Free Audit
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
-          <a href="/pricing" class="cta-secondary">Or view pricing first →</a>
+          <a href="/pricing" class={`cta-secondary ${dark ? 'cta-secondary-dark' : ''}`}>Or view pricing first →</a>
         </div>
 
-        <p class="cta-urgency">Limited to 5 audits per week. Average response time: under 4 hours.</p>
+        <p class={`cta-urgency ${dark ? 'cta-urgency-dark' : ''}`}>Limited to 5 audits per week. Average response time: under 4 hours.</p>
       </div>
     </div>
   </div>
@@ -122,6 +123,30 @@
     font-size: 13px;
     color: var(--text-muted);
     font-weight: 500;
+  }
+
+  /* Dark variant for blog pages */
+  .cta-card-dark {
+    background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+    border-color: rgba(255,255,255,0.1);
+  }
+  .cta-card-dark .cta-content h2 {
+    color: #ffffff;
+  }
+  .cta-card-dark .cta-content > p {
+    color: rgba(255,255,255,0.85);
+  }
+  .cta-card-dark .cta-bullets li {
+    color: rgba(255,255,255,0.8);
+  }
+  .cta-secondary-dark {
+    color: rgba(255,255,255,0.6);
+  }
+  .cta-secondary-dark:hover {
+    color: rgba(255,255,255,0.9);
+  }
+  .cta-urgency-dark {
+    color: rgba(255,255,255,0.5);
   }
 
   @media (max-width: 768px) {

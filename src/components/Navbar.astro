@@ -1,4 +1,6 @@
 ---
+const { dark = false } = Astro.props;
+
 const serviceLinks = [
   { label: 'Web Design', href: '/services/web-design' },
   { label: 'SEO', href: '/services/seo' },
@@ -12,10 +14,14 @@ const navLinks = [
   { label: 'Blog', href: '/blog' },
   { label: 'About', href: '/about' },
 ];
+
+const darkPillStyle = dark
+  ? 'background:#0B1020;border-color:rgba(255,255,255,0.1);box-shadow:0 4px 24px rgba(0,0,0,0.3),0 0 0 1px rgba(255,255,255,0.04),inset 0 1px 0 rgba(255,255,255,0.05);'
+  : '';
 ---
 
-<nav class="navbar" id="navbar">
-  <div class="navbar-pill">
+<nav class="navbar" id="navbar" data-dark={dark ? 'true' : undefined}>
+  <div class="navbar-pill" style={darkPillStyle}>
     <a href="/" class="nav-brand">
       <img src="/logo/logo.svg" alt="OnwardCraft" height="28" class="brand-logo" />
     </a>
@@ -406,8 +412,8 @@ const navLinks = [
       });
     }
 
-    // Scroll state
-    if (navbar) {
+    // Scroll state — skip for dark/blog pages
+    if (navbar && !navbar.hasAttribute('data-dark')) {
       let lastScroll = 0;
       window.addEventListener('scroll', () => {
         const currentScroll = window.scrollY;
