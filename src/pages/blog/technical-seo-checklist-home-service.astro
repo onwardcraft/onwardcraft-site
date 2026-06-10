@@ -45,7 +45,7 @@ const description = "Complete technical SEO checklist for home service websites.
 
 <p>Here is what your robots.txt should look like for a typical contractor site:</p>
 
-<pre><code>User-agent: *
+<pre is:raw><code>User-agent: *
 Disallow: /wp-admin/
 Disallow: /wp-includes/
 Disallow: /cgi-bin/
@@ -85,7 +85,7 @@ Sitemap: https://yourdomain.com/sitemap.xml</code></pre>
 
 <p>Use Screaming Frog or Sitebulb to identify orphan pages. Every important page should be reachable within three clicks of your homepage. Here is the ideal architecture for a contractor site:</p>
 
-<pre><code>Homepage
+<pre is:raw><code>Homepage
 ├── Services
 │   ├── Plumbing Repair
 │   ├── Water Heater Installation
@@ -231,7 +231,7 @@ Sitemap: https://yourdomain.com/sitemap.xml</code></pre>
 
 <p>Here is a complete LocalBusiness schema example for a plumbing contractor:</p>
 
-<pre><code>{
+<pre is:raw><code>{
   "@context": "https://schema.org",
   "@type": "Plumber",
   "name": "Apex Plumbing Solutions",
@@ -398,7 +398,7 @@ Sitemap: https://yourdomain.com/sitemap.xml</code></pre>
 
 <p>Here is the standard Apache redirect rule:</p>
 
-<pre><code>RewriteEngine On
+<pre is:raw><code>RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]</code></pre>
 
@@ -412,7 +412,7 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]</code></pre>
 
 <p>HTTP Strict Transport Security (HSTS) tells browsers to always connect to your site using HTTPS, even if the user types HTTP. This prevents downgrade attacks and improves security. Enable HSTS by adding this header to your server configuration:</p>
 
-<pre><code>Strict-Transport-Security: max-age=31536000; includeSubDomains; preload</code></pre>
+<pre is:raw><code>Strict-Transport-Security: max-age=31536000; includeSubDomains; preload</code></pre>
 
 <p>Other important security headers include:</p>
 
@@ -457,7 +457,7 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]</code></pre>
 
 <p>Implement click-to-call using the tel: protocol:</p>
 
-<pre><code>&lt;a href="tel:+15125550147" class="cta-button"&gt;Call Now: (512) 555-0147&lt;/a&gt;</code></pre>
+<pre is:raw><code>&lt;a href="tel:+15125550147" class="cta-button"&gt;Call Now: (512) 555-0147&lt;/a&gt;</code></pre>
 
 <p>Place this button in three locations on every page: the sticky header, above the fold on the homepage, and at the bottom of every service page. Use contrasting colors that stand out from your brand palette. Test the button on actual iOS and Android devices, not just browser emulators.</p>
 
