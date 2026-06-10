@@ -6,7 +6,7 @@ import FinalCTA from '../../components/FinalCTA.astro';
 
 const title = '"The Complete Website Redesign Guide for Contractors [2026]: 9 Steps to More Leads Without Losing SEO"';
 const description = 'Complete guide to redesigning your contractor website. Includes SEO migration, platform comparison, cost breakdown, 40-point checklist, and a 12-week...';
-const contentHtml = `<p>Most contractor websites are digital brochures that cost more than they earn. They look fine. They list services. They have a phone number buried somewhere. But they do not generate leads reliably, they do not rank on Google for anything that matters, and they actively repel the 71% of homeowners who find them on mobile devices.</p>
+const contentHtml = `<p class="lead">Most contractor websites are digital brochures that cost more than they earn. They look fine. They list services. They have a phone number buried somewhere. But they do not generate leads reliably, they do not rank on Google for anything that matters, and they actively repel the 71% of homeowners who find them on mobile devices.</p>
 <p>A proper website redesign fixes all of this. Not with a prettier template. Not with a new color scheme. But with a systematic rebuild of your site's architecture, content, conversion mechanics, and technical foundation — designed specifically for how homeowners hire contractors.</p>
 <p>This guide covers the entire process from decision to measurement. You will learn when to redesign versus refresh, how to set realistic goals and budgets, which platform to choose for your specific trade, how to preserve every SEO ranking during migration, how to design for lead generation on mobile, what content to keep and what to rewrite, how to launch without breaking anything, and how to measure whether the investment paid off.</p>
 <p>Every section includes contractor-specific examples, 2025-2026 data, and actionable steps you can apply immediately. Let us begin.</p>
@@ -43,6 +43,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 <p><strong>10. Your site was built before 2020.</strong> Web standards, Google algorithms, user expectations, and mobile behavior have changed dramatically. A site built in 2018 is operating on a playbook that no longer works.</p>
 <h3>Redesign vs Refresh: Which Do You Actually Need?</h3>
 <p>Not every outdated site needs a full rebuild. Understanding the difference saves tens of thousands of dollars and months of work.</p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -89,6 +90,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 </tr>
 </tbody>
 </table>
+</div>
 <p><strong>Choose a refresh if:</strong> your site loads fast, ranks reasonably well, has a modern CMS, and only needs updated visuals, refreshed content, and better mobile formatting.</p>
 <p><strong>Choose a full redesign if:</strong> your site is on an outdated platform, has poor URL structure, loads slowly, does not rank, cannot be edited easily, or fails to generate leads despite receiving traffic.</p>
 <h3>Business Triggers That Demand a Redesign</h3>
@@ -128,6 +130,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 <p>Write each goal in this format: "By [date], we will [measurable outcome] from [current baseline] to [target]." Example: "By December 31, 2026, we will increase organic contact form submissions from 8 per month to 25 per month."</p>
 <h3>Budget Ranges by Company Size</h3>
 <p>Contractor website redesign costs vary widely based on scope, platform, and whether you hire a freelancer, boutique agency, or full-service firm. Here are realistic 2025-2026 ranges:</p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -159,6 +162,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 </tr>
 </tbody>
 </table>
+</div>
 <h3>What Is Included at Each Price Point</h3>
 <p><strong>$3,000-$8,000:</strong><br />
 - Template-based or lightly customized theme<br />
@@ -207,6 +211,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 <h3>The Platform Decision Matrix for Contractors</h3>
 <p>Your CMS platform determines your site's speed, flexibility, SEO potential, maintenance burden, and total cost of ownership for the next 5-10 years. Choose wrong, and you will be redesigning again in 18 months.</p>
 <p>Here is how the four major platforms compare for contractor websites:</p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -283,6 +288,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 </tr>
 </tbody>
 </table>
+</div>
 <p>*Depends on hosting, theme, and plugin optimization</p>
 <h3>WordPress for Contractors: The Growth Engine</h3>
 <p>WordPress powers over 43% of all websites on the internet. For contractors serious about long-term growth, it is the default choice.</p>
@@ -359,6 +365,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 <p>Most contractor websites fail at the architectural level. They have a homepage, an about page, a services page, and a contact page. That is four pages competing for hundreds of search queries. It cannot work.</p>
 <p>A properly structured contractor website creates a dedicated page for every service in every location you serve. This multiplies your ranking opportunities and matches exactly how homeowners search.</p>
 <p>Here is the recommended page hierarchy:</p>
+<div class="code-block">
 <pre><code>Homepage
 ├── Service Pages (one per service)
 │   ├── Residential Plumbing
@@ -380,6 +387,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 ├── Financing / Warranty
 └── Contact / Quote Request
 </code></pre>
+</div>
 <p>This structure gives you 20-50+ indexed pages, each targeting specific keywords. A four-page site targets four keyword groups. A 40-page site targets 40. The math is simple.</p>
 <h3>Service Page Hierarchy</h3>
 <p>Each service page should follow this structure:</p>
@@ -405,6 +413,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 <p>Before designing anything, audit every piece of content on your current site.</p>
 <p><strong>Step 1: Export all URLs.</strong> Use Screaming Frog (free for up to 500 URLs) or your CMS export function. Create a spreadsheet with every URL, page title, meta description, word count, and traffic data from Google Analytics.</p>
 <p><strong>Step 2: Classify each page.</strong></p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -436,11 +445,13 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 </tr>
 </tbody>
 </table>
+</div>
 <p><strong>Step 3: Document decisions.</strong> For every page marked "Remove" or "Consolidate," plan a 301 redirect to the most relevant remaining page. Never delete a URL without a redirect plan.</p>
 <h3>URL Mapping Strategy</h3>
 <p>URL mapping is the process of matching every old URL to its new equivalent. This is the single most important SEO task during redesign.</p>
 <p><strong>Best practice:</strong> Keep URLs unchanged whenever possible. If your current service page is <code>/residential-plumbing</code> and the new site also has a residential plumbing page, keep the URL identical. This eliminates the need for a redirect and preserves 100% of the link equity.</p>
 <p><strong>When URLs must change:</strong> Create a one-to-one mapping spreadsheet:</p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -475,6 +486,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 </tr>
 </tbody>
 </table>
+</div>
 <p><strong>Never redirect everything to the homepage.</strong> This destroys relevance signals and frustrates users. Every old URL should redirect to the most specifically relevant new page.</p>
 <hr />
 <h2>Chapter 5: The SEO Migration Process</h2>
@@ -522,6 +534,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 </li>
 </ol>
 <p><strong>Example redirect mapping for a plumbing contractor:</strong></p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -558,6 +571,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 </tr>
 </tbody>
 </table>
+</div>
 <h3>Content Preservation Strategy</h3>
 <p>Your existing content is an asset. Treat it like one.</p>
 <p><strong>Never delete high-performing content without analysis.</strong> If a blog post brings in 50 organic visits per month, it is doing work for you. Deleting it removes those visits permanently unless you redirect the URL to equivalent content.</p>
@@ -684,6 +698,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 <h3>Call-to-Action Strategy</h3>
 <p>Your CTA strategy determines your conversion rate. Most contractor sites have one CTA: a "Contact Us" link in the navigation. This is passive and ineffective.</p>
 <p><strong>The multi-CTA framework:</strong></p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -715,6 +730,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 </tr>
 </tbody>
 </table>
+</div>
 <p><strong>CTA copy matters.</strong> "Contact Us" is vague. "Call Now for Same-Day Service" is specific and urgent. "Get Your Free Estimate" promises value. Test different copy to find what converts best for your audience.</p>
 <p><strong>Form optimization:</strong><br />
 - Limit fields to 3-4: Name, Phone, Zip Code, Problem Description<br />
@@ -776,6 +792,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 <p>Your content strategy starts with a ruthless audit of what you currently have.</p>
 <p><strong>Step 1: Export all content.</strong> Use your CMS export function or Screaming Frog to get a complete list of every page, post, and resource.</p>
 <p><strong>Step 2: Score each piece.</strong></p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -817,6 +834,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 </tr>
 </tbody>
 </table>
+</div>
 <p><strong>Step 3: Assign actions.</strong><br />
 - <strong>Keep and migrate as-is:</strong> High-performing, current, comprehensive content<br />
 - <strong>Improve and migrate:</strong> Outdated but ranking content that needs refreshing<br />
@@ -857,6 +875,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 - <strong>FAQ page:</strong> Answers the 20 most common questions you receive<br />
 - <strong>Blog content:</strong> How-to guides, maintenance tips, seasonal advice, local project spotlights</p>
 <p><strong>Content calendar for the first 6 months post-launch:</strong></p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -898,6 +917,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 </tr>
 </tbody>
 </table>
+</div>
 <hr />
 <h2>Chapter 8: Launch and Post-Launch</h2>
 <h3>Pre-Launch Checklist</h3>
@@ -1023,6 +1043,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 <h3>Before/After Comparison</h3>
 <p>Create a formal before/after report 90 days after launch.</p>
 <p><strong>Traffic comparison:</strong></p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -1059,7 +1080,9 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 </tr>
 </tbody>
 </table>
+</div>
 <p><strong>Conversion comparison:</strong></p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -1102,7 +1125,9 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 </tr>
 </tbody>
 </table>
+</div>
 <p><strong>SEO comparison:</strong></p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -1139,6 +1164,7 @@ const contentHtml = `<p>Most contractor websites are digital brochures that cost
 </tr>
 </tbody>
 </table>
+</div>
 <h3>Lead Generation Improvement</h3>
 <p>The ultimate measure of redesign success is lead generation improvement. Here is how to calculate it.</p>
 <p><strong>Lead volume lift:</strong> (New leads - Old leads) / Old leads x 100<br />
@@ -1317,6 +1343,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 </ul>
 <hr />
 <h2>Internal Linking Suggestions</h2>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -1378,7 +1405,9 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 </tr>
 </tbody>
 </table>
+</div>
 <h2>External Citation Suggestions</h2>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -1465,8 +1494,10 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 </tr>
 </tbody>
 </table>
+</div>
 <h2>Schema Markup Recommendations</h2>
 <h3>Article Schema</h3>
+<div class="code-block">
 <pre><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;Article&quot;,
@@ -1488,7 +1519,9 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
   &quot;dateModified&quot;: &quot;2026-01-15&quot;
 }
 </code></pre>
+</div>
 <h3>FAQPage Schema</h3>
+<div class="code-block">
 <pre><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;FAQPage&quot;,
@@ -1504,7 +1537,9 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
   ]
 }
 </code></pre>
+</div>
 <h3>HowTo Schema (for SEO Migration Process)</h3>
+<div class="code-block">
 <pre><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;HowTo&quot;,
@@ -1524,7 +1559,9 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
   ]
 }
 </code></pre>
+</div>
 <h3>BreadcrumbList Schema</h3>
+<div class="code-block">
 <pre><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;BreadcrumbList&quot;,
@@ -1549,7 +1586,9 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
   ]
 }
 </code></pre>
+</div>
 <h2>Featured Snippet Opportunities</h2>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -1611,6 +1650,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 </tr>
 </tbody>
 </table>
+</div>
 <h2>AI Overview Optimization Notes</h2>
 <p><strong>Optimized sections for AI Overview extraction:</strong></p>
 <ol>
@@ -1649,6 +1689,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 - <strong>Perplexity:</strong> Verifiable claims with source URLs, clear answer format, FAQ structure<br />
 - <strong>Copilot:</strong> Step-by-step instructions, actionable content, current 2025-2026 data</p>
 <h2>Visual Asset Recommendations</h2>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -1725,6 +1766,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 </tr>
 </tbody>
 </table>
+</div>
 <h2>Quality Control Sign-Off</h2>
 <h3>Content Quality</h3>
 <ul>
@@ -1858,7 +1900,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
   <Footer />
 </Layout>
 
-<style>
+<style is:global>
   .blog-post { --bg-primary: #ffffff; --bg-secondary: #f8fafc; --bg-card: #ffffff; --bg-card-hover: #f1f5f9; --text-primary: #0f172a; --text-secondary: rgba(15, 23, 42, 0.75); --text-muted: rgba(15, 23, 42, 0.5); --border: rgba(0, 0, 0, 0.08); --border-hover: rgba(0, 0, 0, 0.15); padding: 140px 0 80px; position: relative; background: #ffffff; color: var(--text-primary); min-height: 100vh; }
   .hero-bg { display: none; }
   .gradient-blob { position: absolute; border-radius: 50%; filter: blur(120px); opacity: 0.3; }
@@ -1871,19 +1913,34 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
   .post-title { font-size: clamp(32px, 5vw, 52px); font-weight: 700; line-height: 1.1; margin-bottom: 20px; color: #000000; }
   .post-excerpt { font-size: 18px; color: #444444; line-height: 1.7; max-width: 640px; margin: 0; }
   .post-content { position: relative; z-index: 1; max-width: none; margin: 0; }
+  .post-content .lead { font-size: 20px; color: #222222; line-height: 1.7; margin-bottom: 32px; font-weight: 400; }
   .post-content h2 { font-size: 28px; font-weight: 700; margin: 48px 0 20px; color: #000000; }
-  .post-content h3 { font-size: 20px; font-weight: 700; margin: 32px 0 12px; color: #000000; }
-  .post-content h4 { font-size: 18px; font-weight: 700; margin: 24px 0 10px; color: #000000; }
-  .post-content p { font-size: 16px; color: #333333; line-height: 1.8; margin-bottom: 20px; }
+  .post-content h3 { font-size: 22px; font-weight: 700; margin: 36px 0 16px; color: #000000; }
+  .post-content h4 { font-size: 18px; font-weight: 700; margin: 28px 0 12px; color: #000000; }
+  .post-content p { font-size: 17px; color: #333333; line-height: 1.8; margin-bottom: 20px; }
   .post-content ul, .post-content ol { margin: 0 0 24px 24px; }
-  .post-content li { font-size: 16px; color: #333333; line-height: 1.8; margin-bottom: 10px; }
+  .post-content li { font-size: 17px; color: #333333; line-height: 1.8; margin-bottom: 12px; }
   .post-content li strong { color: var(--text-primary); }
-  .post-content blockquote { border-left: 3px solid var(--accent-primary); padding-left: 20px; margin: 24px 0; font-style: italic; color: var(--text-secondary); }
-  .cost-table { margin: 32px 0; overflow-x: auto; }
-  .cost-table table { width: 100%; border-collapse: collapse; font-size: 14px; }
-  .cost-table th { padding: 16px; text-align: left; font-family: var(--font-heading); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); border-bottom: 1px solid var(--border); }
-  .cost-table td { padding: 16px; color: var(--text-secondary); border-bottom: 1px solid var(--border); }
+  .post-content a { color: var(--accent-primary); text-decoration: underline; text-underline-offset: 3px; }
+  .post-content a:hover { color: #1d4ed8; }
+  .post-content blockquote { border-left: 4px solid var(--accent-primary); padding: 16px 24px; margin: 32px 0; background: var(--bg-secondary); border-radius: 0 12px 12px 0; font-style: italic; color: var(--text-secondary); }
+  .post-content blockquote p { margin-bottom: 0; font-size: 17px; }
+  .post-content hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+  .post-content img { border-radius: 12px; margin: 24px 0; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+  .post-content code { font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace; font-size: 14px; background: rgba(0,0,0,0.06); padding: 2px 6px; border-radius: 4px; color: #c7254e; }
+  .post-content pre { background: #1e293b; border-radius: 12px; padding: 20px; overflow-x: auto; margin: 24px 0; }
+  .post-content pre code { background: transparent; padding: 0; color: #e2e8f0; font-size: 14px; }
+  .cost-table { margin: 32px 0; overflow-x: auto; border-radius: 12px; border: 1px solid var(--border); }
+  .cost-table table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  .cost-table thead { background: var(--bg-secondary); }
+  .cost-table th { padding: 14px 16px; text-align: left; font-family: var(--font-heading); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); border-bottom: 1px solid var(--border); }
+  .cost-table td { padding: 14px 16px; color: var(--text-secondary); border-bottom: 1px solid var(--border); }
+  .cost-table tr:last-child td { border-bottom: none; }
   .cost-table td strong { color: var(--text-primary); }
+  .cta-box { background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-xl); padding: 40px; margin: 40px 0; text-align: center; }
+  .cta-box h3 { font-size: 22px; font-weight: 700; margin-bottom: 12px; color: #ffffff; }
+  .cta-box p { font-size: 16px; color: rgba(255,255,255,0.85); line-height: 1.7; margin-bottom: 24px; }
+  .conclusion { font-size: 18px; color: var(--text-primary); font-weight: 500; margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--border); }
   .post-footer { max-width: none; margin: 60px 0 0; padding-top: 40px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
   .post-tags { display: flex; gap: 10px; flex-wrap: wrap; }
   .post-tags span { font-size: 13px; color: var(--text-muted); padding: 6px 14px; background: rgba(0,0,0,0.04); border-radius: 100px; }
@@ -1901,5 +1958,5 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
   .trust-item { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--text-muted); }
   .trust-item svg { width: 14px; height: 14px; color: var(--accent-secondary); flex-shrink: 0; }
   @media (max-width: 1024px) { .blog-layout { grid-template-columns: 1fr; } .blog-sidebar { position: static; margin-top: 40px; } .sidebar-cta { max-width: 400px; margin: 0 auto; } }
-  @media (max-width: 640px) { .blog-post { padding: 120px 0 60px; } .post-title { font-size: 28px; } .post-content h2 { font-size: 24px; } }
+  @media (max-width: 640px) { .blog-post { padding: 120px 0 60px; } .post-title { font-size: 28px; } .post-content .lead { font-size: 18px; } .post-content h2 { font-size: 24px; } .cta-box { padding: 28px 24px; } }
 </style>

@@ -6,7 +6,7 @@ import FinalCTA from '../../components/FinalCTA.astro';
 
 const title = '21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]';
 const description = '21 proven roofing marketing strategies organized by season. Includes storm damage leads, insurance referrals, local SEO, and off-season tactics with cost...';
-const contentHtml = `<p>Most roofing companies treat marketing like a storm-chasing sprint — they pour money into ads when hail hits, then go silent for months. The roofers who build $5M+ businesses do the opposite. They run a year-round marketing engine that generates leads in January, July, and every month in between.</p>
+const contentHtml = `<p class="lead">Most roofing companies treat marketing like a storm-chasing sprint — they pour money into ads when hail hits, then go silent for months. The roofers who build $5M+ businesses do the opposite. They run a year-round marketing engine that generates leads in January, July, and every month in between.</p>
 <p>This article gives you 21 strategies organized by season. Each one includes what it costs, how many leads you can expect, exactly how to implement it, and a real example from a roofing company already using it.</p>
 <hr />
 <h2>Table of Contents</h2>
@@ -390,6 +390,7 @@ const contentHtml = `<p>Most roofing companies treat marketing like a storm-chas
 <p>The roofing companies that thrive are not the ones with the biggest ad budgets. They are the ones with the most systematic, seasonally-aware marketing engines. Start building yours today.</p>
 <hr />
 <h2>Internal Linking Suggestions</h2>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -451,7 +452,9 @@ const contentHtml = `<p>Most roofing companies treat marketing like a storm-chas
 </tr>
 </tbody>
 </table>
+</div>
 <h2>External Citation Suggestions</h2>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -538,7 +541,9 @@ const contentHtml = `<p>Most roofing companies treat marketing like a storm-chas
 </tr>
 </tbody>
 </table>
+</div>
 <h2>Schema Markup Recommendations</h2>
+<div class="code-block">
 <pre><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;Article&quot;,
@@ -564,6 +569,8 @@ const contentHtml = `<p>Most roofing companies treat marketing like a storm-chas
   }
 }
 </code></pre>
+</div>
+<div class="code-block">
 <pre><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;FAQPage&quot;,
@@ -595,7 +602,9 @@ const contentHtml = `<p>Most roofing companies treat marketing like a storm-chas
   ]
 }
 </code></pre>
+</div>
 <h2>Featured Snippet Opportunities</h2>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -632,6 +641,7 @@ const contentHtml = `<p>Most roofing companies treat marketing like a storm-chas
 </tr>
 </tbody>
 </table>
+</div>
 <h2>AI Overview Optimization Notes</h2>
 <ul>
 <li><strong>Definition blocks:</strong> Every strategy opens with a 1–2 sentence definition ("Strategy X is...")</li>
@@ -651,6 +661,7 @@ const contentHtml = `<p>Most roofing companies treat marketing like a storm-chas
 <li><strong>Framework naming:</strong> Seasonal organization creates a memorable, citable structure</li>
 </ul>
 <h2>Visual Asset Recommendations</h2>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -707,6 +718,7 @@ const contentHtml = `<p>Most roofing companies treat marketing like a storm-chas
 </tr>
 </tbody>
 </table>
+</div>
 <h2>Quality Control Sign-Off</h2>
 <ul>
 <li>[x] Search intent matched precisely (informational/commercial, MOFU)</li>
@@ -792,7 +804,7 @@ const contentHtml = `<p>Most roofing companies treat marketing like a storm-chas
   <Footer />
 </Layout>
 
-<style>
+<style is:global>
   .blog-post { --bg-primary: #ffffff; --bg-secondary: #f8fafc; --bg-card: #ffffff; --bg-card-hover: #f1f5f9; --text-primary: #0f172a; --text-secondary: rgba(15, 23, 42, 0.75); --text-muted: rgba(15, 23, 42, 0.5); --border: rgba(0, 0, 0, 0.08); --border-hover: rgba(0, 0, 0, 0.15); padding: 140px 0 80px; position: relative; background: #ffffff; color: var(--text-primary); min-height: 100vh; }
   .hero-bg { display: none; }
   .gradient-blob { position: absolute; border-radius: 50%; filter: blur(120px); opacity: 0.3; }
@@ -805,19 +817,34 @@ const contentHtml = `<p>Most roofing companies treat marketing like a storm-chas
   .post-title { font-size: clamp(32px, 5vw, 52px); font-weight: 700; line-height: 1.1; margin-bottom: 20px; color: #000000; }
   .post-excerpt { font-size: 18px; color: #444444; line-height: 1.7; max-width: 640px; margin: 0; }
   .post-content { position: relative; z-index: 1; max-width: none; margin: 0; }
+  .post-content .lead { font-size: 20px; color: #222222; line-height: 1.7; margin-bottom: 32px; font-weight: 400; }
   .post-content h2 { font-size: 28px; font-weight: 700; margin: 48px 0 20px; color: #000000; }
-  .post-content h3 { font-size: 20px; font-weight: 700; margin: 32px 0 12px; color: #000000; }
-  .post-content h4 { font-size: 18px; font-weight: 700; margin: 24px 0 10px; color: #000000; }
-  .post-content p { font-size: 16px; color: #333333; line-height: 1.8; margin-bottom: 20px; }
+  .post-content h3 { font-size: 22px; font-weight: 700; margin: 36px 0 16px; color: #000000; }
+  .post-content h4 { font-size: 18px; font-weight: 700; margin: 28px 0 12px; color: #000000; }
+  .post-content p { font-size: 17px; color: #333333; line-height: 1.8; margin-bottom: 20px; }
   .post-content ul, .post-content ol { margin: 0 0 24px 24px; }
-  .post-content li { font-size: 16px; color: #333333; line-height: 1.8; margin-bottom: 10px; }
+  .post-content li { font-size: 17px; color: #333333; line-height: 1.8; margin-bottom: 12px; }
   .post-content li strong { color: var(--text-primary); }
-  .post-content blockquote { border-left: 3px solid var(--accent-primary); padding-left: 20px; margin: 24px 0; font-style: italic; color: var(--text-secondary); }
-  .cost-table { margin: 32px 0; overflow-x: auto; }
-  .cost-table table { width: 100%; border-collapse: collapse; font-size: 14px; }
-  .cost-table th { padding: 16px; text-align: left; font-family: var(--font-heading); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); border-bottom: 1px solid var(--border); }
-  .cost-table td { padding: 16px; color: var(--text-secondary); border-bottom: 1px solid var(--border); }
+  .post-content a { color: var(--accent-primary); text-decoration: underline; text-underline-offset: 3px; }
+  .post-content a:hover { color: #1d4ed8; }
+  .post-content blockquote { border-left: 4px solid var(--accent-primary); padding: 16px 24px; margin: 32px 0; background: var(--bg-secondary); border-radius: 0 12px 12px 0; font-style: italic; color: var(--text-secondary); }
+  .post-content blockquote p { margin-bottom: 0; font-size: 17px; }
+  .post-content hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+  .post-content img { border-radius: 12px; margin: 24px 0; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+  .post-content code { font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace; font-size: 14px; background: rgba(0,0,0,0.06); padding: 2px 6px; border-radius: 4px; color: #c7254e; }
+  .post-content pre { background: #1e293b; border-radius: 12px; padding: 20px; overflow-x: auto; margin: 24px 0; }
+  .post-content pre code { background: transparent; padding: 0; color: #e2e8f0; font-size: 14px; }
+  .cost-table { margin: 32px 0; overflow-x: auto; border-radius: 12px; border: 1px solid var(--border); }
+  .cost-table table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  .cost-table thead { background: var(--bg-secondary); }
+  .cost-table th { padding: 14px 16px; text-align: left; font-family: var(--font-heading); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); border-bottom: 1px solid var(--border); }
+  .cost-table td { padding: 14px 16px; color: var(--text-secondary); border-bottom: 1px solid var(--border); }
+  .cost-table tr:last-child td { border-bottom: none; }
   .cost-table td strong { color: var(--text-primary); }
+  .cta-box { background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-xl); padding: 40px; margin: 40px 0; text-align: center; }
+  .cta-box h3 { font-size: 22px; font-weight: 700; margin-bottom: 12px; color: #ffffff; }
+  .cta-box p { font-size: 16px; color: rgba(255,255,255,0.85); line-height: 1.7; margin-bottom: 24px; }
+  .conclusion { font-size: 18px; color: var(--text-primary); font-weight: 500; margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--border); }
   .post-footer { max-width: none; margin: 60px 0 0; padding-top: 40px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
   .post-tags { display: flex; gap: 10px; flex-wrap: wrap; }
   .post-tags span { font-size: 13px; color: var(--text-muted); padding: 6px 14px; background: rgba(0,0,0,0.04); border-radius: 100px; }
@@ -835,5 +862,5 @@ const contentHtml = `<p>Most roofing companies treat marketing like a storm-chas
   .trust-item { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--text-muted); }
   .trust-item svg { width: 14px; height: 14px; color: var(--accent-secondary); flex-shrink: 0; }
   @media (max-width: 1024px) { .blog-layout { grid-template-columns: 1fr; } .blog-sidebar { position: static; margin-top: 40px; } .sidebar-cta { max-width: 400px; margin: 0 auto; } }
-  @media (max-width: 640px) { .blog-post { padding: 120px 0 60px; } .post-title { font-size: 28px; } .post-content h2 { font-size: 24px; } }
+  @media (max-width: 640px) { .blog-post { padding: 120px 0 60px; } .post-title { font-size: 28px; } .post-content .lead { font-size: 18px; } .post-content h2 { font-size: 24px; } .cta-box { padding: 28px 24px; } }
 </style>

@@ -6,7 +6,7 @@ import FinalCTA from '../../components/FinalCTA.astro';
 
 const title = 'WordPress vs Webflow for Contractors (2025): Which Platform Actually Generates More Leads?';
 const description = 'Unbiased comparison of WordPress vs Webflow for contractors. Includes real cost data, speed benchmarks, SEO capabilities, migration guidance, and lead...';
-const contentHtml = `<p>Most platform comparisons are written by people selling one of the platforms. This one is not.</p>
+const contentHtml = `<p class="lead">Most platform comparisons are written by people selling one of the platforms. This one is not.</p>
 <p>We are a marketing agency that builds contractor websites on both WordPress and Webflow. We have no incentive to push you toward either platform. Our only goal is to help you choose the one that generates more leads for your specific contracting business.</p>
 <p>Here is what you will learn in this guide:</p>
 <ul>
@@ -23,6 +23,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 <h2>Chapter 1: How We Evaluated Both Platforms</h2>
 <p>We scored WordPress and Webflow across seven criteria that directly impact a contractor's ability to generate leads online. These are not abstract technical metrics. They are the factors that determine whether a homeowner who finds your website actually fills out a quote form or calls your number.</p>
 <h3>Our Seven Evaluation Criteria</h3>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -61,6 +62,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <h3>The Data Sources Behind This Comparison</h3>
 <p>Every claim in this guide is backed by one or more of the following:</p>
 <ul>
@@ -118,6 +120,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 <p>A well-optimized WordPress site on quality hosting can achieve sub-1.8-second Largest Contentful Paint and 85-95 PageSpeed scores. But that requires technical knowledge or a managed hosting budget of $200+ per month.</p>
 <p><strong>3. The Hidden Cost of Plugins</strong></p>
 <p>Premium plugin subscriptions add up quickly:</p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -156,6 +159,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <p>These are recurring annual costs. Miss a renewal, and your site loses functionality.</p>
 <p><strong>4. The Plugin Conflict Problem</strong></p>
 <p>Every plugin you add increases the risk of conflicts. Two plugins that work fine independently can break each other after an update. Debugging these conflicts requires technical expertise. A contractor without a developer on call can find their contact form broken for days before noticing.</p>
@@ -165,6 +169,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 <p><strong>Northface Construction</strong> (Minnesota) — Built on WordPress with a custom theme. Features emotional headline copy, GAF Master Elite certification badges, and strong local SEO. The site ranks #1 for "roofing contractor Minnesota" and generates an estimated 80-120 leads per month.</p>
 <p><strong>Thelen Mechanical</strong> (Michigan) — WordPress site with clear benefit messaging, seasonal promotions, and integrated booking. The $89 HVAC check-up offer is prominently displayed above the fold.</p>
 <h3>WordPress Cost Breakdown (3-Year Realistic Scenario)</h3>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -220,6 +225,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <p>This assumes managed hosting and a basic maintenance plan. With cheap shared hosting and free plugins only, you could cut this to $1,500 over three years — but your performance and security will suffer.</p>
 <hr />
 <h2>Chapter 3: Webflow for Contractors — The Full Picture</h2>
@@ -231,6 +237,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 <h3>The Pros of Webflow for Contractors</h3>
 <p><strong>1. Superior Out-of-the-Box Performance</strong></p>
 <p>Webflow websites consistently outperform WordPress sites on Core Web Vitals without any optimization work:</p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -273,6 +280,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <p><em>Source: HTTP Archive Chrome UX Report, Hostingstep 2025 analysis</em></p>
 <p>This performance gap directly impacts lead generation. Google research shows that a 1-second delay in mobile load time reduces conversion rates by 7%. For a contractor generating 50 leads per month at $500 average value, a 1-second improvement could mean an additional $1,750 in monthly revenue.</p>
 <p><strong>2. Zero Maintenance Burden</strong></p>
@@ -294,6 +302,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 <p>These features would cost $50-200 per month as add-ons for a WordPress site.</p>
 <p><strong>6. Predictable Pricing</strong></p>
 <p>Webflow's pricing is straightforward:</p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -330,6 +339,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <p>No surprise plugin renewal bills. No hosting upgrade fees when traffic spikes. No security plugin subscriptions.</p>
 <h3>The Cons of Webflow for Contractors</h3>
 <p><strong>1. The CMS Item Limit</strong></p>
@@ -346,6 +356,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 <p>Need a quick fix on a Sunday? WordPress developers are everywhere. Webflow experts are harder to find and often charge premium rates. According to agency data from Blott.com, custom WordPress theme development takes 200+ hours, while Webflow reduces development time by 50% — but only if you have someone who knows Webflow.</p>
 <p><strong>5. E-Commerce Transaction Fees</strong></p>
 <p>Webflow's Standard e-commerce plan charges a 2% transaction fee on top of payment processor fees (2.9% + $0.30). For a contractor selling products or large-ticket services online, this adds up. WooCommerce on WordPress charges zero platform transaction fees.</p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -370,6 +381,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <p>Webflow's Plus and Advanced e-commerce plans eliminate the transaction fee but cost $74 and $212 per month respectively.</p>
 <p><strong>6. Steeper Initial Learning Curve</strong></p>
 <p>Webflow's visual designer is powerful but complex. Non-designers often find the interface overwhelming. G2's comparison data estimates Webflow's learning curve at approximately 4 hours for a simple site, while WordPress takes 10-12 hours for basic proficiency but offers a shallower long-term learning curve for content updates.</p>
@@ -378,6 +390,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 <p><strong>Aldana's Construction</strong> — SEO-optimized with categorized services (Hauling, Residential, Commercial). Shows how Webflow handles service-specific landing pages.</p>
 <p><strong>EpoxyDocs</strong> — Video homepage with team collaboration footage, strong testimonials, and multiple conversion points.</p>
 <h3>Webflow Cost Breakdown (3-Year Realistic Scenario)</h3>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -433,11 +446,13 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <p>Year 1 is higher due to template purchase and custom development. Years 2-3 are minimal because maintenance is included. Compare this to WordPress's more consistent $1,420-$1,520 per year.</p>
 <hr />
 <h2>Chapter 4: Head-to-Head Comparison</h2>
 <p>This chapter puts both platforms side by side across the criteria that matter most for contractor lead generation.</p>
 <h3>The Complete Comparison Matrix</h3>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -552,6 +567,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <h3>Speed Comparison: The Real Data</h3>
 <p>Let us be specific about what "fast" means in 2025.</p>
 <p>Google's Core Web Vitals are the standard. Here is how each platform performs based on real user data from the Chrome UX Report:</p>
@@ -603,6 +619,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 <h3>Cost Comparison: Real Total Cost of Ownership</h3>
 <p>Let us compare three realistic contractor scenarios over three years.</p>
 <p><strong>Scenario A: Solo Contractor, Simple Brochure Site</strong></p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -644,8 +661,10 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <p>Winner: WordPress by $700.</p>
 <p><strong>Scenario B: Growing Contractor, Content Marketing Focus</strong></p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -687,8 +706,10 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <p>Winner: Webflow by $2,800.</p>
 <p><strong>Scenario C: Multi-Location Contractor, 50+ Pages</strong></p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -730,6 +751,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <p>Winner: Webflow by $5,896.</p>
 <p><strong>The Pattern:</strong></p>
 <p>WordPress is cheaper for simple sites with DIY maintenance. Webflow becomes more cost-effective as site complexity and maintenance needs grow. The break-even point for most contractors is around the 15-20 page mark with professional maintenance.</p>
@@ -783,6 +805,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 - Longest time to launch</p>
 <p><strong>Verdict:</strong> Custom development is overkill for 95% of contractors. Choose it only when you have validated that no platform can meet your specific requirements.</p>
 <h3>Platform Summary Table</h3>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -837,6 +860,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <hr />
 <h2>Chapter 6: Migration Guide — Switching Platforms Without Losing Rankings</h2>
 <p>If you are already on one platform and considering a switch, this chapter is critical. A poorly executed migration can destroy years of SEO progress. A well-executed migration can improve performance while preserving rankings.</p>
@@ -853,6 +877,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 <p><strong>Step 2: Plan Your URL Structure</strong></p>
 <p>Keep identical URL slugs whenever possible. If <code>/services/roofing-repair/</code> works on WordPress, use the same slug on Webflow. Consistent URLs eliminate the need for redirects and preserve link equity.</p>
 <p>If URLs must change, create a complete 301 redirect map:</p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -875,6 +900,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <p><strong>Step 3: Migrate Content</strong></p>
 <p>Webflow does not have a direct WordPress import tool. You will need to:<br />
 - Export WordPress content to XML<br />
@@ -883,6 +909,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 - Rebuild page structures in Webflow's designer</p>
 <p>For CMS content (blog posts, projects, testimonials), use Webflow's CSV import feature or a third-party migration service.</p>
 <p><strong>Step 4: Rebuild Technical SEO Elements</strong></p>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -921,6 +948,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <p><strong>Step 5: Implement 301 Redirects</strong></p>
 <p>In Webflow: Site Settings → Hosting → 301 Redirects</p>
 <p>Bulk import is available via the Finsweet Extension for Chrome. Test every redirect before going live.</p>
@@ -971,6 +999,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 <p><strong>Step 6: Post-Launch Monitoring</strong></p>
 <p>Follow the same monitoring protocol as WordPress to Webflow migrations. Expect 60-90 days for full stabilization.</p>
 <h3>Migration Cost Estimates</h3>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -1001,6 +1030,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <p><strong>Important:</strong> Do not attempt a migration during your busy season. If you are a roofing contractor, migrate in December or January, not after a hail storm.</p>
 <hr />
 <h2>Chapter 7: Decision Framework — Which Platform Should You Choose?</h2>
@@ -1101,6 +1131,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 - Quarterly design and performance review<br />
 - Annual plan evaluation (upgrade if approaching CMS limits)</p>
 <h3>Tool Recommendations</h3>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -1157,6 +1188,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <h3>When to Hire Help</h3>
 <p><strong>Hire a developer or agency if:</strong><br />
 - Your time is worth more than $100 per hour<br />
@@ -1203,6 +1235,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 <p>Switch from WordPress to Webflow if: your WordPress site is slow despite optimization efforts, maintenance is consuming too much time, you want better design control without a developer, or your site is relatively simple (under 50 pages). Do not switch if: you rely heavily on plugins for business operations, you publish content frequently, you have complex local SEO needs, or you value platform independence.</p>
 <hr />
 <h2>Internal Linking Suggestions</h2>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -1264,7 +1297,9 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <h2>External Citation Suggestions</h2>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -1326,7 +1361,9 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <h2>Schema Markup Recommendations</h2>
+<div class="code-block">
 <pre><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;Article&quot;,
@@ -1348,6 +1385,8 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
   &quot;dateModified&quot;: &quot;2025-06-09&quot;
 }
 </code></pre>
+</div>
+<div class="code-block">
 <pre><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;FAQPage&quot;,
@@ -1371,7 +1410,9 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
   ]
 }
 </code></pre>
+</div>
 <h2>Featured Snippet Opportunities</h2>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -1408,6 +1449,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <h2>AI Overview Optimization Notes</h2>
 <ul>
 <li><strong>Definition blocks:</strong> Every major section opens with a direct definition (e.g., "WordPress is open-source software...")</li>
@@ -1433,6 +1475,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 <li>Copilot: Step-by-step migration instructions</li>
 </ul>
 <h2>Visual Asset Recommendations</h2>
+<div class="cost-table">
 <table>
 <thead>
 <tr>
@@ -1509,6 +1552,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
 </tr>
 </tbody>
 </table>
+</div>
 <h2>Quality Control Sign-Off</h2>
 <ul>
 <li>[x] Search intent matched precisely (commercial comparison for contractors)</li>
@@ -1611,7 +1655,7 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
   <Footer />
 </Layout>
 
-<style>
+<style is:global>
   .blog-post { --bg-primary: #ffffff; --bg-secondary: #f8fafc; --bg-card: #ffffff; --bg-card-hover: #f1f5f9; --text-primary: #0f172a; --text-secondary: rgba(15, 23, 42, 0.75); --text-muted: rgba(15, 23, 42, 0.5); --border: rgba(0, 0, 0, 0.08); --border-hover: rgba(0, 0, 0, 0.15); padding: 140px 0 80px; position: relative; background: #ffffff; color: var(--text-primary); min-height: 100vh; }
   .hero-bg { display: none; }
   .gradient-blob { position: absolute; border-radius: 50%; filter: blur(120px); opacity: 0.3; }
@@ -1624,19 +1668,34 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
   .post-title { font-size: clamp(32px, 5vw, 52px); font-weight: 700; line-height: 1.1; margin-bottom: 20px; color: #000000; }
   .post-excerpt { font-size: 18px; color: #444444; line-height: 1.7; max-width: 640px; margin: 0; }
   .post-content { position: relative; z-index: 1; max-width: none; margin: 0; }
+  .post-content .lead { font-size: 20px; color: #222222; line-height: 1.7; margin-bottom: 32px; font-weight: 400; }
   .post-content h2 { font-size: 28px; font-weight: 700; margin: 48px 0 20px; color: #000000; }
-  .post-content h3 { font-size: 20px; font-weight: 700; margin: 32px 0 12px; color: #000000; }
-  .post-content h4 { font-size: 18px; font-weight: 700; margin: 24px 0 10px; color: #000000; }
-  .post-content p { font-size: 16px; color: #333333; line-height: 1.8; margin-bottom: 20px; }
+  .post-content h3 { font-size: 22px; font-weight: 700; margin: 36px 0 16px; color: #000000; }
+  .post-content h4 { font-size: 18px; font-weight: 700; margin: 28px 0 12px; color: #000000; }
+  .post-content p { font-size: 17px; color: #333333; line-height: 1.8; margin-bottom: 20px; }
   .post-content ul, .post-content ol { margin: 0 0 24px 24px; }
-  .post-content li { font-size: 16px; color: #333333; line-height: 1.8; margin-bottom: 10px; }
+  .post-content li { font-size: 17px; color: #333333; line-height: 1.8; margin-bottom: 12px; }
   .post-content li strong { color: var(--text-primary); }
-  .post-content blockquote { border-left: 3px solid var(--accent-primary); padding-left: 20px; margin: 24px 0; font-style: italic; color: var(--text-secondary); }
-  .cost-table { margin: 32px 0; overflow-x: auto; }
-  .cost-table table { width: 100%; border-collapse: collapse; font-size: 14px; }
-  .cost-table th { padding: 16px; text-align: left; font-family: var(--font-heading); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); border-bottom: 1px solid var(--border); }
-  .cost-table td { padding: 16px; color: var(--text-secondary); border-bottom: 1px solid var(--border); }
+  .post-content a { color: var(--accent-primary); text-decoration: underline; text-underline-offset: 3px; }
+  .post-content a:hover { color: #1d4ed8; }
+  .post-content blockquote { border-left: 4px solid var(--accent-primary); padding: 16px 24px; margin: 32px 0; background: var(--bg-secondary); border-radius: 0 12px 12px 0; font-style: italic; color: var(--text-secondary); }
+  .post-content blockquote p { margin-bottom: 0; font-size: 17px; }
+  .post-content hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+  .post-content img { border-radius: 12px; margin: 24px 0; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+  .post-content code { font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace; font-size: 14px; background: rgba(0,0,0,0.06); padding: 2px 6px; border-radius: 4px; color: #c7254e; }
+  .post-content pre { background: #1e293b; border-radius: 12px; padding: 20px; overflow-x: auto; margin: 24px 0; }
+  .post-content pre code { background: transparent; padding: 0; color: #e2e8f0; font-size: 14px; }
+  .cost-table { margin: 32px 0; overflow-x: auto; border-radius: 12px; border: 1px solid var(--border); }
+  .cost-table table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  .cost-table thead { background: var(--bg-secondary); }
+  .cost-table th { padding: 14px 16px; text-align: left; font-family: var(--font-heading); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); border-bottom: 1px solid var(--border); }
+  .cost-table td { padding: 14px 16px; color: var(--text-secondary); border-bottom: 1px solid var(--border); }
+  .cost-table tr:last-child td { border-bottom: none; }
   .cost-table td strong { color: var(--text-primary); }
+  .cta-box { background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-xl); padding: 40px; margin: 40px 0; text-align: center; }
+  .cta-box h3 { font-size: 22px; font-weight: 700; margin-bottom: 12px; color: #ffffff; }
+  .cta-box p { font-size: 16px; color: rgba(255,255,255,0.85); line-height: 1.7; margin-bottom: 24px; }
+  .conclusion { font-size: 18px; color: var(--text-primary); font-weight: 500; margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--border); }
   .post-footer { max-width: none; margin: 60px 0 0; padding-top: 40px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
   .post-tags { display: flex; gap: 10px; flex-wrap: wrap; }
   .post-tags span { font-size: 13px; color: var(--text-muted); padding: 6px 14px; background: rgba(0,0,0,0.04); border-radius: 100px; }
@@ -1654,5 +1713,5 @@ const contentHtml = `<p>Most platform comparisons are written by people selling 
   .trust-item { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--text-muted); }
   .trust-item svg { width: 14px; height: 14px; color: var(--accent-secondary); flex-shrink: 0; }
   @media (max-width: 1024px) { .blog-layout { grid-template-columns: 1fr; } .blog-sidebar { position: static; margin-top: 40px; } .sidebar-cta { max-width: 400px; margin: 0 auto; } }
-  @media (max-width: 640px) { .blog-post { padding: 120px 0 60px; } .post-title { font-size: 28px; } .post-content h2 { font-size: 24px; } }
+  @media (max-width: 640px) { .blog-post { padding: 120px 0 60px; } .post-title { font-size: 28px; } .post-content .lead { font-size: 18px; } .post-content h2 { font-size: 24px; } .cta-box { padding: 28px 24px; } }
 </style>
