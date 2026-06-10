@@ -11,6 +11,8 @@ const contentHtml = `<p class="lead">Most contractor websites are digital brochu
 <p>This guide covers the entire process from decision to measurement. You will learn when to redesign versus refresh, how to set realistic goals and budgets, which platform to choose for your specific trade, how to preserve every SEO ranking during migration, how to design for lead generation on mobile, what content to keep and what to rewrite, how to launch without breaking anything, and how to measure whether the investment paid off.</p>
 <p>Every section includes contractor-specific examples, 2025-2026 data, and actionable steps you can apply immediately. Let us begin.</p>
 <hr />
+<nav class="toc">
+<h4>Table of Contents</h4>
 <h2>Table of Contents</h2>
 <ol>
 <li><a href="#chapter-1-when-and-why-to-redesign-your-contractor-website">When and Why to Redesign Your Contractor Website</a></li>
@@ -26,6 +28,7 @@ const contentHtml = `<p class="lead">Most contractor websites are digital brochu
 <li><a href="#faq">FAQ</a></li>
 <li><a href="#your-30-day-action-plan">Your 30-Day Action Plan</a></li>
 </ol>
+</nav>
 <hr />
 <h2>Chapter 1: When and Why to Redesign Your Contractor Website</h2>
 <h3>10 Signs Your Website Needs a Redesign</h3>
@@ -95,7 +98,7 @@ const contentHtml = `<p class="lead">Most contractor websites are digital brochu
 <p><strong>Choose a full redesign if:</strong> your site is on an outdated platform, has poor URL structure, loads slowly, does not rank, cannot be edited easily, or fails to generate leads despite receiving traffic.</p>
 <h3>Business Triggers That Demand a Redesign</h3>
 <p>Certain business events make redesign not just advisable but urgent:</p>
-<ul>
+<ul class="bullet-list">
 <li><strong>Merger or acquisition:</strong> Combining two brands, service areas, or websites requires architectural consolidation.</li>
 <li><strong>Geographic expansion:</strong> Adding new cities or states means new location pages, service area structures, and local SEO foundations.</li>
 <li><strong>New service lines:</strong> Adding commercial work, solar installation, or smart home services requires new page hierarchies and content.</li>
@@ -449,7 +452,9 @@ const contentHtml = `<p class="lead">Most contractor websites are digital brochu
 <p><strong>Step 3: Document decisions.</strong> For every page marked "Remove" or "Consolidate," plan a 301 redirect to the most relevant remaining page. Never delete a URL without a redirect plan.</p>
 <h3>URL Mapping Strategy</h3>
 <p>URL mapping is the process of matching every old URL to its new equivalent. This is the single most important SEO task during redesign.</p>
+<div class="callout callout-tip">
 <p><strong>Best practice:</strong> Keep URLs unchanged whenever possible. If your current service page is <code>/residential-plumbing</code> and the new site also has a residential plumbing page, keep the URL identical. This eliminates the need for a redirect and preserves 100% of the link equity.</p>
+</div>
 <p><strong>When URLs must change:</strong> Create a one-to-one mapping spreadsheet:</p>
 <div class="cost-table">
 <table>
@@ -1208,7 +1213,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <h2>The 40-Point Website Redesign Checklist</h2>
 <p>Use this checklist to track progress through every phase of your redesign.</p>
 <h3>Phase 1: Discovery and Strategy (Points 1-8)</h3>
-<ul>
+<ul class="checklist">
 <li>[ ] 1. Conducted full SEO audit of current site</li>
 <li>[ ] 2. Exported all current URLs with traffic and backlink data</li>
 <li>[ ] 3. Documented baseline metrics (traffic, rankings, conversions, speed)</li>
@@ -1219,7 +1224,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <li>[ ] 8. Selected platform (WordPress, Webflow, Wix, or Squarespace)</li>
 </ul>
 <h3>Phase 2: Architecture and Planning (Points 9-16)</h3>
-<ul>
+<ul class="checklist">
 <li>[ ] 9. Created visual sitemap with all pages and hierarchy</li>
 <li>[ ] 10. Planned service page structure (one page per service)</li>
 <li>[ ] 11. Planned location page structure (one page per city)</li>
@@ -1230,7 +1235,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <li>[ ] 16. Selected hosting provider and configured environment</li>
 </ul>
 <h3>Phase 3: Content Creation (Points 17-22)</h3>
-<ul>
+<ul class="checklist">
 <li>[ ] 17. Wrote or commissioned copy for all core pages</li>
 <li>[ ] 18. Optimized all title tags and meta descriptions</li>
 <li>[ ] 19. Created unique content for every location page</li>
@@ -1239,7 +1244,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <li>[ ] 22. Created or updated blog content strategy</li>
 </ul>
 <h3>Phase 4: Design and Development (Points 23-28)</h3>
-<ul>
+<ul class="checklist">
 <li>[ ] 23. Homepage design approved with mobile and desktop versions</li>
 <li>[ ] 24. All page templates built and populated with content</li>
 <li>[ ] 25. Mobile-first responsive design implemented</li>
@@ -1248,7 +1253,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <li>[ ] 28. Schema markup implemented (LocalBusiness, Service, FAQ)</li>
 </ul>
 <h3>Phase 5: SEO and Technical (Points 29-33)</h3>
-<ul>
+<ul class="checklist">
 <li>[ ] 29. All 301 redirects implemented and tested</li>
 <li>[ ] 30. XML sitemap generated and validated</li>
 <li>[ ] 31. Robots.txt configured for production</li>
@@ -1256,14 +1261,14 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <li>[ ] 33. Core Web Vitals optimized (LCP, INP, CLS targets met)</li>
 </ul>
 <h3>Phase 6: Testing (Points 34-37)</h3>
-<ul>
+<ul class="checklist">
 <li>[ ] 34. Full site crawl completed (zero critical errors)</li>
 <li>[ ] 35. Cross-browser testing passed (Chrome, Safari, Firefox, Edge)</li>
 <li>[ ] 36. Cross-device testing passed (iPhone, Android, iPad, desktop)</li>
 <li>[ ] 37. All forms submit correctly and deliver to correct inbox</li>
 </ul>
 <h3>Phase 7: Launch (Points 38-40)</h3>
-<ul>
+<ul class="checklist">
 <li>[ ] 38. DNS updated and site verified live</li>
 <li>[ ] 39. XML sitemap submitted to Google Search Console</li>
 <li>[ ] 40. 48-hour monitoring plan activated (traffic, errors, conversions)</li>
@@ -1311,14 +1316,14 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <hr />
 <h2>Your 30-Day Action Plan</h2>
 <h3>Week 1: Assessment</h3>
-<ul>
+<ul class="checklist">
 <li>[ ] Run a full SEO audit of your current site (Screaming Frog crawl, Google Analytics export, ranking baseline)</li>
 <li>[ ] Document your current conversion metrics (leads per month, cost per lead, conversion rate)</li>
 <li>[ ] List the 10 signs from Chapter 1. How many apply to your site?</li>
 <li>[ ] Decide: refresh or full redesign?</li>
 </ul>
 <h3>Week 2: Planning</h3>
-<ul>
+<ul class="checklist">
 <li>[ ] Set SMART goals for the redesign (specific numbers, specific dates)</li>
 <li>[ ] Determine your budget range including 30% contingency</li>
 <li>[ ] Choose your platform (WordPress, Webflow, Wix, or Squarespace)</li>
@@ -1326,7 +1331,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <li>[ ] Begin the 40-point checklist</li>
 </ul>
 <h3>Week 3: Foundation</h3>
-<ul>
+<ul class="checklist">
 <li>[ ] Complete the URL mapping spreadsheet (every old URL to new URL)</li>
 <li>[ ] Plan 301 redirects for all changing URLs</li>
 <li>[ ] Classify all content as Keep, Improve, Consolidate, or Remove</li>
@@ -1334,7 +1339,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <li>[ ] Select your designer/agency or begin DIY setup</li>
 </ul>
 <h3>Week 4: Execution Start</h3>
-<ul>
+<ul class="checklist">
 <li>[ ] Begin content creation or copywriting</li>
 <li>[ ] Finalize wireframes and design mockups</li>
 <li>[ ] Set up staging environment</li>
@@ -1769,7 +1774,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 </div>
 <h2>Quality Control Sign-Off</h2>
 <h3>Content Quality</h3>
-<ul>
+<ul class="checklist">
 <li>[x] Search intent matched precisely (informational/commercial for contractors researching redesign)</li>
 <li>[x] Better than top 10 competitors on every dimension (contractor-specific, SEO migration depth, platform comparison, cost transparency)</li>
 <li>[x] Content gaps from research filled (mobile-first for emergency services, timeline guidance, conversion-focused design)</li>
@@ -1784,7 +1789,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <li>[x] Complete FAQ section (20 questions)</li>
 </ul>
 <h3>Writing Quality</h3>
-<ul>
+<ul class="checklist">
 <li>[x] Zero AI patterns (no "delve," "crucial," "landscape," "foster")</li>
 <li>[x] Zero generic intros (no "In today's world...")</li>
 <li>[x] Zero filler phrases (no "It is important to note that...")</li>
@@ -1795,7 +1800,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <li>[x] Numbers and specifics over generalities</li>
 </ul>
 <h3>EEAT</h3>
-<ul>
+<ul class="checklist">
 <li>[x] Expert opinions cited (Forrester, industry research)</li>
 <li>[x] Statistics with sources (340% ROI, 71% mobile traffic, 53% abandonment)</li>
 <li>[x] Research referenced (Siana Marketing, PipelineOn, BrightLocal)</li>
@@ -1804,7 +1809,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <li>[x] Honest about limitations (Wix scalability, WordPress maintenance burden)</li>
 </ul>
 <h3>SEO</h3>
-<ul>
+<ul class="checklist">
 <li>[x] Keyword in H1, intro, 2+ H2s, conclusion</li>
 <li>[x] Semantic keywords included (SEO migration, platform comparison, Core Web Vitals, service area pages)</li>
 <li>[x] LSI keywords included (contractor website, home service, local SEO, lead generation)</li>
@@ -1814,7 +1819,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <li>[x] Descriptive image alt text placeholders</li>
 </ul>
 <h3>AIO (AI Overview)</h3>
-<ul>
+<ul class="checklist">
 <li>[x] Short answer blocks in major sections</li>
 <li>[x] Direct definitions</li>
 <li>[x] Step-by-step instructions (SEO migration, launch process)</li>
@@ -1823,7 +1828,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <li>[x] FAQ format (20 questions)</li>
 </ul>
 <h3>GEO</h3>
-<ul>
+<ul class="checklist">
 <li>[x] Clear definitions for key terms</li>
 <li>[x] Entity-rich writing</li>
 <li>[x] Fact-based content with statistics</li>
@@ -1832,7 +1837,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <li>[x] Every section answers What, Why, How, When, Who</li>
 </ul>
 <h3>CTR</h3>
-<ul>
+<ul class="checklist">
 <li>[x] 10 title options generated</li>
 <li>[x] Recommended title selected with rationale</li>
 <li>[x] Meta title optimized (52 characters)</li>
@@ -1840,7 +1845,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <li>[x] URL slug optimized</li>
 </ul>
 <h3>Dwell Time</h3>
-<ul>
+<ul class="checklist">
 <li>[x] Sticky intro (78 words)</li>
 <li>[x] Above-the-fold value (direct promise in first 100 words)</li>
 <li>[x] Long-form depth (10,000+ words)</li>
@@ -1850,7 +1855,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <li>[x] FAQ section (20 questions)</li>
 </ul>
 <h3>Conversion</h3>
-<ul>
+<ul class="checklist">
 <li>[x] CTA matches funnel stage (MOFU/BOFU — soft CTA in content, hard CTA at conclusion)</li>
 <li>[x] CTA is specific about outcome ("Get a Free Website Redesign Quote + SEO Migration Plan")</li>
 <li>[x] Conversion opportunities included (lead magnet reference, internal links to service pages)</li>
@@ -1901,62 +1906,190 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 </Layout>
 
 <style is:global>
-  .blog-post { --bg-primary: #ffffff; --bg-secondary: #f8fafc; --bg-card: #ffffff; --bg-card-hover: #f1f5f9; --text-primary: #0f172a; --text-secondary: rgba(15, 23, 42, 0.75); --text-muted: rgba(15, 23, 42, 0.5); --border: rgba(0, 0, 0, 0.08); --border-hover: rgba(0, 0, 0, 0.15); padding: 140px 0 80px; position: relative; background: #ffffff; color: var(--text-primary); min-height: 100vh; }
+  /* ===== BLOG POST BASE ===== */
+  .blog-post { --bg-primary: #ffffff; --bg-secondary: #f8fafc; --bg-card: #ffffff; --bg-card-hover: #f1f5f9; --text-primary: #0f172a; --text-secondary: rgba(15, 23, 42, 0.75); --text-muted: rgba(15, 23, 42, 0.5); --border: rgba(0, 0, 0, 0.08); --border-hover: rgba(0, 0, 0, 0.15); --accent-primary: #3B82F6; --accent-secondary: #22D3EE; --accent-glow: #8B5CF6; --radius-sm: 8px; --radius-md: 12px; --radius-lg: 16px; --radius-xl: 20px; --font-heading: 'Space Grotesk', sans-serif; --font-body: 'Inter', sans-serif; padding: 140px 0 80px; position: relative; background: #ffffff; color: var(--text-primary); min-height: 100vh; }
   .hero-bg { display: none; }
   .gradient-blob { position: absolute; border-radius: 50%; filter: blur(120px); opacity: 0.3; }
   .blob-1 { width: 400px; height: 400px; background: radial-gradient(circle, rgba(59,130,246,0.3), transparent 70%); top: 5%; right: -10%; }
   .blob-2 { width: 300px; height: 300px; background: radial-gradient(circle, rgba(139,92,246,0.25), transparent 70%); bottom: 20%; left: -5%; }
+
+  /* ===== POST HEADER ===== */
   .post-header { position: relative; z-index: 1; max-width: none; margin: 0 0 60px; text-align: left; }
   .post-meta { display: flex; justify-content: flex-start; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
-  .post-category { font-size: 13px; font-weight: 600; color: var(--accent-primary); text-transform: uppercase; letter-spacing: 0.06em; }
-  .post-date { font-size: 13px; color: #666666; }
-  .post-title { font-size: clamp(32px, 5vw, 52px); font-weight: 700; line-height: 1.1; margin-bottom: 20px; color: #000000; }
-  .post-excerpt { font-size: 18px; color: #444444; line-height: 1.7; max-width: 640px; margin: 0; }
+  .post-category { font-size: 12px; font-weight: 700; color: var(--accent-primary); text-transform: uppercase; letter-spacing: 0.08em; background: rgba(59,130,246,0.08); padding: 6px 14px; border-radius: 100px; }
+  .post-date { font-size: 13px; color: #888888; display: flex; align-items: center; gap: 6px; }
+  .post-title { font-size: clamp(36px, 5vw, 56px); font-weight: 800; line-height: 1.05; margin-bottom: 24px; color: #000000; letter-spacing: -0.03em; }
+  .post-excerpt { font-size: 19px; color: #555555; line-height: 1.7; max-width: 680px; margin: 0; font-weight: 400; }
+
+  /* ===== POST CONTENT ===== */
   .post-content { position: relative; z-index: 1; max-width: none; margin: 0; }
-  .post-content .lead { font-size: 20px; color: #222222; line-height: 1.7; margin-bottom: 32px; font-weight: 400; }
-  .post-content h2 { font-size: 28px; font-weight: 700; margin: 48px 0 20px; color: #000000; }
-  .post-content h3 { font-size: 22px; font-weight: 700; margin: 36px 0 16px; color: #000000; }
-  .post-content h4 { font-size: 18px; font-weight: 700; margin: 28px 0 12px; color: #000000; }
-  .post-content p { font-size: 17px; color: #333333; line-height: 1.8; margin-bottom: 20px; }
-  .post-content ul, .post-content ol { margin: 0 0 24px 24px; }
-  .post-content li { font-size: 17px; color: #333333; line-height: 1.8; margin-bottom: 12px; }
-  .post-content li strong { color: var(--text-primary); }
-  .post-content a { color: var(--accent-primary); text-decoration: underline; text-underline-offset: 3px; }
-  .post-content a:hover { color: #1d4ed8; }
-  .post-content blockquote { border-left: 4px solid var(--accent-primary); padding: 16px 24px; margin: 32px 0; background: var(--bg-secondary); border-radius: 0 12px 12px 0; font-style: italic; color: var(--text-secondary); }
-  .post-content blockquote p { margin-bottom: 0; font-size: 17px; }
-  .post-content hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
-  .post-content img { border-radius: 12px; margin: 24px 0; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
-  .post-content code { font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace; font-size: 14px; background: rgba(0,0,0,0.06); padding: 2px 6px; border-radius: 4px; color: #c7254e; }
-  .post-content pre { background: #1e293b; border-radius: 12px; padding: 20px; overflow-x: auto; margin: 24px 0; }
-  .post-content pre code { background: transparent; padding: 0; color: #e2e8f0; font-size: 14px; }
-  .cost-table { margin: 32px 0; overflow-x: auto; border-radius: 12px; border: 1px solid var(--border); }
+
+  /* Lead paragraph */
+  .post-content .lead { font-size: 20px; color: #1a1a1a; line-height: 1.75; margin-bottom: 40px; font-weight: 400; }
+
+  /* Headings */
+  .post-content h2 { font-size: 32px; font-weight: 800; margin: 64px 0 24px; color: #000000; letter-spacing: -0.02em; line-height: 1.15; position: relative; padding-bottom: 16px; }
+  .post-content h2::after { content: ''; position: absolute; bottom: 0; left: 0; width: 60px; height: 4px; background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary)); border-radius: 2px; }
+  .post-content h3 { font-size: 24px; font-weight: 700; margin: 40px 0 16px; color: #111111; letter-spacing: -0.01em; line-height: 1.25; }
+  .post-content h4 { font-size: 20px; font-weight: 700; margin: 28px 0 12px; color: #1a1a1a; line-height: 1.3; }
+
+  /* Paragraphs */
+  .post-content p { font-size: 17px; color: #333333; line-height: 1.85; margin-bottom: 20px; }
+
+  /* ===== TABLE OF CONTENTS ===== */
+  .post-content .toc { background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid var(--border); border-radius: var(--radius-xl); padding: 32px; margin: 32px 0 48px; position: relative; overflow: hidden; }
+  .post-content .toc::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: linear-gradient(180deg, var(--accent-primary), var(--accent-secondary)); }
+  .post-content .toc h4 { font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin: 0 0 20px 0; padding: 0; }
+  .post-content .toc h4::after { display: none; }
+  .post-content .toc ol { margin: 0; padding: 0; list-style: none; counter-reset: toc; }
+  .post-content .toc li { margin: 0 0 10px 0; padding: 0; position: relative; padding-left: 32px; font-size: 15px; }
+  .post-content .toc li::before { counter-increment: toc; content: counter(toc); position: absolute; left: 0; top: 2px; width: 22px; height: 22px; background: linear-gradient(135deg, var(--accent-primary), var(--accent-glow)); color: white; font-size: 11px; font-weight: 700; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+  .post-content .toc li a { color: var(--text-primary); text-decoration: none; font-weight: 500; transition: color 0.2s; }
+  .post-content .toc li a:hover { color: var(--accent-primary); }
+
+  /* ===== TABLES ===== */
+  .cost-table { margin: 32px 0; overflow-x: auto; border-radius: var(--radius-lg); border: 1px solid var(--border); box-shadow: 0 4px 24px rgba(0,0,0,0.06); }
   .cost-table table { width: 100%; border-collapse: collapse; font-size: 15px; }
-  .cost-table thead { background: var(--bg-secondary); }
-  .cost-table th { padding: 14px 16px; text-align: left; font-family: var(--font-heading); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); border-bottom: 1px solid var(--border); }
-  .cost-table td { padding: 14px 16px; color: var(--text-secondary); border-bottom: 1px solid var(--border); }
-  .cost-table tr:last-child td { border-bottom: none; }
+  .cost-table thead { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+  .cost-table th { padding: 16px 20px; text-align: left; font-family: var(--font-heading); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: rgba(255,255,255,0.9); border-bottom: none; }
+  .cost-table td { padding: 14px 20px; color: var(--text-secondary); border-bottom: 1px solid var(--border); }
+  .cost-table tbody tr:nth-child(even) { background: var(--bg-secondary); }
+  .cost-table tbody tr:hover { background: rgba(59,130,246,0.04); }
+  .cost-table tbody tr:last-child td { border-bottom: none; }
   .cost-table td strong { color: var(--text-primary); }
-  .cta-box { background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-xl); padding: 40px; margin: 40px 0; text-align: center; }
-  .cta-box h3 { font-size: 22px; font-weight: 700; margin-bottom: 12px; color: #ffffff; }
-  .cta-box p { font-size: 16px; color: rgba(255,255,255,0.85); line-height: 1.7; margin-bottom: 24px; }
-  .conclusion { font-size: 18px; color: var(--text-primary); font-weight: 500; margin-top: 40px; padding-top: 32px; border-top: 1px solid var(--border); }
+
+  /* ===== LISTS ===== */
+  .post-content ul, .post-content ol { margin: 0 0 24px 0; padding-left: 0; }
+  .post-content ul li, .post-content ol li { font-size: 17px; color: #333333; line-height: 1.8; margin-bottom: 12px; position: relative; }
+
+  /* Bullet lists with custom markers */
+  .post-content ul.bullet-list { list-style: none; padding-left: 0; }
+  .post-content ul.bullet-list li { padding-left: 28px; }
+  .post-content ul.bullet-list li::before { content: ''; position: absolute; left: 0; top: 10px; width: 8px; height: 8px; background: linear-gradient(135deg, var(--accent-primary), var(--accent-glow)); border-radius: 50%; }
+
+  /* Regular ul styling */
+  .post-content ul:not(.checklist):not(.toc ol):not(.bullet-list) { list-style: none; padding-left: 0; }
+  .post-content ul:not(.checklist):not(.toc ol):not(.bullet-list) li { padding-left: 28px; }
+  .post-content ul:not(.checklist):not(.toc ol):not(.bullet-list) li::before { content: ''; position: absolute; left: 0; top: 10px; width: 8px; height: 8px; background: linear-gradient(135deg, var(--accent-primary), var(--accent-glow)); border-radius: 50%; }
+
+  /* Checklist */
+  .post-content ul.checklist { list-style: none; padding-left: 0; }
+  .post-content ul.checklist li { padding-left: 32px; }
+  .post-content ul.checklist li::before { content: '✓'; position: absolute; left: 0; top: 0; width: 22px; height: 22px; background: linear-gradient(135deg, #22c55e, #16a34a); color: white; font-size: 12px; font-weight: 700; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+
+  /* Numbered lists */
+  .post-content ol:not(.toc ol) { list-style: none; counter-reset: item; padding-left: 0; }
+  .post-content ol:not(.toc ol) li { padding-left: 40px; counter-increment: item; }
+  .post-content ol:not(.toc ol) li::before { content: counter(item); position: absolute; left: 0; top: 0; width: 28px; height: 28px; background: linear-gradient(135deg, var(--accent-primary), var(--accent-glow)); color: white; font-size: 13px; font-weight: 700; border-radius: 8px; display: flex; align-items: center; justify-content: center; }
+
+  /* List item strong text */
+  .post-content li strong { color: var(--text-primary); }
+
+  /* ===== LINKS ===== */
+  .post-content a { color: var(--accent-primary); text-decoration: none; font-weight: 500; border-bottom: 2px solid rgba(59,130,246,0.2); transition: all 0.2s; }
+  .post-content a:hover { color: #1d4ed8; border-bottom-color: var(--accent-primary); }
+
+  /* ===== BLOCKQUOTES ===== */
+  .post-content blockquote, .post-content .highlight-quote { border-left: 4px solid var(--accent-primary); padding: 20px 28px; margin: 32px 0; background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border-radius: 0 12px 12px 0; position: relative; }
+  .post-content blockquote::before, .post-content .highlight-quote::before { content: '"'; position: absolute; top: 8px; left: 16px; font-size: 48px; color: var(--accent-primary); opacity: 0.2; font-family: Georgia, serif; line-height: 1; }
+  .post-content blockquote p, .post-content .highlight-quote p { margin-bottom: 0; font-size: 17px; font-style: italic; color: var(--text-secondary); }
+
+  /* ===== CALLOUT BOXES ===== */
+  .post-content .callout { border-radius: var(--radius-lg); padding: 24px 28px; margin: 28px 0; position: relative; overflow: hidden; }
+  .post-content .callout::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; }
+  .post-content .callout p { margin-bottom: 0; font-size: 16px; }
+  .post-content .callout p strong { display: block; margin-bottom: 8px; font-size: 15px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+  .post-content .callout-info { background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border: 1px solid rgba(59,130,246,0.15); }
+  .post-content .callout-info::before { background: linear-gradient(180deg, #3b82f6, #60a5fa); }
+  .post-content .callout-info p strong { color: #1d4ed8; }
+  .post-content .callout-info p { color: #1e3a5f; }
+
+  .post-content .callout-tip { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border: 1px solid rgba(34,197,94,0.15); }
+  .post-content .callout-tip::before { background: linear-gradient(180deg, #22c55e, #4ade80); }
+  .post-content .callout-tip p strong { color: #15803d; }
+  .post-content .callout-tip p { color: #14532d; }
+
+  .post-content .callout-warning { background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); border: 1px solid rgba(245,158,11,0.15); }
+  .post-content .callout-warning::before { background: linear-gradient(180deg, #f59e0b, #fbbf24); }
+  .post-content .callout-warning p strong { color: #b45309; }
+  .post-content .callout-warning p { color: #78350f; }
+
+  .post-content .callout-success { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border: 1px solid rgba(14,165,233,0.15); }
+  .post-content .callout-success::before { background: linear-gradient(180deg, #0ea5e9, #38bdf8); }
+  .post-content .callout-success p strong { color: #0369a1; }
+  .post-content .callout-success p { color: #0c4a6e; }
+
+  /* ===== CTA BOX ===== */
+  .post-content .cta-box { background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%); border: 1px solid rgba(255,255,255,0.08); border-radius: var(--radius-xl); padding: 40px; margin: 40px 0; text-align: center; position: relative; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
+  .post-content .cta-box::before { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(59,130,246,0.08) 0%, transparent 70%); }
+  .post-content .cta-box h3 { font-size: 24px; font-weight: 700; margin-bottom: 12px; color: #ffffff; position: relative; z-index: 1; }
+  .post-content .cta-box p { font-size: 16px; color: rgba(255,255,255,0.85); line-height: 1.7; margin-bottom: 24px; position: relative; z-index: 1; }
+  .post-content .cta-box a { display: inline-flex; align-items: center; gap: 10px; padding: 14px 32px; background: linear-gradient(135deg, var(--accent-primary), var(--accent-glow)); color: white; font-size: 15px; font-weight: 600; border-radius: var(--radius-md); text-decoration: none; border: none; transition: all 0.3s; box-shadow: 0 8px 32px rgba(59,130,246,0.4); position: relative; z-index: 1; }
+  .post-content .cta-box a:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(59,130,246,0.5); }
+
+  /* ===== STAT CARDS (for statistics posts) ===== */
+  .post-content .stat-card { background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 24px 28px; margin: 16px 0; position: relative; box-shadow: 0 2px 12px rgba(0,0,0,0.04); transition: all 0.3s; }
+  .post-content .stat-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
+  .post-content .stat-card::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary)); border-radius: var(--radius-lg) var(--radius-lg) 0 0; }
+  .post-content .stat-card p { margin-bottom: 0; font-size: 16px; }
+  .post-content .stat-card strong { color: var(--accent-primary); font-size: 18px; }
+
+  /* ===== CONCLUSION ===== */
+  .post-content .conclusion { font-size: 18px; color: var(--text-primary); font-weight: 500; margin-top: 48px; padding: 32px; background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border-radius: var(--radius-lg); border-left: 4px solid var(--accent-primary); }
+
+  /* ===== CODE ===== */
+  .post-content code { font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', monospace; font-size: 14.5px; background: rgba(59,130,246,0.08); padding: 3px 8px; border-radius: 6px; color: #1d4ed8; font-weight: 500; }
+  .post-content .code-block { margin: 28px 0; border-radius: var(--radius-lg); overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+  .post-content pre { background: #0f172a; padding: 24px; overflow-x: auto; margin: 0; }
+  .post-content pre code { background: transparent; padding: 0; color: #e2e8f0; font-size: 14px; font-weight: 400; }
+
+  /* ===== HR / DIVIDERS ===== */
+  .post-content hr { border: none; height: 1px; background: linear-gradient(90deg, transparent, var(--border), transparent); margin: 48px 0; }
+
+  /* ===== IMAGES ===== */
+  .post-content img { border-radius: var(--radius-lg); margin: 28px 0; box-shadow: 0 8px 32px rgba(0,0,0,0.1); max-width: 100%; display: block; }
+
+  /* ===== POST FOOTER ===== */
   .post-footer { max-width: none; margin: 60px 0 0; padding-top: 40px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
   .post-tags { display: flex; gap: 10px; flex-wrap: wrap; }
   .post-tags span { font-size: 13px; color: var(--text-muted); padding: 6px 14px; background: rgba(0,0,0,0.04); border-radius: 100px; }
   .back-link { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; color: var(--accent-primary); transition: gap 0.3s; }
   .back-link:hover { gap: 12px; }
+
+  /* ===== LAYOUT ===== */
   .blog-layout { display: grid; grid-template-columns: 1fr 320px; gap: 48px; align-items: start; }
   .blog-main { min-width: 0; }
   .blog-sidebar { position: sticky; top: 120px; }
+
+  /* ===== SIDEBAR CTA ===== */
   .sidebar-cta { background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-xl); padding: 32px; text-align: center; }
   .sidebar-cta h3 { font-size: 18px; font-weight: 700; margin-bottom: 12px; color: #ffffff; line-height: 1.3; }
   .sidebar-cta p { font-size: 14px; color: rgba(255,255,255,0.85); line-height: 1.6; margin-bottom: 20px; }
-  .sidebar-cta-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; width: 100%; padding: 14px 20px; background: var(--accent-primary); color: white; font-size: 14px; font-weight: 600; border-radius: var(--radius-md); transition: all 0.35s var(--transition); box-shadow: 0 4px 20px rgba(59,130,246,0.3); text-decoration: none; }
+  .sidebar-cta-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; width: 100%; padding: 14px 20px; background: linear-gradient(135deg, var(--accent-primary), var(--accent-glow)); color: white; font-size: 14px; font-weight: 600; border-radius: var(--radius-md); transition: all 0.35s var(--transition); box-shadow: 0 4px 20px rgba(59,130,246,0.3); text-decoration: none; border: none; }
   .sidebar-cta-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(59,130,246,0.4); }
-  .sidebar-trust { margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--border); display: flex; flex-direction: column; gap: 10px; }
-  .trust-item { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--text-muted); }
+  .sidebar-trust { margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); display: flex; flex-direction: column; gap: 10px; }
+  .trust-item { display: flex; align-items: center; gap: 8px; font-size: 12px; color: rgba(255,255,255,0.7); }
   .trust-item svg { width: 14px; height: 14px; color: var(--accent-secondary); flex-shrink: 0; }
-  @media (max-width: 1024px) { .blog-layout { grid-template-columns: 1fr; } .blog-sidebar { position: static; margin-top: 40px; } .sidebar-cta { max-width: 400px; margin: 0 auto; } }
-  @media (max-width: 640px) { .blog-post { padding: 120px 0 60px; } .post-title { font-size: 28px; } .post-content .lead { font-size: 18px; } .post-content h2 { font-size: 24px; } .cta-box { padding: 28px 24px; } }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 1024px) {
+    .blog-layout { grid-template-columns: 1fr; }
+    .blog-sidebar { position: static; margin-top: 40px; }
+    .sidebar-cta { max-width: 400px; margin: 0 auto; }
+  }
+  @media (max-width: 640px) {
+    .blog-post { padding: 120px 0 60px; }
+    .post-title { font-size: 30px; }
+    .post-content h2 { font-size: 26px; }
+    .post-content h3 { font-size: 21px; }
+    .post-content .lead { font-size: 18px; }
+    .cost-table { font-size: 14px; }
+    .cost-table th, .cost-table td { padding: 12px 14px; }
+    .post-content .toc { padding: 24px 20px; }
+    .post-content .cta-box { padding: 28px 20px; }
+    .post-content .callout { padding: 20px; }
+    .post-content ol:not(.toc ol) li { padding-left: 34px; }
+    .post-content ol:not(.toc ol) li::before { width: 24px; height: 24px; font-size: 12px; }
+  }
 </style>
