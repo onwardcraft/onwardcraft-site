@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'The Mobile-First Mandate: How Mobile Experience Affects Contractor Lead Generation';
 const description = 'We analyzed 100 contractor websites to find how mobile experience affects lead generation. Includes speed data, conversion rates, and mobile mistakes.';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Mobile-First Mandate: How Mobile Experience Affects Contractor Lead Generation",
+    "description": "We analyzed 100 contractor websites to find how mobile experience affects lead generation. Includes speed data, conversion rates, and mobile mistakes.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/mobile-website-conversion-study"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = 'We analyzed 100 contractor websites to find how mobile expe
   date='June 2026'
   readTime='26 min read'
   tags={['Mobile Optimization', 'Web Design', 'Study', 'Conversion']}
+  schema={schema}
 >
 
 <!--
@@ -467,4 +495,19 @@ Meta Description: We analyzed 100 contractor websites to find how mobile experie
 <p><strong>Download our Mobile Optimization Checklist</strong> to implement the fixes from this study step by step. Includes speed optimization tactics, mobile CTA templates, and a monthly monitoring checklist.</p>
 <p>[Download the Mobile Optimization Checklist]</p>
 
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

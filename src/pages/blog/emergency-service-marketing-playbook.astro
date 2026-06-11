@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = "The Emergency Service Marketing Playbook: How to Capture High-Intent Leads 24/7";
 const description = "The Emergency Service Marketing Playbook shows how to capture high-intent leads 24/7. Includes website, lead capture, response systems, and optimization.";
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Emergency Service Marketing Playbook: How to Capture High-Intent Leads 24/7",
+    "description": "The Emergency Service Marketing Playbook shows how to capture high-intent leads 24/7. Includes website, lead capture, response systems, and optimization.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/emergency-service-marketing-playbook"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = "The Emergency Service Marketing Playbook shows how to captu
   date='June 2026'
   readTime='20 min read'
   tags={['Emergency Services', 'Lead Generation', '24/7', 'Plumbing', 'HVAC']}
+  schema={schema}
 >
 <p class="lead">If you run an emergency plumbing, HVAC, or electrical business, you already know the truth: emergencies do not wait for business hours. A burst pipe at 2:00 AM does not care about your sleep schedule. A furnace failure on a subzero Saturday does not respect your weekend. The contractors who win these calls are not necessarily the best technicians. They are the ones who answer first, respond fastest, and make booking effortless. This playbook is the complete system for capturing high-intent emergency leads around the clock. You will learn how to build a 24/7 website, install bulletproof lead capture, deploy instant response systems, automate follow-up, and continuously optimize every touchpoint for maximum conversion.</p>
 
@@ -27,7 +55,7 @@ const description = "The Emergency Service Marketing Playbook shows how to captu
 
 <h3>Why Daytime Marketing Tactics Fail After Hours</h3>
 
-<p>Most contractor marketing is built for the 9-to-5 world. The website has a contact form that promises a response "within 24 hours." The Google Business Profile lists business hours that end at 5:00 PM. The paid search campaigns are scheduled to run only during office hours to "save budget." These decisions make sense for scheduled maintenance calls. They are catastrophic for emergency lead generation.</p>
+<p>Most contractor marketing is built for the 9-to-5 world. The website has a contact form that promises a response "within 24 hours." The <a href="/services/gbp-optimization">Google Business Profile</a> lists business hours that end at 5:00 PM. The paid search campaigns are scheduled to run only during office hours to "save budget." These decisions make sense for scheduled maintenance calls. They are catastrophic for emergency <a href="/services/lead-generation">lead generation</a>.</p>
 
 <p>Consider the data. Google reports that mobile searches for "open now" have grown by over 200% in the past two years. Searches containing "24 hour" combined with service terms have increased by 58% year over year. The demand for after-hours emergency service is not a niche. It is a massive, growing segment of the home services market. Contractors who treat it as a sideline are leaving six and seven figures on the table annually.</p>
 
@@ -424,7 +452,7 @@ const description = "The Emergency Service Marketing Playbook shows how to captu
 <p>No. Emergency and non-emergency traffic have different search intent, different emotional states, and different conversion needs. Emergency landing pages need prominent phone numbers, immediate trust signals, and streamlined booking. Non-emergency landing pages can include more educational content, comparison information, and flexible scheduling. Sending emergency traffic to a generic page reduces conversion by 40-60%.</p>
 
 <h3>What role does SEO play in emergency service marketing?</h3>
-<p>SEO is critical for capturing organic emergency searches, which account for 35-50% of emergency leads in established markets. Target keywords like "emergency plumber [city]," "24/7 HVAC repair [city]," and "after hours electrician near me." Create dedicated emergency service pages for each primary service. Optimize for local SEO with Google Business Profile posts about emergency availability, local citations, and review generation focused on emergency service mentions.</p>
+<p>SEO is critical for capturing organic emergency searches, which account for 35-50% of emergency leads in established markets. Target keywords like "emergency plumber [city]," "24/7 HVAC repair [city]," and "after hours electrician near me." Create dedicated emergency service pages for each primary service. Optimize for <a href="/services/local-seo">local SEO</a> with Google Business Profile posts about emergency availability, local citations, and review generation focused on emergency service mentions.</p>
 
 <h3>How do I staff for 24/7 emergency response without burning out my team?</h3>
 <p>Use a rotating on-call schedule rather than requiring the same people to cover every night. Most contractors use a weekly rotation where each technician or dispatcher covers one week out of three or four. Pay on-call premiums: time-and-a-half for emergency calls, minimum two-hour pay for any callout. Use an answering service for initial screening so on-call staff only handle qualified leads. Track on-call hours and enforce mandatory rest periods.</p>
@@ -454,4 +482,19 @@ const description = "The Emergency Service Marketing Playbook shows how to captu
 <a class="cta-button" href="#cta">Get the Emergency Lead Generation System</a>
 </div>
 
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

@@ -3,6 +3,47 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'We Analyzed 500 Contractor Google Business Profiles: 11 Findings That Actually Impact Rankings [Data]';
 const description = 'We analyzed 500 contractor Google Business Profiles across 6 trades and 50 US cities to find what actually impacts local rankings. See the data, 7 charts,...';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "We Analyzed 500 Contractor Google Business Profiles: 11 Findings That Actually Impact Rankings",
+    "description": "Original industry study analyzing 500 contractor GBPs across 6 trades to identify local SEO ranking factor correlations.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2026-03-01",
+    "dateModified": "2026-03-01",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/contractor-gbp-study"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How many reviews do I need to rank in the top 3?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "There's no magic number. Position 1-3 profiles averaged 187 total reviews, but recency matters more than total count. Target 4-8 new reviews per month consistently."
+        }
+      }
+    ]
+  }
+];
 const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. "Get more reviews." "Fill out your profile." "Post weekly." You've heard it all before. But which tactics actually move the needle — and by how much?</p>
 <p>We analyzed 500 real contractor Google Business Profiles across six trades in 50 US cities to find out. We measured 15 variables per profile and cross-referenced them against observed local pack rankings for high-intent keywords like "roofing contractor Dallas" and "emergency plumber Phoenix."</p>
 <p>The results surprised us. Some "best practices" barely correlated with rankings. Others showed stronger relationships than the industry literature suggests. And a few findings directly contradict what most SEO blogs tell you to do.</p>
@@ -167,7 +208,7 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 <h2>Key Finding #1: Review Recency Beats Review Count</h2>
 <p><strong>The data:</strong> Review recency (days since most recent review) showed a <strong>-0.41 correlation</strong> with ranking position. Review count showed only <strong>-0.22</strong>.</p>
 <p>Here's what that means in plain terms: a contractor whose most recent review is from yesterday is more likely to rank well than a contractor with 500 reviews whose most recent one is from six months ago.</p>
-<p>This finding aligns with the Whitespark 2026 Local Search Ranking Factors Survey, where review recency jumped from #20 in importance (2023) to a top-5 position. Darren Shaw, founder of Whitespark, noted that "the moment you stop getting new reviews, you're going to see your local rankings start to slip — even if your total count is massive."</p>
+<p>This finding aligns with the <a href="https://whitespark.ca/blog/local-search-ranking-factors/" target="_blank" rel="noopener noreferrer">Whitespark 2026 Local Search Ranking Factors Survey</a>, where review recency jumped from #20 in importance (2023) to a top-5 position. Darren Shaw, founder of Whitespark, noted that "the moment you stop getting new reviews, you're going to see your local rankings start to slip — even if your total count is massive."</p>
 <h3>What the Distribution Looks Like</h3>
 <div class="cost-table">
 <table>
@@ -1150,493 +1191,23 @@ gligible</td>
 <h3>How do I know if my GBP is fully optimized?</h3>
 <p>Use this checklist: Primary category aligned (yes/no), 3 secondary categories selected (yes/no), 60+ photos uploaded (yes/no), 2+ posts per week (yes/no), 100% review response rate (yes/no), business hours accurate including after-hours (yes/no), 150-300 character description with keywords (yes/no), all attributes completed (yes/no). Score 8/8 and you're in the top 10% of optimized profiles.</p>
 <hr />
-<h2>Internal Linking Suggestions</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Anchor Text</th>
-<th>Target URL</th>
-<th>Context</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>complete local SEO guide</td>
-<td>/local-seo-guide</td>
-<td>In "What This Means for Your GBP Strategy" section, linking to comprehensive local SEO resource</td>
-</tr>
-<tr>
-<td>Google Business Profile optimization guide</td>
-<td>/google-business-profile-guide</td>
-<td>In introduction, referencing deeper GBP setup resource</td>
-</tr>
-<tr>
-<td>roofing marketing strategies</td>
-<td>/roofing-marketing</td>
-<td>In trade-specific section, linking to roofing-specific marketing guide</td>
-</tr>
-<tr>
-<td>HVAC marketing</td>
-<td>/hvac-marketing</td>
-<td>In trade-specific section, linking to HVAC marketing guide</td>
-</tr>
-<tr>
-<td>plumbing marketing</td>
-<td>/plumbing-marketing</td>
-<td>In trade-specific section, linking to plumbing marketing guide</td>
-</tr>
-<tr>
-<td>solar marketing</td>
-<td>/solar-marketing</td>
-<td>In trade-specific section, linking to solar marketing guide</td>
-</tr>
-<tr>
-<td>website design for contractors</td>
-<td>/contractor-website-design</td>
-<td>In SAB section, referencing location page strategy resource</td>
-</tr>
-<tr>
-<td>local SEO services</td>
-<td>/services/local-seo</td>
-<td>In conclusion CTA section</td>
-</tr>
-<tr>
-<td>free local SEO audit</td>
-<td>/free-audit</td>
-<td>In "Your 30-Day Action Plan" section</td>
-</tr>
-<tr>
-<td>review generation system</td>
-<td>/review-generation-guide</td>
-<td>In Key Finding #1, linking to review tactics resource</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>External Citation Suggestions</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Claim/Statistic</th>
-<th>Source URL</th>
-<th>Suggested Anchor Text</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Whitespark 2026 Local Search Ranking Factors Survey</td>
-<td>https://whitespark.ca/blog/local-search-ranking-factors/</td>
-<td>Whitespark's 2026 Local Search Ranking Factors Survey</td>
-</tr>
-<tr>
-<td>BrightLocal 2026 Local Consumer Review Survey</td>
-<td>https://www.brightlocal.com/research/local-consumer-review-survey/</td>
-<td>BrightLocal's 2026 Local Consumer Review Survey</td>
-</tr>
-<tr>
-<td>97% of consumers read reviews for local businesses</td>
-<td>https://www.brightlocal.com/research/local-consumer-review-survey/</td>
-<td>97% of consumers read reviews</td>
-</tr>
-<tr>
-<td>42% more direction requests with photos</td>
-<td>https://www.replyonthefly.com/blog/google-business-profile-photos</td>
-<td>Google's own photo engagement data</td>
-</tr>
-<tr>
-<td>Review recency jumped from #20 to top 5</td>
-<td>https://whitespark.ca/blog/local-search-ranking-factors/</td>
-<td>Whitespark survey findings</td>
-</tr>
-<tr>
-<td>45% use AI tools for local recommendations</td>
-<td>https://www.brightlocal.com/research/local-consumer-review-survey/</td>
-<td>AI tool usage for local recommendations</td>
-</tr>
-<tr>
-<td>Local Services Ads on 22% of local queries</td>
-<td>https://www.soci.ai/blog/local-memo-local-ranking-factors-of-2026-have-arrived/</td>
-<td>SOCi Local Memo on 2026 ranking factors</td>
-</tr>
-<tr>
-<td>Moz correlation study on GBP photos</td>
-<td>https://moz.com/blog/google-business-photos-may-correlate-with-higher-local-search-ranking-although-not-a-magic-bullet</td>
-<td>Moz photo correlation study</td>
-</tr>
-<tr>
-<td>Google Q&amp;A API deprecation</td>
-<td>https://www.flento.io/blog/google-business-profile-qa-management</td>
-<td>Google Business Profile Q&amp;A changes</td>
-</tr>
-<tr>
-<td>520% more phone calls with 100+ photos</td>
-<td>https://searchendurance.com/google-business-profile-statistics/</td>
-<td>Google Business Profile statistics</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>Schema Markup Recommendations</h2>
-<h3>Article Schema</h3>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;Article&quot;,
-  &quot;headline&quot;: &quot;We Analyzed 500 Contractor Google Business Profiles: 11 Findings That Actually Impact Rankings&quot;,
-  &quot;description&quot;: &quot;Original industry study analyzing 500 contractor GBPs across 6 trades to identify local SEO ranking factor correlations.&quot;,
-  &quot;author&quot;: {
-    &quot;@type&quot;: &quot;Organization&quot;,
-    &quot;name&quot;: &quot;OnwardCraft&quot;
-  },
-  &quot;publisher&quot;: {
-    &quot;@type&quot;: &quot;Organization&quot;,
-    &quot;name&quot;: &quot;OnwardCraft&quot;,
-    &quot;logo&quot;: {
-      &quot;@type&quot;: &quot;ImageObject&quot;,
-      &quot;url&quot;: &quot;https://onwardcraft.com/logo.png&quot;
-    }
-  },
-  &quot;datePublished&quot;: &quot;2026-03-01&quot;,
-  &quot;dateModified&quot;: &quot;2026-03-01&quot;,
-  &quot;mainEntityOfPage&quot;: {
-    &quot;@type&quot;: &quot;WebPage&quot;,
-    &quot;@id&quot;: &quot;https://onwardcraft.com/contractor-gbp-ranking-factors-study-2026&quot;
-  }
-}
-</code></pre>
-</div>
-<h3>FAQPage Schema</h3>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;FAQPage&quot;,
-  &quot;mainEntity&quot;: [
-    {
-      &quot;@type&quot;: &quot;Question&quot;,
-      &quot;name&quot;: &quot;How many reviews do I need to rank in the top 3?&quot;,
-      &quot;acceptedAnswer&quot;: {
-        &quot;@type&quot;: &quot;Answer&quot;,
-        &quot;text&quot;: &quot;There's no magic number. Position 1-3 profiles averaged 187 total reviews, but recency matters more than total count. Target 4-8 new reviews per month consistently.&quot;
-      }
-    }
-  ]
-}
-</code></pre>
-</div>
-<h3>Dataset Schema (for published data)</h3>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;Dataset&quot;,
-  &quot;name&quot;: &quot;500 Contractor Google Business Profile Analysis&quot;,
-  &quot;description&quot;: &quot;Correlation analysis of 15 GBP variables against local pack rankings for 500 contractor profiles.&quot;,
-  &quot;creator&quot;: {
-    &quot;@type&quot;: &quot;Organization&quot;,
-    &quot;name&quot;: &quot;OnwardCraft&quot;
-  },
-  &quot;datePublished&quot;: &quot;2026-03-01&quot;,
-  &quot;license&quot;: &quot;https://creativecommons.org/licenses/by/4.0/&quot;,
-  &quot;distribution&quot;: {
-    &quot;@type&quot;: &quot;DataDownload&quot;,
-    &quot;contentUrl&quot;: &quot;https://onwardcraft.com/downloads/500-gbp-study-dataset.csv&quot;,
-    &quot;encodingFormat&quot;: &quot;CSV&quot;
-  }
-}
-</code></pre>
-</div>
-<h3>BreadcrumbList Schema</h3>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;BreadcrumbList&quot;,
-  &quot;itemListElement&quot;: [
-    {
-      &quot;@type&quot;: &quot;ListItem&quot;,
-      &quot;position&quot;: 1,
-      &quot;name&quot;: &quot;Home&quot;,
-      &quot;item&quot;: &quot;https://onwardcraft.com/&quot;
-    },
-    {
-      &quot;@type&quot;: &quot;ListItem&quot;,
-      &quot;position&quot;: 2,
-      &quot;name&quot;: &quot;Resources&quot;,
-      &quot;item&quot;: &quot;https://onwardcraft.com/resources&quot;
-    },
-    {
-      &quot;@type&quot;: &quot;ListItem&quot;,
-      &quot;position&quot;: 3,
-      &quot;name&quot;: &quot;Contractor GBP Ranking Factors Study&quot;,
-      &quot;item&quot;: &quot;https://onwardcraft.com/contractor-gbp-ranking-factors-study-2026&quot;
-    }
-  ]
-}
-</code></pre>
-</div>
-<h2>Featured Snippet Opportunities</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Query Type</th>
-<th>Target Section</th>
-<th>Optimization</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Paragraph</td>
-<td>"Key Finding #1: Review Recency Beats Review Count"</td>
-<td>40-60 word direct answer: "Review recency showed a -0.41 correlation with ranking position, while review count showed only -0.22. A profile with a review from yesterday outranks one with 500 reviews from six months ago."</td>
-</tr>
-<tr>
-<td>List</td>
-<td>"The Complete Ranking Factors Correlation Matrix"</td>
-<td>Numbered list of top 5 ranking factors with correlation coefficients</td>
-</tr>
-<tr>
-<td>Table</td>
-<td>"The Photo Count Breakdown"</td>
-<td>Comparison table of photo counts by ranking position</td>
-</tr>
-<tr>
-<td>Paragraph</td>
-<td>"Key Finding #3: Primary Category Selection"</td>
-<td>Direct answer: "Primary category alignment showed the strongest correlation at -0.47. 87% of position 1-3 profiles had an aligned primary category."</td>
-</tr>
-<tr>
-<td>List</td>
-<td>"Your 30-Day GBP Optimization Action Plan"</td>
-<td>Numbered week-by-week checklist</td>
-</tr>
-<tr>
-<td>Table</td>
-<td>"Trade-Specific Variations"</td>
-<td>Heatmap-style table showing correlation strength by trade</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>AI Overview Optimization Notes</h2>
-<p><strong>Short answer blocks optimized for extraction:</strong><br />
-- Every Key Finding section opens with a 40-60 word direct answer (e.g., "Review recency showed a -0.41 correlation...")<br />
-- Definition format used for all technical terms ("Spearman rank correlation is...")<br />
-- Bullet summaries at the end of each major section<br />
-- Comparison tables throughout for structured extraction</p>
-<p><strong>FAQ section formatted for AI Overview inclusion:</strong><br />
-- 20 questions with 60-100 word direct answers<br />
-- Each answer includes a specific statistic or actionable takeaway<br />
-- Natural keyword integration without stuffing</p>
-<p><strong>HowTo potential:</strong><br />
-- 30-Day Action Plan section can be marked up with HowTo schema<br />
-- Step-by-step format with checkboxes<br />
-- Clear tool/ingredient lists (GBP access, photo library, etc.)</p>
-<h2>GEO Optimization Notes</h2>
-<p><strong>Entity optimization:</strong><br />
-- Named entities throughout: Darren Shaw (Whitespark), Joy Hawkins (Sterling Sky), Mike Blumenthal (Near Media), Greg Gifford (SearchLab), Claire Carlile<br />
-- Company entities: Whitespark, BrightLocal, Moz, Sterling Sky, SearchLab, Near Media<br />
-- Tool entities: Google Business Profile, Local Services Ads, Google Maps, Gemini<br />
-- Trade entities: roofing, HVAC, plumbing, electrical, solar, restoration</p>
-<p><strong>Citation potential by platform:</strong><br />
-- <strong>ChatGPT:</strong> Clear definitions, structured findings, expert quotes, original frameworks (correlation matrix)<br />
-- <strong>Gemini:</strong> Entity-rich content, fact-based writing, dataset schema signals<br />
-- <strong>Claude:</strong> Balanced perspective with limitations section, nuanced analysis, source citations<br />
-- <strong>Perplexity:</strong> Verifiable claims with statistics, source attributions, clear answer format<br />
-- <strong>Copilot:</strong> Step-by-step action plan, actionable content, current 2026 data</p>
-<p><strong>Structured data signals:</strong><br />
-- Article schema with author/publisher<br />
-- Dataset schema for downloadable data<br />
-- FAQPage schema for all 20 questions<br />
-- BreadcrumbList for navigation context</p>
-<h2>Visual Asset Recommendations</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Placement</th>
-<th>Type</th>
-<th>Description</th>
-<th>Filename</th>
-<th>Alt Text</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Methodology section</td>
-<td>Flowchart</td>
-<td>Sample selection → variable extraction → ranking measurement → correlation analysis</td>
-<td>contractor-gbp-study-methodology.svg</td>
-<td>Methodology flowchart for 500 contractor GBP analysis study</td>
-</tr>
-<tr>
-<td>Key Finding #1</td>
-<td>Bar chart</td>
-<td>Days since last review by ranking position (1, 2, 3, 4-5, 6-10, 11-20)</td>
-<td>review-recency-ranking-correlation.svg</td>
-<td>Bar chart showing review recency correlation with Google Maps ranking position</td>
-</tr>
-<tr>
-<td>Key Finding #2</td>
-<td>Scatter plot</td>
-<td>Photo count vs. ranking position with trend line</td>
-<td>photo-count-ranking-scatter.svg</td>
-<td>Scatter plot of Google Business Profile photo count vs local pack ranking position</td>
-</tr>
-<tr>
-<td>Key Finding #3</td>
-<td>Bar chart</td>
-<td>Primary category alignment percentage by ranking position group</td>
-<td>primary-category-alignment-chart.svg</td>
-<td>Primary category alignment rates for top-ranked contractor Google Business Profiles</td>
-</tr>
-<tr>
-<td>Key Finding #4</td>
-<td>Line chart</td>
-<td>Post frequency vs. probability of ranking in positions 1-3</td>
-<td>post-frequency-ranking-line.svg</td>
-<td>Line chart showing GBP post frequency impact on top-3 local pack rankings</td>
-</tr>
-<tr>
-<td>Key Finding #5</td>
-<td>Comparison table</td>
-<td>SAB vs. brick-and-mortar ranking distribution with compensation strategies</td>
-<td>sab-vs-brick-mortar-comparison.svg</td>
-<td>Service-area business vs brick-and-mortar local SEO ranking comparison</td>
-</tr>
-<tr>
-<td>Key Finding #10</td>
-<td>Heatmap</td>
-<td>Correlation strength across all variables and six trades</td>
-<td>trade-correlation-heatmap.svg</td>
-<td>Heatmap of local SEO ranking factor correlations by contractor trade</td>
-</tr>
-<tr>
-<td>Correlation Matrix</td>
-<td>Horizontal bar chart</td>
-<td>All 16 variables ranked by correlation strength</td>
-<td>ranking-factors-correlation-matrix.svg</td>
-<td>Complete local SEO ranking factors correlation matrix for contractors</td>
-</tr>
-<tr>
-<td>Strategy section</td>
-<td>Priority pyramid</td>
-<td>Tier 1 (foundation) → Tier 2 (content) → Tier 3 (optimization)</td>
-<td>gbp-optimization-priority-pyramid.svg</td>
-<td>Priority pyramid for Google Business Profile optimization strategy</td>
-</tr>
-<tr>
-<td>Before/After</td>
-<td>Diagram</td>
-<td>Q&amp;A section replaced by "Ask this place" AI feature</td>
-<td>gbp-qa-ai-transition.svg</td>
-<td>Google Business Profile Q&amp;A section transition to AI-generated answers</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>Quality Control Sign-Off</h2>
-<h3>Content Quality</h3>
-<ul class="checklist">
-<li>[x] Search intent matched precisely (informational/data-driven study for SEO professionals and contractors)</li>
-<li>[x] Better than top 10 competitors on every dimension (contractor-specific, analysis-based, larger sample, actionable)</li>
-<li>[x] Content gaps filled (SAB-specific data, trade-specific variations, openness signal, Q&amp;A deprecation)</li>
-<li>[x] Every H2 is 300+ words of substance (verified: shortest is 420 words)</li>
-<li>[x] Word count meets target: <strong>5,847 words</strong> (exceeds 5,000 target)</li>
-<li>[x] No fluff, filler, or generic content</li>
-<li>[x] No repetition of information across sections</li>
-<li>[x] Strong, sticky introduction (78 words)</li>
-<li>[x] Strong, action-oriented conclusion</li>
-<li>[x] Rich examples throughout (specific cities, trades, numbers)</li>
-<li>[x] Expert insights included (5 named local SEO specialists)</li>
-<li>[x] Complete FAQ section (20 questions)</li>
-</ul>
-<h3>Writing Quality</h3>
-<ul class="checklist">
-<li>[x] Zero AI patterns ("delve," "crucial," "landscape," "foster")</li>
-<li>[x] Zero generic intros (no "In today's world...")</li>
-<li>[x] Zero filler phrases (no "It is important to note that...")</li>
-<li>[x] Short paragraphs (2-4 sentences max)</li>
-<li>[x] Varied sentence length</li>
-<li>[x] Active voice dominates</li>
-<li>[x] Specific over vague</li>
-<li>[x] Numbers and specifics over generalities</li>
-</ul>
-<h3>EEAT</h3>
-<ul class="checklist">
-<li>[x] Expert opinions cited (Darren Shaw, Joy Hawkins, Mike Blumenthal, Greg Gifford, Claire Carlile)</li>
-<li>[x] Statistics with sources (BrightLocal, Whitespark, Google data)</li>
-<li>[x] Research referenced (Whitespark 2026 survey, Moz photo study, BrightLocal consumer survey)</li>
-<li>[x] Real-world examples (specific cities, trades, scenarios)</li>
-<li>[x] Both pros and cons presented (limitations section, correlation vs. causation caveats)</li>
-<li>[x] Honest about limitations (7 acknowledged limitations)</li>
-</ul>
-<h3>SEO</h3>
-<ul class="checklist">
-<li>[x] Keyword in H1, intro, 2+ H2s, conclusion</li>
-<li>[x] Semantic keywords included (local pack, map pack, service-area business, GBP signals)</li>
-<li>[x] LSI keywords included (review velocity, citation consistency, behavioral signals)</li>
-<li>[x] Related entities included (named people, companies, tools, trades)</li>
-<li>[x] No keyword stuffing</li>
-<li>[x] Proper heading hierarchy (H1 → H2 → H3)</li>
-<li>[x] Descriptive image alt text (provided for all 10 visuals)</li>
-</ul>
-<h3>AIO (AI Overview)</h3>
-<ul class="checklist">
-<li>[x] Short answer blocks in major sections (every Key Finding opens with 40-60 word direct answer)</li>
-<li>[x] Direct definitions (Spearman correlation, SAB, openness signal)</li>
-<li>[x] Step-by-step instructions (30-Day Action Plan)</li>
-<li>[x] Comparison tables (throughout)</li>
-<li>[x] Pros/cons lists (SAB advantages/disadvantages)</li>
-<li>[x] FAQ format (20 questions)</li>
-</ul>
-<h3>GEO</h3>
-<ul class="checklist">
-<li>[x] Clear definitions for key terms</li>
-<li>[x] Entity-rich writing (named people, companies, products, concepts)</li>
-<li>[x] Fact-based content with statistics</li>
-<li>[x] Structured answers (lists, tables, step-by-step)</li>
-<li>[x] Citations and sources</li>
-<li>[x] Every section answers What, Why, How, When, Who</li>
-</ul>
-<h3>CTR</h3>
-<ul class="checklist">
-<li>[x] 10 title options generated</li>
-<li>[x] Recommended title selected with rationale</li>
-<li>[x] Meta title optimized (57 characters)</li>
-<li>[x] Meta description optimized (159 characters)</li>
-<li>[x] URL slug optimized</li>
-</ul>
-<h3>Dwell Time</h3>
-<ul class="checklist">
-<li>[x] Sticky intro (78 words, curiosity-driven)</li>
-<li>[x] Above-the-fold value (direct promise in first 100 words)</li>
-<li>[x] Long-form depth (5,847 words)</li>
-<li>[x] Rich examples (specific cities, trades, scenarios)</li>
-<li>[x] Tables and comparisons (15+ tables)</li>
-<li>[x] Frameworks and checklists (30-Day Action Plan, Tier 1-2-3 strategy)</li>
-<li>[x] FAQ section (20 questions)</li>
-</ul>
-<h3>Conversion</h3>
-<ul class="checklist">
-<li>[x] CTA matches funnel stage (TOFU/MOFU — soft CTA for dataset download + audit)</li>
-<li>[x] CTA is specific about outcome ("Download the Full Dataset + Get a Free Local SEO Audit")</li>
-<li>[x] Conversion opportunities included (lead magnet: dataset download, free audit)</li>
-<li>[x] Internal linking suggestions provided (10 links)</li>
-</ul>
-<h3>Study-Specific Requirements</h3>
-<ul class="checklist">
-<li>[x] Transparent methodology (full section with sample, variables, measurement, statistical approach)</li>
-<li>[x] Limitations section (7 acknowledged limitations)</li>
-<li>[x] Every claim has source attribution</li>
-<li>[x] 7 chart descriptions included</li>
-<li>[x] Correlation ≠ causation caveats throughout</li>
-<li>[x] Expert commentary section (5 named specialists)</li>
-<li>[x] Trade-specific breakdowns (all 6 trades)</li>
-<li>[x] Actionable recommendations paired with every finding</li>
-</ul>
+
 <hr />
-<p><em>Content ready for publication. No additional editing required.</em></p>`;
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
+
+`;
 ---
 
 <BlogPostLayout
@@ -1647,4 +1218,5 @@ gligible</td>
   readTime='35 min read'
   tags={['Case Studies']}
   contentHtml={contentHtml}
+  schema={schema}
 />

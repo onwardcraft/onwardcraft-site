@@ -14,6 +14,7 @@ export interface Props {
   contentHtml?: string;
   author?: string;
   authorTitle?: string;
+  schema?: object;
 }
 
 const {
@@ -26,12 +27,18 @@ const {
   contentHtml,
   author = 'OnwardCraft Team',
   authorTitle = 'Growth Strategists',
+  schema,
 } = Astro.props;
 
 const displayTitle = title.replace(/^['"]+|['"]+$/g, '').trim();
 ---
 
 <Layout title={displayTitle} description={description}>
+  {schema && (
+    <Fragment slot="head">
+      <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    </Fragment>
+  )}
   <Navbar dark />
 
   <article class="blog-post">

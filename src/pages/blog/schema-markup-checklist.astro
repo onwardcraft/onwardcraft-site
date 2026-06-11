@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'The Schema Markup Checklist for Local Businesses: 25 Structured Data Types You Need';
 const description = 'Complete schema markup checklist for local businesses. Includes 25 structured data types with code examples for contractors.';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Schema Markup Checklist for Local Businesses: 25 Structured Data Types You Need",
+    "description": "Complete schema markup checklist for local businesses. Includes 25 structured data types with code examples for contractors.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/schema-markup-checklist"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = 'Complete schema markup checklist for local businesses. Incl
   date='June 2026'
   readTime='41 min read'
   tags={['Schema Markup', 'Structured Data', 'Technical SEO', 'Local SEO']}
+  schema={schema}
 >
 
 <!--
@@ -19,7 +47,7 @@ Meta Title: Schema Markup Checklist (2025): 25 Types for Local SEO
 Meta Description: Complete schema markup checklist for local businesses. Includes 25 structured data types with code examples for contractors.
 -->
 
-<p class="lead">You have spent thousands of dollars on a professional website. Your Google Business Profile is optimized. Your content strategy is producing blog posts every week. But there is a hidden layer of SEO that most home service businesses ignore entirely — and it is costing you rich snippets, better click-through rates, and higher local rankings.</p>
+<p class="lead">You have spent thousands of dollars on a professional website. Your <a href="/services/gbp-optimization">Google Business Profile</a> is optimized. Your content strategy is producing blog posts every week. But there is a hidden layer of SEO that most home service businesses ignore entirely — and it is costing you rich snippets, better click-through rates, and higher local rankings.</p>
 <p class="lead">That layer is schema markup.</p>
 <p>Schema markup, also called structured data, is a standardized vocabulary of code that you add to your website to help search engines understand your content. Think of it as translating your website into a language Google speaks fluently. When implemented correctly, schema markup can transform a plain search result into a rich snippet complete with star ratings, pricing, availability, FAQs, and more. For contractors, HVAC companies, plumbers, electricians, and solar installers, this translates directly into more qualified leads calling your business.</p>
 <p>Yet most local businesses have little to no schema markup on their websites. The ones that do often implement it incorrectly — missing critical properties, using the wrong schema types, or failing to validate their code. The result? Missed opportunities to stand out in search results while competitors capture the attention of homeowners actively searching for services.</p>
@@ -27,7 +55,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <p>Let us walk through all 25 schema types, organized by priority — essential first, then important, then advanced.</p>
 <hr />
 <h2>Essential Schema Types (1-10)</h2>
-<p>These ten schema types form the foundation of any effective local SEO schema strategy. Without these, you are leaving the most significant SEO advantages on the table. Every home service business should implement these before moving on to the more advanced types.</p>
+<p>These ten schema types form the foundation of any effective <a href="/services/local-seo">local SEO</a> schema strategy. Without these, you are leaving the most significant SEO advantages on the table. Every home service business should implement these before moving on to the more advanced types.</p>
 <h3>1. LocalBusiness Schema</h3>
 <p>LocalBusiness schema is the single most important structured data type for any contractor or home service company. It tells Google exactly what your business is, where you are located, what services you offer, and how customers can contact you. Without LocalBusiness schema, Google has to guess these details from your page content — and guesses are never as accurate as explicit data.</p>
 <p>The LocalBusiness schema type is actually a broad category that includes more specific subtypes like PlumbingService, HVACBusiness, Electrician, RoofingContractor, and SolarInstallation. Using the most specific subtype available gives Google clearer signals about your exact trade, which can improve relevance for trade-specific searches.</p>
@@ -476,7 +504,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
   &quot;dateModified&quot;: &quot;2025-03-15&quot;
 }
 </code></pre>
-<p><strong>Why this matters for contractors:</strong> Article schema improves the visibility and presentation of your blog content in search results. It enables features like &quot;Top Stories&quot; carousels and enhances the appearance of your content in regular results with publication dates and author information. For contractors investing in content marketing, this schema type maximizes the return on that investment.</p>
+<p><strong>Why this matters for contractors:</strong> Article schema improves the visibility and presentation of your blog content in search results. It enables features like &quot;Top Stories&quot; carousels and enhances the appearance of your content in regular results with publication dates and author information. For contractors investing in <a href="/services/content-marketing">content marketing</a>, this schema type maximizes the return on that investment.</p>
 <p><strong>Pro tip:</strong> Use &quot;BlogPosting&quot; instead of &quot;Article&quot; for informal blog content, and &quot;NewsArticle&quot; for press releases or time-sensitive announcements. Using the most specific type available gives Google clearer signals about content intent.</p>
 <h3>15. BlogPosting Schema</h3>
 <p>BlogPosting schema is a more specific subtype of Article schema designed specifically for blog content. While functionally similar to Article schema, using BlogPosting for your blog posts provides Google with explicit confirmation that the content is blog-style editorial rather than news or formal article content.</p>
@@ -500,7 +528,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
   &quot;dateModified&quot;: &quot;2025-04-01&quot;
 }
 </code></pre>
-<p><strong>Why this matters for contractors:</strong> BlogPosting schema helps Google categorize your content correctly, which improves its chances of appearing in blog-specific search features and content aggregators. For contractors using blogging as a lead generation strategy, proper schema markup ensures maximum visibility for every post you publish.</p>
+<p><strong>Why this matters for contractors:</strong> BlogPosting schema helps Google categorize your content correctly, which improves its chances of appearing in blog-specific search features and content aggregators. For contractors using blogging as a <a href="/services/lead-generation">lead generation</a> strategy, proper schema markup ensures maximum visibility for every post you publish.</p>
 <p><strong>Pro tip:</strong> Combine BlogPosting schema with &quot;speakable&quot; markup (covered later in this checklist) to identify sections of your blog posts that are optimized for voice search and audio playback.</p>
 <h3>16. ImageObject Schema</h3>
 <p>ImageObject schema provides structured data about images on your website, including the image URL, caption, description, and copyright information. While Google can extract basic image information from HTML, ImageObject schema provides explicit metadata that improves image search visibility and accessibility.</p>
@@ -903,4 +931,19 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <p><strong>Get Your Schema Implemented: Free Technical SEO Audit</strong></p>
 <p>Not sure if your schema markup is correct or complete? Our technical SEO team will audit your website&#39;s structured data, identify missing opportunities, and provide a prioritized implementation plan. <a href="/services/technical-seo">Request your free technical SEO audit today</a> and ensure your business is maximizing every structured data opportunity available.</p>
 
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = "40 Home Service Marketing Experts Share Their #1 Lead Generation Strategy";
 const description = "40 home service marketing experts share their most effective lead generation strategy. Includes SEO, PPC, referrals, and more.";
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "40 Home Service Marketing Experts Share Their #1 Lead Generation Strategy",
+    "description": "40 home service marketing experts share their most effective lead generation strategy. Includes SEO, PPC, referrals, and more.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/home-service-experts-lead-gen-strategies"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = "40 home service marketing experts share their most effectiv
   date='June 2026'
   readTime='22 min read'
   tags={['Lead Generation', 'Expert Tips', 'Home Services', 'Marketing Strategies']}
+  schema={schema}
 >
 <p class="lead">You're a home service contractor spending thousands on marketing and still watching your competitors book jobs you should have won. This article distills the single most effective lead generation strategy from 40 marketing experts who specialize in HVAC, plumbing, roofing, electrical, and every trade in between. You'll get specific tactics, real numbers, and a clear path to fill your calendar without wasting money on what doesn't work.</p>
 
@@ -33,7 +61,7 @@ const description = "40 home service marketing experts share their most effectiv
 
 <p>Here's the thing: the contractors generating the most qualified leads in 2026 share one trait. They don't rely on a single channel. They build interconnected systems where SEO feeds PPC, PPC feeds retargeting, retargeting feeds email, and email drives referrals. Each channel amplifies the others.</p>
 
-<p>The experts we interviewed for this article run marketing for companies ranging from single-truck operations to $50M+ home service groups. Their strategies fall into six categories: SEO, PPC, referrals, content marketing, social media, and offline tactics. Some strategies cost nothing to implement. Others require significant investment. All of them have been tested and proven in real markets.</p>
+<p>The experts we interviewed for this article run marketing for companies ranging from single-truck operations to $50M+ home service groups. Their strategies fall into six categories: SEO, PPC, referrals, <a href="/services/content-marketing">content marketing</a>, social media, and offline tactics. Some strategies cost nothing to implement. Others require significant investment. All of them have been tested and proven in real markets.</p>
 
 <p>Let's start with the strategies that deliver the highest long-term return: search engine optimization.</p>
 
@@ -76,9 +104,9 @@ const description = "40 home service marketing experts share their most effectiv
 
 <p>An HVAC company in Phoenix published a 3,200-word article titled "How Much Does a New AC Unit Cost in Phoenix? (2026 Pricing Guide)" with exact price ranges, factors that affect cost, and financing options. That single article generates 40-60 organic leads per month and has a 23% conversion rate to booked appointments. Why? Because everyone else is vague about pricing, and homeowners are desperate for real numbers.</p>
 
-<h3>Strategy 3: Google Business Profile Optimization Beyond the Basics</h3>
+<h3>Strategy 3: <a href="/services/gbp-optimization">Google Business Profile</a> Optimization Beyond the Basics</h3>
 
-<p>Joy Hawkins, founder of Sterling Sky and a leading local SEO expert, says most contractors treat their Google Business Profile as a digital business card. The top performers treat it as a publishing platform.</p>
+<p>Joy Hawkins, founder of Sterling Sky and a leading <a href="/services/local-seo">local SEO</a> expert, says most contractors treat their Google Business Profile as a digital business card. The top performers treat it as a publishing platform.</p>
 
 <p>Her recommended posting schedule for maximum visibility:</p>
 
@@ -125,7 +153,7 @@ const description = "40 home service marketing experts share their most effectiv
 <td>Critical</td>
 </tr>
 <tr>
-<td>Missing or incorrect schema markup</td>
+<td>Missing or incorrect <a href="/services/schema-markup">schema markup</a></td>
 <td>No rich snippets, lower CTR</td>
 <td>High</td>
 </tr>
@@ -956,4 +984,19 @@ const description = "40 home service marketing experts share their most effectiv
 <a class="cta-button" href="/services/lead-generation">Get a Custom Lead Generation Strategy for Your Business</a>
 </div>
 
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = "Email Marketing Strategies for Home Service Businesses";
 const description = "Email marketing strategies for home service businesses. Includes lead nurturing, customer retention, re-engagement, and automation sequences.";
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Email Marketing Strategies for Home Service Businesses",
+    "description": "Email marketing strategies for home service businesses. Includes lead nurturing, customer retention, re-engagement, and automation sequences.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/email-marketing-contractors"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = "Email marketing strategies for home service businesses. Inc
   date='June 2026'
   readTime='18 min read'
   tags={['Email Marketing', 'Automation', 'Contractors', 'Nurture']}
+  schema={schema}
 >
 <p class="lead">You run a home service business. You get leads. You close some. But most inquiries sit in your inbox until they go cold. Email marketing for contractors fixes that. This guide shows you how to turn those cold leads into booked appointments, keep past customers coming back, and automate the whole system so it runs while you are on the job site. You will get real sequences, actual subject lines that work, and frameworks you can implement this week.</p>
 
@@ -80,7 +108,7 @@ const description = "Email marketing strategies for home service businesses. Inc
 </table>
 </div>
 
-<p>The table reveals why smart contractors prioritize email. It is not a replacement for lead generation. It is the multiplier that makes every other channel more profitable. A lead from Google Ads costs $80. Nurturing that lead through email costs roughly $3 over six weeks. If email increases your close rate from 15% to 25%, your cost per acquisition drops from $533 to $320. That is a 40% improvement in unit economics.</p>
+<p>The table reveals why smart contractors prioritize email. It is not a replacement for <a href="/services/lead-generation">lead generation</a>. It is the multiplier that makes every other channel more profitable. A lead from Google Ads costs $80. Nurturing that lead through email costs roughly $3 over six weeks. If email increases your close rate from 15% to 25%, your cost per acquisition drops from $533 to $320. That is a 40% improvement in unit economics.</p>
 
 <h3>The Contractor Email Advantage</h3>
 
@@ -643,7 +671,7 @@ const description = "Email marketing strategies for home service businesses. Inc
 <p>Segmentation means dividing your email list into groups based on shared characteristics. You might segment by service type (HVAC vs. plumbing), customer status (lead vs. customer), geography, or behavior (opened last email vs. did not). Segmented campaigns get 14.31% higher open rates and 100.95% higher click-through rates than non-segmented campaigns, according to Mailchimp research. For contractors, segmentation means sending furnace content to furnace customers, not pool owners.</p>
 
 <h3>How do I get more reviews through email?</h3>
-<p>Send a review request 3-7 days after project completion, when satisfaction peaks but before memory fades. Make it absurdly easy: include a direct link to your Google Business Profile, Yelp, or other review platform. Remove every friction point. One contractor increased reviews by 340% by switching from "Please leave us a review" to a one-click review link in a plain text email from the technician who did the work.</p>
+<p>Send a review request 3-7 days after project completion, when satisfaction peaks but before memory fades. Make it absurdly easy: include a direct link to your <a href="/services/gbp-optimization">Google Business Profile</a>, Yelp, or other review platform. Remove every friction point. One contractor increased reviews by 340% by switching from "Please leave us a review" to a one-click review link in a plain text email from the technician who did the work.</p>
 
 <h2>Putting It All Together: Your 30-Day Email Marketing Action Plan</h2>
 
@@ -695,4 +723,19 @@ const description = "Email marketing strategies for home service businesses. Inc
 <a class="cta-button" href="/contact">Book Your Free Consultation</a>
 </div>
 
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

@@ -3,6 +3,48 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'Google Business Profile Optimization: The Complete 2025 Guide for Service-Area Businesses';
 const description = 'Complete guide to optimizing your Google Business Profile for service-area businesses. Includes category strategy by trade, photo tips, review generation...';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Complete Google Business Profile Guide for Service-Area Businesses (2025)",
+    "description": "Complete guide to optimizing your Google Business Profile for service-area businesses. Includes category strategy, photo tips, review generation, and a 30-day plan.",
+    "image": "https://www.yoursite.com/images/gbp-guide-og.jpg",
+    "author": {
+      "@type": "Organization",
+      "name": "Your Company Name"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Your Company Name",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.yoursite.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/google-business-profile-guide"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How long does it take to rank on Google Maps after optimizing my GBP?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most businesses see initial ranking improvements within 2-4 weeks. Significant moves into the top three positions typically take 60-90 days. Service-area businesses without a visible address should expect 90-120 days."
+        }
+      }
+    ]
+  }
+];
 const contentHtml = `<p class="lead">Most Google Business Profile guides assume you own a coffee shop.</p>
 <p>They tell you to upload photos of your storefront, list your address prominently, and optimize for foot traffic. That advice is useless if you are a plumber, HVAC contractor, roofer, or electrician who drives to customers' homes. For service-area businesses, the rules are different — and most of your competitors do not know them.</p>
 <p>This guide was built from 500+ GBP audits, interviews with local SEO specialists, and analysis of what actually moves the needle in 2025. You will learn how to set up your profile correctly as a service-area business, choose the right categories for your trade, generate reviews on autopilot, use photos that convert, and recover from suspensions that wipe out months of work. You will also get a 30-day implementation plan you can start today.</p>
@@ -1194,438 +1236,23 @@ Plano page: https://www.mikesplumbing.com/plumber-plano/
 <p><strong>Ready to see what's missing from your profile?</strong> <a href="#">Claim your free GBP audit</a> and get a 30-point checklist customized for your trade.</p>
 </div>
 <hr />
-<h2>Internal Linking Suggestions</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Anchor Text</th>
-<th>Target URL</th>
-<th>Context</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>local SEO guide</td>
-<td>/services/local-seo</td>
-<td>Introduction, when discussing GBP as part of broader local SEO</td>
-</tr>
-<tr>
-<td>citation building</td>
-<td>/resources/citation-guide</td>
-<td>Chapter 1, when discussing NAP consistency across directories</td>
-</tr>
-<tr>
-<td>review generation guide</td>
-<td>/resources/review-guide</td>
-<td>Chapter 5, when discussing advanced review tactics</td>
-</tr>
-<tr>
-<td>local landing pages</td>
-<td>/services/website-design</td>
-<td>Chapter 2, when discussing website link optimization</td>
-</tr>
-<tr>
-<td>schema markup services</td>
-<td>/services/technical-seo</td>
-<td>Chapter 8, when discussing LocalBusiness schema</td>
-</tr>
-<tr>
-<td>GBP optimization checklist</td>
-<td>/resources/gbp-checklist</td>
-<td>Conclusion, as lead magnet CTA</td>
-</tr>
-<tr>
-<td>multi-location SEO</td>
-<td>/services/multi-location-seo</td>
-<td>Chapter 8, when discussing franchise management</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>External Citation Suggestions</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Claim/Statistic</th>
-<th>Source URL</th>
-<th>Suggested Anchor Text</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Primary category is the #1 local ranking factor</td>
-<td>https://www.brightlocal.com/resources/local-seo-statistics/</td>
-<td>BrightLocal Local SEO Statistics 2026</td>
-</tr>
-<tr>
-<td>Businesses with 100+ photos get 42% more direction requests</td>
-<td>https://www.brightlocal.com/resources/local-seo-statistics/</td>
-<td>BrightLocal photo statistics</td>
-</tr>
-<tr>
-<td>73% of consumers consider reviews older than 3 months irrelevant</td>
-<td>https://www.digitalapplied.com/blog/local-seo-statistics-2026-data-points</td>
-<td>Digital Applied review data</td>
-</tr>
-<tr>
-<td>Weekly posters get 520% more calls</td>
-<td>https://www.socia.com/</td>
-<td>SOCi local search report</td>
-</tr>
-<tr>
-<td>34% of suspensions are from business name violations</td>
-<td>https://www.reinstatelabs.com/blogs/google-business-profile-suspension-reasons</td>
-<td>Reinstate Labs suspension study</td>
-</tr>
-<tr>
-<td>AI local packs feature only 1-2 businesses</td>
-<td>https://www.sterlingsky.ca/the-state-of-local-seo-in-2026/</td>
-<td>Sterling Sky State of Local SEO 2026</td>
-</tr>
-<tr>
-<td>46% of all Google searches have local intent</td>
-<td>https://www.digitalapplied.com/blog/local-seo-statistics-2026-data-points</td>
-<td>Digital Applied search data</td>
-</tr>
-<tr>
-<td>87-98% of consumers read reviews for local businesses</td>
-<td>https://www.brightlocal.com/resources/local-seo-statistics/</td>
-<td>BrightLocal consumer review survey</td>
-</tr>
-<tr>
-<td>Top 3 local pack businesses average 561 reviews</td>
-<td>https://www.semrush.com/</td>
-<td>Semrush local pack analysis</td>
-</tr>
-<tr>
-<td>38% of consumers check business hours before visiting</td>
-<td>https://www.digitalapplied.com/blog/local-seo-statistics-2026-data-points</td>
-<td>Digital Applied consumer behavior data</td>
-</tr>
-<tr>
-<td>HVAC contractors using query-specific categories achieved 45% top-3 rate</td>
-<td>https://anthonylouismedia.com/2026/04/12/google-business-profile-categories-explained-the-complete-guide-for-home-services-businesses/</td>
-<td>Anthony Louis Media category study</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>Schema Markup Recommendations</h2>
-<h3>Article Schema</h3>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;Article&quot;,
-  &quot;headline&quot;: &quot;The Complete Google Business Profile Guide for Service-Area Businesses (2025)&quot;,
-  &quot;description&quot;: &quot;Complete guide to optimizing your Google Business Profile for service-area businesses. Includes category strategy, photo tips, review generation, and a 30-day plan.&quot;,
-  &quot;image&quot;: &quot;https://www.yoursite.com/images/gbp-guide-og.jpg&quot;,
-  &quot;author&quot;: {
-    &quot;@type&quot;: &quot;Organization&quot;,
-    &quot;name&quot;: &quot;Your Company Name&quot;
-  },
-  &quot;publisher&quot;: {
-    &quot;@type&quot;: &quot;Organization&quot;,
-    &quot;name&quot;: &quot;Your Company Name&quot;,
-    &quot;logo&quot;: {
-      &quot;@type&quot;: &quot;ImageObject&quot;,
-      &quot;url&quot;: &quot;https://www.yoursite.com/logo.png&quot;
-    }
-  },
-  &quot;datePublished&quot;: &quot;2025-06-09&quot;,
-  &quot;dateModified&quot;: &quot;2025-06-09&quot;
-}
-</code></pre>
-</div>
-<h3>FAQPage Schema</h3>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;FAQPage&quot;,
-  &quot;mainEntity&quot;: [
-    {
-      &quot;@type&quot;: &quot;Question&quot;,
-      &quot;name&quot;: &quot;How long does it take to rank on Google Maps after optimizing my GBP?&quot;,
-      &quot;acceptedAnswer&quot;: {
-        &quot;@type&quot;: &quot;Answer&quot;,
-        &quot;text&quot;: &quot;Most businesses see initial ranking improvements within 2-4 weeks. Significant moves into the top three positions typically take 60-90 days. Service-area businesses without a visible address should expect 90-120 days.&quot;
-      }
-    }
-  ]
-}
-</code></pre>
-</div>
-<h3>HowTo Schema (30-Day Plan)</h3>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;HowTo&quot;,
-  &quot;name&quot;: &quot;30-Day Google Business Profile Optimization Plan&quot;,
-  &quot;description&quot;: &quot;A step-by-step 30-day plan to optimize your Google Business Profile for service-area businesses.&quot;,
-  &quot;totalTime&quot;: &quot;P30D&quot;,
-  &quot;step&quot;: [
-    {
-      &quot;@type&quot;: &quot;HowToStep&quot;,
-      &quot;name&quot;: &quot;Week 1: Setup and Foundation&quot;,
-      &quot;text&quot;: &quot;Claim your profile, verify business name, hide address for SABs, configure service areas, select categories, write description, set hours, add attributes, link website, add services, check NAP consistency.&quot;
-    },
-    {
-      &quot;@type&quot;: &quot;HowToStep&quot;,
-      &quot;name&quot;: &quot;Week 2: Content and Photos&quot;,
-      &quot;text&quot;: &quot;Audit and remove bad photos, take new authentic photos, geotag and optimize filenames, upload 5+ photos, create first Google Posts, update website with LocalBusiness schema.&quot;
-    },
-    {
-      &quot;@type&quot;: &quot;HowToStep&quot;,
-      &quot;name&quot;: &quot;Week 3: Reviews and Posts&quot;,
-      &quot;text&quot;: &quot;Set up review request system, train technicians, send first review push, respond to all existing reviews, create 4-week post calendar.&quot;
-    },
-    {
-      &quot;@type&quot;: &quot;HowToStep&quot;,
-      &quot;name&quot;: &quot;Week 4: Monitoring and Optimization&quot;,
-      &quot;text&quot;: &quot;Analyze competitors, optimize Q&amp;A signals, upload more photos, publish posts, respond to new reviews, audit citations, review analytics, plan next month.&quot;
-    }
-  ]
-}
-</code></pre>
-</div>
-<h3>BreadcrumbList Schema</h3>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;BreadcrumbList&quot;,
-  &quot;itemListElement&quot;: [
-    {
-      &quot;@type&quot;: &quot;ListItem&quot;,
-      &quot;position&quot;: 1,
-      &quot;name&quot;: &quot;Home&quot;,
-      &quot;item&quot;: &quot;https://www.yoursite.com/&quot;
-    },
-    {
-      &quot;@type&quot;: &quot;ListItem&quot;,
-      &quot;position&quot;: 2,
-      &quot;name&quot;: &quot;Resources&quot;,
-      &quot;item&quot;: &quot;https://www.yoursite.com/resources/&quot;
-    },
-    {
-      &quot;@type&quot;: &quot;ListItem&quot;,
-      &quot;position&quot;: 3,
-      &quot;name&quot;: &quot;Google Business Profile Optimization Guide&quot;,
-      &quot;item&quot;: &quot;https://www.yoursite.com/google-business-profile-optimization-guide-2025&quot;
-    }
-  ]
-}
-</code></pre>
-</div>
-<h2>Featured Snippet Opportunities</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Query Type</th>
-<th>Target Section</th>
-<th>Optimization</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Paragraph</td>
-<td>"How long does it take to rank on Google Maps"</td>
-<td>40-60 word direct answer in FAQ</td>
-</tr>
-<tr>
-<td>List</td>
-<td>"How to optimize Google Business Profile"</td>
-<td>Numbered list in Chapter 9 (30-day plan)</td>
-</tr>
-<tr>
-<td>Table</td>
-<td>"GBP categories by trade"</td>
-<td>Comparison table in Chapter 1</td>
-</tr>
-<tr>
-<td>Paragraph</td>
-<td>"What is a service-area business"</td>
-<td>Direct definition in Chapter 1 opening</td>
-</tr>
-<tr>
-<td>List</td>
-<td>"Google Business Profile photo types"</td>
-<td>Bulleted list in Chapter 3</td>
-</tr>
-<tr>
-<td>Table</td>
-<td>"GBP post types and when to use them"</td>
-<td>Comparison table in Chapter 4</td>
-</tr>
-<tr>
-<td>Paragraph</td>
-<td>"Why was my Google Business Profile suspended"</td>
-<td>Direct answer in Chapter 8 FAQ</td>
-</tr>
-<tr>
-<td>List</td>
-<td>"How to recover suspended GBP"</td>
-<td>Numbered steps in Chapter 8</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>AI Overview Optimization Notes</h2>
-<ul>
-<li><strong>Definition blocks:</strong> Every major section opens with a direct definition ("A service-area business is..." / "Your primary category is..." / "Geotagging is...")</li>
-<li><strong>Short answer blocks:</strong> FAQ answers are 60-100 words with direct answers in the first 1-2 sentences</li>
-<li><strong>Step-by-step instructions:</strong> Chapter 9 (30-day plan) and Chapter 8 (suspension recovery) use numbered steps</li>
-<li><strong>Comparison tables:</strong> Category table (Ch 1), post types table (Ch 4), attribute table (Ch 2) are optimized for table snippets</li>
-<li><strong>Pros/cons lists:</strong> Suspension prevention vs. recovery sections include clear do/don't tables</li>
-<li><strong>Key takeaways:</strong> Conclusion summarizes core message in bullet format</li>
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/website-redesign-guide">The Complete Website Redesign Guide for Contractors [2026]</a></li>
 </ul>
-<h2>GEO Optimization Notes</h2>
-<ul>
-<li><strong>Entity-rich writing:</strong> Named tools (ServiceTitan, Housecall Pro, BrightLocal, Whitespark), named companies, specific cities and neighborhoods</li>
-<li><strong>Fact-based content:</strong> Every statistic includes a source attribution</li>
-<li><strong>Structured answers:</strong> Lists, tables, and step-by-step frameworks throughout</li>
-<li><strong>Citations:</strong> External source suggestions for every major claim</li>
-<li><strong>Clear definitions:</strong> Every key term defined for AI extraction</li>
-<li><strong>What/Why/How/When/Who:</strong> Every major section answers all five questions</li>
-<li><strong>Platform targeting:</strong></li>
-<li><strong>ChatGPT/Gemini:</strong> Original frameworks (30-day plan, category selection framework, 70/30 content rule)</li>
-<li><strong>Claude:</strong> Balanced perspective with pros/cons, honest limitations</li>
-<li><strong>Perplexity:</strong> Verifiable claims with source attributions</li>
-<li><strong>Copilot:</strong> Step-by-step actionable instructions</li>
-</ul>
-<h2>Visual Asset Recommendations</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Placement</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Chapter 1</td>
-<td>Infographic</td>
-<td>"Service-Area Business vs. Brick-and-Mortar" comparison chart</td>
-</tr>
-<tr>
-<td>Chapter 1</td>
-<td>Chart</td>
-<td>Category recommendations by trade (expandable table)</td>
-</tr>
-<tr>
-<td>Chapter 2</td>
-<td>Screenshot</td>
-<td>"Where to hide your address in GBP" step-by-step</td>
-</tr>
-<tr>
-<td>Chapter 3</td>
-<td>Before/After</td>
-<td>Photo examples: good vs. bad GBP photos for contractors</td>
-</tr>
-<tr>
-<td>Chapter 3</td>
-<td>Infographic</td>
-<td>"Photo upload frequency workflow" weekly calendar</td>
-</tr>
-<tr>
-<td>Chapter 4</td>
-<td>Template</td>
-<td>Post content templates by trade (downloadable)</td>
-</tr>
-<tr>
-<td>Chapter 4</td>
-<td>Calendar</td>
-<td>Seasonal post calendar for home services (12-month grid)</td>
-</tr>
-<tr>
-<td>Chapter 5</td>
-<td>Flowchart</td>
-<td>"Review funnel" diagram: satisfaction survey → review request</td>
-</tr>
-<tr>
-<td>Chapter 5</td>
-<td>Script card</td>
-<td>"In-person review ask script" pocket card design</td>
-</tr>
-<tr>
-<td>Chapter 7</td>
-<td>Dashboard</td>
-<td>Mockup of GBP Performance data with annotations</td>
-</tr>
-<tr>
-<td>Chapter 8</td>
-<td>Flowchart</td>
-<td>"Suspension recovery process" step-by-step diagram</td>
-</tr>
-<tr>
-<td>Chapter 9</td>
-<td>Checklist</td>
-<td>"30-Day GBP Optimization Plan" printable PDF checklist</td>
-</tr>
-<tr>
-<td>Conclusion</td>
-<td>CTA Banner</td>
-<td>"Claim Your Free GBP Audit" graphic with 30-point checklist offer</td>
-</tr>
-</tbody>
-</table>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
 </div>
-<h2>Quality Control Sign-Off</h2>
-<ul class="checklist">
-<li>[x] Search intent matched precisely (informational/commercial MOFU guide)</li>
-<li>[x] Better than top 10 competitors on every dimension (service-area focus, category by trade, 30-day plan, suspension recovery)</li>
-<li>[x] Content gaps from research filled (SAB-specific guidance, AI-powered Q&amp;A, 2025 updates)</li>
-<li>[x] Every H2 is 300+ words of substance</li>
-<li>[x] Word count meets target (10,000+ words)</li>
-<li>[x] No fluff, filler, or generic content</li>
-<li>[x] No repetition of information across sections</li>
-<li>[x] Strong, sticky introduction (under 100 words)</li>
-<li>[x] Strong, action-oriented conclusion</li>
-<li>[x] Rich examples throughout (by trade)</li>
-<li>[x] Expert insights included (frameworks, scripts, templates)</li>
-<li>[x] Complete FAQ section (18 questions)</li>
-<li>[x] Zero AI patterns ("delve," "crucial," "landscape")</li>
-<li>[x] Zero generic intros</li>
-<li>[x] Zero filler phrases</li>
-<li>[x] Short paragraphs (2-4 sentences)</li>
-<li>[x] Active voice dominates</li>
-<li>[x] Specific over vague</li>
-<li>[x] Expert opinions cited with attribution</li>
-<li>[x] Statistics with sources</li>
-<li>[x] Real-world examples by trade</li>
-<li>[x] Both pros and cons presented</li>
-<li>[x] Honest about limitations (SAB ranking challenges)</li>
-<li>[x] Keyword in H1, intro, 2+ H2s, conclusion</li>
-<li>[x] Semantic keywords included</li>
-<li>[x] Related entities included</li>
-<li>[x] No keyword stuffing</li>
-<li>[x] Proper heading hierarchy</li>
-<li>[x] Short answer blocks in major sections</li>
-<li>[x] Direct definitions</li>
-<li>[x] Step-by-step instructions</li>
-<li>[x] Comparison tables</li>
-<li>[x] Pros/cons lists</li>
-<li>[x] FAQ format</li>
-<li>[x] 10 title options generated</li>
-<li>[x] Meta title optimized (under 60 chars)</li>
-<li>[x] Meta description optimized (under 160 chars)</li>
-<li>[x] URL slug optimized</li>
-<li>[x] Schema recommendations provided</li>
-<li>[x] Sticky intro included</li>
-<li>[x] Above-the-fold value delivered</li>
-<li>[x] Long-form depth (10,000+ words)</li>
-<li>[x] Rich examples throughout</li>
-<li>[x] Tables and comparisons</li>
-<li>[x] Frameworks and checklists</li>
-<li>[x] FAQ section</li>
-<li>[x] CTA matches funnel stage (MOFU — free audit)</li>
-<li>[x] CTA is specific about outcome</li>
-<li>[x] Internal linking suggestions provided</li>
-<li>[x] Content is publication-ready</li>
-</ul>`;
+
+`;
 ---
 
 <BlogPostLayout
@@ -1636,4 +1263,5 @@ Plano page: https://www.mikesplumbing.com/plumber-plano/
   readTime='40 min read'
   tags={['SEO']}
   contentHtml={contentHtml}
+  schema={schema}
 />

@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = "Review Generation Strategies for Home Service Businesses";
 const description = "Proven strategies to generate more Google reviews for your home service business. Includes scripts, timing, automation, and templates.";
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Review Generation Strategies for Home Service Businesses",
+    "description": "Proven strategies to generate more Google reviews for your home service business. Includes scripts, timing, automation, and templates.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/review-generation-strategies-contractors"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = "Proven strategies to generate more Google reviews for your 
   date='June 2026'
   readTime='22 min read'
   tags={['Reviews', 'Reputation', 'Local SEO', 'Home Services']}
+  schema={schema}
 >
 <p class="lead">If you are a contractor, plumber, HVAC technician, electrician, roofer, or any home service professional who wants more Google reviews, this guide is for you. We will walk through the exact review generation strategies that top-performing home service businesses use to collect 50, 100, or even 200+ reviews per year. You will get word-for-word scripts, timing frameworks, automation tools, and response templates you can use today. No fluff. No generic advice. Just proven systems that work.</p>
 
@@ -244,7 +272,7 @@ const description = "Proven strategies to generate more Google reviews for your 
 
 <p>If they agree, ask three questions and edit the answers together: "What problem were you dealing with before calling us?" "How did our team solve it?" "Would you recommend us to a neighbor?" This structure creates a natural narrative arc.</p>
 
-<p>Post video testimonials on your website, YouTube channel, Facebook page, and Google Business Profile. One HVAC company in Atlanta collected 40 video testimonials in a year and used them in their Facebook ad campaigns. Their cost per lead dropped 45% compared to ads without testimonials.</p>
+<p>Post video testimonials on your website, YouTube channel, Facebook page, and <a href="/services/gbp-optimization">Google Business Profile</a>. One HVAC company in Atlanta collected 40 video testimonials in a year and used them in their Facebook ad campaigns. Their cost per lead dropped 45% compared to ads without testimonials.</p>
 
 <h3>Partnership and Referral Review Loops</h3>
 
@@ -460,4 +488,19 @@ const description = "Proven strategies to generate more Google reviews for your 
   <a class="cta-button" href="/contact">Get More Reviews: Free Review Generation Strategy</a>
 </div>
 
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

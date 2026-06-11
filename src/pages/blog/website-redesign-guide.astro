@@ -3,6 +3,47 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'The Complete Website Redesign Guide for Contractors [2026]: 9 Steps to More Leads Without Losing SEO';
 const description = 'Complete guide to redesigning your contractor website. Includes SEO migration, platform comparison, cost breakdown, 40-point checklist, and a 12-week...';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Complete Website Redesign Guide for Contractors [2026]",
+    "description": "Complete guide to redesigning your contractor website. Includes SEO migration, platform selection, cost breakdown, 40-point checklist, and a 12-week implementation plan.",
+    "author": {
+      "@type": "Organization",
+      "name": "[Your Company Name]"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "[Your Company Name]",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "[Logo URL]"
+      }
+    },
+    "datePublished": "2026-01-15",
+    "dateModified": "2026-01-15",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/website-redesign-guide"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much does a contractor website redesign cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A contractor website redesign typically costs between $8,000 and $35,000 depending on company size and scope."
+        }
+      }
+    ]
+  }
+];
 const contentHtml = `<p class="lead">Most contractor websites are digital brochures that cost more than they earn. They look fine. They list services. They have a phone number buried somewhere. But they do not generate leads reliably, they do not rank on Google for anything that matters, and they actively repel the 71% of homeowners who find them on mobile devices.</p>
 <p>A proper website redesign fixes all of this. Not with a prettier template. Not with a new color scheme. But with a systematic rebuild of your site's architecture, content, conversion mechanics, and technical foundation — designed specifically for how homeowners hire contractors.</p>
 <p>This guide covers the entire process from decision to measurement. You will learn when to redesign versus refresh, how to set realistic goals and budgets, which platform to choose for your specific trade, how to preserve every SEO ranking during migration, how to design for lead generation on mobile, what content to keep and what to rewrite, how to launch without breaking anything, and how to measure whether the investment paid off.</p>
@@ -1284,7 +1325,7 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <h3>Should I redesign my website or just refresh it?</h3>
 <p>Choose a refresh if your site loads fast, ranks reasonably well, has a modern CMS, and only needs updated visuals and content. A refresh costs $2,000-$7,000 and takes 2-4 weeks. Choose a full redesign if your site is on an outdated platform, has poor URL structure, loads slowly, does not rank, cannot be edited easily, or fails to generate leads. A full redesign costs $8,000-$40,000+ and takes 8-16 weeks. The key question is whether your site's foundation is sound. If the foundation is broken, a fresh coat of paint will not help.</p>
 <h3>What is the ROI of a website redesign for contractors?</h3>
-<p>According to 2025-2026 industry data, construction and home service businesses see an average redesign ROI of 340% with an 8.3-month payback period. Lead conversion rates typically increase by 28%, and lead quality improves by 52%. The average contractor website converts at 1-2%, while optimized sites achieve 5-8% — a 4x improvement from the same traffic. For a contractor spending $5,000 per month on ads to drive 1,000 visitors, improving conversion from 1% to 3% means 20 additional leads per month without spending more on ads.</p>
+<p>According to 2025-2026 industry data, construction and home service businesses see an average redesign ROI of 340% with an 8.3-month payback period. Lead conversion rates typically increase by 28%, and lead quality improves by 52%. The <a href="https://pipelineon.com/blog/contractor-website-conversion-rate" target="_blank" rel="noopener noreferrer">average contractor website converts at 1-2%</a>, while optimized sites achieve 5-8% — a 4x improvement from the same traffic. For a contractor spending $5,000 per month on ads to drive 1,000 visitors, improving conversion from 1% to 3% means 20 additional leads per month without spending more on ads.</p>
 <h3>How many pages should a contractor website have?</h3>
 <p>A contractor website should have a minimum of 10-15 pages: homepage, about, contact, and one dedicated page per service (minimum 5-7 services). For contractors serving multiple cities, add one location page per city. A well-structured contractor site targeting local SEO typically has 20-50 pages. Each service in each city should have its own page (e.g., "Emergency Plumbing in Austin," "Drain Cleaning in Round Rock"). More pages mean more keyword targeting opportunities and more chances to rank.</p>
 <h3>What are the biggest website redesign mistakes contractors make?</h3>
@@ -1343,522 +1384,23 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
 <li>[ ] Review Chapter 5 (SEO Migration) in detail before development begins</li>
 </ul>
 <hr />
-<h2>Internal Linking Suggestions</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Anchor Text</th>
-<th>Target URL</th>
-<th>Context</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>website design services</td>
-<td>/services/website-design</td>
-<td>Mention in Chapter 3 when discussing platform selection</td>
-</tr>
-<tr>
-<td>SEO services for contractors</td>
-<td>/services/seo</td>
-<td>Mention in Chapter 5 when discussing ongoing SEO</td>
-</tr>
-<tr>
-<td>local SEO strategy</td>
-<td>/blog/local-seo-for-contractors</td>
-<td>Mention in Chapter 4 when discussing location pages</td>
-</tr>
-<tr>
-<td>conversion rate optimization</td>
-<td>/services/cro</td>
-<td>Mention in Chapter 6 when discussing design for conversion</td>
-</tr>
-<tr>
-<td>Google Business Profile optimization</td>
-<td>/blog/gbp-optimization</td>
-<td>Mention in Chapter 8 when discussing local search</td>
-</tr>
-<tr>
-<td>content marketing for contractors</td>
-<td>/services/content-marketing</td>
-<td>Mention in Chapter 7 when discussing blog strategy</td>
-</tr>
-<tr>
-<td>pay-per-click advertising</td>
-<td>/services/ppc</td>
-<td>Mention in Chapter 9 when discussing lead attribution</td>
-</tr>
-<tr>
-<td>our portfolio</td>
-<td>/portfolio</td>
-<td>Mention in Chapter 1 when discussing before/after examples</td>
-</tr>
-<tr>
-<td>free website audit</td>
-<td>/free-audit</td>
-<td>CTA throughout the guide</td>
-</tr>
-<tr>
-<td>get a redesign quote</td>
-<td>/contact</td>
-<td>Primary CTA at conclusion</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>External Citation Suggestions</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Claim/Statistic</th>
-<th>Source URL</th>
-<th>Suggested Anchor Text</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Construction businesses see 340% average redesign ROI</td>
-<td>https://www.sianamarketing.com/resources/website-redesign-roi-statistics</td>
-<td>website redesign ROI statistics</td>
-</tr>
-<tr>
-<td>$100 return for every $1 spent on UX</td>
-<td>Forrester Research (cited in multiple sources)</td>
-<td>UX investment ROI</td>
-</tr>
-<tr>
-<td>71% of home service traffic is mobile</td>
-<td>https://morecallsdigital.com/blog/mobile-website-for-contractors</td>
-<td>mobile traffic for contractors</td>
-</tr>
-<tr>
-<td>53% of mobile visitors abandon after 3 seconds</td>
-<td>Google/SOASTA research</td>
-<td>mobile page speed statistics</td>
-</tr>
-<tr>
-<td>Average contractor website converts at 1-2%</td>
-<td>https://pipelineon.com/blog/contractor-website-conversion-rate</td>
-<td>contractor conversion rate benchmarks</td>
-</tr>
-<tr>
-<td>Top 6% of contractor sites achieve 8-15% conversion</td>
-<td>https://instantsalesfunnels.com/contractor-website-conversion-rate/</td>
-<td>high-converting contractor websites</td>
-</tr>
-<tr>
-<td>Core Web Vitals pass rate 68% for positions 1-3</td>
-<td>https://hostingstep.com/core-web-vitals-stats/</td>
-<td>Core Web Vitals ranking correlation</td>
-</tr>
-<tr>
-<td>Sticky call buttons increase call volume 25-40%</td>
-<td>https://pmconsulting.ca/pillars/smart-website/conversion-optimization/</td>
-<td>sticky call button conversion lift</td>
-</tr>
-<tr>
-<td>Before/after galleries increase conversion 23%</td>
-<td>https://proweb365.com/blog/web-design/trust-signals-for-a-home-improvement-contractor-website/</td>
-<td>before after photo conversion rate</td>
-</tr>
-<tr>
-<td>Service area pages achieve $25-$45 cost per lead</td>
-<td>https://pipelineon.com/blog/service-area-pages-local-seo-contractors/</td>
-<td>service area page ROI</td>
-</tr>
-<tr>
-<td>94% of homeowners check reviews before hiring</td>
-<td>https://www.flashcrafter.ai/contractors-marketing-growth-engine/website</td>
-<td>homeowner review behavior</td>
-</tr>
-<tr>
-<td>70%+ of redesign projects end in disappointing results</td>
-<td>https://www.digibenders.com/blog-posts/website-redesign-mistakes-contractors-should-avoid</td>
-<td>website redesign failure rate</td>
-</tr>
-<tr>
-<td>Badgerland Exteriors case: $143 cost per conversion</td>
-<td>https://hookagency.com/blog/home-service-websites-that-convert/</td>
-<td>roofing contractor redesign case study</td>
-</tr>
-<tr>
-<td>Response within 60 seconds lifts conversion 391%</td>
-<td>https://instantsalesfunnels.com/contractor-website-conversion-rate/</td>
-<td>lead response time statistics</td>
-</tr>
-<tr>
-<td>Global web design market $61.23 billion in 2025</td>
-<td>Mordor Intelligence (cited in multiple sources)</td>
-<td>web design market size</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>Schema Markup Recommendations</h2>
-<h3>Article Schema</h3>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;Article&quot;,
-  &quot;headline&quot;: &quot;The Complete Website Redesign Guide for Contractors [2026]&quot;,
-  &quot;description&quot;: &quot;Complete guide to redesigning your contractor website. Includes SEO migration, platform selection, cost breakdown, 40-point checklist, and a 12-week implementation plan.&quot;,
-  &quot;author&quot;: {
-    &quot;@type&quot;: &quot;Organization&quot;,
-    &quot;name&quot;: &quot;[Your Company Name]&quot;
-  },
-  &quot;publisher&quot;: {
-    &quot;@type&quot;: &quot;Organization&quot;,
-    &quot;name&quot;: &quot;[Your Company Name]&quot;,
-    &quot;logo&quot;: {
-      &quot;@type&quot;: &quot;ImageObject&quot;,
-      &quot;url&quot;: &quot;[Logo URL]&quot;
-    }
-  },
-  &quot;datePublished&quot;: &quot;2026-01-15&quot;,
-  &quot;dateModified&quot;: &quot;2026-01-15&quot;
-}
-</code></pre>
-</div>
-<h3>FAQPage Schema</h3>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;FAQPage&quot;,
-  &quot;mainEntity&quot;: [
-    {
-      &quot;@type&quot;: &quot;Question&quot;,
-      &quot;name&quot;: &quot;How much does a contractor website redesign cost?&quot;,
-      &quot;acceptedAnswer&quot;: {
-        &quot;@type&quot;: &quot;Answer&quot;,
-        &quot;text&quot;: &quot;A contractor website redesign typically costs between $8,000 and $35,000 depending on company size and scope.&quot;
-      }
-    }
-  ]
-}
-</code></pre>
-</div>
-<h3>HowTo Schema (for SEO Migration Process)</h3>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;HowTo&quot;,
-  &quot;name&quot;: &quot;How to Migrate SEO During a Website Redesign&quot;,
-  &quot;description&quot;: &quot;Step-by-step process for preserving search rankings during a contractor website redesign.&quot;,
-  &quot;step&quot;: [
-    {
-      &quot;@type&quot;: &quot;HowToStep&quot;,
-      &quot;name&quot;: &quot;Conduct Pre-Migration SEO Audit&quot;,
-      &quot;text&quot;: &quot;Document current traffic, rankings, and backlinks before making any changes.&quot;
-    },
-    {
-      &quot;@type&quot;: &quot;HowToStep&quot;,
-      &quot;name&quot;: &quot;Create URL Mapping Spreadsheet&quot;,
-      &quot;text&quot;: &quot;Map every old URL to its corresponding new URL with 301 redirect plans.&quot;
-    }
-  ]
-}
-</code></pre>
-</div>
-<h3>BreadcrumbList Schema</h3>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;BreadcrumbList&quot;,
-  &quot;itemListElement&quot;: [
-    {
-      &quot;@type&quot;: &quot;ListItem&quot;,
-      &quot;position&quot;: 1,
-      &quot;name&quot;: &quot;Home&quot;,
-      &quot;item&quot;: &quot;[Homepage URL]&quot;
-    },
-    {
-      &quot;@type&quot;: &quot;ListItem&quot;,
-      &quot;position&quot;: 2,
-      &quot;name&quot;: &quot;Resources&quot;,
-      &quot;item&quot;: &quot;[Resources URL]&quot;
-    },
-    {
-      &quot;@type&quot;: &quot;ListItem&quot;,
-      &quot;position&quot;: 3,
-      &quot;name&quot;: &quot;Website Redesign Guide&quot;
-    }
-  ]
-}
-</code></pre>
-</div>
-<h2>Featured Snippet Opportunities</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Query Type</th>
-<th>Target Section</th>
-<th>Optimization</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Paragraph</td>
-<td>Chapter 1 intro</td>
-<td>40-60 word direct answer: "A website redesign is a complete rebuild..."</td>
-</tr>
-<tr>
-<td>List</td>
-<td>10 Signs You Need a Redesign</td>
-<td>Numbered list with concise 1-sentence descriptions</td>
-</tr>
-<tr>
-<td>Table</td>
-<td>Platform Comparison Matrix</td>
-<td>Clean comparison table with 4 platforms and 8+ factors</td>
-</tr>
-<tr>
-<td>List</td>
-<td>SEO Migration Checklist</td>
-<td>Bulleted checklist format with checkboxes</td>
-</tr>
-<tr>
-<td>Paragraph</td>
-<td>Redesign vs Refresh</td>
-<td>Direct comparison in 40-60 words</td>
-</tr>
-<tr>
-<td>Table</td>
-<td>Budget Ranges by Company Size</td>
-<td>Table with 4 company profiles, cost ranges, and deliverables</td>
-</tr>
-<tr>
-<td>List</td>
-<td>40-Point Checklist</td>
-<td>Numbered list with phase groupings</td>
-</tr>
-<tr>
-<td>Paragraph</td>
-<td>Core Web Vitals definition</td>
-<td>Direct definition: "Core Web Vitals are Google's..."</td>
-</tr>
-<tr>
-<td>Table</td>
-<td>Mobile Priority Stack</td>
-<td>Table with screen position and content elements</td>
-</tr>
-<tr>
-<td>List</td>
-<td>Common Migration Mistakes</td>
-<td>Numbered list of 7 mistakes with 1-sentence consequences</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>AI Overview Optimization Notes</h2>
-<p><strong>Optimized sections for AI Overview extraction:</strong></p>
-<ol>
-<li><strong>Introduction:</strong> Direct definition of website redesign + value proposition in first 100 words</li>
-<li><strong>Chapter 1:</strong> "10 Signs" list format — ideal for list snippets</li>
-<li><strong>Chapter 3:</strong> Platform comparison table — ideal for table snippets</li>
-<li><strong>Chapter 5:</strong> Step-by-step SEO migration process — ideal for HowTo extraction</li>
-<li><strong>FAQ:</strong> 20 questions with 60-100 word direct answers — ideal for AI Overview sourcing</li>
-<li><strong>40-Point Checklist:</strong> Structured checklist format — easily extractable by AI</li>
-</ol>
-<p><strong>Short answer blocks included:</strong><br />
-- Definition of website redesign (40 words)<br />
-- Redesign vs refresh comparison (50 words)<br />
-- Best platform for contractors (60 words)<br />
-- SEO migration summary (50 words)<br />
-- Core Web Vitals definition (40 words)<br />
-- Mobile-first priority stack (60 words)</p>
-<h2>GEO Optimization Notes</h2>
-<p><strong>Entity-rich content throughout:</strong><br />
-- Named platforms: WordPress, Webflow, Wix, Squarespace<br />
-- Named tools: Screaming Frog, Google Analytics, Google Search Console, Ahrefs, SEMrush, Yoast SEO, Rank Math, CallRail, Hotjar, Microsoft Clarity<br />
-- Named metrics: Core Web Vitals, LCP, INP, CLS, Largest Contentful Paint<br />
-- Named frameworks: Keep-Improve-Remove, SMART goals, 40-Point Checklist<br />
-- Named case studies: Badgerland Exteriors, Roto-Rooter<br />
-- Named research sources: Forrester, Siana Marketing, Google</p>
-<p><strong>Citation-friendly elements:</strong><br />
-- Every statistic includes a source reference<br />
-- Step-by-step processes are clearly numbered<br />
-- Comparison tables use consistent formatting<br />
-- Definitions are direct and quotable<br />
-- Expert insights are attributed where possible</p>
-<p><strong>Platform-specific optimization:</strong><br />
-- <strong>ChatGPT:</strong> Clear definitions, original frameworks (40-Point Checklist, Platform Decision Matrix), structured answers<br />
-- <strong>Gemini:</strong> Entity-rich writing, fact-based content, structured data signals<br />
-- <strong>Claude:</strong> Balanced perspective (pros and cons for each platform), nuanced analysis, source citations<br />
-- <strong>Perplexity:</strong> Verifiable claims with source URLs, clear answer format, FAQ structure<br />
-- <strong>Copilot:</strong> Step-by-step instructions, actionable content, current 2025-2026 data</p>
-<h2>Visual Asset Recommendations</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Placement</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Chapter 1</td>
-<td>Infographic</td>
-<td>"10 Signs You Need a Redesign" — visual checklist format</td>
-</tr>
-<tr>
-<td>Chapter 2</td>
-<td>Chart</td>
-<td>Budget breakdown by company size — bar chart with ranges</td>
-</tr>
-<tr>
-<td>Chapter 3</td>
-<td>Comparison Table</td>
-<td>Platform Decision Matrix — feature comparison grid</td>
-</tr>
-<tr>
-<td>Chapter 4</td>
-<td>Diagram</td>
-<td>Contractor site architecture — flowchart showing page hierarchy</td>
-</tr>
-<tr>
-<td>Chapter 5</td>
-<td>Infographic</td>
-<td>SEO Migration Process — step-by-step flowchart</td>
-</tr>
-<tr>
-<td>Chapter 5</td>
-<td>Checklist Graphic</td>
-<td>Technical SEO Checklist — printable one-page checklist</td>
-</tr>
-<tr>
-<td>Chapter 6</td>
-<td>Diagram</td>
-<td>Mobile Priority Stack — visual showing first/second/third screen content</td>
-</tr>
-<tr>
-<td>Chapter 6</td>
-<td>Before/After</td>
-<td>Website mockup showing poor vs. optimized mobile design</td>
-</tr>
-<tr>
-<td>Chapter 7</td>
-<td>Chart</td>
-<td>Content Audit Framework — Keep/Improve/Remove decision tree</td>
-</tr>
-<tr>
-<td>Chapter 8</td>
-<td>Timeline</td>
-<td>Launch Day Process — hour-by-hour timeline graphic</td>
-</tr>
-<tr>
-<td>Chapter 9</td>
-<td>Chart</td>
-<td>Before/After metrics comparison — traffic, conversions, rankings</td>
-</tr>
-<tr>
-<td>Full Article</td>
-<td>Infographic</td>
-<td>40-Point Checklist — comprehensive printable checklist</td>
-</tr>
-<tr>
-<td>Full Article</td>
-<td>Chart</td>
-<td>Redesign ROI Timeline — months 1-12 showing expected returns</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>Quality Control Sign-Off</h2>
-<h3>Content Quality</h3>
-<ul class="checklist">
-<li>[x] Search intent matched precisely (informational/commercial for contractors researching redesign)</li>
-<li>[x] Better than top 10 competitors on every dimension (contractor-specific, SEO migration depth, platform comparison, cost transparency)</li>
-<li>[x] Content gaps from research filled (mobile-first for emergency services, timeline guidance, conversion-focused design)</li>
-<li>[x] Every H2 is 300+ words of substance</li>
-<li>[x] Word count meets target (10,000+ words)</li>
-<li>[x] No fluff, filler, or generic content</li>
-<li>[x] No repetition of information across sections</li>
-<li>[x] Strong, sticky introduction (under 100 words)</li>
-<li>[x] Strong, action-oriented conclusion (30-Day Action Plan)</li>
-<li>[x] Rich examples throughout (Badgerland Exteriors, Roto-Rooter, specific city examples)</li>
-<li>[x] Expert insights included (Forrester, Siana Marketing, PipelineOn data)</li>
-<li>[x] Complete FAQ section (20 questions)</li>
-</ul>
-<h3>Writing Quality</h3>
-<ul class="checklist">
-<li>[x] Zero AI patterns (no "delve," "crucial," "landscape," "foster")</li>
-<li>[x] Zero generic intros (no "In today's world...")</li>
-<li>[x] Zero filler phrases (no "It is important to note that...")</li>
-<li>[x] Short paragraphs (2-4 sentences max)</li>
-<li>[x] Varied sentence length</li>
-<li>[x] Active voice dominates</li>
-<li>[x] Specific over vague</li>
-<li>[x] Numbers and specifics over generalities</li>
-</ul>
-<h3>EEAT</h3>
-<ul class="checklist">
-<li>[x] Expert opinions cited (Forrester, industry research)</li>
-<li>[x] Statistics with sources (340% ROI, 71% mobile traffic, 53% abandonment)</li>
-<li>[x] Research referenced (Siana Marketing, PipelineOn, BrightLocal)</li>
-<li>[x] Real-world examples (Badgerland Exteriors case study, specific city examples)</li>
-<li>[x] Both pros and cons presented (for each platform)</li>
-<li>[x] Honest about limitations (Wix scalability, WordPress maintenance burden)</li>
-</ul>
-<h3>SEO</h3>
-<ul class="checklist">
-<li>[x] Keyword in H1, intro, 2+ H2s, conclusion</li>
-<li>[x] Semantic keywords included (SEO migration, platform comparison, Core Web Vitals, service area pages)</li>
-<li>[x] LSI keywords included (contractor website, home service, local SEO, lead generation)</li>
-<li>[x] Related entities included (WordPress, Webflow, Google Search Console, Screaming Frog)</li>
-<li>[x] No keyword stuffing</li>
-<li>[x] Proper heading hierarchy (H1 &gt; H2 &gt; H3)</li>
-<li>[x] Descriptive image alt text placeholders</li>
-</ul>
-<h3>AIO (AI Overview)</h3>
-<ul class="checklist">
-<li>[x] Short answer blocks in major sections</li>
-<li>[x] Direct definitions</li>
-<li>[x] Step-by-step instructions (SEO migration, launch process)</li>
-<li>[x] Comparison tables (platforms, budget ranges)</li>
-<li>[x] Pros/cons lists (platform comparison)</li>
-<li>[x] FAQ format (20 questions)</li>
-</ul>
-<h3>GEO</h3>
-<ul class="checklist">
-<li>[x] Clear definitions for key terms</li>
-<li>[x] Entity-rich writing</li>
-<li>[x] Fact-based content with statistics</li>
-<li>[x] Structured answers (lists, tables, step-by-step)</li>
-<li>[x] Citations and sources</li>
-<li>[x] Every section answers What, Why, How, When, Who</li>
-</ul>
-<h3>CTR</h3>
-<ul class="checklist">
-<li>[x] 10 title options generated</li>
-<li>[x] Recommended title selected with rationale</li>
-<li>[x] Meta title optimized (52 characters)</li>
-<li>[x] Meta description optimized (156 characters)</li>
-<li>[x] URL slug optimized</li>
-</ul>
-<h3>Dwell Time</h3>
-<ul class="checklist">
-<li>[x] Sticky intro (78 words)</li>
-<li>[x] Above-the-fold value (direct promise in first 100 words)</li>
-<li>[x] Long-form depth (10,000+ words)</li>
-<li>[x] Rich examples (case studies, city-specific examples)</li>
-<li>[x] Tables and comparisons (platform matrix, budget table, before/after metrics)</li>
-<li>[x] Frameworks and checklists (40-Point Checklist, Keep-Improve-Remove, Goal-Setting Framework)</li>
-<li>[x] FAQ section (20 questions)</li>
-</ul>
-<h3>Conversion</h3>
-<ul class="checklist">
-<li>[x] CTA matches funnel stage (MOFU/BOFU — soft CTA in content, hard CTA at conclusion)</li>
-<li>[x] CTA is specific about outcome ("Get a Free Website Redesign Quote + SEO Migration Plan")</li>
-<li>[x] Conversion opportunities included (lead magnet reference, internal links to service pages)</li>
-<li>[x] Internal linking suggestions provided (10 links with anchor text and context)</li>
-</ul>
+
 <hr />
-<p><em>Article completed and quality-controlled. Publication-ready.</em></p>`;
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
+
+`;
 ---
 
 <BlogPostLayout
@@ -1869,4 +1411,5 @@ Example: (34 - 18) / 18 x 100 = 89% increase</p>
   readTime='45 min read'
   tags={['Web Design']}
   contentHtml={contentHtml}
+  schema={schema}
 />

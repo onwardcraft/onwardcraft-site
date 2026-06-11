@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'General Contractor Marketing: How to Win More Remodeling and Commercial Projects';
 const description = 'Learn how to market your general contracting business. Includes portfolio marketing, commercial lead generation, architect relationships, and high-ticket project acquisition.';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "General Contractor Marketing: How to Win More Remodeling and Commercial Projects",
+    "description": "Learn how to market your general contracting business. Includes portfolio marketing, commercial lead generation, architect relationships, and high-ticket project acquisition.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/general-contractor-marketing"
+    }
+  }
+];
 const contentHtml = ``;
 ---
 
@@ -14,4 +41,5 @@ const contentHtml = ``;
   readTime='35 min read'
   tags={['Growth Strategy']}
   contentHtml={contentHtml}
+  schema={schema}
 />

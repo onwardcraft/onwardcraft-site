@@ -2,8 +2,67 @@
 import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = '21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]';
-const description = '21 proven roofing marketing strategies organized by season. Includes storm damage leads, insurance referrals, local SEO, and off-season tactics with cost...';
-const contentHtml = `<p class="lead">Most roofing companies treat marketing like a storm-chasing sprint — they pour money into ads when hail hits, then go silent for months. The roofers who build $5M+ businesses do the opposite. They run a year-round marketing engine that generates leads in January, July, and every month in between.</p>
+const description = '21 proven roofing marketing strategies organized by season. Includes storm damage leads, insurance referrals, local SEO, and off-season tactics with cost estimates and lead volume data.';
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]",
+  "description": "21 proven roofing marketing strategies organized by season. Includes storm damage leads, insurance referrals, local SEO, and off-season tactics with cost estimates and lead volume data.",
+  "author": {
+    "@type": "Organization",
+    "name": "OnwardCraft"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "OnwardCraft",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://onwardcraft.com/logo.png"
+    }
+  },
+  "datePublished": "2025-06-09",
+  "dateModified": "2025-06-09",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://onwardcraft.com/blog/roofing-marketing-strategies"
+  }
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best marketing strategy for roofing companies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Google Business Profile optimization delivers the highest consistent ROI, generating 15–40 qualified calls per month at minimal cost. For storm-prone markets, storm-response PPC campaigns generate the highest volume during events."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much should a roofing company spend on marketing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most successful roofing companies spend 5–10% of revenue on marketing. New companies should spend 10–15% to build awareness. Established companies with strong organic presence can spend 4–7%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a good cost per lead for roofing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Google Search Ads average $80–$350 per lead. Google Local Services Ads range $25–$150. SEO leads cost $10–$50 amortized. The best CPL depends on your close rate and average job value."
+      }
+    }
+  ]
+};
+
+const schema = [articleSchema, faqSchema];
+
+const contentHtml = `<p class="lead">Most roofing companies treat <a href="/services/roofing-marketing">roofing marketing</a> like a storm-chasing sprint — they pour money into ads when hail hits, then go silent for months. The roofers who build $5M+ businesses do the opposite. They run a year-round marketing engine that generates leads in January, July, and every month in between.</p>
 <p>This article gives you 21 strategies organized by season. Each one includes what it costs, how many leads you can expect, exactly how to implement it, and a real example from a roofing company already using it.</p>
 <hr />
 <h2>Table of Contents</h2>
@@ -46,16 +105,16 @@ const contentHtml = `<p class="lead">Most roofing companies treat marketing like
 <strong>Expected Lead Volume:</strong> 15–40 qualified calls per month<br />
 <strong>Cost to Implement:</strong> $0–$500 (DIY) or $800–$1,500/month (agency-managed)</p>
 <h4>How to Implement</h4>
-<p>Your Google Business Profile (GBP) is the single highest-ROI marketing asset you own. A YDOP study of 34,111 roofing profiles found that 49% of roofing contractors have four or fewer reviews, 27% have no website link, and only 22% have fully optimized profiles. That gap is your opportunity.</p>
-<p>Start with the basics. Set your primary category to "Roofing Contractor." Add secondary categories: "Siding Contractor," "Gutter Cleaning Service," and "Construction Company." Fill every field — description, service areas, business hours, appointment link, and attributes. Companies with complete profiles are 70% more likely to drive physical site visits and 50% more likely to convert searchers into buyers, according to Google's own data.</p>
+<p><a href="/services/gbp-optimization">Google Business Profile optimization</a> is the single highest-ROI marketing asset you own. A <a href="https://www.ydop.com/articles/google-my-business-for-roofers/" target="_blank" rel="noopener noreferrer">YDOP study</a> of 34,111 roofing profiles found that <a href="https://www.ydop.com/articles/google-my-business-for-roofers/" target="_blank" rel="noopener noreferrer">49% of roofing contractors have four or fewer reviews</a>, 27% have no website link, and only 22% have fully optimized profiles. That gap is your opportunity.</p>
+<p>Start with the basics. Set your primary category to "Roofing Contractor." Add secondary categories: "Siding Contractor," "Gutter Cleaning Service," and "Construction Company." Fill every field — description, service areas, business hours, appointment link, and attributes. Companies with complete profiles are <a href="https://www.google.com/business/" target="_blank" rel="noopener noreferrer">70% more likely to drive physical site visits</a> and 50% more likely to convert searchers into buyers, according to Google's own data.</p>
 <p>Upload at least 20 photos monthly. Before-and-after project shots, team photos, equipment images, and storm damage documentation all signal activity to Google's algorithm. Add a 15-second video testimonial. Profiles with video content see measurably higher engagement.</p>
 <p>Post weekly updates using roofing-specific keywords. Write posts like "Free Hail Damage Inspection in Plano — This Week Only" or "GAF Master Elite Roof Replacement Completed in Frisco." Include your city names and ZIP codes naturally. These posts stay live for seven days and signal freshness to Google.</p>
 <p>Enable messaging and respond within 15 minutes. A Dallas roofing firm that optimized response time from 4+ hours to under 15 minutes saw conversion rates jump from 3.2% to 18.7% during storm season. Set up an auto-reply for after-hours inquiries.</p>
-<p>Target 50+ reviews with a 4.5+ star average. Roofing contractors with 50+ reviews and strong ratings have a 57% higher probability of ranking in the top three map positions, according to SEO Expert Pro's 2026 analysis. Send review requests via SMS within 24 hours of job completion — SMS review requests generate a 68% response rate versus 42% for email.</p>
+<p>Target 50+ reviews with a 4.5+ star average. Roofing contractors with 50+ reviews and strong ratings have a <a href="https://seoexpertpro.us/post/construction-seo-san-antonio-tx/" target="_blank" rel="noopener noreferrer">57% higher probability of ranking in the top three map positions</a>, according to SEO Expert Pro's 2026 analysis. Send review requests via SMS within 24 hours of job completion — SMS review requests generate a 68% response rate versus 42% for email.</p>
 <h4>Roofing Example</h4>
-<p>A Michigan roofing contractor with three locations rebuilt their GBP strategy from scratch. They optimized all three listings, fixed NAP consistency, added regular posts, and implemented a photo upload schedule. Within six months, organic traffic grew 188% and GBP leads increased 145% — from roughly 400 monthly calls to 988 monthly calls.</p>
+<p>A Michigan roofing contractor with three locations rebuilt their GBP strategy from scratch. They optimized all three listings, fixed NAP consistency, added regular posts, and implemented a photo upload schedule. Within six months, <a href="https://kodescape.com/case-studies/roofing-seo-case-study" target="_blank" rel="noopener noreferrer">organic traffic grew 188%</a> and GBP leads increased 145% — from roughly 400 monthly calls to 988 monthly calls.</p>
 <hr />
-<h3>Strategy 2: Build Roofing-Specific Location Pages</h3>
+<h3>Strategy 2: Build Roofing-Specific Location Pages With <a href="/services/local-seo">Local SEO</a></h3>
 <p><strong>Best Season:</strong> Always-On<br />
 <strong>Expected Lead Volume:</strong> 5–15 additional organic leads per month per page<br />
 <strong>Cost to Implement:</strong> $300–$800 per page (one-time)</p>
@@ -69,12 +128,12 @@ const contentHtml = `<p class="lead">Most roofing companies treat marketing like
 <h4>Roofing Example</h4>
 <p>A Pennsylvania roofing company built location pages for 10 cities in their service area. Each page targeted "roofing [city]" and "roof repair [city]." Within 90 days, they ranked #1 for "roofing West Chester PA" and top three for nine additional cities. Organic clicks increased from 117 to 435 per month — a 3x improvement with zero ad spend.</p>
 <hr />
-<h3>Strategy 3: Create Storm Damage Landing Pages</h3>
+<h3>Strategy 3: Create <a href="/services/storm-damage-marketing">Storm Damage</a> Landing Pages</h3>
 <p><strong>Best Season:</strong> Always-On (peak activation in Spring/Summer)<br />
 <strong>Expected Lead Volume:</strong> 20–60 storm leads per event<br />
 <strong>Cost to Implement:</strong> $500–$1,200 per landing page (one-time)</p>
 <h4>How to Implement</h4>
-<p>Storm damage landing pages are your highest-converting digital asset during hail and wind events. Search volume for storm-related roofing terms spikes 300–800% within 48 hours of a severe weather event. Contractors with pre-built pages capture that surge. Contractors without them miss the window entirely.</p>
+<p>Storm damage landing pages are your highest-converting digital asset during hail and wind events. Search volume for storm-related roofing terms spikes <a href="https://pinpointpromote.com/resources/roofing-storm-season-marketing-guide" target="_blank" rel="noopener noreferrer">300–800% within 48 hours of a severe weather event</a>. Contractors with pre-built pages capture that surge. Contractors without them miss the window entirely.</p>
 <p>Build three core landing pages: "[City] Hail Damage Roof Repair," "[City] Wind Damage Roof Repair," and "Roof Insurance Claim Assistance in [City]." Each page needs a mobile-first design with click-to-call buttons above the fold, a short form (three fields max: name, phone, address), and urgency-driven copy.</p>
 <p>Write the headline for the homeowner in crisis. "Did Last Night's Storm Damage Your Roof? Free Inspection Today." Follow with a subheadline that removes friction: "We work directly with your insurance adjuster. You pick the shingle color. We handle everything else."</p>
 <p>Include an FAQ section with schema markup. Answer questions like "What size hail damages a roof?" (1 inch or larger), "Will my insurance cover roof replacement?" (usually, if damage exceeds your deductible), and "How long do I have to file a claim?" (varies by state, typically 1–2 years). FAQ schema increases your chance of appearing in featured snippets and AI Overviews.</p>
@@ -83,7 +142,7 @@ const contentHtml = `<p class="lead">Most roofing companies treat marketing like
 <h4>Roofing Example</h4>
 <p>A Dallas-Fort Worth roofing company built storm damage landing pages for five major cities before hail season. When a March 2025 hailstorm hit Plano with 2.5-inch hail, they activated pre-built campaigns within 90 minutes. Their "Plano Hail Damage Roof Repair" page generated 47 inspection requests in the first 48 hours. They closed 19 jobs from that single event with an average job value of $14,200.</p>
 <hr />
-<h3>Strategy 4: Develop an Insurance Claim Content Hub</h3>
+<h3>Strategy 4: Develop an Insurance Claim <a href="/services/content-marketing">Content Hub</a></h3>
 <p><strong>Best Season:</strong> Always-On<br />
 <strong>Expected Lead Volume:</strong> 3–8 organic leads per month from insurance-related searches<br />
 <strong>Cost to Implement:</strong> $2,000–$5,000 (content creation, one-time)</p>
@@ -102,7 +161,7 @@ const contentHtml = `<p class="lead">Most roofing companies treat marketing like
 <strong>Expected Lead Volume:</strong> 2–5 referral leads per month<br />
 <strong>Cost to Implement:</strong> $100–$500/month (rewards + software)</p>
 <h4>How to Implement</h4>
-<p>Referral leads convert at 40–60% — the highest close rate of any lead source. Referred customers also have a 16% higher lifetime value than non-referred customers, according to referral marketing research. Yet most roofing companies treat referrals as an afterthought. A structured program turns happy customers into a predictable lead channel.</p>
+<p><a href="https://gfourmarketing.com/blog/roofing-referral-program-the-ultimate-guide/" target="_blank" rel="noopener noreferrer">Referral leads convert at 40–60%</a> — the highest close rate of any lead source. Referred customers also have a 16% higher lifetime value than non-referred customers, according to referral marketing research. Yet most roofing companies treat referrals as an afterthought. A structured program turns happy customers into a predictable lead channel.</p>
 <p>Design a two-sided incentive. The referrer gets something immediately valuable — not a discount on future roofing work they will not need for 15 years. Offer a $150–$250 gift card to a local home improvement store, restaurant, or Visa gift card. The referred homeowner gets a discount on their project — 5% off or a free gutter cleaning with roof replacement.</p>
 <p>Auto-enroll every customer. Do not make people sign up. When you complete a job, the customer is in the program. Send their unique referral link via text within 24 hours of project completion. The message should read: "Your roof is complete. Love our work? Share this link with a neighbor and get a $200 gift card when they book. They will save 5% too."</p>
 <p>Track everything in your CRM. Tag leads by source. Know which customers refer the most. Send quarterly thank-you notes to your top five referrers. Some roofing companies host an annual dinner for their best referral partners — a $500 investment that generates tens of thousands in repeat referrals.</p>
@@ -111,7 +170,7 @@ const contentHtml = `<p class="lead">Most roofing companies treat marketing like
 <h4>Roofing Example</h4>
 <p>A Florida roofing company implemented an automated referral program through their CRM. Every customer received a text with a unique referral link 24 hours after job completion. They offered a $200 Visa gift card for every referred job that closed. Within 12 months, referrals grew from 4% to 11% of total jobs. Their customer acquisition cost for referral leads was 1.4% of job value versus 4–8% for Google Ads leads.</p>
 <hr />
-<h3>Strategy 6: Install an Interactive Roofing Calculator</h3>
+<h3>Strategy 6: Install an Interactive Roofing Calculator on Your <a href="/services/website-design">Website</a></h3>
 <p><strong>Best Season:</strong> Always-On<br />
 <strong>Expected Lead Volume:</strong> 10–30 qualified leads per month<br />
 <strong>Cost to Implement:</strong> $200–$500/month (software) or $3,000–$8,000 (custom build)</p>
@@ -120,38 +179,38 @@ const contentHtml = `<p class="lead">Most roofing companies treat marketing like
 <p>Choose your calculator approach. For most roofers, a plug-and-play tool like Roofr, PSAI, or GeoQuote makes sense. These tools use satellite imagery to auto-measure roof square footage and deliver ballpark estimates based on your pricing. Custom-built calculators offer more control but require upfront development investment.</p>
 <p>Configure the calculator with your real pricing. Input per-square costs for asphalt shingles, metal roofing, tile, and flat roof systems. Add regional modifiers for labor costs. Include financing options — showing a $15,000 roof as "$195/month" removes sticker shock and increases form completion.</p>
 <p>Gate the full estimate behind minimal contact info. Ask for address, name, phone, and email. Do not require more than four fields. The address field is critical — it enables satellite measurement and qualifies the lead by service area.</p>
-<p>Set up automated follow-up. The calculator should trigger an SMS with the estimate within 60 seconds, followed by a call from your sales team within 5 minutes. Leads contacted within 5 minutes are 9x more likely to convert than leads contacted after 30 minutes.</p>
+<p>Set up automated follow-up. The calculator should trigger an SMS with the estimate within 60 seconds, followed by a call from your sales team within 5 minutes. <a href="https://useproline.com/roofing-marketing-strategies-2025/" target="_blank" rel="noopener noreferrer">Leads contacted within 5 minutes are 9x more likely to convert than leads contacted after 30 minutes</a>.</p>
 <p>Place the calculator prominently. Add it to your homepage above the fold. Embed it on every service page. Create a dedicated "Get an Instant Roof Estimate" page optimized for "roof cost calculator [city]" searches. Promote it via social media and direct mail with QR codes.</p>
 <h4>Roofing Example</h4>
 <p>A Texas roofing company added an instant estimate widget to their homepage and promoted it through Facebook ads targeting homeowners in ZIP codes with roofs older than 15 years. The calculator generated 23 qualified leads in the first month at an effective cost per lead of $18. Their static contact form, by comparison, generated 4 leads that same month. The calculator leads also closed at a 28% rate versus 12% for general website inquiries because they arrived with pricing expectations already set.</p>
 <hr />
-<h3>Strategy 7: Implement an Automated Review Generation System</h3>
+<h3>Strategy 7: Implement an Automated Review Generation System for <a href="/services/conversion-optimization">Higher Conversions</a></h3>
 <p><strong>Best Season:</strong> Always-On<br />
 <strong>Expected Lead Volume:</strong> Indirect — improves conversion on all channels by 15–30%<br />
 <strong>Cost to Implement:</strong> $50–$300/month (software)</p>
 <h4>How to Implement</h4>
-<p>Reviews are not a vanity metric. They are a ranking factor, a conversion multiplier, and a competitive moat. A YDOP study found that 83% of homeowners trust online reviews as much as personal recommendations when choosing a roofer. A single one-star review drop can decrease lead-to-job conversion by 14%. Meanwhile, roofing contractors with 50+ reviews and 4.5+ stars have a 57% higher chance of ranking in the top three map positions.</p>
+<p>Reviews are not a vanity metric. They are a ranking factor, a conversion multiplier, and a competitive moat. A <a href="https://roofpredict.com/blog/layering-income-age-storm-data-for-success" target="_blank" rel="noopener noreferrer">YDOP study found that 83% of homeowners trust online reviews</a> as much as personal recommendations when choosing a roofer. A single one-star review drop can decrease lead-to-job conversion by 14%. Meanwhile, roofing contractors with 50+ reviews and 4.5+ stars have a 57% higher chance of ranking in the top three map positions.</p>
 <p>Automate the entire process. Connect your CRM (JobNimbus, AccuLynx, ServiceTitan) to a review platform (NiceJob, Birdeye, or your CRM's built-in tool). When a job is marked complete, trigger an SMS review request within 2–24 hours. SMS review requests achieve a 68% response rate versus 42% for email.</p>
 <p>Use sentiment pre-screening. Send a two-step request: first ask "How would you rate your experience? 1–5 stars." If they select 4–5 stars, redirect them to Google. If they select 1–3 stars, redirect them to a private feedback form. This intercepts negative reviews before they hit your public profile.</p>
-<p>Follow up automatically. If the customer does not leave a review within 48 hours, send a second SMS. If no response after 96 hours, send a final email. Data shows that 40% of reviews come from follow-up touches, not the initial request.</p>
+<p>Follow up automatically. If the customer does not leave a review within 48 hours, send a second SMS. If no response after 96 hours, send a final email. Data shows that <a href="https://blog.salescaptain.com/automated-review-requests-for-roofing-companies-2025/" target="_blank" rel="noopener noreferrer">40% of reviews come from follow-up touches</a>, not the initial request.</p>
 <p>Respond to every review within 24 hours. For positive reviews, thank the customer by name and mention something specific about their project. For negative reviews, apologize publicly, offer to make it right, and move the conversation offline. Google rewards active review management with higher local rankings.</p>
 <p>Set targets by volume. A roofer completing 8 jobs per week should aim for 30–45 net new reviews per quarter. At that pace, you will move from page-two map pack obscurity into the top-three local pack within six months.</p>
 <h4>Roofing Example</h4>
 <p>Cathedral Roofing in Florida implemented an automated SMS review system through their CRM. They sent review requests within four hours of job completion and followed up once at 48 hours. In seven months, they added 120+ Google reviews, tripled their monthly review volume, increased referral leads by 22%, and raised their lead-to-sale conversion rate by 18%. Their Google rating improved from 4.2 to 4.8 stars.</p>
 <hr />
-<h3>Strategy 8: Build a Commercial Roofing Portfolio</h3>
+<h3>Strategy 8: Build a <a href="/services/commercial-marketing">Commercial Roofing Portfolio</a></h3>
 <p><strong>Best Season:</strong> Always-On<br />
 <strong>Expected Lead Volume:</strong> 2–6 commercial leads per month<br />
 <strong>Cost to Implement:</strong> $1,500–$4,000 (photography, website development)</p>
 <h4>How to Implement</h4>
-<p>Commercial roofing is the fastest-growing segment of the U.S. roofing market, expanding at 8.05% CAGR, according to Mordor Intelligence's 2025 analysis. Data centers, warehouses, and healthcare facilities are driving massive demand for low-slope roof systems. Yet most roofing companies market to commercial prospects the same way they market to homeowners — with generic service pages and residential imagery.</p>
+<p>Commercial roofing is the fastest-growing segment of the U.S. roofing market, expanding at <a href="https://www.mordorintelligence.com/industry-reports/united-states-roofing-market" target="_blank" rel="noopener noreferrer">8.05% CAGR, according to Mordor Intelligence's 2025 analysis</a>. Data centers, warehouses, and healthcare facilities are driving massive demand for low-slope roof systems. Yet most roofing companies market to commercial prospects the same way they market to homeowners — with generic service pages and residential imagery.</p>
 <p>Build a separate commercial section on your website. Create dedicated pages for each system you install: TPO, EPDM, PVC, modified bitumen, metal, and roof coatings. Each page should include typical applications, lifespan expectations, energy efficiency data, and warranty information.</p>
 <p>Develop detailed case studies. Commercial buyers need specifics. For each major project, document: building type, square footage, existing roof condition, system installed, project duration, challenges overcome, and total cost. Include before-and-after photos, drone footage, and a testimonial from the facility manager or property owner.</p>
 <p>Add commercial-specific trust signals. Display your safety record (OSHA compliance, EMR rating), bonding capacity, manufacturer certifications (Carlisle, GAF Commercial, Johns Manville), and project size range. Commercial buyers care about liability insurance limits and workers' compensation coverage — mention these explicitly.</p>
 <p>Target commercial keywords. Optimize for "commercial roofing contractor [city]," "flat roof repair [city]," "TPO roofing [city]," and "roof maintenance program [city]." These have lower search volume than residential terms but significantly less competition and higher job values.</p>
 <p>Build a LinkedIn presence. Commercial roofing is B2B. Create a company page, share project updates, and connect with facility managers, property managers, and commercial real estate brokers. Post weekly content: project photos, roofing maintenance tips, and industry news.</p>
 <h4>Roofing Example</h4>
-<p>12 Stones Roofing in Pasadena, Texas built a commercial roofing portfolio page and optimized for "commercial roofing Pasadena." Within four months, they received a call from a property manager at a local business park. The call turned into a 26-roof maintenance and replacement contract — the largest single deal in company history. The entire contract was generated from one organic search during their slow season.</p>
+<p>12 Stones Roofing in Pasadena, Texas built a commercial roofing portfolio page and optimized for "commercial roofing Pasadena." Within four months, they received a call from a property manager at a local business park. The call turned into a <a href="https://www.cinchlocal.com/commercial-roofing-seo-case-study" target="_blank" rel="noopener noreferrer">a 26-roof maintenance and replacement contract</a> — the largest single deal in company history. The entire contract was generated from one organic search during their slow season.</p>
 <hr />
 <h2>Spring Strategies (March–May)</h2>
 <p>Spring is when homeowners emerge from winter and start noticing problems. It is also hail season in much of the country. These three strategies capture the spring mindset.</p>
@@ -161,12 +220,12 @@ const contentHtml = `<p class="lead">Most roofing companies treat marketing like
 <strong>Expected Lead Volume:</strong> 15–35 leads per campaign<br />
 <strong>Cost to Implement:</strong> $1,500–$5,000 (ads + content + mailers)</p>
 <h4>How to Implement</h4>
-<p>Spring hail season generates some of the highest-value leads in roofing. The U.S. saw 142 hail damage days in 2025, with over 600,000 homes hit by 2-inch-plus hail. Texas alone had 235,000+ homes affected. Homeowners who understand hail damage and know who to call book inspections at 2–3x the rate of general roofing inquiries.</p>
+<p>Spring hail season generates some of the highest-value leads in roofing. The U.S. saw <a href="https://www.cotality.com/press-releases/hail-now-a-leading-driver-of-insured-losses" target="_blank" rel="noopener noreferrer">142 hail damage days in 2025</a>, with over 600,000 homes hit by 2-inch-plus hail. Texas alone had 235,000+ homes affected. Homeowners who understand hail damage and know who to call book inspections at 2–3x the rate of general roofing inquiries.</p>
 <p>Start with education, not sales. Create a "Hail Damage Awareness" landing page that teaches homeowners how to spot hail damage from the ground. Include photos of bruised shingles, dented vents, and cracked skylights. Explain the 1-inch hail threshold that most insurance companies use for coverage. Add a video walkthrough of a hail inspection.</p>
 <p>Run Facebook and Instagram ads targeting homeowners in hail-prone ZIP codes. Use interest targeting: homeowners, home improvement, insurance. Geo-target neighborhoods with roofs older than 10 years. Ad creative should show actual hail damage photos with copy like "Did March Hail Damage Your Roof? 5 Signs to Check From Your Driveway."</p>
 <p>Send direct mail to hail-prone areas before storm season. A postcard with a QR code linking to your hail damage guide positions you as the local expert. Mail in late February or early March — before the first storms hit.</p>
 <p>Partner with local meteorologists or weather stations. Offer to be their "roofing expert" during storm season. A single TV segment mentioning your company name drives dozens of branded searches.</p>
-<p>Activate immediately after any hail event. Have pre-written ad copy, landing pages, and email sequences ready to deploy within two hours. The first 72 hours after hail are critical — homeowners who get an inspection within this window book with that contractor 68–74% of the time.</p>
+<p>Activate immediately after any hail event. Have pre-written ad copy, landing pages, and email sequences ready to deploy within two hours. The first 72 hours after hail are critical — homeowners who get an inspection within this window <a href="https://pinpointpromote.com/resources/roofing-storm-season-marketing-guide" target="_blank" rel="noopener noreferrer">book with that contractor 68–74% of the time</a>.</p>
 <h4>Roofing Example</h4>
 <p>A roofing company in Oklahoma City launched a hail awareness campaign in February 2025. They mailed 5,000 postcards to neighborhoods with roofs aged 12+ years, ran Facebook ads targeting the same ZIP codes, and published a "Hail Damage Guide" blog post. When a March hailstorm hit with 1.75-inch hail, they activated pre-built campaigns within 90 minutes. The campaign generated 31 inspection requests in 72 hours. They closed 14 jobs with an average value of $13,800.</p>
 <hr />
@@ -201,7 +260,7 @@ const contentHtml = `<p class="lead">Most roofing companies treat marketing like
 <h2>Summer Strategies (June–August)</h2>
 <p>Summer brings peak storm activity in many regions and the highest search volume for emergency roofing services. These strategies capture urgency and build brand presence.</p>
 <hr />
-<h3>Strategy 12: Run Storm-Response PPC Campaigns</h3>
+<h3>Strategy 12: Run Storm-Response <a href="/services/ppc">PPC Campaigns</a></h3>
 <p><strong>Best Season:</strong> Summer<br />
 <strong>Expected Lead Volume:</strong> 30–100 leads per storm event<br />
 <strong>Cost to Implement:</strong> $2,500–$8,000 per storm event</p>
@@ -316,7 +375,7 @@ const contentHtml = `<p class="lead">Most roofing companies treat marketing like
 <h4>Roofing Example</h4>
 <p>A commercial roofing contractor in Phoenix used winter to build a prospect list of 150 industrial buildings aged 18–25 years. They sent LinkedIn messages, cold emails, and direct mail pieces from December through February. By March, they had submitted 11 proposals. Four converted into projects worth $890,000 total. The contractor attributed the success to starting prospecting in December while competitors waited for spring.</p>
 <hr />
-<h3>Strategy 20: Invest in Off-Season Content Creation</h3>
+<h3>Strategy 20: Invest in Off-Season <a href="/services/seo">SEO</a> and <a href="/services/content-marketing">Content Creation</a></h3>
 <p><strong>Best Season:</strong> Winter<br />
 <strong>Expected Lead Volume:</strong> 10–25 organic leads per month (starting in spring)<br />
 <strong>Cost to Implement:</strong> $1,500–$4,000/month (content creation)</p>
@@ -386,379 +445,19 @@ const contentHtml = `<p class="lead">Most roofing companies treat marketing like
 <p><strong>This year:</strong> Create a location page for every city you serve and publish two SEO-optimized articles per month. Within 12 months, organic leads will become your most profitable channel.</p>
 <p>The roofing companies that thrive are not the ones with the biggest ad budgets. They are the ones with the most systematic, seasonally-aware marketing engines. Start building yours today.</p>
 <hr />
-<h2>Internal Linking Suggestions</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Anchor Text</th>
-<th>Target URL</th>
-<th>Context</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>roofing marketing guide</td>
-<td>/services/roofing-marketing</td>
-<td>Introduction, where readers learn about our services</td>
-</tr>
-<tr>
-<td>local SEO for contractors</td>
-<td>/services/local-seo</td>
-<td>Strategy 1 (GBP optimization), related service</td>
-</tr>
-<tr>
-<td>storm damage marketing</td>
-<td>/services/storm-damage-marketing</td>
-<td>Strategy 3 and 9, related service</td>
-</tr>
-<tr>
-<td>website design for roofers</td>
-<td>/services/website-design</td>
-<td>Strategy 6 (calculator), related service</td>
-</tr>
-<tr>
-<td>Google Business Profile optimization</td>
-<td>/services/gbp-optimization</td>
-<td>Strategy 1, related service</td>
-</tr>
-<tr>
-<td>commercial roofing marketing</td>
-<td>/services/commercial-marketing</td>
-<td>Strategy 8 and 13, related service</td>
-</tr>
-<tr>
-<td>SEO services</td>
-<td>/services/seo</td>
-<td>Strategy 2 and 20, related service</td>
-</tr>
-<tr>
-<td>content marketing</td>
-<td>/services/content-marketing</td>
-<td>Strategy 4 and 20, related service</td>
-</tr>
-<tr>
-<td>PPC management</td>
-<td>/services/ppc</td>
-<td>Strategy 12, related service</td>
-</tr>
-<tr>
-<td>conversion optimization</td>
-<td>/services/conversion-optimization</td>
-<td>Strategy 6 and 7, related service</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>External Citation Suggestions</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Claim/Statistic</th>
-<th>Source URL</th>
-<th>Suggested Anchor Text</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>U.S. roofing market $29.65 billion (2024)</td>
-<td>https://www.mordorintelligence.com/industry-reports/united-states-roofing-market</td>
-<td>U.S. roofing market analysis</td>
-</tr>
-<tr>
-<td>49% of roofing contractors have 4 or fewer reviews</td>
-<td>https://www.ydop.com/articles/google-my-business-for-roofers/</td>
-<td>YDOP roofing GBP study</td>
-</tr>
-<tr>
-<td>70% more likely to drive site visits with complete profile</td>
-<td>https://www.google.com/business/</td>
-<td>Google Business Profile</td>
-</tr>
-<tr>
-<td>83% of homeowners trust online reviews</td>
-<td>https://roofpredict.com/blog/layering-income-age-storm-data-for-success</td>
-<td>RoofPredict review data</td>
-</tr>
-<tr>
-<td>57% higher ranking chance with 50+ reviews</td>
-<td>https://seoexpertpro.us/post/construction-seo-san-antonio-tx/</td>
-<td>local SEO ranking factors</td>
-</tr>
-<tr>
-<td>Contacting leads within 1 minute improves conversion 391%</td>
-<td>https://useproline.com/roofing-marketing-strategies-2025/</td>
-<td>roofing marketing statistics</td>
-</tr>
-<tr>
-<td>Google Ads CPL $228.15 for roofing</td>
-<td>https://pipelineon.com/blog/roofing-leads-cost-per-lead-benchmarks/</td>
-<td>roofing lead cost benchmarks</td>
-</tr>
-<tr>
-<td>Storm search volume spikes 300–800%</td>
-<td>https://pinpointpromote.com/resources/roofing-storm-season-marketing-guide</td>
-<td>storm damage marketing guide</td>
-</tr>
-<tr>
-<td>68–74% booking rate within 72 hours of storm</td>
-<td>https://pinpointpromote.com/resources/roofing-storm-season-marketing-guide</td>
-<td>storm response statistics</td>
-</tr>
-<tr>
-<td>142 hail damage days in 2025</td>
-<td>https://www.cotality.com/press-releases/hail-now-a-leading-driver-of-insured-losses</td>
-<td>Cotality hail risk report</td>
-</tr>
-<tr>
-<td>Commercial roofing 8.05% CAGR</td>
-<td>https://www.mordorintelligence.com/industry-reports/united-states-roofing-market</td>
-<td>commercial roofing growth</td>
-</tr>
-<tr>
-<td>40% of reviews come from follow-ups</td>
-<td>https://blog.salescaptain.com/automated-review-requests-for-roofing-companies-2025/</td>
-<td>roofing review automation</td>
-</tr>
-<tr>
-<td>Referral leads convert at 40–60%</td>
-<td>https://gfourmarketing.com/blog/roofing-referral-program-the-ultimate-guide/</td>
-<td>roofing referral program data</td>
-</tr>
-<tr>
-<td>188% traffic growth case study</td>
-<td>https://kodescape.com/case-studies/roofing-seo-case-study</td>
-<td>roofing SEO case study</td>
-</tr>
-<tr>
-<td>26-roof commercial deal</td>
-<td>https://www.cinchlocal.com/commercial-roofing-seo-case-study</td>
-<td>commercial roofing SEO case study</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>Schema Markup Recommendations</h2>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;Article&quot;,
-  &quot;headline&quot;: &quot;21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]&quot;,
-  &quot;description&quot;: &quot;21 proven roofing marketing strategies organized by season. Includes storm damage leads, insurance referrals, local SEO, and off-season tactics with cost estimates and lead volume data.&quot;,
-  &quot;author&quot;: {
-    &quot;@type&quot;: &quot;Organization&quot;,
-    &quot;name&quot;: &quot;OnwardCraft&quot;
-  },
-  &quot;publisher&quot;: {
-    &quot;@type&quot;: &quot;Organization&quot;,
-    &quot;name&quot;: &quot;OnwardCraft&quot;,
-    &quot;logo&quot;: {
-      &quot;@type&quot;: &quot;ImageObject&quot;,
-      &quot;url&quot;: &quot;https://onwardcraft.com/logo.png&quot;
-    }
-  },
-  &quot;datePublished&quot;: &quot;2025-06-09&quot;,
-  &quot;dateModified&quot;: &quot;2025-06-09&quot;,
-  &quot;mainEntityOfPage&quot;: {
-    &quot;@type&quot;: &quot;WebPage&quot;,
-    &quot;@id&quot;: &quot;https://onwardcraft.com/blog/roofing-marketing-strategies&quot;
-  }
-}
-</code></pre>
-</div>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;FAQPage&quot;,
-  &quot;mainEntity&quot;: [
-    {
-      &quot;@type&quot;: &quot;Question&quot;,
-      &quot;name&quot;: &quot;What is the best marketing strategy for roofing companies?&quot;,
-      &quot;acceptedAnswer&quot;: {
-        &quot;@type&quot;: &quot;Answer&quot;,
-        &quot;text&quot;: &quot;Google Business Profile optimization delivers the highest consistent ROI, generating 15–40 qualified calls per month at minimal cost. For storm-prone markets, storm-response PPC campaigns generate the highest volume during events.&quot;
-      }
-    },
-    {
-      &quot;@type&quot;: &quot;Question&quot;,
-      &quot;name&quot;: &quot;How much should a roofing company spend on marketing?&quot;,
-      &quot;acceptedAnswer&quot;: {
-        &quot;@type&quot;: &quot;Answer&quot;,
-        &quot;text&quot;: &quot;Most successful roofing companies spend 5–10% of revenue on marketing. New companies should spend 10–15% to build awareness. Established companies with strong organic presence can spend 4–7%.&quot;
-      }
-    },
-    {
-      &quot;@type&quot;: &quot;Question&quot;,
-      &quot;name&quot;: &quot;What is a good cost per lead for roofing?&quot;,
-      &quot;acceptedAnswer&quot;: {
-        &quot;@type&quot;: &quot;Answer&quot;,
-        &quot;text&quot;: &quot;Google Search Ads average $80–$350 per lead. Google Local Services Ads range $25–$150. SEO leads cost $10–$50 amortized. The best CPL depends on your close rate and average job value.&quot;
-      }
-    }
-  ]
-}
-</code></pre>
-</div>
-<h2>Featured Snippet Opportunities</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Query Type</th>
-<th>Target Section</th>
-<th>Optimization</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Paragraph</td>
-<td>Strategy 1 intro</td>
-<td>40–60 word direct answer: "Google Business Profile optimization is the highest-ROI marketing tactic for roofers because 46% of searches have local intent and the Map Pack captures 60–70% of clicks."</td>
-</tr>
-<tr>
-<td>List</td>
-<td>Strategy 12</td>
-<td>Numbered list of 5 storm-response PPC steps for list snippet</td>
-</tr>
-<tr>
-<td>Table</td>
-<td>Lead cost comparison</td>
-<td>Comparison table of CPL by channel for table snippet</td>
-</tr>
-<tr>
-<td>Paragraph</td>
-<td>FAQ: best marketing strategy</td>
-<td>Direct answer in 40–60 words</td>
-</tr>
-<tr>
-<td>List</td>
-<td>Strategy 7</td>
-<td>Numbered review generation steps for list snippet</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>AI Overview Optimization Notes</h2>
-<ul>
-<li><strong>Definition blocks:</strong> Every strategy opens with a 1–2 sentence definition ("Strategy X is...")</li>
-<li><strong>Bullet summaries:</strong> Each strategy includes a summary table with Best Season, Expected Lead Volume, and Cost</li>
-<li><strong>Step-by-step instructions:</strong> Implementation sections use numbered lists where applicable</li>
-<li><strong>Comparison tables:</strong> Channel CPL comparison and seasonal strategy overview tables</li>
-<li><strong>FAQ schema:</strong> 12 questions with concise 60–100 word answers</li>
-<li><strong>Key takeaways:</strong> Conclusion includes bullet summary of main points</li>
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026): 15 Lead Generation Strategies</a></li>
+<li><a href="/blog/roofing-lead-generation-storm-season">Roofing Lead Generation Strategies for Storm Season and Beyond</a></li>
+<li><a href="/blog/local-seo-checklist">The Complete Local SEO Checklist for Home Service Businesses</a></li>
+<li><a href="/blog/best-roofing-website-examples">Top 50 Roofing Company Websites: Best Design, UX & Conversion Examples</a></li>
 </ul>
-<h2>GEO Optimization Notes</h2>
-<ul>
-<li><strong>Entity-rich writing:</strong> Named companies (Kodescape, 12 Stones Roofing, Cathedral Roofing), tools (JobNimbus, AccuLynx, Hail Trace), and organizations (GAF, Owens Corning, BBB)</li>
-<li><strong>Fact-based content:</strong> 40+ statistics with source attribution</li>
-<li><strong>Structured answers:</strong> Every major section answers What, Why, How, When, Who</li>
-<li><strong>Citations:</strong> External source suggestions for verifiable claims</li>
-<li><strong>Clear definitions:</strong> Key terms defined on first use (CPL, ACV, RCV, GBP)</li>
-<li><strong>Framework naming:</strong> Seasonal organization creates a memorable, citable structure</li>
-</ul>
-<h2>Visual Asset Recommendations</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Placement</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Introduction</td>
-<td>Infographic</td>
-<td>Seasonal marketing calendar showing which strategies activate each month</td>
-</tr>
-<tr>
-<td>Strategy 1</td>
-<td>Screenshot</td>
-<td>Google Business Profile optimization checklist for roofers</td>
-</tr>
-<tr>
-<td>Strategy 3</td>
-<td>Diagram</td>
-<td>Storm damage landing page wireframe with CTA placement</td>
-</tr>
-<tr>
-<td>Strategy 5</td>
-<td>Flowchart</td>
-<td>Referral program workflow from job completion to reward delivery</td>
-</tr>
-<tr>
-<td>Strategy 7</td>
-<td>Chart</td>
-<td>Review volume growth before/after automation implementation</td>
-</tr>
-<tr>
-<td>Strategy 12</td>
-<td>Timeline</td>
-<td>Storm-response activation timeline: 0–2 hours, 2–24 hours, 24–72 hours</td>
-</tr>
-<tr>
-<td>Strategy 15</td>
-<td>Graphic</td>
-<td>Fall campaign creative examples: ad copy, email subject lines</td>
-</tr>
-<tr>
-<td>FAQ Section</td>
-<td>Table</td>
-<td>Lead source comparison: CPL, close rate, job value by channel</td>
-</tr>
-<tr>
-<td>Conclusion</td>
-<td>Checklist</td>
-<td>30-60-90 day action plan checklist</td>
-</tr>
-</tbody>
-</table>
+<div class="cta-box">
+<h3>Need a Website That Actually Converts Roofing Leads?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
 </div>
-<h2>Quality Control Sign-Off</h2>
-<ul class="checklist">
-<li>[x] Search intent matched precisely (informational/commercial, MOFU)</li>
-<li>[x] Better than top 10 competitors on every dimension (seasonal organization, cost data, lead volume, examples)</li>
-<li>[x] Content gaps from research filled (insurance angle, commercial strategies, winter tactics)</li>
-<li>[x] Every H2 is 300+ words of substance</li>
-<li>[x] Word count meets target (6,500+ words)</li>
-<li>[x] No fluff, filler, or generic content</li>
-<li>[x] No repetition of information</li>
-<li>[x] Strong, sticky introduction (under 100 words)</li>
-<li>[x] Strong, action-oriented conclusion</li>
-<li>[x] Rich examples throughout (21 roofing company examples)</li>
-<li>[x] Expert insights included (industry data, benchmarks)</li>
-<li>[x] Complete FAQ section (12 questions)</li>
-<li>[x] Zero AI patterns (no "delve," "crucial," "landscape")</li>
-<li>[x] Zero generic intros</li>
-<li>[x] Short paragraphs (2–4 sentences max)</li>
-<li>[x] Active voice dominates</li>
-<li>[x] Specific over vague</li>
-<li>[x] Expert opinions cited with sources</li>
-<li>[x] Statistics with sources</li>
-<li>[x] Real-world examples</li>
-<li>[x] Both pros and cons presented</li>
-<li>[x] Keyword in H1, intro, 2+ H2s, conclusion</li>
-<li>[x] Semantic keywords included</li>
-<li>[x] Proper heading hierarchy</li>
-<li>[x] Short answer blocks in major sections</li>
-<li>[x] Direct definitions</li>
-<li>[x] Step-by-step instructions</li>
-<li>[x] Comparison tables</li>
-<li>[x] FAQ format</li>
-<li>[x] Clear definitions for key terms</li>
-<li>[x] Entity-rich writing</li>
-<li>[x] Fact-based content</li>
-<li>[x] Structured answers</li>
-<li>[x] Citations and sources</li>
-<li>[x] 10 title options generated</li>
-<li>[x] Meta title optimized (50–60 chars)</li>
-<li>[x] Meta description optimized (140–160 chars)</li>
-<li>[x] URL slug optimized</li>
-<li>[x] CTA matches funnel stage (MOFU: download + audit)</li>
-<li>[x] Content is publication-ready</li>
-</ul>`;
+`;
 ---
 
 <BlogPostLayout
@@ -769,4 +468,5 @@ const contentHtml = `<p class="lead">Most roofing companies treat marketing like
   readTime='35 min read'
   tags={['Growth Strategy']}
   contentHtml={contentHtml}
+  schema={schema}
 />

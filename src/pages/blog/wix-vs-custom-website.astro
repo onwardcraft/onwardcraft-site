@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'Wix vs Custom Website: Which Is Right for Your Business?';
 const description = 'The honest truth about website builders vs custom development. When Wix is enough, when it is not, and how to make the right choice.';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Wix vs Custom Website: Which Is Right for Your Business?",
+    "description": "The honest truth about website builders vs custom development. When Wix is enough, when it is not, and how to make the right choice.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/wix-vs-custom-website"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = 'The honest truth about website builders vs custom developme
   date='May 2026'
   readTime='6 min read'
   tags={['Web Design', 'Wix', 'Small Business']}
+  schema={schema}
 >
 <p class="lead">You have a business to run. You need a website. And now you are stuck in the endless debate: Wix or custom? Here is the answer no one else will give you.</p>
 
@@ -65,4 +93,19 @@ const description = 'The honest truth about website builders vs custom developme
           <p>Book a free call and we will help you figure out what makes sense for your stage and budget. No upsell, just honest advice.</p>
           <a href="https://calendly.com/getonwardcraft/30min" class="cta-button">Get Free Advice</a>
         </div>
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

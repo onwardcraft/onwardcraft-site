@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = "How Website Speed Affects Contractor Lead Generation [Data Study]";
 const description = "We analyzed 100 contractor websites to find how speed affects lead generation. Includes Core Web Vitals data, mobile performance, and actionable fixes.";
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How Website Speed Affects Contractor Lead Generation [Data Study]",
+    "description": "We analyzed 100 contractor websites to find how speed affects lead generation. Includes Core Web Vitals data, mobile performance, and actionable fixes.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/website-speed-lead-generation-study"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = "We analyzed 100 contractor websites to find how speed affec
   date='June 2026'
   readTime='18 min read'
   tags={['SEO', 'Website Speed', 'Lead Generation', 'Core Web Vitals']}
+  schema={schema}
 >
 <p class="lead">You run a plumbing, HVAC, roofing, or electrical business. Your website loads in 4.2 seconds on mobile. A homeowner searches "emergency plumber near me" at 11 PM, clicks your link, and stares at a blank screen while water floods their basement. They hit back. They call your competitor. This scenario plays out thousands of times daily across the home services industry. We analyzed 100 contractor websites, measured their Core Web Vitals, and cross-referenced their lead generation performance. The data reveals a direct, measurable relationship between website speed and the number of qualified leads a contractor receives. In this study, you will discover exactly how many leads you are losing to slow load times, what speed benchmarks you need to hit, and the specific technical fixes that produced measurable results for real contractors.</p>
 
@@ -168,7 +196,7 @@ const description = "We analyzed 100 contractor websites to find how speed affec
 <ul>
 <li><strong>Market population:</strong> We normalized lead volume by the population of the contractor's service area.</li>
 <li><strong>Google Ads spend:</strong> We asked contractors to report monthly ad spend and segmented analysis by spend level.</li>
-<li><strong>Review count:</strong> Google Business Profile review counts were recorded as a proxy for brand trust and local SEO strength.</li>
+<li><strong>Review count:</strong> <a href="/services/gbp-optimization">Google Business Profile</a> review counts were recorded as a proxy for brand trust and <a href="/services/local-seo">local SEO</a> strength.</li>
 <li><strong>Years in business:</strong> Older companies may generate more leads through reputation alone, independent of website speed.</li>
 </ul>
 
@@ -254,7 +282,7 @@ const description = "We analyzed 100 contractor websites to find how speed affec
 <li><strong>Premium/VPS hosting:</strong> Average TTFB of 0.3 seconds, average Lighthouse score of 84</li>
 </ul>
 
-<p>Time to First Byte measures how quickly the server responds to a request. A slow TTFB means the user is waiting before any content even begins to load. Contractors on budget hosting were losing up to 1.1 seconds before their website content started rendering. This is a server infrastructure problem, not a website design problem, and it is solvable by changing hosting providers.</p>
+<p>Time to First Byte measures how quickly the server responds to a request. A slow TTFB means the user is waiting before any content even begins to load. Contractors on budget hosting were losing up to 1.1 seconds before their website content started rendering. This is a server infrastructure problem, not a <a href="/services/website-design">website design</a> problem, and it is solvable by changing hosting providers.</p>
 
 <h3>Finding 6: Platform Choice Matters Less Than Implementation</h3>
 
@@ -689,4 +717,19 @@ const description = "We analyzed 100 contractor websites to find how speed affec
 <a class="cta-button" href="/services/website-design">Get Your Free Speed Audit</a>
 </div>
 
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

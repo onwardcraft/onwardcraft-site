@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'What Does an SEO Agency Actually Do? A Complete Breakdown';
 const description = 'Most business owners have no idea what an SEO agency actually does. Here is the complete breakdown of every service, deliverable, and result you should expect.';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "What Does an SEO Agency Actually Do? A Complete Breakdown",
+    "description": "Most business owners have no idea what an SEO agency actually does. Here is the complete breakdown of every service, deliverable, and result you should expect.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/what-does-an-seo-agency-actually-do"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = 'Most business owners have no idea what an SEO agency actual
   date='May 2026'
   readTime='12 min read'
   tags={['SEO', 'Agency Services', 'Small Business']}
+  schema={schema}
 >
 <p class="lead">You have heard that SEO agencies can get you to page one of Google. But what does that actually look like? What do they do every month? And how do you know if you are getting your money's worth? This guide breaks down every core service a professional SEO agency delivers — no fluff, no jargon, just the facts.</p>
 
@@ -82,14 +110,14 @@ const description = 'Most business owners have no idea what an SEO agency actual
         <p>Link building is the hardest part of SEO and the easiest to get wrong. Agencies that promise hundreds of links in a month are usually using black-hat tactics that will get you penalized. Quality link building is slow, manual, and relationship-driven.</p>
 
         <h2>6. Local SEO: Owning Your Backyard</h2>
-        <p>For service-area businesses, local SEO is where the money is. When someone searches "emergency plumber near me" or "best dentist in [city]," Google shows the local pack — the map with three business listings. Ranking in that pack drives phone calls, direction requests, and website visits.</p>
+        <p>For service-area businesses, <a href="/services/local-seo">local SEO</a> is where the money is. When someone searches "emergency plumber near me" or "best dentist in [city]," Google shows the local pack — the map with three business listings. Ranking in that pack drives phone calls, direction requests, and website visits.</p>
         <p>Local SEO services from an agency include:</p>
         <ul>
-          <li><strong>Google Business Profile optimization:</strong> Claiming, verifying, and fully optimizing your profile with accurate categories, descriptions, photos, services, and attributes.</li>
+          <li><strong><a href="/services/gbp-optimization">Google Business Profile</a> optimization:</strong> Claiming, verifying, and fully optimizing your profile with accurate categories, descriptions, photos, services, and attributes.</li>
           <li><strong>Review strategy:</strong> Building a system to request reviews from satisfied customers, respond to every review, and maintain a high average rating.</li>
           <li><strong>Citation building and cleanup:</strong> Ensuring your Name, Address, and Phone number (NAP) are consistent across every directory, listing, and platform.</li>
           <li><strong>Local landing pages:</strong> Creating dedicated pages for each city or neighborhood you serve, with unique content that targets local keywords.</li>
-          <li><strong>Local schema markup:</strong> Adding LocalBusiness structured data to help Google understand your service area, hours, and services.</li>
+          <li><strong>Local <a href="/services/schema-markup">schema markup</a>:</strong> Adding LocalBusiness structured data to help Google understand your service area, hours, and services.</li>
           <li><strong>Competitor tracking in the local pack:</strong> Monitoring who ranks in the map results for your target keywords and analyzing why they are winning.</li>
         </ul>
         <p>Local SEO is often faster to show results than national SEO. A well-optimized Google Business Profile and a handful of quality local citations can move the needle in 60 to 90 days.</p>
@@ -159,4 +187,19 @@ const description = 'Most business owners have no idea what an SEO agency actual
         <p>For most small and mid-sized businesses, an agency is more cost-effective. A single in-house SEO specialist costs $60,000–$100,000 per year plus benefits and tools. An agency gives you access to a full team of specialists for a fraction of that cost. As you scale, a hybrid model — in-house leadership plus agency execution — often works best.</p>
 
         <p class="conclusion">A professional SEO agency is a strategic partner, not a vendor. They audit your site, research your market, optimize your pages, create content that ranks, build links that matter, and report on results that impact your bottom line. The best agencies tie every action to revenue, communicate transparently, and adapt as search evolves. If you are ready to turn organic search into a predictable lead source, <a href="/services/seo">explore our SEO services</a> or <a href="https://calendly.com/getonwardcraft/30min">book a call</a> and we will show you exactly what your business needs to win.</p>
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

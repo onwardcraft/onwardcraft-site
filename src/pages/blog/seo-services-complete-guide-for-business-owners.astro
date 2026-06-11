@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'SEO Services: The Complete Guide for Business Owners in 2026';
 const description = 'A no-fluff guide to SEO services in 2026. Learn what SEO companies actually do, what services you need, and how to choose the right provider for your business.';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "SEO Services: The Complete Guide for Business Owners in 2026",
+    "description": "A no-fluff guide to SEO services in 2026. Learn what SEO companies actually do, what services you need, and how to choose the right provider for your business.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/seo-services-complete-guide-for-business-owners"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = 'A no-fluff guide to SEO services in 2026. Learn what SEO co
   date='May 2026'
   readTime='15 min read'
   tags={['SEO', 'SEO Services', 'Small Business', 'Digital Marketing']}
+  schema={schema}
 >
 <p class="lead">Search engine optimization is not a single task. It is a collection of disciplines — technical, creative, analytical, and strategic — that work together to move your website up in Google search results. If you are a business owner evaluating SEO services for the first time, the landscape can feel overwhelming. This guide breaks down exactly what SEO services include, what you should expect to pay, and how to tell a legitimate provider from a scam.</p>
 
@@ -21,7 +49,7 @@ const description = 'A no-fluff guide to SEO services in 2026. Learn what SEO co
         <p>From there, the agency moves into keyword research. This is not about finding words with high search volume. It is about finding the search terms your actual customers use when they are ready to buy. A good agency analyzes search intent — informational, commercial, or transactional — and maps keywords to specific pages on your site.</p>
         <p>On-page optimization comes next. This includes rewriting title tags and meta descriptions, improving heading structure, optimizing images with alt text, strengthening internal linking, and ensuring each page has clear, useful content that satisfies the search query. Technical SEO runs in parallel: fixing site speed issues, resolving crawl errors, implementing HTTPS security, optimizing for mobile, and submitting XML sitemaps.</p>
         <p>Content creation is where many campaigns differentiate themselves. SEO-focused content includes blog posts, service pages, landing pages, and resource guides — all built around keywords that drive qualified traffic. The best agencies do not just write content. They build topical authority by creating clusters of related content that signal expertise to Google.</p>
-        <p>Off-page SEO, primarily link building, remains a critical ranking factor. Agencies earn backlinks through guest posts, digital PR, partnerships, and local citations. For local businesses, this also includes Google Business Profile optimization, review management, and directory submissions.</p>
+        <p>Off-page SEO, primarily link building, remains a critical ranking factor. Agencies earn backlinks through guest posts, digital PR, partnerships, and local citations. For local businesses, this also includes <a href="/services/gbp-optimization">Google Business Profile</a> optimization, review management, and directory submissions.</p>
         <p>Finally, reporting and analytics tie everything together. A professional SEO company tracks rankings, organic traffic, conversions, and return on investment. You should never be left wondering whether your money is working.</p>
 
         <h2>The Six Core Types of SEO Services</h2>
@@ -29,7 +57,7 @@ const description = 'A no-fluff guide to SEO services in 2026. Learn what SEO co
 
         <h3>1. On-Page SEO</h3>
         <p>On-page SEO covers every element on your website that you can directly control. This includes title tags, meta descriptions, header tags (H1 through H6), image alt text, internal links, URL structure, and the actual content on each page. In 2026, on-page SEO has shifted from keyword density to intent satisfaction. Google does not count how many times you use a keyword. It measures whether the page answers the user's question completely.</p>
-        <p>Key on-page tasks include optimizing title tags to stay within 60 characters while including the primary keyword naturally, writing meta descriptions that earn clicks from search results, using a logical heading hierarchy that helps users and search engines scan the page, and adding schema markup to qualify for rich snippets like star ratings, FAQs, and how-to panels.</p>
+        <p>Key on-page tasks include optimizing title tags to stay within 60 characters while including the primary keyword naturally, writing meta descriptions that earn clicks from search results, using a logical heading hierarchy that helps users and search engines scan the page, and adding <a href="/services/schema-markup">schema markup</a> to qualify for rich snippets like star ratings, FAQs, and how-to panels.</p>
 
         <h3>2. Off-Page SEO</h3>
         <p>Off-page SEO covers everything that happens outside your website but affects your rankings. The dominant factor is backlinks — links from other websites pointing to yours. Google treats backlinks as votes of confidence. The more high-quality, relevant sites that link to you, the more authoritative your site appears.</p>
@@ -40,7 +68,7 @@ const description = 'A no-fluff guide to SEO services in 2026. Learn what SEO co
         <p>Core technical tasks include optimizing Core Web Vitals — Largest Contentful Paint, Interaction to Next Paint, and Cumulative Layout Shift — to meet Google's performance thresholds, fixing broken links and redirect chains that waste crawl budget, implementing proper canonical tags to prevent duplicate content issues, ensuring mobile-friendliness across all devices, creating and submitting XML sitemaps, managing robots.txt to guide crawler behavior, and implementing structured data markup for enhanced search results.</p>
 
         <h3>4. Local SEO</h3>
-        <p>Local SEO is a specialized subset focused on businesses that serve a specific geographic area. If you are a plumber, dentist, contractor, or med spa, local SEO is often more valuable than national rankings. <a href="/blog/seo-for-local-businesses">Read our complete local SEO guide for the step-by-step playbook.</a></p>
+        <p>Local SEO is a specialized subset focused on businesses that serve a specific geographic area. If you are a plumber, dentist, contractor, or med spa, <a href="/services/local-seo">local SEO</a> is often more valuable than national rankings. <a href="/blog/seo-for-local-businesses">Read our complete local SEO guide for the step-by-step playbook.</a></p>
         <p>Local SEO services include Google Business Profile optimization with complete fields, regular posts, and photo updates, local keyword targeting that includes city and neighborhood names, citation building across directories like Yelp, Bing Places, Apple Maps, and industry-specific sites, review generation and reputation management, and location page creation for each area you serve.</p>
 
         <h3>5. Content SEO</h3>
@@ -160,4 +188,19 @@ const description = 'A no-fluff guide to SEO services in 2026. Learn what SEO co
         <p>Look for transparent reporting, customized strategies, realistic timelines, and a track record in your industry. Avoid guarantees, instant results claims, and one-size-fits-all packages. Ask for case studies and references. <a href="/services/seo">See how our SEO services work.</a></p>
 
         <p class="conclusion">SEO services are not a mystery. They are a system of interconnected disciplines that, when executed consistently, produce compounding returns. The businesses that win in search are not the ones that found a secret tactic. They are the ones that invested in the fundamentals — technical health, quality content, authoritative backlinks, and local presence — and stuck with it long enough for the results to materialize. If you are ready to stop guessing and start growing, the next step is a clear strategy built for your specific business.</p>
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

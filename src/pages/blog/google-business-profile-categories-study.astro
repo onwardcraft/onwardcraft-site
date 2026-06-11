@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = "Google Business Profile Categories Study: What Actually Impacts Rankings";
 const description = "Analyzed Google Business Profiles to find which categories and attributes impact rankings. Includes trade-specific recommendations.";
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Google Business Profile Categories Study: What Actually Impacts Rankings",
+    "description": "Analyzed Google Business Profiles to find which categories and attributes impact rankings. Includes trade-specific recommendations.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/google-business-profile-categories-study"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = "Analyzed Google Business Profiles to find which categories 
   date='June 2026'
   readTime='20 min read'
   tags={['SEO', 'Google Business Profile', 'Local SEO', 'Data Study']}
+  schema={schema}
 >
 <p class="lead">Your Google Business Profile category is the single most powerful ranking signal you control. In our analysis of 3,269 local business profiles across 12 trades, we found that choosing the right primary category accounts for 21% of your local pack ranking weight. Get it wrong, and you are invisible to the exact customers searching for you right now. This study breaks down what the data actually says about GBP categories, attributes, and the specific strategies that moved real contractors from position 8 to position 1 in under 90 days.</p>
 
@@ -19,7 +47,7 @@ const description = "Analyzed Google Business Profiles to find which categories 
 
 <p>We analyzed Google Business Profiles across 12 home service trades using machine learning regression on ranking position, category selection, attribute completion, review velocity, and proximity data. The results overturn several common assumptions about how GBP categories work.</p>
 
-<p><strong>Primary categories are the #1 controllable ranking factor.</strong> The 2026 Whitespark Local Search Ranking Factors study, which surveyed 47 top local SEO experts, scored the primary GBP category at 193 points, making it the single highest-impact element you can change today. Our independent analysis of 3,269 businesses using XGBoost regression confirmed this: industry type (categories) accounts for 21% of ranking influence, second only to proximity at 48%.</p>
+<p><strong>Primary categories are the #1 controllable ranking factor.</strong> The 2026 Whitespark Local Search Ranking Factors study, which surveyed 47 top <a href="/services/local-seo">local SEO</a> experts, scored the primary GBP category at 193 points, making it the single highest-impact element you can change today. Our independent analysis of 3,269 businesses using XGBoost regression confirmed this: industry type (categories) accounts for 21% of ranking influence, second only to proximity at 48%.</p>
 
 <p><strong>Category dilution is largely a myth.</strong> A 2025 study tested whether adding multiple secondary categories weakens your primary category signal. The data was clear: adding relevant secondary categories did not hurt existing rankings. In fact, new categories brought significantly more visibility. The only time categories cause problems is when they are irrelevant to your actual business.</p>
 
@@ -458,4 +486,19 @@ const description = "Analyzed Google Business Profiles to find which categories 
 <a class="cta-button" href="/contact">Optimize Your GBP Categories: Free Audit</a>
 </div>
 
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

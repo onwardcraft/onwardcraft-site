@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'DIY SEO vs Hiring an Agency: Pros and Cons for Business Owners';
 const description = 'Should you do your own SEO or hire an agency? This guide breaks down the real costs, time investment, risks, and ROI of each approach so you can make the right decision for your business.';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "DIY SEO vs Hiring an Agency: Pros and Cons for Business Owners",
+    "description": "Should you do your own SEO or hire an agency? This guide breaks down the real costs, time investment, risks, and ROI of each approach so you can make the right decision for your business.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/diy-seo-vs-hiring-an-agency-pros-and-cons"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,13 +39,14 @@ const description = 'Should you do your own SEO or hire an agency? This guide br
   date='May 2026'
   readTime='14 min read'
   tags={['SEO', 'Small Business', 'Strategy']}
+  schema={schema}
 >
 <p class="lead">Every business owner faces the same question at some point: should I handle SEO myself, or should I pay someone else to do it? The answer is not simple. It depends on your budget, your time, your technical ability, and how fast you need results. This guide gives you the honest breakdown so you can decide with confidence.</p>
 
         <h2>What DIY SEO Actually Looks Like in 2026</h2>
         <p>Doing your own SEO is not just about installing a plugin and writing a few blog posts. In 2026, search engine optimization spans technical site health, content strategy, link building, local optimization, and performance monitoring. Google now runs 500 to 600 algorithm updates every year. Search results are increasingly influenced by AI-generated snapshots, voice search, and generative engine optimization. The landscape is more complex than ever.</p>
 
-        <p>When you choose the DIY route, you are responsible for every piece of the puzzle. That includes keyword research, on-page optimization, technical audits, content creation, backlink outreach, local SEO, and analytics tracking. Each of these areas requires specialized knowledge, and mistakes in any one of them can hurt your rankings or trigger a penalty.</p>
+        <p>When you choose the DIY route, you are responsible for every piece of the puzzle. That includes keyword research, on-page optimization, technical audits, content creation, backlink outreach, <a href="/services/local-seo">local SEO</a>, and analytics tracking. Each of these areas requires specialized knowledge, and mistakes in any one of them can hurt your rankings or trigger a penalty.</p>
 
         <p>The appeal of DIY SEO is obvious: no monthly retainer, no contracts, and full control over your strategy. For brand-new businesses with zero marketing budget, this is often the only viable path. And for some business owners, the learning process itself is valuable. Understanding how search works makes you a better marketer overall.</p>
 
@@ -46,7 +74,7 @@ const description = 'Should you do your own SEO or hire an agency? This guide br
         <p>The total monthly cost for a competent DIY tool stack ranges from $200 to $500. That is $2,400 to $6,000 per year before you have written a single word of content or earned a single backlink. Many business owners do not factor this into their decision.</p>
 
         <h3>The Risk of Getting It Wrong</h3>
-        <p>SEO mistakes can be expensive to fix. A misconfigured robots.txt file can de-index your entire site. Incorrect schema markup can confuse search engines. Aggressive link building can trigger a manual penalty. Thin or duplicate content can tank your rankings for months.</p>
+        <p>SEO mistakes can be expensive to fix. A misconfigured robots.txt file can de-index your entire site. Incorrect <a href="/services/schema-markup">schema markup</a> can confuse search engines. Aggressive link building can trigger a manual penalty. Thin or duplicate content can tank your rankings for months.</p>
 
         <p>One critical error can erase months of progress and require a full recovery effort. In competitive industries, a single mistake can cost you tens of thousands of dollars in lost visibility and leads. The risk is real, and it is higher for beginners who do not yet understand the nuances of search engine guidelines.</p>
 
@@ -138,7 +166,7 @@ const description = 'Should you do your own SEO or hire an agency? This guide br
         <h2>When DIY SEO Makes Sense</h2>
         <p>Despite the drawbacks, there are situations where doing your own SEO is the right call. If you fall into one of these categories, the DIY path can work well.</p>
 
-        <p><strong>You are pre-revenue or have a very tight budget.</strong> If every dollar matters and you cannot justify a monthly retainer, DIY SEO is your only option. Start with the fundamentals: claim your Google Business Profile, optimize your website for local keywords, and create helpful content. You will not dominate page one, but you can establish a baseline presence.</p>
+        <p><strong>You are pre-revenue or have a very tight budget.</strong> If every dollar matters and you cannot justify a monthly retainer, DIY SEO is your only option. Start with the fundamentals: claim your <a href="/services/gbp-optimization">Google Business Profile</a>, optimize your website for local keywords, and create helpful content. You will not dominate page one, but you can establish a baseline presence.</p>
 
         <p><strong>You operate in a non-competitive local niche.</strong> If you are the only plumber in a small town or the only med spa in a 20-mile radius, you do not need advanced SEO to rank. Basic optimization and consistent effort will get you to page one without professional help.</p>
 
@@ -229,4 +257,19 @@ const description = 'Should you do your own SEO or hire an agency? This guide br
         <p>Yes, and many businesses do exactly that. The transition is smoother if you have kept good records of what you have done — keyword targets, content published, backlinks earned, and technical changes made. An agency will audit your current state and build on whatever foundation you have established. The worst-case scenario is starting from scratch because previous work was done poorly or not documented.</p>
 
         <p class="conclusion">The choice between DIY SEO and hiring an agency comes down to three variables: your budget, your time, and your growth goals. If you have more time than money and you enjoy the work, DIY is a viable path. If your time is better spent running your business and you need results quickly, an agency is the smarter investment. The hybrid approach offers a practical middle ground. Whichever path you choose, commit to it. SEO rewards consistency, patience, and strategic execution. If you are ready to stop guessing and start growing, <a href="https://calendly.com/getonwardcraft/30min">let us talk</a>.</p>
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

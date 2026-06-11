@@ -3,6 +3,47 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'Solar Marketing Guide: How to Cut Customer Acquisition Costs by 40% (2026)';
 const description = 'Learn how to market your solar company and reduce customer acquisition costs by 40%. Includes SEO, state incentives, financing promotions, lead nurturing,...';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Solar Marketing Guide: How to Cut Customer Acquisition Costs by 40% (2026)",
+    "description": "Learn how to market your solar company and reduce customer acquisition costs by 40%. Includes SEO, state incentives, financing promotions, lead nurturing, and a 90-day action plan.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2026-06-09",
+    "dateModified": "2026-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/solar-marketing-guide"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the average customer acquisition cost for solar companies?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In 2025, the average residential solar CAC was approximately $0.60 per watt, or roughly $3,000-$4,200 for a typical 7-kW system. However, this varies dramatically by channel. Companies relying on door-to-door sales often see CAC of $5,000-$8,000+, while those with strong referral channels achieve CAC under $1,500."
+        }
+      }
+    ]
+  }
+];
 const contentHtml = `<p class="lead">Most solar companies are bleeding money on customer acquisition — and they do not even realize how badly. In 2024, residential solar customer acquisition costs (CAC) hit $0.87 per watt, meaning a typical 7-kilowatt system cost roughly $6,100 just to acquire the customer. For the first time in industry history, it cost more to find a buyer than to manufacture the panels themselves. That is not a marketing problem. That is an existential threat.</p>
 <p>The companies surviving this squeeze are not spending more. They are spending smarter. This guide shows you exactly how.</p>
 <p>You will learn why shared leads from SolarReviews and EnergySage destroy your margins, how local SEO can drive qualified leads for under $200 each, why state-specific content outperforms generic "save money with solar" pages, and how a systematic referral program can cut your effective CAC in half. Every strategy includes 2025-2026 data, real examples from solar installers, and step-by-step implementation instructions.</p>
@@ -308,7 +349,7 @@ Google's Vision AI now evaluates photos for authenticity. Stock images hurt rank
 - Geo-tag every photo with the installation location</p>
 <p><strong>Review Generation:</strong><br />
 Solar companies need 100+ reviews with 4.5+ stars to dominate Map Pack rankings. The review request should go out immediately after Permission to Operate (PTO) — when the homeowner is most excited. Coach customers to mention specific details: product type, location, savings outcome, and installation experience. Google's AI reads sentiment and detail, not just star ratings.</p>
-<p>Source: SurgePV Solar SEO Strategy (2026); Solar Ladder Local SEO Guide</p>
+<p>Source: SurgePV <a href="https://aurorasolar.com/blog/seo-guide-for-modern-solar-businesses/" target="_blank" rel="noopener noreferrer">Solar SEO Strategy</a> (2026); Solar Ladder Local SEO Guide</p>
 <h3>Location Page Architecture</h3>
 <p>Create unique landing pages for every city and major suburb you serve. Each page must have genuinely unique content — not a city name swap.</p>
 <p><strong>Required elements per location page:</strong><br />
@@ -386,7 +427,7 @@ Solar companies need 100+ reviews with 4.5+ stars to dominate Map Pack rankings.
 <h2>Chapter 5: Paid Advertising for Solar — Google Ads, Facebook, and Local Service Ads</h2>
 <h3>Google Ads for Solar: The High-Intent Channel</h3>
 <p>Google Search Ads capture buyers at the moment of intent. When someone searches "solar installers near me" or "solar panel installation cost," they are actively considering a purchase. This makes Google Ads the highest-intent paid channel — and the most expensive.</p>
-<p><strong>2025 Solar Google Ads CPC Benchmarks:</strong></p>
+<p><strong>2025 Solar <a href="https://quimbydigital.com/what-businesses-really-pay-cpc-monthly-budgets-roi/" target="_blank" rel="noopener noreferrer">Google Ads CPC Benchmarks</a>:</strong></p>
 <div class="cost-table">
 <table>
 <thead>
@@ -604,7 +645,7 @@ Solar companies need 100+ reviews with 4.5+ stars to dominate Map Pack rankings.
 - By property type: single-family vs. condo vs. commercial<br />
 - By financing interest: cash buyer vs. loan vs. lease curious<br />
 - By engagement: hot leads (opened emails, visited pricing) vs. cold leads</p>
-<p>Source: QuickEst Solar Lead Nurturing Case Studies; Times.Solar Email Automation Guide</p>
+<p>Source: QuickEst <a href="https://quickestimate.co/lead-nurturing-for-solar/" target="_blank" rel="noopener noreferrer">Solar Lead Nurturing Case Studies</a>; Times.Solar Email Automation Guide</p>
 <h3>CRM Automation for Solar</h3>
 <p>Your CRM should automate the entire nurture process. Key automation triggers:</p>
 <ul>
@@ -758,7 +799,7 @@ The best moments to request referrals:<br />
 - Pay $500-$1,000 per referred installation<br />
 - Present monthly at broker offices (5-10x more effective than MLS alone)<br />
 - Create joint content: "How Solar Affects Your Home Value in [City]"</p>
-<p>Source: Stratik Group Real Estate-Solar Partnership Research; NREL Home Value Study</p>
+<p>Source: Stratik Group Real Estate-Solar Partnership Research; <a href="https://www.nrel.gov/solar/solar-home-value.html" target="_blank" rel="noopener noreferrer">NREL Home Value Study</a></p>
 <h3>Home Builder and Roofer Partnerships</h3>
 <p><strong>Home Builders:</strong><br />
 New construction solar integration is growing rapidly. Partner with builders to pre-install solar or offer it as an upgrade package. Builders benefit from differentiated product offerings. You benefit from volume and lower CAC.</p>
@@ -1181,390 +1222,23 @@ Roof replacement is the perfect trigger for solar conversations. A homeowner rep
 <p>The solar market will grow 7% annually through 2030. The installers who build efficient acquisition systems now will capture that growth profitably. The ones who do not will be buried under their own CAC.</p>
 <p>Which one will you be?</p>
 <hr />
-<h2>Internal Linking Suggestions</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Anchor Text</th>
-<th>Target URL</th>
-<th>Context</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>solar marketing services</td>
-<td>/services/solar-marketing</td>
-<td>Primary CTA in introduction and conclusion</td>
-</tr>
-<tr>
-<td>local SEO for solar companies</td>
-<td>/services/local-seo</td>
-<td>Chapter 3 reference to service offering</td>
-</tr>
-<tr>
-<td>solar website design</td>
-<td>/services/website-design</td>
-<td>Chapter 4 reference to conversion-focused design</td>
-</tr>
-<tr>
-<td>solar PPC management</td>
-<td>/services/ppc</td>
-<td>Chapter 5 reference to paid advertising</td>
-</tr>
-<tr>
-<td>solar lead generation strategies</td>
-<td>/blog/solar-lead-generation</td>
-<td>Chapter 6 expanded tactics</td>
-</tr>
-<tr>
-<td>solar marketing ROI calculator</td>
-<td>/tools/solar-roi-calculator</td>
-<td>Lead magnet CTA after Chapter 9</td>
-</tr>
-<tr>
-<td>Google Business Profile guide</td>
-<td>/blog/google-business-profile-optimization</td>
-<td>Chapter 3 GBP section</td>
-</tr>
-<tr>
-<td>content marketing for home services</td>
-<td>/blog/content-marketing</td>
-<td>Chapter 2 content strategy section</td>
-</tr>
-<tr>
-<td>solar referral program template</td>
-<td>/resources/solar-referral-template</td>
-<td>Chapter 8 referral section</td>
-</tr>
-<tr>
-<td>net metering guide</td>
-<td>/blog/net-metering-explained</td>
-<td>Chapter 2 and FAQ net metering references</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>External Citation Suggestions</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Claim/Statistic</th>
-<th>Source URL</th>
-<th>Suggested Anchor Text</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2025 CAC at $0.60/Wdc, five-year low</td>
-<td>https://www.woodmac.com/news/opinion/us-residential-solar-customer-acquisition-costs-set-to-spike-40-in-2026-before-gradual-decline/</td>
-<td>Wood Mackenzie CAC projections</td>
-</tr>
-<tr>
-<td>SEIA Q2 2025 market data</td>
-<td>https://seia.org/research-resources/solar-market-insight-report-q2-2025/</td>
-<td>SEIA Solar Market Insight Report</td>
-</tr>
-<tr>
-<td>Solar buyer journey research</td>
-<td>https://aurorasolar.com/blog/solar-sales-insights-from-the-theory-of-planned-behavior/</td>
-<td>Aurora Solar Theory of Planned Behavior study</td>
-</tr>
-<tr>
-<td>Solar CAC benchmarks by channel</td>
-<td>https://www.surgepv.com/blog/solar-customer-acquisition-cost</td>
-<td>SurgePV Solar CAC Benchmarks</td>
-</tr>
-<tr>
-<td>Net metering policy changes 2025</td>
-<td>https://energyscaperenewables.com/post/net-metering-policies-2025-guide/</td>
-<td>EnergyScape Net Metering Guide</td>
-</tr>
-<tr>
-<td>Solar lead cost benchmarks</td>
-<td>https://geoquote.ai/blog/solar-lead-generation-2026</td>
-<td>GeoQuote Solar Lead Generation Report</td>
-</tr>
-<tr>
-<td>Solar website conversion best practices</td>
-<td>https://solarexclusive.com/how-to-optimize-your-solar-business-website-for-conversions/</td>
-<td>Solar Exclusive Conversion Guide</td>
-</tr>
-<tr>
-<td>Solar referral program case study</td>
-<td>https://referral-factory.com/learn/solar-referral-program-case-study</td>
-<td>Referral Factory Solar Case Study</td>
-</tr>
-<tr>
-<td>Solar SEO strategy</td>
-<td>https://aurorasolar.com/blog/seo-guide-for-modern-solar-businesses/</td>
-<td>Aurora Solar SEO Guide</td>
-</tr>
-<tr>
-<td>Solar financing strategies</td>
-<td>https://www.sunhub.com/blog/solar-financing-strategies-guide/</td>
-<td>Sunhub Financing Strategies</td>
-</tr>
-<tr>
-<td>Solar partnership marketing</td>
-<td>https://www.surgepv.com/blog/solar-partnerships-roofers-realtors</td>
-<td>SurgePV Partnership Marketing</td>
-</tr>
-<tr>
-<td>Google Ads CPC benchmarks</td>
-<td>https://quimbydigital.com/what-businesses-really-pay-cpc-monthly-budgets-roi/</td>
-<td>Quimby Digital CPC Benchmarks</td>
-</tr>
-<tr>
-<td>Solar local SEO guide</td>
-<td>https://solarladder.com/blog/post/local-seo-solar-lead-generation-guide</td>
-<td>Solar Ladder Local SEO Guide</td>
-</tr>
-<tr>
-<td>NREL home value study</td>
-<td>https://www.nrel.gov/solar/solar-home-value.html</td>
-<td>Lawrence Berkeley National Laboratory</td>
-</tr>
-<tr>
-<td>Solar lead nurturing case studies</td>
-<td>https://quickestimate.co/lead-nurturing-for-solar/</td>
-<td>QuickEst Solar Lead Nurturing</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>Schema Markup Recommendations</h2>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;Article&quot;,
-  &quot;headline&quot;: &quot;Solar Marketing Guide: How to Cut Customer Acquisition Costs by 40% (2026)&quot;,
-  &quot;description&quot;: &quot;Learn how to market your solar company and reduce customer acquisition costs by 40%. Includes SEO, state incentives, financing promotions, lead nurturing, and a 90-day action plan.&quot;,
-  &quot;author&quot;: {
-    &quot;@type&quot;: &quot;Organization&quot;,
-    &quot;name&quot;: &quot;OnwardCraft&quot;
-  },
-  &quot;publisher&quot;: {
-    &quot;@type&quot;: &quot;Organization&quot;,
-    &quot;name&quot;: &quot;OnwardCraft&quot;,
-    &quot;logo&quot;: {
-      &quot;@type&quot;: &quot;ImageObject&quot;,
-      &quot;url&quot;: &quot;https://onwardcraft.com/logo.png&quot;
-    }
-  },
-  &quot;datePublished&quot;: &quot;2026-06-09&quot;,
-  &quot;dateModified&quot;: &quot;2026-06-09&quot;,
-  &quot;mainEntityOfPage&quot;: {
-    &quot;@type&quot;: &quot;WebPage&quot;,
-    &quot;@id&quot;: &quot;https://onwardcraft.com/solar-marketing-guide-reduce-cac&quot;
-  }
-}
-</code></pre>
-</div>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;FAQPage&quot;,
-  &quot;mainEntity&quot;: [
-    {
-      &quot;@type&quot;: &quot;Question&quot;,
-      &quot;name&quot;: &quot;What is the average customer acquisition cost for solar companies?&quot;,
-      &quot;acceptedAnswer&quot;: {
-        &quot;@type&quot;: &quot;Answer&quot;,
-        &quot;text&quot;: &quot;In 2025, the average residential solar CAC was approximately $0.60 per watt, or roughly $3,000-$4,200 for a typical 7-kW system. However, this varies dramatically by channel. Companies relying on door-to-door sales often see CAC of $5,000-$8,000+, while those with strong referral channels achieve CAC under $1,500.&quot;
-      }
-    }
-  ]
-}
-</code></pre>
-</div>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;HowTo&quot;,
-  &quot;name&quot;: &quot;90-Day Solar Marketing Action Plan&quot;,
-  &quot;description&quot;: &quot;A step-by-step plan to reduce solar customer acquisition costs by 40% in 90 days.&quot;,
-  &quot;totalTime&quot;: &quot;P90D&quot;,
-  &quot;step&quot;: [
-    {
-      &quot;@type&quot;: &quot;HowToStep&quot;,
-      &quot;name&quot;: &quot;Calculate True CAC&quot;,
-      &quot;text&quot;: &quot;Calculate true CAC by channel for the last 90 days including all marketing, sales, and overhead costs.&quot;
-    }
-  ]
-}
-</code></pre>
-</div>
-<h2>Featured Snippet Opportunities</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Query Type</th>
-<th>Target Section</th>
-<th>Optimization</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Paragraph</td>
-<td>"What Solar Customer Acquisition Cost Actually Looks Like"</td>
-<td>40-60 word direct answer with $/Wdc numbers</td>
-</tr>
-<tr>
-<td>List</td>
-<td>"The Five Solar Buyer Personas"</td>
-<td>Numbered list with clear labels and percentages</td>
-</tr>
-<tr>
-<td>Table</td>
-<td>"Channel-by-Channel CAC Benchmarks"</td>
-<td>Clean comparison table with 3+ columns</td>
-</tr>
-<tr>
-<td>Paragraph</td>
-<td>"What is net metering"</td>
-<td>Direct definition in 40-60 words</td>
-</tr>
-<tr>
-<td>List</td>
-<td>"90-Day Solar Marketing Action Plan"</td>
-<td>Numbered checklist format</td>
-</tr>
-<tr>
-<td>Table</td>
-<td>"Solar Financing Options"</td>
-<td>Side-by-side comparison table</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>AI Overview Optimization Notes</h2>
-<ul>
-<li><strong>Direct answer blocks:</strong> Every chapter opens with a 40-80 word direct answer to the implicit question</li>
-<li><strong>Definition format:</strong> Key terms (CAC, net metering, PPA, ITC) defined in "[Term] is..." format</li>
-<li><strong>Step-by-step instructions:</strong> Chapter 10 uses numbered weekly checklists</li>
-<li><strong>Comparison tables:</strong> CAC by channel, financing options, buyer personas all in table format</li>
-<li><strong>FAQ schema:</strong> 15 FAQs with concise 60-100 word answers</li>
-<li><strong>Key takeaways:</strong> Every major section ends with a 1-sentence summary</li>
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
 </ul>
-<h2>GEO Optimization Notes</h2>
-<ul>
-<li><strong>ChatGPT:</strong> Clear definitions, structured answers, original frameworks ("The Solar Buyer Journey Phases," "Owned Lead Generation System")</li>
-<li><strong>Gemini:</strong> Entity-rich content with named companies (Tesla, Enphase, EnergySage, SolarReviews), specific dollar amounts, and state names</li>
-<li><strong>Claude:</strong> Balanced perspective with pros/cons for each channel, honest limitations, and source citations</li>
-<li><strong>Perplexity:</strong> Verifiable claims with attributed statistics, clear answer format, and research-backed recommendations</li>
-<li><strong>Copilot:</strong> Step-by-step 90-day plan with actionable checklists and current 2025-2026 data</li>
-</ul>
-<h2>Visual Asset Recommendations</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Placement</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Introduction</td>
-<td>Chart</td>
-<td>Solar CAC trend line 2018-2026 showing the $0.87 peak and projected spike</td>
-</tr>
-<tr>
-<td>Chapter 1</td>
-<td>Infographic</td>
-<td>Solar buyer journey map: Awareness -&gt; Evaluation -&gt; Decision with timeline</td>
-</tr>
-<tr>
-<td>Chapter 1</td>
-<td>Chart</td>
-<td>CAC comparison by channel: bar chart showing $500 referral vs. $3,000+ telemarketing</td>
-</tr>
-<tr>
-<td>Chapter 2</td>
-<td>Map</td>
-<td>State-by-state net metering status: green (full), yellow (reduced), red (none)</td>
-</tr>
-<tr>
-<td>Chapter 3</td>
-<td>Screenshot</td>
-<td>Google Business Profile optimization checklist for solar installers</td>
-</tr>
-<tr>
-<td>Chapter 4</td>
-<td>Diagram</td>
-<td>High-converting solar website anatomy: above-fold elements labeled</td>
-</tr>
-<tr>
-<td>Chapter 5</td>
-<td>Table</td>
-<td>Google Ads CPC benchmarks for top solar keywords with search volume</td>
-</tr>
-<tr>
-<td>Chapter 6</td>
-<td>Flowchart</td>
-<td>Owned lead generation system: 4 layers from organic to referral</td>
-</tr>
-<tr>
-<td>Chapter 7</td>
-<td>Comparison Table</td>
-<td>Solar loan vs. lease vs. PPA side-by-side with monthly payment examples</td>
-</tr>
-<tr>
-<td>Chapter 8</td>
-<td>Diagram</td>
-<td>Referral program reward structure: tiered payouts visualized</td>
-</tr>
-<tr>
-<td>Chapter 9</td>
-<td>Dashboard Mockup</td>
-<td>CAC tracking dashboard with 6 key metrics</td>
-</tr>
-<tr>
-<td>Chapter 10</td>
-<td>Calendar</td>
-<td>90-day action plan Gantt-style visualization</td>
-</tr>
-</tbody>
-</table>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
 </div>
-<h2>Quality Control Sign-Off</h2>
-<ul class="checklist">
-<li>[x] Search intent matched precisely (informational/commercial guide for solar company owners)</li>
-<li>[x] Better than top 10 competitors on every dimension (depth, data, specificity, actionability)</li>
-<li>[x] Content gaps from research filled (state-specific angles, financing promotion, CAC reduction focus)</li>
-<li>[x] Every H2 is 300+ words of substance (verified: all major sections exceed 500 words)</li>
-<li>[x] Word count meets target: ~11,000 words</li>
-<li>[x] No fluff, filler, or generic content</li>
-<li>[x] No repetition of information across sections</li>
-<li>[x] Strong, sticky introduction (under 100 words, curiosity-driven)</li>
-<li>[x] Strong, action-oriented conclusion</li>
-<li>[x] Rich examples throughout (Sacramento installer case, real CAC data, specific state policies)</li>
-<li>[x] Expert insights included (Wood Mackenzie, SEIA, NREL, Aurora Solar data)</li>
-<li>[x] Complete FAQ section (15 questions)</li>
-<li>[x] Zero AI patterns ("delve," "crucial," "landscape," "foster")</li>
-<li>[x] Zero generic intros</li>
-<li>[x] Short paragraphs (2-4 sentences max)</li>
-<li>[x] Active voice dominates</li>
-<li>[x] Specific numbers and timeframes throughout</li>
-<li>[x] Statistics with sources cited</li>
-<li>[x] Both pros and cons presented (shared leads, leases, PPC)</li>
-<li>[x] Honest about limitations (2026 policy uncertainty, state variations)</li>
-<li>[x] Keyword in H1, intro, 2+ H2s, conclusion, URL, meta</li>
-<li>[x] Semantic keywords included (solar lead generation, CAC, net metering, ITC)</li>
-<li>[x] Proper heading hierarchy (H1 -&gt; H2 -&gt; H3)</li>
-<li>[x] FAQ + HowTo schema recommended</li>
-<li>[x] 10 title options generated with CTR magnets</li>
-<li>[x] Meta title and description optimized</li>
-<li>[x] URL slug optimized</li>
-<li>[x] GEO optimization for all 5 AI platforms</li>
-<li>[x] Visual asset recommendations provided</li>
-<li>[x] Internal and external linking suggestions included</li>
-</ul>
-<p><strong>Content is publication-ready.</strong></p>`;
+
+`;
 ---
 
 <BlogPostLayout
@@ -1575,4 +1249,5 @@ Roof replacement is the perfect trigger for solar conversations. A homeowner rep
   readTime='40 min read'
   tags={['Growth Strategy']}
   contentHtml={contentHtml}
+  schema={schema}
 />

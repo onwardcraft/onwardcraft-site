@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = "The Contractor Visibility Flywheel: A 6-Step System for Predictable Lead Generation";
 const description = "The Contractor Visibility Flywheel is a 6-step system for predictable lead generation. Includes foundation, authority, visibility, capture, nurture, and amplify.";
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Contractor Visibility Flywheel: A 6-Step System for Predictable Lead Generation",
+    "description": "The Contractor Visibility Flywheel is a 6-step system for predictable lead generation. Includes foundation, authority, visibility, capture, nurture, and amplify.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/contractor-visibility-flywheel"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = "The Contractor Visibility Flywheel is a 6-step system for p
   date='June 2026'
   readTime='16 min read'
   tags={['Lead Generation', 'Marketing Framework', 'Contractors', 'Systems']}
+  schema={schema}
 >
 <p class="lead">You are a home service contractor who wants a reliable, repeatable way to generate leads every month without gambling on ads or praying for referrals. This article introduces the Contractor Visibility Flywheel, a 6-step system that turns your marketing into a self-reinforcing engine. You will learn exactly what each step does, why most contractors skip the first three, and how to build the system in the right order so leads become predictable instead of accidental.</p>
 
@@ -126,8 +154,8 @@ const description = "The Contractor Visibility Flywheel is a 6-step system for p
 <p>Once positioning is clear, you need digital infrastructure that communicates it. This includes:</p>
 
 <ul>
-<li><strong>A conversion-focused website.</strong> Not a brochure. A website designed to turn visitors into leads. That means fast load times (under 3 seconds), mobile-first design (60% of contractor searches happen on phones), clear calls-to-action on every page, and trust signals above the fold.</li>
-<li><strong>Google Business Profile optimization.</strong> This is your most visible digital asset. Complete every field. Post weekly updates. Upload photos of completed jobs. Respond to every review. A fully optimized GBP can generate 30-50% of a contractor's organic leads.</li>
+<li><strong>A conversion-focused website.</strong> Not a brochure. A <a href="/services/website-design">website design</a>ed to turn visitors into leads. That means fast load times (under 3 seconds), mobile-first design (60% of contractor searches happen on phones), clear calls-to-action on every page, and trust signals above the fold.</li>
+<li><strong><a href="/services/gbp-optimization">Google Business Profile</a> optimization.</strong> This is your most visible digital asset. Complete every field. Post weekly updates. Upload photos of completed jobs. Respond to every review. A fully optimized GBP can generate 30-50% of a contractor's organic leads.</li>
 <li><strong>Consistent NAP (Name, Address, Phone) across the web.</strong> Every directory, every citation, every mention must be identical. Inconsistent NAP confuses Google and suppresses local rankings.</li>
 <li><strong>A professional email domain.</strong> Gmail addresses signal "small-time." A branded domain signals "established business."</li>
 </ul>
@@ -215,7 +243,7 @@ const description = "The Contractor Visibility Flywheel is a 6-step system for p
 
 <h3>Content as an Authority Builder</h3>
 
-<p>Most contractors think content marketing means blogging for the sake of blogging. Wrong. Content marketing for contractors is about answering the questions homeowners are already searching for, in a way that demonstrates expertise and builds trust.</p>
+<p>Most contractors think <a href="/services/content-marketing">content marketing</a> means blogging for the sake of blogging. Wrong. Content marketing for contractors is about answering the questions homeowners are already searching for, in a way that demonstrates expertise and builds trust.</p>
 
 <p>Here are real search queries from homeowners, pulled from keyword research:</p>
 
@@ -466,7 +494,7 @@ const description = "The Contractor Visibility Flywheel is a 6-step system for p
 
 <h3>Month 4-9: Visibility and Capture</h3>
 
-<p>With Foundation and Authority in place, we launched local SEO and optimized their Google Ads. We created location-specific service pages for every city in their service area. We built local citations. We started a content program answering common insurance claim questions.</p>
+<p>With Foundation and Authority in place, we launched <a href="/services/local-seo">local SEO</a> and optimized their Google Ads. We created location-specific service pages for every city in their service area. We built local citations. We started a content program answering common insurance claim questions.</p>
 
 <p>Organic leads grew from 4 per month to 23 per month. Google Ads cost per lead dropped from $143 to $61 because the improved website and authority signals increased their Quality Score and conversion rate. Total lead volume increased 180% while ad spend stayed flat.</p>
 
@@ -677,4 +705,19 @@ const description = "The Contractor Visibility Flywheel is a 6-step system for p
 <a class="cta-button" href="/services">See the Flywheel in Action: Free Strategy Session</a>
 </div>
 
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

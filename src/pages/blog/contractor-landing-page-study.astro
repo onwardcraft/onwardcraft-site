@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = "Contractor Landing Pages Study: The Anatomy of High-Converting Pages";
 const description = "Analyzed contractor landing pages to find the anatomy of high-converting pages. Includes element analysis, mobile data, and optimization recommendations.";
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Contractor Landing Pages Study: The Anatomy of High-Converting Pages",
+    "description": "Analyzed contractor landing pages to find the anatomy of high-converting pages. Includes element analysis, mobile data, and optimization recommendations.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/contractor-landing-page-study"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = "Analyzed contractor landing pages to find the anatomy of hi
   date='June 2026'
   readTime='18 min read'
   tags={['Conversion', 'Landing Pages', 'PPC', 'CRO']}
+  schema={schema}
 >
 <p class="lead">Most contractor landing pages convert between 2% and 4% of visitors. The top 6% convert 8% to 15%. That gap is not about design budgets or agency talent. It is about knowing which elements actually move the needle and which ones just look nice. This study analyzes 147 contractor landing pages across plumbing, HVAC, roofing, electrical, and remodeling trades to map the exact anatomy of pages that turn clicks into booked appointments. You will see what the data says about headlines, forms, mobile behavior, social proof placement, and the specific layout patterns that separate average pages from high-converting ones.</p>
 
@@ -69,17 +97,17 @@ const description = "Analyzed contractor landing pages to find the anatomy of hi
 
 <p>We analyzed 147 active landing pages from contractors across five trades: plumbing (31 pages), HVAC (29 pages), roofing (28 pages), electrical (24 pages), and remodeling/general contracting (35 pages). Pages were sourced from three channels: Google Ads search results for high-intent keywords in major metro areas, Facebook Ad Library active campaigns, and direct submissions from contractor marketing agencies.</p>
 
-<p>Each page was segmented by traffic source (Google Search Ads, Facebook Ads, organic local SEO), service type (emergency repair versus planned project), and geographic market tier (Tier 1 metros, Tier 2 cities, suburban/rural). This segmentation matters because a plumbing emergency page in Phoenix behaves differently than a kitchen remodel page in suburban Ohio. Conflating them would produce useless averages.</p>
+<p>Each page was segmented by traffic source (Google Search Ads, Facebook Ads, organic <a href="/services/local-seo">local SEO</a>), service type (emergency repair versus planned project), and geographic market tier (Tier 1 metros, Tier 2 cities, suburban/rural). This segmentation matters because a plumbing emergency page in Phoenix behaves differently than a kitchen remodel page in suburban Ohio. Conflating them would produce useless averages.</p>
 
 <h3>Performance Data Collection</h3>
 
 <p>Conversion rate data came from three sources. First, published benchmark reports from Unbounce, WordStream, and FirstPageSage covering 2025 to 2026 data. Second, anonymized performance data shared by contractor marketing agencies including PipelineOn, Instant Sales Funnels, and Leads4Build. Third, published case studies with before-and-after metrics from CRO agencies and PPC managers working exclusively with home service contractors.</p>
 
-<p>All conversion rates were normalized to the same definition: the percentage of unique visitors who completed a lead generation action (form submission, phone call, or chat initiation) within a single session. E-commerce or direct booking conversions were excluded since most contractors do not offer instant online booking for high-ticket services.</p>
+<p>All conversion rates were normalized to the same definition: the percentage of unique visitors who completed a <a href="/services/lead-generation">lead generation</a> action (form submission, phone call, or chat initiation) within a single session. E-commerce or direct booking conversions were excluded since most contractors do not offer instant online booking for high-ticket services.</p>
 
 <h3>Element Scoring Framework</h3>
 
-<p>Each page was scored across 18 elements using a binary pass/fail system where applicable and a 1-to-5 scale for subjective quality. The elements included: headline clarity and message match, subheadline support, hero visual relevance, CTA prominence and copy, form field count and placement, phone number visibility, mobile tap-to-call functionality, page load speed, navigation presence, social proof type and placement, trust badge display, location specificity, offer specificity, urgency messaging, video presence, financing information, and schema markup.</p>
+<p>Each page was scored across 18 elements using a binary pass/fail system where applicable and a 1-to-5 scale for subjective quality. The elements included: headline clarity and message match, subheadline support, hero visual relevance, CTA prominence and copy, form field count and placement, phone number visibility, mobile tap-to-call functionality, page load speed, navigation presence, social proof type and placement, trust badge display, location specificity, offer specificity, urgency messaging, video presence, financing information, and <a href="/services/schema-markup">schema markup</a>.</p>
 
 <p>Two independent reviewers scored each page. Disagreements were resolved through discussion. Inter-rater reliability was 87%, indicating strong consistency in scoring.</p>
 
@@ -223,7 +251,7 @@ const description = "Analyzed contractor landing pages to find the anatomy of hi
   <li>A date within the last 6 months</li>
 </ul>
 
-<p>Google review widgets that pulled live data directly from Google Business Profile outperformed manually curated testimonials by 18%. The live feed signals recency and authenticity that static quotes cannot match.</p>
+<p>Google review widgets that pulled live data directly from <a href="/services/gbp-optimization">Google Business Profile</a> outperformed manually curated testimonials by 18%. The live feed signals recency and authenticity that static quotes cannot match.</p>
 
 <h3>The Service Details Section: Answering Unspoken Questions</h3>
 
@@ -470,4 +498,19 @@ const description = "Analyzed contractor landing pages to find the anatomy of hi
   <a href="https://calendly.com/getonwardcraft/30min" class="cta-button">Book Your Free Audit</a>
 </div>
 
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

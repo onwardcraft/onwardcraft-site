@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'SEO for Local Businesses: The Complete 2026 Guide';
 const description = 'Local SEO is not magic. It is a system. Here is the step-by-step playbook we use to get local businesses ranking on page one of Google.';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "SEO for Local Businesses: The Complete 2026 Guide",
+    "description": "Local SEO is not magic. It is a system. Here is the step-by-step playbook we use to get local businesses ranking on page one of Google.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/seo-for-local-businesses"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -11,7 +38,8 @@ const description = 'Local SEO is not magic. It is a system. Here is the step-by
   category='SEO'
   date='April 2026'
   readTime='10 min read'
-  tags={['SEO', 'Local SEO', 'Google Business']}
+  tags={['SEO', 'Local SEO', '<a href="/services/gbp-optimization">Google Business</a>']}
+  schema={schema}
 >
 <p class="lead">If you run a local business — a roofing company, a law firm, a med spa, a contractor — your customers are searching for you on Google right now. The question is: can they find you? This guide is the exact system we use to get local clients to page one.</p>
 
@@ -19,8 +47,8 @@ const description = 'Local SEO is not magic. It is a system. Here is the step-by
         <p>46% of all Google searches have local intent. That means nearly half of all searches are people looking for something near them. For local businesses, this is the highest-intent traffic you can get. These are not browsers. They are buyers.</p>
         <p>The businesses that rank in the top 3 local results get 60–70% of all clicks. Everything below that gets scraps. If you are not in the top 3, you are invisible.</p>
 
-        <h2>The Foundation: Google Business Profile</h2>
-        <p>Your Google Business Profile (formerly Google My Business) is the single most important asset in local SEO. It is free, and it can drive more leads than your website if optimized correctly.</p>
+        <h2>The Foundation: <a href="/services/gbp-optimization">Google Business Profile</a></h2>
+        <p>Your Google Business Profile (formerly Google My Business) is the single most important asset in <a href="/services/local-seo">local SEO</a>. It is free, and it can drive more leads than your website if optimized correctly.</p>
 
         <h3>Step 1: Claim and Verify</h3>
         <p>If you have not claimed your profile, do it today. Go to business.google.com, search for your business, and claim it. Verification usually happens via postcard — Google sends a code to your business address.</p>
@@ -101,4 +129,19 @@ const description = 'Local SEO is not magic. It is a system. Here is the step-by
         </ol>
 
         <p class="conclusion">Local SEO is a system, not a secret. The businesses that win are the ones that execute consistently — optimize their Google Business Profile, build citations, collect reviews, and create location-specific content. Start today, and in 90 days, your competitors will wonder how you passed them.</p>
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

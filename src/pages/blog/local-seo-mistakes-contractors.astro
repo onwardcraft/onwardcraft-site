@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = "Local SEO Mistakes That Cost Contractors Map Rankings";
 const description = "Common local SEO mistakes that cost contractors map rankings. Includes fixes, trade-specific notes, and prevention strategies.";
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Local SEO Mistakes That Cost Contractors Map Rankings",
+    "description": "Common local SEO mistakes that cost contractors map rankings. Includes fixes, trade-specific notes, and prevention strategies.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/local-seo-mistakes-contractors"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -11,7 +38,8 @@ const description = "Common local SEO mistakes that cost contractors map ranking
   category='SEO'
   date='June 2026'
   readTime='20 min read'
-  tags={['Local SEO', 'Mistakes', 'Google Business Profile', 'Contractors']}
+  tags={['Local SEO', 'Mistakes', '<a href="/services/gbp-optimization">Google Business Profile</a>', 'Contractors']}
+  schema={schema}
 >
 <p class="lead">If you are a contractor who depends on Google Maps to bring in leads, the mistakes in this article are probably costing you thousands of dollars every month. We have audited over 400 contractor websites and Google Business Profiles in the last three years. The same errors show up again and again. This guide breaks down every local SEO mistake that pushes contractors out of the Map Pack, gives you the exact fix for each one, and shows you how to prevent them from coming back. By the end, you will have a clear action plan to reclaim the map rankings that your competitors are stealing right now.</p>
 
@@ -150,7 +178,7 @@ const description = "Common local SEO mistakes that cost contractors map ranking
 
 <p>A kitchen remodeling contractor in Houston created dedicated pages for The Heights, Midtown, and Sugar Land. Instead of generic content, each page included before-and-after photos from actual jobs in that neighborhood, mentions of local suppliers and showrooms, references to HOA requirements specific to that area, and testimonials from homeowners in that zip code. Within four months, all three pages ranked on page one for their target queries. The generic pages they replaced had never ranked at all.</p>
 
-<p>Each city page should be 800 to 1,200 words minimum. It should target one primary keyword like "kitchen remodeling [city name]" and two to three related long-tail variations. Include internal links to your main service pages and relevant blog posts. Add LocalBusiness schema markup to help Google understand the geographic relevance.</p>
+<p>Each city page should be 800 to 1,200 words minimum. It should target one primary keyword like "kitchen remodeling [city name]" and two to three related long-tail variations. Include internal links to your main service pages and relevant blog posts. Add LocalBusiness <a href="/services/schema-markup">schema markup</a> to help Google understand the geographic relevance.</p>
 
 <h3>Using Stock Photos Instead of Real Job Photos</h3>
 
@@ -529,4 +557,19 @@ const description = "Common local SEO mistakes that cost contractors map ranking
 
 <p>Start with the 30-day action plan. Fix your critical mistakes first. Build your system second. Measure your results third. And if you need help diagnosing what is holding you back, our free audit will give you the clarity you need to move forward with confidence.</p>
 
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

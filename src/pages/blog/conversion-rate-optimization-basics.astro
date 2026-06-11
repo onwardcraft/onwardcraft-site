@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = "Conversion Rate Optimization: A Beginner's Guide for Business Owners";
 const description = 'You are getting traffic but no leads. Here is how to turn more of your existing visitors into paying customers — without spending more on ads.';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Conversion Rate Optimization: A Beginner",
+    "description": "You are getting traffic but no leads. Here is how to turn more of your existing visitors into paying customers \u2014 without spending more on ads.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/conversion-rate-optimization-basics"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = 'You are getting traffic but no leads. Here is how to turn m
   date='March 2026'
   readTime='6 min read'
   tags={['Conversion', 'CRO', 'Lead Generation']}
+  schema={schema}
 >
 <p class="lead">Most businesses obsess over getting more traffic. They pour money into ads, SEO, and social media. But here is the thing: if your website converts at 1%, doubling your traffic doubles your leads. If you increase your conversion rate to 3%, you triple your leads — with the same traffic. That is the power of CRO.</p>
 
@@ -49,7 +77,7 @@ const description = 'You are getting traffic but no leads. Here is how to turn m
         <p>When a visitor moves to close the tab, show them a last-chance offer. Not a generic newsletter signup — something valuable. "Wait! Get our free pricing guide before you go." This can recover 5–10% of otherwise lost visitors.</p>
 
         <h3>7. Add Live Chat</h3>
-        <p>Live chat answers questions in real time, removing the friction of uncertainty. Even a simple chatbot that asks "What can I help you find?" increases engagement. For higher-ticket services, live chat can be a lead generation machine.</p>
+        <p>Live chat answers questions in real time, removing the friction of uncertainty. Even a simple chatbot that asks "What can I help you find?" increases engagement. For higher-ticket services, live chat can be a <a href="/services/lead-generation">lead generation</a> machine.</p>
 
         <h3>8. Show Pricing (Or a Range)</h3>
         <p>Most businesses hide pricing because they are afraid of scaring people away. The opposite is true. Visitors who cannot find pricing assume you are expensive and leave. Even a range like "Most projects start at $3,500" qualifies leads and builds trust.</p>
@@ -86,4 +114,19 @@ const description = 'You are getting traffic but no leads. Here is how to turn m
         </ol>
 
         <p class="conclusion">CRO is the highest-ROI activity in digital marketing. It does not require more ad spend. It does not require more traffic. It simply makes every visitor more valuable. Start with the quick wins, measure everything, and iterate. The results compound.</p>
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = '5 Ways to Use AI for Contractor Marketing (Without Replacing Your Agency)';
 const description = '5 practical ways to use AI for contractor marketing without replacing your agency. Includes content, customer service, reviews, social media, and analytics.';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "5 Ways to Use AI for Contractor Marketing (Without Replacing Your Agency)",
+    "description": "5 practical ways to use AI for contractor marketing without replacing your agency. Includes content, customer service, reviews, social media, and analytics.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/ai-contractor-marketing"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = '5 practical ways to use AI for contractor marketing without
   date='June 2026'
   readTime='18 min read'
   tags={['AI Marketing', 'Contractor Marketing', 'ChatGPT', 'Home Services', 'Digital Marketing']}
+  schema={schema}
 >
 
 <!--
@@ -28,7 +56,7 @@ Meta Description: 5 practical ways to use AI for contractor marketing without re
 <p>Here is what we cover:</p>
 
 <ul>
-  <li><strong>AI for content ideation</strong> — generating blog topics, social media ideas, and Google Business Profile posts</li>
+  <li><strong>AI for content ideation</strong> — generating blog topics, social media ideas, and <a href="/services/gbp-optimization">Google Business Profile</a> posts</li>
   <li><strong>AI for customer service</strong> — website chatbots, after-hours lead capture, and FAQ automation</li>
   <li><strong>AI for review response</strong> — responding to Google reviews faster without sounding robotic</li>
   <li><strong>AI for social media scheduling</strong> — content calendars, optimal timing, and consistent posting</li>
@@ -249,7 +277,7 @@ Meta Description: 5 practical ways to use AI for contractor marketing without re
 
 <h3>Real Example</h3>
 
-<p>A restoration company used ChatGPT Advanced Data Analysis to examine 6 months of GA4 and call tracking data. The AI identified that 62% of qualified leads came from organic search and Google Business Profile — but the company was spending 70% of their budget on PPC ads with a 3x higher cost per lead. They reallocated budget toward <a href="/blog/local-seo-guide">SEO</a> and GBP optimization. Within 90 days, total leads increased 28% while marketing costs dropped 18%. The insight was not complicated, but it was buried in data the owner never had time to analyze.</p>
+<p>A restoration company used ChatGPT Advanced Data Analysis to examine 6 months of GA4 and call tracking data. The AI identified that 62% of qualified leads came from organic search and Google Business Profile — but the company was spending 70% of their budget on PPC ads with a 3x higher cost per lead. They reallocated budget toward <a href="/blog/local-seo-guide">SEO</a> and <a href="/services/gbp-optimization">GBP optimization</a>. Within 90 days, total leads increased 28% while marketing costs dropped 18%. The insight was not complicated, but it was buried in data the owner never had time to analyze.</p>
 
 <h3>What AI Cannot Do</h3>
 
@@ -288,7 +316,7 @@ Meta Description: 5 practical ways to use AI for contractor marketing without re
 
 <h3>Local Expertise</h3>
 
-<p>AI is trained on global data. It does not know that your county has unique permitting requirements, or that certain neighborhoods have HOA restrictions on exterior colors, or which local suppliers offer the best materials. It does not know that the mayor's brother owns the competing HVAC company, or that the local home show in March is the single best lead generation opportunity of the year. Local market knowledge comes from people who live and work in your community.</p>
+<p>AI is trained on global data. It does not know that your county has unique permitting requirements, or that certain neighborhoods have HOA restrictions on exterior colors, or which local suppliers offer the best materials. It does not know that the mayor's brother owns the competing HVAC company, or that the local home show in March is the single best <a href="/services/lead-generation">lead generation</a> opportunity of the year. Local market knowledge comes from people who live and work in your community.</p>
 
 <h3>Accountability</h3>
 
@@ -449,4 +477,19 @@ Meta Description: 5 practical ways to use AI for contractor marketing without re
   <a href="https://calendly.com/getonwardcraft/30min" class="cta-button">Book Free Revenue Audit</a>
 </div>
 
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'Why Cheap Websites Cost You Money in the Long Run';
 const description = 'That $500 website seemed like a deal. Here is why it is probably costing you thousands in lost leads, poor rankings, and missed opportunities.';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Why Cheap Websites Cost You Money in the Long Run",
+    "description": "That $500 website seemed like a deal. Here is why it is probably costing you thousands in lost leads, poor rankings, and missed opportunities.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/why-cheap-websites-cost-money"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = 'That $500 website seemed like a deal. Here is why it is pro
   date='April 2026'
   readTime='5 min read'
   tags={['Growth Strategy', 'Pricing', 'ROI']}
+  schema={schema}
 >
 <p class="lead">We have all seen the ads: "Professional website for $499." "Get online in 48 hours." They sound tempting, especially when you are watching your budget. But here is the uncomfortable truth: a cheap website is the most expensive mistake a business can make.</p>
 
@@ -37,7 +65,7 @@ const description = 'That $500 website seemed like a deal. Here is why it is pro
           <li>Stock photos everyone has seen before</li>
           <li>Generic copy that could apply to any company</li>
           <li>No SEO strategy or implementation</li>
-          <li>No conversion optimization</li>
+          <li>No <a href="/services/conversion-optimization">conversion optimization</a></li>
           <li>No analytics setup or tracking</li>
           <li>Limited or no support after launch</li>
         </ul>
@@ -73,4 +101,19 @@ const description = 'That $500 website seemed like a deal. Here is why it is pro
         <p>Instead of asking "How cheap can I get a website?" ask "What is the minimum viable investment to generate leads?" That reframing changes everything. A website is not a cost center. It is a revenue engine. The question is not what you pay. It is what you get back.</p>
 
         <p class="conclusion">The cheapest website is the one that generates more revenue than it costs. Everything else is just expensive procrastination.</p>
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

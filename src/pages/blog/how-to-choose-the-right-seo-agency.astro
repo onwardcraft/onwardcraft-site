@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'How to Choose the Right SEO Agency in 2026';
 const description = 'Choosing the wrong SEO agency can cost you months and thousands of dollars. Here is the exact framework we recommend for evaluating, comparing, and hiring an SEO agency that delivers real business results.';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Choose the Right SEO Agency in 2026",
+    "description": "Choosing the wrong SEO agency can cost you months and thousands of dollars. Here is the exact framework we recommend for evaluating, comparing, and hiring an SEO agency that delivers real business results.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/how-to-choose-the-right-seo-agency"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = 'Choosing the wrong SEO agency can cost you months and thous
   date='May 2026'
   readTime='12 min read'
   tags={['SEO', 'Agency Selection', 'Small Business']}
+  schema={schema}
 >
 <p class="lead">Every week, a business owner tells us the same story. They hired an SEO agency, paid $2,000 a month for six months, and saw nothing. No rankings. No traffic. No leads. When they asked what was happening, the agency sent a report full of vanity metrics and vague promises. This happens because most businesses do not know how to evaluate an SEO agency before they sign the contract. This guide fixes that.</p>
 
@@ -185,7 +213,7 @@ const description = 'Choosing the wrong SEO agency can cost you months and thous
               <tr>
                 <td><strong>Local Service Business</strong></td>
                 <td>$1,000–$3,000</td>
-                <td>Local SEO, Google Business optimization, citation building, review strategy, local content</td>
+                <td>Local SEO, <a href="/services/gbp-optimization">Google Business</a> optimization, citation building, review strategy, local content</td>
               </tr>
               <tr>
                 <td><strong>Small Business / Regional</strong></td>
@@ -195,7 +223,7 @@ const description = 'Choosing the wrong SEO agency can cost you months and thous
               <tr>
                 <td><strong>Mid-Market / National</strong></td>
                 <td>$5,000–$12,000</td>
-                <td>Full technical SEO, content strategy, digital PR, conversion optimization, advanced analytics</td>
+                <td>Full technical SEO, content strategy, digital PR, <a href="/services/conversion-optimization">conversion optimization</a>, advanced analytics</td>
               </tr>
               <tr>
                 <td><strong>Enterprise / Complex</strong></td>
@@ -211,7 +239,7 @@ const description = 'Choosing the wrong SEO agency can cost you months and thous
         <h2>Local vs. National vs. Specialized Agencies</h2>
         <p>Not all agencies serve the same market. Choosing the wrong type of agency for your business is a common mistake.</p>
 
-        <p><strong>Local SEO agencies</strong> focus on businesses that serve a specific geographic area. They understand Google Business Profile, local citations, and review management. If you are a plumber, dentist, or contractor, a local specialist will likely outperform a generalist.</p>
+        <p><strong>Local SEO agencies</strong> focus on businesses that serve a specific geographic area. They understand <a href="/services/gbp-optimization">Google Business Profile</a>, local citations, and review management. If you are a plumber, dentist, or contractor, a local specialist will likely outperform a generalist.</p>
 
         <p><strong>National SEO agencies</strong> handle businesses that compete across regions or countries. They understand broader keyword strategy, content at scale, and national link building. If you sell products online or serve multiple states, you need this level of scope.</p>
 
@@ -278,4 +306,19 @@ const description = 'Choosing the wrong SEO agency can cost you months and thous
         </div>
 
         <p class="conclusion">Choosing an SEO agency is one of the most important marketing decisions you will make. The right partner can transform your business. The wrong one can waste your budget and set you back months. Use the framework in this guide, ask the hard questions, and do not settle for vague promises. Your business deserves an agency that treats your success as seriously as you do.</p>
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

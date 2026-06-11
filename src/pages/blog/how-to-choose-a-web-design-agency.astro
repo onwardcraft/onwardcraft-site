@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'How to Choose a Web Design Agency: The 2026 Guide for Business Owners';
 const description = 'A practical guide for business owners who need to hire a web design agency. Learn what to look for, what to avoid, and how to make the right choice in 2026.';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Choose a Web Design Agency: The 2026 Guide for Business Owners",
+    "description": "A practical guide for business owners who need to hire a web design agency. Learn what to look for, what to avoid, and how to make the right choice in 2026.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/how-to-choose-a-web-design-agency"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = 'A practical guide for business owners who need to hire a we
   date='May 2026'
   readTime='12 min read'
   tags={['Web Design', 'Agency Selection', 'Small Business']}
+  schema={schema}
 >
 <p class="lead">Choosing a web design agency is one of the highest-leverage decisions you will make for your business. The right partner builds a site that generates leads, ranks on Google, and scales with your growth. The wrong partner burns your budget, misses deadlines, and leaves you with a website that does nothing for your bottom line. Between 35 and 66 percent of web projects fail, and the root cause is almost always the wrong agency choice. This guide gives you a clear, no-nonsense framework for making the right decision.</p>
 
@@ -144,4 +172,19 @@ const description = 'A practical guide for business owners who need to hire a we
         <p>Ask directly: "Will this be a fully custom design, or will you use a pre-built theme?" Ask to see wireframes and design files before development begins. Custom designs start from scratch in Figma or a similar design tool. Template-based work starts with an existing theme that is modified. If the agency is evasive about this question, they are probably using templates.</p>
 
         <p class="conclusion">Choosing a web design agency is not about finding the cheapest option or the prettiest portfolio. It is about finding a strategic partner who understands your business, communicates clearly, and builds websites that generate measurable results. Use the checklist, ask the hard questions, and trust the process. The right agency is worth the effort to find.</p>
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

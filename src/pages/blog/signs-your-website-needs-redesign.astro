@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = '10 Signs Your Website Needs a Redesign';
 const description = 'Is your website helping or hurting your business? Here are 10 warning signs that your site is due for an overhaul.';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "10 Signs Your Website Needs a Redesign",
+    "description": "Is your website helping or hurting your business? Here are 10 warning signs that your site is due for an overhaul.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/signs-your-website-needs-redesign"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = 'Is your website helping or hurting your business? Here are 
   date='April 2026'
   readTime='7 min read'
   tags={['Web Design', 'Redesign', 'Audit']}
+  schema={schema}
 >
 <p class="lead">Your website is your 24/7 salesperson. If it is not working while you sleep, it is working against you. Here are the 10 signs that tell you it is time for a redesign.</p>
 
@@ -60,4 +88,19 @@ const description = 'Is your website helping or hurting your business? Here are 
           <p>We will review your site and send you a 5-minute video showing exactly what is broken and how to fix it. Completely free.</p>
           <a href="https://calendly.com/getonwardcraft/30min" class="cta-button">Request Free Audit</a>
         </div>
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

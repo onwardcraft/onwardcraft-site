@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = '25 Website Conversion Tactics for Home Service Businesses (2025): Turn Traffic Into Jobs';
 const description = '25 proven website conversion tactics for home service businesses. Includes mobile optimization, emergency CTAs, trust signals, and quick wins you can...';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "25 Website Conversion Tactics for Home Service Businesses (2025)",
+    "description": "25 proven website conversion tactics for home service businesses. Includes mobile optimization, emergency CTAs, trust signals, and quick wins.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/website-conversion-tactics-contractors"
+    }
+  }
+];
 const contentHtml = `<p class="lead">Your website gets traffic. It is not getting leads. That gap — between visitors and booked jobs — is what this article closes.</p>
 <p>Most contractor websites convert between 2% and 5% of visitors. Top-performing plumbing sites hit 15.61%. The difference is not luck. It is a system of specific tactics that remove friction, build trust, and make it effortless for a homeowner in crisis to pick up the phone.</p>
 <p>This article covers 25 tactics organized by effort and impact. Start with the Quick Wins. Layer in the Medium Effort tactics. Use the Advanced strategies once your foundation is solid. Every tactic includes a conversion lift estimate, implementation timeline, and a real contractor example.</p>
@@ -23,7 +50,7 @@ const contentHtml = `<p class="lead">Your website gets traffic. It is not gettin
 <h3>Tactic 1: Add a Click-to-Call Phone Number Above the Fold</h3>
 <p><strong>Expected Conversion Lift:</strong> 15-30%<br />
 <strong>Implementation Time:</strong> 15 minutes</p>
-<p><strong>Why It Works:</strong> 61% of mobile searches result in a phone call (Google). For contractors, phone calls convert at 46% — the highest of any channel (SupplyHT). Yet most contractor websites bury their phone number in the footer or hide it behind a contact page. A click-to-call number placed above the fold removes the single biggest friction point in the mobile conversion path. When a homeowner has a burst pipe at 11 PM, they do not want to navigate your site. They want to tap once and talk to a human. Phone calls also convert 10-15x more often than web form leads (Convirza via Conversion Sciences).</p>
+<p><strong>Why It Works:</strong> <a href="https://www.kaushik.net/avinash/mobile-analytics-tracking-click-to-call-mobile-ad-campaigns/" target="_blank" rel="noopener noreferrer">61% of mobile searches result in a phone call</a> (Google). For contractors, phone calls convert at 46% — the highest of any channel (SupplyHT). Yet most contractor websites bury their phone number in the footer or hide it behind a contact page. A click-to-call number placed above the fold removes the single biggest friction point in the mobile conversion path. When a homeowner has a burst pipe at 11 PM, they do not want to navigate your site. They want to tap once and talk to a human. Phone calls also convert 10-15x more often than web form leads (Convirza via Conversion Sciences).</p>
 <p><strong>How to Implement:</strong> Add your primary phone number to the top-right corner of your header on desktop. On mobile, make it a sticky bar that remains visible while scrolling. Use a <code>tel:</code> link so tapping the number initiates a call. The number should be large enough to tap easily — minimum 48px height per Google's mobile usability guidelines. Use a contrasting color (red or orange for emergency services, blue for scheduled work). Track clicks with Google Tag Manager. If you use CallRail or a similar call tracking platform, use a dynamic number to attribute calls to specific pages.</p>
 <p><strong>Contractor Example:</strong> A Tampa plumber added a sticky click-to-call bar in red with "Call Now: (813) 555-0199" and saw mobile calls increase 34% in 30 days. The bar stayed visible on every page, eliminating the need to hunt for contact info.</p>
 <hr />
@@ -302,331 +329,23 @@ const contentHtml = `<p class="lead">Your website gets traffic. It is not gettin
 <li>CRO compounds: a 2% to 4% conversion improvement doubles your leads without spending more on ads.</li>
 </ul>
 <hr />
-<h2>Internal Linking Suggestions</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Anchor Text</th>
-<th>Target URL</th>
-<th>Context</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>website design for contractors</td>
-<td>/services/website-design</td>
-<td>In introduction, when discussing why contractor websites underperform</td>
-</tr>
-<tr>
-<td>local SEO for home services</td>
-<td>/services/local-seo</td>
-<td>In Tactic 6, when discussing service area pages</td>
-</tr>
-<tr>
-<td>conversion rate optimization services</td>
-<td>/services/conversion-optimization</td>
-<td>In conclusion, when discussing ongoing CRO</td>
-</tr>
-<tr>
-<td>Google Business Profile optimization</td>
-<td>/guides/google-business-profile</td>
-<td>In Tactic 13, when discussing local search visibility</td>
-</tr>
-<tr>
-<td>emergency lead generation</td>
-<td>/guides/emergency-lead-generation</td>
-<td>In Tactic 2, when discussing emergency service banners</td>
-</tr>
-<tr>
-<td>contractor marketing strategies</td>
-<td>/services/contractor-marketing</td>
-<td>In 30-day action plan, when discussing broader marketing</td>
-</tr>
-<tr>
-<td>roofing marketing</td>
-<td>/services/roofing-marketing</td>
-<td>In Tactic 9, when discussing service-specific landing pages</td>
-</tr>
-<tr>
-<td>plumbing marketing</td>
-<td>/services/plumbing-marketing</td>
-<td>In Tactic 1, when discussing click-to-call for plumbers</td>
-</tr>
-<tr>
-<td>HVAC marketing</td>
-<td>/services/hvac-marketing</td>
-<td>In Tactic 2, when discussing emergency HVAC</td>
-</tr>
-<tr>
-<td>home service marketing statistics</td>
-<td>/resources/home-service-marketing-statistics</td>
-<td>In Key Takeaways, when citing industry benchmarks</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>External Citation Suggestions</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Claim/Statistic</th>
-<th>Source URL</th>
-<th>Suggested Anchor Text</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>61% of mobile searches result in a phone call</td>
-<td>https://www.kaushik.net/avinash/mobile-analytics-tracking-click-to-call-mobile-ad-campaigns/</td>
-<td>Google mobile search call data</td>
-</tr>
-<tr>
-<td>Phone calls convert 10-15x more than web leads</td>
-<td>https://conversionsciences.com/mobile-phone-calls-higher-conversion-rates/</td>
-<td>Convirza call conversion research</td>
-</tr>
-<tr>
-<td>Home services average 7.8% conversion rate</td>
-<td>https://www.webfx.com/blog/home-services/home-services-marketing-benchmarks/</td>
-<td>WebFX home services benchmarks</td>
-</tr>
-<tr>
-<td>Plumbing converts at 12-16%</td>
-<td>https://geoquote.ai/blog/contractor-website-conversion-rate-average</td>
-<td>LocaliQ contractor conversion data</td>
-</tr>
-<tr>
-<td>120% conversion increase from form field reduction</td>
-<td>https://www.imagescape.com/media/filer_public/06/94/0694c7f4-8914-4598-8871-b857fbc12737/form_case_study.pdf</td>
-<td>Imaginary Landscape form study</td>
-</tr>
-<tr>
-<td>83% trust increase from certification badges</td>
-<td>https://baymard.com/blog/trust-seals</td>
-<td>Baymard Institute trust badge research</td>
-</tr>
-<tr>
-<td>20-40% conversion lift from live chat</td>
-<td>https://www.invespcro.com/blog/the-state-of-ab-testing/</td>
-<td>Invesp live chat conversion data</td>
-</tr>
-<tr>
-<td>34% median conversion improvement from video testimonials</td>
-<td>https://testimonialstar.com/resources/video-testimonial-statistics/</td>
-<td>TestimonialStar A/B test data</td>
-</tr>
-<tr>
-<td>70% more likely to convert with retargeting</td>
-<td>https://www.invespcro.com/blog/ad-retargeting-2/</td>
-<td>Invesp retargeting statistics</td>
-</tr>
-<tr>
-<td>19% conversion rate with personalization vs 2.9% without</td>
-<td>https://instapage.com/blog/personalization-statistics</td>
-<td>Monetate personalization benchmarks</td>
-</tr>
-<tr>
-<td>98% open rate for SMS</td>
-<td>https://sakari.io/blog/sms-marketing-statistics-data-backed-insights-for-2025-2026</td>
-<td>Sakari SMS marketing statistics</td>
-</tr>
-<tr>
-<td>FAQ schema 3.2x more likely in AI Overviews</td>
-<td>https://www.frase.io/blog/faq-schema-ai-search-geo-aeo</td>
-<td>Frase.io FAQ schema research</td>
-</tr>
-<tr>
-<td>34% median conversion improvement from video testimonials</td>
-<td>https://www.share.one/video-testimonial-statistics/</td>
-<td>Share.one video testimonial data</td>
-</tr>
-<tr>
-<td>87% increase from keyword-matched CTAs</td>
-<td>https://blog.hubspot.com/marketing/personalized-calls-to-action-convert-better</td>
-<td>HubSpot CTA personalization study</td>
-</tr>
-<tr>
-<td>Progressive profiling 42% form submission increase</td>
-<td>https://magneticcreative.com/ideas/progressive-profiling</td>
-<td>Magnetic Creative progressive profiling data</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>Schema Markup Recommendations</h2>
-<div class="code-block">
-<pre><code class="language-json">{
-  &quot;@context&quot;: &quot;https://schema.org&quot;,
-  &quot;@type&quot;: &quot;Article&quot;,
-  &quot;headline&quot;: &quot;25 Website Conversion Tactics for Home Service Businesses (2025)&quot;,
-  &quot;description&quot;: &quot;25 proven website conversion tactics for home service businesses. Includes mobile optimization, emergency CTAs, trust signals, and quick wins.&quot;,
-  &quot;author&quot;: {
-    &quot;@type&quot;: &quot;Organization&quot;,
-    &quot;name&quot;: &quot;OnwardCraft&quot;
-  },
-  &quot;publisher&quot;: {
-    &quot;@type&quot;: &quot;Organization&quot;,
-    &quot;name&quot;: &quot;OnwardCraft&quot;,
-    &quot;logo&quot;: {
-      &quot;@type&quot;: &quot;ImageObject&quot;,
-      &quot;url&quot;: &quot;https://onwardcraft.com/logo.png&quot;
-    }
-  },
-  &quot;datePublished&quot;: &quot;2025-06-09&quot;,
-  &quot;dateModified&quot;: &quot;2025-06-09&quot;
-}
-</code></pre>
-</div>
-<p>Additional schema to implement:<br />
-- <strong>FAQPage schema</strong> on the FAQ section<br />
-- <strong>HowTo schema</strong> on the 30-Day Action Plan section<br />
-- <strong>BreadcrumbList</strong> for navigation<br />
-- <strong>Speakable</strong> for voice search optimization</p>
-<h2>Featured Snippet Opportunities</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Query Type</th>
-<th>Target Section</th>
-<th>Optimization</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Paragraph</td>
-<td>"What is a good conversion rate for a contractor website?"</td>
-<td>Direct 40-60 word answer at start of FAQ</td>
-</tr>
-<tr>
-<td>List</td>
-<td>"Quick wins for website conversion"</td>
-<td>Numbered list in Quick Wins intro</td>
-</tr>
-<tr>
-<td>Table</td>
-<td>"Website conversion tactics by impact"</td>
-<td>Comparison table of tactics, lift, and time</td>
-</tr>
-<tr>
-<td>Paragraph</td>
-<td>"Why do contractor websites convert poorly?"</td>
-<td>Direct answer in second FAQ</td>
-</tr>
-<tr>
-<td>List</td>
-<td>"How to increase website conversions fast"</td>
-<td>Bulleted list in Week 1 action plan</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h2>AI Overview Optimization Notes</h2>
-<ul>
-<li><strong>Definition blocks:</strong> Every major section opens with a direct definition or answer (40-80 words) optimized for AI extraction.</li>
-<li><strong>Structured lists:</strong> Tactics are numbered and organized by tier, making them easy for AI systems to parse and cite.</li>
-<li><strong>Comparison tables:</strong> Multiple tables throughout provide structured data that AI systems prefer for synthesis.</li>
-<li><strong>FAQ format:</strong> 20 FAQs use exact searcher phrasing and concise answers — ideal for AI Overview inclusion.</li>
-<li><strong>Entity-rich content:</strong> Named companies (HubSpot, WebFX, LocaliQ), tools (Tidio, CallRail, Fomo), and concepts (progressive profiling, message match) increase entity recognition.</li>
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
 </ul>
-<h2>GEO Optimization Notes</h2>
-<ul>
-<li><strong>ChatGPT:</strong> Clear definitions, numbered frameworks, and original categorization (Quick Wins / Medium Effort / Advanced) make this content highly citable.</li>
-<li><strong>Gemini:</strong> Entity-rich writing with named sources, statistics, and structured data signals.</li>
-<li><strong>Claude:</strong> Balanced perspective with both pros and cons, nuanced analysis, and source citations.</li>
-<li><strong>Perplexity:</strong> Verifiable claims with specific statistics and source attributions throughout.</li>
-<li><strong>Copilot:</strong> Step-by-step action plans, checklists, and current 2025 data.</li>
-</ul>
-<h2>Visual Asset Recommendations</h2>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Placement</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>After intro</td>
-<td>Infographic</td>
-<td>"25 Tactics by Impact and Effort" matrix showing Quick Wins vs Medium vs Advanced</td>
-</tr>
-<tr>
-<td>Tactic 1 section</td>
-<td>Screenshot</td>
-<td>Mobile sticky click-to-call bar example</td>
-</tr>
-<tr>
-<td>Tactic 3 section</td>
-<td>Chart</td>
-<td>Form field count vs conversion rate graph (1-10 fields)</td>
-</tr>
-<tr>
-<td>Tactic 4 section</td>
-<td>Diagram</td>
-<td>Trust badge placement diagram showing optimal positioning</td>
-</tr>
-<tr>
-<td>Tactic 10 section</td>
-<td>Screenshot</td>
-<td>Instant quote calculator interface example</td>
-</tr>
-<tr>
-<td>Tactic 14 section</td>
-<td>Screenshot</td>
-<td>Before/after interactive slider example</td>
-</tr>
-<tr>
-<td>Before FAQ</td>
-<td>Infographic</td>
-<td>"30-Day Action Plan" checklist graphic</td>
-</tr>
-<tr>
-<td>End of article</td>
-<td>Chart</td>
-<td>Conversion rate benchmarks by contractor type (plumbing, HVAC, roofing)</td>
-</tr>
-</tbody>
-</table>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
 </div>
-<h2>Quality Control Sign-Off</h2>
-<ul class="checklist">
-<li>[x] Search intent matched precisely (informational/commercial for contractors seeking conversion tactics)</li>
-<li>[x] Better than top 10 competitors on every dimension (contractor-specific, mobile-focused, emergency CTAs, phone-first)</li>
-<li>[x] Content gaps from research filled (no competitor covers all 25 with conversion lift estimates + contractor examples)</li>
-<li>[x] Every H2 is 300+ words of substance</li>
-<li>[x] Word count meets target (6,000+ words)</li>
-<li>[x] No fluff, filler, or generic content</li>
-<li>[x] No repetition of information</li>
-<li>[x] Strong, sticky introduction (under 100 words)</li>
-<li>[x] Strong, action-oriented conclusion</li>
-<li>[x] Rich examples throughout (25 contractor examples)</li>
-<li>[x] Expert insights included (CRO principles, psychology)</li>
-<li>[x] Complete FAQ section (20 questions)</li>
-<li>[x] Zero AI patterns ("delve", "crucial", "landscape")</li>
-<li>[x] Zero generic intros</li>
-<li>[x] Short paragraphs (2-4 sentences max)</li>
-<li>[x] Active voice dominates</li>
-<li>[x] Specific numbers and timeframes throughout</li>
-<li>[x] Expert opinions cited with sources</li>
-<li>[x] Statistics with verifiable sources</li>
-<li>[x] Real-world examples</li>
-<li>[x] Both pros and cons presented</li>
-<li>[x] Keyword in H1, intro, 2+ H2s, conclusion</li>
-<li>[x] Semantic keywords included (CRO, lead generation, click-to-call)</li>
-<li>[x] Proper heading hierarchy</li>
-<li>[x] 10 title options generated</li>
-<li>[x] Meta title and description optimized</li>
-<li>[x] URL slug optimized</li>
-<li>[x] FAQ schema, Article schema, HowTo schema recommended</li>
-<li>[x] GEO optimization for all major AI platforms</li>
-<li>[x] CTA matches funnel stage (MOFU — download checklist + audit)</li>
-<li>[x] Content is publication-ready</li>
-</ul>`;
+
+`;
 ---
 
 <BlogPostLayout
@@ -637,4 +356,5 @@ const contentHtml = `<p class="lead">Your website gets traffic. It is not gettin
   readTime='30 min read'
   tags={['Conversion']}
   contentHtml={contentHtml}
+  schema={schema}
 />

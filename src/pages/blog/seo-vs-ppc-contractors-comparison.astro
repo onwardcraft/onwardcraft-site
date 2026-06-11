@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = "SEO vs PPC for Contractors: Which Channel Actually Generates Better Leads?";
 const description = "Unbiased comparison of SEO vs PPC for contractors. Includes cost per lead, timeline, ROI, and a decision framework for home service businesses.";
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "SEO vs PPC for Contractors: Which Channel Actually Generates Better Leads?",
+    "description": "Unbiased comparison of SEO vs PPC for contractors. Includes cost per lead, timeline, ROI, and a decision framework for home service businesses.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/seo-vs-ppc-contractors-comparison"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = "Unbiased comparison of SEO vs PPC for contractors. Includes
   date='June 2026'
   readTime='32 min read'
   tags={['SEO', 'PPC', 'Contractors', 'ROI']}
+  schema={schema}
 >
 <p class="lead">You are a contractor trying to decide where to spend your marketing budget, and every agency tells you their channel is the answer. Here is the truth: SEO and PPC both work, but they work differently, cost differently, and produce different lead quality. This guide breaks down real cost-per-lead numbers, actual contractor case studies, timeline expectations, and a decision framework so you can choose the right marketing channels for your business without wasting money on guesswork.</p>
 
@@ -39,7 +67,7 @@ const description = "Unbiased comparison of SEO vs PPC for contractors. Includes
 
 <h2>How SEO Works for Contractors: The Complete Breakdown</h2>
 
-<p><strong>Search engine optimization (SEO) for contractors</strong> is the process of improving your website and online presence so you appear in the organic (non-paid) results when homeowners search for services you provide. For contractors, SEO breaks down into three core pillars: local SEO, on-page SEO, and technical SEO.</p>
+<p><strong>Search engine optimization (SEO) for contractors</strong> is the process of improving your website and online presence so you appear in the organic (non-paid) results when homeowners search for services you provide. For contractors, SEO breaks down into three core pillars: <a href="/services/local-seo">local SEO</a>, on-page SEO, and technical SEO.</p>
 
 <h3>Local SEO: Where Most Contractor Leads Come From</h3>
 
@@ -49,7 +77,7 @@ const description = "Unbiased comparison of SEO vs PPC for contractors. Includes
 
 <p>Local SEO for contractors centers on four elements:</p>
 
-<p><strong>Google Business Profile optimization.</strong> This is your most powerful free marketing tool. Contractors with a complete GBP, 50+ reviews at 4.5+ stars, weekly posts, and updated photos generate 2.7 times more organic form submissions than those with incomplete profiles, per Geek Powered Studios data. The profile must have accurate NAP (name, address, phone), correct service categories, service area definitions, and regular photo uploads.</p>
+<p><strong><a href="/services/gbp-optimization">Google Business Profile</a> optimization.</strong> This is your most powerful free marketing tool. Contractors with a complete GBP, 50+ reviews at 4.5+ stars, weekly posts, and updated photos generate 2.7 times more organic form submissions than those with incomplete profiles, per Geek Powered Studios data. The profile must have accurate NAP (name, address, phone), correct service categories, service area definitions, and regular photo uploads.</p>
 
 <p><strong>Local citations and directory listings.</strong> Your business must appear consistently across Yelp, Angi, HomeAdvisor, BBB, and industry-specific directories. Inconsistent NAP data confuses Google and suppresses rankings. A single wrong phone number across directories can cost you weeks of ranking progress.</p>
 
@@ -841,7 +869,7 @@ const description = "Unbiased comparison of SEO vs PPC for contractors. Includes
 <li><strong>Solar Installation:</strong> Homeowners research ROI, incentives, and technology</li>
 </ul>
 
-<p>For these trades, SEO content marketing is not optional. It is how buyers make decisions. A roofing company without a "How Much Does a New Roof Cost?" page is invisible to 60% of their market.</p>
+<p>For these trades, SEO <a href="/services/content-marketing">content marketing</a> is not optional. It is how buyers make decisions. A roofing company without a "How Much Does a New Roof Cost?" page is invisible to 60% of their market.</p>
 
 <h3>You Have Thin Margins</h3>
 
@@ -1296,4 +1324,19 @@ const description = "Unbiased comparison of SEO vs PPC for contractors. Includes
 <a class="cta-button" href="/contact">Get Your Free Assessment</a>
 </div>
 
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

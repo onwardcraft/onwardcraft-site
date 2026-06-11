@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'The Complete Website Design Guide for Home Service Businesses (2026)';
 const description = 'Complete guide to designing a contractor website that generates leads. Includes homepage, service pages, mobile design, platform comparison, and budget guidance.';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Complete Website Design Guide for Home Service Businesses (2026)",
+    "description": "Complete guide to designing a contractor website that generates leads. Includes homepage, service pages, mobile design, platform comparison, and budget guidance.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/website-design-guide"
+    }
+  }
+];
 const contentHtml = ``;
 ---
 
@@ -14,4 +41,5 @@ const contentHtml = ``;
   readTime='40 min read'
   tags={['Web Design']}
   contentHtml={contentHtml}
+  schema={schema}
 />

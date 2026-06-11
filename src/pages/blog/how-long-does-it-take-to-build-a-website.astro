@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'How Long Does It Take to Build a Website in 2026?';
 const description = 'A realistic breakdown of website build timelines in 2026. From DIY builders to custom agency builds — see exactly how long each approach takes and what slows projects down.';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How Long Does It Take to Build a Website in 2026?",
+    "description": "A realistic breakdown of website build timelines in 2026. From DIY builders to custom agency builds \u2014 see exactly how long each approach takes and what slows projects down.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/how-long-does-it-take-to-build-a-website"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = 'A realistic breakdown of website build timelines in 2026. F
   date='May 2026'
   readTime='12 min read'
   tags={['Web Design', 'Timeline', 'Small Business']}
+  schema={schema}
 >
 <p class="lead">If you are planning a new website, the first question is usually about cost. The second question is almost always about time. How long does it take to build a website? The honest answer: anywhere from a few hours to over a year. The real answer depends on what you are building, how you are building it, and how prepared you are when the project starts.</p>
 
@@ -74,7 +102,7 @@ const description = 'A realistic breakdown of website build timelines in 2026. F
         <h3>Custom Agency Build: The Professional Standard</h3>
         <p>A custom agency build is the gold standard for businesses that treat their website as a growth tool. At <a href="/services/web-design">OnwardCraft</a>, our custom builds typically take 4–8 weeks from kickoff to launch. This includes discovery, design, development, content, testing, and deployment.</p>
 
-        <p>The extra time is not wasted. It is invested in strategy, user experience, and conversion optimization. A custom site is built specifically for your audience, your goals, and your brand. It loads faster, ranks better, and converts at a higher rate than template-based alternatives. For most established small businesses, this is the right balance of speed and quality.</p>
+        <p>The extra time is not wasted. It is invested in strategy, user experience, and <a href="/services/conversion-optimization">conversion optimization</a>. A custom site is built specifically for your audience, your goals, and your brand. It loads faster, ranks better, and converts at a higher rate than template-based alternatives. For most established small businesses, this is the right balance of speed and quality.</p>
 
         <h3>E-Commerce and Complex Builds: Months of Work</h3>
         <p>E-commerce websites, membership platforms, and sites with heavy custom functionality require significantly more time. Product catalogs, payment processing, user accounts, inventory management, and shipping integrations all add layers of complexity.</p>
@@ -199,4 +227,19 @@ const description = 'A realistic breakdown of website build timelines in 2026. F
         <p>Prepare your content before the project starts. Designate one decision-maker for feedback. Lock the project scope during discovery. Gather all brand assets upfront. Respond to feedback requests within 48 hours. And choose an agency with a proven process — like <a href="/process">ours at OnwardCraft</a> — that is designed to keep projects on track.</p>
 
         <p class="conclusion">The timeline for building a website in 2026 ranges from a few hours to several months. The right timeline for your project depends on your goals, your budget, and how you want your site to perform. A rushed build might get you online faster, but a disciplined, professional build will get you results that last. If you are ready to build a website that drives real business growth, <a href="https://calendly.com/getonwardcraft/30min">let us talk</a>.</p>
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

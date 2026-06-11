@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = 'DIY Website vs Hiring an Agency: Which Is Right for Your Business?';
 const description = 'An honest comparison of DIY website builders, freelancers, and agencies. Learn the real costs, hidden trade-offs, and which option fits your business stage.';
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "DIY Website vs Hiring an Agency: Which Is Right for Your Business?",
+    "description": "An honest comparison of DIY website builders, freelancers, and agencies. Learn the real costs, hidden trade-offs, and which option fits your business stage.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/diy-website-vs-hiring-an-agency"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = 'An honest comparison of DIY website builders, freelancers, 
   date='May 2026'
   readTime='10 min read'
   tags={['Web Design', 'Small Business', 'Strategy']}
+  schema={schema}
 >
 <p class="lead">Every business owner faces the same fork in the road: build the website yourself, hire a freelancer, or bring in an agency. The wrong choice costs you months of lost revenue. The right choice pays for itself within weeks. Here is how to decide without the guesswork.</p>
 
@@ -205,4 +233,19 @@ const description = 'An honest comparison of DIY website builders, freelancers, 
         </div>
 
         <p class="conclusion">The DIY vs agency debate is not about which option is better. It is about which option is better for your business at this moment. DIY builders are powerful tools for the right stage. Freelancers offer solid value for simple needs. Agencies deliver strategic results when your website is a growth engine. Be honest about where you are, what you need, and what your time is worth. The right choice becomes obvious.</p>
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>

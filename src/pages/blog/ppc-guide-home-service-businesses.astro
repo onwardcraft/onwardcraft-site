@@ -3,6 +3,33 @@ import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
 const title = "The Complete PPC Guide for Home Service Businesses";
 const description = "Complete PPC guide for home service businesses. Includes keyword strategy, ad copy, landing pages, budget recommendations, and cost per lead benchmarks.";
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The Complete PPC Guide for Home Service Businesses",
+    "description": "Complete PPC guide for home service businesses. Includes keyword strategy, ad copy, landing pages, budget recommendations, and cost per lead benchmarks.",
+    "author": {
+      "@type": "Organization",
+      "name": "OnwardCraft"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "OnwardCraft",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://onwardcraft.com/logo.png"
+      }
+    },
+    "datePublished": "2025-06-09",
+    "dateModified": "2025-06-09",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://onwardcraft.com/blog/ppc-guide-home-service-businesses"
+    }
+  }
+];
 ---
 
 <BlogPostLayout
@@ -12,6 +39,7 @@ const description = "Complete PPC guide for home service businesses. Includes ke
   date='June 2026'
   readTime='36 min read'
   tags={['PPC', 'Google Ads', 'Contractors', 'Lead Generation']}
+  schema={schema}
 >
 
 <p class="lead">If you run a home service business and your phone is not ringing consistently from paid search, you are leaving revenue on the table every single day. This guide covers everything you need to know about PPC for contractors: how Google Ads actually works, what keywords to bid on, how to write ads that convert, what landing pages produce 6-12% conversion rates, how much to spend, and how to track every dollar back to booked jobs. Whether you are spending $1,500 a month or $15,000, the frameworks in this article will help you lower your cost per lead and increase your return on ad spend.</p>
@@ -163,7 +191,7 @@ const description = "Complete PPC guide for home service businesses. Includes ke
 
 <p><strong>Tier 2: Evaluating Keywords</strong> These searches come from people who are comparing options or gathering information before making a decision. They convert at 3-7%. Examples include "kitchen remodeling cost," "best HVAC company [city]," "roof repair estimate," and "how much does furnace replacement cost." Bid medium on these. Use them to build your pipeline, but do not let them consume your entire budget.</p>
 
-<p><strong>Tier 3: Research Keywords</strong> These are informational searches from people who are not ready to hire anyone. They convert at 0.5-2%. Examples include "kitchen remodeling ideas," "how long does an HVAC system last," and "types of roofing materials." For most contractors, these should be excluded from PPC or bid at very low levels. They are better suited for SEO content marketing.</p>
+<p><strong>Tier 3: Research Keywords</strong> These are informational searches from people who are not ready to hire anyone. They convert at 0.5-2%. Examples include "kitchen remodeling ideas," "how long does an HVAC system last," and "types of roofing materials." For most contractors, these should be excluded from PPC or bid at very low levels. They are better suited for SEO <a href="/services/content-marketing">content marketing</a>.</p>
 
 <div class="cost-table">
 <table>
@@ -636,7 +664,7 @@ const description = "Complete PPC guide for home service businesses. Includes ke
 
 <h3>Form Tracking and Conversion Actions</h3>
 
-<p>Set up conversion tracking in Google Ads for every lead generation action:</p>
+<p>Set up conversion tracking in Google Ads for every <a href="/services/lead-generation">lead generation</a> action:</p>
 
 <ul>
 <li><strong>Form submissions:</strong> Thank-you page load or form submit event in Google Tag Manager.</li>
@@ -963,4 +991,19 @@ const description = "Complete PPC guide for home service businesses. Includes ke
 <a class="cta-button" href="/contact">Request Your Free PPC Audit</a>
 </div>
 
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/roofing-marketing-strategies">21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]</a></li>
+<li><a href="/blog/roofing-marketing-guide">The Complete Roofing Marketing Guide (2026)</a></li>
+<li><a href="/blog/local-seo-guide">The Complete Local SEO Guide for Home Service Businesses (2026)</a></li>
+<li><a href="/blog/google-business-profile-guide">Google Business Profile Optimization: The Complete 2025 Guide</a></li>
+</ul>
+
+<div class="cta-box">
+<h3>Need a Website That Actually Converts?</h3>
+<p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
+<a href="https://calendly.com/getonwardcraft/30min" target="_blank">Book Your Free Call</a>
+</div>
 </BlogPostLayout>
