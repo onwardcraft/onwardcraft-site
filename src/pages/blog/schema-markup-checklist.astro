@@ -25,7 +25,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <p>Yet most local businesses have little to no schema markup on their websites. The ones that do often implement it incorrectly — missing critical properties, using the wrong schema types, or failing to validate their code. The result? Missed opportunities to stand out in search results while competitors capture the attention of homeowners actively searching for services.</p>
 <p>This schema markup checklist solves that problem. We have identified the 25 structured data types that matter most for local businesses and home service contractors. Each type includes a practical explanation of why it matters, how it impacts your SEO, and real code examples you or your developer can implement today. Whether you are a plumbing company in Phoenix or an HVAC contractor in Chicago, this checklist gives you the exact structured data framework you need to outrank competitors who are still relying on basic HTML.</p>
 <p>Let us walk through all 25 schema types, organized by priority — essential first, then important, then advanced.</p>
-<hr>
+<hr />
 <h2>Essential Schema Types (1-10)</h2>
 <p>These ten schema types form the foundation of any effective local SEO schema strategy. Without these, you are leaving the most significant SEO advantages on the table. Every home service business should implement these before moving on to the more advanced types.</p>
 <h3>1. LocalBusiness Schema</h3>
@@ -45,7 +45,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>openingHours</strong>: Business hours for each day</li>
 </ul>
 <p>Here is a practical example for an HVAC company:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;HVACBusiness&quot;,
   &quot;name&quot;: &quot;Cool Air HVAC Services&quot;,
@@ -83,7 +83,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>contactPoint</strong>: Customer service contact information</li>
 </ul>
 <p>Here is an example:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;Organization&quot;,
   &quot;name&quot;: &quot;Premier Home Services Inc.&quot;,
@@ -108,7 +108,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <p>WebSite schema tells search engines about your website structure and provides a direct path to your site search functionality. While it may seem basic, this schema type enables the Sitelinks Search Box feature in Google search results — the search box that appears below some website listings allowing users to search directly within your site.</p>
 <p>For contractors, the Sitelinks Search Box is valuable because it allows potential customers to search your site for specific services (&quot;water heater repair,&quot; &quot;AC installation&quot;) directly from Google results, increasing engagement and reducing friction in the customer journey.</p>
 <p>Here is the implementation:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;WebSite&quot;,
   &quot;name&quot;: &quot;Cool Air HVAC Services&quot;,
@@ -139,7 +139,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>breadcrumb</strong>: Reference to breadcrumb schema</li>
 </ul>
 <p>Example implementation:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;WebPage&quot;,
   &quot;name&quot;: &quot;Emergency Plumbing Services in Phoenix | Cool Air HVAC&quot;,
@@ -165,7 +165,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>aggregateRating</strong>: Average customer rating</li>
 </ul>
 <p>Here is an example for a specific HVAC service:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;Service&quot;,
   &quot;serviceType&quot;: &quot;Air Conditioning Installation&quot;,
@@ -192,7 +192,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <p>FAQPage schema is one of the highest-impact schema types for home service businesses. It enables the FAQ rich result in Google search — those expandable question-and-answer boxes that appear below some search results. These rich results dramatically increase your search result real estate and provide immediate value to searchers, often improving click-through rates by 15-30%.</p>
 <p>For contractors, FAQPage schema should be implemented on every service page and location page. The questions should reflect actual customer concerns: &quot;How much does AC repair cost?&quot; &quot;Do you offer emergency services?&quot; &quot;What brands do you install?&quot; &quot;How long does installation take?&quot;</p>
 <p>Implementation requires a mainEntity array containing question-answer pairs:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;FAQPage&quot;,
   &quot;mainEntity&quot;: [
@@ -230,7 +230,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>step</strong>: Array of individual steps with text and images</li>
 </ul>
 <p>Example:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;HowTo&quot;,
   &quot;name&quot;: &quot;How to Change Your AC Filter&quot;,
@@ -261,7 +261,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <p>Review schema marks up individual customer reviews on your website. When implemented on testimonial pages or alongside service descriptions, it can contribute to rich results displaying star ratings and review snippets in search results.</p>
 <p>For home service businesses, Review schema should be applied to individual customer testimonials on your website. Each review should include the reviewer name (or &quot;Anonymous&quot;), the review rating, the review text, and the date published.</p>
 <p>Example implementation:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;Review&quot;,
   &quot;itemReviewed&quot;: {
@@ -287,7 +287,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <p>AggregateRating schema displays your overall star rating and total review count in search results. Unlike Review schema which marks up individual reviews, AggregateRating provides a summary of all your ratings. This is the schema type that creates those eye-catching star ratings you see in search results for products, services, and local businesses.</p>
 <p>For contractors, AggregateRating schema should be implemented on your homepage, service pages, and location pages. The rating should reflect your actual average across all review platforms — Google, Yelp, Facebook, BBB — not just reviews on your own website.</p>
 <p>Example:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;HVACBusiness&quot;,
   &quot;name&quot;: &quot;Cool Air HVAC Services&quot;,
@@ -305,7 +305,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <p>BreadcrumbList schema creates the breadcrumb navigation trail that appears in Google search results, showing users the path to your page within your site structure. Instead of displaying a raw URL like &quot;<a href="http://www.example.com/services/plumbing/emergency-repair">www.example.com/services/plumbing/emergency-repair</a>,&quot; Google can display &quot;Home &gt; Services &gt; Plumbing &gt; Emergency Repair.&quot;</p>
 <p>For contractors with multi-level site structures — service categories, individual services, location pages, blog categories — breadcrumb schema improves both user experience and search result presentation.</p>
 <p>Implementation:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;BreadcrumbList&quot;,
   &quot;itemListElement&quot;: [
@@ -332,7 +332,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 </code></pre>
 <p><strong>Why this matters for contractors:</strong> Breadcrumb schema improves click-through rates by making search results more readable and professional. It also helps Google understand your site architecture, which can improve crawling efficiency and indexation of deeper pages. For large contractor websites with dozens of service and location pages, this structural clarity is essential.</p>
 <p><strong>Pro tip:</strong> Ensure your breadcrumb schema matches the actual breadcrumb navigation visible on your page. Google checks for consistency between visible content and structured data. Mismatches can result in the breadcrumb rich result not appearing.</p>
-<hr>
+<hr />
 <h2>Important Schema Types (11-18)</h2>
 <p>Once you have implemented the essential schema types, these eight additional structured data types provide significant SEO advantages for specific content types and business scenarios. They are not universally required but deliver strong returns when applied appropriately.</p>
 <h3>11. Product Schema</h3>
@@ -350,7 +350,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>review</strong>: Individual product reviews</li>
 </ul>
 <p>Example for an HVAC system:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;Product&quot;,
   &quot;name&quot;: &quot;Carrier Infinity 26 Air Conditioner&quot;,
@@ -388,7 +388,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>eligibleRegion</strong>: Geographic eligibility</li>
 </ul>
 <p>Example for a seasonal HVAC promotion:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;Offer&quot;,
   &quot;name&quot;: &quot;Spring AC Tune-Up Special&quot;,
@@ -421,7 +421,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>award</strong>: Professional certifications</li>
 </ul>
 <p>Example:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;Person&quot;,
   &quot;name&quot;: &quot;Michael Rodriguez&quot;,
@@ -454,7 +454,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>mainEntityOfPage</strong>: Canonical URL</li>
 </ul>
 <p>Example:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;Article&quot;,
   &quot;headline&quot;: &quot;5 Signs Your AC Needs Replacement Before Summer&quot;,
@@ -482,7 +482,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <p>BlogPosting schema is a more specific subtype of Article schema designed specifically for blog content. While functionally similar to Article schema, using BlogPosting for your blog posts provides Google with explicit confirmation that the content is blog-style editorial rather than news or formal article content.</p>
 <p>For contractors maintaining active blogs, BlogPosting schema should be the default for all posts. It pairs naturally with other schema types — FAQPage schema for posts answering common questions, HowTo schema for instructional posts, and Review schema for posts featuring customer testimonials.</p>
 <p>Example:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;BlogPosting&quot;,
   &quot;headline&quot;: &quot;How to Prepare Your HVAC System for Arizona Summer&quot;,
@@ -517,7 +517,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>author</strong>: Photographer credit</li>
 </ul>
 <p>Example:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;ImageObject&quot;,
   &quot;url&quot;: &quot;https://www.coolairhvac.com/projects/hvac-installation-phoenix.jpg&quot;,
@@ -545,7 +545,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>publisher</strong>: Video publisher</li>
 </ul>
 <p>Example:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;VideoObject&quot;,
   &quot;name&quot;: &quot;What to Expect During AC Installation&quot;,
@@ -579,7 +579,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>organizer</strong>: Event organizer</li>
 </ul>
 <p>Example:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;Event&quot;,
   &quot;name&quot;: &quot;Free HVAC Maintenance Workshop&quot;,
@@ -607,7 +607,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 </code></pre>
 <p><strong>Why this matters for contractors:</strong> Event schema puts your business in front of local searchers looking for activities and events in your area. Even if the event itself does not generate direct revenue, the brand exposure and community goodwill create long-term customer relationships. For contractors focused on local market dominance, event visibility is a powerful differentiator.</p>
 <p><strong>Pro tip:</strong> Google Events requires specific formatting for dates and times. Always use ISO 8601 format (YYYY-MM-DDTHH:MM:SS) and include timezone information when possible. Incorrect date formatting is the most common reason Event schema fails validation.</p>
-<hr>
+<hr />
 <h2>Advanced Schema Types (19-25)</h2>
 <p>These seven schema types are considered advanced because they require more technical implementation or apply to specific business scenarios. However, when used correctly, they provide competitive advantages that most local businesses never achieve.</p>
 <h3>19. JobPosting Schema</h3>
@@ -627,7 +627,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>qualifications</strong>: Required qualifications</li>
 </ul>
 <p>Example:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;JobPosting&quot;,
   &quot;title&quot;: &quot;HVAC Installation Technician&quot;,
@@ -679,7 +679,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>CleaningService</strong> — For residential and commercial cleaning</li>
 </ul>
 <p>Example using a specific subtype:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;PlumbingService&quot;,
   &quot;name&quot;: &quot;Rapid Flow Plumbing&quot;,
@@ -700,7 +700,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <p>Speakable schema identifies sections of your content that are optimized for voice search and audio playback. It tells Google which portions of your page are most appropriate for reading aloud through voice assistants like Google Assistant, Siri, and Alexa.</p>
 <p>With voice search growing rapidly — particularly for local &quot;near me&quot; queries — Speakable schema positions your content to be the answer when homeowners ask their devices questions like &quot;Hey Google, how do I know if my water heater is failing?&quot; or &quot;Alexa, what does AC maintenance include?&quot;</p>
 <p>Implementation:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;WebPage&quot;,
   &quot;name&quot;: &quot;AC Maintenance Guide&quot;,
@@ -711,7 +711,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 }
 </code></pre>
 <p>The CSS selectors reference HTML elements on your page that contain voice-optimized content:</p>
-<pre><code class="language-html">&lt;div class=&quot;speakable-intro&quot;&gt;
+<pre is:raw><code class="language-html">&lt;div class=&quot;speakable-intro&quot;&gt;
   &lt;p&gt;Annual AC maintenance includes cleaning the condenser coils, checking refrigerant levels, inspecting electrical connections, and testing system performance. Regular maintenance prevents breakdowns, extends equipment life, and maintains manufacturer warranty coverage.&lt;/p&gt;
 &lt;/div&gt;
 </code></pre>
@@ -729,7 +729,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>TradeAction</strong> — For quotes and estimates</li>
 </ul>
 <p>Example for appointment booking:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;HVACBusiness&quot;,
   &quot;name&quot;: &quot;Cool Air HVAC Services&quot;,
@@ -766,7 +766,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>hoursAvailable</strong>: When contact method is staffed</li>
 </ul>
 <p>Example with multiple contact points:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;HVACBusiness&quot;,
   &quot;name&quot;: &quot;Cool Air HVAC Services&quot;,
@@ -804,7 +804,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>isOpen</strong>: Whether location is open (for holidays)</li>
 </ul>
 <p>Example with regular and holiday hours:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;HVACBusiness&quot;,
   &quot;name&quot;: &quot;Cool Air HVAC Services&quot;,
@@ -843,7 +843,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <li><strong>longitude</strong>: Longitude coordinate</li>
 </ul>
 <p>Example within LocalBusiness schema:</p>
-<pre><code class="language-json">{
+<pre is:raw><code class="language-json">{
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;HVACBusiness&quot;,
   &quot;name&quot;: &quot;Cool Air HVAC Services&quot;,
@@ -863,7 +863,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 </code></pre>
 <p><strong>Why this matters for contractors:</strong> Precise coordinates ensure Google places your business in the correct geographic area for local searches. This is especially important in large metro areas where multiple cities and neighborhoods overlap. A contractor on the border of two service areas needs accurate coordinates to rank in both.</p>
 <p><strong>Pro tip:</strong> Use Google Maps to find your exact coordinates by right-clicking your business location and copying the lat/long values. Ensure these coordinates match your Google Business Profile location exactly. Discrepancies between your website schema and GBP location can create confusing signals that hurt local rankings.</p>
-<hr>
+<hr />
 <h2>How to Test and Validate Your Schema Markup</h2>
 <p>Implementing schema markup is only half the battle. The other half is ensuring it works correctly. Google is strict about structured data quality, and invalid schema can result in rich results not appearing — or worse, manual penalties for guideline violations.</p>
 <h3>Step 1: Use Google&#39;s Rich Results Test</h3>
@@ -878,7 +878,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <h3>Step 4: Verify Rich Result Appearance</h3>
 <p>Validation tools confirm your schema is technically correct, but only live search results confirm it is working. After implementing schema, search for your target keywords and verify that rich results actually appear.</p>
 <p>Rich results do not appear immediately — Google must crawl and process your schema first. Allow 1-2 weeks after implementation before expecting to see changes in search results.</p>
-<hr>
+<hr />
 <h2>Common Schema Markup Mistakes Contractors Make</h2>
 <p>Even with the best intentions, schema implementation often goes wrong. Here are the most common mistakes we see on contractor websites:</p>
 <p><strong>Using the wrong schema type.</strong> A plumbing company using generic LocalBusiness instead of PlumbingService misses an important relevance signal. Always use the most specific type available.</p>
@@ -887,7 +887,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <p><strong>Markup that does not match visible content.</strong> Google checks that schema data matches what users see on the page. Marking up reviews that are not displayed, or prices that differ from visible pricing, violates guidelines.</p>
 <p><strong>Over-optimizing with fake reviews.</strong> Creating Review or AggregateRating schema for reviews that do not exist is a direct violation of Google&#39;s guidelines and can result in manual penalties.</p>
 <p><strong>Ignoring updates.</strong> Schema markup is not a set-it-and-forget-it task. Business moves, phone numbers change, hours adjust, and services expand. Outdated schema is often worse than no schema at all.</p>
-<hr>
+<hr />
 <h2>Schema Markup Implementation Priority for Contractors</h2>
 <p>If you are overwhelmed by 25 schema types, here is a practical implementation priority based on SEO impact and implementation difficulty:</p>
 <p><strong>Week 1 — Foundation:</strong> Implement LocalBusiness, Organization, and WebPage schema on your homepage. These are the highest-impact, easiest-to-implement types.</p>
@@ -895,7 +895,7 @@ Meta Description: Complete schema markup checklist for local businesses. Include
 <p><strong>Week 3 — Content:</strong> Implement FAQPage schema on service pages, Article/BlogPosting schema on blog posts, and HowTo schema on instructional content.</p>
 <p><strong>Week 4 — Enhancement:</strong> Add AggregateRating schema if you have sufficient reviews, BreadcrumbList schema across your site, and ImageObject/VideoObject schema for media content.</p>
 <p><strong>Month 2 — Advanced:</strong> Implement the remaining types based on your specific business needs — Product schema if you sell equipment, JobPosting schema if you are hiring, Event schema if you host events.</p>
-<hr>
+<hr />
 <h2>Conclusion</h2>
 <p>Schema markup is no longer optional for home service businesses competing in local search. It is the difference between a plain search result and a rich, interactive result that captures attention, builds trust, and drives clicks. For contractors in competitive markets, the businesses that implement comprehensive schema markup will consistently outrank those that do not.</p>
 <p>This checklist gives you 25 structured data types to work with, organized by priority and impact. Start with the essential types — LocalBusiness, Organization, Service, FAQPage — and build from there. Test every implementation, monitor your results, and keep your markup updated as your business evolves.</p>
