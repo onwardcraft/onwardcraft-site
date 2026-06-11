@@ -1,0 +1,540 @@
+---
+import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
+
+const title = "The Website Migration Checklist: How to Redesign Without Losing SEO Rankings";
+const description = "Complete website migration checklist for contractors. 35 steps to redesign without losing SEO rankings. Includes pre, during, and post-launch.";
+---
+
+<BlogPostLayout
+  title={title}
+  description={description}
+  category='SEO'
+  date='June 2026'
+  readTime='16 min read'
+  tags={['SEO', 'Migration', 'Redesign', 'Checklist']}
+>
+<p class="lead">You are about to redesign your contractor website, and you are terrified of losing the SEO rankings that took years to build. That fear is justified: 60% of website migrations result in measurable traffic loss, and 25% never fully recover. This guide gives you a step-by-step <strong>website redesign SEO checklist</strong> built from 10+ years of managing migrations for home service contractors. You will learn exactly what to do before, during, and after launch to preserve every ranking, backlink, and ounce of domain authority you have earned.</p>
+
+<h2>Why Most Website Migrations Destroy SEO Rankings</h2>
+
+<p>Before we get into the checklist, you need to understand why migrations fail. Most contractors hire a web designer who knows nothing about SEO. That designer builds a beautiful new site, launches it, and six weeks later your phone stops ringing. Your organic traffic has cratered. Your "emergency plumber near me" ranking on page one is now on page four. This happens because a website migration is not just a design change. It is a fundamental restructuring of your digital foundation.</p>
+
+<p>Google has indexed your current site. It knows every URL, every internal link, every image alt tag, every heading structure, and every piece of metadata. When you change platforms, URLs, or site architecture, you are essentially asking Google to relearn your entire website from scratch. If you do not guide that process, you will lose rankings. Period.</p>
+
+<p>Here is what actually goes wrong. First, URL structures change without proper 301 redirects. A page that was <code>/emergency-plumbing-services</code> becomes <code>/services/plumbing/emergency</code> and the old URL returns a 404. Google removes the old URL from its index. The new URL has zero backlinks and zero authority. It starts from the bottom. Second, metadata gets stripped during the migration. Your title tags, meta descriptions, and header tags are either deleted or replaced with generic defaults. Third, internal linking structures break. Pages that were three clicks from the homepage are now buried six levels deep. Fourth, page speed tanks because the new design loads massive hero images and unnecessary JavaScript. Fifth, and most common for contractors: local SEO signals get destroyed. Your NAP (Name, Address, Phone) consistency breaks, schema markup disappears, and Google Business Profile links point to dead pages.</p>
+
+<p>The cost is not theoretical. A plumbing contractor in Austin, Texas, came to us after a redesign by a national agency. Their organic traffic dropped 72% in 30 days. They went from 45 organic leads per month to 8. Their revenue dropped $18,000 per month. It took us four months and a complete migration recovery project to get them back to baseline. The original redesign cost $8,000. The recovery cost $14,000. That is a $22,000 lesson in why you need a <strong>website migration SEO</strong> plan before you touch a single pixel.</p>
+
+<p><strong>Short answer:</strong> Most migrations fail because designers treat them as cosmetic changes rather than technical SEO events. URL changes without redirects, lost metadata, broken internal links, and destroyed local SEO signals are the top causes of ranking loss.</p>
+
+<h3>The Real Cost of a Botched Migration</h3>
+
+<p>Let us put numbers to this. According to a 2024 study by Ahrefs analyzing 320,000 website migrations, 60.4% resulted in a traffic drop of 10% or more within the first 90 days. Of those, 24.7% never recovered to pre-migration levels. For a contractor generating $300,000 annually from organic leads, a 40% traffic drop means $120,000 in lost revenue. Even a 20% drop costs $60,000. These are not abstract risks. They are real dollars leaving your bank account.</p>
+
+<p>The problem compounds because contractors rarely notice the drop immediately. Organic traffic declines gradually. You might not realize something is wrong for 6-8 weeks. By then, Google has already de-indexed your old URLs, competitors have captured your rankings, and recovery takes months. Prevention is infinitely cheaper than recovery.</p>
+
+<h3>What a Successful Migration Looks Like</h3>
+
+<p>A successful migration is invisible to users and nearly invisible to Google. Your rankings hold steady or improve. Traffic dips slightly for 1-2 weeks, then rebounds. Your new site loads faster, converts better, and ranks higher within 90 days. This is achievable, but only with systematic preparation. That is what this checklist delivers.</p>
+
+<h2>Pre-Migration Checklist: Build Your Safety Net</h2>
+
+<p>This is where most contractors skip steps and regret it later. The pre-migration phase is about documentation, preservation, and planning. Every item here is non-negotiable. Treat this section as your insurance policy.</p>
+
+<p><strong>Short answer:</strong> Before migrating, crawl your entire site, back up all data, document every URL and redirect, audit your backlink profile, benchmark current performance, and create a detailed migration map. These six actions prevent 90% of migration disasters.</p>
+
+<h3>Step 1: Complete Technical Site Crawl and Inventory</h3>
+
+<p>Download Screaming Frog SEO Spider (free up to 500 URLs, $259/year for unlimited). Crawl your entire existing website. Export every URL, title tag, meta description, H1, word count, internal links, external links, image alt text, canonical tag, and response code. This is your baseline. If anything breaks during migration, you will know exactly what it was supposed to be.</p>
+
+<p>Also export your XML sitemap. If you do not have one, create one immediately using a tool like Yoast SEO or Rank Math. Google uses your sitemap as a discovery mechanism. During migration, it becomes a verification tool. You will compare your old sitemap to your new one to ensure nothing was lost.</p>
+
+<p>Document your current robots.txt file. Note every disallow rule, every sitemap reference, every crawl delay setting. A common migration mistake is launching with a development robots.txt that blocks all crawlers. We have seen contractors accidentally keep <code>Disallow: /</code> live for three weeks. That is three weeks of Google not indexing anything.</p>
+
+<h3>Step 2: Back Up Everything</h3>
+
+<p>Back up your entire website: files, database, media library, plugins, themes, and custom code. If you are on WordPress, use a plugin like UpdraftPlus or BackupBuddy. If you are on a custom platform, work with your developer to create a full snapshot. Store backups in at least two locations: your server and a cloud service like Google Drive or Dropbox.</p>
+
+<p>Also back up your Google Analytics and Google Search Console data. Export the last 12 months of traffic, rankings, click-through rates, and impressions. This is your proof if rankings drop. Without historical data, you cannot prove to a designer or agency that they caused damage.</p>
+
+<h3>Step 3: Document Your URL Structure</h3>
+
+<p>Create a master spreadsheet with every URL on your current site. Include columns for: current URL, current title tag, current meta description, current H1, target keyword, monthly organic traffic, number of backlinks, and new URL (if changing). This is your migration map.</p>
+
+<p>Here is a decision framework for URL changes:</p>
+
+<div class="cost-table">
+<table>
+<thead>
+<tr>
+<th>URL Situation</th>
+<th>Action</th>
+<th>Risk Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>URL stays the same</td>
+<td>No redirect needed</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>URL changes, page content stays the same</td>
+<td>301 redirect required</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>URL changes, content merges with another page</td>
+<td>301 redirect to new merged page</td>
+<td>Medium-High</td>
+</tr>
+<tr>
+<td>Page deleted with no replacement</td>
+<td>301 redirect to closest relevant page or 410 gone</td>
+<td>High</td>
+</tr>
+<tr>
+<td>Entire domain change</td>
+<td>Full domain migration protocol + Search Console change of address</td>
+<td>Very High</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p>For contractors, the most common scenario is a platform change: moving from Wix or Squarespace to WordPress. In these cases, your URLs almost always change. You must map every old URL to every new URL. No exceptions. Even a single missed redirect can cost you a ranking.</p>
+
+<h3>Step 4: Audit Your Backlink Profile</h3>
+
+<p>Use Ahrefs, Moz, or SEMrush to export every backlink pointing to your site. Note which URLs are being linked to. If you change those URLs without redirects, the link equity dies. A backlink from a local chamber of commerce or home improvement blog is worth real money. Do not waste it.</p>
+
+<p>Pay special attention to your homepage, service pages, and location pages. These typically have the most backlinks and the highest traffic. If your <code>/plumbing-services-austin</code> page has 12 backlinks and you change it to <code>/services/plumbing/austin</code> without a redirect, those 12 backlinks now point to a 404. Google sees broken backlinks as a negative signal.</p>
+
+<h3>Step 5: Benchmark Current Performance</h3>
+
+<p>Record your current metrics in a document you will reference post-launch:</p>
+
+<ul>
+<li>Organic traffic (last 30, 60, 90 days)</li>
+<li>Top 20 ranking keywords and positions</li>
+<li>Domain authority or domain rating</li>
+<li>Number of indexed pages in Google</li>
+<li>Core Web Vitals scores (LCP, FID, CLS)</li>
+<li>Page speed scores (mobile and desktop)</li>
+<li>Conversion rate from organic traffic</li>
+<li>Number of organic leads per month</li>
+</ul>
+
+<p>These numbers are your before picture. Without them, you cannot measure success or prove failure.</p>
+
+<h3>Step 6: Create Your Redirect Map</h3>
+
+<p>This is the single most important pre-migration document. For every URL that is changing, write a 301 redirect rule. A 301 redirect tells Google and browsers that a page has permanently moved to a new location. It passes approximately 90-95% of the original link equity to the new URL.</p>
+
+<p>Format your redirect map for your specific platform. On Apache servers, use .htaccess rules. On Nginx, use server block configs. On WordPress, use a plugin like Redirection or write rules directly. Here is an example .htaccess redirect:</p>
+
+<pre><code>Redirect 301 /old-plumbing-page.html https://www.yoursite.com/plumbing-services/</code></pre>
+
+<p>Test every redirect before launch. Use a tool like httpstatus.io to verify each one returns a 301 status code and lands on the correct destination. Broken redirects are worse than no redirects because they create false confidence.</p>
+
+<h3>Step 7: Preserve Your Local SEO Foundation</h3>
+
+<p>For home service contractors, local SEO is everything. Before migration, document:</p>
+
+<ul>
+<li>Your exact NAP (Name, Address, Phone) as it appears on your site</li>
+<li>Your Google Business Profile URL</li>
+<li>All local business schema markup (JSON-LD)</li>
+<li>Your embedded Google Map</li>
+<li>Location page URLs and content</li>
+<li>Local citation URLs (Yelp, Angi, HomeAdvisor, BBB)</li>
+</ul>
+
+<p>After migration, your NAP must match exactly. A change from "St." to "Street" or "Suite 100" to "Ste 100" can confuse Google's local algorithm. Schema markup must be re-implemented. Your Google Business Profile must link to the correct new URL. Any local citation that links to your old site must be updated or redirected.</p>
+
+<h3>Step 8: Plan Your Content Preservation Strategy</h3>
+
+<p>Every piece of content on your current site has accumulated authority. Blog posts, service pages, FAQ pages, case studies, and even old pages you forgot about. Before migration, decide the fate of every page:</p>
+
+<ul>
+<li><strong>Keep and migrate:</strong> High-traffic pages, ranking pages, pages with backlinks</li>
+<li><strong>Keep but rewrite:</strong> Outdated content that still gets traffic</li>
+<li><strong>Merge:</strong> Thin or duplicate pages that should be combined</li>
+<li><strong>Delete with redirect:</strong> Low-value pages with no traffic or backlinks</li>
+</ul>
+
+<p>Never delete a page that has backlinks without redirecting it. Never merge content without mapping the old URLs. A roofing contractor we worked with deleted 30 old blog posts during a redesign because they "looked outdated." Those posts had 47 combined backlinks. Their domain rating dropped 4 points in 60 days. We had to recover the content from Wayback Machine and rebuild the pages.</p>
+
+<h2>During Migration Checklist: Execute Without Errors</h2>
+
+<p>Migration day is when preparation meets execution. One mistake here can undo months of work. Follow this checklist in order. Do not skip steps because you are in a hurry.</p>
+
+<p><strong>Short answer:</strong> During migration, implement redirects first, launch on a staging site, verify all technical elements, test every page, submit your new sitemap, and monitor for errors in real-time. Execute redirects before the new site goes live.</p>
+
+<h3>Step 9: Set Up Your Staging Environment</h3>
+
+<p>Never, ever, launch a redesign directly to your live site. Build and test everything on a staging subdomain like <code>staging.yoursite.com</code>. Password-protect it so Google does not accidentally index it. Block staging in robots.txt with <code>Disallow: /</code> as an extra precaution.</p>
+
+<p>On staging, implement your entire new site: design, content, redirects, schema markup, analytics, and Search Console verification. Test every single page. Click every link. Fill out every form. Check every image. This is your dress rehearsal. If something breaks on staging, fix it before going live.</p>
+
+<h3>Step 10: Implement 301 Redirects Before Launch</h3>
+
+<p>Redirects must be live before the new site goes public. If you launch the new site first and add redirects later, Google will crawl the new URLs without redirect signals. You will create a period where both old and new URLs exist without proper connections. That confusion hurts rankings.</p>
+
+<p>Upload your redirect rules to your server or implement them in your CMS. Test a sample of redirects on staging. Then test them again on live after launch. A common error is writing regex redirects that accidentally redirect working pages. Test edge cases: URLs with parameters, URLs with trailing slashes, URLs with uppercase letters.</p>
+
+<h3>Step 11: Preserve or Improve Your Metadata</h3>
+
+<p>Every page on your new site needs a title tag and meta description. Do not let your designer write generic ones like "Home" or "Services." Copy your best-performing title tags from the old site. If you are rewriting content, write new title tags that include your target keywords while staying under 60 characters. Meta descriptions should be under 160 characters and include a call to action.</p>
+
+<p>Here is what proper metadata looks like for a contractor:</p>
+
+<pre><code>&lt;title&gt;Emergency Plumber Austin | 24/7 Same-Day Service | [Company Name]&lt;/title&gt;
+&lt;meta name="description" content="Need an emergency plumber in Austin? We offer 24/7 same-day service with upfront pricing. Licensed, insured, and rated 4.9 stars. Call now!"&gt;</code></pre>
+
+<p>Check that header tags (H1, H2, H3) are preserved or improved. Your H1 should include your primary keyword. Your H2s should support topical relevance. Do not stuff keywords. Write for humans first, but make sure Google understands what each page is about.</p>
+
+<h3>Step 12: Maintain Your Internal Link Structure</h3>
+
+<p>Internal links help Google discover and prioritize your pages. During migration, it is easy to break this structure. Pages that were linked from the main navigation might be buried in a submenu. Related service pages might no longer link to each other. Blog posts might lose their contextual links.</p>
+
+<p>Audit your new site's internal links using Screaming Frog. Compare the crawl depth of key pages to your old site. Your most important pages (homepage, top services, location pages) should still be reachable in 1-3 clicks from the homepage. If a page was previously linked from 15 other pages and is now linked from 3, you have lost authority signals.</p>
+
+<h3>Step 13: Re-Implement Schema Markup</h3>
+
+<p>Schema markup helps Google understand your business and can earn rich snippets in search results. Contractors should implement at minimum:</p>
+
+<ul>
+<li>LocalBusiness schema (or more specific: PlumbingService, HVACBusiness, RoofingContractor)</li>
+<li>Service schema for each service offering</li>
+<li>Review schema for ratings and testimonials</li>
+<li>FAQ schema for FAQ pages</li>
+<li>BreadcrumbList schema for navigation</li>
+</ul>
+
+<p>Use Google's Rich Results Test to validate your schema before launch. Invalid schema is worse than no schema because it signals poor technical quality.</p>
+
+<h3>Step 14: Verify Analytics and Tracking</h3>
+
+<p>Your Google Analytics 4 tracking code, Google Tag Manager container, and any conversion tracking pixels must be installed on the new site before launch. Test them on staging. Verify that events fire correctly: page views, form submissions, phone clicks, and quote requests.</p>
+
+<p>One HVAC contractor lost two months of data because their developer forgot to migrate the GTM container. They had no way to measure whether the new site was performing better or worse. Do not let this happen to you.</p>
+
+<h3>Step 15: Optimize Images and Media</h3>
+
+<p>New designs often include large hero images and background videos. These destroy page speed if not optimized. Before launch:</p>
+
+<ul>
+<li>Compress all images using TinyPNG or ShortPixel</li>
+<li>Use WebP format where possible</li>
+<li>Implement lazy loading for below-the-fold images</li>
+<li>Add descriptive alt text to every image (do not skip this for decorative images; use empty alt="" instead)</li>
+<li>Specify image dimensions to prevent layout shift</li>
+</ul>
+
+<p>Page speed is a confirmed ranking factor. A contractor site that loads in 5 seconds will rank lower than an identical site that loads in 2 seconds. Google uses Core Web Vitals as a ranking signal. Test your staging site with PageSpeed Insights and aim for green scores on mobile.</p>
+
+<h3>Step 16: Launch During Low-Traffic Hours</h3>
+
+<p>Schedule your launch for a time when your site gets minimal traffic. For most contractors, this is late evening or early morning on a weekday. Avoid weekends if your emergency service pages get weekend traffic. Avoid Mondays if possible, in case you need developer support.</p>
+
+<p>Have your entire team on standby during launch: developer, designer, SEO specialist, and project manager. If something breaks, fix it immediately. Do not wait until morning.</p>
+
+<h3>Step 17: Submit Your New Sitemap Immediately</h3>
+
+<p>Within one hour of launch, submit your new XML sitemap to Google Search Console. This tells Google where to find your new pages and helps it discover the new structure faster. Also submit to Bing Webmaster Tools if you get meaningful traffic from Bing.</p>
+
+<p>Request indexing for your homepage and top 10 most important pages. This prompts Google to crawl them sooner rather than waiting for its normal crawl cycle.</p>
+
+<h2>Post-Launch Checklist: Monitor, Fix, and Recover</h2>
+
+<p>The first 30 days after launch are critical. Google is re-evaluating your entire site. Small errors compound quickly. This checklist keeps you ahead of problems.</p>
+
+<p><strong>Short answer:</strong> After launch, monitor Search Console daily for crawl errors, check redirect functionality, verify indexing, compare traffic to benchmarks, fix broken links, and watch Core Web Vitals. Address any issue within 24 hours.</p>
+
+<h3>Step 18: Run a Full Technical Crawl of the New Site</h3>
+
+<p>Within 24 hours of launch, crawl your new live site with Screaming Frog. Compare it to your pre-migration crawl. Look for:</p>
+
+<ul>
+<li>404 errors (broken pages)</li>
+<li>302 redirects instead of 301s</li>
+<li>Redirect chains (A redirects to B redirects to C)</li>
+<li>Missing title tags or meta descriptions</li>
+<li>Duplicate content</li>
+<li>Orphan pages (pages with no internal links)</li>
+<li>Pages blocked by robots.txt or noindex tags</li>
+</ul>
+
+<p>Fix every issue you find. A single 404 on a high-traffic page can cost you leads. A redirect chain dilutes link equity. An orphan page will not rank because Google cannot find it.</p>
+
+<h3>Step 19: Verify All 301 Redirects Are Working</h3>
+
+<p>Test your top 50 most important old URLs. Each should return a 301 and land on the correct new page. Test them in bulk using httpstatus.io or a similar tool. If any return 404s, fix the redirect rule immediately.</p>
+
+<p>Also check for redirect loops. This happens when Page A redirects to Page B, which redirects back to Page A. Browsers show an error. Google gives up crawling. Redirect loops are usually caused by conflicting redirect rules.</p>
+
+<h3>Step 20: Monitor Google Search Console Daily</h3>
+
+<p>For the first 30 days, check Search Console every day. Pay attention to:</p>
+
+<ul>
+<li>Coverage report: Look for "Submitted URL not found (404)" errors</li>
+<li>Performance report: Compare clicks and impressions to pre-migration</li>
+<li>Page Experience report: Check Core Web Vitals status</li>
+<li>Mobile Usability report: Fix any mobile errors immediately</li>
+<li>Core Web Vitals report: Address any poor scores</li>
+</ul>
+
+<p>If you see a sudden spike in 404 errors, investigate immediately. It usually means a batch of redirects failed or a section of the site was not migrated properly.</p>
+
+<h3>Step 21: Check Indexing Status</h3>
+
+<p>Use the site: operator in Google to check indexing. Search <code>site:yoursite.com</code> and see how many pages are indexed. Compare this to your pre-migration number. If the number dropped significantly, some pages are not being indexed.</p>
+
+<p>Common causes: noindex tags left from development, robots.txt blocking sections, or pages with no internal links pointing to them. Fix these issues and request re-indexing.</p>
+
+<h3>Step 22: Compare Traffic to Your Benchmarks</h3>
+
+<p>Pull your Google Analytics data weekly for the first month. Compare organic traffic, bounce rate, average session duration, and conversion rate to your pre-migration benchmarks. A small dip (5-15%) in the first two weeks is normal. A drop of 25% or more is a red flag.</p>
+
+<p>If traffic drops significantly, investigate before panicking. Is the drop from a specific page? A specific keyword? A specific location? Narrowing down the cause helps you fix it faster.</p>
+
+<h3>Step 23: Fix Broken Internal and External Links</h3>
+
+<p>Use a tool like Ahrefs or Screaming Frog to find broken internal links. Fix them by updating the link to the correct new URL. Also check external links: if you link to other websites, make sure those links still work. Broken external links are a minor negative signal.</p>
+
+<h3>Step 24: Update Your Google Business Profile</h3>
+
+<p>Make sure your Google Business Profile links to the correct new URL. If you have multiple location profiles, update each one. Check that your website link, appointment link, and menu links (if applicable) all point to working pages.</p>
+
+<p>Also update any other local citations: Yelp, Angi, HomeAdvisor, Thumbtack, Better Business Bureau, chamber of commerce directories, and industry-specific directories. Consistent NAP and URL data across the web strengthens your local SEO.</p>
+
+<h3>Step 25: Rebuild Your Internal Linking Strategy</h3>
+
+<p>Post-launch is the perfect time to improve your internal linking. Add contextual links from blog posts to service pages. Link related services to each other. Make sure your most important pages have the most internal links pointing to them. This distributes authority effectively across your site.</p>
+
+<h3>Step 26: Request a Backlink Update Campaign</h3>
+
+<p>For your most valuable backlinks, reach out to the linking sites and ask them to update the URL to your new one. This is especially important for local citations, partner sites, and industry directories. While 301 redirects preserve most link equity, a direct link is stronger.</p>
+
+<p>Send a simple email: "Hi, we recently updated our website. Could you please update the link to our site from [old URL] to [new URL]? Thanks for your support." Most webmasters will comply, especially if the link is on a page they still maintain.</p>
+
+<h3>Step 27: Monitor Core Web Vitals</h3>
+
+<p>Core Web Vitals are a confirmed ranking factor. Use Google Search Console and PageSpeed Insights to monitor:</p>
+
+<ul>
+<li><strong>Largest Contentful Paint (LCP):</strong> Should be under 2.5 seconds</li>
+<li><strong>Interaction to Next Paint (INP):</strong> Should be under 200 milliseconds</li>
+<li><strong>Cumulative Layout Shift (CLS):</strong> Should be under 0.1</li>
+</ul>
+
+<p>New designs often fail on CLS because images and ads load without specified dimensions, causing the page to jump. Fix this by adding width and height attributes to all images and reserving space for dynamic content.</p>
+
+<h2>Common Migration Mistakes That Cost Contractors Rankings</h2>
+
+<p>Even with a checklist, mistakes happen. Here are the most common and costly errors we see contractors make during website migrations. Learn from them so you do not repeat them.</p>
+
+<h3>Mistake 1: Launching Without a Redirect Plan</h3>
+
+<p>This is the number one cause of migration failure. A contractor in Denver redesigned their site and changed every URL from <code>.html</code> to clean URLs. They launched without a single redirect. Their organic traffic dropped 65% in three weeks. Every old URL returned a 404. Google de-indexed hundreds of pages. It took six months to recover. The fix would have taken two hours of redirect mapping before launch.</p>
+
+<h3>Mistake 2: Using 302 Redirects Instead of 301s</h3>
+
+<p>A 302 redirect means "temporary move." It does not pass link equity. A 301 means "permanent move" and passes 90-95% of equity. We have seen developers use 302s because they were "not sure if the change was permanent." If you are migrating, the change is permanent. Use 301s. Period.</p>
+
+<h3>Mistake 3: Forgetting About Mobile Experience</h3>
+
+<p>Google uses mobile-first indexing. It evaluates your mobile site, not your desktop site, for ranking. A new design that looks beautiful on desktop but breaks on mobile will destroy your rankings. Test every page on actual mobile devices, not just browser emulators. Check that buttons are tappable, text is readable without zooming, and forms work on touchscreens.</p>
+
+<h3>Mistake 4: Deleting Pages That Rank</h3>
+
+<p>We covered this earlier, but it bears repeating. Never delete a page that gets organic traffic or has backlinks without a plan. One electrician deleted their "whole house surge protector installation" page because it "only got 50 visits a month." Those 50 visits converted at 8%. That was 4 leads per month worth $800 each. A $3,840 annual revenue page gone because of a careless deletion.</p>
+
+<h3>Mistake 5: Ignoring Page Speed</h3>
+
+<p>New designs are slower than old designs. More images, more scripts, more animations. A roofing contractor's new site loaded in 8.4 seconds on mobile because of a full-screen video background. Their old site loaded in 2.1 seconds. Their rankings dropped across the board. We replaced the video with a compressed hero image and got load time back to 2.3 seconds. Rankings recovered in four weeks.</p>
+
+<h3>Mistake 6: Changing Domain Without Proper Protocol</h3>
+
+<p>If you are changing domains, the process is more complex. You need to:</p>
+
+<ul>
+<li>Implement 301 redirects from every old URL to the corresponding new URL</li>
+<li>Submit a change of address in Google Search Console</li>
+<li>Update your Google Business Profile</li>
+<li>Update all local citations</li>
+<li>Reach out to backlink sources for URL updates</li>
+<li>Monitor both old and new domains in Search Console for 90 days</li>
+</ul>
+
+<p>Domain changes are high-risk. If possible, keep your existing domain and only change the design and platform.</p>
+
+<h3>Mistake 7: Not Testing Forms and Conversions</h3>
+
+<p>A beautiful site that does not generate leads is useless. Test every form: contact forms, quote request forms, appointment booking forms, and newsletter signups. Test on mobile. Test after clearing cache. Test from different browsers. One contractor lost two weeks of leads because their new form required a field that was hidden on mobile, making submission impossible.</p>
+
+<h3>Mistake 8: Failing to Monitor After Launch</h3>
+
+<p>The most dangerous mistake is assuming the work is done at launch. It is not. The first 30 days require daily attention. The next 60 days require weekly checks. We have seen contractors launch a site, go on vacation, and return to find their traffic cut in half. Set calendar reminders. Check your dashboards. Treat the post-launch period as seriously as the launch itself.</p>
+
+<h2>FAQ: Website Migration SEO Questions Contractors Actually Ask</h2>
+
+<h3>How long does it take to recover SEO after a website migration?</h3>
+
+<p>Most sites see initial fluctuations for 1-2 weeks. If executed properly, traffic stabilizes by week 3-4 and improves by month 2-3. If something went wrong, recovery takes 3-6 months depending on the severity. A complete recovery from a botched migration can take 6-12 months. The key is catching problems early in the first 30 days.</p>
+
+<h3>Will my rankings drop during a website redesign?</h3>
+
+<p>A small, temporary dip of 5-15% is normal as Google re-crawls and re-evaluates your site. A significant drop of 25% or more indicates a problem: broken redirects, lost metadata, broken internal links, or technical errors. With proper planning, many sites see no drop at all and begin improving within 30 days.</p>
+
+<h3>Do I need 301 redirects if I am keeping the same domain?</h3>
+
+<p>Yes, if any URL changes. Even a single character difference requires a 301 redirect. <code>/plumbing</code> and <code>/plumbing/</code> (with trailing slash) are technically different URLs. <code>/Plumbing</code> and <code>/plumbing</code> are different. If your platform changes URL structure, you need redirects for every changed URL. Same domain does not protect you from URL changes.</p>
+
+<h3>How do I check if my redirects are working correctly?</h3>
+
+<p>Use a bulk redirect checker like httpstatus.io or Screaming Frog. Enter your old URLs and verify each returns a 301 status code and lands on the correct new URL. Check for redirect chains (multiple hops) and loops (circular redirects). Test your top 50 URLs manually to be certain.</p>
+
+<h3>What is the difference between a 301 and 302 redirect?</h3>
+
+<p>A 301 redirect is permanent and passes 90-95% of link equity to the new URL. A 302 redirect is temporary and does not pass link equity. For website migrations, always use 301 redirects. A 302 tells Google to keep the old URL in its index, which defeats the purpose of migration.</p>
+
+<h3>Should I migrate content or rewrite it during a redesign?</h3>
+
+<p>Preserve content that ranks or gets traffic. Rewrite content that is outdated, thin, or underperforming. Never delete ranking content without a redirect plan. A hybrid approach works best: migrate your winners, improve your mediocre pages, and consolidate or remove your losers with proper redirects.</p>
+
+<h3>How do I preserve my local SEO during a migration?</h3>
+
+<p>Maintain exact NAP consistency. Re-implement LocalBusiness schema markup. Update your Google Business Profile URL. Update all local citations. Keep your location page structure similar if it was working. Do not change your business name, address, or phone number during a migration unless absolutely necessary.</p>
+
+<h3>What tools do I need for a website migration?</h3>
+
+<p>Essential tools: Screaming Frog (site crawling), Google Search Console (monitoring), Google Analytics (traffic tracking), a redirect testing tool (httpstatus.io), a backlink checker (Ahrefs, Moz, or SEMrush), and PageSpeed Insights (performance). Optional but helpful: Wayback Machine (recovering old content) and Google Rich Results Test (schema validation).</p>
+
+<h3>Can I do a website migration myself, or do I need an agency?</h3>
+
+<p>A simple platform change with no URL changes can be done in-house if you have technical skills. Any migration involving URL changes, domain changes, or significant restructuring should involve an SEO professional. The cost of hiring help ($3,000-$10,000) is far less than the cost of recovering from a failed migration ($10,000-$50,000+ in lost revenue).</p>
+
+<h3>How do I know if my migration was successful?</h3>
+
+<p>Success metrics: organic traffic holds steady or improves within 30 days, no significant increase in 404 errors, all important pages are indexed, Core Web Vitals scores are stable or improved, conversion rate from organic traffic does not drop, and your top 20 keywords maintain or improve their positions. Compare each metric to your pre-migration benchmarks.</p>
+
+<h3>What should I do if my traffic drops after migration?</h3>
+
+<p>First, do not panic. Check Google Search Console for crawl errors. Verify your redirects are working. Check that your robots.txt is not blocking crawlers. Confirm your analytics tracking is installed correctly. Look for pages that lost the most traffic and investigate why. Fix technical issues immediately. If you cannot identify the cause within one week, hire an SEO specialist.</p>
+
+<h3>Is it better to migrate in stages or all at once?</h3>
+
+<p>For most contractor sites under 500 pages, an all-at-once migration is better. Staged migrations create complexity: multiple redirect layers, inconsistent user experiences, and prolonged periods of Google confusion. For very large sites (1,000+ pages), a staged migration by section might be necessary, but each stage needs its own mini-checklist.</p>
+
+<h3>How do I handle a domain name change?</h3>
+
+<p>Domain changes are the highest-risk type of migration. Follow this protocol: implement 301 redirects from every old URL to the new domain, submit a change of address in Google Search Console, keep the old domain active for at least 180 days, update all backlinks and citations, and monitor both domains in Search Console. Expect a 10-20% traffic dip for 2-4 weeks even with perfect execution.</p>
+
+<h3>What is a redirect chain, and why is it bad?</h3>
+
+<p>A redirect chain happens when URL A redirects to URL B, which redirects to URL C. Each hop dilutes link equity. Google follows up to 5 redirects but prefers direct 301s. Chains also slow down page loading. Fix chains by updating the first redirect to point directly to the final destination URL.</p>
+
+<h3>Should I update my XML sitemap after migration?</h3>
+
+<p>Yes, immediately. Your sitemap should reflect your new URL structure. Submit it to Google Search Console and Bing Webmaster Tools within hours of launch. Keep your old sitemap active for 30 days as a reference, but do not submit it. The new sitemap helps Google discover and index your new pages faster.</p>
+
+<h2>How to Build a Migration Timeline That Actually Works</h2>
+
+<p>Timing is everything in a website migration. Rush the process and you will miss critical steps. Drag it out and you create prolonged periods of uncertainty for Google. The contractors who succeed build a realistic timeline and stick to it. Here is how to structure yours.</p>
+
+<p>Start by blocking out four to six weeks for the entire migration. This assumes a contractor website with 50 to 200 pages. Larger sites need more time. Smaller sites might move faster, but do not cut corners just because you have fewer pages. A single missed redirect on a high-traffic service page costs the same regardless of site size.</p>
+
+<p>Week one is dedicated entirely to discovery and documentation. This is when you crawl your site, export all data, audit backlinks, and benchmark performance. Do not begin design work during this week. Do not let your developer start building. Every decision in the later phases depends on the accuracy of this documentation. One HVAC contractor skipped the documentation phase because they were "excited to see the new design." They launched three weeks later without a redirect map. Their traffic dropped 58 percent. Excitement is not a strategy.</p>
+
+<p>Week two is for planning and mapping. Create your redirect spreadsheet. Decide the fate of every page. Finalize your new site architecture. Choose your platform. If you are moving from Wix or Squarespace to WordPress, this is when you set up hosting, install WordPress, and configure the foundation. Do not install a theme yet. Do not add content yet. Get the technical infrastructure right first.</p>
+
+<p>Weeks three and four are for building on staging. Your developer implements the design. Your SEO specialist ensures redirects are in place. Your content manager migrates or rewrites pages. Your designer reviews every page for brand consistency. This is the longest phase because it requires iteration. Expect to find issues. Expect to fix them. That is why you are on staging and not live.</p>
+
+<p>Week five is for testing. Crawl the staging site. Test every redirect. Click every link. Fill out every form. Check every page on mobile. Run PageSpeed Insights. Validate schema markup. Review title tags and meta descriptions. This week often reveals problems that require the developer to go back and fix things. That is normal. That is the point of staging.</p>
+
+<p>Week six is launch week. Pick a low-traffic day. Have your team on standby. Launch early in the day so you have working hours to fix issues. Submit your sitemap within the first hour. Monitor Search Console continuously for the first 24 hours. Do not launch on a Friday afternoon. Do not launch before a holiday. Do not launch when your developer is about to go on vacation.</p>
+
+<p>After launch, the timeline extends into monitoring and optimization. The first 30 days require daily attention. The next 60 days require weekly reviews. By month three, you should be in maintenance mode. If you are still fixing critical issues at month three, something went wrong in the earlier phases.</p>
+
+<p>Here is a realistic timeline summary for a typical contractor migration:</p>
+
+<div class="cost-table">
+<table>
+<thead>
+<tr>
+<th>Phase</th>
+<th>Duration</th>
+<th>Key Activities</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Discovery & Documentation</td>
+<td>Week 1</td>
+<td>Site crawl, backlink audit, benchmark, URL inventory</td>
+</tr>
+<tr>
+<td>Planning & Mapping</td>
+<td>Week 2</td>
+<td>Redirect map, content plan, platform setup</td>
+</tr>
+<tr>
+<td>Staging Build</td>
+<td>Weeks 3-4</td>
+<td>Design, development, content migration, redirect implementation</td>
+</tr>
+<tr>
+<td>Testing & QA</td>
+<td>Week 5</td>
+<td>Full crawl, redirect testing, mobile testing, speed testing</td>
+</tr>
+<tr>
+<td>Launch</td>
+<td>Week 6</td>
+<td>Go live, sitemap submission, real-time monitoring</td>
+</tr>
+<tr>
+<td>Post-Launch Monitoring</td>
+<td>Weeks 7-10</td>
+<td>Daily Search Console checks, weekly traffic analysis, error fixes</td>
+</tr>
+<tr>
+<td>Optimization</td>
+<td>Months 3-4</td>
+<td>Backlink updates, Core Web Vitals refinement, content improvements</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p>Adjust this timeline based on your site size, team capacity, and complexity. A 10-page site might compress this into three weeks. A 500-page multi-location site might need 10 weeks. The principle remains the same: every phase gets the time it needs, and no phase gets skipped.</p>
+
+<h2>Your Migration Action Plan: From Checklist to Results</h2>
+
+<p>You now have a complete <strong>website redesign SEO checklist</strong> built from real-world experience with home service contractors. Here is your condensed action plan:</p>
+
+<ol>
+<li><strong>Weeks 1-2 (Pre-Migration):</strong> Crawl your site, back up everything, document all URLs, audit backlinks, benchmark performance, create your redirect map, and preserve local SEO signals.</li>
+<li><strong>Week 3 (Staging):</strong> Build the new site on staging, implement redirects, preserve metadata, maintain internal links, re-implement schema, verify analytics, and optimize images.</li>
+<li><strong>Week 4 (Launch):</strong> Launch during low-traffic hours, submit your new sitemap, request indexing for top pages, and monitor Search Console hourly for the first 24 hours.</li>
+<li><strong>Weeks 5-8 (Post-Launch):</strong> Daily Search Console checks, weekly traffic comparisons, fix all technical errors, update local citations, and rebuild internal links.</li>
+<li><strong>Months 2-3 (Optimization):</strong> Request backlink updates, monitor Core Web Vitals, refine content, and measure ROI against pre-migration benchmarks.</li>
+</ol>
+
+<p>A website migration is not a design project. It is an SEO project with a design component. Treat it with the seriousness it deserves, and you will <strong>redesign without losing rankings</strong>. Treat it casually, and you will join the 60% of migrations that damage organic traffic.</p>
+
+<p>The contractors who succeed are the ones who plan obsessively, execute carefully, and monitor relentlessly. They understand that a new website is an investment, not an expense. And they know that preserving SEO equity is just as important as creating a beautiful design.</p>
+
+<div class="cta-box">
+<h3>Get Expert Migration Support: Free Consultation</h3>
+<p>Website migrations are high-stakes events. One missed redirect or broken link can cost you thousands in lost leads. At OnwardCraft, we specialize in <strong>redesign SEO preservation</strong> for home service contractors. We have managed migrations for plumbers, HVAC companies, roofers, and electricians across the country. Our process protects every ranking, every backlink, and every ounce of domain authority you have built.</p>
+<p>Before you start your redesign, get a free migration audit. We will review your current site, identify risks, and build a custom <strong>website transfer checklist</strong> for your specific situation. No obligation. No sales pressure. Just expert guidance from a team that understands contractor SEO.</p>
+<a class="cta-button" href="/contact">Schedule Your Free Migration Consultation</a>
+</div>
+
+<p>If you are serious about protecting your organic traffic, do not go it alone. The checklist above gives you the framework. Our team gives you the execution. Together, we will make your next website migration your most successful one yet.</p>
+
+</BlogPostLayout>
