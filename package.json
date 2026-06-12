@@ -9,6 +9,7 @@
     "deploy": "wrangler pages deploy ./dist"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
     "astro": "^6.3.7"
   },
   "devDependencies": {

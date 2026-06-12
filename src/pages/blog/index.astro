@@ -1386,4 +1386,13 @@ const regularPosts = posts.filter(p => !p.featured);
     .newsletter-form { flex-direction: column; }
     .gradient-blob { display: none; }
   }
+
+  /* Disable scroll reveal animations — cards must be visible immediately */
+  .blog-page .reveal,
+  .blog-page .stagger-children,
+  .blog-page .stagger-item {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    transition: none !important;
+  }
 </style>
