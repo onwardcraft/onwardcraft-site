@@ -33,7 +33,7 @@ const {
 const displayTitle = title.replace(/^['"]+|['"]+$/g, '').trim();
 ---
 
-<Layout title={displayTitle} description={description}>
+<Layout title={displayTitle} description={description} ogType="article">
   {schema && (
     <Fragment slot="head">
       <script type="application/ld+json" set:html={JSON.stringify(schema)} />
@@ -72,6 +72,32 @@ const displayTitle = title.replace(/^['"]+|['"]+$/g, '').trim();
             {!contentHtml && <slot />}
           </div>
 
+          <div class="related-resources">
+            <h3>Keep Reading</h3>
+            <div class="related-grid">
+              <a href="/services/seo/" class="related-card">
+                <span class="related-label">Service</span>
+                <h4>SEO & Organic Growth</h4>
+                <p>Get found on Google by the people actively searching for what you offer.</p>
+              </a>
+              <a href="/services/web-design/" class="related-card">
+                <span class="related-label">Service</span>
+                <h4>Web Design & Development</h4>
+                <p>Conversion-focused websites built for speed, SEO, and results.</p>
+              </a>
+              <a href="/services/lead-generation/" class="related-card">
+                <span class="related-label">Service</span>
+                <h4>Lead Generation</h4>
+                <p>Turn your website into a lead machine with optimized funnels.</p>
+              </a>
+              <a href="/blog/" class="related-card">
+                <span class="related-label">Blog</span>
+                <h4>More Growth Tactics</h4>
+                <p>Explore more actionable insights on web design, SEO, and conversion.</p>
+              </a>
+            </div>
+          </div>
+
           <div class="post-footer">
             {tags.length > 0 && (
               <div class="post-tags">
@@ -80,7 +106,7 @@ const displayTitle = title.replace(/^['"]+|['"]+$/g, '').trim();
                 ))}
               </div>
             )}
-            <a href="/blog" class="back-link">
+            <a href="/blog/" class="back-link">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
               Back to Blog
             </a>
@@ -91,7 +117,7 @@ const displayTitle = title.replace(/^['"]+|['"]+$/g, '').trim();
           <div class="sidebar-cta">
             <h3>Need a Website That Actually Converts?</h3>
             <p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
-            <a href="https://calendly.com/getonwardcraft/30min" class="sidebar-cta-btn">
+            <a href="https://calendly.com/getonwardcraft/30min" class="sidebar-cta-btn" rel="noopener noreferrer">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
               Book Your Free Call
             </a>
@@ -343,6 +369,20 @@ const displayTitle = title.replace(/^['"]+|['"]+$/g, '').trim();
   .share-x { background: #0f172a; }
   .share-linkedin { background: #0077b5; }
   .share-facebook { background: #1877f2; }
+
+  /* ===== RELATED RESOURCES ===== */
+  .related-resources { margin: 64px 0 48px; padding-top: 48px; border-top: 1px solid var(--border); }
+  .related-resources h3 { font-size: 24px; font-weight: 700; margin-bottom: 24px; color: var(--text-primary); }
+  .related-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .related-card { display: block; padding: 24px; background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%); border: 1px solid var(--border); border-radius: var(--radius-lg); text-decoration: none; transition: all 0.3s; }
+  .related-card:hover { border-color: var(--accent-primary); transform: translateY(-3px); box-shadow: 0 12px 32px rgba(0,0,0,0.08); }
+  .related-label { display: inline-block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-primary); background: rgba(59,130,246,0.08); padding: 4px 10px; border-radius: 100px; margin-bottom: 12px; }
+  .related-card h4 { font-size: 17px; font-weight: 700; margin-bottom: 8px; color: var(--text-primary); }
+  .related-card p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; margin: 0; }
+  @media (max-width: 640px) {
+    .related-grid { grid-template-columns: 1fr; }
+    .related-resources { margin: 48px 0 32px; padding-top: 32px; }
+  }
 
   /* ===== RESPONSIVE ===== */
   @media (max-width: 1024px) {

@@ -1,0 +1,57 @@
+# Canonical domain redirects (reduce www/http redirect chains)
+http://www.onwardcraft.com/* https://onwardcraft.com/:splat 301
+https://www.onwardcraft.com/* https://onwardcraft.com/:splat 301
+
+# Redirect broken /services/ URLs that no longer exist to relevant existing pages
+/services/gbp-optimization /blog/google-business-profile-guide/ 301
+/services/gbp-optimization/ /blog/google-business-profile-guide/ 301
+/services/local-seo /blog/local-seo-guide/ 301
+/services/local-seo/ /blog/local-seo-guide/ 301
+/services/website-design /services/web-design/ 301
+/services/website-design/ /services/web-design/ 301
+/services/schema-markup /blog/schema-markup-checklist/ 301
+/services/schema-markup/ /blog/schema-markup-checklist/ 301
+/services/content-marketing /blog/content-marketing-playbook-contractors/ 301
+/services/content-marketing/ /blog/content-marketing-playbook-contractors/ 301
+/services/conversion-optimization /blog/conversion-rate-optimization-basics/ 301
+/services/conversion-optimization/ /blog/conversion-rate-optimization-basics/ 301
+/services/technical-seo /blog/technical-seo-checklist-home-service/ 301
+/services/technical-seo/ /blog/technical-seo-checklist-home-service/ 301
+/services/google-business-profile-optimization /blog/google-business-profile-guide/ 301
+/services/google-business-profile-optimization/ /blog/google-business-profile-guide/ 301
+/services/emergency-plumbing-marketing /blog/emergency-service-marketing-playbook/ 301
+/services/emergency-plumbing-marketing/ /blog/emergency-service-marketing-playbook/ 301
+/services/plumbing-marketing /blog/plumbing-marketing-guide/ 301
+/services/plumbing-marketing/ /blog/plumbing-marketing-guide/ 301
+/services/ppc /blog/ppc-guide-home-service-businesses/ 301
+/services/ppc/ /blog/ppc-guide-home-service-businesses/ 301
+/services/solar-marketing /blog/solar-marketing-guide/ 301
+/services/solar-marketing/ /blog/solar-marketing-guide/ 301
+/services/roofing-marketing /blog/roofing-marketing-guide/ 301
+/services/roofing-marketing/ /blog/roofing-marketing-guide/ 301
+/services/hvac-marketing /blog/hvac-marketing-guide/ 301
+/services/hvac-marketing/ /blog/hvac-marketing-guide/ 301
+/services/storm-damage-marketing /blog/roofing-lead-generation-storm-season/ 301
+/services/storm-damage-marketing/ /blog/roofing-lead-generation-storm-season/ 301
+/services/website-redesign /blog/website-redesign-guide/ 301
+/services/website-redesign/ /blog/website-redesign-guide/ 301
+/services/website-maintenance /blog/contractor-website-maintenance-guide/ 301
+/services/website-maintenance/ /blog/contractor-website-maintenance-guide/ 301
+/services/commercial-marketing /services/lead-generation/ 301
+/services/commercial-marketing/ /services/lead-generation/ 301
+
+# Redirect old/broken internal URLs to relevant existing pages
+/free-audit /book-call/ 301
+/free-audit/ /book-call/ 301
+/partners /work-with-us/ 301
+/partners/ /work-with-us/ 301
+/resources/home-service-seo-statistics-report /blog/home-service-seo-statistics/ 301
+/resources/home-service-seo-statistics-report/ /blog/home-service-seo-statistics/ 301
+/guides/google-business-profile /blog/google-business-profile-guide/ 301
+/guides/google-business-profile/ /blog/google-business-profile-guide/ 301
+/guides/review-generation /blog/review-generation-strategies-contractors/ 301
+/guides/review-generation/ /blog/review-generation-strategies-contractors/ 301
+/blog/how-much-does-a-website-cost-2026 /blog/how-much-does-a-website-cost/ 301
+/blog/how-much-does-a-website-cost-2026/ /blog/how-much-does-a-website-cost/ 301
+/blog/how-much-does-seo-cost-in-2026 /blog/how-much-does-seo-cost/ 301
+/blog/how-much-does-seo-cost-in-2026/ /blog/how-much-does-seo-cost/ 301

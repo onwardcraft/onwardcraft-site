@@ -869,7 +869,7 @@ const regularPosts = posts.filter(p => !p.featured);
   {featuredPost && (
     <section class="featured-section">
       <div class="container">
-        <a href={`/blog/${featuredPost.slug}`} class="featured-card reveal">
+        <a href={`/blog/${featuredPost.slug}/`} class="featured-card reveal">
           <div class="featured-badge">Featured</div>
           <div class="featured-content">
             <div class="featured-meta">
@@ -904,7 +904,7 @@ const regularPosts = posts.filter(p => !p.featured);
     <div class="container">
       <div class="posts-grid stagger-children">
         {regularPosts.map((post) => (
-          <a href={`/blog/${post.slug}`} class="post-card stagger-item">
+          <a href={`/blog/${post.slug}/`} class="post-card stagger-item">
             <div class="post-card-inner">
               <div class="post-meta">
                 <span class="post-category">{post.category}</span>

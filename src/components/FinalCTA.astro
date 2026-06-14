@@ -25,11 +25,11 @@ const { dark = false } = Astro.props;
         </ul>
 
         <div class="cta-actions">
-          <a href="https://calendly.com/getonwardcraft/30min" class="btn-primary">
+          <a href="https://calendly.com/getonwardcraft/30min" class="btn-primary" rel="noopener noreferrer">
             Book My Free Audit
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </a>
-          <a href="/pricing" class={`cta-secondary ${dark ? 'cta-secondary-dark' : ''}`}>Or view pricing first →</a>
+          <a href="/pricing/" class={`cta-secondary ${dark ? 'cta-secondary-dark' : ''}`}>Or view pricing first →</a>
         </div>
 
         <p class={`cta-urgency ${dark ? 'cta-urgency-dark' : ''}`}>Limited to 5 audits per week. Average response time: under 4 hours.</p>
