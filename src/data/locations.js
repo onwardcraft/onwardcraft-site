@@ -45,6 +45,26 @@ import { elPasoLocations } from './metros/el-paso.js';
 import { sacramentoLocations } from './metros/sacramento.js';
 import { baltimoreLocations } from './metros/baltimore.js';
 import { milwaukeeLocations } from './metros/milwaukee.js';
+import { scottsdaleLocations } from './metros/scottsdale.js';
+import { renoLocations } from './metros/reno.js';
+import { daytonLocations } from './metros/dayton.js';
+import { syracuseLocations } from './metros/syracuse.js';
+import { albanyLocations } from './metros/albany.js';
+import { stamfordLocations } from './metros/stamford.js';
+import { anchorageLocations } from './metros/anchorage.js';
+import { honoluluLocations } from './metros/honolulu.js';
+import { venturaLocations } from './metros/ventura.js';
+import { peoriaLocations } from './metros/peoria.js';
+import { fargoLocations } from './metros/fargo.js';
+import { wacoLocations } from './metros/waco.js';
+import { midlandLocations } from './metros/midland.js';
+import { brownsvilleLocations } from './metros/brownsville.js';
+import { provoLocations } from './metros/provo.js';
+import { eugeneLocations } from './metros/eugene.js';
+import { lansingLocations } from './metros/lansing.js';
+import { siouxFallsLocations } from './metros/sioux-falls.js';
+import { newHavenLocations } from './metros/new-haven.js';
+import { worcesterLocations } from './metros/worcester.js';
 
 // ===========================================================================
 // MIAMI — shared city blocks (also imported by the /miami/ hub in cities.js)
@@ -442,6 +462,26 @@ export const locations = [
   ...sacramentoLocations,
   ...baltimoreLocations,
   ...milwaukeeLocations,
+  ...scottsdaleLocations,
+  ...renoLocations,
+  ...daytonLocations,
+  ...syracuseLocations,
+  ...albanyLocations,
+  ...stamfordLocations,
+  ...anchorageLocations,
+  ...honoluluLocations,
+  ...venturaLocations,
+  ...peoriaLocations,
+  ...fargoLocations,
+  ...wacoLocations,
+  ...midlandLocations,
+  ...brownsvilleLocations,
+  ...provoLocations,
+  ...eugeneLocations,
+  ...lansingLocations,
+  ...siouxFallsLocations,
+  ...newHavenLocations,
+  ...worcesterLocations,
 ];
 
 // Convenience lookups for the dynamic route + future cross-linking.

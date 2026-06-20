@@ -41,6 +41,26 @@ import { elPasoCity } from './metros/el-paso.js';
 import { sacramentoCity } from './metros/sacramento.js';
 import { baltimoreCity } from './metros/baltimore.js';
 import { milwaukeeCity } from './metros/milwaukee.js';
+import { scottsdaleCity } from './metros/scottsdale.js';
+import { renoCity } from './metros/reno.js';
+import { daytonCity } from './metros/dayton.js';
+import { syracuseCity } from './metros/syracuse.js';
+import { albanyCity } from './metros/albany.js';
+import { stamfordCity } from './metros/stamford.js';
+import { anchorageCity } from './metros/anchorage.js';
+import { honoluluCity } from './metros/honolulu.js';
+import { venturaCity } from './metros/ventura.js';
+import { peoriaCity } from './metros/peoria.js';
+import { fargoCity } from './metros/fargo.js';
+import { wacoCity } from './metros/waco.js';
+import { midlandCity } from './metros/midland.js';
+import { brownsvilleCity } from './metros/brownsville.js';
+import { provoCity } from './metros/provo.js';
+import { eugeneCity } from './metros/eugene.js';
+import { lansingCity } from './metros/lansing.js';
+import { siouxFallsCity } from './metros/sioux-falls.js';
+import { newHavenCity } from './metros/new-haven.js';
+import { worcesterCity } from './metros/worcester.js';
 
 const miamiCity = {
     citySlug: 'miami', city: 'Miami', state: 'Florida', stateAbbr: 'FL', metro: 'Miami-Dade',
@@ -107,6 +127,10 @@ export const cities = [
   columbusCity, indianapolisCity, memphisCity, louisvilleCity, kansasCityCity,
   portlandCity, bostonCity, detroitCity, oklahomaCityCity, raleighCity,
   virginiaBeachCity, elPasoCity, sacramentoCity, baltimoreCity, milwaukeeCity,
+  scottsdaleCity, renoCity, daytonCity, syracuseCity, albanyCity,
+  stamfordCity, anchorageCity, honoluluCity, venturaCity, peoriaCity,
+  fargoCity, wacoCity, midlandCity, brownsvilleCity, provoCity,
+  eugeneCity, lansingCity, siouxFallsCity, newHavenCity, worcesterCity,
 ];
 
 export const cityPaths = cities.map((c) => ({ citySlug: c.citySlug }));
