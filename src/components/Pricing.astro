@@ -1,29 +1,30 @@
 ---
+// Pricing is kept in sync with /pricing — single source of truth.
 const plans = [
   {
-    name: 'Foundation',
-    desc: 'Your current site is costing you credibility. This fixes that — with a conversion-focused foundation that turns visitors into inquiries.',
-    price: '$2,500',
+    name: 'Starter',
+    desc: 'A high-converting landing page or single-page site for businesses ready to look professional and capture leads.',
+    price: '$2,000',
     period: 'one-time',
-    features: ['5-page conversion website', 'Mobile-first design', 'Basic SEO setup', 'Lead capture forms', '2 revision rounds', '30-day support'],
+    features: ['Single landing page design', 'Mobile-first responsive', 'Basic on-page SEO setup', 'Contact form + lead capture', '2 revision rounds', 'Delivery in 2-3 weeks'],
     cta: 'Book My Call',
     highlight: false,
   },
   {
-    name: 'Growth',
-    desc: 'The complete growth system: conversion architecture, SEO dominance, and lead funnels that work while you sleep. Most clients recoup their investment within 60 days.',
-    price: '$5,000',
+    name: 'Business',
+    desc: 'A complete multi-page website with CMS, analytics, and everything you need to grow. Our most popular package.',
+    price: '$4,500',
     period: 'one-time',
-    features: ['10-page conversion site', 'Advanced SEO architecture', 'Blog + content system', 'Lead generation funnels', 'Analytics & tracking', 'A/B testing setup', '60-day support'],
+    features: ['Up to 5 custom pages', 'CMS for blog / content', 'Advanced SEO + speed optimization', 'Google Analytics + Search Console', 'Custom design system', '4 revision rounds', 'Delivery in 4-6 weeks'],
     cta: 'Most Popular',
     highlight: true,
   },
   {
-    name: 'Enterprise',
-    desc: 'For brands that refuse to compete on the same playing field as everyone else. Custom systems, unlimited scale, and a permanent competitive advantage.',
-    price: '$10,000+',
+    name: 'Growth',
+    desc: 'Complex builds, e-commerce, custom features, and dedicated support for serious growth.',
+    price: '$8,000',
     period: 'custom',
-    features: ['Unlimited pages', 'Custom design system', 'Full SEO + content strategy', 'Multi-funnel architecture', 'CMS integration', 'Performance optimization', 'Priority support'],
+    features: ['Unlimited pages', 'E-commerce / memberships', 'Custom integrations + API', 'Priority support (30 days)', 'Unlimited revisions', 'Custom timeline'],
     cta: 'Book My Call',
     highlight: false,
   },
@@ -124,12 +125,12 @@ const plans = [
   }
 
   .pricing-card.highlight {
-    border-color: rgba(59, 130, 246, 0.3);
-    background: rgba(59, 130, 246, 0.06);
+    border-color: rgba(6, 214, 160, 0.3);
+    background: rgba(6, 214, 160, 0.06);
   }
 
   .pricing-card.highlight:hover {
-    border-color: rgba(59, 130, 246, 0.4);
+    border-color: rgba(6, 214, 160, 0.4);
   }
 
   .pricing-badge {
@@ -230,7 +231,7 @@ const plans = [
 
   .pricing-cta.primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(59, 130, 246, 0.25);
+    box-shadow: 0 8px 24px rgba(6, 214, 160, 0.25);
   }
 
   .pricing-note {

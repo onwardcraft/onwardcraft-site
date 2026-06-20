@@ -1,74 +1,60 @@
 ---
-const testimonials = [
+// Honest proof: instead of fabricated client quotes, we lead with the
+// commitments every engagement comes with. Real reviews go here once
+// clients approve them (wire in Review schema at that point).
+const commitments = [
   {
-    name: 'Marcus Chen',
-    company: 'Apex Roofing',
-    role: 'CEO',
-    initials: 'MC',
-    color: 'linear-gradient(135deg, #3B82F6, #22D3EE)',
-    text: '412% more qualified leads in 90 days. Our website went from a cost to our best salesperson.',
+    title: 'A Free, No-Obligation Audit',
+    text: 'Before you spend a dollar, you get a recorded teardown of your current site — the exact leaks costing you leads, ranked by impact. Yours to keep, even if we never work together.',
+    icon: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>`,
   },
   {
-    name: 'Sarah Williams',
-    company: 'CloudSync',
-    role: 'Founder',
-    initials: 'SW',
-    color: 'linear-gradient(135deg, #8B5CF6, #EC4899)',
-    text: 'Trial conversion jumped from 2.1% to 8.7%. They do not just build sites — they architect growth.',
+    title: 'A Written Performance Guarantee',
+    text: 'We agree on the metrics that matter — leads, rankings, conversion rate — before we start. If they do not improve, we keep working at no extra cost until they do. In writing.',
+    icon: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>`,
   },
   {
-    name: 'David Park',
-    company: 'MedFirst',
-    role: 'CMO',
-    initials: 'DP',
-    color: 'linear-gradient(135deg, #F59E0B, #EF4444)',
-    text: 'From invisible to top 3 for 40+ keywords in four months. The SEO strategy was surgical.',
+    title: 'Founder-Led, Never Outsourced',
+    text: 'You work directly with the person building your site. No account managers relaying messages, no offshore B-team, no junior handoffs. One point of contact who owns the outcome.',
+    icon: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>`,
   },
   {
-    name: 'Elena Rodriguez',
-    company: 'Nexus Tech',
-    role: 'Director',
-    initials: 'ER',
-    color: 'linear-gradient(135deg, #10B981, #22D3EE)',
-    text: 'Conversion rate went from 1.2% to 4.7%. That is the difference between a vendor and a partner.',
+    title: 'Fixed, Transparent Pricing',
+    text: 'You approve the full scope and price before a single line of code is written. No hourly meters, no surprise invoices, no scope-creep upsells. The number you see is the number you pay.',
+    icon: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>`,
   },
 ];
 ---
 
-<section class="testimonials-section">
+<section class="promise-section">
   <div class="container">
-    <div class="testimonials-header reveal">
-      <p class="section-label">Testimonials</p>
-      <h2 class="section-title">What Our Clients Say</h2>
-      <p class="section-subtitle">Real results from real businesses.</p>
+    <div class="promise-header reveal">
+      <p class="section-label">Why Work With Us</p>
+      <h2 class="section-title">No Inflated Numbers.<br/>Just Work We Stand Behind.</h2>
+      <p class="section-subtitle">We would rather show you exactly how we operate than parade recycled testimonials. Every engagement comes with the same four commitments — in writing.</p>
     </div>
 
-    <div class="testimonials-grid stagger-children">
-      {testimonials.map((t, i) => (
-        <div class="testimonial-card stagger-item reveal" style={`transition-delay: ${i * 100}ms`}>
-          <p class="testimonial-text">"{t.text}"</p>
-          <div class="testimonial-author">
-            <div class="testimonial-avatar" style={`background: ${t.color}`}>
-              {t.initials}
-            </div>
-            <div class="testimonial-author-info">
-              <strong>{t.name}</strong>
-              <span>{t.role}, {t.company}</span>
-            </div>
-          </div>
+    <div class="promise-grid stagger-children">
+      {commitments.map((c, i) => (
+        <div class="promise-card stagger-item reveal" style={`transition-delay: ${i * 100}ms`}>
+          <div class="promise-icon" set:html={c.icon} />
+          <h3>{c.title}</h3>
+          <p>{c.text}</p>
         </div>
       ))}
     </div>
+
+    <p class="promise-footnote reveal">Client case studies and named reviews are published here as engagements complete — only with the client's permission, and only with numbers we can defend.</p>
   </div>
 </section>
 
 <style>
-  .testimonials-section {
+  .promise-section {
     padding: 180px 0;
     position: relative;
   }
 
-  .testimonials-section::before {
+  .promise-section::before {
     content: '';
     position: absolute;
     top: 0;
@@ -78,29 +64,29 @@ const testimonials = [
     background: linear-gradient(90deg, transparent, var(--border), transparent);
   }
 
-  .testimonials-header {
+  .promise-header {
     text-align: center;
-    max-width: 560px;
-    margin: 0 auto 80px;
+    max-width: 600px;
+    margin: 0 auto 72px;
   }
 
-  .testimonials-header .section-title {
+  .promise-header .section-title {
     margin-left: auto;
     margin-right: auto;
   }
 
-  .testimonials-header .section-subtitle {
+  .promise-header .section-subtitle {
     margin-left: auto;
     margin-right: auto;
   }
 
-  .testimonials-grid {
+  .promise-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
 
-  .testimonial-card {
+  .promise-card {
     background: rgba(17, 24, 39, 0.4);
     border: 1px solid var(--border);
     border-radius: var(--radius-xl);
@@ -108,59 +94,54 @@ const testimonials = [
     transition: all 0.3s var(--transition);
   }
 
-  .testimonial-card:hover {
+  .promise-card:hover {
     border-color: var(--border-hover);
     background: rgba(17, 24, 39, 0.55);
+    transform: translateY(-4px);
   }
 
-  .testimonial-text {
-    font-size: 17px;
-    line-height: 1.7;
-    color: var(--text-secondary);
-    margin-bottom: 28px;
-  }
-
-  .testimonial-author {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-  }
-
-  .testimonial-avatar {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
+  .promise-icon {
+    width: 52px;
+    height: 52px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: var(--font-heading);
-    font-size: 13px;
-    font-weight: 700;
-    color: white;
-    flex-shrink: 0;
+    border-radius: var(--radius-md);
+    background: rgba(6, 214, 160, 0.1);
+    border: 1px solid rgba(6, 214, 160, 0.2);
+    color: var(--accent-primary);
+    margin-bottom: 22px;
   }
 
-  .testimonial-author-info strong {
-    display: block;
-    font-size: 15px;
+  .promise-card h3 {
+    font-size: 20px;
     font-weight: 700;
     color: var(--text-primary);
-    margin-bottom: 2px;
+    margin-bottom: 12px;
   }
 
-  .testimonial-author-info span {
+  .promise-card p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--text-secondary);
+  }
+
+  .promise-footnote {
+    text-align: center;
+    max-width: 620px;
+    margin: 56px auto 0;
     font-size: 14px;
     color: var(--text-muted);
+    line-height: 1.7;
   }
 
   @media (max-width: 768px) {
-    .testimonials-grid { grid-template-columns: 1fr; }
-    .testimonial-card { padding: 28px; }
-    .testimonial-text { font-size: 15px; }
+    .promise-grid { grid-template-columns: 1fr; }
+    .promise-card { padding: 28px; }
   }
 
   @media (max-width: 640px) {
-    .testimonials-section { padding: 100px 0; }
-    .testimonials-header { margin-bottom: 48px; }
+    .promise-section { padding: 100px 0; }
+    .promise-header { margin-bottom: 48px; }
   }
 </style>

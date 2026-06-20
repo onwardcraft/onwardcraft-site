@@ -1,0 +1,547 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+import FinalCTA from '../../components/FinalCTA.astro';
+import { locations } from '../../data/locations.js';
+
+export async function getStaticPaths() {
+  const { locations } = await import('../../data/locations.js');
+  return locations.map((loc) => ({
+    params: { city: loc.citySlug, service: loc.serviceSlug },
+    props: { loc },
+  }));
+}
+
+const { loc } = Astro.props;
+const canonical = `https://onwardcraft.com/${loc.citySlug}/${loc.serviceSlug}/`;
+const CALENDLY = 'https://calendly.com/getonwardcraft/30min';
+
+const sameCity = locations.filter(
+  (l) => l.citySlug === loc.citySlug && l.serviceSlug !== loc.serviceSlug
+);
+
+// ── Structured data ──────────────────────────────────────────
+// Review / AggregateRating schema intentionally omitted — see honesty rule in
+// src/data/locations.js. No fake reviews, ever.
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: `${loc.city} ${loc.service}`,
+    serviceType: `${loc.service} for ${loc.city}, ${loc.stateAbbr} businesses`,
+    description: loc.metaDescription,
+    url: canonical,
+    provider: { '@id': 'https://onwardcraft.com/#organization' },
+    areaServed: loc.areasServed.map((a) => ({ '@type': 'City', name: `${a}, ${loc.stateAbbr}` })),
+    audience: { '@type': 'Audience', audienceType: 'Home-service contractors and local businesses' },
+    offers: loc.pricing.tiers.map((t) => ({
+      '@type': 'Offer',
+      name: t.name,
+      price: t.price.replace(/[^0-9]/g, ''),
+      priceCurrency: 'USD',
+      description: t.desc,
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: loc.faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://onwardcraft.com/' },
+      { '@type': 'ListItem', position: 2, name: loc.city, item: `https://onwardcraft.com/${loc.citySlug}/` },
+      { '@type': 'ListItem', position: 3, name: loc.service, item: canonical },
+    ],
+  },
+];
+---
+
+<Layout title={loc.titleTag} description={loc.metaDescription} canonical={canonical} schema={schema}>
+  <Navbar dark />
+
+  <main class="loc">
+    <!-- Hero -->
+    <section class="loc-hero">
+      <div class="hero-orb orb-1" aria-hidden="true"></div>
+      <div class="hero-orb orb-2" aria-hidden="true"></div>
+      <div class="hero-grid-lines" aria-hidden="true"></div>
+      <div class="container loc-hero-inner">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a><span aria-hidden="true">/</span>
+          <span class="breadcrumb-current">{loc.city} {loc.service}</span>
+        </nav>
+        <p class="eyebrow"><span class="eyebrow-dot"></span>{loc.eyebrow}</p>
+        <h1>{loc.h1}</h1>
+        <p class="h2-exact">{loc.h2Exact}</p>
+        <p class="hero-sub">{loc.heroSubhead}</p>
+        <div class="hero-actions">
+          <a href={CALENDLY} class="btn-primary" rel="noopener noreferrer">{loc.primaryCta}
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="/pricing/" class="btn-ghost">See pricing</a>
+        </div>
+        <ul class="hero-proof">
+          {loc.heroProof.map((p) => (
+            <li>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>
+              {p}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+    <!-- Founder note -->
+    <section class="section founder-section">
+      <div class="container">
+        <figure class="founder-note">
+          <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+          <blockquote>{loc.founderNote}</blockquote>
+          <figcaption>{loc.founderName}</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Intro + AI answer block -->
+    <section class="section pt-0">
+      <div class="container narrow">
+        <p class="lead">{loc.intro}</p>
+        <div class="answer-block">
+          <p class="answer-q">{loc.aioQuestion}</p>
+          <p>{loc.aioAnswer}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ★ Local market section (bento) -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="market-head">
+          <div>
+            <p class="eyebrow">The {loc.metro} market</p>
+            <h2>{loc.localMarket.heading}</h2>
+          </div>
+        </div>
+        <div class="market-grid">
+          <div class="market-copy">
+            <p>{loc.localMarket.body}</p>
+            <p class="pull-quote">{loc.localMarket.pullQuote}</p>
+          </div>
+          <div class="bento">
+            {loc.localMarket.stats.map((s) => (
+              <div class={`stat${s.accent ? ' stat-accent' : ''}`}>
+                <span class="stat-value">{s.value}</span>
+                <span class="stat-label">{s.label}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div class="neighborhoods">
+          <span class="neighborhoods-label">Neighborhoods we target</span>
+          <div class="chips">
+            {loc.localMarket.neighborhoods.map((n) => <span class="chip">{n}</span>)}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem (PAS — editorial rows) -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">The real problem</p>
+          <h2>{loc.problemHeading}</h2>
+        </div>
+        <div class="problem-rows">
+          {loc.painPoints.map((p, i) => (
+            <div class="problem-row">
+              <span class="problem-num">{String(i + 1).padStart(2, '0')}</span>
+              <div class="problem-body">
+                <h3>{p.title}</h3>
+                <p>{p.body}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">What we do</p>
+          <h2>{loc.servicesHeading}</h2>
+        </div>
+        <div class="service-grid">
+          {loc.services.map((s) => (
+            <div class={`service-card${s.featured ? ' service-card-featured' : ''}`}>
+              {s.featured && <span class="service-tag">Miami edge</span>}
+              <h3>{s.name}</h3>
+              <p>{s.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Process (connected timeline) -->
+    <section class="section">
+      <div class="container narrow">
+        <div class="section-head">
+          <p class="eyebrow">How we work</p>
+          <h2>{loc.processName}</h2>
+        </div>
+        <ol class="timeline">
+          {loc.process.map((step) => (
+            <li class="timeline-item">
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <h3>{step.name}</h3>
+              <p>{step.desc}</p>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+
+    <!-- ★ Proof / projection (honest) -->
+    <section class="section section-alt">
+      <div class="container narrow">
+        <div class="section-head">
+          <p class="eyebrow">The honest math</p>
+          <h2>{loc.proof.heading}</h2>
+        </div>
+        <p class="lead">{loc.proof.body}</p>
+        <div class="proof-stats">
+          {loc.proof.stats.map((s) => (
+            <div class="proof-stat">
+              <span class="stat-value">{s.value}</span>
+              <span class="stat-label">{s.label}</span>
+            </div>
+          ))}
+        </div>
+        <div class="answer-block">
+          <p>{loc.proof.projection}</p>
+        </div>
+        <p class="disclaimer">{loc.proof.disclaimer}</p>
+      </div>
+    </section>
+
+    <!-- ★ Pricing -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Transparent pricing</p>
+          <h2>{loc.pricing.heading}</h2>
+          <p class="section-sub">{loc.pricing.note}</p>
+        </div>
+        <div class="pricing-grid">
+          {loc.pricing.tiers.map((t) => (
+            <div class={`price-card${t.featured ? ' price-card-featured' : ''}`}>
+              {t.featured && <span class="price-badge">Most popular</span>}
+              <h3>{t.name}</h3>
+              <div class="price"><span class="price-amt">{t.price}</span><span class="price-cad">{t.cadence}</span></div>
+              <p class="price-desc">{t.desc}</p>
+              <ul class="price-features">
+                {t.features.map((f) => (
+                  <li>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>
+                    {f}
+                  </li>
+                ))}
+              </ul>
+              <a href={CALENDLY} class={t.featured ? 'btn-primary price-cta' : 'btn-ghost price-cta'} rel="noopener noreferrer">Start with a free audit</a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Why us -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Why us</p>
+          <h2>Why {loc.city} businesses pick OnwardCraft</h2>
+        </div>
+        <div class="why-grid">
+          {loc.whyUs.map((w) => (
+            <div class="why-card">
+              <h3>{w.title}</h3>
+              <p>{w.body}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+      <div class="container narrow">
+        <div class="section-head">
+          <p class="eyebrow">{loc.city} {loc.service} FAQ</p>
+          <h2>Questions {loc.city} owners ask us</h2>
+        </div>
+        <div class="faq-list">
+          {loc.faqs.map((f) => (
+            <details class="faq-item">
+              <summary>{f.q}</summary>
+              <p>{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Areas served -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Areas we serve</p>
+          <h2>{loc.service} across {loc.metro}</h2>
+        </div>
+        <div class="chips">
+          {loc.areasServed.map((a) => <span class="chip">{a}</span>)}
+        </div>
+        {sameCity.length > 0 && (
+          <div class="service-links">
+            <span>More for {loc.city} businesses:</span>
+            {sameCity.map((l) => (
+              <a href={`/${l.citySlug}/${l.serviceSlug}/`}>{l.service}</a>
+            ))}
+          </div>
+        )}
+      </div>
+    </section>
+  </main>
+
+  <FinalCTA dark />
+  <Footer />
+</Layout>
+
+<style>
+  .loc { background: var(--bg-primary); color: var(--text-primary); }
+  .container { max-width: 1140px; margin: 0 auto; padding: 0 24px; }
+  .container.narrow { max-width: 740px; }
+
+  /* ── Hero ── */
+  .loc-hero { position: relative; padding: 168px 0 86px; overflow: hidden; }
+  .hero-orb { position: absolute; border-radius: 50%; filter: blur(80px); pointer-events: none; opacity: 0.5; }
+  .orb-1 { top: -120px; right: -80px; width: 520px; height: 520px;
+    background: radial-gradient(circle, rgba(6,214,160,0.22), transparent 70%); }
+  .orb-2 { bottom: -160px; left: -120px; width: 460px; height: 460px;
+    background: radial-gradient(circle, rgba(255,184,77,0.10), transparent 70%); }
+  .hero-grid-lines {
+    position: absolute; inset: 0;
+    background-image: linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+    background-size: 64px 64px;
+    mask-image: radial-gradient(ellipse 80% 60% at 60% 0%, #000 30%, transparent 75%);
+    -webkit-mask-image: radial-gradient(ellipse 80% 60% at 60% 0%, #000 30%, transparent 75%);
+    pointer-events: none;
+  }
+  .loc-hero-inner { position: relative; z-index: 1; max-width: 820px; }
+
+  .breadcrumb { display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+    font-size: 13px; color: var(--text-muted); margin-bottom: 30px; }
+  .breadcrumb a { color: var(--text-secondary); text-decoration: none; transition: color 0.2s; }
+  .breadcrumb a:hover { color: var(--accent-primary); }
+  .breadcrumb-current { color: var(--text-primary); font-weight: 600; }
+
+  .eyebrow { display: inline-flex; align-items: center; gap: 9px;
+    font-size: 13px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.12em; color: var(--accent-primary); margin-bottom: 18px; }
+  .eyebrow-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent-primary);
+    box-shadow: 0 0 0 4px rgba(6,214,160,0.18); }
+
+  .loc-hero h1 { font-family: var(--font-heading);
+    font-size: clamp(34px, 5.2vw, 60px); font-weight: 800;
+    line-height: 1.02; letter-spacing: -0.035em; margin-bottom: 14px; max-width: 16ch; }
+  .h2-exact { font-family: var(--font-heading); font-size: 17px; font-weight: 600;
+    color: var(--text-muted); margin-bottom: 24px; }
+  .hero-sub { font-size: clamp(17px, 2vw, 21px); color: var(--text-secondary);
+    line-height: 1.6; max-width: 640px; margin-bottom: 34px; }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 30px; }
+
+  .btn-ghost { display: inline-flex; align-items: center; gap: 8px;
+    padding: 15px 26px; border-radius: 100px; border: 1px solid var(--border-hover, rgba(6,214,160,0.28));
+    color: var(--text-primary); text-decoration: none; font-weight: 600; transition: all 0.3s; }
+  .btn-ghost:hover { border-color: var(--accent-primary); background: rgba(6,214,160,0.06); }
+
+  .hero-proof { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 10px 22px; }
+  .hero-proof li { display: inline-flex; align-items: center; gap: 8px;
+    font-size: 14px; color: var(--text-secondary); }
+  .hero-proof svg { color: var(--accent-primary); }
+
+  /* ── Sections ── */
+  .section { padding: 86px 0; }
+  .section.pt-0 { padding-top: 0; }
+  .section-alt { background: var(--bg-secondary); }
+  .section-head { max-width: 720px; margin-bottom: 46px; }
+  .section-head h2, .market-head h2 { font-family: var(--font-heading);
+    font-size: clamp(26px, 3.6vw, 40px); font-weight: 700;
+    line-height: 1.12; letter-spacing: -0.025em; margin-bottom: 16px; }
+  .section-sub { font-size: 16px; color: var(--text-muted); line-height: 1.7; }
+  .eyebrow + h2 { margin-top: 0; }
+  .section .eyebrow, .market-head .eyebrow { display: inline-flex; }
+
+  .lead { font-size: clamp(18px, 2.1vw, 23px); line-height: 1.55; color: var(--text-primary);
+    margin-bottom: 30px; letter-spacing: -0.01em; }
+
+  .answer-block { border-left: 3px solid var(--accent-primary);
+    background: rgba(6, 214, 160, 0.05); border-radius: 0 14px 14px 0; padding: 24px 28px; }
+  .answer-q { font-family: var(--font-heading); font-size: 19px; font-weight: 700;
+    margin-bottom: 10px; color: var(--text-primary); }
+  .answer-block p { font-size: 16px; line-height: 1.7; color: var(--text-secondary); margin: 0; }
+
+  /* ── Founder note ── */
+  .founder-section { padding: 64px 0; }
+  .founder-note { position: relative; max-width: 880px; margin: 0;
+    padding: 8px 0 0 0; }
+  .quote-mark { position: absolute; top: -28px; left: -8px; font-family: var(--font-heading);
+    font-size: 120px; line-height: 1; color: rgba(6,214,160,0.16); pointer-events: none; }
+  .founder-note blockquote { margin: 0; position: relative; z-index: 1;
+    font-size: clamp(19px, 2.4vw, 27px); line-height: 1.5; font-weight: 500;
+    letter-spacing: -0.015em; color: var(--text-primary); }
+  .founder-note figcaption { margin-top: 22px; font-size: 14px; color: var(--text-muted);
+    display: flex; align-items: center; gap: 12px; }
+  .founder-note figcaption::before { content: ''; width: 28px; height: 1px; background: var(--accent-primary); }
+
+  /* ── Local market (bento) ── */
+  .market-head { margin-bottom: 44px; }
+  .market-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 48px; align-items: start; }
+  .market-copy p { font-size: 16px; line-height: 1.8; color: var(--text-secondary); margin: 0 0 22px; }
+  .pull-quote { font-family: var(--font-heading); font-size: 20px !important; line-height: 1.4 !important;
+    font-weight: 600; color: var(--text-primary) !important; padding-left: 18px;
+    border-left: 3px solid var(--accent-glow, #FFB84D); margin-bottom: 0 !important; }
+
+  .bento { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .stat { background: var(--bg-card, rgba(255,255,255,0.02));
+    border: 1px solid var(--border, rgba(255,255,255,0.08)); border-radius: 16px; padding: 24px; }
+  .stat-accent { grid-column: 1 / -1; background: rgba(255,184,77,0.07);
+    border-color: rgba(255,184,77,0.28); }
+  .stat-accent .stat-value { color: var(--accent-glow, #FFB84D); }
+  .stat-value { display: block; font-family: var(--font-heading);
+    font-size: 32px; font-weight: 800; color: var(--accent-primary); line-height: 1; margin-bottom: 9px; }
+  .stat-label { font-size: 13px; line-height: 1.5; color: var(--text-secondary); }
+
+  .neighborhoods { margin-top: 44px; }
+  .neighborhoods-label { display: block; font-size: 13px; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--text-muted); margin-bottom: 16px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 9px; }
+  .chip { font-size: 14px; padding: 7px 15px; border-radius: 100px;
+    border: 1px solid var(--border, rgba(255,255,255,0.08));
+    background: var(--bg-card, rgba(255,255,255,0.02)); color: var(--text-secondary); }
+
+  /* ── Problem (editorial rows) ── */
+  .problem-rows { display: flex; flex-direction: column; }
+  .problem-row { display: grid; grid-template-columns: 88px 1fr; gap: 16px; align-items: start;
+    padding: 34px 0; border-top: 1px solid var(--border, rgba(255,255,255,0.08)); }
+  .problem-row:last-child { border-bottom: 1px solid var(--border, rgba(255,255,255,0.08)); }
+  .problem-num { font-family: var(--font-heading); font-size: 40px; font-weight: 800;
+    color: transparent; -webkit-text-stroke: 1.2px rgba(6,214,160,0.45); line-height: 0.9; }
+  .problem-body h3 { font-family: var(--font-heading); font-size: clamp(20px, 2.4vw, 26px);
+    font-weight: 700; margin-bottom: 12px; line-height: 1.2; letter-spacing: -0.02em; }
+  .problem-body p { font-size: 16px; line-height: 1.75; color: var(--text-secondary); margin: 0; max-width: 70ch; }
+
+  /* ── Services ── */
+  .service-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .service-card { position: relative; background: var(--bg-card, rgba(255,255,255,0.02));
+    border: 1px solid var(--border, rgba(255,255,255,0.08)); border-radius: 16px;
+    padding: 28px; transition: all 0.3s; }
+  .service-card:hover { border-color: var(--border-hover); transform: translateY(-3px); }
+  .service-card h3 { font-family: var(--font-heading); font-size: 18px; font-weight: 700;
+    margin-bottom: 10px; }
+  .service-card p { font-size: 15px; line-height: 1.7; color: var(--text-secondary); margin: 0; }
+  .service-card-featured { background: rgba(255,184,77,0.06); border-color: rgba(255,184,77,0.3); }
+  .service-tag { display: inline-block; font-size: 11px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.08em; color: var(--accent-glow, #FFB84D); margin-bottom: 12px; }
+
+  /* ── Process (timeline) ── */
+  .timeline { list-style: none; padding: 0; margin: 0; position: relative; }
+  .timeline::before { content: ''; position: absolute; left: 7px; top: 8px; bottom: 8px;
+    width: 1px; background: linear-gradient(var(--accent-primary), rgba(6,214,160,0.1)); }
+  .timeline-item { position: relative; padding: 0 0 34px 40px; }
+  .timeline-item:last-child { padding-bottom: 0; }
+  .timeline-dot { position: absolute; left: 0; top: 4px; width: 15px; height: 15px; border-radius: 50%;
+    background: var(--bg-primary); border: 2px solid var(--accent-primary);
+    box-shadow: 0 0 0 4px rgba(6,214,160,0.12); }
+  .timeline-item h3 { font-family: var(--font-heading); font-size: 19px; font-weight: 700; margin-bottom: 8px; }
+  .timeline-item p { font-size: 15px; line-height: 1.7; color: var(--text-secondary); margin: 0; }
+
+  /* ── Proof ── */
+  .proof-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 26px 0; }
+  .proof-stat { text-align: left; padding: 22px 24px; border-radius: 14px;
+    background: var(--bg-card, rgba(255,255,255,0.02)); border: 1px solid var(--border, rgba(255,255,255,0.08)); }
+  .disclaimer { font-size: 13px; color: var(--text-muted); margin-top: 18px; font-style: italic; }
+
+  /* ── Pricing ── */
+  .pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; align-items: stretch; }
+  .price-card { display: flex; flex-direction: column; position: relative;
+    background: var(--bg-card, rgba(255,255,255,0.02)); border: 1px solid var(--border, rgba(255,255,255,0.08));
+    border-radius: 18px; padding: 32px; transition: all 0.3s; }
+  .price-card:hover { transform: translateY(-3px); }
+  .price-card-featured { border-color: var(--accent-primary);
+    box-shadow: 0 0 0 1px var(--accent-primary), 0 20px 50px rgba(6,214,160,0.12); }
+  .price-badge { position: absolute; top: -12px; left: 32px; font-size: 12px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-on, #03100B);
+    background: var(--accent-primary); padding: 4px 12px; border-radius: 100px; }
+  .price-card h3 { font-family: var(--font-heading); font-size: 18px; font-weight: 700; }
+  .price { display: flex; align-items: baseline; gap: 4px; margin: 8px 0 14px; }
+  .price-amt { font-family: var(--font-heading); font-size: 40px; font-weight: 800; letter-spacing: -0.03em; }
+  .price-cad { font-size: 15px; color: var(--text-muted); }
+  .price-desc { font-size: 14px; color: var(--text-secondary); margin-bottom: 22px; line-height: 1.5; }
+  .price-features { list-style: none; padding: 0; margin: 0 0 26px; display: flex; flex-direction: column; gap: 12px; flex-grow: 1; }
+  .price-features li { display: flex; gap: 10px; align-items: flex-start; font-size: 14px; line-height: 1.5; color: var(--text-secondary); }
+  .price-features svg { color: var(--accent-primary); flex-shrink: 0; margin-top: 3px; }
+  .price-cta { justify-content: center; width: 100%; }
+
+  /* ── Why us ── */
+  .why-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px;
+    background: var(--border, rgba(255,255,255,0.08)); border: 1px solid var(--border, rgba(255,255,255,0.08));
+    border-radius: 18px; overflow: hidden; }
+  .why-card { background: var(--bg-secondary); padding: 34px; transition: background 0.3s; }
+  .why-card:hover { background: var(--bg-card-hover, #16223A); }
+  .why-card h3 { font-family: var(--font-heading); font-size: 19px; font-weight: 700; margin-bottom: 12px; }
+  .why-card p { font-size: 15px; line-height: 1.75; color: var(--text-secondary); margin: 0; }
+
+  /* ── FAQ ── */
+  .faq-list { display: flex; flex-direction: column; gap: 12px; }
+  .faq-item { border: 1px solid var(--border, rgba(255,255,255,0.08)); border-radius: 12px;
+    background: var(--bg-card, rgba(255,255,255,0.02)); padding: 4px 22px; }
+  .faq-item summary { list-style: none; cursor: pointer; font-family: var(--font-heading);
+    font-size: 17px; font-weight: 600; padding: 18px 0; position: relative; padding-right: 32px; }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: '+'; position: absolute; right: 0; top: 50%;
+    transform: translateY(-50%); font-size: 22px; color: var(--accent-primary); transition: transform 0.2s; }
+  .faq-item[open] summary::after { content: '−'; }
+  .faq-item p { font-size: 15px; line-height: 1.7; color: var(--text-secondary); padding: 0 0 20px; margin: 0; }
+
+  /* ── Service links ── */
+  .service-links { margin-top: 32px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+    font-size: 15px; color: var(--text-secondary); }
+  .service-links a { color: var(--accent-primary); text-decoration: none; font-weight: 600;
+    border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+  .service-links a:hover { border-color: var(--accent-primary); }
+
+  @media (max-width: 900px) {
+    .market-grid { grid-template-columns: 1fr; gap: 32px; }
+    .service-grid, .why-grid, .pricing-grid, .proof-stats { grid-template-columns: 1fr; }
+    .why-grid { gap: 1px; }
+  }
+  @media (max-width: 640px) {
+    .loc-hero { padding: 130px 0 60px; }
+    .section { padding: 60px 0; }
+    .bento { grid-template-columns: 1fr 1fr; }
+    .problem-row { grid-template-columns: 56px 1fr; gap: 10px; }
+    .problem-num { font-size: 30px; }
+  }
+</style>

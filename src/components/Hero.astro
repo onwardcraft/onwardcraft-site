@@ -12,25 +12,22 @@
     </h1>
 
     <p class="hero-desc">
-      Most agencies build pretty sites that don't sell. We engineer conversion systems that rank on Google, capture qualified leads, and close deals while you sleep. Built for roofing, solar, HVAC, law firms, and SaaS companies ready to scale.
+      Most agencies build pretty sites that don't sell. We engineer conversion systems that rank on Google, capture qualified leads, and book jobs while you're on the tools. Built specifically for home-service trades — roofing, HVAC, plumbing, solar, electrical, and restoration.
     </p>
 
     <div class="hero-actions">
       <a href="https://calendly.com/getonwardcraft/30min" class="btn-primary" rel="noopener noreferrer">
-        Book Free Revenue Audit
+        Get Your Free 48hr Audit
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
       </a>
-      <a href="/case-studies/" class="btn-secondary">See Our Results</a>
+      <a href="/case-studies/" class="btn-secondary">How We Work</a>
     </div>
 
     <div class="hero-trust">
-      <div class="hero-avatars">
-        <div class="hero-avatar" style="background: linear-gradient(135deg, #3B82F6, #22D3EE);">M</div>
-        <div class="hero-avatar" style="background: linear-gradient(135deg, #8B5CF6, #EC4899);">S</div>
-        <div class="hero-avatar" style="background: linear-gradient(135deg, #F59E0B, #EF4444);">D</div>
-        <div class="hero-avatar" style="background: linear-gradient(135deg, #10B981, #22D3EE);">E</div>
+      <div class="hero-trust-badges">
+        <span class="hero-trust-badge">Free 48-hour video audit</span>
+        <span class="hero-trust-badge">Written performance guarantee</span>
       </div>
-      <span class="hero-trust-text">Join 90+ businesses generating leads on autopilot</span>
     </div>
   </div>
 </section>
@@ -49,7 +46,7 @@
     inset: 0;
     z-index: 0;
     background-image:
-      radial-gradient(ellipse at 70% 20%, rgba(59, 130, 246, 0.08) 0%, transparent 50%),
+      radial-gradient(ellipse at 70% 20%, rgba(6, 214, 160, 0.08) 0%, transparent 50%),
       linear-gradient(160deg, rgba(5, 8, 22, 0.82) 0%, rgba(10, 18, 41, 0.75) 50%, rgba(5, 8, 22, 0.82) 100%),
       url('/Homepage%20hero.png');
     background-size: cover;
@@ -131,33 +128,20 @@
     animation: heroFadeIn 0.6s var(--transition) 0.8s forwards;
   }
 
-  .hero-avatars {
+  .hero-trust-badges {
     display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
   }
 
-  .hero-avatar {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--font-heading);
+  .hero-trust-badge {
     font-size: 13px;
-    font-weight: 700;
-    color: white;
-    border: 2px solid var(--bg-primary);
-    margin-left: -10px;
-  }
-
-  .hero-avatar:first-child {
-    margin-left: 0;
-  }
-
-  .hero-trust-text {
-    font-size: 14px;
-    color: var(--text-muted);
-    font-weight: 500;
+    font-weight: 600;
+    color: var(--text-secondary);
+    padding: 7px 16px;
+    border-radius: 100px;
+    background: rgba(6, 214, 160, 0.08);
+    border: 1px solid rgba(6, 214, 160, 0.18);
   }
 
   @keyframes heroFadeIn {

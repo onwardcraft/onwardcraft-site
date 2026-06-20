@@ -10,21 +10,21 @@ const systems = [
   {
     title: 'Conversion Infrastructure',
     desc: 'We redesign your website to turn visitors into booked calls. Every headline, button, and page flow is engineered for one outcome: action.',
-    outcome: 'Typical result: 2-3x more form fills and calls within 60 days',
+    outcome: 'Built and measured against the call and form-fill targets we agree on up front',
     icon: `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>`,
     includes: ['Conversion audit & wireframes', 'Custom design + development', 'Mobile-first, sub-2s load times', 'CMS you can actually use'],
   },
   {
     title: 'Demand Capture System',
     desc: 'We put you where your best prospects are already looking — page one of Google — and build the authority that keeps you there.',
-    outcome: 'Typical result: Top 3 rankings for 20+ buyer-intent keywords in 90 days',
+    outcome: 'A technical SEO foundation aimed squarely at the buyer-intent keywords in your service area',
     icon: `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>`,
     includes: ['Technical SEO foundation', 'Content that ranks & converts', 'Local search dominance', 'Monthly ranking reports'],
   },
   {
     title: 'Scalable Customer Acquisition',
     desc: 'We build automated funnels that capture, qualify, and deliver high-intent leads to your inbox — so you spend your time closing, not chasing.',
-    outcome: 'Typical result: 40-60% reduction in cost per lead within 90 days',
+    outcome: 'Funnels designed to qualify leads before they reach you and track every dollar to a booked job',
     icon: `<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>`,
     includes: ['High-intent landing pages', 'Lead capture & qualification', 'A/B testing setup', 'Conversion tracking'],
   },
@@ -32,39 +32,39 @@ const systems = [
 
 const pricing = [
   {
-    name: 'Foundation',
-    price: '$2,500',
+    name: 'Starter',
+    price: '$2,000',
     period: 'one-time',
-    desc: 'A professional conversion-focused website that starts generating leads from day one.',
-    features: ['5-page custom website', 'Basic on-page SEO setup', 'Mobile-first responsive design', 'Lead capture forms', 'Google Analytics integration', '2 rounds of revisions'],
+    desc: 'A professional, conversion-focused site that starts capturing leads from day one.',
+    features: ['Single high-converting landing page', 'Basic on-page SEO setup', 'Mobile-first responsive design', 'Lead capture forms', 'Google Analytics integration', '2 rounds of revisions'],
     cta: 'Book My Free Call',
     popular: false,
   },
   {
-    name: 'Growth',
-    price: '$5,000',
+    name: 'Business',
+    price: '$4,500',
     period: 'one-time',
-    desc: 'The complete system: conversion architecture, SEO dominance, and lead funnels that work while you sleep.',
-    features: ['10-page custom website', 'Advanced SEO + blog setup', 'Conversion funnel design', 'A/B test ready pages', 'CMS integration', '3 rounds of revisions', '30-day post-launch support'],
+    desc: 'The complete system: conversion architecture, SEO foundation, and lead funnels built to book jobs.',
+    features: ['Up to 5-page custom website', 'Advanced SEO + blog setup', 'Conversion funnel design', 'A/B test ready pages', 'CMS integration', '4 rounds of revisions', '30-day post-launch support'],
     cta: 'Book My Free Call',
     popular: true,
   },
   {
-    name: 'Enterprise',
-    price: 'Custom',
-    period: 'quote',
-    desc: 'Unlimited scope for brands that need a full digital growth system, not just a website.',
-    features: ['Unlimited pages + custom features', 'Full design system', 'Custom integrations + API work', 'Dedicated project manager', 'Priority support', 'Ongoing maintenance included', 'Performance guarantee'],
+    name: 'Growth',
+    price: '$8,000',
+    period: 'custom',
+    desc: 'A full digital growth system for trades businesses scaling fast — not just a website.',
+    features: ['Unlimited pages + custom features', 'Full design system', 'Custom integrations + API work', 'Founder-led project delivery', 'Priority support', 'Ongoing maintenance included', 'Written performance guarantee'],
     cta: 'Book My Free Call',
     popular: false,
   },
 ];
 
-const results = [
-  { metric: '+412%', label: 'Qualified Leads', client: 'Apex Roofing', before: '12 leads/mo', after: '62 leads/mo', timeline: '90 days', detail: 'Redesigned conversion funnel + local SEO' },
-  { metric: '4.9x', label: 'ROAS', client: 'CloudSync SaaS', before: '1.9x ROAS', after: '4.9x ROAS', timeline: '90 days', detail: 'Landing page optimization + onboarding flow' },
-  { metric: '+267%', label: 'Organic Traffic', client: 'MedFirst Healthcare', before: 'Page 5 for key terms', after: 'Top 3 for 40+ keywords', timeline: '4 months', detail: 'Technical SEO + content strategy' },
-  { metric: '15x', label: 'Lead Growth', client: 'BuildRight Construction', before: '2 leads/mo', after: '30+ leads/mo', timeline: '6 months', detail: 'Full website rebuild + local SEO + lead funnel' },
+const commitments = [
+  { metric: '48hr', label: 'Free Video Audit', headline: 'See it before you spend a cent', detail: 'A personal teardown of where your site is leaking jobs.' },
+  { metric: '100%', label: 'Performance Guarantee', headline: 'We keep working until it works', detail: "If your agreed metrics don't improve, we don't stop." },
+  { metric: '<2s', label: 'Astro Page Speed', headline: 'Loads before visitors bounce', detail: 'Fast, modern builds that Google and customers reward.' },
+  { metric: '1:1', label: 'Founder-Led', headline: 'Never outsourced', detail: 'You work directly with the person building your site.' },
 ];
 
 const whatToExpect = [
@@ -103,16 +103,14 @@ const notFor = [
       </p>
       <div class="hero-ctas reveal">
         <a href="https://calendly.com/getonwardcraft/30min" class="btn-primary" rel="noopener noreferrer">Book My Free Strategy Call</a>
-        <a href="#results" class="btn-secondary">See Results First</a>
+        <a href="#commitments" class="btn-secondary">How We Work</a>
       </div>
       <div class="hero-trust reveal">
-        <div class="trust-avatars">
-          <div class="trust-avatar" style="background: linear-gradient(135deg, #3B82F6, #22D3EE);">MC</div>
-          <div class="trust-avatar" style="background: linear-gradient(135deg, #8B5CF6, #EC4899);">SW</div>
-          <div class="trust-avatar" style="background: linear-gradient(135deg, #F59E0B, #EF4444);">DP</div>
-          <div class="trust-avatar" style="background: linear-gradient(135deg, #10B981, #22D3EE);">ER</div>
+        <div class="trust-badges">
+          <span class="trust-badge">Free 48-hour audit</span>
+          <span class="trust-badge">Written performance guarantee</span>
+          <span class="trust-badge">Founder-led, never outsourced</span>
         </div>
-        <p>Trusted by 100+ businesses. 4.9/5 average rating.</p>
       </div>
     </div>
   </section>
@@ -150,39 +148,32 @@ const notFor = [
     </div>
   </section>
 
-  <!-- PROOF / RESULTS (moved BEFORE services) -->
-  <section class="results-section" id="results">
+  <!-- COMMITMENTS (what you can count on) -->
+  <section class="results-section" id="commitments">
     <div class="container">
       <div class="results-header reveal">
-        <p class="section-label">Proof It Works</p>
-        <h2 class="section-title">Real Clients. Real Numbers.<br>Real Revenue Growth.</h2>
-        <p class="section-subtitle">These are not cherry-picked outliers. They are typical outcomes when strategy and execution actually align.</p>
+        <p class="section-label">What You Can Count On</p>
+        <h2 class="section-title">No Borrowed Logos.<br>Just Promises We Put in Writing.</h2>
+        <p class="section-subtitle">We're a newer, founder-led studio for the trades. Instead of invented numbers, here's exactly what every client gets — guaranteed.</p>
       </div>
       <div class="results-grid stagger-children">
-        {results.map((r, i) => (
+        {commitments.map((c, i) => (
           <div class="result-card-deck reveal stagger-item">
-            <div class="result-metric">{r.metric}</div>
-            <div class="result-label">{r.label}</div>
+            <div class="result-metric">{c.metric}</div>
+            <div class="result-label">{c.label}</div>
             <div class="result-divider"></div>
-            <div class="result-client">{r.client}</div>
-            <div class="result-before-after">
-              <span class="result-before">{r.before}</span>
-              <span class="result-arrow">→</span>
-              <span class="result-after">{r.after}</span>
-            </div>
-            <div class="result-timeline">{r.timeline}</div>
-            <div class="result-detail">{r.detail}</div>
+            <div class="result-client">{c.headline}</div>
+            <div class="result-detail">{c.detail}</div>
           </div>
         ))}
       </div>
       <div class="results-testimonial reveal">
         <div class="testimonial-card">
-          <p class="testimonial-text">"I was skeptical — I had been burned by two agencies before. But OnwardCraft delivered 412% more qualified leads in 90 days. My only regret is not finding them sooner."</p>
+          <p class="testimonial-text">"Here's our promise: we agree on the metrics that matter to your business, and if they don't improve, we keep working until they do — at no extra cost. You shouldn't have to gamble on an agency to find out if it works."</p>
           <div class="testimonial-author">
-            <div class="testimonial-avatar" style="background: linear-gradient(135deg, #3B82F6, #22D3EE);">MC</div>
             <div>
-              <strong>Marcus Chen</strong>
-              <span>CEO, Apex Roofing</span>
+              <strong>The OnwardCraft Guarantee</strong>
+              <span>Founder-led delivery for home-service trades</span>
             </div>
           </div>
         </div>
@@ -198,33 +189,33 @@ const notFor = [
           <p class="section-label">Who We Are</p>
           <h2 class="section-title">We Are Not Another Agency.<br>We Are Your Growth Partner.</h2>
           <p class="who-body">
-            After 100+ projects across roofing, healthcare, SaaS, law, and home services, we know what actually moves the needle. We have influenced over <strong>$10M in client revenue</strong> and our average client sees a <strong>312% increase in leads</strong> within 90 days.
+            OnwardCraft is a founder-led studio built for one kind of business: home-service trades — roofing, HVAC, plumbing, solar, electrical, and restoration. We don't dabble in every industry; we go deep on yours, so we already know the keywords, the buyers, and what actually books a job.
           </p>
           <p class="who-body">
-            We are not designers who learned marketing. We are marketers who happen to design exceptionally well. Every pixel, every headline, every line of code — it all serves one purpose: <strong>making you more money.</strong>
+            We are not designers who learned marketing. We are marketers who happen to design exceptionally well. Every pixel, every headline, every line of code — it all serves one purpose: <strong>making you more money.</strong> And we back it with a written performance guarantee.
           </p>
           <div class="who-stats">
             <div class="who-stat">
-              <span class="who-stat-num">100+</span>
-              <span class="who-stat-label">Projects Launched</span>
+              <span class="who-stat-num">48hr</span>
+              <span class="who-stat-label">Free Video Audit</span>
             </div>
             <div class="who-stat">
-              <span class="who-stat-num">$10M+</span>
-              <span class="who-stat-label">Revenue Influenced</span>
+              <span class="who-stat-num">100%</span>
+              <span class="who-stat-label">Performance Guarantee</span>
             </div>
             <div class="who-stat">
-              <span class="who-stat-num">312%</span>
-              <span class="who-stat-label">Avg Lead Increase</span>
+              <span class="who-stat-num">&lt;2s</span>
+              <span class="who-stat-label">Astro Page Speed</span>
             </div>
           </div>
         </div>
         <div class="who-right reveal">
           <div class="who-trust-card">
             <div class="who-trust-stars">★★★★★</div>
-            <p class="who-trust-text">"I got more value in a 20-minute call than I did from my last $15,000 agency engagement."</p>
+            <p class="who-trust-text">"Start with the free 48-hour audit. You'll get a clear, honest teardown of your site — and you decide if we're a fit. No card, no contract, no pressure."</p>
             <div class="who-trust-author">
-              <strong>Marcus Chen</strong>
-              <span>CEO, Apex Roofing</span>
+              <strong>The Free Audit Promise</strong>
+              <span>Value first, every time</span>
             </div>
           </div>
         </div>
@@ -294,7 +285,7 @@ const notFor = [
           </div>
           <div class="guarantee-content">
             <h3>Performance Guarantee</h3>
-            <p>If your metrics do not improve within 90 days, we keep working until they do — at no extra cost. We have never had a client need to use this. We plan to keep it that way.</p>
+            <p>We agree on the metrics that matter to your business up front. If they do not improve, we keep working — at no extra cost — until they do. It is in writing on every project, because your result is the only definition of done.</p>
           </div>
         </div>
       </div>
@@ -330,7 +321,7 @@ const notFor = [
       <div class="book-header reveal">
         <p class="section-label">Book a Call</p>
         <h2 class="section-title">Get Your Free 30-Minute<br>Strategy Call.</h2>
-        <p class="section-subtitle">No strings attached. In 30 minutes, we will audit your site, analyze your competitors, and map out exactly what it takes to 3x your leads.</p>
+        <p class="section-subtitle">No strings attached. In 30 minutes, we will audit your site, analyze your competitors, and map out exactly what it takes to turn it into a steady source of booked jobs.</p>
       </div>
       <div class="book-grid">
         <div class="calendly-wrapper reveal">
@@ -379,12 +370,12 @@ const notFor = [
             </div>
           </div>
           <div class="trust-card-deck">
-            <h3>Why Business Owners Love These Calls</h3>
+            <h3>What These Calls Are Actually Like</h3>
             <div class="trust-quote">
-              <p>"I expected a sales pitch. Instead I got a 30-minute masterclass on what was wrong with my website and exactly how to fix it. Even if I had not hired them, that call alone was worth it."</p>
+              <p>No sales pitch. You'll get a focused, 30-minute look at what's costing your site leads and exactly how we'd fix it — plus your free 48-hour video audit afterward. Even if we never work together, you walk away with a plan you can use.</p>
               <div class="trust-author">
-                <strong>Sarah Williams</strong>
-                <span>Founder, CloudSync</span>
+                <strong>Honest value, every call</strong>
+                <span>That's the OnwardCraft way</span>
               </div>
             </div>
           </div>
@@ -489,6 +480,16 @@ const notFor = [
 
   .trust-avatar:first-child { margin-left: 0; }
   .hero-trust p { font-size: 14px; color: var(--text-muted); font-weight: 500; }
+  .trust-badges { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+  .trust-badge {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    padding: 7px 16px;
+    border-radius: 100px;
+    background: rgba(6, 214, 160, 0.08);
+    border: 1px solid rgba(6, 214, 160, 0.18);
+  }
 
   /* PROBLEM */
   .problem-section { padding: 180px 0; position: relative; }
@@ -518,8 +519,8 @@ const notFor = [
     font-weight: 700;
     color: var(--accent-primary);
     padding: 6px 14px;
-    background: rgba(59,130,246,0.1);
-    border: 1px solid rgba(59,130,246,0.2);
+    background: rgba(6, 214, 160, 0.1);
+    border: 1px solid rgba(6, 214, 160, 0.2);
     border-radius: 100px;
     display: inline-block;
     margin-bottom: 20px;
@@ -756,8 +757,8 @@ const notFor = [
   .service-icon-deck {
     width: 56px;
     height: 56px;
-    background: rgba(59,130,246,0.08);
-    border: 1px solid rgba(59,130,246,0.15);
+    background: rgba(6, 214, 160, 0.08);
+    border: 1px solid rgba(6, 214, 160, 0.15);
     border-radius: var(--radius-md);
     display: flex;
     align-items: center;
@@ -783,8 +784,8 @@ const notFor = [
     color: var(--accent-secondary);
     margin-bottom: 20px;
     padding: 8px 12px;
-    background: rgba(34, 211, 238, 0.06);
-    border: 1px solid rgba(34, 211, 238, 0.1);
+    background: rgba(6, 214, 160, 0.06);
+    border: 1px solid rgba(6, 214, 160, 0.1);
     border-radius: var(--radius-sm);
     line-height: 1.5;
   }
@@ -835,11 +836,11 @@ const notFor = [
     transform: translateY(-4px);
   }
   .pricing-card-deck.popular {
-    border-color: rgba(59,130,246,0.3);
-    background: rgba(59, 130, 246, 0.05);
+    border-color: rgba(6, 214, 160, 0.3);
+    background: rgba(6, 214, 160, 0.05);
   }
   .pricing-card-deck.popular:hover {
-    border-color: rgba(59,130,246,0.4);
+    border-color: rgba(6, 214, 160, 0.4);
   }
   .popular-badge {
     position: absolute;
@@ -890,7 +891,7 @@ const notFor = [
     border-bottom: 1px solid rgba(255,255,255,0.04);
   }
   .pricing-features-deck li svg {
-    color: #34D399;
+    color: #06D6A0;
     flex-shrink: 0;
     margin-top: 2px;
   }
@@ -912,8 +913,8 @@ const notFor = [
     display: flex;
     align-items: flex-start;
     gap: 24px;
-    background: rgba(52, 211, 153, 0.04);
-    border: 1px solid rgba(52, 211, 153, 0.12);
+    background: rgba(6, 214, 160, 0.04);
+    border: 1px solid rgba(6, 214, 160, 0.12);
     border-radius: var(--radius-xl);
     padding: 32px;
   }
@@ -921,12 +922,12 @@ const notFor = [
     width: 48px;
     height: 48px;
     border-radius: var(--radius-md);
-    background: rgba(52, 211, 153, 0.08);
-    border: 1px solid rgba(52, 211, 153, 0.15);
+    background: rgba(6, 214, 160, 0.08);
+    border: 1px solid rgba(6, 214, 160, 0.15);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #34D399;
+    color: #06D6A0;
     flex-shrink: 0;
   }
   .guarantee-content h3 {
@@ -1037,8 +1038,8 @@ const notFor = [
     width: 72px;
     height: 72px;
     border-radius: 50%;
-    background: rgba(59,130,246,0.08);
-    border: 1px solid rgba(59,130,246,0.15);
+    background: rgba(6, 214, 160, 0.08);
+    border: 1px solid rgba(6, 214, 160, 0.15);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1063,7 +1064,7 @@ const notFor = [
     font-size: 14px;
     color: var(--text-muted);
   }
-  .calendly-cta-sub svg { color: #34D399; }
+  .calendly-cta-sub svg { color: #06D6A0; }
 
   .expect-wrapper { display: flex; flex-direction: column; gap: 24px; position: sticky; top: 120px; }
   .expect-card-deck, .trust-card-deck, .faq-card-deck {
@@ -1086,8 +1087,8 @@ const notFor = [
     font-weight: 700;
     color: var(--accent-primary);
     padding: 6px 12px;
-    background: rgba(59,130,246,0.1);
-    border: 1px solid rgba(59,130,246,0.2);
+    background: rgba(6, 214, 160, 0.1);
+    border: 1px solid rgba(6, 214, 160, 0.2);
     border-radius: 100px;
     height: fit-content;
     flex-shrink: 0;

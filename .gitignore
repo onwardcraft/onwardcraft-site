@@ -1,1 +1,9 @@
 .DS_Store
+
+# Local QA / debug artifacts (screenshots and one-off capture scripts)
+screenshot-*
+ss.cjs
+ss2.cjs
+ss3.cjs
+ss4.cjs
+ss5.cjs

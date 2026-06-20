@@ -1,4 +1,6 @@
 ---
+import { industries } from '../data/industries.js';
+
 const { dark = false } = Astro.props;
 
 const serviceLinks = [
@@ -7,9 +9,10 @@ const serviceLinks = [
   { label: 'Lead Generation', href: '/services/lead-generation/' },
 ];
 
+const industryLinks = industries.map((i) => ({ label: i.trade, href: `/industries/${i.slug}/` }));
+
 const navLinks = [
   { label: 'Work', href: '/case-studies/' },
-  { label: 'Process', href: '/process/' },
   { label: 'Pricing', href: '/pricing/' },
   { label: 'Blog', href: '/blog/' },
   { label: 'About', href: '/about/' },
@@ -23,14 +26,22 @@ const darkPillStyle = dark
 <nav class="navbar" id="navbar" data-dark={dark ? 'true' : undefined}>
   <div class="navbar-pill" style={darkPillStyle}>
     <a href="/" class="nav-brand">
-      <img src="/logo/logo.svg" alt="OnwardCraft" height="28" class="brand-logo" />
+      <img src="/logo/logo.svg" alt="OnwardCraft" width="170" height="28" loading="eager" decoding="async" class="brand-logo" />
     </a>
 
     <div class="nav-links" id="navLinks">
       <div class="nav-dropdown">
-        <a href="#services" class="nav-link">Services</a>
+        <a href="/services/" class="nav-link">Services</a>
         <div class="dropdown-menu">
           {serviceLinks.map(link => (
+            <a href={link.href} class="dropdown-item">{link.label}</a>
+          ))}
+        </div>
+      </div>
+      <div class="nav-dropdown">
+        <a href="/industries/" class="nav-link">Industries</a>
+        <div class="dropdown-menu">
+          {industryLinks.map(link => (
             <a href={link.href} class="dropdown-item">{link.label}</a>
           ))}
         </div>
@@ -59,8 +70,12 @@ const darkPillStyle = dark
 <div class="mobile-overlay" id="mobileOverlay">
   <div class="mobile-menu-content">
     <div class="mobile-links">
-      <a href="#services" class="mobile-link">Services</a>
+      <a href="/services/" class="mobile-link">Services</a>
       {serviceLinks.map(link => (
+        <a href={link.href} class="mobile-link mobile-sublink">{link.label}</a>
+      ))}
+      <a href="/industries/" class="mobile-link">Industries</a>
+      {industryLinks.map(link => (
         <a href={link.href} class="mobile-link mobile-sublink">{link.label}</a>
       ))}
       {navLinks.map(link => (
@@ -226,7 +241,7 @@ const darkPillStyle = dark
 
   .nav-cta:hover {
     transform: translateY(-1px);
-    box-shadow: 0 4px 20px rgba(59, 130, 246, 0.3);
+    box-shadow: 0 4px 20px rgba(6, 214, 160, 0.3);
   }
 
   .nav-cta:hover .cta-arrow {

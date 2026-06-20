@@ -1,52 +1,66 @@
 # OnwardCraft
 
-> OnwardCraft is a digital growth agency that turns websites into revenue machines for home service and local businesses. We specialize in high-converting web design, SEO, and lead generation.
+> OnwardCraft is a web design, SEO, and lead-generation agency built exclusively for home-service contractors and the trades — roofing, HVAC, plumbing, solar, electrical, and restoration. We turn contractor websites into revenue machines that rank, convert, and book jobs.
 
 ## Overview
 
-OnwardCraft helps ambitious business owners grow through:
+OnwardCraft is a founder-led agency that works with one kind of business: home-service contractors. That focus means our websites, local SEO, and lead systems are tuned to how each trade actually wins work — storm cycles, 24/7 emergencies, seasonal demand, and long high-ticket sales.
 
-- **Web Design** — Custom, conversion-focused websites built to generate leads
-- **SEO** — Data-driven search optimization that ranks you on page one
-- **Lead Generation** — Complete systems to attract, capture, and convert qualified prospects
+What we do:
 
-Our approach combines strategic design, technical excellence, and continuous optimization to deliver measurable business results.
+- **Web Design** — Fast, mobile-first, conversion-focused contractor websites built on Astro for sub-2-second load times.
+- **SEO** — Local SEO and Google Business Profile optimization that wins the map pack for "near me" searches.
+- **Lead Generation** — Complete systems to capture, qualify, and convert high-intent homeowners into booked jobs.
+
+We start every engagement with a free, no-obligation website and SEO audit delivered within two business days.
 
 ## Key Pages
 
-- [Homepage](https://onwardcraft.com/) — Learn about our services and approach
-- [Services](https://onwardcraft.com/services/) — Overview of all services we offer
-- [Web Design](https://onwardcraft.com/services/web-design/) — Custom website design services
-- [SEO](https://onwardcraft.com/services/seo/) — Search engine optimization services
-- [Lead Generation](https://onwardcraft.com/services/lead-generation/) — Lead generation systems
-- [Pricing](https://onwardcraft.com/pricing/) — Transparent pricing for all packages
-- [Process](https://onwardcraft.com/process/) — How we work with clients
-- [Case Studies](https://onwardcraft.com/case-studies/) — Results we've delivered for clients
-- [Blog](https://onwardcraft.com/blog/) — Growth tactics, web design & SEO insights
-- [About](https://onwardcraft.com/about/) — Meet the team
+- [Homepage](https://onwardcraft.com/) — What we do and who we serve
+- [Services](https://onwardcraft.com/services/) — Overview of all services
+- [Web Design](https://onwardcraft.com/services/web-design/) — Conversion-focused contractor websites
+- [SEO](https://onwardcraft.com/services/seo/) — Local search optimization
+- [Lead Generation](https://onwardcraft.com/services/lead-generation/) — Lead capture and conversion systems
+- [Pricing](https://onwardcraft.com/pricing/) — Transparent, fixed-scope packages ($2,000–$8,000 builds)
+- [Process](https://onwardcraft.com/process/) — How we work
+- [Contractor Marketing FAQ](https://onwardcraft.com/contractor-marketing-faq/) — Straight answers to common contractor marketing questions
+- [Blog](https://onwardcraft.com/blog/) — In-depth contractor marketing, local SEO, and conversion guides
+- [About](https://onwardcraft.com/about/) — About the agency
 - [Contact](https://onwardcraft.com/contact/) — Get in touch
-- [Book a Call](https://onwardcraft.com/book-call/) — Schedule a free strategy call
+- [Book a Call](https://calendly.com/getonwardcraft/30min) — Schedule a free strategy call
 
-## Blog
+## Industries We Serve
 
-Our blog covers actionable insights for business owners:
+OnwardCraft specializes exclusively in home-service trades:
 
-- [How Much Does a Website Cost in 2026?](https://onwardcraft.com/blog/how-much-does-a-website-cost-2026/)
-- [How Much Does SEO Cost in 2026?](https://onwardcraft.com/blog/how-much-does-seo-cost-in-2026/)
-- [DIY Website vs Hiring an Agency](https://onwardcraft.com/blog/diy-website-vs-hiring-an-agency/)
-- [DIY SEO vs Hiring an Agency](https://onwardcraft.com/blog/diy-seo-vs-hiring-an-agency-pros-and-cons/)
-- [How to Choose a Web Design Agency](https://onwardcraft.com/blog/how-to-choose-a-web-design-agency/)
-- [How to Choose the Right SEO Agency](https://onwardcraft.com/blog/how-to-choose-the-right-seo-agency/)
-- [What Does an SEO Agency Actually Do?](https://onwardcraft.com/blog/what-does-an-seo-agency-actually-do/)
-- [How Long Does It Take to Build a Website?](https://onwardcraft.com/blog/how-long-does-it-take-to-build-a-website/)
-- [SEO vs Google Ads: Which Has Better ROI?](https://onwardcraft.com/blog/seo-vs-google-ads-which-has-better-roi/)
-- [Custom Website vs Template](https://onwardcraft.com/blog/custom-website-vs-template-which-is-better/)
-- [Wix vs Custom Website](https://onwardcraft.com/blog/wix-vs-custom-website/)
-- [Signs Your Website Needs a Redesign](https://onwardcraft.com/blog/signs-your-website-needs-redesign/)
-- [Why Cheap Websites Cost Money](https://onwardcraft.com/blog/why-cheap-websites-cost-money/)
-- [SEO for Local Businesses](https://onwardcraft.com/blog/seo-for-local-businesses/)
-- [SEO Services Complete Guide](https://onwardcraft.com/blog/seo-services-complete-guide-for-business-owners/)
-- [Conversion Rate Optimization Basics](https://onwardcraft.com/blog/conversion-rate-optimization-basics/)
+- [Roofing Marketing](https://onwardcraft.com/industries/roofing/) — Storm-ready websites, insurance-claim content, and storm-response campaigns
+- [HVAC Marketing](https://onwardcraft.com/industries/hvac/) — 24/7 emergency capture, maintenance-agreement growth, and seasonal campaigns
+- [Plumbing Marketing](https://onwardcraft.com/industries/plumbing/) — Emergency-first sites and map-pack domination for "plumber near me"
+- [Solar Marketing](https://onwardcraft.com/industries/solar/) — Education-led content and nurture that lowers customer acquisition cost
+- [Electrical Marketing](https://onwardcraft.com/industries/electrical/) — Trust-forward sites for residential, commercial, and EV-charger work
+- [Restoration Marketing](https://onwardcraft.com/industries/restoration/) — 24/7 emergency capture and insurance referral relationships
+- [All Industries](https://onwardcraft.com/industries/) — Overview of every trade we serve
+
+## Pillar Guides
+
+In-depth resources for contractors and home-service business owners:
+
+- [How Much Does a Website Cost in 2026?](https://onwardcraft.com/blog/how-much-does-a-website-cost/)
+- [How Much Does SEO Cost in 2026?](https://onwardcraft.com/blog/how-much-does-seo-cost/)
+- [The Complete Local SEO Guide for Home Service Businesses](https://onwardcraft.com/blog/local-seo-guide/)
+- [Google Business Profile Optimization Guide](https://onwardcraft.com/blog/google-business-profile-guide/)
+- [The Complete Local SEO Checklist (50 Points)](https://onwardcraft.com/blog/local-seo-checklist/)
+- [Contractor Website Design Guide](https://onwardcraft.com/blog/contractor-website-design-guide/)
+- [The Complete Website Redesign Guide for Contractors](https://onwardcraft.com/blog/website-redesign-guide/)
+- [Content Marketing Playbook for Contractors](https://onwardcraft.com/blog/content-marketing-playbook-contractors/)
+- [The Contractor Visibility Flywheel](https://onwardcraft.com/blog/contractor-visibility-flywheel/)
+- [Roofing Marketing Guide](https://onwardcraft.com/blog/roofing-marketing-guide/)
+- [HVAC Marketing Guide](https://onwardcraft.com/blog/hvac-marketing-guide/)
+- [Plumbing Marketing Guide](https://onwardcraft.com/blog/plumbing-marketing-guide/)
+- [Solar Marketing Guide](https://onwardcraft.com/blog/solar-marketing-guide/)
+- [Electrical Contractor Marketing Guide](https://onwardcraft.com/blog/electrical-contractor-marketing/)
+- [Restoration Marketing Guide](https://onwardcraft.com/blog/restoration-marketing-guide/)
+- [General Contractor Marketing Guide](https://onwardcraft.com/blog/general-contractor-marketing-guide/)
 
 ## Contact
 

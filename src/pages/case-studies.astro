@@ -3,105 +3,57 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 
-const title = 'Case Studies — Real Results from Real Clients';
-const description = 'See how we have helped businesses across industries generate more leads, rank higher, and convert more visitors into customers.';
+const title = 'How We Work — Method, Guarantee & Your Next Case Study';
+const description = 'We are a founder-led studio for home-service trades. See our conversion method, our written performance guarantee, and how your business could be our next case study.';
 
 const caseStudies = [
   {
-    industry: 'Roofing',
-    title: 'How a Roofing Company Got 412% More Qualified Leads',
-    metric: '+412%',
-    metricLabel: 'Qualified Leads',
-    timeline: '90 Days',
-    challenge: 'A roofing company had a website that looked professional but generated almost zero leads. They relied entirely on expensive lead gen services that ate their margins.',
-    solution: 'Built a conversion-focused website with location-specific landing pages, instant quote forms, and aggressive local SEO. Added social proof and trust signals throughout.',
+    industry: 'Step 01',
+    title: 'The Free 48-Hour Video Audit',
+    metric: '48hr',
+    metricLabel: 'Turnaround',
+    timeline: 'No Cost',
+    challenge: 'Most trades owners are pouring money into lead-gen services or ads while their own website quietly leaks the jobs it should be booking — and no one ever tells them why.',
+    solution: 'You give us your site and your service area. Within 48 hours we send back a personal video teardown: where visitors drop off, what is hurting your Google rankings, and the three highest-impact fixes — no contract, no card, no pressure.',
     results: [
-      '412% increase in qualified leads in 90 days',
-      'Reduced cost per lead from $180 to $42',
-      'Page 1 Google rankings for 12 local keywords',
-      'Website became the #1 lead source',
+      'Personal video walkthrough of your site',
+      'Top 3 conversion leaks identified',
+      'Local SEO gaps vs. your competitors',
+      'A clear, prioritized fix list to keep',
     ],
-    tags: ['Web Design', 'SEO', 'Lead Gen'],
+    tags: ['Free Audit', 'No Obligation', 'Conversion Teardown'],
   },
   {
-    industry: 'B2B SaaS',
-    title: 'B2B SaaS Platform 4.9x Return on Ad Spend',
-    metric: '4.9x',
-    metricLabel: 'ROAS',
-    timeline: '6 Months',
-    challenge: 'A B2B SaaS platform was spending $8K/month on ads with a 0.8x ROAS. Their website was confusing visitors and killing conversions before they even saw the product.',
-    solution: 'Redesigned the entire marketing site with a clear value proposition, benefit-driven copy, and strategic CTAs. Built a demo request funnel that pre-qualified prospects.',
+    industry: 'Step 02',
+    title: 'Founder-Led, Conversion-First Build',
+    metric: '<2s',
+    metricLabel: 'Load Time',
+    timeline: 'Fixed Price',
+    challenge: 'Most agencies sell you a pretty site, outsource the work to whoever is cheapest, then hand it off and disappear. The result looks nice and books nothing.',
+    solution: 'We build every site ourselves on Astro for sub-2-second load speed, with conversion-first layout and SEO baked into the foundation. Pricing is fixed and transparent up front, so you know exactly what you are investing before we start.',
     results: [
-      '4.9x return on ad spend (up from 0.8x)',
-      '63% increase in demo requests',
-      '38% reduction in cost per acquisition',
-      'Average deal size increased 22%',
+      'Built by the founder — never outsourced',
+      'Sub-2-second Astro performance',
+      'Conversion-first layout and copy',
+      'SEO structure built in from day one',
     ],
-    tags: ['Web Design', 'Conversion Opt.'],
+    tags: ['Astro Build', 'Fixed Pricing', 'Trades Focus'],
   },
   {
-    industry: 'Law Firm',
-    title: 'Law Firm Dominates Local Search in 4 Months',
-    metric: '#1',
-    metricLabel: 'Local Ranking',
-    timeline: '4 Months',
-    challenge: 'A personal injury law firm was invisible on Google. They ranked on page 3 for "personal injury lawyer [city]" and received almost no organic inquiries.',
-    solution: 'Complete website rebuild with practice area pages, attorney profiles, case result pages, and structured data. Aggressive local SEO and content strategy.',
+    industry: 'Step 03',
+    title: 'The Written Performance Guarantee',
+    metric: '100%',
+    metricLabel: 'Accountability',
+    timeline: 'In Writing',
+    challenge: 'Agencies love to promise results, then point at "the algorithm" when nothing moves. You are left paying for activity instead of outcomes.',
+    solution: 'We put it in writing: we agree on the metrics that matter to your business, and if they do not improve, we keep working at no extra cost until they do. Your result is the only definition of done.',
     results: [
-      '#1 Google ranking for primary keyword',
-      'Page 1 rankings for 28 related keywords',
-      '280% increase in organic inquiries',
-      '5 new retained clients/month from search',
+      'Agreed, written success metrics',
+      'We keep working until they improve',
+      'No vanity reports — outcomes only',
+      'Ongoing support, not a hand-off',
     ],
-    tags: ['SEO', 'Web Design', 'Local SEO'],
-  },
-  {
-    industry: 'E-commerce',
-    title: 'E-commerce Brand 2.3x Revenue with Faster Site',
-    metric: '2.3x',
-    metricLabel: 'Revenue Increase',
-    timeline: '3 Months',
-    challenge: 'An e-commerce brand had a slow, clunky Shopify site. Load times were 6+ seconds, mobile conversion was terrible, and cart abandonment was at 78%.',
-    solution: 'Headless rebuild with Astro + Shopify. Sub-second load times, optimized checkout flow, mobile-first design, and abandoned cart recovery integration.',
-    results: [
-      '2.3x revenue increase in 90 days',
-      'Load time reduced from 6.2s to 0.9s',
-      'Cart abandonment dropped from 78% to 52%',
-      'Mobile conversion up 184%',
-    ],
-    tags: ['Web Design', 'E-commerce', 'Performance'],
-  },
-  {
-    industry: 'Med Spa',
-    title: 'Med Spa Books 40+ Appointments/Week from Website',
-    metric: '40+',
-    metricLabel: 'Appts/Week',
-    timeline: '5 Months',
-    challenge: 'A med spa had a pretty website built on Wix that loaded in 8 seconds and had no booking integration. Staff spent hours scheduling over the phone.',
-    solution: 'Custom build with integrated online booking, treatment-specific landing pages, before/after galleries, and automated appointment reminders.',
-    results: [
-      '40+ appointments booked online per week',
-      'Phone scheduling reduced by 70%',
-      'New patient inquiries up 340%',
-      'Average rating improved to 4.9 stars',
-    ],
-    tags: ['Web Design', 'Lead Gen', 'Automation'],
-  },
-  {
-    industry: 'Contractor',
-    title: 'General Contractor Goes from 2 to 30 Leads/Month',
-    metric: '15x',
-    metricLabel: 'Lead Growth',
-    timeline: '6 Months',
-    challenge: 'A general contractor relied entirely on referrals. Their outdated website had not been updated in 5 years and generated exactly zero leads.',
-    solution: 'Full website rebuild with project galleries, service area pages, instant estimate forms, and review integration. Local SEO campaign for surrounding cities.',
-    results: [
-      'From 2 to 30+ qualified leads per month',
-      'Website generates 60% of all new business',
-      'Ranks #1-3 for 15 local service keywords',
-      'Hired 3 new crew members to keep up with demand',
-    ],
-    tags: ['Web Design', 'SEO', 'Local SEO'],
+    tags: ['Written Guarantee', 'Outcome-Driven', 'Ongoing Support'],
   },
 ];
 ---
@@ -116,13 +68,13 @@ const caseStudies = [
       <div class="gradient-blob blob-2"></div>
     </div>
     <div class="cases-hero-inner container">
-      <p class="section-label reveal">Case Studies</p>
+      <p class="section-label reveal">How We Work</p>
       <h1 class="cases-title reveal">
-        Real Results.<br/>
-        <span class="accent">Not Empty Promises.</span>
+        A Method You Can Trust.<br/>
+        <span class="accent">Be Our Next Case Study.</span>
       </h1>
       <p class="cases-desc reveal">
-        Every case study below shows actual metrics from actual clients. We do not share vanity numbers — we share the leads, revenue, and rankings that changed their business.
+        We are a newer, founder-led studio for the trades — so instead of borrowed logos and invented numbers, here is exactly how we work: a free 48-hour audit, a conversion-first build, and a written guarantee. The first results you read here will be your own.
       </p>
     </div>
   </section>
@@ -169,16 +121,16 @@ const caseStudies = [
     </div>
   </section>
 
-  <!-- Testimonial -->
+  <!-- Guarantee -->
   <section class="cases-testimonial">
     <div class="container">
       <div class="testimonial-card reveal gradient-border">
         <div class="testimonial-card-inner">
-          <svg class="quote-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V21c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
-          <p class="testimonial-quote">"We went from 2-3 leads a month to 30+. Our website went from an embarrassment to our #1 salesperson. The ROI has been insane — we made our investment back in the first month."</p>
+          <svg class="quote-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <p class="testimonial-quote">"We agree on the metrics that matter to your business up front. If they don't improve, we keep working — at no extra cost — until they do. That's the written guarantee behind every project we take on."</p>
           <div class="testimonial-author">
-            <strong>James Mitchell</strong>
-            <span>Owner, Mitchell General Contracting</span>
+            <strong>The OnwardCraft Performance Guarantee</strong>
+            <span>Founder-led delivery for the trades</span>
           </div>
         </div>
       </div>
@@ -190,8 +142,8 @@ const caseStudies = [
     <div class="container">
       <div class="final-cta-card reveal gradient-border pulse-glow">
         <div class="final-cta-content">
-          <h2>Want Results Like These?</h2>
-          <p>Every case study started with a free strategy call. Book yours and get a custom growth plan for your business.</p>
+          <h2>Want to Be Our Next Case Study?</h2>
+          <p>It starts with a free strategy call and your free 48-hour video audit. No commitment — just a clear plan for turning your site into your best salesperson.</p>
           <a href="https://calendly.com/getonwardcraft/30min" class="cta-button magnetic" rel="noopener noreferrer">Book Your Free Strategy Call</a>
           <p class="cta-guarantee">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
@@ -233,7 +185,7 @@ const caseStudies = [
   .blob-1 {
     width: 500px;
     height: 500px;
-    background: radial-gradient(circle, rgba(59, 130, 246, 0.4), transparent 70%);
+    background: radial-gradient(circle, rgba(6, 214, 160, 0.4), transparent 70%);
     top: -10%;
     left: -5%;
     animation: blobFloat1 20s ease-in-out infinite;
@@ -242,7 +194,7 @@ const caseStudies = [
   .blob-2 {
     width: 400px;
     height: 400px;
-    background: radial-gradient(circle, rgba(139, 92, 246, 0.3), transparent 70%);
+    background: radial-gradient(circle, rgba(255, 184, 77, 0.3), transparent 70%);
     bottom: -5%;
     right: -5%;
     animation: blobFloat2 18s ease-in-out infinite;
@@ -275,7 +227,7 @@ const caseStudies = [
   }
 
   .cases-title .accent {
-    background: linear-gradient(135deg, #A78BFA 0%, #22D3EE 50%, #34D399 100%);
+    background: linear-gradient(135deg, #FFB84D 0%, #06D6A0 50%, #06D6A0 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -350,8 +302,8 @@ const caseStudies = [
     letter-spacing: 0.1em;
     color: var(--accent-primary);
     padding: 6px 14px;
-    background: rgba(59, 130, 246, 0.1);
-    border: 1px solid rgba(59, 130, 246, 0.2);
+    background: rgba(6, 214, 160, 0.1);
+    border: 1px solid rgba(6, 214, 160, 0.2);
     border-radius: 100px;
   }
 
@@ -435,7 +387,7 @@ const caseStudies = [
   }
 
   .case-block.results h4 {
-    color: #34D399;
+    color: #06D6A0;
   }
 
   .case-block.results ul {
@@ -457,7 +409,7 @@ const caseStudies = [
     top: 12px;
     width: 8px;
     height: 8px;
-    background: #34D399;
+    background: #06D6A0;
     border-radius: 50%;
   }
 
@@ -492,7 +444,7 @@ const caseStudies = [
   }
 
   .quote-icon {
-    color: rgba(139, 92, 246, 0.3);
+    color: rgba(255, 184, 77, 0.3);
     margin-bottom: 24px;
   }
 
@@ -524,7 +476,7 @@ const caseStudies = [
 
   .final-cta-card {
     position: relative;
-    background: linear-gradient(180deg, rgba(139, 92, 246, 0.08) 0%, rgba(17, 24, 39, 0.6) 100%);
+    background: linear-gradient(180deg, rgba(255, 184, 77, 0.08) 0%, rgba(17, 24, 39, 0.6) 100%);
     border-radius: var(--radius-xl);
     padding: 80px;
     overflow: hidden;
@@ -538,7 +490,7 @@ const caseStudies = [
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.4), rgba(59, 130, 246, 0.3), transparent);
+    background: linear-gradient(90deg, transparent, rgba(255, 184, 77, 0.4), rgba(6, 214, 160, 0.3), transparent);
   }
 
   .final-cta-content {
@@ -574,12 +526,12 @@ const caseStudies = [
     font-weight: 600;
     border-radius: var(--radius-md);
     transition: all 0.35s var(--transition);
-    box-shadow: 0 4px 24px rgba(59, 130, 246, 0.3);
+    box-shadow: 0 4px 24px rgba(6, 214, 160, 0.3);
   }
 
   .cta-button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 32px rgba(59, 130, 246, 0.4);
+    box-shadow: 0 8px 32px rgba(6, 214, 160, 0.4);
   }
 
   .cta-guarantee {
@@ -593,7 +545,7 @@ const caseStudies = [
   }
 
   .cta-guarantee svg {
-    color: #34D399;
+    color: #06D6A0;
   }
 
   @media (max-width: 1024px) {

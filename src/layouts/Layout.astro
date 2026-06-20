@@ -5,18 +5,46 @@ export interface Props {
   canonical?: string;
   ogType?: string;
   ogImage?: string;
+  schema?: object | object[];
 }
 const {
   title = "OnwardCraft — We Turn Websites Into Revenue Machines",
-  description = "Growth systems for home service and local businesses. High-converting websites, SEO, and lead generation that actually drives revenue.",
+  description = "Conversion-focused websites, SEO, and lead generation for home-service contractors — roofing, HVAC, plumbing, solar, electrical, and restoration.",
   canonical,
   ogType = "website",
-  ogImage = "https://onwardcraft.com/logo.png",
+  ogImage = "https://onwardcraft.com/og-image.png",
+  schema,
 } = Astro.props;
 
 const pathname = Astro.url.pathname;
 const canonicalPath = pathname === '/' ? '/' : pathname.endsWith('/') ? pathname : pathname + '/';
 const canonicalUrl = canonical || `https://onwardcraft.com${canonicalPath}`;
+
+// Sitewide structured data (Organization + WebSite). Page-specific schema
+// (Service, FAQPage, BreadcrumbList…) is passed in via the `schema` prop.
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://onwardcraft.com/#organization",
+  name: "OnwardCraft",
+  url: "https://onwardcraft.com/",
+  logo: "https://onwardcraft.com/logo.png",
+  description: "Conversion-focused web design, SEO, and lead generation for home-service contractors.",
+  email: "hello@onwardcraft.com",
+  areaServed: "United States",
+  knowsAbout: ["Web Design", "Search Engine Optimization", "Lead Generation", "Local SEO", "Conversion Rate Optimization", "Home Services Marketing"],
+  sameAs: [] as string[],
+};
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://onwardcraft.com/#website",
+  url: "https://onwardcraft.com/",
+  name: "OnwardCraft",
+  publisher: { "@id": "https://onwardcraft.com/#organization" },
+};
+const pageSchemas = schema ? (Array.isArray(schema) ? schema : [schema]) : [];
+const allSchemas = [orgSchema, websiteSchema, ...pageSchemas];
 ---
 
 <!doctype html>
@@ -34,19 +62,30 @@ const canonicalUrl = canonical || `https://onwardcraft.com${canonicalPath}`;
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="OnwardCraft — conversion-focused websites, SEO & lead generation for contractors" />
     <meta property="og:site_name" content="OnwardCraft" />
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={canonicalUrl} />
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={description} />
-    <meta property="twitter:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={canonicalUrl} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content="OnwardCraft — conversion-focused websites, SEO & lead generation for contractors" />
+
+    <!-- Structured data -->
+    {allSchemas.map((s) => (
+      <script type="application/ld+json" set:html={JSON.stringify(s)} />
+    ))}
 
     <link rel="icon" type="image/png" href="/logo/fabicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@500,600,700,800,900&display=swap" rel="stylesheet" />
 
     <slot name="head" />
 
@@ -231,23 +270,25 @@ const canonicalUrl = canonical || `https://onwardcraft.com${canonicalPath}`;
 
 <style is:global>
   :root {
-    --bg-primary: #050816;
-    --bg-secondary: #0B1020;
-    --bg-card: #111827;
-    --bg-card-hover: #161f32;
-    --accent-primary: #3B82F6;
-    --accent-secondary: #22D3EE;
-    --accent-glow: #8B5CF6;
-    --text-primary: #F8FAFC;
+    /* Brand palette — "Luminous Dark, Structural Light" (see brand guide) */
+    --bg-primary: #080C14;        /* Obsidian Void */
+    --bg-secondary: #0F1D36;      /* Abyssal Navy */
+    --bg-card: #111A2E;
+    --bg-card-hover: #16223A;
+    --accent-primary: #06D6A0;    /* Bioluminescent Teal */
+    --accent-secondary: #14B8A6;  /* Teal (gradient end) */
+    --accent-glow: #FFB84D;       /* Solar Gold */
+    --accent-on: #03100B;         /* text/icon color on teal fills */
+    --text-primary: #F8FAFC;      /* Polar White */
     --text-secondary: rgba(248, 250, 252, 0.82);
     --text-muted: rgba(248, 250, 252, 0.55);
     --border: rgba(255, 255, 255, 0.08);
-    --border-hover: rgba(255, 255, 255, 0.15);
+    --border-hover: rgba(6, 214, 160, 0.28);
     --radius-sm: 12px;
     --radius-md: 16px;
     --radius-lg: 20px;
     --radius-xl: 24px;
-    --font-heading: 'Space Grotesk', sans-serif;
+    --font-heading: 'Satoshi', 'Space Grotesk', sans-serif;
     --font-body: 'Inter', sans-serif;
     --container: 1140px;
     --transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -375,10 +416,10 @@ const canonicalUrl = canonical || `https://onwardcraft.com${canonicalPath}`;
     gap: 10px;
     padding: 16px 32px;
     background: var(--accent-primary);
-    color: white;
+    color: var(--accent-on);
     font-family: var(--font-body);
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: var(--radius-md);
     border: none;
     cursor: pointer;
@@ -390,7 +431,7 @@ const canonicalUrl = canonical || `https://onwardcraft.com${canonicalPath}`;
 
   .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(59, 130, 246, 0.25);
+    box-shadow: 0 8px 24px rgba(6, 214, 160, 0.28);
   }
 
   .btn-secondary {
@@ -459,7 +500,7 @@ const canonicalUrl = canonical || `https://onwardcraft.com${canonicalPath}`;
 
   /* ── Selection ── */
   ::selection {
-    background: rgba(59, 130, 246, 0.3);
+    background: rgba(6, 214, 160, 0.3);
     color: var(--text-primary);
   }
 </style>

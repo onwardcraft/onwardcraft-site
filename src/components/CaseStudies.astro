@@ -1,37 +1,37 @@
 ---
 const cases = [
   {
-    company: 'Roofing Company',
-    industry: 'Home Services',
-    metric: '+412%',
-    metricLabel: 'Qualified Leads',
-    beforeDesc: 'Website from 2015. Zero SEO. 12 cold leads per month. Dead in the water.',
-    afterDesc: 'Conversion engine. #1 local rankings. 62 qualified leads per month — on autopilot.',
-    beforeShort: '12 leads/mo',
-    afterShort: '62 leads/mo',
-    tags: ['Local SEO', 'Lead Funnel', 'Conversion Design'],
+    company: 'The Free 48-Hour Audit',
+    industry: 'Step 01',
+    metric: '48hr',
+    metricLabel: 'Turnaround',
+    beforeDesc: "You hand us your site and your target market. No contract, no card, no pressure.",
+    afterDesc: "Within 48 hours you get a personal video teardown showing exactly where you're losing jobs and what we'd fix first.",
+    beforeShort: 'No cost',
+    afterShort: 'Clear plan',
+    tags: ['Free Video Audit', 'Conversion Teardown', 'No Obligation'],
   },
   {
-    company: 'B2B SaaS Platform',
-    industry: 'SaaS',
-    metric: '4.9x',
-    metricLabel: 'ROAS',
-    beforeDesc: '2.1% trial conversion. Users signing up and vanishing. No system to keep them.',
-    afterDesc: '8.7% trial conversion. Onboarding that hooks. Retention that compounds.',
-    beforeShort: '2.1% convert',
-    afterShort: '8.7% convert',
-    tags: ['Onboarding Flow', 'CRO', 'Paid Acquisition'],
+    company: 'Founder-Led Build',
+    industry: 'Step 02',
+    metric: '<2s',
+    metricLabel: 'Load Time',
+    beforeDesc: 'Most agencies outsource your project to whoever is cheapest that week.',
+    afterDesc: "We build it ourselves on Astro — sub-2-second load, conversion-first layout, and SEO baked into the foundation. Fixed, transparent pricing.",
+    beforeShort: 'Outsourced',
+    afterShort: 'Founder-built',
+    tags: ['Astro Performance', 'Conversion-First', 'Fixed Pricing'],
   },
   {
-    company: 'Healthcare Provider',
-    industry: 'Healthcare',
-    metric: '+267%',
-    metricLabel: 'Organic Traffic',
-    beforeDesc: 'Invisible on Google. Patients going to competitors. Marketing budget wasted on ads.',
-    afterDesc: 'Top 3 for 40+ keywords. Organic traffic tripled. Appointments — not inquiries — tripled.',
-    beforeShort: 'Invisible',
-    afterShort: 'Top 3 ranks',
-    tags: ['Healthcare SEO', 'Content System', 'Local Search'],
+    company: 'The Performance Guarantee',
+    industry: 'Step 03',
+    metric: '100%',
+    metricLabel: 'Accountability',
+    beforeDesc: "Most agencies launch your site, send the invoice, and disappear.",
+    afterDesc: "We put it in writing: if your agreed metrics don't improve, we keep working until they do. Your win is the only definition of done.",
+    beforeShort: 'Hand-off',
+    afterShort: 'In writing',
+    tags: ['Written Guarantee', 'Trades Focus', 'Ongoing Support'],
   },
 ];
 ---
@@ -39,9 +39,9 @@ const cases = [
 <section class="cases-section" id="work">
   <div class="container">
     <div class="cases-header reveal">
-      <p class="section-label">Proven Results</p>
-      <h2 class="section-title">From Invisible to Dominant</h2>
-      <p class="section-subtitle">Real clients. Real industries. Real revenue growth. These are not cherry-picked outliers — they are typical outcomes when strategy and execution align.</p>
+      <p class="section-label">How We Work</p>
+      <h2 class="section-title">No Fluff. Just a Clear Path to More Booked Jobs.</h2>
+      <p class="section-subtitle">We're a founder-led studio built for the trades. Here's exactly what working with us looks like — from the free audit to the written guarantee that we stand behind.</p>
     </div>
 
     <div class="cases-list">
@@ -60,7 +60,6 @@ const cases = [
           <div class="case-content">
             <div class="case-meta">
               <span class="case-industry">{c.industry}</span>
-              <span class="case-year">2025</span>
             </div>
             <h3>{c.company}</h3>
             <div class="case-transformation">
@@ -81,8 +80,8 @@ const cases = [
                 <span class="case-tag">{tag}</span>
               ))}
             </div>
-            <a href="/case-studies/" class="case-link">
-              Read Full Case Study
+            <a href="/book-call/" class="case-link">
+              Start With a Free Audit
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
           </div>
@@ -206,8 +205,8 @@ const cases = [
     letter-spacing: 0.08em;
     padding: 5px 14px;
     border-radius: 100px;
-    background: rgba(59, 130, 246, 0.08);
-    border: 1px solid rgba(59, 130, 246, 0.15);
+    background: rgba(6, 214, 160, 0.08);
+    border: 1px solid rgba(6, 214, 160, 0.15);
     color: var(--accent-primary);
   }
 

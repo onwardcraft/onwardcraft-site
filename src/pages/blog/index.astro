@@ -2,842 +2,13 @@
 import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
+import { posts, getCategories } from '../../data/posts.js';
 
-const title = 'Blog — Growth Tactics, Web Design & SEO Insights';
-const description = 'Actionable insights on web design, SEO, conversion optimization, and digital growth for ambitious business owners.';
+const title = 'Blog — Home Service Marketing, Web Design & SEO Insights';
+const description = 'Actionable insights on web design, local SEO, lead generation, and conversion optimization for home-service contractors and trades businesses.';
 
-const categories = ['All', 'Web Design', 'SEO', 'Conversion', 'Growth Strategy', 'Lead Generation', 'Agency Growth', 'Content Marketing', 'Reputation Management', 'Case Studies'];
+const categories = getCategories();
 
-const posts = [
-  {
-    slug: 'how-much-does-a-website-cost-2026',
-    title: 'How Much Does a Website Cost in 2026? The Honest Breakdown',
-    excerpt: 'Stop guessing. Here is exactly what you should expect to pay for a website in 2026 — from DIY builders to custom agencies — and what you actually get for your money.',
-    category: 'Web Design',
-    date: 'May 2026',
-    readTime: '8 min read',
-    featured: true,
-  },
-  {
-    slug: 'wix-vs-custom-website',
-    title: 'Wix vs Custom Website: Which Is Right for Your Business?',
-    excerpt: 'The honest truth about website builders vs custom development. When Wix is enough, when it is not, and how to make the right choice for your stage of business.',
-    category: 'Web Design',
-    date: 'May 2026',
-    readTime: '6 min read',
-    featured: false,
-  },
-  {
-    slug: 'signs-your-website-needs-redesign',
-    title: '10 Signs Your Website Needs a Redesign (And What to Do About It)',
-    excerpt: 'Is your website helping or hurting your business? Here are 10 warning signs that your site is due for an overhaul — plus a roadmap to fix it.',
-    category: 'Web Design',
-    date: 'April 2026',
-    readTime: '7 min read',
-    featured: false,
-  },
-  {
-    slug: 'why-cheap-websites-cost-money',
-    title: 'Why Cheap Websites Cost You Money in the Long Run',
-    excerpt: 'That $500 website seemed like a deal. Here is why it is probably costing you thousands in lost leads, poor rankings, and missed opportunities.',
-    category: 'Growth Strategy',
-    date: 'April 2026',
-    readTime: '5 min read',
-    featured: false,
-  },
-  {
-    slug: 'seo-for-local-businesses',
-    title: 'SEO for Local Businesses: The Complete 2026 Guide',
-    excerpt: 'Local SEO is not magic. It is a system. Here is the step-by-step playbook we use to get local businesses ranking on page one of Google.',
-    category: 'SEO',
-    date: 'April 2026',
-    readTime: '10 min read',
-    featured: false,
-  },
-  {
-    slug: 'conversion-rate-optimization-basics',
-    title: 'Conversion Rate Optimization: A Beginner\'s Guide for Business Owners',
-    excerpt: 'You are getting traffic but no leads. Here is how to turn more of your existing visitors into paying customers — without spending more on ads.',
-    category: 'Conversion',
-    date: 'March 2026',
-    readTime: '6 min read',
-    featured: false,
-  },
-  {
-    slug: 'roofing-marketing-guide',
-    title: 'The Complete Roofing Marketing Guide (2026): 15 Lead Generation Strategies',
-    excerpt: 'Learn how to market your roofing company with 15 proven strategies. Includes local SEO, storm damage leads, PPC, website design, and a 12-month marketing calendar.',
-    category: 'Growth Strategy',
-    date: 'June 2026',
-    readTime: '45 min read',
-    featured: false,
-  },
-  {
-    slug: 'how-much-does-seo-cost-in-2026',
-    title: 'How Much Does SEO Cost in 2026?',
-    excerpt: 'SEO costs range from $500 to $50,000+ per month in 2026. Here is exactly what you get at each price tier, what drives the cost, and how to budget without wasting money.',
-    category: 'SEO',
-    date: 'June 2026',
-    readTime: '10 min read',
-    featured: false,
-  },
-  {
-    slug: 'diy-seo-vs-hiring-an-agency-pros-and-cons',
-    title: 'DIY SEO vs Hiring an Agency: Pros and Cons for Business Owners',
-    excerpt: 'Should you do your own SEO or hire an agency? This guide breaks down the real costs, time investment, risks, and ROI of each approach so you can make the right decision for your business.',
-    category: 'SEO',
-    date: 'June 2026',
-    readTime: '14 min read',
-    featured: false,
-  },
-  {
-    slug: 'diy-website-vs-hiring-an-agency',
-    title: 'DIY Website vs Hiring an Agency: Which Is Right for Your Business?',
-    excerpt: 'An honest comparison of DIY website builders, freelancers, and agencies. Learn the real costs, hidden trade-offs, and which option fits your business stage.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '12 min read',
-    featured: false,
-  },
-  {
-    slug: 'seo-services-complete-guide-for-business-owners',
-    title: 'SEO Services: The Complete Guide for Business Owners in 2026',
-    excerpt: 'A no-fluff guide to SEO services in 2026. Learn what SEO companies actually do, what services you need, and how to choose the right provider for your business.',
-    category: 'SEO',
-    date: 'June 2026',
-    readTime: '14 min read',
-    featured: false,
-  },
-  {
-    slug: 'seo-vs-google-ads-which-has-better-roi',
-    title: 'SEO vs Google Ads: Which Has Better ROI?',
-    excerpt: 'SEO vs Google Ads: a data-driven comparison of ROI, cost per lead, time to results, and which channel wins for small businesses in 2026.',
-    category: 'SEO',
-    date: 'June 2026',
-    readTime: '12 min read',
-    featured: false,
-  },
-  {
-    slug: 'custom-website-vs-template-which-is-better',
-    title: 'Custom Website vs Template: Which Is Better for Your Business?',
-    excerpt: 'A complete comparison of custom websites and template sites. Learn which option drives more leads, ranks higher on Google, and delivers real ROI for your business.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '10 min read',
-    featured: false,
-  },
-  {
-    slug: 'how-to-choose-a-web-design-agency',
-    title: 'How to Choose a Web Design Agency: The 2026 Guide for Business Owners',
-    excerpt: 'A practical guide for business owners who need to hire a web design agency. Learn what to look for, what to avoid, and how to make the right choice in 2026.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '12 min read',
-    featured: false,
-  },
-  {
-    slug: 'how-to-choose-the-right-seo-agency',
-    title: 'How to Choose the Right SEO Agency in 2026',
-    excerpt: 'Choosing the wrong SEO agency can cost you months and thousands of dollars. Here is the exact framework we recommend for evaluating, comparing, and hiring an SEO agency that delivers real business results.',
-    category: 'SEO',
-    date: 'June 2026',
-    readTime: '11 min read',
-    featured: false,
-  },
-  {
-    slug: 'what-does-an-seo-agency-actually-do',
-    title: 'What Does an SEO Agency Actually Do?',
-    excerpt: 'Most business owners have no idea what an SEO agency actually does. Here is the complete breakdown of every service, deliverable, and result you should expect.',
-    category: 'SEO',
-    date: 'June 2026',
-    readTime: '10 min read',
-    featured: false,
-  },
-  {
-    slug: 'how-long-does-it-take-to-build-a-website',
-    title: 'How Long Does It Take to Build a Website?',
-    excerpt: 'A realistic breakdown of website build timelines in 2026. From DIY builders to custom agency builds — see exactly how long each approach takes and what slows projects down.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '10 min read',
-    featured: false,
-  },
-  {
-    slug: 'roofing-marketing-guide',
-    title: '"The Complete Roofing Marketing Guide: 15 Strategies to Generate Consistent Leads Year-Round [2026]"',
-    excerpt: 'Learn how to market your roofing company with 15 proven strategies. Includes local SEO, storm damage leads, PPC, website design, and a 12-month marketing...',
-    category: 'Growth Strategy',
-    date: "June 2026",
-    readTime: '45 min read',
-    featured: false,
-  },
-  {
-    slug: 'local-seo-guide',
-    title: '"The Complete Local SEO Guide for Home Service Businesses (2026)"',
-    excerpt: 'This 15,000-word definitive guide is the most comprehensive resource on local SEO specifically built for home service businesses — contractors, HVAC...',
-    category: 'SEO',
-    date: "June 2026",
-    readTime: '55 min read',
-    featured: false,
-  },
-  {
-    slug: 'hvac-marketing-guide',
-    title: '"HVAC Marketing: The Complete Guide to Generating Year-Round Leads [2026]"',
-    excerpt: 'Learn how to market your HVAC company with strategies that work in every season. Includes maintenance agreement marketing, local SEO, PPC budgets, and a...',
-    category: 'Growth Strategy',
-    date: "June 2026",
-    readTime: '50 min read',
-    featured: false,
-  },
-  {
-    slug: 'website-redesign-guide',
-    title: '"The Complete Website Redesign Guide for Contractors [2026]: 9 Steps to More Leads Without Losing SEO"',
-    excerpt: 'Complete guide to redesigning your contractor website. Includes SEO migration, platform comparison, cost breakdown, 40-point checklist, and a 12-week...',
-    category: 'Web Design',
-    date: "June 2026",
-    readTime: '45 min read',
-    featured: false,
-  },
-  {
-    slug: 'google-business-profile-guide',
-    title: '"Google Business Profile Optimization: The Complete 2025 Guide for Service-Area Businesses"',
-    excerpt: 'Complete guide to optimizing your Google Business Profile for service-area businesses. Includes category strategy by trade, photo tips, review generation...',
-    category: 'SEO',
-    date: "June 2026",
-    readTime: '40 min read',
-    featured: false,
-  },
-  {
-    slug: 'contractor-gbp-study',
-    title: '"We Analyzed 500 Contractor Google Business Profiles: 11 Findings That Actually Impact Rankings [Data]"',
-    excerpt: 'We analyzed 500 contractor Google Business Profiles across 6 trades and 50 US cities to find what actually impacts local rankings. See the data, 7 charts,...',
-    category: 'Case Studies',
-    date: "June 2026",
-    readTime: '35 min read',
-    featured: false,
-  },
-  {
-    slug: 'solar-marketing-guide',
-    title: '"Solar Marketing Guide: How to Cut Customer Acquisition Costs by 40% (2026)"',
-    excerpt: 'Learn how to market your solar company and reduce customer acquisition costs by 40%. Includes SEO, state incentives, financing promotions, lead nurturing,...',
-    category: 'Growth Strategy',
-    date: "June 2026",
-    readTime: '40 min read',
-    featured: false,
-  },
-  {
-    slug: 'contractor-website-study',
-    title: 'Contractor Website Conversion Study (2026): 200 Sites Analyzed',
-    excerpt: 'We analyzed 200 contractor websites to find the 27 elements that actually convert visitors to leads. See the data, real examples, and an actionable 27-point...',
-    category: 'Conversion',
-    date: "June 2026",
-    readTime: '22 min read',
-    featured: false,
-  },
-  {
-    slug: 'plumbing-marketing-guide',
-    title: '"Plumbing Marketing: 19 Strategies to Keep Your Phone Ringing 24/7 [2026 Guide]"',
-    excerpt: 'Learn how to market your plumbing company with strategies for emergency and scheduled services. Includes local SEO, PPC, website design, 24/7 lead capture,...',
-    category: 'Growth Strategy',
-    date: "June 2026",
-    readTime: '48 min read',
-    featured: false,
-  },
-  {
-    slug: 'electrical-contractor-marketing',
-    title: 'Electrical Contractor Marketing: The Complete Guide to Residential and Commercial Lead Generation [2026]',
-    excerpt: 'Learn how to market your electrical contracting business with strategies for residential emergency leads, commercial bidding, EV charger installation, and...',
-    category: 'Growth Strategy',
-    date: "June 2026",
-    readTime: '42 min read',
-    featured: false,
-  },
-  {
-    slug: 'local-seo-tips-contractors',
-    title: '27 Local SEO Tips for Contractors (2025): Rank #1 on Google Maps',
-    excerpt: '27 actionable local SEO tips for contractors, ranked by impact and effort. Includes GBP optimization, review generation, citations, schema markup, and quick...',
-    category: 'SEO',
-    date: "June 2026",
-    readTime: '25 min read',
-    featured: false,
-  },
-  {
-    slug: 'contractor-website-design-guide',
-    title: 'Contractor Website Design Guide (2025): 27 Elements That Convert Visitors to Leads',
-    excerpt: 'Complete guide to designing a contractor website that generates leads. Includes homepage design, service pages, mobile-first strategies, platform...',
-    category: 'Web Design',
-    date: "June 2026",
-    readTime: '40 min read',
-    featured: false,
-  },
-  {
-    slug: 'restoration-marketing-guide',
-    title: 'Restoration Marketing: The Complete Guide to Emergency Lead Generation [2025]',
-    excerpt: 'Learn how to market your restoration company with strategies for water damage, fire, and mold emergencies. Includes insurance adjuster relationships, 24/7...',
-    category: 'Growth Strategy',
-    date: "June 2026",
-    readTime: '38 min read',
-    featured: false,
-  },
-  {
-    slug: 'local-seo-checklist',
-    title: '"The Complete Local SEO Checklist for Home Service Businesses [50-Point Guide]"',
-    excerpt: 'Complete 50-point local SEO checklist for home service businesses. Includes GBP optimization, reviews, citations, website, and technical SEO. Download the...',
-    category: 'SEO',
-    date: "June 2026",
-    readTime: '32 min read',
-    featured: false,
-  },
-  {
-    slug: 'general-contractor-marketing-guide',
-    title: '"General Contractor Marketing: The 2026 Guide to Winning More Remodeling and Commercial Projects"',
-    excerpt: 'Learn how to market your general contracting business with strategies for high-ticket remodeling and commercial projects. Includes portfolio marketing,...',
-    category: 'Growth Strategy',
-    date: "June 2026",
-    readTime: '35 min read',
-    featured: false,
-  },
-  {
-    slug: 'wordpress-vs-webflow-contractors',
-    title: 'WordPress vs Webflow for Contractors (2025): Which Platform Actually Generates More Leads?',
-    excerpt: 'Unbiased comparison of WordPress vs Webflow for contractors. Includes real cost data, speed benchmarks, SEO capabilities, migration guidance, and lead...',
-    category: 'Web Design',
-    date: "June 2026",
-    readTime: '28 min read',
-    featured: false,
-  },
-  {
-    slug: 'home-service-marketing-statistics',
-    title: '100 Home Service Marketing Statistics That Will Change How You Think About Lead Generation [2025]',
-    excerpt: '100 home service marketing statistics covering local SEO, reviews, lead generation, consumer behavior, and AI search. Every stat cited with source and year....',
-    category: 'Growth Strategy',
-    date: "June 2026",
-    readTime: '18 min read',
-    featured: false,
-  },
-  {
-    slug: 'roofing-marketing-strategies',
-    title: '21 Roofing Marketing Strategies That Generate Leads in Any Season [2025]',
-    excerpt: '21 proven roofing marketing strategies organized by season. Includes storm damage leads, insurance referrals, local SEO, and off-season tactics with cost...',
-    category: 'Growth Strategy',
-    date: "June 2026",
-    readTime: '35 min read',
-    featured: false,
-  },
-  {
-    slug: 'website-conversion-tactics-contractors',
-    title: '25 Website Conversion Tactics for Home Service Businesses (2025): Turn Traffic Into Jobs',
-    excerpt: '25 proven website conversion tactics for home service businesses. Includes mobile optimization, emergency CTAs, trust signals, and quick wins you can...',
-    category: 'Conversion',
-    date: "June 2026",
-    readTime: '30 min read',
-    featured: false,
-  },
-  {
-    slug: 'local-seo-statistics',
-    title: '73 Local SEO Statistics Every Contractor Should Know [2025 Data]',
-    excerpt: '73 local SEO statistics covering Google Business Profile, reviews, local pack, mobile search, voice search, and ROI. All verified with sources. Updated for...',
-    category: 'SEO',
-    date: "June 2026",
-    readTime: '20 min read',
-    featured: false,
-  },
-  {
-    slug: 'website-speed-lead-generation-study',
-    title: 'How Website Speed Affects Contractor Lead Generation [Data Study]',
-    excerpt: 'We analyzed 100 contractor websites to find how speed affects lead generation. Includes Core Web Vitals data, mobile performance, and actionable fixes.',
-    category: 'SEO',
-    date: 'June 2026',
-    readTime: '18 min read',
-    featured: false,
-  },
-  {
-    slug: 'home-service-experts-lead-gen-strategies',
-    title: '40 Home Service Marketing Experts Share Their #1 Lead Generation Strategy',
-    excerpt: '40 home service marketing experts share their most effective lead generation strategy. Includes SEO, PPC, referrals, and more.',
-    category: 'Lead Generation',
-    date: 'June 2026',
-    readTime: '22 min read',
-    featured: false,
-  },
-  {
-    slug: 'agency-client-acquisition-channels',
-    title: '50 Agency Owners Reveal Their Most Effective Client Acquisition Channel',
-    excerpt: '50 agency owners reveal their most effective client acquisition channel. Includes SEO, referrals, content, partnerships, and more.',
-    category: 'Agency Growth',
-    date: 'June 2026',
-    readTime: '22 min read',
-    featured: false,
-  },
-  {
-    slug: 'contractor-visibility-flywheel',
-    title: 'The Contractor Visibility Flywheel: A 6-Step System for Predictable Lead Generation',
-    excerpt: 'The Contractor Visibility Flywheel is a 6-step system for predictable lead generation. Includes foundation, authority, visibility, capture, nurture, and amplify.',
-    category: 'Growth Strategy',
-    date: 'June 2026',
-    readTime: '16 min read',
-    featured: false,
-  },
-  {
-    slug: 'best-roofing-website-examples',
-    title: 'Top 50 Roofing Company Websites: Best Design, UX & Conversion Examples',
-    excerpt: 'The top 50 roofing company websites ranked by design, UX, and conversion. Includes screenshots, analysis, and what makes each site great.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '28 min read',
-    featured: false,
-  },
-  {
-    slug: 'best-hvac-website-examples',
-    title: 'Top 40 HVAC Company Websites: Best Design, UX & Conversion Examples',
-    excerpt: 'The top 40 HVAC company websites ranked by design, UX, and conversion. Includes screenshots, analysis, and what makes each site great.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '26 min read',
-    featured: false,
-  },
-  {
-    slug: 'roofing-marketing-blogs-to-follow',
-    title: 'Top 30 Roofing Marketing Blogs Every Roofing Contractor Should Follow',
-    excerpt: 'The top 30 roofing marketing blogs every contractor should follow. Includes marketing tips, industry news, and growth strategies.',
-    category: 'Content Marketing',
-    date: 'June 2026',
-    readTime: '18 min read',
-    featured: false,
-  },
-  {
-    slug: 'local-authority-hub-framework',
-    title: 'The Local Authority Hub Framework: How to Dominate Local Search in 90 Days',
-    excerpt: 'The Local Authority Hub Framework is a 90-day system for dominating local search. Includes foundation, authority, and domination phases.',
-    category: 'SEO',
-    date: 'June 2026',
-    readTime: '18 min read',
-    featured: false,
-  },
-  {
-    slug: 'local-seo-experts-service-area-tips',
-    title: '30 Local SEO Experts Share Their Best Tip for Service-Area Businesses',
-    excerpt: '30 local SEO experts share their best tip for service-area businesses. Includes GBP, reviews, citations, and more.',
-    category: 'SEO',
-    date: 'June 2026',
-    readTime: '18 min read',
-    featured: false,
-  },
-  {
-    slug: 'website-redesign-checklist',
-    title: 'The Website Redesign Checklist for Home Service Businesses [40-Point Checklist]',
-    excerpt: 'Complete 40-point website redesign checklist for home service businesses. Includes planning, design, development, launch, and post-launch.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '16 min read',
-    featured: false,
-  },
-  {
-    slug: 'hvac-lead-generation-ideas-year-round',
-    title: 'HVAC Lead Generation Ideas That Work Year-Round',
-    excerpt: 'Proven HVAC lead generation ideas organized by season. Includes maintenance agreements, tune-ups, emergency services, and commercial strategies.',
-    category: 'Growth Strategy',
-    date: 'June 2026',
-    readTime: '24 min read',
-    featured: false,
-  },
-  {
-    slug: 'contractor-website-mistakes-costing-leads',
-    title: 'Website Design Mistakes That Cost Contractors Leads Every Day',
-    excerpt: 'Website design mistakes that cost contractors leads every day. Includes mobile errors, trust signal mistakes, and quick fixes.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '22 min read',
-    featured: false,
-  },
-  {
-    slug: 'best-plumbing-website-examples',
-    title: 'Top Plumbing Company Websites: Best Design, UX & Conversion Examples',
-    excerpt: 'The top plumbing company websites ranked by design, UX, and conversion. Includes emergency messaging analysis and screenshots.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '24 min read',
-    featured: false,
-  },
-  {
-    slug: 'google-business-profile-categories-study',
-    title: 'Google Business Profile Categories Study: What Actually Impacts Rankings',
-    excerpt: 'Analyzed Google Business Profiles to find which categories and attributes impact rankings. Includes trade-specific recommendations.',
-    category: 'SEO',
-    date: 'June 2026',
-    readTime: '20 min read',
-    featured: false,
-  },
-  {
-    slug: 'solar-marketing-strategies-qualified-leads',
-    title: 'Solar Marketing Strategies That Actually Generate Qualified Leads',
-    excerpt: 'Proven solar marketing strategies that generate qualified leads. Includes SEO, content marketing, PPC, and state-specific incentive content.',
-    category: 'Growth Strategy',
-    date: 'June 2026',
-    readTime: '24 min read',
-    featured: false,
-  },
-  {
-    slug: 'technical-seo-checklist-home-service',
-    title: 'The Complete Technical SEO Checklist for Home Service Websites',
-    excerpt: 'Complete technical SEO checklist for home service websites. Includes crawlability, speed, schema, security, and mobile optimization.',
-    category: 'SEO',
-    date: 'June 2026',
-    readTime: '20 min read',
-    featured: false,
-  },
-  {
-    slug: 'roofing-lead-generation-storm-season',
-    title: 'Roofing Lead Generation Strategies for Storm Season and Beyond',
-    excerpt: 'Proven roofing lead generation strategies for storm season and year-round. Includes insurance adjuster partnerships, PPC, and storm damage campaigns.',
-    category: 'Growth Strategy',
-    date: 'June 2026',
-    readTime: '22 min read',
-    featured: false,
-  },
-  {
-    slug: 'seo-vs-ppc-contractors-comparison',
-    title: 'SEO vs PPC for Contractors: Which Channel Actually Generates Better Leads?',
-    excerpt: 'Unbiased comparison of SEO vs PPC for contractors. Includes cost per lead, timeline, ROI, and a decision framework for home service businesses.',
-    category: 'Growth Strategy',
-    date: 'June 2026',
-    readTime: '32 min read',
-    featured: false,
-  },
-  {
-    slug: 'emergency-service-marketing-playbook',
-    title: 'The Emergency Service Marketing Playbook: How to Capture High-Intent Leads 24/7',
-    excerpt: 'The Emergency Service Marketing Playbook shows how to capture high-intent leads 24/7. Includes website, lead capture, response systems, and optimization.',
-    category: 'Lead Generation',
-    date: 'June 2026',
-    readTime: '20 min read',
-    featured: false,
-  },
-  {
-    slug: 'best-solar-website-examples',
-    title: 'Top Solar Company Websites: Best Design, UX & Conversion Examples',
-    excerpt: 'The top solar company websites ranked by design, UX, and conversion. Includes solar calculator examples, financing displays, and screenshots.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '20 min read',
-    featured: false,
-  },
-  {
-    slug: 'review-generation-strategies-contractors',
-    title: 'Review Generation Strategies for Home Service Businesses',
-    excerpt: 'Proven strategies to generate more Google reviews for your home service business. Includes scripts, timing, automation, and templates.',
-    category: 'Reputation Management',
-    date: 'June 2026',
-    readTime: '22 min read',
-    featured: false,
-  },
-  {
-    slug: 'lead-conversion-engine-framework',
-    title: 'The Lead Conversion Engine: How Home Service Websites Turn Traffic into Appointments',
-    excerpt: 'The Lead Conversion Engine is a 6-stage system for converting website visitors into leads. Includes attract, engage, capture, convert, nurture, and measure.',
-    category: 'Conversion',
-    date: 'June 2026',
-    readTime: '18 min read',
-    featured: false,
-  },
-  {
-    slug: 'local-seo-mistakes-contractors',
-    title: 'Local SEO Mistakes That Cost Contractors Map Rankings',
-    excerpt: 'Common local SEO mistakes that cost contractors map rankings. Includes fixes, trade-specific notes, and prevention strategies.',
-    category: 'SEO',
-    date: 'June 2026',
-    readTime: '20 min read',
-    featured: false,
-  },
-  {
-    slug: 'pre-launch-website-checklist',
-    title: 'The Pre-Launch Website Checklist for Contractors',
-    excerpt: 'Complete website launch checklist for contractors. Includes technical, content, SEO, and launch day items. Download the free PDF.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '16 min read',
-    featured: false,
-  },
-  {
-    slug: 'home-service-seo-statistics',
-    title: 'Home Service SEO Statistics: What the Numbers Say About Local Search',
-    excerpt: 'Home service SEO statistics covering local SEO, organic search, technical SEO, and ROI. Cited sources. Updated for 2025.',
-    category: 'SEO',
-    date: 'June 2026',
-    readTime: '14 min read',
-    featured: false,
-  },
-  {
-    slug: 'content-marketing-playbook-contractors',
-    title: 'The Content Marketing Playbook for Contractors: How to Build Authority and Generate Leads',
-    excerpt: 'Complete content marketing playbook for contractors. Includes blog topics by trade, video content, local strategy, and a 12-month content calendar.',
-    category: 'Content Marketing',
-    date: 'June 2026',
-    readTime: '36 min read',
-    featured: false,
-  },
-  {
-    slug: 'best-restoration-website-examples',
-    title: 'Top Restoration Company Websites: Best Design, UX & Conversion Examples',
-    excerpt: 'The top restoration company websites ranked by design, UX, and conversion. Includes emergency messaging, before/after galleries, and screenshots.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '18 min read',
-    featured: false,
-  },
-  {
-    slug: 'contractor-website-cost-guide',
-    title: 'How Much Does a Contractor Website Cost? Pricing Guide + ROI Calculator',
-    excerpt: 'Transparent contractor website pricing guide. Includes cost by website type, feature breakdown, hidden costs, ROI calculator, and budget framework.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '22 min read',
-    featured: false,
-  },
-  {
-    slug: 'plumbing-lead-generation-strategies',
-    title: 'Plumbing Lead Generation Strategies for Emergency and Scheduled Services',
-    excerpt: 'Proven plumbing lead generation strategies for emergency and scheduled services. Includes PPC, local SEO, maintenance plans, and 24/7 lead capture.',
-    category: 'Growth Strategy',
-    date: 'June 2026',
-    readTime: '22 min read',
-    featured: false,
-  },
-  {
-    slug: 'contractor-website-design-elements',
-    title: 'Website Design Elements Every Contractor Website Needs',
-    excerpt: 'Website design elements every contractor website needs. Includes emergency messaging, trust signals, service pages, and conversion elements.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '22 min read',
-    featured: false,
-  },
-  {
-    slug: 'ai-contractor-marketing',
-    title: '5 Ways to Use AI for Contractor Marketing (Without Replacing Your Agency)',
-    excerpt: '5 practical ways to use AI for contractor marketing without replacing your agency. Includes content ideation, chatbots, review response, social media, and data analysis.',
-    category: 'Growth Strategy',
-    date: 'June 2026',
-    readTime: '18 min read',
-    featured: false,
-  },
-  {
-    slug: 'best-home-service-marketing-agencies',
-    title: 'Top Home Service Marketing Agencies',
-    excerpt: 'The top home service marketing agencies ranked by results, expertise, and contractor focus. Includes SEO, PPC, web design, and local SEO agencies.',
-    category: 'Agency Growth',
-    date: 'June 2026',
-    readTime: '18 min read',
-    featured: false,
-  },
-  {
-    slug: 'citation-building-guide-contractors',
-    title: 'The Complete Citation Building Guide for Home Service Businesses',
-    excerpt: 'Complete citation building guide for home service businesses. Includes directory lists, submission process, NAP consistency, and monitoring system.',
-    category: 'SEO',
-    date: 'June 2026',
-    readTime: '26 min read',
-    featured: false,
-  },
-  {
-    slug: 'citation-sources-for-contractors',
-    title: '20 Citation Sources Every Home Service Business Needs',
-    excerpt: '20 citation sources every home service business needs for local SEO. Includes tier rankings, NAP consistency tips, and submission guides.',
-    category: 'Local SEO',
-    date: 'June 2026',
-    readTime: '29 min read',
-    featured: false,
-  },
-  {
-    slug: 'content-ideas-for-contractors',
-    title: '18 Content Ideas That Generate Leads for Home Service Businesses',
-    excerpt: '18 content ideas that generate leads for home service businesses. Includes educational, seasonal, local, and trust-building content.',
-    category: 'Content Marketing',
-    date: 'June 2026',
-    readTime: '26 min read',
-    featured: false,
-  },
-  {
-    slug: 'contractor-landing-page-study',
-    title: 'Contractor Landing Pages Study: The Anatomy of High-Converting Pages',
-    excerpt: 'Analyzed contractor landing pages to find the anatomy of high-converting pages. Includes element analysis, mobile data, and optimization recommendations.',
-    category: 'Conversion',
-    date: 'June 2026',
-    readTime: '18 min read',
-    featured: false,
-  },
-  {
-    slug: 'contractor-website-audit',
-    title: 'The 5-Minute Website Audit: 15 Quick Checks Every Contractor Should Do Monthly',
-    excerpt: 'Quick 5-minute website audit for contractors. 15 checks to ensure your site is generating leads. Free audit tool included.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '30 min read',
-    featured: false,
-  },
-  {
-    slug: 'contractor-website-maintenance-guide',
-    title: 'The Complete Guide to Website Maintenance for Contractors',
-    excerpt: 'Complete website maintenance guide for contractors. Includes security, updates, performance monitoring, backup plans, and maintenance plan comparison.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '26 min read',
-    featured: false,
-  },
-  {
-    slug: 'email-marketing-contractors',
-    title: 'Email Marketing Strategies for Home Service Businesses',
-    excerpt: 'Email marketing strategies for home service businesses. Includes lead nurturing, customer retention, re-engagement, and automation sequences.',
-    category: 'Content Marketing',
-    date: 'June 2026',
-    readTime: '18 min read',
-    featured: false,
-  },
-  {
-    slug: 'gbp-optimization-checklist',
-    title: 'The GBP Optimization Checklist: 30 Steps to Rank Higher on Google Maps',
-    excerpt: 'Complete 30-step Google Business Profile optimization checklist. Includes categories, photos, posts, reviews, and advanced tactics for contractors.',
-    category: 'Local SEO',
-    date: 'June 2026',
-    readTime: '41 min read',
-    featured: false,
-  },
-  {
-    slug: 'general-contractor-marketing',
-    title: 'General Contractor Marketing: How to Win More Remodeling and Commercial Projects',
-    excerpt: 'Learn how to market your general contracting business. Includes portfolio marketing, commercial lead generation, architect relationships, and high-ticket project acquisition.',
-    category: 'Growth Strategy',
-    date: 'June 2026',
-    readTime: '10 min read',
-    featured: false,
-  },
-  {
-    slug: 'how-much-does-a-website-cost',
-    title: 'How Much Does a Website Cost in 2026? The Honest Breakdown',
-    excerpt: 'Stop guessing. Here is exactly what you should expect to pay for a website in 2026 — from DIY builders to custom agencies — and what you actually get for your money.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '8 min read',
-    featured: false,
-  },
-  {
-    slug: 'how-much-does-seo-cost',
-    title: 'How Much Does SEO Cost in 2026? Honest Pricing Guide',
-    excerpt: 'SEO costs range from $500 to $50,000+ per month in 2026. Here is exactly what you get at each price tier, what drives the cost, and how to budget without wasting money.',
-    category: 'SEO',
-    date: 'June 2026',
-    readTime: '10 min read',
-    featured: false,
-  },
-  {
-    slug: 'hvac-seasonal-marketing-strategies',
-    title: '12 Seasonal Marketing Strategies for HVAC Companies',
-    excerpt: '12 seasonal marketing strategies for HVAC companies. Includes spring, summer, fall, and winter campaigns for year-round leads.',
-    category: 'HVAC Marketing',
-    date: 'June 2026',
-    readTime: '38 min read',
-    featured: false,
-  },
-  {
-    slug: 'mobile-website-conversion-study',
-    title: 'The Mobile-First Mandate: How Mobile Experience Affects Contractor Lead Generation',
-    excerpt: 'We analyzed 100 contractor websites to find how mobile experience affects lead generation. Includes speed data, conversion rates, and mobile mistakes.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '26 min read',
-    featured: false,
-  },
-  {
-    slug: 'ppc-guide-home-service-businesses',
-    title: 'The Complete PPC Guide for Home Service Businesses',
-    excerpt: 'Complete PPC guide for home service businesses. Includes keyword strategy, ad copy, landing pages, budget recommendations, and cost per lead benchmarks.',
-    category: 'Growth Strategy',
-    date: 'June 2026',
-    readTime: '36 min read',
-    featured: false,
-  },
-  {
-    slug: 'review-velocity-local-seo-study',
-    title: 'The Review Velocity Effect: How Review Frequency Impacts Local Rankings [Study]',
-    excerpt: 'We analyzed 300+ contractor Google Business Profiles to find how review frequency impacts local rankings. See the data and recommendations.',
-    category: 'Local SEO',
-    date: 'June 2026',
-    readTime: '29 min read',
-    featured: false,
-  },
-  {
-    slug: 'schema-markup-checklist',
-    title: 'The Schema Markup Checklist for Local Businesses: 25 Structured Data Types You Need',
-    excerpt: 'Complete schema markup checklist for local businesses. Includes 25 structured data types with code examples for contractors.',
-    category: 'Technical SEO',
-    date: 'June 2026',
-    readTime: '41 min read',
-    featured: false,
-  },
-  {
-    slug: 'signs-website-needs-redesign',
-    title: 'Signs Your Contractor Website Needs a Redesign',
-    excerpt: 'Signs your contractor website needs a redesign. Includes design, performance, conversion, and SEO indicators with actionable next steps.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '16 min read',
-    featured: false,
-  },
-  {
-    slug: 'solar-lead-generation-strategies',
-    title: '11 Solar Lead Generation Strategies That Reduce Customer Acquisition Costs',
-    excerpt: '11 solar lead generation strategies that reduce customer acquisition costs. Includes content marketing, PPC, and exclusive lead generation.',
-    category: 'Solar Marketing',
-    date: 'June 2026',
-    readTime: '30 min read',
-    featured: false,
-  },
-  {
-    slug: 'top-local-seo-experts',
-    title: 'Top 20 Local SEO Experts to Follow in 2025',
-    excerpt: 'The top 20 local SEO experts to follow in 2025. Includes thought leaders, consultants, and professionals in local search.',
-    category: 'Local SEO',
-    date: 'June 2026',
-    readTime: '22 min read',
-    featured: false,
-  },
-  {
-    slug: 'web-design-experts-contractor-tips',
-    title: 'Web Design Experts Share Their Top Tip for Contractor Websites',
-    excerpt: 'Web design experts share their top tip for contractor websites. Includes conversion, mobile, UX, and lead generation advice.',
-    category: 'Web Design',
-    date: 'June 2026',
-    readTime: '16 min read',
-    featured: false,
-  },
-  {
-    slug: 'website-design-guide',
-    title: 'The Complete Website Design Guide for Home Service Businesses (2026)',
-    excerpt: 'Complete guide to designing a contractor website that generates leads. Includes homepage, service pages, mobile design, platform comparison, and budget guidance.',
-    category: 'Growth Strategy',
-    date: 'June 2026',
-    readTime: '10 min read',
-    featured: false,
-  },
-  {
-    slug: 'website-migration-seo-checklist',
-    title: 'The Website Migration Checklist: How to Redesign Without Losing SEO Rankings',
-    excerpt: 'Complete website migration checklist for contractors. 35 steps to redesign without losing SEO rankings. Includes pre, during, and post-launch.',
-    category: 'SEO',
-    date: 'June 2026',
-    readTime: '16 min read',
-    featured: false,
-  },
-  {
-    slug: 'storm-damage-lead-generation-strategies',
-    title: 'Storm Damage Lead Generation Strategies for Roofing Companies',
-    excerpt: 'Proven storm damage lead generation strategies for roofing companies. Includes pre-storm prep, emergency PPC, insurance relationships, and post-storm campaigns.',
-    category: 'Growth Strategy',
-    date: 'June 2026',
-    readTime: '20 min read',
-    featured: false,
-  },
-];
 
 const featuredPost = posts.find(p => p.featured);
 const regularPosts = posts.filter(p => !p.featured);
@@ -891,11 +62,12 @@ const regularPosts = posts.filter(p => !p.featured);
   <!-- Categories -->
   <section class="categories-section">
     <div class="container">
-      <div class="category-list reveal">
-        {categories.map((cat, i) => (
-          <button class={`category-btn ${i === 0 ? 'active' : ''}`}>{cat}</button>
+      <nav class="category-list reveal" aria-label="Blog categories">
+        <a href="/blog/" class="category-btn active">All</a>
+        {categories.map((cat) => (
+          <a href={`/blog/category/${cat.slug}/`} class="category-btn">{cat.name} <span class="category-count">{cat.count}</span></a>
         ))}
-      </div>
+      </nav>
     </div>
   </section>
 
@@ -934,10 +106,24 @@ const regularPosts = posts.filter(p => !p.featured);
             <h2>Get Weekly Growth Tactics</h2>
             <p>One email per week. Zero spam. Actionable insights you can implement the same day.</p>
           </div>
-          <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thanks for subscribing!');">
-            <input type="email" placeholder="your@email.com" required />
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" id="newsletterEmail" placeholder="your@email.com" required />
             <button type="submit" class="btn-primary">Subscribe</button>
           </form>
+          <script is:inline>
+            document.getElementById('newsletterForm')?.addEventListener('submit', function (e) {
+              e.preventDefault();
+              var email = document.getElementById('newsletterEmail').value.trim();
+              if (!email) return;
+              // No newsletter backend yet — open a pre-filled subscribe email so the
+              // request reaches a real inbox instead of silently disappearing.
+              window.location.href =
+                'mailto:hello@onwardcraft.com?subject=' +
+                encodeURIComponent('Newsletter subscribe') +
+                '&body=' +
+                encodeURIComponent('Please add me to the weekly growth tactics list: ' + email);
+            });
+          </script>
         </div>
       </div>
     </div>
@@ -986,7 +172,7 @@ const regularPosts = posts.filter(p => !p.featured);
   .blob-1 {
     width: 500px;
     height: 500px;
-    background: radial-gradient(circle, rgba(59, 130, 246, 0.4), transparent 70%);
+    background: radial-gradient(circle, rgba(6, 214, 160, 0.4), transparent 70%);
     top: -10%;
     left: -5%;
     animation: blobFloat1 20s ease-in-out infinite;
@@ -995,7 +181,7 @@ const regularPosts = posts.filter(p => !p.featured);
   .blob-2 {
     width: 400px;
     height: 400px;
-    background: radial-gradient(circle, rgba(139, 92, 246, 0.3), transparent 70%);
+    background: radial-gradient(circle, rgba(255, 184, 77, 0.3), transparent 70%);
     bottom: -5%;
     right: -5%;
     animation: blobFloat2 18s ease-in-out infinite;
@@ -1030,7 +216,7 @@ const regularPosts = posts.filter(p => !p.featured);
   }
 
   .blog-title .accent {
-    background: linear-gradient(135deg, #A78BFA 0%, #22D3EE 50%, #34D399 100%);
+    background: linear-gradient(135deg, #FFB84D 0%, #06D6A0 55%, #14B8A6 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1159,7 +345,10 @@ const regularPosts = posts.filter(p => !p.featured);
   }
 
   .category-btn {
-    padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 10px 18px;
     font-size: 14px;
     font-weight: 500;
     color: var(--text-secondary);
@@ -1169,18 +358,39 @@ const regularPosts = posts.filter(p => !p.featured);
     cursor: pointer;
     transition: all 0.3s;
     font-family: var(--font-body);
+    text-decoration: none;
   }
 
   .category-btn:hover {
-    background: rgba(255, 255, 255, 0.08);
-    border-color: var(--border-hover);
+    background: rgba(6, 214, 160, 0.08);
+    border-color: var(--accent-primary);
     color: var(--text-primary);
   }
 
   .category-btn.active {
     background: var(--accent-primary);
     border-color: var(--accent-primary);
-    color: white;
+    color: var(--accent-on, #03100B);
+    font-weight: 600;
+  }
+
+  .category-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 6px;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 100px;
+    background: rgba(0, 0, 0, 0.06);
+    color: var(--text-muted);
+  }
+
+  .category-btn.active .category-count {
+    background: rgba(0, 0, 0, 0.14);
+    color: var(--accent-on, #03100B);
   }
 
   /* Posts Grid */
@@ -1363,7 +573,7 @@ const regularPosts = posts.filter(p => !p.featured);
 
   .newsletter-form input:focus {
     border-color: var(--accent-primary);
-    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    box-shadow: 0 0 0 3px rgba(6, 214, 160, 0.12);
   }
 
   .newsletter-form button {

@@ -1,69 +1,58 @@
 ---
-const industries = [
-  { name: 'Roofing', desc: 'Storm chasing is expensive. SEO-driven leads cost a fraction and keep your calendar full year-round.', icon: 'home', color: '#F59E0B' },
-  { name: 'Solar', desc: 'Stop educating tire-kickers. Funnel design that attracts buyers ready to sign — not just browse.', icon: 'sun', color: '#FBBF24' },
-  { name: 'Home Services', desc: 'HVAC, plumbing, electrical — your customers search at midnight when the problem is urgent. Be the one they find.', icon: 'wrench', color: '#3B82F6' },
-  { name: 'Healthcare', desc: 'Patients do not choose the best doctor. They choose the one they trust online first. We make sure that is you.', icon: 'heart', color: '#EF4444' },
-  { name: 'SaaS', desc: 'Your trial signups are leaking. Fix the funnel and watch your CAC drop while revenue compounds.', icon: 'cpu', color: '#8B5CF6' },
-  { name: 'Local Business', desc: 'The map pack is the new front door. Own local search and watch foot traffic you did not have to pay for.', icon: 'map', color: '#10B981' },
-];
+import { industries as trades } from '../data/industries.js';
 
-const lawIndustry = {
-  name: 'Law Firms',
-  desc: 'Your next client is Googling "best lawyer near me" right now. The firm that shows up first gets the case. We build authority sites that rank for high-intent legal searches and convert browsers into retained clients — ethically, effectively, and at scale.',
-  icon: 'scale',
-  color: '#B45309',
+// Punchy, homepage-specific blurbs per trade (distinct from the landing-page
+// hero copy). Keyed by the slug in src/data/industries.js so this stays in sync
+// with the real /industries/[trade]/ pages it links to.
+const blurbs = {
+  roofing: 'Storm chasing is expensive. We build the website and local SEO that capture insurance-claim homeowners and keep crews busy between storms.',
+  hvac: 'Emergencies fill July and January. We build the maintenance-plan and seasonal systems that keep your pipeline full in spring and fall too.',
+  plumbing: 'A burst pipe does not wait for business hours. We engineer sites and map-pack rankings that win the 2am emergency search every time.',
+  solar: 'Leads keep getting pricier. We cut acquisition cost with education-led content and nurture that closes the long solar sale.',
+  electrical: 'From panel upgrades to EV chargers, we build trust-forward sites that win safety-sensitive residential and commercial work.',
+  restoration: 'Water and fire do not keep hours. We capture urgent searches and build the insurance referral relationships that drive steady volume.',
 };
 
-const icons: Record<string, string> = {
-  home: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M9 22V12h6v10"/></svg>`,
-  sun: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>`,
-  wrench: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>`,
-  heart: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>`,
-  cpu: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg>`,
-  map: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>`,
-  scale: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22a7 7 0 007-7c0-2-1-3.9-3-5.5l-4-3.2a1 1 0 00-1.2 0L7 9.5C5 11.1 4 13 4 15a7 7 0 007 7z"/><path d="M12 2v4"/><path d="M12 12l-4 3"/><path d="M12 12l4 3"/></svg>`,
+const icons = {
+  roofing: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M9 22V12h6v10"/></svg>`,
+  hvac: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.5 14.5A2.5 2.5 0 1014 16.5V5a2 2 0 10-4 0v9.5z"/><path d="M16 9h3M16 13h4M16 17h2"/></svg>`,
+  plumbing: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2.7s6 6.2 6 10.3a6 6 0 01-12 0c0-4.1 6-10.3 6-10.3z"/></svg>`,
+  solar: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>`,
+  electrical: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L4.5 13.5H11l-1 8.5L19.5 10H13z"/></svg>`,
+  restoration: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l8 3v6c0 5-3.5 8.5-8 11-4.5-2.5-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/></svg>`,
 };
+
+// Alternate teal/gold accent per card to stay on-brand.
+const accents = ['#06D6A0', '#FFB84D', '#14B8A6', '#FFB84D', '#06D6A0', '#14B8A6'];
 ---
 
-<section class="industries-section">
+<section class="industries-section" id="industries">
   <div class="container">
     <div class="industries-header reveal">
       <p class="section-label scramble-text">Industries</p>
-      <h2 class="section-title">Deep Expertise.<br>Measurable Results.</h2>
-      <p class="section-subtitle">We do not guess what your market wants. We have built, tested, and optimized for these industries — and we know exactly what converts.</p>
+      <h2 class="section-title">Built for One Thing:<br>The Trades.</h2>
+      <p class="section-subtitle">We do not work with restaurants, startups, or law firms. Every site, campaign, and lead system we build is tuned to how home-service contractors actually win work.</p>
     </div>
 
     <div class="industries-grid stagger-children">
-      {industries.map(ind => (
-        <div class="industry-card stagger-item tilt-card shine-sweep" style={`--industry-color: ${ind.color}`}>
+      {trades.map((ind, i) => (
+        <a href={`/industries/${ind.slug}/`} class="industry-card stagger-item tilt-card shine-sweep" style={`--industry-color: ${accents[i % accents.length]}`}>
           <div class="industry-shine"></div>
-          <div class="industry-icon" set:html={icons[ind.icon]} />
-          <h3>{ind.name}</h3>
-          <p>{ind.desc}</p>
+          <div class="industry-icon" set:html={icons[ind.slug]} />
+          <h3>{ind.trade}</h3>
+          <p>{blurbs[ind.slug]}</p>
           <div class="industry-arrow">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
           </div>
-        </div>
+        </a>
       ))}
     </div>
 
-    <!-- Specialized: Law Firms -->
-    <div class="industries-specialized reveal">
-      <div class="specialized-label">Our Specialized</div>
-      <div class="industry-card industry-card-full tilt-card shine-sweep" style={`--industry-color: ${lawIndustry.color}`}>
-        <div class="industry-shine"></div>
-        <div class="industry-card-full-inner">
-          <div class="industry-card-full-left">
-            <div class="industry-icon" set:html={icons[lawIndustry.icon]} />
-            <h3>{lawIndustry.name}</h3>
-          </div>
-          <p>{lawIndustry.desc}</p>
-          <div class="industry-arrow">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-          </div>
-        </div>
-      </div>
+    <div class="industries-cta reveal">
+      <a href="/industries/" class="industries-cta-link">
+        See how we market every trade
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
     </div>
   </div>
 </section>
@@ -88,8 +77,8 @@ const icons: Record<string, string> = {
 
   .industries-header {
     text-align: center;
-    max-width: 560px;
-    margin: 0 auto 100px;
+    max-width: 580px;
+    margin: 0 auto 80px;
     position: relative;
     z-index: 1;
   }
@@ -113,6 +102,8 @@ const icons: Record<string, string> = {
   }
 
   .industry-card {
+    display: block;
+    text-decoration: none;
     background: linear-gradient(180deg, rgba(17, 24, 39, 0.6) 0%, rgba(5, 8, 22, 0.4) 100%);
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: var(--radius-xl);
@@ -217,105 +208,34 @@ const icons: Record<string, string> = {
     transform: translateX(4px);
   }
 
-  .industries-specialized {
-    margin-top: 60px;
-  }
-
-  .specialized-label {
-    font-family: var(--font-heading);
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    color: var(--accent-primary);
-    margin-bottom: 20px;
+  .industries-cta {
+    margin-top: 56px;
     text-align: center;
   }
 
-  .specialized-label::before {
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 1px;
-    background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
-    vertical-align: middle;
-    margin-right: 10px;
-  }
-
-  .specialized-label::after {
-    content: '';
-    display: inline-block;
-    width: 20px;
-    height: 1px;
-    background: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary));
-    vertical-align: middle;
-    margin-left: 10px;
-  }
-
-  .industry-card-full {
-    grid-column: 1 / -1;
-  }
-
-  .industry-card-full-inner {
-    display: flex;
+  .industries-cta-link {
+    display: inline-flex;
     align-items: center;
-    gap: 32px;
+    gap: 10px;
+    font-family: var(--font-heading);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--accent-primary);
+    text-decoration: none;
+    transition: gap 0.3s;
   }
 
-  .industry-card-full-left {
-    display: flex;
-    align-items: center;
+  .industries-cta-link:hover {
     gap: 16px;
-    flex-shrink: 0;
-  }
-
-  .industry-card-full-left .industry-icon {
-    margin-bottom: 0;
-  }
-
-  .industry-card-full-left h3 {
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    margin: 0;
-    color: var(--text-primary);
-  }
-
-  .industry-card-full p {
-    font-size: 15px;
-    color: var(--text-secondary);
-    line-height: 1.7;
-    margin: 0;
-    flex: 1;
-  }
-
-  .industry-card-full .industry-arrow {
-    margin: 0;
-    flex-shrink: 0;
   }
 
   @media (max-width: 1024px) {
-    .industries-header { text-align: center; margin: 0 auto 80px; }
+    .industries-header { text-align: center; margin: 0 auto 60px; }
     .industries-grid { grid-template-columns: repeat(2, 1fr); }
-    .industry-card-full-inner {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 20px;
-    }
-    .industry-card-full-left h3 { font-size: 20px; }
-    .industry-card-full .industry-arrow { align-self: flex-end; }
   }
 
   @media (max-width: 640px) {
     .industries-section { padding: 100px 0; }
     .industries-grid { grid-template-columns: 1fr; }
-    .industry-card-full-inner {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 16px;
-    }
-    .industry-card-full-left { flex-direction: column; align-items: flex-start; gap: 12px; }
-    .industry-card-full-left h3 { font-size: 20px; }
-    .industry-card-full p { font-size: 14px; }
   }
 </style>
