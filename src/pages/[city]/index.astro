@@ -1,0 +1,345 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+import FinalCTA from '../../components/FinalCTA.astro';
+import { cities } from '../../data/cities.js';
+
+export async function getStaticPaths() {
+  const { cities } = await import('../../data/cities.js');
+  return cities.map((c) => ({ params: { city: c.citySlug }, props: { c } }));
+}
+
+const { c } = Astro.props;
+const canonical = `https://onwardcraft.com/${c.citySlug}/`;
+const CALENDLY = 'https://calendly.com/getonwardcraft/30min';
+
+// Review/AggregateRating intentionally omitted — honesty rule.
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: `${c.city} Marketing Services for Contractors`,
+    description: c.metaDescription,
+    url: canonical,
+    about: { '@id': 'https://onwardcraft.com/#organization' },
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: c.services.map((s, i) => ({
+        '@type': 'ListItem', position: i + 1, name: `${c.city} ${s.service}`,
+        url: `https://onwardcraft.com/${c.citySlug}/${s.serviceSlug}/`,
+      })),
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: c.faqs.map((f) => ({
+      '@type': 'Question', name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://onwardcraft.com/' },
+      { '@type': 'ListItem', position: 2, name: c.city, item: canonical },
+    ],
+  },
+];
+---
+
+<Layout title={c.titleTag} description={c.metaDescription} canonical={canonical} schema={schema}>
+  <Navbar dark />
+
+  <main class="hub">
+    <!-- Hero (dark) -->
+    <section class="hub-hero">
+      <div class="hero-orb orb-1" aria-hidden="true"></div>
+      <div class="hero-orb orb-2" aria-hidden="true"></div>
+      <div class="hero-grid-lines" aria-hidden="true"></div>
+      <div class="container hub-hero-inner">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a><span aria-hidden="true">/</span>
+          <span class="breadcrumb-current">{c.city}</span>
+        </nav>
+        <p class="eyebrow"><span class="eyebrow-dot"></span>{c.eyebrow}</p>
+        <h1>{c.h1}</h1>
+        <p class="h2-exact">{c.h2Exact}</p>
+        <p class="hero-sub">{c.heroSubhead}</p>
+        <div class="hero-actions">
+          <a href={CALENDLY} class="btn-primary" rel="noopener noreferrer">{c.primaryCta}
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="/pricing/" class="btn-ghost">See pricing</a>
+        </div>
+        <ul class="hero-proof">
+          {c.heroProof.map((p) => (
+            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>{p}</li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+    <!-- Intro + AI answer -->
+    <section class="section">
+      <div class="container">
+        <p class="lead">{c.intro}</p>
+        <div class="answer-block">
+          <p class="answer-q">{c.aioQuestion}</p>
+          <p>{c.aioAnswer}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ★ Services for this city (the hub's core) -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">What we do in {c.city}</p>
+          <h2>Four ways we bring {c.city} contractors more work</h2>
+        </div>
+        <div class="svc-grid">
+          {c.services.map((s) => (
+            <a class="svc-card" href={`/${c.citySlug}/${s.serviceSlug}/`}>
+              <span class="svc-tagline">{s.tagline}</span>
+              <h3>{c.city} {s.service}</h3>
+              <p>{s.blurb}</p>
+              <span class="svc-link">Explore {s.service}
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Local market (charts) -->
+    <section class="section">
+      <div class="container">
+        <div class="market-head">
+          <p class="eyebrow">The {c.metro} market</p>
+          <h2>{c.localMarket.heading}</h2>
+        </div>
+        <div class="market-grid">
+          <div class="market-copy">
+            <p>{c.localMarket.body}</p>
+            <p class="pull-quote">{c.localMarket.pullQuote}</p>
+          </div>
+          <div class="bento">
+            <div class="viz-card">
+              <span class="viz-title">{c.localMarket.donut.title}</span>
+              <div class="donut-wrap">
+                <div class="donut-figure">
+                  <div class="donut" style={`--pct:${c.localMarket.donut.value}`}></div>
+                  <div class="donut-center"><strong>{c.localMarket.donut.value}%</strong><span>{c.localMarket.donut.centerLabel}</span></div>
+                </div>
+                <ul class="donut-legend">
+                  {c.localMarket.donut.legend.map((g) => <li><span class={`dot dot-${g.kind}`}></span>{g.label} · {g.pct}%</li>)}
+                </ul>
+              </div>
+            </div>
+            <div class="viz-card">
+              <span class="viz-title">{c.localMarket.seasonTitle}</span>
+              <div class="season-chart">
+                {c.localMarket.seasonalDemand.map((d) => <div class={`season-bar${d.peak ? ' peak' : ''}`} style={`height:${d.v}%`}></div>)}
+              </div>
+              <div class="season-labels">{c.localMarket.seasonalDemand.map((d) => <span>{d.m}</span>)}</div>
+              <span class="viz-cap"><span class="swatch"></span>{c.localMarket.seasonCaption}</span>
+            </div>
+            <div class="stat"><span class="stat-value">{c.localMarket.stats[0].value}</span><span class="stat-label">{c.localMarket.stats[0].label}</span></div>
+            <div class="stat stat-accent"><span class="stat-value">{c.localMarket.stats[3].value}</span><span class="stat-label">{c.localMarket.stats[3].label}</span></div>
+          </div>
+        </div>
+        <div class="neighborhoods">
+          <span class="neighborhoods-label">Neighborhoods we serve</span>
+          <div class="chips">{c.localMarket.neighborhoods.map((n) => <span class="chip">{n}</span>)}</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Founder note -->
+    <section class="section section-alt founder-section">
+      <div class="container">
+        <figure class="founder-note">
+          <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+          <blockquote>{c.founderNote}</blockquote>
+          <figcaption>{c.founderName}</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Why us -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Why us</p>
+          <h2>Why {c.city} contractors pick OnwardCraft</h2>
+        </div>
+        <div class="why-grid">
+          {c.whyUs.map((w) => <div class="why-card"><h3>{w.title}</h3><p>{w.body}</p></div>)}
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">{c.city} marketing FAQ</p>
+          <h2>Questions {c.city} owners ask us</h2>
+        </div>
+        <div class="faq-list">
+          {c.faqs.map((f) => (
+            <details class="faq-item"><summary>{f.q}</summary><p>{f.a}</p></details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Areas served -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Areas we serve</p>
+          <h2>Marketing across {c.metro}</h2>
+        </div>
+        <div class="chips">{c.areasServed.map((a) => <span class="chip">{a}</span>)}</div>
+      </div>
+    </section>
+  </main>
+
+  <FinalCTA dark />
+  <Footer />
+</Layout>
+
+<style>
+  .hub {
+    --l-bg: #FFFFFF; --l-alt: #F4F7FB; --l-ink: #0E1B33; --l-body: #475067; --l-muted: #6B7791;
+    --l-border: rgba(14,27,51,0.10); --l-border-2: rgba(14,27,51,0.16);
+    --l-teal: #06D6A0; --l-teal-ink: #07866A; --l-gold: #E08A0B; --l-gold-soft: #FFF6E8; --l-teal-soft: #E9FBF5;
+    --l-shadow: 0 1px 2px rgba(14,27,51,0.05), 0 10px 30px rgba(14,27,51,0.06);
+    background: var(--l-bg); color: var(--l-ink);
+  }
+  .container { max-width: var(--container, 1140px); margin: 0 auto; padding: 0 40px; }
+
+  /* Hero (dark) */
+  .hub-hero { position: relative; padding: 168px 0 90px; overflow: hidden; background: var(--bg-primary); color: var(--text-primary); }
+  .hero-orb { position: absolute; border-radius: 50%; filter: blur(80px); pointer-events: none; opacity: 0.5; }
+  .orb-1 { top: -120px; right: -80px; width: 520px; height: 520px; background: radial-gradient(circle, rgba(6,214,160,0.22), transparent 70%); }
+  .orb-2 { bottom: -160px; left: -120px; width: 460px; height: 460px; background: radial-gradient(circle, rgba(255,184,77,0.10), transparent 70%); }
+  .hero-grid-lines { position: absolute; inset: 0;
+    background-image: linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+    background-size: 64px 64px; mask-image: radial-gradient(ellipse 80% 60% at 60% 0%, #000 30%, transparent 75%);
+    -webkit-mask-image: radial-gradient(ellipse 80% 60% at 60% 0%, #000 30%, transparent 75%); pointer-events: none; }
+  .hub-hero-inner { position: relative; z-index: 1; }
+  .breadcrumb { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 13px; color: var(--text-muted); margin-bottom: 30px; }
+  .breadcrumb a { color: var(--text-secondary); text-decoration: none; }
+  .breadcrumb a:hover { color: var(--accent-primary); }
+  .breadcrumb-current { color: var(--text-primary); font-weight: 600; }
+  .hub-hero h1 { font-family: var(--font-heading); font-size: clamp(34px, 5.2vw, 60px); font-weight: 800; line-height: 1.02; letter-spacing: -0.035em; margin-bottom: 14px; max-width: 18ch; color: var(--text-primary); }
+  .h2-exact { font-family: var(--font-heading); font-size: 17px; font-weight: 600; color: var(--text-muted); margin-bottom: 24px; }
+  .hero-sub { font-size: clamp(17px, 2vw, 21px); color: var(--text-secondary); line-height: 1.6; max-width: 660px; margin-bottom: 34px; }
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 30px; }
+  .btn-ghost { display: inline-flex; align-items: center; gap: 8px; padding: 15px 26px; border-radius: 100px; border: 1px solid rgba(6,214,160,0.28); color: var(--text-primary); text-decoration: none; font-weight: 600; transition: all 0.3s; }
+  .btn-ghost:hover { border-color: var(--accent-primary); background: rgba(6,214,160,0.06); }
+  .hero-proof { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 10px 22px; }
+  .hero-proof li { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; color: var(--text-secondary); }
+  .hero-proof svg { color: var(--accent-primary); }
+  .hub-hero .eyebrow { color: var(--accent-primary); }
+  .hub-hero .eyebrow-dot { background: var(--accent-primary); box-shadow: 0 0 0 4px rgba(6,214,160,0.18); }
+
+  .eyebrow { display: inline-flex; align-items: center; gap: 9px; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--l-teal-ink); margin-bottom: 16px; }
+  .eyebrow-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--l-teal); }
+
+  /* Sections (light) */
+  .section { padding: 88px 0; background: var(--l-bg); }
+  .section-alt { background: var(--l-alt); }
+  .section-head, .market-head { max-width: 760px; margin-bottom: 46px; }
+  .section-head h2, .market-head h2 { font-family: var(--font-heading); font-size: clamp(26px, 3.6vw, 40px); font-weight: 700; line-height: 1.12; letter-spacing: -0.025em; color: var(--l-ink); }
+  .lead { font-size: clamp(18px, 2.1vw, 23px); line-height: 1.55; color: var(--l-ink); margin-bottom: 30px; letter-spacing: -0.01em; max-width: 860px; }
+  .answer-block { border-left: 3px solid var(--l-teal); background: var(--l-teal-soft); border-radius: 0 14px 14px 0; padding: 24px 28px; max-width: 860px; }
+  .answer-q { font-family: var(--font-heading); font-size: 19px; font-weight: 700; margin-bottom: 10px; color: var(--l-ink); }
+  .answer-block p { font-size: 16px; line-height: 1.7; color: var(--l-body); margin: 0; }
+
+  /* ★ Services hub grid */
+  .svc-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+  .svc-card { display: flex; flex-direction: column; background: var(--l-bg); border: 1px solid var(--l-border); border-radius: 18px; padding: 32px; text-decoration: none; transition: all 0.3s; box-shadow: var(--l-shadow); }
+  .svc-card:hover { transform: translateY(-4px); border-color: var(--l-teal); box-shadow: 0 0 0 1px var(--l-teal), 0 24px 50px rgba(6,214,160,0.12); }
+  .svc-tagline { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--l-gold); margin-bottom: 12px; }
+  .svc-card h3 { font-family: var(--font-heading); font-size: 23px; font-weight: 800; color: var(--l-ink); margin-bottom: 12px; letter-spacing: -0.02em; }
+  .svc-card p { font-size: 15px; line-height: 1.7; color: var(--l-body); margin: 0 0 22px; flex-grow: 1; }
+  .svc-link { display: inline-flex; align-items: center; gap: 7px; font-weight: 700; color: var(--l-teal-ink); font-size: 15px; }
+  .svc-card:hover .svc-link { gap: 11px; }
+
+  /* Market + bento (shared look) */
+  .market-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 48px; align-items: start; }
+  .market-copy p { font-size: 16px; line-height: 1.8; color: var(--l-body); margin: 0 0 22px; }
+  .pull-quote { font-family: var(--font-heading); font-size: 20px !important; line-height: 1.4 !important; font-weight: 600; color: var(--l-ink) !important; padding-left: 18px; border-left: 3px solid var(--l-gold); margin-bottom: 0 !important; }
+  .bento { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .stat { background: var(--l-bg); border: 1px solid var(--l-border); border-radius: 16px; padding: 22px; box-shadow: var(--l-shadow); }
+  .stat-accent { background: var(--l-gold-soft); border-color: rgba(224,138,11,0.28); }
+  .stat-accent .stat-value { color: var(--l-gold); }
+  .stat-value { display: block; font-family: var(--font-heading); font-size: 30px; font-weight: 800; color: var(--l-teal-ink); line-height: 1; margin-bottom: 8px; }
+  .stat-label { font-size: 13px; line-height: 1.5; color: var(--l-body); }
+  .viz-card { background: var(--l-bg); border: 1px solid var(--l-border); border-radius: 16px; padding: 20px; box-shadow: var(--l-shadow); display: flex; flex-direction: column; }
+  .viz-title { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--l-muted); font-weight: 700; margin-bottom: 16px; }
+  .viz-cap { font-size: 11.5px; color: var(--l-muted); margin-top: 12px; display: inline-flex; align-items: center; gap: 7px; line-height: 1.4; }
+  .viz-cap .swatch { width: 10px; height: 10px; border-radius: 3px; background: var(--l-gold); flex-shrink: 0; }
+  .donut-wrap { display: flex; align-items: center; gap: 18px; }
+  .donut-figure { position: relative; width: 104px; height: 104px; flex-shrink: 0; }
+  .donut { width: 104px; height: 104px; border-radius: 50%; background: conic-gradient(var(--l-teal) 0 calc(var(--pct) * 1%), #DDE5EF 0); -webkit-mask: radial-gradient(closest-side, #0000 63%, #000 64%); mask: radial-gradient(closest-side, #0000 63%, #000 64%); }
+  .donut-center { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .donut-center strong { font-family: var(--font-heading); font-size: 23px; color: var(--l-ink); line-height: 1; }
+  .donut-center span { font-size: 11px; color: var(--l-muted); margin-top: 2px; }
+  .donut-legend { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 9px; }
+  .donut-legend li { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--l-body); }
+  .dot { width: 10px; height: 10px; border-radius: 50%; }
+  .dot-teal { background: var(--l-teal); }
+  .dot-grey { background: #DDE5EF; }
+  .season-chart { display: flex; align-items: flex-end; gap: 5px; height: 96px; }
+  .season-bar { flex: 1; background: #BFE9DD; border-radius: 3px 3px 0 0; min-height: 5px; }
+  .season-bar.peak { background: var(--l-gold); }
+  .season-labels { display: flex; gap: 5px; margin-top: 7px; }
+  .season-labels span { flex: 1; text-align: center; font-size: 10px; color: var(--l-muted); }
+  .neighborhoods { margin-top: 44px; }
+  .neighborhoods-label { display: block; font-size: 13px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--l-muted); margin-bottom: 16px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 9px; }
+  .chip { font-size: 14px; padding: 7px 15px; border-radius: 100px; border: 1px solid var(--l-border); background: var(--l-bg); color: var(--l-body); box-shadow: var(--l-shadow); }
+
+  /* Founder */
+  .founder-section { padding: 70px 0; }
+  .founder-note { position: relative; margin: 0; padding: 8px 0 0; max-width: 940px; }
+  .quote-mark { position: absolute; top: -30px; left: -8px; font-family: var(--font-heading); font-size: 120px; line-height: 1; color: rgba(6,214,160,0.16); pointer-events: none; }
+  .founder-note blockquote { margin: 0; position: relative; z-index: 1; font-size: clamp(19px, 2.4vw, 27px); line-height: 1.5; font-weight: 500; letter-spacing: -0.015em; color: var(--l-ink); }
+  .founder-note figcaption { margin-top: 22px; font-size: 14px; color: var(--l-muted); display: flex; align-items: center; gap: 12px; }
+  .founder-note figcaption::before { content: ''; width: 28px; height: 1px; background: var(--l-teal); }
+
+  /* Why us */
+  .why-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: var(--l-border); border: 1px solid var(--l-border); border-radius: 18px; overflow: hidden; }
+  .why-card { background: var(--l-bg); padding: 34px; }
+  .why-card h3 { font-family: var(--font-heading); font-size: 19px; font-weight: 700; margin-bottom: 12px; color: var(--l-ink); }
+  .why-card p { font-size: 15px; line-height: 1.75; color: var(--l-body); margin: 0; }
+
+  /* FAQ */
+  .faq-list { display: flex; flex-direction: column; gap: 12px; max-width: 860px; }
+  .faq-item { border: 1px solid var(--l-border); border-radius: 12px; background: var(--l-bg); padding: 4px 22px; box-shadow: var(--l-shadow); }
+  .faq-item summary { list-style: none; cursor: pointer; font-family: var(--font-heading); font-size: 17px; font-weight: 600; padding: 18px 0; position: relative; padding-right: 32px; color: var(--l-ink); }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::after { content: '+'; position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-size: 22px; color: var(--l-teal-ink); }
+  .faq-item[open] summary::after { content: '−'; }
+  .faq-item p { font-size: 15px; line-height: 1.7; color: var(--l-body); padding: 0 0 20px; margin: 0; }
+
+  @media (max-width: 900px) {
+    .container { padding: 0 20px; }
+    .svc-grid, .why-grid, .market-grid { grid-template-columns: 1fr; }
+    .market-grid { gap: 32px; }
+    .why-grid { gap: 1px; }
+  }
+  @media (max-width: 640px) {
+    .hub-hero { padding: 130px 0 60px; }
+    .section { padding: 60px 0; }
+    .bento { grid-template-columns: 1fr 1fr; }
+  }
+</style>
