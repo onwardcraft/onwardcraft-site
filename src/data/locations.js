@@ -35,6 +35,16 @@ import { indianapolisLocations } from './metros/indianapolis.js';
 import { memphisLocations } from './metros/memphis.js';
 import { louisvilleLocations } from './metros/louisville.js';
 import { kansasCityLocations } from './metros/kansas-city.js';
+import { portlandLocations } from './metros/portland.js';
+import { bostonLocations } from './metros/boston.js';
+import { detroitLocations } from './metros/detroit.js';
+import { oklahomaCityLocations } from './metros/oklahoma-city.js';
+import { raleighLocations } from './metros/raleigh.js';
+import { virginiaBeachLocations } from './metros/virginia-beach.js';
+import { elPasoLocations } from './metros/el-paso.js';
+import { sacramentoLocations } from './metros/sacramento.js';
+import { baltimoreLocations } from './metros/baltimore.js';
+import { milwaukeeLocations } from './metros/milwaukee.js';
 
 // ===========================================================================
 // MIAMI — shared city blocks (also imported by the /miami/ hub in cities.js)
@@ -422,6 +432,16 @@ export const locations = [
   ...memphisLocations,
   ...louisvilleLocations,
   ...kansasCityLocations,
+  ...portlandLocations,
+  ...bostonLocations,
+  ...detroitLocations,
+  ...oklahomaCityLocations,
+  ...raleighLocations,
+  ...virginiaBeachLocations,
+  ...elPasoLocations,
+  ...sacramentoLocations,
+  ...baltimoreLocations,
+  ...milwaukeeLocations,
 ];
 
 // Convenience lookups for the dynamic route + future cross-linking.

@@ -31,6 +31,16 @@ import { indianapolisCity } from './metros/indianapolis.js';
 import { memphisCity } from './metros/memphis.js';
 import { louisvilleCity } from './metros/louisville.js';
 import { kansasCityCity } from './metros/kansas-city.js';
+import { portlandCity } from './metros/portland.js';
+import { bostonCity } from './metros/boston.js';
+import { detroitCity } from './metros/detroit.js';
+import { oklahomaCityCity } from './metros/oklahoma-city.js';
+import { raleighCity } from './metros/raleigh.js';
+import { virginiaBeachCity } from './metros/virginia-beach.js';
+import { elPasoCity } from './metros/el-paso.js';
+import { sacramentoCity } from './metros/sacramento.js';
+import { baltimoreCity } from './metros/baltimore.js';
+import { milwaukeeCity } from './metros/milwaukee.js';
 
 const miamiCity = {
     citySlug: 'miami', city: 'Miami', state: 'Florida', stateAbbr: 'FL', metro: 'Miami-Dade',
@@ -95,6 +105,8 @@ export const cities = [
   sanAntonioCity, sanDiegoCity, austinCity, jacksonvilleCity, fortWorthCity,
   atlantaCity, seattleCity, lasVegasCity, nashvilleCity, charlotteCity,
   columbusCity, indianapolisCity, memphisCity, louisvilleCity, kansasCityCity,
+  portlandCity, bostonCity, detroitCity, oklahomaCityCity, raleighCity,
+  virginiaBeachCity, elPasoCity, sacramentoCity, baltimoreCity, milwaukeeCity,
 ];
 
 export const cityPaths = cities.map((c) => ({ citySlug: c.citySlug }));
