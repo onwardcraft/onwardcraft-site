@@ -11,6 +11,26 @@ import { orlandoCity } from './metros/orlando.js';
 import { dallasCity } from './metros/dallas.js';
 import { denverCity } from './metros/denver.js';
 import { phoenixCity } from './metros/phoenix.js';
+import { newYorkCity } from './metros/new-york.js';
+import { losAngelesCity } from './metros/los-angeles.js';
+import { chicagoCity } from './metros/chicago.js';
+import { houstonCity } from './metros/houston.js';
+import { philadelphiaCity } from './metros/philadelphia.js';
+import { sanAntonioCity } from './metros/san-antonio.js';
+import { sanDiegoCity } from './metros/san-diego.js';
+import { austinCity } from './metros/austin.js';
+import { jacksonvilleCity } from './metros/jacksonville.js';
+import { fortWorthCity } from './metros/fort-worth.js';
+import { atlantaCity } from './metros/atlanta.js';
+import { seattleCity } from './metros/seattle.js';
+import { lasVegasCity } from './metros/las-vegas.js';
+import { nashvilleCity } from './metros/nashville.js';
+import { charlotteCity } from './metros/charlotte.js';
+import { columbusCity } from './metros/columbus.js';
+import { indianapolisCity } from './metros/indianapolis.js';
+import { memphisCity } from './metros/memphis.js';
+import { louisvilleCity } from './metros/louisville.js';
+import { kansasCityCity } from './metros/kansas-city.js';
 
 const miamiCity = {
     citySlug: 'miami', city: 'Miami', state: 'Florida', stateAbbr: 'FL', metro: 'Miami-Dade',
@@ -69,7 +89,13 @@ const miamiCity = {
     ],
 };
 
-export const cities = [miamiCity, tampaCity, orlandoCity, dallasCity, denverCity, phoenixCity];
+export const cities = [
+  miamiCity, tampaCity, orlandoCity, dallasCity, denverCity, phoenixCity,
+  newYorkCity, losAngelesCity, chicagoCity, houstonCity, philadelphiaCity,
+  sanAntonioCity, sanDiegoCity, austinCity, jacksonvilleCity, fortWorthCity,
+  atlantaCity, seattleCity, lasVegasCity, nashvilleCity, charlotteCity,
+  columbusCity, indianapolisCity, memphisCity, louisvilleCity, kansasCityCity,
+];
 
 export const cityPaths = cities.map((c) => ({ citySlug: c.citySlug }));
 export function getCity(citySlug) {

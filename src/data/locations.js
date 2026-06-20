@@ -15,6 +15,26 @@ import { orlandoLocations } from './metros/orlando.js';
 import { dallasLocations } from './metros/dallas.js';
 import { denverLocations } from './metros/denver.js';
 import { phoenixLocations } from './metros/phoenix.js';
+import { newYorkLocations } from './metros/new-york.js';
+import { losAngelesLocations } from './metros/los-angeles.js';
+import { chicagoLocations } from './metros/chicago.js';
+import { houstonLocations } from './metros/houston.js';
+import { philadelphiaLocations } from './metros/philadelphia.js';
+import { sanAntonioLocations } from './metros/san-antonio.js';
+import { sanDiegoLocations } from './metros/san-diego.js';
+import { austinLocations } from './metros/austin.js';
+import { jacksonvilleLocations } from './metros/jacksonville.js';
+import { fortWorthLocations } from './metros/fort-worth.js';
+import { atlantaLocations } from './metros/atlanta.js';
+import { seattleLocations } from './metros/seattle.js';
+import { lasVegasLocations } from './metros/las-vegas.js';
+import { nashvilleLocations } from './metros/nashville.js';
+import { charlotteLocations } from './metros/charlotte.js';
+import { columbusLocations } from './metros/columbus.js';
+import { indianapolisLocations } from './metros/indianapolis.js';
+import { memphisLocations } from './metros/memphis.js';
+import { louisvilleLocations } from './metros/louisville.js';
+import { kansasCityLocations } from './metros/kansas-city.js';
 
 // ===========================================================================
 // MIAMI — shared city blocks (also imported by the /miami/ hub in cities.js)
@@ -382,6 +402,26 @@ export const locations = [
   ...dallasLocations,
   ...denverLocations,
   ...phoenixLocations,
+  ...newYorkLocations,
+  ...losAngelesLocations,
+  ...chicagoLocations,
+  ...houstonLocations,
+  ...philadelphiaLocations,
+  ...sanAntonioLocations,
+  ...sanDiegoLocations,
+  ...austinLocations,
+  ...jacksonvilleLocations,
+  ...fortWorthLocations,
+  ...atlantaLocations,
+  ...seattleLocations,
+  ...lasVegasLocations,
+  ...nashvilleLocations,
+  ...charlotteLocations,
+  ...columbusLocations,
+  ...indianapolisLocations,
+  ...memphisLocations,
+  ...louisvilleLocations,
+  ...kansasCityLocations,
 ];
 
 // Convenience lookups for the dynamic route + future cross-linking.
