@@ -149,6 +149,26 @@ import { fortWayneLocations } from './metros/fort-wayne.js';
 import { charlestonLocations } from './metros/charleston.js';
 import { ashevilleLocations } from './metros/asheville.js';
 import { maconLocations } from './metros/macon.js';
+import { montgomeryLocations } from './metros/montgomery.js';
+import { norfolkLocations } from './metros/norfolk.js';
+import { ogdenLocations } from './metros/ogden.js';
+import { auroraLocations } from './metros/aurora.js';
+import { boulderLocations } from './metros/boulder.js';
+import { hendersonLocations } from './metros/henderson.js';
+import { chandlerLocations } from './metros/chandler.js';
+import { arlingtonLocations } from './metros/arlington.js';
+import { irvingLocations } from './metros/irving.js';
+import { cedarRapidsLocations } from './metros/cedar-rapids.js';
+import { greenBayLocations } from './metros/green-bay.js';
+import { lincolnLocations } from './metros/lincoln.js';
+import { bendLocations } from './metros/bend.js';
+import { stPetersburgLocations } from './metros/st-petersburg.js';
+import { sarasotaLocations } from './metros/sarasota.js';
+import { clarksvilleLocations } from './metros/clarksville.js';
+import { rockfordLocations } from './metros/rockford.js';
+import { bellevueLocations } from './metros/bellevue.js';
+import { vancouverLocations } from './metros/vancouver.js';
+import { topekaLocations } from './metros/topeka.js';
 
 // ===========================================================================
 // MIAMI — shared city blocks (also imported by the /miami/ hub in cities.js)
@@ -650,6 +670,26 @@ export const locations = [
   ...charlestonLocations,
   ...ashevilleLocations,
   ...maconLocations,
+  ...montgomeryLocations,
+  ...norfolkLocations,
+  ...ogdenLocations,
+  ...auroraLocations,
+  ...boulderLocations,
+  ...hendersonLocations,
+  ...chandlerLocations,
+  ...arlingtonLocations,
+  ...irvingLocations,
+  ...cedarRapidsLocations,
+  ...greenBayLocations,
+  ...lincolnLocations,
+  ...bendLocations,
+  ...stPetersburgLocations,
+  ...sarasotaLocations,
+  ...clarksvilleLocations,
+  ...rockfordLocations,
+  ...bellevueLocations,
+  ...vancouverLocations,
+  ...topekaLocations,
 ];
 
 // Convenience lookups for the dynamic route + future cross-linking.

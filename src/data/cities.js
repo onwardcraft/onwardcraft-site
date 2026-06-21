@@ -145,6 +145,26 @@ import { fortWayneCity } from './metros/fort-wayne.js';
 import { charlestonCity } from './metros/charleston.js';
 import { ashevilleCity } from './metros/asheville.js';
 import { maconCity } from './metros/macon.js';
+import { montgomeryCity } from './metros/montgomery.js';
+import { norfolkCity } from './metros/norfolk.js';
+import { ogdenCity } from './metros/ogden.js';
+import { auroraCity } from './metros/aurora.js';
+import { boulderCity } from './metros/boulder.js';
+import { hendersonCity } from './metros/henderson.js';
+import { chandlerCity } from './metros/chandler.js';
+import { arlingtonCity } from './metros/arlington.js';
+import { irvingCity } from './metros/irving.js';
+import { cedarRapidsCity } from './metros/cedar-rapids.js';
+import { greenBayCity } from './metros/green-bay.js';
+import { lincolnCity } from './metros/lincoln.js';
+import { bendCity } from './metros/bend.js';
+import { stPetersburgCity } from './metros/st-petersburg.js';
+import { sarasotaCity } from './metros/sarasota.js';
+import { clarksvilleCity } from './metros/clarksville.js';
+import { rockfordCity } from './metros/rockford.js';
+import { bellevueCity } from './metros/bellevue.js';
+import { vancouverCity } from './metros/vancouver.js';
+import { topekaCity } from './metros/topeka.js';
 
 const miamiCity = {
     citySlug: 'miami', city: 'Miami', state: 'Florida', stateAbbr: 'FL', metro: 'Miami-Dade',
@@ -233,6 +253,10 @@ export const cities = [
   billingsCity, cheyenneCity, burlingtonCity, wilmingtonCity, mesaCity,
   planoCity, friscoCity, anaheimCity, longBeachCity, naplesCity,
   lakelandCity, fortWayneCity, charlestonCity, ashevilleCity, maconCity,
+  montgomeryCity, norfolkCity, ogdenCity, auroraCity, boulderCity,
+  hendersonCity, chandlerCity, arlingtonCity, irvingCity, cedarRapidsCity,
+  greenBayCity, lincolnCity, bendCity, stPetersburgCity, sarasotaCity,
+  clarksvilleCity, rockfordCity, bellevueCity, vancouverCity, topekaCity,
 ];
 
 export const cityPaths = cities.map((c) => ({ citySlug: c.citySlug }));
