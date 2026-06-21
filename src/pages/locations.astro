@@ -1,0 +1,375 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import { cities } from '../data/cities.js';
+
+const title = 'Locations We Serve | Contractor Marketing Across the US | OnwardCraft';
+const description = 'OnwardCraft builds websites, SEO, and local SEO for contractors in 120+ US cities. Find your city and see how we help local contractors win more leads online.';
+
+// Group by state, sorted
+const byState = {};
+for (const c of cities) {
+  if (!byState[c.state]) byState[c.state] = [];
+  byState[c.state].push(c);
+}
+const stateGroups = Object.entries(byState)
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([state, stateCities]) => ({
+    state,
+    stateAbbr: stateCities[0].stateAbbr,
+    cities: stateCities.sort((a, b) => a.city.localeCompare(b.city)),
+  }));
+
+const totalCities = cities.length;
+const totalStates = stateGroups.length;
+---
+
+<Layout title={title} description={description}>
+  <Navbar />
+
+  <!-- Hero -->
+  <section class="loc-hero">
+    <div class="hero-bg">
+      <div class="gradient-blob blob-1"></div>
+      <div class="gradient-blob blob-2"></div>
+    </div>
+    <div class="container loc-hero-inner">
+      <p class="section-label reveal">Service Locations</p>
+      <h1 class="loc-title reveal">
+        Contractor Marketing<br/>
+        <span class="accent">Across the Country</span>
+      </h1>
+      <p class="loc-desc reveal">
+        We build websites, SEO, and local SEO for contractors in <strong>{totalCities} cities</strong> across <strong>{totalStates} states</strong> — with market-specific content built around your city's real demand patterns, not copy-paste templates.
+      </p>
+      <div class="hero-stats reveal">
+        <div class="hstat">
+          <span class="hstat-num">{totalCities}+</span>
+          <span class="hstat-label">Cities</span>
+        </div>
+        <div class="hstat-divider"></div>
+        <div class="hstat">
+          <span class="hstat-num">{totalStates}</span>
+          <span class="hstat-label">States</span>
+        </div>
+        <div class="hstat-divider"></div>
+        <div class="hstat">
+          <span class="hstat-num">4</span>
+          <span class="hstat-label">Services per City</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search hint -->
+  <section class="search-section">
+    <div class="container">
+      <div class="search-card reveal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        <input
+          type="text"
+          id="city-search"
+          placeholder="Search your city…"
+          autocomplete="off"
+          aria-label="Search cities"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- City grid by state -->
+  <section class="states-section">
+    <div class="container">
+      <div id="states-list">
+        {stateGroups.map(({ state, stateAbbr, cities: sc }) => (
+          <div class="state-block" data-state={state}>
+            <div class="state-header">
+              <span class="state-abbr">{stateAbbr}</span>
+              <h2 class="state-name">{state}</h2>
+              <span class="state-count">{sc.length} {sc.length === 1 ? 'city' : 'cities'}</span>
+            </div>
+            <div class="city-grid">
+              {sc.map((c) => (
+                <a class="city-card" href={`/${c.citySlug}/`} data-city={c.city.toLowerCase()}>
+                  <span class="city-name">{c.city}</span>
+                  <span class="city-services">
+                    <span class="svc-tag">Local SEO</span>
+                    <span class="svc-tag">SEO</span>
+                    <span class="svc-tag">Web Design</span>
+                    <span class="svc-tag">Redesign</span>
+                  </span>
+                  <span class="city-arrow">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </span>
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+      <p id="no-results" class="no-results" style="display:none">No cities match — <a href="/contact">contact us</a> to ask about yours.</p>
+    </div>
+  </section>
+
+  <!-- Bottom CTA -->
+  <section class="loc-cta">
+    <div class="container">
+      <div class="loc-cta-card reveal gradient-border">
+        <p class="section-label">Don't see your city?</p>
+        <h2 class="loc-cta-title">We cover markets not on this list too.</h2>
+        <p class="loc-cta-desc">
+          We take on contractors outside our listed metros. Reach out and we'll tell you exactly how we'd approach your market.
+        </p>
+        <a href="/contact" class="btn btn-primary">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <Footer />
+</Layout>
+
+<script>
+  const input = document.getElementById('city-search') as HTMLInputElement;
+  const stateBlocks = document.querySelectorAll<HTMLElement>('.state-block');
+  const noResults = document.getElementById('no-results') as HTMLElement;
+
+  input.addEventListener('input', () => {
+    const q = input.value.toLowerCase().trim();
+    let anyVisible = false;
+
+    stateBlocks.forEach((block) => {
+      const cards = block.querySelectorAll<HTMLElement>('.city-card');
+      let blockVisible = false;
+
+      cards.forEach((card) => {
+        const name = card.dataset.city || '';
+        const match = !q || name.includes(q);
+        card.style.display = match ? '' : 'none';
+        if (match) blockVisible = true;
+      });
+
+      block.style.display = blockVisible ? '' : 'none';
+      if (blockVisible) anyVisible = true;
+    });
+
+    noResults.style.display = anyVisible ? 'none' : 'block';
+  });
+</script>
+
+<style>
+/* ── Hero ─────────────────────────────────────────────────────────────── */
+.loc-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 7rem 0 4rem;
+  text-align: center;
+}
+.loc-hero .hero-bg { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
+.loc-hero .gradient-blob {
+  position: absolute; border-radius: 50%;
+  filter: blur(80px); opacity: .18;
+}
+.blob-1 { width: 600px; height: 600px; background: var(--teal, #0ea5e9); top: -200px; left: -100px; }
+.blob-2 { width: 500px; height: 500px; background: var(--accent, #6366f1); top: -100px; right: -80px; }
+.loc-hero-inner { position: relative; z-index: 1; max-width: 760px; margin: 0 auto; }
+.loc-title {
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin: .75rem 0 1.25rem;
+  color: var(--text-primary, #f1f5f9);
+}
+.loc-title .accent { color: var(--teal, #0ea5e9); }
+.loc-desc {
+  font-size: 1.15rem;
+  color: var(--text-secondary, #94a3b8);
+  max-width: 580px;
+  margin: 0 auto 2rem;
+  line-height: 1.7;
+}
+.loc-desc strong { color: var(--text-primary, #f1f5f9); }
+
+.hero-stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.hstat { text-align: center; }
+.hstat-num {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--teal, #0ea5e9);
+  line-height: 1;
+}
+.hstat-label {
+  display: block;
+  font-size: .8rem;
+  color: var(--text-secondary, #94a3b8);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-top: .25rem;
+}
+.hstat-divider {
+  width: 1px;
+  height: 40px;
+  background: var(--border, rgba(255,255,255,.1));
+}
+
+/* ── Search ───────────────────────────────────────────────────────────── */
+.search-section { padding: 0 0 1.5rem; }
+.search-card {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  max-width: 480px;
+  margin: 0 auto;
+  background: var(--card-bg, rgba(255,255,255,.04));
+  border: 1px solid var(--border, rgba(255,255,255,.1));
+  border-radius: 12px;
+  padding: .75rem 1.25rem;
+  transition: border-color .2s;
+}
+.search-card:focus-within { border-color: var(--teal, #0ea5e9); }
+.search-card svg { flex-shrink: 0; color: var(--text-secondary, #94a3b8); }
+#city-search {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: var(--text-primary, #f1f5f9);
+}
+#city-search::placeholder { color: var(--text-secondary, #94a3b8); }
+
+/* ── States section ───────────────────────────────────────────────────── */
+.states-section { padding: 1rem 0 4rem; }
+
+.state-block { margin-bottom: 3rem; }
+
+.state-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: .75rem;
+  border-bottom: 1px solid var(--border, rgba(255,255,255,.1));
+}
+.state-abbr {
+  background: var(--teal, #0ea5e9);
+  color: #000;
+  font-weight: 800;
+  font-size: .75rem;
+  letter-spacing: .08em;
+  padding: .2rem .55rem;
+  border-radius: 6px;
+  line-height: 1.4;
+}
+.state-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary, #f1f5f9);
+  margin: 0;
+}
+.state-count {
+  margin-left: auto;
+  font-size: .8rem;
+  color: var(--text-secondary, #94a3b8);
+}
+
+.city-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: .75rem;
+}
+
+.city-card {
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+  padding: 1rem 1.1rem;
+  background: var(--card-bg, rgba(255,255,255,.03));
+  border: 1px solid var(--border, rgba(255,255,255,.08));
+  border-radius: 10px;
+  text-decoration: none;
+  transition: border-color .18s, background .18s, transform .18s;
+  position: relative;
+}
+.city-card:hover {
+  border-color: var(--teal, #0ea5e9);
+  background: rgba(14,165,233,.06);
+  transform: translateY(-2px);
+}
+.city-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary, #f1f5f9);
+}
+.city-services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .3rem;
+}
+.svc-tag {
+  font-size: .68rem;
+  padding: .15rem .45rem;
+  background: rgba(14,165,233,.12);
+  color: var(--teal, #0ea5e9);
+  border-radius: 4px;
+  letter-spacing: .02em;
+}
+.city-arrow {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: var(--text-secondary, #94a3b8);
+  opacity: 0;
+  transition: opacity .18s, transform .18s;
+}
+.city-card:hover .city-arrow { opacity: 1; transform: translateX(3px); }
+
+.no-results {
+  text-align: center;
+  padding: 3rem 0;
+  color: var(--text-secondary, #94a3b8);
+}
+.no-results a { color: var(--teal, #0ea5e9); text-decoration: underline; }
+
+/* ── Bottom CTA ───────────────────────────────────────────────────────── */
+.loc-cta { padding: 2rem 0 5rem; }
+.loc-cta-card {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  background: var(--card-bg, rgba(255,255,255,.04));
+  border: 1px solid var(--border, rgba(255,255,255,.1));
+}
+.loc-cta-title {
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+  font-weight: 800;
+  color: var(--text-primary, #f1f5f9);
+  margin: .5rem 0 1rem;
+}
+.loc-cta-desc {
+  color: var(--text-secondary, #94a3b8);
+  font-size: 1.05rem;
+  margin-bottom: 1.75rem;
+  line-height: 1.7;
+}
+
+/* ── Responsive ───────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .loc-hero { padding: 5rem 0 3rem; }
+  .city-grid { grid-template-columns: 1fr 1fr; }
+  .hero-stats { gap: 1.25rem; }
+  .hstat-divider { height: 30px; }
+}
+@media (max-width: 420px) {
+  .city-grid { grid-template-columns: 1fr; }
+}
+</style>
