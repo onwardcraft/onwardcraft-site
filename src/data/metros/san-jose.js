@@ -1,4 +1,4 @@
-// SAN JOSE — per-metro × per-service local landing pages + city hub.
+// SAN JOSE: per-metro x per-service local landing pages + city hub.
 // Service pages render via /[city]/[service]/; the hub renders via /[city]/.
 // BUILD with the `onward-local-page` skill. SPEC: content/lead-content-plan/08 + 09.
 //
@@ -12,13 +12,13 @@
 // PRICING is fixed for cross-city consistency.
 
 // ===========================================================================
-// SAN JOSE — shared city blocks
+// SAN JOSE: shared city blocks
 // ===========================================================================
 const MARKET = {
-  heading: 'Why ranking in San Jose is a high-stakes competition',
+  heading: 'Ranking in San Jose is a fight against the most demanding buyers in the country',
   body:
-    "San Jose is Silicon Valley's largest city, and it holds a distinction that surprises most people: it has the highest median household income of any major US city in America. The homeowners here are engineers and product managers at Apple, Google, Cisco, and Intel — people who research everything before they spend, expect polished professionalism, and have budgets that match million-dollar home values. The average San Jose home now exceeds $1 million, and that changes the math for every contractor. A kitchen remodel in Willow Glen or Almaden Valley that might run $50,000 elsewhere can run $120,000 here, and the homeowner chose you based on how credible you looked online. Two forces shape demand in ways you won't find in most US cities. First, the Hayward and Calaveras faults run directly beneath and alongside the metro, so seismic retrofitting, foundation inspections, and earthquake-proofing are genuine local specialties that generate steady search volume year-round, and especially after tremors. Second, August through October brings wildfire smoke from Bay Area and Sierra fires, spiking demand for HVAC filtration upgrades and air sealing as homeowners try to keep smoke out. The contractor who ranks for those searches before the smoke arrives is the one who books the work.",
-  pullQuote: 'In a city where the average home tops $1 million and every homeowner is a tech professional, the contractor who looks most credible online wins the job before anyone picks up a phone.',
+    "San Jose anchors Silicon Valley, and it carries a distinction few cities can claim: the highest median household income of any major American city. The people hiring you here write software at Apple, ship products at Google, build networks at Cisco, and design chips at Intel. They vet a contractor the way they vet a vendor at work, reading reviews, comparing sites, and shortlisting before a single phone rings. With the average San Jose home now above $1 million, the stakes climb fast. A Willow Glen or Almaden Valley kitchen that costs $50,000 in another state can land near $120,000 here, and that homeowner picked you because your online presence read as the safe choice. Two local forces bend demand in ways you simply will not see elsewhere. The Hayward and Calaveras faults run beneath and beside the metro, so seismic retrofits, foundation inspections, and earthquake-proofing are real specialties that pull steady searches all year and surge after every noticeable tremor. Then, from August into October, smoke from Bay Area and Sierra wildfires settles over the valley, sending homeowners scrambling for HVAC filtration upgrades and air sealing. Whoever already ranks for those queries when the smoke rolls in is the one whose calendar fills.",
+  pullQuote: 'In a city where the typical home clears $1 million and the homeowner writes code for a living, the contractor who reads as the credible choice online has already won the job before the phone rings.',
   donut: {
     title: 'San Jose at a glance',
     value: 38,
@@ -29,7 +29,7 @@ const MARKET = {
     ],
   },
   seasonTitle: 'When trade demand spikes',
-  seasonCaption: 'Wildfire smoke season (Aug–Oct) drives HVAC filtration; earthquake prep is year-round',
+  seasonCaption: 'Wildfire smoke season (Aug-Oct) drives HVAC filtration; earthquake prep runs all year',
   seasonalDemand: [
     { m: 'J', v: 52 }, { m: 'F', v: 50 }, { m: 'M', v: 54 },
     { m: 'A', v: 56 }, { m: 'M', v: 58 }, { m: 'J', v: 62 }, { m: 'J', v: 70 },
@@ -37,10 +37,10 @@ const MARKET = {
     { m: 'N', v: 60 }, { m: 'D', v: 54 },
   ],
   stats: [
-    { value: '$1M+', label: 'average home value in San Jose — the biggest renovation budgets in the country' },
-    { value: '~38%', label: 'of residents identify as Asian — Vietnamese, Chinese, Filipino, and Indian communities', accent: true },
-    { value: 'Aug–Oct', label: 'wildfire smoke season, when HVAC filtration demand spikes sharply' },
-    { value: 'Top 3', label: 'Map Pack spots that capture most of the clicks when someone searches your trade' },
+    { value: '$1M+', label: 'average San Jose home value, which means the largest renovation budgets in the nation' },
+    { value: '~38%', label: 'of residents identify as Asian, with strong Vietnamese, Chinese, Filipino, and Indian communities', accent: true },
+    { value: 'Aug-Oct', label: 'wildfire smoke window, when HVAC filtration searches climb sharply' },
+    { value: 'Top 3', label: 'Map Pack spots that soak up most of the clicks the moment someone searches your trade' },
   ],
   neighborhoods: [
     'Willow Glen', 'Rose Garden', 'Almaden Valley', 'Evergreen', 'Berryessa',
@@ -56,40 +56,40 @@ const AREAS = [
 ];
 
 const FOUNDER =
-  "Here's what I kept seeing in Silicon Valley: contractors with genuinely great work losing jobs to competitors who just looked better online. In a market where homeowners are tech professionals who vet everything before they spend, the contractor without a credible web presence is invisible. I built OnwardCraft to fix that — to get you ranking for what people in Willow Glen, Almaden Valley, and Cupertino are actually searching, and to make sure when they land on your site they call you instead of bouncing to whoever's next on the list. No 12-month contracts. If it's not working, you leave.";
+  "One pattern kept hitting me across Silicon Valley: contractors doing genuinely excellent work were losing jobs to rivals who simply presented better online. When your customers are tech professionals who pressure-test every purchase, a contractor with a thin web presence might as well not exist. That is why I started OnwardCraft. I want you ranking for what people in Willow Glen, Almaden Valley, and Cupertino are actually typing into Google, and I want your site to convince them to call you instead of the next name on the list. No year-long contracts. If the work is not paying off, you walk.";
 
 const WHY = [
   {
-    title: 'We understand Silicon Valley homeowners',
-    body: "San Jose homeowners are tech professionals with high standards and the budgets to match. They research contractors the same way they research software purchases — your online presence either clears the bar or you don't get the call. We build everything around what makes a Silicon Valley homeowner trust you before you've ever spoken.",
+    title: 'We speak Silicon Valley homeowner',
+    body: "Your buyers in San Jose hold high standards and the budgets to back them. They vet a contractor the way they vet a software vendor, so your online presence either clears their bar or your phone stays quiet. We build every piece around what earns a tech professional's trust before you have said a word to them.",
   },
   {
     title: 'We get you off rented leads',
-    body: "The whole goal is a pipeline you own. Not another monthly invoice to a lead broker for the same Almaden Valley homeowner your three competitors also bought.",
+    body: "The point is a pipeline that belongs to you, not one more monthly check to a broker reselling the same Almaden Valley homeowner to you and three competitors at once.",
   },
   {
-    title: 'We know San Jose specifically',
-    body: "Earthquake retrofitting searches, wildfire smoke season HVAC spikes, the neighborhoods from Saratoga to Berryessa — we build content around what San Jose homeowners actually search, not a national template with a city name swapped in.",
+    title: 'We actually know San Jose',
+    body: "Earthquake retrofit queries, the smoke-season HVAC surge, the difference between selling in Saratoga and Berryessa: we build content around what people in this metro search, not a national template with the city name dropped in.",
   },
   {
-    title: 'No contracts, no mystery',
-    body: "Published prices, reporting tied to leads, month-to-month after 90 days. If we're not earning it, you leave. That keeps the pressure where it belongs: on us.",
+    title: 'No contracts, no fog',
+    body: "Prices are published, reporting is tied to leads, and you go month-to-month after the first 90 days. If we are not earning the relationship, you leave. That keeps the pressure squarely on us.",
   },
 ];
 
 const PROOF = {
-  heading: "We're new, so here's the honest math instead of a logo wall",
+  heading: "We are new, so here is the honest math instead of a wall of logos",
   body:
-    "Plenty of agencies will show you a grid of client logos. We're a young, founder-led shop, so we won't pretend to a track record we don't have yet. What we can show you is why this works — straight from Google's and the industry's own research on how people search locally.",
+    "Plenty of agencies open with a grid of client logos. We are a young, founder-led shop, and we will not fake a track record we have not built yet. What we can hand you is the reasoning behind why this works, drawn straight from Google's and the industry's own research on how people search locally.",
   stats: [
-    { value: '46%', label: 'of Google searches have local intent', n: 46 },
-    { value: '76%', label: 'who search local on a phone visit a business that day', n: 76 },
+    { value: '46%', label: 'of Google searches carry local intent', n: 46 },
+    { value: '76%', label: 'of people who run a local search on a phone visit a business that same day', n: 76 },
     { value: '28%', label: 'of local searches end in a purchase', n: 28 },
   ],
   projection:
-    "Here's a rough picture, clearly labelled as a projection and not a result we're claiming: say a San Jose contractor gets around 2,000 local \"near me\" impressions a month across a handful of neighborhoods. Moving from page-two invisibility into the top three is the difference between a quiet phone and a booked-out calendar — and in a market where homeowners are actively choosing the contractor who looks most credible online, that gap is decisive. In your free audit, we model the real numbers for your business — your rankings, your search volume, and an honest 90-to-180-day path.",
+    "Here is a rough sketch, labelled plainly as a projection and not a result we claim. Suppose a San Jose contractor pulls roughly 2,000 local \"near me\" impressions a month across a few neighborhoods. Climbing from buried-on-page-two into the top three is the gap between a silent phone and a booked-out month, and in a metro where homeowners deliberately pick the contractor who looks most credible online, that gap decides who wins. Inside your free audit, we model the real figures for your business: your current rankings, your search volume, and an honest path over the next 90 to 180 days.",
   disclaimer:
-    "Figures above are published benchmarks (Google / BrightLocal) and an illustrative projection. They are not past results claimed by OnwardCraft.",
+    "The figures above are published benchmarks (Google / BrightLocal) plus one illustrative projection. None of them are past results claimed by OnwardCraft.",
   rankTrajectory: [
     { d: 'Day 0', pos: 14 }, { d: '30', pos: 11 }, { d: '60', pos: 8 },
     { d: '90', pos: 5 }, { d: '120', pos: 3 }, { d: '180', pos: 2 },
@@ -109,44 +109,44 @@ export const sanJoseLocations = [
   {
     ...BASE,
     citySlug: 'san-jose', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'San Jose Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'San Jose Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your trade in San Jose and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Search your trade in San Jose and three businesses fill the map. We get you into that top three so the Silicon Valley call lands with you. Free audit.',
     eyebrow: 'Local SEO · San Jose, CA',
-    h1: 'When Silicon Valley searches for what you do, be the first name they find',
+    h1: 'When Silicon Valley searches for what you do, be the first name on the map',
     h2Exact: 'San Jose Local SEO Company',
     heroSubhead:
-      "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In a city where every homeowner is a tech professional with a million-dollar home and high expectations, we get you into that top three for the neighborhoods you serve, so the call lands with you.",
+      "Google pins three businesses to the map on a \"near me\" search, and everyone underneath them is invisible. In a city where the homeowner is a tech professional sitting on a million-dollar property, we put you inside that top three for the neighborhoods you serve, so the call comes to you.",
     primaryCta: 'Get my free San Jose audit',
     intro:
-      "San Jose local SEO comes down to one thing: when a homeowner in Willow Glen or Almaden Valley searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This is a market where homeowners earn six figures, own homes worth over a million dollars, and pick contractors the same way they pick software — by research. Being one of those top three in the neighborhoods you serve is the whole game. Here's how you get there.",
+      "San Jose local SEO turns on a single question: when someone in Willow Glen or Almaden Valley searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll further. This is a metro where homeowners earn six figures, own property worth more than a million dollars, and choose a contractor the way they choose software, by researching it. Landing in that top three for the neighborhoods you cover is the entire game. Below is how you get there.",
     aioQuestion: 'How do San Jose businesses rank higher in local search?',
     aioAnswer:
-      "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real San Jose neighborhoods like Willow Glen, Almaden Valley, and Evergreen. In Silicon Valley, homeowners research more carefully than almost anywhere else, so the businesses with the most complete, credible, and neighborhood-specific profiles win the most work.",
-    problemHeading: "If your phone is quiet, it's usually one of these three",
+      "You climb by nailing four things: a Google Business Profile tuned to the exact services and neighborhoods you want, name-address-phone listings that match everywhere online, a steady flow of real reviews, and local content built around actual San Jose neighborhoods like Willow Glen, Almaden Valley, and Evergreen. Because Silicon Valley homeowners research more thoroughly than almost any buyers in the country, the businesses with the most complete, credible, and neighborhood-specific profiles take the most work.",
+    problemHeading: "If your phone is quiet, it usually traces back to one of these three",
     painPoints: [
-      { title: 'Your competitors own the three spots on the map', body: "Search your own service plus \"near me\" right now. See those three businesses Google pins to the map? They get the overwhelming majority of the clicks. If you're not one of them, it almost doesn't matter how good your work is — most people never see your name. In a market where homeowners have premium budgets and high standards, getting into that top three for Willow Glen, Almaden Valley, or Cupertino is usually the highest-return move you can make." },
-      { title: "You're paying for leads you don't own", body: "Angi, Thumbtack, and HomeAdvisor sell the same San Jose homeowner to four contractors, then bill each of you to fight over them. It's a treadmill. Local SEO builds the opposite: a lead finds you, calls you, and nobody else got it. Over time you stop renting and start owning the pipeline — which matters even more in a high-value market like Silicon Valley where every job is worth more." },
-      { title: "You're missing seasonal and seismic demand", body: "San Jose has demand patterns most cities don't. Every Aug–Oct, wildfire smoke drives spikes in HVAC filtration and air sealing searches. Earthquake retrofitting and foundation inspection searches happen year-round and spike after every tremor near the Hayward fault. If you're not ranking for those searches when they surge, you're handing that work to a competitor who is." },
+      { title: 'Competitors own all three spots on the map', body: "Search your own service plus \"near me\" right now. Those three businesses Google pins to the map collect the lion's share of the clicks. If your name is not among them, the quality of your work barely matters, because most searchers never see you. In a metro where homeowners carry premium budgets and exacting standards, breaking into that top three for Willow Glen, Almaden Valley, or Cupertino is usually the single highest-return move you can make." },
+      { title: "You keep paying for leads you never own", body: "Angi, Thumbtack, and HomeAdvisor sell one San Jose homeowner to four contractors, then bill each of you to scrap over them. It is a treadmill. Local SEO builds the reverse: the homeowner finds you, calls you, and nobody else got the lead. Month by month you stop renting and start owning your pipeline, which matters even more here, where every job is worth so much more." },
+      { title: "You miss the seasonal and seismic surges", body: "San Jose has demand swings most cities never see. From August into October, wildfire smoke drives spikes in HVAC filtration and air sealing searches. Earthquake retrofit and foundation inspection searches run all year near the Hayward fault and jump after every tremor. If you are not ranking when those surges hit, you are handing that work to whoever is." },
     ],
-    servicesHeading: 'What it actually takes to rank you in Silicon Valley',
+    servicesHeading: 'What it really takes to rank you across Silicon Valley',
     services: [
-      { name: 'Google Business Profile', desc: "The biggest lever in the Map Pack. We dial in your categories, services, service area, photos, and posts so Google knows exactly which San Jose searches you should win." },
-      { name: 'Citations and NAP cleanup', desc: "Your name, address, and phone have to match everywhere Google looks. We fix the listings that conflict and build the ones you're missing across San Jose and Silicon Valley directories." },
-      { name: 'Reviews that keep coming', desc: "A simple system that turns finished jobs into a steady flow of reviews. In a market where tech-savvy homeowners read everything before they call, reviews are the final push that gets them to dial." },
-      { name: 'Neighborhood pages', desc: "Real pages for Willow Glen, Rose Garden, Almaden Valley, Evergreen, and the rest, so you rank for the neighborhood someone's actually searching, not just a generic \"San Jose.\"" },
-      { name: 'On-page and technical SEO', desc: "Titles, schema, internal links, mobile speed. The foundation under the hood that lets everything else rank in a competitive Silicon Valley market." },
-      { name: 'Local link building', desc: "Mentions and links from San Jose and Bay Area sources Google trusts — local press, neighborhood associations, trade groups, and community partners. This is what separates page one from page two here." },
-      { name: 'Seasonal and seismic demand targeting', desc: "We rank you for wildfire smoke season HVAC searches and year-round earthquake retrofitting demand — two San Jose specialties most agencies don't even know about.", featured: true },
-      { name: 'AI search readiness', desc: "More \"near me\" research now starts in AI Overviews, ChatGPT, and Perplexity. Silicon Valley homeowners use these tools heavily. We structure your content so those tools can read you and cite you.", featured: true },
+      { name: 'Google Business Profile', desc: "The single biggest lever in the Map Pack. We tune your categories, services, service area, photos, and posts so Google knows precisely which San Jose searches should land on you, and that turns into more calls." },
+      { name: 'Citations and NAP cleanup', desc: "Your name, address, and phone have to match everywhere Google checks. We repair the listings that conflict and build the ones you are missing across San Jose and Silicon Valley directories, so nothing quietly drags your ranking down." },
+      { name: 'Reviews that keep arriving', desc: "A simple system that turns every finished job into a steady stream of reviews. With tech-savvy homeowners who read everything before they dial, a strong review profile is the final nudge that converts a searcher into a booked call." },
+      { name: 'Neighborhood pages', desc: "Real pages for Willow Glen, Rose Garden, Almaden Valley, Evergreen, and the rest, so you rank for the neighborhood someone is genuinely searching rather than a vague \"San Jose,\" and the lead arrives pre-qualified." },
+      { name: 'On-page and technical SEO', desc: "Titles, schema, internal links, and mobile speed: the foundation under the hood that lets everything else rank in a market this competitive, and that sophisticated homeowners notice immediately." },
+      { name: 'Local link building', desc: "Mentions and links from San Jose and Bay Area sources Google trusts: local press, neighborhood associations, trade groups, and community partners. This is the work that separates page one from page two here." },
+      { name: 'Seasonal and seismic demand targeting', desc: "We rank you for smoke-season HVAC filtration searches and the year-round earthquake retrofit demand, two genuine San Jose specialties most agencies do not even know exist, which means less competition for the booked job.", featured: true },
+      { name: 'AI search readiness', desc: "More \"near me\" research now begins inside AI Overviews, ChatGPT, and Perplexity, and Silicon Valley homeowners lean on these tools harder than anyone. We structure your content so those engines can read you and recommend you.", featured: true },
     ],
     processName: 'How we work: the Local Lift Method',
     process: [
-      { name: 'Audit and baseline', desc: "We find out where you actually rank today across your San Jose neighborhoods and pin down which competitors are beating you in the Map Pack and why." },
-      { name: 'Fix the foundation', desc: "Google Business Profile and NAP first, because they move the fastest. You usually see early lift here within a few weeks, especially if competitors have weak profiles." },
-      { name: 'Build trust signals', desc: "Citations and the review engine go live. These compound week over week — and in a market of sophisticated homeowners, a strong review profile is what converts a searcher into a caller." },
-      { name: 'Add local content', desc: "Neighborhood and service-area pages across Willow Glen, Almaden Valley, Cupertino, and the rest, plus the on-page work to back them up and the seasonal content that captures demand spikes." },
-      { name: 'Report and expand', desc: "Plain-English reporting tied to calls and leads, not vanity rankings. Then we go take the next neighborhood or seasonal keyword set." },
+      { name: 'Audit and baseline', desc: "We map where you actually rank today across your San Jose neighborhoods and pin down exactly which competitors are beating you in the Map Pack and why, so we are fixing the real problem." },
+      { name: 'Fix the foundation', desc: "Google Business Profile and NAP come first, because they move fastest. You often see early lift here inside a few weeks, especially when nearby competitors have weak or neglected profiles." },
+      { name: 'Build trust signals', desc: "Citations and the review engine go live, and they compound week over week. With buyers as discerning as San Jose homeowners, a deep review profile is what flips a searcher into a caller." },
+      { name: 'Add local content', desc: "Neighborhood and service-area pages across Willow Glen, Almaden Valley, Cupertino, and beyond, plus the on-page work behind them and the seasonal content that catches the smoke-season and quake-prep spikes." },
+      { name: 'Report and expand', desc: "Plain-English reporting tied to calls and booked leads, not vanity rankings. Then we move on to claim the next neighborhood or the next seasonal keyword set." },
     ],
     pricing: {
       heading: 'Pricing you can actually see',
@@ -158,16 +158,16 @@ export const sanJoseLocations = [
       ],
     },
     faqs: [
-      { q: 'How much does local SEO cost in San Jose?', a: "Most San Jose engagements land between $750 and $2,500 a month, depending on how many neighborhoods and keywords you're going after. Our tiers are above. No hidden fees, no long contract, and we confirm the exact scope in your free audit." },
-      { q: 'How long until I show up in the Map Pack?', a: "Profile improvements can move in a few weeks. Competitive San Jose and Silicon Valley keywords usually take 90 to 180 days of steady work, because reviews and citations compound over time. Anyone promising you page one in 30 days in this market is selling you something." },
-      { q: 'What makes San Jose local SEO different from other cities?', a: "A few things. Homeowners here are tech professionals who research contractors like they research purchases — they read reviews, check websites, and compare. High home values mean bigger jobs and bigger budgets, but also higher scrutiny. And San Jose has demand spikes most cities don't: wildfire smoke season Aug–Oct driving HVAC filtration demand, and year-round earthquake retrofitting searches near the Hayward and Calaveras faults." },
-      { q: 'Can you help me rank for earthquake retrofitting and seismic work?', a: "Yes, and it's a genuine opportunity here. San Jose sits near active fault lines and seismic retrofitting, foundation inspection, and earthquake-proofing searches happen year-round and spike after tremors. Most contractors don't optimize for them specifically, which means the bar is lower to rank for them than for generic trade terms." },
-      { q: 'Which areas do you cover?', a: "All the neighborhoods across San Jose and the surrounding Silicon Valley communities — Willow Glen, Rose Garden, Almaden Valley, Evergreen, Berryessa, Milpitas, Santa Clara, Sunnyvale, Cupertino, Campbell, Los Gatos, and Saratoga. We build genuine neighborhood pages instead of one generic San Jose page, because that's what actually ranks for \"[service] [neighborhood]\" searches." },
-      { q: 'Do you work with contractors specifically?', a: "It's basically all we do. Roofing, HVAC, plumbing, solar, electrical, restoration, seismic/foundation specialists, and general contractors. We understand Silicon Valley homeowners, seasonal smoke demand, and earthquake prep — and we build your local SEO around them." },
-      { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research now starts in AI tools — and Silicon Valley homeowners are among the heaviest users of these products. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
-      { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk." },
-      { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads at Silicon Valley prices — some of the highest in the country — and four competitors bought the same lead. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the brokers less because the work comes to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: 'How much does local SEO cost in San Jose?', a: "Most San Jose engagements run between $750 and $2,500 a month, set by how many neighborhoods and keywords you want to win. The tiers are laid out above. No hidden fees, no long contract, and we lock the exact scope in your free audit." },
+      { q: 'How long until I show up in the Map Pack?', a: "Profile work can move inside a few weeks. Competitive San Jose and Silicon Valley keywords usually need 90 to 180 days of steady effort, because reviews and citations build up over time. Anyone promising you page one in 30 days in this market is selling you a fantasy." },
+      { q: 'What makes San Jose local SEO different from other cities?', a: "Several things. Homeowners here are tech professionals who research a contractor like a purchase: reading reviews, checking sites, comparing options. High home values mean bigger jobs and bigger budgets, but also sharper scrutiny. And San Jose carries demand swings most cities lack, with the August-to-October smoke season driving HVAC filtration searches and year-round earthquake retrofit queries near the Hayward and Calaveras faults." },
+      { q: 'Can you help me rank for earthquake retrofitting and seismic work?', a: "Yes, and it is a genuine opening here. San Jose sits beside active fault lines, so seismic retrofit, foundation inspection, and earthquake-proofing searches run all year and spike after tremors. Few contractors optimize for them specifically, which means the bar to rank is lower than it is for generic trade terms." },
+      { q: 'Which areas do you cover?', a: "Every neighborhood across San Jose and the surrounding Silicon Valley communities: Willow Glen, Rose Garden, Almaden Valley, Evergreen, Berryessa, Milpitas, Santa Clara, Sunnyvale, Cupertino, Campbell, Los Gatos, and Saratoga. We build genuine neighborhood pages instead of a single catch-all San Jose page, because that is what actually ranks for \"[service] [neighborhood]\" searches." },
+      { q: 'Do you work with contractors specifically?', a: "It is nearly all we do: roofing, HVAC, plumbing, solar, electrical, restoration, seismic and foundation specialists, and general contractors. We understand Silicon Valley homeowners, the smoke-season HVAC surge, and earthquake prep, and we build your local SEO around all three." },
+      { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts inside AI tools, and Silicon Valley homeowners are among the heaviest users of them. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself." },
+      { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that you go month-to-month. If we are not delivering, you walk." },
+      { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads at Silicon Valley prices, some of the steepest in the country, and four competitors bought the same lead. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less because the work arrives directly." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with numbers run for your business. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -175,44 +175,44 @@ export const sanJoseLocations = [
   {
     ...BASE,
     citySlug: 'san-jose', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'San Jose SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'San Jose SEO Company | OnwardCraft',
     metaDescription:
-      'San Jose SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Silicon Valley.',
+      'San Jose SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in, built for Silicon Valley buyers. Free audit.',
     eyebrow: 'SEO Services · San Jose, CA',
     h1: 'Get your San Jose business to the top of Google and keep it there',
     h2Exact: 'San Jose SEO Company',
     heroSubhead:
-      "Ads stop the second you stop paying. SEO is the opposite: rank once for what Silicon Valley homeowners search and the leads keep coming. We build that ranking for contractors in one of the highest-value home markets in the country — and tie every report to actual calls and jobs.",
+      "Ads stop the instant you stop paying. SEO does the opposite: rank once for what Silicon Valley homeowners search and the leads keep landing. We build that ranking for contractors in one of the highest-value home markets anywhere, and we tie every report to real calls and booked jobs.",
     primaryCta: 'Get my free San Jose SEO audit',
     intro:
-      "San Jose SEO comes down to one question: when a homeowner in Willow Glen or Cupertino searches what you do, are you on page one or page two? Page two might as well not exist. We get contractors ranking for the money keywords in a market where homes average over a million dollars, homeowners research carefully, and one booked job can be worth tens of thousands in revenue. We measure it in leads, not vanity traffic.",
+      "San Jose SEO boils down to one question: when a homeowner in Willow Glen or Cupertino searches what you do, are you on page one or page two? Page two might as well not exist. We get contractors ranking for the money keywords in a metro where homes average over a million dollars, buyers research carefully, and a single booked job can be worth tens of thousands. We measure the work in leads, not vanity traffic.",
     aioQuestion: 'How do San Jose businesses rank higher on Google?',
     aioAnswer:
-      "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms San Jose homeowners search, publishing genuinely useful local content tied to specific neighborhoods and Silicon Valley demand patterns, and earning links from trusted Bay Area sources. In a market this competitive with homeowners this sophisticated, ranking for seasonal demand — wildfire smoke HVAC searches in Aug–Oct and year-round earthquake retrofitting terms — is one of the most effective ways to pull ahead of competitors who ignore those specialties.",
-    problemHeading: "Three reasons your San Jose site isn't bringing in work",
+      "They rank by repairing the site's technical foundation, tuning each page for the exact terms San Jose homeowners search, publishing genuinely useful local content tied to specific neighborhoods and Silicon Valley demand swings, and earning links from trusted Bay Area sources. In a market this competitive with buyers this sophisticated, ranking for seasonal demand, meaning the smoke-season HVAC searches from August into October and the year-round earthquake retrofit terms, is one of the sharpest ways to pull ahead of competitors who ignore those specialties.",
+    problemHeading: "Three reasons your San Jose site is not bringing in work",
     painPoints: [
-      { title: "You're stuck on page two", body: "Almost nobody clicks past the first page of Google. In Silicon Valley, where homeowners do thorough online research before spending on any major project, if you're not in the top results for your trade and neighborhood, your site is invisible — no matter how skilled you are or how impressive your past work." },
-      { title: "You're renting traffic from Google Ads", body: "Ads can work, but the moment your budget pauses, the leads stop. San Jose clicks are expensive, and you're competing against well-funded contractors. SEO builds an asset you own: rankings that keep producing leads after the work is done, at a fraction of the per-lead cost of paid ads over time." },
-      { title: "You're not ranking for Silicon Valley's unique demand", body: "San Jose has demand patterns other cities don't. Wildfire smoke season (Aug–Oct) sends homeowners searching for HVAC filtration and air sealing. The Hayward and Calaveras faults keep earthquake retrofitting and foundation inspection searches active year-round. The contractors who own those search terms before demand peaks are the ones who book that work." },
+      { title: "You are stranded on page two", body: "Almost nobody clicks past the first page of Google. In Silicon Valley, where homeowners run thorough online research before committing to any major project, being absent from the top results for your trade and neighborhood makes your site invisible, no matter how skilled you are or how strong your past work looks." },
+      { title: "You are renting traffic from Google Ads", body: "Ads can work, but the moment your budget pauses the leads dry up. San Jose clicks are expensive and you are bidding against well-funded contractors. SEO builds an asset you own: rankings that keep producing leads long after the work is done, at a fraction of the per-lead cost of paid ads over time." },
+      { title: "You are missing Silicon Valley's unique demand", body: "San Jose runs demand patterns other cities never see. The August-to-October smoke season sends homeowners hunting for HVAC filtration and air sealing. The Hayward and Calaveras faults keep earthquake retrofit and foundation inspection searches active all year. The contractors who own those terms before demand peaks are the ones who book that work." },
     ],
     servicesHeading: 'The SEO work that actually moves rankings in Silicon Valley',
     services: [
-      { name: 'Technical SEO', desc: "Crawlability, site speed, Core Web Vitals, schema, and the under-the-hood fixes Google needs before it will rank you — important in a market where homeowners expect fast, polished experiences." },
-      { name: 'On-page optimization', desc: "Every important page tuned for the exact terms San Jose homeowners search — titles, headings, content, and internal links — focused on the neighborhoods and services that drive your best jobs." },
-      { name: 'Content that ranks', desc: "Genuinely useful pages and articles that answer what Silicon Valley buyers search, earn links, and bring in leads. Not thin pages that vanish in the next algorithm update." },
-      { name: 'Link building', desc: "Authority from real Bay Area and industry sources. In a competitive market full of established local contractors, links from trusted sources are often what separate page one from page two." },
-      { name: 'Local SEO & Google Business Profile', desc: "Map Pack optimization so you win the \"near me\" searches across Willow Glen, Almaden Valley, Cupertino, and the rest alongside your organic rankings." },
-      { name: 'Revenue-tied reporting', desc: "We report on calls, forms, and leads — not just rankings and traffic — so you always know what your SEO is actually worth against Silicon Valley job values." },
-      { name: 'Seasonal & seismic SEO', desc: "We rank you for wildfire smoke season HVAC demand (Aug–Oct) and year-round earthquake retrofitting searches — San Jose specialties most agencies completely overlook.", featured: true },
-      { name: 'AI search & GEO', desc: "Silicon Valley homeowners are early adopters of AI search tools. We structure your content so AI Overviews, ChatGPT, and Perplexity surface and cite you where search is heading.", featured: true },
+      { name: 'Technical SEO', desc: "Crawlability, site speed, Core Web Vitals, schema, and the under-the-hood fixes Google needs before it will rank you, which matters double in a market where homeowners expect fast, polished experiences." },
+      { name: 'On-page optimization', desc: "Every page that matters tuned to the exact terms San Jose homeowners search, from titles and headings to content and internal links, focused on the neighborhoods and services that drive your most profitable jobs." },
+      { name: 'Content that ranks', desc: "Genuinely useful pages and articles that answer what Silicon Valley buyers are searching, earn links, and pull in leads. Not thin filler that evaporates in the next algorithm update." },
+      { name: 'Link building', desc: "Authority from real Bay Area and industry sources. In a market crowded with established local contractors, links from trusted sites are often the deciding line between page one and page two." },
+      { name: 'Local SEO and Google Business Profile', desc: "Map Pack work so you win the \"near me\" searches across Willow Glen, Almaden Valley, Cupertino, and the rest alongside your organic rankings, doubling the ways a homeowner can find you." },
+      { name: 'Revenue-tied reporting', desc: "We report on calls, forms, and booked leads, not just rankings and traffic, so you always know what your SEO is genuinely worth against Silicon Valley job values." },
+      { name: 'Seasonal and seismic SEO', desc: "We rank you for the smoke-season HVAC surge from August into October and the year-round earthquake retrofit searches, two San Jose specialties most agencies overlook entirely, which leaves the booked work to you.", featured: true },
+      { name: 'AI search and GEO', desc: "Silicon Valley homeowners are early adopters of AI search tools. We structure your content so AI Overviews, ChatGPT, and Perplexity surface and cite you, getting you in front of where search is clearly heading.", featured: true },
     ],
     processName: 'How we work: the OnwardCraft SEO method',
     process: [
-      { name: 'Audit and strategy', desc: "We benchmark your rankings, traffic, and competitors in San Jose, then build a roadmap around the keywords most likely to drive high-value leads in Silicon Valley." },
-      { name: 'Fix the technical base', desc: "Speed, crawlability, schema, and mobile — the foundation everything else needs to rank, and the baseline sophisticated homeowners expect when they land on your site." },
-      { name: 'Optimize and create content', desc: "On-page work across your money pages plus new local content, including seasonal smoke-season HVAC content and earthquake retrofitting pages that most competitors skip entirely." },
-      { name: 'Build authority', desc: "Links and citations from trusted Bay Area and industry sources to push competitive keywords onto page one and hold them there." },
-      { name: 'Report and scale', desc: "Monthly reporting tied to leads, then we double down on what's working and expand into the next neighborhood or seasonal keyword set." },
+      { name: 'Audit and strategy', desc: "We benchmark your rankings, traffic, and competitors across San Jose, then build a roadmap around the keywords most likely to drive high-value Silicon Valley leads." },
+      { name: 'Fix the technical base', desc: "Speed, crawlability, schema, and mobile: the foundation everything else needs to rank, and the baseline sophisticated homeowners expect the second they land on your site." },
+      { name: 'Optimize and create content', desc: "On-page work across your money pages plus new local content, including smoke-season HVAC articles and earthquake retrofit pages that most competitors skip outright." },
+      { name: 'Build authority', desc: "Links and citations from trusted Bay Area and industry sources to push competitive keywords onto page one and hold them there against well-funded rivals." },
+      { name: 'Report and scale', desc: "Monthly reporting tied to leads, then we double down on what is working and expand into the next neighborhood or seasonal keyword set." },
     ],
     pricing: {
       heading: 'Transparent San Jose SEO pricing',
@@ -224,15 +224,15 @@ export const sanJoseLocations = [
       ],
     },
     faqs: [
-      { q: 'How much does SEO cost in San Jose?', a: "Most San Jose SEO engagements run $900 to $3,000 a month, depending on how competitive your keywords are and how much content and link work you need. Our tiers are above, with no hidden fees and no long contract." },
-      { q: 'How long does SEO take to work in San Jose?', a: "Expect early movement in 2 to 3 months and meaningful results in 4 to 6, faster on tighter neighborhood terms and slower on the most competitive Silicon Valley-wide keywords. SEO compounds, so the gains keep building the longer you run it." },
-      { q: 'Is SEO better than Google Ads in San Jose?', a: "They do different jobs. Ads buy instant traffic that stops when you stop paying — and Silicon Valley clicks are expensive in competitive trades. SEO is an asset you own that keeps producing leads at a lower cost per lead over time. Most contractors do best running SEO as the long-term engine and ads for short-term spikes." },
-      { q: 'What seasonal demand should my San Jose SEO target?', a: "Two big ones specific to this market. Wildfire smoke season runs August through October and drives real spikes in HVAC filtration, air purifier installation, and air sealing searches. Earthquake retrofitting and foundation inspection searches are year-round because of the Hayward and Calaveras faults, and they spike after any noticeable tremor. Ranking for those terms before the demand arrives is how you capture them." },
-      { q: "What's included in your SEO service?", a: "Technical SEO, on-page optimization, content, link building, local/Map Pack SEO, and revenue-tied reporting. Higher tiers add seasonal/seismic SEO and AI-search optimization specific to Silicon Valley demand patterns. We confirm the exact scope in your free audit." },
-      { q: 'Do you require a long-term contract?', a: "No. We ask for an initial 90 days because SEO needs that long to show real movement, then it's month-to-month. If we're not delivering, you leave." },
-      { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for — and in Silicon Valley, where homeowners are early adopters of AI tools, it's especially important. We structure your content and schema so AI engines can read, trust, and cite your business." },
-      { q: 'Which areas around San Jose do you cover?', a: "All the key neighborhoods and surrounding communities — Willow Glen, Rose Garden, Almaden Valley, Evergreen, Berryessa, Milpitas, Santa Clara, Sunnyvale, Cupertino, Campbell, Los Gatos, and Saratoga — with genuine local pages rather than one generic San Jose page." },
-      { q: 'How do you get me off lead broker platforms?', a: "By building rankings and a Google presence that send leads directly to you. In Silicon Valley where per-lead costs are high and competition for shared leads is fierce, every month you invest in SEO is a month you reduce your dependence on platforms that sell your leads to competitors too." },
+      { q: 'How much does SEO cost in San Jose?', a: "Most San Jose SEO engagements run $900 to $3,000 a month, set by how competitive your keywords are and how much content and link work you need. The tiers are above, with no hidden fees and no long contract." },
+      { q: 'How long does SEO take to work in San Jose?', a: "Expect early movement in 2 to 3 months and meaningful results in 4 to 6, faster on tighter neighborhood terms and slower on the most competitive Silicon Valley-wide keywords. SEO compounds, so the gains keep stacking the longer you run it." },
+      { q: 'Is SEO better than Google Ads in San Jose?', a: "They do different jobs. Ads buy instant traffic that vanishes when you stop paying, and Silicon Valley clicks run expensive in competitive trades. SEO is an asset you own that keeps producing leads at a lower cost per lead over time. Most contractors do best running SEO as the long-term engine with ads for short bursts." },
+      { q: 'What seasonal demand should my San Jose SEO target?', a: "Two big ones tied to this market. The wildfire smoke season runs August through October and drives real spikes in HVAC filtration, air purifier installation, and air sealing searches. Earthquake retrofit and foundation inspection searches run all year because of the Hayward and Calaveras faults, and they jump after any noticeable tremor. Ranking for those terms before the demand arrives is how you capture it." },
+      { q: "What's included in your SEO service?", a: "Technical SEO, on-page optimization, content, link building, local and Map Pack SEO, and revenue-tied reporting. Higher tiers add seasonal and seismic SEO plus AI-search optimization built around Silicon Valley demand patterns. We confirm the exact scope in your free audit." },
+      { q: 'Do you require a long-term contract?', a: "No. We ask for an initial 90 days because SEO needs that long to show real movement, then you go month-to-month. If we are not delivering, you leave." },
+      { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for, and in Silicon Valley, where homeowners are early adopters of AI tools, it carries extra weight. We structure your content and schema so AI engines can read, trust, and cite your business." },
+      { q: 'Which areas around San Jose do you cover?', a: "Every key neighborhood and surrounding community: Willow Glen, Rose Garden, Almaden Valley, Evergreen, Berryessa, Milpitas, Santa Clara, Sunnyvale, Cupertino, Campbell, Los Gatos, and Saratoga, with genuine local pages rather than one generic San Jose page." },
+      { q: 'How do you get me off lead broker platforms?', a: "By building rankings and a Google presence that route leads straight to you. In Silicon Valley, where per-lead costs are steep and the fight for shared leads is fierce, every month you invest in SEO is a month you cut your dependence on platforms that sell your leads to competitors too." },
       { q: "What's in the free SEO audit?", a: "Where you rank today across San Jose and Silicon Valley, what your competitors are doing to beat you, the highest-impact fixes for your specific situation, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
@@ -243,42 +243,42 @@ export const sanJoseLocations = [
     citySlug: 'san-jose', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'San Jose Web Design Company | OnwardCraft',
     metaDescription:
-      'San Jose web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in Silicon Valley. Transparent pricing, you own it.',
+      'San Jose web design that turns visitors into booked jobs: fast, mobile-first sites for Silicon Valley contractors. Transparent pricing and you own it all.',
     eyebrow: 'Web Design · San Jose, CA',
     h1: 'San Jose web design that turns Silicon Valley visitors into booked jobs',
     h2Exact: 'San Jose Web Design Company',
     heroSubhead:
-      "A pretty website that doesn't generate calls is a brochure. San Jose homeowners are tech professionals who vet contractors online the same way they vet software. We build fast, polished, mobile-first sites that clear that bar and turn visitors into booked jobs.",
+      "A pretty site that never rings the phone is just a brochure. San Jose homeowners are tech professionals who vet a contractor the way they vet software. We build fast, polished, mobile-first sites that clear that bar and turn visitors into booked jobs.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most contractor websites lose leads quietly: slow on a phone, buried call button, nothing that communicates you're the right person for a million-dollar home. In Silicon Valley, that costs you more than it does anywhere else. We build sites that load fast, look as professional as the work you do, and turn Willow Glen to Saratoga visitors into booked jobs — designed for homeowners who research everything before they call.",
+      "Most contractor sites lose leads quietly: slow on a phone, a call button buried somewhere, nothing that signals you are the right person for a million-dollar home. In Silicon Valley, that costs you more than it does anywhere else. We build sites that load fast, read as professional as the work you do, and convert visitors from Willow Glen to Saratoga into booked jobs, designed for homeowners who research everything before they call.",
     aioQuestion: 'What makes a good contractor website in San Jose?',
     aioAnswer:
-      "A good San Jose contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods you serve. Because Silicon Valley homeowners research contractors more carefully than almost anywhere else and expect a polished, professional online presence, a fast site with credibility signals and obvious next steps is what converts a visitor into a call — not just a nice-looking design.",
-    problemHeading: "Why your current site isn't bringing in San Jose work",
+      "A strong San Jose contractor site loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods you serve. Because Silicon Valley homeowners research contractors more carefully than almost anyone and expect a polished, professional presence, a fast site with credibility signals and obvious next steps is what converts a visitor into a call, far more than a pretty layout alone.",
+    problemHeading: "Why your current site is not bringing in San Jose work",
     painPoints: [
-      { title: "It doesn't pass the Silicon Valley credibility test", body: "San Jose homeowners are tech professionals used to world-class digital products. They judge your website in seconds, and an outdated or generic site quietly tells them you're not the right contractor for a serious job. In a market where home values average over a million dollars, the contractor who looks most credible online wins the work before anyone picks up a phone." },
-      { title: "It's too slow on a phone", body: "Most of your San Jose visitors are on mobile, and they bounce if your site takes more than a few seconds to load. Slow sites also rank worse in the searches that are supposed to bring them there in the first place. We build fast, so you keep the visitor and the ranking." },
-      { title: "It doesn't speak to the neighborhoods you serve", body: "A homeowner in Almaden Valley wants to see you serve Almaden Valley specifically — not a generic \"San Jose contractor\" page that could be anyone. We build sites that name the neighborhoods you work, show familiarity with the area, and give Google the signal it needs to rank you for neighborhood-specific searches." },
+      { title: "It fails the Silicon Valley credibility test", body: "San Jose homeowners spend their days inside world-class digital products, so they judge your site in seconds. An outdated or generic page quietly tells them you are not the contractor for a serious job. With home values averaging over a million dollars, the contractor who reads as most credible online wins the work before anyone touches a phone." },
+      { title: "It is too slow on a phone", body: "Most of your San Jose visitors arrive on mobile, and they bounce when a site takes more than a few seconds to load. Slow pages also rank worse in the very searches meant to deliver those visitors in the first place. We build fast, so you keep both the visitor and the ranking." },
+      { title: "It does not speak to the neighborhoods you serve", body: "A homeowner in Almaden Valley wants to see that you serve Almaden Valley specifically, not a generic \"San Jose contractor\" page that could belong to anyone. We build sites that name the neighborhoods you work, show real familiarity with the area, and feed Google the signal it needs to rank you for neighborhood-specific searches." },
     ],
-    servicesHeading: "What's in an OnwardCraft San Jose website",
+    servicesHeading: "What goes into an OnwardCraft San Jose website",
     services: [
-      { name: 'Custom design', desc: "No cookie-cutter templates. A site designed around your trade, your San Jose neighborhoods, and the premium jobs you actually want to book." },
-      { name: 'Mobile-first build', desc: "Designed for the phone first, because that's where almost all of your San Jose traffic arrives. Fast, thumb-friendly, and easy to call from anywhere." },
-      { name: 'Conversion-focused UX', desc: "Clear offers, obvious call buttons, and lead forms placed where they actually get used. Every page has one job: get the visitor to take the next step." },
-      { name: 'Copy that sells', desc: "Words that speak to discerning Silicon Valley homeowners and book the job, not filler text that sounds like every other contractor in the market." },
-      { name: 'Local SEO foundation', desc: "Built from the ground up to rank — clean structure, schema, fast load, and neighborhood-ready pages for Willow Glen, Cupertino, Los Gatos, and the rest." },
-      { name: 'Speed & Core Web Vitals', desc: "Tuned to load fast and pass Google's performance checks — critical in a market where homeowners are sophisticated enough to notice a slow site." },
-      { name: 'Neighborhood-targeted pages', desc: "Pages built around the specific San Jose and Silicon Valley neighborhoods you serve, so you stand out in a competitive market instead of blending into a generic city page.", featured: true },
-      { name: 'AI-search ready', desc: "Structured so AI Overviews and ChatGPT can read and recommend your business — especially important in Silicon Valley where homeowners are early adopters of AI search tools.", featured: true },
+      { name: 'Custom design', desc: "No cookie-cutter templates. A site shaped around your trade, your San Jose neighborhoods, and the premium jobs you actually want to book." },
+      { name: 'Mobile-first build', desc: "Designed for the phone first, because that is where nearly all your San Jose traffic lands. Fast, thumb-friendly, and easy to call from anywhere." },
+      { name: 'Conversion-focused UX', desc: "Clear offers, obvious call buttons, and lead forms placed where people actually use them. Every page carries one job: move the visitor to the next step." },
+      { name: 'Copy that sells', desc: "Words written for discerning Silicon Valley homeowners that win the job, not filler that sounds like every other contractor in the metro." },
+      { name: 'Local SEO foundation', desc: "Built to rank from the ground up: clean structure, schema, fast load, and neighborhood-ready pages for Willow Glen, Cupertino, Los Gatos, and the rest." },
+      { name: 'Speed and Core Web Vitals', desc: "Tuned to load fast and pass Google's performance checks, which is critical in a market where homeowners are sharp enough to notice a sluggish site instantly." },
+      { name: 'Neighborhood-targeted pages', desc: "Pages built around the specific San Jose and Silicon Valley neighborhoods you serve, so you stand out in a crowded market instead of blending into a generic city page, and the leads arrive already qualified.", featured: true },
+      { name: 'AI-search ready', desc: "Structured so AI Overviews and ChatGPT can read and recommend your business, which matters extra in Silicon Valley where homeowners are early adopters of AI search tools.", featured: true },
     ],
     processName: 'How we build: the OnwardCraft process',
     process: [
-      { name: 'Discovery and strategy', desc: "We learn your trade, your Silicon Valley neighborhoods, your best jobs, and who you're competing with, then map the site around booking more of the premium work you want." },
-      { name: 'Design', desc: "We design a custom, mobile-first layout that meets the visual bar Silicon Valley homeowners expect — you see it and shape it before a line of code is written." },
-      { name: 'Build and copy', desc: "We build it fast and write the copy that speaks to high-standard homeowners, with the call to action front and center on every page." },
-      { name: 'Launch', desc: "We launch cleanly with the SEO foundation, tracking, and speed dialed in from day one, so you start generating leads immediately." },
-      { name: 'Support and optimize', desc: "We keep it fast and current and tune it based on what's actually converting — leads and calls, not just page views." },
+      { name: 'Discovery and strategy', desc: "We learn your trade, your Silicon Valley neighborhoods, your best jobs, and your competition, then map the site around booking more of the premium work you actually want." },
+      { name: 'Design', desc: "We design a custom, mobile-first layout that hits the visual bar Silicon Valley homeowners expect, and you see it and shape it before a single line of code is written." },
+      { name: 'Build and copy', desc: "We build it fast and write copy that speaks to high-standard homeowners, with the call to action front and center on every page." },
+      { name: 'Launch', desc: "We launch cleanly with the SEO foundation, tracking, and speed dialed in from day one, so you start generating leads right away." },
+      { name: 'Support and optimize', desc: "We keep it fast and current and tune it on what is genuinely converting: leads and calls, not page views." },
     ],
     pricing: {
       heading: 'Transparent San Jose web design pricing',
@@ -290,15 +290,15 @@ export const sanJoseLocations = [
       ],
     },
     faqs: [
-      { q: 'How much does a website cost in San Jose?', a: "Most contractor websites with us run $2,000 to $8,000 as a one-time build, depending on page count and integrations. Our tiers are above — fixed price, no surprises, and you own the finished site." },
-      { q: 'How long does it take to build?', a: "A focused site takes about 2 to 4 weeks; a larger custom build takes 4 to 8. We give you a firm timeline up front and keep you updated through each stage." },
-      { q: 'Will my site meet the expectations of Silicon Valley homeowners?', a: "That's what we design for. San Jose homeowners are tech professionals who evaluate contractors online the way they evaluate products — by looking for credibility, professionalism, and clear proof you can handle the job. We build sites that clear that bar: fast, polished, neighborhood-specific, and focused on the premium work you want to book." },
-      { q: 'Will my new site actually rank on Google?', a: "We build every site on a local-SEO foundation — fast load, clean structure, schema, and neighborhood-ready pages for Willow Glen, Almaden Valley, Cupertino, and the rest. The build gets you ready to rank; pairing it with our SEO service is how you climb the competitive Silicon Valley terms." },
-      { q: 'Do I own the website?', a: "Completely. You own the site, the domain, and the content. No hostage situations, no platforms you can't leave." },
-      { q: 'Will it work well on phones?', a: "We design mobile-first, because that's where almost all of your San Jose traffic comes from. Fast load, easy-to-tap call buttons, and forms built for a thumb." },
-      { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
+      { q: 'How much does a website cost in San Jose?', a: "Most contractor sites with us run $2,000 to $8,000 as a one-time build, set by page count and integrations. The tiers are above: fixed price, no surprises, and you own the finished site." },
+      { q: 'How long does it take to build?', a: "A focused site takes roughly 2 to 4 weeks; a larger custom build runs 4 to 8. We hand you a firm timeline up front and keep you posted through every stage." },
+      { q: 'Will my site meet the expectations of Silicon Valley homeowners?', a: "That is exactly what we design for. San Jose homeowners evaluate a contractor online the way they evaluate a product, looking for credibility, professionalism, and clear proof you can handle the job. We build sites that clear that bar: fast, polished, neighborhood-specific, and focused on the premium work you want to book." },
+      { q: 'Will my new site actually rank on Google?', a: "We build every site on a local-SEO foundation: fast load, clean structure, schema, and neighborhood-ready pages for Willow Glen, Almaden Valley, Cupertino, and the rest. The build gets you ready to rank; pairing it with our SEO service is how you climb the competitive Silicon Valley terms." },
+      { q: 'Do I own the website?', a: "Completely. You own the site, the domain, and the content. No hostage situations and no platforms you cannot leave." },
+      { q: 'Will it work well on phones?', a: "We design mobile-first, because that is where nearly all your San Jose traffic comes from. Fast load, easy-to-tap call buttons, and forms built for a thumb." },
+      { q: 'What platform do you build on?', a: "We choose the platform that fits your needs and that you can genuinely manage, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
-      { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
+      { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO is month-to-month, and you can leave whenever." },
       { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in missed Silicon Valley leads, what a high-converting San Jose contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
@@ -309,42 +309,42 @@ export const sanJoseLocations = [
     citySlug: 'san-jose', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'San Jose Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your San Jose website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in Silicon Valley. Free audit.',
+      'Redesign your San Jose website without losing rankings. Faster, mobile-first rebuilds that turn Silicon Valley visitors into booked jobs. Free audit.',
     eyebrow: 'Website Redesign · San Jose, CA',
     h1: 'Redesign your San Jose website without losing your rankings',
     h2Exact: 'San Jose Website Redesign Company',
     heroSubhead:
-      "An outdated site costs you San Jose jobs every week — it fails the Silicon Valley credibility test, it's slow on a phone, and it gives sophisticated homeowners no reason to call you. We redesign contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
+      "An outdated site bleeds San Jose jobs every week: it fails the Silicon Valley credibility test, it crawls on a phone, and it gives sophisticated homeowners no reason to call. We redesign contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you have earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish. We do neither. We redesign San Jose contractor sites for speed and conversions, build them to meet the standard Silicon Valley homeowners actually expect, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Most redesigns go wrong in one of two ways: the site looks sharper but converts the same, or it launches and the rankings disappear. We do neither. We redesign San Jose contractor sites for speed and conversions, build them to the standard Silicon Valley homeowners actually expect, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
-      "You protect SEO during a redesign by keeping your URL structure or mapping 301 redirects for every changed page, preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them — because the new site is faster, mobile-first, and better structured than what you're replacing.",
+      "You protect SEO during a redesign by keeping your URL structure or mapping 301 redirects for every changed page, preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Handled right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the one it replaces.",
     problemHeading: "Signs your San Jose site is overdue for a redesign",
     painPoints: [
-      { title: "It fails the Silicon Valley credibility test", body: "San Jose homeowners are tech professionals who spend their days using world-class digital products. When they land on a dated, generic contractor website, they bounce inside seconds. In a market where homes average over a million dollars, an outdated site quietly signals that you're not the caliber of contractor who works on them — even if your actual work is excellent." },
-      { title: "It's slow and hard to use on a phone", body: "If your site is clunky or slow on mobile, you're losing most of your San Jose visitors before they ever see your offer. Silicon Valley homeowners research on their phones constantly and expect fast, clean experiences. A mobile-first redesign wins them back." },
-      { title: "It's not capturing seasonal and seismic demand", body: "A generic site with no San Jose-specific content can't rank for wildfire smoke season HVAC searches in August or earthquake retrofitting queries after a tremor. A redesign built around Silicon Valley's unique demand patterns captures work your old site was never in position to win." },
+      { title: "It fails the Silicon Valley credibility test", body: "San Jose homeowners spend their workdays inside world-class digital products. When they land on a dated, generic contractor site, they bounce within seconds. With homes averaging over a million dollars, an outdated site quietly signals that you are not the caliber of contractor who works on them, even when your actual work is excellent." },
+      { title: "It is slow and clumsy on a phone", body: "If your site is sluggish or awkward on mobile, you lose most of your San Jose visitors before they ever reach your offer. Silicon Valley homeowners research on their phones constantly and expect fast, clean experiences. A mobile-first redesign wins them back." },
+      { title: "It is not capturing seasonal and seismic demand", body: "A generic site with no San Jose-specific content cannot rank for the smoke-season HVAC searches in August or the earthquake retrofit queries after a tremor. A redesign built around Silicon Valley's demand swings captures work your old site was never positioned to win." },
     ],
-    servicesHeading: "What's in an OnwardCraft San Jose redesign",
+    servicesHeading: "What goes into an OnwardCraft San Jose redesign",
     services: [
-      { name: 'Redesign audit', desc: "We pinpoint exactly what's costing you San Jose leads and rankings today, so the redesign fixes real problems instead of just changing colors." },
-      { name: 'SEO-safe migration', desc: "Redirects, metadata, and schema handled properly so you keep the rankings and traffic you've already earned in Silicon Valley." },
-      { name: 'Conversion redesign', desc: "Clear offers, better call-to-action placement, and lead forms that get used. We design for booked jobs in a market where homeowners compare carefully." },
-      { name: 'Speed overhaul', desc: "We rebuild for fast load and passing Core Web Vitals — better for both conversions and rankings, and essential for meeting Silicon Valley expectations." },
-      { name: 'Mobile-first rebuild', desc: "Redesigned around the phone, where almost all your San Jose traffic lives and where homeowners make their initial contractor decisions." },
-      { name: 'Brand refresh', desc: "A modern, trustworthy look that matches the quality of your work and the value of the jobs you want to win in Silicon Valley." },
-      { name: 'Neighborhood-targeted rebuild', desc: "Rebuilt around the San Jose neighborhoods and Silicon Valley communities you serve, so the new site stands out in a competitive market and ranks for the specific searches that drive your best jobs.", featured: true },
-      { name: 'AI-search ready', desc: "Structured so AI Overviews and ChatGPT can read and recommend you — critical in Silicon Valley where homeowners are early adopters of AI search.", featured: true },
+      { name: 'Redesign audit', desc: "We pinpoint exactly what is costing you San Jose leads and rankings today, so the redesign fixes real problems instead of just swapping colors." },
+      { name: 'SEO-safe migration', desc: "Redirects, metadata, and schema handled properly so you keep the rankings and traffic you have already earned across Silicon Valley." },
+      { name: 'Conversion redesign', desc: "Clear offers, sharper call-to-action placement, and lead forms that get used. We design for booked jobs in a market where homeowners compare carefully." },
+      { name: 'Speed overhaul', desc: "We rebuild for fast load and passing Core Web Vitals, which helps both conversions and rankings and is essential for meeting Silicon Valley expectations." },
+      { name: 'Mobile-first rebuild', desc: "Redesigned around the phone, where nearly all your San Jose traffic lives and where homeowners make their first contractor decision." },
+      { name: 'Brand refresh', desc: "A modern, trustworthy look that matches the quality of your work and the value of the jobs you want to win across Silicon Valley." },
+      { name: 'Neighborhood-targeted rebuild', desc: "Rebuilt around the San Jose neighborhoods and Silicon Valley communities you serve, so the new site stands out in a crowded market and ranks for the specific searches that drive your best jobs.", featured: true },
+      { name: 'AI-search ready', desc: "Structured so AI Overviews and ChatGPT can read and recommend you, which is critical in Silicon Valley where homeowners are early adopters of AI search.", featured: true },
     ],
     processName: 'How we redesign: a careful Silicon Valley rebuild',
     process: [
-      { name: 'Audit and plan', desc: "We analyze what's losing you San Jose leads and rankings today, then map a redesign that fixes it without breaking what already works." },
-      { name: 'Design', desc: "A modern, mobile-first, conversion-focused design that meets Silicon Valley homeowner expectations — you review and shape it before we build." },
+      { name: 'Audit and plan', desc: "We analyze what is losing you San Jose leads and rankings today, then map a redesign that fixes it without breaking what already works." },
+      { name: 'Design', desc: "A modern, mobile-first, conversion-focused design that meets Silicon Valley homeowner expectations, and you review and shape it before we build." },
       { name: 'Rebuild and migrate', desc: "We rebuild fast and prepare every redirect and SEO detail for a clean migration that protects your current rankings." },
-      { name: 'Launch with SEO care', desc: "We launch with redirects in place and monitor closely in the first weeks so rankings hold and improve, not drop." },
-      { name: 'Optimize', desc: "Post-launch tuning based on what's converting Silicon Valley visitors into calls, plus ongoing speed and updates." },
+      { name: 'Launch with SEO care', desc: "We launch with redirects in place and watch closely through the first weeks so rankings hold and climb rather than drop." },
+      { name: 'Optimize', desc: "Post-launch tuning based on what is converting Silicon Valley visitors into calls, plus ongoing speed and updates." },
     ],
     pricing: {
       heading: 'Transparent San Jose redesign pricing',
@@ -356,14 +356,14 @@ export const sanJoseLocations = [
       ],
     },
     faqs: [
-      { q: 'How much does a website redesign cost in San Jose?', a: "Most redesigns with us run $2,500 to $9,000 as a one-time project, depending on size and integrations. Fixed price, no surprises, and you own the result." },
-      { q: 'Will I lose my Google rankings if I redesign?', a: "Not if it's done carefully, and that's exactly how we work. We map 301 redirects for every changed URL, preserve content and metadata, migrate your schema, and test on staging first. Done right, a redesign holds your San Jose rankings and usually improves them." },
-      { q: 'How long does a redesign take?', a: "A focused redesign takes about 3 to 5 weeks; a larger rebuild takes 5 to 9. You get a firm timeline up front and updates at each stage." },
-      { q: 'How do I know if I need a redesign in San Jose?', a: "If your site looks dated, is slow on phones, doesn't name the specific neighborhoods you serve, or isn't capturing Silicon Valley-specific demand like earthquake retrofitting or smoke season HVAC searches, it's costing you work. The free audit tells you plainly whether a redesign pays off." },
-      { q: 'Do you migrate my existing content?', a: "Yes. We carry over and improve your existing content, preserve what's already ranking in San Jose searches, and handle the technical migration so nothing important gets lost." },
-      { q: 'Will the redesign help me stand out in Silicon Valley?', a: "Yes, and that's the point. We rebuild around the specific San Jose neighborhoods you serve, add content targeting wildfire smoke season and earthquake prep searches, and meet the visual and performance bar sophisticated homeowners expect — so the new site stands out instead of blending into a generic contractor page." },
-      { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings — and meets the expectations of Silicon Valley homeowners who use fast technology every day." },
-      { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
+      { q: 'How much does a website redesign cost in San Jose?', a: "Most redesigns with us run $2,500 to $9,000 as a one-time project, set by size and integrations. Fixed price, no surprises, and you own the result." },
+      { q: 'Will I lose my Google rankings if I redesign?', a: "Not when it is done carefully, and that is exactly how we work. We map 301 redirects for every changed URL, preserve content and metadata, migrate your schema, and test on staging first. Handled right, a redesign holds your San Jose rankings and usually improves them." },
+      { q: 'How long does a redesign take?', a: "A focused redesign runs about 3 to 5 weeks; a larger rebuild takes 5 to 9. You get a firm timeline up front and updates at each stage." },
+      { q: 'How do I know if I need a redesign in San Jose?', a: "If your site looks dated, crawls on phones, fails to name the specific neighborhoods you serve, or misses Silicon Valley-specific demand like earthquake retrofits or smoke-season HVAC searches, it is costing you work. The free audit tells you plainly whether a redesign pays off." },
+      { q: 'Do you migrate my existing content?', a: "Yes. We carry over and sharpen your existing content, preserve what is already ranking in San Jose searches, and handle the technical migration so nothing important slips through." },
+      { q: 'Will the redesign help me stand out in Silicon Valley?', a: "Yes, and that is the point. We rebuild around the specific San Jose neighborhoods you serve, add content targeting smoke-season and earthquake-prep searches, and hit the visual and performance bar sophisticated homeowners expect, so the new site stands out instead of blending into a generic contractor page." },
+      { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings and meets the expectations of Silicon Valley homeowners who use fast technology all day." },
+      { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
       { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in Silicon Valley leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
@@ -375,7 +375,7 @@ export const sanJoseCity = {
 
   titleTag: 'San Jose Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for San Jose contractors. Get found by Silicon Valley homeowners, win premium jobs, and own your leads instead of renting them.',
+    'Web design, SEO, and local SEO for San Jose contractors. Get found by Silicon Valley homeowners, win premium jobs, and own your leads instead of renting.',
 
   eyebrow: 'San Jose · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets San Jose contractors found by Silicon Valley homeowners',
@@ -386,10 +386,10 @@ export const sanJoseCity = {
   primaryCta: 'Get my free San Jose audit',
 
   intro:
-    "If you run a contracting business in San Jose, you're working in the highest-median-income major city in the US. Homeowners here are tech professionals at Apple, Google, Cisco, and Intel who own homes worth over a million dollars and research every contractor the same way they research a software purchase — thoroughly, online, before they ever call. Winning their business takes three things working together: a site that clears the Silicon Valley credibility bar, SEO that ranks you when they search your trade, and local SEO that puts you in the Map Pack for the neighborhoods they live in. Here's how we help San Jose contractors do exactly that.",
+    "If you run a contracting business in San Jose, you are working in the highest-median-income major city in the country. The homeowners here write code at Apple, ship products at Google, build networks at Cisco, and design chips at Intel, they own property worth more than a million dollars, and they research every contractor the way they research a software purchase: thoroughly, online, before they ever pick up the phone. Winning their business takes three pieces working together: a site that clears the Silicon Valley credibility bar, SEO that ranks you when they search your trade, and local SEO that lands you in the Map Pack for the neighborhoods they live in. Here is how we help San Jose contractors do exactly that.",
   aioQuestion: 'How do San Jose contractors get more leads online?',
   aioAnswer:
-    "San Jose contractors get more leads by combining a fast, polished, mobile-first website with SEO that ranks them for high-intent Silicon Valley searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because homeowners here are tech professionals with high standards and premium budgets, the contractors who look most credible online and rank for specific neighborhood and seasonal searches — including wildfire smoke season HVAC demand and earthquake retrofitting queries — win the most and best work.",
+    "San Jose contractors win more leads by pairing a fast, polished, mobile-first website with SEO that ranks them for high-intent Silicon Valley searches and local SEO that takes the Google Map Pack neighborhood by neighborhood. Because homeowners here are tech professionals with high standards and premium budgets, the contractors who read as most credible online and rank for specific neighborhood and seasonal searches, including the smoke-season HVAC surge and earthquake retrofit queries, take the most and the best work.",
 
   localMarket: MARKET,
   areasServed: AREAS,
@@ -400,28 +400,28 @@ export const sanJoseCity = {
   services: [
     {
       service: 'Local SEO', serviceSlug: 'local-seo', tagline: 'Win the Map Pack',
-      blurb: "Get into the top three businesses Google pins to the map when Willow Glen or Almaden Valley searches \"near me.\" In a city of tech-savvy homeowners with premium budgets, being one of those three names is the single highest-return move most contractors can make.",
+      blurb: "Break into the three businesses Google pins to the map when Willow Glen or Almaden Valley searches \"near me.\" In a city of tech-savvy homeowners with premium budgets, becoming one of those three names is the single highest-return move most contractors can make.",
     },
     {
       service: 'SEO Services', serviceSlug: 'seo-services', tagline: 'Rank higher, get leads',
-      blurb: "Rank for the money keywords Silicon Valley homeowners actually search — including wildfire smoke season HVAC and earthquake retrofitting terms most competitors ignore — and build an asset you own instead of renting traffic.",
+      blurb: "Rank for the money keywords Silicon Valley homeowners actually search, including the smoke-season HVAC and earthquake retrofit terms most competitors ignore, and build an asset you own instead of renting traffic.",
     },
     {
       service: 'Web Design', serviceSlug: 'web-design', tagline: 'Sites that convert',
-      blurb: "Fast, polished, mobile-first websites that meet the credibility bar Silicon Valley homeowners set before they call anyone. Built around the premium jobs you want, not a generic contractor template.",
+      blurb: "Fast, polished, mobile-first sites that clear the credibility bar Silicon Valley homeowners set before they call anyone. Built around the premium jobs you want, not a generic contractor template.",
     },
     {
       service: 'Website Redesign', serviceSlug: 'website-redesign', tagline: 'More leads, no traffic loss',
-      blurb: "Rebuild an outdated site to meet Silicon Valley expectations, capture seasonal and seismic demand, and migrate carefully so you keep every bit of ranking you've already earned.",
+      blurb: "Rebuild an outdated site to meet Silicon Valley expectations, capture the seasonal and seismic demand, and migrate carefully so you keep every bit of ranking you have already earned.",
     },
   ],
 
   faqs: [
-    { q: 'What marketing services do you offer in San Jose?', a: "Four core services for contractors: web design, website redesign, SEO, and local SEO. Most clients combine a high-converting website with SEO and local SEO so they rank, convert, and own their leads in one of the highest-value home markets in the country." },
-    { q: 'Do you work only with contractors?', a: "Almost entirely. We specialize in home-service trades — roofing, HVAC, plumbing, solar, electrical, restoration, seismic and foundation specialists, and general contractors. We understand Silicon Valley homeowners, wildfire smoke season demand, and earthquake prep work." },
-    { q: 'Why does the San Jose market need a different approach?', a: "Because the homeowners here are different. They're tech professionals who research everything, expect polished digital experiences, and have budgets to match million-dollar homes. Winning their business means looking credible online and ranking for San Jose-specific demand patterns — like HVAC filtration searches during smoke season and earthquake retrofitting queries near the Hayward fault — that a national template completely misses." },
+    { q: 'What marketing services do you offer in San Jose?', a: "Four core services for contractors: web design, website redesign, SEO, and local SEO. Most clients pair a high-converting website with SEO and local SEO so they rank, convert, and own their leads in one of the highest-value home markets in the country." },
+    { q: 'Do you work only with contractors?', a: "Almost entirely. We specialize in home-service trades: roofing, HVAC, plumbing, solar, electrical, restoration, seismic and foundation specialists, and general contractors. We understand Silicon Valley homeowners, the smoke-season demand, and earthquake prep work." },
+    { q: 'Why does the San Jose market need a different approach?', a: "Because the homeowners here are different. They are tech professionals who research everything, expect polished digital experiences, and carry budgets that match million-dollar homes. Winning their business means looking credible online and ranking for San Jose-specific demand patterns, like HVAC filtration searches during smoke season and earthquake retrofit queries near the Hayward fault, that a national template completely misses." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
-    { q: 'Which San Jose areas do you serve?', a: "All the key neighborhoods and surrounding Silicon Valley communities — Willow Glen, Rose Garden, Almaden Valley, Evergreen, Berryessa, Milpitas, Santa Clara, Sunnyvale, Cupertino, Campbell, Los Gatos, and Saratoga — with genuine neighborhood pages rather than one generic San Jose page." },
-    { q: 'Where should I start?', a: "Start with a free San Jose audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most Silicon Valley work fastest. No pitch deck, just a plan." },
+    { q: 'Which San Jose areas do you serve?', a: "Every key neighborhood and surrounding Silicon Valley community: Willow Glen, Rose Garden, Almaden Valley, Evergreen, Berryessa, Milpitas, Santa Clara, Sunnyvale, Cupertino, Campbell, Los Gatos, and Saratoga, with genuine neighborhood pages rather than one generic San Jose page." },
+    { q: 'Where should I start?', a: "Start with a free San Jose audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most Silicon Valley work fastest. No pitch deck, just a plan." },
   ],
 };
