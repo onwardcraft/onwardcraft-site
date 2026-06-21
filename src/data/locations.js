@@ -65,6 +65,70 @@ import { lansingLocations } from './metros/lansing.js';
 import { siouxFallsLocations } from './metros/sioux-falls.js';
 import { newHavenLocations } from './metros/new-haven.js';
 import { worcesterLocations } from './metros/worcester.js';
+import { minneapolisLocations } from './metros/minneapolis.js';
+import { stLouisLocations } from './metros/st-louis.js';
+import { pittsburghLocations } from './metros/pittsburgh.js';
+import { cincinnatiLocations } from './metros/cincinnati.js';
+import { clevelandLocations } from './metros/cleveland.js';
+import { newOrleansLocations } from './metros/new-orleans.js';
+import { saltLakeCityLocations } from './metros/salt-lake-city.js';
+import { sanJoseLocations } from './metros/san-jose.js';
+import { sanFranciscoLocations } from './metros/san-francisco.js';
+import { tucsonLocations } from './metros/tucson.js';
+import { albuquerqueLocations } from './metros/albuquerque.js';
+import { fresnoLocations } from './metros/fresno.js';
+import { coloradoSpringsLocations } from './metros/colorado-springs.js';
+import { omahaLocations } from './metros/omaha.js';
+import { corpusChristiLocations } from './metros/corpus-christi.js';
+import { lexingtonLocations } from './metros/lexington.js';
+import { greensboroLocations } from './metros/greensboro.js';
+import { madisonLocations } from './metros/madison.js';
+import { lubbockLocations } from './metros/lubbock.js';
+import { spokaneLocations } from './metros/spokane.js';
+import { batonRougeLocations } from './metros/baton-rouge.js';
+import { tacomaLocations } from './metros/tacoma.js';
+import { desMoinesLocations } from './metros/des-moines.js';
+import { buffaloLocations } from './metros/buffalo.js';
+import { amarilloLocations } from './metros/amarillo.js';
+import { birminghamLocations } from './metros/birmingham.js';
+import { boiseLocations } from './metros/boise.js';
+import { capeCoralLocations } from './metros/cape-coral.js';
+import { fortLauderdaleLocations } from './metros/fort-lauderdale.js';
+import { grandRapidsLocations } from './metros/grand-rapids.js';
+import { greenvilleLocations } from './metros/greenville.js';
+import { huntsvilleLocations } from './metros/huntsville.js';
+import { knoxvilleLocations } from './metros/knoxville.js';
+import { littleRockLocations } from './metros/little-rock.js';
+import { mcallenLocations } from './metros/mcallen.js';
+import { mobileLocations } from './metros/mobile.js';
+import { richmondLocations } from './metros/richmond.js';
+import { savannahLocations } from './metros/savannah.js';
+import { shreveportLocations } from './metros/shreveport.js';
+import { tallahasseeLocations } from './metros/tallahassee.js';
+import { tulsaLocations } from './metros/tulsa.js';
+import { westPalmBeachLocations } from './metros/west-palm-beach.js';
+import { wichitaLocations } from './metros/wichita.js';
+import { fayettevilleLocations } from './metros/fayetteville.js';
+import { bakersfieldLocations } from './metros/bakersfield.js';
+import { modestoLocations } from './metros/modesto.js';
+import { stocktonLocations } from './metros/stockton.js';
+import { riversideLocations } from './metros/riverside.js';
+import { chattanoogaLocations } from './metros/chattanooga.js';
+import { winstonSalemLocations } from './metros/winston-salem.js';
+import { columbiaLocations } from './metros/columbia.js';
+import { augustaLocations } from './metros/augusta.js';
+import { pensacolaLocations } from './metros/pensacola.js';
+import { killeenLocations } from './metros/killeen.js';
+import { durhamLocations } from './metros/durham.js';
+import { akronLocations } from './metros/akron.js';
+import { toledoLocations } from './metros/toledo.js';
+import { rochesterLocations } from './metros/rochester.js';
+import { hartfordLocations } from './metros/hartford.js';
+import { providenceLocations } from './metros/providence.js';
+import { allentownLocations } from './metros/allentown.js';
+import { springfieldLocations } from './metros/springfield.js';
+import { fortCollinsLocations } from './metros/fort-collins.js';
+import { laredoLocations } from './metros/laredo.js';
 
 // ===========================================================================
 // MIAMI — shared city blocks (also imported by the /miami/ hub in cities.js)
@@ -482,6 +546,70 @@ export const locations = [
   ...siouxFallsLocations,
   ...newHavenLocations,
   ...worcesterLocations,
+  ...minneapolisLocations,
+  ...stLouisLocations,
+  ...pittsburghLocations,
+  ...cincinnatiLocations,
+  ...clevelandLocations,
+  ...newOrleansLocations,
+  ...saltLakeCityLocations,
+  ...sanJoseLocations,
+  ...sanFranciscoLocations,
+  ...tucsonLocations,
+  ...albuquerqueLocations,
+  ...fresnoLocations,
+  ...coloradoSpringsLocations,
+  ...omahaLocations,
+  ...corpusChristiLocations,
+  ...lexingtonLocations,
+  ...greensboroLocations,
+  ...madisonLocations,
+  ...lubbockLocations,
+  ...spokaneLocations,
+  ...batonRougeLocations,
+  ...tacomaLocations,
+  ...desMoinesLocations,
+  ...buffaloLocations,
+  ...amarilloLocations,
+  ...birminghamLocations,
+  ...boiseLocations,
+  ...capeCoralLocations,
+  ...fortLauderdaleLocations,
+  ...grandRapidsLocations,
+  ...greenvilleLocations,
+  ...huntsvilleLocations,
+  ...knoxvilleLocations,
+  ...littleRockLocations,
+  ...mcallenLocations,
+  ...mobileLocations,
+  ...richmondLocations,
+  ...savannahLocations,
+  ...shreveportLocations,
+  ...tallahasseeLocations,
+  ...tulsaLocations,
+  ...westPalmBeachLocations,
+  ...wichitaLocations,
+  ...fayettevilleLocations,
+  ...bakersfieldLocations,
+  ...modestoLocations,
+  ...stocktonLocations,
+  ...riversideLocations,
+  ...chattanoogaLocations,
+  ...winstonSalemLocations,
+  ...columbiaLocations,
+  ...augustaLocations,
+  ...pensacolaLocations,
+  ...killeenLocations,
+  ...durhamLocations,
+  ...akronLocations,
+  ...toledoLocations,
+  ...rochesterLocations,
+  ...hartfordLocations,
+  ...providenceLocations,
+  ...allentownLocations,
+  ...springfieldLocations,
+  ...fortCollinsLocations,
+  ...laredoLocations,
 ];
 
 // Convenience lookups for the dynamic route + future cross-linking.

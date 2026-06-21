@@ -61,6 +61,70 @@ import { lansingCity } from './metros/lansing.js';
 import { siouxFallsCity } from './metros/sioux-falls.js';
 import { newHavenCity } from './metros/new-haven.js';
 import { worcesterCity } from './metros/worcester.js';
+import { minneapolisCity } from './metros/minneapolis.js';
+import { stLouisCity } from './metros/st-louis.js';
+import { pittsburghCity } from './metros/pittsburgh.js';
+import { cincinnatiCity } from './metros/cincinnati.js';
+import { clevelandCity } from './metros/cleveland.js';
+import { newOrleansCity } from './metros/new-orleans.js';
+import { saltLakeCityCity } from './metros/salt-lake-city.js';
+import { sanJoseCity } from './metros/san-jose.js';
+import { sanFranciscoCity } from './metros/san-francisco.js';
+import { tucsonCity } from './metros/tucson.js';
+import { albuquerqueCity } from './metros/albuquerque.js';
+import { fresnoCity } from './metros/fresno.js';
+import { coloradoSpringsCity } from './metros/colorado-springs.js';
+import { omahaCity } from './metros/omaha.js';
+import { corpusChristiCity } from './metros/corpus-christi.js';
+import { lexingtonCity } from './metros/lexington.js';
+import { greensboroCity } from './metros/greensboro.js';
+import { madisonCity } from './metros/madison.js';
+import { lubbockCity } from './metros/lubbock.js';
+import { spokaneCity } from './metros/spokane.js';
+import { batonRougeCity } from './metros/baton-rouge.js';
+import { tacomaCity } from './metros/tacoma.js';
+import { desMoinesCity } from './metros/des-moines.js';
+import { buffaloCity } from './metros/buffalo.js';
+import { amarilloCity } from './metros/amarillo.js';
+import { birminghamCity } from './metros/birmingham.js';
+import { boiseCity } from './metros/boise.js';
+import { capeCoralCity } from './metros/cape-coral.js';
+import { fortLauderdaleCity } from './metros/fort-lauderdale.js';
+import { grandRapidsCity } from './metros/grand-rapids.js';
+import { greenvilleCity } from './metros/greenville.js';
+import { huntsvilleCity } from './metros/huntsville.js';
+import { knoxvilleCity } from './metros/knoxville.js';
+import { littleRockCity } from './metros/little-rock.js';
+import { mcallenCity } from './metros/mcallen.js';
+import { mobileCity } from './metros/mobile.js';
+import { richmondCity } from './metros/richmond.js';
+import { savannahCity } from './metros/savannah.js';
+import { shreveportCity } from './metros/shreveport.js';
+import { tallahasseeCity } from './metros/tallahassee.js';
+import { tulsaCity } from './metros/tulsa.js';
+import { westPalmBeachCity } from './metros/west-palm-beach.js';
+import { wichitaCity } from './metros/wichita.js';
+import { fayettevilleCity } from './metros/fayetteville.js';
+import { bakersfieldCity } from './metros/bakersfield.js';
+import { modestoCity } from './metros/modesto.js';
+import { stocktonCity } from './metros/stockton.js';
+import { riversideCity } from './metros/riverside.js';
+import { chattanoogaCity } from './metros/chattanooga.js';
+import { winstonSalemCity } from './metros/winston-salem.js';
+import { columbiaCity } from './metros/columbia.js';
+import { augustaCity } from './metros/augusta.js';
+import { pensacolaCity } from './metros/pensacola.js';
+import { killeenCity } from './metros/killeen.js';
+import { durhamCity } from './metros/durham.js';
+import { akronCity } from './metros/akron.js';
+import { toledoCity } from './metros/toledo.js';
+import { rochesterCity } from './metros/rochester.js';
+import { hartfordCity } from './metros/hartford.js';
+import { providenceCity } from './metros/providence.js';
+import { allentownCity } from './metros/allentown.js';
+import { springfieldCity } from './metros/springfield.js';
+import { fortCollinsCity } from './metros/fort-collins.js';
+import { laredoCity } from './metros/laredo.js';
 
 const miamiCity = {
     citySlug: 'miami', city: 'Miami', state: 'Florida', stateAbbr: 'FL', metro: 'Miami-Dade',
@@ -131,6 +195,20 @@ export const cities = [
   stamfordCity, anchorageCity, honoluluCity, venturaCity, peoriaCity,
   fargoCity, wacoCity, midlandCity, brownsvilleCity, provoCity,
   eugeneCity, lansingCity, siouxFallsCity, newHavenCity, worcesterCity,
+  minneapolisCity, stLouisCity, pittsburghCity, cincinnatiCity, clevelandCity,
+  newOrleansCity, saltLakeCityCity, sanJoseCity, sanFranciscoCity, tucsonCity,
+  albuquerqueCity, fresnoCity, coloradoSpringsCity, omahaCity, corpusChristiCity,
+  lexingtonCity, greensboroCity, madisonCity, lubbockCity, spokaneCity,
+  batonRougeCity, tacomaCity, desMoinesCity, buffaloCity,
+  amarilloCity, birminghamCity, boiseCity, capeCoralCity, fortLauderdaleCity,
+  grandRapidsCity, greenvilleCity, huntsvilleCity, knoxvilleCity, littleRockCity,
+  mcallenCity, mobileCity, richmondCity, savannahCity, shreveportCity,
+  tallahasseeCity, tulsaCity, westPalmBeachCity, wichitaCity,
+  fayettevilleCity, bakersfieldCity, modestoCity, stocktonCity, riversideCity,
+  chattanoogaCity, winstonSalemCity, columbiaCity, augustaCity, pensacolaCity,
+  killeenCity, durhamCity, akronCity, toledoCity, rochesterCity,
+  hartfordCity, providenceCity, allentownCity, springfieldCity, fortCollinsCity,
+  laredoCity,
 ];
 
 export const cityPaths = cities.map((c) => ({ citySlug: c.citySlug }));
