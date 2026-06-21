@@ -110,9 +110,9 @@ export const capeCoralLocations = [
   {
     ...BASE,
     citySlug: 'cape-coral', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Cape Coral Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Cape Coral Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Cape Coral and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Cape Coral and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Cape Coral-Fort Myers',
     h1: 'When Cape Coral searches for what you do, be the first name they find',
     h2Exact: 'Cape Coral Local SEO Company',
@@ -176,9 +176,9 @@ export const capeCoralLocations = [
   {
     ...BASE,
     citySlug: 'cape-coral', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Cape Coral SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Cape Coral SEO Company | OnwardCraft',
     metaDescription:
-      'Cape Coral SEO that ranks contractors on Google and brings in leads you own. Post-Ian rebuild demand, snowbird migration, and year-round HVAC searches — free audit.',
+      'Cape Coral SEO that ranks contractors on Google and brings in leads you own. Post-Ian rebuild demand, snowbird migration, and year-round HVAC searches — free.',
     eyebrow: 'SEO Services · Cape Coral-Fort Myers',
     h1: 'Get your Cape Coral business to the top of Google and keep it there',
     h2Exact: 'Cape Coral SEO Company',
@@ -242,9 +242,9 @@ export const capeCoralLocations = [
   {
     ...BASE,
     citySlug: 'cape-coral', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Cape Coral Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Cape Coral Web Design Company | OnwardCraft',
     metaDescription:
-      'Cape Coral web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors, post-Ian rebuild demand, and snowbird homeowners. Free quote.',
+      'Cape Coral web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors, post-Ian rebuild demand, and snowbird homeowners.',
     eyebrow: 'Web Design · Cape Coral-Fort Myers',
     h1: 'Cape Coral web design that turns visitors into booked jobs',
     h2Exact: 'Cape Coral Web Design Company',
@@ -308,9 +308,9 @@ export const capeCoralLocations = [
   {
     ...BASE,
     citySlug: 'cape-coral', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Cape Coral Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Cape Coral Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Cape Coral website without losing rankings. Faster, mobile-first rebuilds that convert snowbird retirees and post-Ian rebuild searchers into booked jobs. Free audit.',
+      'Redesign your Cape Coral website without losing rankings. Faster, mobile-first rebuilds that convert snowbird retirees and post-Ian rebuild searchers into.',
     eyebrow: 'Website Redesign · Cape Coral-Fort Myers',
     h1: 'Redesign your Cape Coral website without losing your rankings',
     h2Exact: 'Cape Coral Website Redesign Company',
@@ -374,9 +374,9 @@ export const capeCoralLocations = [
 export const capeCoralCity = {
   citySlug: 'cape-coral', city: 'Cape Coral', state: 'Florida', stateAbbr: 'FL', metro: 'Cape Coral-Fort Myers',
 
-  titleTag: 'Cape Coral Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Cape Coral Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Cape Coral contractors. Get found, get booked, and own your leads — built for post-Ian rebuild demand, canal-front work, and snowbird migration. Free audit.',
+    'Web design, SEO, and local SEO for Cape Coral contractors. Get found, get booked, and own your leads — built for post-Ian rebuild demand, canal-front work.',
 
   eyebrow: 'Cape Coral · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Cape Coral contractors found and booked',

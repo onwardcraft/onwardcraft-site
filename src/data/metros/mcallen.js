@@ -111,7 +111,7 @@ export const mcallenLocations = [
     citySlug: 'mcallen', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'McAllen Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in McAllen and three businesses show up on the map. We get you into those three — in English and Spanish — so the call lands with you. Free audit.',
+      'Search your service in McAllen and three businesses show up on the map. We get you into those three — in English and Spanish — so the call lands with you.',
     eyebrow: 'Local SEO · McAllen-Edinburg-Mission',
     h1: 'When the Rio Grande Valley searches for what you do, be the first name they find',
     h2Exact: 'McAllen Local SEO Company',
@@ -175,9 +175,9 @@ export const mcallenLocations = [
   {
     ...BASE,
     citySlug: 'mcallen', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'McAllen SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'McAllen SEO Company | OnwardCraft',
     metaDescription:
-      'McAllen SEO that ranks contractors on Google in English and Spanish — and brings in leads you own. Revenue-tied reporting, no lock-in contracts. Free RGV SEO audit.',
+      'McAllen SEO that ranks contractors on Google in English and Spanish — and brings in leads you own. Revenue-tied reporting, no lock-in contracts.',
     eyebrow: 'SEO Services · McAllen-Edinburg-Mission',
     h1: 'Get your McAllen business to the top of Google — in English and Spanish',
     h2Exact: 'McAllen SEO Company',
@@ -241,7 +241,7 @@ export const mcallenLocations = [
   {
     ...BASE,
     citySlug: 'mcallen', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'McAllen Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'McAllen Web Design Company | OnwardCraft',
     metaDescription:
       'McAllen web design that turns visitors into booked jobs — fast, mobile-first, bilingual sites built for contractors and Rio Grande Valley demand. Free quote.',
     eyebrow: 'Web Design · McAllen-Edinburg-Mission',
@@ -307,7 +307,7 @@ export const mcallenLocations = [
   {
     ...BASE,
     citySlug: 'mcallen', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'McAllen Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'McAllen Website Redesign | OnwardCraft',
     metaDescription:
       'Redesign your McAllen website without losing rankings. Faster, bilingual, mobile-first rebuilds that convert more visitors into booked jobs. Free RGV audit.',
     eyebrow: 'Website Redesign · McAllen-Edinburg-Mission',
@@ -373,7 +373,7 @@ export const mcallenLocations = [
 export const mcallenCity = {
   citySlug: 'mcallen', city: 'McAllen', state: 'Texas', stateAbbr: 'TX', metro: 'McAllen-Edinburg-Mission (Rio Grande Valley)',
 
-  titleTag: 'McAllen Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'McAllen Marketing for Contractors | OnwardCraft',
   metaDescription:
     'Web design, SEO, and local SEO for McAllen contractors — in English and Spanish. Get found, get booked, and own your leads in the Rio Grande Valley. Free audit.',
 

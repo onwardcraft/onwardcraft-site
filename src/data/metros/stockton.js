@@ -111,7 +111,7 @@ export const stocktonLocations = [
     citySlug: 'stockton', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Stockton Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Stockton and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Stockton and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Stockton',
     h1: 'When Stockton searches for what you do, be the first name they find',
     h2Exact: 'Stockton Local SEO Company',
@@ -175,9 +175,9 @@ export const stocktonLocations = [
   {
     ...BASE,
     citySlug: 'stockton', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Stockton SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Stockton SEO Company | OnwardCraft',
     metaDescription:
-      'Stockton SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for heat-season and Delta-flooding demand. Free Stockton SEO audit.',
+      'Stockton SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for heat-season.',
     eyebrow: 'SEO Services · Stockton',
     h1: 'Get your Stockton business to the top of Google and keep it there',
     h2Exact: 'Stockton SEO Company',
@@ -241,9 +241,9 @@ export const stocktonLocations = [
   {
     ...BASE,
     citySlug: 'stockton', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Stockton Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Stockton Web Design Company | OnwardCraft',
     metaDescription:
-      'Stockton web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Delta-heat demand. Transparent pricing, you own it all. Free quote.',
+      'Stockton web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Delta-heat demand.',
     eyebrow: 'Web Design · Stockton',
     h1: 'Stockton web design that turns visitors into booked jobs',
     h2Exact: 'Stockton Web Design Company',
@@ -307,9 +307,9 @@ export const stocktonLocations = [
   {
     ...BASE,
     citySlug: 'stockton', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Stockton Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Stockton Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Stockton website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in heat season. Free audit.',
+      'Redesign your Stockton website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in heat season.',
     eyebrow: 'Website Redesign · Stockton',
     h1: 'Redesign your Stockton website without losing your rankings',
     h2Exact: 'Stockton Website Redesign Company',
@@ -373,9 +373,9 @@ export const stocktonLocations = [
 export const stocktonCity = {
   citySlug: 'stockton', city: 'Stockton', state: 'California', stateAbbr: 'CA', metro: 'Stockton',
 
-  titleTag: 'Stockton Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Stockton Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Stockton contractors. Get found, get booked, and own your leads instead of renting them — built for Central Valley heat and Delta demand. Free Stockton audit.',
+    'Web design, SEO, and local SEO for Stockton contractors. Get found, get booked, and own your leads instead of renting them — built for Central Valley heat.',
 
   eyebrow: 'Stockton · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Stockton contractors found and booked',

@@ -21,11 +21,11 @@ const MARKET = {
   pullQuote: 'The snowiest major city east of the Rockies. 123 inches a year. The contractors who own the map before November own the winter.',
   donut: {
     title: 'Annual snowfall: Syracuse vs. everywhere else',
-    value: 123,
-    centerLabel: 'annual snow inches',
+    value: 66,
+    centerLabel: 'winter-driven',
     legend: [
-      { label: 'Avg snow (in)', pct: 123, kind: 'teal' },
-      { label: 'Other precip', pct: 0, kind: 'grey' },
+      { label: 'Winter emergency demand', pct: 66, kind: 'teal' },
+      { label: 'Rest of year', pct: 34, kind: 'grey' },
     ],
   },
   seasonTitle: 'When trade demand spikes',
@@ -111,7 +111,7 @@ export const syracuseLocations = [
     citySlug: 'syracuse', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Syracuse Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Syracuse and three businesses show up on the map. We get you into those three before the lake-effect season hits. Honest pricing, no lock-in, free audit.',
+      'Search your service in Syracuse and three businesses show up on the map. We get you into those three before the lake-effect season hits.',
     eyebrow: 'Local SEO · Syracuse, NY',
     h1: 'When Syracuse searches for what you do, be the first name they find',
     h2Exact: 'Syracuse Local SEO Company',
@@ -177,7 +177,7 @@ export const syracuseLocations = [
     citySlug: 'syracuse', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Syracuse SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Syracuse SEO that ranks contractors on Google before lake-effect season hits. Revenue-tied reporting, no lock-in contracts, built for upstate NY. Free Syracuse SEO audit.',
+      'Syracuse SEO that ranks contractors on Google before lake-effect season hits. Revenue-tied reporting, no lock-in contracts, built for upstate NY.',
     eyebrow: 'SEO Services · Syracuse, NY',
     h1: 'Get your Syracuse business to the top of Google before the snow season',
     h2Exact: 'Syracuse SEO Company',
@@ -241,9 +241,9 @@ export const syracuseLocations = [
   {
     ...BASE,
     citySlug: 'syracuse', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Syracuse Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Syracuse Web Design Company | OnwardCraft',
     metaDescription:
-      'Syracuse web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in the snowiest major city east of the Rockies. You own it. Free quote.',
+      'Syracuse web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in the snowiest major city east of the Rockies.',
     eyebrow: 'Web Design · Syracuse, NY',
     h1: 'Syracuse web design that turns winter visitors into booked jobs',
     h2Exact: 'Syracuse Web Design Company',
@@ -307,9 +307,9 @@ export const syracuseLocations = [
   {
     ...BASE,
     citySlug: 'syracuse', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Syracuse Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Syracuse Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Syracuse website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs before lake-effect season. Free audit.',
+      'Redesign your Syracuse website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs before lake-effect season.',
     eyebrow: 'Website Redesign · Syracuse, NY',
     h1: 'Redesign your Syracuse website without losing your rankings',
     h2Exact: 'Syracuse Website Redesign Company',
@@ -373,9 +373,9 @@ export const syracuseLocations = [
 export const syracuseCity = {
   citySlug: 'syracuse', city: 'Syracuse', state: 'New York', stateAbbr: 'NY', metro: 'Syracuse',
 
-  titleTag: 'Syracuse Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Syracuse Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Syracuse contractors. Get found before lake-effect season and own your leads — built for the snowiest major city east of the Rockies. Free audit.',
+    'Web design, SEO, and local SEO for Syracuse contractors. Get found before lake-effect season and own your leads — built for the snowiest major city east.',
 
   eyebrow: 'Syracuse · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Syracuse contractors found before the snow hits',

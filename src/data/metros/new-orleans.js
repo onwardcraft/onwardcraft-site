@@ -109,9 +109,9 @@ export const newOrleansLocations = [
   {
     ...BASE,
     citySlug: 'new-orleans', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'New Orleans Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'New Orleans Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in New Orleans and three businesses show up on the map. We get you into those three before hurricane season hits. Honest pricing, no lock-in, free audit.',
+      'Search your service in New Orleans and three businesses show up on the map. We get you into those three before hurricane season hits.',
     eyebrow: 'Local SEO · New Orleans, LA',
     h1: 'When New Orleans searches for what you do, be the first name they find',
     h2Exact: 'New Orleans Local SEO Company',
@@ -175,9 +175,9 @@ export const newOrleansLocations = [
   {
     ...BASE,
     citySlug: 'new-orleans', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'New Orleans SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'New Orleans SEO Company | OnwardCraft',
     metaDescription:
-      'New Orleans SEO that ranks contractors on Google before hurricane season hits. Revenue-tied reporting, no lock-in contracts, built for a storm-driven market. Free SEO audit.',
+      'New Orleans SEO that ranks contractors on Google before hurricane season hits. Revenue-tied reporting, no lock-in contracts, built for a storm-driven market.',
     eyebrow: 'SEO Services · New Orleans, LA',
     h1: 'Get your New Orleans business to the top of Google and keep it there',
     h2Exact: 'New Orleans SEO Company',
@@ -241,9 +241,9 @@ export const newOrleansLocations = [
   {
     ...BASE,
     citySlug: 'new-orleans', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'New Orleans Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'New Orleans Web Design Company | OnwardCraft',
     metaDescription:
-      'New Orleans web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a storm-driven market. Transparent pricing, you own it. Free quote.',
+      'New Orleans web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a storm-driven market.',
     eyebrow: 'Web Design · New Orleans, LA',
     h1: 'New Orleans web design that turns visitors into booked jobs',
     h2Exact: 'New Orleans Web Design Company',
@@ -307,9 +307,9 @@ export const newOrleansLocations = [
   {
     ...BASE,
     citySlug: 'new-orleans', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'New Orleans Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'New Orleans Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your New Orleans website without losing rankings. Faster, mobile-first rebuilds that convert more visitors in a storm-driven market. Free redesign audit.',
+      'Redesign your New Orleans website without losing rankings. Faster, mobile-first rebuilds that convert more visitors in a storm-driven market.',
     eyebrow: 'Website Redesign · New Orleans, LA',
     h1: 'Redesign your New Orleans website without losing your rankings',
     h2Exact: 'New Orleans Website Redesign Company',
@@ -373,9 +373,9 @@ export const newOrleansLocations = [
 export const newOrleansCity = {
   citySlug: 'new-orleans', city: 'New Orleans', state: 'Louisiana', stateAbbr: 'LA', metro: 'New Orleans',
 
-  titleTag: 'New Orleans Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'New Orleans Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for New Orleans contractors. Get found before the next storm, own your leads instead of renting them, and rank across every neighborhood. Free audit.',
+    'Web design, SEO, and local SEO for New Orleans contractors. Get found before the next storm, own your leads instead of renting them, and rank across every.',
 
   eyebrow: 'New Orleans · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets New Orleans contractors found and booked',

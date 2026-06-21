@@ -111,7 +111,7 @@ export const stLouisLocations = [
     citySlug: 'st-louis', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'St. Louis Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in St. Louis and three businesses show up on the map. We get you into those three — storm season ready, neighborhood-targeted, no lock-in. Free audit.',
+      'Search your service in St. Louis and three businesses show up on the map. We get you into those three — storm season ready, neighborhood-targeted, no lock-in.',
     eyebrow: 'Local SEO · St. Louis, MO',
     h1: 'When St. Louis searches for what you do, be the first name they find',
     h2Exact: 'St. Louis Local SEO Company',
@@ -241,9 +241,9 @@ export const stLouisLocations = [
   {
     ...BASE,
     citySlug: 'st-louis', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'St. Louis Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'St. Louis Web Design Company | OnwardCraft',
     metaDescription:
-      'St. Louis web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a storm-season market. Transparent pricing, you own it. Free quote.',
+      'St. Louis web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a storm-season market.',
     eyebrow: 'Web Design · St. Louis, MO',
     h1: 'St. Louis web design that turns visitors into booked jobs',
     h2Exact: 'St. Louis Web Design Company',
@@ -307,9 +307,9 @@ export const stLouisLocations = [
   {
     ...BASE,
     citySlug: 'st-louis', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'St. Louis Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'St. Louis Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your St. Louis website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a storm-season market. Free audit.',
+      'Redesign your St. Louis website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a storm-season market.',
     eyebrow: 'Website Redesign · St. Louis, MO',
     h1: 'Redesign your St. Louis website without losing your rankings',
     h2Exact: 'St. Louis Website Redesign Company',
@@ -373,7 +373,7 @@ export const stLouisLocations = [
 export const stLouisCity = {
   citySlug: 'st-louis', city: 'St. Louis', state: 'Missouri', stateAbbr: 'MO', metro: 'St. Louis',
 
-  titleTag: 'St. Louis Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'St. Louis Marketing for Contractors | OnwardCraft',
   metaDescription:
     'Web design, SEO, and local SEO for St. Louis contractors. Get found before storm season, rank in your neighborhoods, and own your leads. Free St. Louis audit.',
 

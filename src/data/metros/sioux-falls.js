@@ -109,9 +109,9 @@ export const siouxFallsLocations = [
   {
     ...BASE,
     citySlug: 'sioux-falls', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Sioux Falls Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Sioux Falls Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Sioux Falls and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Sioux Falls and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Sioux Falls',
     h1: 'When Sioux Falls searches for what you do, be the first name they find',
     h2Exact: 'Sioux Falls Local SEO Company',
@@ -175,9 +175,9 @@ export const siouxFallsLocations = [
   {
     ...BASE,
     citySlug: 'sioux-falls', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Sioux Falls SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Sioux Falls SEO Company | OnwardCraft',
     metaDescription:
-      'Sioux Falls SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market. Free Sioux Falls SEO audit.',
+      'Sioux Falls SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market.',
     eyebrow: 'SEO Services · Sioux Falls',
     h1: 'Get your Sioux Falls business to the top of Google and keep it there',
     h2Exact: 'Sioux Falls SEO Company',
@@ -241,9 +241,9 @@ export const siouxFallsLocations = [
   {
     ...BASE,
     citySlug: 'sioux-falls', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Sioux Falls Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Sioux Falls Web Design Company | OnwardCraft',
     metaDescription:
-      'Sioux Falls web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing, weather-driven market. Transparent pricing, you own it. Free quote.',
+      'Sioux Falls web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing, weather-driven market.',
     eyebrow: 'Web Design · Sioux Falls',
     h1: 'Sioux Falls web design that turns visitors into booked jobs',
     h2Exact: 'Sioux Falls Web Design Company',
@@ -307,9 +307,9 @@ export const siouxFallsLocations = [
   {
     ...BASE,
     citySlug: 'sioux-falls', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Sioux Falls Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Sioux Falls Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Sioux Falls website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a growing, weather-driven market. Free audit.',
+      'Redesign your Sioux Falls website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a growing.',
     eyebrow: 'Website Redesign · Sioux Falls',
     h1: 'Redesign your Sioux Falls website without losing your rankings',
     h2Exact: 'Sioux Falls Website Redesign Company',
@@ -373,9 +373,9 @@ export const siouxFallsLocations = [
 export const siouxFallsCity = {
   citySlug: 'sioux-falls', city: 'Sioux Falls', state: 'South Dakota', stateAbbr: 'SD', metro: 'Sioux Falls',
 
-  titleTag: 'Sioux Falls Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Sioux Falls Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Sioux Falls contractors. Get found, get booked, and own your leads instead of renting them — built for a fast-growing, weather-driven market. Free Sioux Falls audit.',
+    'Web design, SEO, and local SEO for Sioux Falls contractors. Get found, get booked, and own your leads instead of renting them — built for a fast-growing.',
 
   eyebrow: 'Sioux Falls · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Sioux Falls contractors found and booked',

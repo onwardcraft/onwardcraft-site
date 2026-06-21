@@ -109,9 +109,9 @@ export const worcesterLocations = [
   {
     ...BASE,
     citySlug: 'worcester', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Worcester MA Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Worcester MA Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Worcester and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Worcester and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Worcester, MA',
     h1: 'When Worcester searches for what you do, be the first name they find',
     h2Exact: 'Worcester MA Local SEO Company',
@@ -175,9 +175,9 @@ export const worcesterLocations = [
   {
     ...BASE,
     citySlug: 'worcester', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Worcester MA SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Worcester MA SEO Company | OnwardCraft',
     metaDescription:
-      'Worcester SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a city with old homes and nor\'easter winters. Free audit.',
+      'Worcester SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a city with old homes.',
     eyebrow: 'SEO Services · Worcester, MA',
     h1: 'Get your Worcester business to the top of Google and keep it there',
     h2Exact: 'Worcester MA SEO Company',
@@ -241,9 +241,9 @@ export const worcesterLocations = [
   {
     ...BASE,
     citySlug: 'worcester', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Worcester MA Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Worcester MA Web Design Company | OnwardCraft',
     metaDescription:
-      'Worcester web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving old New England homes in a nor\'easter market. Transparent pricing, you own it. Free quote.',
+      'Worcester web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving old New England homes in a nor\'easter.',
     eyebrow: 'Web Design · Worcester, MA',
     h1: 'Worcester web design that turns visitors into booked jobs',
     h2Exact: 'Worcester MA Web Design Company',
@@ -307,9 +307,9 @@ export const worcesterLocations = [
   {
     ...BASE,
     citySlug: 'worcester', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Worcester MA Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Worcester MA Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Worcester website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — built for a nor\'easter market with old homes. Free audit.',
+      'Redesign your Worcester website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — built for a nor\'easter.',
     eyebrow: 'Website Redesign · Worcester, MA',
     h1: 'Redesign your Worcester website without losing your rankings',
     h2Exact: 'Worcester MA Website Redesign Company',
@@ -373,9 +373,9 @@ export const worcesterLocations = [
 export const worcesterCity = {
   citySlug: 'worcester', city: 'Worcester', state: 'Massachusetts', stateAbbr: 'MA', metro: 'Worcester',
 
-  titleTag: 'Worcester MA Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Worcester MA Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Worcester MA contractors. Get found, get booked, and own your leads — built for a nor\'easter market with old homes and Boston-income homeowners. Free audit.',
+    'Web design, SEO, and local SEO for Worcester MA contractors. Get found, get booked, and own your leads — built for a nor\'easter market with old homes.',
 
   eyebrow: 'Worcester, MA · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Worcester contractors found and booked',

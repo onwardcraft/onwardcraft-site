@@ -109,9 +109,9 @@ export const greenvilleLocations = [
   {
     ...BASE,
     citySlug: 'greenville', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Greenville SC Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Greenville SC Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Greenville and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Greenville and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Greenville-Spartanburg',
     h1: 'When Greenville searches for what you do, be the first name they find',
     h2Exact: 'Greenville SC Local SEO Company',
@@ -175,9 +175,9 @@ export const greenvilleLocations = [
   {
     ...BASE,
     citySlug: 'greenville', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Greenville SC SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Greenville SC SEO Company | OnwardCraft',
     metaDescription:
-      'Greenville SC SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Upstate SC seasonal demand. Free audit.',
+      'Greenville SC SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Upstate SC seasonal.',
     eyebrow: 'SEO Services · Greenville-Spartanburg',
     h1: 'Get your Greenville business to the top of Google and keep it there',
     h2Exact: 'Greenville SC SEO Company',
@@ -241,9 +241,9 @@ export const greenvilleLocations = [
   {
     ...BASE,
     citySlug: 'greenville', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Greenville SC Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Greenville SC Web Design Company | OnwardCraft',
     metaDescription:
-      "Greenville SC web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and the Upstate's exacting, research-first homeowners. Free quote.",
+      "Greenville SC web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and the Upstate's exacting, research-first.",
     eyebrow: 'Web Design · Greenville-Spartanburg',
     h1: 'Greenville web design that turns visitors into booked jobs',
     h2Exact: 'Greenville SC Web Design Company',
@@ -307,9 +307,9 @@ export const greenvilleLocations = [
   {
     ...BASE,
     citySlug: 'greenville', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Greenville SC Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Greenville SC Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Greenville SC website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in peak seasons. Free audit.',
+      'Redesign your Greenville SC website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in peak.',
     eyebrow: 'Website Redesign · Greenville-Spartanburg',
     h1: 'Redesign your Greenville website without losing your rankings',
     h2Exact: 'Greenville SC Website Redesign Company',
@@ -373,9 +373,9 @@ export const greenvilleLocations = [
 export const greenvilleCity = {
   citySlug: 'greenville', city: 'Greenville', state: 'South Carolina', stateAbbr: 'SC', metro: 'Greenville-Spartanburg',
 
-  titleTag: 'Greenville SC Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Greenville SC Marketing for Contractors | OnwardCraft',
   metaDescription:
-    "Web design, SEO, and local SEO for Greenville SC contractors. Get found, get booked, and own your leads instead of renting them — built for the Upstate's fast-growing, manufacturing-anchored market. Free audit.",
+    "Web design, SEO, and local SEO for Greenville SC contractors. Get found, get booked, and own your leads instead of renting them — built for the Upstate's.",
 
   eyebrow: 'Greenville SC · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Greenville contractors found and booked',

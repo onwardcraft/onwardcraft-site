@@ -109,9 +109,9 @@ export const minneapolisLocations = [
   {
     ...BASE,
     citySlug: 'minneapolis', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Minneapolis Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Minneapolis Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Minneapolis and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Minneapolis and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Minneapolis, MN',
     h1: 'When Minneapolis searches for what you do, be the first name they find',
     h2Exact: 'Minneapolis Local SEO Company',
@@ -175,9 +175,9 @@ export const minneapolisLocations = [
   {
     ...BASE,
     citySlug: 'minneapolis', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Minneapolis SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Minneapolis SEO Company | OnwardCraft',
     metaDescription:
-      'Minneapolis SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a seasonal market. Free Minneapolis SEO audit.',
+      'Minneapolis SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a seasonal market.',
     eyebrow: 'SEO Services · Minneapolis, MN',
     h1: 'Get your Minneapolis business to the top of Google and keep it there',
     h2Exact: 'Minneapolis SEO Company',
@@ -241,9 +241,9 @@ export const minneapolisLocations = [
   {
     ...BASE,
     citySlug: 'minneapolis', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Minneapolis Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Minneapolis Web Design Company | OnwardCraft',
     metaDescription:
-      'Minneapolis web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a demanding, review-driven market. Transparent pricing, you own it. Free quote.',
+      'Minneapolis web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a demanding, review-driven market.',
     eyebrow: 'Web Design · Minneapolis, MN',
     h1: 'Minneapolis web design that turns visitors into booked jobs',
     h2Exact: 'Minneapolis Web Design Company',
@@ -307,9 +307,9 @@ export const minneapolisLocations = [
   {
     ...BASE,
     citySlug: 'minneapolis', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Minneapolis Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Minneapolis Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Minneapolis website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a review-driven market. Free audit.',
+      'Redesign your Minneapolis website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a review-driven.',
     eyebrow: 'Website Redesign · Minneapolis, MN',
     h1: 'Redesign your Minneapolis website without losing your rankings',
     h2Exact: 'Minneapolis Website Redesign Company',
@@ -373,9 +373,9 @@ export const minneapolisLocations = [
 export const minneapolisCity = {
   citySlug: 'minneapolis', city: 'Minneapolis', state: 'Minnesota', stateAbbr: 'MN', metro: 'Minneapolis-St. Paul',
 
-  titleTag: 'Minneapolis Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Minneapolis Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Minneapolis contractors. Get found, get booked, and own your leads instead of renting them — built for a cold-weather, review-driven market. Free Minneapolis audit.',
+    'Web design, SEO, and local SEO for Minneapolis contractors. Get found, get booked, and own your leads instead of renting them — built for a cold-weather.',
 
   eyebrow: 'Minneapolis · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Minneapolis contractors found and booked',

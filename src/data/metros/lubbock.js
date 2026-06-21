@@ -111,7 +111,7 @@ export const lubbockLocations = [
     citySlug: 'lubbock', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Lubbock Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'When a Lubbock hailstorm hits, three names show up on the map. We get you into those three, so the roofing, HVAC, and trade calls land with you. Honest pricing, no lock-in, free audit.',
+      'When a Lubbock hailstorm hits, three names show up on the map. We get you into those three, so the roofing, HVAC, and trade calls land with you.',
     eyebrow: 'Local SEO · Lubbock, TX',
     h1: 'When Lubbock searches for what you do, be the first name they find',
     h2Exact: 'Lubbock Local SEO Company',
@@ -177,7 +177,7 @@ export const lubbockLocations = [
     citySlug: 'lubbock', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Lubbock SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Lubbock SEO that ranks contractors on Google before storm season and keeps them there. Revenue-tied reporting, bilingual reach, no lock-in contracts. Free Lubbock SEO audit.',
+      'Lubbock SEO that ranks contractors on Google before storm season and keeps them there. Revenue-tied reporting, bilingual reach, no lock-in contracts.',
     eyebrow: 'SEO Services · Lubbock, TX',
     h1: 'Get your Lubbock business to the top of Google before storm season hits',
     h2Exact: 'Lubbock SEO Company',
@@ -241,9 +241,9 @@ export const lubbockLocations = [
   {
     ...BASE,
     citySlug: 'lubbock', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Lubbock Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Lubbock Web Design Company | OnwardCraft',
     metaDescription:
-      'Lubbock web design that turns storm-season visitors into booked jobs — fast, mobile-first sites built for trade contractors in West Texas. Transparent pricing, you own it. Free quote.',
+      'Lubbock web design that turns storm-season visitors into booked jobs — fast, mobile-first sites built for trade contractors in West Texas.',
     eyebrow: 'Web Design · Lubbock, TX',
     h1: 'Lubbock web design that turns storm-season visitors into booked jobs',
     h2Exact: 'Lubbock Web Design Company',
@@ -307,9 +307,9 @@ export const lubbockLocations = [
   {
     ...BASE,
     citySlug: 'lubbock', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Lubbock Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Lubbock Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Lubbock contractor website without losing rankings. Faster, mobile-first rebuilds that convert storm-season visitors into booked jobs in West Texas. Free audit.',
+      'Redesign your Lubbock contractor website without losing rankings. Faster, mobile-first rebuilds that convert storm-season visitors into booked jobs in West.',
     eyebrow: 'Website Redesign · Lubbock, TX',
     h1: 'Redesign your Lubbock website without losing your rankings heading into storm season',
     h2Exact: 'Lubbock Website Redesign Company',
@@ -373,9 +373,9 @@ export const lubbockLocations = [
 export const lubbockCity = {
   citySlug: 'lubbock', city: 'Lubbock', state: 'Texas', stateAbbr: 'TX', metro: 'Lubbock',
 
-  titleTag: 'Lubbock Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Lubbock Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Lubbock trade contractors. Get found before storm season, capture the bilingual market, and own your leads. Free Lubbock audit.',
+    'Web design, SEO, and local SEO for Lubbock trade contractors. Get found before storm season, capture the bilingual market, and own your leads.',
 
   eyebrow: 'Lubbock · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Lubbock contractors found when it counts most',

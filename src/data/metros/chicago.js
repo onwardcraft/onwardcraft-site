@@ -111,7 +111,7 @@ export const chicagoLocations = [
     citySlug: 'chicago', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Chicago Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Chicago and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Chicago and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Chicagoland',
     h1: 'When Chicago searches for what you do, be the first name they find',
     h2Exact: 'Chicago Local SEO Company',
@@ -175,9 +175,9 @@ export const chicagoLocations = [
   {
     ...BASE,
     citySlug: 'chicago', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Chicago SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Chicago SEO Company | OnwardCraft',
     metaDescription:
-      'Chicago SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for winter-freeze demand. Free Chicago SEO audit.',
+      'Chicago SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for winter-freeze demand.',
     eyebrow: 'SEO Services · Chicagoland',
     h1: 'Get your Chicago business to the top of Google and keep it there',
     h2Exact: 'Chicago SEO Company',
@@ -241,9 +241,9 @@ export const chicagoLocations = [
   {
     ...BASE,
     citySlug: 'chicago', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Chicago Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Chicago Web Design Company | OnwardCraft',
     metaDescription:
-      'Chicago web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and winter-freeze demand. Transparent pricing, you own it all. Free quote.',
+      'Chicago web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and winter-freeze demand.',
     eyebrow: 'Web Design · Chicagoland',
     h1: 'Chicago web design that turns visitors into booked jobs',
     h2Exact: 'Chicago Web Design Company',
@@ -307,9 +307,9 @@ export const chicagoLocations = [
   {
     ...BASE,
     citySlug: 'chicago', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Chicago Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Chicago Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Chicago website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter freezes. Free audit.',
+      'Redesign your Chicago website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter.',
     eyebrow: 'Website Redesign · Chicagoland',
     h1: 'Redesign your Chicago website without losing your rankings',
     h2Exact: 'Chicago Website Redesign Company',
@@ -373,9 +373,9 @@ export const chicagoLocations = [
 export const chicagoCity = {
   citySlug: 'chicago', city: 'Chicago', state: 'Illinois', stateAbbr: 'IL', metro: 'Chicagoland',
 
-  titleTag: 'Chicago Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Chicago Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Chicago contractors. Get found, get booked, and own your leads instead of renting them — built for winter-freeze demand. Free Chicago audit.',
+    'Web design, SEO, and local SEO for Chicago contractors. Get found, get booked, and own your leads instead of renting them — built for winter-freeze demand.',
 
   eyebrow: 'Chicago · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Chicago contractors found and booked',

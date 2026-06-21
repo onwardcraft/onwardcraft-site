@@ -110,7 +110,7 @@ export const laredoLocations = [
     citySlug: 'laredo', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Laredo Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Laredo and three businesses show up on the map. We get you into those three — in Spanish and English — so the call lands with you. No lock-in, free audit.',
+      'Search your service in Laredo and three businesses show up on the map. We get you into those three — in Spanish and English — so the call lands with you.',
     eyebrow: 'Local SEO · Laredo, TX',
     h1: 'When Laredo searches for what you do, be the first name they find',
     h2Exact: 'Laredo Local SEO Company',
@@ -174,9 +174,9 @@ export const laredoLocations = [
   {
     ...BASE,
     citySlug: 'laredo', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Laredo SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Laredo SEO Company | OnwardCraft',
     metaDescription:
-      'Laredo SEO that ranks contractors on Google in Spanish and English — leads you own, revenue-tied reporting, no lock-in. Built for extreme heat season. Free Laredo SEO audit.',
+      'Laredo SEO that ranks contractors on Google in Spanish and English — leads you own, revenue-tied reporting, no lock-in. Built for extreme heat season.',
     eyebrow: 'SEO Services · Laredo, TX',
     h1: 'Get your Laredo business to the top of Google and keep it there',
     h2Exact: 'Laredo SEO Company',
@@ -242,7 +242,7 @@ export const laredoLocations = [
     citySlug: 'laredo', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Laredo Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Laredo web design that turns visitors into booked jobs — fast, mobile-first, bilingual sites built for contractors and extreme heat season. Transparent pricing. Free quote.',
+      'Laredo web design that turns visitors into booked jobs — fast, mobile-first, bilingual sites built for contractors and extreme heat season.',
     eyebrow: 'Web Design · Laredo, TX',
     h1: 'Laredo web design that turns visitors into booked jobs',
     h2Exact: 'Laredo Web Design Company',
@@ -306,9 +306,9 @@ export const laredoLocations = [
   {
     ...BASE,
     citySlug: 'laredo', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Laredo Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Laredo Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Laredo website without losing rankings. Faster, bilingual, mobile-first rebuilds that convert more visitors into booked jobs. No lock-in. Free audit.',
+      'Redesign your Laredo website without losing rankings. Faster, bilingual, mobile-first rebuilds that convert more visitors into booked jobs. No lock-in.',
     eyebrow: 'Website Redesign · Laredo, TX',
     h1: 'Redesign your Laredo website without losing your rankings',
     h2Exact: 'Laredo Website Redesign Company',
@@ -372,9 +372,9 @@ export const laredoLocations = [
 export const laredoCity = {
   citySlug: 'laredo', city: 'Laredo', state: 'Texas', stateAbbr: 'TX', metro: 'Laredo',
 
-  titleTag: 'Laredo Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Laredo Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Laredo contractors — in Spanish and English. Get found, get booked, own your leads. Built for extreme heat and border-market demand. Free audit.',
+    'Web design, SEO, and local SEO for Laredo contractors — in Spanish and English. Get found, get booked, own your leads. Built for extreme heat.',
 
   eyebrow: 'Laredo · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Laredo contractors found and booked',

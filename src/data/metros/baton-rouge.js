@@ -109,9 +109,9 @@ export const batonRougeLocations = [
   {
     ...BASE,
     citySlug: 'baton-rouge', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Baton Rouge Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Baton Rouge Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Baton Rouge and three businesses show up on the map. We get you into those three before storm season hits. Honest pricing, no lock-in, free audit.',
+      'Search your service in Baton Rouge and three businesses show up on the map. We get you into those three before storm season hits.',
     eyebrow: 'Local SEO · Baton Rouge, LA',
     h1: 'When Baton Rouge searches for what you do, be the first name they find',
     h2Exact: 'Baton Rouge Local SEO Company',
@@ -175,9 +175,9 @@ export const batonRougeLocations = [
   {
     ...BASE,
     citySlug: 'baton-rouge', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Baton Rouge SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Baton Rouge SEO Company | OnwardCraft',
     metaDescription:
-      'Baton Rouge SEO that ranks contractors on Google and brings in leads you own. Storm-season ready, revenue-tied reporting, no lock-in contracts. Free Baton Rouge SEO audit.',
+      'Baton Rouge SEO that ranks contractors on Google and brings in leads you own. Storm-season ready, revenue-tied reporting, no lock-in contracts.',
     eyebrow: 'SEO Services · Baton Rouge, LA',
     h1: 'Get your Baton Rouge business to the top of Google and keep it there',
     h2Exact: 'Baton Rouge SEO Company',
@@ -241,9 +241,9 @@ export const batonRougeLocations = [
   {
     ...BASE,
     citySlug: 'baton-rouge', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Baton Rouge Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Baton Rouge Web Design Company | OnwardCraft',
     metaDescription:
-      'Baton Rouge web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a storm-driven, community-rooted market. Transparent pricing, you own it. Free quote.',
+      'Baton Rouge web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a storm-driven, community-rooted market.',
     eyebrow: 'Web Design · Baton Rouge, LA',
     h1: 'Baton Rouge web design that turns visitors into booked jobs',
     h2Exact: 'Baton Rouge Web Design Company',
@@ -307,9 +307,9 @@ export const batonRougeLocations = [
   {
     ...BASE,
     citySlug: 'baton-rouge', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Baton Rouge Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Baton Rouge Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Baton Rouge website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs before storm season. Free audit.',
+      'Redesign your Baton Rouge website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs before storm season.',
     eyebrow: 'Website Redesign · Baton Rouge, LA',
     h1: 'Redesign your Baton Rouge website without losing your rankings',
     h2Exact: 'Baton Rouge Website Redesign Company',
@@ -373,9 +373,9 @@ export const batonRougeLocations = [
 export const batonRougeCity = {
   citySlug: 'baton-rouge', city: 'Baton Rouge', state: 'Louisiana', stateAbbr: 'LA', metro: 'Baton Rouge',
 
-  titleTag: 'Baton Rouge Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Baton Rouge Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Baton Rouge contractors. Get found before storm season, get booked, and own your leads — built for a community-rooted, storm-driven market. Free audit.',
+    'Web design, SEO, and local SEO for Baton Rouge contractors. Get found before storm season, get booked, and own your leads — built for a community-rooted.',
 
   eyebrow: 'Baton Rouge · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Baton Rouge contractors found and booked',

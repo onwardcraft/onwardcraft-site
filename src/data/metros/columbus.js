@@ -111,7 +111,7 @@ export const columbusLocations = [
     citySlug: 'columbus', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Columbus Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Columbus and three businesses show up on the map. We get you into those three — in Dublin, Westerville, German Village, and beyond. Free audit.',
+      'Search your service in Columbus and three businesses show up on the map. We get you into those three — in Dublin, Westerville, German Village, and beyond.',
     eyebrow: 'Local SEO · Columbus, OH',
     h1: 'When Columbus searches for what you do, be the first name they find',
     h2Exact: 'Columbus Local SEO Company',
@@ -177,7 +177,7 @@ export const columbusLocations = [
     citySlug: 'columbus', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Columbus SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Columbus SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing metro. Free Columbus SEO audit.',
+      'Columbus SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing metro.',
     eyebrow: 'SEO Services · Columbus, OH',
     h1: 'Get your Columbus business to the top of Google and keep it there',
     h2Exact: 'Columbus SEO Company',
@@ -241,9 +241,9 @@ export const columbusLocations = [
   {
     ...BASE,
     citySlug: 'columbus', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Columbus Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Columbus Web Design Company | OnwardCraft',
     metaDescription:
-      'Columbus web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors across Dublin, German Village, Westerville, and the full metro. Free quote.',
+      'Columbus web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors across Dublin, German Village, Westerville, and.',
     eyebrow: 'Web Design · Columbus, OH',
     h1: 'Columbus web design that turns visitors into booked jobs',
     h2Exact: 'Columbus Web Design Company',
@@ -307,9 +307,9 @@ export const columbusLocations = [
   {
     ...BASE,
     citySlug: 'columbus', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Columbus Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Columbus Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Columbus website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across Dublin, Westerville, and the full metro. Free audit.',
+      'Redesign your Columbus website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across Dublin, Westerville.',
     eyebrow: 'Website Redesign · Columbus, OH',
     h1: 'Redesign your Columbus website without losing your rankings',
     h2Exact: 'Columbus Website Redesign Company',
@@ -373,9 +373,9 @@ export const columbusLocations = [
 export const columbusCity = {
   citySlug: 'columbus', city: 'Columbus', state: 'Ohio', stateAbbr: 'OH', metro: 'Columbus',
 
-  titleTag: 'Columbus Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Columbus Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Columbus contractors. Get found, get booked, and own your leads — built for a fast-growing metro from Dublin to German Village. Free Columbus audit.',
+    'Web design, SEO, and local SEO for Columbus contractors. Get found, get booked, and own your leads — built for a fast-growing metro from Dublin to German.',
 
   eyebrow: 'Columbus · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Columbus contractors found and booked',

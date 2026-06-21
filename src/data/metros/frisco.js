@@ -111,7 +111,7 @@ export const friscoLocations = [
     citySlug: 'frisco', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Frisco Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Frisco and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Frisco and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Frisco-Collin County',
     h1: 'When Frisco searches for what you do, be the first name they find',
     h2Exact: 'Frisco Local SEO Company',
@@ -175,9 +175,9 @@ export const friscoLocations = [
   {
     ...BASE,
     citySlug: 'frisco', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Frisco SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Frisco SEO Company | OnwardCraft',
     metaDescription:
-      'Frisco SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hail-season demand. Free Frisco SEO audit.',
+      'Frisco SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hail-season demand.',
     eyebrow: 'SEO Services · Frisco-Collin County',
     h1: 'Get your Frisco business to the top of Google and keep it there',
     h2Exact: 'Frisco SEO Company',
@@ -243,7 +243,7 @@ export const friscoLocations = [
     citySlug: 'frisco', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Frisco Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Frisco web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hail-season demand. Transparent pricing, you own it all. Free quote.',
+      'Frisco web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hail-season demand.',
     eyebrow: 'Web Design · Frisco-Collin County',
     h1: 'Frisco web design that turns visitors into booked jobs',
     h2Exact: 'Frisco Web Design Company',
@@ -307,9 +307,9 @@ export const friscoLocations = [
   {
     ...BASE,
     citySlug: 'frisco', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Frisco Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Frisco Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Frisco website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season. Free audit.',
+      'Redesign your Frisco website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season.',
     eyebrow: 'Website Redesign · Frisco-Collin County',
     h1: 'Redesign your Frisco website without losing your rankings',
     h2Exact: 'Frisco Website Redesign Company',
@@ -373,9 +373,9 @@ export const friscoLocations = [
 export const friscoCity = {
   citySlug: 'frisco', city: 'Frisco', state: 'Texas', stateAbbr: 'TX', metro: 'Frisco-Collin County',
 
-  titleTag: 'Frisco Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Frisco Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Frisco contractors. Get found, get booked, and own your leads instead of renting them — built for hail-season demand. Free Frisco audit.',
+    'Web design, SEO, and local SEO for Frisco contractors. Get found, get booked, and own your leads instead of renting them — built for hail-season demand.',
 
   eyebrow: 'Frisco · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Frisco contractors found and booked',

@@ -111,7 +111,7 @@ export const lakelandLocations = [
     citySlug: 'lakeland', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Lakeland Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Lakeland and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Lakeland and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Polk County',
     h1: 'When Lakeland searches for what you do, be the first name they find',
     h2Exact: 'Lakeland Local SEO Company',
@@ -175,9 +175,9 @@ export const lakelandLocations = [
   {
     ...BASE,
     citySlug: 'lakeland', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Lakeland SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Lakeland SEO Company | OnwardCraft',
     metaDescription:
-      'Lakeland SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand. Free Lakeland SEO audit.',
+      'Lakeland SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand.',
     eyebrow: 'SEO Services · Polk County',
     h1: 'Get your Lakeland business to the top of Google and keep it there',
     h2Exact: 'Lakeland SEO Company',
@@ -241,9 +241,9 @@ export const lakelandLocations = [
   {
     ...BASE,
     citySlug: 'lakeland', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Lakeland Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Lakeland Web Design Company | OnwardCraft',
     metaDescription:
-      'Lakeland web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand. Transparent pricing, you own it all. Free quote.',
+      'Lakeland web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand.',
     eyebrow: 'Web Design · Polk County',
     h1: 'Lakeland web design that turns visitors into booked jobs',
     h2Exact: 'Lakeland Web Design Company',
@@ -307,9 +307,9 @@ export const lakelandLocations = [
   {
     ...BASE,
     citySlug: 'lakeland', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Lakeland Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Lakeland Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Lakeland website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your Lakeland website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
     eyebrow: 'Website Redesign · Polk County',
     h1: 'Redesign your Lakeland website without losing your rankings',
     h2Exact: 'Lakeland Website Redesign Company',
@@ -373,9 +373,9 @@ export const lakelandLocations = [
 export const lakelandCity = {
   citySlug: 'lakeland', city: 'Lakeland', state: 'Florida', stateAbbr: 'FL', metro: 'Lakeland-Winter Haven (Polk County)',
 
-  titleTag: 'Lakeland Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Lakeland Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Lakeland contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand. Free Lakeland audit.',
+    'Web design, SEO, and local SEO for Lakeland contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand.',
 
   eyebrow: 'Lakeland · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Lakeland contractors found and booked',

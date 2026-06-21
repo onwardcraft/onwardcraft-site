@@ -22,10 +22,10 @@ const MARKET = {
   donut: {
     title: 'Annual snowfall vs. rain events',
     value: 45,
-    centerLabel: 'annual snow inches',
+    centerLabel: 'winter-driven',
     legend: [
-      { label: 'Snow (inches)', pct: 45, kind: 'teal' },
-      { label: 'Rain events', pct: 55, kind: 'grey' },
+      { label: 'Winter emergency demand', pct: 45, kind: 'teal' },
+      { label: 'Rest of year', pct: 55, kind: 'grey' },
     ],
   },
   seasonTitle: 'When trade demand spikes in Spokane',
@@ -111,7 +111,7 @@ export const spokaneLocations = [
     citySlug: 'spokane', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Spokane Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Spokane and three businesses show up on the map. We get you into those three before the snow hits, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Spokane and three businesses show up on the map. We get you into those three before the snow hits, so the call lands with you.',
     eyebrow: 'Local SEO · Spokane, WA',
     h1: 'When Spokane searches for what you do in a cold snap, be the first name they find',
     h2Exact: 'Spokane Local SEO Company',
@@ -177,7 +177,7 @@ export const spokaneLocations = [
     citySlug: 'spokane', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Spokane SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Spokane SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Inland Northwest winters and wildfire season. Free audit.',
+      'Spokane SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Inland Northwest winters.',
     eyebrow: 'SEO Services · Spokane, WA',
     h1: 'Get your Spokane business to the top of Google before the busy season hits',
     h2Exact: 'Spokane SEO Company',
@@ -241,9 +241,9 @@ export const spokaneLocations = [
   {
     ...BASE,
     citySlug: 'spokane', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Spokane Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Spokane Web Design Company | OnwardCraft',
     metaDescription:
-      "Spokane web design that turns visitors into booked jobs — fast, mobile-first sites built for Inland Northwest contractors. Transparent pricing, you own it. Free quote.",
+      "Spokane web design that turns visitors into booked jobs — fast, mobile-first sites built for Inland Northwest contractors. Transparent pricing, you own it.",
     eyebrow: 'Web Design · Spokane, WA',
     h1: 'Spokane web design that turns visitors into booked jobs',
     h2Exact: 'Spokane Web Design Company',
@@ -307,7 +307,7 @@ export const spokaneLocations = [
   {
     ...BASE,
     citySlug: 'spokane', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Spokane Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Spokane Website Redesign | OnwardCraft',
     metaDescription:
       "Redesign your Spokane website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs before winter hits. Free audit.",
     eyebrow: 'Website Redesign · Spokane, WA',
@@ -373,9 +373,9 @@ export const spokaneLocations = [
 export const spokaneCity = {
   citySlug: 'spokane', city: 'Spokane', state: 'Washington', stateAbbr: 'WA', metro: 'Spokane',
 
-  titleTag: 'Spokane Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Spokane Marketing for Contractors | OnwardCraft',
   metaDescription:
-    "Web design, SEO, and local SEO for Spokane contractors. Get found before winter hits, own your leads instead of renting them — built for the Inland Northwest. Free Spokane audit.",
+    "Web design, SEO, and local SEO for Spokane contractors. Get found before winter hits, own your leads instead of renting them — built for the Inland Northwest.",
 
   eyebrow: 'Spokane · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Spokane contractors found before the season hits',

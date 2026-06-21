@@ -111,7 +111,7 @@ export const daytonLocations = [
     citySlug: 'dayton', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Dayton Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Dayton and three businesses show up on the map. We get you into those three — for PCS families, storm-season calls, and defense-area homeowners. Free audit.',
+      'Search your service in Dayton and three businesses show up on the map. We get you into those three — for PCS families, storm-season calls, and defense-area.',
     eyebrow: 'Local SEO · Dayton, OH',
     h1: 'When Dayton searches for what you do, be the first name they find',
     h2Exact: 'Dayton Local SEO Company',
@@ -177,7 +177,7 @@ export const daytonLocations = [
     citySlug: 'dayton', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Dayton SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Dayton SEO that ranks contractors on Google and brings in leads you own. Built for storm-season demand, PCS arrivals, and the defense-area research buyer. Free audit.',
+      'Dayton SEO that ranks contractors on Google and brings in leads you own. Built for storm-season demand, PCS arrivals, and the defense-area research buyer.',
     eyebrow: 'SEO Services · Dayton, OH',
     h1: 'Get your Dayton business to the top of Google and keep it there',
     h2Exact: 'Dayton SEO Company',
@@ -243,7 +243,7 @@ export const daytonLocations = [
     citySlug: 'dayton', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Dayton Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Dayton web design that turns visitors into booked jobs — mobile-first sites built for contractors serving military families, defense-area professionals, and storm-season demand. Free quote.',
+      'Dayton web design that turns visitors into booked jobs — mobile-first sites built for contractors serving military families, defense-area professionals,.',
     eyebrow: 'Web Design · Dayton, OH',
     h1: 'Dayton web design that turns visitors into booked jobs',
     h2Exact: 'Dayton Web Design Company',
@@ -307,9 +307,9 @@ export const daytonLocations = [
   {
     ...BASE,
     citySlug: 'dayton', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Dayton Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Dayton Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Dayton website without losing rankings. Faster, mobile-first rebuilds that convert military families, defense-area buyers, and storm-season homeowners. Free audit.',
+      'Redesign your Dayton website without losing rankings. Faster, mobile-first rebuilds that convert military families, defense-area buyers, and storm-season.',
     eyebrow: 'Website Redesign · Dayton, OH',
     h1: 'Redesign your Dayton website without losing your rankings',
     h2Exact: 'Dayton Website Redesign Company',
@@ -373,9 +373,9 @@ export const daytonLocations = [
 export const daytonCity = {
   citySlug: 'dayton', city: 'Dayton', state: 'Ohio', stateAbbr: 'OH', metro: 'Dayton',
 
-  titleTag: 'Dayton Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Dayton Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Dayton contractors. Get found by military families arriving on PCS orders, defense-area professionals, and storm-season homeowners — and own your leads. Free audit.',
+    'Web design, SEO, and local SEO for Dayton contractors. Get found by military families arriving on PCS orders, defense-area professionals, and storm-season.',
 
   eyebrow: 'Dayton, OH · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Dayton contractors found and booked',

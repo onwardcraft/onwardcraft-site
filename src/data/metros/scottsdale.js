@@ -111,9 +111,9 @@ export const scottsdaleLocations = [
   {
     ...BASE,
     citySlug: 'scottsdale', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Scottsdale Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Scottsdale Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Scottsdale and three businesses show up on the map. We get you into those three — HOA communities, luxury neighborhoods, pool and HVAC work. Free audit.',
+      'Search your service in Scottsdale and three businesses show up on the map. We get you into those three — HOA communities, luxury neighborhoods, pool and HVAC.',
     eyebrow: 'Local SEO · Scottsdale, AZ',
     h1: 'When Scottsdale searches for what you do, be the first name they find',
     h2Exact: 'Scottsdale Local SEO Company',
@@ -177,7 +177,7 @@ export const scottsdaleLocations = [
   {
     ...BASE,
     citySlug: 'scottsdale', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Scottsdale SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Scottsdale SEO Company | OnwardCraft',
     metaDescription:
       'Scottsdale SEO that ranks contractors on Google and brings in leads you own. Luxury-market targeting, HOA-aware content, no lock-in. Free Scottsdale SEO audit.',
     eyebrow: 'SEO Services · Scottsdale, AZ',
@@ -243,9 +243,9 @@ export const scottsdaleLocations = [
   {
     ...BASE,
     citySlug: 'scottsdale', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Scottsdale Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Scottsdale Web Design Company | OnwardCraft',
     metaDescription:
-      'Scottsdale web design that converts luxury homeowners into booked jobs — fast, mobile-first sites built for HOA communities, pool contractors, HVAC, and the East Valley. Free quote.',
+      'Scottsdale web design that converts luxury homeowners into booked jobs — fast, mobile-first sites built for HOA communities, pool contractors, HVAC, and.',
     eyebrow: 'Web Design · Scottsdale, AZ',
     h1: 'Scottsdale web design that turns luxury homeowners into booked jobs',
     h2Exact: 'Scottsdale Web Design Company',
@@ -309,7 +309,7 @@ export const scottsdaleLocations = [
   {
     ...BASE,
     citySlug: 'scottsdale', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Scottsdale Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Scottsdale Website Redesign | OnwardCraft',
     metaDescription:
       'Redesign your Scottsdale website without losing rankings. Faster, mobile-first rebuilds that convert luxury homeowners into booked jobs. Free audit.',
     eyebrow: 'Website Redesign · Scottsdale, AZ',
@@ -375,9 +375,9 @@ export const scottsdaleLocations = [
 export const scottsdaleCity = {
   citySlug: 'scottsdale', city: 'Scottsdale', state: 'Arizona', stateAbbr: 'AZ', metro: 'Scottsdale-Phoenix East Valley',
 
-  titleTag: 'Scottsdale Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Scottsdale Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Scottsdale contractors. Win luxury homeowners, HOA communities, pool and HVAC work — own your leads, no lock-in. Free Scottsdale audit.',
+    'Web design, SEO, and local SEO for Scottsdale contractors. Win luxury homeowners, HOA communities, pool and HVAC work — own your leads, no lock-in.',
 
   eyebrow: 'Scottsdale · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Scottsdale contractors found and booked',

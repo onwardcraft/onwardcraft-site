@@ -110,9 +110,9 @@ export const albuquerqueLocations = [
   {
     ...BASE,
     citySlug: 'albuquerque', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Albuquerque Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Albuquerque Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Albuquerque and three businesses show up on the map. We get you into those three — in English and Spanish — so the call lands with you. Free audit.',
+      'Search your service in Albuquerque and three businesses show up on the map. We get you into those three — in English and Spanish — so the call lands with you.',
     eyebrow: 'Local SEO · Albuquerque, NM',
     h1: 'When Albuquerque searches for what you do, be the first name they find',
     h2Exact: 'Albuquerque Local SEO Company',
@@ -176,9 +176,9 @@ export const albuquerqueLocations = [
   {
     ...BASE,
     citySlug: 'albuquerque', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Albuquerque SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Albuquerque SEO Company | OnwardCraft',
     metaDescription:
-      'Albuquerque SEO that ranks contractors on Google in English and Spanish, bringing in leads you own. Revenue-tied reporting, no lock-in, built for a desert market. Free audit.',
+      'Albuquerque SEO that ranks contractors on Google in English and Spanish, bringing in leads you own. Revenue-tied reporting, no lock-in, built for a desert.',
     eyebrow: 'SEO Services · Albuquerque, NM',
     h1: 'Get your Albuquerque business to the top of Google and keep it there',
     h2Exact: 'Albuquerque SEO Company',
@@ -242,9 +242,9 @@ export const albuquerqueLocations = [
   {
     ...BASE,
     citySlug: 'albuquerque', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Albuquerque Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Albuquerque Web Design Company | OnwardCraft',
     metaDescription:
-      'Albuquerque web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a desert market with Spanish-speaking homeowners. Free quote.',
+      'Albuquerque web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a desert market with Spanish-speaking.',
     eyebrow: 'Web Design · Albuquerque, NM',
     h1: 'Albuquerque web design that turns visitors into booked jobs',
     h2Exact: 'Albuquerque Web Design Company',
@@ -308,9 +308,9 @@ export const albuquerqueLocations = [
   {
     ...BASE,
     citySlug: 'albuquerque', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Albuquerque Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Albuquerque Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Albuquerque website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — in English and Spanish. Free audit.',
+      'Redesign your Albuquerque website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — in English and Spanish.',
     eyebrow: 'Website Redesign · Albuquerque, NM',
     h1: 'Redesign your Albuquerque website without losing your rankings',
     h2Exact: 'Albuquerque Website Redesign Company',
@@ -374,9 +374,9 @@ export const albuquerqueLocations = [
 export const albuquerqueCity = {
   citySlug: 'albuquerque', city: 'Albuquerque', state: 'New Mexico', stateAbbr: 'NM', metro: 'Albuquerque',
 
-  titleTag: 'Albuquerque Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Albuquerque Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Albuquerque contractors. Rank in English and Spanish, capture monsoon-season demand, and own your leads. Free Albuquerque audit.',
+    'Web design, SEO, and local SEO for Albuquerque contractors. Rank in English and Spanish, capture monsoon-season demand, and own your leads.',
 
   eyebrow: 'Albuquerque · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Albuquerque contractors found and booked',

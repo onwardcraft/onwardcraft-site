@@ -111,7 +111,7 @@ export const ashevilleLocations = [
     citySlug: 'asheville', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Asheville Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Asheville and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Asheville and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Asheville',
     h1: 'When Asheville searches for what you do, be the first name they find',
     h2Exact: 'Asheville Local SEO Company',
@@ -175,9 +175,9 @@ export const ashevilleLocations = [
   {
     ...BASE,
     citySlug: 'asheville', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Asheville SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Asheville SEO Company | OnwardCraft',
     metaDescription:
-      'Asheville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Helene rebuilding demand. Free SEO audit.',
+      'Asheville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Helene rebuilding demand.',
     eyebrow: 'SEO Services · Asheville',
     h1: 'Get your Asheville business to the top of Google and keep it there',
     h2Exact: 'Asheville SEO Company',
@@ -241,9 +241,9 @@ export const ashevilleLocations = [
   {
     ...BASE,
     citySlug: 'asheville', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Asheville Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Asheville Web Design Company | OnwardCraft',
     metaDescription:
-      'Asheville web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Helene rebuilding demand. Transparent pricing, you own it all. Free quote.',
+      'Asheville web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Helene rebuilding demand.',
     eyebrow: 'Web Design · Asheville',
     h1: 'Asheville web design that turns visitors into booked jobs',
     h2Exact: 'Asheville Web Design Company',
@@ -307,9 +307,9 @@ export const ashevilleLocations = [
   {
     ...BASE,
     citySlug: 'asheville', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Asheville Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Asheville Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Asheville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up under rebuilding demand. Free audit.',
+      'Redesign your Asheville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up under.',
     eyebrow: 'Website Redesign · Asheville',
     h1: 'Redesign your Asheville website without losing your rankings',
     h2Exact: 'Asheville Website Redesign Company',
@@ -373,9 +373,9 @@ export const ashevilleLocations = [
 export const ashevilleCity = {
   citySlug: 'asheville', city: 'Asheville', state: 'North Carolina', stateAbbr: 'NC', metro: 'Asheville',
 
-  titleTag: 'Asheville Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Asheville Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Asheville contractors. Get found, get booked, and own your leads instead of renting them — built for Helene rebuilding demand. Free audit.',
+    'Web design, SEO, and local SEO for Asheville contractors. Get found, get booked, and own your leads instead of renting them — built for Helene rebuilding.',
 
   eyebrow: 'Asheville · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Asheville contractors found and booked',

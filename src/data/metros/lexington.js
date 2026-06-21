@@ -110,9 +110,9 @@ export const lexingtonLocations = [
   {
     ...BASE,
     citySlug: 'lexington', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Lexington KY Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Lexington KY Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Lexington and three businesses show up on the map. We get you into those three, so the call lands with you — not a competitor. Free Lexington audit.',
+      'Search your service in Lexington and three businesses show up on the map. We get you into those three, so the call lands with you — not a competitor.',
     eyebrow: 'Local SEO · Lexington, KY',
     h1: 'When Lexington searches for what you do, be the first name they find',
     h2Exact: 'Lexington Local SEO Company',
@@ -176,9 +176,9 @@ export const lexingtonLocations = [
   {
     ...BASE,
     citySlug: 'lexington', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Lexington KY SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Lexington KY SEO Company | OnwardCraft',
     metaDescription:
-      'Lexington SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a bluegrass market. Free Lexington SEO audit.',
+      'Lexington SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a bluegrass market.',
     eyebrow: 'SEO Services · Lexington, KY',
     h1: 'Get your Lexington business to the top of Google and keep it there',
     h2Exact: 'Lexington SEO Company',
@@ -242,9 +242,9 @@ export const lexingtonLocations = [
   {
     ...BASE,
     citySlug: 'lexington', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Lexington KY Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Lexington KY Web Design Company | OnwardCraft',
     metaDescription:
-      'Lexington web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving the bluegrass market. Transparent pricing, you own it. Free quote.',
+      'Lexington web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving the bluegrass market.',
     eyebrow: 'Web Design · Lexington, KY',
     h1: 'Lexington web design that turns visitors into booked jobs',
     h2Exact: 'Lexington Web Design Company',
@@ -308,9 +308,9 @@ export const lexingtonLocations = [
   {
     ...BASE,
     citySlug: 'lexington', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Lexington KY Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Lexington KY Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Lexington website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across the bluegrass market. Free audit.',
+      'Redesign your Lexington website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across the bluegrass.',
     eyebrow: 'Website Redesign · Lexington, KY',
     h1: 'Redesign your Lexington website without losing your rankings',
     h2Exact: 'Lexington Website Redesign Company',
@@ -374,9 +374,9 @@ export const lexingtonLocations = [
 export const lexingtonCity = {
   citySlug: 'lexington', city: 'Lexington', state: 'Kentucky', stateAbbr: 'KY', metro: 'Lexington',
 
-  titleTag: 'Lexington KY Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Lexington KY Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Lexington contractors. Get found across the bluegrass market, own your leads, and stop renting them — built for Kentucky. Free Lexington audit.',
+    'Web design, SEO, and local SEO for Lexington contractors. Get found across the bluegrass market, own your leads, and stop renting them — built for Kentucky.',
 
   eyebrow: 'Lexington, KY · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Lexington contractors found and booked',

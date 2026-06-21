@@ -109,9 +109,9 @@ export const burlingtonLocations = [
   {
     ...BASE,
     citySlug: 'burlington', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Burlington Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Burlington Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Burlington and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Burlington and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Burlington VT',
     h1: 'When Burlington searches for what you do, be the first name they find',
     h2Exact: 'Burlington Local SEO Company',
@@ -175,9 +175,9 @@ export const burlingtonLocations = [
   {
     ...BASE,
     citySlug: 'burlington', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Burlington SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Burlington SEO Company | OnwardCraft',
     metaDescription:
-      'Burlington SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for winter-season demand. Free Burlington SEO audit.',
+      'Burlington SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for winter-season demand.',
     eyebrow: 'SEO Services · Burlington VT',
     h1: 'Get your Burlington business to the top of Google and keep it there',
     h2Exact: 'Burlington SEO Company',
@@ -241,9 +241,9 @@ export const burlingtonLocations = [
   {
     ...BASE,
     citySlug: 'burlington', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Burlington Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Burlington Web Design Company | OnwardCraft',
     metaDescription:
-      'Burlington web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and winter-season demand. Transparent pricing, you own it all. Free quote.',
+      'Burlington web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and winter-season demand.',
     eyebrow: 'Web Design · Burlington VT',
     h1: 'Burlington web design that turns visitors into booked jobs',
     h2Exact: 'Burlington Web Design Company',
@@ -307,9 +307,9 @@ export const burlingtonLocations = [
   {
     ...BASE,
     citySlug: 'burlington', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Burlington Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Burlington Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Burlington website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter. Free audit.',
+      'Redesign your Burlington website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter.',
     eyebrow: 'Website Redesign · Burlington VT',
     h1: 'Redesign your Burlington website without losing your rankings',
     h2Exact: 'Burlington Website Redesign Company',
@@ -373,9 +373,9 @@ export const burlingtonLocations = [
 export const burlingtonCity = {
   citySlug: 'burlington', city: 'Burlington', state: 'Vermont', stateAbbr: 'VT', metro: 'Burlington-South Burlington',
 
-  titleTag: 'Burlington Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Burlington Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Burlington contractors. Get found, get booked, and own your leads instead of renting them — built for winter-season demand. Free Burlington audit.',
+    'Web design, SEO, and local SEO for Burlington contractors. Get found, get booked, and own your leads instead of renting them — built for winter-season demand.',
 
   eyebrow: 'Burlington · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Burlington contractors found and booked',

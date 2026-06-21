@@ -21,6 +21,10 @@ const sameCity = locations.filter(
   (l) => l.citySlug === loc.citySlug && l.serviceSlug !== loc.serviceSlug
 );
 
+// Donut: unit defaults to '%'; ring fill is clamped so values >100 don't overflow.
+const donutUnit = loc.localMarket.donut.unit ?? '%';
+const donutFill = Math.min(loc.localMarket.donut.value, 100);
+
 // ── Ranking-climb line chart geometry (illustrative projection) ──
 const rt = loc.proof.rankTrajectory;
 const W = 320, H = 150, padX = 22, padT = 18, padB = 26;
@@ -148,15 +152,15 @@ const schema = [
               <span class="viz-title">{loc.localMarket.donut.title}</span>
               <div class="donut-wrap">
                 <div class="donut-figure">
-                  <div class="donut" style={`--pct:${loc.localMarket.donut.value}`}></div>
+                  <div class="donut" style={`--pct:${donutFill}`}></div>
                   <div class="donut-center">
-                    <strong>{loc.localMarket.donut.value}%</strong>
+                    <strong>{loc.localMarket.donut.value}{donutUnit}</strong>
                     <span>{loc.localMarket.donut.centerLabel}</span>
                   </div>
                 </div>
                 <ul class="donut-legend">
                   {loc.localMarket.donut.legend.map((g) => (
-                    <li><span class={`dot dot-${g.kind}`}></span>{g.label} · {g.pct}%</li>
+                    <li><span class={`dot dot-${g.kind}`}></span>{g.label} · {g.pct}{donutUnit}</li>
                   ))}
                 </ul>
               </div>
@@ -254,7 +258,7 @@ const schema = [
         <div class="service-grid">
           {loc.services.map((s) => (
             <div class={`service-card${s.featured ? ' service-card-featured' : ''}`}>
-              {s.featured && <span class="service-tag">Miami edge</span>}
+              {s.featured && <span class="service-tag">{loc.city} edge</span>}
               <h3>{s.name}</h3>
               <p>{s.desc}</p>
             </div>

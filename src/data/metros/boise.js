@@ -111,7 +111,7 @@ export const boiseLocations = [
     citySlug: 'boise', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Boise Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Boise and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Boise and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Boise, Idaho',
     h1: 'When Boise searches for what you do, be the first name they find',
     h2Exact: 'Boise Local SEO Company',
@@ -177,7 +177,7 @@ export const boiseLocations = [
     citySlug: 'boise', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Boise SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Boise SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market. Free Boise SEO audit.',
+      'Boise SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market.',
     eyebrow: 'SEO Services · Boise, Idaho',
     h1: 'Get your Boise business to the top of Google and keep it there',
     h2Exact: 'Boise SEO Company',
@@ -243,7 +243,7 @@ export const boiseLocations = [
     citySlug: 'boise', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Boise Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Boise web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing market. Transparent pricing, you own it. Free quote.',
+      'Boise web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing market.',
     eyebrow: 'Web Design · Boise, Idaho',
     h1: 'Boise web design that turns visitors into booked jobs',
     h2Exact: 'Boise Web Design Company',
@@ -307,9 +307,9 @@ export const boiseLocations = [
   {
     ...BASE,
     citySlug: 'boise', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Boise Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Boise Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Boise website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing market. Free audit.',
+      'Redesign your Boise website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing market.',
     eyebrow: 'Website Redesign · Boise, Idaho',
     h1: 'Redesign your Boise website without losing your rankings',
     h2Exact: 'Boise Website Redesign Company',
@@ -373,9 +373,9 @@ export const boiseLocations = [
 export const boiseCity = {
   citySlug: 'boise', city: 'Boise', state: 'Idaho', stateAbbr: 'ID', metro: 'Boise',
 
-  titleTag: 'Boise Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Boise Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Boise contractors. Get found, get booked, and own your leads instead of renting them — built for a fast-growing Treasure Valley market. Free Boise audit.',
+    'Web design, SEO, and local SEO for Boise contractors. Get found, get booked, and own your leads instead of renting them — built for a fast-growing Treasure.',
 
   eyebrow: 'Boise · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Boise contractors found and booked',

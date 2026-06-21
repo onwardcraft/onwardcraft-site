@@ -21,11 +21,11 @@ const MARKET = {
   pullQuote: 'In a city hammered by 74 inches of lake-effect snow a year, the contractor already ranked when the storm hits is the one whose phone rings.',
   donut: {
     title: 'Lake-effect snow burden',
-    value: 74,
-    centerLabel: 'annual snow inches',
+    value: 58,
+    centerLabel: 'winter-driven',
     legend: [
-      { label: 'Snow (in)', pct: 74, kind: 'teal' },
-      { label: 'Other precip', pct: 26, kind: 'grey' },
+      { label: 'Winter emergency demand', pct: 58, kind: 'teal' },
+      { label: 'Rest of year', pct: 42, kind: 'grey' },
     ],
   },
   seasonTitle: 'When trade demand spikes in Grand Rapids',
@@ -109,9 +109,9 @@ export const grandRapidsLocations = [
   {
     ...BASE,
     citySlug: 'grand-rapids', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Grand Rapids Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Grand Rapids Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Grand Rapids and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Grand Rapids and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Grand Rapids, MI',
     h1: 'When Grand Rapids searches for what you do, be the first name they find',
     h2Exact: 'Grand Rapids Local SEO Company',
@@ -175,9 +175,9 @@ export const grandRapidsLocations = [
   {
     ...BASE,
     citySlug: 'grand-rapids', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Grand Rapids SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Grand Rapids SEO Company | OnwardCraft',
     metaDescription:
-      'Grand Rapids SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for West Michigan. Free Grand Rapids SEO audit.',
+      'Grand Rapids SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for West Michigan.',
     eyebrow: 'SEO Services · Grand Rapids, MI',
     h1: 'Get your Grand Rapids business to the top of Google and keep it there',
     h2Exact: 'Grand Rapids SEO Company',
@@ -241,9 +241,9 @@ export const grandRapidsLocations = [
   {
     ...BASE,
     citySlug: 'grand-rapids', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Grand Rapids Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Grand Rapids Web Design Company | OnwardCraft',
     metaDescription:
-      'Grand Rapids web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in West Michigan. Transparent pricing, you own it. Free quote.',
+      'Grand Rapids web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in West Michigan.',
     eyebrow: 'Web Design · Grand Rapids, MI',
     h1: 'Grand Rapids web design that turns visitors into booked jobs',
     h2Exact: 'Grand Rapids Web Design Company',
@@ -307,9 +307,9 @@ export const grandRapidsLocations = [
   {
     ...BASE,
     citySlug: 'grand-rapids', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Grand Rapids Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Grand Rapids Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Grand Rapids website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in West Michigan. Free audit.',
+      'Redesign your Grand Rapids website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in West Michigan.',
     eyebrow: 'Website Redesign · Grand Rapids, MI',
     h1: 'Redesign your Grand Rapids website without losing your rankings',
     h2Exact: 'Grand Rapids Website Redesign Company',
@@ -373,9 +373,9 @@ export const grandRapidsLocations = [
 export const grandRapidsCity = {
   citySlug: 'grand-rapids', city: 'Grand Rapids', state: 'Michigan', stateAbbr: 'MI', metro: 'Grand Rapids',
 
-  titleTag: 'Grand Rapids Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Grand Rapids Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Grand Rapids contractors. Get found, get booked, and own your leads instead of renting them — built for West Michigan winters and suburban growth. Free Grand Rapids audit.',
+    'Web design, SEO, and local SEO for Grand Rapids contractors. Get found, get booked, and own your leads instead of renting them — built for West Michigan.',
 
   eyebrow: 'Grand Rapids · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Grand Rapids contractors found and booked',

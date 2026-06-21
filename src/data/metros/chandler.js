@@ -111,7 +111,7 @@ export const chandlerLocations = [
     citySlug: 'chandler', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Chandler Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Chandler and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Chandler and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Chandler-East Valley',
     h1: 'When Chandler searches for what you do, be the first name they find',
     h2Exact: 'Chandler Local SEO Company',
@@ -175,9 +175,9 @@ export const chandlerLocations = [
   {
     ...BASE,
     citySlug: 'chandler', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Chandler SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Chandler SEO Company | OnwardCraft',
     metaDescription:
-      'Chandler SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for desert-heat and monsoon demand. Free audit.',
+      'Chandler SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for desert-heat and monsoon.',
     eyebrow: 'SEO Services · Chandler-East Valley',
     h1: 'Get your Chandler business to the top of Google and keep it there',
     h2Exact: 'Chandler SEO Company',
@@ -241,9 +241,9 @@ export const chandlerLocations = [
   {
     ...BASE,
     citySlug: 'chandler', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Chandler Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Chandler Web Design Company | OnwardCraft',
     metaDescription:
-      'Chandler web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and desert-heat demand. Transparent pricing, you own it all. Free quote.',
+      'Chandler web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and desert-heat demand.',
     eyebrow: 'Web Design · Chandler-East Valley',
     h1: 'Chandler web design that turns visitors into booked jobs',
     h2Exact: 'Chandler Web Design Company',
@@ -307,9 +307,9 @@ export const chandlerLocations = [
   {
     ...BASE,
     citySlug: 'chandler', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Chandler Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Chandler Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Chandler website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in desert heat. Free audit.',
+      'Redesign your Chandler website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in desert heat.',
     eyebrow: 'Website Redesign · Chandler-East Valley',
     h1: 'Redesign your Chandler website without losing your rankings',
     h2Exact: 'Chandler Website Redesign Company',
@@ -373,9 +373,9 @@ export const chandlerLocations = [
 export const chandlerCity = {
   citySlug: 'chandler', city: 'Chandler', state: 'Arizona', stateAbbr: 'AZ', metro: 'Chandler-East Valley',
 
-  titleTag: 'Chandler Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Chandler Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Chandler contractors. Get found, get booked, and own your leads instead of renting them — built for desert-heat demand. Free Chandler audit.',
+    'Web design, SEO, and local SEO for Chandler contractors. Get found, get booked, and own your leads instead of renting them — built for desert-heat demand.',
 
   eyebrow: 'Chandler · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Chandler contractors found and booked',

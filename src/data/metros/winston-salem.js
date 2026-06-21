@@ -110,9 +110,9 @@ export const winstonSalemLocations = [
   {
     ...BASE,
     citySlug: "winston-salem", serviceSlug: "local-seo", service: "Local SEO",
-    titleTag: "Winston-Salem Local SEO Company | Win the Map Pack | OnwardCraft",
+    titleTag: "Winston-Salem Local SEO Company | OnwardCraft",
     metaDescription:
-      "Search your service in Winston-Salem and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.",
+      "Search your service in Winston-Salem and three businesses show up on the map. We get you into those three, so the call lands with you.",
     eyebrow: "Local SEO · Winston-Salem",
     h1: "When Winston-Salem searches for what you do, be the first name they find",
     h2Exact: "Winston-Salem Local SEO Company",
@@ -176,9 +176,9 @@ export const winstonSalemLocations = [
   {
     ...BASE,
     citySlug: "winston-salem", serviceSlug: "seo-services", service: "SEO Services",
-    titleTag: "Winston-Salem SEO Company | Rank Higher, Get More Leads | OnwardCraft",
+    titleTag: "Winston-Salem SEO Company | OnwardCraft",
     metaDescription:
-      "Winston-Salem SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Piedmont seasonal demand. Free audit.",
+      "Winston-Salem SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Piedmont seasonal.",
     eyebrow: "SEO Services · Winston-Salem",
     h1: "Get your Winston-Salem business to the top of Google and keep it there",
     h2Exact: "Winston-Salem SEO Company",
@@ -242,9 +242,9 @@ export const winstonSalemLocations = [
   {
     ...BASE,
     citySlug: "winston-salem", serviceSlug: "web-design", service: "Web Design",
-    titleTag: "Winston-Salem Web Design Company | Sites That Convert | OnwardCraft",
+    titleTag: "Winston-Salem Web Design Company | OnwardCraft",
     metaDescription:
-      "Winston-Salem web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Piedmont seasonal demand. Transparent pricing, you own it all. Free quote.",
+      "Winston-Salem web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Piedmont seasonal demand.",
     eyebrow: "Web Design · Winston-Salem",
     h1: "Winston-Salem web design that turns visitors into booked jobs",
     h2Exact: "Winston-Salem Web Design Company",
@@ -308,9 +308,9 @@ export const winstonSalemLocations = [
   {
     ...BASE,
     citySlug: "winston-salem", serviceSlug: "website-redesign", service: "Website Redesign",
-    titleTag: "Winston-Salem Website Redesign | More Leads, No Traffic Loss | OnwardCraft",
+    titleTag: "Winston-Salem Website Redesign | OnwardCraft",
     metaDescription:
-      "Redesign your Winston-Salem website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in Piedmont seasonal surges. Free audit.",
+      "Redesign your Winston-Salem website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in Piedmont.",
     eyebrow: "Website Redesign · Winston-Salem",
     h1: "Redesign your Winston-Salem website without losing your rankings",
     h2Exact: "Winston-Salem Website Redesign Company",
@@ -374,9 +374,9 @@ export const winstonSalemLocations = [
 export const winstonSalemCity = {
   citySlug: "winston-salem", city: "Winston-Salem", state: "North Carolina", stateAbbr: "NC", metro: "Winston-Salem",
 
-  titleTag: "Winston-Salem Marketing for Contractors | Web, SEO & Leads | OnwardCraft",
+  titleTag: "Winston-Salem Marketing for Contractors | OnwardCraft",
   metaDescription:
-    "Web design, SEO, and local SEO for Winston-Salem contractors. Get found, get booked, and own your leads instead of renting them — built for Piedmont seasonal demand. Free audit.",
+    "Web design, SEO, and local SEO for Winston-Salem contractors. Get found, get booked, and own your leads instead of renting them — built for Piedmont seasonal.",
 
   eyebrow: "Winston-Salem · Web Design, SEO & Lead Generation",
   h1: "Marketing that gets Winston-Salem contractors found and booked",

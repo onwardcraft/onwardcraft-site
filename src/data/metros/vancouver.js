@@ -112,9 +112,9 @@ export const vancouverLocations = [
   {
     ...BASE,
     citySlug: 'vancouver', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Vancouver WA Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Vancouver WA Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Vancouver WA and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Vancouver WA and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Vancouver WA',
     h1: 'When Vancouver searches for what you do, be the first name they find',
     h2Exact: 'Vancouver WA Local SEO Company',
@@ -178,9 +178,9 @@ export const vancouverLocations = [
   {
     ...BASE,
     citySlug: 'vancouver', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Vancouver WA SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Vancouver WA SEO Company | OnwardCraft',
     metaDescription:
-      'Vancouver WA SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market. Free SEO audit.',
+      'Vancouver WA SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market.',
     eyebrow: 'SEO Services · Vancouver WA',
     h1: 'Get your Vancouver business to the top of Google and keep it there',
     h2Exact: 'Vancouver WA SEO Company',
@@ -244,9 +244,9 @@ export const vancouverLocations = [
   {
     ...BASE,
     citySlug: 'vancouver', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Vancouver WA Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Vancouver WA Web Design Company | OnwardCraft',
     metaDescription:
-      'Vancouver WA web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing market. Transparent pricing, you own it all. Free quote.',
+      'Vancouver WA web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing market.',
     eyebrow: 'Web Design · Vancouver WA',
     h1: 'Vancouver web design that turns visitors into booked jobs',
     h2Exact: 'Vancouver WA Web Design Company',
@@ -310,9 +310,9 @@ export const vancouverLocations = [
   {
     ...BASE,
     citySlug: 'vancouver', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Vancouver WA Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Vancouver WA Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Vancouver WA website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing market. Free audit.',
+      'Redesign your Vancouver WA website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing.',
     eyebrow: 'Website Redesign · Vancouver WA',
     h1: 'Redesign your Vancouver website without losing your rankings',
     h2Exact: 'Vancouver WA Website Redesign Company',
@@ -376,9 +376,9 @@ export const vancouverLocations = [
 export const vancouverCity = {
   citySlug: 'vancouver', city: 'Vancouver', state: 'Washington', stateAbbr: 'WA', metro: 'Vancouver WA-Clark County',
 
-  titleTag: 'Vancouver WA Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Vancouver WA Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Vancouver WA contractors. Get found, get booked, and own your leads instead of renting them — built for a fast-growing market. Free audit.',
+    'Web design, SEO, and local SEO for Vancouver WA contractors. Get found, get booked, and own your leads instead of renting them — built for a fast-growing.',
 
   eyebrow: 'Vancouver WA · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Vancouver contractors found and booked',

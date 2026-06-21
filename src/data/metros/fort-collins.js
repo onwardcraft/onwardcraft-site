@@ -109,9 +109,9 @@ export const fortCollinsLocations = [
   {
     ...BASE,
     citySlug: 'fort-collins', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Fort Collins Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Fort Collins Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Fort Collins and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Fort Collins and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Fort Collins-Loveland',
     h1: 'When Fort Collins searches for what you do, be the first name they find',
     h2Exact: 'Fort Collins Local SEO Company',
@@ -175,9 +175,9 @@ export const fortCollinsLocations = [
   {
     ...BASE,
     citySlug: 'fort-collins', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Fort Collins SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Fort Collins SEO Company | OnwardCraft',
     metaDescription:
-      'Fort Collins SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Front Range hail demand. Free audit.',
+      'Fort Collins SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Front Range hail.',
     eyebrow: 'SEO Services · Fort Collins-Loveland',
     h1: 'Get your Fort Collins business to the top of Google and keep it there',
     h2Exact: 'Fort Collins SEO Company',
@@ -241,9 +241,9 @@ export const fortCollinsLocations = [
   {
     ...BASE,
     citySlug: 'fort-collins', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Fort Collins Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Fort Collins Web Design Company | OnwardCraft',
     metaDescription:
-      'Fort Collins web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Front Range hail season. Transparent pricing, you own it all. Free quote.',
+      'Fort Collins web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Front Range hail season.',
     eyebrow: 'Web Design · Fort Collins-Loveland',
     h1: 'Fort Collins web design that turns visitors into booked jobs',
     h2Exact: 'Fort Collins Web Design Company',
@@ -307,9 +307,9 @@ export const fortCollinsLocations = [
   {
     ...BASE,
     citySlug: 'fort-collins', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Fort Collins Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Fort Collins Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Fort Collins website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season. Free audit.',
+      'Redesign your Fort Collins website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail.',
     eyebrow: 'Website Redesign · Fort Collins-Loveland',
     h1: 'Redesign your Fort Collins website without losing your rankings',
     h2Exact: 'Fort Collins Website Redesign Company',
@@ -373,9 +373,9 @@ export const fortCollinsLocations = [
 export const fortCollinsCity = {
   citySlug: 'fort-collins', city: 'Fort Collins', state: 'Colorado', stateAbbr: 'CO', metro: 'Fort Collins-Loveland',
 
-  titleTag: 'Fort Collins Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Fort Collins Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Fort Collins contractors. Get found, get booked, and own your leads instead of renting them — built for Front Range hail demand. Free audit.',
+    'Web design, SEO, and local SEO for Fort Collins contractors. Get found, get booked, and own your leads instead of renting them — built for Front Range hail.',
 
   eyebrow: 'Fort Collins · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Fort Collins contractors found and booked',

@@ -111,7 +111,7 @@ export const anaheimLocations = [
     citySlug: 'anaheim', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Anaheim Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Anaheim and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Anaheim and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Anaheim-Orange County',
     h1: 'When Anaheim searches for what you do, be the first name they find',
     h2Exact: 'Anaheim Local SEO Company',
@@ -175,9 +175,9 @@ export const anaheimLocations = [
   {
     ...BASE,
     citySlug: 'anaheim', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Anaheim SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Anaheim SEO Company | OnwardCraft',
     metaDescription:
-      'Anaheim SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Orange County demand. Free Anaheim SEO audit.',
+      'Anaheim SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Orange County demand.',
     eyebrow: 'SEO Services · Anaheim-Orange County',
     h1: 'Get your Anaheim business to the top of Google and keep it there',
     h2Exact: 'Anaheim SEO Company',
@@ -241,9 +241,9 @@ export const anaheimLocations = [
   {
     ...BASE,
     citySlug: 'anaheim', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Anaheim Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Anaheim Web Design Company | OnwardCraft',
     metaDescription:
-      'Anaheim web design that turns visitors into booked jobs — fast, mobile-first, bilingual-ready sites built for Orange County contractors. Transparent pricing, you own it all. Free quote.',
+      'Anaheim web design that turns visitors into booked jobs — fast, mobile-first, bilingual-ready sites built for Orange County contractors.',
     eyebrow: 'Web Design · Anaheim-Orange County',
     h1: 'Anaheim web design that turns visitors into booked jobs',
     h2Exact: 'Anaheim Web Design Company',
@@ -307,9 +307,9 @@ export const anaheimLocations = [
   {
     ...BASE,
     citySlug: 'anaheim', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Anaheim Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Anaheim Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Anaheim website without losing rankings. Faster, mobile-first, bilingual-ready rebuilds that convert more Orange County visitors into booked jobs. Free audit.',
+      'Redesign your Anaheim website without losing rankings. Faster, mobile-first, bilingual-ready rebuilds that convert more Orange County visitors into booked.',
     eyebrow: 'Website Redesign · Anaheim-Orange County',
     h1: 'Redesign your Anaheim website without losing your rankings',
     h2Exact: 'Anaheim Website Redesign Company',
@@ -373,9 +373,9 @@ export const anaheimLocations = [
 export const anaheimCity = {
   citySlug: 'anaheim', city: 'Anaheim', state: 'California', stateAbbr: 'CA', metro: 'Anaheim-Orange County',
 
-  titleTag: 'Anaheim Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Anaheim Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Anaheim contractors. Get found, get booked, and own your leads instead of renting them — bilingual-ready for Orange County. Free Anaheim audit.',
+    'Web design, SEO, and local SEO for Anaheim contractors. Get found, get booked, and own your leads instead of renting them — bilingual-ready for Orange County.',
 
   eyebrow: 'Anaheim · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Anaheim contractors found and booked',

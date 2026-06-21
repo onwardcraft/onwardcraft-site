@@ -109,9 +109,9 @@ export const providenceLocations = [
   {
     ...BASE,
     citySlug: 'providence', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Providence Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Providence Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Providence and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Providence and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Providence, RI',
     h1: 'When Providence searches for what you do, be the first name they find',
     h2Exact: 'Providence Local SEO Company',
@@ -175,9 +175,9 @@ export const providenceLocations = [
   {
     ...BASE,
     citySlug: 'providence', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Providence SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Providence SEO Company | OnwardCraft',
     metaDescription:
-      'Providence SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for nor\'easter demand. Free Providence SEO audit.',
+      'Providence SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for nor\'easter demand.',
     eyebrow: 'SEO Services · Providence, RI',
     h1: 'Get your Providence business to the top of Google and keep it there',
     h2Exact: 'Providence SEO Company',
@@ -241,9 +241,9 @@ export const providenceLocations = [
   {
     ...BASE,
     citySlug: 'providence', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Providence Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Providence Web Design Company | OnwardCraft',
     metaDescription:
-      'Providence web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and nor\'easter demand. Transparent pricing, you own it all. Free quote.',
+      'Providence web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and nor\'easter demand.',
     eyebrow: 'Web Design · Providence, RI',
     h1: 'Providence web design that turns visitors into booked jobs',
     h2Exact: 'Providence Web Design Company',
@@ -307,9 +307,9 @@ export const providenceLocations = [
   {
     ...BASE,
     citySlug: 'providence', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Providence Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Providence Website Redesign | OnwardCraft',
     metaDescription:
-      "Redesign your Providence website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in nor'easter season. Free audit.",
+      "Redesign your Providence website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in nor'easter.",
     eyebrow: 'Website Redesign · Providence, RI',
     h1: 'Redesign your Providence website without losing your rankings',
     h2Exact: 'Providence Website Redesign Company',
@@ -373,9 +373,9 @@ export const providenceLocations = [
 export const providenceCity = {
   citySlug: 'providence', city: 'Providence', state: 'Rhode Island', stateAbbr: 'RI', metro: 'Providence',
 
-  titleTag: 'Providence Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Providence Marketing for Contractors | OnwardCraft',
   metaDescription:
-    "Web design, SEO, and local SEO for Providence contractors. Get found, get booked, and own your leads instead of renting them — built for nor'easter demand and historic-home renovation. Free Providence audit.",
+    "Web design, SEO, and local SEO for Providence contractors. Get found, get booked, and own your leads instead of renting them — built for nor'easter demand.",
 
   eyebrow: 'Providence · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Providence contractors found and booked',

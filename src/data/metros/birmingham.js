@@ -109,9 +109,9 @@ export const birminghamLocations = [
   {
     ...BASE,
     citySlug: 'birmingham', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Birmingham Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Birmingham Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Birmingham and three businesses show up on the map. We get you into those three — so the call lands with you after the next ice storm or tornado. Free audit.',
+      'Search your service in Birmingham and three businesses show up on the map. We get you into those three — so the call lands with you after the next ice storm.',
     eyebrow: 'Local SEO · Birmingham, AL',
     h1: 'When Birmingham searches for what you do, be the first name they find',
     h2Exact: 'Birmingham Local SEO Company',
@@ -175,9 +175,9 @@ export const birminghamLocations = [
   {
     ...BASE,
     citySlug: 'birmingham', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Birmingham SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Birmingham SEO Company | OnwardCraft',
     metaDescription:
-      'Birmingham SEO for contractors — rank on Google before ice storm and tornado season, own your leads, and stop paying for shared Angi referrals. Free Birmingham SEO audit.',
+      'Birmingham SEO for contractors — rank on Google before ice storm and tornado season, own your leads, and stop paying for shared Angi referrals.',
     eyebrow: 'SEO Services · Birmingham, AL',
     h1: 'Get your Birmingham business to the top of Google and keep it there',
     h2Exact: 'Birmingham SEO Company',
@@ -241,9 +241,9 @@ export const birminghamLocations = [
   {
     ...BASE,
     citySlug: 'birmingham', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Birmingham Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Birmingham Web Design Company | OnwardCraft',
     metaDescription:
-      'Birmingham web design for contractors — fast, mobile-first sites that convert storm-restoration and renovation leads into booked jobs. Transparent pricing, you own it. Free quote.',
+      'Birmingham web design for contractors — fast, mobile-first sites that convert storm-restoration and renovation leads into booked jobs.',
     eyebrow: 'Web Design · Birmingham, AL',
     h1: 'Birmingham web design that turns visitors into booked jobs',
     h2Exact: 'Birmingham Web Design Company',
@@ -307,9 +307,9 @@ export const birminghamLocations = [
   {
     ...BASE,
     citySlug: 'birmingham', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Birmingham Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Birmingham Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Birmingham contractor website without losing rankings. Faster, mobile-first rebuilds that convert storm-restoration and renovation leads into booked jobs. Free audit.',
+      'Redesign your Birmingham contractor website without losing rankings. Faster, mobile-first rebuilds that convert storm-restoration and renovation leads into.',
     eyebrow: 'Website Redesign · Birmingham, AL',
     h1: 'Redesign your Birmingham website without losing your rankings',
     h2Exact: 'Birmingham Website Redesign Company',
@@ -373,9 +373,9 @@ export const birminghamLocations = [
 export const birminghamCity = {
   citySlug: 'birmingham', city: 'Birmingham', state: 'Alabama', stateAbbr: 'AL', metro: 'Birmingham',
 
-  titleTag: 'Birmingham Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Birmingham Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Birmingham contractors. Rank before ice storm and tornado season, own your leads, and stop paying for shared referrals. Free Birmingham audit.',
+    'Web design, SEO, and local SEO for Birmingham contractors. Rank before ice storm and tornado season, own your leads, and stop paying for shared referrals.',
 
   eyebrow: 'Birmingham · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Birmingham contractors found and booked',

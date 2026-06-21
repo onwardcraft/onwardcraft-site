@@ -109,9 +109,9 @@ export const tallahasseeLocations = [
   {
     ...BASE,
     citySlug: 'tallahassee', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Tallahassee Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Tallahassee Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Tallahassee and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Tallahassee and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Tallahassee',
     h1: 'When Tallahassee searches for what you do, be the first name they find',
     h2Exact: 'Tallahassee Local SEO Company',
@@ -175,9 +175,9 @@ export const tallahasseeLocations = [
   {
     ...BASE,
     citySlug: 'tallahassee', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Tallahassee SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Tallahassee SEO Company | OnwardCraft',
     metaDescription:
-      'Tallahassee SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hurricane-season demand. Free Tallahassee SEO audit.',
+      'Tallahassee SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hurricane-season demand.',
     eyebrow: 'SEO Services · Tallahassee',
     h1: 'Get your Tallahassee business to the top of Google and keep it there',
     h2Exact: 'Tallahassee SEO Company',
@@ -241,9 +241,9 @@ export const tallahasseeLocations = [
   {
     ...BASE,
     citySlug: 'tallahassee', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Tallahassee Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Tallahassee Web Design Company | OnwardCraft',
     metaDescription:
-      'Tallahassee web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hurricane-season demand. Transparent pricing, you own it all. Free quote.',
+      'Tallahassee web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hurricane-season demand.',
     eyebrow: 'Web Design · Tallahassee',
     h1: 'Tallahassee web design that turns visitors into booked jobs',
     h2Exact: 'Tallahassee Web Design Company',
@@ -307,9 +307,9 @@ export const tallahasseeLocations = [
   {
     ...BASE,
     citySlug: 'tallahassee', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Tallahassee Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Tallahassee Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Tallahassee website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hurricane season. Free audit.',
+      'Redesign your Tallahassee website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hurricane.',
     eyebrow: 'Website Redesign · Tallahassee',
     h1: 'Redesign your Tallahassee website without losing your rankings',
     h2Exact: 'Tallahassee Website Redesign Company',
@@ -373,9 +373,9 @@ export const tallahasseeLocations = [
 export const tallahasseeCity = {
   citySlug: 'tallahassee', city: 'Tallahassee', state: 'Florida', stateAbbr: 'FL', metro: 'Tallahassee',
 
-  titleTag: 'Tallahassee Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Tallahassee Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Tallahassee contractors. Get found, get booked, and own your leads instead of renting them — built for hurricane-season demand. Free Tallahassee audit.',
+    'Web design, SEO, and local SEO for Tallahassee contractors. Get found, get booked, and own your leads instead of renting them — built for hurricane-season.',
 
   eyebrow: 'Tallahassee · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Tallahassee contractors found and booked',

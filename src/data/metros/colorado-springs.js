@@ -111,7 +111,7 @@ export const coloradoSpringsLocations = [
     citySlug: 'colorado-springs', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Colorado Springs Local SEO | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Rank in the top three on Google Maps when Colorado Springs searches for your service. Military PCS arrivals, hail-storm surges, and wildfire rebuild work go to whoever shows up first. Free audit.',
+      'Rank in the top three on Google Maps when Colorado Springs searches for your service. Military PCS arrivals, hail-storm surges, and wildfire rebuild work go.',
     eyebrow: 'Local SEO · Colorado Springs, CO',
     h1: 'When Colorado Springs searches for what you do, be the first name they find',
     h2Exact: 'Colorado Springs Local SEO Company',
@@ -175,7 +175,7 @@ export const coloradoSpringsLocations = [
   {
     ...BASE,
     citySlug: 'colorado-springs', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Colorado Springs SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Colorado Springs SEO Company | OnwardCraft',
     metaDescription:
       'Colorado Springs SEO for contractors. Rank for hail-storm, military, and wildfire rebuild searches. Revenue-tied reporting, no lock-in. Free SEO audit.',
     eyebrow: 'SEO Services · Colorado Springs, CO',
@@ -241,9 +241,9 @@ export const coloradoSpringsLocations = [
   {
     ...BASE,
     citySlug: 'colorado-springs', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Colorado Springs Web Design | Sites That Convert | OnwardCraft',
+    titleTag: 'Colorado Springs Web Design | OnwardCraft',
     metaDescription:
-      'Web design for Colorado Springs contractors. Fast, mobile-first sites built to convert military PCS arrivals and hail-storm leads into booked jobs. Transparent pricing, you own it. Free quote.',
+      'Web design for Colorado Springs contractors. Fast, mobile-first sites built to convert military PCS arrivals and hail-storm leads into booked jobs.',
     eyebrow: 'Web Design · Colorado Springs, CO',
     h1: 'Colorado Springs web design that turns visitors into booked jobs',
     h2Exact: 'Colorado Springs Web Design Company',
@@ -307,9 +307,9 @@ export const coloradoSpringsLocations = [
   {
     ...BASE,
     citySlug: 'colorado-springs', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Colorado Springs Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Colorado Springs Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Colorado Springs website without losing rankings. Faster, mobile-first rebuilds that convert military families and hail-storm leads into booked jobs. Free audit.',
+      'Redesign your Colorado Springs website without losing rankings. Faster, mobile-first rebuilds that convert military families and hail-storm leads into booked.',
     eyebrow: 'Website Redesign · Colorado Springs, CO',
     h1: 'Redesign your Colorado Springs website without losing your rankings',
     h2Exact: 'Colorado Springs Website Redesign Company',
@@ -373,9 +373,9 @@ export const coloradoSpringsLocations = [
 export const coloradoSpringsCity = {
   citySlug: 'colorado-springs', city: 'Colorado Springs', state: 'Colorado', stateAbbr: 'CO', metro: 'Colorado Springs',
 
-  titleTag: 'Colorado Springs Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Colorado Springs Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Colorado Springs contractors. Get found by military PCS arrivals, hail-storm homeowners, and wildfire rebuild clients. Own your leads, no lock-in. Free audit.',
+    'Web design, SEO, and local SEO for Colorado Springs contractors. Get found by military PCS arrivals, hail-storm homeowners, and wildfire rebuild clients.',
 
   eyebrow: 'Colorado Springs · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Colorado Springs contractors found and booked',

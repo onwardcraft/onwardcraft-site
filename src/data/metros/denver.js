@@ -115,7 +115,7 @@ export const denverLocations = [
     citySlug: 'denver', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Denver Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Denver and three businesses show up on the map. We get you into those three so you catch every hailstorm surge. Honest pricing, no lock-in, free audit.',
+      'Search your service in Denver and three businesses show up on the map. We get you into those three so you catch every hailstorm surge.',
     eyebrow: 'Local SEO · Denver Metro',
     h1: 'When Denver searches for what you do, be the first name they find',
     h2Exact: 'Denver Local SEO Company',
@@ -179,9 +179,9 @@ export const denverLocations = [
   {
     ...BASE,
     citySlug: 'denver', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Denver SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Denver SEO Company | OnwardCraft',
     metaDescription:
-      'Denver SEO that ranks contractors on Google and brings in leads you own — built for hail season and a fast-growing market. Revenue-tied reporting, no lock-in. Free audit.',
+      'Denver SEO that ranks contractors on Google and brings in leads you own — built for hail season and a fast-growing market. Revenue-tied reporting, no lock-in.',
     eyebrow: 'SEO Services · Denver Metro',
     h1: 'Get your Denver business to the top of Google and keep it there',
     h2Exact: 'Denver SEO Company',
@@ -247,7 +247,7 @@ export const denverLocations = [
     citySlug: 'denver', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Denver Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Denver web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand. Transparent pricing, you own it all. Free quote.',
+      'Denver web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand.',
     eyebrow: 'Web Design · Denver Metro',
     h1: 'Denver web design that turns visitors into booked jobs',
     h2Exact: 'Denver Web Design Company',
@@ -311,9 +311,9 @@ export const denverLocations = [
   {
     ...BASE,
     citySlug: 'denver', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Denver Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Denver Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Denver website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and catch storm demand. Transparent pricing, free audit.',
+      'Redesign your Denver website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and catch storm demand.',
     eyebrow: 'Website Redesign · Denver Metro',
     h1: 'Redesign your Denver website without losing your rankings',
     h2Exact: 'Denver Website Redesign Company',
@@ -380,9 +380,9 @@ export const denverLocations = [
 export const denverCity = {
   citySlug: 'denver', city: 'Denver', state: 'Colorado', stateAbbr: 'CO', metro: 'Denver Metro',
 
-  titleTag: 'Denver Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Denver Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Denver contractors — built for hail season and a fast-growing metro. Get found, get booked, and own your leads. Free Denver audit.',
+    'Web design, SEO, and local SEO for Denver contractors — built for hail season and a fast-growing metro. Get found, get booked, and own your leads.',
 
   eyebrow: 'Denver · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Denver contractors found and booked',

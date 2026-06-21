@@ -110,7 +110,7 @@ export const jacksonLocations = [
     citySlug: 'jackson', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Jackson Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Jackson and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Jackson and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Jackson, MS',
     h1: 'When Jackson searches for what you do, be the first name they find',
     h2Exact: 'Jackson Local SEO Company',
@@ -174,9 +174,9 @@ export const jacksonLocations = [
   {
     ...BASE,
     citySlug: 'jackson', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Jackson SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Jackson SEO Company | OnwardCraft',
     metaDescription:
-      'Jackson SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand. Free Jackson SEO audit.',
+      'Jackson SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand.',
     eyebrow: 'SEO Services · Jackson, MS',
     h1: 'Get your Jackson business to the top of Google and keep it there',
     h2Exact: 'Jackson SEO Company',
@@ -240,9 +240,9 @@ export const jacksonLocations = [
   {
     ...BASE,
     citySlug: 'jackson', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Jackson Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Jackson Web Design Company | OnwardCraft',
     metaDescription:
-      'Jackson web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand. Transparent pricing, you own it all. Free quote.',
+      'Jackson web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand.',
     eyebrow: 'Web Design · Jackson, MS',
     h1: 'Jackson web design that turns visitors into booked jobs',
     h2Exact: 'Jackson Web Design Company',
@@ -306,9 +306,9 @@ export const jacksonLocations = [
   {
     ...BASE,
     citySlug: 'jackson', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Jackson Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Jackson Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Jackson website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your Jackson website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
     eyebrow: 'Website Redesign · Jackson, MS',
     h1: 'Redesign your Jackson website without losing your rankings',
     h2Exact: 'Jackson Website Redesign Company',
@@ -372,9 +372,9 @@ export const jacksonLocations = [
 export const jacksonCity = {
   citySlug: 'jackson', city: 'Jackson', state: 'Mississippi', stateAbbr: 'MS', metro: 'Jackson',
 
-  titleTag: 'Jackson Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Jackson Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Jackson, MS contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand. Free Jackson audit.',
+    'Web design, SEO, and local SEO for Jackson, MS contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand.',
 
   eyebrow: 'Jackson · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Jackson contractors found and booked',

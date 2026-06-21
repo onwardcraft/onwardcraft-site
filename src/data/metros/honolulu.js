@@ -111,7 +111,7 @@ export const honoluluLocations = [
     citySlug: 'honolulu', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Honolulu Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Honolulu and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Honolulu and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Honolulu, Hawaii',
     h1: 'When Honolulu searches for what you do, be the first name they find',
     h2Exact: 'Honolulu Local SEO Company',
@@ -177,7 +177,7 @@ export const honoluluLocations = [
     citySlug: 'honolulu', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Honolulu SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Honolulu SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for an island market. Free Honolulu SEO audit.',
+      'Honolulu SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for an island market.',
     eyebrow: 'SEO Services · Honolulu, Hawaii',
     h1: 'Get your Honolulu business to the top of Google and keep it there',
     h2Exact: 'Honolulu SEO Company',
@@ -241,9 +241,9 @@ export const honoluluLocations = [
   {
     ...BASE,
     citySlug: 'honolulu', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Honolulu Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Honolulu Web Design Company | OnwardCraft',
     metaDescription:
-      'Honolulu web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a high-value island market. Transparent pricing, you own it. Free quote.',
+      'Honolulu web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a high-value island market.',
     eyebrow: 'Web Design · Honolulu, Hawaii',
     h1: 'Honolulu web design that turns visitors into booked jobs',
     h2Exact: 'Honolulu Web Design Company',
@@ -307,9 +307,9 @@ export const honoluluLocations = [
   {
     ...BASE,
     citySlug: 'honolulu', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Honolulu Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Honolulu Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Honolulu website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a high-value island market. Free audit.',
+      'Redesign your Honolulu website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a high-value island.',
     eyebrow: 'Website Redesign · Honolulu, Hawaii',
     h1: 'Redesign your Honolulu website without losing your rankings',
     h2Exact: 'Honolulu Website Redesign Company',
@@ -373,9 +373,9 @@ export const honoluluLocations = [
 export const honoluluCity = {
   citySlug: 'honolulu', city: 'Honolulu', state: 'Hawaii', stateAbbr: 'HI', metro: 'Honolulu',
 
-  titleTag: 'Honolulu Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Honolulu Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Honolulu contractors. Get found, get booked, and own your leads instead of renting them — built for an island market with high-value homes. Free Honolulu audit.',
+    'Web design, SEO, and local SEO for Honolulu contractors. Get found, get booked, and own your leads instead of renting them — built for an island market.',
 
   eyebrow: 'Honolulu · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Honolulu contractors found and booked',

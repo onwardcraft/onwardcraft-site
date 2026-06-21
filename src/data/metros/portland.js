@@ -111,7 +111,7 @@ export const portlandLocations = [
     citySlug: 'portland', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Portland Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Portland and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Portland and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Portland, OR',
     h1: 'When Portland searches for what you do, be the first name they find',
     h2Exact: 'Portland Local SEO Company',
@@ -177,7 +177,7 @@ export const portlandLocations = [
     citySlug: 'portland', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Portland SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Portland SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a research-heavy market. Free Portland SEO audit.',
+      'Portland SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a research-heavy market.',
     eyebrow: 'SEO Services · Portland, OR',
     h1: 'Get your Portland business to the top of Google and keep it there',
     h2Exact: 'Portland SEO Company',
@@ -241,9 +241,9 @@ export const portlandLocations = [
   {
     ...BASE,
     citySlug: 'portland', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Portland Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Portland Web Design Company | OnwardCraft',
     metaDescription:
-      'Portland web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a research-driven, eco-conscious market. Transparent pricing, you own it. Free quote.',
+      'Portland web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a research-driven, eco-conscious market.',
     eyebrow: 'Web Design · Portland, OR',
     h1: 'Portland web design that turns visitors into booked jobs',
     h2Exact: 'Portland Web Design Company',
@@ -307,7 +307,7 @@ export const portlandLocations = [
   {
     ...BASE,
     citySlug: 'portland', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Portland Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Portland Website Redesign | OnwardCraft',
     metaDescription:
       'Redesign your Portland website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs. Free audit.',
     eyebrow: 'Website Redesign · Portland, OR',
@@ -373,9 +373,9 @@ export const portlandLocations = [
 export const portlandCity = {
   citySlug: 'portland', city: 'Portland', state: 'Oregon', stateAbbr: 'OR', metro: 'Portland-Vancouver',
 
-  titleTag: 'Portland Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Portland Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Portland contractors. Get found, get booked, and own your leads instead of renting them — built for a research-driven market. Free Portland audit.',
+    'Web design, SEO, and local SEO for Portland contractors. Get found, get booked, and own your leads instead of renting them — built for a research-driven.',
 
   eyebrow: 'Portland · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Portland contractors found and booked',

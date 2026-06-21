@@ -111,7 +111,7 @@ export const albanyLocations = [
     citySlug: 'albany', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Albany Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Albany and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Albany and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Albany, NY',
     h1: 'When the Capital Region searches for what you do, be the first name they find',
     h2Exact: 'Albany Local SEO Company',
@@ -177,7 +177,7 @@ export const albanyLocations = [
     citySlug: 'albany', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Albany SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Albany SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for the Capital Region. Free Albany SEO audit.',
+      'Albany SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for the Capital Region.',
     eyebrow: 'SEO Services · Albany, NY',
     h1: 'Get your Albany business to the top of Google and keep it there',
     h2Exact: 'Albany SEO Company',
@@ -243,7 +243,7 @@ export const albanyLocations = [
     citySlug: 'albany', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Albany Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Albany web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in the Capital Region. Transparent pricing, you own it. Free quote.',
+      'Albany web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in the Capital Region.',
     eyebrow: 'Web Design · Albany, NY',
     h1: 'Albany web design that turns visitors into booked jobs',
     h2Exact: 'Albany Web Design Company',
@@ -307,9 +307,9 @@ export const albanyLocations = [
   {
     ...BASE,
     citySlug: 'albany', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Albany Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Albany Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Albany website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in the Capital Region. Free audit.',
+      'Redesign your Albany website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in the Capital Region.',
     eyebrow: 'Website Redesign · Albany, NY',
     h1: 'Redesign your Albany website without losing your rankings',
     h2Exact: 'Albany Website Redesign Company',
@@ -373,9 +373,9 @@ export const albanyLocations = [
 export const albanyCity = {
   citySlug: 'albany', city: 'Albany', state: 'New York', stateAbbr: 'NY', metro: 'Albany-Schenectady-Troy (Capital Region)',
 
-  titleTag: 'Albany Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Albany Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Albany and Capital Region contractors. Get found, get booked, and own your leads instead of renting them — built for old homes and brutal winters. Free audit.',
+    'Web design, SEO, and local SEO for Albany and Capital Region contractors. Get found, get booked, and own your leads instead of renting them — built for old.',
 
   eyebrow: 'Albany · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Capital Region contractors found and booked',

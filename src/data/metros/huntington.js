@@ -109,9 +109,9 @@ export const huntingtonLocations = [
   {
     ...BASE,
     citySlug: 'huntington', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Huntington Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Huntington Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Huntington and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Huntington and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Huntington-Ashland',
     h1: 'When Huntington searches for what you do, be the first name they find',
     h2Exact: 'Huntington Local SEO Company',
@@ -175,9 +175,9 @@ export const huntingtonLocations = [
   {
     ...BASE,
     citySlug: 'huntington', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Huntington SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Huntington SEO Company | OnwardCraft',
     metaDescription:
-      'Huntington SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for flood-season demand. Free SEO audit.',
+      'Huntington SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for flood-season demand.',
     eyebrow: 'SEO Services · Huntington-Ashland',
     h1: 'Get your Huntington business to the top of Google and keep it there',
     h2Exact: 'Huntington SEO Company',
@@ -241,9 +241,9 @@ export const huntingtonLocations = [
   {
     ...BASE,
     citySlug: 'huntington', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Huntington Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Huntington Web Design Company | OnwardCraft',
     metaDescription:
-      'Huntington web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and flood-season demand. Transparent pricing, you own it all. Free quote.',
+      'Huntington web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and flood-season demand.',
     eyebrow: 'Web Design · Huntington-Ashland',
     h1: 'Huntington web design that turns visitors into booked jobs',
     h2Exact: 'Huntington Web Design Company',
@@ -307,9 +307,9 @@ export const huntingtonLocations = [
   {
     ...BASE,
     citySlug: 'huntington', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Huntington Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Huntington Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Huntington website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in flood season. Free audit.',
+      'Redesign your Huntington website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in flood.',
     eyebrow: 'Website Redesign · Huntington-Ashland',
     h1: 'Redesign your Huntington website without losing your rankings',
     h2Exact: 'Huntington Website Redesign Company',
@@ -373,9 +373,9 @@ export const huntingtonLocations = [
 export const huntingtonCity = {
   citySlug: 'huntington', city: 'Huntington', state: 'West Virginia', stateAbbr: 'WV', metro: 'Huntington-Ashland',
 
-  titleTag: 'Huntington Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Huntington Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Huntington contractors. Get found, get booked, and own your leads instead of renting them — built for flood-season demand. Free audit.',
+    'Web design, SEO, and local SEO for Huntington contractors. Get found, get booked, and own your leads instead of renting them — built for flood-season demand.',
 
   eyebrow: 'Huntington · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Huntington contractors found and booked',

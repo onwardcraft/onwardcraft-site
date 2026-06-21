@@ -110,9 +110,9 @@ export const kansasCityLocations = [
   {
     ...BASE,
     citySlug: 'kansas-city', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Kansas City Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Kansas City Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Kansas City and three businesses show up on the map. We get you into those three — on both sides of the state line — so the call lands with you after every storm. Honest pricing, no lock-in, free audit.',
+      'Search your service in Kansas City and three businesses show up on the map. We get you into those three — on both sides of the state line — so the call lands.',
     eyebrow: 'Local SEO · Kansas City',
     h1: 'When Kansas City searches for what you do, be the first name they find',
     h2Exact: 'Kansas City Local SEO Company',
@@ -176,9 +176,9 @@ export const kansasCityLocations = [
   {
     ...BASE,
     citySlug: 'kansas-city', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Kansas City SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Kansas City SEO Company | OnwardCraft',
     metaDescription:
-      'Kansas City SEO that ranks contractors on Google and brings in leads you own — on both sides of the state line. Revenue-tied reporting, no lock-in. Free Kansas City SEO audit.',
+      'Kansas City SEO that ranks contractors on Google and brings in leads you own — on both sides of the state line. Revenue-tied reporting, no lock-in.',
     eyebrow: 'SEO Services · Kansas City',
     h1: 'Get your Kansas City business to the top of Google and keep it there',
     h2Exact: 'Kansas City SEO Company',
@@ -242,9 +242,9 @@ export const kansasCityLocations = [
   {
     ...BASE,
     citySlug: 'kansas-city', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Kansas City Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Kansas City Web Design Company | OnwardCraft',
     metaDescription:
-      'Kansas City web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors on both sides of the state line. Transparent pricing, you own it. Free quote.',
+      'Kansas City web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors on both sides of the state line.',
     eyebrow: 'Web Design · Kansas City',
     h1: 'Kansas City web design that turns visitors into booked jobs',
     h2Exact: 'Kansas City Web Design Company',
@@ -308,9 +308,9 @@ export const kansasCityLocations = [
   {
     ...BASE,
     citySlug: 'kansas-city', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Kansas City Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Kansas City Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Kansas City website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across both sides of the state line. Free audit.',
+      'Redesign your Kansas City website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across both sides of.',
     eyebrow: 'Website Redesign · Kansas City',
     h1: 'Redesign your Kansas City website without losing your rankings',
     h2Exact: 'Kansas City Website Redesign Company',
@@ -374,9 +374,9 @@ export const kansasCityLocations = [
 export const kansasCityCity = {
   citySlug: 'kansas-city', city: 'Kansas City', state: 'Missouri', stateAbbr: 'MO', metro: 'Kansas City',
 
-  titleTag: 'Kansas City Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Kansas City Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Kansas City contractors. Get found on both sides of the state line, rank before hail season, and own your leads. Free Kansas City audit.',
+    'Web design, SEO, and local SEO for Kansas City contractors. Get found on both sides of the state line, rank before hail season, and own your leads.',
 
   eyebrow: 'Kansas City · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Kansas City contractors found and booked',

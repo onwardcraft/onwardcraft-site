@@ -21,11 +21,11 @@ const MARKET = {
   pullQuote: 'When a lake-effect storm hits Rochester, the contractors already in the Map Pack take every emergency call.',
   donut: {
     title: "Rochester's lake-effect snowfall",
-    value: 99,
-    centerLabel: 'annual snowfall (in)',
+    value: 61,
+    centerLabel: 'winter-driven',
     legend: [
-      { label: 'Snow', pct: 99, kind: 'teal' },
-      { label: 'Other precip', pct: 0, kind: 'grey' },
+      { label: 'Winter emergency demand', pct: 61, kind: 'teal' },
+      { label: 'Rest of year', pct: 39, kind: 'grey' },
     ],
   },
   seasonTitle: 'When trade demand spikes',
@@ -111,7 +111,7 @@ export const rochesterLocations = [
     citySlug: 'rochester', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Rochester Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Rochester and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Rochester and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Rochester NY',
     h1: 'When Rochester searches for what you do, be the first name they find',
     h2Exact: 'Rochester Local SEO Company',
@@ -175,9 +175,9 @@ export const rochesterLocations = [
   {
     ...BASE,
     citySlug: 'rochester', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Rochester SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Rochester SEO Company | OnwardCraft',
     metaDescription:
-      'Rochester SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for lake-effect season demand. Free Rochester SEO audit.',
+      'Rochester SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for lake-effect season demand.',
     eyebrow: 'SEO Services · Rochester NY',
     h1: 'Get your Rochester business to the top of Google and keep it there',
     h2Exact: 'Rochester SEO Company',
@@ -241,9 +241,9 @@ export const rochesterLocations = [
   {
     ...BASE,
     citySlug: 'rochester', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Rochester Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Rochester Web Design Company | OnwardCraft',
     metaDescription:
-      'Rochester web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and lake-effect season demand. Transparent pricing, you own it all. Free quote.',
+      'Rochester web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and lake-effect season demand.',
     eyebrow: 'Web Design · Rochester NY',
     h1: 'Rochester web design that turns visitors into booked jobs',
     h2Exact: 'Rochester Web Design Company',
@@ -307,9 +307,9 @@ export const rochesterLocations = [
   {
     ...BASE,
     citySlug: 'rochester', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Rochester Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Rochester Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Rochester website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in lake-effect season. Free audit.',
+      'Redesign your Rochester website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in lake-effect.',
     eyebrow: 'Website Redesign · Rochester NY',
     h1: 'Redesign your Rochester website without losing your rankings',
     h2Exact: 'Rochester Website Redesign Company',
@@ -373,9 +373,9 @@ export const rochesterLocations = [
 export const rochesterCity = {
   citySlug: 'rochester', city: 'Rochester', state: 'New York', stateAbbr: 'NY', metro: 'Rochester',
 
-  titleTag: 'Rochester Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Rochester Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Rochester contractors. Get found, get booked, and own your leads instead of renting them — built for lake-effect season demand. Free Rochester audit.',
+    'Web design, SEO, and local SEO for Rochester contractors. Get found, get booked, and own your leads instead of renting them — built for lake-effect season.',
 
   eyebrow: 'Rochester · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Rochester contractors found and booked',

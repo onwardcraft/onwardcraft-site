@@ -108,9 +108,9 @@ export const montgomeryLocations = [
   {
     ...BASE,
     citySlug: 'montgomery', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Montgomery Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Montgomery Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Montgomery and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Montgomery and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Montgomery',
     h1: 'When Montgomery searches for what you do, be the first name they find',
     h2Exact: 'Montgomery Local SEO Company',
@@ -174,9 +174,9 @@ export const montgomeryLocations = [
   {
     ...BASE,
     citySlug: 'montgomery', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Montgomery SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Montgomery SEO Company | OnwardCraft',
     metaDescription:
-      'Montgomery SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand. Free Montgomery SEO audit.',
+      'Montgomery SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand.',
     eyebrow: 'SEO Services · Montgomery',
     h1: 'Get your Montgomery business to the top of Google and keep it there',
     h2Exact: 'Montgomery SEO Company',
@@ -240,9 +240,9 @@ export const montgomeryLocations = [
   {
     ...BASE,
     citySlug: 'montgomery', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Montgomery Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Montgomery Web Design Company | OnwardCraft',
     metaDescription:
-      'Montgomery web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand. Transparent pricing, you own it all. Free quote.',
+      'Montgomery web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand.',
     eyebrow: 'Web Design · Montgomery',
     h1: 'Montgomery web design that turns visitors into booked jobs',
     h2Exact: 'Montgomery Web Design Company',
@@ -306,9 +306,9 @@ export const montgomeryLocations = [
   {
     ...BASE,
     citySlug: 'montgomery', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Montgomery Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Montgomery Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Montgomery website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your Montgomery website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm.',
     eyebrow: 'Website Redesign · Montgomery',
     h1: 'Redesign your Montgomery website without losing your rankings',
     h2Exact: 'Montgomery Website Redesign Company',
@@ -372,9 +372,9 @@ export const montgomeryLocations = [
 export const montgomeryCity = {
   citySlug: 'montgomery', city: 'Montgomery', state: 'Alabama', stateAbbr: 'AL', metro: 'Montgomery',
 
-  titleTag: 'Montgomery Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Montgomery Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Montgomery contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand. Free Montgomery audit.',
+    'Web design, SEO, and local SEO for Montgomery contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand.',
 
   eyebrow: 'Montgomery · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Montgomery contractors found and booked',

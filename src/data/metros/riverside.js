@@ -111,7 +111,7 @@ export const riversideLocations = [
     citySlug: 'riverside', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Riverside Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Riverside and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Riverside and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Riverside–San Bernardino (Inland Empire)',
     h1: 'When the Inland Empire searches for what you do, be the first name they find',
     h2Exact: 'Riverside Local SEO Company',
@@ -175,9 +175,9 @@ export const riversideLocations = [
   {
     ...BASE,
     citySlug: 'riverside', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Riverside SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Riverside SEO Company | OnwardCraft',
     metaDescription:
-      'Riverside SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Inland Empire heat and wildfire seasons. Free audit.',
+      'Riverside SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Inland Empire heat.',
     eyebrow: 'SEO Services · Riverside–San Bernardino (Inland Empire)',
     h1: 'Get your Inland Empire business to the top of Google and keep it there',
     h2Exact: 'Riverside SEO Company',
@@ -241,9 +241,9 @@ export const riversideLocations = [
   {
     ...BASE,
     citySlug: 'riverside', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Riverside Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Riverside Web Design Company | OnwardCraft',
     metaDescription:
-      'Riverside web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Inland Empire heat and wildfire seasons. Transparent pricing, you own it all. Free quote.',
+      'Riverside web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Inland Empire heat and wildfire seasons.',
     eyebrow: 'Web Design · Riverside–San Bernardino (Inland Empire)',
     h1: 'Riverside web design that turns visitors into booked jobs',
     h2Exact: 'Riverside Web Design Company',
@@ -307,9 +307,9 @@ export const riversideLocations = [
   {
     ...BASE,
     citySlug: 'riverside', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Riverside Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Riverside Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Riverside website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in heat season. Free audit.',
+      'Redesign your Riverside website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in heat season.',
     eyebrow: 'Website Redesign · Riverside–San Bernardino (Inland Empire)',
     h1: 'Redesign your Riverside website without losing your rankings',
     h2Exact: 'Riverside Website Redesign Company',
@@ -373,9 +373,9 @@ export const riversideLocations = [
 export const riversideCity = {
   citySlug: 'riverside', city: 'Riverside', state: 'California', stateAbbr: 'CA', metro: 'Riverside-San Bernardino (Inland Empire)',
 
-  titleTag: 'Riverside Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Riverside Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Riverside and Inland Empire contractors. Get found, get booked, and own your leads — built for extreme heat and wildfire seasons. Free audit.',
+    'Web design, SEO, and local SEO for Riverside and Inland Empire contractors. Get found, get booked, and own your leads — built for extreme heat and wildfire.',
 
   eyebrow: 'Riverside · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Inland Empire contractors found and booked',

@@ -110,7 +110,7 @@ export const rockfordLocations = [
     citySlug: 'rockford', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Rockford Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Rockford and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Rockford and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Rockford',
     h1: 'When Rockford searches for what you do, be the first name they find',
     h2Exact: 'Rockford Local SEO Company',
@@ -174,9 +174,9 @@ export const rockfordLocations = [
   {
     ...BASE,
     citySlug: 'rockford', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Rockford SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Rockford SEO Company | OnwardCraft',
     metaDescription:
-      'Rockford SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for seasonal demand. Free Rockford SEO audit.',
+      'Rockford SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for seasonal demand.',
     eyebrow: 'SEO Services · Rockford',
     h1: 'Get your Rockford business to the top of Google and keep it there',
     h2Exact: 'Rockford SEO Company',
@@ -240,9 +240,9 @@ export const rockfordLocations = [
   {
     ...BASE,
     citySlug: 'rockford', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Rockford Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Rockford Web Design Company | OnwardCraft',
     metaDescription:
-      'Rockford web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and seasonal demand. Transparent pricing, you own it all. Free quote.',
+      'Rockford web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and seasonal demand.',
     eyebrow: 'Web Design · Rockford',
     h1: 'Rockford web design that turns visitors into booked jobs',
     h2Exact: 'Rockford Web Design Company',
@@ -306,9 +306,9 @@ export const rockfordLocations = [
   {
     ...BASE,
     citySlug: 'rockford', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Rockford Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Rockford Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Rockford website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter and storm season. Free audit.',
+      'Redesign your Rockford website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter.',
     eyebrow: 'Website Redesign · Rockford',
     h1: 'Redesign your Rockford website without losing your rankings',
     h2Exact: 'Rockford Website Redesign Company',
@@ -372,9 +372,9 @@ export const rockfordLocations = [
 export const rockfordCity = {
   citySlug: 'rockford', city: 'Rockford', state: 'Illinois', stateAbbr: 'IL', metro: 'Rockford',
 
-  titleTag: 'Rockford Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Rockford Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Rockford contractors. Get found, get booked, and own your leads instead of renting them — built for seasonal demand. Free Rockford audit.',
+    'Web design, SEO, and local SEO for Rockford contractors. Get found, get booked, and own your leads instead of renting them — built for seasonal demand.',
 
   eyebrow: 'Rockford · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Rockford contractors found and booked',

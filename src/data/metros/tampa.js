@@ -111,7 +111,7 @@ export const tampaLocations = [
     citySlug: 'tampa', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Tampa Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Tampa and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Tampa and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Tampa Bay',
     h1: 'When Tampa searches for what you do, be the first name they find',
     h2Exact: 'Tampa Local SEO Company',
@@ -175,9 +175,9 @@ export const tampaLocations = [
   {
     ...BASE,
     citySlug: 'tampa', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Tampa SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Tampa SEO Company | OnwardCraft',
     metaDescription:
-      'Tampa SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand. Free Tampa SEO audit.',
+      'Tampa SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand.',
     eyebrow: 'SEO Services · Tampa Bay',
     h1: 'Get your Tampa business to the top of Google and keep it there',
     h2Exact: 'Tampa SEO Company',
@@ -243,7 +243,7 @@ export const tampaLocations = [
     citySlug: 'tampa', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Tampa Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Tampa web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand. Transparent pricing, you own it all. Free quote.',
+      'Tampa web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand.',
     eyebrow: 'Web Design · Tampa Bay',
     h1: 'Tampa web design that turns visitors into booked jobs',
     h2Exact: 'Tampa Web Design Company',
@@ -307,9 +307,9 @@ export const tampaLocations = [
   {
     ...BASE,
     citySlug: 'tampa', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Tampa Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Tampa Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Tampa website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your Tampa website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
     eyebrow: 'Website Redesign · Tampa Bay',
     h1: 'Redesign your Tampa website without losing your rankings',
     h2Exact: 'Tampa Website Redesign Company',
@@ -373,9 +373,9 @@ export const tampaLocations = [
 export const tampaCity = {
   citySlug: 'tampa', city: 'Tampa', state: 'Florida', stateAbbr: 'FL', metro: 'Tampa Bay',
 
-  titleTag: 'Tampa Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Tampa Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Tampa contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand. Free Tampa audit.',
+    'Web design, SEO, and local SEO for Tampa contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand.',
 
   eyebrow: 'Tampa · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Tampa contractors found and booked',

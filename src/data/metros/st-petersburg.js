@@ -109,9 +109,9 @@ export const stPetersburgLocations = [
   {
     ...BASE,
     citySlug: 'st-petersburg', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'St. Petersburg Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'St. Petersburg Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in St. Petersburg and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in St. Petersburg and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · St. Petersburg',
     h1: 'When St. Pete searches for what you do, be the first name they find',
     h2Exact: 'St. Petersburg Local SEO Company',
@@ -175,9 +175,9 @@ export const stPetersburgLocations = [
   {
     ...BASE,
     citySlug: 'st-petersburg', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'St. Petersburg SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'St. Petersburg SEO Company | OnwardCraft',
     metaDescription:
-      'St. Petersburg SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-rebuild demand. Free SEO audit.',
+      'St. Petersburg SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-rebuild demand.',
     eyebrow: 'SEO Services · St. Petersburg',
     h1: 'Get your St. Pete business to the top of Google and keep it there',
     h2Exact: 'St. Petersburg SEO Company',
@@ -241,9 +241,9 @@ export const stPetersburgLocations = [
   {
     ...BASE,
     citySlug: 'st-petersburg', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'St. Petersburg Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'St. Petersburg Web Design Company | OnwardCraft',
     metaDescription:
-      'St. Petersburg web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-rebuild demand. Transparent pricing, you own it all. Free quote.',
+      'St. Petersburg web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-rebuild demand.',
     eyebrow: 'Web Design · St. Petersburg',
     h1: 'St. Petersburg web design that turns visitors into booked jobs',
     h2Exact: 'St. Petersburg Web Design Company',
@@ -307,9 +307,9 @@ export const stPetersburgLocations = [
   {
     ...BASE,
     citySlug: 'st-petersburg', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'St. Petersburg Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'St. Petersburg Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your St. Petersburg website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your St. Petersburg website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm.',
     eyebrow: 'Website Redesign · St. Petersburg',
     h1: 'Redesign your St. Petersburg website without losing your rankings',
     h2Exact: 'St. Petersburg Website Redesign Company',
@@ -373,9 +373,9 @@ export const stPetersburgLocations = [
 export const stPetersburgCity = {
   citySlug: 'st-petersburg', city: 'St. Petersburg', state: 'Florida', stateAbbr: 'FL', metro: 'St. Petersburg-Pinellas County',
 
-  titleTag: 'St. Petersburg Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'St. Petersburg Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for St. Petersburg contractors. Get found, get booked, and own your leads instead of renting them — built for storm-rebuild demand. Free audit.',
+    'Web design, SEO, and local SEO for St. Petersburg contractors. Get found, get booked, and own your leads instead of renting them — built for storm-rebuild.',
 
   eyebrow: 'St. Petersburg · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets St. Petersburg contractors found and booked',

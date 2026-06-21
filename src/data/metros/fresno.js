@@ -111,7 +111,7 @@ export const fresnoLocations = [
     citySlug: 'fresno', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Fresno Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Fresno and three businesses show up on the map. We get you into those three — in English and Spanish — so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Fresno and three businesses show up on the map. We get you into those three — in English and Spanish — so the call lands with you.',
     eyebrow: 'Local SEO · Fresno, CA',
     h1: 'When Fresno searches for what you do, be the first name they find',
     h2Exact: 'Fresno Local SEO Company',
@@ -177,7 +177,7 @@ export const fresnoLocations = [
     citySlug: 'fresno', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Fresno SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Fresno SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for the Valley market. Free Fresno SEO audit.',
+      'Fresno SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for the Valley market.',
     eyebrow: 'SEO Services · Fresno, CA',
     h1: 'Get your Fresno business to the top of Google and keep it there',
     h2Exact: 'Fresno SEO Company',
@@ -243,7 +243,7 @@ export const fresnoLocations = [
     citySlug: 'fresno', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Fresno Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Fresno web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a high-heat, high-volume Valley market. Transparent pricing, you own it. Free quote.',
+      'Fresno web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a high-heat, high-volume Valley market.',
     eyebrow: 'Web Design · Fresno, CA',
     h1: 'Fresno web design that turns visitors into booked jobs',
     h2Exact: 'Fresno Web Design Company',
@@ -307,9 +307,9 @@ export const fresnoLocations = [
   {
     ...BASE,
     citySlug: 'fresno', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Fresno Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Fresno Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Fresno website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in the Valley market. Free audit.',
+      'Redesign your Fresno website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in the Valley market.',
     eyebrow: 'Website Redesign · Fresno, CA',
     h1: 'Redesign your Fresno website without losing your rankings',
     h2Exact: 'Fresno Website Redesign Company',
@@ -373,9 +373,9 @@ export const fresnoLocations = [
 export const fresnoCity = {
   citySlug: 'fresno', city: 'Fresno', state: 'California', stateAbbr: 'CA', metro: 'Fresno',
 
-  titleTag: 'Fresno Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Fresno Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Fresno contractors. Get found in English and Spanish, get booked, and own your leads instead of renting them — built for the Valley market. Free audit.',
+    'Web design, SEO, and local SEO for Fresno contractors. Get found in English and Spanish, get booked, and own your leads instead of renting them — built.',
 
   eyebrow: 'Fresno · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Fresno contractors found and booked',

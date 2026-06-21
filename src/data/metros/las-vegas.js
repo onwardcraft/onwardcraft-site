@@ -111,7 +111,7 @@ export const lasVegasLocations = [
     citySlug: 'las-vegas', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Las Vegas Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Las Vegas and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Las Vegas and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Las Vegas',
     h1: 'When Las Vegas searches for what you do, be the first name they find',
     h2Exact: 'Las Vegas Local SEO Company',
@@ -177,7 +177,7 @@ export const lasVegasLocations = [
     citySlug: 'las-vegas', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Las Vegas SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Las Vegas SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing desert market. Free Las Vegas SEO audit.',
+      'Las Vegas SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing desert.',
     eyebrow: 'SEO Services · Las Vegas',
     h1: 'Get your Las Vegas business to the top of Google and keep it there',
     h2Exact: 'Las Vegas SEO Company',
@@ -241,9 +241,9 @@ export const lasVegasLocations = [
   {
     ...BASE,
     citySlug: 'las-vegas', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Las Vegas Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Las Vegas Web Design Company | OnwardCraft',
     metaDescription:
-      'Las Vegas web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing desert market. Transparent pricing, you own it. Free quote.',
+      'Las Vegas web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing desert market.',
     eyebrow: 'Web Design · Las Vegas',
     h1: 'Las Vegas web design that turns visitors into booked jobs',
     h2Exact: 'Las Vegas Web Design Company',
@@ -307,9 +307,9 @@ export const lasVegasLocations = [
   {
     ...BASE,
     citySlug: 'las-vegas', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Las Vegas Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Las Vegas Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Las Vegas website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing desert market. Free audit.',
+      'Redesign your Las Vegas website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing desert.',
     eyebrow: 'Website Redesign · Las Vegas',
     h1: 'Redesign your Las Vegas website without losing your rankings',
     h2Exact: 'Las Vegas Website Redesign Company',
@@ -373,9 +373,9 @@ export const lasVegasLocations = [
 export const lasVegasCity = {
   citySlug: 'las-vegas', city: 'Las Vegas', state: 'Nevada', stateAbbr: 'NV', metro: 'Las Vegas',
 
-  titleTag: 'Las Vegas Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Las Vegas Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Las Vegas contractors. Get found, get booked, and own your leads instead of renting them — built for a fast-growing desert market. Free Las Vegas audit.',
+    'Web design, SEO, and local SEO for Las Vegas contractors. Get found, get booked, and own your leads instead of renting them — built for a fast-growing desert.',
 
   eyebrow: 'Las Vegas · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Las Vegas contractors found and booked',

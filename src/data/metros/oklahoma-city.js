@@ -109,9 +109,9 @@ export const oklahomaCityLocations = [
   {
     ...BASE,
     citySlug: 'oklahoma-city', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Oklahoma City Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Oklahoma City Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Oklahoma City and three businesses show up on the map. We get you into those three before storm season starts, so the call lands with you. Free audit.',
+      'Search your service in Oklahoma City and three businesses show up on the map. We get you into those three before storm season starts, so the call lands.',
     eyebrow: 'Local SEO · Oklahoma City',
     h1: 'When Oklahoma City searches for what you do, be the first name they find',
     h2Exact: 'Oklahoma City Local SEO Company',
@@ -175,9 +175,9 @@ export const oklahomaCityLocations = [
   {
     ...BASE,
     citySlug: 'oklahoma-city', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Oklahoma City SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Oklahoma City SEO Company | OnwardCraft',
     metaDescription:
-      'Oklahoma City SEO that ranks contractors on Google and brings in leads you own. Storm-season content, suburb targeting, no lock-in contracts. Free Oklahoma City SEO audit.',
+      'Oklahoma City SEO that ranks contractors on Google and brings in leads you own. Storm-season content, suburb targeting, no lock-in contracts.',
     eyebrow: 'SEO Services · Oklahoma City',
     h1: 'Get your Oklahoma City business to the top of Google and keep it there',
     h2Exact: 'Oklahoma City SEO Company',
@@ -241,9 +241,9 @@ export const oklahomaCityLocations = [
   {
     ...BASE,
     citySlug: 'oklahoma-city', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Oklahoma City Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Oklahoma City Web Design Company | OnwardCraft',
     metaDescription:
-      'Oklahoma City web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a storm-driven market. Transparent pricing, you own it. Free quote.',
+      'Oklahoma City web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a storm-driven market.',
     eyebrow: 'Web Design · Oklahoma City',
     h1: 'Oklahoma City web design that turns visitors into booked jobs',
     h2Exact: 'Oklahoma City Web Design Company',
@@ -307,9 +307,9 @@ export const oklahomaCityLocations = [
   {
     ...BASE,
     citySlug: 'oklahoma-city', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Oklahoma City Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Oklahoma City Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Oklahoma City website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — built for a storm-driven market. Free audit.',
+      'Redesign your Oklahoma City website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — built for.',
     eyebrow: 'Website Redesign · Oklahoma City',
     h1: 'Redesign your Oklahoma City website without losing your rankings',
     h2Exact: 'Oklahoma City Website Redesign Company',
@@ -373,9 +373,9 @@ export const oklahomaCityLocations = [
 export const oklahomaCityCity = {
   citySlug: 'oklahoma-city', city: 'Oklahoma City', state: 'Oklahoma', stateAbbr: 'OK', metro: 'Oklahoma City',
 
-  titleTag: 'Oklahoma City Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Oklahoma City Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Oklahoma City contractors. Get found before tornado season, own your leads instead of renting them, and convert the storm-season rush. Free audit.',
+    'Web design, SEO, and local SEO for Oklahoma City contractors. Get found before tornado season, own your leads instead of renting them, and convert.',
 
   eyebrow: 'Oklahoma City · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Oklahoma City contractors found and booked',

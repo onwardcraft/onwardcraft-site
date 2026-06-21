@@ -112,7 +112,7 @@ export const provoLocations = [
     citySlug: "provo", serviceSlug: "local-seo", service: "Local SEO",
     titleTag: "Provo Local SEO Company | Win the Map Pack | OnwardCraft",
     metaDescription:
-      "Search your service in Provo-Orem and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.",
+      "Search your service in Provo-Orem and three businesses show up on the map. We get you into those three, so the call lands with you.",
     eyebrow: "Local SEO · Provo-Orem (Silicon Slopes)",
     h1: "When Silicon Slopes searches for what you do, be the first name they find",
     h2Exact: "Provo Local SEO Company",
@@ -178,7 +178,7 @@ export const provoLocations = [
     citySlug: "provo", serviceSlug: "seo-services", service: "SEO Services",
     titleTag: "Provo SEO Company | Rank Higher, Get Leads | OnwardCraft",
     metaDescription:
-      "Provo-Orem SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market. Free Provo SEO audit.",
+      "Provo-Orem SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market.",
     eyebrow: "SEO Services · Provo-Orem (Silicon Slopes)",
     h1: "Get your Provo-Orem business to the top of Google and keep it there",
     h2Exact: "Provo SEO Company",
@@ -244,7 +244,7 @@ export const provoLocations = [
     citySlug: "provo", serviceSlug: "web-design", service: "Web Design",
     titleTag: "Provo Web Design Company | Sites That Convert | OnwardCraft",
     metaDescription:
-      "Provo-Orem web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in Silicon Slopes' fast-growing market. Transparent pricing, you own it. Free quote.",
+      "Provo-Orem web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in Silicon Slopes' fast-growing market.",
     eyebrow: "Web Design · Provo-Orem (Silicon Slopes)",
     h1: "Provo-Orem web design that turns visitors into booked jobs",
     h2Exact: "Provo Web Design Company",
@@ -308,9 +308,9 @@ export const provoLocations = [
   {
     ...BASE,
     citySlug: "provo", serviceSlug: "website-redesign", service: "Website Redesign",
-    titleTag: "Provo Website Redesign | More Leads, No Traffic Loss | OnwardCraft",
+    titleTag: "Provo Website Redesign | OnwardCraft",
     metaDescription:
-      "Redesign your Provo-Orem website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing market. Free audit.",
+      "Redesign your Provo-Orem website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing market.",
     eyebrow: "Website Redesign · Provo-Orem (Silicon Slopes)",
     h1: "Redesign your Provo-Orem website without losing your rankings",
     h2Exact: "Provo Website Redesign Company",
@@ -374,9 +374,9 @@ export const provoLocations = [
 export const provoCity = {
   citySlug: "provo", city: "Provo", state: "Utah", stateAbbr: "UT", metro: "Provo-Orem (Silicon Slopes)",
 
-  titleTag: "Provo Marketing for Contractors | Web, SEO & Leads | OnwardCraft",
+  titleTag: "Provo Marketing for Contractors | OnwardCraft",
   metaDescription:
-    "Web design, SEO, and local SEO for Provo-Orem contractors. Get found, get booked, and own your leads instead of renting them — built for Silicon Slopes' fast-growing market. Free audit.",
+    "Web design, SEO, and local SEO for Provo-Orem contractors. Get found, get booked, and own your leads instead of renting them — built for Silicon Slopes'.",
 
   eyebrow: "Provo-Orem · Web Design, SEO & Lead Generation",
   h1: "Marketing that gets Provo-Orem contractors found and booked",

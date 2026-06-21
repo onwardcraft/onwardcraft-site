@@ -111,7 +111,7 @@ export const sarasotaLocations = [
     citySlug: 'sarasota', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Sarasota Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Sarasota and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Sarasota and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Sarasota-Bradenton',
     h1: 'When Sarasota searches for what you do, be the first name they find',
     h2Exact: 'Sarasota Local SEO Company',
@@ -175,9 +175,9 @@ export const sarasotaLocations = [
   {
     ...BASE,
     citySlug: 'sarasota', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Sarasota SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Sarasota SEO Company | OnwardCraft',
     metaDescription:
-      'Sarasota SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for affluent and storm-driven demand. Free audit.',
+      'Sarasota SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for affluent and storm-driven.',
     eyebrow: 'SEO Services · Sarasota-Bradenton',
     h1: 'Get your Sarasota business to the top of Google and keep it there',
     h2Exact: 'Sarasota SEO Company',
@@ -241,9 +241,9 @@ export const sarasotaLocations = [
   {
     ...BASE,
     citySlug: 'sarasota', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Sarasota Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Sarasota Web Design Company | OnwardCraft',
     metaDescription:
-      'Sarasota web design that turns visitors into booked jobs — fast, polished, mobile-first sites built for contractors and affluent island homeowners. Transparent pricing. Free quote.',
+      'Sarasota web design that turns visitors into booked jobs — fast, polished, mobile-first sites built for contractors and affluent island homeowners.',
     eyebrow: 'Web Design · Sarasota-Bradenton',
     h1: 'Sarasota web design that turns visitors into booked jobs',
     h2Exact: 'Sarasota Web Design Company',
@@ -307,9 +307,9 @@ export const sarasotaLocations = [
   {
     ...BASE,
     citySlug: 'sarasota', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Sarasota Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Sarasota Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Sarasota website without losing rankings. Faster, polished, mobile-first rebuilds that convert more affluent visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your Sarasota website without losing rankings. Faster, polished, mobile-first rebuilds that convert more affluent visitors into booked jobs and hold.',
     eyebrow: 'Website Redesign · Sarasota-Bradenton',
     h1: 'Redesign your Sarasota website without losing your rankings',
     h2Exact: 'Sarasota Website Redesign Company',
@@ -373,9 +373,9 @@ export const sarasotaLocations = [
 export const sarasotaCity = {
   citySlug: 'sarasota', city: 'Sarasota', state: 'Florida', stateAbbr: 'FL', metro: 'Sarasota-Bradenton',
 
-  titleTag: 'Sarasota Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Sarasota Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Sarasota contractors. Get found, get booked, and own your leads instead of renting them — built for affluent and storm-driven demand. Free audit.',
+    'Web design, SEO, and local SEO for Sarasota contractors. Get found, get booked, and own your leads instead of renting them — built for affluent.',
 
   eyebrow: 'Sarasota · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Sarasota contractors found and booked',

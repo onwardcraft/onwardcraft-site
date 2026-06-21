@@ -111,7 +111,7 @@ export const houstonLocations = [
     citySlug: 'houston', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Houston Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Houston and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Houston and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Greater Houston',
     h1: 'When Houston searches for what you do, be the first name they find',
     h2Exact: 'Houston Local SEO Company',
@@ -177,7 +177,7 @@ export const houstonLocations = [
     citySlug: 'houston', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Houston SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Houston SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in, built for storm-season and heat demand. Free Houston SEO audit.',
+      'Houston SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in, built for storm-season and heat demand.',
     eyebrow: 'SEO Services · Greater Houston',
     h1: 'Get your Houston business to the top of Google and keep it there',
     h2Exact: 'Houston SEO Company',
@@ -241,9 +241,9 @@ export const houstonLocations = [
   {
     ...BASE,
     citySlug: 'houston', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Houston Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Houston Web Design Company | OnwardCraft',
     metaDescription:
-      'Houston web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors, heat and storm-season demand. Transparent pricing, you own it. Free quote.',
+      'Houston web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors, heat and storm-season demand.',
     eyebrow: 'Web Design · Greater Houston',
     h1: 'Houston web design that turns visitors into booked jobs',
     h2Exact: 'Houston Web Design Company',
@@ -309,7 +309,7 @@ export const houstonLocations = [
     citySlug: 'houston', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Houston Website Redesign | More Leads, No Loss | OnwardCraft',
     metaDescription:
-      'Redesign your Houston website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your Houston website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
     eyebrow: 'Website Redesign · Greater Houston',
     h1: 'Redesign your Houston website without losing your rankings',
     h2Exact: 'Houston Website Redesign Company',
@@ -373,9 +373,9 @@ export const houstonLocations = [
 export const houstonCity = {
   citySlug: 'houston', city: 'Houston', state: 'Texas', stateAbbr: 'TX', metro: 'Greater Houston',
 
-  titleTag: 'Houston Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Houston Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Houston contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand. Free Houston audit.',
+    'Web design, SEO, and local SEO for Houston contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand.',
 
   eyebrow: 'Houston · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Houston contractors found and booked',

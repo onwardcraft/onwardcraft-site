@@ -111,7 +111,7 @@ export const baltimoreLocations = [
     citySlug: 'baltimore', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Baltimore Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Baltimore and three businesses show up on the map. We get you into those three, so the call lands with you — row house specialists, Bay-climate contractors, and trade pros. Free audit.',
+      'Search your service in Baltimore and three businesses show up on the map. We get you into those three, so the call lands with you — row house specialists.',
     eyebrow: 'Local SEO · Baltimore, MD',
     h1: 'When Baltimore searches for what you do, be the first name they find',
     h2Exact: 'Baltimore Local SEO Company',
@@ -177,7 +177,7 @@ export const baltimoreLocations = [
     citySlug: 'baltimore', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Baltimore SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Baltimore SEO that ranks contractors on Google and brings in leads you own. Row house expertise, Bay-climate angles, revenue-tied reporting, no lock-in. Free Baltimore SEO audit.',
+      'Baltimore SEO that ranks contractors on Google and brings in leads you own. Row house expertise, Bay-climate angles, revenue-tied reporting, no lock-in.',
     eyebrow: 'SEO Services · Baltimore, MD',
     h1: 'Get your Baltimore business to the top of Google and keep it there',
     h2Exact: 'Baltimore SEO Company',
@@ -241,9 +241,9 @@ export const baltimoreLocations = [
   {
     ...BASE,
     citySlug: 'baltimore', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Baltimore Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Baltimore Web Design Company | OnwardCraft',
     metaDescription:
-      'Baltimore web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving row houses, Bay-climate homes, and the full metro. You own it. Free quote.',
+      'Baltimore web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving row houses, Bay-climate homes, and the full.',
     eyebrow: 'Web Design · Baltimore, MD',
     h1: 'Baltimore web design that turns visitors into booked jobs',
     h2Exact: 'Baltimore Web Design Company',
@@ -307,9 +307,9 @@ export const baltimoreLocations = [
   {
     ...BASE,
     citySlug: 'baltimore', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Baltimore Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Baltimore Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Baltimore website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across the full Baltimore metro. Free audit.',
+      'Redesign your Baltimore website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across the full Baltimore.',
     eyebrow: 'Website Redesign · Baltimore, MD',
     h1: 'Redesign your Baltimore website without losing your rankings',
     h2Exact: 'Baltimore Website Redesign Company',
@@ -373,9 +373,9 @@ export const baltimoreLocations = [
 export const baltimoreCity = {
   citySlug: 'baltimore', city: 'Baltimore', state: 'Maryland', stateAbbr: 'MD', metro: 'Baltimore',
 
-  titleTag: 'Baltimore Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Baltimore Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Baltimore contractors. Get found, get booked, and own your leads — built for a market of row houses, Bay humidity, and storm season. Free Baltimore audit.',
+    'Web design, SEO, and local SEO for Baltimore contractors. Get found, get booked, and own your leads — built for a market of row houses, Bay humidity,.',
 
   eyebrow: 'Baltimore · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Baltimore contractors found and booked',

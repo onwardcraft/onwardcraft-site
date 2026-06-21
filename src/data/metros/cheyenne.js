@@ -110,7 +110,7 @@ export const cheyenneLocations = [
     citySlug: 'cheyenne', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Cheyenne Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Cheyenne and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Cheyenne and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Cheyenne',
     h1: 'When Cheyenne searches for what you do, be the first name they find',
     h2Exact: 'Cheyenne Local SEO Company',
@@ -174,9 +174,9 @@ export const cheyenneLocations = [
   {
     ...BASE,
     citySlug: 'cheyenne', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Cheyenne SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Cheyenne SEO Company | OnwardCraft',
     metaDescription:
-      'Cheyenne SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for wind and storm demand. Free Cheyenne SEO audit.',
+      'Cheyenne SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for wind and storm demand.',
     eyebrow: 'SEO Services · Cheyenne',
     h1: 'Get your Cheyenne business to the top of Google and keep it there',
     h2Exact: 'Cheyenne SEO Company',
@@ -240,9 +240,9 @@ export const cheyenneLocations = [
   {
     ...BASE,
     citySlug: 'cheyenne', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Cheyenne Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Cheyenne Web Design Company | OnwardCraft',
     metaDescription:
-      'Cheyenne web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand. Transparent pricing, you own it all. Free quote.',
+      'Cheyenne web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand.',
     eyebrow: 'Web Design · Cheyenne',
     h1: 'Cheyenne web design that turns visitors into booked jobs',
     h2Exact: 'Cheyenne Web Design Company',
@@ -306,9 +306,9 @@ export const cheyenneLocations = [
   {
     ...BASE,
     citySlug: 'cheyenne', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Cheyenne Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Cheyenne Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Cheyenne website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your Cheyenne website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
     eyebrow: 'Website Redesign · Cheyenne',
     h1: 'Redesign your Cheyenne website without losing your rankings',
     h2Exact: 'Cheyenne Website Redesign Company',
@@ -372,9 +372,9 @@ export const cheyenneLocations = [
 export const cheyenneCity = {
   citySlug: 'cheyenne', city: 'Cheyenne', state: 'Wyoming', stateAbbr: 'WY', metro: 'Cheyenne',
 
-  titleTag: 'Cheyenne Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Cheyenne Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Cheyenne contractors. Get found, get booked, and own your leads instead of renting them — built for wind and storm demand. Free Cheyenne audit.',
+    'Web design, SEO, and local SEO for Cheyenne contractors. Get found, get booked, and own your leads instead of renting them — built for wind and storm demand.',
 
   eyebrow: 'Cheyenne · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Cheyenne contractors found and booked',

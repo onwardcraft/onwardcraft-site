@@ -111,7 +111,7 @@ export const atlantaLocations = [
     citySlug: 'atlanta', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Atlanta Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Atlanta and three businesses show up on the map. We get you into those three — in Alpharetta, Marietta, Duluth, and the suburbs where the work is. Free audit.',
+      'Search your service in Atlanta and three businesses show up on the map. We get you into those three — in Alpharetta, Marietta, Duluth, and the suburbs where.',
     eyebrow: 'Local SEO · Atlanta, Georgia',
     h1: 'When Atlanta searches for what you do, be the first name they find',
     h2Exact: 'Atlanta Local SEO Company',
@@ -177,7 +177,7 @@ export const atlantaLocations = [
     citySlug: 'atlanta', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Atlanta SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Atlanta SEO that ranks contractors on Google and brings in leads you own. Suburb-by-suburb targeting, seasonal demand SEO, revenue-tied reporting. Free Atlanta SEO audit.',
+      'Atlanta SEO that ranks contractors on Google and brings in leads you own. Suburb-by-suburb targeting, seasonal demand SEO, revenue-tied reporting.',
     eyebrow: 'SEO Services · Atlanta, Georgia',
     h1: 'Get your Atlanta business to the top of Google and keep it there',
     h2Exact: 'Atlanta SEO Company',
@@ -241,9 +241,9 @@ export const atlantaLocations = [
   {
     ...BASE,
     citySlug: 'atlanta', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Atlanta Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Atlanta Web Design Company | OnwardCraft',
     metaDescription:
-      'Atlanta web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in Alpharetta, Marietta, Duluth, and the suburbs where the work is. Free quote.',
+      'Atlanta web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in Alpharetta, Marietta, Duluth, and the suburbs.',
     eyebrow: 'Web Design · Atlanta, Georgia',
     h1: 'Atlanta web design that turns visitors into booked jobs',
     h2Exact: 'Atlanta Web Design Company',
@@ -307,9 +307,9 @@ export const atlantaLocations = [
   {
     ...BASE,
     citySlug: 'atlanta', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Atlanta Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Atlanta Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Atlanta website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across Alpharetta, Marietta, Duluth, and more. Free audit.',
+      'Redesign your Atlanta website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across Alpharetta, Marietta.',
     eyebrow: 'Website Redesign · Atlanta, Georgia',
     h1: 'Redesign your Atlanta website without losing your rankings',
     h2Exact: 'Atlanta Website Redesign Company',
@@ -373,9 +373,9 @@ export const atlantaLocations = [
 export const atlantaCity = {
   citySlug: 'atlanta', city: 'Atlanta', state: 'Georgia', stateAbbr: 'GA', metro: 'Atlanta',
 
-  titleTag: 'Atlanta Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Atlanta Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Atlanta contractors. Get found in Alpharetta, Marietta, Duluth, and the suburbs where the work is — own your leads instead of renting them. Free audit.',
+    'Web design, SEO, and local SEO for Atlanta contractors. Get found in Alpharetta, Marietta, Duluth, and the suburbs where the work is — own your leads instead.',
 
   eyebrow: 'Atlanta · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Atlanta contractors found and booked',

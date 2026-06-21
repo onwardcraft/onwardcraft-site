@@ -109,9 +109,9 @@ export const manchesterLocations = [
   {
     ...BASE,
     citySlug: 'manchester', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Manchester Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Manchester Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Manchester and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Manchester and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Manchester-Nashua',
     h1: 'When Manchester searches for what you do, be the first name they find',
     h2Exact: 'Manchester Local SEO Company',
@@ -175,9 +175,9 @@ export const manchesterLocations = [
   {
     ...BASE,
     citySlug: 'manchester', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Manchester SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Manchester SEO Company | OnwardCraft',
     metaDescription:
-      'Manchester SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for winter-emergency demand. Free Manchester SEO audit.',
+      'Manchester SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for winter-emergency demand.',
     eyebrow: 'SEO Services · Manchester-Nashua',
     h1: 'Get your Manchester business to the top of Google and keep it there',
     h2Exact: 'Manchester SEO Company',
@@ -241,9 +241,9 @@ export const manchesterLocations = [
   {
     ...BASE,
     citySlug: 'manchester', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Manchester Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Manchester Web Design Company | OnwardCraft',
     metaDescription:
-      'Manchester web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and winter-emergency demand. Transparent pricing, you own it all. Free quote.',
+      'Manchester web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and winter-emergency demand.',
     eyebrow: 'Web Design · Manchester-Nashua',
     h1: 'Manchester web design that turns visitors into booked jobs',
     h2Exact: 'Manchester Web Design Company',
@@ -307,9 +307,9 @@ export const manchesterLocations = [
   {
     ...BASE,
     citySlug: 'manchester', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Manchester Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Manchester Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Manchester website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter storms. Free audit.',
+      'Redesign your Manchester website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter.',
     eyebrow: 'Website Redesign · Manchester-Nashua',
     h1: 'Redesign your Manchester website without losing your rankings',
     h2Exact: 'Manchester Website Redesign Company',
@@ -373,9 +373,9 @@ export const manchesterLocations = [
 export const manchesterCity = {
   citySlug: 'manchester', city: 'Manchester', state: 'New Hampshire', stateAbbr: 'NH', metro: 'Manchester-Nashua',
 
-  titleTag: 'Manchester NH Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Manchester NH Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Manchester NH contractors. Get found, get booked, and own your leads instead of renting them — built for winter-emergency demand. Free Manchester audit.',
+    'Web design, SEO, and local SEO for Manchester NH contractors. Get found, get booked, and own your leads instead of renting them — built for winter-emergency.',
 
   eyebrow: 'Manchester · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Manchester contractors found and booked',

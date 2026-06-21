@@ -111,7 +111,7 @@ export const bellevueLocations = [
     citySlug: 'bellevue', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Bellevue Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Bellevue and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Bellevue and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Bellevue-Eastside',
     h1: 'When the Eastside searches for what you do, be the first name they find',
     h2Exact: 'Bellevue Local SEO Company',
@@ -175,9 +175,9 @@ export const bellevueLocations = [
   {
     ...BASE,
     citySlug: 'bellevue', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Bellevue SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Bellevue SEO Company | OnwardCraft',
     metaDescription:
-      'Bellevue SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for the Eastside market. Free SEO audit.',
+      'Bellevue SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for the Eastside market.',
     eyebrow: 'SEO Services · Bellevue-Eastside',
     h1: 'Get your Bellevue business to the top of Google and keep it there',
     h2Exact: 'Bellevue SEO Company',
@@ -241,9 +241,9 @@ export const bellevueLocations = [
   {
     ...BASE,
     citySlug: 'bellevue', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Bellevue Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Bellevue Web Design Company | OnwardCraft',
     metaDescription:
-      'Bellevue web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and the Eastside\'s research-heavy homeowners. Transparent pricing, you own it. Free quote.',
+      'Bellevue web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and the Eastside\'s research-heavy homeowners.',
     eyebrow: 'Web Design · Bellevue-Eastside',
     h1: 'Bellevue web design that turns visitors into booked jobs',
     h2Exact: 'Bellevue Web Design Company',
@@ -307,9 +307,9 @@ export const bellevueLocations = [
   {
     ...BASE,
     citySlug: 'bellevue', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Bellevue Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Bellevue Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Bellevue website without losing rankings. Faster, mobile-first rebuilds that convert more of the Eastside\'s affluent homeowners into booked jobs. Free audit.',
+      'Redesign your Bellevue website without losing rankings. Faster, mobile-first rebuilds that convert more of the Eastside\'s affluent homeowners into booked.',
     eyebrow: 'Website Redesign · Bellevue-Eastside',
     h1: 'Redesign your Bellevue website without losing your rankings',
     h2Exact: 'Bellevue Website Redesign Company',
@@ -373,7 +373,7 @@ export const bellevueLocations = [
 export const bellevueCity = {
   citySlug: 'bellevue', city: 'Bellevue', state: 'Washington', stateAbbr: 'WA', metro: 'Bellevue-Eastside',
 
-  titleTag: 'Bellevue Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Bellevue Marketing for Contractors | OnwardCraft',
   metaDescription:
     'Web design, SEO, and local SEO for Bellevue and Eastside contractors. Get found, get booked, and own your leads instead of renting them. Free Bellevue audit.',
 

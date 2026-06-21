@@ -112,7 +112,7 @@ export const tulsaLocations = [
     citySlug: 'tulsa', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Tulsa Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Tulsa and three businesses show up on the map. We get you into those three, so the call lands with you after every storm and every season. Free audit.',
+      'Search your service in Tulsa and three businesses show up on the map. We get you into those three, so the call lands with you after every storm and every.',
     eyebrow: 'Local SEO · Tulsa, OK',
     h1: 'When Tulsa searches for what you do, be the first name they find',
     h2Exact: 'Tulsa Local SEO Company',
@@ -244,7 +244,7 @@ export const tulsaLocations = [
     citySlug: 'tulsa', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Tulsa Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Tulsa web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a storm-season market. Transparent pricing, you own it. Free quote.',
+      'Tulsa web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a storm-season market.',
     eyebrow: 'Web Design · Tulsa, OK',
     h1: 'Tulsa web design that turns visitors into booked jobs',
     h2Exact: 'Tulsa Web Design Company',
@@ -308,9 +308,9 @@ export const tulsaLocations = [
   {
     ...BASE,
     citySlug: 'tulsa', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Tulsa Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Tulsa Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Tulsa contractor website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — storm season ready. Free audit.',
+      'Redesign your Tulsa contractor website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — storm season.',
     eyebrow: 'Website Redesign · Tulsa, OK',
     h1: 'Redesign your Tulsa website without losing your rankings',
     h2Exact: 'Tulsa Website Redesign Company',
@@ -374,7 +374,7 @@ export const tulsaLocations = [
 export const tulsaCity = {
   citySlug: 'tulsa', city: 'Tulsa', state: 'Oklahoma', stateAbbr: 'OK', metro: 'Tulsa',
 
-  titleTag: 'Tulsa Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Tulsa Marketing for Contractors | OnwardCraft',
   metaDescription:
     'Web design, SEO, and local SEO for Tulsa contractors. Get found after every storm, rank for your real neighborhoods, and own your leads. Free Tulsa audit.',
 

@@ -109,9 +109,9 @@ export const fortWayneLocations = [
   {
     ...BASE,
     citySlug: 'fort-wayne', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Fort Wayne Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Fort Wayne Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Fort Wayne and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Fort Wayne and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Fort Wayne',
     h1: 'When Fort Wayne searches for what you do, be the first name they find',
     h2Exact: 'Fort Wayne Local SEO Company',
@@ -175,9 +175,9 @@ export const fortWayneLocations = [
   {
     ...BASE,
     citySlug: 'fort-wayne', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Fort Wayne SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Fort Wayne SEO Company | OnwardCraft',
     metaDescription:
-      'Fort Wayne SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for flood and winter demand. Free SEO audit.',
+      'Fort Wayne SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for flood and winter demand.',
     eyebrow: 'SEO Services · Fort Wayne',
     h1: 'Get your Fort Wayne business to the top of Google and keep it there',
     h2Exact: 'Fort Wayne SEO Company',
@@ -241,9 +241,9 @@ export const fortWayneLocations = [
   {
     ...BASE,
     citySlug: 'fort-wayne', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Fort Wayne Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Fort Wayne Web Design Company | OnwardCraft',
     metaDescription:
-      'Fort Wayne web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and flood-season demand. Transparent pricing, you own it all. Free quote.',
+      'Fort Wayne web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and flood-season demand.',
     eyebrow: 'Web Design · Fort Wayne',
     h1: 'Fort Wayne web design that turns visitors into booked jobs',
     h2Exact: 'Fort Wayne Web Design Company',
@@ -307,9 +307,9 @@ export const fortWayneLocations = [
   {
     ...BASE,
     citySlug: 'fort-wayne', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Fort Wayne Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Fort Wayne Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Fort Wayne website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in flood season. Free audit.',
+      'Redesign your Fort Wayne website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in flood.',
     eyebrow: 'Website Redesign · Fort Wayne',
     h1: 'Redesign your Fort Wayne website without losing your rankings',
     h2Exact: 'Fort Wayne Website Redesign Company',
@@ -373,9 +373,9 @@ export const fortWayneLocations = [
 export const fortWayneCity = {
   citySlug: 'fort-wayne', city: 'Fort Wayne', state: 'Indiana', stateAbbr: 'IN', metro: 'Fort Wayne',
 
-  titleTag: 'Fort Wayne Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Fort Wayne Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Fort Wayne contractors. Get found, get booked, and own your leads instead of renting them — built for flood and winter demand. Free audit.',
+    'Web design, SEO, and local SEO for Fort Wayne contractors. Get found, get booked, and own your leads instead of renting them — built for flood and winter.',
 
   eyebrow: 'Fort Wayne · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Fort Wayne contractors found and booked',

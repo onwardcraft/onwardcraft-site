@@ -111,7 +111,7 @@ export const durhamLocations = [
     citySlug: 'durham', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Durham Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Durham and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Durham and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Durham, NC',
     h1: 'When Durham searches for what you do, be the first name they find',
     h2Exact: 'Durham Local SEO Company',
@@ -175,9 +175,9 @@ export const durhamLocations = [
   {
     ...BASE,
     citySlug: 'durham', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Durham SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Durham SEO Company | OnwardCraft',
     metaDescription:
-      'Durham SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Triangle-market demand. Free Durham SEO audit.',
+      'Durham SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Triangle-market demand.',
     eyebrow: 'SEO Services · Durham, NC',
     h1: 'Get your Durham business to the top of Google and keep it there',
     h2Exact: 'Durham SEO Company',
@@ -243,7 +243,7 @@ export const durhamLocations = [
     citySlug: 'durham', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Durham Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Durham web design that turns visitors into booked jobs — fast, credibility-first sites built for contractors and the Triangle\'s highly educated homeowners. Transparent pricing, you own it all. Free quote.',
+      'Durham web design that turns visitors into booked jobs — fast, credibility-first sites built for contractors and the Triangle\'s highly educated homeowners.',
     eyebrow: 'Web Design · Durham, NC',
     h1: 'Durham web design that turns visitors into booked jobs',
     h2Exact: 'Durham Web Design Company',
@@ -307,9 +307,9 @@ export const durhamLocations = [
   {
     ...BASE,
     citySlug: 'durham', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Durham Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Durham Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Durham website without losing rankings. Faster, credibility-first rebuilds that convert more visitors into booked jobs and satisfy Triangle homeowners who research. Free audit.',
+      'Redesign your Durham website without losing rankings. Faster, credibility-first rebuilds that convert more visitors into booked jobs and satisfy Triangle.',
     eyebrow: 'Website Redesign · Durham, NC',
     h1: 'Redesign your Durham website without losing your rankings',
     h2Exact: 'Durham Website Redesign Company',
@@ -373,9 +373,9 @@ export const durhamLocations = [
 export const durhamCity = {
   citySlug: 'durham', city: 'Durham', state: 'North Carolina', stateAbbr: 'NC', metro: 'Durham',
 
-  titleTag: 'Durham Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Durham Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Durham contractors. Get found by Duke homeowners and RTP professionals, get booked, and own your leads instead of renting them. Free Durham audit.',
+    'Web design, SEO, and local SEO for Durham contractors. Get found by Duke homeowners and RTP professionals, get booked, and own your leads instead of renting.',
 
   eyebrow: 'Durham · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Durham contractors found and booked',

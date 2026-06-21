@@ -111,7 +111,7 @@ export const peoriaLocations = [
     citySlug: 'peoria', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Peoria Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Peoria and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Peoria and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Peoria, IL',
     h1: 'When Peoria searches for what you do, be the first name they find',
     h2Exact: 'Peoria Local SEO Company',
@@ -177,7 +177,7 @@ export const peoriaLocations = [
     citySlug: 'peoria', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Peoria SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Peoria SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm season and middle-market buyers. Free Peoria SEO audit.',
+      'Peoria SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm season.',
     eyebrow: 'SEO Services · Peoria, IL',
     h1: 'Get your Peoria business to the top of Google and keep it there',
     h2Exact: 'Peoria SEO Company',
@@ -243,7 +243,7 @@ export const peoriaLocations = [
     citySlug: 'peoria', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Peoria Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Peoria web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving a practical, research-minded market. Transparent pricing, you own it. Free quote.',
+      'Peoria web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving a practical, research-minded market.',
     eyebrow: 'Web Design · Peoria, IL',
     h1: 'Peoria web design that turns visitors into booked jobs',
     h2Exact: 'Peoria Web Design Company',
@@ -307,9 +307,9 @@ export const peoriaLocations = [
   {
     ...BASE,
     citySlug: 'peoria', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Peoria Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Peoria Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Peoria website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a practical, research-driven market. Free audit.',
+      'Redesign your Peoria website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a practical.',
     eyebrow: 'Website Redesign · Peoria, IL',
     h1: 'Redesign your Peoria website without losing your rankings',
     h2Exact: 'Peoria Website Redesign Company',
@@ -373,9 +373,9 @@ export const peoriaLocations = [
 export const peoriaCity = {
   citySlug: 'peoria', city: 'Peoria', state: 'Illinois', stateAbbr: 'IL', metro: 'Peoria',
 
-  titleTag: 'Peoria Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Peoria Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Peoria contractors. Get found, get booked, and own your leads instead of renting them — built for middle-market buyers and storm season. Free Peoria audit.',
+    'Web design, SEO, and local SEO for Peoria contractors. Get found, get booked, and own your leads instead of renting them — built for middle-market buyers.',
 
   eyebrow: 'Peoria, IL · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Peoria contractors found and booked',

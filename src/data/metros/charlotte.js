@@ -111,7 +111,7 @@ export const charlotteLocations = [
     citySlug: 'charlotte', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Charlotte Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Charlotte and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Charlotte and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Charlotte, NC',
     h1: 'When Charlotte searches for what you do, be the first name they find',
     h2Exact: 'Charlotte Local SEO Company',
@@ -175,9 +175,9 @@ export const charlotteLocations = [
   {
     ...BASE,
     citySlug: 'charlotte', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Charlotte SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Charlotte SEO Company | OnwardCraft',
     metaDescription:
-      'Charlotte SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market. Free Charlotte SEO audit.',
+      'Charlotte SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market.',
     eyebrow: 'SEO Services · Charlotte, NC',
     h1: 'Get your Charlotte business to the top of Google and keep it there',
     h2Exact: 'Charlotte SEO Company',
@@ -241,9 +241,9 @@ export const charlotteLocations = [
   {
     ...BASE,
     citySlug: 'charlotte', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Charlotte Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Charlotte Web Design Company | OnwardCraft',
     metaDescription:
-      'Charlotte web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving a high-income, fast-growing market. Transparent pricing, you own it. Free quote.',
+      'Charlotte web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving a high-income, fast-growing market.',
     eyebrow: 'Web Design · Charlotte, NC',
     h1: 'Charlotte web design that turns visitors into booked jobs',
     h2Exact: 'Charlotte Web Design Company',
@@ -307,9 +307,9 @@ export const charlotteLocations = [
   {
     ...BASE,
     citySlug: 'charlotte', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Charlotte Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Charlotte Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Charlotte website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing market. Free audit.',
+      'Redesign your Charlotte website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing market.',
     eyebrow: 'Website Redesign · Charlotte, NC',
     h1: 'Redesign your Charlotte website without losing your rankings',
     h2Exact: 'Charlotte Website Redesign Company',
@@ -373,9 +373,9 @@ export const charlotteLocations = [
 export const charlotteCity = {
   citySlug: 'charlotte', city: 'Charlotte', state: 'North Carolina', stateAbbr: 'NC', metro: 'Charlotte',
 
-  titleTag: 'Charlotte Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Charlotte Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Charlotte contractors. Get found, get booked, and own your leads instead of renting them — built for a fast-growing, high-income market. Free Charlotte audit.',
+    'Web design, SEO, and local SEO for Charlotte contractors. Get found, get booked, and own your leads instead of renting them — built for a fast-growing.',
 
   eyebrow: 'Charlotte · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Charlotte contractors found and booked',

@@ -109,9 +109,9 @@ export const littleRockLocations = [
   {
     ...BASE,
     citySlug: 'little-rock', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Little Rock Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Little Rock Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your trade in Little Rock and three businesses show up on the map. We get you into those three — especially during storm season and summer HVAC rushes. Free audit.',
+      'Search your trade in Little Rock and three businesses show up on the map. We get you into those three — especially during storm season and summer HVAC rushes.',
     eyebrow: 'Local SEO · Little Rock, AR',
     h1: 'When Little Rock searches for what you do, be the first name they find',
     h2Exact: 'Little Rock Local SEO Company',
@@ -175,9 +175,9 @@ export const littleRockLocations = [
   {
     ...BASE,
     citySlug: 'little-rock', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Little Rock SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Little Rock SEO Company | OnwardCraft',
     metaDescription:
-      'Little Rock SEO that ranks trade contractors on Google and brings in leads you own. Storm-season ready, revenue-tied reporting, no lock-in. Free Little Rock SEO audit.',
+      'Little Rock SEO that ranks trade contractors on Google and brings in leads you own. Storm-season ready, revenue-tied reporting, no lock-in.',
     eyebrow: 'SEO Services · Little Rock, AR',
     h1: 'Get your Little Rock business to the top of Google and keep it there',
     h2Exact: 'Little Rock SEO Company',
@@ -241,9 +241,9 @@ export const littleRockLocations = [
   {
     ...BASE,
     citySlug: 'little-rock', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Little Rock Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Little Rock Web Design Company | OnwardCraft',
     metaDescription:
-      'Little Rock web design that turns visitors into booked jobs — fast, mobile-first sites built for trade contractors across the Arkansas metro. Transparent pricing, you own it. Free quote.',
+      'Little Rock web design that turns visitors into booked jobs — fast, mobile-first sites built for trade contractors across the Arkansas metro.',
     eyebrow: 'Web Design · Little Rock, AR',
     h1: 'Little Rock web design that turns visitors into booked jobs',
     h2Exact: 'Little Rock Web Design Company',
@@ -307,7 +307,7 @@ export const littleRockLocations = [
   {
     ...BASE,
     citySlug: 'little-rock', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Little Rock Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Little Rock Website Redesign | OnwardCraft',
     metaDescription:
       'Redesign your Little Rock contractor website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs. Free audit.',
     eyebrow: 'Website Redesign · Little Rock, AR',
@@ -373,9 +373,9 @@ export const littleRockLocations = [
 export const littleRockCity = {
   citySlug: 'little-rock', city: 'Little Rock', state: 'Arkansas', stateAbbr: 'AR', metro: 'Little Rock',
 
-  titleTag: 'Little Rock Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Little Rock Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Little Rock trade contractors. Get found before storm season, get booked through summer HVAC rushes, and own your leads. Free audit.',
+    'Web design, SEO, and local SEO for Little Rock trade contractors. Get found before storm season, get booked through summer HVAC rushes, and own your leads.',
 
   eyebrow: 'Little Rock · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Little Rock contractors found and booked',

@@ -111,7 +111,7 @@ export const amarilloLocations = [
     citySlug: 'amarillo', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Amarillo Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Amarillo and three businesses show up on the map. We get you into those three, so the call lands with you — ready for hail season. Honest pricing, no lock-in, free audit.',
+      'Search your service in Amarillo and three businesses show up on the map. We get you into those three, so the call lands with you — ready for hail season.',
     eyebrow: 'Local SEO · Amarillo, TX',
     h1: 'When Amarillo searches for what you do, be the first name they find',
     h2Exact: 'Amarillo Local SEO Company',
@@ -175,9 +175,9 @@ export const amarilloLocations = [
   {
     ...BASE,
     citySlug: 'amarillo', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Amarillo SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Amarillo SEO Company | OnwardCraft',
     metaDescription:
-      'Amarillo SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hail-season demand. Free Amarillo SEO audit.',
+      'Amarillo SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hail-season demand.',
     eyebrow: 'SEO Services · Amarillo, TX',
     h1: 'Get your Amarillo business to the top of Google and keep it there',
     h2Exact: 'Amarillo SEO Company',
@@ -241,9 +241,9 @@ export const amarilloLocations = [
   {
     ...BASE,
     citySlug: 'amarillo', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Amarillo Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Amarillo Web Design Company | OnwardCraft',
     metaDescription:
-      'Amarillo web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hail-season demand. Transparent pricing, you own it all. Free quote.',
+      'Amarillo web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hail-season demand.',
     eyebrow: 'Web Design · Amarillo, TX',
     h1: 'Amarillo web design that turns visitors into booked jobs',
     h2Exact: 'Amarillo Web Design Company',
@@ -307,9 +307,9 @@ export const amarilloLocations = [
   {
     ...BASE,
     citySlug: 'amarillo', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Amarillo Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Amarillo Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Amarillo website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season. Free audit.',
+      'Redesign your Amarillo website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season.',
     eyebrow: 'Website Redesign · Amarillo, TX',
     h1: 'Redesign your Amarillo website without losing your rankings',
     h2Exact: 'Amarillo Website Redesign Company',
@@ -373,9 +373,9 @@ export const amarilloLocations = [
 export const amarilloCity = {
   citySlug: 'amarillo', city: 'Amarillo', state: 'Texas', stateAbbr: 'TX', metro: 'Amarillo',
 
-  titleTag: 'Amarillo Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Amarillo Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Amarillo contractors. Get found, get booked, and own your leads instead of renting them — built for hail-season demand in the Texas Panhandle. Free Amarillo audit.',
+    'Web design, SEO, and local SEO for Amarillo contractors. Get found, get booked, and own your leads instead of renting them — built for hail-season demand.',
 
   eyebrow: 'Amarillo · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Amarillo contractors found and booked',

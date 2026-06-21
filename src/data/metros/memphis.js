@@ -111,7 +111,7 @@ export const memphisLocations = [
     citySlug: 'memphis', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Memphis Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Memphis and three businesses show up on the map. We get you into those three, so the call lands with you — before tornado season, before the summer HVAC rush. Free audit.',
+      'Search your service in Memphis and three businesses show up on the map. We get you into those three, so the call lands with you — before tornado season.',
     eyebrow: 'Local SEO · Memphis, TN',
     h1: 'When Memphis searches for what you do, be the first name they find',
     h2Exact: 'Memphis Local SEO Company',
@@ -177,7 +177,7 @@ export const memphisLocations = [
     citySlug: 'memphis', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Memphis SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Memphis SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for tornado season and summer HVAC demand. Free Memphis SEO audit.',
+      'Memphis SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for tornado season and summer.',
     eyebrow: 'SEO Services · Memphis, TN',
     h1: 'Get your Memphis business to the top of Google and keep it there',
     h2Exact: 'Memphis SEO Company',
@@ -241,9 +241,9 @@ export const memphisLocations = [
   {
     ...BASE,
     citySlug: 'memphis', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Memphis Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Memphis Web Design Company | OnwardCraft',
     metaDescription:
-      'Memphis web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving Midtown, Germantown, Collierville, and beyond. Transparent pricing, you own it. Free quote.',
+      'Memphis web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving Midtown, Germantown, Collierville,.',
     eyebrow: 'Web Design · Memphis, TN',
     h1: 'Memphis web design that turns visitors into booked jobs',
     h2Exact: 'Memphis Web Design Company',
@@ -307,9 +307,9 @@ export const memphisLocations = [
   {
     ...BASE,
     citySlug: 'memphis', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Memphis Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Memphis Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Memphis website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in Germantown, Midtown, and across Shelby County. Free audit.',
+      'Redesign your Memphis website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in Germantown, Midtown,.',
     eyebrow: 'Website Redesign · Memphis, TN',
     h1: 'Redesign your Memphis website without losing your rankings',
     h2Exact: 'Memphis Website Redesign Company',
@@ -373,9 +373,9 @@ export const memphisLocations = [
 export const memphisCity = {
   citySlug: 'memphis', city: 'Memphis', state: 'Tennessee', stateAbbr: 'TN', metro: 'Memphis',
 
-  titleTag: 'Memphis Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Memphis Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Memphis contractors. Get found before tornado season, before the summer HVAC rush — own your leads instead of renting them. Free Memphis audit.',
+    'Web design, SEO, and local SEO for Memphis contractors. Get found before tornado season, before the summer HVAC rush — own your leads instead of renting them.',
 
   eyebrow: 'Memphis · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Memphis contractors found and booked',

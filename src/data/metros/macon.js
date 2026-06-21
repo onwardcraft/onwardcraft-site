@@ -111,7 +111,7 @@ export const maconLocations = [
     citySlug: 'macon', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Macon Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Macon and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Macon and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Macon-Bibb County',
     h1: 'When Macon searches for what you do, be the first name they find',
     h2Exact: 'Macon Local SEO Company',
@@ -175,9 +175,9 @@ export const maconLocations = [
   {
     ...BASE,
     citySlug: 'macon', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Macon SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Macon SEO Company | OnwardCraft',
     metaDescription:
-      'Macon SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand. Free Macon SEO audit.',
+      'Macon SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand.',
     eyebrow: 'SEO Services · Macon-Bibb County',
     h1: 'Get your Macon business to the top of Google and keep it there',
     h2Exact: 'Macon SEO Company',
@@ -243,7 +243,7 @@ export const maconLocations = [
     citySlug: 'macon', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Macon Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Macon web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand. Transparent pricing, you own it all. Free quote.',
+      'Macon web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand.',
     eyebrow: 'Web Design · Macon-Bibb County',
     h1: 'Macon web design that turns visitors into booked jobs',
     h2Exact: 'Macon Web Design Company',
@@ -307,9 +307,9 @@ export const maconLocations = [
   {
     ...BASE,
     citySlug: 'macon', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Macon Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Macon Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Macon website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your Macon website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
     eyebrow: 'Website Redesign · Macon-Bibb County',
     h1: 'Redesign your Macon website without losing your rankings',
     h2Exact: 'Macon Website Redesign Company',
@@ -373,9 +373,9 @@ export const maconLocations = [
 export const maconCity = {
   citySlug: 'macon', city: 'Macon', state: 'Georgia', stateAbbr: 'GA', metro: 'Macon-Bibb County',
 
-  titleTag: 'Macon Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Macon Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Macon contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand. Free Macon audit.',
+    'Web design, SEO, and local SEO for Macon contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand.',
 
   eyebrow: 'Macon · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Macon contractors found and booked',

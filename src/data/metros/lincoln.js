@@ -111,7 +111,7 @@ export const lincolnLocations = [
     citySlug: 'lincoln', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Lincoln Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Lincoln and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Lincoln and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Lincoln, NE',
     h1: 'When Lincoln searches for what you do, be the first name they find',
     h2Exact: 'Lincoln Local SEO Company',
@@ -175,9 +175,9 @@ export const lincolnLocations = [
   {
     ...BASE,
     citySlug: 'lincoln', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Lincoln SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Lincoln SEO Company | OnwardCraft',
     metaDescription:
-      'Lincoln SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand. Free Lincoln SEO audit.',
+      'Lincoln SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand.',
     eyebrow: 'SEO Services · Lincoln, NE',
     h1: 'Get your Lincoln business to the top of Google and keep it there',
     h2Exact: 'Lincoln SEO Company',
@@ -241,9 +241,9 @@ export const lincolnLocations = [
   {
     ...BASE,
     citySlug: 'lincoln', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Lincoln Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Lincoln Web Design Company | OnwardCraft',
     metaDescription:
-      'Lincoln web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand. Transparent pricing, you own it all. Free quote.',
+      'Lincoln web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand.',
     eyebrow: 'Web Design · Lincoln, NE',
     h1: 'Lincoln web design that turns visitors into booked jobs',
     h2Exact: 'Lincoln Web Design Company',
@@ -307,9 +307,9 @@ export const lincolnLocations = [
   {
     ...BASE,
     citySlug: 'lincoln', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Lincoln Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Lincoln Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Lincoln website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your Lincoln website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
     eyebrow: 'Website Redesign · Lincoln, NE',
     h1: 'Redesign your Lincoln website without losing your rankings',
     h2Exact: 'Lincoln Website Redesign Company',
@@ -373,9 +373,9 @@ export const lincolnLocations = [
 export const lincolnCity = {
   citySlug: 'lincoln', city: 'Lincoln', state: 'Nebraska', stateAbbr: 'NE', metro: 'Lincoln',
 
-  titleTag: 'Lincoln Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Lincoln Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Lincoln contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand. Free Lincoln audit.',
+    'Web design, SEO, and local SEO for Lincoln contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand.',
 
   eyebrow: 'Lincoln · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Lincoln contractors found and booked',

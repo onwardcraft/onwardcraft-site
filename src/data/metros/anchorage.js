@@ -111,7 +111,7 @@ export const anchorageLocations = [
     citySlug: 'anchorage', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Anchorage Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Anchorage and three businesses show up on the map. We get you into those three, so the call lands with you during every heating emergency and renovation season. Honest pricing, no lock-in, free audit.',
+      'Search your service in Anchorage and three businesses show up on the map. We get you into those three, so the call lands with you during every heating.',
     eyebrow: 'Local SEO · Anchorage, Alaska',
     h1: 'When Anchorage searches for what you do, be the first name they find',
     h2Exact: 'Anchorage Local SEO Company',
@@ -177,7 +177,7 @@ export const anchorageLocations = [
     citySlug: 'anchorage', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Anchorage SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Anchorage SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for an extreme-climate, oil-economy market. Free Anchorage SEO audit.',
+      'Anchorage SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for an extreme-climate.',
     eyebrow: 'SEO Services · Anchorage, Alaska',
     h1: 'Get your Anchorage business to the top of Google and keep it there',
     h2Exact: 'Anchorage SEO Company',
@@ -241,9 +241,9 @@ export const anchorageLocations = [
   {
     ...BASE,
     citySlug: 'anchorage', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Anchorage Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Anchorage Web Design Company | OnwardCraft',
     metaDescription:
-      'Anchorage web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in an extreme-climate, oil-economy market. Transparent pricing, you own it. Free quote.',
+      'Anchorage web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in an extreme-climate, oil-economy market.',
     eyebrow: 'Web Design · Anchorage, Alaska',
     h1: 'Anchorage web design that turns visitors into booked jobs',
     h2Exact: 'Anchorage Web Design Company',
@@ -307,9 +307,9 @@ export const anchorageLocations = [
   {
     ...BASE,
     citySlug: 'anchorage', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Anchorage Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Anchorage Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Anchorage website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in an extreme-climate market. Free audit.',
+      'Redesign your Anchorage website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in an extreme-climate.',
     eyebrow: 'Website Redesign · Anchorage, Alaska',
     h1: 'Redesign your Anchorage website without losing your rankings',
     h2Exact: 'Anchorage Website Redesign Company',
@@ -373,9 +373,9 @@ export const anchorageLocations = [
 export const anchorageCity = {
   citySlug: 'anchorage', city: 'Anchorage', state: 'Alaska', stateAbbr: 'AK', metro: 'Anchorage',
 
-  titleTag: 'Anchorage Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Anchorage Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Anchorage contractors. Get found during winter emergencies, renovation season, and year-round — own your leads instead of renting them. Free Anchorage audit.',
+    'Web design, SEO, and local SEO for Anchorage contractors. Get found during winter emergencies, renovation season, and year-round — own your leads instead.',
 
   eyebrow: 'Anchorage · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Anchorage contractors found and booked',

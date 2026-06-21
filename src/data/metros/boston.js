@@ -22,9 +22,9 @@ const MARKET = {
   donut: {
     title: 'When Boston contractor demand peaks',
     value: 43,
-    centerLabel: 'inches of snow per year',
+    centerLabel: 'winter-driven',
     legend: [
-      { label: 'Winter emergency work (Dec–Feb)', pct: 43, kind: 'teal' },
+      { label: 'Winter emergency demand', pct: 43, kind: 'teal' },
       { label: 'Rest of year', pct: 57, kind: 'grey' },
     ],
   },
@@ -111,7 +111,7 @@ export const bostonLocations = [
     citySlug: 'boston', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Boston Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Boston and three businesses show up on the map. We get you into those three before the winter rush hits. Honest pricing, no lock-in, free audit.',
+      'Search your service in Boston and three businesses show up on the map. We get you into those three before the winter rush hits.',
     eyebrow: 'Local SEO · Boston, MA',
     h1: 'When Boston searches for what you do, be the first name they find',
     h2Exact: 'Boston Local SEO Company',
@@ -177,7 +177,7 @@ export const bostonLocations = [
     citySlug: 'boston', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Boston SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Boston SEO that ranks contractors on Google before the winter rush and brings in leads you own. Revenue-tied reporting, no lock-in contracts. Free Boston SEO audit.',
+      'Boston SEO that ranks contractors on Google before the winter rush and brings in leads you own. Revenue-tied reporting, no lock-in contracts.',
     eyebrow: 'SEO Services · Boston, MA',
     h1: 'Get your Boston business to the top of Google and keep it there',
     h2Exact: 'Boston SEO Company',
@@ -243,7 +243,7 @@ export const bostonLocations = [
     citySlug: 'boston', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Boston Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Boston web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving a market of educated buyers and brutal winters. Free quote.',
+      'Boston web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving a market of educated buyers and brutal.',
     eyebrow: 'Web Design · Boston, MA',
     h1: 'Boston web design that turns visitors into booked jobs',
     h2Exact: 'Boston Web Design Company',
@@ -307,9 +307,9 @@ export const bostonLocations = [
   {
     ...BASE,
     citySlug: 'boston', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Boston Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Boston Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Boston website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs before the winter rush. Free audit.',
+      'Redesign your Boston website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs before the winter rush.',
     eyebrow: 'Website Redesign · Boston, MA',
     h1: 'Redesign your Boston website without losing your rankings',
     h2Exact: 'Boston Website Redesign Company',
@@ -373,9 +373,9 @@ export const bostonLocations = [
 export const bostonCity = {
   citySlug: 'boston', city: 'Boston', state: 'Massachusetts', stateAbbr: 'MA', metro: 'Boston',
 
-  titleTag: 'Boston Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Boston Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Boston contractors. Get found before the winter rush, win educated buyers, and own your leads instead of renting them. Free Boston audit.',
+    'Web design, SEO, and local SEO for Boston contractors. Get found before the winter rush, win educated buyers, and own your leads instead of renting them.',
 
   eyebrow: 'Boston · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Boston contractors found and booked',

@@ -109,9 +109,9 @@ export const clarksvilleLocations = [
   {
     ...BASE,
     citySlug: 'clarksville', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Clarksville Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Clarksville Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Clarksville and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Clarksville and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Clarksville',
     h1: 'When Clarksville searches for what you do, be the first name they find',
     h2Exact: 'Clarksville Local SEO Company',
@@ -175,9 +175,9 @@ export const clarksvilleLocations = [
   {
     ...BASE,
     citySlug: 'clarksville', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Clarksville SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Clarksville SEO Company | OnwardCraft',
     metaDescription:
-      'Clarksville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Fort Campbell demand. Free SEO audit.',
+      'Clarksville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Fort Campbell demand.',
     eyebrow: 'SEO Services · Clarksville',
     h1: 'Get your Clarksville business to the top of Google and keep it there',
     h2Exact: 'Clarksville SEO Company',
@@ -241,9 +241,9 @@ export const clarksvilleLocations = [
   {
     ...BASE,
     citySlug: 'clarksville', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Clarksville Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Clarksville Web Design Company | OnwardCraft',
     metaDescription:
-      'Clarksville web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Fort Campbell demand. Transparent pricing, you own it all. Free quote.',
+      'Clarksville web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Fort Campbell demand.',
     eyebrow: 'Web Design · Clarksville',
     h1: 'Clarksville web design that turns visitors into booked jobs',
     h2Exact: 'Clarksville Web Design Company',
@@ -307,9 +307,9 @@ export const clarksvilleLocations = [
   {
     ...BASE,
     citySlug: 'clarksville', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Clarksville Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Clarksville Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Clarksville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and win over newcomers. Free audit.',
+      'Redesign your Clarksville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and win over newcomers.',
     eyebrow: 'Website Redesign · Clarksville',
     h1: 'Redesign your Clarksville website without losing your rankings',
     h2Exact: 'Clarksville Website Redesign Company',
@@ -373,9 +373,9 @@ export const clarksvilleLocations = [
 export const clarksvilleCity = {
   citySlug: 'clarksville', city: 'Clarksville', state: 'Tennessee', stateAbbr: 'TN', metro: 'Clarksville',
 
-  titleTag: 'Clarksville Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Clarksville Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Clarksville contractors. Get found, get booked, and own your leads instead of renting them — built for Fort Campbell demand. Free audit.',
+    'Web design, SEO, and local SEO for Clarksville contractors. Get found, get booked, and own your leads instead of renting them — built for Fort Campbell.',
 
   eyebrow: 'Clarksville · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Clarksville contractors found and booked',

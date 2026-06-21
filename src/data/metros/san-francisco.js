@@ -109,9 +109,9 @@ export const sanFranciscoLocations = [
   {
     ...BASE,
     citySlug: 'san-francisco', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'San Francisco Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'San Francisco Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in San Francisco and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in San Francisco and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · San Francisco, CA',
     h1: 'When San Francisco searches for what you do, be the first name they find',
     h2Exact: 'San Francisco Local SEO Company',
@@ -175,9 +175,9 @@ export const sanFranciscoLocations = [
   {
     ...BASE,
     citySlug: 'san-francisco', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'San Francisco SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'San Francisco SEO Company | OnwardCraft',
     metaDescription:
-      'San Francisco SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a high-value market. Free SF SEO audit.',
+      'San Francisco SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a high-value market.',
     eyebrow: 'SEO Services · San Francisco, CA',
     h1: 'Get your San Francisco business to the top of Google and keep it there',
     h2Exact: 'San Francisco SEO Company',
@@ -241,9 +241,9 @@ export const sanFranciscoLocations = [
   {
     ...BASE,
     citySlug: 'san-francisco', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'San Francisco Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'San Francisco Web Design Company | OnwardCraft',
     metaDescription:
-      'San Francisco web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a high-value, research-intensive market. Transparent pricing, you own it. Free quote.',
+      'San Francisco web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a high-value, research-intensive market.',
     eyebrow: 'Web Design · San Francisco, CA',
     h1: 'San Francisco web design that turns visitors into booked jobs',
     h2Exact: 'San Francisco Web Design Company',
@@ -307,7 +307,7 @@ export const sanFranciscoLocations = [
   {
     ...BASE,
     citySlug: 'san-francisco', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'San Francisco Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'San Francisco Website Redesign | OnwardCraft',
     metaDescription:
       'Redesign your San Francisco website without losing rankings. Faster, mobile-first rebuilds that convert SF homeowners into booked high-value jobs. Free audit.',
     eyebrow: 'Website Redesign · San Francisco, CA',
@@ -373,7 +373,7 @@ export const sanFranciscoLocations = [
 export const sanFranciscoCity = {
   citySlug: 'san-francisco', city: 'San Francisco', state: 'California', stateAbbr: 'CA', metro: 'San Francisco Bay Area',
 
-  titleTag: 'San Francisco Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'San Francisco Marketing for Contractors | OnwardCraft',
   metaDescription:
     'Web design, SEO, and local SEO for San Francisco contractors. Get found by research-intensive SF buyers, win high-value jobs, and own your leads. Free SF audit.',
 

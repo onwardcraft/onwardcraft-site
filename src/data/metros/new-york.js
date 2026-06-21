@@ -111,7 +111,7 @@ export const newYorkLocations = [
     citySlug: 'new-york', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'New York Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in New York and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in New York and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · New York City',
     h1: 'When New York searches for what you do, be the first name they find',
     h2Exact: 'New York Local SEO Company',
@@ -177,7 +177,7 @@ export const newYorkLocations = [
     citySlug: 'new-york', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'New York SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'New York SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a dense market. Free New York SEO audit.',
+      'New York SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a dense market.',
     eyebrow: 'SEO Services · New York City',
     h1: 'Get your New York business to the top of Google and keep it there',
     h2Exact: 'New York SEO Company',
@@ -241,9 +241,9 @@ export const newYorkLocations = [
   {
     ...BASE,
     citySlug: 'new-york', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'New York Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'New York Web Design Company | OnwardCraft',
     metaDescription:
-      'New York web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a dense, competitive market. Transparent pricing, you own it. Free quote.',
+      'New York web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a dense, competitive market.',
     eyebrow: 'Web Design · New York City',
     h1: 'New York web design that turns visitors into booked jobs',
     h2Exact: 'New York Web Design Company',
@@ -307,9 +307,9 @@ export const newYorkLocations = [
   {
     ...BASE,
     citySlug: 'new-york', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'New York Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'New York Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your New York website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a crowded market. Free audit.',
+      'Redesign your New York website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a crowded market.',
     eyebrow: 'Website Redesign · New York City',
     h1: 'Redesign your New York website without losing your rankings',
     h2Exact: 'New York Website Redesign Company',
@@ -373,9 +373,9 @@ export const newYorkLocations = [
 export const newYorkCity = {
   citySlug: 'new-york', city: 'New York', state: 'New York', stateAbbr: 'NY', metro: 'New York City',
 
-  titleTag: 'New York Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'New York Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for New York contractors. Get found, get booked, and own your leads instead of renting them — built for a dense market. Free New York audit.',
+    'Web design, SEO, and local SEO for New York contractors. Get found, get booked, and own your leads instead of renting them — built for a dense market.',
 
   eyebrow: 'New York · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets New York contractors found and booked',

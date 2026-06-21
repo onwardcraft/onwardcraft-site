@@ -109,9 +109,9 @@ export const cincinnatiLocations = [
   {
     ...BASE,
     citySlug: 'cincinnati', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Cincinnati Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Cincinnati Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Cincinnati and three businesses show up on the map. We get you into those three — across Ohio and Northern Kentucky — so the call lands with you. No lock-in. Free audit.',
+      'Search your service in Cincinnati and three businesses show up on the map. We get you into those three — across Ohio and Northern Kentucky — so the call lands.',
     eyebrow: 'Local SEO · Cincinnati, OH',
     h1: 'When Cincinnati searches for what you do, be the first name they find',
     h2Exact: 'Cincinnati Local SEO Company',
@@ -175,9 +175,9 @@ export const cincinnatiLocations = [
   {
     ...BASE,
     citySlug: 'cincinnati', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Cincinnati SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Cincinnati SEO Company | OnwardCraft',
     metaDescription:
-      'Cincinnati SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a tri-state market. Free Cincinnati SEO audit.',
+      'Cincinnati SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a tri-state market.',
     eyebrow: 'SEO Services · Cincinnati, OH',
     h1: 'Get your Cincinnati business to the top of Google and keep it there',
     h2Exact: 'Cincinnati SEO Company',
@@ -241,9 +241,9 @@ export const cincinnatiLocations = [
   {
     ...BASE,
     citySlug: 'cincinnati', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Cincinnati Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Cincinnati Web Design Company | OnwardCraft',
     metaDescription:
-      'Cincinnati web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving Ohio, Northern Kentucky, and historic Victorian homes. Free quote.',
+      'Cincinnati web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving Ohio, Northern Kentucky, and historic.',
     eyebrow: 'Web Design · Cincinnati, OH',
     h1: 'Cincinnati web design that turns visitors into booked jobs',
     h2Exact: 'Cincinnati Web Design Company',
@@ -307,9 +307,9 @@ export const cincinnatiLocations = [
   {
     ...BASE,
     citySlug: 'cincinnati', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Cincinnati Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Cincinnati Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Cincinnati website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across the tri-state metro. Free audit.',
+      'Redesign your Cincinnati website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across the tri-state.',
     eyebrow: 'Website Redesign · Cincinnati, OH',
     h1: 'Redesign your Cincinnati website without losing your rankings',
     h2Exact: 'Cincinnati Website Redesign Company',
@@ -373,9 +373,9 @@ export const cincinnatiLocations = [
 export const cincinnatiCity = {
   citySlug: 'cincinnati', city: 'Cincinnati', state: 'Ohio', stateAbbr: 'OH', metro: 'Cincinnati',
 
-  titleTag: 'Cincinnati Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Cincinnati Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Cincinnati contractors — Ohio and Northern Kentucky. Get found, get booked, and own your leads instead of renting them. Free Cincinnati audit.',
+    'Web design, SEO, and local SEO for Cincinnati contractors — Ohio and Northern Kentucky. Get found, get booked, and own your leads instead of renting them.',
 
   eyebrow: 'Cincinnati · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Cincinnati contractors found and booked',

@@ -111,7 +111,7 @@ export const bendLocations = [
     citySlug: 'bend', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Bend Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Bend and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Bend and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Bend-Redmond',
     h1: 'When Bend searches for what you do, be the first name they find',
     h2Exact: 'Bend Local SEO Company',
@@ -177,7 +177,7 @@ export const bendLocations = [
     citySlug: 'bend', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Bend SEO Company | Rank Higher, Get More Leads | OnwardCraft',
     metaDescription:
-      'Bend SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for high-desert seasonal demand. Free Bend SEO audit.',
+      'Bend SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for high-desert seasonal demand.',
     eyebrow: 'SEO Services · Bend-Redmond',
     h1: 'Get your Bend business to the top of Google and keep it there',
     h2Exact: 'Bend SEO Company',
@@ -243,7 +243,7 @@ export const bendLocations = [
     citySlug: 'bend', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Bend Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Bend web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and design-conscious homeowners. Transparent pricing, you own it all. Free quote.',
+      'Bend web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and design-conscious homeowners.',
     eyebrow: 'Web Design · Bend-Redmond',
     h1: 'Bend web design that turns visitors into booked jobs',
     h2Exact: 'Bend Web Design Company',
@@ -307,9 +307,9 @@ export const bendLocations = [
   {
     ...BASE,
     citySlug: 'bend', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Bend Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Bend Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Bend website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in wildfire and winter season. Free audit.',
+      'Redesign your Bend website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in wildfire.',
     eyebrow: 'Website Redesign · Bend-Redmond',
     h1: 'Redesign your Bend website without losing your rankings',
     h2Exact: 'Bend Website Redesign Company',
@@ -373,9 +373,9 @@ export const bendLocations = [
 export const bendCity = {
   citySlug: 'bend', city: 'Bend', state: 'Oregon', stateAbbr: 'OR', metro: 'Bend-Redmond',
 
-  titleTag: 'Bend Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Bend Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Bend contractors. Get found, get booked, and own your leads instead of renting them — built for high-desert seasonal demand. Free Bend audit.',
+    'Web design, SEO, and local SEO for Bend contractors. Get found, get booked, and own your leads instead of renting them — built for high-desert seasonal.',
 
   eyebrow: 'Bend · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Bend contractors found and booked',

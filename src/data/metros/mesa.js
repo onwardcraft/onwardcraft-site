@@ -111,7 +111,7 @@ export const mesaLocations = [
     citySlug: 'mesa', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Mesa Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Mesa and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Mesa and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Mesa-East Valley',
     h1: 'When Mesa searches for what you do, be the first name they find',
     h2Exact: 'Mesa Local SEO Company',
@@ -177,7 +177,7 @@ export const mesaLocations = [
     citySlug: 'mesa', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Mesa SEO Company | Rank Higher, Get More Leads | OnwardCraft',
     metaDescription:
-      'Mesa SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for desert-heat and snowbird demand. Free Mesa SEO audit.',
+      'Mesa SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for desert-heat and snowbird.',
     eyebrow: 'SEO Services · Mesa-East Valley',
     h1: 'Get your Mesa business to the top of Google and keep it there',
     h2Exact: 'Mesa SEO Company',
@@ -243,7 +243,7 @@ export const mesaLocations = [
     citySlug: 'mesa', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Mesa Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Mesa web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors, desert-heat demand, and snowbird season. Transparent pricing, you own it all. Free quote.',
+      'Mesa web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors, desert-heat demand, and snowbird season.',
     eyebrow: 'Web Design · Mesa-East Valley',
     h1: 'Mesa web design that turns visitors into booked jobs',
     h2Exact: 'Mesa Web Design Company',
@@ -307,9 +307,9 @@ export const mesaLocations = [
   {
     ...BASE,
     citySlug: 'mesa', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Mesa Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Mesa Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Mesa website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in heat and snowbird season. Free audit.',
+      'Redesign your Mesa website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in heat and snowbird.',
     eyebrow: 'Website Redesign · Mesa-East Valley',
     h1: 'Redesign your Mesa website without losing your rankings',
     h2Exact: 'Mesa Website Redesign Company',
@@ -373,9 +373,9 @@ export const mesaLocations = [
 export const mesaCity = {
   citySlug: 'mesa', city: 'Mesa', state: 'Arizona', stateAbbr: 'AZ', metro: 'Mesa-East Valley',
 
-  titleTag: 'Mesa Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Mesa Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Mesa contractors. Get found, get booked, and own your leads instead of renting them — built for desert-heat and snowbird demand. Free Mesa audit.',
+    'Web design, SEO, and local SEO for Mesa contractors. Get found, get booked, and own your leads instead of renting them — built for desert-heat and snowbird.',
 
   eyebrow: 'Mesa · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Mesa contractors found and booked',

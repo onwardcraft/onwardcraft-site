@@ -111,7 +111,7 @@ export const norfolkLocations = [
     citySlug: 'norfolk', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Norfolk Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Norfolk and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Norfolk and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Hampton Roads',
     h1: 'When Norfolk searches for what you do, be the first name they find',
     h2Exact: 'Norfolk Local SEO Company',
@@ -175,9 +175,9 @@ export const norfolkLocations = [
   {
     ...BASE,
     citySlug: 'norfolk', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Norfolk SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Norfolk SEO Company | OnwardCraft',
     metaDescription:
-      'Norfolk SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for military and storm-season demand. Free SEO audit.',
+      'Norfolk SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for military and storm-season.',
     eyebrow: 'SEO Services · Hampton Roads',
     h1: 'Get your Norfolk business to the top of Google and keep it there',
     h2Exact: 'Norfolk SEO Company',
@@ -241,9 +241,9 @@ export const norfolkLocations = [
   {
     ...BASE,
     citySlug: 'norfolk', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Norfolk Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Norfolk Web Design Company | OnwardCraft',
     metaDescription:
-      'Norfolk web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors, military movers, and storm-season demand. Transparent pricing, you own it all. Free quote.',
+      'Norfolk web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors, military movers, and storm-season demand.',
     eyebrow: 'Web Design · Hampton Roads',
     h1: 'Norfolk web design that turns visitors into booked jobs',
     h2Exact: 'Norfolk Web Design Company',
@@ -307,9 +307,9 @@ export const norfolkLocations = [
   {
     ...BASE,
     citySlug: 'norfolk', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Norfolk Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Norfolk Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Norfolk website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm and PCS season. Free audit.',
+      'Redesign your Norfolk website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm and PCS.',
     eyebrow: 'Website Redesign · Hampton Roads',
     h1: 'Redesign your Norfolk website without losing your rankings',
     h2Exact: 'Norfolk Website Redesign Company',
@@ -373,9 +373,9 @@ export const norfolkLocations = [
 export const norfolkCity = {
   citySlug: 'norfolk', city: 'Norfolk', state: 'Virginia', stateAbbr: 'VA', metro: 'Norfolk-Hampton Roads',
 
-  titleTag: 'Norfolk Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Norfolk Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Norfolk contractors. Get found, get booked, and own your leads instead of renting them — built for military and storm-season demand. Free Norfolk audit.',
+    'Web design, SEO, and local SEO for Norfolk contractors. Get found, get booked, and own your leads instead of renting them — built for military.',
 
   eyebrow: 'Norfolk · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Norfolk contractors found and booked',

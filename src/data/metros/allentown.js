@@ -111,7 +111,7 @@ export const allentownLocations = [
     citySlug: 'allentown', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Allentown Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Allentown and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Allentown and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Lehigh Valley',
     h1: 'When Allentown searches for what you do, be the first name they find',
     h2Exact: 'Allentown Local SEO Company',
@@ -175,9 +175,9 @@ export const allentownLocations = [
   {
     ...BASE,
     citySlug: 'allentown', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Allentown SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Allentown SEO Company | OnwardCraft',
     metaDescription:
-      'Allentown SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Lehigh Valley winters and Hispanic market reach. Free audit.',
+      'Allentown SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Lehigh Valley winters.',
     eyebrow: 'SEO Services · Lehigh Valley',
     h1: 'Get your Allentown business to the top of Google and keep it there',
     h2Exact: 'Allentown SEO Company',
@@ -241,9 +241,9 @@ export const allentownLocations = [
   {
     ...BASE,
     citySlug: 'allentown', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Allentown Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Allentown Web Design Company | OnwardCraft',
     metaDescription:
-      'Allentown web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors, Lehigh Valley winters, and the growing Hispanic market. Free quote.',
+      'Allentown web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors, Lehigh Valley winters, and the growing Hispanic.',
     eyebrow: 'Web Design · Lehigh Valley',
     h1: 'Allentown web design that turns visitors into booked jobs',
     h2Exact: 'Allentown Web Design Company',
@@ -307,9 +307,9 @@ export const allentownLocations = [
   {
     ...BASE,
     citySlug: 'allentown', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Allentown Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Allentown Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Allentown website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs, reach the Hispanic market, and hold up in nor\'easter season. Free audit.',
+      'Redesign your Allentown website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs, reach the Hispanic market.',
     eyebrow: 'Website Redesign · Lehigh Valley',
     h1: 'Redesign your Allentown website without losing your rankings',
     h2Exact: 'Allentown Website Redesign Company',
@@ -373,9 +373,9 @@ export const allentownLocations = [
 export const allentownCity = {
   citySlug: 'allentown', city: 'Allentown', state: 'Pennsylvania', stateAbbr: 'PA', metro: 'Allentown-Bethlehem-Easton (Lehigh Valley)',
 
-  titleTag: 'Allentown Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Allentown Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Allentown contractors. Get found in English and Spanish, get booked, and own your leads — built for Lehigh Valley winters and the growing Hispanic market. Free audit.',
+    'Web design, SEO, and local SEO for Allentown contractors. Get found in English and Spanish, get booked, and own your leads — built for Lehigh Valley winters.',
 
   eyebrow: 'Allentown · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Allentown contractors found and booked',

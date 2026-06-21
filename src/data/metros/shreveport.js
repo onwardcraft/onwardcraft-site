@@ -109,9 +109,9 @@ export const shreveportLocations = [
   {
     ...BASE,
     citySlug: 'shreveport', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Shreveport Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Shreveport Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Shreveport and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Shreveport and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Shreveport-Bossier City',
     h1: 'When Shreveport searches for what you do, be the first name they find',
     h2Exact: 'Shreveport Local SEO Company',
@@ -175,9 +175,9 @@ export const shreveportLocations = [
   {
     ...BASE,
     citySlug: 'shreveport', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Shreveport SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Shreveport SEO Company | OnwardCraft',
     metaDescription:
-      'Shreveport SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm and flood season demand. Free SEO audit.',
+      'Shreveport SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm and flood season.',
     eyebrow: 'SEO Services · Shreveport-Bossier City',
     h1: 'Get your Shreveport business to the top of Google and keep it there',
     h2Exact: 'Shreveport SEO Company',
@@ -241,9 +241,9 @@ export const shreveportLocations = [
   {
     ...BASE,
     citySlug: 'shreveport', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Shreveport Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Shreveport Web Design Company | OnwardCraft',
     metaDescription:
-      'Shreveport web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand. Transparent pricing, you own it all. Free quote.',
+      'Shreveport web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand.',
     eyebrow: 'Web Design · Shreveport-Bossier City',
     h1: 'Shreveport web design that turns visitors into booked jobs',
     h2Exact: 'Shreveport Web Design Company',
@@ -307,9 +307,9 @@ export const shreveportLocations = [
   {
     ...BASE,
     citySlug: 'shreveport', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Shreveport Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Shreveport Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Shreveport website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your Shreveport website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm.',
     eyebrow: 'Website Redesign · Shreveport-Bossier City',
     h1: 'Redesign your Shreveport website without losing your rankings',
     h2Exact: 'Shreveport Website Redesign Company',
@@ -373,9 +373,9 @@ export const shreveportLocations = [
 export const shreveportCity = {
   citySlug: 'shreveport', city: 'Shreveport', state: 'Louisiana', stateAbbr: 'LA', metro: 'Shreveport-Bossier City',
 
-  titleTag: 'Shreveport Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Shreveport Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Shreveport contractors. Get found, get booked, and own your leads instead of renting them — built for storm and flood season demand. Free audit.',
+    'Web design, SEO, and local SEO for Shreveport contractors. Get found, get booked, and own your leads instead of renting them — built for storm and flood.',
 
   eyebrow: 'Shreveport · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Shreveport contractors found and booked',

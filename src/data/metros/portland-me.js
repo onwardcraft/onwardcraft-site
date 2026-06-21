@@ -112,9 +112,9 @@ export const portlandMaineLocations = [
   {
     ...BASE,
     citySlug: 'portland-me', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Portland ME Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Portland ME Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Portland, Maine and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Portland, Maine and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Portland, Maine',
     h1: 'When Portland searches for what you do, be the first name they find',
     h2Exact: 'Portland Maine Local SEO Company',
@@ -178,9 +178,9 @@ export const portlandMaineLocations = [
   {
     ...BASE,
     citySlug: 'portland-me', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Portland ME SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Portland ME SEO Company | OnwardCraft',
     metaDescription:
-      'Portland, Maine SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for winter-storm demand. Free SEO audit.',
+      'Portland, Maine SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for winter-storm demand.',
     eyebrow: 'SEO Services · Portland, Maine',
     h1: 'Get your Portland business to the top of Google and keep it there',
     h2Exact: 'Portland Maine SEO Company',
@@ -244,9 +244,9 @@ export const portlandMaineLocations = [
   {
     ...BASE,
     citySlug: 'portland-me', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Portland ME Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Portland ME Web Design Company | OnwardCraft',
     metaDescription:
-      'Portland, Maine web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and winter-storm demand. Transparent pricing, you own it all. Free quote.',
+      'Portland, Maine web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and winter-storm demand.',
     eyebrow: 'Web Design · Portland, Maine',
     h1: 'Portland web design that turns visitors into booked jobs',
     h2Exact: 'Portland Maine Web Design Company',
@@ -310,9 +310,9 @@ export const portlandMaineLocations = [
   {
     ...BASE,
     citySlug: 'portland-me', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Portland ME Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Portland ME Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Portland, Maine website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter storms. Free audit.',
+      'Redesign your Portland, Maine website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter.',
     eyebrow: 'Website Redesign · Portland, Maine',
     h1: 'Redesign your Portland website without losing your rankings',
     h2Exact: 'Portland Maine Website Redesign Company',
@@ -376,9 +376,9 @@ export const portlandMaineLocations = [
 export const portlandMaineCity = {
   citySlug: 'portland-me', city: 'Portland', state: 'Maine', stateAbbr: 'ME', metro: 'Portland-South Portland',
 
-  titleTag: 'Portland ME Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Portland ME Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Portland, Maine contractors. Get found, get booked, and own your leads instead of renting them — built for winter-storm demand. Free Portland audit.',
+    'Web design, SEO, and local SEO for Portland, Maine contractors. Get found, get booked, and own your leads instead of renting them — built for winter-storm.',
 
   eyebrow: 'Portland, Maine · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Portland contractors found and booked',

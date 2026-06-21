@@ -148,9 +148,9 @@ export const huntsvilleLocations = [
     citySlug: "huntsville",
     serviceSlug: "local-seo",
     service: "Local SEO",
-    titleTag: "Huntsville Local SEO Company | Win the Map Pack | OnwardCraft",
+    titleTag: "Huntsville Local SEO Company | OnwardCraft",
     metaDescription:
-      "Search your service in Huntsville and three businesses show up on the map. We get you into those three so the call lands with you — not a competitor. Honest pricing, no lock-in, free audit.",
+      "Search your service in Huntsville and three businesses show up on the map. We get you into those three so the call lands with you — not a competitor.",
     eyebrow: "Local SEO · Huntsville, AL",
     h1: "When Huntsville searches for what you do, be the first name they find",
     h2Exact: "Huntsville Local SEO Company",
@@ -333,9 +333,9 @@ export const huntsvilleLocations = [
     citySlug: "huntsville",
     serviceSlug: "seo-services",
     service: "SEO Services",
-    titleTag: "Huntsville SEO Company | Rank Higher, Get Leads | OnwardCraft",
+    titleTag: "Huntsville SEO Company | OnwardCraft",
     metaDescription:
-      "Huntsville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Rocket City's analytical homeowners. Free audit.",
+      "Huntsville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Rocket City's analytical.",
     eyebrow: "SEO Services · Huntsville, AL",
     h1: "Get your Huntsville business to the top of Google and keep it there",
     h2Exact: "Huntsville SEO Company",
@@ -518,9 +518,9 @@ export const huntsvilleLocations = [
     citySlug: "huntsville",
     serviceSlug: "web-design",
     service: "Web Design",
-    titleTag: "Huntsville Web Design Company | Sites That Convert | OnwardCraft",
+    titleTag: "Huntsville Web Design Company | OnwardCraft",
     metaDescription:
-      "Huntsville web design that turns visitors into booked jobs — fast, mobile-first sites built for a market full of engineers and defense workers who research before they call. Free quote.",
+      "Huntsville web design that turns visitors into booked jobs — fast, mobile-first sites built for a market full of engineers and defense workers who research.",
     eyebrow: "Web Design · Huntsville, AL",
     h1: "Huntsville web design that turns visitors into booked jobs",
     h2Exact: "Huntsville Web Design Company",
@@ -703,9 +703,9 @@ export const huntsvilleLocations = [
     citySlug: "huntsville",
     serviceSlug: "website-redesign",
     service: "Website Redesign",
-    titleTag: "Huntsville Website Redesign | More Leads, No Traffic Loss | OnwardCraft",
+    titleTag: "Huntsville Website Redesign | OnwardCraft",
     metaDescription:
-      "Redesign your Huntsville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — built for Rocket City's demanding homeowners. Free audit.",
+      "Redesign your Huntsville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — built for Rocket City's.",
     eyebrow: "Website Redesign · Huntsville, AL",
     h1: "Redesign your Huntsville website without losing your rankings",
     h2Exact: "Huntsville Website Redesign Company",
@@ -890,9 +890,9 @@ export const huntsvilleCity = {
   stateAbbr: "AL",
   metro: "Huntsville",
 
-  titleTag: "Huntsville Marketing for Contractors | Web, SEO & Leads | OnwardCraft",
+  titleTag: "Huntsville Marketing for Contractors | OnwardCraft",
   metaDescription:
-    "Web design, SEO, and local SEO for Huntsville contractors. Get found by engineers, defense workers, and military families — and own your leads instead of renting them. Free audit.",
+    "Web design, SEO, and local SEO for Huntsville contractors. Get found by engineers, defense workers, and military families — and own your leads instead.",
 
   eyebrow: "Huntsville · Web Design, SEO & Lead Generation",
   h1: "Marketing that gets Huntsville contractors found and booked",

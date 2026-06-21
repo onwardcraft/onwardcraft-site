@@ -111,7 +111,7 @@ export const auroraLocations = [
     citySlug: 'aurora', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Aurora Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Aurora and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Aurora and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Aurora, CO',
     h1: 'When Aurora searches for what you do, be the first name they find',
     h2Exact: 'Aurora Local SEO Company',
@@ -175,9 +175,9 @@ export const auroraLocations = [
   {
     ...BASE,
     citySlug: 'aurora', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Aurora SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Aurora SEO Company | OnwardCraft',
     metaDescription:
-      'Aurora SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hail-season demand. Free Aurora SEO audit.',
+      'Aurora SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hail-season demand.',
     eyebrow: 'SEO Services · Aurora, CO',
     h1: 'Get your Aurora business to the top of Google and keep it there',
     h2Exact: 'Aurora SEO Company',
@@ -243,7 +243,7 @@ export const auroraLocations = [
     citySlug: 'aurora', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Aurora Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Aurora web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hail-season demand. Transparent pricing, you own it all. Free quote.',
+      'Aurora web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hail-season demand.',
     eyebrow: 'Web Design · Aurora, CO',
     h1: 'Aurora web design that turns visitors into booked jobs',
     h2Exact: 'Aurora Web Design Company',
@@ -307,9 +307,9 @@ export const auroraLocations = [
   {
     ...BASE,
     citySlug: 'aurora', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Aurora Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Aurora Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Aurora website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season. Free audit.',
+      'Redesign your Aurora website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season.',
     eyebrow: 'Website Redesign · Aurora, CO',
     h1: 'Redesign your Aurora website without losing your rankings',
     h2Exact: 'Aurora Website Redesign Company',
@@ -373,9 +373,9 @@ export const auroraLocations = [
 export const auroraCity = {
   citySlug: 'aurora', city: 'Aurora', state: 'Colorado', stateAbbr: 'CO', metro: 'Aurora',
 
-  titleTag: 'Aurora Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Aurora Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Aurora contractors. Get found, get booked, and own your leads instead of renting them — built for hail-season demand. Free Aurora audit.',
+    'Web design, SEO, and local SEO for Aurora contractors. Get found, get booked, and own your leads instead of renting them — built for hail-season demand.',
 
   eyebrow: 'Aurora · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Aurora contractors found and booked',

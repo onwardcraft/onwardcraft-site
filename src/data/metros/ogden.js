@@ -111,7 +111,7 @@ export const ogdenLocations = [
     citySlug: 'ogden', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Ogden Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Ogden and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Ogden and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Ogden-Clearfield',
     h1: 'When Ogden searches for what you do, be the first name they find',
     h2Exact: 'Ogden Local SEO Company',
@@ -175,9 +175,9 @@ export const ogdenLocations = [
   {
     ...BASE,
     citySlug: 'ogden', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Ogden SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Ogden SEO Company | OnwardCraft',
     metaDescription:
-      'Ogden SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Wasatch-winter demand. Free Ogden SEO audit.',
+      'Ogden SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Wasatch-winter demand.',
     eyebrow: 'SEO Services · Ogden-Clearfield',
     h1: 'Get your Ogden business to the top of Google and keep it there',
     h2Exact: 'Ogden SEO Company',
@@ -243,7 +243,7 @@ export const ogdenLocations = [
     citySlug: 'ogden', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Ogden Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Ogden web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Wasatch-winter demand. Transparent pricing, you own it all. Free quote.',
+      'Ogden web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Wasatch-winter demand.',
     eyebrow: 'Web Design · Ogden-Clearfield',
     h1: 'Ogden web design that turns visitors into booked jobs',
     h2Exact: 'Ogden Web Design Company',
@@ -307,9 +307,9 @@ export const ogdenLocations = [
   {
     ...BASE,
     citySlug: 'ogden', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Ogden Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Ogden Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Ogden website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter season. Free audit.',
+      'Redesign your Ogden website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter season.',
     eyebrow: 'Website Redesign · Ogden-Clearfield',
     h1: 'Redesign your Ogden website without losing your rankings',
     h2Exact: 'Ogden Website Redesign Company',
@@ -373,9 +373,9 @@ export const ogdenLocations = [
 export const ogdenCity = {
   citySlug: 'ogden', city: 'Ogden', state: 'Utah', stateAbbr: 'UT', metro: 'Ogden-Clearfield',
 
-  titleTag: 'Ogden Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Ogden Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Ogden contractors. Get found, get booked, and own your leads instead of renting them — built for Wasatch-winter demand. Free Ogden audit.',
+    'Web design, SEO, and local SEO for Ogden contractors. Get found, get booked, and own your leads instead of renting them — built for Wasatch-winter demand.',
 
   eyebrow: 'Ogden · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Ogden contractors found and booked',

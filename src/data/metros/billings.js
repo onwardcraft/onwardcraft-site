@@ -110,7 +110,7 @@ export const billingsLocations = [
     citySlug: 'billings', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Billings Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Billings and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Billings and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Billings',
     h1: 'When Billings searches for what you do, be the first name they find',
     h2Exact: 'Billings Local SEO Company',
@@ -174,9 +174,9 @@ export const billingsLocations = [
   {
     ...BASE,
     citySlug: 'billings', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Billings SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Billings SEO Company | OnwardCraft',
     metaDescription:
-      'Billings SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for winter and hail-season demand. Free Billings SEO audit.',
+      'Billings SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for winter and hail-season.',
     eyebrow: 'SEO Services · Billings',
     h1: 'Get your Billings business to the top of Google and keep it there',
     h2Exact: 'Billings SEO Company',
@@ -240,9 +240,9 @@ export const billingsLocations = [
   {
     ...BASE,
     citySlug: 'billings', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Billings Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Billings Web Design Company | OnwardCraft',
     metaDescription:
-      'Billings web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and seasonal demand. Transparent pricing, you own it all. Free quote.',
+      'Billings web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and seasonal demand.',
     eyebrow: 'Web Design · Billings',
     h1: 'Billings web design that turns visitors into booked jobs',
     h2Exact: 'Billings Web Design Company',
@@ -306,9 +306,9 @@ export const billingsLocations = [
   {
     ...BASE,
     citySlug: 'billings', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Billings Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Billings Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Billings website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter and hail season. Free audit.',
+      'Redesign your Billings website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter.',
     eyebrow: 'Website Redesign · Billings',
     h1: 'Redesign your Billings website without losing your rankings',
     h2Exact: 'Billings Website Redesign Company',
@@ -372,9 +372,9 @@ export const billingsLocations = [
 export const billingsCity = {
   citySlug: 'billings', city: 'Billings', state: 'Montana', stateAbbr: 'MT', metro: 'Billings',
 
-  titleTag: 'Billings Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Billings Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Billings contractors. Get found, get booked, and own your leads instead of renting them — built for winter and hail-season demand. Free Billings audit.',
+    'Web design, SEO, and local SEO for Billings contractors. Get found, get booked, and own your leads instead of renting them — built for winter and hail-season.',
 
   eyebrow: 'Billings · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Billings contractors found and booked',

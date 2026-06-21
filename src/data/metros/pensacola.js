@@ -111,7 +111,7 @@ export const pensacolaLocations = [
     citySlug: 'pensacola', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Pensacola Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Pensacola and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Pensacola and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Pensacola',
     h1: 'When Pensacola searches for what you do, be the first name they find',
     h2Exact: 'Pensacola Local SEO Company',
@@ -175,9 +175,9 @@ export const pensacolaLocations = [
   {
     ...BASE,
     citySlug: 'pensacola', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Pensacola SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Pensacola SEO Company | OnwardCraft',
     metaDescription:
-      'Pensacola SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season and military PCS demand. Free audit.',
+      'Pensacola SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season and military.',
     eyebrow: 'SEO Services · Pensacola',
     h1: 'Get your Pensacola business to the top of Google and keep it there',
     h2Exact: 'Pensacola SEO Company',
@@ -241,9 +241,9 @@ export const pensacolaLocations = [
   {
     ...BASE,
     citySlug: 'pensacola', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Pensacola Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Pensacola Web Design Company | OnwardCraft',
     metaDescription:
-      'Pensacola web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors, storm-season surges, and Navy PCS arrivals. Free quote.',
+      'Pensacola web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors, storm-season surges, and Navy PCS arrivals.',
     eyebrow: 'Web Design · Pensacola',
     h1: 'Pensacola web design that turns visitors into booked jobs',
     h2Exact: 'Pensacola Web Design Company',
@@ -307,9 +307,9 @@ export const pensacolaLocations = [
   {
     ...BASE,
     citySlug: 'pensacola', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Pensacola Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Pensacola Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Pensacola website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your Pensacola website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm.',
     eyebrow: 'Website Redesign · Pensacola',
     h1: 'Redesign your Pensacola website without losing your rankings',
     h2Exact: 'Pensacola Website Redesign Company',
@@ -373,9 +373,9 @@ export const pensacolaLocations = [
 export const pensacolaCity = {
   citySlug: 'pensacola', city: 'Pensacola', state: 'Florida', stateAbbr: 'FL', metro: 'Pensacola',
 
-  titleTag: 'Pensacola Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Pensacola Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Pensacola contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season and Navy PCS demand. Free audit.',
+    'Web design, SEO, and local SEO for Pensacola contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season and Navy.',
 
   eyebrow: 'Pensacola · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Pensacola contractors found and booked',

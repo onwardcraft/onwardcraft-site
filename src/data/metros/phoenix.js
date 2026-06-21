@@ -111,7 +111,7 @@ export const phoenixLocations = [
     citySlug: 'phoenix', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Phoenix Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Phoenix and three businesses show up on the map. We get you into those three, in English and Spanish. Honest pricing, no lock-in, free audit.',
+      'Search your service in Phoenix and three businesses show up on the map. We get you into those three, in English and Spanish.',
     eyebrow: 'Local SEO · Phoenix Metro',
     h1: 'When Phoenix searches for what you do, be the first name they find',
     h2Exact: 'Phoenix Local SEO Company',
@@ -177,7 +177,7 @@ export const phoenixLocations = [
     citySlug: 'phoenix', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Phoenix SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Phoenix SEO that ranks contractors on Google and brings in leads you own — in English and Spanish. Revenue-tied reporting, no lock-in contracts. Free Phoenix SEO audit.',
+      'Phoenix SEO that ranks contractors on Google and brings in leads you own — in English and Spanish. Revenue-tied reporting, no lock-in contracts.',
     eyebrow: 'SEO Services · Phoenix Metro',
     h1: 'Get your Phoenix business to the top of Google and keep it there',
     h2Exact: 'Phoenix SEO Company',
@@ -241,9 +241,9 @@ export const phoenixLocations = [
   {
     ...BASE,
     citySlug: 'phoenix', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Phoenix Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Phoenix Web Design Company | OnwardCraft',
     metaDescription:
-      'Phoenix web design that turns visitors into booked jobs — fast, mobile-first, bilingual sites built for contractors. Transparent pricing, you own it all. Free quote.',
+      'Phoenix web design that turns visitors into booked jobs — fast, mobile-first, bilingual sites built for contractors. Transparent pricing, you own it all.',
     eyebrow: 'Web Design · Phoenix Metro',
     h1: 'Phoenix web design that turns visitors into booked jobs',
     h2Exact: 'Phoenix Web Design Company',
@@ -309,7 +309,7 @@ export const phoenixLocations = [
     citySlug: 'phoenix', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Phoenix Website Redesign | More Leads, No Loss | OnwardCraft',
     metaDescription:
-      'Redesign your Phoenix website without losing rankings. Faster, mobile-first, bilingual rebuilds that convert more visitors into booked jobs. Transparent pricing, free audit.',
+      'Redesign your Phoenix website without losing rankings. Faster, mobile-first, bilingual rebuilds that convert more visitors into booked jobs.',
     eyebrow: 'Website Redesign · Phoenix Metro',
     h1: 'Redesign your Phoenix website without losing your rankings',
     h2Exact: 'Phoenix Website Redesign Company',
@@ -376,9 +376,9 @@ export const phoenixLocations = [
 export const phoenixCity = {
   citySlug: 'phoenix', city: 'Phoenix', state: 'Arizona', stateAbbr: 'AZ', metro: 'Phoenix Metro',
 
-  titleTag: 'Phoenix Marketing for Contractors | Web, SEO, Leads | OnwardCraft',
+  titleTag: 'Phoenix Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Phoenix contractors — in English and Spanish. Get found, get booked, and own your leads instead of renting them. Free Phoenix audit.',
+    'Web design, SEO, and local SEO for Phoenix contractors — in English and Spanish. Get found, get booked, and own your leads instead of renting them.',
 
   eyebrow: 'Phoenix · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Phoenix contractors found and booked',

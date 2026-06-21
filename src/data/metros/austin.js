@@ -111,7 +111,7 @@ export const austinLocations = [
     citySlug: 'austin', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Austin Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Austin and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Austin and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Austin, TX',
     h1: 'When Austin searches for what you do, be the first name they find',
     h2Exact: 'Austin Local SEO Company',
@@ -177,7 +177,7 @@ export const austinLocations = [
     citySlug: 'austin', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Austin SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Austin SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market. Free Austin SEO audit.',
+      'Austin SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market.',
     eyebrow: 'SEO Services · Austin, TX',
     h1: 'Get your Austin business to the top of Google and keep it there',
     h2Exact: 'Austin SEO Company',
@@ -243,7 +243,7 @@ export const austinLocations = [
     citySlug: 'austin', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Austin Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Austin web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a booming market. Transparent pricing, you own it. Free quote.',
+      'Austin web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a booming market. Transparent pricing, you own it.',
     eyebrow: 'Web Design · Austin, TX',
     h1: 'Austin web design that turns visitors into booked jobs',
     h2Exact: 'Austin Web Design Company',
@@ -307,7 +307,7 @@ export const austinLocations = [
   {
     ...BASE,
     citySlug: 'austin', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Austin Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Austin Website Redesign | OnwardCraft',
     metaDescription:
       'Redesign your Austin website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a booming market. Free audit.',
     eyebrow: 'Website Redesign · Austin, TX',
@@ -373,9 +373,9 @@ export const austinLocations = [
 export const austinCity = {
   citySlug: 'austin', city: 'Austin', state: 'Texas', stateAbbr: 'TX', metro: 'Austin-Round Rock',
 
-  titleTag: 'Austin Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Austin Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Austin contractors. Get found, get booked, and own your leads instead of renting them — built for a fast-growing Texas market. Free Austin audit.',
+    'Web design, SEO, and local SEO for Austin contractors. Get found, get booked, and own your leads instead of renting them — built for a fast-growing Texas.',
 
   eyebrow: 'Austin · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Austin contractors found and booked',

@@ -109,9 +109,9 @@ export const fortLauderdaleLocations = [
   {
     ...BASE,
     citySlug: 'fort-lauderdale', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Fort Lauderdale Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Fort Lauderdale Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Fort Lauderdale and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Fort Lauderdale and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Fort Lauderdale-Broward County',
     h1: 'When Fort Lauderdale searches for what you do, be the first name they find',
     h2Exact: 'Fort Lauderdale Local SEO Company',
@@ -175,9 +175,9 @@ export const fortLauderdaleLocations = [
   {
     ...BASE,
     citySlug: 'fort-lauderdale', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Fort Lauderdale SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Fort Lauderdale SEO Company | OnwardCraft',
     metaDescription:
-      'Fort Lauderdale SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hurricane-season demand. Free audit.',
+      'Fort Lauderdale SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hurricane-season.',
     eyebrow: 'SEO Services · Fort Lauderdale-Broward County',
     h1: 'Get your Fort Lauderdale business to the top of Google and keep it there',
     h2Exact: 'Fort Lauderdale SEO Company',
@@ -241,9 +241,9 @@ export const fortLauderdaleLocations = [
   {
     ...BASE,
     citySlug: 'fort-lauderdale', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Fort Lauderdale Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Fort Lauderdale Web Design Company | OnwardCraft',
     metaDescription:
-      'Fort Lauderdale web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hurricane-season demand. Transparent pricing, you own it all. Free quote.',
+      'Fort Lauderdale web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hurricane-season demand.',
     eyebrow: 'Web Design · Fort Lauderdale-Broward County',
     h1: 'Fort Lauderdale web design that turns visitors into booked jobs',
     h2Exact: 'Fort Lauderdale Web Design Company',
@@ -307,9 +307,9 @@ export const fortLauderdaleLocations = [
   {
     ...BASE,
     citySlug: 'fort-lauderdale', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Fort Lauderdale Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Fort Lauderdale Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Fort Lauderdale website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hurricane season. Free audit.',
+      'Redesign your Fort Lauderdale website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up.',
     eyebrow: 'Website Redesign · Fort Lauderdale-Broward County',
     h1: 'Redesign your Fort Lauderdale website without losing your rankings',
     h2Exact: 'Fort Lauderdale Website Redesign Company',
@@ -373,9 +373,9 @@ export const fortLauderdaleLocations = [
 export const fortLauderdaleCity = {
   citySlug: 'fort-lauderdale', city: 'Fort Lauderdale', state: 'Florida', stateAbbr: 'FL', metro: 'Fort Lauderdale-Broward County',
 
-  titleTag: 'Fort Lauderdale Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Fort Lauderdale Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Fort Lauderdale contractors. Get found, get booked, and own your leads instead of renting them — built for hurricane-season demand. Free audit.',
+    'Web design, SEO, and local SEO for Fort Lauderdale contractors. Get found, get booked, and own your leads instead of renting them — built for hurricane-season.',
 
   eyebrow: 'Fort Lauderdale · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Fort Lauderdale contractors found and booked',

@@ -109,9 +109,9 @@ export const saltLakeCityLocations = [
   {
     ...BASE,
     citySlug: 'salt-lake-city', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Salt Lake City Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Salt Lake City Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Salt Lake City and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Salt Lake City and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Salt Lake City, UT',
     h1: 'When Salt Lake City searches for what you do, be the first name they find',
     h2Exact: 'Salt Lake City Local SEO Company',
@@ -175,9 +175,9 @@ export const saltLakeCityLocations = [
   {
     ...BASE,
     citySlug: 'salt-lake-city', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Salt Lake City SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Salt Lake City SEO Company | OnwardCraft',
     metaDescription:
-      'Salt Lake City SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing mountain valley market. Free audit.',
+      'Salt Lake City SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing.',
     eyebrow: 'SEO Services · Salt Lake City, UT',
     h1: 'Get your Salt Lake City business to the top of Google and keep it there',
     h2Exact: 'Salt Lake City SEO Company',
@@ -241,9 +241,9 @@ export const saltLakeCityLocations = [
   {
     ...BASE,
     citySlug: 'salt-lake-city', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Salt Lake City Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Salt Lake City Web Design Company | OnwardCraft',
     metaDescription:
-      'Salt Lake City web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing mountain valley market. Transparent pricing, you own it. Free quote.',
+      'Salt Lake City web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing mountain valley market.',
     eyebrow: 'Web Design · Salt Lake City, UT',
     h1: 'Salt Lake City web design that turns visitors into booked jobs',
     h2Exact: 'Salt Lake City Web Design Company',
@@ -307,9 +307,9 @@ export const saltLakeCityLocations = [
   {
     ...BASE,
     citySlug: 'salt-lake-city', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Salt Lake City Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Salt Lake City Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Salt Lake City website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing market. Free audit.',
+      'Redesign your Salt Lake City website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing.',
     eyebrow: 'Website Redesign · Salt Lake City, UT',
     h1: 'Redesign your Salt Lake City website without losing your rankings',
     h2Exact: 'Salt Lake City Website Redesign Company',
@@ -373,9 +373,9 @@ export const saltLakeCityLocations = [
 export const saltLakeCityCity = {
   citySlug: 'salt-lake-city', city: 'Salt Lake City', state: 'Utah', stateAbbr: 'UT', metro: 'Salt Lake City',
 
-  titleTag: 'Salt Lake City Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Salt Lake City Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Salt Lake City contractors. Get found, get booked, and own your leads instead of renting them — built for Silicon Slopes growth. Free Salt Lake City audit.',
+    'Web design, SEO, and local SEO for Salt Lake City contractors. Get found, get booked, and own your leads instead of renting them — built for Silicon Slopes.',
 
   eyebrow: 'Salt Lake City · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Salt Lake City contractors found and booked',

@@ -109,9 +109,9 @@ export const madisonLocations = [
   {
     ...BASE,
     citySlug: 'madison', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Madison WI Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Madison WI Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Madison and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Madison and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Madison, WI',
     h1: 'When Madison searches for what you do, be the first name they find',
     h2Exact: 'Madison Local SEO Company',
@@ -175,9 +175,9 @@ export const madisonLocations = [
   {
     ...BASE,
     citySlug: 'madison', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Madison WI SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Madison WI SEO Company | OnwardCraft',
     metaDescription:
-      'Madison SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for an educated, research-driven market. Free audit.',
+      'Madison SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for an educated, research-driven.',
     eyebrow: 'SEO Services · Madison, WI',
     h1: 'Get your Madison business to the top of Google and keep it there',
     h2Exact: 'Madison WI SEO Company',
@@ -241,9 +241,9 @@ export const madisonLocations = [
   {
     ...BASE,
     citySlug: 'madison', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Madison WI Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Madison WI Web Design Company | OnwardCraft',
     metaDescription:
-      'Madison web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a research-driven college market. Transparent pricing, you own it. Free quote.',
+      'Madison web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a research-driven college market.',
     eyebrow: 'Web Design · Madison, WI',
     h1: 'Madison web design that turns visitors into booked jobs',
     h2Exact: 'Madison WI Web Design Company',
@@ -307,9 +307,9 @@ export const madisonLocations = [
   {
     ...BASE,
     citySlug: 'madison', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Madison WI Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Madison WI Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Madison website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a research-driven market. Free audit.',
+      'Redesign your Madison website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a research-driven market.',
     eyebrow: 'Website Redesign · Madison, WI',
     h1: 'Redesign your Madison website without losing your rankings',
     h2Exact: 'Madison WI Website Redesign Company',
@@ -373,9 +373,9 @@ export const madisonLocations = [
 export const madisonCity = {
   citySlug: 'madison', city: 'Madison', state: 'Wisconsin', stateAbbr: 'WI', metro: 'Madison',
 
-  titleTag: 'Madison WI Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Madison WI Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Madison WI contractors. Get found, get booked, and own your leads instead of renting them — built for a research-driven college market. Free Madison audit.',
+    'Web design, SEO, and local SEO for Madison WI contractors. Get found, get booked, and own your leads instead of renting them — built for a research-driven.',
 
   eyebrow: 'Madison, WI · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Madison contractors found and booked',

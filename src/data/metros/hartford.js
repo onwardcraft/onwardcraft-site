@@ -111,7 +111,7 @@ export const hartfordLocations = [
     citySlug: 'hartford', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Hartford Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      "Search your service in Hartford and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.",
+      "Search your service in Hartford and three businesses show up on the map. We get you into those three, so the call lands with you.",
     eyebrow: 'Local SEO · Hartford, CT',
     h1: 'When Hartford searches for what you do, be the first name they find',
     h2Exact: 'Hartford Local SEO Company',
@@ -175,9 +175,9 @@ export const hartfordLocations = [
   {
     ...BASE,
     citySlug: 'hartford', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Hartford SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Hartford SEO Company | OnwardCraft',
     metaDescription:
-      "Hartford SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for nor'easter-season demand. Free Hartford SEO audit.",
+      "Hartford SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for nor'easter-season demand.",
     eyebrow: 'SEO Services · Hartford, CT',
     h1: 'Get your Hartford business to the top of Google and keep it there',
     h2Exact: 'Hartford SEO Company',
@@ -241,9 +241,9 @@ export const hartfordLocations = [
   {
     ...BASE,
     citySlug: 'hartford', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Hartford Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Hartford Web Design Company | OnwardCraft',
     metaDescription:
-      "Hartford web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and nor'easter-season demand. Transparent pricing, you own it all. Free quote.",
+      "Hartford web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and nor'easter-season demand.",
     eyebrow: 'Web Design · Hartford, CT',
     h1: 'Hartford web design that turns visitors into booked jobs',
     h2Exact: 'Hartford Web Design Company',
@@ -307,9 +307,9 @@ export const hartfordLocations = [
   {
     ...BASE,
     citySlug: 'hartford', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Hartford Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Hartford Website Redesign | OnwardCraft',
     metaDescription:
-      "Redesign your Hartford website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in nor'easter season. Free audit.",
+      "Redesign your Hartford website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in nor'easter.",
     eyebrow: 'Website Redesign · Hartford, CT',
     h1: 'Redesign your Hartford website without losing your rankings',
     h2Exact: 'Hartford Website Redesign Company',
@@ -373,9 +373,9 @@ export const hartfordLocations = [
 export const hartfordCity = {
   citySlug: 'hartford', city: 'Hartford', state: 'Connecticut', stateAbbr: 'CT', metro: 'Hartford',
 
-  titleTag: 'Hartford Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Hartford Marketing for Contractors | OnwardCraft',
   metaDescription:
-    "Web design, SEO, and local SEO for Hartford contractors. Get found, get booked, and own your leads instead of renting them — built for nor'easter-season demand. Free Hartford audit.",
+    "Web design, SEO, and local SEO for Hartford contractors. Get found, get booked, and own your leads instead of renting them — built for nor'easter-season.",
 
   eyebrow: 'Hartford · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Hartford contractors found and booked',

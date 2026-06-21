@@ -111,7 +111,7 @@ export const seattleLocations = [
     citySlug: 'seattle', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Seattle Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Seattle and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Seattle and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Seattle, WA',
     h1: 'When Seattle searches for what you do, be the first name they find',
     h2Exact: 'Seattle Local SEO Company',
@@ -177,7 +177,7 @@ export const seattleLocations = [
     citySlug: 'seattle', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Seattle SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Seattle SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a tech-savvy, rain-driven market. Free audit.',
+      'Seattle SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a tech-savvy, rain-driven.',
     eyebrow: 'SEO Services · Seattle, WA',
     h1: 'Get your Seattle business to the top of Google and keep it there',
     h2Exact: 'Seattle SEO Company',
@@ -241,9 +241,9 @@ export const seattleLocations = [
   {
     ...BASE,
     citySlug: 'seattle', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Seattle Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Seattle Web Design Company | OnwardCraft',
     metaDescription:
-      'Seattle web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a tech-savvy, rain-driven market. Transparent pricing, you own it. Free quote.',
+      'Seattle web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a tech-savvy, rain-driven market.',
     eyebrow: 'Web Design · Seattle, WA',
     h1: 'Seattle web design that turns visitors into booked jobs',
     h2Exact: 'Seattle Web Design Company',
@@ -307,9 +307,9 @@ export const seattleLocations = [
   {
     ...BASE,
     citySlug: 'seattle', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Seattle Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Seattle Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Seattle website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a tech-savvy market. Free audit.',
+      'Redesign your Seattle website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a tech-savvy market.',
     eyebrow: 'Website Redesign · Seattle, WA',
     h1: 'Redesign your Seattle website without losing your rankings',
     h2Exact: 'Seattle Website Redesign Company',
@@ -373,9 +373,9 @@ export const seattleLocations = [
 export const seattleCity = {
   citySlug: 'seattle', city: 'Seattle', state: 'Washington', stateAbbr: 'WA', metro: 'Seattle-Tacoma',
 
-  titleTag: 'Seattle Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Seattle Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Seattle contractors. Get found, get booked, and own your leads — built for a tech-savvy, rain-driven market. Free Seattle audit.',
+    'Web design, SEO, and local SEO for Seattle contractors. Get found, get booked, and own your leads — built for a tech-savvy, rain-driven market.',
 
   eyebrow: 'Seattle · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Seattle contractors found and booked',

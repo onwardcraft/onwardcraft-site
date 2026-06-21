@@ -109,9 +109,9 @@ export const philadelphiaLocations = [
   {
     ...BASE,
     citySlug: 'philadelphia', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Philadelphia Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Philadelphia Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Philadelphia and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Philadelphia and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Greater Philadelphia',
     h1: 'When Philadelphia searches for what you do, be the first name they find',
     h2Exact: 'Philadelphia Local SEO Company',
@@ -175,9 +175,9 @@ export const philadelphiaLocations = [
   {
     ...BASE,
     citySlug: 'philadelphia', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Philadelphia SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Philadelphia SEO Company | OnwardCraft',
     metaDescription:
-      'Philadelphia SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for old-home repair demand. Free audit.',
+      'Philadelphia SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for old-home repair demand.',
     eyebrow: 'SEO Services · Greater Philadelphia',
     h1: 'Get your Philadelphia business to the top of Google and keep it there',
     h2Exact: 'Philadelphia SEO Company',
@@ -241,9 +241,9 @@ export const philadelphiaLocations = [
   {
     ...BASE,
     citySlug: 'philadelphia', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Philadelphia Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Philadelphia Web Design Company | OnwardCraft',
     metaDescription:
-      'Philadelphia web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and old-home repair demand. Transparent pricing, you own it. Free quote.',
+      'Philadelphia web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and old-home repair demand.',
     eyebrow: 'Web Design · Greater Philadelphia',
     h1: 'Philadelphia web design that turns visitors into booked jobs',
     h2Exact: 'Philadelphia Web Design Company',
@@ -307,9 +307,9 @@ export const philadelphiaLocations = [
   {
     ...BASE,
     citySlug: 'philadelphia', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Philadelphia Website Redesign | No Traffic Loss | OnwardCraft',
+    titleTag: 'Philadelphia Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Philadelphia website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter repair season. Free audit.',
+      'Redesign your Philadelphia website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter.',
     eyebrow: 'Website Redesign · Greater Philadelphia',
     h1: 'Redesign your Philadelphia website without losing your rankings',
     h2Exact: 'Philadelphia Website Redesign Company',
@@ -373,9 +373,9 @@ export const philadelphiaLocations = [
 export const philadelphiaCity = {
   citySlug: 'philadelphia', city: 'Philadelphia', state: 'Pennsylvania', stateAbbr: 'PA', metro: 'Greater Philadelphia',
 
-  titleTag: 'Philadelphia Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Philadelphia Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Philadelphia contractors. Get found, get booked, and own your leads instead of renting them — built for old-home repair demand. Free audit.',
+    'Web design, SEO, and local SEO for Philadelphia contractors. Get found, get booked, and own your leads instead of renting them — built for old-home repair.',
 
   eyebrow: 'Philadelphia · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Philadelphia contractors found and booked',

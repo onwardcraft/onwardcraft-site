@@ -111,7 +111,7 @@ export const lansingLocations = [
     citySlug: 'lansing', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Lansing Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Lansing and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Lansing and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Lansing-East Lansing',
     h1: 'When Lansing searches for what you do, be the first name they find',
     h2Exact: 'Lansing Local SEO Company',
@@ -177,7 +177,7 @@ export const lansingLocations = [
     citySlug: 'lansing', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Lansing SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Lansing SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a market with year-round seasonal demand. Free audit.',
+      'Lansing SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a market with year-round.',
     eyebrow: 'SEO Services · Lansing-East Lansing',
     h1: 'Get your Lansing business to the top of Google and keep it there',
     h2Exact: 'Lansing SEO Company',
@@ -241,9 +241,9 @@ export const lansingLocations = [
   {
     ...BASE,
     citySlug: 'lansing', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Lansing Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Lansing Web Design Company | OnwardCraft',
     metaDescription:
-      'Lansing web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving MSU, state government, and GM auto-worker neighborhoods. Free quote.',
+      'Lansing web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving MSU, state government, and GM auto-worker.',
     eyebrow: 'Web Design · Lansing-East Lansing',
     h1: 'Lansing web design that turns visitors into booked jobs',
     h2Exact: 'Lansing Web Design Company',
@@ -307,9 +307,9 @@ export const lansingLocations = [
   {
     ...BASE,
     citySlug: 'lansing', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Lansing Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Lansing Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Lansing website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — for contractors across the Lansing-East Lansing metro. Free audit.',
+      'Redesign your Lansing website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — for contractors across.',
     eyebrow: 'Website Redesign · Lansing-East Lansing',
     h1: 'Redesign your Lansing website without losing your rankings',
     h2Exact: 'Lansing Website Redesign Company',
@@ -373,9 +373,9 @@ export const lansingLocations = [
 export const lansingCity = {
   citySlug: 'lansing', city: 'Lansing', state: 'Michigan', stateAbbr: 'MI', metro: 'Lansing-East Lansing',
 
-  titleTag: 'Lansing Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Lansing Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Lansing contractors. Get found, get booked, and own your leads — built for the MSU market, state capital stability, and Michigan\'s demanding seasons. Free audit.',
+    'Web design, SEO, and local SEO for Lansing contractors. Get found, get booked, and own your leads — built for the MSU market, state capital stability,.',
 
   eyebrow: 'Lansing · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Lansing contractors found and booked',

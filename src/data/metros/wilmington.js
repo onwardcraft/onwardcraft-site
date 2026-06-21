@@ -109,9 +109,9 @@ export const wilmingtonLocations = [
   {
     ...BASE,
     citySlug: 'wilmington', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Wilmington Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Wilmington Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Wilmington and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Wilmington and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Wilmington, DE',
     h1: 'When Wilmington searches for what you do, be the first name they find',
     h2Exact: 'Wilmington Local SEO Company',
@@ -175,9 +175,9 @@ export const wilmingtonLocations = [
   {
     ...BASE,
     citySlug: 'wilmington', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Wilmington SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Wilmington SEO Company | OnwardCraft',
     metaDescription:
-      'Wilmington SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand. Free Wilmington SEO audit.',
+      'Wilmington SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand.',
     eyebrow: 'SEO Services · Wilmington, DE',
     h1: 'Get your Wilmington business to the top of Google and keep it there',
     h2Exact: 'Wilmington SEO Company',
@@ -241,9 +241,9 @@ export const wilmingtonLocations = [
   {
     ...BASE,
     citySlug: 'wilmington', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Wilmington Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Wilmington Web Design Company | OnwardCraft',
     metaDescription:
-      'Wilmington web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand. Transparent pricing, you own it all. Free quote.',
+      'Wilmington web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand.',
     eyebrow: 'Web Design · Wilmington, DE',
     h1: 'Wilmington web design that turns visitors into booked jobs',
     h2Exact: 'Wilmington Web Design Company',
@@ -307,9 +307,9 @@ export const wilmingtonLocations = [
   {
     ...BASE,
     citySlug: 'wilmington', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Wilmington Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Wilmington Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Wilmington website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your Wilmington website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm.',
     eyebrow: 'Website Redesign · Wilmington, DE',
     h1: 'Redesign your Wilmington website without losing your rankings',
     h2Exact: 'Wilmington Website Redesign Company',
@@ -373,9 +373,9 @@ export const wilmingtonLocations = [
 export const wilmingtonCity = {
   citySlug: 'wilmington', city: 'Wilmington', state: 'Delaware', stateAbbr: 'DE', metro: 'Wilmington',
 
-  titleTag: 'Wilmington Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Wilmington Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Wilmington contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand. Free Wilmington audit.',
+    'Web design, SEO, and local SEO for Wilmington contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand.',
 
   eyebrow: 'Wilmington · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Wilmington contractors found and booked',

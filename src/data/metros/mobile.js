@@ -111,7 +111,7 @@ export const mobileLocations = [
     citySlug: 'mobile', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Mobile AL Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Mobile and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Mobile and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Mobile, Alabama',
     h1: 'When Mobile searches for what you do, be the first name they find',
     h2Exact: 'Mobile AL Local SEO Company',
@@ -175,9 +175,9 @@ export const mobileLocations = [
   {
     ...BASE,
     citySlug: 'mobile', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Mobile AL SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Mobile AL SEO Company | OnwardCraft',
     metaDescription:
-      'Mobile AL SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hurricane-season demand. Free Mobile SEO audit.',
+      'Mobile AL SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hurricane-season demand.',
     eyebrow: 'SEO Services · Mobile, Alabama',
     h1: 'Get your Mobile Alabama business to the top of Google and keep it there',
     h2Exact: 'Mobile AL SEO Company',
@@ -241,9 +241,9 @@ export const mobileLocations = [
   {
     ...BASE,
     citySlug: 'mobile', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Mobile AL Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Mobile AL Web Design Company | OnwardCraft',
     metaDescription:
-      'Mobile AL web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hurricane-season demand. Transparent pricing, you own it all. Free quote.',
+      'Mobile AL web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hurricane-season demand.',
     eyebrow: 'Web Design · Mobile, Alabama',
     h1: 'Mobile Alabama web design that turns visitors into booked jobs',
     h2Exact: 'Mobile AL Web Design Company',
@@ -307,9 +307,9 @@ export const mobileLocations = [
   {
     ...BASE,
     citySlug: 'mobile', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Mobile AL Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Mobile AL Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Mobile AL website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hurricane season. Free audit.',
+      'Redesign your Mobile AL website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hurricane.',
     eyebrow: 'Website Redesign · Mobile, Alabama',
     h1: 'Redesign your Mobile Alabama website without losing your rankings',
     h2Exact: 'Mobile AL Website Redesign Company',
@@ -373,9 +373,9 @@ export const mobileLocations = [
 export const mobileCity = {
   citySlug: 'mobile', city: 'Mobile', state: 'Alabama', stateAbbr: 'AL', metro: 'Mobile',
 
-  titleTag: 'Mobile AL Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Mobile AL Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Mobile Alabama contractors. Get found, get booked, and own your leads instead of renting them — built for hurricane-season demand. Free Mobile audit.',
+    'Web design, SEO, and local SEO for Mobile Alabama contractors. Get found, get booked, and own your leads instead of renting them — built for hurricane-season.',
 
   eyebrow: 'Mobile AL · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Mobile Alabama contractors found and booked',

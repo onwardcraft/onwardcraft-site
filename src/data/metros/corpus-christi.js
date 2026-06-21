@@ -111,7 +111,7 @@ export const corpusChristiLocations = [
     citySlug: 'corpus-christi', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Corpus Christi Local SEO | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Corpus Christi and three businesses appear on the map. We get you into those three spots — in English and Spanish — so the call lands with you. Free audit.',
+      'Search your service in Corpus Christi and three businesses appear on the map. We get you into those three spots — in English and Spanish — so the call lands.',
     eyebrow: 'Local SEO · Corpus Christi, TX',
     h1: 'When Corpus Christi searches for what you do, be the first name they find',
     h2Exact: 'Corpus Christi Local SEO Company',
@@ -175,9 +175,9 @@ export const corpusChristiLocations = [
   {
     ...BASE,
     citySlug: 'corpus-christi', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Corpus Christi SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Corpus Christi SEO Company | OnwardCraft',
     metaDescription:
-      'Corpus Christi SEO that ranks contractors on Google and brings in leads you own. Spanish-language optimization, hurricane season readiness, no lock-in contracts. Free audit.',
+      'Corpus Christi SEO that ranks contractors on Google and brings in leads you own. Spanish-language optimization, hurricane season readiness, no lock-in.',
     eyebrow: 'SEO Services · Corpus Christi, TX',
     h1: 'Get your Corpus Christi business to the top of Google and keep it there',
     h2Exact: 'Corpus Christi SEO Company',
@@ -243,7 +243,7 @@ export const corpusChristiLocations = [
     citySlug: 'corpus-christi', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Corpus Christi Web Design | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Corpus Christi web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a majority-Hispanic Gulf Coast market. Free quote.',
+      'Corpus Christi web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a majority-Hispanic Gulf Coast market.',
     eyebrow: 'Web Design · Corpus Christi, TX',
     h1: 'Corpus Christi web design that turns visitors into booked jobs',
     h2Exact: 'Corpus Christi Web Design Company',
@@ -307,9 +307,9 @@ export const corpusChristiLocations = [
   {
     ...BASE,
     citySlug: 'corpus-christi', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Corpus Christi Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Corpus Christi Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Corpus Christi website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a bilingual Gulf Coast market. Free audit.',
+      'Redesign your Corpus Christi website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a bilingual Gulf.',
     eyebrow: 'Website Redesign · Corpus Christi, TX',
     h1: 'Redesign your Corpus Christi website without losing your rankings',
     h2Exact: 'Corpus Christi Website Redesign Company',
@@ -373,9 +373,9 @@ export const corpusChristiLocations = [
 export const corpusChristiCity = {
   citySlug: 'corpus-christi', city: 'Corpus Christi', state: 'Texas', stateAbbr: 'TX', metro: 'Corpus Christi',
 
-  titleTag: 'Corpus Christi Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Corpus Christi Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Corpus Christi contractors. Rank in English and Spanish, get ready for hurricane season, and own your leads. Free Corpus Christi audit.',
+    'Web design, SEO, and local SEO for Corpus Christi contractors. Rank in English and Spanish, get ready for hurricane season, and own your leads.',
 
   eyebrow: 'Corpus Christi · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Corpus Christi contractors found and booked',

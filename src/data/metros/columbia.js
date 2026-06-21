@@ -109,9 +109,9 @@ export const columbiaLocations = [
   {
     ...BASE,
     citySlug: 'columbia', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Columbia SC Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Columbia SC Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Columbia SC and three businesses show up on the map. We get you into those three so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Columbia SC and three businesses show up on the map. We get you into those three so the call lands with you.',
     eyebrow: 'Local SEO · Columbia, SC',
     h1: 'When Columbia searches for what you do, be the first name they find',
     h2Exact: 'Columbia SC Local SEO Company',
@@ -175,9 +175,9 @@ export const columbiaLocations = [
   {
     ...BASE,
     citySlug: 'columbia', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Columbia SC SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Columbia SC SEO Company | OnwardCraft',
     metaDescription:
-      'Columbia SC SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for heat-season and storm demand. Free audit.',
+      'Columbia SC SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for heat-season and storm.',
     eyebrow: 'SEO Services · Columbia, SC',
     h1: 'Get your Columbia SC business to the top of Google and keep it there',
     h2Exact: 'Columbia SC SEO Company',
@@ -241,9 +241,9 @@ export const columbiaLocations = [
   {
     ...BASE,
     citySlug: 'columbia', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Columbia SC Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Columbia SC Web Design Company | OnwardCraft',
     metaDescription:
-      'Columbia SC web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and the Midlands heat-and-storm season. Transparent pricing, you own it all.',
+      'Columbia SC web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and the Midlands heat-and-storm season.',
     eyebrow: 'Web Design · Columbia, SC',
     h1: 'Columbia SC web design that turns visitors into booked jobs',
     h2Exact: 'Columbia SC Web Design Company',
@@ -307,9 +307,9 @@ export const columbiaLocations = [
   {
     ...BASE,
     citySlug: 'columbia', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Columbia SC Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Columbia SC Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Columbia SC website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in heat and storm season. Free audit.',
+      'Redesign your Columbia SC website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in heat.',
     eyebrow: 'Website Redesign · Columbia, SC',
     h1: 'Redesign your Columbia SC website without losing your rankings',
     h2Exact: 'Columbia SC Website Redesign Company',
@@ -373,9 +373,9 @@ export const columbiaLocations = [
 export const columbiaCity = {
   citySlug: 'columbia', city: 'Columbia', state: 'South Carolina', stateAbbr: 'SC', metro: 'Columbia',
 
-  titleTag: 'Columbia SC Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Columbia SC Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Columbia SC contractors. Get found, get booked, and own your leads instead of renting them — built for Fort Jackson demand and South Carolina heat. Free audit.',
+    'Web design, SEO, and local SEO for Columbia SC contractors. Get found, get booked, and own your leads instead of renting them — built for Fort Jackson demand.',
 
   eyebrow: 'Columbia SC · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Columbia SC contractors found and booked',

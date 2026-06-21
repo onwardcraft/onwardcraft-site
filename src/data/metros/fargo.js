@@ -22,10 +22,10 @@ const MARKET = {
   donut: {
     title: 'The Fargo weather reality',
     value: 52,
-    centerLabel: 'annual snowfall inches',
+    centerLabel: 'winter-driven',
     legend: [
-      { label: 'Snow (in)', pct: 52, kind: 'teal' },
-      { label: 'Rain events', pct: 48, kind: 'grey' },
+      { label: 'Winter emergency demand', pct: 52, kind: 'teal' },
+      { label: 'Rest of year', pct: 48, kind: 'grey' },
     ],
   },
   seasonTitle: 'When trade demand spikes',
@@ -111,7 +111,7 @@ export const fargoLocations = [
     citySlug: 'fargo', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Fargo Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Fargo and three businesses show up on the map. We get you into those three before winter hits — honest pricing, no lock-in, free audit. Covering Fargo ND and Moorhead MN.',
+      'Search your service in Fargo and three businesses show up on the map. We get you into those three before winter hits — honest pricing, no lock-in, free audit.',
     eyebrow: 'Local SEO · Fargo-Moorhead',
     h1: 'When Fargo searches for what you do, be the first name they find',
     h2Exact: 'Fargo Local SEO Company',
@@ -177,7 +177,7 @@ export const fargoLocations = [
     citySlug: 'fargo', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Fargo SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Fargo SEO that ranks contractors on Google and brings in leads you own. Built for a two-state winter market. Revenue-tied reporting, no lock-in contracts. Free Fargo SEO audit.',
+      'Fargo SEO that ranks contractors on Google and brings in leads you own. Built for a two-state winter market. Revenue-tied reporting, no lock-in contracts.',
     eyebrow: 'SEO Services · Fargo-Moorhead',
     h1: 'Get your Fargo business to the top of Google and keep it there',
     h2Exact: 'Fargo SEO Company',
@@ -243,7 +243,7 @@ export const fargoLocations = [
     citySlug: 'fargo', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Fargo Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Fargo web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a brutal winter market. Covering Fargo ND and Moorhead MN. Transparent pricing, you own it.',
+      'Fargo web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a brutal winter market.',
     eyebrow: 'Web Design · Fargo-Moorhead',
     h1: 'Fargo web design that turns visitors into booked jobs',
     h2Exact: 'Fargo Web Design Company',
@@ -307,9 +307,9 @@ export const fargoLocations = [
   {
     ...BASE,
     citySlug: 'fargo', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Fargo Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Fargo Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Fargo website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — covering Fargo ND and Moorhead MN. Free audit.',
+      'Redesign your Fargo website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — covering Fargo ND.',
     eyebrow: 'Website Redesign · Fargo-Moorhead',
     h1: 'Redesign your Fargo website without losing your rankings',
     h2Exact: 'Fargo Website Redesign Company',
@@ -373,7 +373,7 @@ export const fargoLocations = [
 export const fargoCity = {
   citySlug: 'fargo', city: 'Fargo', state: 'North Dakota', stateAbbr: 'ND', metro: 'Fargo-Moorhead',
 
-  titleTag: 'Fargo Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Fargo Marketing for Contractors | OnwardCraft',
   metaDescription:
     'Web design, SEO, and local SEO for Fargo and Moorhead contractors. Get found before winter, rank in both states, and own your leads. Free Fargo audit.',
 

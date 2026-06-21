@@ -114,7 +114,7 @@ export const dallasLocations = [
     citySlug: 'dallas', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Dallas Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Dallas and three businesses show up on the map. We get you into those three so you catch hail season first. Honest pricing, no lock-in, free audit.',
+      'Search your service in Dallas and three businesses show up on the map. We get you into those three so you catch hail season first.',
     eyebrow: 'Local SEO · Dallas–Fort Worth',
     h1: 'When Dallas searches for what you do, be the first name they find',
     h2Exact: 'Dallas Local SEO Company',
@@ -178,9 +178,9 @@ export const dallasLocations = [
   {
     ...BASE,
     citySlug: 'dallas', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Dallas SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Dallas SEO Company | OnwardCraft',
     metaDescription:
-      'Dallas SEO that ranks contractors on Google and brings in leads you own — and gets you found when hail season hits. Revenue-tied reporting, no lock-in. Free SEO audit.',
+      'Dallas SEO that ranks contractors on Google and brings in leads you own — and gets you found when hail season hits. Revenue-tied reporting, no lock-in.',
     eyebrow: 'SEO Services · Dallas–Fort Worth',
     h1: 'Get your Dallas business to the top of Google and keep it there',
     h2Exact: 'Dallas SEO Company',
@@ -246,7 +246,7 @@ export const dallasLocations = [
     citySlug: 'dallas', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Dallas Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Dallas web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and ready for storm-season demand. Transparent pricing. Free quote.',
+      'Dallas web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and ready for storm-season demand.',
     eyebrow: 'Web Design · Dallas–Fort Worth',
     h1: 'Dallas web design that turns visitors into booked jobs',
     h2Exact: 'Dallas Web Design Company',
@@ -310,9 +310,9 @@ export const dallasLocations = [
   {
     ...BASE,
     citySlug: 'dallas', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Dallas Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Dallas Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Dallas website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your Dallas website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
     eyebrow: 'Website Redesign · Dallas–Fort Worth',
     h1: 'Redesign your Dallas website without losing your rankings',
     h2Exact: 'Dallas Website Redesign Company',
@@ -376,9 +376,9 @@ export const dallasLocations = [
 export const dallasCity = {
   citySlug: 'dallas', city: 'Dallas', state: 'Texas', stateAbbr: 'TX', metro: 'Dallas–Fort Worth',
 
-  titleTag: 'Dallas Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Dallas Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Dallas–Fort Worth contractors. Get found, get booked, catch hail season, and own your leads instead of renting them. Free Dallas audit.',
+    'Web design, SEO, and local SEO for Dallas–Fort Worth contractors. Get found, get booked, catch hail season, and own your leads instead of renting them.',
 
   eyebrow: 'Dallas · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Dallas contractors found and booked',

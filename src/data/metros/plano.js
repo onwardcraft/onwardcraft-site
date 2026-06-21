@@ -111,7 +111,7 @@ export const planoLocations = [
     citySlug: 'plano', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Plano Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Plano and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Plano and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Plano-Collin County',
     h1: 'When Plano searches for what you do, be the first name they find',
     h2Exact: 'Plano Local SEO Company',
@@ -175,9 +175,9 @@ export const planoLocations = [
   {
     ...BASE,
     citySlug: 'plano', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Plano SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Plano SEO Company | OnwardCraft',
     metaDescription:
-      'Plano SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hail-season demand. Free Plano SEO audit.',
+      'Plano SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hail-season demand.',
     eyebrow: 'SEO Services · Plano-Collin County',
     h1: 'Get your Plano business to the top of Google and keep it there',
     h2Exact: 'Plano SEO Company',
@@ -243,7 +243,7 @@ export const planoLocations = [
     citySlug: 'plano', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Plano Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Plano web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hail-season demand. Transparent pricing, you own it all. Free quote.',
+      'Plano web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hail-season demand.',
     eyebrow: 'Web Design · Plano-Collin County',
     h1: 'Plano web design that turns visitors into booked jobs',
     h2Exact: 'Plano Web Design Company',
@@ -307,9 +307,9 @@ export const planoLocations = [
   {
     ...BASE,
     citySlug: 'plano', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Plano Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Plano Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Plano website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season. Free audit.',
+      'Redesign your Plano website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season.',
     eyebrow: 'Website Redesign · Plano-Collin County',
     h1: 'Redesign your Plano website without losing your rankings',
     h2Exact: 'Plano Website Redesign Company',
@@ -373,9 +373,9 @@ export const planoLocations = [
 export const planoCity = {
   citySlug: 'plano', city: 'Plano', state: 'Texas', stateAbbr: 'TX', metro: 'Plano-Collin County',
 
-  titleTag: 'Plano Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Plano Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Plano contractors. Get found, get booked, and own your leads instead of renting them — built for hail-season demand. Free Plano audit.',
+    'Web design, SEO, and local SEO for Plano contractors. Get found, get booked, and own your leads instead of renting them — built for hail-season demand.',
 
   eyebrow: 'Plano · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Plano contractors found and booked',

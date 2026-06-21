@@ -111,7 +111,7 @@ export const toledoLocations = [
     citySlug: 'toledo', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Toledo Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Toledo and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Toledo and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Toledo, OH',
     h1: 'When Toledo searches for what you do, be the first name they find',
     h2Exact: 'Toledo Local SEO Company',
@@ -175,9 +175,9 @@ export const toledoLocations = [
   {
     ...BASE,
     citySlug: 'toledo', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Toledo SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Toledo SEO Company | OnwardCraft',
     metaDescription:
-      'Toledo SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Lake Erie seasonal demand. Free Toledo SEO audit.',
+      'Toledo SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Lake Erie seasonal demand.',
     eyebrow: 'SEO Services · Toledo, OH',
     h1: 'Get your Toledo business to the top of Google and keep it there',
     h2Exact: 'Toledo SEO Company',
@@ -243,7 +243,7 @@ export const toledoLocations = [
     citySlug: 'toledo', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Toledo Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Toledo web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Ohio seasonal demand. Transparent pricing, you own it all. Free quote.',
+      'Toledo web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Ohio seasonal demand.',
     eyebrow: 'Web Design · Toledo, OH',
     h1: 'Toledo web design that turns visitors into booked jobs',
     h2Exact: 'Toledo Web Design Company',
@@ -307,9 +307,9 @@ export const toledoLocations = [
   {
     ...BASE,
     citySlug: 'toledo', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Toledo Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Toledo Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Toledo website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up through Ohio winters. Free audit.',
+      'Redesign your Toledo website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up through Ohio.',
     eyebrow: 'Website Redesign · Toledo, OH',
     h1: 'Redesign your Toledo website without losing your rankings',
     h2Exact: 'Toledo Website Redesign Company',
@@ -373,9 +373,9 @@ export const toledoLocations = [
 export const toledoCity = {
   citySlug: 'toledo', city: 'Toledo', state: 'Ohio', stateAbbr: 'OH', metro: 'Toledo',
 
-  titleTag: 'Toledo Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Toledo Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Toledo contractors. Get found, get booked, and own your leads instead of renting them — built for Lake Erie seasonal demand. Free Toledo audit.',
+    'Web design, SEO, and local SEO for Toledo contractors. Get found, get booked, and own your leads instead of renting them — built for Lake Erie seasonal.',
 
   eyebrow: 'Toledo · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Toledo contractors found and booked',

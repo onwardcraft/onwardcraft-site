@@ -112,7 +112,7 @@ export const tucsonLocations = [
     citySlug: 'tucson', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Tucson Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Tucson and three businesses show up on the map. We get you into those three before the heat season and monsoon hits. Honest pricing, no lock-in, free audit.',
+      'Search your service in Tucson and three businesses show up on the map. We get you into those three before the heat season and monsoon hits.',
     eyebrow: 'Local SEO · Tucson, AZ',
     h1: 'When Tucson searches for what you do, be the first name they find',
     h2Exact: 'Tucson Local SEO Company',
@@ -178,7 +178,7 @@ export const tucsonLocations = [
     citySlug: 'tucson', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Tucson SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Tucson SEO that ranks contractors on Google before the heat and monsoon seasons — leads you own, not leads you rent. Revenue-tied reporting, no lock-in. Free Tucson SEO audit.',
+      'Tucson SEO that ranks contractors on Google before the heat and monsoon seasons — leads you own, not leads you rent. Revenue-tied reporting, no lock-in.',
     eyebrow: 'SEO Services · Tucson, AZ',
     h1: 'Get your Tucson business to the top of Google and keep it there',
     h2Exact: 'Tucson SEO Company',
@@ -244,7 +244,7 @@ export const tucsonLocations = [
     citySlug: 'tucson', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Tucson Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Tucson web design that turns visitors into booked jobs — fast, mobile-first sites built for desert contractors, seasonal demand, and a bilingual market. Transparent pricing. Free quote.',
+      'Tucson web design that turns visitors into booked jobs — fast, mobile-first sites built for desert contractors, seasonal demand, and a bilingual market.',
     eyebrow: 'Web Design · Tucson, AZ',
     h1: 'Tucson web design that turns visitors into booked jobs',
     h2Exact: 'Tucson Web Design Company',
@@ -308,9 +308,9 @@ export const tucsonLocations = [
   {
     ...BASE,
     citySlug: 'tucson', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Tucson Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Tucson Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Tucson website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — built for desert contractors and seasonal demand. Free audit.',
+      'Redesign your Tucson website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — built for desert contractors.',
     eyebrow: 'Website Redesign · Tucson, AZ',
     h1: 'Redesign your Tucson website without losing your rankings',
     h2Exact: 'Tucson Website Redesign Company',
@@ -374,9 +374,9 @@ export const tucsonLocations = [
 export const tucsonCity = {
   citySlug: 'tucson', city: 'Tucson', state: 'Arizona', stateAbbr: 'AZ', metro: 'Tucson',
 
-  titleTag: 'Tucson Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Tucson Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Tucson contractors. Rank before the heat and monsoon, reach bilingual homeowners, and own your leads instead of renting them. Free Tucson audit.',
+    'Web design, SEO, and local SEO for Tucson contractors. Rank before the heat and monsoon, reach bilingual homeowners, and own your leads instead of renting.',
 
   eyebrow: 'Tucson · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Tucson contractors found and booked',

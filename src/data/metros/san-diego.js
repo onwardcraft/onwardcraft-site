@@ -111,7 +111,7 @@ export const sanDiegoLocations = [
     citySlug: 'san-diego', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'San Diego Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in San Diego and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in San Diego and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · San Diego County',
     h1: 'When San Diego searches for what you do, be the first name they find',
     h2Exact: 'San Diego Local SEO Company',
@@ -177,7 +177,7 @@ export const sanDiegoLocations = [
     citySlug: 'san-diego', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'San Diego SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'San Diego SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, bilingual-ready, no lock-in contracts. Free San Diego SEO audit.',
+      'San Diego SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, bilingual-ready, no lock-in contracts.',
     eyebrow: 'SEO Services · San Diego County',
     h1: 'Get your San Diego business to the top of Google and keep it there',
     h2Exact: 'San Diego SEO Company',
@@ -241,9 +241,9 @@ export const sanDiegoLocations = [
   {
     ...BASE,
     citySlug: 'san-diego', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'San Diego Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'San Diego Web Design Company | OnwardCraft',
     metaDescription:
-      'San Diego web design that turns visitors into booked jobs — fast, mobile-first, bilingual-ready sites built for contractors. Transparent pricing, you own it all. Free quote.',
+      'San Diego web design that turns visitors into booked jobs — fast, mobile-first, bilingual-ready sites built for contractors.',
     eyebrow: 'Web Design · San Diego County',
     h1: 'San Diego web design that turns visitors into booked jobs',
     h2Exact: 'San Diego Web Design Company',
@@ -307,9 +307,9 @@ export const sanDiegoLocations = [
   {
     ...BASE,
     citySlug: 'san-diego', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'San Diego Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'San Diego Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your San Diego website without losing rankings. Faster, mobile-first, bilingual-ready rebuilds that convert more visitors into booked jobs. Free redesign audit.',
+      'Redesign your San Diego website without losing rankings. Faster, mobile-first, bilingual-ready rebuilds that convert more visitors into booked jobs.',
     eyebrow: 'Website Redesign · San Diego County',
     h1: 'Redesign your San Diego website without losing your rankings',
     h2Exact: 'San Diego Website Redesign Company',
@@ -373,9 +373,9 @@ export const sanDiegoLocations = [
 export const sanDiegoCity = {
   citySlug: 'san-diego', city: 'San Diego', state: 'California', stateAbbr: 'CA', metro: 'San Diego County',
 
-  titleTag: 'San Diego Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'San Diego Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for San Diego contractors. Get found, get booked, and own your leads instead of renting them — bilingual-ready. Free San Diego audit.',
+    'Web design, SEO, and local SEO for San Diego contractors. Get found, get booked, and own your leads instead of renting them — bilingual-ready.',
 
   eyebrow: 'San Diego · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets San Diego contractors found and booked',

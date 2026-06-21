@@ -111,7 +111,7 @@ export const westPalmBeachLocations = [
     citySlug: 'west-palm-beach', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'West Palm Beach Local SEO | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in West Palm Beach and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in West Palm Beach and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · West Palm Beach',
     h1: 'When Palm Beach County searches for what you do, be the first name they find',
     h2Exact: 'West Palm Beach Local SEO Company',
@@ -175,9 +175,9 @@ export const westPalmBeachLocations = [
   {
     ...BASE,
     citySlug: 'west-palm-beach', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'West Palm Beach SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'West Palm Beach SEO Company | OnwardCraft',
     metaDescription:
-      'West Palm Beach SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for snowbird and hurricane-season demand. Free audit.',
+      'West Palm Beach SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for snowbird.',
     eyebrow: 'SEO Services · West Palm Beach',
     h1: 'Get your West Palm Beach business to the top of Google and keep it there',
     h2Exact: 'West Palm Beach SEO Company',
@@ -241,9 +241,9 @@ export const westPalmBeachLocations = [
   {
     ...BASE,
     citySlug: 'west-palm-beach', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'West Palm Beach Web Design | Sites That Convert | OnwardCraft',
+    titleTag: 'West Palm Beach Web Design | OnwardCraft',
     metaDescription:
-      'West Palm Beach web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving estate clients and storm-season demand. Transparent pricing. Free quote.',
+      'West Palm Beach web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving estate clients and storm-season.',
     eyebrow: 'Web Design · West Palm Beach',
     h1: 'West Palm Beach web design that turns visitors into booked jobs',
     h2Exact: 'West Palm Beach Web Design Company',
@@ -307,9 +307,9 @@ export const westPalmBeachLocations = [
   {
     ...BASE,
     citySlug: 'west-palm-beach', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'West Palm Beach Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'West Palm Beach Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your West Palm Beach website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in snowbird and storm season. Free audit.',
+      'Redesign your West Palm Beach website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up.',
     eyebrow: 'Website Redesign · West Palm Beach',
     h1: 'Redesign your West Palm Beach website without losing your rankings',
     h2Exact: 'West Palm Beach Website Redesign Company',
@@ -373,9 +373,9 @@ export const westPalmBeachLocations = [
 export const westPalmBeachCity = {
   citySlug: 'west-palm-beach', city: 'West Palm Beach', state: 'Florida', stateAbbr: 'FL', metro: 'West Palm Beach-Palm Beach County',
 
-  titleTag: 'West Palm Beach Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'West Palm Beach Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for West Palm Beach contractors. Get found by snowbird estate clients and hurricane-driven homeowners alike — and own your leads. Free audit.',
+    'Web design, SEO, and local SEO for West Palm Beach contractors. Get found by snowbird estate clients and hurricane-driven homeowners alike — and own.',
 
   eyebrow: 'West Palm Beach · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Palm Beach County contractors found and booked',

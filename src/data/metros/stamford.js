@@ -111,7 +111,7 @@ export const stamfordLocations = [
     citySlug: 'stamford', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Stamford Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Stamford or Greenwich and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Stamford or Greenwich and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Stamford & Fairfield County',
     h1: 'When Fairfield County searches for what you do, be the first name they find',
     h2Exact: 'Stamford Local SEO Company',
@@ -177,7 +177,7 @@ export const stamfordLocations = [
     citySlug: 'stamford', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Stamford SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Stamford SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Fairfield County. Free Stamford SEO audit.',
+      'Stamford SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Fairfield County.',
     eyebrow: 'SEO Services · Stamford & Fairfield County',
     h1: 'Get your Stamford business to the top of Google and keep it there',
     h2Exact: 'Stamford SEO Company',
@@ -241,9 +241,9 @@ export const stamfordLocations = [
   {
     ...BASE,
     citySlug: 'stamford', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Stamford Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Stamford Web Design Company | OnwardCraft',
     metaDescription:
-      'Stamford web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in Fairfield County\'s high-expectation market. Transparent pricing, you own it. Free quote.',
+      'Stamford web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in Fairfield County\'s high-expectation market.',
     eyebrow: 'Web Design · Stamford & Fairfield County',
     h1: 'Stamford web design that turns visitors into booked jobs',
     h2Exact: 'Stamford Web Design Company',
@@ -307,9 +307,9 @@ export const stamfordLocations = [
   {
     ...BASE,
     citySlug: 'stamford', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Stamford Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Stamford Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Stamford website without losing rankings. Faster, mobile-first rebuilds that convert more Fairfield County visitors into booked jobs. Free redesign audit.',
+      'Redesign your Stamford website without losing rankings. Faster, mobile-first rebuilds that convert more Fairfield County visitors into booked jobs.',
     eyebrow: 'Website Redesign · Stamford & Fairfield County',
     h1: 'Redesign your Stamford website without losing your rankings',
     h2Exact: 'Stamford Website Redesign Company',
@@ -373,9 +373,9 @@ export const stamfordLocations = [
 export const stamfordCity = {
   citySlug: 'stamford', city: 'Stamford', state: 'Connecticut', stateAbbr: 'CT', metro: 'Stamford-Greenwich (Fairfield County)',
 
-  titleTag: 'Stamford Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Stamford Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Stamford and Fairfield County contractors. Get found, get booked, and own your leads in the wealthiest commuter corridor in New England. Free audit.',
+    'Web design, SEO, and local SEO for Stamford and Fairfield County contractors. Get found, get booked, and own your leads in the wealthiest commuter corridor.',
 
   eyebrow: 'Stamford · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Stamford contractors found and booked',

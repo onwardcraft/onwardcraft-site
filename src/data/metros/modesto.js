@@ -111,7 +111,7 @@ export const modestoLocations = [
     citySlug: 'modesto', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Modesto Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Modesto and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Modesto and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Modesto',
     h1: 'When Modesto searches for what you do, be the first name they find',
     h2Exact: 'Modesto Local SEO Company',
@@ -175,9 +175,9 @@ export const modestoLocations = [
   {
     ...BASE,
     citySlug: 'modesto', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Modesto SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Modesto SEO Company | OnwardCraft',
     metaDescription:
-      'Modesto SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for valley heat and wildfire smoke demand. Free audit.',
+      'Modesto SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for valley heat and wildfire.',
     eyebrow: 'SEO Services · Modesto',
     h1: 'Get your Modesto business to the top of Google and keep it there',
     h2Exact: 'Modesto SEO Company',
@@ -241,9 +241,9 @@ export const modestoLocations = [
   {
     ...BASE,
     citySlug: 'modesto', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Modesto Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Modesto Web Design Company | OnwardCraft',
     metaDescription:
-      'Modesto web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and San Joaquin Valley heat demand. Transparent pricing, you own it all. Free quote.',
+      'Modesto web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and San Joaquin Valley heat demand.',
     eyebrow: 'Web Design · Modesto',
     h1: 'Modesto web design that turns visitors into booked jobs',
     h2Exact: 'Modesto Web Design Company',
@@ -307,9 +307,9 @@ export const modestoLocations = [
   {
     ...BASE,
     citySlug: 'modesto', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Modesto Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Modesto Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Modesto website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in valley heat season. Free audit.',
+      'Redesign your Modesto website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in valley heat.',
     eyebrow: 'Website Redesign · Modesto',
     h1: 'Redesign your Modesto website without losing your rankings',
     h2Exact: 'Modesto Website Redesign Company',
@@ -373,9 +373,9 @@ export const modestoLocations = [
 export const modestoCity = {
   citySlug: 'modesto', city: 'Modesto', state: 'California', stateAbbr: 'CA', metro: 'Modesto',
 
-  titleTag: 'Modesto Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Modesto Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Modesto contractors. Get found, get booked, and own your leads — built for San Joaquin Valley heat and wildfire smoke demand. Free audit.',
+    'Web design, SEO, and local SEO for Modesto contractors. Get found, get booked, and own your leads — built for San Joaquin Valley heat and wildfire smoke.',
 
   eyebrow: 'Modesto · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Modesto contractors found and booked',

@@ -111,7 +111,7 @@ export const killeenLocations = [
     citySlug: 'killeen', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Killeen Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Killeen and three businesses show up on the map. We get you into those three, so the call lands with you — especially during PCS season and storm demand. Free audit.',
+      'Search your service in Killeen and three businesses show up on the map. We get you into those three, so the call lands with you — especially during PCS season.',
     eyebrow: 'Local SEO · Killeen-Temple (Fort Cavazos)',
     h1: 'When Killeen searches for what you do, be the first name they find',
     h2Exact: 'Killeen Local SEO Company',
@@ -175,9 +175,9 @@ export const killeenLocations = [
   {
     ...BASE,
     citySlug: 'killeen', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Killeen SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Killeen SEO Company | OnwardCraft',
     metaDescription:
-      'Killeen SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Fort Cavazos PCS demand and storm season. Free audit.',
+      'Killeen SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Fort Cavazos PCS demand.',
     eyebrow: 'SEO Services · Killeen-Temple (Fort Cavazos)',
     h1: 'Get your Killeen business to the top of Google and keep it there',
     h2Exact: 'Killeen SEO Company',
@@ -241,9 +241,9 @@ export const killeenLocations = [
   {
     ...BASE,
     citySlug: 'killeen', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Killeen Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Killeen Web Design Company | OnwardCraft',
     metaDescription:
-      'Killeen web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving Fort Cavazos and the Killeen-Temple area. Free quote.',
+      'Killeen web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving Fort Cavazos and the Killeen-Temple area.',
     eyebrow: 'Web Design · Killeen-Temple (Fort Cavazos)',
     h1: 'Killeen web design that turns visitors into booked jobs',
     h2Exact: 'Killeen Web Design Company',
@@ -307,9 +307,9 @@ export const killeenLocations = [
   {
     ...BASE,
     citySlug: 'killeen', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Killeen Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Killeen Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Killeen website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up during PCS season and storm demand. Free audit.',
+      'Redesign your Killeen website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up during PCS season.',
     eyebrow: 'Website Redesign · Killeen-Temple (Fort Cavazos)',
     h1: 'Redesign your Killeen website without losing your rankings',
     h2Exact: 'Killeen Website Redesign Company',
@@ -373,9 +373,9 @@ export const killeenLocations = [
 export const killeenCity = {
   citySlug: 'killeen', city: 'Killeen', state: 'Texas', stateAbbr: 'TX', metro: 'Killeen-Temple (Fort Cavazos)',
 
-  titleTag: 'Killeen Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Killeen Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Killeen contractors. Get found, get booked, and own your leads — built for Fort Cavazos PCS demand, Central Texas heat, and tornado season. Free audit.',
+    'Web design, SEO, and local SEO for Killeen contractors. Get found, get booked, and own your leads — built for Fort Cavazos PCS demand, Central Texas heat,.',
 
   eyebrow: 'Killeen · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Killeen contractors found and booked',

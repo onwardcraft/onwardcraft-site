@@ -111,7 +111,7 @@ export const savannahLocations = [
     citySlug: 'savannah', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Savannah Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Savannah and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Savannah and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Savannah, GA',
     h1: 'When Savannah searches for what you do, be the first name they find',
     h2Exact: 'Savannah Local SEO Company',
@@ -175,9 +175,9 @@ export const savannahLocations = [
   {
     ...BASE,
     citySlug: 'savannah', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Savannah SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Savannah SEO Company | OnwardCraft',
     metaDescription:
-      'Savannah SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hurricane-season demand. Free Savannah SEO audit.',
+      'Savannah SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hurricane-season demand.',
     eyebrow: 'SEO Services · Savannah, GA',
     h1: 'Get your Savannah business to the top of Google and keep it there',
     h2Exact: 'Savannah SEO Company',
@@ -241,9 +241,9 @@ export const savannahLocations = [
   {
     ...BASE,
     citySlug: 'savannah', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Savannah Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Savannah Web Design Company | OnwardCraft',
     metaDescription:
-      'Savannah web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hurricane-season demand. Transparent pricing, you own it all. Free quote.',
+      'Savannah web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hurricane-season demand.',
     eyebrow: 'Web Design · Savannah, GA',
     h1: 'Savannah web design that turns visitors into booked jobs',
     h2Exact: 'Savannah Web Design Company',
@@ -307,9 +307,9 @@ export const savannahLocations = [
   {
     ...BASE,
     citySlug: 'savannah', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Savannah Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Savannah Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Savannah website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hurricane season. Free audit.',
+      'Redesign your Savannah website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hurricane.',
     eyebrow: 'Website Redesign · Savannah, GA',
     h1: 'Redesign your Savannah website without losing your rankings',
     h2Exact: 'Savannah Website Redesign Company',
@@ -373,9 +373,9 @@ export const savannahLocations = [
 export const savannahCity = {
   citySlug: 'savannah', city: 'Savannah', state: 'Georgia', stateAbbr: 'GA', metro: 'Savannah',
 
-  titleTag: 'Savannah Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Savannah Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Savannah contractors. Get found, get booked, and own your leads instead of renting them — built for hurricane-season demand and historic district expertise. Free Savannah audit.',
+    'Web design, SEO, and local SEO for Savannah contractors. Get found, get booked, and own your leads instead of renting them — built for hurricane-season demand.',
 
   eyebrow: 'Savannah · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Savannah contractors found and booked',

@@ -109,9 +109,9 @@ export const sacramentoLocations = [
   {
     ...BASE,
     citySlug: 'sacramento', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Sacramento Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Sacramento Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Sacramento and three businesses show up on the map. We get you into those three, so the call lands with you during heat waves, smoke season, and every day between. Free audit.',
+      'Search your service in Sacramento and three businesses show up on the map. We get you into those three, so the call lands with you during heat waves, smoke.',
     eyebrow: 'Local SEO · Sacramento',
     h1: 'When Sacramento searches for what you do, be the first name they find',
     h2Exact: 'Sacramento Local SEO Company',
@@ -175,9 +175,9 @@ export const sacramentoLocations = [
   {
     ...BASE,
     citySlug: 'sacramento', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Sacramento SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Sacramento SEO Company | OnwardCraft',
     metaDescription:
-      'Sacramento SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for extreme heat, smoke season, and a fast-growing market. Free audit.',
+      'Sacramento SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for extreme heat, smoke.',
     eyebrow: 'SEO Services · Sacramento',
     h1: 'Get your Sacramento business to the top of Google and keep it there',
     h2Exact: 'Sacramento SEO Company',
@@ -241,9 +241,9 @@ export const sacramentoLocations = [
   {
     ...BASE,
     citySlug: 'sacramento', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Sacramento Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Sacramento Web Design Company | OnwardCraft',
     metaDescription:
-      'Sacramento web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a growing market full of discerning Bay Area transplants. Transparent pricing, you own it. Free quote.',
+      'Sacramento web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a growing market full of discerning Bay Area.',
     eyebrow: 'Web Design · Sacramento',
     h1: 'Sacramento web design that turns visitors into booked jobs',
     h2Exact: 'Sacramento Web Design Company',
@@ -307,9 +307,9 @@ export const sacramentoLocations = [
   {
     ...BASE,
     citySlug: 'sacramento', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Sacramento Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Sacramento Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Sacramento website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across Midtown, Elk Grove, Folsom and beyond. Free audit.',
+      'Redesign your Sacramento website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across Midtown, Elk Grove.',
     eyebrow: 'Website Redesign · Sacramento',
     h1: 'Redesign your Sacramento website without losing your rankings',
     h2Exact: 'Sacramento Website Redesign Company',
@@ -373,9 +373,9 @@ export const sacramentoLocations = [
 export const sacramentoCity = {
   citySlug: 'sacramento', city: 'Sacramento', state: 'California', stateAbbr: 'CA', metro: 'Sacramento',
 
-  titleTag: 'Sacramento Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Sacramento Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Sacramento contractors. Get found during heat waves, smoke season, and every day between — and own your leads instead of renting them. Free audit.',
+    'Web design, SEO, and local SEO for Sacramento contractors. Get found during heat waves, smoke season, and every day between — and own your leads instead.',
 
   eyebrow: 'Sacramento · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Sacramento contractors found and booked',

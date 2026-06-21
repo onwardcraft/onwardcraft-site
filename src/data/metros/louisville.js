@@ -109,9 +109,9 @@ export const louisvilleLocations = [
   {
     ...BASE,
     citySlug: 'louisville', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Louisville Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Louisville Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Louisville and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Louisville and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Louisville, KY',
     h1: 'When Louisville searches for what you do, be the first name they find',
     h2Exact: 'Louisville Local SEO Company',
@@ -175,9 +175,9 @@ export const louisvilleLocations = [
   {
     ...BASE,
     citySlug: 'louisville', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Louisville SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Louisville SEO Company | OnwardCraft',
     metaDescription:
-      'Louisville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for seasonal storm and flood markets. Free Louisville SEO audit.',
+      'Louisville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for seasonal storm and flood.',
     eyebrow: 'SEO Services · Louisville, KY',
     h1: 'Get your Louisville business to the top of Google and keep it there',
     h2Exact: 'Louisville SEO Company',
@@ -241,9 +241,9 @@ export const louisvilleLocations = [
   {
     ...BASE,
     citySlug: 'louisville', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Louisville Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Louisville Web Design Company | OnwardCraft',
     metaDescription:
-      'Louisville web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in bourbon country. Transparent pricing, you own it. Free quote.',
+      'Louisville web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in bourbon country.',
     eyebrow: 'Web Design · Louisville, KY',
     h1: 'Louisville web design that turns visitors into booked jobs',
     h2Exact: 'Louisville Web Design Company',
@@ -307,9 +307,9 @@ export const louisvilleLocations = [
   {
     ...BASE,
     citySlug: 'louisville', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Louisville Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Louisville Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Louisville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in bourbon country. Free audit.',
+      'Redesign your Louisville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in bourbon country.',
     eyebrow: 'Website Redesign · Louisville, KY',
     h1: 'Redesign your Louisville website without losing your rankings',
     h2Exact: 'Louisville Website Redesign Company',
@@ -373,9 +373,9 @@ export const louisvilleLocations = [
 export const louisvilleCity = {
   citySlug: 'louisville', city: 'Louisville', state: 'Kentucky', stateAbbr: 'KY', metro: 'Louisville',
 
-  titleTag: 'Louisville Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Louisville Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Louisville contractors. Get found, get booked, and own your leads instead of renting them — built for bourbon country. Free Louisville audit.',
+    'Web design, SEO, and local SEO for Louisville contractors. Get found, get booked, and own your leads instead of renting them — built for bourbon country.',
 
   eyebrow: 'Louisville · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Louisville contractors found and booked',

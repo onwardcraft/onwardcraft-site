@@ -109,9 +109,9 @@ export const greensboroLocations = [
   {
     ...BASE,
     citySlug: 'greensboro', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Greensboro Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Greensboro Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Greensboro and three businesses show up on the map. We get you into those three so the call lands with you — not a competitor. Honest pricing, no lock-in, free audit.',
+      'Search your service in Greensboro and three businesses show up on the map. We get you into those three so the call lands with you — not a competitor.',
     eyebrow: 'Local SEO · Greensboro, NC',
     h1: 'When Greensboro searches for what you do, be the first name they find',
     h2Exact: 'Greensboro Local SEO Company',
@@ -175,9 +175,9 @@ export const greensboroLocations = [
   {
     ...BASE,
     citySlug: 'greensboro', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Greensboro SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Greensboro SEO Company | OnwardCraft',
     metaDescription:
-      'Greensboro SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for the Piedmont Triad. Free Greensboro SEO audit.',
+      'Greensboro SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for the Piedmont Triad.',
     eyebrow: 'SEO Services · Greensboro, NC',
     h1: 'Get your Greensboro business to the top of Google and keep it there',
     h2Exact: 'Greensboro SEO Company',
@@ -241,9 +241,9 @@ export const greensboroLocations = [
   {
     ...BASE,
     citySlug: 'greensboro', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Greensboro Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Greensboro Web Design Company | OnwardCraft',
     metaDescription:
-      'Greensboro web design that turns visitors into booked jobs — fast, mobile-first sites built for Triad contractors in a growing market. Transparent pricing, you own it. Free quote.',
+      'Greensboro web design that turns visitors into booked jobs — fast, mobile-first sites built for Triad contractors in a growing market.',
     eyebrow: 'Web Design · Greensboro, NC',
     h1: 'Greensboro web design that turns visitors into booked jobs',
     h2Exact: 'Greensboro Web Design Company',
@@ -307,7 +307,7 @@ export const greensboroLocations = [
   {
     ...BASE,
     citySlug: 'greensboro', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Greensboro Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Greensboro Website Redesign | OnwardCraft',
     metaDescription:
       'Redesign your Greensboro website without losing rankings. Faster, mobile-first rebuilds that convert more Triad visitors into booked jobs. Free audit.',
     eyebrow: 'Website Redesign · Greensboro, NC',
@@ -373,9 +373,9 @@ export const greensboroLocations = [
 export const greensboroCity = {
   citySlug: 'greensboro', city: 'Greensboro', state: 'North Carolina', stateAbbr: 'NC', metro: 'Greensboro-Winston-Salem-High Point',
 
-  titleTag: 'Greensboro Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Greensboro Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Greensboro and Triad contractors. Get found, get booked, and own your leads instead of renting them — built for a growing Piedmont market. Free audit.',
+    'Web design, SEO, and local SEO for Greensboro and Triad contractors. Get found, get booked, and own your leads instead of renting them — built for a growing.',
 
   eyebrow: 'Greensboro · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Greensboro contractors found and booked',

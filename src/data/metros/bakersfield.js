@@ -109,9 +109,9 @@ export const bakersfieldLocations = [
   {
     ...BASE,
     citySlug: 'bakersfield', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Bakersfield Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Bakersfield Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Bakersfield and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Bakersfield and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Bakersfield',
     h1: 'When Bakersfield searches for what you do, be the first name they find',
     h2Exact: 'Bakersfield Local SEO Company',
@@ -175,9 +175,9 @@ export const bakersfieldLocations = [
   {
     ...BASE,
     citySlug: 'bakersfield', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Bakersfield SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Bakersfield SEO Company | OnwardCraft',
     metaDescription:
-      'Bakersfield SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for heat-season demand. Free Bakersfield SEO audit.',
+      'Bakersfield SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for heat-season demand.',
     eyebrow: 'SEO Services · Bakersfield',
     h1: 'Get your Bakersfield business to the top of Google and keep it there',
     h2Exact: 'Bakersfield SEO Company',
@@ -241,9 +241,9 @@ export const bakersfieldLocations = [
   {
     ...BASE,
     citySlug: 'bakersfield', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Bakersfield Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Bakersfield Web Design Company | OnwardCraft',
     metaDescription:
-      'Bakersfield web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and extreme-heat demand. Transparent pricing, you own it all. Free quote.',
+      'Bakersfield web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and extreme-heat demand.',
     eyebrow: 'Web Design · Bakersfield',
     h1: 'Bakersfield web design that turns visitors into booked jobs',
     h2Exact: 'Bakersfield Web Design Company',
@@ -307,9 +307,9 @@ export const bakersfieldLocations = [
   {
     ...BASE,
     citySlug: 'bakersfield', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Bakersfield Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Bakersfield Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Bakersfield website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in heat season. Free audit.',
+      'Redesign your Bakersfield website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in heat.',
     eyebrow: 'Website Redesign · Bakersfield',
     h1: 'Redesign your Bakersfield website without losing your rankings',
     h2Exact: 'Bakersfield Website Redesign Company',
@@ -373,9 +373,9 @@ export const bakersfieldLocations = [
 export const bakersfieldCity = {
   citySlug: 'bakersfield', city: 'Bakersfield', state: 'California', stateAbbr: 'CA', metro: 'Bakersfield',
 
-  titleTag: 'Bakersfield Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Bakersfield Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Bakersfield contractors. Get found, get booked, and own your leads instead of renting them — built for extreme-heat demand. Free Bakersfield audit.',
+    'Web design, SEO, and local SEO for Bakersfield contractors. Get found, get booked, and own your leads instead of renting them — built for extreme-heat demand.',
 
   eyebrow: 'Bakersfield · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Bakersfield contractors found and booked',

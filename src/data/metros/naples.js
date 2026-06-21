@@ -111,7 +111,7 @@ export const naplesLocations = [
     citySlug: 'naples', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Naples Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Naples and three businesses show up on the map. We get you into those three, so the high-end call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Naples and three businesses show up on the map. We get you into those three, so the high-end call lands with you.',
     eyebrow: 'Local SEO · Naples',
     h1: 'When Naples searches for what you do, be the first name they find',
     h2Exact: 'Naples Local SEO Company',
@@ -175,9 +175,9 @@ export const naplesLocations = [
   {
     ...BASE,
     citySlug: 'naples', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Naples SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Naples SEO Company | OnwardCraft',
     metaDescription:
-      'Naples SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-rebuild and luxury demand. Free Naples SEO audit.',
+      'Naples SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-rebuild and luxury.',
     eyebrow: 'SEO Services · Naples',
     h1: 'Get your Naples business to the top of Google and keep it there',
     h2Exact: 'Naples SEO Company',
@@ -243,7 +243,7 @@ export const naplesLocations = [
     citySlug: 'naples', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Naples Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Naples web design that turns high-end visitors into booked jobs — fast, polished, mobile-first sites built for luxury clients and storm-rebuild demand. Transparent pricing, you own it all. Free quote.',
+      'Naples web design that turns high-end visitors into booked jobs — fast, polished, mobile-first sites built for luxury clients and storm-rebuild demand.',
     eyebrow: 'Web Design · Naples',
     h1: 'Naples web design that turns visitors into booked jobs',
     h2Exact: 'Naples Web Design Company',
@@ -307,9 +307,9 @@ export const naplesLocations = [
   {
     ...BASE,
     citySlug: 'naples', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Naples Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Naples Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Naples website without losing rankings. Faster, polished, mobile-first rebuilds that convert more high-end visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your Naples website without losing rankings. Faster, polished, mobile-first rebuilds that convert more high-end visitors into booked jobs and hold up.',
     eyebrow: 'Website Redesign · Naples',
     h1: 'Redesign your Naples website without losing your rankings',
     h2Exact: 'Naples Website Redesign Company',
@@ -373,9 +373,9 @@ export const naplesLocations = [
 export const naplesCity = {
   citySlug: 'naples', city: 'Naples', state: 'Florida', stateAbbr: 'FL', metro: 'Naples-Marco Island (Collier County)',
 
-  titleTag: 'Naples Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Naples Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Naples contractors. Get found, get booked, and own your leads instead of renting them — built for luxury clients and storm-rebuild demand. Free Naples audit.',
+    'Web design, SEO, and local SEO for Naples contractors. Get found, get booked, and own your leads instead of renting them — built for luxury clients.',
 
   eyebrow: 'Naples · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Naples contractors found and booked',

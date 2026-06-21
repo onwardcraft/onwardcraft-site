@@ -110,9 +110,9 @@ export const brownsvilleLocations = [
   {
     ...BASE,
     citySlug: 'brownsville', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Brownsville Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Brownsville Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Brownsville and three businesses show up on the map. We get you into those three — including Spanish-language searches. Honest pricing, no lock-in, free audit.',
+      'Search your service in Brownsville and three businesses show up on the map. We get you into those three — including Spanish-language searches.',
     eyebrow: 'Local SEO · Brownsville, TX',
     h1: 'When Brownsville searches for what you do, be the first name they find',
     h2Exact: 'Brownsville Local SEO Company',
@@ -176,9 +176,9 @@ export const brownsvilleLocations = [
   {
     ...BASE,
     citySlug: 'brownsville', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Brownsville SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Brownsville SEO Company | OnwardCraft',
     metaDescription:
-      'Brownsville SEO that ranks contractors on Google — in English and Spanish — and brings in leads you own. Revenue-tied reporting, no lock-in, built for the Rio Grande Valley. Free audit.',
+      'Brownsville SEO that ranks contractors on Google — in English and Spanish — and brings in leads you own. Revenue-tied reporting, no lock-in, built for the Rio.',
     eyebrow: 'SEO Services · Brownsville, TX',
     h1: 'Get your Brownsville business to the top of Google and keep it there',
     h2Exact: 'Brownsville SEO Company',
@@ -242,9 +242,9 @@ export const brownsvilleLocations = [
   {
     ...BASE,
     citySlug: 'brownsville', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Brownsville Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Brownsville Web Design Company | OnwardCraft',
     metaDescription:
-      'Brownsville web design that turns visitors into booked jobs — fast, mobile-first, bilingual sites built for contractors in the Rio Grande Valley. Transparent pricing, you own it. Free quote.',
+      'Brownsville web design that turns visitors into booked jobs — fast, mobile-first, bilingual sites built for contractors in the Rio Grande Valley.',
     eyebrow: 'Web Design · Brownsville, TX',
     h1: 'Brownsville web design that turns visitors into booked jobs',
     h2Exact: 'Brownsville Web Design Company',
@@ -308,9 +308,9 @@ export const brownsvilleLocations = [
   {
     ...BASE,
     citySlug: 'brownsville', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Brownsville Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Brownsville Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Brownsville website without losing rankings. Faster, mobile-first, bilingual rebuilds that convert more visitors in the Rio Grande Valley. Free audit.',
+      'Redesign your Brownsville website without losing rankings. Faster, mobile-first, bilingual rebuilds that convert more visitors in the Rio Grande Valley.',
     eyebrow: 'Website Redesign · Brownsville, TX',
     h1: 'Redesign your Brownsville website without losing your rankings',
     h2Exact: 'Brownsville Website Redesign Company',
@@ -374,9 +374,9 @@ export const brownsvilleLocations = [
 export const brownsvilleCity = {
   citySlug: 'brownsville', city: 'Brownsville', state: 'Texas', stateAbbr: 'TX', metro: 'Brownsville-Harlingen (Rio Grande Valley)',
 
-  titleTag: 'Brownsville Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Brownsville Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Brownsville contractors. Get found in English and Spanish, get booked, and own your leads — built for the Rio Grande Valley. Free audit.',
+    'Web design, SEO, and local SEO for Brownsville contractors. Get found in English and Spanish, get booked, and own your leads — built for the Rio Grande.',
 
   eyebrow: 'Brownsville · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Brownsville contractors found and booked',

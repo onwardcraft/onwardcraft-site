@@ -112,7 +112,7 @@ export const wacoLocations = [
     citySlug: "waco", serviceSlug: "local-seo", service: "Local SEO",
     titleTag: "Waco Local SEO Company | Win the Map Pack | OnwardCraft",
     metaDescription:
-      "Search your service in Waco and three businesses show up on the map. We get you into those three — renovation demand, HVAC heat, storm season and all. Honest pricing, no lock-in, free audit.",
+      "Search your service in Waco and three businesses show up on the map. We get you into those three — renovation demand, HVAC heat, storm season and all.",
     eyebrow: "Local SEO · Waco, TX",
     h1: "When Waco searches for what you do, be the first name they find",
     h2Exact: "Waco Local SEO Company",
@@ -178,7 +178,7 @@ export const wacoLocations = [
     citySlug: "waco", serviceSlug: "seo-services", service: "SEO Services",
     titleTag: "Waco SEO Company | Rank Higher, Get Leads | OnwardCraft",
     metaDescription:
-      "Waco SEO that ranks contractors on Google and brings in leads you own. Built for renovation demand, HVAC heat, and storm season. Revenue-tied reporting, no lock-in. Free Waco SEO audit.",
+      "Waco SEO that ranks contractors on Google and brings in leads you own. Built for renovation demand, HVAC heat, and storm season.",
     eyebrow: "SEO Services · Waco, TX",
     h1: "Get your Waco business to the top of Google and keep it there",
     h2Exact: "Waco SEO Company",
@@ -244,7 +244,7 @@ export const wacoLocations = [
     citySlug: "waco", serviceSlug: "web-design", service: "Web Design",
     titleTag: "Waco Web Design Company | Sites That Convert | OnwardCraft",
     metaDescription:
-      "Waco web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving a renovation-driven market. Transparent pricing, you own it. Free quote.",
+      "Waco web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving a renovation-driven market.",
     eyebrow: "Web Design · Waco, TX",
     h1: "Waco web design that turns visitors into booked jobs",
     h2Exact: "Waco Web Design Company",
@@ -308,9 +308,9 @@ export const wacoLocations = [
   {
     ...BASE,
     citySlug: "waco", serviceSlug: "website-redesign", service: "Website Redesign",
-    titleTag: "Waco Website Redesign | More Leads, No Traffic Loss | OnwardCraft",
+    titleTag: "Waco Website Redesign | OnwardCraft",
     metaDescription:
-      "Redesign your Waco website without losing rankings. Faster, mobile-first rebuilds that convert more visitors — renovation homeowners, HVAC callers, storm leads. Free audit.",
+      "Redesign your Waco website without losing rankings. Faster, mobile-first rebuilds that convert more visitors — renovation homeowners, HVAC callers, storm.",
     eyebrow: "Website Redesign · Waco, TX",
     h1: "Redesign your Waco website without losing your rankings",
     h2Exact: "Waco Website Redesign Company",
@@ -374,9 +374,9 @@ export const wacoLocations = [
 export const wacoCity = {
   citySlug: "waco", city: "Waco", state: "Texas", stateAbbr: "TX", metro: "Waco",
 
-  titleTag: "Waco Marketing for Contractors | Web, SEO & Leads | OnwardCraft",
+  titleTag: "Waco Marketing for Contractors | OnwardCraft",
   metaDescription:
-    "Web design, SEO, and local SEO for Waco contractors. Ride the Fixer Upper renovation wave, survive Central Texas heat season, and own your leads. Free Waco audit.",
+    "Web design, SEO, and local SEO for Waco contractors. Ride the Fixer Upper renovation wave, survive Central Texas heat season, and own your leads.",
 
   eyebrow: "Waco · Web Design, SEO & Lead Generation",
   h1: "Marketing that gets Waco contractors found and booked",

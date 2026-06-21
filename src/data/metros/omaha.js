@@ -111,7 +111,7 @@ export const omahaLocations = [
     citySlug: 'omaha', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Omaha Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Omaha and three businesses show up on the map. We get you into those three before the next hailstorm hits. Honest pricing, no lock-in, free audit.',
+      'Search your service in Omaha and three businesses show up on the map. We get you into those three before the next hailstorm hits.',
     eyebrow: 'Local SEO · Omaha, NE',
     h1: 'When Omaha searches for what you do, be the first name they find',
     h2Exact: 'Omaha Local SEO Company',
@@ -243,7 +243,7 @@ export const omahaLocations = [
     citySlug: 'omaha', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Omaha Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Omaha web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a hail-country market. Transparent pricing, you own it. Free quote.',
+      'Omaha web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a hail-country market.',
     eyebrow: 'Web Design · Omaha, NE',
     h1: 'Omaha web design that turns storm-season traffic into booked jobs',
     h2Exact: 'Omaha Web Design Company',
@@ -307,7 +307,7 @@ export const omahaLocations = [
   {
     ...BASE,
     citySlug: 'omaha', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Omaha Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Omaha Website Redesign | OnwardCraft',
     metaDescription:
       'Redesign your Omaha website without losing rankings. Faster, mobile-first rebuilds that convert more visitors — especially during storm season. Free audit.',
     eyebrow: 'Website Redesign · Omaha, NE',
@@ -373,9 +373,9 @@ export const omahaLocations = [
 export const omahaCity = {
   citySlug: 'omaha', city: 'Omaha', state: 'Nebraska', stateAbbr: 'NE', metro: 'Omaha',
 
-  titleTag: 'Omaha Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Omaha Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Omaha contractors. Get found before the next hailstorm, get booked, and own your leads — built for Nebraska\'s hail-country market. Free audit.',
+    'Web design, SEO, and local SEO for Omaha contractors. Get found before the next hailstorm, get booked, and own your leads — built for Nebraska\'s hail-country.',
 
   eyebrow: 'Omaha · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Omaha contractors found before the storm hits',

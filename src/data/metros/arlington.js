@@ -111,7 +111,7 @@ export const arlingtonLocations = [
     citySlug: 'arlington', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Arlington Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Arlington and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Arlington and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Arlington-Mid-Cities',
     h1: 'When Arlington searches for what you do, be the first name they find',
     h2Exact: 'Arlington Local SEO Company',
@@ -175,9 +175,9 @@ export const arlingtonLocations = [
   {
     ...BASE,
     citySlug: 'arlington', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Arlington SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Arlington SEO Company | OnwardCraft',
     metaDescription:
-      'Arlington SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hail-season demand. Free Arlington SEO audit.',
+      'Arlington SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hail-season demand.',
     eyebrow: 'SEO Services · Arlington-Mid-Cities',
     h1: 'Get your Arlington business to the top of Google and keep it there',
     h2Exact: 'Arlington SEO Company',
@@ -241,9 +241,9 @@ export const arlingtonLocations = [
   {
     ...BASE,
     citySlug: 'arlington', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Arlington Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Arlington Web Design Company | OnwardCraft',
     metaDescription:
-      'Arlington web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hail-season demand. Transparent pricing, you own it all. Free quote.',
+      'Arlington web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hail-season demand.',
     eyebrow: 'Web Design · Arlington-Mid-Cities',
     h1: 'Arlington web design that turns visitors into booked jobs',
     h2Exact: 'Arlington Web Design Company',
@@ -307,9 +307,9 @@ export const arlingtonLocations = [
   {
     ...BASE,
     citySlug: 'arlington', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Arlington Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Arlington Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Arlington website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season. Free audit.',
+      'Redesign your Arlington website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season.',
     eyebrow: 'Website Redesign · Arlington-Mid-Cities',
     h1: 'Redesign your Arlington website without losing your rankings',
     h2Exact: 'Arlington Website Redesign Company',
@@ -373,9 +373,9 @@ export const arlingtonLocations = [
 export const arlingtonCity = {
   citySlug: 'arlington', city: 'Arlington', state: 'Texas', stateAbbr: 'TX', metro: 'Arlington-Mid-Cities',
 
-  titleTag: 'Arlington Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Arlington Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Arlington contractors. Get found, get booked, and own your leads instead of renting them — built for hail-season demand. Free Arlington audit.',
+    'Web design, SEO, and local SEO for Arlington contractors. Get found, get booked, and own your leads instead of renting them — built for hail-season demand.',
 
   eyebrow: 'Arlington · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Arlington contractors found and booked',

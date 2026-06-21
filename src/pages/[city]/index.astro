@@ -14,6 +14,10 @@ const { c } = Astro.props;
 const canonical = `https://onwardcraft.com/${c.citySlug}/`;
 const CALENDLY = 'https://calendly.com/getonwardcraft/30min';
 
+// Donut: unit defaults to '%'; ring fill is clamped so values >100 don't overflow.
+const donutUnit = c.localMarket.donut.unit ?? '%';
+const donutFill = Math.min(c.localMarket.donut.value, 100);
+
 // Review/AggregateRating intentionally omitted — honesty rule.
 const schema = [
   {
@@ -132,11 +136,11 @@ const schema = [
               <span class="viz-title">{c.localMarket.donut.title}</span>
               <div class="donut-wrap">
                 <div class="donut-figure">
-                  <div class="donut" style={`--pct:${c.localMarket.donut.value}`}></div>
-                  <div class="donut-center"><strong>{c.localMarket.donut.value}%</strong><span>{c.localMarket.donut.centerLabel}</span></div>
+                  <div class="donut" style={`--pct:${donutFill}`}></div>
+                  <div class="donut-center"><strong>{c.localMarket.donut.value}{donutUnit}</strong><span>{c.localMarket.donut.centerLabel}</span></div>
                 </div>
                 <ul class="donut-legend">
-                  {c.localMarket.donut.legend.map((g) => <li><span class={`dot dot-${g.kind}`}></span>{g.label} · {g.pct}%</li>)}
+                  {c.localMarket.donut.legend.map((g) => <li><span class={`dot dot-${g.kind}`}></span>{g.label} · {g.pct}{donutUnit}</li>)}
                 </ul>
               </div>
             </div>

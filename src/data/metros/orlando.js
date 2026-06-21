@@ -111,7 +111,7 @@ export const orlandoLocations = [
     citySlug: 'orlando', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Orlando Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Orlando and three businesses show up on the map. We get you into those three, in English and Spanish. Honest pricing, no lock-in, free audit.',
+      'Search your service in Orlando and three businesses show up on the map. We get you into those three, in English and Spanish.',
     eyebrow: 'Local SEO · Central Florida',
     h1: 'When Orlando searches for what you do, be the first name they find',
     h2Exact: 'Orlando Local SEO Company',
@@ -177,7 +177,7 @@ export const orlandoLocations = [
     citySlug: 'orlando', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Orlando SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Orlando SEO that ranks contractors on Google and brings in leads you own — in English and Spanish. Revenue-tied reporting, no lock-in contracts. Free Orlando SEO audit.',
+      'Orlando SEO that ranks contractors on Google and brings in leads you own — in English and Spanish. Revenue-tied reporting, no lock-in contracts.',
     eyebrow: 'SEO Services · Central Florida',
     h1: 'Get your Orlando business to the top of Google and keep it there',
     h2Exact: 'Orlando SEO Company',
@@ -243,7 +243,7 @@ export const orlandoLocations = [
     citySlug: 'orlando', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Orlando Web Design Company | Sites That Book | OnwardCraft',
     metaDescription:
-      'Orlando web design that turns visitors into booked jobs — fast, mobile-first, bilingual sites built for contractors. Transparent pricing, you own it all. Free quote.',
+      'Orlando web design that turns visitors into booked jobs — fast, mobile-first, bilingual sites built for contractors. Transparent pricing, you own it all.',
     eyebrow: 'Web Design · Central Florida',
     h1: 'Orlando web design that turns visitors into booked jobs',
     h2Exact: 'Orlando Web Design Company',
@@ -309,7 +309,7 @@ export const orlandoLocations = [
     citySlug: 'orlando', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Orlando Website Redesign | More Leads, No Loss | OnwardCraft',
     metaDescription:
-      'Redesign your Orlando website without losing rankings. Faster, mobile-first, bilingual rebuilds that convert more visitors into booked jobs. Transparent pricing, free audit.',
+      'Redesign your Orlando website without losing rankings. Faster, mobile-first, bilingual rebuilds that convert more visitors into booked jobs.',
     eyebrow: 'Website Redesign · Central Florida',
     h1: 'Redesign your Orlando website without losing your rankings',
     h2Exact: 'Orlando Website Redesign Company',
@@ -376,9 +376,9 @@ export const orlandoLocations = [
 export const orlandoCity = {
   citySlug: 'orlando', city: 'Orlando', state: 'Florida', stateAbbr: 'FL', metro: 'Central Florida',
 
-  titleTag: 'Orlando Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Orlando Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Orlando contractors — in English and Spanish. Get found, get booked, and own your leads instead of renting them. Free Orlando audit.',
+    'Web design, SEO, and local SEO for Orlando contractors — in English and Spanish. Get found, get booked, and own your leads instead of renting them.',
 
   eyebrow: 'Orlando · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Orlando contractors found and booked',

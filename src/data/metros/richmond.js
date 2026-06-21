@@ -111,7 +111,7 @@ export const richmondLocations = [
     citySlug: 'richmond', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Richmond Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Richmond and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Richmond and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Richmond, VA',
     h1: 'When Richmond searches for what you do, be the first name they find',
     h2Exact: 'Richmond Local SEO Company',
@@ -177,7 +177,7 @@ export const richmondLocations = [
     citySlug: 'richmond', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Richmond SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Richmond SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for historic homes and seasonal demand. Free audit.',
+      'Richmond SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for historic homes and seasonal.',
     eyebrow: 'SEO Services · Richmond, VA',
     h1: 'Get your Richmond business to the top of Google and keep it there',
     h2Exact: 'Richmond SEO Company',
@@ -241,9 +241,9 @@ export const richmondLocations = [
   {
     ...BASE,
     citySlug: 'richmond', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Richmond Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Richmond Web Design Company | OnwardCraft',
     metaDescription:
-      'Richmond web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving historic neighborhoods and seasonal demand. Free quote.',
+      'Richmond web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving historic neighborhoods and seasonal demand.',
     eyebrow: 'Web Design · Richmond, VA',
     h1: 'Richmond web design that turns visitors into booked jobs',
     h2Exact: 'Richmond Web Design Company',
@@ -307,7 +307,7 @@ export const richmondLocations = [
   {
     ...BASE,
     citySlug: 'richmond', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Richmond Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Richmond Website Redesign | OnwardCraft',
     metaDescription:
       'Redesign your Richmond website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in the RVA market. Free audit.',
     eyebrow: 'Website Redesign · Richmond, VA',
@@ -373,9 +373,9 @@ export const richmondLocations = [
 export const richmondCity = {
   citySlug: 'richmond', city: 'Richmond', state: 'Virginia', stateAbbr: 'VA', metro: 'Richmond',
 
-  titleTag: 'Richmond Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Richmond Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Richmond contractors. Get found in the Fan, Church Hill, Midlothian, and across RVA — and own your leads instead of renting them. Free audit.',
+    'Web design, SEO, and local SEO for Richmond contractors. Get found in the Fan, Church Hill, Midlothian, and across RVA — and own your leads instead of renting.',
 
   eyebrow: 'Richmond · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Richmond contractors found and booked',

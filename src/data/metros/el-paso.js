@@ -111,7 +111,7 @@ export const elPasoLocations = [
     citySlug: 'el-paso', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'El Paso Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in El Paso and three businesses show up on the map. We get you into those three — in English and Spanish — so the call lands with you. Free audit.',
+      'Search your service in El Paso and three businesses show up on the map. We get you into those three — in English and Spanish — so the call lands with you.',
     eyebrow: 'Local SEO · El Paso, TX',
     h1: 'When El Paso searches for what you do, be the first name they find',
     h2Exact: 'El Paso Local SEO Company',
@@ -177,7 +177,7 @@ export const elPasoLocations = [
     citySlug: 'el-paso', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'El Paso SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'El Paso SEO that ranks contractors on Google in English and Spanish — and brings in leads you own. Revenue-tied reporting, no lock-in contracts. Free El Paso SEO audit.',
+      'El Paso SEO that ranks contractors on Google in English and Spanish — and brings in leads you own. Revenue-tied reporting, no lock-in contracts.',
     eyebrow: 'SEO Services · El Paso, TX',
     h1: 'Get your El Paso business to the top of Google and keep it there',
     h2Exact: 'El Paso SEO Company',
@@ -241,9 +241,9 @@ export const elPasoLocations = [
   {
     ...BASE,
     citySlug: 'el-paso', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'El Paso Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'El Paso Web Design Company | OnwardCraft',
     metaDescription:
-      'El Paso web design that turns visitors into booked jobs — fast, mobile-first sites built for a bilingual, desert-climate market. Transparent pricing, you own it. Free quote.',
+      'El Paso web design that turns visitors into booked jobs — fast, mobile-first sites built for a bilingual, desert-climate market.',
     eyebrow: 'Web Design · El Paso, TX',
     h1: 'El Paso web design that turns visitors into booked jobs',
     h2Exact: 'El Paso Web Design Company',
@@ -307,9 +307,9 @@ export const elPasoLocations = [
   {
     ...BASE,
     citySlug: 'el-paso', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'El Paso Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'El Paso Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your El Paso website without losing rankings. Faster, mobile-first rebuilds that convert more visitors — in English and Spanish — into booked jobs. Free audit.',
+      'Redesign your El Paso website without losing rankings. Faster, mobile-first rebuilds that convert more visitors — in English and Spanish — into booked jobs.',
     eyebrow: 'Website Redesign · El Paso, TX',
     h1: 'Redesign your El Paso website without losing your rankings',
     h2Exact: 'El Paso Website Redesign Company',
@@ -373,9 +373,9 @@ export const elPasoLocations = [
 export const elPasoCity = {
   citySlug: 'el-paso', city: 'El Paso', state: 'Texas', stateAbbr: 'TX', metro: 'El Paso',
 
-  titleTag: 'El Paso Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'El Paso Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for El Paso contractors — in English and Spanish. Get found, get booked, and own your leads instead of renting them. Free El Paso audit.',
+    'Web design, SEO, and local SEO for El Paso contractors — in English and Spanish. Get found, get booked, and own your leads instead of renting them.',
 
   eyebrow: 'El Paso · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets El Paso contractors found and booked',

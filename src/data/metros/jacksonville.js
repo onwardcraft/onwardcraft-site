@@ -111,9 +111,9 @@ export const jacksonvilleLocations = [
   {
     ...BASE,
     citySlug: 'jacksonville', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Jacksonville Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Jacksonville Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Jacksonville and three businesses show up on the map. We get you into those three — neighborhood by neighborhood across a city of 875 square miles. Free audit.',
+      'Search your service in Jacksonville and three businesses show up on the map. We get you into those three — neighborhood by neighborhood across a city of 875.',
     eyebrow: 'Local SEO · Jacksonville, FL',
     h1: 'When Jacksonville searches for what you do, be the first name they find',
     h2Exact: 'Jacksonville Local SEO Company',
@@ -177,9 +177,9 @@ export const jacksonvilleLocations = [
   {
     ...BASE,
     citySlug: 'jacksonville', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Jacksonville SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Jacksonville SEO Company | OnwardCraft',
     metaDescription:
-      'Jacksonville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a sprawling Sun Belt market. Free audit.',
+      'Jacksonville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a sprawling Sun Belt.',
     eyebrow: 'SEO Services · Jacksonville, FL',
     h1: 'Get your Jacksonville business to the top of Google and keep it there',
     h2Exact: 'Jacksonville SEO Company',
@@ -243,9 +243,9 @@ export const jacksonvilleLocations = [
   {
     ...BASE,
     citySlug: 'jacksonville', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Jacksonville Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Jacksonville Web Design Company | OnwardCraft',
     metaDescription:
-      'Jacksonville web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a sprawling, competitive Sun Belt market. You own it. Free quote.',
+      'Jacksonville web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a sprawling, competitive Sun Belt market.',
     eyebrow: 'Web Design · Jacksonville, FL',
     h1: 'Jacksonville web design that turns visitors into booked jobs',
     h2Exact: 'Jacksonville Web Design Company',
@@ -309,9 +309,9 @@ export const jacksonvilleLocations = [
   {
     ...BASE,
     citySlug: 'jacksonville', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Jacksonville Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Jacksonville Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Jacksonville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across a sprawling Sun Belt market. Free audit.',
+      'Redesign your Jacksonville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across a sprawling Sun.',
     eyebrow: 'Website Redesign · Jacksonville, FL',
     h1: 'Redesign your Jacksonville website without losing your rankings',
     h2Exact: 'Jacksonville Website Redesign Company',
@@ -375,9 +375,9 @@ export const jacksonvilleLocations = [
 export const jacksonvilleCity = {
   citySlug: 'jacksonville', city: 'Jacksonville', state: 'Florida', stateAbbr: 'FL', metro: 'Jacksonville',
 
-  titleTag: 'Jacksonville Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Jacksonville Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Jacksonville contractors. Get found across 875 square miles of neighborhoods, get booked, and own your leads — built for a growing Sun Belt market. Free audit.',
+    'Web design, SEO, and local SEO for Jacksonville contractors. Get found across 875 square miles of neighborhoods, get booked, and own your leads — built for.',
 
   eyebrow: 'Jacksonville · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Jacksonville contractors found and booked',

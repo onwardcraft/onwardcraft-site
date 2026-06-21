@@ -109,9 +109,9 @@ export const midlandLocations = [
   {
     ...BASE,
     citySlug: 'midland', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Midland TX Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Midland TX Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Midland and three businesses show up on the map. We get you into those three before the next oil boom hits. Honest pricing, no lock-in, free audit.',
+      'Search your service in Midland and three businesses show up on the map. We get you into those three before the next oil boom hits.',
     eyebrow: 'Local SEO · Midland-Odessa, TX',
     h1: 'When Midland searches for what you do, be the first name they find',
     h2Exact: 'Midland Local SEO Company',
@@ -175,9 +175,9 @@ export const midlandLocations = [
   {
     ...BASE,
     citySlug: 'midland', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Midland TX SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Midland TX SEO Company | OnwardCraft',
     metaDescription:
-      'Midland TX SEO that ranks contractors on Google before the next oil boom hits. Revenue-tied reporting, no lock-in contracts, built for the Permian Basin. Free audit.',
+      'Midland TX SEO that ranks contractors on Google before the next oil boom hits. Revenue-tied reporting, no lock-in contracts, built for the Permian Basin.',
     eyebrow: 'SEO Services · Midland-Odessa, TX',
     h1: 'Get your Midland business to the top of Google and keep it there',
     h2Exact: 'Midland TX SEO Company',
@@ -243,7 +243,7 @@ export const midlandLocations = [
     citySlug: 'midland', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Midland TX Web Design | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Midland TX web design that turns visitors into booked jobs — fast, mobile-first sites built for Permian Basin contractors. Transparent pricing, you own it. Free quote.',
+      'Midland TX web design that turns visitors into booked jobs — fast, mobile-first sites built for Permian Basin contractors. Transparent pricing, you own it.',
     eyebrow: 'Web Design · Midland-Odessa, TX',
     h1: 'Midland web design that turns visitors into booked jobs',
     h2Exact: 'Midland TX Web Design Company',
@@ -307,9 +307,9 @@ export const midlandLocations = [
   {
     ...BASE,
     citySlug: 'midland', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Midland TX Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Midland TX Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Midland TX website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs for Permian Basin contractors. Free audit.',
+      'Redesign your Midland TX website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs for Permian Basin.',
     eyebrow: 'Website Redesign · Midland-Odessa, TX',
     h1: 'Redesign your Midland website without losing your rankings',
     h2Exact: 'Midland TX Website Redesign Company',
@@ -373,9 +373,9 @@ export const midlandLocations = [
 export const midlandCity = {
   citySlug: 'midland', city: 'Midland', state: 'Texas', stateAbbr: 'TX', metro: 'Midland-Odessa (Permian Basin)',
 
-  titleTag: 'Midland TX Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Midland TX Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Midland-Odessa contractors. Rank before the next oil boom, capture summer HVAC demand, and own your leads — built for the Permian Basin. Free audit.',
+    'Web design, SEO, and local SEO for Midland-Odessa contractors. Rank before the next oil boom, capture summer HVAC demand, and own your leads — built for.',
 
   eyebrow: 'Midland-Odessa · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Midland contractors found and booked',

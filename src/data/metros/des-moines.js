@@ -109,9 +109,9 @@ export const desMoinesLocations = [
   {
     ...BASE,
     citySlug: 'des-moines', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Des Moines Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Des Moines Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Des Moines and three businesses show up on the map. We get you into those three before hail season hits, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Des Moines and three businesses show up on the map. We get you into those three before hail season hits, so the call lands with you.',
     eyebrow: 'Local SEO · Des Moines, IA',
     h1: 'When Des Moines searches for what you do, be the first name they find',
     h2Exact: 'Des Moines Local SEO Company',
@@ -175,9 +175,9 @@ export const desMoinesLocations = [
   {
     ...BASE,
     citySlug: 'des-moines', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Des Moines SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Des Moines SEO Company | OnwardCraft',
     metaDescription:
-      'Des Moines SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a weather-driven market. Free Des Moines SEO audit.',
+      'Des Moines SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a weather-driven market.',
     eyebrow: 'SEO Services · Des Moines, IA',
     h1: 'Get your Des Moines business to the top of Google and keep it there',
     h2Exact: 'Des Moines SEO Company',
@@ -241,9 +241,9 @@ export const desMoinesLocations = [
   {
     ...BASE,
     citySlug: 'des-moines', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Des Moines Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Des Moines Web Design Company | OnwardCraft',
     metaDescription:
-      'Des Moines web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a weather-driven, growing market. Transparent pricing, you own it. Free quote.',
+      'Des Moines web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a weather-driven, growing market.',
     eyebrow: 'Web Design · Des Moines, IA',
     h1: 'Des Moines web design that turns visitors into booked jobs',
     h2Exact: 'Des Moines Web Design Company',
@@ -307,9 +307,9 @@ export const desMoinesLocations = [
   {
     ...BASE,
     citySlug: 'des-moines', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Des Moines Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Des Moines Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Des Moines website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs before hail season. Free audit.',
+      'Redesign your Des Moines website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs before hail season.',
     eyebrow: 'Website Redesign · Des Moines, IA',
     h1: 'Redesign your Des Moines website without losing your rankings',
     h2Exact: 'Des Moines Website Redesign Company',
@@ -373,9 +373,9 @@ export const desMoinesLocations = [
 export const desMoinesCity = {
   citySlug: 'des-moines', city: 'Des Moines', state: 'Iowa', stateAbbr: 'IA', metro: 'Des Moines',
 
-  titleTag: 'Des Moines Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Des Moines Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Des Moines contractors. Get found before hail season, get booked, and own your leads — built for a weather-driven market. Free Des Moines audit.',
+    'Web design, SEO, and local SEO for Des Moines contractors. Get found before hail season, get booked, and own your leads — built for a weather-driven market.',
 
   eyebrow: 'Des Moines, IA · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Des Moines contractors found and booked',

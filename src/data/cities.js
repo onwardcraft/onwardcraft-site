@@ -169,9 +169,9 @@ import { topekaCity } from './metros/topeka.js';
 const miamiCity = {
     citySlug: 'miami', city: 'Miami', state: 'Florida', stateAbbr: 'FL', metro: 'Miami-Dade',
 
-    titleTag: 'Miami Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+    titleTag: 'Miami Marketing for Contractors | OnwardCraft',
     metaDescription:
-      'Web design, SEO, and local SEO for Miami contractors — in English and Spanish. Get found, get booked, and own your leads instead of renting them. Free Miami audit.',
+      'Web design, SEO, and local SEO for Miami contractors — in English and Spanish. Get found, get booked, and own your leads instead of renting them.',
 
     eyebrow: 'Miami · Web Design, SEO & Lead Generation',
     h1: 'Marketing that gets Miami contractors found and booked',

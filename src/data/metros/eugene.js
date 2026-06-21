@@ -111,7 +111,7 @@ export const eugeneLocations = [
     citySlug: 'eugene', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Eugene Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Eugene and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Eugene and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Eugene, OR',
     h1: 'When Eugene searches for what you do, be the first name they find',
     h2Exact: 'Eugene Local SEO Company',
@@ -177,7 +177,7 @@ export const eugeneLocations = [
     citySlug: 'eugene', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Eugene SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Eugene SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for the Willamette Valley. Free Eugene SEO audit.',
+      'Eugene SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for the Willamette Valley.',
     eyebrow: 'SEO Services · Eugene, OR',
     h1: 'Get your Eugene business to the top of Google and keep it there',
     h2Exact: 'Eugene SEO Company',
@@ -243,7 +243,7 @@ export const eugeneLocations = [
     citySlug: 'eugene', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Eugene Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Eugene web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in an eco-conscious, research-driven market. Transparent pricing, you own it. Free quote.',
+      'Eugene web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in an eco-conscious, research-driven market.',
     eyebrow: 'Web Design · Eugene, OR',
     h1: 'Eugene web design that turns visitors into booked jobs',
     h2Exact: 'Eugene Web Design Company',
@@ -307,9 +307,9 @@ export const eugeneLocations = [
   {
     ...BASE,
     citySlug: 'eugene', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Eugene Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Eugene Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Eugene website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a research-driven Pacific Northwest market. Free audit.',
+      'Redesign your Eugene website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a research-driven Pacific.',
     eyebrow: 'Website Redesign · Eugene, OR',
     h1: 'Redesign your Eugene website without losing your rankings',
     h2Exact: 'Eugene Website Redesign Company',
@@ -373,9 +373,9 @@ export const eugeneLocations = [
 export const eugeneCity = {
   citySlug: 'eugene', city: 'Eugene', state: 'Oregon', stateAbbr: 'OR', metro: 'Eugene-Springfield',
 
-  titleTag: 'Eugene Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Eugene Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Eugene contractors. Get found, get booked, and own your leads — built for the Willamette Valley\'s rain-season and post-heat-dome market. Free Eugene audit.',
+    'Web design, SEO, and local SEO for Eugene contractors. Get found, get booked, and own your leads — built for the Willamette Valley\'s rain-season.',
 
   eyebrow: 'Eugene · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Eugene contractors found and booked',

@@ -22,10 +22,10 @@ const MARKET = {
   donut: {
     title: 'Cleveland weather demand',
     value: 57,
-    centerLabel: 'annual snow inches',
+    centerLabel: 'winter-driven',
     legend: [
-      { label: 'Avg annual snowfall', pct: 57, kind: 'teal' },
-      { label: 'Rain days', pct: 43, kind: 'grey' },
+      { label: 'Winter emergency demand', pct: 57, kind: 'teal' },
+      { label: 'Rest of year', pct: 43, kind: 'grey' },
     ],
   },
   seasonTitle: 'When trade demand spikes',
@@ -111,7 +111,7 @@ export const clevelandLocations = [
     citySlug: 'cleveland', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Cleveland Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your trade in Cleveland and three businesses show up on the map. We get you into those three before the lake-effect snow season hits. Honest pricing, no lock-in, free audit.',
+      'Search your trade in Cleveland and three businesses show up on the map. We get you into those three before the lake-effect snow season hits.',
     eyebrow: 'Local SEO · Cleveland, OH',
     h1: 'When Cleveland searches for what you do, be the first name they find',
     h2Exact: 'Cleveland Local SEO Company',
@@ -177,7 +177,7 @@ export const clevelandLocations = [
     citySlug: 'cleveland', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Cleveland SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Cleveland SEO that ranks contractors on Google and brings in leads you own. Built for the lake-effect market, revenue-tied reporting, no lock-in. Free Cleveland SEO audit.',
+      'Cleveland SEO that ranks contractors on Google and brings in leads you own. Built for the lake-effect market, revenue-tied reporting, no lock-in.',
     eyebrow: 'SEO Services · Cleveland, OH',
     h1: 'Get your Cleveland business to the top of Google and keep it there',
     h2Exact: 'Cleveland SEO Company',
@@ -241,9 +241,9 @@ export const clevelandLocations = [
   {
     ...BASE,
     citySlug: 'cleveland', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Cleveland Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Cleveland Web Design Company | OnwardCraft',
     metaDescription:
-      'Cleveland web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in the lake-effect market. Transparent pricing, you own it. Free quote.',
+      'Cleveland web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in the lake-effect market.',
     eyebrow: 'Web Design · Cleveland, OH',
     h1: 'Cleveland web design that turns visitors into booked jobs',
     h2Exact: 'Cleveland Web Design Company',
@@ -307,7 +307,7 @@ export const clevelandLocations = [
   {
     ...BASE,
     citySlug: 'cleveland', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Cleveland Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Cleveland Website Redesign | OnwardCraft',
     metaDescription:
       'Redesign your Cleveland website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs. Free audit.',
     eyebrow: 'Website Redesign · Cleveland, OH',
@@ -373,9 +373,9 @@ export const clevelandLocations = [
 export const clevelandCity = {
   citySlug: 'cleveland', city: 'Cleveland', state: 'Ohio', stateAbbr: 'OH', metro: 'Cleveland',
 
-  titleTag: 'Cleveland Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Cleveland Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Cleveland contractors. Get found before lake-effect season, rank in every neighborhood, and own your leads. Free Cleveland audit.',
+    'Web design, SEO, and local SEO for Cleveland contractors. Get found before lake-effect season, rank in every neighborhood, and own your leads.',
 
   eyebrow: 'Cleveland · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Cleveland contractors found and booked',

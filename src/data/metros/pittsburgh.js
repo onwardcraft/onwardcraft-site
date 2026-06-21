@@ -109,9 +109,9 @@ export const pittsburghLocations = [
   {
     ...BASE,
     citySlug: 'pittsburgh', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Pittsburgh Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Pittsburgh Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Pittsburgh and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Pittsburgh and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Pittsburgh, PA',
     h1: 'When Pittsburgh searches for what you do, be the first name they find',
     h2Exact: 'Pittsburgh Local SEO Company',
@@ -175,9 +175,9 @@ export const pittsburghLocations = [
   {
     ...BASE,
     citySlug: 'pittsburgh', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Pittsburgh SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Pittsburgh SEO Company | OnwardCraft',
     metaDescription:
-      'Pittsburgh SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a city of old homes and distinct boroughs. Free audit.',
+      'Pittsburgh SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a city of old homes.',
     eyebrow: 'SEO Services · Pittsburgh, PA',
     h1: 'Get your Pittsburgh business to the top of Google and keep it there',
     h2Exact: 'Pittsburgh SEO Company',
@@ -241,9 +241,9 @@ export const pittsburghLocations = [
   {
     ...BASE,
     citySlug: 'pittsburgh', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Pittsburgh Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Pittsburgh Web Design Company | OnwardCraft',
     metaDescription:
-      'Pittsburgh web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving a city of old homes and distinct neighborhoods. Transparent pricing, you own it. Free quote.',
+      'Pittsburgh web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving a city of old homes and distinct.',
     eyebrow: 'Web Design · Pittsburgh, PA',
     h1: 'Pittsburgh web design that turns visitors into booked jobs',
     h2Exact: 'Pittsburgh Web Design Company',
@@ -307,9 +307,9 @@ export const pittsburghLocations = [
   {
     ...BASE,
     citySlug: 'pittsburgh', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Pittsburgh Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Pittsburgh Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Pittsburgh website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across a city of distinct neighborhoods. Free audit.',
+      'Redesign your Pittsburgh website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across a city of distinct.',
     eyebrow: 'Website Redesign · Pittsburgh, PA',
     h1: 'Redesign your Pittsburgh website without losing your rankings',
     h2Exact: 'Pittsburgh Website Redesign Company',
@@ -373,9 +373,9 @@ export const pittsburghLocations = [
 export const pittsburghCity = {
   citySlug: 'pittsburgh', city: 'Pittsburgh', state: 'Pennsylvania', stateAbbr: 'PA', metro: 'Pittsburgh',
 
-  titleTag: 'Pittsburgh Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Pittsburgh Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Pittsburgh contractors. Get found in a city of old homes, steep hills, and distinct boroughs — and own your leads instead of renting them. Free Pittsburgh audit.',
+    'Web design, SEO, and local SEO for Pittsburgh contractors. Get found in a city of old homes, steep hills, and distinct boroughs — and own your leads instead.',
 
   eyebrow: 'Pittsburgh · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Pittsburgh contractors found and booked',

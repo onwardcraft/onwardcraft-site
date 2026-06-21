@@ -109,9 +109,9 @@ export const virginiaBeachLocations = [
   {
     ...BASE,
     citySlug: "virginia-beach", serviceSlug: "local-seo", service: "Local SEO",
-    titleTag: "Virginia Beach Local SEO Company | Win the Map Pack | OnwardCraft",
+    titleTag: "Virginia Beach Local SEO Company | OnwardCraft",
     metaDescription:
-      "Search your service in Virginia Beach and three businesses show up on the map. We get you into those three, so the call lands with you after every storm and every PCS move. Honest pricing, no lock-in, free audit.",
+      "Search your service in Virginia Beach and three businesses show up on the map. We get you into those three, so the call lands with you after every storm.",
     eyebrow: "Local SEO · Virginia Beach / Hampton Roads",
     h1: "When Hampton Roads searches for what you do, be the first name they find",
     h2Exact: "Virginia Beach Local SEO Company",
@@ -175,9 +175,9 @@ export const virginiaBeachLocations = [
   {
     ...BASE,
     citySlug: "virginia-beach", serviceSlug: "seo-services", service: "SEO Services",
-    titleTag: "Virginia Beach SEO Company | Rank Higher, Get Leads | OnwardCraft",
+    titleTag: "Virginia Beach SEO Company | OnwardCraft",
     metaDescription:
-      "Virginia Beach SEO that ranks contractors on Google and brings in leads you own. Storm-season and military-market expertise, revenue-tied reporting, no lock-in. Free Hampton Roads SEO audit.",
+      "Virginia Beach SEO that ranks contractors on Google and brings in leads you own. Storm-season and military-market expertise, revenue-tied reporting, no.",
     eyebrow: "SEO Services · Virginia Beach / Hampton Roads",
     h1: "Get your Virginia Beach business to the top of Google and keep it there",
     h2Exact: "Virginia Beach SEO Company",
@@ -241,9 +241,9 @@ export const virginiaBeachLocations = [
   {
     ...BASE,
     citySlug: "virginia-beach", serviceSlug: "web-design", service: "Web Design",
-    titleTag: "Virginia Beach Web Design Company | Sites That Convert | OnwardCraft",
+    titleTag: "Virginia Beach Web Design Company | OnwardCraft",
     metaDescription:
-      "Virginia Beach web design that turns visitors into booked jobs — fast, mobile-first sites built for a coastal, military, storm-driven market. Transparent pricing, you own it. Free quote.",
+      "Virginia Beach web design that turns visitors into booked jobs — fast, mobile-first sites built for a coastal, military, storm-driven market.",
     eyebrow: "Web Design · Virginia Beach / Hampton Roads",
     h1: "Virginia Beach web design that turns visitors into booked jobs",
     h2Exact: "Virginia Beach Web Design Company",
@@ -307,9 +307,9 @@ export const virginiaBeachLocations = [
   {
     ...BASE,
     citySlug: "virginia-beach", serviceSlug: "website-redesign", service: "Website Redesign",
-    titleTag: "Virginia Beach Website Redesign | More Leads, No Loss | OnwardCraft",
+    titleTag: "Virginia Beach Website Redesign | OnwardCraft",
     metaDescription:
-      "Redesign your Virginia Beach website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a coastal, military-driven market. Free audit.",
+      "Redesign your Virginia Beach website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a coastal.",
     eyebrow: "Website Redesign · Virginia Beach / Hampton Roads",
     h1: "Redesign your Virginia Beach website without losing your rankings",
     h2Exact: "Virginia Beach Website Redesign Company",
@@ -373,9 +373,9 @@ export const virginiaBeachLocations = [
 export const virginiaBeachCity = {
   citySlug: "virginia-beach", city: "Virginia Beach", state: "Virginia", stateAbbr: "VA", metro: "Hampton Roads",
 
-  titleTag: "Virginia Beach Marketing for Contractors | Web, SEO & Leads | OnwardCraft",
+  titleTag: "Virginia Beach Marketing for Contractors | OnwardCraft",
   metaDescription:
-    "Web design, SEO, and local SEO for Virginia Beach and Hampton Roads contractors. Get found after every storm, capture military homeowners the day they arrive, and own your leads. Free audit.",
+    "Web design, SEO, and local SEO for Virginia Beach and Hampton Roads contractors. Get found after every storm, capture military homeowners the day they arrive.",
 
   eyebrow: "Virginia Beach · Web Design, SEO & Lead Generation",
   h1: "Marketing that gets Virginia Beach contractors found and booked",

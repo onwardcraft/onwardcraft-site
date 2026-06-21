@@ -109,9 +109,9 @@ export const losAngelesLocations = [
   {
     ...BASE,
     citySlug: 'los-angeles', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Los Angeles Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Los Angeles Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in your LA neighborhood and three businesses show up on the map. We get you into those three, in English and Spanish. Honest pricing, no lock-in, free audit.',
+      'Search your service in your LA neighborhood and three businesses show up on the map. We get you into those three, in English and Spanish.',
     eyebrow: 'Local SEO · Greater Los Angeles',
     h1: 'When your LA neighborhood searches for what you do, be the first name they find',
     h2Exact: 'Los Angeles Local SEO Company',
@@ -175,9 +175,9 @@ export const losAngelesLocations = [
   {
     ...BASE,
     citySlug: 'los-angeles', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Los Angeles SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Los Angeles SEO Company | OnwardCraft',
     metaDescription:
-      'Los Angeles SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in, bilingual-ready for the LA market. Free LA SEO audit.',
+      'Los Angeles SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in, bilingual-ready for the LA market.',
     eyebrow: 'SEO Services · Greater Los Angeles',
     h1: 'Get your Los Angeles business to the top of Google and keep it there',
     h2Exact: 'Los Angeles SEO Company',
@@ -241,9 +241,9 @@ export const losAngelesLocations = [
   {
     ...BASE,
     citySlug: 'los-angeles', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Los Angeles Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Los Angeles Web Design Company | OnwardCraft',
     metaDescription:
-      'Los Angeles web design that turns visitors into booked jobs — fast, mobile-first, bilingual-ready sites built for contractors. Transparent pricing, you own it all. Free quote.',
+      'Los Angeles web design that turns visitors into booked jobs — fast, mobile-first, bilingual-ready sites built for contractors.',
     eyebrow: 'Web Design · Greater Los Angeles',
     h1: 'Los Angeles web design that turns visitors into booked jobs',
     h2Exact: 'Los Angeles Web Design Company',
@@ -307,9 +307,9 @@ export const losAngelesLocations = [
   {
     ...BASE,
     citySlug: 'los-angeles', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Los Angeles Website Redesign | More Leads, Same SEO | OnwardCraft',
+    titleTag: 'Los Angeles Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Los Angeles website without losing rankings. Faster, mobile-first, bilingual-ready rebuilds that convert more visitors into booked jobs. Free LA audit.',
+      'Redesign your Los Angeles website without losing rankings. Faster, mobile-first, bilingual-ready rebuilds that convert more visitors into booked jobs.',
     eyebrow: 'Website Redesign · Greater Los Angeles',
     h1: 'Redesign your Los Angeles website without losing your rankings',
     h2Exact: 'Los Angeles Website Redesign Company',
@@ -373,9 +373,9 @@ export const losAngelesLocations = [
 export const losAngelesCity = {
   citySlug: 'los-angeles', city: 'Los Angeles', state: 'California', stateAbbr: 'CA', metro: 'Greater Los Angeles',
 
-  titleTag: 'Los Angeles Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Los Angeles Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Los Angeles contractors. Get found, get booked, and own your leads instead of renting them — bilingual-ready for the LA market. Free audit.',
+    'Web design, SEO, and local SEO for Los Angeles contractors. Get found, get booked, and own your leads instead of renting them — bilingual-ready for the LA.',
 
   eyebrow: 'Los Angeles · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Los Angeles contractors found and booked',

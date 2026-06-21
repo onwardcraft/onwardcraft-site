@@ -109,9 +109,9 @@ export const sanAntonioLocations = [
   {
     ...BASE,
     citySlug: 'san-antonio', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'San Antonio Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'San Antonio Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in San Antonio and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in San Antonio and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · San Antonio',
     h1: 'When San Antonio searches for what you do, be the first name they find',
     h2Exact: 'San Antonio Local SEO Company',
@@ -175,9 +175,9 @@ export const sanAntonioLocations = [
   {
     ...BASE,
     citySlug: 'san-antonio', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'San Antonio SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'San Antonio SEO Company | OnwardCraft',
     metaDescription:
-      'San Antonio SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for summer-heat demand. Free SEO audit.',
+      'San Antonio SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for summer-heat demand.',
     eyebrow: 'SEO Services · San Antonio',
     h1: 'Get your San Antonio business to the top of Google and keep it there',
     h2Exact: 'San Antonio SEO Company',
@@ -241,9 +241,9 @@ export const sanAntonioLocations = [
   {
     ...BASE,
     citySlug: 'san-antonio', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'San Antonio Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'San Antonio Web Design Company | OnwardCraft',
     metaDescription:
-      'San Antonio web design that turns visitors into booked jobs — fast, mobile-first, bilingual-ready sites built for contractors and summer-heat demand. You own it all. Free quote.',
+      'San Antonio web design that turns visitors into booked jobs — fast, mobile-first, bilingual-ready sites built for contractors and summer-heat demand.',
     eyebrow: 'Web Design · San Antonio',
     h1: 'San Antonio web design that turns visitors into booked jobs',
     h2Exact: 'San Antonio Web Design Company',
@@ -307,9 +307,9 @@ export const sanAntonioLocations = [
   {
     ...BASE,
     citySlug: 'san-antonio', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'San Antonio Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'San Antonio Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your San Antonio website without losing rankings. Faster, mobile-first, bilingual-ready rebuilds that convert more visitors into booked jobs. Free redesign audit.',
+      'Redesign your San Antonio website without losing rankings. Faster, mobile-first, bilingual-ready rebuilds that convert more visitors into booked jobs.',
     eyebrow: 'Website Redesign · San Antonio',
     h1: 'Redesign your San Antonio website without losing your rankings',
     h2Exact: 'San Antonio Website Redesign Company',
@@ -375,7 +375,7 @@ export const sanAntonioCity = {
 
   titleTag: 'San Antonio Marketing for Contractors | Web, SEO & Leads',
   metaDescription:
-    'Web design, SEO, and local SEO for San Antonio contractors. Get found, get booked, and own your leads instead of renting them — bilingual-ready and built for summer demand. Free audit.',
+    'Web design, SEO, and local SEO for San Antonio contractors. Get found, get booked, and own your leads instead of renting them — bilingual-ready and built.',
 
   eyebrow: 'San Antonio · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets San Antonio contractors found and booked',

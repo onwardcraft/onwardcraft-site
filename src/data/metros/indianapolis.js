@@ -109,9 +109,9 @@ export const indianapolisLocations = [
   {
     ...BASE,
     citySlug: 'indianapolis', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Indianapolis Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Indianapolis Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Indianapolis and three businesses show up on the map. We get you into those three — before storm season, before the next cold snap. Free audit.',
+      'Search your service in Indianapolis and three businesses show up on the map. We get you into those three — before storm season, before the next cold snap.',
     eyebrow: 'Local SEO · Indianapolis',
     h1: 'When Indianapolis searches for what you do, be the first name they find',
     h2Exact: 'Indianapolis Local SEO Company',
@@ -175,9 +175,9 @@ export const indianapolisLocations = [
   {
     ...BASE,
     citySlug: 'indianapolis', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Indianapolis SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Indianapolis SEO Company | OnwardCraft',
     metaDescription:
-      'Indianapolis SEO that ranks contractors on Google before hail season and hard winters hit. Revenue-tied reporting, no lock-in, built for a storm-season market. Free audit.',
+      'Indianapolis SEO that ranks contractors on Google before hail season and hard winters hit. Revenue-tied reporting, no lock-in, built for a storm-season.',
     eyebrow: 'SEO Services · Indianapolis',
     h1: 'Get your Indianapolis business to the top of Google and keep it there',
     h2Exact: 'Indianapolis SEO Company',
@@ -241,9 +241,9 @@ export const indianapolisLocations = [
   {
     ...BASE,
     citySlug: 'indianapolis', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Indianapolis Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Indianapolis Web Design Company | OnwardCraft',
     metaDescription:
-      'Indianapolis web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a storm-season market. Transparent pricing, you own it. Free quote.',
+      'Indianapolis web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a storm-season market.',
     eyebrow: 'Web Design · Indianapolis',
     h1: 'Indianapolis web design that turns visitors into booked jobs',
     h2Exact: 'Indianapolis Web Design Company',
@@ -307,9 +307,9 @@ export const indianapolisLocations = [
   {
     ...BASE,
     citySlug: 'indianapolis', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Indianapolis Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Indianapolis Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Indianapolis website without losing rankings. Faster, mobile-first rebuilds that convert more visitors before hail season and hard winters hit. Free audit.',
+      'Redesign your Indianapolis website without losing rankings. Faster, mobile-first rebuilds that convert more visitors before hail season and hard winters hit.',
     eyebrow: 'Website Redesign · Indianapolis',
     h1: 'Redesign your Indianapolis website without losing your rankings',
     h2Exact: 'Indianapolis Website Redesign Company',
@@ -373,9 +373,9 @@ export const indianapolisLocations = [
 export const indianapolisCity = {
   citySlug: 'indianapolis', city: 'Indianapolis', state: 'Indiana', stateAbbr: 'IN', metro: 'Indianapolis',
 
-  titleTag: 'Indianapolis Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Indianapolis Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Indianapolis contractors. Get found before hail season hits, own your leads, and stop paying for shared Angi leads. Free Indianapolis audit.',
+    'Web design, SEO, and local SEO for Indianapolis contractors. Get found before hail season hits, own your leads, and stop paying for shared Angi leads.',
 
   eyebrow: 'Indianapolis · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Indianapolis contractors found and booked',

@@ -111,7 +111,7 @@ export const topekaLocations = [
     citySlug: 'topeka', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Topeka Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Topeka and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Topeka and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Topeka',
     h1: 'When Topeka searches for what you do, be the first name they find',
     h2Exact: 'Topeka Local SEO Company',
@@ -175,9 +175,9 @@ export const topekaLocations = [
   {
     ...BASE,
     citySlug: 'topeka', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Topeka SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Topeka SEO Company | OnwardCraft',
     metaDescription:
-      'Topeka SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand. Free Topeka SEO audit.',
+      'Topeka SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand.',
     eyebrow: 'SEO Services · Topeka',
     h1: 'Get your Topeka business to the top of Google and keep it there',
     h2Exact: 'Topeka SEO Company',
@@ -243,7 +243,7 @@ export const topekaLocations = [
     citySlug: 'topeka', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Topeka Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Topeka web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand. Transparent pricing, you own it all. Free quote.',
+      'Topeka web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand.',
     eyebrow: 'Web Design · Topeka',
     h1: 'Topeka web design that turns visitors into booked jobs',
     h2Exact: 'Topeka Web Design Company',
@@ -307,9 +307,9 @@ export const topekaLocations = [
   {
     ...BASE,
     citySlug: 'topeka', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Topeka Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Topeka Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Topeka website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your Topeka website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
     eyebrow: 'Website Redesign · Topeka',
     h1: 'Redesign your Topeka website without losing your rankings',
     h2Exact: 'Topeka Website Redesign Company',
@@ -373,9 +373,9 @@ export const topekaLocations = [
 export const topekaCity = {
   citySlug: 'topeka', city: 'Topeka', state: 'Kansas', stateAbbr: 'KS', metro: 'Topeka',
 
-  titleTag: 'Topeka Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Topeka Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Topeka contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand. Free Topeka audit.',
+    'Web design, SEO, and local SEO for Topeka contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand.',
 
   eyebrow: 'Topeka · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Topeka contractors found and booked',

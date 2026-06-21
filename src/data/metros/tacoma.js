@@ -111,7 +111,7 @@ export const tacomaLocations = [
     citySlug: 'tacoma', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Tacoma Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your trade in Tacoma and three businesses show up on the map. We get you into those three, so the call lands with you — not a competitor. Free audit, no lock-in.',
+      'Search your trade in Tacoma and three businesses show up on the map. We get you into those three, so the call lands with you — not a competitor.',
     eyebrow: 'Local SEO · Tacoma, WA',
     h1: 'When Tacoma searches for what you do, be the first name they find',
     h2Exact: 'Tacoma Local SEO Company',
@@ -175,9 +175,9 @@ export const tacomaLocations = [
   {
     ...BASE,
     citySlug: 'tacoma', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Tacoma SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Tacoma SEO Company | OnwardCraft',
     metaDescription:
-      'Tacoma SEO that ranks contractors on Google and builds a lead pipeline you own. Revenue-tied reporting, no lock-in, built for Pierce County. Free Tacoma SEO audit.',
+      'Tacoma SEO that ranks contractors on Google and builds a lead pipeline you own. Revenue-tied reporting, no lock-in, built for Pierce County.',
     eyebrow: 'SEO Services · Tacoma, WA',
     h1: 'Get your Tacoma business to the top of Google and keep it there',
     h2Exact: 'Tacoma SEO Company',
@@ -243,7 +243,7 @@ export const tacomaLocations = [
     citySlug: 'tacoma', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Tacoma Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Tacoma web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in Pierce County. Transparent pricing, you own it. Free quote.',
+      'Tacoma web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in Pierce County. Transparent pricing, you own it.',
     eyebrow: 'Web Design · Tacoma, WA',
     h1: 'Tacoma web design that turns visitors into booked jobs',
     h2Exact: 'Tacoma Web Design Company',
@@ -307,9 +307,9 @@ export const tacomaLocations = [
   {
     ...BASE,
     citySlug: 'tacoma', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Tacoma Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Tacoma Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Tacoma website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across Pierce County. Free audit.',
+      'Redesign your Tacoma website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across Pierce County.',
     eyebrow: 'Website Redesign · Tacoma, WA',
     h1: 'Redesign your Tacoma website without losing your rankings',
     h2Exact: 'Tacoma Website Redesign Company',
@@ -373,9 +373,9 @@ export const tacomaLocations = [
 export const tacomaCity = {
   citySlug: 'tacoma', city: 'Tacoma', state: 'Washington', stateAbbr: 'WA', metro: 'Tacoma-Pierce County',
 
-  titleTag: 'Tacoma Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Tacoma Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Tacoma contractors. Get found across Pierce County, win JBLM-area searches, and own your leads instead of renting them. Free audit.',
+    'Web design, SEO, and local SEO for Tacoma contractors. Get found across Pierce County, win JBLM-area searches, and own your leads instead of renting them.',
 
   eyebrow: 'Tacoma · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Tacoma contractors found and booked',

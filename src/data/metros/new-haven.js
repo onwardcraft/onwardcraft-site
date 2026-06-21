@@ -111,7 +111,7 @@ export const newHavenLocations = [
     citySlug: 'new-haven', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'New Haven Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in New Haven and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in New Haven and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · New Haven, CT',
     h1: 'When New Haven searches for what you do, be the first name they find',
     h2Exact: 'New Haven Local SEO Company',
@@ -177,7 +177,7 @@ export const newHavenLocations = [
     citySlug: 'new-haven', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'New Haven SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'New Haven SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a diverse, educated market. Free audit.',
+      'New Haven SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a diverse, educated.',
     eyebrow: 'SEO Services · New Haven, CT',
     h1: 'Get your New Haven business to the top of Google and keep it there',
     h2Exact: 'New Haven SEO Company',
@@ -241,9 +241,9 @@ export const newHavenLocations = [
   {
     ...BASE,
     citySlug: 'new-haven', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'New Haven Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'New Haven Web Design Company | OnwardCraft',
     metaDescription:
-      'New Haven web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving Yale, historic homes, and a diverse community. Free quote.',
+      'New Haven web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving Yale, historic homes, and a diverse.',
     eyebrow: 'Web Design · New Haven, CT',
     h1: 'New Haven web design that turns visitors into booked jobs',
     h2Exact: 'New Haven Web Design Company',
@@ -307,9 +307,9 @@ export const newHavenLocations = [
   {
     ...BASE,
     citySlug: 'new-haven', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'New Haven Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'New Haven Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your New Haven website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs. Serving Yale community and historic neighborhoods. Free audit.',
+      'Redesign your New Haven website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs.',
     eyebrow: 'Website Redesign · New Haven, CT',
     h1: 'Redesign your New Haven website without losing your rankings',
     h2Exact: 'New Haven Website Redesign Company',
@@ -373,9 +373,9 @@ export const newHavenLocations = [
 export const newHavenCity = {
   citySlug: 'new-haven', city: 'New Haven', state: 'Connecticut', stateAbbr: 'CT', metro: 'New Haven',
 
-  titleTag: 'New Haven Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'New Haven Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for New Haven contractors. Get found by Yale-area homeowners, historic-home owners, and a diverse community — own your leads instead of renting them. Free audit.',
+    'Web design, SEO, and local SEO for New Haven contractors. Get found by Yale-area homeowners, historic-home owners, and a diverse community — own your leads.',
 
   eyebrow: 'New Haven · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets New Haven contractors found and booked',

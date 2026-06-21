@@ -110,9 +110,9 @@ export const venturaLocations = [
   {
     ...BASE,
     citySlug: 'ventura', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Ventura County Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Ventura County Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Ventura County and three businesses show up on the map. We get you into those three — especially during fire season when calls spike. Honest pricing, no lock-in, free audit.',
+      'Search your service in Ventura County and three businesses show up on the map. We get you into those three — especially during fire season when calls spike.',
     eyebrow: 'Local SEO · Ventura County',
     h1: 'When Ventura County searches for what you do, be the first name they find',
     h2Exact: 'Ventura County Local SEO Company',
@@ -176,9 +176,9 @@ export const venturaLocations = [
   {
     ...BASE,
     citySlug: 'ventura', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Ventura County SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Ventura County SEO Company | OnwardCraft',
     metaDescription:
-      'Ventura County SEO that ranks contractors on Google and brings in leads you own — fire season, HVAC demand, and year-round coastal maintenance. No lock-in. Free audit.',
+      'Ventura County SEO that ranks contractors on Google and brings in leads you own — fire season, HVAC demand, and year-round coastal maintenance. No lock-in.',
     eyebrow: 'SEO Services · Ventura County',
     h1: 'Get your Ventura County business to the top of Google and keep it there',
     h2Exact: 'Ventura County SEO Company',
@@ -244,7 +244,7 @@ export const venturaLocations = [
     citySlug: 'ventura', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Ventura County Web Design | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Ventura County web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in fire country and coastal California. You own it. Free quote.',
+      'Ventura County web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in fire country and coastal California.',
     eyebrow: 'Web Design · Ventura County',
     h1: 'Ventura County web design that turns visitors into booked jobs',
     h2Exact: 'Ventura County Web Design Company',
@@ -308,9 +308,9 @@ export const venturaLocations = [
   {
     ...BASE,
     citySlug: 'ventura', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Ventura County Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Ventura County Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Ventura County contractor website without losing rankings. Faster, mobile-first rebuilds that convert more visitors — built for fire country and the coastal California market. Free audit.',
+      'Redesign your Ventura County contractor website without losing rankings. Faster, mobile-first rebuilds that convert more visitors — built for fire country.',
     eyebrow: 'Website Redesign · Ventura County',
     h1: 'Redesign your Ventura County website without losing your rankings',
     h2Exact: 'Ventura County Website Redesign Company',
@@ -374,9 +374,9 @@ export const venturaLocations = [
 export const venturaCity = {
   citySlug: 'ventura', city: 'Ventura', state: 'California', stateAbbr: 'CA', metro: 'Ventura-Oxnard',
 
-  titleTag: 'Ventura County Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Ventura County Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Ventura County contractors. Get found during fire season, HVAC demand, and year-round coastal maintenance — and own your leads. Free audit.',
+    'Web design, SEO, and local SEO for Ventura County contractors. Get found during fire season, HVAC demand, and year-round coastal maintenance — and own.',
 
   eyebrow: 'Ventura County · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Ventura County contractors found and booked',

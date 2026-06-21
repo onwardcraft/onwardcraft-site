@@ -112,7 +112,7 @@ export const renoLocations = [
     citySlug: "reno", serviceSlug: "local-seo", service: "Local SEO",
     titleTag: "Reno Local SEO Company | Win the Map Pack | OnwardCraft",
     metaDescription:
-      "Search your service in Reno and three businesses show up on the map. We get you into those three — so the wildfire-smoke HVAC call, the high-desert heating job, and the transplant homeowner all land with you. Free audit.",
+      "Search your service in Reno and three businesses show up on the map. We get you into those three — so the wildfire-smoke HVAC call, the high-desert heating.",
     eyebrow: "Local SEO · Reno-Sparks",
     h1: "When Reno searches for what you do, be the first name they find",
     h2Exact: "Reno Local SEO Company",
@@ -178,7 +178,7 @@ export const renoLocations = [
     citySlug: "reno", serviceSlug: "seo-services", service: "SEO Services",
     titleTag: "Reno SEO Company | Rank Higher, Get Leads | OnwardCraft",
     metaDescription:
-      "Reno SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing transplant market. Free Reno SEO audit.",
+      "Reno SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing transplant.",
     eyebrow: "SEO Services · Reno-Sparks",
     h1: "Get your Reno business to the top of Google and keep it there",
     h2Exact: "Reno SEO Company",
@@ -244,7 +244,7 @@ export const renoLocations = [
     citySlug: "reno", serviceSlug: "web-design", service: "Web Design",
     titleTag: "Reno Web Design Company | Sites That Convert | OnwardCraft",
     metaDescription:
-      "Reno web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing, transplant-driven market. Transparent pricing, you own it. Free quote.",
+      "Reno web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing, transplant-driven market.",
     eyebrow: "Web Design · Reno-Sparks",
     h1: "Reno web design that turns visitors into booked jobs",
     h2Exact: "Reno Web Design Company",
@@ -308,9 +308,9 @@ export const renoLocations = [
   {
     ...BASE,
     citySlug: "reno", serviceSlug: "website-redesign", service: "Website Redesign",
-    titleTag: "Reno Website Redesign | More Leads, No Traffic Loss | OnwardCraft",
+    titleTag: "Reno Website Redesign | OnwardCraft",
     metaDescription:
-      "Redesign your Reno website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing transplant market. Free audit.",
+      "Redesign your Reno website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing transplant.",
     eyebrow: "Website Redesign · Reno-Sparks",
     h1: "Redesign your Reno website without losing your rankings",
     h2Exact: "Reno Website Redesign Company",
@@ -374,9 +374,9 @@ export const renoLocations = [
 export const renoCity = {
   citySlug: "reno", city: "Reno", state: "Nevada", stateAbbr: "NV", metro: "Reno-Sparks",
 
-  titleTag: "Reno Marketing for Contractors | Web, SEO & Leads | OnwardCraft",
+  titleTag: "Reno Marketing for Contractors | OnwardCraft",
   metaDescription:
-    "Web design, SEO, and local SEO for Reno contractors. Get found by California transplants, own the wildfire-smoke HVAC surge, and build leads you don't rent. Free Reno audit.",
+    "Web design, SEO, and local SEO for Reno contractors. Get found by California transplants, own the wildfire-smoke HVAC surge, and build leads you don't rent.",
 
   eyebrow: "Reno · Web Design, SEO & Lead Generation",
   h1: "Marketing that gets Reno contractors found and booked",

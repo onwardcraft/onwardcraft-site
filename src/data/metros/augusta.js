@@ -111,7 +111,7 @@ export const augustaLocations = [
     citySlug: 'augusta', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Augusta Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Augusta and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Augusta and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Augusta, GA',
     h1: 'When Augusta searches for what you do, be the first name they find',
     h2Exact: 'Augusta Local SEO Company',
@@ -175,9 +175,9 @@ export const augustaLocations = [
   {
     ...BASE,
     citySlug: 'augusta', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Augusta SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Augusta SEO Company | OnwardCraft',
     metaDescription:
-      'Augusta SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for heat-season and flood demand. Free Augusta SEO audit.',
+      'Augusta SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for heat-season and flood.',
     eyebrow: 'SEO Services · Augusta, GA',
     h1: 'Get your Augusta business to the top of Google and keep it there',
     h2Exact: 'Augusta SEO Company',
@@ -241,9 +241,9 @@ export const augustaLocations = [
   {
     ...BASE,
     citySlug: 'augusta', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Augusta Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Augusta Web Design Company | OnwardCraft',
     metaDescription:
-      'Augusta web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and heat-season demand. Transparent pricing, you own it all. Free quote.',
+      'Augusta web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and heat-season demand.',
     eyebrow: 'Web Design · Augusta, GA',
     h1: 'Augusta web design that turns visitors into booked jobs',
     h2Exact: 'Augusta Web Design Company',
@@ -307,9 +307,9 @@ export const augustaLocations = [
   {
     ...BASE,
     citySlug: 'augusta', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Augusta Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Augusta Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Augusta website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in heat season. Free audit.',
+      'Redesign your Augusta website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in heat season.',
     eyebrow: 'Website Redesign · Augusta, GA',
     h1: 'Redesign your Augusta website without losing your rankings',
     h2Exact: 'Augusta Website Redesign Company',
@@ -373,9 +373,9 @@ export const augustaLocations = [
 export const augustaCity = {
   citySlug: 'augusta', city: 'Augusta', state: 'Georgia', stateAbbr: 'GA', metro: 'Augusta',
 
-  titleTag: 'Augusta Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Augusta Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Augusta contractors. Get found, get booked, and own your leads instead of renting them — built for heat-season and CSRA demand. Free Augusta audit.',
+    'Web design, SEO, and local SEO for Augusta contractors. Get found, get booked, and own your leads instead of renting them — built for heat-season and CSRA.',
 
   eyebrow: 'Augusta · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Augusta contractors found and booked',

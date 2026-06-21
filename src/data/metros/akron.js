@@ -111,7 +111,7 @@ export const akronLocations = [
     citySlug: "akron", serviceSlug: "local-seo", service: "Local SEO",
     titleTag: "Akron Local SEO Company | Win the Map Pack | OnwardCraft",
     metaDescription:
-      "Search your service in Akron and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.",
+      "Search your service in Akron and three businesses show up on the map. We get you into those three, so the call lands with you.",
     eyebrow: "Local SEO · Akron, OH",
     h1: "When Akron searches for what you do, be the first name they find",
     h2Exact: "Akron Local SEO Company",
@@ -175,9 +175,9 @@ export const akronLocations = [
   {
     ...BASE,
     citySlug: "akron", serviceSlug: "seo-services", service: "SEO Services",
-    titleTag: "Akron SEO Company | Rank Higher, Get More Leads | OnwardCraft",
+    titleTag: "Akron SEO Company | OnwardCraft",
     metaDescription:
-      "Akron SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Ohio winter demand. Free Akron SEO audit.",
+      "Akron SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Ohio winter demand.",
     eyebrow: "SEO Services · Akron, OH",
     h1: "Get your Akron business to the top of Google and keep it there",
     h2Exact: "Akron SEO Company",
@@ -243,7 +243,7 @@ export const akronLocations = [
     citySlug: "akron", serviceSlug: "web-design", service: "Web Design",
     titleTag: "Akron Web Design Company | Sites That Convert | OnwardCraft",
     metaDescription:
-      "Akron web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Ohio winter demand. Transparent pricing, you own it all. Free quote.",
+      "Akron web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Ohio winter demand.",
     eyebrow: "Web Design · Akron, OH",
     h1: "Akron web design that turns visitors into booked jobs",
     h2Exact: "Akron Web Design Company",
@@ -307,9 +307,9 @@ export const akronLocations = [
   {
     ...BASE,
     citySlug: "akron", serviceSlug: "website-redesign", service: "Website Redesign",
-    titleTag: "Akron Website Redesign | More Leads, No Traffic Loss | OnwardCraft",
+    titleTag: "Akron Website Redesign | OnwardCraft",
     metaDescription:
-      "Redesign your Akron website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in Ohio winters. Free audit.",
+      "Redesign your Akron website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in Ohio winters.",
     eyebrow: "Website Redesign · Akron, OH",
     h1: "Redesign your Akron website without losing your rankings",
     h2Exact: "Akron Website Redesign Company",
@@ -373,9 +373,9 @@ export const akronLocations = [
 export const akronCity = {
   citySlug: "akron", city: "Akron", state: "Ohio", stateAbbr: "OH", metro: "Akron",
 
-  titleTag: "Akron Marketing for Contractors | Web, SEO & Leads | OnwardCraft",
+  titleTag: "Akron Marketing for Contractors | OnwardCraft",
   metaDescription:
-    "Web design, SEO, and local SEO for Akron contractors. Get found, get booked, and own your leads instead of renting them — built for Ohio winter demand. Free Akron audit.",
+    "Web design, SEO, and local SEO for Akron contractors. Get found, get booked, and own your leads instead of renting them — built for Ohio winter demand.",
 
   eyebrow: "Akron · Web Design, SEO & Lead Generation",
   h1: "Marketing that gets Akron contractors found and booked",

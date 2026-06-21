@@ -109,9 +109,9 @@ export const charlestonLocations = [
   {
     ...BASE,
     citySlug: 'charleston', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Charleston Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Charleston Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Charleston and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Charleston and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Charleston-North Charleston',
     h1: 'When Charleston searches for what you do, be the first name they find',
     h2Exact: 'Charleston Local SEO Company',
@@ -175,9 +175,9 @@ export const charlestonLocations = [
   {
     ...BASE,
     citySlug: 'charleston', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Charleston SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Charleston SEO Company | OnwardCraft',
     metaDescription:
-      'Charleston SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm and flood demand. Free Charleston SEO audit.',
+      'Charleston SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm and flood demand.',
     eyebrow: 'SEO Services · Charleston-North Charleston',
     h1: 'Get your Charleston business to the top of Google and keep it there',
     h2Exact: 'Charleston SEO Company',
@@ -241,9 +241,9 @@ export const charlestonLocations = [
   {
     ...BASE,
     citySlug: 'charleston', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Charleston Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Charleston Web Design Company | OnwardCraft',
     metaDescription:
-      'Charleston web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand. Transparent pricing, you own it all. Free quote.',
+      'Charleston web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand.',
     eyebrow: 'Web Design · Charleston-North Charleston',
     h1: 'Charleston web design that turns visitors into booked jobs',
     h2Exact: 'Charleston Web Design Company',
@@ -307,9 +307,9 @@ export const charlestonLocations = [
   {
     ...BASE,
     citySlug: 'charleston', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Charleston Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Charleston Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Charleston website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your Charleston website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm.',
     eyebrow: 'Website Redesign · Charleston-North Charleston',
     h1: 'Redesign your Charleston website without losing your rankings',
     h2Exact: 'Charleston Website Redesign Company',
@@ -373,9 +373,9 @@ export const charlestonLocations = [
 export const charlestonCity = {
   citySlug: 'charleston', city: 'Charleston', state: 'South Carolina', stateAbbr: 'SC', metro: 'Charleston-North Charleston',
 
-  titleTag: 'Charleston Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Charleston Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Charleston contractors. Get found, get booked, and own your leads instead of renting them — built for storm and flood demand. Free Charleston audit.',
+    'Web design, SEO, and local SEO for Charleston contractors. Get found, get booked, and own your leads instead of renting them — built for storm and flood.',
 
   eyebrow: 'Charleston · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Charleston contractors found and booked',

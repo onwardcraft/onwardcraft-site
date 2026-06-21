@@ -111,7 +111,7 @@ export const milwaukeeLocations = [
     citySlug: 'milwaukee', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Milwaukee Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Milwaukee and three businesses show up on the map. We get you into those three before the next freeze or flooding season hits. Honest pricing, no lock-in, free audit.',
+      'Search your service in Milwaukee and three businesses show up on the map. We get you into those three before the next freeze or flooding season hits.',
     eyebrow: 'Local SEO · Milwaukee, WI',
     h1: 'When Milwaukee searches for what you do, be the first name they find',
     h2Exact: 'Milwaukee Local SEO Company',
@@ -177,7 +177,7 @@ export const milwaukeeLocations = [
     citySlug: 'milwaukee', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Milwaukee SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Milwaukee SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for seasonal and emergency demand. Free Milwaukee SEO audit.',
+      'Milwaukee SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for seasonal and emergency.',
     eyebrow: 'SEO Services · Milwaukee, WI',
     h1: 'Get your Milwaukee business to the top of Google and keep it there',
     h2Exact: 'Milwaukee SEO Company',
@@ -241,9 +241,9 @@ export const milwaukeeLocations = [
   {
     ...BASE,
     citySlug: 'milwaukee', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Milwaukee Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Milwaukee Web Design Company | OnwardCraft',
     metaDescription:
-      'Milwaukee web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a market shaped by brutal winters and old housing stock. Transparent pricing, you own it. Free quote.',
+      'Milwaukee web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a market shaped by brutal winters and old.',
     eyebrow: 'Web Design · Milwaukee, WI',
     h1: 'Milwaukee web design that turns visitors into booked jobs',
     h2Exact: 'Milwaukee Web Design Company',
@@ -307,9 +307,9 @@ export const milwaukeeLocations = [
   {
     ...BASE,
     citySlug: 'milwaukee', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Milwaukee Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Milwaukee Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Milwaukee website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — including the seasonal and emergency work that drives Milwaukee demand. Free audit.',
+      'Redesign your Milwaukee website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — including the seasonal.',
     eyebrow: 'Website Redesign · Milwaukee, WI',
     h1: 'Redesign your Milwaukee website without losing your rankings',
     h2Exact: 'Milwaukee Website Redesign Company',
@@ -373,9 +373,9 @@ export const milwaukeeLocations = [
 export const milwaukeeCity = {
   citySlug: 'milwaukee', city: 'Milwaukee', state: 'Wisconsin', stateAbbr: 'WI', metro: 'Milwaukee',
 
-  titleTag: 'Milwaukee Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Milwaukee Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Milwaukee contractors. Get found before the next freeze or flooding season hits, own your leads instead of renting them. Free Milwaukee audit.',
+    'Web design, SEO, and local SEO for Milwaukee contractors. Get found before the next freeze or flooding season hits, own your leads instead of renting them.',
 
   eyebrow: 'Milwaukee · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Milwaukee contractors found and booked',

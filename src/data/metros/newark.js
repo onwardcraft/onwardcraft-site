@@ -111,7 +111,7 @@ export const newarkLocations = [
     citySlug: 'newark', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Newark Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Newark and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Newark and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Newark-Essex County',
     h1: 'When Newark searches for what you do, be the first name they find',
     h2Exact: 'Newark Local SEO Company',
@@ -175,9 +175,9 @@ export const newarkLocations = [
   {
     ...BASE,
     citySlug: 'newark', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Newark SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Newark SEO Company | OnwardCraft',
     metaDescription:
-      'Newark SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand. Free Newark SEO audit.',
+      'Newark SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand.',
     eyebrow: 'SEO Services · Newark-Essex County',
     h1: 'Get your Newark business to the top of Google and keep it there',
     h2Exact: 'Newark SEO Company',
@@ -243,7 +243,7 @@ export const newarkLocations = [
     citySlug: 'newark', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Newark Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Newark web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand. Transparent pricing, you own it all. Free quote.',
+      'Newark web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand.',
     eyebrow: 'Web Design · Newark-Essex County',
     h1: 'Newark web design that turns visitors into booked jobs',
     h2Exact: 'Newark Web Design Company',
@@ -307,9 +307,9 @@ export const newarkLocations = [
   {
     ...BASE,
     citySlug: 'newark', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Newark Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Newark Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Newark website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season. Free audit.',
+      'Redesign your Newark website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
     eyebrow: 'Website Redesign · Newark-Essex County',
     h1: 'Redesign your Newark website without losing your rankings',
     h2Exact: 'Newark Website Redesign Company',
@@ -373,9 +373,9 @@ export const newarkLocations = [
 export const newarkCity = {
   citySlug: 'newark', city: 'Newark', state: 'New Jersey', stateAbbr: 'NJ', metro: 'Newark-Essex County',
 
-  titleTag: 'Newark Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Newark Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Newark contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand. Free Newark audit.',
+    'Web design, SEO, and local SEO for Newark contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand.',
 
   eyebrow: 'Newark · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Newark contractors found and booked',

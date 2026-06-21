@@ -110,7 +110,7 @@ export const greenBayLocations = [
     citySlug: 'green-bay', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Green Bay Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Green Bay and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Green Bay and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Green Bay',
     h1: 'When Green Bay searches for what you do, be the first name they find',
     h2Exact: 'Green Bay Local SEO Company',
@@ -174,9 +174,9 @@ export const greenBayLocations = [
   {
     ...BASE,
     citySlug: 'green-bay', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Green Bay SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Green Bay SEO Company | OnwardCraft',
     metaDescription:
-      'Green Bay SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for winter-season demand. Free SEO audit.',
+      'Green Bay SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for winter-season demand.',
     eyebrow: 'SEO Services · Green Bay',
     h1: 'Get your Green Bay business to the top of Google and keep it there',
     h2Exact: 'Green Bay SEO Company',
@@ -240,9 +240,9 @@ export const greenBayLocations = [
   {
     ...BASE,
     citySlug: 'green-bay', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Green Bay Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Green Bay Web Design Company | OnwardCraft',
     metaDescription:
-      'Green Bay web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and winter-season demand. Transparent pricing, you own it all. Free quote.',
+      'Green Bay web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and winter-season demand.',
     eyebrow: 'Web Design · Green Bay',
     h1: 'Green Bay web design that turns visitors into booked jobs',
     h2Exact: 'Green Bay Web Design Company',
@@ -306,9 +306,9 @@ export const greenBayLocations = [
   {
     ...BASE,
     citySlug: 'green-bay', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Green Bay Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Green Bay Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Green Bay website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter. Free audit.',
+      'Redesign your Green Bay website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter.',
     eyebrow: 'Website Redesign · Green Bay',
     h1: 'Redesign your Green Bay website without losing your rankings',
     h2Exact: 'Green Bay Website Redesign Company',
@@ -372,9 +372,9 @@ export const greenBayLocations = [
 export const greenBayCity = {
   citySlug: 'green-bay', city: 'Green Bay', state: 'Wisconsin', stateAbbr: 'WI', metro: 'Green Bay',
 
-  titleTag: 'Green Bay Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Green Bay Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Green Bay contractors. Get found, get booked, and own your leads instead of renting them — built for winter-season demand. Free audit.',
+    'Web design, SEO, and local SEO for Green Bay contractors. Get found, get booked, and own your leads instead of renting them — built for winter-season demand.',
 
   eyebrow: 'Green Bay · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Green Bay contractors found and booked',

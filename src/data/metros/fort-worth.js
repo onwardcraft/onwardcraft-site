@@ -109,9 +109,9 @@ export const fortWorthLocations = [
   {
     ...BASE,
     citySlug: 'fort-worth', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Fort Worth Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Fort Worth Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Fort Worth and three businesses show up on the map. We get you into those three before the next hail storm hits. Honest pricing, no lock-in, free audit.',
+      'Search your service in Fort Worth and three businesses show up on the map. We get you into those three before the next hail storm hits.',
     eyebrow: 'Local SEO · Fort Worth, TX',
     h1: 'When Fort Worth searches for what you do, be the first name they find',
     h2Exact: 'Fort Worth Local SEO Company',
@@ -175,9 +175,9 @@ export const fortWorthLocations = [
   {
     ...BASE,
     citySlug: 'fort-worth', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Fort Worth SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Fort Worth SEO Company | OnwardCraft',
     metaDescription:
-      'Fort Worth SEO that ranks contractors on Google and brings in leads you own. Storm-season ready, Spanish-language capable, no lock-in. Free Fort Worth SEO audit.',
+      'Fort Worth SEO that ranks contractors on Google and brings in leads you own. Storm-season ready, Spanish-language capable, no lock-in.',
     eyebrow: 'SEO Services · Fort Worth, TX',
     h1: 'Get your Fort Worth business to the top of Google and keep it there',
     h2Exact: 'Fort Worth SEO Company',
@@ -241,9 +241,9 @@ export const fortWorthLocations = [
   {
     ...BASE,
     citySlug: 'fort-worth', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Fort Worth Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Fort Worth Web Design Company | OnwardCraft',
     metaDescription:
-      'Fort Worth web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a hail market with fast-growing suburbs. Transparent pricing. Free quote.',
+      'Fort Worth web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a hail market with fast-growing suburbs.',
     eyebrow: 'Web Design · Fort Worth, TX',
     h1: 'Fort Worth web design that turns visitors into booked jobs',
     h2Exact: 'Fort Worth Web Design Company',
@@ -307,9 +307,9 @@ export const fortWorthLocations = [
   {
     ...BASE,
     citySlug: 'fort-worth', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Fort Worth Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Fort Worth Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Fort Worth website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — storm-season ready. Free audit.',
+      'Redesign your Fort Worth website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — storm-season ready.',
     eyebrow: 'Website Redesign · Fort Worth, TX',
     h1: 'Redesign your Fort Worth website without losing your rankings',
     h2Exact: 'Fort Worth Website Redesign Company',
@@ -373,9 +373,9 @@ export const fortWorthLocations = [
 export const fortWorthCity = {
   citySlug: 'fort-worth', city: 'Fort Worth', state: 'Texas', stateAbbr: 'TX', metro: 'Fort Worth',
 
-  titleTag: 'Fort Worth Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Fort Worth Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Fort Worth contractors. Get found, get booked, and own your leads — built for hail alley and fast-growing suburbs. Free Fort Worth audit.',
+    'Web design, SEO, and local SEO for Fort Worth contractors. Get found, get booked, and own your leads — built for hail alley and fast-growing suburbs.',
 
   eyebrow: 'Fort Worth · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Fort Worth contractors found and booked',

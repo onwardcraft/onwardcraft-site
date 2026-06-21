@@ -111,7 +111,7 @@ export const boulderLocations = [
     citySlug: 'boulder', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Boulder Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Boulder and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Boulder and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Boulder',
     h1: 'When Boulder searches for what you do, be the first name they find',
     h2Exact: 'Boulder Local SEO Company',
@@ -175,9 +175,9 @@ export const boulderLocations = [
   {
     ...BASE,
     citySlug: 'boulder', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Boulder SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Boulder SEO Company | OnwardCraft',
     metaDescription:
-      'Boulder SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for fire and hail demand. Free Boulder SEO audit.',
+      'Boulder SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for fire and hail demand.',
     eyebrow: 'SEO Services · Boulder',
     h1: 'Get your Boulder business to the top of Google and keep it there',
     h2Exact: 'Boulder SEO Company',
@@ -241,9 +241,9 @@ export const boulderLocations = [
   {
     ...BASE,
     citySlug: 'boulder', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Boulder Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Boulder Web Design Company | OnwardCraft',
     metaDescription:
-      'Boulder web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and fire and hail demand. Transparent pricing, you own it all. Free quote.',
+      'Boulder web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and fire and hail demand.',
     eyebrow: 'Web Design · Boulder',
     h1: 'Boulder web design that turns visitors into booked jobs',
     h2Exact: 'Boulder Web Design Company',
@@ -307,9 +307,9 @@ export const boulderLocations = [
   {
     ...BASE,
     citySlug: 'boulder', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Boulder Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Boulder Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Boulder website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in fire and hail season. Free audit.',
+      'Redesign your Boulder website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in fire and hail.',
     eyebrow: 'Website Redesign · Boulder',
     h1: 'Redesign your Boulder website without losing your rankings',
     h2Exact: 'Boulder Website Redesign Company',
@@ -373,9 +373,9 @@ export const boulderLocations = [
 export const boulderCity = {
   citySlug: 'boulder', city: 'Boulder', state: 'Colorado', stateAbbr: 'CO', metro: 'Boulder',
 
-  titleTag: 'Boulder Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Boulder Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Boulder contractors. Get found, get booked, and own your leads instead of renting them — built for fire and hail demand. Free Boulder audit.',
+    'Web design, SEO, and local SEO for Boulder contractors. Get found, get booked, and own your leads instead of renting them — built for fire and hail demand.',
 
   eyebrow: 'Boulder · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Boulder contractors found and booked',

@@ -111,7 +111,7 @@ export const knoxvilleLocations = [
     citySlug: 'knoxville', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Knoxville Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your trade in Knoxville and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your trade in Knoxville and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Knoxville, TN',
     h1: 'When Knoxville searches for what you do, be the first name they find',
     h2Exact: 'Knoxville Local SEO Company',
@@ -177,7 +177,7 @@ export const knoxvilleLocations = [
     citySlug: 'knoxville', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Knoxville SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Knoxville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for East Tennessee. Free Knoxville SEO audit.',
+      'Knoxville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for East Tennessee.',
     eyebrow: 'SEO Services · Knoxville, TN',
     h1: 'Get your Knoxville business to the top of Google and keep it there',
     h2Exact: 'Knoxville SEO Company',
@@ -241,9 +241,9 @@ export const knoxvilleLocations = [
   {
     ...BASE,
     citySlug: 'knoxville', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Knoxville Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Knoxville Web Design Company | OnwardCraft',
     metaDescription:
-      'Knoxville web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in East Tennessee. Transparent pricing, you own it. Free quote.',
+      'Knoxville web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in East Tennessee. Transparent pricing, you own it.',
     eyebrow: 'Web Design · Knoxville, TN',
     h1: 'Knoxville web design that turns visitors into booked jobs',
     h2Exact: 'Knoxville Web Design Company',
@@ -307,9 +307,9 @@ export const knoxvilleLocations = [
   {
     ...BASE,
     citySlug: 'knoxville', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Knoxville Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Knoxville Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Knoxville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across East Tennessee. Free audit.',
+      'Redesign your Knoxville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across East Tennessee.',
     eyebrow: 'Website Redesign · Knoxville, TN',
     h1: 'Redesign your Knoxville website without losing your rankings',
     h2Exact: 'Knoxville Website Redesign Company',
@@ -373,9 +373,9 @@ export const knoxvilleLocations = [
 export const knoxvilleCity = {
   citySlug: 'knoxville', city: 'Knoxville', state: 'Tennessee', stateAbbr: 'TN', metro: 'Knoxville',
 
-  titleTag: 'Knoxville Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Knoxville Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Knoxville contractors. Get found, get booked, and own your leads — built for East Tennessee homeowners who already prefer local. Free Knoxville audit.',
+    'Web design, SEO, and local SEO for Knoxville contractors. Get found, get booked, and own your leads — built for East Tennessee homeowners who already prefer.',
 
   eyebrow: 'Knoxville · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Knoxville contractors found and booked',

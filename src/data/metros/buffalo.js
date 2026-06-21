@@ -21,11 +21,11 @@ const MARKET = {
   pullQuote: "In the snowiest major city in America, the contractor who ranks before the next lake-effect storm books the work every competitor is scrambling for.",
   donut: {
     title: 'Lake-effect snow capital',
-    value: 95,
-    centerLabel: 'annual snow inches',
+    value: 63,
+    centerLabel: 'winter-driven',
     legend: [
-      { label: 'Snow (in)', pct: 95, kind: 'teal' },
-      { label: 'Other precip', pct: 5, kind: 'grey' },
+      { label: 'Winter emergency demand', pct: 63, kind: 'teal' },
+      { label: 'Rest of year', pct: 37, kind: 'grey' },
     ],
   },
   seasonTitle: 'When trade demand spikes',
@@ -111,7 +111,7 @@ export const buffaloLocations = [
     citySlug: 'buffalo', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Buffalo Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Buffalo and three businesses show up on the map. We get you into those three before the next lake-effect storm. Honest pricing, no lock-in, free audit.',
+      'Search your service in Buffalo and three businesses show up on the map. We get you into those three before the next lake-effect storm.',
     eyebrow: 'Local SEO · Buffalo, NY',
     h1: 'When Buffalo searches for what you do, be the first name they find',
     h2Exact: 'Buffalo Local SEO Company',
@@ -177,7 +177,7 @@ export const buffaloLocations = [
     citySlug: 'buffalo', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Buffalo SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Buffalo SEO that ranks contractors on Google and brings in leads you own. Built for a seasonal market with old housing stock and winter demand spikes. Free Buffalo SEO audit.',
+      'Buffalo SEO that ranks contractors on Google and brings in leads you own. Built for a seasonal market with old housing stock and winter demand spikes.',
     eyebrow: 'SEO Services · Buffalo, NY',
     h1: 'Get your Buffalo business to the top of Google and keep it there',
     h2Exact: 'Buffalo SEO Company',
@@ -241,9 +241,9 @@ export const buffaloLocations = [
   {
     ...BASE,
     citySlug: 'buffalo', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Buffalo Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Buffalo Web Design Company | OnwardCraft',
     metaDescription:
-      'Buffalo web design that turns visitors into booked jobs — fast, mobile-first contractor sites built for a seasonal market with old housing stock. Transparent pricing. Free quote.',
+      'Buffalo web design that turns visitors into booked jobs — fast, mobile-first contractor sites built for a seasonal market with old housing stock.',
     eyebrow: 'Web Design · Buffalo, NY',
     h1: 'Buffalo web design that turns visitors into booked jobs',
     h2Exact: 'Buffalo Web Design Company',
@@ -307,7 +307,7 @@ export const buffaloLocations = [
   {
     ...BASE,
     citySlug: 'buffalo', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Buffalo Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Buffalo Website Redesign | OnwardCraft',
     metaDescription:
       'Redesign your Buffalo contractor website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs. Free audit.',
     eyebrow: 'Website Redesign · Buffalo, NY',
@@ -373,9 +373,9 @@ export const buffaloLocations = [
 export const buffaloCity = {
   citySlug: 'buffalo', city: 'Buffalo', state: 'New York', stateAbbr: 'NY', metro: 'Buffalo-Niagara Falls',
 
-  titleTag: 'Buffalo Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Buffalo Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Buffalo contractors. Get found before the next lake-effect storm, rank in your neighborhoods, and own your leads. Free Buffalo audit.',
+    'Web design, SEO, and local SEO for Buffalo contractors. Get found before the next lake-effect storm, rank in your neighborhoods, and own your leads.',
 
   eyebrow: 'Buffalo · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Buffalo contractors found and booked',

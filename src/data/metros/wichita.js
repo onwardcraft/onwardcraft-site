@@ -110,7 +110,7 @@ export const wichitaLocations = [
     citySlug: 'wichita', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Wichita Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Wichita and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Wichita and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Wichita',
     h1: 'When Wichita searches for what you do, be the first name they find',
     h2Exact: 'Wichita Local SEO Company',
@@ -174,9 +174,9 @@ export const wichitaLocations = [
   {
     ...BASE,
     citySlug: 'wichita', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Wichita SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Wichita SEO Company | OnwardCraft',
     metaDescription:
-      'Wichita SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for tornado-season demand. Free Wichita SEO audit.',
+      'Wichita SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for tornado-season demand.',
     eyebrow: 'SEO Services · Wichita',
     h1: 'Get your Wichita business to the top of Google and keep it there',
     h2Exact: 'Wichita SEO Company',
@@ -240,9 +240,9 @@ export const wichitaLocations = [
   {
     ...BASE,
     citySlug: 'wichita', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Wichita Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Wichita Web Design Company | OnwardCraft',
     metaDescription:
-      'Wichita web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and tornado-season demand. Transparent pricing, you own it all. Free quote.',
+      'Wichita web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and tornado-season demand.',
     eyebrow: 'Web Design · Wichita',
     h1: 'Wichita web design that turns visitors into booked jobs',
     h2Exact: 'Wichita Web Design Company',
@@ -306,9 +306,9 @@ export const wichitaLocations = [
   {
     ...BASE,
     citySlug: 'wichita', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Wichita Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Wichita Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Wichita website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in tornado season. Free audit.',
+      'Redesign your Wichita website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in tornado.',
     eyebrow: 'Website Redesign · Wichita',
     h1: 'Redesign your Wichita website without losing your rankings',
     h2Exact: 'Wichita Website Redesign Company',
@@ -372,9 +372,9 @@ export const wichitaLocations = [
 export const wichitaCity = {
   citySlug: 'wichita', city: 'Wichita', state: 'Kansas', stateAbbr: 'KS', metro: 'Wichita',
 
-  titleTag: 'Wichita Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Wichita Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Wichita contractors. Get found, get booked, and own your leads instead of renting them — built for tornado-season demand. Free Wichita audit.',
+    'Web design, SEO, and local SEO for Wichita contractors. Get found, get booked, and own your leads instead of renting them — built for tornado-season demand.',
 
   eyebrow: 'Wichita · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Wichita contractors found and booked',

@@ -111,7 +111,7 @@ export const hendersonLocations = [
     citySlug: 'henderson', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Henderson Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Henderson and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Henderson and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Henderson, NV',
     h1: 'When Henderson searches for what you do, be the first name they find',
     h2Exact: 'Henderson Local SEO Company',
@@ -175,9 +175,9 @@ export const hendersonLocations = [
   {
     ...BASE,
     citySlug: 'henderson', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Henderson SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Henderson SEO Company | OnwardCraft',
     metaDescription:
-      'Henderson SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for desert-heat demand. Free Henderson SEO audit.',
+      'Henderson SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for desert-heat demand.',
     eyebrow: 'SEO Services · Henderson, NV',
     h1: 'Get your Henderson business to the top of Google and keep it there',
     h2Exact: 'Henderson SEO Company',
@@ -241,9 +241,9 @@ export const hendersonLocations = [
   {
     ...BASE,
     citySlug: 'henderson', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Henderson Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Henderson Web Design Company | OnwardCraft',
     metaDescription:
-      'Henderson web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and desert-heat demand. Transparent pricing, you own it all. Free quote.',
+      'Henderson web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and desert-heat demand.',
     eyebrow: 'Web Design · Henderson, NV',
     h1: 'Henderson web design that turns visitors into booked jobs',
     h2Exact: 'Henderson Web Design Company',
@@ -307,9 +307,9 @@ export const hendersonLocations = [
   {
     ...BASE,
     citySlug: 'henderson', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Henderson Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Henderson Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Henderson website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in desert heat. Free audit.',
+      'Redesign your Henderson website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in desert heat.',
     eyebrow: 'Website Redesign · Henderson, NV',
     h1: 'Redesign your Henderson website without losing your rankings',
     h2Exact: 'Henderson Website Redesign Company',
@@ -373,9 +373,9 @@ export const hendersonLocations = [
 export const hendersonCity = {
   citySlug: 'henderson', city: 'Henderson', state: 'Nevada', stateAbbr: 'NV', metro: 'Henderson-Las Vegas',
 
-  titleTag: 'Henderson Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Henderson Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Henderson contractors. Get found, get booked, and own your leads instead of renting them — built for desert-heat demand. Free Henderson audit.',
+    'Web design, SEO, and local SEO for Henderson contractors. Get found, get booked, and own your leads instead of renting them — built for desert-heat demand.',
 
   eyebrow: 'Henderson · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Henderson contractors found and booked',

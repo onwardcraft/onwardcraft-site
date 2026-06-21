@@ -109,9 +109,9 @@ export const springfieldLocations = [
   {
     ...BASE,
     citySlug: 'springfield', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Springfield MA Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Springfield MA Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Springfield MA and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Springfield MA and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Springfield, MA',
     h1: 'When Springfield searches for what you do, be the first name they find',
     h2Exact: 'Springfield MA Local SEO Company',
@@ -175,9 +175,9 @@ export const springfieldLocations = [
   {
     ...BASE,
     citySlug: 'springfield', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Springfield MA SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Springfield MA SEO Company | OnwardCraft',
     metaDescription:
-      'Springfield MA SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for nor\'easter-season demand. Free Springfield SEO audit.',
+      'Springfield MA SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for nor\'easter-season.',
     eyebrow: 'SEO Services · Springfield, MA',
     h1: 'Get your Springfield business to the top of Google and keep it there',
     h2Exact: 'Springfield MA SEO Company',
@@ -241,9 +241,9 @@ export const springfieldLocations = [
   {
     ...BASE,
     citySlug: 'springfield', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Springfield MA Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Springfield MA Web Design Company | OnwardCraft',
     metaDescription:
-      'Springfield MA web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and nor\'easter-season demand. Transparent pricing, you own it all. Free quote.',
+      'Springfield MA web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and nor\'easter-season demand.',
     eyebrow: 'Web Design · Springfield, MA',
     h1: 'Springfield web design that turns visitors into booked jobs',
     h2Exact: 'Springfield MA Web Design Company',
@@ -307,9 +307,9 @@ export const springfieldLocations = [
   {
     ...BASE,
     citySlug: 'springfield', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Springfield MA Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Springfield MA Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Springfield MA website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in nor\'easter season. Free audit.',
+      'Redesign your Springfield MA website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up.',
     eyebrow: 'Website Redesign · Springfield, MA',
     h1: 'Redesign your Springfield website without losing your rankings',
     h2Exact: 'Springfield MA Website Redesign Company',
@@ -373,9 +373,9 @@ export const springfieldLocations = [
 export const springfieldCity = {
   citySlug: 'springfield', city: 'Springfield', state: 'Massachusetts', stateAbbr: 'MA', metro: 'Springfield',
 
-  titleTag: 'Springfield MA Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Springfield MA Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Springfield MA contractors. Get found, get booked, and own your leads instead of renting them — built for nor\'easter-season demand. Free Springfield audit.',
+    'Web design, SEO, and local SEO for Springfield MA contractors. Get found, get booked, and own your leads instead of renting them — built for nor\'easter-season.',
 
   eyebrow: 'Springfield, MA · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Springfield contractors found and booked',

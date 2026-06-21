@@ -111,7 +111,7 @@ export const raleighLocations = [
     citySlug: 'raleigh', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Raleigh Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Raleigh and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Raleigh and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Raleigh-Durham',
     h1: 'When Raleigh searches for what you do, be the first name they find',
     h2Exact: 'Raleigh Local SEO Company',
@@ -177,7 +177,7 @@ export const raleighLocations = [
     citySlug: 'raleigh', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Raleigh SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Raleigh SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for the fastest-growing tech hub in the South. Free audit.',
+      'Raleigh SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for the fastest-growing tech hub.',
     eyebrow: 'SEO Services · Raleigh-Durham',
     h1: 'Get your Raleigh business to the top of Google and keep it there',
     h2Exact: 'Raleigh SEO Company',
@@ -241,9 +241,9 @@ export const raleighLocations = [
   {
     ...BASE,
     citySlug: 'raleigh', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Raleigh Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Raleigh Web Design Company | OnwardCraft',
     metaDescription:
-      'Raleigh web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in the fastest-growing tech hub in the South. Transparent pricing, you own it. Free quote.',
+      'Raleigh web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in the fastest-growing tech hub in the South.',
     eyebrow: 'Web Design · Raleigh-Durham',
     h1: 'Raleigh web design that turns visitors into booked jobs',
     h2Exact: 'Raleigh Web Design Company',
@@ -309,7 +309,7 @@ export const raleighLocations = [
     citySlug: 'raleigh', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Raleigh Website Redesign | More Leads, No Loss | OnwardCraft',
     metaDescription:
-      'Redesign your Raleigh website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in the fastest-growing metro in the South. Free audit.',
+      'Redesign your Raleigh website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in the fastest-growing metro.',
     eyebrow: 'Website Redesign · Raleigh-Durham',
     h1: 'Redesign your Raleigh website without losing your rankings',
     h2Exact: 'Raleigh Website Redesign Company',
@@ -373,9 +373,9 @@ export const raleighLocations = [
 export const raleighCity = {
   citySlug: 'raleigh', city: 'Raleigh', state: 'North Carolina', stateAbbr: 'NC', metro: 'Raleigh-Durham',
 
-  titleTag: 'Raleigh Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Raleigh Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Raleigh contractors. Get found by the wave of tech transplants moving to the Triangle, get booked, and own your leads — built for the fastest-growing metro in the South. Free audit.',
+    'Web design, SEO, and local SEO for Raleigh contractors. Get found by the wave of tech transplants moving to the Triangle, get booked, and own your leads.',
 
   eyebrow: 'Raleigh · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Raleigh contractors found and booked',

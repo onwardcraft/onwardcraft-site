@@ -111,7 +111,7 @@ export const detroitLocations = [
     citySlug: 'detroit', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Detroit Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Detroit and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Detroit and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Detroit',
     h1: 'When Detroit searches for what you do, be the first name they find',
     h2Exact: 'Detroit Local SEO Company',
@@ -177,7 +177,7 @@ export const detroitLocations = [
     citySlug: 'detroit', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Detroit SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Detroit SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Michigan winters and the renovation revival. Free Detroit SEO audit.',
+      'Detroit SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Michigan winters and.',
     eyebrow: 'SEO Services · Detroit',
     h1: 'Get your Detroit business to the top of Google and keep it there',
     h2Exact: 'Detroit SEO Company',
@@ -241,9 +241,9 @@ export const detroitLocations = [
   {
     ...BASE,
     citySlug: 'detroit', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Detroit Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Detroit Web Design Company | OnwardCraft',
     metaDescription:
-      'Detroit web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a market that values local trust and straight talk. Transparent pricing, you own it. Free quote.',
+      'Detroit web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a market that values local trust and straight.',
     eyebrow: 'Web Design · Detroit',
     h1: 'Detroit web design that turns visitors into booked jobs',
     h2Exact: 'Detroit Web Design Company',
@@ -307,9 +307,9 @@ export const detroitLocations = [
   {
     ...BASE,
     citySlug: 'detroit', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Detroit Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Detroit Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Detroit website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and signal genuine local credibility. Free audit.',
+      'Redesign your Detroit website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and signal genuine local.',
     eyebrow: 'Website Redesign · Detroit',
     h1: 'Redesign your Detroit website without losing your rankings',
     h2Exact: 'Detroit Website Redesign Company',
@@ -373,9 +373,9 @@ export const detroitLocations = [
 export const detroitCity = {
   citySlug: 'detroit', city: 'Detroit', state: 'Michigan', stateAbbr: 'MI', metro: 'Detroit',
 
-  titleTag: 'Detroit Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Detroit Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Detroit contractors. Get found, get booked, and own your leads — built for Michigan winters, historic renovation demand, and a market that values local trust. Free Detroit audit.',
+    'Web design, SEO, and local SEO for Detroit contractors. Get found, get booked, and own your leads — built for Michigan winters, historic renovation demand.',
 
   eyebrow: 'Detroit · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Detroit contractors found and booked',

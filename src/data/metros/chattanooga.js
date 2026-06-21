@@ -109,9 +109,9 @@ export const chattanoogaLocations = [
   {
     ...BASE,
     citySlug: 'chattanooga', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Chattanooga Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Chattanooga Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Chattanooga and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Chattanooga and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Chattanooga',
     h1: 'When Chattanooga searches for what you do, be the first name they find',
     h2Exact: 'Chattanooga Local SEO Company',
@@ -175,9 +175,9 @@ export const chattanoogaLocations = [
   {
     ...BASE,
     citySlug: 'chattanooga', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Chattanooga SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Chattanooga SEO Company | OnwardCraft',
     metaDescription:
-      'Chattanooga SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season and HVAC demand. Free audit.',
+      'Chattanooga SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season and HVAC.',
     eyebrow: 'SEO Services · Chattanooga',
     h1: 'Get your Chattanooga business to the top of Google and keep it there',
     h2Exact: 'Chattanooga SEO Company',
@@ -241,9 +241,9 @@ export const chattanoogaLocations = [
   {
     ...BASE,
     citySlug: 'chattanooga', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Chattanooga Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Chattanooga Web Design Company | OnwardCraft',
     metaDescription:
-      'Chattanooga web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and seasonal storm demand. Transparent pricing, you own it all. Free quote.',
+      'Chattanooga web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and seasonal storm demand.',
     eyebrow: 'Web Design · Chattanooga',
     h1: 'Chattanooga web design that turns visitors into booked jobs',
     h2Exact: 'Chattanooga Web Design Company',
@@ -307,9 +307,9 @@ export const chattanoogaLocations = [
   {
     ...BASE,
     citySlug: 'chattanooga', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Chattanooga Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Chattanooga Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Chattanooga website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up during storm season. Free audit.',
+      'Redesign your Chattanooga website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up during storm.',
     eyebrow: 'Website Redesign · Chattanooga',
     h1: 'Redesign your Chattanooga website without losing your rankings',
     h2Exact: 'Chattanooga Website Redesign Company',
@@ -373,9 +373,9 @@ export const chattanoogaLocations = [
 export const chattanoogaCity = {
   citySlug: 'chattanooga', city: 'Chattanooga', state: 'Tennessee', stateAbbr: 'TN', metro: 'Chattanooga',
 
-  titleTag: 'Chattanooga Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Chattanooga Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Chattanooga contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand. Free Chattanooga audit.',
+    'Web design, SEO, and local SEO for Chattanooga contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand.',
 
   eyebrow: 'Chattanooga · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Chattanooga contractors found and booked',

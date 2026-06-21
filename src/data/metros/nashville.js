@@ -111,7 +111,7 @@ export const nashvilleLocations = [
     citySlug: 'nashville', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Nashville Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Nashville and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Nashville and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Nashville, TN',
     h1: 'When Nashville searches for what you do, be the first name they find',
     h2Exact: 'Nashville Local SEO Company',
@@ -177,7 +177,7 @@ export const nashvilleLocations = [
     citySlug: 'nashville', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Nashville SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Nashville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market. Free Nashville SEO audit.',
+      'Nashville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market.',
     eyebrow: 'SEO Services · Nashville, TN',
     h1: 'Get your Nashville business to the top of Google and keep it there',
     h2Exact: 'Nashville SEO Company',
@@ -241,9 +241,9 @@ export const nashvilleLocations = [
   {
     ...BASE,
     citySlug: 'nashville', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Nashville Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Nashville Web Design Company | OnwardCraft',
     metaDescription:
-      'Nashville web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing, competitive market. Transparent pricing, you own it. Free quote.',
+      'Nashville web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing, competitive market.',
     eyebrow: 'Web Design · Nashville, TN',
     h1: 'Nashville web design that turns visitors into booked jobs',
     h2Exact: 'Nashville Web Design Company',
@@ -307,9 +307,9 @@ export const nashvilleLocations = [
   {
     ...BASE,
     citySlug: 'nashville', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Nashville Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Nashville Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Nashville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing market. Free audit.',
+      'Redesign your Nashville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing market.',
     eyebrow: 'Website Redesign · Nashville, TN',
     h1: 'Redesign your Nashville website without losing your rankings',
     h2Exact: 'Nashville Website Redesign Company',
@@ -373,9 +373,9 @@ export const nashvilleLocations = [
 export const nashvilleCity = {
   citySlug: 'nashville', city: 'Nashville', state: 'Tennessee', stateAbbr: 'TN', metro: 'Nashville',
 
-  titleTag: 'Nashville Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Nashville Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Nashville contractors. Get found, get booked, and own your leads instead of renting them — built for a fast-growing market. Free Nashville audit.',
+    'Web design, SEO, and local SEO for Nashville contractors. Get found, get booked, and own your leads instead of renting them — built for a fast-growing market.',
 
   eyebrow: 'Nashville · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Nashville contractors found and booked',

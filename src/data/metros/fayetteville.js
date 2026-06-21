@@ -109,9 +109,9 @@ export const fayettevilleLocations = [
   {
     ...BASE,
     citySlug: 'fayetteville', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Fayetteville AR Local SEO | Win the Map Pack in NWA | OnwardCraft',
+    titleTag: 'Fayetteville AR Local SEO | OnwardCraft',
     metaDescription:
-      'Search your service in Fayetteville and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Fayetteville and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Northwest Arkansas',
     h1: 'When NWA searches for what you do, be the first name they find',
     h2Exact: 'Fayetteville Local SEO Company',
@@ -175,9 +175,9 @@ export const fayettevilleLocations = [
   {
     ...BASE,
     citySlug: 'fayetteville', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Fayetteville AR SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Fayetteville AR SEO Company | OnwardCraft',
     metaDescription:
-      'Fayetteville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for NWA storm-season demand. Free audit.',
+      'Fayetteville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for NWA storm-season.',
     eyebrow: 'SEO Services · Northwest Arkansas',
     h1: 'Get your Fayetteville business to the top of Google and keep it there',
     h2Exact: 'Fayetteville SEO Company',
@@ -241,9 +241,9 @@ export const fayettevilleLocations = [
   {
     ...BASE,
     citySlug: 'fayetteville', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Fayetteville AR Web Design | Sites That Convert in NWA | OnwardCraft',
+    titleTag: 'Fayetteville AR Web Design | OnwardCraft',
     metaDescription:
-      'Fayetteville web design that turns visitors into booked jobs — fast, mobile-first sites built for NWA contractors and storm-season demand. Transparent pricing, you own it all. Free quote.',
+      'Fayetteville web design that turns visitors into booked jobs — fast, mobile-first sites built for NWA contractors and storm-season demand.',
     eyebrow: 'Web Design · Northwest Arkansas',
     h1: 'Fayetteville web design that turns visitors into booked jobs',
     h2Exact: 'Fayetteville Web Design Company',
@@ -307,9 +307,9 @@ export const fayettevilleLocations = [
   {
     ...BASE,
     citySlug: 'fayetteville', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Fayetteville AR Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Fayetteville AR Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Fayetteville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in NWA storm season. Free audit.',
+      'Redesign your Fayetteville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in NWA storm.',
     eyebrow: 'Website Redesign · Northwest Arkansas',
     h1: 'Redesign your Fayetteville website without losing your rankings',
     h2Exact: 'Fayetteville Website Redesign Company',
@@ -373,9 +373,9 @@ export const fayettevilleLocations = [
 export const fayettevilleCity = {
   citySlug: 'fayetteville', city: 'Fayetteville', state: 'Arkansas', stateAbbr: 'AR', metro: 'Fayetteville-Springdale-Rogers (Northwest Arkansas)',
 
-  titleTag: 'Fayetteville AR Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Fayetteville AR Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Fayetteville and NWA contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand. Free audit.',
+    'Web design, SEO, and local SEO for Fayetteville and NWA contractors. Get found, get booked, and own your leads instead of renting them — built.',
 
   eyebrow: 'Fayetteville · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Fayetteville contractors found and booked',

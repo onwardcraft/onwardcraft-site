@@ -111,7 +111,7 @@ export const sanJoseLocations = [
     citySlug: 'san-jose', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'San Jose Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your trade in San Jose and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your trade in San Jose and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · San Jose, CA',
     h1: 'When Silicon Valley searches for what you do, be the first name they find',
     h2Exact: 'San Jose Local SEO Company',
@@ -177,7 +177,7 @@ export const sanJoseLocations = [
     citySlug: 'san-jose', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'San Jose SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'San Jose SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Silicon Valley. Free San Jose SEO audit.',
+      'San Jose SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Silicon Valley.',
     eyebrow: 'SEO Services · San Jose, CA',
     h1: 'Get your San Jose business to the top of Google and keep it there',
     h2Exact: 'San Jose SEO Company',
@@ -241,9 +241,9 @@ export const sanJoseLocations = [
   {
     ...BASE,
     citySlug: 'san-jose', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'San Jose Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'San Jose Web Design Company | OnwardCraft',
     metaDescription:
-      'San Jose web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in Silicon Valley. Transparent pricing, you own it. Free quote.',
+      'San Jose web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in Silicon Valley. Transparent pricing, you own it.',
     eyebrow: 'Web Design · San Jose, CA',
     h1: 'San Jose web design that turns Silicon Valley visitors into booked jobs',
     h2Exact: 'San Jose Web Design Company',
@@ -307,7 +307,7 @@ export const sanJoseLocations = [
   {
     ...BASE,
     citySlug: 'san-jose', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'San Jose Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'San Jose Website Redesign | OnwardCraft',
     metaDescription:
       'Redesign your San Jose website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in Silicon Valley. Free audit.',
     eyebrow: 'Website Redesign · San Jose, CA',
@@ -373,9 +373,9 @@ export const sanJoseLocations = [
 export const sanJoseCity = {
   citySlug: 'san-jose', city: 'San Jose', state: 'California', stateAbbr: 'CA', metro: 'San Jose-Silicon Valley',
 
-  titleTag: 'San Jose Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'San Jose Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for San Jose contractors. Get found by Silicon Valley homeowners, win premium jobs, and own your leads instead of renting them. Free audit.',
+    'Web design, SEO, and local SEO for San Jose contractors. Get found by Silicon Valley homeowners, win premium jobs, and own your leads instead of renting them.',
 
   eyebrow: 'San Jose · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets San Jose contractors found by Silicon Valley homeowners',

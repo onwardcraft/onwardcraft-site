@@ -109,9 +109,9 @@ export const longBeachLocations = [
   {
     ...BASE,
     citySlug: 'long-beach', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Long Beach Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Long Beach Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Long Beach and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Long Beach and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Long Beach',
     h1: 'When Long Beach searches for what you do, be the first name they find',
     h2Exact: 'Long Beach Local SEO Company',
@@ -175,9 +175,9 @@ export const longBeachLocations = [
   {
     ...BASE,
     citySlug: 'long-beach', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Long Beach SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Long Beach SEO Company | OnwardCraft',
     metaDescription:
-      'Long Beach SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a coastal, bilingual market. Free SEO audit.',
+      'Long Beach SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a coastal, bilingual.',
     eyebrow: 'SEO Services · Long Beach',
     h1: 'Get your Long Beach business to the top of Google and keep it there',
     h2Exact: 'Long Beach SEO Company',
@@ -241,9 +241,9 @@ export const longBeachLocations = [
   {
     ...BASE,
     citySlug: 'long-beach', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Long Beach Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Long Beach Web Design Company | OnwardCraft',
     metaDescription:
-      'Long Beach web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and a diverse, coastal market. Transparent pricing, you own it all. Free quote.',
+      'Long Beach web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and a diverse, coastal market.',
     eyebrow: 'Web Design · Long Beach',
     h1: 'Long Beach web design that turns visitors into booked jobs',
     h2Exact: 'Long Beach Web Design Company',
@@ -307,9 +307,9 @@ export const longBeachLocations = [
   {
     ...BASE,
     citySlug: 'long-beach', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Long Beach Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Long Beach Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Long Beach website without losing rankings. Faster, mobile-first, bilingual-ready rebuilds that convert more visitors into booked jobs. Free audit.',
+      'Redesign your Long Beach website without losing rankings. Faster, mobile-first, bilingual-ready rebuilds that convert more visitors into booked jobs.',
     eyebrow: 'Website Redesign · Long Beach',
     h1: 'Redesign your Long Beach website without losing your rankings',
     h2Exact: 'Long Beach Website Redesign Company',
@@ -373,9 +373,9 @@ export const longBeachLocations = [
 export const longBeachCity = {
   citySlug: 'long-beach', city: 'Long Beach', state: 'California', stateAbbr: 'CA', metro: 'Long Beach',
 
-  titleTag: 'Long Beach Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Long Beach Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Long Beach contractors. Get found, get booked, and own your leads instead of renting them — built for a coastal, bilingual market. Free audit.',
+    'Web design, SEO, and local SEO for Long Beach contractors. Get found, get booked, and own your leads instead of renting them — built for a coastal, bilingual.',
 
   eyebrow: 'Long Beach · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Long Beach contractors found and booked',

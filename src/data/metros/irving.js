@@ -111,7 +111,7 @@ export const irvingLocations = [
     citySlug: 'irving', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Irving Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Irving and three businesses show up on the map. We get you into those three, so the call lands with you. Honest pricing, no lock-in, free audit.',
+      'Search your service in Irving and three businesses show up on the map. We get you into those three, so the call lands with you.',
     eyebrow: 'Local SEO · Irving-Las Colinas',
     h1: 'When Irving searches for what you do, be the first name they find',
     h2Exact: 'Irving Local SEO Company',
@@ -175,9 +175,9 @@ export const irvingLocations = [
   {
     ...BASE,
     citySlug: 'irving', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Irving SEO Company | Rank Higher, Get More Leads | OnwardCraft',
+    titleTag: 'Irving SEO Company | OnwardCraft',
     metaDescription:
-      'Irving SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hail-season demand. Free Irving SEO audit.',
+      'Irving SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for hail-season demand.',
     eyebrow: 'SEO Services · Irving-Las Colinas',
     h1: 'Get your Irving business to the top of Google and keep it there',
     h2Exact: 'Irving SEO Company',
@@ -243,7 +243,7 @@ export const irvingLocations = [
     citySlug: 'irving', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Irving Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Irving web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hail-season demand. Transparent pricing, you own it all. Free quote.',
+      'Irving web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and hail-season demand.',
     eyebrow: 'Web Design · Irving-Las Colinas',
     h1: 'Irving web design that turns visitors into booked jobs',
     h2Exact: 'Irving Web Design Company',
@@ -307,9 +307,9 @@ export const irvingLocations = [
   {
     ...BASE,
     citySlug: 'irving', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Irving Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
+    titleTag: 'Irving Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Irving website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season. Free audit.',
+      'Redesign your Irving website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season.',
     eyebrow: 'Website Redesign · Irving-Las Colinas',
     h1: 'Redesign your Irving website without losing your rankings',
     h2Exact: 'Irving Website Redesign Company',
@@ -373,9 +373,9 @@ export const irvingLocations = [
 export const irvingCity = {
   citySlug: 'irving', city: 'Irving', state: 'Texas', stateAbbr: 'TX', metro: 'Irving-Las Colinas',
 
-  titleTag: 'Irving Marketing for Contractors | Web, SEO & Leads | OnwardCraft',
+  titleTag: 'Irving Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Irving contractors. Get found, get booked, and own your leads instead of renting them — built for hail-season demand. Free Irving audit.',
+    'Web design, SEO, and local SEO for Irving contractors. Get found, get booked, and own your leads instead of renting them — built for hail-season demand.',
 
   eyebrow: 'Irving · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Irving contractors found and booked',
