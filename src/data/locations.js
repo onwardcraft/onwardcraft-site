@@ -129,6 +129,26 @@ import { allentownLocations } from './metros/allentown.js';
 import { springfieldLocations } from './metros/springfield.js';
 import { fortCollinsLocations } from './metros/fort-collins.js';
 import { laredoLocations } from './metros/laredo.js';
+import { newarkLocations } from './metros/newark.js';
+import { manchesterLocations } from './metros/manchester.js';
+import { portlandMaineLocations } from './metros/portland-me.js';
+import { huntingtonLocations } from './metros/huntington.js';
+import { jacksonLocations } from './metros/jackson.js';
+import { billingsLocations } from './metros/billings.js';
+import { cheyenneLocations } from './metros/cheyenne.js';
+import { burlingtonLocations } from './metros/burlington.js';
+import { wilmingtonLocations } from './metros/wilmington.js';
+import { mesaLocations } from './metros/mesa.js';
+import { planoLocations } from './metros/plano.js';
+import { friscoLocations } from './metros/frisco.js';
+import { anaheimLocations } from './metros/anaheim.js';
+import { longBeachLocations } from './metros/long-beach.js';
+import { naplesLocations } from './metros/naples.js';
+import { lakelandLocations } from './metros/lakeland.js';
+import { fortWayneLocations } from './metros/fort-wayne.js';
+import { charlestonLocations } from './metros/charleston.js';
+import { ashevilleLocations } from './metros/asheville.js';
+import { maconLocations } from './metros/macon.js';
 
 // ===========================================================================
 // MIAMI — shared city blocks (also imported by the /miami/ hub in cities.js)
@@ -610,6 +630,26 @@ export const locations = [
   ...springfieldLocations,
   ...fortCollinsLocations,
   ...laredoLocations,
+  ...newarkLocations,
+  ...manchesterLocations,
+  ...portlandMaineLocations,
+  ...huntingtonLocations,
+  ...jacksonLocations,
+  ...billingsLocations,
+  ...cheyenneLocations,
+  ...burlingtonLocations,
+  ...wilmingtonLocations,
+  ...mesaLocations,
+  ...planoLocations,
+  ...friscoLocations,
+  ...anaheimLocations,
+  ...longBeachLocations,
+  ...naplesLocations,
+  ...lakelandLocations,
+  ...fortWayneLocations,
+  ...charlestonLocations,
+  ...ashevilleLocations,
+  ...maconLocations,
 ];
 
 // Convenience lookups for the dynamic route + future cross-linking.
