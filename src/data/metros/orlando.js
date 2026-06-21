@@ -1,4 +1,4 @@
-// ORLANDO metro — per-service local landing pages + city hub.
+// ORLANDO metro: per-service local landing pages + city hub.
 // Service pages render via /[city]/[service]/; the hub renders via /[city]/.
 // BUILD with the `onward-local-page` skill. SPEC: content/lead-content-plan/08 + 09.
 //
@@ -7,18 +7,18 @@
 // Map Pack = illustration; rank chart = labelled projection.
 //
 // Per-city shared blocks (MARKET, AREAS, FOUNDER, WHY, PROOF, BASE) are defined
-// once and reused across the 4 service pages and the hub — they describe the same
+// once and reused across the 4 service pages and the hub. They describe the same
 // city, so sharing is correct and DRY. Service-specific blocks are per entry.
 // PRICING is fixed for cross-city consistency.
 
 // ===========================================================================
-// ORLANDO — shared city blocks
+// ORLANDO: shared city blocks
 // ===========================================================================
 const MARKET = {
-  heading: 'Why Orlando is one of the fastest-moving maps in the country',
+  heading: 'Why Orlando rewards the contractors who move first',
   body:
-    "The Orlando metro runs about 2.1 million people and it's the fastest-growing market in Florida — roughly 37,000 new residents arrived in a single year. That means new homeowners who don't have a contractor yet, all searching at once. Two things make Orlando its own animal. First, it's heavily Hispanic and home to the largest Puerto Rican community on the U.S. mainland, with an estimated half a million Puerto Ricans across the metro and counties like Osceola running over half Hispanic. A huge share of high-intent searches happen in Spanish, and almost no agency bothers to rank for them. Second, it's a tourism economy. Around 37% of the region's jobs tie to theme parks, hotels, and short-term rentals, which feeds a steady stream of property and turnover work. Then hurricane season, June through November, spikes roofing, restoration, and HVAC overnight.",
-  pullQuote: 'Half a million Puerto Ricans live here, a lot of them searching in Spanish, and your competitors are invisible to all of them.',
+    "Central Florida holds roughly 2.1 million people and keeps adding them faster than anywhere else in the state, with something like 37,000 new residents landing in a single year. Picture that: thousands of households unpacking boxes, none of them with a roofer or a plumber saved in their phone yet, all reaching for Google at once. Two forces make this metro unlike any other. The first is language. Orlando is the heart of the largest Puerto Rican community on the U.S. mainland, with an estimated half a million Puerto Ricans spread across the region and counties like Osceola tipping past 50 percent Hispanic. A serious chunk of the highest-intent searches happen in Spanish, yet almost no agency lifts a finger to rank for them. The second is tourism. Close to 37 percent of regional jobs orbit the theme parks, hotels, and short-term rentals, which keeps property turnover and repair work flowing year round. Layer on hurricane season from June through November and demand for roofing, restoration, and HVAC can detonate in a single weekend.",
+  pullQuote: 'Half a million Puerto Ricans live here, plenty of them searching in Spanish, and to your competitors they simply do not exist.',
   donut: {
     title: 'How Orlando searches',
     value: 36,
@@ -29,7 +29,7 @@ const MARKET = {
     ],
   },
   seasonTitle: 'When trade demand spikes',
-  seasonCaption: 'Hurricane season (Jun–Nov)',
+  seasonCaption: 'Hurricane season (Jun-Nov)',
   seasonalDemand: [
     { m: 'J', v: 34 }, { m: 'F', v: 36 }, { m: 'M', v: 42 }, { m: 'A', v: 50 },
     { m: 'M', v: 58 }, { m: 'J', v: 72, peak: true }, { m: 'J', v: 86, peak: true },
@@ -38,9 +38,9 @@ const MARKET = {
   ],
   stats: [
     { value: '2.1M+', label: 'people across the Orlando metro' },
-    { value: '~36%', label: 'Hispanic — a large Spanish-search market agencies skip', accent: true },
-    { value: 'Jun–Nov', label: 'hurricane season, when trade demand spikes' },
-    { value: 'Top 3', label: 'Map Pack spots that take most of the clicks' },
+    { value: '~36%', label: 'Hispanic, a Spanish-search market most agencies skip', accent: true },
+    { value: 'Jun-Nov', label: 'hurricane season, when trade demand spikes' },
+    { value: 'Top 3', label: 'Map Pack spots that grab most of the clicks' },
   ],
   neighborhoods: [
     'Downtown Orlando', 'Winter Park', 'Lake Nona', 'Dr. Phillips', 'Baldwin Park',
@@ -56,38 +56,38 @@ const AREAS = [
 ];
 
 const FOUNDER =
-  "I'll be straight with you: I started OnwardCraft because I kept watching good contractors hand Angi and HomeAdvisor a few grand a month for leads that three of their competitors bought too. You can't build a business on rented leads. So that's the whole point of what we do here — get you ranking and converting for the work you actually want, in the neighborhoods you actually serve, and let those leads belong to you. No 12-month handcuffs. If it's not working, you fire us.";
+  "Let me be honest about why OnwardCraft exists. I kept seeing solid Central Florida contractors wire a few thousand dollars a month to Angi and HomeAdvisor for leads that three of their rivals had already bought. Nobody builds a real business on leads they are renting. So our entire job is simple: get you ranking and converting for the work you actually want, in the Orlando neighborhoods you actually serve, and make every one of those leads yours to keep. No year-long handcuffs. The day it stops working, you show us the door.";
 
 const WHY = [
   {
     title: 'We only do the trades',
-    body: "Roofing, HVAC, plumbing, solar, electrical, restoration, GCs. We get storm season, emergency calls, and insurance work, so everything we build is shaped around how your customers really search.",
+    body: "Roofing, HVAC, plumbing, solar, electrical, restoration, general contracting. We understand storm season, 2 a.m. emergency calls, and insurance claims, so everything we build maps to how Central Florida homeowners actually go looking for help.",
   },
   {
     title: 'We get you off rented leads',
-    body: "The whole goal is a pipeline you own. Not another monthly invoice to a lead broker for homeowners three competitors also bought.",
+    body: "The point is a pipeline you own outright. Not one more monthly bill to a lead broker for an Orlando homeowner three of your competitors are also paying to chase.",
   },
   {
     title: 'We actually speak Orlando',
-    body: "Spanish-language optimization for the largest Puerto Rican community on the mainland, hurricane-season demand, and real neighborhood targeting from Winter Park to Kissimmee. The stuff a national agency can't do by swapping a city name into a template.",
+    body: "Spanish optimization for the largest Puerto Rican community on the mainland, planning for hurricane-season surges, and real targeting from Winter Park down to Kissimmee. None of that survives a national agency swapping a city name into a template.",
   },
   {
     title: 'No contracts, no mystery',
-    body: "Published prices, reporting tied to leads, month-to-month after 90 days. If we're not earning it, you leave. That keeps the pressure where it belongs: on us.",
+    body: "Prices published in the open, reporting tied to actual leads, month-to-month once the first 90 days are up. If we stop earning it, you walk. That puts the pressure exactly where it should be: on us.",
   },
 ];
 
 const PROOF = {
-  heading: "We're new, so here's the honest math instead of a logo wall",
+  heading: "We are new, so here is the honest math instead of a logo wall",
   body:
-    "Plenty of agencies will show you a grid of client logos. We're a young, founder-led shop, so we won't pretend to a track record we don't have yet. What we can show you is why this works — straight from Google's and the industry's own research on how people search locally.",
+    "Plenty of agencies will wave a grid of client logos at you. We are a young, founder-led shop, so we are not going to fake a track record we have not built yet. What we can put in front of you is why this approach works, pulled straight from Google's and the industry's own research on how people search close to home.",
   stats: [
     { value: '46%', label: 'of Google searches have local intent', n: 46 },
     { value: '76%', label: 'who search local on a phone visit a business that day', n: 76 },
     { value: '28%', label: 'of local searches end in a purchase', n: 28 },
   ],
   projection:
-    "Here's a rough picture, clearly labelled as a projection and not a result we're claiming: say an Orlando contractor gets around 1,500 local \"near me\" impressions a month. Moving from page-two invisibility into the top three is the difference between a trickle of calls and a booked-out calendar — and in a metro adding tens of thousands of new homeowners a year, that trickle should be growing. In your free audit, we model the real numbers for your business — your rankings, your search volume, and an honest 90-to-180-day path.",
+    "Here is a rough sketch, labelled plainly as an illustration and not a result we are claiming: suppose an Orlando contractor pulls around 1,500 local \"near me\" impressions a month. Climbing out of page-two invisibility and into the top three is the gap between a few stray calls and a calendar that stays full, and in a metro absorbing tens of thousands of new homeowners every year, that flow should only widen. During your free audit we model the real figures for your business: your rankings, your search volume, and a straight 90-to-180-day path.",
   disclaimer:
     "Figures above are published benchmarks (Google / BrightLocal) and an illustrative projection. They are not past results claimed by OnwardCraft.",
   rankTrajectory: [
@@ -109,65 +109,65 @@ export const orlandoLocations = [
   {
     ...BASE,
     citySlug: 'orlando', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Orlando Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Orlando Local SEO Company | Win the Map Pack',
     metaDescription:
-      'Search your service in Orlando and three businesses show up on the map. We get you into those three, in English and Spanish.',
+      'When Orlando searches your service, three businesses show on the map. We put you in those three, in English and Spanish, so the call lands with you.',
     eyebrow: 'Local SEO · Central Florida',
     h1: 'When Orlando searches for what you do, be the first name they find',
     h2Exact: 'Orlando Local SEO Company',
     heroSubhead:
-      "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, in English and in Spanish, so the call lands with you instead of whoever ranked first.",
+      "Type \"near me\" into Google and three businesses claim the map. Everyone underneath them is, for practical purposes, invisible. We move you into that top three, in English and in Spanish, so the next homeowner who searches calls you instead of whoever happened to rank first.",
     primaryCta: 'Get my free Orlando audit',
     intro:
-      "Orlando local SEO is its own kind of fight. The metro is growing fast, so there's a constant flow of new homeowners with no contractor yet, and a big share of them search in Spanish — this is the largest Puerto Rican community on the U.S. mainland. A homeowner in Kissimmee or Lake Nona taps one of the three businesses Google pins to the map and never scrolls. So becoming one of those three is the whole game. Here's how you do it.",
+      "Local SEO in Orlando is a fight with its own rules. The metro keeps swelling, which means a fresh wave of homeowners with nobody saved in their contacts, and a large share of them search in Spanish, because this is the largest Puerto Rican community on the U.S. mainland. A homeowner in Kissimmee or Lake Nona taps one of the three businesses Google pins to the map and never scrolls another inch. Becoming one of those three is the entire ballgame. Here is exactly how you get there.",
     aioQuestion: 'How do Orlando businesses rank higher in local search?',
     aioAnswer:
-      "You rank by getting four things right: a Google Business Profile that's actually optimized for the services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady drip of real reviews; and local content that includes Spanish, since Orlando is home to the largest Puerto Rican community on the mainland. Orlando is fast-growing and hurricane-prone, so the winners look established, answer fast, and show up in both languages.",
-    problemHeading: "If your phone is quiet, it's usually one of these three",
+      "You win by nailing four things: a Google Business Profile genuinely optimized for the services and Central Florida neighborhoods you want, name, address, and phone details that match everywhere on the web, a steady stream of real reviews, and local content that includes Spanish, since Orlando anchors the largest Puerto Rican community on the mainland. Because the metro is booming and hurricane-prone, the businesses that win look established, answer the phone fast, and show up in both languages.",
+    problemHeading: "If your phone is quiet, it is usually one of these three",
     painPoints: [
-      { title: 'Your competitors own the three spots on the map', body: "Search your own service plus \"near me\" right now. See those three businesses Google pins to the map? They get the overwhelming majority of the clicks. If you're not one of them, it almost doesn't matter how good your work is — most people never see your name. Getting into that top three is usually the single highest-return move an Orlando business can make." },
-      { title: "You're paying for leads you don't own", body: "Angi, Thumbtack, and HomeAdvisor sell the same Orlando homeowner to four contractors, then bill each of you to fight over them. It's a treadmill. Local SEO builds the opposite: a lead finds you, calls you, and nobody else got it. Over time you stop renting and start owning." },
-      { title: "You're invisible to a huge Spanish-speaking market", body: "Orlando has the largest Puerto Rican community on the U.S. mainland, and counties like Osceola run over half Hispanic. But your website and Google profile probably only speak English. So every \"plomero cerca de mí\" or \"reparación de aires\" search goes to someone else by default. That's not a small gap." },
+      { title: 'Your competitors own the three spots on the map', body: "Search your own service plus \"near me\" right now. Those three businesses Google pins to the map collect the lion's share of the clicks. If your name is not among them, the quality of your work barely registers, because most people never lay eyes on it. For an Orlando contractor, breaking into that top three is usually the single highest-return move available." },
+      { title: "You are paying for leads you never own", body: "Angi, Thumbtack, and HomeAdvisor sell the same Orlando homeowner to four contractors, then charge each of you to scrap over them. It is a treadmill with no finish line. Local SEO builds the opposite machine: a lead finds you, calls you, and no rival got a copy. Month by month you stop renting and start owning." },
+      { title: "You are invisible to a huge Spanish-speaking market", body: "Orlando is home to the largest Puerto Rican community on the U.S. mainland, and counties like Osceola run past 50 percent Hispanic. Yet your website and Google profile almost certainly speak only English. So every \"plomero cerca de mí\" and \"reparación de aires\" search defaults to someone else. That is not a rounding error, it is a whole market walking past your door." },
     ],
     servicesHeading: 'What it actually takes to rank you',
     services: [
-      { name: 'Google Business Profile', desc: "The biggest lever in the Map Pack. We dial in your categories, services, service area, photos, and posts so Google knows exactly which Orlando searches you should win." },
-      { name: 'Citations and NAP cleanup', desc: "Your name, address, and phone have to match everywhere Google looks. We fix the listings that conflict and build the ones you're missing." },
-      { name: 'Reviews that keep coming', desc: "A simple system that turns finished jobs into a steady flow of reviews. It lifts your ranking and makes people pick up the phone." },
-      { name: 'Neighborhood pages', desc: "Real pages for Winter Park, Lake Nona, Kissimmee, Apopka and the rest, so you rank for the neighborhood someone's actually searching, not just \"Orlando.\"" },
-      { name: 'On-page and technical SEO', desc: "Titles, schema, internal links, mobile speed. The plumbing under the hood that lets everything else rank." },
-      { name: 'Local link building', desc: "Mentions and links from Central Florida sources Google trusts — local press, associations, partners. This is what separates page one from page two here." },
-      { name: 'Spanish-language SEO', desc: "This is the one almost nobody does. Spanish keywords, Spanish profile content, Spanish pages — built to win the huge Hispanic market your competitors ignore.", featured: true },
-      { name: 'AI search readiness', desc: "More \"near me\" research now starts in AI Overviews, ChatGPT, and Perplexity. We structure your content so those tools can read you and cite you.", featured: true },
+      { name: 'Google Business Profile', desc: "The heaviest lever in the Map Pack. We tune your categories, services, service area, photos, and posts so Google knows precisely which Orlando searches belong to you." },
+      { name: 'Citations and NAP cleanup', desc: "Your name, address, and phone have to line up everywhere Google checks. We repair the listings that contradict each other and build the ones you are missing." },
+      { name: 'Reviews that keep coming', desc: "A simple system that turns every finished Central Florida job into a fresh review. It pushes your ranking up and nudges the next caller to dial." },
+      { name: 'Neighborhood pages', desc: "Genuine pages for Winter Park, Lake Nona, Kissimmee, Apopka, and the rest, so you rank for the neighborhood someone is truly searching rather than a generic \"Orlando.\"" },
+      { name: 'On-page and technical SEO', desc: "Titles, schema, internal links, mobile speed. The wiring beneath the floorboards that lets everything else climb." },
+      { name: 'Local link building', desc: "Mentions and links from Central Florida sources Google already trusts: local press, trade associations, partners. Around here, this is what divides page one from page two." },
+      { name: 'Spanish-language SEO', desc: "The edge almost nobody bothers with. Spanish keywords, Spanish profile content, Spanish pages, built to capture the enormous Hispanic market your competitors leave untouched.", featured: true },
+      { name: 'AI search readiness', desc: "More \"near me\" research now kicks off inside AI Overviews, ChatGPT, and Perplexity. We structure your content so those engines can read you and cite you.", featured: true },
     ],
     processName: 'How we work: the Local Lift Method',
     process: [
-      { name: 'Audit and baseline', desc: "We find out where you actually rank today across your service areas, in both languages, and pin down which competitors are beating you and why." },
-      { name: 'Fix the foundation', desc: "Google Business Profile and NAP first, because they move the fastest. You usually see early lift here within a few weeks." },
-      { name: 'Build trust signals', desc: "Citations and the review engine go live. These compound week over week, which is why local SEO rewards starting now over starting later." },
-      { name: 'Add local content', desc: "Neighborhood and service-area pages, in English and Spanish where it pays off, plus the on-page work to back them up." },
-      { name: 'Report and expand', desc: "Plain-English reporting tied to calls and leads, not vanity rankings. Then we go take the next neighborhood." },
+      { name: 'Audit and baseline', desc: "We map where you genuinely rank today across every service area, in both languages, and pinpoint which Central Florida competitors are beating you and why." },
+      { name: 'Fix the foundation', desc: "Google Business Profile and NAP come first, because they move quickest. Early lift here usually shows up inside a few weeks." },
+      { name: 'Build trust signals', desc: "Citations and the review engine go live. These compound week over week, which is exactly why local SEO pays the people who start now rather than later." },
+      { name: 'Add local content', desc: "Neighborhood and service-area pages, in English and Spanish where the math works, plus the on-page work that holds them up." },
+      { name: 'Report and expand', desc: "Plain-English reporting tied to calls and booked jobs, not vanity rankings. Then we go take the next Orlando neighborhood." },
     ],
     pricing: {
       heading: 'Pricing you can actually see',
       note: 'Month-to-month after the first 90 days. No lock-in. Cancel whenever.',
       tiers: [
         { name: 'Local Starter', price: '$750', cadence: '/mo', desc: 'One location, getting the Map Pack foundation right.', features: ['Google Business Profile optimization', 'Citation cleanup and core listings', 'One location or primary service area', 'Review system setup', 'Plain-English monthly report'] },
-        { name: 'Local Growth', price: '$1,500', cadence: '/mo', desc: 'For businesses fighting across several Orlando neighborhoods.', features: ['Everything in Local Starter', 'Up to 5 priority keywords', 'Ongoing review generation', 'Neighborhood landing pages', 'On-page and technical SEO'], featured: true },
+        { name: 'Local Growth', price: '$1,500', cadence: '/mo', desc: 'For businesses scrapping across several Orlando neighborhoods.', features: ['Everything in Local Starter', 'Up to 5 priority keywords', 'Ongoing review generation', 'Neighborhood landing pages', 'On-page and technical SEO'], featured: true },
         { name: 'Local Authority', price: '$2,500', cadence: '/mo', desc: 'For contractors who want Central Florida in both languages.', features: ['Everything in Local Growth', 'Local link building', 'Spanish-language SEO', 'Multi-area and service-area pages', 'AI search optimization'] },
       ],
     },
     faqs: [
-      { q: 'How much does local SEO cost in Orlando?', a: "Most Orlando engagements land between $750 and $2,500 a month, depending on how many neighborhoods and keywords you're going after and whether you want Spanish-language work. Our tiers are right above this. No hidden fees, no long contract, and we confirm the exact scope in your free audit." },
-      { q: 'How long until I show up in the Map Pack?', a: "Profile improvements can move in a few weeks. The competitive Orlando keywords usually take 90 to 180 days of steady work, because reviews and citations compound over time. Anyone promising you page one in 30 days in a market this crowded is selling you something." },
-      { q: 'What makes Orlando local SEO different from regular SEO?', a: "Three things. It's heavily Hispanic — Orlando has the largest Puerto Rican community on the mainland, so a lot of high-intent searches happen in Spanish and most agencies never touch them. It's hurricane-prone, so trades see sharp seasonal spikes your presence has to be ready for. And it's growing fast, with new homeowners arriving every month who don't have a contractor yet." },
-      { q: 'Do you really do Spanish-language SEO?', a: "Yes, and it's one of the biggest edges we give you. Orlando is home to the largest Puerto Rican community on the U.S. mainland, and counties like Osceola run over half Hispanic, but your competitors optimize in English only. We target Spanish keywords and build Spanish profile content and pages, so you catch searches nobody else is even bidding on." },
-      { q: 'Which areas do you cover?', a: "All of metro Orlando and the surrounding cities — Winter Park, Lake Nona, Kissimmee, St. Cloud, Apopka, Oviedo, Winter Garden, Sanford, Altamonte Springs and more. We build genuine neighborhood pages instead of one generic Orlando page, because that's what actually ranks for \"[service] [neighborhood]\" searches." },
-      { q: 'Do you work with contractors specifically?', a: "It's basically all we do. Roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors. We understand emergency calls, storm-driven demand, and insurance jobs, and we build your local SEO around them." },
-      { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
-      { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
-      { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas in both languages, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: 'How much does local SEO cost in Orlando?', a: "Most Orlando engagements land between $750 and $2,500 a month, set by how many neighborhoods and keywords you are chasing and whether you want Spanish-language work. Our tiers sit right above this. No hidden fees, no long contract, and we lock the exact scope during your free audit." },
+      { q: 'How long until I show up in the Map Pack?', a: "Profile improvements can move inside a few weeks. The competitive Orlando keywords usually take 90 to 180 days of steady work, because reviews and citations build up over time. In a market this crowded, anyone promising page one in 30 days is selling you a fairy tale." },
+      { q: 'What makes Orlando local SEO different from regular SEO?', a: "Three things. It is deeply Hispanic: Orlando anchors the largest Puerto Rican community on the mainland, so loads of high-intent searches happen in Spanish that most agencies never touch. It is hurricane-prone, so trades ride sharp seasonal spikes your visibility has to be ready for. And it is growing fast, with new homeowners arriving every month who have nobody to call yet." },
+      { q: 'Do you really do Spanish-language SEO?', a: "Yes, and it is one of the biggest edges we hand you. Orlando holds the largest Puerto Rican community on the U.S. mainland, and counties like Osceola run past 50 percent Hispanic, yet your competitors optimize in English alone. We chase Spanish keywords and build Spanish profile content and pages, so you catch searches nobody else is even bidding on." },
+      { q: 'Which areas do you cover?', a: "Every corner of metro Orlando and the surrounding cities: Winter Park, Lake Nona, Kissimmee, St. Cloud, Apopka, Oviedo, Winter Garden, Sanford, Altamonte Springs, and more. We build real neighborhood pages instead of one catch-all Orlando page, because that is what actually ranks for \"[service] [neighborhood]\" searches." },
+      { q: 'Do you work with contractors specifically?', a: "It is very nearly all we do. Roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors. We get emergency calls, storm-driven demand, and insurance jobs, and we shape your local SEO around them." },
+      { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A rising share of \"near me\" research now starts inside AI rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself." },
+      { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you leave, and the accountability stays squarely on us." },
+      { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that route leads straight to you. As that grows, you lean on the lead brokers less, because the work is already heading your way." },
+      { q: "What is in the free audit?", a: "A clear read on where you rank today across your service areas in both languages, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -175,65 +175,65 @@ export const orlandoLocations = [
   {
     ...BASE,
     citySlug: 'orlando', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Orlando SEO Company | Rank Higher, Get Leads | OnwardCraft',
+    titleTag: 'Orlando SEO Company | Rank Higher, Get Leads',
     metaDescription:
-      'Orlando SEO that ranks contractors on Google and brings in leads you own — in English and Spanish. Revenue-tied reporting, no lock-in contracts.',
+      'Orlando SEO that ranks contractors on Google and delivers leads you own, in English and Spanish. Revenue-tied reporting, no lock-in contracts.',
     eyebrow: 'SEO Services · Central Florida',
     h1: 'Get your Orlando business to the top of Google and keep it there',
     h2Exact: 'Orlando SEO Company',
     heroSubhead:
-      "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Orlando customers search, in both languages, and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
+      "Ads die the instant you stop feeding them. SEO does the opposite: rank once for what your Orlando customers search, in both languages, and the leads keep arriving. We build that ranking and tie every report back to real calls and booked jobs.",
     primaryCta: 'Get my free Orlando SEO audit',
     intro:
-      "SEO services in Orlando come down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords — in English and the Spanish a huge slice of Central Florida actually searches in — and we measure it in leads, not vanity traffic. In a metro growing this fast, the ranking you build now keeps paying as more homeowners move in.",
+      "SEO in Orlando boils down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords, in English and in the Spanish that a huge slice of Central Florida actually types, and we measure the result in leads, not vanity traffic. In a metro filling up this quickly, the ranking you build today keeps paying out as more homeowners move in.",
     aioQuestion: 'How do Orlando businesses rank higher on Google?',
     aioAnswer:
-      "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Central Florida sources. In a fast-growing, heavily Hispanic market like Orlando, ranking in Spanish and keeping the site fast on mobile are two of the quickest ways to pull ahead of competitors who only optimize in English.",
-    problemHeading: "Three reasons your Orlando site isn't bringing in work",
+      "They rank by repairing the site's technical foundation, optimizing each page for the exact terms customers type, publishing genuinely useful local content, and earning links from trusted Central Florida sources. In a fast-growing, heavily Hispanic market like Orlando, ranking in Spanish and keeping the site quick on mobile are two of the fastest ways to leap ahead of competitors who only optimize in English.",
+    problemHeading: "Three reasons your Orlando site is not bringing in work",
     painPoints: [
-      { title: "You're stuck on page two", body: "Almost nobody clicks past the first page of Google, and they rarely scroll far down it. If you're not in the top handful of results for what you sell, your site is basically invisible — no matter how good it looks." },
-      { title: "You're renting traffic from Google Ads", body: "Ads can work, but the moment your card stops, the leads stop. SEO builds an asset you own: rankings that keep producing leads months and years after the work is done, at a fraction of the per-lead cost." },
-      { title: "You're ignoring a big share of Orlando's searches", body: "Orlando has the largest Puerto Rican community on the U.S. mainland, and a lot of high-intent searches happen in Spanish. If your SEO is English-only, you're handing those searches straight to a competitor. We rank you for both." },
+      { title: "You are stranded on page two", body: "Hardly anyone clicks past the first page of Google, and they rarely scroll far down it. If you are not in the top handful of results for what you sell, your site is effectively invisible, no matter how sharp it looks. In Orlando, where new homeowners are searching daily, every day on page two is leads handed to the contractor above you." },
+      { title: "You are renting traffic from Google Ads", body: "Ads can pull their weight, but the second your card stops, the leads stop cold. SEO builds an asset you own: rankings that keep producing Orlando leads months and years after the work is done, at a fraction of the cost per lead." },
+      { title: "You are ignoring a big share of Orlando's searches", body: "Orlando holds the largest Puerto Rican community on the U.S. mainland, and a lot of high-intent searches happen in Spanish. If your SEO is English-only, you are gift-wrapping those searches for a competitor. We rank you in both languages so they stay yours." },
     ],
     servicesHeading: 'The SEO work that actually moves rankings',
     services: [
-      { name: 'Technical SEO', desc: "Crawlability, site speed, Core Web Vitals, schema, and the under-the-hood fixes Google needs before it will rank you at all." },
-      { name: 'On-page optimization', desc: "Every important page tuned for the exact terms your Orlando customers search — titles, headings, content, and internal links." },
-      { name: 'Content that ranks', desc: "Genuinely useful pages and articles that answer what buyers search, earn links, and bring in leads on autopilot." },
-      { name: 'Link building', desc: "Authority from real Central Florida and industry sources. In a competitive market, links are often what separate page one from page two." },
-      { name: 'Local SEO & Google Business Profile', desc: "Map Pack optimization so you win the \"near me\" searches alongside your organic rankings." },
-      { name: 'Revenue-tied reporting', desc: "We report on calls, forms, and leads — not just rankings and traffic — so you always know what your SEO is actually worth." },
-      { name: 'Spanish-language SEO', desc: "We rank you in Spanish too, capturing the large Hispanic market searching in a language your competitors ignore.", featured: true },
-      { name: 'AI search & GEO', desc: "We structure your content so AI Overviews, ChatGPT, and Perplexity surface and cite you, where a growing share of search now begins.", featured: true },
+      { name: 'Technical SEO', desc: "Crawlability, site speed, Core Web Vitals, schema, and the under-the-hood fixes Google demands before it will rank you at all." },
+      { name: 'On-page optimization', desc: "Every page that matters tuned for the exact terms your Orlando customers type: titles, headings, content, and internal links." },
+      { name: 'Content that ranks', desc: "Genuinely useful pages and articles that answer what buyers search, pull in links, and bring leads in on their own." },
+      { name: 'Link building', desc: "Authority from real Central Florida and industry sources. In a market this competitive, links are often the line between page one and page two." },
+      { name: 'Local SEO & Google Business Profile', desc: "Map Pack optimization so you take the \"near me\" searches right alongside your organic rankings." },
+      { name: 'Revenue-tied reporting', desc: "We report on calls, forms, and leads, not just rankings and traffic, so you always know what your SEO is genuinely worth." },
+      { name: 'Spanish-language SEO', desc: "We rank you in Spanish too, scooping up the large Hispanic market searching in a language your competitors flat-out ignore.", featured: true },
+      { name: 'AI search & GEO', desc: "We structure your content so AI Overviews, ChatGPT, and Perplexity surface and cite you, right where a growing share of search now starts.", featured: true },
     ],
     processName: 'How we work: the OnwardCraft SEO method',
     process: [
-      { name: 'Audit and strategy', desc: "We benchmark your rankings, traffic, and competitors, then build a roadmap around the keywords most likely to drive real Orlando leads." },
-      { name: 'Fix the technical base', desc: "Speed, crawlability, schema, and mobile — the foundation everything else needs to rank." },
-      { name: 'Optimize and create content', desc: "On-page work across your money pages plus new local content, in both languages where it pays." },
-      { name: 'Build authority', desc: "Links and citations from trusted Central Florida and industry sources to push competitive keywords onto page one." },
-      { name: 'Report and scale', desc: "Monthly reporting tied to leads, then we double down on what's working and expand into the next keyword set." },
+      { name: 'Audit and strategy', desc: "We benchmark your rankings, traffic, and competitors, then draw a roadmap around the keywords most likely to drive real Orlando leads." },
+      { name: 'Fix the technical base', desc: "Speed, crawlability, schema, and mobile: the foundation everything else needs before it can rank." },
+      { name: 'Optimize and create content', desc: "On-page work across your money pages plus fresh local content, in both languages wherever it pays." },
+      { name: 'Build authority', desc: "Links and citations from trusted Central Florida and industry sources to shove competitive keywords onto page one." },
+      { name: 'Report and scale', desc: "Monthly reporting tied to leads, then we pour fuel on what is working and expand into the next keyword set." },
     ],
     pricing: {
       heading: 'Transparent Orlando SEO pricing',
       note: 'Month-to-month after the first 90 days. No lock-in. Cancel whenever.',
       tiers: [
-        { name: 'SEO Starter', price: '$900', cadence: '/mo', desc: 'For a focused site going after its core local keywords.', features: ['Technical SEO fixes', 'On-page optimization', 'Up to 5 target keywords', 'Google Business Profile', 'Monthly lead-tied report'] },
+        { name: 'SEO Starter', price: '$900', cadence: '/mo', desc: 'For a focused site chasing its core local keywords.', features: ['Technical SEO fixes', 'On-page optimization', 'Up to 5 target keywords', 'Google Business Profile', 'Monthly lead-tied report'] },
         { name: 'SEO Growth', price: '$1,800', cadence: '/mo', desc: 'For contractors competing across services and neighborhoods.', features: ['Everything in SEO Starter', 'Up to 12 target keywords', 'Monthly content', 'Link building', 'On-page + local SEO'], featured: true },
-        { name: 'SEO Authority', price: '$3,000', cadence: '/mo', desc: 'For businesses that want to own Orlando search in both languages.', features: ['Everything in SEO Growth', 'Aggressive content + links', 'Spanish-language SEO', 'eCommerce / multi-location', 'AI search / GEO optimization'] },
+        { name: 'SEO Authority', price: '$3,000', cadence: '/mo', desc: 'For businesses set on owning Orlando search in both languages.', features: ['Everything in SEO Growth', 'Aggressive content + links', 'Spanish-language SEO', 'eCommerce / multi-location', 'AI search / GEO optimization'] },
       ],
     },
     faqs: [
       { q: 'How much does SEO cost in Orlando?', a: "Most Orlando SEO engagements run $900 to $3,000 a month, depending on how competitive your keywords are and whether you need Spanish-language and content work. Our tiers are above, with no hidden fees and no long contract." },
-      { q: 'How long does SEO take to work in Orlando?', a: "Expect early movement in 2 to 3 months and meaningful results in 4 to 6, faster on low-competition terms and slower on the most competitive Orlando keywords. SEO compounds, so the gains keep building the longer you run it." },
-      { q: 'Is SEO better than Google Ads?', a: "They do different jobs. Ads buy instant traffic that stops when you stop paying. SEO is an asset you own that keeps producing leads at a lower cost per lead over time. Most contractors do best running SEO as the long-term engine and ads for short-term spikes." },
-      { q: 'Do you do Spanish-language SEO?', a: "Yes. Orlando is home to the largest Puerto Rican community on the U.S. mainland, and most agencies optimize in English only. We rank you in both languages so you capture searches your competitors don't even target." },
-      { q: "What's included in your SEO service?", a: "Technical SEO, on-page optimization, content, link building, local/Map Pack SEO, and revenue-tied reporting. Higher tiers add Spanish-language and AI-search optimization. We confirm the exact scope in your free audit." },
-      { q: 'Do you require a long-term contract?', a: "No. We ask for an initial 90 days because SEO needs that long to show real movement, then it's month-to-month. If we're not delivering, you leave." },
-      { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
-      { q: 'Which areas around Orlando do you cover?', a: "All of metro Orlando and the surrounding cities — Winter Park, Lake Nona, Kissimmee, St. Cloud, Apopka, Oviedo, Winter Garden, Sanford and more — with genuine local pages rather than one generic Orlando page." },
-      { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: 'How long does SEO take to work in Orlando?', a: "Expect early movement in 2 to 3 months and meaningful results in 4 to 6, quicker on low-competition terms and slower on the fiercest Orlando keywords. SEO compounds, so the gains keep stacking the longer you run it." },
+      { q: 'Is SEO better than Google Ads?', a: "They handle different jobs. Ads buy instant traffic that vanishes when you stop paying. SEO is an asset you own that keeps producing leads at a lower cost per lead over time. Most Orlando contractors do best running SEO as the long-term engine and ads for short bursts, like a hurricane-season push." },
+      { q: 'Do you do Spanish-language SEO?', a: "Yes. Orlando is home to the largest Puerto Rican community on the U.S. mainland, and most agencies optimize in English only. We rank you in both languages so you scoop up searches your competitors never even target." },
+      { q: "What is included in your SEO service?", a: "Technical SEO, on-page optimization, content, link building, local and Map Pack SEO, and revenue-tied reporting. Higher tiers add Spanish-language and AI-search optimization. We confirm the exact scope in your free audit." },
+      { q: 'Do you require a long-term contract?', a: "No. We ask for an initial 90 days because SEO needs that long to show real movement, then it is month-to-month. If we are not delivering, you leave." },
+      { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
+      { q: 'Which areas around Orlando do you cover?', a: "All of metro Orlando and the surrounding cities: Winter Park, Lake Nona, Kissimmee, St. Cloud, Apopka, Oviedo, Winter Garden, Sanford, and more, with genuine local pages rather than one generic Orlando page." },
+      { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
+      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,64 +241,64 @@ export const orlandoLocations = [
   {
     ...BASE,
     citySlug: 'orlando', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Orlando Web Design Company | Sites That Book | OnwardCraft',
+    titleTag: 'Orlando Web Design Company | Sites That Book',
     metaDescription:
-      'Orlando web design that turns visitors into booked jobs — fast, mobile-first, bilingual sites built for contractors. Transparent pricing, you own it all.',
+      'Orlando web design that turns visitors into booked jobs: fast, mobile-first, bilingual sites built for contractors. Transparent pricing, you own it all.',
     eyebrow: 'Web Design · Central Florida',
     h1: 'Orlando web design that turns visitors into booked jobs',
     h2Exact: 'Orlando Web Design Company',
     heroSubhead:
-      "A pretty website that doesn't generate calls is a brochure. We build Orlando contractors fast, mobile-first sites — in English and Spanish — engineered to turn visitors into booked work, not just compliments.",
+      "A handsome website that never rings the phone is just a brochure. We build Orlando contractors fast, mobile-first sites, in English and Spanish, engineered to turn visitors into booked work rather than polite compliments.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Orlando contractor websites lose leads quietly: slow on a phone, buried call button, English-only in a metro with the largest Puerto Rican community on the mainland. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Winter Park-to-Kissimmee visitors into booked jobs.",
+      "Most Orlando contractor websites leak leads quietly: sluggish on a phone, a call button buried three scrolls down, English-only in a metro that anchors the largest Puerto Rican community on the mainland. Web design done right plugs every one of those holes. We build sites that load fast, look like the professional you already are, and turn visitors from Winter Park to Kissimmee into booked jobs.",
     aioQuestion: 'What makes a good contractor website in Orlando?',
     aioAnswer:
       "A good Orlando contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and works in both English and Spanish. Because most Orlando searches happen on mobile and a large share of the market is Hispanic, mobile speed and bilingual content are what separate a site that books jobs from one that just sits there.",
-    problemHeading: "Why your current site isn't bringing in work",
+    problemHeading: "Why your current site is not bringing in work",
     painPoints: [
-      { title: "It's a brochure, not a lead engine", body: "A lot of contractor sites just list services and sit there. No clear offer, no obvious next step, no reason to call you over the next guy. We design every page around one job: turning a visitor into a booked lead." },
-      { title: "It's too slow on a phone", body: "Most of your Orlando visitors are on mobile, and they bounce if your site takes more than a few seconds to load. Slow sites also rank worse. We build fast, so you keep the visitor and the ranking." },
-      { title: "It only speaks English", body: "Orlando has the largest Puerto Rican community on the U.S. mainland, and counties like Osceola run over half Hispanic. An English-only site quietly turns away a big chunk of your potential customers. We build bilingual so you keep them." },
+      { title: "It is a brochure, not a lead engine", body: "Plenty of contractor sites just list services and go quiet. No clear offer, no obvious next step, no reason to pick you over the next name on the map. We design every page around a single job: turning an Orlando visitor into a booked lead." },
+      { title: "It crawls on a phone", body: "Most of your Orlando visitors are on mobile, and they bounce the moment a site takes more than a few seconds to load. Slow sites rank worse too. We build fast, so you keep the visitor and the ranking both." },
+      { title: "It only speaks English", body: "Orlando holds the largest Puerto Rican community on the U.S. mainland, and counties like Osceola run past 50 percent Hispanic. An English-only site quietly turns away a huge chunk of your potential customers. We build bilingual so you keep them." },
     ],
-    servicesHeading: "What's in an OnwardCraft Orlando website",
+    servicesHeading: "What is in an OnwardCraft Orlando website",
     services: [
-      { name: 'Custom design', desc: "No cookie-cutter templates. A site designed around your trade, your service area, and the jobs you actually want." },
-      { name: 'Mobile-first build', desc: "Designed for the phone first, because that's where almost all of your Orlando traffic is. Fast, thumb-friendly, easy to call from." },
-      { name: 'Conversion-focused UX', desc: "Clear offers, obvious call buttons, and lead forms placed where they actually get used. Every page has a next step." },
-      { name: 'Copy that sells', desc: "Words that speak to anxious homeowners and book the job, not filler text that reads like everyone else." },
-      { name: 'Local SEO foundation', desc: "Built from the ground up to rank — clean structure, schema, fast load, and neighborhood-ready pages." },
-      { name: 'Speed & Core Web Vitals', desc: "Tuned to load fast and pass Google's performance checks, which protects both conversions and rankings." },
-      { name: 'Bilingual build', desc: "English and Spanish versions so you capture the large Hispanic market in Orlando — a thing almost no competitor offers.", featured: true },
-      { name: 'AI-search ready', desc: "Structured so AI Overviews and ChatGPT can read and recommend your business as more search shifts to AI.", featured: true },
+      { name: 'Custom design', desc: "No cookie-cutter templates. A site shaped around your trade, your service area, and the Central Florida jobs you actually want more of." },
+      { name: 'Mobile-first build', desc: "Designed for the phone first, because that is where almost all of your Orlando traffic lives. Fast, thumb-friendly, one tap to call." },
+      { name: 'Conversion-focused UX', desc: "Clear offers, unmissable call buttons, and lead forms placed where people actually use them. Every page hands the visitor a next step." },
+      { name: 'Copy that sells', desc: "Words written to reassure an anxious homeowner and book the job, not filler that reads like every other contractor in town." },
+      { name: 'Local SEO foundation', desc: "Built from the ground up to rank: clean structure, schema, fast load, and pages ready for the neighborhoods you serve." },
+      { name: 'Speed & Core Web Vitals', desc: "Tuned to load fast and clear Google's performance checks, which protects both your conversions and your rankings." },
+      { name: 'Bilingual build', desc: "English and Spanish versions so you capture the large Hispanic market in Orlando, something almost no local competitor bothers to offer.", featured: true },
+      { name: 'AI-search ready', desc: "Structured so AI Overviews and ChatGPT can read and recommend your business as more search shifts toward AI.", featured: true },
     ],
     processName: 'How we build: the OnwardCraft process',
     process: [
-      { name: 'Discovery and strategy', desc: "We learn your trade, your service area, your best jobs, and your competitors, then map the site around booking more of the work you want." },
-      { name: 'Design', desc: "We design a custom, mobile-first layout built to convert — you see it and shape it before a line of code is written." },
-      { name: 'Build and copy', desc: "We build it fast and write the copy that sells, in English and Spanish where it pays off." },
+      { name: 'Discovery and strategy', desc: "We learn your trade, your service area, your most profitable jobs, and your competitors, then map the site around booking more of the work you want." },
+      { name: 'Design', desc: "We design a custom, mobile-first layout built to convert. You see it and shape it before a single line of code gets written." },
+      { name: 'Build and copy', desc: "We build it fast and write the copy that sells, in English and Spanish wherever it pays off in Orlando." },
       { name: 'Launch', desc: "We launch cleanly with the SEO foundation, tracking, and speed dialed in from day one." },
-      { name: 'Support and optimize', desc: "We keep it fast and current and tune it based on what's actually converting." },
+      { name: 'Support and optimize', desc: "We keep it fast and current and tune it around what is actually converting visitors into calls." },
     ],
     pricing: {
       heading: 'Transparent Orlando web design pricing',
       note: 'One-time build. 50% to start, 50% at launch. You own everything. No lock-in.',
       tiers: [
         { name: 'Starter Site', price: '$2,000', cadence: '', desc: 'A focused, high-converting site for a single-trade contractor.', features: ['Up to 5 custom pages', 'Mobile-first design', 'Lead forms + call buttons', 'Local SEO foundation', 'You own the site'] },
-        { name: 'Growth Site', price: '$4,500', cadence: '', desc: 'A bigger site for established contractors with several services.', features: ['Up to 12 pages', 'Custom design + copywriting', 'Service + neighborhood pages', 'Speed & Core Web Vitals', 'Bilingual-ready'], featured: true },
+        { name: 'Growth Site', price: '$4,500', cadence: '', desc: 'A bigger site for established contractors juggling several services.', features: ['Up to 12 pages', 'Custom design + copywriting', 'Service + neighborhood pages', 'Speed & Core Web Vitals', 'Bilingual-ready'], featured: true },
         { name: 'Custom Build', price: '$8,000', cadence: '', desc: 'A full custom build for multi-service or multi-location businesses.', features: ['Fully custom design', 'Full bilingual build', 'Advanced SEO + schema', 'Integrations & booking', 'AI-search optimization'] },
       ],
     },
     faqs: [
-      { q: 'How much does a website cost in Orlando?', a: "Most contractor websites with us run $2,000 to $8,000 as a one-time build, depending on page count, whether you need a full bilingual version, and integrations. Our tiers are above — fixed price, no surprises, and you own the finished site." },
-      { q: 'How long does it take to build?', a: "A focused site takes about 2 to 4 weeks; a larger custom or bilingual build takes 4 to 8. We give you a firm timeline up front and keep you updated through each stage." },
-      { q: 'Do you build Spanish-language websites?', a: "Yes, and in Orlando it's one of the smartest things you can do. The metro is home to the largest Puerto Rican community on the mainland, so a bilingual site captures customers an English-only competitor turns away." },
-      { q: 'Will my new site actually rank on Google?', a: "We build every site on a local-SEO foundation — fast load, clean structure, schema, and neighborhood-ready pages. The build gets you ready to rank; pairing it with our SEO service is how you climb the competitive Orlando terms." },
-      { q: 'Do I own the website?', a: "Completely. You own the site, the domain, and the content. No hostage situations, no platforms you can't leave." },
-      { q: 'Will it work well on phones?', a: "We design mobile-first, because that's where almost all of your Orlando traffic comes from. Fast load, easy-to-tap call buttons, and forms built for a thumb." },
-      { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
+      { q: 'How much does a website cost in Orlando?', a: "Most contractor websites with us run $2,000 to $8,000 as a one-time build, set by page count, whether you need a full bilingual version, and any integrations. Our tiers are above: fixed price, no surprises, and you own the finished site outright." },
+      { q: 'How long does it take to build?', a: "A focused site takes about 2 to 4 weeks; a larger custom or bilingual build runs 4 to 8. We hand you a firm timeline up front and keep you posted through each stage." },
+      { q: 'Do you build Spanish-language websites?', a: "Yes, and in Orlando it is one of the smartest moves you can make. The metro anchors the largest Puerto Rican community on the mainland, so a bilingual site captures customers an English-only competitor turns away at the door." },
+      { q: 'Will my new site actually rank on Google?', a: "We build every site on a local-SEO foundation: fast load, clean structure, schema, and pages ready for your neighborhoods. The build gets you primed to rank; pairing it with our SEO service is how you climb the competitive Orlando terms." },
+      { q: 'Do I own the website?', a: "Completely. You own the site, the domain, and the content. No hostage situations, no platforms you cannot leave." },
+      { q: 'Will it work well on phones?', a: "We design mobile-first, because that is where almost all of your Orlando traffic comes from. Fast load, easy-to-tap call buttons, and forms built for a thumb." },
+      { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can genuinely manage, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs in plain language." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
-      { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
+      { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you like." },
       { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Orlando site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
@@ -307,44 +307,44 @@ export const orlandoLocations = [
   {
     ...BASE,
     citySlug: 'orlando', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Orlando Website Redesign | More Leads, No Loss | OnwardCraft',
+    titleTag: 'Orlando Website Redesign | More Leads, No Loss',
     metaDescription:
       'Redesign your Orlando website without losing rankings. Faster, mobile-first, bilingual rebuilds that convert more visitors into booked jobs.',
     eyebrow: 'Website Redesign · Central Florida',
     h1: 'Redesign your Orlando website without losing your rankings',
     h2Exact: 'Orlando Website Redesign Company',
     heroSubhead:
-      "An outdated site costs you jobs every week — slow, hard to use on a phone, English-only. We redesign Orlando contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
+      "An outdated site bleeds jobs every week: slow, clumsy on a phone, English-only. We redesign Orlando contractor sites to convert more and load faster, then migrate with such care that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Orlando contractor sites for speed and conversions, build them bilingual for the metro's large Hispanic market, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Most redesigns fail in one of two ways: the site looks sharper but converts exactly the same, or it launches and the rankings evaporate overnight. We do neither. We redesign Orlando contractor sites for speed and conversions, build them bilingual for the metro's large Hispanic market, and migrate with the redirects and SEO care that guard the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
-      "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
+      "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
     problemHeading: "Signs your Orlando site is overdue for a redesign",
     painPoints: [
-      { title: "It looks dated and costs you trust", body: "For a high-ticket job, homeowners judge you by your site in seconds. An old, cluttered design quietly sends them to a competitor who looks more established — even when your work is better." },
-      { title: "It's slow and hard to use on a phone", body: "If your site is clunky or slow on mobile, you're losing the majority of your Orlando visitors before they ever see your offer. A redesign built mobile-first wins them back." },
-      { title: "It doesn't convert — or speak Spanish", body: "Traffic that doesn't turn into calls is wasted, and an English-only site ignores the large Hispanic market in Orlando. We rebuild for conversions and for both languages." },
+      { title: "It looks dated and quietly costs you trust", body: "On a high-ticket job, an Orlando homeowner sizes you up by your site in seconds. An old, cluttered design nudges them toward a competitor who simply looks more established, even when your work runs circles around theirs." },
+      { title: "It is slow and awkward on a phone", body: "If your site stutters or crawls on mobile, you are losing most of your Orlando visitors before they ever reach your offer. A redesign built mobile-first wins them back." },
+      { title: "It does not convert, or speak Spanish", body: "Traffic that never turns into calls is money down the drain, and an English-only site shrugs off the large Hispanic market in Orlando. We rebuild for conversions and for both languages at once." },
     ],
-    servicesHeading: "What's in an OnwardCraft redesign",
+    servicesHeading: "What is in an OnwardCraft redesign",
     services: [
-      { name: 'Redesign audit', desc: "We pinpoint exactly what's costing you leads and rankings today, so the redesign fixes real problems instead of just changing colors." },
-      { name: 'SEO-safe migration', desc: "Redirects, metadata, and schema handled properly so you keep the rankings and traffic you've already earned." },
-      { name: 'Conversion redesign', desc: "Clear offers, better call-to-action placement, and lead forms that actually get used. We design for booked jobs, not just looks." },
-      { name: 'Speed overhaul', desc: "We rebuild for fast load and passing Core Web Vitals — better for both conversions and rankings." },
-      { name: 'Mobile-first rebuild', desc: "Redesigned around the phone, where almost all your Orlando traffic lives." },
-      { name: 'Brand refresh', desc: "A modern, trustworthy look that matches the quality of your work and the price of your jobs." },
-      { name: 'Bilingual rebuild', desc: "English and Spanish versions so the new site captures the large Hispanic market in Orlando.", featured: true },
-      { name: 'AI-search ready', desc: "Structured so AI Overviews and ChatGPT can read and recommend you as search shifts toward AI.", featured: true },
+      { name: 'Redesign audit', desc: "We pin down exactly what is costing you leads and rankings today, so the redesign fixes real problems instead of just swapping the colors around." },
+      { name: 'SEO-safe migration', desc: "Redirects, metadata, and schema handled properly so you keep the rankings and Orlando traffic you have already earned." },
+      { name: 'Conversion redesign', desc: "Clear offers, smarter call-to-action placement, and lead forms people actually fill out. We design for booked jobs, not just a pretty screenshot." },
+      { name: 'Speed overhaul', desc: "We rebuild for fast load and passing Core Web Vitals, which lifts both conversions and rankings." },
+      { name: 'Mobile-first rebuild', desc: "Redesigned around the phone, where almost all of your Orlando traffic actually lives." },
+      { name: 'Brand refresh', desc: "A modern, trustworthy look that matches the quality of your work and the price tag on your jobs." },
+      { name: 'Bilingual rebuild', desc: "English and Spanish versions so the new site captures the large Hispanic market across Orlando.", featured: true },
+      { name: 'AI-search ready', desc: "Structured so AI Overviews and ChatGPT can read and recommend you as search keeps shifting toward AI.", featured: true },
     ],
     processName: 'How we redesign: a careful rebuild',
     process: [
-      { name: 'Audit and plan', desc: "We analyze what's losing you leads and rankings, then map a redesign that fixes it without breaking what already works." },
-      { name: 'Design', desc: "A modern, mobile-first, conversion-focused design you review and shape before we build." },
+      { name: 'Audit and plan', desc: "We analyze what is losing you leads and rankings, then map a redesign that fixes it without breaking the parts already working." },
+      { name: 'Design', desc: "A modern, mobile-first, conversion-focused design you review and shape before we touch the build." },
       { name: 'Rebuild and migrate', desc: "We rebuild fast and bilingual, and prepare every redirect and SEO detail for a clean migration." },
-      { name: 'Launch with SEO care', desc: "We launch with redirects in place and monitor closely so rankings hold and improve, not drop." },
-      { name: 'Optimize', desc: "Post-launch tuning based on what's converting, plus ongoing speed and updates." },
+      { name: 'Launch with SEO care', desc: "We launch with redirects in place and watch closely so rankings hold and climb, never drop." },
+      { name: 'Optimize', desc: "Post-launch tuning based on what is converting, plus ongoing speed and updates." },
     ],
     pricing: {
       heading: 'Transparent Orlando redesign pricing',
@@ -356,40 +356,40 @@ export const orlandoLocations = [
       ],
     },
     faqs: [
-      { q: 'How much does a website redesign cost in Orlando?', a: "Most redesigns with us run $2,500 to $9,000 as a one-time project, depending on size, whether you need a full bilingual version, and integrations. Fixed price, no surprises, and you own the result." },
-      { q: 'Will I lose my Google rankings if I redesign?', a: "Not if it's done carefully, and that's exactly how we work. We map 301 redirects for every changed URL, preserve content and metadata, migrate your schema, and test on staging first. Done right, a redesign holds your rankings and usually improves them." },
-      { q: 'How long does a redesign take?', a: "A focused redesign takes about 3 to 5 weeks; a larger or bilingual rebuild takes 5 to 9. You get a firm timeline up front and updates at each stage." },
-      { q: 'How do I know I need a redesign?', a: "If your site is slow on phones, looks dated, is hard to update, isn't bringing in leads, or only speaks English in a heavily Hispanic metro like Orlando, it's costing you work. The free audit tells you plainly whether a redesign is worth it." },
-      { q: 'Do you migrate my existing content?', a: "Yes. We carry over and improve your existing content, preserve what's ranking, and handle the technical migration so nothing important gets lost." },
+      { q: 'How much does a website redesign cost in Orlando?', a: "Most redesigns with us run $2,500 to $9,000 as a one-time project, set by size, whether you need a full bilingual version, and any integrations. Fixed price, no surprises, and you own the result." },
+      { q: 'Will I lose my Google rankings if I redesign?', a: "Not if it is handled carefully, and that is exactly how we work. We map 301 redirects for every changed URL, preserve content and metadata, migrate your schema, and test on staging first. Done right, a redesign holds your rankings and usually nudges them upward." },
+      { q: 'How long does a redesign take?', a: "A focused redesign takes about 3 to 5 weeks; a larger or bilingual rebuild runs 5 to 9. You get a firm timeline up front and updates at each stage." },
+      { q: 'How do I know I need a redesign?', a: "If your site is slow on phones, looks dated, is a pain to update, is not bringing in leads, or speaks only English in a heavily Hispanic metro like Orlando, it is costing you work. The free audit tells you plainly whether a redesign is worth it." },
+      { q: 'Do you migrate my existing content?', a: "Yes. We carry over and sharpen your existing content, preserve what is ranking, and handle the technical migration so nothing important slips through the cracks." },
       { q: 'Can you make my redesigned site bilingual?', a: "Absolutely, and in Orlando we recommend it. A bilingual rebuild captures the large Hispanic market, including the largest Puerto Rican community on the U.S. mainland." },
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
-      { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
+      { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
 
 // ===========================================================================
-// ORLANDO — city hub (renders at /orlando/)
+// ORLANDO: city hub (renders at /orlando/)
 // ===========================================================================
 export const orlandoCity = {
   citySlug: 'orlando', city: 'Orlando', state: 'Florida', stateAbbr: 'FL', metro: 'Central Florida',
 
   titleTag: 'Orlando Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Orlando contractors — in English and Spanish. Get found, get booked, and own your leads instead of renting them.',
+    'Web design, SEO, and local SEO for Orlando contractors, in English and Spanish. Get found, get booked, and own your leads instead of renting them.',
 
   eyebrow: 'Orlando · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Orlando contractors found and booked',
   h2Exact: 'Orlando Marketing Agency for Contractors',
   heroSubhead:
-    "Websites, SEO, and local SEO built for Orlando's fast-growing, heavily Hispanic, hurricane-driven market. One team to get you ranking, converting, and off the rented-lead treadmill — in English and Spanish.",
+    "Websites, SEO, and local SEO built for Orlando's fast-growing, heavily Hispanic, hurricane-driven market. One team to get you ranking, converting, and off the rented-lead treadmill, in English and Spanish.",
   heroProof: ['Built for the trades', 'English + Spanish', 'No lock-in contracts'],
   primaryCta: 'Get my free Orlando audit',
 
   intro:
-    "If you run a contracting business in Orlando, you're fighting for attention in one of the fastest-growing and most Hispanic markets in the country. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack — all in English and Spanish. Here's how we help Orlando contractors do exactly that.",
+    "If you run a contracting business in Orlando, you are fighting for attention in one of the fastest-growing and most Hispanic markets in the country. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that drops you into the Map Pack, all in English and Spanish. Here is how we help Orlando contractors do exactly that.",
   aioQuestion: 'How do Orlando contractors get more leads online?',
   aioAnswer:
     "Orlando contractors get more leads by combining a fast, mobile-first, bilingual website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Orlando is home to the largest Puerto Rican community on the mainland and demand spikes during hurricane season, the contractors who show up in both languages and look established win the most work.",
@@ -403,28 +403,28 @@ export const orlandoCity = {
   services: [
     {
       service: 'Local SEO', serviceSlug: 'local-seo', tagline: 'Win the Map Pack',
-      blurb: "Get into the top three businesses Google pins to the map when Orlando searches \"near me\" — in English and Spanish. The single highest-return move for most local businesses.",
+      blurb: "Break into the top three businesses Google pins to the map when Orlando searches \"near me,\" in English and Spanish. For most local businesses it is the single highest-return move on the board.",
     },
     {
       service: 'SEO Services', serviceSlug: 'seo-services', tagline: 'Rank higher, get leads',
-      blurb: "Rank for the money keywords your customers actually search, build an asset you own instead of renting traffic from ads, and measure it in leads, not vanity traffic.",
+      blurb: "Rank for the money keywords your Orlando customers actually type, build an asset you own instead of renting traffic from ads, and measure it in leads, not vanity traffic.",
     },
     {
       service: 'Web Design', serviceSlug: 'web-design', tagline: 'Sites that convert',
-      blurb: "Fast, mobile-first, bilingual websites engineered to turn visitors into booked jobs — not brochures that just sit there and look nice.",
+      blurb: "Fast, mobile-first, bilingual websites engineered to turn Orlando visitors into booked jobs, not brochures that just sit there looking nice.",
     },
     {
       service: 'Website Redesign', serviceSlug: 'website-redesign', tagline: 'More leads, no traffic loss',
-      blurb: "Rebuild an outdated site for speed and conversions, and migrate it carefully so you keep every bit of ranking you've already earned.",
+      blurb: "Rebuild an outdated site for speed and conversions, then migrate it carefully so you keep every bit of ranking you have already earned.",
     },
   ],
 
   faqs: [
-    { q: 'What marketing services do you offer in Orlando?', a: "Four core services for contractors: web design, website redesign, SEO, and local SEO. Most clients combine a high-converting website with SEO and local SEO so they rank, convert, and own their leads. Everything is available in English and Spanish." },
-    { q: 'Do you work only with contractors?', a: "Almost entirely. We specialize in home-service trades — roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors — so we understand emergency calls, storm-driven demand, and insurance work." },
-    { q: 'Do you offer services in Spanish?', a: "Yes, and in Orlando it's a major advantage. The metro is home to the largest Puerto Rican community on the U.S. mainland, but most agencies optimize in English only. We build and rank you in both languages." },
+    { q: 'What marketing services do you offer in Orlando?', a: "Four core services for contractors: web design, website redesign, SEO, and local SEO. Most clients pair a high-converting website with SEO and local SEO so they rank, convert, and own their leads. Everything is available in English and Spanish." },
+    { q: 'Do you work only with contractors?', a: "Almost entirely. We specialize in home-service trades, roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors, so we understand emergency calls, storm-driven demand, and insurance work." },
+    { q: 'Do you offer services in Spanish?', a: "Yes, and in Orlando it is a major advantage. The metro anchors the largest Puerto Rican community on the U.S. mainland, yet most agencies optimize in English only. We build and rank you in both languages." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
-    { q: 'Which Orlando areas do you serve?', a: "All of metro Orlando and the surrounding cities — Winter Park, Lake Nona, Kissimmee, St. Cloud, Apopka, Oviedo, Winter Garden, Sanford, Altamonte Springs and more." },
-    { q: 'Where should I start?', a: "Start with a free Orlando audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Which Orlando areas do you serve?', a: "All of metro Orlando and the surrounding cities: Winter Park, Lake Nona, Kissimmee, St. Cloud, Apopka, Oviedo, Winter Garden, Sanford, Altamonte Springs, and more." },
+    { q: 'Where should I start?', a: "Start with a free Orlando audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };
