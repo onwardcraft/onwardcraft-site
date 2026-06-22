@@ -1,4 +1,4 @@
-// KILLEEN — per-metro × per-service local landing pages + city hub.
+// KILLEEN: military-market local landing pages built around Fort Cavazos.
 // Service pages render via /[city]/[service]/; the hub renders via /[city]/.
 // BUILD with the `onward-local-page` skill. SPEC: content/lead-content-plan/08 + 09.
 //
@@ -6,19 +6,19 @@
 // or results. Ship Service + FAQPage + Breadcrumb schema; NEVER Review schema.
 // Map Pack = illustration; rank chart = labelled projection.
 //
-// Per-city shared blocks (MARKET, AREAS, FOUNDER, WHY, PROOF, BASE) are defined
-// once and reused across Killeen's 4 service pages and the hub, because they
-// describe the same city. Service-specific blocks are authored per entry.
-// PRICING is fixed for cross-city consistency.
+// Per-city shared blocks (MARKET, AREAS, FOUNDER, WHY, PROOF, BASE) live here
+// once and feed all four Killeen service pages plus the hub, since they all
+// describe one city. Anything service-specific gets written inside its entry.
+// PRICING stays fixed so quotes match from city to city.
 
 // ===========================================================================
-// KILLEEN — shared city blocks
+// KILLEEN: shared city blocks
 // ===========================================================================
 const MARKET = {
-  heading: 'Why ranking in Killeen is unlike any other Texas market',
+  heading: 'What really sets the Killeen contractor market apart',
   body:
-    "The Killeen-Temple metro is defined by one force that no other Texas market shares: Fort Cavazos, the largest US Army post by active-duty troop count, with more than 45,000 soldiers and their families stationed here at any given time. Every 2 to 3 years, a massive wave of those families receives PCS orders — Permanent Change of Station — packs up, and searches Google for a new contractor on arrival. That cycle never stops. It means Killeen generates an extraordinary volume of contractor searches relative to its size, and it means a contractor who ranks is capturing customers who are highly motivated to book fast. Layer on Central Texas heat that pushes HVAC demand hard from June through September, spring tornado and hail seasons that drive roofing demand from March through June, and the 2021 freeze that left thousands of homes with burst pipes, and you have a market where demand spikes are the norm, not the exception. The businesses already ranking are the ones booking all of it.",
-  pullQuote: 'Fort Cavazos generates more contractor searches per capita than almost any civilian market — and the PCS cycle never stops.',
+    "One force shapes the Killeen-Temple metro that no other Texas market has to reckon with: Fort Cavazos, one of the largest US Army posts by active-duty count, with more than 45,000 soldiers and their families based here at any moment. Every two to three years a fresh wave of those families gets Permanent Change of Station orders, packs the truck, and pulls up Google for a contractor the week they land somewhere new. That churn does not pause. It means Killeen throws off an outsized run of contractor searches for a town this size, and it means a business that ranks is reaching buyers who have to book in a hurry. Stack on Central Texas heat that hammers HVAC demand from June into September, spring tornado and hail seasons that pack a roofer's calendar from March through June, and the memory of the 2021 freeze that burst pipes in thousands of homes, and you get a market where the demand spike is the routine, not the exception. The shops already ranking are the ones booking every bit of it.",
+  pullQuote: 'A town that turns over thousands of families every couple of years generates contractor searches a civilian market never sees, and the cycle does not stop.',
   donut: {
     title: 'Military connection in Killeen',
     value: 45,
@@ -28,8 +28,8 @@ const MARKET = {
       { label: 'Civilian', pct: 55, kind: 'grey' },
     ],
   },
-  seasonTitle: 'When trade demand spikes',
-  seasonCaption: 'Storms + HVAC (Mar–Sep), freeze emergencies (Dec–Feb)',
+  seasonTitle: 'When the Killeen phones light up',
+  seasonCaption: 'Storms and HVAC (Mar to Sep), freeze events (Dec to Feb)',
   seasonalDemand: [
     { m: 'J', v: 58 }, { m: 'F', v: 70, peak: true }, { m: 'M', v: 85, peak: true }, { m: 'A', v: 92, peak: true },
     { m: 'M', v: 90, peak: true }, { m: 'J', v: 95, peak: true }, { m: 'J', v: 96, peak: true },
@@ -61,33 +61,33 @@ const FOUNDER =
 const WHY = [
   {
     title: 'We only do the trades',
-    body: "Roofing, HVAC, plumbing, solar, electrical, restoration, GCs. We understand PCS season, storm season, freeze emergencies, and insurance work, so everything we build is shaped around how your customers really search.",
+    body: "Roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors. We know what a July AC failure in 105-degree heat does to a phone line, how hail season fills a roofer's week, and how a family fresh off PCS orders shops for a contractor, so the work we build matches how your buyers actually search.",
   },
   {
     title: 'We get you off rented leads',
-    body: "The whole goal is a pipeline you own. Not another monthly invoice to a lead broker for homeowners three competitors also bought — especially when a military family just got to town and needs to book someone this week.",
+    body: "What we are after is a pipeline that belongs to you. Not one more monthly check to a lead broker for a soldier's family that three other contractors are calling the same afternoon they landed in town.",
   },
   {
     title: 'We actually speak Killeen',
-    body: "Fort Cavazos PCS demand, Central Texas heat, tornado and hail season, and the unique rhythm of a military-heavy market. The stuff a national agency can't do by swapping a city name into a template.",
+    body: "The Fort Cavazos turnover, the Central Texas heat that never lets up in summer, the spring storms that roll across Bell County, and the way a transient military town searches and books differently than anywhere else. That is ground knowledge a national shop cannot fake by find-and-replacing a city name.",
   },
   {
     title: 'No contracts, no mystery',
-    body: "Published prices, reporting tied to leads, month-to-month after 90 days. If we're not earning it, you leave. That keeps the pressure where it belongs: on us.",
+    body: "Prices are posted, the reporting maps to real leads, and you go month-to-month once the first 90 days are up. If we are not paying for ourselves, you cut us loose. That puts the pressure on us, which is where it should sit.",
   },
 ];
 
 const PROOF = {
   heading: "We're new, so here's the honest math instead of a logo wall",
   body:
-    "Plenty of agencies will show you a grid of client logos. We're a young, founder-led shop, so we won't pretend to a track record we don't have yet. What we can show you is why this works — straight from Google's and the industry's own research on how people search locally.",
+    "Most agencies lead with a wall of client logos. We are a young, founder-led shop, so we are not going to invent a track record we have not earned yet. What we will give you instead is the reasoning, taken straight from Google's and the industry's own data on how people search for a contractor near them.",
   stats: [
     { value: '46%', label: 'of Google searches have local intent', n: 46 },
     { value: '76%', label: 'who search local on a phone visit a business that day', n: 76 },
     { value: '28%', label: 'of local searches end in a purchase', n: 28 },
   ],
   projection:
-    "Here's a rough picture, clearly labelled as a projection and not a result we're claiming: say a Killeen contractor gets around 1,200 local \"near me\" impressions a month. Moving from page-two invisibility into the top three is the difference between a trickle of calls and a booked-out calendar — and during PCS season or after a hail storm, that gap gets even wider. In your free audit, we model the real numbers for your business — your rankings, your search volume, and an honest 90-to-180-day path.",
+    "Here is a rough sketch, marked plainly as an illustration and not a result we are claiming: say a Killeen contractor draws around 1,200 local \"near me\" impressions a month. Climbing out of page-two invisibility into the top three is the gap between a handful of stray calls and a calendar you cannot keep up with, and the moment a PCS wave lands or hail tears through Bell County, that gap stretches even wider. In your free audit we run the real figures for your shop: your current rankings, your actual search volume, and a straight 90-to-180-day route to the top of the map.",
   disclaimer:
     "Figures above are published benchmarks (Google / BrightLocal) and an illustrative projection. They are not past results claimed by OnwardCraft.",
   rankTrajectory: [
@@ -111,63 +111,63 @@ export const killeenLocations = [
     citySlug: 'killeen', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Killeen Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Killeen and three businesses show up on the map. We get you into those three, so the call lands with you — especially during PCS season.',
+      'Search your service in Killeen and three businesses show up on the map. We get you into those three so the call lands with you, especially when a PCS wave hits.',
     eyebrow: 'Local SEO · Killeen-Temple (Fort Cavazos)',
     h1: 'When Killeen searches for what you do, be the first name they find',
     h2Exact: 'Killeen Local SEO Company',
     heroSubhead:
-      "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the call lands with you instead of whoever ranked first — and so you're ready when PCS season and Central Texas storms send demand through the roof.",
+      "When a homeowner searches \"near me,\" Google drops three businesses on the map and treats the rest as if they are not there. We push you into that top three so the call rings your phone instead of whoever happened to rank first, and so you are already in place when a fresh batch of PCS orders and a Central Texas heat wave light the phones up at once.",
     primaryCta: 'Get my free Killeen audit',
     intro:
-      "Killeen local SEO comes down to one thing: when a military family just arrived at Fort Cavazos searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. With thousands of PCS arrivals every year and brutal Central Texas heat and storm seasons driving year-round demand spikes, being one of those three is the whole game. Here's how you do it.",
+      "Killeen local SEO turns on a single moment: a family that just unloaded at Fort Cavazos opens their phone, types your service plus \"near me,\" and either you are one of the three names pinned to the map or you may as well not exist. Most people tap one of those three and never scroll past them. With thousands of soldiers cycling through every year and summer heat plus spring storms keeping demand high all year, owning one of those slots is the whole contest. Here is how we get you there.",
     aioQuestion: 'How do Killeen businesses rank higher in local search?',
     aioAnswer:
-      "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Killeen-area neighborhoods. In a military market like Killeen, showing up fast and looking established matters enormously — PCS families have a short window to find and book a contractor, and they're searching from a phone the moment they arrive.",
+      "You rank by nailing four things: a Google Business Profile tuned to the exact services and neighborhoods you want, name-address-phone details that match everywhere online, a steady drip of genuine reviews, and local content built around real Killeen-area places. In a town where the population keeps turning over, looking established and answering fast wins. A PCS family has days, not weeks, to book a contractor, and they are searching from a phone the hour they roll in.",
     problemHeading: "If your phone is quiet, it's usually one of these three",
     painPoints: [
-      { title: 'Your competitors own the three spots on the map', body: "Search your own service plus \"near me\" right now. See those three businesses Google pins to the map? They get the overwhelming majority of the clicks. If you're not one of them, it almost doesn't matter how good your work is — most people never see your name. Getting into that top three is usually the single highest-return move a Killeen contractor can make, because that's where PCS families and hail-storm homeowners both land." },
-      { title: "You're paying for leads you don't own", body: "Angi, Thumbtack, and HomeAdvisor sell the same Killeen homeowner to four contractors, then bill each of you to fight over them. It's a treadmill. Local SEO builds the opposite: a military family finds you, calls you, and nobody else got it. Over time you stop renting and start owning the pipeline." },
-      { title: "You're not ready when demand spikes", body: "When a hail storm rolls through Bell County, when temperatures hit 105°F in July, or when a new PCS wave arrives at Fort Cavazos, searches spike and the contractors already ranking take the calls. If you're invisible on the map when the next surge hits, the work goes to whoever Google already trusts." },
+      { title: 'Three businesses own the map and you are not one of them', body: "Pull up your phone and search your own service plus \"near me\" right now. The three names Google pins to the map take the lion's share of the taps. Land outside that pack and the quality of your crew barely registers, because the searcher never scrolls down to read your name. For a Killeen contractor, fighting your way into those three slots is usually the highest-return move on the board, since that is exactly where the just-arrived PCS family and the hail-battered homeowner both land first." },
+      { title: 'You keep renting leads instead of owning them', body: "Angi, Thumbtack, and HomeAdvisor sell the same Killeen homeowner to four contractors at once, then charge each of you to scrap over the same call. That is rent, not a pipeline. Local SEO flips it: a soldier's family finds you, dials you, and no competitor got a copy of that lead. Stick with it and you trade the broker invoice for work that belongs to you." },
+      { title: 'You miss the surge because you are invisible when it hits', body: "When hail rips across Bell County, when the thermometer pins 105 in July, or when a new rotation of PCS families pours into Fort Cavazos, search volume jumps and the contractors already on the map sweep up the calls. Sit on page two when the next surge breaks and the booked jobs flow to whoever Google already trusts, not to whoever does sharper work." },
     ],
     servicesHeading: 'What it actually takes to rank you',
     services: [
-      { name: 'Google Business Profile', desc: "The biggest lever in the Map Pack. We dial in your categories, services, service area, photos, and posts so Google knows exactly which Killeen searches you should win." },
-      { name: 'Citations and NAP cleanup', desc: "Your name, address, and phone have to match everywhere Google looks. We fix the listings that conflict and build the ones you're missing." },
-      { name: 'Reviews that keep coming', desc: "A simple system that turns finished jobs into a steady flow of reviews. It lifts your ranking and makes people pick up the phone — especially military families who are new to town and don't know anyone yet." },
-      { name: 'Neighborhood pages', desc: "Real pages for Fort Cavazos, Harker Heights, Copperas Cove, Nolanville, Temple and the rest, so you rank for the neighborhood someone's actually searching, not just \"Killeen.\"" },
-      { name: 'On-page and technical SEO', desc: "Titles, schema, internal links, mobile speed. The plumbing under the hood that lets everything else rank." },
-      { name: 'Local link building', desc: "Mentions and links from Central Texas sources Google trusts — local press, associations, Fort Cavazos community resources, partners. This is what separates page one from page two here." },
-      { name: 'PCS-season and storm readiness', desc: "We get your profile, pages, and reviews ranking before PCS waves and storm season so you catch the demand spike instead of scrambling for it after the fact.", featured: true },
-      { name: 'AI search readiness', desc: "More \"near me\" research now starts in AI Overviews, ChatGPT, and Perplexity. We structure your content so those tools can read you and cite you.", featured: true },
+      { name: 'Google Business Profile', desc: "The heaviest lever in the Map Pack. We set your categories, services, service area, photos, and posts so Google can tell exactly which Killeen searches ought to be yours." },
+      { name: 'Citations and NAP cleanup', desc: "Your name, address, and phone need to read the same wherever Google looks. We clean up the listings that disagree and add the ones nobody ever built for you." },
+      { name: 'Reviews that keep coming', desc: "A plain system that turns each finished job into another fresh review. It nudges your ranking up and gives the next caller a reason to trust you, which counts double for a family that just moved in and knows nobody in town." },
+      { name: 'Neighborhood pages', desc: "Genuine pages for Fort Cavazos, Harker Heights, Copperas Cove, Nolanville, Temple and the rest, so you turn up for the exact spot somebody typed instead of a flat \"Killeen.\"" },
+      { name: 'On-page and technical SEO', desc: "Titles, schema, internal links, and mobile load. The wiring behind the wall that lets everything else stand a chance of ranking." },
+      { name: 'Local link building', desc: "Mentions and links from Central Texas sources Google respects: area press, trade groups, off-post community resources, partners. In this market that is frequently the line between page one and page two." },
+      { name: 'PCS and storm readiness', desc: "We get your profile, pages, and reviews ranking ahead of the next PCS rotation and storm season, so you catch the spike when it breaks rather than hustling to catch up after.", featured: true },
+      { name: 'AI search readiness', desc: "A growing share of \"near me\" research now kicks off inside AI Overviews, ChatGPT, and Perplexity. We shape your content so those tools can read you and name you in an answer.", featured: true },
     ],
     processName: 'How we work: the Local Lift Method',
     process: [
-      { name: 'Audit and baseline', desc: "We find out where you actually rank today across your service areas and pin down which competitors are beating you in the Map Pack and why." },
-      { name: 'Fix the foundation', desc: "Google Business Profile and NAP first, because they move the fastest. You usually see early lift here within a few weeks." },
-      { name: 'Build trust signals', desc: "Citations and the review engine go live. These compound week over week, which is why local SEO rewards starting now over starting later — especially before the next PCS wave." },
-      { name: 'Add local content', desc: "Neighborhood and service-area pages across Bell, Coryell, and McLennan counties, plus the on-page work to back them up." },
-      { name: 'Report and expand', desc: "Plain-English reporting tied to calls and leads, not vanity rankings. Then we go take the next neighborhood." },
+      { name: 'Audit and baseline', desc: "We pin down where you truly rank today across each service area and work out which competitors are beating you in the Map Pack and what is propping them up." },
+      { name: 'Fix the foundation', desc: "Google Business Profile and NAP go first, since they shift the quickest. Early lift here usually shows inside a few weeks." },
+      { name: 'Build trust signals', desc: "Citations and the review engine switch on. They stack up week after week, which is why a Killeen shop that starts before the next PCS rotation beats the one that waits." },
+      { name: 'Add local content', desc: "Neighborhood and service-area pages across Bell, Coryell, and McLennan counties, plus the on-page work that makes them hold up." },
+      { name: 'Report and expand', desc: "Plain-English reporting mapped to calls and booked leads, never vanity rankings. Once a neighborhood is locked, we move on Fort Cavazos and the next community over." },
     ],
     pricing: {
       heading: 'Pricing you can actually see',
       note: 'Month-to-month after the first 90 days. No lock-in. Cancel whenever.',
       tiers: [
-        { name: 'Local Starter', price: '$750', cadence: '/mo', desc: 'One location, getting the Map Pack foundation right.', features: ['Google Business Profile optimization', 'Citation cleanup and core listings', 'One location or primary service area', 'Review system setup', 'Plain-English monthly report'] },
-        { name: 'Local Growth', price: '$1,500', cadence: '/mo', desc: 'For businesses fighting across several Killeen-Temple areas.', features: ['Everything in Local Starter', 'Up to 5 priority keywords', 'Ongoing review generation', 'Neighborhood landing pages', 'On-page and technical SEO'], featured: true },
-        { name: 'Local Authority', price: '$2,500', cadence: '/mo', desc: 'For contractors who want to own the map across Killeen-Temple.', features: ['Everything in Local Growth', 'Local link building', 'PCS-season and storm demand targeting', 'Multi-area and service-area pages', 'AI search optimization'] },
+        { name: 'Local Starter', price: '$750', cadence: '/mo', desc: 'One location, with the Map Pack foundation set up right.', features: ['Google Business Profile optimization', 'Citation cleanup and core listings', 'One location or primary service area', 'Review system setup', 'Plain-English monthly report'] },
+        { name: 'Local Growth', price: '$1,500', cadence: '/mo', desc: 'For shops scrapping across several Killeen-Temple communities.', features: ['Everything in Local Starter', 'Up to 5 priority keywords', 'Ongoing review generation', 'Neighborhood landing pages', 'On-page and technical SEO'], featured: true },
+        { name: 'Local Authority', price: '$2,500', cadence: '/mo', desc: 'For contractors set on owning the map across Killeen-Temple.', features: ['Everything in Local Growth', 'Local link building', 'PCS-season and storm demand targeting', 'Multi-area and service-area pages', 'AI search optimization'] },
       ],
     },
     faqs: [
-      { q: 'How much does local SEO cost in Killeen?', a: "Most Killeen engagements land between $750 and $2,500 a month, depending on how many neighborhoods and keywords you're going after. Our tiers are right above this. No hidden fees, no long contract, and we confirm the exact scope in your free audit." },
-      { q: 'How long until I show up in the Map Pack?', a: "Profile improvements can move in a few weeks. The competitive Killeen keywords usually take 90 to 180 days of steady work, because reviews and citations compound over time. Anyone promising you page one in 30 days is selling you something." },
-      { q: 'What makes Killeen local SEO different?', a: "The Fort Cavazos PCS cycle. Thousands of military families arrive and immediately search for contractors on their phones — HVAC, plumbing, roofing, you name it. They have to book fast and they don't know anyone locally, so they call the first business they trust on Google. Ranking ahead of that wave is the opportunity most Killeen contractors are missing." },
-      { q: 'How does local SEO help me during PCS season?', a: "PCS families arrive with urgent contractor needs and no local network — they go straight to Google and call whoever looks most established. If you're in the Map Pack with good reviews and a real service area presence, you catch those calls. If you're on page two, you don't exist." },
-      { q: 'Which areas do you cover?', a: "All of the Killeen-Temple metro — Killeen, Fort Cavazos, Harker Heights, Copperas Cove, Nolanville, Belton, Temple, Lampasas, Gatesville and more. We build genuine neighborhood pages instead of one generic Killeen page, because that's what actually ranks for \"[service] [neighborhood]\" searches." },
-      { q: 'Do you work with contractors specifically?', a: "It's basically all we do. Roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors. We understand emergency calls, storm-driven demand, freeze emergencies, and military-market timing, and we build your local SEO around them." },
-      { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
-      { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
-      { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: 'How much does local SEO cost in Killeen?', a: "Most Killeen engagements settle between $750 and $2,500 a month, set by how many neighborhoods and keywords you mean to chase. The tiers above spell it out. No hidden fees, no long contract, and we lock the exact scope in your free audit before you put down a dollar." },
+      { q: 'How long until I show up in the Map Pack?', a: "Profile fixes can move inside a few weeks. The competitive Killeen keywords usually need 90 to 180 days of steady work, because reviews and citations build slowly over time. Anyone who swears you page one in 30 days is selling you a story." },
+      { q: 'What makes Killeen local SEO different?', a: "Fort Cavazos and its turnover. Thousands of soldiers and their families rotate in on PCS orders and start hunting for contractors from their phones the same day, HVAC, plumbing, roofing, all of it. They have to book fast and they know nobody in town, so they call the first name Google makes them trust. Getting in front of that constant churn is the opening most Killeen contractors leave on the table." },
+      { q: 'How does local SEO help me during PCS season?', a: "Incoming families show up with pressing contractor needs and zero local network, so they head straight to Google and ring whoever looks most settled. Sit in the Map Pack with solid reviews and a real footprint across the service area and those calls come to you. Sit on page two and, to them, you are not there." },
+      { q: 'Which areas do you cover?', a: "The whole Killeen-Temple metro: Killeen, Fort Cavazos, Harker Heights, Copperas Cove, Nolanville, Belton, Temple, Lampasas, Gatesville and on out. We build real neighborhood pages instead of one catch-all Killeen page, since that is what actually ranks for a \"[service] [neighborhood]\" search." },
+      { q: 'Do you work with contractors specifically?', a: "Pretty much only that. Roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors. We get emergency calls, storm-driven spikes, the odd freeze event, and military-market timing, and we frame your local SEO around all of it." },
+      { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A bigger slice of \"near me\" research now begins in AI rather than classic search. We shape your content and schema so those engines can read, trust, and name your business. In a town that searches as fast as Killeen does, that is closing in on the Map Pack itself in value." },
+      { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is roughly the runway local SEO needs to show real movement. After that you are month-to-month. If we are not delivering, you walk and the accountability stays parked on us." },
+      { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep a piece of. We build rankings, a Google profile, and a review base that route leads straight to you alone. Over time you lean on the brokers less, because a PCS family that finds you on Google calls you and only you." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to stay ahead, the fixes that will move you quickest, and a realistic 90-to-180-day plan with the numbers run for your shop. No pitch deck. Just the diagnosis." },
     ],
   },
 
@@ -182,58 +182,58 @@ export const killeenLocations = [
     h1: 'Get your Killeen business to the top of Google and keep it there',
     h2Exact: 'Killeen SEO Company',
     heroSubhead:
-      "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Killeen customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs — so you capture PCS arrivals and storm-season demand instead of watching it go to whoever ranked first.",
+      "Ads quit the instant you stop paying. SEO works the other way: rank once for what your Killeen customers search and the leads keep landing for months. We build that ranking and map every report to real calls and booked jobs, so you pick up the PCS arrivals and storm-season demand instead of watching them go to whoever ranked first.",
     primaryCta: 'Get my free Killeen SEO audit',
     intro:
-      "Killeen SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in a market driven by constant military turnover, brutal Central Texas summers, tornado and hail seasons, and freeze emergencies — and we measure it in leads, not vanity traffic.",
+      "Killeen SEO comes down to one blunt question: when someone searches what you do, are you on page one or page two? Around here page two might as well be page fifty. We get contractors ranking for the money keywords in a town shaped by nonstop military turnover, summers that sit at triple digits, spring storms, and the odd freeze event, and we score the whole thing in leads, not traffic that never dials.",
     aioQuestion: 'How do Killeen businesses rank higher on Google?',
     aioAnswer:
-      "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Central Texas sources. In a market shaped by Fort Cavazos PCS cycles and seasonal weather extremes, ranking for the right terms at the right times — HVAC in summer, roofing after hail, freeze repairs in winter — is what separates the contractors who stay booked from the ones who chase leads.",
+      "They rank by repairing the technical base of the site, tuning each page to the exact terms buyers type, publishing local content people actually use, and earning links from trusted Central Texas sources. In a market set by the Fort Cavazos turnover and hard seasonal swings, ranking for the right term at the right time, HVAC in the July heat, roofing right after hail, holds the line between a contractor who stays booked and one who is forever chasing the next lead.",
     problemHeading: "Three reasons your Killeen site isn't bringing in work",
     painPoints: [
-      { title: "You're stuck on page two", body: "Almost nobody clicks past the first page of Google, and they rarely scroll far down it. If you're not in the top handful of results for what you sell, your site is basically invisible — no matter how good it looks. In a market where military families need to book fast, you can't afford to be invisible." },
-      { title: "You're renting traffic from Google Ads", body: "Ads can work, but the moment your card stops, the leads stop. SEO builds an asset you own: rankings that keep producing leads months and years after the work is done, at a fraction of the per-lead cost. That matters in Killeen, where PCS demand is predictable and recurring — own your ranking and you own that customer pipeline." },
-      { title: "You're not ranking for the demand that matters", body: "Killeen demand swings with PCS waves, summer heat, spring tornado season, and winter freeze risk. The contractors who rank for those terms ahead of time catch the spike. If your SEO ignores these seasonal and military-driven patterns, you're leaving your busiest months on the table." },
+      { title: 'Page two is swallowing your site whole', body: "Hardly anyone clicks past the first page of Google, and they seldom scroll far down it either. If you are not in the top handful of results for what you sell, your site is effectively invisible no matter how slick it looks. In a town where a newly arrived family has to book this week, invisible is the one thing you cannot afford." },
+      { title: 'Google Ads has you renting your own traffic', body: "Ads can pull their weight, but the second your card declines the leads dry up. SEO builds an asset that stays yours: rankings that keep delivering leads for months and years after the work is done, at a slice of the per-lead cost. That lands hard in Killeen, where PCS demand recurs like clockwork. Own the ranking and you own that recurring stream of customers." },
+      { title: 'You rank for the wrong searches at the wrong time', body: "Killeen demand swings with PCS rotations, the summer heat, spring hail and tornado season, and the occasional winter freeze. The contractors who rank for those terms in advance grab the spike. Let your SEO ignore the military churn and the seasonal pattern and you hand your busiest, fattest months to someone else." },
     ],
     servicesHeading: 'The SEO work that actually moves rankings',
     services: [
-      { name: 'Technical SEO', desc: "Crawlability, site speed, Core Web Vitals, schema, and the under-the-hood fixes Google needs before it will rank you at all." },
-      { name: 'On-page optimization', desc: "Every important page tuned for the exact terms your Killeen customers search — titles, headings, content, and internal links." },
-      { name: 'Content that ranks', desc: "Genuinely useful pages and articles that answer what buyers search, earn links, and bring in leads on autopilot." },
-      { name: 'Link building', desc: "Authority from real Central Texas and industry sources. In a competitive market, links are often what separate page one from page two." },
-      { name: 'Local SEO & Google Business Profile', desc: "Map Pack optimization so you win the \"near me\" searches alongside your organic rankings — including from PCS families searching the moment they hit town." },
-      { name: 'Revenue-tied reporting', desc: "We report on calls, forms, and leads — not just rankings and traffic — so you always know what your SEO is actually worth." },
-      { name: 'Seasonal & military-market SEO', desc: "We rank you for the PCS-driven, storm-season, summer-heat, and freeze-emergency searches that drive Killeen's busiest demand periods, so you're visible before the spike, not after.", featured: true },
-      { name: 'AI search & GEO', desc: "We structure your content so AI Overviews, ChatGPT, and Perplexity surface and cite you, where a growing share of search now begins.", featured: true },
+      { name: 'Technical SEO', desc: "Crawlability, load speed, Core Web Vitals, schema, and the behind-the-wall fixes Google wants in place before it will rank you at all." },
+      { name: 'On-page optimization', desc: "Every page that matters tuned to the exact terms your Killeen customers type: titles, headings, body copy, and internal links." },
+      { name: 'Content that ranks', desc: "Pages and articles people genuinely use, that answer what buyers search, pull in links, and keep feeding you leads while you sleep." },
+      { name: 'Link building', desc: "Authority from real Central Texas and industry sources. In a crowded market, links are often the deciding vote between page one and page two." },
+      { name: 'Local SEO & Google Business Profile', desc: "Map Pack work so you win the \"near me\" searches right next to your organic spots, including from PCS families searching the hour they hit town." },
+      { name: 'Revenue-tied reporting', desc: "We report on calls, forms, and booked leads, not just rankings and traffic, so you always know in dollars what your SEO is doing for you." },
+      { name: 'Seasonal & military-market SEO', desc: "We rank you for the PCS-driven, storm-season, and summer-heat searches that fuel Killeen's busiest stretches, so you are already visible before the spike rather than after.", featured: true },
+      { name: 'AI search & GEO', desc: "We shape your content so AI Overviews, ChatGPT, and Perplexity surface and name you, where a growing slice of search now starts.", featured: true },
     ],
     processName: 'How we work: the OnwardCraft SEO method',
     process: [
-      { name: 'Audit and strategy', desc: "We benchmark your rankings, traffic, and competitors, then build a roadmap around the keywords most likely to drive real Killeen leads." },
-      { name: 'Fix the technical base', desc: "Speed, crawlability, schema, and mobile — the foundation everything else needs to rank." },
-      { name: 'Optimize and create content', desc: "On-page work across your money pages plus new local content, including the seasonal, PCS-driven, and storm terms that matter here." },
-      { name: 'Build authority', desc: "Links and citations from trusted Central Texas and industry sources to push competitive keywords onto page one." },
-      { name: 'Report and scale', desc: "Monthly reporting tied to leads, then we double down on what's working and expand into the next keyword set." },
+      { name: 'Audit and strategy', desc: "We benchmark your rankings, traffic, and competitors, then draw a roadmap around the keywords most likely to drive real Killeen leads." },
+      { name: 'Fix the technical base', desc: "Speed, crawlability, schema, and mobile: the groundwork everything else needs before it can rank." },
+      { name: 'Optimize and create content', desc: "On-page work across your money pages plus fresh local content, including the seasonal, PCS-driven, and storm terms that decide who wins here." },
+      { name: 'Build authority', desc: "Links and citations from trusted Central Texas and industry sources to drive your competitive keywords onto page one." },
+      { name: 'Report and scale', desc: "Monthly reporting tied to leads, then we lean into what is working and push into the next keyword set." },
     ],
     pricing: {
       heading: 'Transparent Killeen SEO pricing',
       note: 'Month-to-month after the first 90 days. No lock-in. Cancel whenever.',
       tiers: [
-        { name: 'SEO Starter', price: '$900', cadence: '/mo', desc: 'For a focused site going after its core local keywords.', features: ['Technical SEO fixes', 'On-page optimization', 'Up to 5 target keywords', 'Google Business Profile', 'Monthly lead-tied report'] },
-        { name: 'SEO Growth', price: '$1,800', cadence: '/mo', desc: 'For contractors competing across services and neighborhoods.', features: ['Everything in SEO Starter', 'Up to 12 target keywords', 'Monthly content', 'Link building', 'On-page + local SEO'], featured: true },
-        { name: 'SEO Authority', price: '$3,000', cadence: '/mo', desc: 'For businesses that want to own Killeen-Temple search.', features: ['Everything in SEO Growth', 'Aggressive content + links', 'Seasonal & military-market SEO', 'Multi-location support', 'AI search / GEO optimization'] },
+        { name: 'SEO Starter', price: '$900', cadence: '/mo', desc: 'For a tight site chasing its core local keywords.', features: ['Technical SEO fixes', 'On-page optimization', 'Up to 5 target keywords', 'Google Business Profile', 'Monthly lead-tied report'] },
+        { name: 'SEO Growth', price: '$1,800', cadence: '/mo', desc: 'For contractors fighting across services and neighborhoods.', features: ['Everything in SEO Starter', 'Up to 12 target keywords', 'Monthly content', 'Link building', 'On-page + local SEO'], featured: true },
+        { name: 'SEO Authority', price: '$3,000', cadence: '/mo', desc: 'For shops out to own Killeen-Temple search.', features: ['Everything in SEO Growth', 'Aggressive content + links', 'Seasonal & military-market SEO', 'Multi-location support', 'AI search / GEO optimization'] },
       ],
     },
     faqs: [
-      { q: 'How much does SEO cost in Killeen?', a: "Most Killeen SEO engagements run $900 to $3,000 a month, depending on how competitive your keywords are and how much content and link work you need. Our tiers are above, with no hidden fees and no long contract." },
-      { q: 'How long does SEO take to work in Killeen?', a: "Expect early movement in 2 to 3 months and meaningful results in 4 to 6, faster on low-competition terms and slower on the most competitive Killeen keywords. SEO compounds, so the gains keep building the longer you run it." },
-      { q: 'Is SEO better than Google Ads?', a: "They do different jobs. Ads buy instant traffic that stops when you stop paying. SEO is an asset you own that keeps producing leads at a lower cost per lead over time. Most Killeen contractors do best running SEO as the long-term engine and ads for short-term spikes like a PCS surge or a hail storm aftermath." },
-      { q: 'Should my Killeen SEO target the Fort Cavazos community?', a: "Absolutely. Military families arriving on PCS orders have urgent contractor needs, no local network, and a tight timeline. They search immediately and book quickly. Ranking for the searches they run — and looking established and reviewed when they find you — is one of the highest-ROI opportunities in this market." },
-      { q: "What's included in your SEO service?", a: "Technical SEO, on-page optimization, content, link building, local/Map Pack SEO, and revenue-tied reporting. Higher tiers add seasonal/military-market and AI-search optimization. We confirm the exact scope in your free audit." },
-      { q: 'Do you require a long-term contract?', a: "No. We ask for an initial 90 days because SEO needs that long to show real movement, then it's month-to-month. If we're not delivering, you leave." },
-      { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
-      { q: 'Which areas around Killeen do you cover?', a: "All of the Killeen-Temple metro and the areas around it — Fort Cavazos, Harker Heights, Copperas Cove, Nolanville, Belton, Temple, Lampasas, Gatesville and more — with genuine local pages rather than one generic Killeen page." },
-      { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads — and PCS families who find you on Google convert fast." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: 'How much does SEO cost in Killeen?', a: "Most Killeen SEO engagements run $900 to $3,000 a month, set by how contested your keywords are and how much content and link work the job calls for. The tiers sit above this, with no hidden fees and no long contract." },
+      { q: 'How long does SEO take to work in Killeen?', a: "Look for early movement in 2 to 3 months and real results in 4 to 6, quicker on low-competition terms and slower on the most fought-over Killeen keywords. SEO stacks, so the longer you run it the bigger the gains get." },
+      { q: 'Is SEO better than Google Ads?', a: "They do different jobs. Ads buy instant traffic that stops the moment you stop paying. SEO is an asset you own that keeps throwing off leads at a lower cost per lead as the months pass. Most Killeen contractors come out ahead running SEO as the long-haul engine and ads for short bursts, like the days right after a PCS rotation lands or a hail storm clears." },
+      { q: 'Should my Killeen SEO target the Fort Cavazos community?', a: "Without question. Families arriving on PCS orders have pressing contractor needs, no local network, and a short fuse. They search the same day and book within days. Ranking for the terms they actually run, and looking settled and reviewed when they reach you, is one of the highest-return plays in this whole market." },
+      { q: "What's included in your SEO service?", a: "Technical SEO, on-page optimization, content, link building, local and Map Pack SEO, and revenue-tied reporting. The upper tiers fold in seasonal and military-market work plus AI-search optimization. We confirm the exact scope in your free audit." },
+      { q: 'Do you require a long-term contract?', a: "No. We ask for an opening 90 days because SEO needs that stretch to show real movement, then you go month-to-month. If we are not delivering, you leave." },
+      { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing share of what we tune for. We shape your content and schema so AI engines can read, trust, and name your business, not just the classic search results." },
+      { q: 'Which areas around Killeen do you cover?', a: "The full Killeen-Temple metro and the ground around it: Fort Cavazos, Harker Heights, Copperas Cove, Nolanville, Belton, Temple, Lampasas, Gatesville and more, with real local pages rather than one stretched-thin Killeen page." },
+      { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads straight to you. The more of your own search visibility you hold, the less you depend on paying brokers for shared leads, and a PCS family that finds you on Google tends to convert fast." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead, the fixes with the most pull, and a realistic timeline with the numbers modeled for your shop. No pitch deck, just the diagnosis." },
     ],
   },
 
@@ -243,63 +243,63 @@ export const killeenLocations = [
     citySlug: 'killeen', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Killeen Web Design Company | OnwardCraft',
     metaDescription:
-      'Killeen web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving Fort Cavazos and the Killeen-Temple area.',
+      'Killeen web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors serving Fort Cavazos and the Killeen-Temple area.',
     eyebrow: 'Web Design · Killeen-Temple (Fort Cavazos)',
     h1: 'Killeen web design that turns visitors into booked jobs',
     h2Exact: 'Killeen Web Design Company',
     heroSubhead:
-      "A pretty website that doesn't generate calls is a brochure. We build Killeen contractors fast, mobile-first sites engineered to turn visitors into booked work — so when a PCS family searches for you on arrival or a homeowner needs emergency HVAC in 105°F heat, the call lands with you.",
+      "A good-looking website that never rings the phone is just a brochure. We build Killeen contractors fast, mobile-first sites engineered to turn visitors into booked work, so when a PCS family looks you up the day they arrive or a homeowner's AC dies in 105-degree heat, the call comes to you.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Killeen contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Fort-Cavazos-to-Temple visitors into booked jobs — and that stay fast and clear when PCS season or a storm sends your traffic spiking.",
+      "Most Killeen contractor sites leak leads without a sound: slow on a phone, call button buried, no clear offer anywhere on the page. Web design done right plugs every one of those leaks. We build sites that load fast, carry the weight of the pro you are, and turn Fort-Cavazos-to-Temple visitors into booked jobs, and that hold their footing when a PCS rotation or a spring storm sends traffic spiking.",
     aioQuestion: 'What makes a good contractor website in Killeen?',
     aioAnswer:
-      "A good Killeen contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic surges during PCS season and storm demand. Military families arriving on PCS orders search from a phone and need to book quickly — a site that's slow, cluttered, or unclear loses them in seconds. The call button and a simple reason to trust you are what convert a PCS arrival into a booked job.",
+      "A strong Killeen contractor site loads in under three seconds on a phone, puts the call button and a clear offer above the fold, backs it with reviews and real job photos, and stands up to traffic surges during PCS waves and storm demand. Families arriving on orders search from a phone and need to book quickly. A slow, cluttered, or fuzzy site loses them in seconds. The call button and one plain reason to trust you are what turn a new arrival into a booked job.",
     problemHeading: "Why your current site isn't bringing in work",
     painPoints: [
-      { title: "It's a brochure, not a lead engine", body: "A lot of contractor sites just list services and sit there. No clear offer, no obvious next step, no reason to call you over the next guy. We design every page around one job: turning a visitor into a booked lead — whether that's a PCS family who just arrived at Fort Cavazos or a homeowner whose AC quit in July." },
-      { title: "It's too slow on a phone", body: "Most of your Killeen visitors are on mobile, and they bounce if your site takes more than a few seconds to load. Military families searching on arrival don't wait. Slow sites also rank worse. We build fast, so you keep the visitor and the ranking." },
-      { title: "It can't handle a demand surge", body: "After a hail storm or in peak HVAC season, contractor sites get hit with a flood of traffic, and the slow ones buckle or bury the call button right when it mattered most. We build sites that stay fast and convert under load, so you capture that demand instead of losing it." },
+      { title: 'It reads like a brochure, not a lead engine', body: "Plenty of contractor sites just list services and sit there. No clear offer, no obvious next step, no reason to call you over the next name in the results. We build every page around one job: turning a visitor into a booked lead, whether that is a family fresh off PCS orders at Fort Cavazos or a homeowner whose AC quit on a July afternoon." },
+      { title: 'It crawls on a phone and loses the visitor', body: "Most of your Killeen visitors are on mobile, and they bounce if your site takes more than a couple of seconds to load. A family searching the day they arrive will not wait around. Slow sites rank worse on top of that, so you lose twice. We build fast, so you keep both the visitor and the ranking." },
+      { title: 'It folds the moment demand surges', body: "After a hail storm or deep into peak HVAC season, contractor sites take a flood of urgent traffic, and the slow ones stall or bury the call button at the exact moment it counts most. We build sites that stay quick and keep converting under load, so you capture that demand instead of leaking it to a faster competitor." },
     ],
     servicesHeading: "What's in an OnwardCraft Killeen website",
     services: [
-      { name: 'Custom design', desc: "No cookie-cutter templates. A site designed around your trade, your service area, and the jobs you actually want." },
-      { name: 'Mobile-first build', desc: "Designed for the phone first, because that's where almost all of your Killeen traffic is — including PCS families searching on arrival. Fast, thumb-friendly, easy to call from." },
-      { name: 'Conversion-focused UX', desc: "Clear offers, obvious call buttons, and lead forms placed where they actually get used. Every page has a next step." },
-      { name: 'Copy that sells', desc: "Words that speak to anxious homeowners and book the job, not filler text that reads like everyone else." },
-      { name: 'Local SEO foundation', desc: "Built from the ground up to rank — clean structure, schema, fast load, and neighborhood-ready pages." },
-      { name: 'Speed & Core Web Vitals', desc: "Tuned to load fast and pass Google's performance checks, which protects both conversions and rankings." },
-      { name: 'PCS- and storm-surge ready', desc: "Built to stay fast and keep the call button front and center when PCS arrivals or storm-season traffic spikes — the moments that can fill your calendar for months.", featured: true },
-      { name: 'AI-search ready', desc: "Structured so AI Overviews and ChatGPT can read and recommend your business as more search shifts to AI.", featured: true },
+      { name: 'Custom design', desc: "No cookie-cutter templates. A site shaped around your trade, your service area, and the jobs you are actually after." },
+      { name: 'Mobile-first build', desc: "Built for the phone first, since that is where nearly all of your Killeen traffic lives, PCS families searching on arrival included. Quick, thumb-friendly, easy to call from in one tap." },
+      { name: 'Conversion-focused UX', desc: "Clear offers, call buttons you cannot miss, and lead forms set where people actually use them. Every page carries an unmistakable next step." },
+      { name: 'Copy that sells', desc: "Words pitched at an uneasy homeowner that close the job, not filler that reads like every other contractor in town." },
+      { name: 'Local SEO foundation', desc: "Built to rank from the studs out: clean structure, schema, fast load, and pages ready for the neighborhood." },
+      { name: 'Speed & Core Web Vitals', desc: "Tuned to load fast and clear Google's performance checks, which guards your conversions and your rankings at once." },
+      { name: 'PCS and storm-surge ready', desc: "Built to stay fast and keep the call button up front when PCS arrivals or storm-season traffic spikes, the exact moments that can pack your calendar for months.", featured: true },
+      { name: 'AI-search ready', desc: "Structured so AI Overviews and ChatGPT can read your site and point people to your business as more search shifts to AI.", featured: true },
     ],
     processName: 'How we build: the OnwardCraft process',
     process: [
-      { name: 'Discovery and strategy', desc: "We learn your trade, your service area, your best jobs, and your competitors, then map the site around booking more of the work you want — including how to position for the Fort Cavazos community." },
-      { name: 'Design', desc: "We design a custom, mobile-first layout built to convert — you see it and shape it before a line of code is written." },
-      { name: 'Build and copy', desc: "We build it fast and write the copy that sells, with the call to action front and center on every page." },
-      { name: 'Launch', desc: "We launch cleanly with the SEO foundation, tracking, and speed dialed in from day one." },
-      { name: 'Support and optimize', desc: "We keep it fast and current and tune it based on what's actually converting." },
+      { name: 'Discovery and strategy', desc: "We learn your trade, your service area, your best jobs, and your competitors, then map the site around booking more of the work you want, including how to stand out to the Fort Cavazos community." },
+      { name: 'Design', desc: "We design a custom, mobile-first layout built to convert, and you see it and shape it before a line of code gets written." },
+      { name: 'Build and copy', desc: "We build it fast and write the copy that closes, with the call to action up front on every page." },
+      { name: 'Launch', desc: "We launch clean with the SEO foundation, tracking, and speed all dialed in from day one." },
+      { name: 'Support and optimize', desc: "We keep it fast and current and tune it on what is actually turning visitors into calls." },
     ],
     pricing: {
       heading: 'Transparent Killeen web design pricing',
       note: 'One-time build. 50% to start, 50% at launch. You own everything. No lock-in.',
       tiers: [
-        { name: 'Starter Site', price: '$2,000', cadence: '', desc: 'A focused, high-converting site for a single-trade contractor.', features: ['Up to 5 custom pages', 'Mobile-first design', 'Lead forms + call buttons', 'Local SEO foundation', 'You own the site'] },
-        { name: 'Growth Site', price: '$4,500', cadence: '', desc: 'A bigger site for established contractors with several services.', features: ['Up to 12 pages', 'Custom design + copywriting', 'Service + neighborhood pages', 'Speed & Core Web Vitals', 'PCS- and storm-surge ready'], featured: true },
-        { name: 'Custom Build', price: '$8,000', cadence: '', desc: 'A full custom build for multi-service or multi-location businesses.', features: ['Fully custom design', 'Advanced SEO + schema', 'Integrations & booking', 'High-traffic performance', 'AI-search optimization'] },
+        { name: 'Starter Site', price: '$2,000', cadence: '', desc: 'A tight, high-converting site for a single-trade contractor.', features: ['Up to 5 custom pages', 'Mobile-first design', 'Lead forms + call buttons', 'Local SEO foundation', 'You own the site'] },
+        { name: 'Growth Site', price: '$4,500', cadence: '', desc: 'A larger site for settled contractors running several services.', features: ['Up to 12 pages', 'Custom design + copywriting', 'Service + neighborhood pages', 'Speed & Core Web Vitals', 'PCS- and storm-surge ready'], featured: true },
+        { name: 'Custom Build', price: '$8,000', cadence: '', desc: 'A full custom build for multi-service or multi-location shops.', features: ['Fully custom design', 'Advanced SEO + schema', 'Integrations & booking', 'High-traffic performance', 'AI-search optimization'] },
       ],
     },
     faqs: [
-      { q: 'How much does a website cost in Killeen?', a: "Most contractor websites with us run $2,000 to $8,000 as a one-time build, depending on page count and integrations. Our tiers are above — fixed price, no surprises, and you own the finished site." },
-      { q: 'How long does it take to build?', a: "A focused site takes about 2 to 4 weeks; a larger custom build takes 4 to 8. We give you a firm timeline up front and keep you updated through each stage." },
-      { q: 'Will my site hold up when PCS season or storm demand hits?', a: "Yes, and in Killeen that matters. When PCS waves arrive or after a hail storm, contractor sites can see a big surge in traffic — and the slow ones lose leads right when demand peaks. We build fast and keep the call button obvious so your site converts under load." },
-      { q: 'Will my new site actually rank on Google?', a: "We build every site on a local-SEO foundation — fast load, clean structure, schema, and neighborhood-ready pages. The build gets you ready to rank; pairing it with our SEO service is how you climb the competitive Killeen terms." },
-      { q: 'Do I own the website?', a: "Completely. You own the site, the domain, and the content. No hostage situations, no platforms you can't leave." },
-      { q: 'Will it work well on phones?', a: "We design mobile-first, because that's where almost all of your Killeen traffic comes from — including military families searching on a phone the moment they get to town. Fast load, easy-to-tap call buttons, and forms built for a thumb." },
-      { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
-      { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
-      { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Killeen site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'How much does a website cost in Killeen?', a: "Most contractor websites with us run $2,000 to $8,000 as a one-time build, set by page count and integrations. The tiers sit above this: fixed price, no surprises, and the finished site is yours to keep." },
+      { q: 'How long does it take to build?', a: "A tight site runs about 2 to 4 weeks; a larger custom build takes 4 to 8. We hand you a firm timeline up front and keep you posted at each stage." },
+      { q: 'Will my site hold up when PCS season or storm demand hits?', a: "Yes, and in Killeen that is no small thing. When a PCS rotation lands or hail clears out, contractor sites can take a big jump in traffic, and the slow ones bleed leads right as demand peaks. We build fast and keep the call button obvious so your site converts under the load instead of stalling." },
+      { q: 'Will my new site actually rank on Google?', a: "We build every site on a local-SEO foundation: fast load, clean structure, schema, and pages ready for the neighborhood. The build gets you ready to rank, and pairing it with our SEO service is how you climb the contested Killeen terms." },
+      { q: 'Do I own the website?', a: "Completely. The site, the domain, and the content are yours. No hostage setups, no platform you cannot walk away from." },
+      { q: 'Will it work well on phones?', a: "We design mobile-first, since that is where nearly all of your Killeen traffic comes from, families searching on a phone the hour they reach town included. Fast load, call buttons built for a tap, and forms shaped for a thumb." },
+      { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually run yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and lay out the tradeoffs in plain terms." },
+      { q: 'Do you offer ongoing support?', a: "Yes. Every build comes with launch support, and after that we offer affordable monthly maintenance for updates, speed, and security." },
+      { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you like." },
+      { q: 'What do I get in the free quote?', a: "A straight look at what your current site is costing you in lost leads, what a high-converting Killeen site ought to include, and a fixed-price quote with a timeline. No pressure, just the plan." },
     ],
   },
 
@@ -314,58 +314,58 @@ export const killeenLocations = [
     h1: 'Redesign your Killeen website without losing your rankings',
     h2Exact: 'Killeen Website Redesign Company',
     heroSubhead:
-      "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Killeen contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned while the next PCS wave is already searching.",
+      "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Killeen homeowner to skip right past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every scrap of ranking you have earned while the next PCS wave is already searching.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Killeen contractor sites for speed and conversions, build them to handle PCS-season and storm-driven traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Most redesigns slide one of two bad ways: the site looks sharper but converts exactly the same, or it launches and the rankings drop off a cliff overnight. We do neither. We redesign Killeen contractor sites for speed and conversions, build them to ride PCS-season and storm-driven traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
-      "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one — and it converts the PCS arrivals and storm-season searches you've been missing.",
+      "You guard SEO through a redesign by holding your URL structure (or mapping 301 redirects for every page that changes), keeping your existing content and metadata, moving your schema across, and testing the whole thing on staging before launch. Handled right, a redesign keeps your rankings and lifts them, because the new site loads faster, leans mobile-first, and is better built than the old one, and it finally converts the PCS arrivals and storm-season searches you have been missing.",
     problemHeading: "Signs your Killeen site is overdue for a redesign",
     painPoints: [
-      { title: "It looks dated and costs you trust", body: "For a high-ticket job, homeowners judge you by your site in seconds. A PCS family new to Killeen has no local referrals — they're going entirely off how your site looks. An old, cluttered design quietly sends them to a competitor who looks more established, even when your work is better." },
-      { title: "It's slow and hard to use on a phone", body: "If your site is clunky or slow on mobile, you're losing the majority of your Killeen visitors before they ever see your offer. Military families especially are searching on the go. A redesign built mobile-first wins them back." },
-      { title: "It can't keep up when demand surges", body: "An old site that gets slow under a storm surge or a PCS wave loses leads at the exact moment they're worth the most. We rebuild for conversions and for the days your phone should be ringing off the hook." },
+      { title: 'It looks dated and quietly costs you trust', body: "On a high-ticket job, homeowners size you up by your site in seconds. A family new to Killeen has no local referrals to lean on, so they are going purely off how your site looks. An old, cluttered design ships them to a competitor who reads as more established, even when your crew is the better one." },
+      { title: 'It is slow and clumsy on a phone', body: "If your site is clunky or slow on mobile, you are losing most of your Killeen visitors before they ever reach your offer. Families just off PCS orders especially are searching on the move between unpacking and errands. A redesign built mobile-first wins those visitors back and turns them into leads." },
+      { title: 'It cannot keep up when demand surges', body: "An old site that bogs down under a storm surge or a PCS rotation drops leads at the precise moment they are worth the most. We rebuild for conversions and for the days your phone ought to be ringing off the hook." },
     ],
     servicesHeading: "What's in an OnwardCraft redesign",
     services: [
-      { name: 'Redesign audit', desc: "We pinpoint exactly what's costing you leads and rankings today, so the redesign fixes real problems instead of just changing colors." },
-      { name: 'SEO-safe migration', desc: "Redirects, metadata, and schema handled properly so you keep the rankings and traffic you've already earned." },
-      { name: 'Conversion redesign', desc: "Clear offers, better call-to-action placement, and lead forms that actually get used. We design for booked jobs, not just looks." },
-      { name: 'Speed overhaul', desc: "We rebuild for fast load and passing Core Web Vitals — better for both conversions and rankings." },
-      { name: 'Mobile-first rebuild', desc: "Redesigned around the phone, where almost all your Killeen traffic lives — including Fort Cavazos families searching on arrival." },
-      { name: 'Brand refresh', desc: "A modern, trustworthy look that matches the quality of your work and the price of your jobs." },
-      { name: 'PCS- and storm-surge ready rebuild', desc: "Rebuilt to stay fast and keep converting when PCS arrivals or storm-season traffic spikes, so the new site captures your biggest jobs instead of choking on them.", featured: true },
-      { name: 'AI-search ready', desc: "Structured so AI Overviews and ChatGPT can read and recommend you as search shifts toward AI.", featured: true },
+      { name: 'Redesign audit', desc: "We pin down exactly what is bleeding you leads and rankings today, so the redesign fixes real problems instead of just swapping the colors around." },
+      { name: 'SEO-safe migration', desc: "Redirects, metadata, and schema handled the right way so you keep every bit of the rankings and traffic you have already earned." },
+      { name: 'Conversion redesign', desc: "Clear offers, smarter call-to-action placement, and lead forms people actually fill out. We design for booked jobs, not a prettier screenshot." },
+      { name: 'Speed overhaul', desc: "We rebuild for fast load and a passing Core Web Vitals score, which helps conversions and rankings at the same time." },
+      { name: 'Mobile-first rebuild', desc: "Redesigned around the phone, where nearly all of your Killeen traffic lives, Fort Cavazos families searching on arrival included." },
+      { name: 'Brand refresh', desc: "A modern, trustworthy look that fits the quality of your work and the price of the jobs you want." },
+      { name: 'PCS and storm-surge ready rebuild', desc: "Rebuilt to stay fast and keep converting when PCS arrivals or storm-season traffic spikes, so the new site captures your biggest jobs rather than choking on them.", featured: true },
+      { name: 'AI-search ready', desc: "Structured so AI Overviews and ChatGPT can read you and point people your way as search shifts toward AI.", featured: true },
     ],
     processName: 'How we redesign: a careful rebuild',
     process: [
-      { name: 'Audit and plan', desc: "We analyze what's losing you leads and rankings, then map a redesign that fixes it without breaking what already works." },
-      { name: 'Design', desc: "A modern, mobile-first, conversion-focused design you review and shape before we build." },
-      { name: 'Rebuild and migrate', desc: "We rebuild fast and prepare every redirect and SEO detail for a clean migration." },
-      { name: 'Launch with SEO care', desc: "We launch with redirects in place and monitor closely so rankings hold and improve, not drop." },
-      { name: 'Optimize', desc: "Post-launch tuning based on what's converting, plus ongoing speed and updates." },
+      { name: 'Audit and plan', desc: "We dig into what is losing you leads and rankings around Killeen, then map a redesign that fixes it without knocking over what already works for you." },
+      { name: 'Design', desc: "A modern, mobile-first, conversion-focused layout you review and shape before any of it gets built." },
+      { name: 'Rebuild and migrate', desc: "We rebuild fast and line up every redirect and SEO detail for a clean, no-surprises migration." },
+      { name: 'Launch with SEO care', desc: "We launch with the redirects in place and watch the rankings daily so they hold and climb rather than slide while the next PCS wave is searching." },
+      { name: 'Optimize', desc: "Post-launch tuning on whatever is converting Killeen visitors into calls, plus ongoing speed and updates." },
     ],
     pricing: {
       heading: 'Transparent Killeen redesign pricing',
       note: 'One-time project. 50% to start, 50% at launch. You own everything. No lock-in.',
       tiers: [
-        { name: 'Redesign Starter', price: '$2,500', cadence: '', desc: 'A focused redesign for a small contractor site.', features: ['Up to 5 pages rebuilt', 'Mobile-first redesign', 'SEO-safe migration', 'Conversion improvements', 'You own the site'] },
-        { name: 'Redesign Growth', price: '$5,000', cadence: '', desc: 'A full redesign for an established contractor site.', features: ['Up to 12 pages', 'Custom design + copy refresh', 'Speed overhaul', 'Service + neighborhood pages', 'PCS- and storm-surge ready'], featured: true },
-        { name: 'Full Rebuild', price: '$9,000', cadence: '', desc: 'A complete rebuild for multi-service or multi-location sites.', features: ['Full custom rebuild', 'Advanced SEO migration', 'Integrations & booking', 'High-traffic performance', 'AI-search optimization'] },
+        { name: 'Redesign Starter', price: '$2,500', cadence: '', desc: 'A tight redesign for a small contractor site.', features: ['Up to 5 pages rebuilt', 'Mobile-first redesign', 'SEO-safe migration', 'Conversion improvements', 'You own the site'] },
+        { name: 'Redesign Growth', price: '$5,000', cadence: '', desc: 'A full redesign for a settled contractor site.', features: ['Up to 12 pages', 'Custom design + copy refresh', 'Speed overhaul', 'Service + neighborhood pages', 'PCS- and storm-surge ready'], featured: true },
+        { name: 'Full Rebuild', price: '$9,000', cadence: '', desc: 'A ground-up rebuild for multi-service or multi-location sites.', features: ['Full custom rebuild', 'Advanced SEO migration', 'Integrations & booking', 'High-traffic performance', 'AI-search optimization'] },
       ],
     },
     faqs: [
-      { q: 'How much does a website redesign cost in Killeen?', a: "Most redesigns with us run $2,500 to $9,000 as a one-time project, depending on size and integrations. Fixed price, no surprises, and you own the result." },
-      { q: 'Will I lose my Google rankings if I redesign?', a: "Not if it's done carefully, and that's exactly how we work. We map 301 redirects for every changed URL, preserve content and metadata, migrate your schema, and test on staging first. Done right, a redesign holds your rankings and usually improves them." },
-      { q: 'How long does a redesign take?', a: "A focused redesign takes about 3 to 5 weeks; a larger rebuild takes 5 to 9. You get a firm timeline up front and updates at each stage." },
-      { q: 'How do I know I need a redesign?', a: "If your site is slow on phones, looks dated, is hard to update, isn't bringing in leads, or buckles when PCS-season or storm traffic surges, it's costing you work. The free audit tells you plainly whether a redesign is worth it." },
-      { q: 'Do you migrate my existing content?', a: "Yes. We carry over and improve your existing content, preserve what's ranking, and handle the technical migration so nothing important gets lost." },
-      { q: 'Will the new site handle PCS-season and storm traffic?', a: "Yes, and in Killeen that's a real consideration. When PCS waves arrive or a hail storm rolls through Bell County, contractor traffic spikes fast. We rebuild for speed and keep the call to action obvious so the site converts when demand peaks." },
-      { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
-      { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
-      { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: 'How much does a website redesign cost in Killeen?', a: "Most redesigns with us run $2,500 to $9,000 as a one-time project, set by size and integrations. Fixed price, no surprises, and the result is yours to keep." },
+      { q: 'Will I lose my Google rankings if I redesign?', a: "Not if it is handled with care, and that is exactly how we work. We map 301 redirects for every URL that changes, hold on to content and metadata, move your schema across, and test on staging first. Done right, a redesign keeps your rankings and usually nudges them higher." },
+      { q: 'How long does a redesign take?', a: "A tight redesign runs about 3 to 5 weeks; a larger rebuild takes 5 to 9. You get a firm timeline up front and updates at every stage." },
+      { q: 'How do I know I need a redesign?', a: "If your site is slow on phones, looks dated, is a pain to update, is not pulling in leads, or bogs down when PCS-season or storm traffic surges, it is quietly costing you work. The free audit tells you straight whether a redesign earns its keep." },
+      { q: 'Do you migrate my existing content?', a: "Yes. We carry over and sharpen your existing content, keep what is ranking, and run the technical migration so nothing that matters slips through the cracks." },
+      { q: 'Will the new site handle PCS-season and storm traffic?', a: "Yes, and in Killeen that is a real consideration. When a PCS rotation arrives or hail rolls across Bell County, contractor traffic jumps fast. We rebuild for speed and keep the call to action obvious so the site converts when demand peaks instead of stalling out." },
+      { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which matters in Killeen because so much of your traffic is a family searching from a phone the day they arrive. It lifts conversions and rankings at the same time." },
+      { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content all stay yours. No platform lock-in of any kind." },
+      { q: 'Am I locked into a contract?', a: "No. The redesign itself is a one-time project. Any ongoing maintenance or SEO after that runs month-to-month, cancel whenever." },
+      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,21 +375,21 @@ export const killeenCity = {
 
   titleTag: 'Killeen Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Killeen contractors. Get found, get booked, and own your leads — built for Fort Cavazos PCS demand, Central Texas heat,.',
+    'Web design, SEO, and local SEO for Killeen contractors. Get found, get booked, and own your leads, built for Fort Cavazos PCS turnover and Central Texas heat.',
 
   eyebrow: 'Killeen · Web Design, SEO & Lead Generation',
   h1: 'Marketing that gets Killeen contractors found and booked',
   h2Exact: 'Killeen Marketing Agency for Contractors',
   heroSubhead:
-    "Websites, SEO, and local SEO built for the Killeen-Temple market — one of the highest-frequency contractor search markets in the US, shaped by Fort Cavazos PCS cycles, Central Texas heat, and spring tornado season.",
+    "Websites, SEO, and local SEO built for the Killeen-Temple market, one of the busiest contractor search markets in the country, shaped by the Fort Cavazos turnover, Central Texas heat, and spring tornado season.",
   heroProof: ['Built for the trades', 'Military-market ready', 'No lock-in contracts'],
   primaryCta: 'Get my free Killeen audit',
 
   intro:
-    "If you run a contracting business in Killeen, you're operating in a market unlike any other in Texas. Fort Cavazos drives a constant wave of PCS arrivals who need to book contractors fast. Central Texas summers push HVAC demand hard. Spring tornado and hail seasons spike roofing demand. And the 2021 freeze reminded everyone how quickly emergency plumbing calls can flood in. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack — before the next PCS wave or weather event sends demand through the roof.",
+    "Run a contracting business in Killeen and you are working a market that behaves like nowhere else in Texas. Fort Cavazos feeds a steady stream of PCS arrivals who have to book a contractor fast. Central Texas summers lean hard on HVAC crews. Spring tornado and hail seasons send roofing demand vertical. And the 2021 freeze showed everyone how fast emergency plumbing calls can pile up. Winning here takes three pieces pulling together: a site that converts, SEO that ranks you for what people type, and local SEO that drops you in the Map Pack, all set before the next PCS rotation or weather hit sends demand through the roof.",
   aioQuestion: 'How do Killeen contractors get more leads online?',
   aioAnswer:
-    "Killeen contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. The Fort Cavazos PCS cycle means thousands of military families search for contractors each year with no local network to rely on — they call whoever looks most established and reviewed on Google. Ranking and looking trustworthy before they arrive is the highest-return move most Killeen contractors aren't making.",
+    "Killeen contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. The Fort Cavazos turnover means thousands of families hunt for contractors every year with no local network to fall back on, so they call whoever looks most settled and reviewed on Google. Ranking and reading as trustworthy before they arrive is the highest-return move most Killeen contractors are still skipping.",
 
   localMarket: MARKET,
   areasServed: AREAS,
@@ -400,15 +400,15 @@ export const killeenCity = {
   services: [
     {
       service: 'Local SEO', serviceSlug: 'local-seo', tagline: 'Win the Map Pack',
-      blurb: "Get into the top three businesses Google pins to the map when Killeen searches \"near me.\" The single highest-return move for most local businesses — and how you catch PCS arrivals and storm-season demand before your competitors do.",
+      blurb: "Get into the top three businesses Google pins to the map when Killeen searches \"near me.\" The single highest-return move for most local shops, and the way you catch PCS arrivals and storm-season demand before a competitor does.",
     },
     {
       service: 'SEO Services', serviceSlug: 'seo-services', tagline: 'Rank higher, get leads',
-      blurb: "Rank for the money keywords your customers actually search — from summer HVAC emergencies to post-hail roofing — and build an asset you own instead of renting traffic from ads.",
+      blurb: "Rank for the money keywords your customers actually type, from a July HVAC emergency to post-hail roofing, and build an asset you own instead of renting traffic from ads.",
     },
     {
       service: 'Web Design', serviceSlug: 'web-design', tagline: 'Sites that convert',
-      blurb: "Fast, mobile-first websites engineered to turn visitors into booked jobs — whether they're a PCS family who just arrived at Fort Cavazos or a homeowner whose AC quit in 105°F heat.",
+      blurb: "Fast, mobile-first websites engineered to turn visitors into booked jobs, whether that visitor is a family fresh off PCS orders at Fort Cavazos or a homeowner whose AC quit in 105-degree heat.",
     },
     {
       service: 'Website Redesign', serviceSlug: 'website-redesign', tagline: 'More leads, no traffic loss',
@@ -417,11 +417,11 @@ export const killeenCity = {
   ],
 
   faqs: [
-    { q: 'What marketing services do you offer in Killeen?', a: "Four core services for contractors: web design, website redesign, SEO, and local SEO. Most clients combine a high-converting website with SEO and local SEO so they rank, convert, and own their leads — and are ready when PCS season and storm demand hit." },
-    { q: 'Do you work only with contractors?', a: "Almost entirely. We specialize in home-service trades — roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors — so we understand emergency calls, storm-driven demand, freeze emergencies, and the unique rhythm of a military market." },
-    { q: 'Why does the Fort Cavazos PCS cycle matter for my marketing?', a: "Thousands of military families PCS in and out of Fort Cavazos every year. They arrive with urgent contractor needs and no local network — they search Google immediately and book whoever looks most established. Ranking and being well-reviewed before they arrive is a recurring lead opportunity that never stops. We get you in position to capture it." },
-    { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
-    { q: 'Which Killeen areas do you serve?', a: "All of the Killeen-Temple metro — Killeen, Fort Cavazos, Harker Heights, Copperas Cove, Nolanville, Belton, Temple, Lampasas, Gatesville and more — with genuine neighborhood pages rather than one generic Killeen page." },
-    { q: 'Where should I start?', a: "Start with a free Killeen audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest — including how to position for the Fort Cavazos community. No pitch deck, just a plan." },
+    { q: 'What marketing services do you offer in Killeen?', a: "Four core services for contractors: web design, website redesign, SEO, and local SEO. Most clients pair a high-converting website with SEO and local SEO so they rank, convert, and own their leads, and so they are set when a PCS rotation and storm demand land at once." },
+    { q: 'Do you work only with contractors?', a: "Almost entirely. We work in the home-service trades: roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors, so we get emergency calls, storm-driven demand, the occasional freeze event, and the particular rhythm of a town that never stops cycling people in and out." },
+    { q: 'Why does the Fort Cavazos PCS cycle matter for my marketing?', a: "Thousands of military families rotate in and out of Fort Cavazos every year. They arrive with pressing contractor needs and no local network, head straight to Google, and book whoever reads as most established. Ranking and looking well-reviewed before they land is a lead opening that resets and repeats without end. We put you in position to catch it." },
+    { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We pin down the exact scope in your free audit." },
+    { q: 'Which Killeen areas do you serve?', a: "The whole Killeen-Temple metro: Killeen, Fort Cavazos, Harker Heights, Copperas Cove, Nolanville, Belton, Temple, Lampasas, Gatesville and more, with real neighborhood pages rather than one stretched-thin Killeen page." },
+    { q: 'Where should I start?', a: "Start with a free Killeen audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that bring in the most work fastest, including how to stand out to the Fort Cavazos community. No pitch deck, just the plan." },
   ],
 };
