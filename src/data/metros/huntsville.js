@@ -1,4 +1,4 @@
-// HUNTSVILLE — per-metro × per-service local landing pages + city hub.
+// HUNTSVILLE: per-metro × per-service local landing pages + city hub.
 // Service pages render via /[city]/[service]/; the hub renders via /[city]/.
 // BUILD with the `onward-local-page` skill. SPEC: content/lead-content-plan/08 + 09.
 //
@@ -12,12 +12,12 @@
 // PRICING is fixed for cross-city consistency.
 
 // ===========================================================================
-// HUNTSVILLE — shared city blocks
+// HUNTSVILLE: shared city blocks
 // ===========================================================================
 const MARKET = {
   heading: "Why ranking in Huntsville is a different kind of competition",
   body:
-    "Huntsville is no longer the quiet Alabama city it was a generation ago. It recently surpassed Birmingham to become the state's largest city, and it keeps growing — driven by NASA's Marshall Space Flight Center, Redstone Arsenal, and a dense cluster of defense contractors including Boeing, Lockheed Martin, and Raytheon. The result is a homeowner base that skews highly educated, well-paid, and meticulous about research. When a Huntsville aerospace engineer needs a contractor, they open Google, read reviews carefully, check your website, and pick the one who looks most credible before they ever dial. Two forces shape demand here. First, Huntsville sits squarely in Tornado Alley. Northern Alabama's April storm season — the 2011 outbreak killed 238 people in the state in a single week — sends roofing, restoration, and storm-damage calls surging every spring. Second, Redstone Arsenal's constant PCS cycle means a steady stream of military homeowners arriving in town and needing every kind of contractor immediately. The contractor already ranking the day they land is the one who gets the call.",
+    "Huntsville is no longer the quiet Alabama city it was a generation ago. It recently surpassed Birmingham to become the state's largest city, and it keeps growing, driven by NASA's Marshall Space Flight Center, Redstone Arsenal, and a dense cluster of defense contractors including Boeing, Lockheed Martin, and Raytheon. The result is a homeowner base that skews highly educated, well-paid, and meticulous about research. When a Huntsville aerospace engineer needs a contractor, they open Google, read reviews carefully, check your website, and pick the one who looks most credible before they ever dial. Two forces shape demand here. First, Huntsville sits squarely in Tornado Alley. Northern Alabama's April storm season (the 2011 outbreak killed 238 people in the state in a single week) sends roofing, restoration, and storm-damage calls surging every spring. Second, Redstone Arsenal's constant PCS cycle means a steady stream of military homeowners arriving in town and needing every kind of contractor immediately. The contractor already ranking the day they land is the one who gets the call.",
   pullQuote:
     "In a city built by rocket scientists and defended by the U.S. Army, the contractor who looks most credible online wins the job before anyone picks up the phone.",
   donut: {
@@ -84,12 +84,12 @@ const AREAS = [
 ];
 
 const FOUNDER =
-  "I'll be straight with you: I started OnwardCraft because I kept watching good contractors hand Angi and HomeAdvisor a few grand a month for leads that three of their competitors bought too. You can't build a business on rented leads. That's the whole point of what we do here — get you ranking and converting for the work you actually want, in the neighborhoods you actually serve, and let those leads belong to you. Huntsville's homeowners — engineers, defense workers, military families rotating through Redstone — do their homework before they call. Being the most credible result when they search is how you win. No 12-month handcuffs. If it's not working, you fire us.";
+  "I'll be straight with you: I started OnwardCraft because I kept watching good contractors hand Angi and HomeAdvisor a few grand a month for leads that three of their competitors bought too. You can't build a business on rented leads. That's the whole point of what we do here — get you ranking and converting for the work you actually want, in the neighborhoods you actually serve, and let those leads belong to you. Huntsville's homeowners (engineers, defense workers, military families rotating through Redstone) do their homework before they call. Being the most credible result when they search is how you win. No 12-month handcuffs. If it's not working, you fire us.";
 
 const WHY = [
   {
     title: "We understand Rocket City's homeowners",
-    body: "A Huntsville aerospace engineer doesn't pick the first name they see — they compare, they read, and they trust the contractor whose online presence matches their standards. We build that presence so when a defense worker on Redstone or a NASA employee in Hampton Cove opens Google, your name is the one that looks right.",
+    body: "A Huntsville aerospace engineer doesn't pick the first name they see: they compare, they read, and they trust the contractor whose online presence matches their standards. We build that presence so when a defense worker on Redstone or a NASA employee in Hampton Cove opens Google, your name is the one that looks right.",
   },
   {
     title: "We get you off rented leads",
@@ -97,24 +97,24 @@ const WHY = [
   },
   {
     title: "We know Huntsville's seasons and storms",
-    body: "Tornado season, summer HVAC demand, military PCS windows — we optimize for the moments that actually drive calls in this market, not a generic national calendar. That means you rank before the storm season hits, not scrambling for visibility after the twister passes through.",
+    body: "Tornado season, summer HVAC demand, military PCS windows: we optimize for the moments that actually drive calls in this market, not a generic national calendar. That means you rank before the storm season hits, not scrambling for visibility after the twister passes through.",
   },
   {
     title: "No contracts, no mystery",
-    body: "Published prices, reporting tied to leads, month-to-month after 90 days. If we're not earning it, you leave. That keeps the pressure where it belongs: on us.",
+    body: "Our prices sit right on the page, reporting maps to the leads you actually booked, and you go month-to-month once the first 90 days are done. An engineer can audit exactly what they're paying for. If a given month doesn't earn its keep, you cancel. The accountability stays on our side of the table.",
   },
 ];
 
 const PROOF = {
   heading: "We're new, so here's the honest math instead of a logo wall",
-  body: "Plenty of agencies will show you a grid of client logos. We're a young, founder-led shop, so we won't pretend to a track record we don't have yet. What we can show you is why this works — straight from Google's and the industry's own research on how people search locally.",
+  body: "Other agencies open the pitch with a wall of client logos. We're a young, founder-led shop, and we'd rather not invent a track record we haven't earned in Huntsville yet. What we can put in front of you is the reasoning, drawn straight from Google's and the industry's published research on how people actually search for local contractors. Your buyers are research people. So is the case we make.",
   stats: [
     { value: "46%", label: "of Google searches have local intent", n: 46 },
     { value: "76%", label: "who search local on a phone visit a business that day", n: 76 },
     { value: "28%", label: "of local searches end in a purchase", n: 28 },
   ],
   projection:
-    "Here's a rough picture, clearly labelled as a projection and not a result we're claiming: say a Huntsville contractor gets around 1,200 local \"near me\" impressions a month across Hampton Cove, Madison, and Jones Valley. Moving from page-two invisibility into the top three during tornado season or the summer HVAC rush is the difference between a few scattered calls and a booked-out calendar. In your free audit, we model the real numbers for your business — your rankings, your search volume, and an honest 90-to-180-day path.",
+    "Here's a rough picture, clearly labelled as a projection and not a result we're claiming: say a Huntsville contractor gets around 1,200 local \"near me\" impressions a month across Hampton Cove, Madison, and Jones Valley. Moving from page-two invisibility into the top three during tornado season or the summer HVAC rush is the difference between a few scattered calls and a booked-out calendar. In your free audit, we model the real numbers for your business: your rankings, your search volume, and an honest 90-to-180-day path.",
   disclaimer:
     "Figures above are published benchmarks (Google / BrightLocal) and an illustrative projection. They are not past results claimed by OnwardCraft.",
   rankTrajectory: [
@@ -150,42 +150,42 @@ export const huntsvilleLocations = [
     service: "Local SEO",
     titleTag: "Huntsville Local SEO Company | OnwardCraft",
     metaDescription:
-      "Search your service in Huntsville and three businesses show up on the map. We get you into those three so the call lands with you — not a competitor.",
+      "Search your service in Huntsville and three businesses show up on the map. We get you into those three so the call lands with you, not a competitor.",
     eyebrow: "Local SEO · Huntsville, AL",
     h1: "When Huntsville searches for what you do, be the first name they find",
     h2Exact: "Huntsville Local SEO Company",
     heroSubhead:
-      "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In a city full of engineers and defense workers who research before they call, we get you into that top three for Hampton Cove, Madison, and the neighborhoods you serve — so the job lands with you.",
+      "When a homeowner searches \"near me,\" Google hands the work to the three businesses it pins on the map. Everyone underneath is scrolled past. Huntsville's buyers are engineers and defense workers who vet before they dial, so we put you in that top three across Hampton Cove, Madison, and the neighborhoods you run, and the job lands on your phone.",
     primaryCta: "Get my free Huntsville audit",
     intro:
-      "Huntsville local SEO comes down to one question: when a homeowner in Jones Valley, Madison, or Hampton Cove searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This market is unique — your customers are aerospace engineers, defense contractors, and military families rotating through Redstone Arsenal. They research carefully and they pick whoever looks most credible. Becoming that top-three result in the neighborhoods you serve is the whole game.",
+      "Huntsville local SEO comes down to one question: when a homeowner in Jones Valley, Madison, or Hampton Cove searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This market is unique: your customers are aerospace engineers, defense contractors, and military families rotating through Redstone Arsenal. They research carefully and they pick whoever looks most credible. Becoming that top-three result in the neighborhoods you serve is the whole game.",
     aioQuestion: "How do Huntsville businesses rank higher in local search?",
     aioAnswer:
-      "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to actual Huntsville neighborhoods like Hampton Cove, Madison, and Jones Valley. In Rocket City, credibility signals matter more than in most markets — your customers are highly educated and they read reviews, check websites, and compare before calling.",
+      "Four levers do the work: a Google Business Profile tuned to the precise services and neighborhoods you want, name-address-phone details that match everywhere online, a continuous flow of genuine reviews, and local pages built around real Huntsville areas like Hampton Cove, Madison, and Jones Valley. In Rocket City the credibility signals carry extra weight, because your buyers are educated, they read reviews, they open your site, and they compare before anyone calls.",
     problemHeading: "If your phone is quiet, it's usually one of these three",
     painPoints: [
       {
-        title: "Your competitors own the three spots on the map",
-        body: "Search your own service plus \"near me\" right now. See those three businesses Google pins to the map? They get the overwhelming majority of the clicks. A Huntsville engineer or defense worker searching for a contractor almost always picks from that top three — because that's the credible-looking shortlist. If you're not one of them, your name might as well not exist when the tornado-season calls start rolling in.",
+        title: "Three competitors are sitting in the map spots you want",
+        body: "Type your own trade plus \"near me\" into Google right now. The three businesses pinned to the map collect almost every click that follows. A Redstone engineer or a NASA contractor scanning for a roofer treats that trio as the vetted shortlist and rarely looks further. If your name isn't on it, you're effectively absent the moment a tornado-season call goes out, no matter how good your crew is.",
       },
       {
         title: "You're paying for leads you don't own",
-        body: "Angi, Thumbtack, and HomeAdvisor sell the same Huntsville homeowner to three or four contractors, then bill each of you to compete. Local SEO builds the opposite: a homeowner searches, finds you, and calls you — nobody else got the same lead. Over time you stop renting and start owning the pipeline.",
+        body: "Angi, Thumbtack, and HomeAdvisor sell the same Huntsville homeowner to three or four contractors, then bill each of you to compete. Local SEO builds the opposite: a homeowner searches, finds you, and calls you, and nobody else got the same lead. Over time you stop renting and start owning the pipeline.",
       },
       {
         title: "You're invisible during the moments that matter most",
-        body: "Huntsville's demand spikes hard during tornado season (March through May) and the summer HVAC rush (June through September). Military families arriving on PCS orders search immediately. If you're not ranking before those moments hit, you miss the busiest calls of the year. Local SEO takes months to build — starting now means being visible when the storm season arrives.",
+        body: "Huntsville's demand spikes hard during tornado season (March through May) and the summer HVAC rush (June through September). Military families arriving on PCS orders search immediately. If you're not ranking before those moments hit, you miss the busiest calls of the year. Local SEO takes months to build, so starting now means being visible when the storm season arrives.",
       },
     ],
     servicesHeading: "What it actually takes to rank you",
     services: [
       {
         name: "Google Business Profile",
-        desc: "The biggest lever in the Map Pack. We dial in your categories, services, service area, photos, and posts so Google knows exactly which Huntsville searches you should win — from Madison to Hampton Cove.",
+        desc: "The biggest lever in the Map Pack. We dial in your categories, services, service area, photos, and posts so Google knows exactly which Huntsville searches you should win, from Madison to Hampton Cove.",
       },
       {
         name: "Citations and NAP cleanup",
-        desc: "Your name, address, and phone have to match everywhere Google looks. We fix the listings that conflict and build the ones you're missing.",
+        desc: "Your name, address, and phone need to read the same way on every site Google checks, from Madison directories to national aggregators. We reconcile the listings that disagree and create the ones you never had.",
       },
       {
         name: "Reviews that keep coming",
@@ -193,24 +193,24 @@ export const huntsvilleLocations = [
       },
       {
         name: "Neighborhood pages",
-        desc: "Real pages for Hampton Cove, Jones Valley, Madison, Harvest, Meridianville, and the rest, so you rank for the neighborhood someone's actually searching — not just \"Huntsville.\"",
+        desc: "Real pages for Hampton Cove, Jones Valley, Madison, Harvest, Meridianville, and the rest, so you rank for the neighborhood someone's actually searching, not just \"Huntsville.\"",
       },
       {
         name: "On-page and technical SEO",
-        desc: "Titles, schema, internal links, mobile speed. The plumbing under the hood that lets everything else rank.",
+        desc: "Title tags, structured data, internal links, and mobile load time. This is the wiring behind the walls that lets every other piece of the work actually show up in results.",
       },
       {
         name: "Local link building",
-        desc: "Mentions and links from Huntsville and Alabama sources Google trusts — local press, associations, partners. This is what separates page one from page two here.",
+        desc: "Citations and links from Huntsville and Tennessee Valley sources Google respects: regional press, trade groups, and partners. In a metro adding contractors this fast, that is frequently the line between page one and page two.",
       },
       {
         name: "Storm-season and PCS readiness",
-        desc: "We optimize your profile and content for Huntsville's tornado-season storm-damage surge and the steady flow of military families landing on Redstone Arsenal — so you rank when demand is highest.",
+        desc: "We optimize your profile and content for Huntsville's tornado-season storm-damage surge and the steady flow of military families landing on Redstone Arsenal, so you rank when demand is highest.",
         featured: true,
       },
       {
         name: "AI search readiness",
-        desc: "More \"near me\" research now starts in AI Overviews, ChatGPT, and Perplexity — especially among Huntsville's tech-savvy homeowners. We structure your content so those tools can read and cite you.",
+        desc: "More \"near me\" research now starts in AI Overviews, ChatGPT, and Perplexity, especially among Huntsville's tech-savvy homeowners. We structure your content so those tools can read and cite you.",
         featured: true,
       },
     ],
@@ -222,11 +222,11 @@ export const huntsvilleLocations = [
       },
       {
         name: "Fix the foundation",
-        desc: "Google Business Profile and NAP first, because they move the fastest. You usually see early lift here within a few weeks.",
+        desc: "Google Business Profile and NAP come first, since they shift quickest. Most Huntsville clients notice early movement here inside the first few weeks.",
       },
       {
         name: "Build trust signals",
-        desc: "Citations and the review engine go live. For Huntsville's analytical homeowner base, reviews are especially load-bearing — these compound week over week.",
+        desc: "Citations and the review engine go live. For Huntsville's analytical homeowner base, reviews are especially load-bearing, and these compound week over week.",
       },
       {
         name: "Add local content",
@@ -234,7 +234,7 @@ export const huntsvilleLocations = [
       },
       {
         name: "Report and expand",
-        desc: "Plain-English reporting tied to calls and leads, not vanity rankings. Then we go take the next neighborhood.",
+        desc: "Reporting in plain language tied to calls and booked leads, not ranking screenshots that look nice and pay nothing. Then we move on to claim the next neighborhood.",
       },
     ],
     pricing: {
@@ -245,7 +245,7 @@ export const huntsvilleLocations = [
           name: "Local Starter",
           price: "$750",
           cadence: "/mo",
-          desc: "One location, getting the Map Pack foundation right.",
+          desc: "A single location, with the Map Pack groundwork done properly.",
           features: [
             "Google Business Profile optimization",
             "Citation cleanup and core listings",
@@ -294,15 +294,15 @@ export const huntsvilleLocations = [
       },
       {
         q: "What makes Huntsville local SEO different from other markets?",
-        a: "Two things. Your homeowners are disproportionately engineers, defense workers, and military families — people who research carefully and pick the most credible-looking result. And demand spikes hard during tornado season (March–May) and the summer HVAC rush, so you need to be ranking before those windows, not chasing visibility after the fact.",
+        a: "Two things. Your homeowners are disproportionately engineers, defense workers, and military families, people who research carefully and pick the most credible-looking result. And demand spikes hard during tornado season (March–May) and the summer HVAC rush, so you need to be ranking before those windows, not chasing visibility after the fact.",
       },
       {
         q: "How do I get in front of military families arriving on PCS orders?",
-        a: "PCS families search immediately when they hit town — often for everything from HVAC to roofing within their first few weeks. Local SEO puts you in the Map Pack for the services they're searching, so you're the credible local option they find on day one in Huntsville.",
+        a: "PCS families search immediately when they hit town, often for everything from HVAC to roofing within their first few weeks. Local SEO puts you in the Map Pack for the services they're searching, so you're the credible local option they find on day one in Huntsville.",
       },
       {
         q: "Which areas do you cover?",
-        a: "All of Huntsville's core neighborhoods and suburbs — Hampton Cove, Jones Valley, Madison, Harvest, Meridianville, Twickenham, Five Points, Old Town, and more, plus Athens and Decatur. We build genuine neighborhood pages instead of one generic Huntsville page, because that's what ranks for \"[service] [neighborhood]\" searches.",
+        a: "All of Huntsville's core neighborhoods and suburbs: Hampton Cove, Jones Valley, Madison, Harvest, Meridianville, Twickenham, Five Points, Old Town, and more, plus Athens and Decatur. We build genuine neighborhood pages instead of one generic Huntsville page, because that's what ranks for \"[service] [neighborhood]\" searches.",
       },
       {
         q: "Do you work with contractors specifically?",
@@ -314,15 +314,15 @@ export const huntsvilleLocations = [
       },
       {
         q: "Am I locked into a contract?",
-        a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk.",
+        a: "No. The first 90 days are a commitment because that's about how long local SEO takes to produce real movement in a market like this one. Past that point, you're month-to-month. If the leads aren't showing up, you're free to go.",
       },
       {
         q: "How does this get me off Angi and HomeAdvisor?",
-        a: "Those platforms sell the same Huntsville homeowner to multiple contractors and charge each of you for the privilege. We build rankings, a Google profile, and a review base that send leads straight to you — so over time you depend less on brokers and more on your own presence.",
+        a: "Those platforms sell the same Huntsville homeowner to multiple contractors and charge each of you for the privilege. We build rankings, a Google profile, and a review base that send leads straight to you, so over time you depend less on brokers and more on your own presence.",
       },
       {
         q: "What's in the free audit?",
-        a: "A clear read on where you rank today across Huntsville's neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan modeled around your actual business. No pitch deck — just a straight diagnosis.",
+        a: "A clear read on where you rank today across Huntsville's neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan modeled around your actual business. No pitch deck, just a straight diagnosis.",
       },
     ],
   },
@@ -340,41 +340,41 @@ export const huntsvilleLocations = [
     h1: "Get your Huntsville business to the top of Google and keep it there",
     h2Exact: "Huntsville SEO Company",
     heroSubhead:
-      "Ads stop the second you stop paying. SEO is the opposite: rank once for what Huntsville homeowners search and the leads keep coming. We build that ranking for Rocket City's most competitive terms and tie every report to actual calls and booked jobs.",
+      "The moment you stop funding ads, the leads dry up. SEO works the other way: earn the ranking once for what Huntsville homeowners search, and the calls keep arriving. We build that ranking for Rocket City's toughest terms and report it against booked jobs, not page-view charts.",
     primaryCta: "Get my free Huntsville SEO audit",
     intro:
-      "Huntsville SEO comes down to one question: when an engineer in Hampton Cove or a military family near Redstone Arsenal searches your service, are you on page one or page two? Page two might as well be page fifty. Huntsville's homeowners are research-driven — they open Google, compare the top results, read the websites carefully, and call the one that looks most credible. We get contractors ranking for the money keywords in this fast-growing, defense-heavy market and measure it in leads, not vanity traffic.",
+      "Huntsville SEO comes down to one question: when an engineer in Hampton Cove or a military family near Redstone Arsenal searches your service, are you on page one or page two? Page two might as well be page fifty. Huntsville's homeowners are research-driven: they open Google, compare the top results, read the websites carefully, and call the one that looks most credible. We get contractors ranking for the money keywords in this fast-growing, defense-heavy market and measure it in leads, not vanity traffic.",
     aioQuestion: "How do Huntsville businesses rank higher on Google?",
     aioAnswer:
-      "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms Huntsville homeowners search, publishing genuinely useful local content tied to specific neighborhoods and the area's aerospace and defense context, and earning links from trusted Alabama sources. In Rocket City's analytical market, credibility signals — fast site, clear content, real reviews — are especially important because your customers take time to compare before calling.",
+      "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms Huntsville homeowners search, publishing genuinely useful local content tied to specific neighborhoods and the area's aerospace and defense context, and earning links from trusted Alabama sources. In Rocket City's analytical market, credibility signals (fast site, clear content, real reviews) are especially important because your customers take time to compare before calling.",
     problemHeading: "Three reasons your Huntsville site isn't bringing in work",
     painPoints: [
       {
         title: "You're stuck on page two",
-        body: "Almost nobody clicks past the first page of Google, and they rarely scroll far down it. When the homeowner is an engineer or defense professional who does thorough research, being on page two is essentially being invisible — no matter how good your work is or how strong your reputation is locally.",
+        body: "Almost nobody clicks past the first page of Google, and they rarely scroll far down it. When the homeowner is an engineer or defense professional who does thorough research, being on page two is essentially being invisible, no matter how good your work is or how strong your reputation is locally.",
       },
       {
         title: "You're renting traffic from Google Ads",
-        body: "Ads can work, but the moment your card stops, the leads stop. SEO builds an asset you own: rankings that keep producing leads months and years after the work is done, at a lower cost per lead over time. For a market like Huntsville — where word-of-mouth has always been strong — owning your search visibility compounds beautifully.",
+        body: "Ads can work, but the moment your card stops, the leads stop. SEO builds an asset you own: rankings that keep producing leads months and years after the work is done, at a lower cost per lead over time. For a market like Huntsville, where word-of-mouth has always been strong, owning your search visibility compounds beautifully.",
       },
       {
         title: "You're missing the seasonal surges",
-        body: "Huntsville's demand swings hard — roofing and restoration explode after April tornado outbreaks, HVAC surges through the humid Alabama summer, and military PCS cycles bring fresh waves of homeowners searching for everything at once. Ranking takes months to build, so if you're not in place before those windows open, you miss the busiest calls of the year.",
+        body: "Huntsville's demand swings hard: roofing and restoration explode after April tornado outbreaks, HVAC surges through the humid Alabama summer, and military PCS cycles bring fresh waves of homeowners searching for everything at once. Ranking takes months to build, so if you're not in place before those windows open, you miss the busiest calls of the year.",
       },
     ],
     servicesHeading: "The SEO work that actually moves rankings",
     services: [
       {
         name: "Technical SEO",
-        desc: "Crawlability, site speed, Core Web Vitals, schema, and the under-the-hood fixes Google needs before it will rank you at all.",
+        desc: "Crawlability, page speed, Core Web Vitals, structured data, and the behind-the-scenes corrections Google requires before it will consider ranking you for anything.",
       },
       {
         name: "On-page optimization",
-        desc: "Every important page tuned for the exact terms Huntsville homeowners search — titles, headings, content, and internal links.",
+        desc: "Every important page tuned for the exact terms Huntsville homeowners search: titles, headings, content, and internal links.",
       },
       {
         name: "Content that ranks",
-        desc: "Genuinely useful pages and articles that answer what buyers search, earn links, and bring in leads on autopilot — without generic filler.",
+        desc: "Genuinely useful pages and articles that answer what buyers search, earn links, and bring in leads on autopilot, without generic filler.",
       },
       {
         name: "Link building",
@@ -386,16 +386,16 @@ export const huntsvilleLocations = [
       },
       {
         name: "Revenue-tied reporting",
-        desc: "We report on calls, forms, and leads — not just rankings and traffic — so you always know what your SEO investment is actually worth.",
+        desc: "We report on calls, forms, and leads, not just rankings and traffic, so you always know what your SEO investment is actually worth.",
       },
       {
         name: "Seasonal & storm-damage SEO",
-        desc: "We rank you for the tornado-season restoration searches, the summer HVAC terms, and the PCS-family contractor queries that drive Huntsville's busiest weeks — before those windows open, not after.",
+        desc: "We rank you for the tornado-season restoration searches, the summer HVAC terms, and the PCS-family contractor queries that drive Huntsville's busiest weeks, before those windows open, not after.",
         featured: true,
       },
       {
         name: "AI search & GEO",
-        desc: "We structure your content so AI Overviews, ChatGPT, and Perplexity surface and cite you — critical in a metro full of tech-comfortable homeowners who increasingly start searches there.",
+        desc: "We structure your content so AI Overviews, ChatGPT, and Perplexity surface and cite you: critical in a metro full of tech-comfortable homeowners who increasingly start searches there.",
         featured: true,
       },
     ],
@@ -403,11 +403,11 @@ export const huntsvilleLocations = [
     process: [
       {
         name: "Audit and strategy",
-        desc: "We benchmark your rankings, traffic, and competitors, then build a roadmap around the keywords most likely to drive real Huntsville leads — including the seasonal and storm-damage terms most agencies ignore.",
+        desc: "We benchmark your rankings, traffic, and competitors, then build a roadmap around the keywords most likely to drive real Huntsville leads, including the seasonal and storm-damage terms most agencies ignore.",
       },
       {
         name: "Fix the technical base",
-        desc: "Speed, crawlability, schema, and mobile — the foundation everything else needs to rank, and the signals Huntsville's analytical homeowners notice when they land on your site.",
+        desc: "Speed, crawlability, schema, and mobile: the foundation everything else needs to rank, and the signals Huntsville's analytical homeowners notice when they land on your site.",
       },
       {
         name: "Optimize and create content",
@@ -419,7 +419,7 @@ export const huntsvilleLocations = [
       },
       {
         name: "Report and scale",
-        desc: "Monthly reporting tied to leads, then we double down on what's working and expand into the next keyword set — neighborhood by neighborhood.",
+        desc: "Monthly reporting tied to leads, then we double down on what's working and expand into the next keyword set, neighborhood by neighborhood.",
       },
     ],
     pricing: {
@@ -479,11 +479,11 @@ export const huntsvilleLocations = [
       },
       {
         q: "Is SEO better than Google Ads for Huntsville contractors?",
-        a: "They do different jobs. Ads buy instant traffic that stops when you stop paying. SEO is an asset you own that keeps producing leads at a lower cost per lead over time. Most Huntsville contractors do best running SEO as the long-term engine and ads for short-term spikes — especially in the weeks before tornado season opens.",
+        a: "They do different jobs. Ads buy instant traffic that stops when you stop paying. SEO is an asset you own that keeps producing leads at a lower cost per lead over time. Most Huntsville contractors do best running SEO as the long-term engine and ads for short-term spikes, especially in the weeks before tornado season opens.",
       },
       {
         q: "Should my Huntsville SEO target seasonal demand?",
-        a: "Absolutely. The April tornado season drives roofing and restoration searches overnight. The summer HVAC surge hits June through September. Military PCS arrivals are steady year-round. You need to be ranking before those windows open — not scrambling for visibility after a storm rolls through.",
+        a: "Absolutely. The April tornado season drives roofing and restoration searches overnight. The summer HVAC surge hits June through September. Military PCS arrivals are steady year-round. You need to be ranking before those windows open, not scrambling for visibility after a storm rolls through.",
       },
       {
         q: "What's included in your SEO service?",
@@ -491,23 +491,23 @@ export const huntsvilleLocations = [
       },
       {
         q: "Do you require a long-term contract?",
-        a: "No. We ask for an initial 90 days because SEO needs that long to show real movement, then it's month-to-month. If we're not delivering, you leave.",
+        a: "No. We ask for 90 days to start because SEO needs about that window to produce visible movement, and after that you're month-to-month. If the results aren't there, you're out with no penalty.",
       },
       {
         q: "Will I show up in Google AI Overviews and ChatGPT?",
-        a: "That's a growing part of what we optimize for — and it's especially important in Huntsville, where your homeowners are among the most tech-comfortable in the country. We structure your content and schema so AI engines can read, trust, and cite your business.",
+        a: "That's a growing part of what we optimize for, and it's especially important in Huntsville, where your homeowners are among the most tech-comfortable in the country. We structure your content and schema so AI engines can read, trust, and cite your business.",
       },
       {
         q: "Which Huntsville areas do you cover?",
-        a: "All of Huntsville's neighborhoods and suburbs — Hampton Cove, Jones Valley, Madison, Harvest, Meridianville, Five Points, Old Town, Twickenham, and more, plus Athens and Decatur. We build genuine local pages rather than one generic Huntsville page.",
+        a: "All of Huntsville's neighborhoods and suburbs: Hampton Cove, Jones Valley, Madison, Harvest, Meridianville, Five Points, Old Town, Twickenham, and more, plus Athens and Decatur. We build genuine local pages rather than one generic Huntsville page.",
       },
       {
         q: "How do you get me off Angi and HomeAdvisor leads?",
-        a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads — especially during Huntsville's high-demand storm and HVAC seasons.",
+        a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads, especially during Huntsville's high-demand storm and HVAC seasons.",
       },
       {
         q: "What's in the free SEO audit?",
-        a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck — just a diagnosis.",
+        a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis.",
       },
     ],
   },
@@ -520,23 +520,23 @@ export const huntsvilleLocations = [
     service: "Web Design",
     titleTag: "Huntsville Web Design Company | OnwardCraft",
     metaDescription:
-      "Huntsville web design that turns visitors into booked jobs — fast, mobile-first sites built for a market full of engineers and defense workers who research.",
+      "Huntsville web design that turns visitors into booked jobs: fast, mobile-first sites built for a market full of engineers and defense workers who research.",
     eyebrow: "Web Design · Huntsville, AL",
     h1: "Huntsville web design that turns visitors into booked jobs",
     h2Exact: "Huntsville Web Design Company",
     heroSubhead:
-      "A pretty website that doesn't generate calls is a brochure. We build Huntsville contractors fast, mobile-first sites that earn the trust of engineers and defense workers who research before they call — and convert that trust into booked work.",
+      "A good-looking site that never rings the phone is just a brochure with a domain. We build Huntsville contractors fast, mobile-first sites that win over the engineers and defense workers who research before they call, then turn that trust into jobs on the calendar.",
     primaryCta: "Get my free quote",
     intro:
-      "Most Huntsville contractor websites lose leads quietly: slow on a phone, buried call button, no social proof, no reason to choose you over a competitor. In a market where your customers are engineers and defense professionals who compare carefully before calling, web design done right isn't just aesthetics — it's credibility. We build sites that load fast, look like the professional you are, and turn Hampton Cove and Madison visitors into booked jobs.",
+      "Most Huntsville contractor websites lose leads quietly: slow on a phone, buried call button, no social proof, no reason to choose you over a competitor. In a market where your customers are engineers and defense professionals who compare carefully before calling, web design done right isn't just aesthetics: it's credibility. We build sites that load fast, look like the professional you are, and turn Hampton Cove and Madison visitors into booked jobs.",
     aioQuestion: "What makes a good contractor website in Huntsville?",
     aioAnswer:
-      "A good Huntsville contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with real reviews and project photos, and names the specific neighborhoods you serve. Because Huntsville's homeowners skew highly educated and research-driven — many are engineers, defense workers, or military families — your site needs to look credible and professional, not just functional. A slow or generic site costs you the job before you ever answer the phone.",
+      "A good Huntsville contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with real reviews and project photos, and names the specific neighborhoods you serve. Because Huntsville's homeowners skew highly educated and research-driven (many are engineers, defense workers, or military families) your site needs to look credible and professional, not just functional. A slow or generic site costs you the job before you ever answer the phone.",
     problemHeading: "Why your current site isn't bringing in work",
     painPoints: [
       {
         title: "It doesn't look credible to a Huntsville engineer",
-        body: "Your customers include aerospace engineers, defense contractors, and military officers who evaluate contractors the same way they evaluate suppliers at work — thoroughly. An outdated or generic site signals that you might not be the right fit for their home, even if your work is excellent. We build sites that match the professional standard your customers expect.",
+        body: "Your customers include aerospace engineers, defense contractors, and military officers who evaluate contractors the same way they evaluate suppliers at work, thoroughly. An outdated or generic site signals that you might not be the right fit for their home, even if your work is excellent. We build sites that match the professional standard your customers expect.",
       },
       {
         title: "It's too slow on a phone",
@@ -544,7 +544,7 @@ export const huntsvilleLocations = [
       },
       {
         title: "It doesn't speak to your neighborhood",
-        body: "A homeowner in Hampton Cove wants to see you serve Hampton Cove — not a generic Alabama contractor page that could be anyone. We build sites that name the neighborhoods you work, show real local context, and give Google the signals it needs to rank you for those searches.",
+        body: "A homeowner in Hampton Cove wants to see you serve Hampton Cove, not a generic Alabama contractor page that could be anyone. We build sites that name the neighborhoods you work, show real local context, and give Google the signals it needs to rank you for those searches.",
       },
     ],
     servicesHeading: "What's in an OnwardCraft Huntsville website",
@@ -559,19 +559,19 @@ export const huntsvilleLocations = [
       },
       {
         name: "Conversion-focused UX",
-        desc: "Clear offers, obvious call buttons, and lead forms placed where they actually get used. Every page has a next step — especially important when your visitor is comparison-shopping.",
+        desc: "Clear offers, obvious call buttons, and lead forms placed where they actually get used. Every page has a next step, especially important when your visitor is comparison-shopping.",
       },
       {
         name: "Copy that sells",
-        desc: "Words that speak to Huntsville homeowners' real concerns — storm readiness, quality standards, quick response — and book the job, not filler text.",
+        desc: "Words that speak to Huntsville homeowners' real concerns (storm readiness, quality standards, quick response) and book the job, not filler text.",
       },
       {
         name: "Local SEO foundation",
-        desc: "Built from the ground up to rank — clean structure, schema, fast load, and neighborhood-ready pages for Hampton Cove, Madison, Jones Valley, and beyond.",
+        desc: "Built from the ground up to rank: clean structure, schema, fast load, and neighborhood-ready pages for Hampton Cove, Madison, Jones Valley, and beyond.",
       },
       {
         name: "Speed & Core Web Vitals",
-        desc: "Tuned to load fast and pass Google's performance checks, which protects both conversions and rankings.",
+        desc: "Tuned for quick load times and a clean pass on Google's performance metrics, which guards your conversions and your rankings together. Fast pages also read as competent to an engineer.",
       },
       {
         name: "Neighborhood-targeted pages",
@@ -580,7 +580,7 @@ export const huntsvilleLocations = [
       },
       {
         name: "AI-search ready",
-        desc: "Structured so AI Overviews and ChatGPT can read and recommend your business — increasingly important in a metro where homeowners are tech-comfortable early adopters.",
+        desc: "Structured so AI Overviews and ChatGPT can read and recommend your business: increasingly important in a metro where homeowners are tech-comfortable early adopters.",
         featured: true,
       },
     ],
@@ -592,7 +592,7 @@ export const huntsvilleLocations = [
       },
       {
         name: "Design",
-        desc: "We design a custom, mobile-first layout built to convert — you see it and shape it before a line of code is written.",
+        desc: "We lay out a custom, mobile-first design aimed at booking work, and you review and adjust it before we write a single line of code.",
       },
       {
         name: "Build and copy",
@@ -600,11 +600,11 @@ export const huntsvilleLocations = [
       },
       {
         name: "Launch",
-        desc: "We launch cleanly with the SEO foundation, tracking, and speed dialed in from day one.",
+        desc: "We ship it clean, with the SEO foundation, analytics, and load speed all set correctly on day one.",
       },
       {
         name: "Support and optimize",
-        desc: "We keep it fast and current and tune it based on what's actually converting — especially before and after Huntsville's storm seasons.",
+        desc: "We keep it fast and current and tune it based on what's actually converting, especially before and after Huntsville's storm seasons.",
       },
     ],
     pricing: {
@@ -615,7 +615,7 @@ export const huntsvilleLocations = [
           name: "Starter Site",
           price: "$2,000",
           cadence: "",
-          desc: "A focused, high-converting site for a single-trade contractor.",
+          desc: "A tight, lead-driving site for a contractor running one trade.",
           features: [
             "Up to 5 custom pages",
             "Mobile-first design",
@@ -642,7 +642,7 @@ export const huntsvilleLocations = [
           name: "Custom Build",
           price: "$8,000",
           cadence: "",
-          desc: "A full custom build for multi-service or multi-location businesses.",
+          desc: "A complete custom build for businesses spanning several services or locations.",
           features: [
             "Fully custom design",
             "Advanced SEO + schema",
@@ -656,11 +656,11 @@ export const huntsvilleLocations = [
     faqs: [
       {
         q: "How much does a website cost in Huntsville?",
-        a: "Most contractor websites with us run $2,000 to $8,000 as a one-time build, depending on page count and integrations. Our tiers are above — fixed price, no surprises, and you own the finished site.",
+        a: "Most contractor sites we build land between $2,000 and $8,000 as a one-time project, set by page count and any integrations. The tiers above spell it out: a fixed number, nothing hidden, and the finished site belongs to you.",
       },
       {
         q: "How long does it take to build?",
-        a: "A focused site takes about 2 to 4 weeks; a larger custom build takes 4 to 8. We give you a firm timeline up front and keep you updated through each stage.",
+        a: "A focused site runs roughly 2 to 4 weeks; a bigger custom build takes 4 to 8. You get a firm schedule before we start and a status update at each stage as we go.",
       },
       {
         q: "Will my site help me stand out with Huntsville's educated homeowners?",
@@ -668,11 +668,11 @@ export const huntsvilleLocations = [
       },
       {
         q: "Will my new site actually rank on Google?",
-        a: "We build every site on a local-SEO foundation — fast load, clean structure, schema, and neighborhood-ready pages for Hampton Cove, Madison, Jones Valley, and beyond. The build gets you ready to rank; pairing it with our SEO service is how you climb the competitive Huntsville terms.",
+        a: "We build every site on a local-SEO foundation: fast load, clean structure, schema, and neighborhood-ready pages for Hampton Cove, Madison, Jones Valley, and beyond. The build gets you ready to rank; pairing it with our SEO service is how you climb the competitive Huntsville terms.",
       },
       {
         q: "Do I own the website?",
-        a: "Completely. You own the site, the domain, and the content. No hostage situations, no platforms you can't leave.",
+        a: "Fully. The site, the domain, and the content are all yours. Nothing is held hostage, and there's no proprietary platform you can't walk away from.",
       },
       {
         q: "Will it work well on phones?",
@@ -680,15 +680,15 @@ export const huntsvilleLocations = [
       },
       {
         q: "What platform do you build on?",
-        a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly.",
+        a: "We choose the platform that matches your needs and that you can run yourself once we hand it over, usually WordPress or Webflow. In your free consult we'll suggest the right one and walk through the tradeoffs without the jargon.",
       },
       {
         q: "Do you offer ongoing support?",
-        a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that.",
+        a: "Yes. Launch support comes with every build, and after that we offer reasonably priced monthly maintenance covering updates, speed, and security.",
       },
       {
         q: "Am I locked into a contract?",
-        a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever.",
+        a: "No. The build is a single fixed-price project. Whatever maintenance or SEO you add afterward runs month-to-month, so you can step away at any point.",
       },
       {
         q: "What do I get in the free quote?",
@@ -705,7 +705,7 @@ export const huntsvilleLocations = [
     service: "Website Redesign",
     titleTag: "Huntsville Website Redesign | OnwardCraft",
     metaDescription:
-      "Redesign your Huntsville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — built for Rocket City's.",
+      "Redesign your Huntsville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs, built for Rocket City's.",
     eyebrow: "Website Redesign · Huntsville, AL",
     h1: "Redesign your Huntsville website without losing your rankings",
     h2Exact: "Huntsville Website Redesign Company",
@@ -713,15 +713,15 @@ export const huntsvilleLocations = [
       "An outdated site costs you jobs every week in a market full of engineers who compare before they call. We redesign Huntsville contractor sites to convert more visitors into booked work, load faster, and migrate carefully so you keep every bit of ranking you've already earned.",
     primaryCta: "Get my free redesign audit",
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Huntsville contractor sites for speed and credibility, build them to win the trust of research-driven homeowners in Hampton Cove and Madison, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A redesign usually fails in one of two ways: the new site looks sharper but books the same number of jobs, or it goes live and the rankings disappear by morning. We avoid both. We rebuild Huntsville contractor sites for speed and credibility, build them to win the trust of research-driven homeowners in Hampton Cove and Madison, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: "How do I redesign my website without losing SEO and traffic?",
     aioAnswer:
-      "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them — because the new site is faster, mobile-first, and more credible-looking than the old one, which matters especially in a market like Huntsville where homeowners evaluate carefully.",
+      "Hold your rankings through a redesign by leaving the URL structure intact, or mapping a 301 redirect for every page that changes, then carrying over your content and metadata, moving the schema, and proving it all on a staging copy before launch. Handled this way, the rebuild keeps your positions and usually lifts them, since the new site loads faster, runs mobile-first, and reads as more credible to Huntsville's careful buyers.",
     problemHeading: "Signs your Huntsville site is overdue for a redesign",
     painPoints: [
       {
         title: "It costs you trust with research-driven buyers",
-        body: "When an aerospace engineer or defense contractor is shopping for a contractor, they'll spend two minutes on your site before deciding whether to call. An old, cluttered, or generic design tells them you're not the professional they're looking for — even when your work is exceptional. A redesign that looks credible wins those jobs back.",
+        body: "When an aerospace engineer or defense contractor is shopping for a contractor, they'll spend two minutes on your site before deciding whether to call. An old, cluttered, or generic design tells them you're not the professional they're looking for, even when your work is exceptional. A redesign that looks credible wins those jobs back.",
       },
       {
         title: "It's slow and hard to use on a phone",
@@ -740,7 +740,7 @@ export const huntsvilleLocations = [
       },
       {
         name: "SEO-safe migration",
-        desc: "Redirects, metadata, and schema handled properly so you keep the rankings and traffic you've already earned — especially the seasonal positions you've built up.",
+        desc: "Redirects, metadata, and schema handled properly so you keep the rankings and traffic you've already earned, especially the seasonal positions you've built up.",
       },
       {
         name: "Conversion redesign",
@@ -748,7 +748,7 @@ export const huntsvilleLocations = [
       },
       {
         name: "Speed overhaul",
-        desc: "We rebuild for fast load and passing Core Web Vitals — better for both conversions and rankings, and for first impressions with analytical visitors.",
+        desc: "We rebuild for fast load and passing Core Web Vitals: better for both conversions and rankings, and for first impressions with analytical visitors.",
       },
       {
         name: "Mobile-first rebuild",
@@ -760,12 +760,12 @@ export const huntsvilleLocations = [
       },
       {
         name: "Neighborhood-targeted rebuild",
-        desc: "Rebuilt around the Huntsville neighborhoods and suburbs you actually serve — Hampton Cove, Jones Valley, Madison, and beyond — so the new site ranks and resonates locally instead of reading like everyone else's.",
+        desc: "Rebuilt around the Huntsville neighborhoods and suburbs you actually serve (Hampton Cove, Jones Valley, Madison, and beyond) so the new site ranks and resonates locally instead of reading like everyone else's.",
         featured: true,
       },
       {
         name: "AI-search ready",
-        desc: "Structured so AI Overviews and ChatGPT can read and recommend you — especially important as Huntsville's tech-comfortable homeowners shift more searches to AI.",
+        desc: "Structured so AI Overviews and ChatGPT can read and recommend you, especially important as Huntsville's tech-comfortable homeowners shift more searches to AI.",
         featured: true,
       },
     ],
@@ -773,11 +773,11 @@ export const huntsvilleLocations = [
     process: [
       {
         name: "Audit and plan",
-        desc: "We analyze what's losing you leads and rankings today, then map a redesign that fixes it without breaking what already works — including the seasonal positions you've earned.",
+        desc: "We analyze what's losing you leads and rankings today, then map a redesign that fixes it without breaking what already works, including the seasonal positions you've earned.",
       },
       {
         name: "Design",
-        desc: "A modern, mobile-first, conversion-focused design you review and shape before we build — built to earn the trust of Huntsville's analytical homeowners.",
+        desc: "A modern, mobile-first, conversion-focused design you review and shape before we build, built to earn the trust of Huntsville's analytical homeowners.",
       },
       {
         name: "Rebuild and migrate",
@@ -785,7 +785,7 @@ export const huntsvilleLocations = [
       },
       {
         name: "Launch with SEO care",
-        desc: "We launch with redirects in place and monitor closely so rankings hold and improve — not drop — especially heading into tornado season or summer HVAC demand.",
+        desc: "We launch with redirects in place and monitor closely so rankings hold and improve, not drop, especially heading into tornado season or summer HVAC demand.",
       },
       {
         name: "Optimize",
@@ -841,15 +841,15 @@ export const huntsvilleLocations = [
     faqs: [
       {
         q: "How much does a website redesign cost in Huntsville?",
-        a: "Most redesigns with us run $2,500 to $9,000 as a one-time project, depending on size and integrations. Fixed price, no surprises, and you own the result.",
+        a: "Most of our redesigns come in between $2,500 and $9,000 as a one-time project, depending on scope and integrations. The price is fixed, there are no surprises, and the finished site is yours.",
       },
       {
         q: "Will I lose my Google rankings if I redesign?",
-        a: "Not if it's done carefully, and that's exactly how we work. We map 301 redirects for every changed URL, preserve content and metadata, migrate your schema, and test on staging first. Done right, a redesign holds your rankings and usually improves them — especially if the new site is faster and better structured.",
+        a: "Not if it's done carefully, and that's exactly how we work. We map 301 redirects for every changed URL, preserve content and metadata, migrate your schema, and test on staging first. Done right, a redesign holds your rankings and usually improves them, especially if the new site is faster and better structured.",
       },
       {
         q: "How long does a redesign take?",
-        a: "A focused redesign takes about 3 to 5 weeks; a larger rebuild takes 5 to 9. You get a firm timeline up front and updates at each stage.",
+        a: "A focused redesign runs roughly 3 to 5 weeks; a larger rebuild takes 5 to 9. We commit to a firm timeline before we start and keep you posted at every stage.",
       },
       {
         q: "How do I know I need a redesign?",
@@ -857,7 +857,7 @@ export const huntsvilleLocations = [
       },
       {
         q: "Do you migrate my existing content?",
-        a: "Yes. We carry over and improve your existing content, preserve what's ranking, and handle the technical migration so nothing important gets lost — including the seasonal content you've built up.",
+        a: "Yes. We carry over and improve your existing content, preserve what's ranking, and handle the technical migration so nothing important gets lost, including the seasonal content you've built up.",
       },
       {
         q: "Will the redesign help me compete as Huntsville keeps growing?",
@@ -865,15 +865,15 @@ export const huntsvilleLocations = [
       },
       {
         q: "Will the new site be mobile-friendly and fast?",
-        a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings — and makes the right first impression on visitors who are quick to judge.",
+        a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings, and makes the right first impression on visitors who are quick to judge.",
       },
       {
         q: "Do I own the redesigned site?",
-        a: "Completely — the site, the domain, and the content. No platform lock-in.",
+        a: "Fully: the site, the domain, and the content. No platform you're tied to and can't leave.",
       },
       {
         q: "Am I locked into a contract?",
-        a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month.",
+        a: "No. The redesign is a one-time project with a fixed price. If you add maintenance or SEO afterward, that's month-to-month and you can cancel anytime.",
       },
       {
         q: "What's in the free redesign audit?",
@@ -892,21 +892,21 @@ export const huntsvilleCity = {
 
   titleTag: "Huntsville Marketing for Contractors | OnwardCraft",
   metaDescription:
-    "Web design, SEO, and local SEO for Huntsville contractors. Get found by engineers, defense workers, and military families — and own your leads instead.",
+    "Web design, SEO, and local SEO for Huntsville contractors. Get found by engineers, defense workers, and military families, and own your leads instead.",
 
   eyebrow: "Huntsville · Web Design, SEO & Lead Generation",
   h1: "Marketing that gets Huntsville contractors found and booked",
   h2Exact: "Huntsville Marketing Agency for Contractors",
   heroSubhead:
-    "Websites, SEO, and local SEO built for Rocket City's unique market — aerospace engineers who research carefully, military families on PCS orders, and a storm season that fills calendars overnight. One team to get you ranking, converting, and off the rented-lead treadmill.",
+    "Websites, SEO, and local SEO built for Rocket City's unique market: aerospace engineers who research carefully, military families on PCS orders, and a storm season that fills calendars overnight. One team to get you ranking, converting, and off the rented-lead treadmill.",
   heroProof: ["Built for the trades", "Rocket City expertise", "No lock-in contracts"],
   primaryCta: "Get my free Huntsville audit",
 
   intro:
-    "If you run a contracting business in Huntsville, you're competing in one of the fastest-growing and most analytically demanding markets in the South. Your customers — NASA engineers, Redstone Arsenal defense workers, military families on PCS orders — research before they call and pick whoever looks most credible. Winning here means three things working together: a site that earns trust on first look, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for Hampton Cove, Madison, Jones Valley, and the neighborhoods you serve. Here's how we help Huntsville contractors do exactly that.",
+    "If you run a contracting business in Huntsville, you're competing in one of the fastest-growing and most analytically demanding markets in the South. Your customers (NASA engineers, Redstone Arsenal defense workers, military families on PCS orders) research before they call and pick whoever looks most credible. Winning here means three things working together: a site that earns trust on first look, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for Hampton Cove, Madison, Jones Valley, and the neighborhoods you serve. Here's how we help Huntsville contractors do exactly that.",
   aioQuestion: "How do Huntsville contractors get more leads online?",
   aioAnswer:
-    "Huntsville contractors get more leads by combining a fast, mobile-first website that looks credible to research-minded homeowners with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. In Rocket City's defense- and aerospace-heavy market, credibility signals — professional website, strong reviews, neighborhood-specific content — matter more than in most cities. Military PCS cycles and tornado-season surges create predictable demand windows that well-ranked contractors capture entirely.",
+    "Huntsville contractors get more leads by combining a fast, mobile-first website that looks credible to research-minded homeowners with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. In Rocket City's defense- and aerospace-heavy market, credibility signals (professional website, strong reviews, neighborhood-specific content) matter more than in most cities. Military PCS cycles and tornado-season surges create predictable demand windows that well-ranked contractors capture entirely.",
 
   localMarket: MARKET,
   areasServed: AREAS,
@@ -927,21 +927,21 @@ export const huntsvilleCity = {
       serviceSlug: "seo-services",
       tagline: "Rank higher, get leads",
       blurb:
-        "Rank for the money keywords your Huntsville customers actually search — including the storm-damage and HVAC terms that drive the busiest weeks of the year — and build an asset you own instead of renting traffic from ads.",
+        "Rank for the money keywords your Huntsville customers actually search, including the storm-damage and HVAC terms that drive the busiest weeks of the year, and build an asset you own instead of renting traffic from ads.",
     },
     {
       service: "Web Design",
       serviceSlug: "web-design",
       tagline: "Sites that convert",
       blurb:
-        "Fast, mobile-first websites that earn the trust of Huntsville's research-driven homeowners and turn that trust into booked jobs — not brochures that look fine but generate nothing.",
+        "Fast, mobile-first websites that earn the trust of Huntsville's research-driven homeowners and turn that trust into booked jobs, not brochures that look fine but generate nothing.",
     },
     {
       service: "Website Redesign",
       serviceSlug: "website-redesign",
       tagline: "More leads, no traffic loss",
       blurb:
-        "Rebuild an outdated site for speed and credibility as Huntsville keeps growing, and migrate it carefully so you keep every bit of ranking you've already earned — especially the seasonal positions that matter most.",
+        "Rebuild an outdated site for speed and credibility as Huntsville keeps growing, and migrate it carefully so you keep every bit of ranking you've already earned, especially the seasonal positions that matter most.",
     },
   ],
 
@@ -952,23 +952,23 @@ export const huntsvilleCity = {
     },
     {
       q: "Do you work only with contractors?",
-      a: "Almost entirely. We specialize in home-service trades — roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors — so we understand tornado-season surges, military homeowner timelines, and the credibility bar Huntsville's aerospace and defense community sets.",
+      a: "Almost entirely. We specialize in home-service trades (roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors) so we understand tornado-season surges, military homeowner timelines, and the credibility bar Huntsville's aerospace and defense community sets.",
     },
     {
       q: "Why does the Huntsville market need a different approach?",
-      a: "Because your customers aren't typical. Huntsville's homeowner base is disproportionately engineers, defense workers, and military families — people who research thoroughly before calling. Add the predictable demand spikes from tornado season and PCS arrivals, and you have a market where credibility and timing matter more than almost anywhere else in the South.",
+      a: "Because your customers aren't typical. Huntsville's homeowner base is disproportionately engineers, defense workers, and military families, people who research thoroughly before calling. Add the predictable demand spikes from tornado season and PCS arrivals, and you have a market where credibility and timing matter more than almost anywhere else in the South.",
     },
     {
       q: "How much does it cost to work with you?",
-      a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit.",
+      a: "Websites are one-time builds priced from $2,000 to $9,000. SEO and local SEO run month-to-month between $750 and $3,000, with no long contract attached. The exact scope gets pinned down in your free audit.",
     },
     {
       q: "Which Huntsville areas do you serve?",
-      a: "All of Huntsville's neighborhoods and surrounding communities — Hampton Cove, Jones Valley, Madison, Five Points, Old Town, Twickenham, Harvest, Meridianville, and more, plus Athens and Decatur. We build genuine local pages rather than one generic Huntsville page.",
+      a: "All of Huntsville's neighborhoods and surrounding communities: Hampton Cove, Jones Valley, Madison, Five Points, Old Town, Twickenham, Harvest, Meridianville, and more, plus Athens and Decatur. We build genuine local pages rather than one generic Huntsville page.",
     },
     {
       q: "Where should I start?",
-      a: "Start with a free Huntsville audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest — whether that's before tornado season or heading into the summer HVAC rush. No pitch deck, just a plan.",
+      a: "Start with a free Huntsville audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, whether that's before tornado season or heading into the summer HVAC rush. No pitch deck, just a plan.",
     },
   ],
 };

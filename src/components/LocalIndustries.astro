@@ -1,0 +1,104 @@
+---
+// "Who we serve" — industries band for the local landing pages + city hubs.
+// Reuses the real trade list so it stays in sync with /industries/[trade]/.
+// Light-mode styled to match the .loc / .hub content palette.
+import { industries as trades } from '../data/industries.js';
+
+interface Props { city: string; alt?: boolean; }
+const { city, alt = false } = Astro.props;
+
+const blurbs: Record<string, string> = {
+  roofing: 'Insurance-claim homeowners and storm work, captured the moment they search.',
+  hvac: 'Win the July and January emergency calls, then stay booked in spring and fall.',
+  plumbing: 'Own the 2am burst-pipe search with map-pack rankings and a site that converts.',
+  solar: 'Lower lead costs with education-led content that closes the long solar sale.',
+  electrical: 'Panel upgrades to EV chargers, framed to win safety-sensitive work.',
+  restoration: 'Capture urgent water and fire searches and the insurance referrals behind them.',
+};
+
+const icons: Record<string, string> = {
+  roofing: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M9 22V12h6v10"/></svg>`,
+  hvac: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9.5 14.5A2.5 2.5 0 1014 16.5V5a2 2 0 10-4 0v9.5z"/><path d="M16 9h3M16 13h4M16 17h2"/></svg>`,
+  plumbing: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2.7s6 6.2 6 10.3a6 6 0 01-12 0c0-4.1 6-10.3 6-10.3z"/></svg>`,
+  solar: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>`,
+  electrical: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M13 2L4.5 13.5H11l-1 8.5L19.5 10H13z"/></svg>`,
+  restoration: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l8 3v6c0 5-3.5 8.5-8 11-4.5-2.5-8-6-8-11V5z"/><path d="M9 12l2 2 4-4"/></svg>`,
+};
+
+// Alternate teal/gold accent per card to stay on-brand.
+const accents = ['#07866A', '#E08A0B', '#07866A', '#E08A0B', '#07866A', '#E08A0B'];
+---
+
+<section class={`section ind-band${alt ? ' section-alt' : ''}`}>
+  <div class="ind-blob" aria-hidden="true"></div>
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Who we serve</p>
+      <h2>The trades we build for in {city}</h2>
+      <p class="section-sub">We do not work with restaurants, startups, or law firms. Every site, campaign, and lead system is tuned to how home-service contractors actually win work in {city}.</p>
+    </div>
+
+    <div class="ind-grid stagger-children">
+      {trades.map((ind: any, i: number) => (
+        <a href={`/industries/${ind.slug}/`} class="ind-card stagger-item" style={`--ind: ${accents[i % accents.length]}`}>
+          <span class="ind-icon" set:html={icons[ind.slug]} />
+          <h3>{ind.trade}</h3>
+          <p>{blurbs[ind.slug]}</p>
+          <span class="ind-arrow" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .ind-band { position: relative; overflow: hidden; }
+  .ind-blob {
+    position: absolute; top: -120px; right: -100px; width: 460px; height: 460px;
+    background: radial-gradient(circle, rgba(6,214,160,0.10), transparent 70%);
+    filter: blur(40px); pointer-events: none;
+  }
+  .ind-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+    position: relative; z-index: 1;
+  }
+  .ind-card {
+    position: relative; display: block; text-decoration: none;
+    background: var(--l-bg); border: 1px solid var(--l-border); border-radius: 18px;
+    padding: 26px 24px 24px;
+    box-shadow: 0 1px 2px rgba(14,27,51,0.05), 0 12px 28px rgba(14,27,51,0.06);
+    transition: transform 0.3s cubic-bezier(0.22,1,0.36,1), box-shadow 0.3s, border-color 0.3s;
+    overflow: hidden;
+  }
+  .ind-card::before {
+    content: ''; position: absolute; inset: 0 0 auto 0; height: 3px;
+    background: var(--ind); transform: scaleX(0); transform-origin: left;
+    transition: transform 0.35s cubic-bezier(0.22,1,0.36,1);
+  }
+  .ind-card:hover {
+    transform: translateY(-6px);
+    border-color: color-mix(in srgb, var(--ind) 45%, transparent);
+    box-shadow: 0 1px 2px rgba(14,27,51,0.05), 0 22px 48px rgba(14,27,51,0.12);
+  }
+  .ind-card:hover::before { transform: scaleX(1); }
+  .ind-icon {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 48px; height: 48px; border-radius: 14px; margin-bottom: 18px;
+    color: var(--ind);
+    background: color-mix(in srgb, var(--ind) 12%, white);
+    transition: transform 0.3s cubic-bezier(0.22,1,0.36,1);
+  }
+  .ind-card:hover .ind-icon { transform: scale(1.08) rotate(-4deg); }
+  .ind-card h3 { font-family: var(--font-heading); font-size: 19px; font-weight: 700; color: var(--l-ink); margin-bottom: 9px; }
+  .ind-card p { font-size: 14.5px; line-height: 1.6; color: var(--l-body); margin: 0; }
+  .ind-arrow {
+    display: inline-flex; margin-top: 16px; color: var(--ind);
+    transition: transform 0.3s cubic-bezier(0.22,1,0.36,1); opacity: 0.85;
+  }
+  .ind-card:hover .ind-arrow { transform: translateX(5px); opacity: 1; }
+
+  @media (max-width: 900px) { .ind-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 560px) { .ind-grid { grid-template-columns: 1fr; } }
+</style>
