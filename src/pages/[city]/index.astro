@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
 import FinalCTA from '../../components/FinalCTA.astro';
+import LocalIndustries from '../../components/LocalIndustries.astro';
 import { cities } from '../../data/cities.js';
 
 export async function getStaticPaths() {
@@ -202,8 +203,11 @@ const schema = [
       </div>
     </section>
 
+    <!-- Who we serve (industries) -->
+    <LocalIndustries city={c.city} />
+
     <!-- Areas served -->
-    <section class="section">
+    <section class="section section-alt">
       <div class="container">
         <div class="section-head">
           <p class="eyebrow">Areas we serve</p>
