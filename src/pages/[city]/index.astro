@@ -5,6 +5,7 @@ import Footer from '../../components/Footer.astro';
 import FinalCTA from '../../components/FinalCTA.astro';
 import LocalIndustries from '../../components/LocalIndustries.astro';
 import { cities } from '../../data/cities.js';
+import { nearbyCities } from '../../data/related.js';
 
 export async function getStaticPaths() {
   const { cities } = await import('../../data/cities.js');
@@ -18,6 +19,9 @@ const CALENDLY = 'https://calendly.com/getonwardcraft/30min';
 // Donut: unit defaults to '%'; ring fill is clamped so values >100 don't overflow.
 const donutUnit = c.localMarket.donut.unit ?? '%';
 const donutFill = Math.min(c.localMarket.donut.value, 100);
+
+// Cross-metro mesh: interlink hubs so discovery isn't bottlenecked on /locations/.
+const nearbyHubs = nearbyCities(c.citySlug, 6);
 
 // Review/AggregateRating intentionally omitted — honesty rule.
 const schema = [
@@ -214,6 +218,20 @@ const schema = [
           <h2>Marketing across {c.metro}</h2>
         </div>
         <div class="chips">{c.areasServed.map((a) => <span class="chip">{a}</span>)}</div>
+        {nearbyHubs.length > 0 && (
+          <div class="nearby-hubs reveal">
+            <h3>Contractor marketing in nearby cities</h3>
+            <div class="nearby-hub-grid stagger-children">
+              {nearbyHubs.map((n) => (
+                <a class="nearby-hub stagger-item" href={`/${n.citySlug}/`}>
+                  <span>{n.city}</span>
+                  <small>{n.stateAbbr}</small>
+                </a>
+              ))}
+            </div>
+            <a class="nearby-all" href="/locations/">See all cities we serve &rarr;</a>
+          </div>
+        )}
       </div>
     </section>
   </main>
@@ -315,6 +333,26 @@ const schema = [
   .neighborhoods-label { display: block; font-size: 13px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--l-muted); margin-bottom: 16px; }
   .chips { display: flex; flex-wrap: wrap; gap: 9px; }
   .chip { font-size: 14px; padding: 7px 15px; border-radius: 100px; border: 1px solid var(--l-border); background: var(--l-bg); color: var(--l-body); box-shadow: var(--l-shadow); }
+
+  .nearby-hubs { margin-top: 40px; padding-top: 34px; border-top: 1px solid var(--l-border); }
+  .nearby-hubs h3 { font-family: var(--font-heading); font-size: 20px; font-weight: 700; color: var(--l-ink); margin-bottom: 18px; }
+  .nearby-hub-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .nearby-hub {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 10px;
+    padding: 14px 16px; border: 1px solid var(--l-border); border-radius: 12px;
+    background: var(--l-bg); text-decoration: none; color: var(--l-ink); font-weight: 700; font-size: 15px;
+    box-shadow: 0 1px 2px rgba(14,27,51,0.04);
+    transition: transform 0.25s cubic-bezier(0.22,1,0.36,1), border-color 0.25s, box-shadow 0.25s;
+  }
+  .nearby-hub small { color: var(--l-teal-ink); font-weight: 700; font-size: 12px; letter-spacing: 0.04em; }
+  .nearby-hub:hover {
+    transform: translateY(-3px); border-color: color-mix(in srgb, var(--l-teal) 45%, transparent);
+    box-shadow: 0 1px 2px rgba(14,27,51,0.05), 0 16px 32px rgba(14,27,51,0.10);
+  }
+  .nearby-all { display: inline-block; margin-top: 18px; color: var(--l-teal-ink); font-weight: 600; text-decoration: none; font-size: 15px; }
+  .nearby-all:hover { text-decoration: underline; }
+  @media (max-width: 860px) { .nearby-hub-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 520px) { .nearby-hub-grid { grid-template-columns: 1fr; } }
 
   /* Founder */
   .founder-section { padding: 70px 0; }

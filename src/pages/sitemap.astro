@@ -1,0 +1,96 @@
+---
+// Human/crawler HTML sitemap at /sitemap/ (separate from the generated
+// /sitemap.xml). A flat, depth-1 backstop that links every city hub and its
+// four service pages so no location page depends on a single crawl path.
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import { cities } from '../data/cities.js';
+
+const title = 'Sitemap | Every City & Service We Cover | OnwardCraft';
+const description = 'A complete index of OnwardCraft city hubs and contractor marketing service pages across every metro we serve.';
+
+const byState = {};
+for (const c of cities) {
+  (byState[c.state] ||= []).push(c);
+}
+const stateGroups = Object.entries(byState)
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([state, list]) => ({ state, list: list.sort((a, b) => a.city.localeCompare(b.city)) }));
+
+const corePages = [
+  { href: '/', label: 'Home' },
+  { href: '/services/', label: 'Services' },
+  { href: '/services/web-design/', label: 'Web Design' },
+  { href: '/services/seo/', label: 'SEO' },
+  { href: '/services/lead-generation/', label: 'Lead Generation' },
+  { href: '/industries/', label: 'Industries' },
+  { href: '/locations/', label: 'Locations' },
+  { href: '/pricing/', label: 'Pricing' },
+  { href: '/case-studies/', label: 'Case Studies' },
+  { href: '/blog/', label: 'Blog' },
+  { href: '/about/', label: 'About' },
+  { href: '/process/', label: 'Process' },
+  { href: '/contractor-marketing-faq/', label: 'Marketing FAQ' },
+  { href: '/contact/', label: 'Contact' },
+];
+---
+
+<Layout title={title} description={description}>
+  <Navbar />
+  <main class="sm-wrap">
+    <section class="section">
+      <div class="container">
+        <p class="eyebrow">Sitemap</p>
+        <h1>Everywhere we work, every service we run</h1>
+        <p class="sm-lead">Browse every city hub and the four contractor marketing services we offer in each one.</p>
+
+        <h2 class="sm-h2">Main pages</h2>
+        <div class="sm-core">
+          {corePages.map((p) => <a href={p.href}>{p.label}</a>)}
+        </div>
+
+        <h2 class="sm-h2">Locations &amp; services</h2>
+        {stateGroups.map((g) => (
+          <div class="sm-state">
+            <h3>{g.state}</h3>
+            <ul class="sm-cities">
+              {g.list.map((c) => (
+                <li>
+                  <a class="sm-city" href={`/${c.citySlug}/`}>{c.city}</a>
+                  <span class="sm-svcs">
+                    {c.services.map((s) => (
+                      <a href={`/${c.citySlug}/${s.serviceSlug}/`}>{s.service}</a>
+                    ))}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  .sm-wrap { background: #fff; color: #0E1B33; }
+  .sm-wrap .eyebrow { display: inline-flex; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: #07866A; margin-bottom: 14px; }
+  .sm-wrap h1 { font-family: var(--font-heading); font-size: clamp(28px, 4vw, 42px); font-weight: 800; letter-spacing: -0.025em; line-height: 1.1; }
+  .sm-lead { font-size: 18px; color: #475067; margin: 14px 0 8px; max-width: 720px; }
+  .sm-h2 { font-family: var(--font-heading); font-size: 24px; font-weight: 700; margin: 44px 0 16px; padding-bottom: 10px; border-bottom: 1px solid rgba(14,27,51,0.10); }
+  .sm-core { display: flex; flex-wrap: wrap; gap: 10px 14px; }
+  .sm-core a { font-weight: 600; color: #07866A; text-decoration: none; font-size: 15px; }
+  .sm-core a:hover { text-decoration: underline; }
+  .sm-state { margin-bottom: 30px; }
+  .sm-state h3 { font-family: var(--font-heading); font-size: 18px; font-weight: 700; color: #0E1B33; margin-bottom: 12px; }
+  .sm-cities { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; }
+  .sm-cities li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; padding-bottom: 12px; border-bottom: 1px solid rgba(14,27,51,0.06); }
+  .sm-city { font-weight: 700; color: #0E1B33; text-decoration: none; font-size: 16px; min-width: 150px; }
+  .sm-city:hover { color: #07866A; }
+  .sm-svcs { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+  .sm-svcs a { color: #475067; text-decoration: none; font-size: 14px; }
+  .sm-svcs a:hover { color: #07866A; text-decoration: underline; }
+  @media (min-width: 720px) { .sm-cities li { flex-wrap: nowrap; } }
+</style>

@@ -5,6 +5,7 @@ import Footer from '../../components/Footer.astro';
 import FinalCTA from '../../components/FinalCTA.astro';
 import LocalIndustries from '../../components/LocalIndustries.astro';
 import { locations } from '../../data/locations.js';
+import { nearbyCities } from '../../data/related.js';
 
 export async function getStaticPaths() {
   const { locations } = await import('../../data/locations.js');
@@ -21,6 +22,10 @@ const CALENDLY = 'https://calendly.com/getonwardcraft/30min';
 const sameCity = locations.filter(
   (l) => l.citySlug === loc.citySlug && l.serviceSlug !== loc.serviceSlug
 );
+
+// Cross-metro mesh: same service in nearby cities. Links sideways so crawlers
+// reach this page without funnelling through /locations/ → the one city hub.
+const nearbyServiceCities = nearbyCities(loc.citySlug, 6);
 
 // Donut: unit defaults to '%'; ring fill is clamped so values >100 don't overflow.
 const donutUnit = loc.localMarket.donut.unit ?? '%';
@@ -427,6 +432,20 @@ const schema = [
             ))}
           </div>
         )}
+        {nearbyServiceCities.length > 0 && (
+          <div class="nearby-links reveal">
+            <h3>{loc.service} in nearby cities</h3>
+            <div class="nearby-grid stagger-children">
+              {nearbyServiceCities.map((c) => (
+                <a class="nearby-chip stagger-item" href={`/${c.citySlug}/${loc.serviceSlug}/`}>
+                  <span>{loc.service} in {c.city}</span>
+                  <small>{c.stateAbbr}</small>
+                </a>
+              ))}
+            </div>
+            <a class="nearby-all" href="/locations/">See all cities we serve &rarr;</a>
+          </div>
+        )}
       </div>
     </section>
   </main>
@@ -651,6 +670,26 @@ const schema = [
   .service-links { margin-top: 32px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; font-size: 15px; color: var(--l-body); }
   .service-links a { color: var(--l-teal-ink); text-decoration: none; font-weight: 600; border-bottom: 1px solid transparent; transition: border-color 0.2s; }
   .service-links a:hover { border-color: var(--l-teal); }
+
+  .nearby-links { margin-top: 44px; padding-top: 36px; border-top: 1px solid var(--l-border); }
+  .nearby-links h3 { font-family: var(--font-heading); font-size: 20px; font-weight: 700; color: var(--l-ink); margin-bottom: 18px; }
+  .nearby-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .nearby-chip {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 10px;
+    padding: 14px 16px; border: 1px solid var(--l-border); border-radius: 12px;
+    background: var(--l-bg); text-decoration: none; color: var(--l-ink); font-weight: 600; font-size: 14.5px;
+    box-shadow: 0 1px 2px rgba(14,27,51,0.04);
+    transition: transform 0.25s cubic-bezier(0.22,1,0.36,1), border-color 0.25s, box-shadow 0.25s;
+  }
+  .nearby-chip small { color: var(--l-teal-ink); font-weight: 700; font-size: 12px; letter-spacing: 0.04em; }
+  .nearby-chip:hover {
+    transform: translateY(-3px); border-color: color-mix(in srgb, var(--l-teal) 45%, transparent);
+    box-shadow: 0 1px 2px rgba(14,27,51,0.05), 0 16px 32px rgba(14,27,51,0.10);
+  }
+  .nearby-all { display: inline-block; margin-top: 18px; color: var(--l-teal-ink); font-weight: 600; text-decoration: none; font-size: 15px; }
+  .nearby-all:hover { text-decoration: underline; }
+  @media (max-width: 860px) { .nearby-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 520px) { .nearby-grid { grid-template-columns: 1fr; } }
 
   /* ── Depth + tonal surfaces ── */
   .section-alt { background:
