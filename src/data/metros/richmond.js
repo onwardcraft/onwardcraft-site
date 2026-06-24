@@ -111,9 +111,9 @@ export const richmondLocations = [
     citySlug: 'richmond', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Richmond Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Richmond and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Richmond Local SEO that wins your business the top three on the map, so the call from the Fan or Midlothian lands with you and not a competitor.',
     eyebrow: 'Local SEO · Richmond, VA',
-    h1: 'When Richmond searches for what you do, be the first name they find',
+    h1: 'Richmond Local SEO that wins you the top three on the map across the Fan and Church Hill',
     h2Exact: 'Richmond Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In a city full of historic homes, seasonal storm work, and young buyers renovating neighborhoods like Church Hill and Scott's Addition, we get you into that top three so the call lands with you instead of whoever ranked first.",
@@ -167,7 +167,7 @@ export const richmondLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business — it's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms sell shared leads and you're competing with several other Richmond contractors for the same homeowner, at a cost that adds up fast. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Richmond neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Richmond neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's the simplest way to see what Richmond Local SEO can do for your phone. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const richmondLocations = [
     metaDescription:
       'Richmond SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for historic homes and seasonal.',
     eyebrow: 'SEO Services · Richmond, VA',
-    h1: 'Get your Richmond business to the top of Google and keep it there',
+    h1: 'Richmond SEO that builds rankings you actually own, from Scott\'s Addition to the James River suburbs',
     h2Exact: 'Richmond SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what Richmond homeowners search — Victorian-era renovations, storm restoration, summer HVAC — and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const richmondLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search results." },
       { q: 'Which areas around Richmond do you cover?', a: "The full metro — the Fan, Museum District, Church Hill, Scott's Addition, Manchester, Carytown, Short Pump, Glen Allen, Midlothian, Chesterfield, and Henrico — with genuine local pages rather than one generic Richmond page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads that your competitors bought too." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It's the clearest first step toward Richmond SEO that builds rankings and organic traffic you keep. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const richmondLocations = [
     metaDescription:
       'Richmond web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving historic neighborhoods and seasonal demand.',
     eyebrow: 'Web Design · Richmond, VA',
-    h1: 'Richmond web design that turns visitors into booked jobs',
+    h1: 'Richmond web design engineered to bring in real work from the Fan to Manchester',
     h2Exact: 'Richmond Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Richmond contractors fast, mobile-first sites engineered to convert visitors into booked work — sites that speak to homeowners in the Fan, Church Hill, and Midlothian and hold up when storm-season calls come in hot.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Richmond contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. In a city full of old houses, seasonal restoration demand, and young buyers gutting neighborhoods like Scott's Addition and Manchester, that's a real cost. We build sites that load fast, look like the professional you are, and turn visitors into booked jobs — built around the specific RVA neighborhoods you serve.",
+      "Richmond web design only earns its keep when it brings in work, and most contractor sites lose leads quietly: slow on a phone, buried call button, no clear offer. In a city full of old houses, seasonal restoration demand, and young buyers gutting neighborhoods like Scott's Addition and Manchester, that's a real cost. We build fast, mobile-first websites that look like the professional you are and convert visitors into booked jobs, built around the specific RVA neighborhoods you serve.",
     aioQuestion: 'What makes a good contractor website in Richmond?',
     aioAnswer:
       "A good Richmond contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods you serve — the Fan, Midlothian, Church Hill, Short Pump, and the rest. Because Richmond homeowners are often dealing with aging housing stock or urgent weather events, a site that communicates reliability and local knowledge quickly is what books the job.",
@@ -299,7 +299,7 @@ export const richmondLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Richmond contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Richmond contractor site should include, and a fixed-price quote with a timeline. It's the easiest way to see what Richmond web design built to convert visitors into booked jobs can do for you. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const richmondLocations = [
     citySlug: 'richmond', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Richmond Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Richmond website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in the RVA market. Free audit.',
+      'Richmond Website Redesign that modernizes without tanking your traffic. Faster, mobile-first rebuilds that convert more visitors into booked jobs in the RVA market.',
     eyebrow: 'Website Redesign · Richmond, VA',
-    h1: 'Redesign your Richmond website without losing your rankings',
+    h1: 'Richmond Website Redesign that modernizes without tanking your Church Hill and James River traffic',
     h2Exact: 'Richmond Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow on a phone, easy to ignore, nothing that says you know the Fan from Midlothian. We redesign Richmond contractor sites to convert more and load faster, and we migrate carefully so you keep every ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Richmond contractor sites for speed and conversions, build them to speak to homeowners in the neighborhoods you actually serve, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Richmond Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Richmond contractor sites for speed and conversions, build them to speak to homeowners in the neighborhoods you actually serve, and run an SEO-safe migration with the redirects and care that protect the traffic you already have, so you redesign your Richmond website without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one — and in a market like Richmond, where seasonal demand spikes mean you can't afford to go dark, that migration care matters.",
@@ -365,7 +365,7 @@ export const richmondLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It's the honest way to see whether a Richmond Website Redesign with an SEO-safe migration is worth it for you." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const richmondCity = {
 
   titleTag: 'Richmond Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Richmond contractors. Get found in the Fan, Church Hill, Midlothian, and across RVA — and own your leads instead of renting.',
+    'Richmond marketing for contractors: web design, SEO, and local SEO that get you found in the Fan, Church Hill, Shockoe, and across RVA, and own your leads.',
 
   eyebrow: 'Richmond · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Richmond contractors found and booked',
+  h1: 'Richmond marketing for contractors, built around the trades from Shockoe to Short Pump',
   h2Exact: 'Richmond Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for a city of Victorian row houses, hurricane remnants, and a neighborhood revival that has buyers renovating historic homes from Church Hill to Scott's Addition. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const richmondCity = {
   primaryCta: 'Get my free Richmond audit',
 
   intro:
-    "If you run a contracting business in Richmond, you're sitting in one of the most interesting markets in the mid-Atlantic: a city of centuries-old housing stock that needs constant work, a state-capital economy that keeps professional homeowners stable and investing, and a neighborhood revival — from Scott's Addition to Manchester to Church Hill — that has young buyers gutting historic homes and renovating them from the studs out. Add mid-Atlantic severe weather, James River flooding, and a seasonal pattern that spikes demand three times a year, and the underlying work is there. The contractors who win are the ones who can be found when a homeowner needs them. Here's how we help Richmond contractors do that.",
+    "Richmond marketing for contractors has to fit one of the most interesting markets in the mid-Atlantic: a city of centuries-old housing stock that needs constant work, a state-capital economy that keeps professional homeowners stable and investing, and a neighborhood revival, from Scott's Addition to Manchester to Church Hill, that has young buyers gutting historic homes and renovating them from the studs out. Add mid-Atlantic severe weather, James River flooding, and a seasonal pattern that spikes demand three times a year, and the underlying work is there. The contractors who win are the ones who can be found when a homeowner needs them. As a digital marketing agency built around the trades, here's how we help Richmond contractors do that.",
   aioQuestion: 'How do Richmond contractors get more leads online?',
   aioAnswer:
     "Richmond contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because Richmond has a unique mix of historic housing stock, seasonal storm and flooding events, and a stable professional homeowner base, the contractors who rank for the specific work those homeowners search — Victorian renovations, storm restoration, HVAC in the Virginia heat — win the most calls.",
@@ -422,6 +422,6 @@ export const richmondCity = {
     { q: 'Why does the Richmond market need a different approach?', a: "Richmond has a unique combination of factors: centuries of housing stock in the Fan, Museum District, and Church Hill that needs constant work; mid-Atlantic severe weather including hurricane remnants and nor'easters; a state-capital economy with a stable professional homeowner base; and a neighborhood revival driving renovation demand in Scott's Addition, Manchester, and Church Hill. A national agency swapping a city name into a template misses all of that." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Richmond areas do you serve?', a: "The full metro — the Fan, Museum District, Church Hill, Scott's Addition, Manchester, Carytown, Short Pump, Glen Allen, Midlothian, Chesterfield, and Henrico. We build genuine neighborhood pages instead of one generic Richmond page, because that's what ranks for the specific searches that matter." },
-    { q: 'Where should I start?', a: "Start with a free Richmond audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest — whether that's before hurricane season, nor'easter season, or the summer HVAC rush. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Richmond audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, whether that's before hurricane season, nor'easter season, or the summer HVAC rush. It's the simplest way to put Richmond marketing for contractors to work and get found and booked. No pitch deck, just a plan." },
   ],
 };

@@ -109,17 +109,17 @@ export const sanFranciscoLocations = [
   {
     ...BASE,
     citySlug: 'san-francisco', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'San Francisco Local SEO Company | OnwardCraft',
+    titleTag: 'San Francisco Local SEO Company | Map Pack Wins | OnwardCraft',
     metaDescription:
-      'Search your service in San Francisco and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'San Francisco Local SEO that puts your business in the Map Pack across the Mission, the Sunset, and the rest of the Bay. The call lands with you.',
     eyebrow: 'Local SEO · San Francisco, CA',
-    h1: 'When San Francisco searches for what you do, be the first name they find',
+    h1: 'San Francisco Local SEO that puts your business in the Map Pack, from the Mission to the Sunset',
     h2Exact: 'San Francisco Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In a city where homes average $1.3M and homeowners research every hire obsessively, we get you into that top three for your neighborhoods — so the call from Noe Valley or the Sunset lands with you instead of whoever ranked first.",
     primaryCta: 'Get my free San Francisco audit',
     intro:
-      "San Francisco local SEO comes down to one thing: when a homeowner in Pacific Heights or the Sunset searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This is a market where a single job can be worth $30,000 or more, homeowners read every review before calling, and about a third of residents are Asian — with Chinese-language search that most competitors ignore entirely. Becoming one of those three pins in the neighborhoods you serve is the whole game.",
+      "San Francisco Local SEO comes down to one thing: when a homeowner in Pacific Heights or the Sunset searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This is a market where a single job can be worth $30,000 or more, homeowners read every review before calling, and about a third of residents are Asian, with Chinese-language local search that most competitors ignore entirely. Becoming one of those three pins in the neighborhoods you serve, and ranking on the map for \"near me\" searches, is the whole game.",
     aioQuestion: 'How do San Francisco businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real SF neighborhoods and the specialist work those neighborhoods demand — Victorian restoration, seismic retrofit, fog-moisture remediation. San Francisco buyers research obsessively, so reviews and professional online presence matter more here than in most cities.",
@@ -167,7 +167,7 @@ export const sanFranciscoLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep, and in SF the per-lead prices are steep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work comes to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your SF neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck — just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your SF neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's the fastest way to see exactly what San Francisco Local SEO can do for your phone. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const sanFranciscoLocations = [
   {
     ...BASE,
     citySlug: 'san-francisco', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'San Francisco SEO Company | OnwardCraft',
+    titleTag: 'San Francisco SEO Company | Page One That Holds | OnwardCraft',
     metaDescription:
-      'San Francisco SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a high-value market.',
+      'San Francisco SEO that gets contractors to the top of Google and keeps them there, from Pacific Heights to the Sunset. Leads you own, revenue-tied reporting.',
     eyebrow: 'SEO Services · San Francisco, CA',
-    h1: 'Get your San Francisco business to the top of Google and keep it there',
+    h1: 'San Francisco SEO that gets you to the top of Google for Bay Area searches and keeps you there',
     h2Exact: 'San Francisco SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your SF customers search and the leads keep coming. In a city where a single job can be worth $30,000+, we build that ranking and tie every report to actual calls and jobs — not vanity traffic.",
     primaryCta: 'Get my free San Francisco SEO audit',
     intro:
-      "San Francisco SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. SF homeowners are obsessive researchers — they check credentials, read every review, and compare several options before calling. Getting onto page one for the right searches means your business is in consideration. Getting into the top three means the call lands with you. We build that for SF contractors and measure it in leads, not vanity traffic.",
+      "San Francisco SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. SF homeowners are obsessive researchers who check credentials, read every review, and compare several options before calling. Getting onto page one for the right money keywords means your business is in consideration. Getting into the top three means the call lands with you. We build that organic traffic for SF contractors and measure it in leads, not vanity numbers.",
     aioQuestion: 'How do San Francisco businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content tied to specific SF neighborhoods and the specialist work those neighborhoods demand — Victorian restoration, seismic retrofit, fog-moisture issues — and earning links from trusted Bay Area sources. In a market this research-intensive, the contractors who look most professional and authoritative online win the most calls.",
@@ -233,7 +233,7 @@ export const sanFranciscoLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. SF homeowners are heavy researchers, and a meaningful share now start in AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business." },
       { q: 'Which SF areas do you cover?', a: "All major SF neighborhoods and nearby Bay Area cities — Noe Valley, Pacific Heights, the Sunset, the Richmond, Cole Valley, Glen Park, North Beach, Marina, Excelsior, Daly City, San Mateo and more — with genuine local pages rather than one generic San Francisco page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads at SF prices." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It's the clearest look you can get at what San Francisco SEO would actually do for your organic traffic and your booked jobs. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const sanFranciscoLocations = [
   {
     ...BASE,
     citySlug: 'san-francisco', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'San Francisco Web Design Company | OnwardCraft',
+    titleTag: 'San Francisco Web Design Company | Sites That Book | OnwardCraft',
     metaDescription:
-      'San Francisco web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a high-value, research-intensive market.',
+      'San Francisco web design that turns visitors into booked jobs. Fast, mobile-first sites built for contractors across the Mission, the Sunset, and the Bay.',
     eyebrow: 'Web Design · San Francisco, CA',
-    h1: 'San Francisco web design that turns visitors into booked jobs',
+    h1: 'San Francisco web design that turns Mission and Sunset visitors into booked jobs',
     h2Exact: 'San Francisco Web Design Company',
     heroSubhead:
       "SF homeowners spend freely on quality — but they research obsessively before calling. We build San Francisco contractors fast, mobile-first sites that look as professional as the jobs they win, and convert the most research-intensive buyers in the country into booked work.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most San Francisco contractor websites lose high-value leads quietly: slow on a phone, no clear offer, nothing that signals specialist expertise. In a city where homes average $1.3M and homeowners read every review and check every credential before calling, a mediocre website costs you real money. We build sites that load fast, signal genuine expertise in the work SF buyers need most — Victorian restoration, seismic retrofit, fog-damage remediation — and turn visitors into booked jobs.",
+      "San Francisco web design that wins work has to do one job: turn a researching homeowner into a booked call. Most contractor sites here lose high-value leads quietly, slow on a phone, no clear offer, nothing that signals specialist expertise. In a city where homes average $1.3M and homeowners read every review and check every credential before calling, a mediocre website costs you real money. We build fast-loading, mobile-first sites that signal genuine expertise in the work SF buyers need most, from Victorian restoration in Pacific Heights to fog-damage remediation in the Sunset, and convert visitors into booked jobs.",
     aioQuestion: 'What makes a good contractor website in San Francisco?',
     aioAnswer:
       "A good SF contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names both the specific neighborhoods you serve and the specialist services SF buyers search for — Victorian restoration, earthquake retrofit, fog-moisture issues. Because SF homeowners research obsessively before calling, social proof and visible expertise matter more here than in most cities.",
@@ -299,7 +299,7 @@ export const sanFranciscoLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting SF contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting SF contractor site should include, and a fixed-price quote with a timeline. It's the simplest way to see what San Francisco web design built to convert clicks into calls would mean for your booked work. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const sanFranciscoLocations = [
   {
     ...BASE,
     citySlug: 'san-francisco', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'San Francisco Website Redesign | OnwardCraft',
+    titleTag: 'San Francisco Website Redesign | Keep Your Rankings | OnwardCraft',
     metaDescription:
-      'Redesign your San Francisco website without losing rankings. Faster, mobile-first rebuilds that convert SF homeowners into booked high-value jobs. Free audit.',
+      'San Francisco Website Redesign that converts more without losing your rankings. SEO-safe, mobile-first rebuilds that win over research-heavy Bay Area buyers.',
     eyebrow: 'Website Redesign · San Francisco, CA',
-    h1: 'Redesign your San Francisco website without losing your rankings',
+    h1: 'San Francisco Website Redesign that converts more Bay Area homeowners without losing your rankings',
     h2Exact: 'San Francisco Website Redesign Company',
     heroSubhead:
       "An outdated site costs you high-value SF jobs every week — slow, unprofessional-looking, nothing that signals specialist expertise. We redesign San Francisco contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. In San Francisco — where a single job can be worth $30,000 and homeowners research every hire obsessively — we redesign contractor sites to build the trust and specialist credibility SF buyers demand, and we migrate with the care that protects the traffic you've already earned.",
+      "A San Francisco Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. In a city where a single job can be worth $30,000 and homeowners research every hire obsessively, we redesign contractor sites to build the trust and specialist credibility SF buyers demand, and we run an SEO-safe migration with the care that protects the traffic you've already earned.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured — and in SF, it also looks professional enough to win the trust of the most research-intensive homeowners in the country.",
@@ -365,7 +365,7 @@ export const sanFranciscoLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings — including the trust and expertise gaps that matter most to SF buyers — and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, including the trust and expertise gaps that matter most to SF buyers, plus a fixed-price quote with a timeline. It's the honest way to see whether a San Francisco Website Redesign with an SEO-safe migration will lift your conversions without costing you the rankings you've already earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const sanFranciscoCity = {
 
   titleTag: 'San Francisco Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for San Francisco contractors. Get found by research-intensive SF buyers, win high-value jobs, and own your leads. Free SF audit.',
+    'San Francisco marketing for contractors that gets you found and booked. Web design, SEO, and local SEO built for the Bay Area, from the Mission to the Sunset.',
 
   eyebrow: 'San Francisco · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets San Francisco contractors found and booked',
+  h1: 'San Francisco marketing for contractors that gets you found and booked across the Bay',
   h2Exact: 'San Francisco Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for San Francisco's high-value, research-intensive market — where homes average $1.3M, old buildings need specialist contractors, and homeowners check everything before they call.",
@@ -386,7 +386,7 @@ export const sanFranciscoCity = {
   primaryCta: 'Get my free San Francisco audit',
 
   intro:
-    "If you run a contracting business in San Francisco, you're working in the most expensive real estate market in the country — where homes average over $1.3 million, a single job can be worth $30,000 or more, and homeowners research obsessively before they call anyone. The Victorian housing stock, the earthquake risk, the fog-driven moisture problems, and the large Asian community that conducts a meaningful share of searches in Chinese all make this a market unlike any other. Winning here takes three things working together: a site that signals the professional expertise SF buyers demand, SEO that ranks you for the specialist searches they run, and local SEO that puts you in the Map Pack for the specific neighborhoods you serve. Here's how we help SF contractors do exactly that.",
+    "San Francisco marketing for contractors has to work harder than almost anywhere else, because you're operating in the most expensive real estate market in the country, where homes average over $1.3 million, a single job can be worth $30,000 or more, and homeowners research obsessively before they call anyone. The Victorian housing stock, the earthquake risk, the fog-driven moisture problems, and the large Asian community that conducts a meaningful share of searches in Chinese all make this a market unlike any other. Winning here takes three things working together: a site that signals the professional expertise SF buyers demand, SEO that ranks you for the specialist searches they run, and local SEO that puts you in the Map Pack for the specific neighborhoods you serve. Here's how we help SF contractors do exactly that.",
   aioQuestion: 'How do San Francisco contractors get more leads online?',
   aioAnswer:
     "San Francisco contractors get more leads by combining a fast, mobile-first website that signals genuine specialist expertise with SEO that ranks them for high-intent searches — including Victorian restoration, seismic retrofit, and fog-damage remediation — and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because SF homeowners research obsessively and about 34% are Asian with meaningful Chinese-language search behavior, the contractors who look most professional online and show up where their customers actually search win the most high-value work.",
@@ -422,6 +422,6 @@ export const sanFranciscoCity = {
     { q: 'Why does the San Francisco market need a different approach?', a: "SF is the most expensive real estate market in the US, and homeowners here research obsessively before calling anyone. The Victorian housing stock and seismic risk create specialist demand that generic SEO misses. And about 34% of residents are Asian, with meaningful Chinese-language search behavior most contractors ignore. Winning means looking professional enough for high-value jobs, ranking for specialist terms, and showing up where SF buyers actually search." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which San Francisco areas do you serve?', a: "All major SF neighborhoods and nearby Bay Area cities — Noe Valley, Pacific Heights, the Sunset, the Richmond, Cole Valley, Castro, Mission District, Glen Park, North Beach, Marina, Excelsior, West Portal, Bernal Heights, Daly City, San Mateo and more." },
-    { q: 'Where should I start?', a: "Start with a free San Francisco audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most high-value SF work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free San Francisco audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most high-value SF work fastest. It's the easiest way to see what San Francisco marketing for contractors can do for your calendar. No pitch deck, just a plan." },
   ],
 };

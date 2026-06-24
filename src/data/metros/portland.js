@@ -111,15 +111,15 @@ export const portlandLocations = [
     citySlug: 'portland', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Portland Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Portland and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Portland Local SEO that ranks you above the competition from the Pearl District to Beaverton. We get you into the Map Pack, so the call lands with you.',
     eyebrow: 'Local SEO · Portland, OR',
-    h1: 'When Portland searches for what you do, be the first name they find',
+    h1: 'Portland Local SEO that ranks you above the competition from the Pearl District to Hillsboro',
     h2Exact: 'Portland Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. Portland homeowners are meticulous researchers — we get you into that top three for your neighborhoods, so the call lands with you instead of whoever ranked first.",
     primaryCta: 'Get my free Portland audit',
     intro:
-      "Portland local SEO comes down to one thing: when a homeowner in Hawthorne or Irvington searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This is a market full of high-income, research-driven buyers who deeply value local businesses — becoming one of those three in the neighborhoods you serve is the whole game. Here's how you do it.",
+      "Portland Local SEO comes down to one thing: when a homeowner in Hawthorne or Irvington searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This is a market full of high-income, research-driven buyers who deeply value local businesses, so winning the Google Map Pack in the neighborhoods you serve is the whole game. Here's how you rank on the map.",
     aioQuestion: 'How do Portland businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Portland neighborhoods. Portland buyers are research-heavy and prefer local independents, so contractors who look credible and local — with real neighborhood content and genuine reviews — pull ahead fast. Rainy-season urgency (October through April) also means timing your content to match moss removal, roof repairs, and drainage demand can move rankings before the rush hits.",
@@ -167,7 +167,7 @@ export const portlandLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Portland neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Portland neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's the fastest way to see exactly what Portland Local SEO would take to win the map for your trade. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -177,15 +177,15 @@ export const portlandLocations = [
     citySlug: 'portland', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Portland SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Portland SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a research-heavy market.',
+      'Portland SEO that climbs contractors past the competition on Google, from Mt. Hood to the coast, and brings in leads you own. Revenue-tied reporting, no lock-in.',
     eyebrow: 'SEO Services · Portland, OR',
-    h1: 'Get your Portland business to the top of Google and keep it there',
+    h1: 'Portland SEO that climbs you past the competition on Google, rainy season after rainy season',
     h2Exact: 'Portland SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Portland customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
     primaryCta: 'Get my free Portland SEO audit',
     intro:
-      "Portland SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. Portland homeowners are meticulous researchers — they open multiple tabs and compare. We get contractors ranking for the money keywords in this eco-conscious, research-heavy market — and we measure it in leads, not vanity traffic.",
+      "Portland SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. Portland homeowners are meticulous researchers who open multiple tabs and compare. We get contractors ranking on Google for the money keywords in this eco-conscious, research-heavy market, and we measure it in leads and organic traffic, not vanity numbers.",
     aioQuestion: 'How do Portland businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content tied to specific Portland neighborhoods, and earning links from trusted local sources. Portland buyers are research-driven and value sustainability, so contractors who rank for eco-friendly services (heat pumps, green roofing, energy audits) and who publish real neighborhood content pull ahead faster. Seasonal rainy-season content for roofing, drainage, and moss removal is also one of the quickest ways to capture surging demand.",
@@ -233,7 +233,7 @@ export const portlandLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Portland do you cover?', a: "All of inner Portland and the suburbs — Hawthorne, Division, Sellwood, Irvington, Alberta Arts District, Pearl District, NW Portland, Beaverton, Hillsboro, Lake Oswego, Tigard, Tualatin, Gresham, and Vancouver, WA — with genuine local pages rather than one generic Portland page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It shows exactly what Portland SEO would take to climb your money keywords onto page one and hold them. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const portlandLocations = [
     citySlug: 'portland', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Portland Web Design Company | OnwardCraft',
     metaDescription:
-      'Portland web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a research-driven, eco-conscious market.',
+      'Portland Web Design that loads fast and books more jobs, fast mobile-first sites built for contractors in a rainy, research-driven, eco-conscious market.',
     eyebrow: 'Web Design · Portland, OR',
-    h1: 'Portland web design that turns visitors into booked jobs',
+    h1: 'Portland web design that loads fast on a rainy-day phone and books more jobs',
     h2Exact: 'Portland Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Portland contractors fast, mobile-first sites engineered to turn visitors into booked work — and to earn the trust of buyers who research everything before they call.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Portland contractor websites lose leads quietly: slow on a phone, buried call button, nothing that says \"local\" or \"credible.\" Portland homeowners are among the most research-driven buyers in the country — they open tabs, read reviews, and compare. Web design done right wins that comparison. We build sites that load fast, look like the professional you are, and speak to eco-conscious, local-preferring buyers from Hawthorne to Hillsboro.",
+      "Portland web design done right turns visitors into booked jobs, where most contractor sites lose leads quietly: slow on a phone, buried call button, nothing that says \"local\" or \"credible.\" Portland homeowners are among the most research-driven buyers in the country, opening tabs, reading reviews, and comparing while the rain comes down. We build fast, mobile-first websites that look like the professional you are and speak to eco-conscious, local-preferring buyers from Hawthorne to Hillsboro.",
     aioQuestion: 'What makes a good contractor website in Portland?',
     aioAnswer:
       "A good Portland contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with real reviews and project photos, names the specific Portland neighborhoods you serve, and — for this market — signals local expertise and sustainability values where relevant. Portland buyers are unusually research-heavy and strongly prefer local independents, so a site that reads authentically local and credible converts far better than a generic template.",
@@ -299,7 +299,7 @@ export const portlandLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Portland site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Portland web design should include for a contractor in this market, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const portlandLocations = [
     citySlug: 'portland', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Portland Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Portland website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs. Free audit.',
+      'Portland Website Redesign done with a careful, SEO-safe migration so you keep every ranking. Faster, mobile-first rebuilds that convert more visitors into booked jobs.',
     eyebrow: 'Website Redesign · Portland, OR',
-    h1: 'Redesign your Portland website without losing your rankings',
+    h1: 'Portland Website Redesign done with a careful, SEO-safe migration that survives the rainy-season rush',
     h2Exact: 'Portland Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Portland contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Portland contractor sites for speed and conversions, build them to earn the trust of research-driven buyers who prefer local businesses, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Portland Website Redesign goes one of two bad ways when it's done carelessly: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Portland contractor sites for speed and conversions, build them to earn the trust of research-driven buyers who prefer local businesses, and handle an SEO-safe migration with the redirects and care that protect the traffic you already have, ahead of the rainy-season rush.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const portlandLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and the SEO-safe migration plan a Portland Website Redesign needs to keep every ranking you have earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const portlandCity = {
 
   titleTag: 'Portland Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Portland contractors. Get found, get booked, and own your leads instead of renting them — built for a research-driven.',
+    'Portland marketing for contractors that fills your calendar through every rainy season. Web design, SEO, and local SEO that get you found, booked, and off rented leads.',
 
   eyebrow: 'Portland · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Portland contractors found and booked',
+  h1: 'Portland marketing for contractors that fills your calendar through every rainy season',
   h2Exact: 'Portland Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Portland's rain-driven, eco-conscious, research-heavy market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const portlandCity = {
   primaryCta: 'Get my free Portland audit',
 
   intro:
-    "If you run a contracting business in Portland, you're fighting for the attention of some of the most research-driven, local-preferring homeowners in the country — in a city where 144 rainy days a year drive year-round demand for roofing, drainage, gutters, moisture control, and home maintenance. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here's how we help Portland contractors do exactly that.",
+    "Portland marketing for contractors means fighting for the attention of some of the most research-driven, local-preferring homeowners in the country, in a city where 144 rainy days a year drive year-round demand for roofing, drainage, gutters, moisture control, and home maintenance. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. As a Portland digital marketing agency built for the trades, here's how we help contractors get found and booked.",
   aioQuestion: 'How do Portland contractors get more leads online?',
   aioAnswer:
     "Portland contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. Portland buyers research everything and strongly prefer local independents — so contractors who look credible and local online, who rank for rainy-season services before October, and who publish real neighborhood content win the most work.",
@@ -422,6 +422,6 @@ export const portlandCity = {
     { q: 'Why does the Portland market need a different approach?', a: "Two things make Portland distinct. First, 144 rainy days a year drives a massive wave of roofing, gutter, drainage, and moisture demand — and contractors who rank before October catch it all. Second, Portland buyers are unusually research-driven and strongly prefer local, independent businesses. Looking credible and local online matters more here than in most markets." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Portland areas do you serve?', a: "All of inner Portland and the surrounding suburbs — Hawthorne, Division, Sellwood, Irvington, Alberta Arts District, Pearl District, NW Portland, Beaverton, Hillsboro, Lake Oswego, Tigard, Tualatin, Gresham, and Vancouver, WA." },
-    { q: 'Where should I start?', a: "Start with a free Portland audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Portland audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Portland marketing for contractors that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

@@ -112,15 +112,15 @@ export const renoLocations = [
     citySlug: "reno", serviceSlug: "local-seo", service: "Local SEO",
     titleTag: "Reno Local SEO Company | Win the Map Pack | OnwardCraft",
     metaDescription:
-      "Search your service in Reno and three businesses show up on the map. We get you into those three — so the wildfire-smoke HVAC call, the high-desert heating.",
+      "Reno Local SEO that gets your business into the three map pins neighbors tap first, from Midtown to Damonte Ranch, for the wildfire-smoke HVAC call.",
     eyebrow: "Local SEO · Reno-Sparks",
-    h1: "When Reno searches for what you do, be the first name they find",
+    h1: "Reno Local SEO that gets you found when Midtown neighbors search your trade",
     h2Exact: "Reno Local SEO Company",
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In a market growing as fast as Reno — California transplants searching for contractors the week they close — we get you into that top three for your neighborhoods, so the call lands with you.",
     primaryCta: "Get my free Reno audit",
     intro:
-      "Reno local SEO comes down to one thing: when a new arrival in Damonte Ranch or a longtime resident in Old Southwest searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. The Reno-Sparks market is growing faster than almost anywhere in the West, wildfire smoke HVAC demand spikes every August through October, and California transplants with Bay Area incomes are shopping for contractors constantly. Becoming one of those three map pins is the whole game.",
+      "Reno Local SEO comes down to one thing: when a new arrival in Damonte Ranch or a longtime resident in Old Southwest searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. The Reno-Sparks market is growing faster than almost anywhere in the West, wildfire smoke HVAC demand spikes every August through October, and California transplants with Bay Area incomes are shopping for contractors constantly. Winning the Google Map Pack, the local 3-pack neighbors actually tap, is the whole game.",
     aioQuestion: "How do Reno businesses rank higher in local search?",
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Reno neighborhoods and Sparks communities. In a fast-growing, transplant-heavy market like Reno, contractors who target tight neighborhood service areas, optimize for wildfire-smoke HVAC and high-desert climate searches, and respond fast during seasonal demand spikes pull ahead of competitors who ignore those angles.",
@@ -168,7 +168,7 @@ export const renoLocations = [
       { q: "Will I show up in Google AI Overviews and ChatGPT?", a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: "Am I locked into a contract?", a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: "How does this get me off Angi and HomeAdvisor?", a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because transplant homeowners — and longtime Reno residents — are finding you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Reno-Sparks neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Reno-Sparks neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's the fastest way to see exactly what Reno Local SEO can do for your phone. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -178,15 +178,15 @@ export const renoLocations = [
     citySlug: "reno", serviceSlug: "seo-services", service: "SEO Services",
     titleTag: "Reno SEO Company | Rank Higher, Get Leads | OnwardCraft",
     metaDescription:
-      "Reno SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing transplant.",
+      "Reno SEO that turns organic traffic into booked work for contractors, from the Truckee Meadows to Tahoe. Revenue-tied reporting and no lock-in contracts.",
     eyebrow: "SEO Services · Reno-Sparks",
-    h1: "Get your Reno business to the top of Google and keep it there",
+    h1: "Reno SEO that turns Truckee Meadows organic traffic into booked work",
     h2Exact: "Reno SEO Company",
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Reno customers search — wildfire HVAC upgrades, high-desert heating and cooling, xeriscape conversions — and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
     primaryCta: "Get my free Reno SEO audit",
     intro:
-      "Reno SEO comes down to one question: when a California transplant or longtime Nevada homeowner searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in a market that's growing faster than almost anywhere in the West — and we measure it in leads, not vanity traffic.",
+      "Reno SEO comes down to one question: when a California transplant or longtime Nevada homeowner searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords across the Truckee Meadows and up toward Tahoe, in a market growing faster than almost anywhere in the West, and we turn that organic traffic into booked work, measured in leads, not vanity traffic.",
     aioQuestion: "How do Reno businesses rank higher on Google?",
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content tied to specific Reno and Sparks neighborhoods, and earning links from trusted Nevada sources. In a market driven by California transplants and seasonal wildfire-smoke HVAC demand, contractors who optimize for those unique local angles and rank before seasonal peaks hit pull ahead of competitors who treat Reno like a generic mid-sized city.",
@@ -234,7 +234,7 @@ export const renoLocations = [
       { q: "Will I show up in Google AI Overviews and ChatGPT?", a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: "Which areas around Reno do you cover?", a: "All of Reno-Sparks and the surrounding communities — Midtown, Old Southwest, Northwest Reno, Sparks, Spanish Springs, South Reno, Damonte Ranch, Incline Village, Carson City, Somersett, Caughlin Ranch, Sun Valley, Fernley, and Verdi — with genuine local pages rather than one generic Reno page." },
       { q: "How do you get me off Angi and HomeAdvisor leads?", a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads — especially when California transplants are actively searching for contractors every day in this market." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It's the clearest way to see what Reno SEO can do for your pipeline. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -244,15 +244,15 @@ export const renoLocations = [
     citySlug: "reno", serviceSlug: "web-design", service: "Web Design",
     titleTag: "Reno Web Design Company | Sites That Convert | OnwardCraft",
     metaDescription:
-      "Reno web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing, transplant-driven market.",
+      "Reno Web Design that makes Old Southwest and South Reno homeowners pick you. Fast, mobile-first contractor sites for a fast-growing, transplant-driven market.",
     eyebrow: "Web Design · Reno-Sparks",
-    h1: "Reno web design that turns visitors into booked jobs",
+    h1: "Reno Web Design that makes Old Southwest homeowners pick you",
     h2Exact: "Reno Web Design Company",
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Reno contractors fast, mobile-first sites engineered to turn visitors into booked work — and to stand out in a market exploding with California transplants who are comparing contractors the week they close on a home.",
     primaryCta: "Get my free quote",
     intro:
-      "Most Reno contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, no local relevance. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Damonte Ranch newcomers and longtime Midtown residents into booked jobs — built to win the California transplant with a Bay Area budget and the value-conscious homeowner who compares everyone.",
+      "Reno Web Design done right fixes the quiet leaks that drain most contractor websites: slow on a phone, buried call button, no clear offer, no local relevance. We build sites that load fast, look like the professional you are, and turn Damonte Ranch newcomers and longtime Midtown residents into booked jobs, built to win the California transplant with a Bay Area budget and the value-conscious homeowner who compares everyone.",
     aioQuestion: "What makes a good contractor website in Reno?",
     aioAnswer:
       "A good Reno contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods you serve. Because Reno is growing fast with transplants who don't have deep local referral networks yet, a site that looks professional and clearly serves your area is often the deciding factor — they go with the contractor whose site makes them feel confident, not the one whose site looks like it was built in 2014.",
@@ -300,7 +300,7 @@ export const renoLocations = [
       { q: "What platform do you build on?", a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: "Do you offer ongoing support?", a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: "Am I locked into a contract?", a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: "What do I get in the free quote?", a: "A clear look at what your current site is costing you in lost leads, what a high-converting Reno contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: "What do I get in the free quote?", a: "A clear look at what your current site is costing you in lost leads, what a high-converting Reno contractor site should include, and a fixed-price quote with a timeline. It's the simplest way to see what Reno Web Design can do for your booked jobs. No pressure, just a plan." },
     ],
   },
 
@@ -308,17 +308,17 @@ export const renoLocations = [
   {
     ...BASE,
     citySlug: "reno", serviceSlug: "website-redesign", service: "Website Redesign",
-    titleTag: "Reno Website Redesign | OnwardCraft",
+    titleTag: "Reno Website Redesign | Keep Your Rankings | OnwardCraft",
     metaDescription:
-      "Redesign your Reno website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing transplant.",
+      "Reno Website Redesign that turns an aging high-desert site into a lead engine. Faster, mobile-first rebuilds with an SEO-safe migration so you keep your rankings.",
     eyebrow: "Website Redesign · Reno-Sparks",
-    h1: "Redesign your Reno website without losing your rankings",
+    h1: "Reno Website Redesign that turns an aging high-desert site into a lead engine",
     h2Exact: "Reno Website Redesign Company",
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, invisible during wildfire smoke season. We redesign Reno contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: "Get my free redesign audit",
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Reno contractor sites for speed and conversions, build them to stand out in a market growing fast with California transplants and seasonal demand spikes, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Reno Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Reno contractor sites for speed and conversions, build them to stand out in a market growing fast with California transplants and seasonal demand spikes, and run an SEO-safe migration with the redirects and care that protect the traffic you already have.",
     aioQuestion: "How do I redesign my website without losing SEO and traffic?",
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured for Reno-specific searches than the old one.",
@@ -366,7 +366,7 @@ export const renoLocations = [
       { q: "Will the new site be mobile-friendly and fast?", a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings — including during the August through October wildfire smoke season when mobile HVAC searches spike." },
       { q: "Do I own the redesigned site?", a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: "Am I locked into a contract?", a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It's the clearest way to see whether a Reno Website Redesign will pay for itself in booked work." },
     ],
   },
 ];
@@ -376,10 +376,10 @@ export const renoCity = {
 
   titleTag: "Reno Marketing for Contractors | OnwardCraft",
   metaDescription:
-    "Web design, SEO, and local SEO for Reno contractors. Get found by California transplants, own the wildfire-smoke HVAC surge, and build leads you don't rent.",
+    "Reno marketing for contractors: web design, SEO, and local SEO that get you found by California transplants, own the wildfire-smoke HVAC surge, and book leads.",
 
   eyebrow: "Reno · Web Design, SEO & Lead Generation",
-  h1: "Marketing that gets Reno contractors found and booked",
+  h1: "Reno marketing for contractors that turns high-desert searches into jobs",
   h2Exact: "Reno Marketing Agency for Contractors",
   heroSubhead:
     "Websites, SEO, and local SEO built for Reno's fast-growing, transplant-driven, high-desert market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -387,7 +387,7 @@ export const renoCity = {
   primaryCta: "Get my free Reno audit",
 
   intro:
-    "If you run a contracting business in Reno, you're in one of the fastest-growing markets in the West — but that growth only pays off if the transplants and locals searching for contractors can find you. California and Bay Area newcomers are buying homes in Damonte Ranch, Spanish Springs, and South Reno and immediately searching Google for contractors. Wildfire smoke rolls in every August through October and homeowners search frantically for HVAC filtration upgrades. The high desert demands heating and cooling systems that can handle 105°F summers and snowy winters. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve.",
+    "Reno marketing for contractors only pays off if the transplants and locals searching for your trade can actually find you, and you're in one of the fastest-growing markets in the West. California and Bay Area newcomers are buying homes in Damonte Ranch, Spanish Springs, and South Reno and immediately searching Google for contractors. Wildfire smoke rolls in every August through October and homeowners search frantically for HVAC filtration upgrades. The high desert demands heating and cooling systems that can handle 105°F summers and snowy winters. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve.",
   aioQuestion: "How do Reno contractors get more leads online?",
   aioAnswer:
     "Reno contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. In a market driven by California transplants with real budgets and wild seasonal demand swings — wildfire smoke HVAC surges in August through October, summer heat June through September, winter heating November through March — the contractors who are visible before those peaks hit get the work.",
@@ -423,6 +423,6 @@ export const renoCity = {
     { q: "Why does the Reno market need a different approach?", a: "Reno's growth story is unique: California and Bay Area transplants with real budgets are arriving constantly and searching for contractors the week they close on a home. At the same time, wildfire smoke events August through October create massive seasonal HVAC demand, and the high desert's climate extremes mean heating and cooling search volume is high year-round. A national agency swapping a city name into a template misses all of that." },
     { q: "How much does it cost to work with you?", a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: "Which Reno-Sparks areas do you serve?", a: "All of Reno-Sparks and surrounding communities — Midtown, Old Southwest, Northwest Reno, Sparks, Spanish Springs, South Reno, Damonte Ranch, Incline Village, Carson City, Somersett, Caughlin Ranch, Sun Valley, Fernley, and Verdi." },
-    { q: "Where should I start?", a: "Start with a free Reno audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest — including whether you're positioned for the next wildfire-smoke season. No pitch deck, just a plan." },
+    { q: "Where should I start?", a: "Start with a free Reno audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, including whether you're positioned for the next wildfire-smoke season. It's the simplest way to see what Reno marketing for contractors can do for your calendar. No pitch deck, just a plan." },
   ],
 };

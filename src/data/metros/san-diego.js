@@ -109,17 +109,17 @@ export const sanDiegoLocations = [
   {
     ...BASE,
     citySlug: 'san-diego', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'San Diego Local SEO Company | OnwardCraft',
+    titleTag: 'San Diego Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your trade in San Diego and three businesses pin to the map. We put you in those three so the call rings your phone, in English and Spanish.',
+      'San Diego Local SEO that ranks you above the competition from North Park to Chula Vista, so the "near me" call rings your phone in English and Spanish.',
     eyebrow: 'Local SEO · San Diego County',
-    h1: 'When San Diego searches for your trade, be the first name on the map',
+    h1: 'San Diego Local SEO that ranks you above the competition from North Park to the coast',
     h2Exact: 'San Diego Local SEO Company',
     heroSubhead:
       "Search \"near me\" and Google hands the map to three businesses. Everyone underneath them might as well not exist. We muscle you into that top three so the call rings your line instead of whoever happened to rank first, and we make sure you also surface for the Spanish-speaking customers your competitors quietly ignore.",
     primaryCta: 'Get my free San Diego audit',
     intro:
-      "San Diego local SEO boils down to a single test: when a homeowner in North Park or Chula Vista types your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll past. In a county this big, this bilingual, and this fire-prone, becoming one of those three, in English and Spanish both, is the entire game. Here is how you get there.",
+      "San Diego Local SEO boils down to a single test: when a homeowner in North Park or Chula Vista types your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll past. In a county this big, this bilingual, and this fire-prone, becoming one of those three, in English and Spanish both, is the entire game. Here is how you get there.",
     aioQuestion: 'How do San Diego businesses rank higher in local search?',
     aioAnswer:
       "You win by nailing four things: a Google Business Profile tuned to the exact services and neighborhoods you want, name-address-phone listings that match everywhere across the web, a steady drip of real reviews, and local content tied to actual San Diego neighborhoods. Since over a third of the county is Hispanic, ranking in Spanish too stretches your reach, and getting visible before fire season is how you catch the demand surge instead of arriving late.",
@@ -167,7 +167,7 @@ export const sanDiegoLocations = [
       { q: 'Do you work with contractors specifically?', a: "It is very nearly all we do. Roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors. We understand emergency calls, fire-driven demand, and insurance jobs, and we shape your local SEO around them." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A growing share of \"near me\" research now begins inside AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast turning into something as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days, since that is roughly how long local SEO needs to post real movement. After that it goes month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
-      { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never get to keep. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the lead brokers less, because the work is already coming to you directly." },
+      { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never get to keep. San Diego Local SEO builds the opposite: rankings, a Google Business Profile, and a review base that route leads straight to you. Over time you lean on the lead brokers less, because the local search that lands a top three on the map is already sending the work to you directly." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const sanDiegoLocations = [
   {
     ...BASE,
     citySlug: 'san-diego', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'San Diego SEO Company | OnwardCraft',
+    titleTag: 'San Diego SEO Company | Rank Past the Competition | OnwardCraft',
     metaDescription:
-      'San Diego SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, bilingual-ready, and no lock-in contracts.',
+      'San Diego SEO that climbs contractors past the competition on Google, from La Jolla to the South Bay, and delivers leads you own. Bilingual-ready, no lock-in.',
     eyebrow: 'SEO Services · San Diego County',
-    h1: 'Get your San Diego business to the top of Google and keep it parked there',
+    h1: 'San Diego SEO that climbs you past the competition on Google, from La Jolla to the South Bay',
     h2Exact: 'San Diego SEO Company',
     heroSubhead:
       "Ads die the instant you stop paying. SEO does the opposite: rank once for what your San Diego customers search, and the leads keep showing up. We build that ranking and tie every report to real calls and booked jobs.",
     primaryCta: 'Get my free San Diego SEO audit',
     intro:
-      "San Diego SEO comes down to one question: when someone searches your trade, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the keywords that pay in a big, bilingual, fire-prone county, and we measure the work in leads, not vanity traffic.",
+      "San Diego SEO comes down to one question: when someone searches your trade, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords that pay in a big, bilingual, fire-prone county, climbing past the competition for organic traffic from La Jolla to the South Bay, and we measure the work in leads, not vanity traffic.",
     aioQuestion: 'How do San Diego businesses rank higher on Google?',
     aioAnswer:
       "They rank by repairing the site's technical foundation, tuning each page to the exact terms customers search, publishing genuinely useful local content, and earning links from trusted San Diego sources. In a large, competitive county where over a third of searches can run in Spanish, ranking bilingually and aiming at fire-season demand are two of the quickest ways to pull ahead of the pack.",
@@ -233,7 +233,7 @@ export const sanDiegoLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around San Diego do you cover?', a: "All of San Diego County and the surrounding cities: Chula Vista, Oceanside, Carlsbad, Escondido, El Cajon, La Mesa, Encinitas and more, with genuine local pages rather than one generic San Diego page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is the starting point for the San Diego SEO that gets you onto page one and ranking on Google for the money keywords your customers search. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const sanDiegoLocations = [
   {
     ...BASE,
     citySlug: 'san-diego', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'San Diego Web Design Company | OnwardCraft',
+    titleTag: 'San Diego Web Design Company | Fast Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'San Diego web design that turns visitors into booked jobs: fast, mobile-first, bilingual-ready sites built specifically for contractors.',
+      'San Diego Web Design that loads fast on the phone and books more jobs, from Pacific Beach to Chula Vista. Mobile-first, bilingual-ready contractor sites.',
     eyebrow: 'Web Design · San Diego County',
-    h1: 'San Diego web design that turns visitors into booked jobs',
+    h1: 'San Diego web design that loads fast on the phone and books more jobs from Pacific Beach to Chula Vista',
     h2Exact: 'San Diego Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure. We build San Diego contractors fast, mobile-first sites engineered to turn visitors into booked work, and we can build them bilingual so you reach the whole county instead of half of it.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most San Diego contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer, English only. Web design done right plugs every one of those leaks. We build sites that load fast, carry the polish your work deserves, and turn La-Jolla-to-Chula-Vista visitors into booked jobs, in English and Spanish where it helps you land more work.",
+      "San Diego Web Design done right plugs the leaks most contractor sites bleed leads through: slow on a phone, call button buried, no clear offer, English only. We build mobile-first websites that load fast, carry the polish your work deserves, and turn Pacific-Beach-to-Chula-Vista visitors into booked jobs, in English and Spanish where it helps you land more work.",
     aioQuestion: 'What makes a good contractor website in San Diego?',
     aioAnswer:
       "A strong San Diego contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and reaches the whole county, which here often means a Spanish-language option. Because most San Diego searches happen on mobile, mobile speed and one obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const sanDiegoLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually run, usually WordPress or Webflow. We will recommend the right fit in your free consult and lay out the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build comes with launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear read on what your current site is costing you in lost leads, what a high-converting San Diego site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear read on what your current site is costing you in lost leads, what a high-converting San Diego web design should include, and a fixed-price quote with a timeline for a fast, mobile-first site that converts visitors into booked jobs. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const sanDiegoLocations = [
   {
     ...BASE,
     citySlug: 'san-diego', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'San Diego Website Redesign | OnwardCraft',
+    titleTag: 'San Diego Website Redesign | SEO-Safe Migration | OnwardCraft',
     metaDescription:
-      'Redesign your San Diego website without losing rankings. Faster, mobile-first, bilingual-ready rebuilds that convert more visitors into booked jobs.',
+      'San Diego Website Redesign done with a careful, SEO-safe migration, so you keep every ranking. Faster, mobile-first, bilingual-ready rebuilds for coastal contractors.',
     eyebrow: 'Website Redesign · San Diego County',
-    h1: 'Redesign your San Diego website without surrendering your rankings',
+    h1: 'San Diego Website Redesign done with a careful, SEO-safe migration for contractors along the coast',
     h2Exact: 'San Diego Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy to scroll past, English only. We redesign San Diego contractor sites to convert more and load faster, and we migrate with enough care that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns crash one of two ways: the site looks sharper but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign San Diego contractor sites for speed and conversions, can rebuild them bilingual to reach the whole county, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "San Diego Website Redesign goes wrong one of two ways: the site looks sharper but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We rebuild contractor sites for speed and conversions, can redesign them bilingual to reach the whole county, and run a careful, SEO-safe migration with the 301 redirects that protect the traffic you already have, so you rebuild without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO through a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Handled right, a redesign keeps your rankings and lifts them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const sanDiegoLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline. It is where your San Diego Website Redesign starts: a mobile-first rebuild paired with an SEO-safe migration that lifts conversions without losing the rankings you have earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const sanDiegoCity = {
 
   titleTag: 'San Diego Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for San Diego contractors. Get found, get booked, and own your leads instead of renting them, bilingual-ready.',
+    'San Diego marketing for contractors that fills your calendar: web design, SEO, and local SEO from the coast to the bases. Get found, get booked, own your leads.',
 
   eyebrow: 'San Diego · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets San Diego contractors found and booked',
+  h1: 'San Diego marketing for contractors that fills your calendar, from the coast to the bases',
   h2Exact: 'San Diego Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for San Diego County's big, bilingual, fire-prone market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const sanDiegoCity = {
   primaryCta: 'Get my free San Diego audit',
 
   intro:
-    "Run a contracting business in San Diego and you are fighting for attention in the fifth-largest county in the country, where the competition is no joke. Winning here takes three pieces moving together: a site that converts, SEO that ranks you for what people search, and local SEO that plants you in the Map Pack, ideally in English and Spanish, since a third of the county searches that way. Here is how we help San Diego contractors do exactly that.",
+    "San Diego marketing for contractors means fighting for attention in the fifth-largest county in the country, from the coast to the heavy military footprint around the bases, where the competition is no joke. Winning here takes three pieces of web design and SEO moving together: a site that converts, SEO that ranks you for what people search, and local SEO that plants you in the Map Pack, ideally in English and Spanish, since a third of the county searches that way. Here is how we get San Diego contractors found and booked.",
   aioQuestion: 'How do San Diego contractors get more leads online?',
   aioAnswer:
     "San Diego contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because over a third of the county is Hispanic and demand climbs through fire season, the contractors who reach the whole market and are already ranking before the Santa Anas hit win the most work.",
@@ -422,6 +422,6 @@ export const sanDiegoCity = {
     { q: 'Why does bilingual marketing matter in San Diego?', a: "More than a third of San Diego County is Hispanic, and a large share of those homeowners search and call in Spanish, especially in South Bay and National City. If your site and listings are English only, you are invisible to a huge part of the market. Building bilingually is one of the clearest edges available here, and most contractors are not doing it." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which San Diego areas do you serve?', a: "All of San Diego County and the surrounding cities: North Park, Pacific Beach, La Jolla, Point Loma, plus Chula Vista, Oceanside, Carlsbad, Escondido, El Cajon and more." },
-    { q: 'Where should I start?', a: "Start with a free San Diego audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free San Diego audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. That is how San Diego marketing for contractors should run: a digital marketing agency built around the trades that gets you found, gets you booked, and fills your calendar. No pitch deck, just a plan." },
   ],
 };

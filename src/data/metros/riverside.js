@@ -111,15 +111,15 @@ export const riversideLocations = [
     citySlug: 'riverside', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Riverside Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Riverside and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Riverside Local SEO that ranks you above the competition in the Map Pack, so the "near me" call lands with you across the Inland Empire.',
     eyebrow: 'Local SEO · Riverside–San Bernardino (Inland Empire)',
-    h1: 'When the Inland Empire searches for what you do, be the first name they find',
+    h1: 'Riverside Local SEO that ranks you above the Inland Empire competition on the map',
     h2Exact: 'Riverside Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the call lands with you instead of whoever ranked first — and so you're ready when the next heat wave or Santa Ana wind fills everyone's phone.",
     primaryCta: 'Get my free Riverside audit',
     intro:
-      "Riverside local SEO comes down to one thing: when a homeowner in Rancho Cucamonga or Temecula searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. With summer temps hitting 110 to 115 degrees and wildfire season arriving every fall, demand surges are real and unpredictable — becoming one of those three spots before the spike is the whole game. Here's how you do it.",
+      "Riverside Local SEO comes down to one thing: when a homeowner in Rancho Cucamonga or Temecula searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three in the local 3-pack and never scroll. With summer temps hitting 110 to 115 degrees and wildfire season arriving every fall, demand surges are real and unpredictable, so becoming one of those three spots before the spike is the whole game. Here's how a Riverside local SEO company gets you there.",
     aioQuestion: 'How do Riverside businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Inland Empire neighborhoods. The Inland Empire has extreme heat-driven HVAC demand and a large Spanish-speaking population, so the winners look established, serve both language markets, and are already ranking when summer or wildfire-season demand spikes.",
@@ -167,7 +167,7 @@ export const riversideLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis of what Riverside Local SEO can do for your phone." },
     ],
   },
 
@@ -177,15 +177,15 @@ export const riversideLocations = [
     citySlug: 'riverside', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Riverside SEO Company | OnwardCraft',
     metaDescription:
-      'Riverside SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Inland Empire heat.',
+      'Riverside SEO that climbs contractors past the competition on Google and brings in leads you own. Revenue-tied reporting, no lock-in, built for Inland Empire heat.',
     eyebrow: 'SEO Services · Riverside–San Bernardino (Inland Empire)',
-    h1: 'Get your Inland Empire business to the top of Google and keep it there',
+    h1: 'Riverside SEO that climbs your Inland Empire trade past the competition on Google',
     h2Exact: 'Riverside SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Inland Empire customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
     primaryCta: 'Get my free Riverside SEO audit',
     intro:
-      "Riverside SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in a hot, fast-growing, wildfire-prone market — and we measure it in leads, not vanity traffic.",
+      "Riverside SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. As a Riverside SEO company built for the trades, we get contractors ranking for the money keywords in a hot, fast-growing, wildfire-prone market, and we measure organic traffic in leads, not vanity numbers.",
     aioQuestion: 'How do Riverside businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Inland Empire sources. In a large, competitive market that spans two huge counties, ranking for neighborhood-specific searches and for the heat-driven and wildfire-season terms that spike demand are two of the fastest ways to pull ahead.",
@@ -233,7 +233,7 @@ export const riversideLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Riverside do you cover?', a: "All of Riverside and San Bernardino counties — Riverside, San Bernardino, Redlands, Fontana, Rancho Cucamonga, Ontario, Corona, Moreno Valley, Temecula, Murrieta, Hemet, and more — with genuine local pages rather than one generic Riverside page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a straight diagnosis of what Riverside SEO can do to get you on page one and keep you there." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const riversideLocations = [
     citySlug: 'riverside', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Riverside Web Design Company | OnwardCraft',
     metaDescription:
-      'Riverside web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Inland Empire heat and wildfire seasons.',
+      'Riverside Web Design that loads fast and books more jobs: mobile-first sites built for contractors and Inland Empire heat and wildfire seasons.',
     eyebrow: 'Web Design · Riverside–San Bernardino (Inland Empire)',
-    h1: 'Riverside web design that turns visitors into booked jobs',
+    h1: 'Riverside Web Design that loads fast in the 110-degree heat and books more jobs',
     h2Exact: 'Riverside Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Inland Empire contractors fast, mobile-first sites engineered to turn visitors into booked work — and to hold up when extreme heat or a Santa Ana event floods your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Inland Empire contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Rancho-Cucamonga-to-Temecula visitors into booked jobs — and that don't fall over when a heat wave sends your traffic through the roof.",
+      "Riverside Web Design done right fixes the leak that costs Inland Empire contractors jobs every week: a site that's slow on a phone, hides the call button, and never makes a clear offer. As a Riverside web design company built for the trades, we ship fast, mobile-first contractor websites that look like the professional you are and turn Rancho-Cucamonga-to-Temecula visitors into booked jobs, and that don't fall over when a heat wave sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Riverside?',
     aioAnswer:
       "A good Inland Empire contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during 110-degree heat waves and Santa Ana wind events. Because most Inland Empire searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const riversideLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Inland Empire site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Inland Empire site should include, and a fixed-price quote with a timeline. No pressure, just a plan for the Riverside Web Design that turns more of your visitors into booked jobs." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const riversideLocations = [
     citySlug: 'riverside', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Riverside Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Riverside website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in heat season.',
+      'Riverside Website Redesign done with a careful, SEO-safe migration. Faster, mobile-first rebuilds that convert more booked jobs and hold up in Inland Empire heat.',
     eyebrow: 'Website Redesign · Riverside–San Bernardino (Inland Empire)',
-    h1: 'Redesign your Riverside website without losing your rankings',
+    h1: 'Riverside Website Redesign done with a careful, SEO-safe migration that survives heat season',
     h2Exact: 'Riverside Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Inland Empire contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Inland Empire contractor sites for speed and conversions, build them to handle heat-season and wildfire-season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Riverside Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Inland Empire contractor sites for speed and conversions, rebuild them mobile-first to handle heat-season and wildfire-season traffic, and run an SEO-safe migration with the redirects and care that protect the rankings you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const riversideLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline. It also lays out the SEO-safe migration plan so a Riverside Website Redesign rebuilds your site without losing your rankings." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const riversideCity = {
 
   titleTag: 'Riverside Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Riverside and Inland Empire contractors. Get found, get booked, and own your leads — built for extreme heat and wildfire.',
+    'Riverside marketing for contractors that fills your calendar: web design, SEO, and local SEO for the Inland Empire, built for extreme heat and wildfire season.',
 
   eyebrow: 'Riverside · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Inland Empire contractors found and booked',
+  h1: 'Riverside marketing for contractors that fills your calendar through the Inland Empire heat',
   h2Exact: 'Riverside Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the Inland Empire's extreme heat, wildfire seasons, and a market that keeps growing. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const riversideCity = {
   primaryCta: 'Get my free Riverside audit',
 
   intro:
-    "If you run a contracting business in the Riverside–San Bernardino metro, you're operating in one of the most demanding markets in the country. Summers that hit 115 degrees, wildfire and Santa Ana wind seasons that drive roofing and restoration demand every fall, and a community that's roughly half Spanish-speaking — this market rewards contractors who show up before demand spikes, not after. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack. Here's how we help Inland Empire contractors do exactly that.",
+    "Riverside marketing for contractors has to account for one of the most demanding markets in the country. Summers that hit 115 degrees, wildfire and Santa Ana wind seasons that drive roofing and restoration demand every fall, and a community that's roughly half Spanish-speaking: this market rewards contractors who show up before demand spikes, not after. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack. Here's how our web design and SEO for Inland Empire contractors does exactly that.",
   aioQuestion: 'How do Inland Empire contractors get more leads online?',
   aioAnswer:
     "Inland Empire contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because the Riverside–San Bernardino metro has extreme summer heat that drives enormous HVAC demand and wildfire seasons that spike roofing and restoration searches, the contractors who are already visible when demand hits take the work. Reaching the large Spanish-speaking market with appropriately localized content is also a significant advantage competitors often miss.",
@@ -422,6 +422,6 @@ export const riversideCity = {
     { q: 'Why does heat season matter for my marketing?', a: "When the Inland Empire hits 110 to 115 degrees in August, HVAC demand spikes overnight and backlogs can run for weeks. Ranking takes months to build, so the contractors who are already visible before the heat wave take that work. Santa Ana winds and wildfire season drive the same dynamic for roofing and restoration every fall. We get you in place ahead of each season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Inland Empire areas do you serve?', a: "All of Riverside and San Bernardino counties — Riverside, San Bernardino, Redlands, Fontana, Rancho Cucamonga, Ontario, Corona, Moreno Valley, Temecula, Murrieta, Hemet, and more." },
-    { q: 'Where should I start?', a: "Start with a free Inland Empire audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Inland Empire audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan for the Riverside marketing for contractors that gets you found, booked, and off the rented-lead treadmill." },
   ],
 };

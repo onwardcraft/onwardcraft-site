@@ -109,17 +109,17 @@ export const saltLakeCityLocations = [
   {
     ...BASE,
     citySlug: 'salt-lake-city', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Salt Lake City Local SEO Company | OnwardCraft',
+    titleTag: 'Salt Lake City Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Salt Lake City and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Salt Lake City Local SEO that gets contractors into the three businesses on the map, so the call lands with you instead of a competitor.',
     eyebrow: 'Local SEO · Salt Lake City, UT',
-    h1: 'When Salt Lake City searches for what you do, be the first name they find',
+    h1: 'Salt Lake City Local SEO that gets you found when Sugar House neighbors search your trade',
     h2Exact: 'Salt Lake City Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In a valley growing faster than almost anywhere in the country, we get you into that top three for your neighborhoods — so the call lands with you instead of a competitor who ranked first.",
     primaryCta: 'Get my free Salt Lake City audit',
     intro:
-      "Salt Lake City local SEO comes down to one thing: when a homeowner in Sandy or Sugar House searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This is a fast-growing, family-oriented market where 72 percent of residents own their homes, and the Wasatch Fault and winter inversions create demand that spikes predictably every year. Becoming one of those three pins in the neighborhoods you serve is the whole game. Here's how you do it.",
+      "Salt Lake City Local SEO comes down to one thing: when a homeowner in Sandy or Sugar House searches your service plus \"near me,\" are you one of the three businesses Google pins to the Map Pack? Most people tap one of those three and never scroll. This is a fast-growing, family-oriented market where 72 percent of residents own their homes, and the Wasatch Fault and winter inversions create local search demand that spikes predictably every year. Becoming one of those three pins in the neighborhoods you serve is the whole game. Here's how you do it.",
     aioQuestion: 'How do Salt Lake City businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Salt Lake neighborhoods like Sandy, South Jordan, Sugar House, and the Avenues. In a fast-growing market where tech workers and families are buying homes at a rapid clip, the winners target tight service areas and build ranking before the next seasonal spike — whether that's a November inversion, a winter snow event, or a post-earthquake surge in foundation consultations.",
@@ -167,7 +167,7 @@ export const saltLakeCityLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Salt Lake neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Salt Lake neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's a straight diagnosis of what Salt Lake City Local SEO can do for your phone, not a pitch deck." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const saltLakeCityLocations = [
   {
     ...BASE,
     citySlug: 'salt-lake-city', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Salt Lake City SEO Company | OnwardCraft',
+    titleTag: 'Salt Lake City SEO Company | Rank Across the Wasatch Front | OnwardCraft',
     metaDescription:
       'Salt Lake City SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing.',
     eyebrow: 'SEO Services · Salt Lake City, UT',
-    h1: 'Get your Salt Lake City business to the top of Google and keep it there',
+    h1: 'Salt Lake City SEO that turns Wasatch Front organic traffic into booked work',
     h2Exact: 'Salt Lake City SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Salt Lake customers search and the leads keep coming. We build that ranking for contractors in a fast-growing market and tie every report to actual calls and jobs.",
     primaryCta: 'Get my free Salt Lake City SEO audit',
     intro:
-      "Salt Lake City SEO comes down to one question: when a homeowner in Sandy, South Jordan, or Sugar House searches what you do, are you on page one or page two? Page two might as well be page fifty. The Silicon Slopes boom is bringing in new homeowners every month and new contractors every quarter — the businesses ranking now will own this market for years. We get contractors ranking for the money keywords and measure it in leads, not vanity traffic.",
+      "Salt Lake City SEO comes down to one question: when a homeowner in Sandy, South Jordan, or Sugar House searches what you do, are you on page one or page two? Page two might as well be page fifty. The Silicon Slopes boom along the Wasatch Front is bringing in new homeowners every month and new contractors every quarter, and the businesses ranking on Google now will own this market for years. We get contractors ranking for the money keywords and measure organic traffic in leads, not vanity numbers.",
     aioQuestion: 'How do Salt Lake City businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content tied to specific neighborhoods and the seasonal demands of the Salt Lake Valley, and earning links from trusted Utah sources. In a market growing as fast as Silicon Slopes, tight neighborhood targeting and ranking for seasonal inversion-season HVAC terms and post-storm roofing searches are two of the quickest ways to pull ahead before the competition catches up.",
@@ -233,7 +233,7 @@ export const saltLakeCityLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business — not just classic search results." },
       { q: 'Which areas around Salt Lake City do you cover?', a: "The full Salt Lake Valley and beyond — Sugar House, the Avenues, Holladay, Murray, Sandy, South Jordan, Riverton, Herriman, West Jordan, Millcreek, Cottonwood Heights, Draper, and further out to Ogden and Provo. We build genuine neighborhood pages, not one generic Salt Lake City page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads in a market where your best customers are searching online every day." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It's an honest look at what Salt Lake City SEO can do to put your money keywords on page one, not a pitch deck." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const saltLakeCityLocations = [
   {
     ...BASE,
     citySlug: 'salt-lake-city', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Salt Lake City Web Design Company | OnwardCraft',
+    titleTag: 'Salt Lake City Web Design Company | Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'Salt Lake City web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing mountain valley market.',
+      'Salt Lake City Web Design that makes homeowners pick you, fast, mobile-first sites built for contractors in a fast-growing mountain valley market.',
     eyebrow: 'Web Design · Salt Lake City, UT',
-    h1: 'Salt Lake City web design that turns visitors into booked jobs',
+    h1: 'Salt Lake City Web Design that makes Wasatch Front homeowners pick you',
     h2Exact: 'Salt Lake City Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Salt Lake City contractors fast, mobile-first sites engineered to turn visitors into booked work — and to stand out in a valley where the competition is growing as fast as the population.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Salt Lake City contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn homeowners from Sandy to Sugar House into booked jobs — built to win in a market where Silicon Slopes growth is filling in the contractor landscape faster every year.",
+      "Salt Lake City Web Design is the quiet difference between a contractor site that books work and one that loses leads: slow on a phone, buried call button, no clear offer. Done right, it fixes all of that. We build mobile-first sites that load fast, look like the professional you are, and convert homeowners from Sandy to Sugar House into booked jobs, built to win in a market where Silicon Slopes growth is filling in the contractor landscape faster every year.",
     aioQuestion: 'What makes a good contractor website in Salt Lake City?',
     aioAnswer:
       "A good Salt Lake City contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods you serve — from South Jordan and Riverton to Sugar House and Holladay. Because most Salt Lake searches happen on mobile and a fast-growing market means more competition every year, mobile speed, an obvious next step, and content that speaks to local concerns like winter inversions, mountain snowfall, and earthquake preparedness are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const saltLakeCityLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Salt Lake City contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Salt Lake City Web Design should include, and a fixed-price quote with a timeline. No pressure, just a plan that turns visitors into booked jobs." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const saltLakeCityLocations = [
   {
     ...BASE,
     citySlug: 'salt-lake-city', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Salt Lake City Website Redesign | OnwardCraft',
+    titleTag: 'Salt Lake City Website Redesign | Keep Your Rankings | OnwardCraft',
     metaDescription:
-      'Redesign your Salt Lake City website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing.',
+      'Salt Lake City Website Redesign that turns an aging site into a lead engine without losing rankings. Faster, mobile-first rebuilds that convert.',
     eyebrow: 'Website Redesign · Salt Lake City, UT',
-    h1: 'Redesign your Salt Lake City website without losing your rankings',
+    h1: 'Salt Lake City Website Redesign that turns an aging Avenues site into a lead engine',
     h2Exact: 'Salt Lake City Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Salt Lake City contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned in a market that keeps growing.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Salt Lake City contractor sites for speed and conversions, build them to stand out in a fast-growing valley, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Salt Lake City Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild contractor sites for speed and conversions, design them to stand out in a fast-growing valley, and handle an SEO-safe migration with the redirects and care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one — which matters even more in a growing market like Salt Lake where new competition is arriving constantly.",
@@ -365,7 +365,7 @@ export const saltLakeCityLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan for your Salt Lake City contractor site." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the rebuild should fix, and a fixed-price quote with a timeline. It's an honest plan for a Salt Lake City Website Redesign that converts more without losing the rankings you've earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const saltLakeCityCity = {
 
   titleTag: 'Salt Lake City Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Salt Lake City contractors. Get found, get booked, and own your leads instead of renting them — built for Silicon Slopes.',
+    'Salt Lake City marketing for contractors: web design, SEO, and local SEO. Get found, get booked, and own your leads instead of renting them.',
 
   eyebrow: 'Salt Lake City · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Salt Lake City contractors found and booked',
+  h1: 'Salt Lake City marketing for contractors that turns Wasatch Front searches into jobs',
   h2Exact: 'Salt Lake City Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for a fast-growing mountain valley market. One team to get you ranking, converting, and off the rented-lead treadmill before the competition catches up.",
@@ -386,7 +386,7 @@ export const saltLakeCityCity = {
   primaryCta: 'Get my free Salt Lake City audit',
 
   intro:
-    "If you run a contracting business in Salt Lake City, you're operating in one of the fastest-growing markets in the country. Silicon Slopes is bringing in tech workers and young families who are buying homes and immediately searching for contractors. That's good news — but the contractor landscape is filling in just as fast. Add the Wasatch Fault running under the valley, winter inversions that drive predictable HVAC and air-quality spikes, and Wasatch Mountain snowfall that fuels roofing and gutter demand every year, and you have a market with enormous seasonal urgency. Winning here takes three things working together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here's how we help Salt Lake City contractors do exactly that.",
+    "Salt Lake City marketing for contractors starts with one fact: you're operating in one of the fastest-growing markets in the country. Silicon Slopes is bringing in tech workers and young families who are buying homes and immediately searching for contractors. That's good news — but the contractor landscape is filling in just as fast. Add the Wasatch Fault running under the valley, winter inversions that drive predictable HVAC and air-quality spikes, and Wasatch Mountain snowfall that fuels roofing and gutter demand every year, and you have a market with enormous seasonal urgency. Winning here takes three things working together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here's how we help Salt Lake City contractors do exactly that.",
   aioQuestion: 'How do Salt Lake City contractors get more leads online?',
   aioAnswer:
     "Salt Lake City contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood across the valley. In a market driven by Silicon Slopes growth, Wasatch winter seasonality, and year-round earthquake-preparedness demand, the contractors who build strong search visibility now — before the competition catches up — will own the market as the population expands.",
@@ -422,6 +422,6 @@ export const saltLakeCityCity = {
     { q: 'Why does the Salt Lake City market need a different approach?', a: "Three things make it distinct. It's one of the fastest-growing metros in the US, so the homeowner pool is expanding but so is the competition. The Wasatch Fault creates year-round demand for foundation and seismic services that most contractors never rank for. And winter inversions create predictable HVAC and indoor-air-quality spikes that reward contractors who rank before the season arrives." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Salt Lake City areas do you serve?', a: "The full Salt Lake Valley and beyond — Sugar House, the Avenues, Holladay, Murray, Sandy, South Jordan, Riverton, Herriman, West Jordan, Millcreek, Cottonwood Heights, Draper, and further out to Ogden and Provo. We build genuine neighborhood pages, not a single generic Salt Lake City page." },
-    { q: 'Where should I start?', a: "Start with a free Salt Lake City audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest — whether that's ranking for winter inversion calls, earthquake-prep services, or the fast-growing neighborhoods where new homeowners are searching right now. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Salt Lake City audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, whether that's ranking for winter inversion calls, earthquake-prep services, or the fast-growing neighborhoods where new homeowners are searching right now. That's the whole point of Salt Lake City marketing for contractors: get you found and booked, with a plan instead of a pitch deck." },
   ],
 };

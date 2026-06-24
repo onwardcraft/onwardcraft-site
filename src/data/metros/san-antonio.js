@@ -109,17 +109,17 @@ export const sanAntonioLocations = [
   {
     ...BASE,
     citySlug: 'san-antonio', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'San Antonio Local SEO Company | OnwardCraft',
+    titleTag: 'San Antonio Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'When San Antonio searches your service, three businesses fill the map. We put you in those three so the call rings your phone, not a competitor.',
+      'San Antonio Local SEO that wins you the top three on the map, from Stone Oak to Southtown. Own the Map Pack and the call rings your phone, not a competitor.',
     eyebrow: 'Local SEO · San Antonio',
-    h1: 'When San Antonio searches for what you do, be the first name on the map',
+    h1: 'San Antonio Local SEO that wins you the top three on the map, from Stone Oak to Southtown',
     h2Exact: 'San Antonio Local SEO Company',
     heroSubhead:
       "Google pins exactly three businesses to the map for a \"near me\" search, and almost everyone taps one of them. Below that top three, you basically vanish. We get you into those three spots so the call lands with you, and so you are already there when the summer heat lights up every phone in the city.",
     primaryCta: 'Get my free San Antonio audit',
     intro:
-      "San Antonio local SEO really comes down to a single question: when a homeowner in Stone Oak or Southtown types your service plus \"near me,\" are you one of the three businesses Google drops onto the map? Most people tap one of those three and never scroll an inch further. In a market this large, this Hispanic, and this brutal in summer, earning one of those spots is the entire contest. Here is how you take one.",
+      "San Antonio Local SEO comes down to a single question: when a homeowner in Stone Oak or Southtown types your service plus \"near me,\" are you one of the three businesses Google drops onto the map? Winning that local 3-pack is the whole game, because most people tap one of those three and never scroll an inch further. In a market this large, this Hispanic, and this brutal in summer, a sharp Google Business Profile and steady local search signals are how you take a spot. Here is how it works.",
     aioQuestion: 'How do San Antonio businesses rank higher in local search?',
     aioAnswer:
       "You climb by nailing four things: a Google Business Profile tuned to the precise services and neighborhoods you want, consistent name, address, and phone details across the web, a steady flow of genuine reviews, and local content tied to actual San Antonio neighborhoods. Because the metro runs roughly two-thirds Hispanic and demand surges in the summer heat, the winners also serve Spanish searchers and lock in their ranking before the AC calls start pouring in.",
@@ -167,7 +167,7 @@ export const sanAntonioLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A growing slice of \"near me\" research now starts inside AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you leave, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less, because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day San Antonio Local SEO plan with the numbers run for your business. No pitch deck. Just a straight diagnosis of how you climb into the local 3-pack." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const sanAntonioLocations = [
   {
     ...BASE,
     citySlug: 'san-antonio', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'San Antonio SEO Company | OnwardCraft',
+    titleTag: 'San Antonio SEO Company | Rankings You Own | OnwardCraft',
     metaDescription:
-      'San Antonio SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in contracts, built for summer-heat demand.',
+      'San Antonio SEO that builds rankings you actually own, from Lackland to Fort Sam Houston. Rank on Google for the money keywords, with revenue-tied reporting.',
     eyebrow: 'SEO Services · San Antonio',
-    h1: 'Get your San Antonio business to the top of Google and keep it there',
+    h1: 'San Antonio SEO that builds rankings you actually own, near every Joint Base gate',
     h2Exact: 'San Antonio SEO Company',
     heroSubhead:
       "The minute you stop paying for ads, the leads stop too. SEO flips that: rank once for what your San Antonio customers search and the work keeps coming. We build that ranking and tie every report straight to real calls and booked jobs.",
     primaryCta: 'Get my free San Antonio SEO audit',
     intro:
-      "San Antonio SEO boils down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty, because nobody is going there. We get contractors ranking for the money keywords in a big, fast-growing, heavily Hispanic market, and we measure the work in leads, not vanity traffic.",
+      "San Antonio SEO boils down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty, because nobody is going there. As a San Antonio SEO company we get contractors ranking on Google for the money keywords across a big, fast-growing, heavily Hispanic market, and we measure the search engine optimization work in booked leads and organic traffic, not vanity numbers.",
     aioQuestion: 'How do San Antonio businesses rank higher on Google?',
     aioAnswer:
       "They rank by repairing the technical base of the site, tuning each page to the exact terms customers type, publishing genuinely useful local content, and earning links from trusted San Antonio sources. In a market that is roughly two-thirds Hispanic with sharp summer-heat demand, ranking for Spanish-language and seasonal terms is one of the fastest ways to pull ahead of competitors who skip both.",
@@ -233,7 +233,7 @@ export const sanAntonioLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around San Antonio do you cover?', a: "All of San Antonio and the surrounding areas: Stone Oak, Southtown, Alamo Heights, Helotes, Schertz, Cibolo, New Braunfels, Boerne, and more, with genuine local pages rather than one catch-all San Antonio page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic San Antonio SEO timeline to reach page one, with the numbers modeled for your business. No pitch deck, just a diagnosis of how you rank on Google for the searches that book jobs." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const sanAntonioLocations = [
   {
     ...BASE,
     citySlug: 'san-antonio', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'San Antonio Web Design Company | OnwardCraft',
+    titleTag: 'San Antonio Web Design Company | Real Booked Work | OnwardCraft',
     metaDescription:
-      'San Antonio web design that turns visitors into booked jobs: fast, mobile-first, bilingual-ready sites built for contractors and summer-heat demand.',
+      'San Antonio Web Design engineered to bring in real work: fast, mobile-first, bilingual-ready sites that reach a city searching in English y en espanol.',
     eyebrow: 'Web Design · San Antonio',
-    h1: 'San Antonio web design that turns visitors into booked jobs',
+    h1: 'San Antonio Web Design engineered to bring in real work, en ingles y en espanol',
     h2Exact: 'San Antonio Web Design Company',
     heroSubhead:
       "A good-looking website that never generates a call is just a brochure. We build San Antonio contractors fast, mobile-first sites engineered to turn visitors into booked work, and built to reach the city's huge Spanish-speaking market instead of only half of it.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most San Antonio contractor websites bleed leads quietly: sluggish on a phone, a call button no one can find, no clear offer, and English-only in a city that is nearly two-thirds Hispanic. Web design done properly fixes every one of those leaks. We build sites that load fast, look like the professional you already are, turn Stone-Oak-to-Southtown visitors into booked jobs, and speak to every homeowner who lands on them.",
+      "San Antonio Web Design done right is the difference between a site that books work and one that just sits there: most contractor sites here bleed leads quietly, sluggish on a phone, a call button no one can find, no clear offer, and English-only in a city that is nearly two-thirds Hispanic. As a San Antonio web design company we build fast, mobile-first contractor websites that look like the professional you already are, convert visitors into booked jobs, and speak to every homeowner from Stone Oak to Southtown who lands on them.",
     aioQuestion: 'What makes a good contractor website in San Antonio?',
     aioAnswer:
       "A strong San Antonio contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and reaches the city's large Spanish-speaking market. Because most local searches happen on mobile and roughly two-thirds of the metro is Hispanic, mobile speed and a bilingual-ready experience are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const sanAntonioLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage yourself, usually WordPress or Webflow. We will recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, and you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting San Antonio site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting San Antonio Web Design should include for a contractor, and a fixed-price quote with a timeline for a fast, mobile-first build that turns visitors into booked jobs. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const sanAntonioLocations = [
   {
     ...BASE,
     citySlug: 'san-antonio', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'San Antonio Website Redesign | OnwardCraft',
+    titleTag: 'San Antonio Website Redesign | Keep Your Traffic | OnwardCraft',
     metaDescription:
-      'Redesign your San Antonio website without losing rankings. Faster, mobile-first, bilingual-ready rebuilds that convert more visitors into booked jobs.',
+      'San Antonio Website Redesign that modernizes without tanking your traffic. An SEO-safe migration keeps every ranking while a faster, bilingual-ready rebuild converts more.',
     eyebrow: 'Website Redesign · San Antonio',
-    h1: 'Redesign your San Antonio website without losing your rankings',
+    h1: 'San Antonio Website Redesign that modernizes without tanking your hard-won traffic',
     h2Exact: 'San Antonio Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, awkward on a phone, easy to skip past, and speaking to only half of a Hispanic-majority city. We redesign San Antonio contractor sites to convert more and load faster, and we migrate with enough care that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail in one of two ways: the site looks sharper but converts exactly the same, or it launches and the rankings evaporate overnight. We refuse to do either. We redesign San Antonio contractor sites for speed and conversions, build them to reach the city's huge Spanish-speaking market, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A San Antonio Website Redesign should modernize your site without tanking your traffic, yet most redesigns fail one of two ways: the site looks sharper but converts exactly the same, or it launches and the rankings evaporate overnight. We refuse to do either. We rebuild San Antonio contractor sites for speed and conversions, make them reach the city's huge Spanish-speaking market, and run an SEO-safe migration with the redirects that protect every ranking you have already earned.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const sanAntonioLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what a San Antonio Website Redesign should fix, and a fixed-price quote with a timeline plus an SEO-safe migration plan that rebuilds for leads without losing your rankings." },
     ],
   },
 ];
@@ -373,12 +373,12 @@ export const sanAntonioLocations = [
 export const sanAntonioCity = {
   citySlug: 'san-antonio', city: 'San Antonio', state: 'Texas', stateAbbr: 'TX', metro: 'San Antonio',
 
-  titleTag: 'San Antonio Marketing for Contractors | Web, SEO & Leads',
+  titleTag: 'San Antonio Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for San Antonio contractors. Get found, get booked, and own your leads instead of renting them. Bilingual-ready and built.',
+    'San Antonio marketing for contractors built around the trades: web design, SEO, and local SEO that get you found and booked. Bilingual-ready, own your leads.',
 
   eyebrow: 'San Antonio · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets San Antonio contractors found and booked',
+  h1: 'San Antonio marketing for contractors built around the trades, from Stone Oak to the base towns',
   h2Exact: 'San Antonio Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for San Antonio's big, fast-growing, heavily Hispanic market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const sanAntonioCity = {
   primaryCta: 'Get my free San Antonio audit',
 
   intro:
-    "If you run a contracting business in San Antonio, you are fighting for attention in one of the biggest, fastest-growing markets in Texas, and your competition keeps growing right alongside it. Winning here takes three pieces working together: a site that converts, SEO that ranks you for what people search, and local SEO that lands you in the Map Pack, all built to reach a city that is nearly two-thirds Hispanic and runs hottest when the summer demand hits. Here is how we help San Antonio contractors pull that off.",
+    "San Antonio marketing for contractors is its own fight: you are battling for attention in one of the biggest, fastest-growing markets in Texas, and your competition keeps growing right alongside it. Winning here takes three pieces working together, web design and SEO for San Antonio contractors plus local SEO that lands you in the Map Pack, all built to reach a city that is nearly two-thirds Hispanic and runs hottest when the summer demand hits. Here is how this digital marketing agency helps the trades get found and booked.",
   aioQuestion: 'How do San Antonio contractors get more leads online?',
   aioAnswer:
     "San Antonio contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because the metro is roughly two-thirds Hispanic and demand spikes during the triple-digit summers, the contractors who reach Spanish searchers and are already ranking before the heat arrives win the most work.",
@@ -422,6 +422,6 @@ export const sanAntonioCity = {
     { q: 'Why does the Spanish-speaking market matter for my marketing?', a: "San Antonio is around 64% Hispanic, much of it Mexican-origin, and a real share of homeowners search and hire in Spanish. Most contractors only market in English, so reaching Spanish searchers with your profile, site, and reviews is an easy edge that opens up demand your competitors never see." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which San Antonio areas do you serve?', a: "All of San Antonio and the surrounding areas: Stone Oak, Southtown, Alamo Heights, King William, Helotes, plus Schertz, Cibolo, New Braunfels, Boerne, and more." },
-    { q: 'Where should I start?', a: "Start with a free San Antonio audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free San Antonio audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your San Antonio marketing for contractors that will get you found and booked fastest. No pitch deck, just a plan." },
   ],
 };

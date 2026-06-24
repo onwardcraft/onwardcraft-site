@@ -109,17 +109,17 @@ export const sacramentoLocations = [
   {
     ...BASE,
     citySlug: 'sacramento', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Sacramento Local SEO Company | OnwardCraft',
+    titleTag: 'Sacramento Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Sacramento and three businesses show up on the map. We get you into those three, so the call lands with you during heat waves, smoke.',
+      'Sacramento Local SEO that turns "near me" searches into a ringing phone. We get you into the Map Pack so the call lands with you during heat waves and smoke.',
     eyebrow: 'Local SEO · Sacramento',
-    h1: 'When Sacramento searches for what you do, be the first name they find',
+    h1: 'Sacramento Local SEO that turns "near me" searches into a ringing phone when the Midtown heat hits',
     h2Exact: 'Sacramento Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. When a Sacramento homeowner's AC breaks at 105°F or wildfire smoke rolls in and they need better air filtration fast, we make sure that call lands with you.",
     primaryCta: 'Get my free Sacramento audit',
     intro:
-      "Sacramento local SEO comes down to one thing: when a homeowner in Midtown or Elk Grove searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This market has three seasonal demand spikes — summer heat (Jun–Sep), wildfire smoke season (Aug–Oct), and wet-season flooding risk (Dec–Mar) — and the contractors who already rank before those spikes hit are the ones who book the work. Here's how you become one of them.",
+      "Sacramento Local SEO comes down to one thing: when a homeowner in Midtown or Elk Grove searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This market has three seasonal demand spikes — summer heat (Jun–Sep), wildfire smoke season (Aug–Oct), and wet-season flooding risk (Dec–Mar) — and the contractors who already rank before those spikes hit are the ones who book the work. Here's how you become one of them.",
     aioQuestion: 'How do Sacramento businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Sacramento neighborhoods and seasonal needs. Sacramento's extreme heat, wildfire smoke season, and Delta flooding concerns give local contractors very specific search angles that out-of-area competitors and generic agencies never capture. Win those searches and you own the season.",
@@ -167,7 +167,7 @@ export const sacramentoLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Sacramento service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Sacramento service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. Sacramento Local SEO done right is the highest-return move most contractors here can make, and the audit shows you exactly where to start. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const sacramentoLocations = [
   {
     ...BASE,
     citySlug: 'sacramento', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Sacramento SEO Company | OnwardCraft',
+    titleTag: 'Sacramento SEO Company | Rank for the Searches That Book Jobs | OnwardCraft',
     metaDescription:
-      'Sacramento SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for extreme heat, smoke.',
+      'Sacramento SEO that ranks contractors for the searches that book jobs, from July AC repair to smoke-season air filtration. Leads you own, no lock-in contracts.',
     eyebrow: 'SEO Services · Sacramento',
-    h1: 'Get your Sacramento business to the top of Google and keep it there',
+    h1: 'Sacramento SEO that ranks you for the searches that book jobs, from July AC repair to smoke-season air filtration',
     h2Exact: 'Sacramento SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Sacramento customers search — whether that's AC repair in July, air filtration during smoke season, or flood restoration in January — and the leads keep coming.",
@@ -233,7 +233,7 @@ export const sacramentoLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which Sacramento areas do you cover?', a: "The entire metro: Midtown, Land Park, East Sacramento, Oak Park, Natomas, Elk Grove, Roseville, Rocklin, Folsom, Citrus Heights, Rancho Cordova, Davis, West Sacramento, Fair Oaks and more — with genuine local pages rather than one generic Sacramento page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. Sacramento SEO is a long-term asset you own, and the audit maps the fastest path to page one for your money keywords. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const sacramentoLocations = [
   {
     ...BASE,
     citySlug: 'sacramento', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Sacramento Web Design Company | OnwardCraft',
+    titleTag: 'Sacramento Web Design Company | Built to Convert Clicks Into Calls | OnwardCraft',
     metaDescription:
-      'Sacramento web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a growing market full of discerning Bay Area.',
+      'Sacramento Web Design built to convert clicks into calls. Fast, mobile-first contractor sites credible enough for the Bay Area transplants now shopping here.',
     eyebrow: 'Web Design · Sacramento',
-    h1: 'Sacramento web design that turns visitors into booked jobs',
+    h1: 'Sacramento Web Design built to convert clicks into calls, even from the Bay Area transplants who check everything first',
     h2Exact: 'Sacramento Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Sacramento contractors fast, mobile-first sites engineered to turn visitors into booked work — credible enough for the Bay Area transplant who moved here and did their homework before calling.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Sacramento contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, nothing that signals you're a credible professional. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Midtown-to-Folsom visitors into booked jobs — including the growing wave of Bay Area transplants who are used to higher standards and will judge you on your website before they ever call.",
+      "Sacramento Web Design is the difference between a site that quietly loses leads and one that books work: most contractor sites are slow on a phone, with a buried call button, no clear offer, and nothing that signals you're a credible professional. We build sites that load fast, look like the professional you are, and turn Midtown-to-Folsom visitors into booked jobs, including the growing wave of Bay Area transplants who are used to higher standards and will judge you on your website before they ever call.",
     aioQuestion: 'What makes a good contractor website in Sacramento?',
     aioAnswer:
       "A good Sacramento contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods and communities you serve. Sacramento's surge of Bay Area transplants brings buyers who are used to professional, credible online presences — they read reviews, they check websites, and they hire based on what they see. A generic-looking site loses them before you get a chance to talk.",
@@ -299,7 +299,7 @@ export const sacramentoLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Sacramento site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Sacramento site should include, and a fixed-price quote with a timeline. Sacramento Web Design that loads fast and converts visitors into booked jobs pays for itself, and the quote shows you exactly how. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const sacramentoLocations = [
   {
     ...BASE,
     citySlug: 'sacramento', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Sacramento Website Redesign | OnwardCraft',
+    titleTag: 'Sacramento Website Redesign | Keep Every Ranking You Have Earned | OnwardCraft',
     metaDescription:
-      'Redesign your Sacramento website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across Midtown, Elk Grove.',
+      'Sacramento Website Redesign that keeps every ranking you have earned. Faster, mobile-first rebuilds that convert more across Midtown, Elk Grove, and Folsom.',
     eyebrow: 'Website Redesign · Sacramento',
-    h1: 'Redesign your Sacramento website without losing your rankings',
+    h1: 'Sacramento Website Redesign that keeps every ranking you have earned from Midtown to Folsom',
     h2Exact: 'Sacramento Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, not credible enough for the Bay Area buyers now shopping Sacramento. We redesign contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Sacramento contractor sites for speed and conversions, built to look credible to a demanding market, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Sacramento Website Redesign goes one of two bad ways when it's done carelessly: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Sacramento contractor sites for speed and conversions, built to look credible to a demanding market, and migrate with the redirects and SEO-safe care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const sacramentoLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings — critical when homeowners are searching on a phone during a heat emergency." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. A Sacramento Website Redesign done with a careful, SEO-safe migration converts more without losing your rankings, and the audit shows you exactly what that takes." },
     ],
   },
 ];
@@ -373,12 +373,12 @@ export const sacramentoLocations = [
 export const sacramentoCity = {
   citySlug: 'sacramento', city: 'Sacramento', state: 'California', stateAbbr: 'CA', metro: 'Sacramento',
 
-  titleTag: 'Sacramento Marketing for Contractors | OnwardCraft',
+  titleTag: 'Sacramento Marketing for Contractors | Get Ranked, Get Booked | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Sacramento contractors. Get found during heat waves, smoke season, and every day between — and own your leads instead.',
+    'Sacramento marketing for contractors: get ranked, get booked. Web design, SEO, and local SEO that get you found during heat waves and smoke season, leads you own.',
 
   eyebrow: 'Sacramento · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Sacramento contractors found and booked',
+  h1: 'Sacramento marketing for contractors: get ranked before the Central Valley heat hits, get booked all season',
   h2Exact: 'Sacramento Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Sacramento's extreme heat, wildfire smoke season, and a fast-growing market full of discerning buyers. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const sacramentoCity = {
   primaryCta: 'Get my free Sacramento audit',
 
   intro:
-    "If you run a contracting business in Sacramento, you're working in a market with three intense seasonal demand spikes — extreme summer heat that makes AC failure a crisis, wildfire smoke season that drives air filtration calls no other city sees, and a wet season that brings flooding and drainage emergencies from a valley that sits between two rivers. On top of that, the Bay Area exodus has filled Sacramento with buyers who expect the professional credibility they were used to paying for. Winning here takes three things working together: a site that converts, SEO that ranks you before demand spikes, and local SEO that puts you in the Map Pack across the communities you serve. Here's how we help Sacramento contractors do exactly that.",
+    "Sacramento marketing for contractors has to account for a market with three intense seasonal demand spikes: extreme summer heat that makes AC failure a crisis, wildfire smoke season that drives air filtration calls no other city sees, and a wet season that brings flooding and drainage emergencies from a valley that sits between two rivers. On top of that, the Bay Area exodus has filled Sacramento with buyers who expect the professional credibility they were used to paying for. Winning here takes three things working together: a site that converts, SEO that ranks you before demand spikes, and local SEO that puts you in the Map Pack across the communities you serve. Here's how we help Sacramento contractors do exactly that.",
   aioQuestion: 'How do Sacramento contractors get more leads online?',
   aioAnswer:
     "Sacramento contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack across Sacramento's diverse neighborhoods and communities. The biggest edge in this market is timing: the contractors who rank for HVAC, air filtration, and flooding searches before each season's demand spike arrives book the surge. A growing Bay Area transplant population also raises the bar for online credibility — reviews, professional design, and clear positioning matter more here than in many comparable markets.",
@@ -422,6 +422,6 @@ export const sacramentoCity = {
     { q: 'Why does the Sacramento market need a different approach?', a: "Three seasonal demand spikes most markets don't have: extreme heat (Jun–Sep), wildfire smoke season (Aug–Oct), and wet-season flooding risk (Dec–Mar). Plus a growing population of Bay Area transplants who expect professional credibility and read reviews carefully before hiring. Generic local SEO misses all of that." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Sacramento areas do you serve?', a: "The entire metro: Midtown, Land Park, East Sacramento, Oak Park, Natomas, Elk Grove, Roseville, Rocklin, Folsom, Citrus Heights, Rancho Cordova, Davis, West Sacramento, Fair Oaks and more." },
-    { q: 'Where should I start?', a: "Start with a free Sacramento audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest — including how to position for the next seasonal demand spike. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Sacramento audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, including how to position for the next seasonal demand spike. Sacramento marketing for contractors works best when web design, SEO, and local SEO pull together, and the audit shows you where to begin. No pitch deck, just a plan." },
   ],
 };

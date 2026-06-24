@@ -111,9 +111,9 @@ export const rochesterLocations = [
     citySlug: 'rochester', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Rochester Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Rochester and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Rochester Local SEO that puts your business in the Map Pack when Park Avenue and Pittsford homeowners search "near me," so the call lands with you.',
     eyebrow: 'Local SEO · Rochester NY',
-    h1: 'When Rochester searches for what you do, be the first name they find',
+    h1: 'Rochester Local SEO that puts your business in the Map Pack before the next lake-effect storm',
     h2Exact: 'Rochester Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the call lands with you — and so you're ready when the next lake-effect storm has every phone in Rochester ringing at once.",
@@ -167,7 +167,7 @@ export const rochesterLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search — and Rochester's tech-savvy homeowners are early adopters. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Rochester service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Rochester service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. Rochester Local SEO is the highest-return move most contractors here can make, so we show you exactly where it pays off. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -177,9 +177,9 @@ export const rochesterLocations = [
     citySlug: 'rochester', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Rochester SEO Company | OnwardCraft',
     metaDescription:
-      'Rochester SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for lake-effect season demand.',
+      'Rochester SEO that gets contractors to the top of Google and keeps them there, with leads you own and reporting built for lake-effect season demand.',
     eyebrow: 'SEO Services · Rochester NY',
-    h1: 'Get your Rochester business to the top of Google and keep it there',
+    h1: 'Rochester SEO that gets you to the top of Google and keeps you there through lake-effect season',
     h2Exact: 'Rochester SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Rochester customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const rochesterLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. Rochester's engineering-and-tech-savvy homeowners are early AI-search adopters. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Rochester do you cover?', a: "All of Greater Rochester and the surrounding suburbs — Pittsford, Brighton, Penfield, Fairport, Victor, Webster, Greece, Irondequoit, Henrietta, and more — with genuine local pages rather than one generic Rochester page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. Rochester SEO is a long-term asset that keeps producing leads on page one, and the audit shows you the fastest path to it. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const rochesterLocations = [
     citySlug: 'rochester', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Rochester Web Design Company | OnwardCraft',
     metaDescription:
-      'Rochester web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and lake-effect season demand.',
+      'Rochester Web Design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and lake-effect season demand.',
     eyebrow: 'Web Design · Rochester NY',
-    h1: 'Rochester web design that turns visitors into booked jobs',
+    h1: 'Rochester web design that turns Park Avenue and Pittsford visitors into booked jobs',
     h2Exact: 'Rochester Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Rochester contractors fast, mobile-first sites engineered to turn careful, research-minded homeowners into booked work — and to hold up when lake-effect season floods your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Rochester contractor websites lose leads quietly: slow on a phone, buried call button, thin on the trust signals that educated homeowners look for. Rochester is home to engineers from Kodak, Xerox, Paychex, and the University of Rochester — people who compare contractors carefully. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Park-Avenue-to-Pittsford visitors into booked jobs.",
+      "Rochester Web Design that works starts where most contractor sites fail: they lose leads quietly, slow on a phone, with a buried call button and thin on the trust signals that educated homeowners look for. Rochester is home to engineers from Kodak, Xerox, Paychex, and the University of Rochester, people who compare contractors carefully. Done right, the website design fixes all of that. We build sites that load fast, look like the professional you are, and turn Park-Avenue-to-Pittsford visitors into booked jobs.",
     aioQuestion: 'What makes a good contractor website in Rochester?',
     aioAnswer:
       "A good Rochester contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and speaks directly to the concerns of educated homeowners who research carefully. Because Rochester's winters are severe — 99 inches of average annual snowfall — a site also needs to handle traffic surges during lake-effect emergencies without slowing down or burying the call to action.",
@@ -299,7 +299,7 @@ export const rochesterLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Rochester site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Rochester site should include, and a fixed-price quote with a timeline. Good Rochester Web Design pays for itself in booked jobs, and the quote shows you where. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const rochesterLocations = [
     citySlug: 'rochester', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Rochester Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Rochester website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in lake-effect.',
+      'Rochester Website Redesign that converts more without losing your rankings. Faster, mobile-first rebuilds that hold up when lake-effect storms flood your phone.',
     eyebrow: 'Website Redesign · Rochester NY',
-    h1: 'Redesign your Rochester website without losing your rankings',
+    h1: 'Rochester Website Redesign that converts more without losing your rankings or buckling in a lake-effect surge',
     h2Exact: 'Rochester Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, thin on the trust signals educated Rochester homeowners expect. We redesign contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Rochester contractor sites for speed and conversions, build them to handle lake-effect season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Rochester Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Rochester contractor sites for speed and conversions, build them to handle lake-effect season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const rochesterLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. A well-run Rochester Website Redesign converts more without losing rankings, and the audit shows you exactly how we protect them." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const rochesterCity = {
 
   titleTag: 'Rochester Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Rochester contractors. Get found, get booked, and own your leads instead of renting them — built for lake-effect season.',
+    'Rochester marketing for contractors: web design, SEO, and local SEO that get you found, booked, and off rented leads, built for lake-effect season.',
 
   eyebrow: 'Rochester · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Rochester contractors found and booked',
+  h1: 'Rochester marketing for contractors that gets you found and booked before the first lake-effect storm',
   h2Exact: 'Rochester Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Rochester's research-driven homeowners and brutal lake-effect winters. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const rochesterCity = {
   primaryCta: 'Get my free Rochester audit',
 
   intro:
-    "If you run a contracting business in Rochester, you're dealing with two things most markets don't stack together: homeowners who research contractors carefully — engineers, researchers, and professionals from Kodak, Xerox, RIT, and the University of Rochester — and lake-effect winters that send 99 inches of snow a year and create genuine emergencies from November through April. Winning here takes three things working together: a site that builds trust and converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack before the first big storm. Here's how we help Rochester contractors do exactly that.",
+    "Rochester marketing for contractors has to handle two things most markets don't stack together: homeowners who research contractors carefully, engineers, researchers, and professionals from Kodak, Xerox, RIT, and the University of Rochester, and lake-effect winters that send 99 inches of snow a year and create genuine emergencies from November through April. Winning here takes three things working together: a site that builds trust and converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack before the first big storm. Here's how we help Rochester contractors do exactly that.",
   aioQuestion: 'How do Rochester contractors get more leads online?',
   aioAnswer:
     "Rochester contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Rochester homeowners are unusually research-driven and lake-effect winters create real contractor emergencies from November through April, the contractors who look credible and are already ranking before the season catch the most work.",
@@ -422,6 +422,6 @@ export const rochesterCity = {
     { q: 'Why does lake-effect snow season matter for my marketing?', a: "When lake-effect storms hit Rochester from Lake Ontario, demand for HVAC, roofing, and restoration spikes hard and fast, and the backlog can run for months. Ranking takes time to build, so the contractors who are already visible before November take that work. We get you in place ahead of season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Rochester areas do you serve?', a: "All of Greater Rochester and the surrounding suburbs — Park Avenue, Corn Hill, South Wedge, Brighton, Pittsford, Penfield, Fairport, Victor, Webster, Greece, Irondequoit, and more." },
-    { q: 'Where should I start?', a: "Start with a free Rochester audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest — before lake-effect season if timing allows. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Rochester audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, before lake-effect season if timing allows. Rochester marketing for contractors works best when web design and SEO pull together, and the audit shows you where to begin. No pitch deck, just a plan." },
   ],
 };

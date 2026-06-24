@@ -111,9 +111,9 @@ export const raleighLocations = [
     citySlug: 'raleigh', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Raleigh Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Raleigh and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Raleigh Local SEO that puts you in the Map Pack when neighbors search "near me." We win you the top three across your suburbs.',
     eyebrow: 'Local SEO · Raleigh-Durham',
-    h1: 'When Raleigh searches for what you do, be the first name they find',
+    h1: 'Raleigh Local SEO that turns "near me" searches in Five Points and Cary into a ringing phone',
     h2Exact: 'Raleigh Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In a metro flooding with tech transplants who don't know a single local contractor yet, we get you into that top three for your suburbs and neighborhoods, so the call lands with you instead of whoever ranked first.",
@@ -167,7 +167,7 @@ export const raleighLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly — especially from the steady stream of transplants who have no one to ask and just need a contractor who appears first." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your suburbs, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your suburbs, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis of what Raleigh Local SEO will take to put you in the top three from Five Points to Wake Forest." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const raleighLocations = [
     metaDescription:
       'Raleigh SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for the fastest-growing tech hub.',
     eyebrow: 'SEO Services · Raleigh-Durham',
-    h1: 'Get your Raleigh business to the top of Google and keep it there',
+    h1: 'Raleigh SEO that ranks Triangle contractors for the searches that book jobs',
     h2Exact: 'Raleigh SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Triangle customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const raleighLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Raleigh do you cover?', a: "The full Triangle metro — Cary, Apex, Morrisville, Holly Springs, Wake Forest, Fuquay-Varina, Garner, Durham, Chapel Hill, Carrboro and the Raleigh neighborhoods of Five Points, North Hills, Historic Oakwood, and Brier Creek — with genuine local pages rather than one generic Raleigh page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads — especially important in a market with thousands of new homeowners who have no existing contractor relationships and turn to Google first." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a straight diagnosis of the Raleigh SEO work it will take to get you onto page one and keep you there." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const raleighLocations = [
     metaDescription:
       'Raleigh web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in the fastest-growing tech hub in the South.',
     eyebrow: 'Web Design · Raleigh-Durham',
-    h1: 'Raleigh web design that turns visitors into booked jobs',
+    h1: 'Raleigh web design built to convert clicks into calls across the Research Triangle',
     h2Exact: 'Raleigh Web Design Company',
     heroSubhead:
-      "A pretty website that doesn't generate calls is a brochure. We build Triangle contractors fast, mobile-first sites engineered to turn visitors into booked work — and to capture the constant wave of new homeowners who have no local referrals and go straight to whoever looks most professional online.",
+      "A pretty website that doesn't generate calls is a brochure. We build Triangle contractors fast, mobile-first sites engineered to turn visitors into booked work, and to capture the constant wave of new homeowners who have no local referrals and go straight to whoever looks most professional online.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Raleigh contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. In a metro full of tech transplants who don't know a single local contractor and judge you by your website in seconds, that's especially costly. We build sites that load fast, look like the professional you are, and turn Cary-to-Chapel-Hill visitors into booked jobs — engineered for a market where the contractor who looks most credible online wins by default.",
+      "Raleigh web design only earns its keep when it books work: most contractor sites here lose leads quietly, with a slow load on a phone, a buried call button, and no clear offer. In a metro full of tech transplants who don't know a single local contractor and judge you by your website in seconds, that's especially costly. We build sites that load fast, look like the professional you are, and turn Cary-to-Chapel-Hill visitors into booked jobs, engineered for a market where the contractor who looks most credible online wins by default.",
     aioQuestion: 'What makes a good contractor website in Raleigh?',
     aioAnswer:
       "A good Raleigh contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific suburbs and neighborhoods you serve. Because so many Raleigh homeowners are recent transplants who have no existing contractor relationships and rely entirely on first impressions online, trust signals and mobile speed are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const raleighLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Raleigh site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Raleigh site should include, and a fixed-price quote with a timeline. No pressure, just a plan for Raleigh web design that turns Triangle visitors into booked jobs." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const raleighLocations = [
     citySlug: 'raleigh', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Raleigh Website Redesign | More Leads, No Loss | OnwardCraft',
     metaDescription:
-      'Redesign your Raleigh website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in the fastest-growing metro.',
+      'Raleigh Website Redesign that keeps every ranking you have earned. Faster, mobile-first rebuilds that convert more Triangle visitors into booked jobs.',
     eyebrow: 'Website Redesign · Raleigh-Durham',
-    h1: 'Redesign your Raleigh website without losing your rankings',
+    h1: 'Raleigh Website Redesign that keeps every North Hills and Brier Creek ranking you have earned',
     h2Exact: 'Raleigh Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. In a market flooded with transplants who judge every contractor by their website in seconds, we redesign Raleigh contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Raleigh contractor sites for speed and conversions, build them to earn the trust of transplants making cold searches, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Raleigh Website Redesign goes one of two bad ways when it's rushed: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Raleigh contractor sites for speed and conversions, build them to earn the trust of transplants making cold searches, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const raleighLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and an SEO-safe migration plan. It tells you plainly whether a Raleigh Website Redesign will pay off without putting your existing rankings at risk." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const raleighCity = {
 
   titleTag: 'Raleigh Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Raleigh contractors. Get found by the wave of tech transplants moving to the Triangle, get booked, and own your leads.',
+    'Raleigh marketing for contractors: web design, SEO, and local SEO that get you found by the wave of tech transplants moving to the Triangle, booked, and owning your leads.',
 
   eyebrow: 'Raleigh · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Raleigh contractors found and booked',
+  h1: 'Raleigh marketing for contractors across the Research Triangle: get ranked, get booked',
   h2Exact: 'Raleigh Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the Research Triangle — one of the fastest-growing tech hubs in the country. One team to get you ranking, converting, and capturing the constant wave of new homeowners before your competitors do.",
@@ -386,7 +386,7 @@ export const raleighCity = {
   primaryCta: 'Get my free Raleigh audit',
 
   intro:
-    "If you run a contracting business in Raleigh, you're operating in one of the fastest-growing tech metros in the US. Apple, Google, Meta, and major pharma companies are expanding here, and thousands of high-income transplants buy homes every year with no existing contractor relationships — they open Google and call whoever shows up first. Winning that search means three things working together: a site that earns trust at first glance, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack suburb by suburb across Cary, Apex, Morrisville, and the rest. Here's how we help Raleigh contractors do exactly that.",
+    "Raleigh marketing for contractors has to account for one fact: you're operating in one of the fastest-growing tech metros in the US. Apple, Google, Meta, and major pharma companies are expanding here, and thousands of high-income transplants buy homes every year with no existing contractor relationships, so they open Google and call whoever shows up first. Winning that search means three things working together: a site that earns trust at first glance, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack suburb by suburb across Cary, Apex, Morrisville, and the rest. Here's how we help Raleigh contractors do exactly that.",
   aioQuestion: 'How do Raleigh contractors get more leads online?',
   aioAnswer:
     "Raleigh contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack suburb by suburb. Because the market is flooded with tech transplants who have no local contractor relationships and rely on Google entirely, the contractors who rank first and look most credible online win the most work — especially ahead of the seasonal spikes that define Triangle demand.",
@@ -422,6 +422,6 @@ export const raleighCity = {
     { q: 'Why does the Raleigh market need a different approach?', a: "The Research Triangle is flooding with tech transplants who have no local contractor relationships. They go straight to Google and call whoever shows up first. Winning here means ranking suburb by suburb across Cary, Apex, Morrisville, Holly Springs, and the rest, and being in place before the seasonal demand spikes that define this market." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Raleigh areas do you serve?', a: "The full Triangle metro — Raleigh, Cary, Apex, Morrisville, Holly Springs, Wake Forest, Fuquay-Varina, Garner, Durham, Chapel Hill, Carrboro, and Raleigh neighborhoods including Five Points, Historic Oakwood, North Hills, and Brier Creek." },
-    { q: 'Where should I start?', a: "Start with a free Raleigh audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Raleigh audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan for Raleigh marketing for contractors that gets you ranked and booked across the Triangle." },
   ],
 };

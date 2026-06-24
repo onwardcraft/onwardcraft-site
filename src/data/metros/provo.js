@@ -112,15 +112,15 @@ export const provoLocations = [
     citySlug: "provo", serviceSlug: "local-seo", service: "Local SEO",
     titleTag: "Provo Local SEO Company | Win the Map Pack | OnwardCraft",
     metaDescription:
-      "Search your service in Provo-Orem and three businesses show up on the map. We get you into those three, so the call lands with you.",
+      "Provo Local SEO that makes you the first name on the map when Utah Valley searches your trade. We get you into the top three, so the call lands with you.",
     eyebrow: "Local SEO · Provo-Orem (Silicon Slopes)",
-    h1: "When Silicon Slopes searches for what you do, be the first name they find",
+    h1: "Provo Local SEO that makes you the first name on the map from BYU to Eagle Mountain",
     h2Exact: "Provo Local SEO Company",
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In a valley growing faster than almost anywhere in the country, we get you into that top three for your communities, so the call lands with you instead of whoever ranked first.",
     primaryCta: "Get my free Provo audit",
     intro:
-      "Provo-Orem local SEO comes down to one thing: when a homeowner in Lehi or Spanish Fork searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This valley is young, fast-growing, and full of tech-savvy homebuyers who search on their phones and expect instant results. Becoming one of those three in the communities you serve is the whole game. Here's how you do it.",
+      "Provo Local SEO comes down to one thing: when a homeowner near BYU or out in Spanish Fork searches your service plus \"near me,\" are you one of the three businesses Google pins to the Map Pack? Most people tap one of those three and never scroll. This valley is young, fast-growing, and full of tech-savvy homebuyers who search on their phones and expect instant results. Winning the local 3-pack in the communities you serve is the whole game. Here's how you do it.",
     aioQuestion: "How do Provo-Orem businesses rank higher in local search?",
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and communities you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Provo-Orem neighborhoods and cities. The valley is fast-growing and tech-forward, so the winners target specific communities, respond fast during winter and spring demand spikes, and structure their content so AI search tools can read and recommend them.",
@@ -168,7 +168,7 @@ export const provoLocations = [
       { q: "Will I show up in Google AI Overviews and ChatGPT?", a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: "Am I locked into a contract?", a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: "How does this get me off Angi and HomeAdvisor?", a: "Those platforms rent you shared leads and visibility you never keep, and as the Provo-Orem market grows the competition for those shared leads only gets worse. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your communities, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your communities, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's the fastest way to see what Provo Local SEO can do for your phone. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -178,15 +178,15 @@ export const provoLocations = [
     citySlug: "provo", serviceSlug: "seo-services", service: "SEO Services",
     titleTag: "Provo SEO Company | Rank Higher, Get Leads | OnwardCraft",
     metaDescription:
-      "Provo-Orem SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market.",
+      "Provo SEO that puts contractors on page one of Google and holds it, bringing in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market.",
     eyebrow: "SEO Services · Provo-Orem (Silicon Slopes)",
-    h1: "Get your Provo-Orem business to the top of Google and keep it there",
+    h1: "Provo SEO that puts your business on page one and holds it as BYU and UVU grads buy homes",
     h2Exact: "Provo SEO Company",
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Provo-Orem customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
     primaryCta: "Get my free Provo SEO audit",
     intro:
-      "Provo-Orem SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in one of the fastest-growing markets in the country — Silicon Slopes homebuyers, young families, BYU and UVU grads buying their first homes — and we measure it in leads, not vanity traffic.",
+      "Provo SEO comes down to one question: when someone searches what you do, are you on page one of Google or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in one of the fastest-growing markets in the country, from Silicon Slopes homebuyers to young families and BYU and UVU grads buying their first homes, and we measure it in organic leads, not vanity traffic.",
     aioQuestion: "How do Provo-Orem businesses rank higher on Google?",
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content tied to specific Utah Valley communities, and earning links from trusted local sources. In a market growing this fast, getting in place before the next wave of homebuyers arrives and ranking for seasonal winter-damage and renovation searches are two of the quickest ways to pull ahead.",
@@ -234,7 +234,7 @@ export const provoLocations = [
       { q: "Will I show up in Google AI Overviews and ChatGPT?", a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: "Which areas around Provo-Orem do you cover?", a: "The full Utah Valley — Provo, Orem, American Fork, Lehi, Saratoga Springs, Eagle Mountain, Spanish Fork, Springville, Payson, Mapleton, Pleasant Grove, Lindon, Cedar Hills, Alpine, and Highland — with genuine local pages rather than one generic Provo page." },
       { q: "How do you get me off Angi and HomeAdvisor leads?", a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads in a market that's getting more competitive every quarter." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It's the clearest way to see what Provo SEO can do for your pipeline. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -244,15 +244,15 @@ export const provoLocations = [
     citySlug: "provo", serviceSlug: "web-design", service: "Web Design",
     titleTag: "Provo Web Design Company | Sites That Convert | OnwardCraft",
     metaDescription:
-      "Provo-Orem web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in Silicon Slopes' fast-growing market.",
+      "Provo Web Design that books jobs instead of just looking nice. Fast, mobile-first contractor sites built for Silicon Slopes' fast-growing, tech-forward market.",
     eyebrow: "Web Design · Provo-Orem (Silicon Slopes)",
-    h1: "Provo-Orem web design that turns visitors into booked jobs",
+    h1: "Provo Web Design that books jobs instead of just looking nice, from BYU to the Wasatch foothills",
     h2Exact: "Provo Web Design Company",
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Provo-Orem contractors fast, mobile-first sites engineered to turn visitors into booked work — and to stand out in a valley where tech-savvy homebuyers have high expectations and your competition is one tap away.",
     primaryCta: "Get my free quote",
     intro:
-      "Most Provo-Orem contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn visitors from Lehi to Springville into booked jobs — built for a market where Silicon Slopes homebuyers expect the same quality online as they get from their employers.",
+      "Provo Web Design that books work starts where most contractor sites lose leads quietly: slow on a phone, buried call button, no clear offer. We build sites that load fast, look like the professional you are, and turn visitors from Lehi to Springville into booked jobs. Every page is built for a market where Silicon Slopes homebuyers expect the same quality online as they get from their employers, with a mobile-first layout that converts visitors into booked jobs.",
     aioQuestion: "What makes a good contractor website in Provo-Orem?",
     aioAnswer:
       "A good Provo-Orem contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific communities you serve. Because most searches happen on mobile and tech-forward Silicon Slopes buyers do deep research before hiring, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -300,7 +300,7 @@ export const provoLocations = [
       { q: "What platform do you build on?", a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: "Do you offer ongoing support?", a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: "Am I locked into a contract?", a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: "What do I get in the free quote?", a: "A clear look at what your current site is costing you in lost leads, what a high-converting Provo-Orem site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: "What do I get in the free quote?", a: "A clear look at what your current site is costing you in lost leads, what high-converting Provo Web Design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -308,17 +308,17 @@ export const provoLocations = [
   {
     ...BASE,
     citySlug: "provo", serviceSlug: "website-redesign", service: "Website Redesign",
-    titleTag: "Provo Website Redesign | OnwardCraft",
+    titleTag: "Provo Website Redesign | Rebuild for Leads | OnwardCraft",
     metaDescription:
-      "Redesign your Provo-Orem website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing market.",
+      "Provo Website Redesign that rebuilds for leads, not just looks, with an SEO-safe migration so you keep every ranking. Faster, mobile-first rebuilds for a fast-growing market.",
     eyebrow: "Website Redesign · Provo-Orem (Silicon Slopes)",
-    h1: "Redesign your Provo-Orem website without losing your rankings",
+    h1: "Provo Website Redesign that rebuilds for leads, not just looks, across Lehi and Saratoga Springs",
     h2Exact: "Provo Website Redesign Company",
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Provo-Orem contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned in a market growing faster than almost anywhere in the country.",
     primaryCta: "Get my free redesign audit",
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Provo-Orem contractor sites for speed and conversions, build them to stand out for Silicon Slopes homebuyers with high expectations, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Provo Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Provo-Orem contractor sites for leads and speed, design them to stand out for Silicon Slopes homebuyers with high expectations, and handle an SEO-safe migration with the redirects and care that protect the traffic you already have.",
     aioQuestion: "How do I redesign my website without losing SEO and traffic?",
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -366,7 +366,7 @@ export const provoLocations = [
       { q: "Will the new site be mobile-friendly and fast?", a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: "Do I own the redesigned site?", a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: "Am I locked into a contract?", a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what a Provo Website Redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -376,10 +376,10 @@ export const provoCity = {
 
   titleTag: "Provo Marketing for Contractors | OnwardCraft",
   metaDescription:
-    "Web design, SEO, and local SEO for Provo-Orem contractors. Get found, get booked, and own your leads instead of renting them — built for Silicon Slopes'.",
+    "Provo marketing for contractors who want to own their leads. Web design, SEO, and local SEO across Utah Valley so you get found, get booked, and stop renting leads.",
 
   eyebrow: "Provo-Orem · Web Design, SEO & Lead Generation",
-  h1: "Marketing that gets Provo-Orem contractors found and booked",
+  h1: "Provo marketing for contractors who want to own their leads across Utah Valley",
   h2Exact: "Provo Marketing Agency for Contractors",
   heroSubhead:
     "Websites, SEO, and local SEO built for Silicon Slopes' fast-growing, tech-forward market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -387,7 +387,7 @@ export const provoCity = {
   primaryCta: "Get my free Provo audit",
 
   intro:
-    "If you run a contracting business in Provo-Orem, you're competing for the fastest-growing homeowner market in the country — Silicon Slopes tech workers, large LDS families, BYU and UVU grads buying their first homes, and new subdivisions expanding across Lehi, Saratoga Springs, and Eagle Mountain every year. Winning here takes three things working together: a site that converts tech-savvy buyers, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the communities you serve. Here's how we help Provo-Orem contractors do exactly that.",
+    "Provo marketing for contractors has to win the fastest-growing homeowner market in the country: Silicon Slopes tech workers, large LDS families, BYU and UVU grads buying their first homes, and new subdivisions expanding across Lehi, Saratoga Springs, and Eagle Mountain every year. Winning here takes three things working together: a site that converts tech-savvy buyers, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the communities you serve. As a Provo digital marketing agency built around the trades, here's how we help you get found and booked.",
   aioQuestion: "How do Provo-Orem contractors get more leads online?",
   aioAnswer:
     "Provo-Orem contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack community by community. Because the market is growing fast and buyers are young and tech-forward, the contractors who target specific communities, rank for seasonal winter-damage and renovation searches, and show up where their customers actually look win the most work.",
@@ -423,6 +423,6 @@ export const provoCity = {
     { q: "Why does the Provo-Orem market need a different approach?", a: "It's one of the fastest-growing markets in the US, with young tech workers, large families, and a cultural emphasis on homeownership driving constant demand. Winning means ranking community by community — Lehi, Saratoga Springs, Eagle Mountain, Spanish Fork — and showing up for seasonal Wasatch winter-damage searches that define the contractor calendar here." },
     { q: "How much does it cost to work with you?", a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: "Which Provo-Orem areas do you serve?", a: "The full Utah Valley — Provo, Orem, American Fork, Lehi, Saratoga Springs, Eagle Mountain, Spanish Fork, Springville, Payson, Mapleton, Pleasant Grove, Lindon, Cedar Hills, Alpine, and Highland." },
-    { q: "Where should I start?", a: "Start with a free Provo-Orem audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: "Where should I start?", a: "Start with a free Provo-Orem audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It's the simplest way to see what Provo marketing for contractors can do for your calendar. No pitch deck, just a plan." },
   ],
 };

@@ -109,17 +109,17 @@ export const providenceLocations = [
   {
     ...BASE,
     citySlug: 'providence', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Providence Local SEO Company | OnwardCraft',
+    titleTag: 'Providence Local SEO Company | Win the College Hill Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Providence and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Providence Local SEO that puts College Hill and Fox Point contractors in the Google Map Pack, so the "near me" call lands with you.',
     eyebrow: 'Local SEO · Providence, RI',
-    h1: 'When Providence searches for what you do, be the first name they find',
+    h1: 'Providence Local SEO that puts your College Hill business in the Map Pack',
     h2Exact: 'Providence Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the call lands with you instead of whoever ranked first — and so you're ready when the next nor'easter sends homeowners scrambling for a contractor.",
     primaryCta: 'Get my free Providence audit',
     intro:
-      "Providence local SEO comes down to one thing: when a homeowner in College Hill or Fox Point searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. The market here is driven by old housing stock that demands specialist contractors and by winter weather that spikes demand every year. Being one of those three is the whole game. Here's how you do it.",
+      "Providence Local SEO comes down to one thing: when a homeowner in College Hill or Fox Point searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three in the local 3-pack and never scroll. The market here is driven by old housing stock that demands specialist contractors and by winter weather that spikes local search demand every year. Being one of those three is the whole game. Here's how you do it.",
     aioQuestion: 'How do Providence businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Providence neighborhoods. Providence's aging housing stock and nor'easter-driven demand mean the winners look established, specialize in historic homes, and are already ranking when winter storm demand spikes.",
@@ -167,7 +167,7 @@ export const providenceLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day Providence Local SEO plan with the numbers run for your business. It's the fastest way to see whether you can rank on the map as a Providence local SEO company. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const providenceLocations = [
   {
     ...BASE,
     citySlug: 'providence', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Providence SEO Company | OnwardCraft',
+    titleTag: 'Providence SEO Company | Rank Across the East Side and Beyond | OnwardCraft',
     metaDescription:
-      'Providence SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for nor\'easter demand.',
+      'Providence SEO that ranks contractors on Google for the East Side, Federal Hill, and beyond, and brings in organic traffic you own. No lock-in contracts.',
     eyebrow: 'SEO Services · Providence, RI',
-    h1: 'Get your Providence business to the top of Google and keep it there',
+    h1: 'Providence SEO that gets your East Side trade to the top of Google and keeps it there',
     h2Exact: 'Providence SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Providence customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
     primaryCta: 'Get my free Providence SEO audit',
     intro:
-      "Providence SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in an old-housing, nor'easter-driven market — and we measure it in leads, not vanity traffic.",
+      "Providence SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking on Google for the money keywords in an old-housing, nor'easter-driven market, and we measure it in organic traffic and leads, not vanity numbers.",
     aioQuestion: 'How do Providence businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Providence sources. In a market defined by historic housing stock and nor'easter-driven seasonal demand, specialization signals and storm-ready content are two of the fastest ways to pull ahead of generalist competitors.",
@@ -233,7 +233,7 @@ export const providenceLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Providence do you cover?', a: "All of the Providence metro and the surrounding communities — Cranston, Warwick, Pawtucket, Woonsocket, Barrington, Bristol, East Providence, Johnston and more — with genuine local pages rather than one generic Providence page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It's the clearest way to see what Providence SEO can do for your organic traffic and which money keywords are within reach of page one. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const providenceLocations = [
   {
     ...BASE,
     citySlug: 'providence', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Providence Web Design Company | OnwardCraft',
+    titleTag: 'Providence Web Design Company | Fast Sites Built for the Trades | OnwardCraft',
     metaDescription:
-      'Providence web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and nor\'easter demand.',
+      'Providence Web Design that turns Fox Point and Wayland Square visitors into booked jobs. Fast, mobile-first contractor websites built for nor\'easter demand.',
     eyebrow: 'Web Design · Providence, RI',
-    h1: 'Providence web design that turns visitors into booked jobs',
+    h1: 'Providence Web Design that turns Wayland Square visitors into booked jobs',
     h2Exact: 'Providence Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Providence contractors fast, mobile-first sites engineered to turn visitors into booked work — and to hold up when a nor'easter floods your phone with emergency calls.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Providence contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the specialist you are, and turn College-Hill-to-Cranston visitors into booked jobs — sites that don't fall over when a storm sends your traffic through the roof and homeowners urgently need someone they can trust.",
+      "Providence Web Design done right fixes the leak most contractor sites have: slow on a phone, buried call button, no clear offer. We build fast, mobile-first contractor websites that load quickly, look like the specialist you are, and turn College-Hill-to-Cranston visitors into booked jobs. These are sites that don't fall over when a storm sends your traffic through the roof and homeowners urgently need someone they can trust.",
     aioQuestion: 'What makes a good contractor website in Providence?',
     aioAnswer:
       "A good Providence contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, demonstrates trust with reviews and real project photos from historic Providence homes, and is built to handle traffic spikes during nor'easter season. Because most Providence searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const providenceLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Providence site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Providence site should include, and a fixed-price quote with a timeline. It's also where we walk through how our Providence Web Design approach, a fast and mobile-first build from a local web designer, converts more visitors into booked jobs. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const providenceLocations = [
   {
     ...BASE,
     citySlug: 'providence', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Providence Website Redesign | OnwardCraft',
+    titleTag: 'Providence Website Redesign | Convert More on Benefit Street | OnwardCraft',
     metaDescription:
-      "Redesign your Providence website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in nor'easter.",
+      "Providence Website Redesign that converts more without losing your rankings. SEO-safe, mobile-first rebuilds for Benefit Street and East Side contractors.",
     eyebrow: 'Website Redesign · Providence, RI',
-    h1: 'Redesign your Providence website without losing your rankings',
+    h1: 'Providence Website Redesign that converts more Benefit Street leads without losing your rankings',
     h2Exact: 'Providence Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Providence contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Providence contractor sites for speed and conversions, build them to handle nor'easter-season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Providence Website Redesign goes one of two bad ways for most contractors: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Providence contractor sites for speed and conversions, make them mobile-first to handle nor'easter-season traffic, and run an SEO-safe migration with the redirects and care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const providenceLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It's how you see whether a Providence Website Redesign can rebuild the site to convert more without losing the rankings you've already earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const providenceCity = {
 
   titleTag: 'Providence Marketing for Contractors | OnwardCraft',
   metaDescription:
-    "Web design, SEO, and local SEO for Providence contractors. Get found, get booked, and own your leads instead of renting them — built for nor'easter demand.",
+    "Providence marketing for contractors: web design, SEO, and local SEO that get you found and booked. Own your leads instead of renting them, built for nor'easter demand.",
 
   eyebrow: 'Providence · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Providence contractors found and booked',
+  h1: 'Providence marketing for contractors that gets you found and booked, from College Hill to Woonsocket',
   h2Exact: 'Providence Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Providence's old-housing, nor'easter-driven market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const providenceCity = {
   primaryCta: 'Get my free Providence audit',
 
   intro:
-    "If you run a contracting business in Providence, you're operating in one of the most distinctive markets in the country: some of the oldest housing stock in America, a city packed with college students who buy and renovate homes in historic neighborhoods, and a winter weather pattern that sends demand spiking every nor'easter season. Winning here takes three things working together: a site that converts homeowners who care deeply about who touches their historic home, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack — all ready before the next storm rolls through. Here's how we help Providence contractors do exactly that.",
+    "Providence marketing for contractors has to fit one of the most distinctive markets in the country: some of the oldest housing stock in America, a city packed with college students who buy and renovate homes in historic neighborhoods, and a winter weather pattern that sends demand spiking every nor'easter season. Winning here takes three things working together: a site that converts homeowners who care deeply about who touches their historic home, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all ready before the next storm rolls through. Here's how our web design and SEO for Providence contractors do exactly that.",
   aioQuestion: 'How do Providence contractors get more leads online?',
   aioAnswer:
     "Providence contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Providence's housing stock is among the oldest in America and demand spikes hard during nor'easter season, the contractors who demonstrate specialist credibility and are already ranking before the storm win the most work.",
@@ -422,6 +422,6 @@ export const providenceCity = {
     { q: "Why does nor'easter season matter for my marketing?", a: "When a major storm rolls through Rhode Island, demand for roofing, restoration, and HVAC spikes overnight and the backlog can run for months. Ranking takes months to build, so the contractors who are already visible before the storm take that work. We get you in place ahead of season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Providence areas do you serve?', a: "All of the Providence metro and the surrounding communities — College Hill, Fox Point, Cranston, Warwick, Pawtucket, Woonsocket, Barrington, Bristol, East Providence, Johnston, Cumberland, Lincoln and more." },
-    { q: 'Where should I start?', a: "Start with a free Providence audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Providence audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It's the simplest way to see how Providence marketing for contractors gets you found and booked across the metro. No pitch deck, just a plan." },
   ],
 };
