@@ -111,9 +111,9 @@ export const lasVegasLocations = [
     citySlug: 'las-vegas', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Las Vegas Local SEO Company | Win the Map Pack',
     metaDescription:
-      'Search your trade in Las Vegas and three businesses pin to the map. We get you into those three so the call comes to you, not the next contractor.',
+      'Las Vegas Local SEO that wins you the top three on the map. We get HVAC, roofing, and pool contractors into the Map Pack so the call comes to you.',
     eyebrow: 'Local SEO · Las Vegas',
-    h1: 'When Las Vegas searches for your trade, be the first name on the map',
+    h1: 'Las Vegas Local SEO that wins you the top three on the map before summer heat hits',
     h2Exact: 'Las Vegas Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when someone types \"near me,\" and nearly everyone taps one of those three. The rest may as well not exist. In a valley growing this fast, where 110-degree summers turn a dead AC into a safety call, we get you into that top three for your neighborhoods and zip codes so the job lands with you instead of whoever happened to rank first.",
@@ -167,7 +167,7 @@ export const lasVegasLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now begins inside AI rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads that your competitors also bought, and in a market where summer AC emergencies drive urgent, high-value calls, you want those coming straight to you. We build the rankings, profile, and review base that make it happen. Over time you lean on the brokers less because the work arrives directly." },
-      { q: "What is in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90 to 180 day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What is in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90 to 180 day plan with the numbers run for your business. No pitch deck, just a straight diagnosis of what Las Vegas Local SEO can do for your phone." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const lasVegasLocations = [
     metaDescription:
       'Las Vegas SEO that ranks contractors on Google and delivers leads you own. Lead-tied reporting, no lock-in contracts, built for a fast-growing desert.',
     eyebrow: 'SEO Services · Las Vegas',
-    h1: 'Get your Las Vegas business to the top of Google and hold it there',
+    h1: 'Las Vegas SEO that builds rankings you actually own, season after desert season',
     h2Exact: 'Las Vegas SEO Company',
     heroSubhead:
       "Ads switch off the instant you stop paying. SEO does the opposite: rank once for what your Las Vegas customers search and the leads keep showing up. We build that ranking for a fast-growing, mobile-first valley where summer HVAC emergencies create some of the most urgent search traffic in the country.",
@@ -233,7 +233,7 @@ export const lasVegasLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which Las Vegas areas do you cover?', a: "Every major community: Summerlin, Henderson, North Las Vegas, Spring Valley, Sunrise Manor, Enterprise, Paradise, Whitney, Green Valley, Anthem, Boulder City, and more, each with a genuine local page rather than one generic Las Vegas page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads, especially the high-value summer emergency calls where the homeowner is not shopping around." },
-      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a straight diagnosis of what Las Vegas SEO can do for your lead flow." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const lasVegasLocations = [
     metaDescription:
       'Las Vegas web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in a fast-growing desert market.',
     eyebrow: 'Web Design · Las Vegas',
-    h1: 'Las Vegas web design that turns visitors into booked jobs',
+    h1: 'Las Vegas web design engineered to bring in real work, not just compliments',
     h2Exact: 'Las Vegas Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure. We build Las Vegas contractors fast, mobile-first sites engineered to turn visitors into booked work, made for a 24/7 city where most searches happen on a phone and a sluggish site during summer heat quietly costs you real money.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Las Vegas contractor websites bleed leads quietly: slow on a phone, a call button buried somewhere, no clear offer in sight. Web design done right fixes every bit of that. We build sites that load fast on a phone in a Home Depot parking lot, look as professional as you are, and turn visitors from Summerlin to Henderson into booked jobs. We build for a city where 110-degree summers make HVAC and roofing websites safety resources, not just marketing pages.",
+      "Las Vegas web design is the difference between a site that books jobs and one that bleeds leads quietly: slow on a phone, a call button buried somewhere, no clear offer in sight. Done right, it fixes every bit of that. We build contractor websites that load fast on a phone in a Home Depot parking lot, look as professional as you are, and turn visitors from Summerlin to Henderson into booked jobs. We build for a city where 110-degree summers make HVAC and roofing websites safety resources, not just marketing pages.",
     aioQuestion: 'What makes a good contractor website in Las Vegas?',
     aioAnswer:
       "A strong Las Vegas contractor website loads in under three seconds on a phone, places the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods you serve. Since nearly all Las Vegas searches happen on mobile and the city runs around the clock, mobile speed and an obvious next step, especially for urgent calls like AC repair on a brutal day, are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const lasVegasLocations = [
       { q: 'Can you help me reach Spanish-speaking customers?', a: "Yes. Las Vegas has a large Spanish-speaking population, concentrated in North Las Vegas. We can build Spanish-language pages or optimize your site so it surfaces for Spanish-language searches, a segment most of your competitors ignore." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, and you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Las Vegas site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Las Vegas web design should include for a contractor in your trade, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const lasVegasLocations = [
     citySlug: 'las-vegas', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Las Vegas Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Las Vegas website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a growing desert.',
+      'Las Vegas Website Redesign that modernizes without tanking your traffic. Faster, mobile-first rebuilds that convert more visitors into booked jobs.',
     eyebrow: 'Website Redesign · Las Vegas',
-    h1: 'Redesign your Las Vegas website without losing your rankings',
+    h1: 'Las Vegas Website Redesign that modernizes your site without tanking your traffic',
     h2Exact: 'Las Vegas Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, awkward on a phone, easy to skip past. We redesign Las Vegas contractor sites to convert more and load faster, then migrate carefully so you hold every ranking you have earned heading into peak summer demand.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail one of two ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Las Vegas contractor sites for mobile speed and conversions, build them to stand out in a fast-growing, competitive market, and migrate with the redirects and SEO care that protect the traffic you already have, so you are not starting over right before HVAC season.",
+      "A Las Vegas Website Redesign fails one of two ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild contractor sites for mobile speed and conversions, build them to stand out in a fast-growing, competitive market, and migrate with the redirects and SEO-safe care that protect the traffic you already have, so you are not starting over right before HVAC season.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and usually improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const lasVegasLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings in a city where nearly everyone searches on a phone." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. No pitch deck, just a straight diagnosis." },
+      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Las Vegas Website Redesign should fix, and a fixed-price quote with a timeline and an SEO-safe migration plan. No pitch deck, just a straight diagnosis." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const lasVegasCity = {
 
   titleTag: 'Las Vegas Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Las Vegas contractors. Get found, get booked, and own your leads instead of renting them, built for a desert market.',
+    'Las Vegas marketing for contractors: web design, SEO, and local SEO that gets you found, gets you booked, and lets you own your leads instead of renting them.',
 
   eyebrow: 'Las Vegas · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Las Vegas contractors found and booked',
+  h1: 'Las Vegas marketing for contractors, built around the desert trades',
   h2Exact: 'Las Vegas Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the fast-growing, mobile-first, 24/7 Las Vegas market. One team to get you ranking before summer heat turns every HVAC call into an emergency, and to keep you converting new residents in Summerlin and Henderson all year long.",
@@ -386,7 +386,7 @@ export const lasVegasCity = {
   primaryCta: 'Get my free Las Vegas audit',
 
   intro:
-    "If you run a contracting business in Las Vegas, you are operating in one of the fastest-growing and most phone-driven markets in the country, with extreme heat that makes HVAC and roofing calls urgent in ways few cities can match, a constant influx of new homeowners who need everything, and a sizable Spanish-speaking population most contractors never even try to reach. Winning here takes three things working together: a site that converts fast on a phone, SEO that ranks you for what people search (including the summer emergency terms that spike overnight), and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here is how we help Las Vegas contractors do exactly that.",
+    "Las Vegas marketing for contractors has to fit one of the fastest-growing and most phone-driven markets in the country, with extreme heat that makes HVAC and roofing calls urgent in ways few cities can match, a constant influx of new homeowners who need everything, and a sizable Spanish-speaking population most contractors never even try to reach. Winning here takes three things working together: a site that converts fast on a phone, SEO that ranks you for what people search (including the summer emergency terms that spike overnight), and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here is how we help Las Vegas contractors do exactly that.",
   aioQuestion: 'How do Las Vegas contractors get more leads online?',
   aioAnswer:
     "Las Vegas contractors win more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that takes the Google Map Pack neighborhood by neighborhood. In a 24/7 city with extreme summer heat and a large Spanish-speaking population, the contractors already ranking when demand spikes, and showing up in Spanish where their customers search, capture the most work.",
@@ -422,6 +422,6 @@ export const lasVegasCity = {
     { q: 'Why does the Las Vegas market need a different approach?', a: "Three things set it apart: extreme seasonal demand (HVAC and pool calls surge from June through September and reward you for already ranking), one of the fastest metro growth rates in the country (a constant stream of new homeowners who need contractors), and a roughly 30 percent Hispanic population with real Spanish-language search demand most competitors ignore." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Las Vegas areas do you serve?', a: "Every major neighborhood and community: Summerlin, Henderson, North Las Vegas, Spring Valley, Sunrise Manor, Enterprise, Paradise, Whitney, Green Valley, Anthem, Boulder City, and more, each with a genuine local page." },
-    { q: 'Where should I start?', a: "Start with a free Las Vegas audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that bring in the most work fastest, including whether you need to be in place before summer season opens. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Las Vegas audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that bring in the most work fastest, including whether you need to be in place before summer season opens. That is where Las Vegas marketing for contractors pays off first. No pitch deck, just a plan." },
   ],
 };

@@ -110,15 +110,15 @@ export const jacksonLocations = [
     citySlug: 'jackson', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Jackson Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Jackson and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Jackson Local SEO that lands you in the three businesses on the map when homeowners search "near me," so the call rings your phone.',
     eyebrow: 'Local SEO · Jackson, MS',
-    h1: 'When Jackson searches for what you do, be the first name they find',
+    h1: 'Jackson Local SEO that turns "near me" searches in Belhaven and Madison into a ringing phone',
     h2Exact: 'Jackson Local SEO Company',
     heroSubhead:
       "Google drops three businesses onto the map when a homeowner taps in \"near me,\" and everyone underneath them might as well be hidden. We get you into that three so the call rings your phone instead of whoever happened to rank first, and so you are already standing there when the next spring storm sets every line in the metro buzzing.",
     primaryCta: 'Get my free Jackson audit',
     intro:
-      "Jackson local SEO turns on a single moment: a homeowner in Belhaven or out in Madison types your service plus \"near me,\" and you are either in the three businesses Google pinned to the map or you are nowhere. Most of them tap one of those three and never scroll. With a steady professional base built on state government and UMMC, and demand that lurches with every storm front, landing in that three is the whole contest. Here is how we get you there.",
+      "Jackson Local SEO turns on a single moment: a homeowner in Belhaven or out in Madison types your service plus \"near me,\" and you are either in the three businesses Google pinned to the map or you are nowhere. Most of them tap one of those three and never scroll. With a steady professional base built on state government and UMMC, and demand that lurches with every storm front, winning the Google Business Profile fight and landing in that local 3-pack is the whole contest. Here is how we get you there.",
     aioQuestion: 'How do Jackson businesses rank higher in local search?',
     aioAnswer:
       "Four things decide it: a Google Business Profile aimed at the precise services and metro neighborhoods you want, a name, address, and phone that read the same across every listing, a steady drip of genuine reviews, and local content tied to actual Jackson neighborhoods. Because central Mississippi is tornado country, the winners look settled, answer fast, and are already ranking when spring-storm demand erupts.",
@@ -166,7 +166,7 @@ export const jacksonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research kicks off inside AI tools now instead of plain search. We frame your content and schema so those engines can read, trust, and cite your business by name. In Jackson that is racing toward being as decisive as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is about how long local SEO needs to show honest movement. After that you are month-to-month. If we are not producing, you walk, and the accountability sits squarely with us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility that never becomes yours. We build the rankings, the Google profile, and the review base that route leads straight to you alone. Over time the brokers matter less because the work is already arriving direct." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what the crews above you in the Map Pack are doing to stay there, the fixes that will move you quickest, and a realistic 90-to-180-day plan with the math run for your shop. No slide deck. Just an honest diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what the crews above you in the Map Pack are doing to stay there, the fixes that will move you quickest, and a realistic 90-to-180-day plan with the math run for your shop. It is the fastest way to see exactly what Jackson Local SEO can do for your phone. No slide deck. Just an honest diagnosis." },
     ],
   },
 
@@ -178,13 +178,13 @@ export const jacksonLocations = [
     metaDescription:
       'Jackson SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand.',
     eyebrow: 'SEO Services · Jackson, MS',
-    h1: 'Get your Jackson business to the top of Google and keep it there',
+    h1: 'Jackson SEO that ranks you for the storm-season searches that book real jobs',
     h2Exact: 'Jackson SEO Company',
     heroSubhead:
       "The day you stop paying for ads, the leads quit too. SEO runs the other direction: rank once for what Jackson homeowners search and the calls keep landing for months. We build that ranking and tie every report to booked jobs and ringing phones, never to traffic charts that never dial.",
     primaryCta: 'Get my free Jackson SEO audit',
     intro:
-      "Jackson SEO boils down to a plain question: when somebody types what you do, are you on page one or page two? Around here page two is page nowhere. We get contractors ranking for the keywords that pay in a settled but storm-battered central Mississippi market, and we grade the whole effort in booked leads, not in clicks that wander off.",
+      "Jackson SEO boils down to a plain question: when somebody types what you do, are you on page one or page two? Around here page two is page nowhere. As a Jackson SEO company built for the trades, we get contractors ranking for the money keywords that pay in a settled but storm-battered central Mississippi market, and we grade the whole effort in booked leads and organic traffic that converts, not in clicks that wander off.",
     aioQuestion: 'How do Jackson businesses rank higher on Google?',
     aioAnswer:
       "They climb by repairing the site's technical base, tuning each page for the precise words buyers type, putting out local content people actually find useful, and earning links from Jackson sources Google already respects. In a market with a long-tenured homeowner class and demand that storms drive hard, a fast mobile site and a presence on storm-season terms are two of the quickest paths to the front.",
@@ -232,7 +232,7 @@ export const jacksonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing slice of what we tune for. We frame your content and schema so AI engines can read, trust, and quote your business by name, not just classic blue-link results." },
       { q: 'Which areas around Jackson do you cover?', a: "The full Jackson metro and the towns surrounding it: Madison, Ridgeland, Brandon, Clinton, Pearl, Flowood, Byram, Canton and more, each with a genuine local page rather than one flat Jackson page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that funnel leads straight to you. The more of your own search visibility you hold, the less you have to keep paying brokers for the same leads they sold three competitors." },
-      { q: "What's in the free SEO audit?", a: "Where you rank now, what the crews above you are doing to stay there, the fixes that will move the needle hardest, and a realistic timeline with the numbers modeled for your shop. No slide deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank now, what the crews above you are doing to stay there, the fixes that will move the needle hardest, and a realistic timeline with the numbers modeled for your shop. It is the clearest look you will get at what Jackson SEO can earn your business. No slide deck, just a diagnosis." },
     ],
   },
 
@@ -244,13 +244,13 @@ export const jacksonLocations = [
     metaDescription:
       'Jackson web design that turns visitors into booked jobs. Fast, mobile-first sites built for contractors and storm-season demand.',
     eyebrow: 'Web Design · Jackson, MS',
-    h1: 'Jackson web design that turns visitors into booked jobs',
+    h1: 'Jackson web design built to convert Belhaven and Madison clicks into calls',
     h2Exact: 'Jackson Web Design Company',
     heroSubhead:
       "A good-looking site that never rings the phone is just an expensive brochure. We build Jackson contractors fast, mobile-first sites engineered to turn a visitor into booked work, and tough enough to hold their footing when a spring storm floods every phone in the metro.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Jackson contractor sites leak leads without a sound: slow to load on a phone, the call button hidden three scrolls down, no clear offer in sight. Web design done properly seals every one of those leaks. We build sites that load quick, carry the polish of the pro you already are, and turn Belhaven-to-Madison visitors into booked jobs, and that stay standing when a tornado or hailstorm drives your traffic straight up.",
+      "Jackson web design done right is the difference between a site that books work and one that quietly leaks leads: slow to load on a phone, the call button hidden three scrolls down, no clear offer in sight. We are a Jackson web design company that builds fast, mobile-first contractor websites that carry the polish of the pro you already are, turn Belhaven-to-Madison visitors into booked jobs, and stay standing when a tornado or hailstorm drives your traffic straight up.",
     aioQuestion: 'What makes a good contractor website in Jackson?',
     aioAnswer:
       "A strong Jackson contractor site loads in under three seconds on a phone, parks the call button and a clear offer above the fold, earns trust with reviews and real project photos, and is built to absorb the traffic spikes that storm season brings. Since nearly every Jackson search happens on mobile, phone speed and one obvious next step are what divide a site that books work from one that only sits there.",
@@ -298,7 +298,7 @@ export const jacksonLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually run yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and lay out the tradeoffs in plain language." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build ships with launch support, and after that we offer affordable monthly maintenance covering updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any maintenance or SEO you add afterward is month-to-month, so you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Jackson site ought to include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Jackson site ought to include, and a fixed-price quote with a timeline. It is the simplest way to see what Jackson web design can do for your booked-job count. No pressure, just a plan." },
     ],
   },
 
@@ -308,15 +308,15 @@ export const jacksonLocations = [
     citySlug: 'jackson', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Jackson Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Jackson website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
+      'Jackson Website Redesign that keeps every ranking you have earned. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
     eyebrow: 'Website Redesign · Jackson, MS',
-    h1: 'Redesign your Jackson website without losing your rankings',
+    h1: 'Jackson Website Redesign that keeps every central Mississippi ranking you have earned',
     h2Exact: 'Jackson Website Redesign Company',
     heroSubhead:
       "An aging site quietly bleeds jobs every week: slow, awkward on a phone, easy for a Jackson homeowner to skip right past. We redesign contractor sites to convert more and load faster, and we migrate with enough care that you keep every scrap of ranking you have already built.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail one of two ways: the site gets prettier but converts the same, or it goes live and the rankings evaporate overnight. We do neither. We rebuild Jackson contractor sites for speed and conversions, harden them for storm-season traffic, and migrate with the redirects and SEO care that protect the standing you have spent years earning in central Mississippi search.",
+      "A Jackson Website Redesign usually fails one of two ways: the site gets prettier but converts the same, or it goes live and the rankings evaporate overnight. We do neither. We rebuild Jackson contractor sites for speed and conversions, harden them for storm-season traffic, and run an SEO-safe migration with the redirects that protect the standing you have spent years earning in central Mississippi search.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You shield your SEO through a redesign by holding your URL structure (or mapping a 301 for every page that changes), keeping your existing content and metadata intact, carrying your schema across, and testing the whole thing on staging before it goes live. Handled right, a redesign holds your rankings and lifts them, because the new site loads faster, reads mobile-first, and is structured better than the old one.",
@@ -364,7 +364,7 @@ export const jacksonLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for quick load and Core Web Vitals, which lifts both your conversions and your rankings." },
       { q: 'Do I own the redesigned site?', a: "Every piece of it: the site, the domain, and the content. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any maintenance or SEO you add on afterward is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should put right, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should put right, and a fixed-price quote with a timeline and a safe migration plan. It is the clearest way to weigh whether a Jackson Website Redesign earns its keep for your shop." },
     ],
   },
 ];
@@ -374,10 +374,10 @@ export const jacksonCity = {
 
   titleTag: 'Jackson MS Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Jackson, MS contractors. Get found, get booked, and own your leads instead of renting them, all built for storm-season demand.',
+    'Jackson marketing for contractors: web design, SEO, and local SEO that gets you found and booked. Own your leads instead of renting them, all built for storm-season demand.',
 
   eyebrow: 'Jackson · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Jackson contractors found and booked',
+  h1: 'Jackson marketing for contractors: get ranked, get booked, own your leads',
   h2Exact: 'Jackson Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO shaped for central Mississippi's settled, storm-driven market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -385,7 +385,7 @@ export const jacksonCity = {
   primaryCta: 'Get my free Jackson audit',
 
   intro:
-    "Run a contracting business in Jackson and you are fighting for attention in Mississippi's capital market: a settled base of professional homeowners propped up by state government and UMMC, where the scrap for the top spots is real. Winning here takes three pieces pulling together: a site that converts, SEO that ranks you for what people type, and local SEO that lands you in the Map Pack, all of it in place before the next storm sends demand straight up. Here is how we help Jackson contractors pull that off.",
+    "Jackson marketing for contractors comes down to fighting for attention in Mississippi's capital market: a settled base of professional homeowners propped up by state government and UMMC, where the scrap for the top spots is real. As a Jackson digital marketing agency built for the trades, we pair three pieces that have to pull together: a site that converts, SEO that ranks you for what people type, and local SEO that lands you in the Map Pack, all of it in place before the next storm sends demand straight up. Here is how we help Jackson contractors get found and booked.",
   aioQuestion: 'How do Jackson contractors get more leads online?',
   aioAnswer:
     "Jackson contractors win more leads by pairing a fast, mobile-first website with SEO that ranks them on high-intent searches and local SEO that takes the Google Map Pack. Because central Mississippi sits in tornado alley with violent spring storms and a punishing humid summer, the contractors who look settled and are already ranking before the storm pull in the most work.",
@@ -421,6 +421,6 @@ export const jacksonCity = {
     { q: 'Why does storm season matter for my marketing?', a: "Central Mississippi sits in tornado alley with violent spring storms and hail, and Gulf hurricane remnants push this far inland too. Katrina drove serious wind and tree damage even up here in Jackson. When storms hit, demand for roofing, restoration, and HVAC jumps overnight. Ranking takes months to build, so the contractors already visible before the front arrives take that work. We get you in place ahead of the season." },
     { q: 'How much does it cost to work with you?', a: "Websites are a one-time build, $2,000 to $9,000 depending on size. SEO and local SEO go month-to-month, $750 to $3,000, with no long contract holding you in. We settle the exact scope for your Jackson shop in the free audit." },
     { q: 'Which Jackson areas do you serve?', a: "The whole Jackson metro and the ring around it: Belhaven, Fondren, Eastover, Northeast Jackson, plus Madison, Ridgeland, Brandon, Clinton, Pearl, Flowood and beyond." },
-    { q: 'Where should I start?', a: "Start with a free Jackson audit. We look over your website, your rankings, and your Map Pack presence, then point out the one or two moves that will bring in the most work fastest. No slide deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Jackson audit. We look over your website, your rankings, and your Map Pack presence, then point out the one or two moves that will bring in the most work fastest. It is the simplest first step into Jackson marketing for contractors that actually pays. No slide deck, just a plan." },
   ],
 };

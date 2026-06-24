@@ -109,17 +109,17 @@ export const huntingtonLocations = [
   {
     ...BASE,
     citySlug: 'huntington', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Huntington Local SEO Company | OnwardCraft',
+    titleTag: 'Huntington Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Huntington and three businesses sit on the map. We get you into those three, so the river-season call lands with you, not a competitor.',
+      'Huntington Local SEO that wins you the top three on the map, so the river-season "near me" call lands with you, not a competitor across the valley.',
     eyebrow: 'Local SEO · Huntington-Ashland',
-    h1: 'When Huntington searches for what you do, be the first name they find',
+    h1: 'Huntington Local SEO that wins you the top three on the Ritter Park map',
     h2Exact: 'Huntington Local SEO Company',
     heroSubhead:
       "Google drops three businesses on the map when a homeowner searches \"near me,\" and everybody underneath them is good as gone. We get you into that top three so the call rings your phone instead of whoever ranked first, and so you are already there when the river comes up and the whole valley starts dialing at once.",
     primaryCta: 'Get my free Huntington audit',
     intro:
-      "Huntington local SEO turns on one moment: a homeowner in Ritter Park or Barboursville types your service plus \"near me,\" and you are either one of the three businesses Google pinned to the map or you are nowhere. Most folks tap one of those three and never scroll. In a tight-knit, tri-state town that already leans toward hiring local, landing in that three is the whole ballgame. Here is how we get you there.",
+      "Huntington Local SEO turns on one moment: a homeowner in Ritter Park or Barboursville types your service plus \"near me,\" and you are either one of the three businesses Google pinned to the local 3-pack or you are nowhere. Most folks tap one of those three and never scroll. In a tight-knit, tri-state town that already leans toward hiring local, landing in that Google Map Pack is the whole ballgame. Here is how local SEO services get you there.",
     aioQuestion: 'How do Huntington businesses rank higher in local search?',
     aioAnswer:
       "Ranking comes down to four moves: a Google Business Profile tuned to the exact services and tri-state neighborhoods you want; name, address, and phone details that match everywhere online; a steady flow of real reviews; and local content built on genuine Huntington places. Since homeowners here favor local crews and demand jumps with river flooding and winter freeze, the winners look settled, answer fast, and already rank before the season turns.",
@@ -167,7 +167,7 @@ export const huntingtonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A bigger slice of \"near me\" research now starts inside AI tools rather than classic search. We structure your content and schema so those engines can read, trust, and name your business. In a market this word-of-mouth, that is fast becoming as valuable as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is about how long local SEO needs to show genuine movement. After that you go month-to-month. If we are not delivering, you leave, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that route leads straight to you alone. Over time you lean on the brokers less because the work is already coming to you direct." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to out-rank you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your shop. No pitch deck, just a diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to out-rank you, the fixes that move you fastest, and a realistic 90-to-180-day Huntington Local SEO plan with the numbers run for your shop. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const huntingtonLocations = [
   {
     ...BASE,
     citySlug: 'huntington', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Huntington SEO Company | OnwardCraft',
+    titleTag: 'Huntington SEO Company | Rankings You Own | OnwardCraft',
     metaDescription:
-      'Huntington SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in, built for river flooding and freeze-thaw demand.',
+      'Huntington SEO that builds rankings you actually own, ranking contractors on Google for the river-flood and freeze-thaw searches that book real work.',
     eyebrow: 'SEO Services · Huntington-Ashland',
-    h1: 'Get your Huntington business to the top of Google and keep it there',
+    h1: 'Huntington SEO that builds rankings you actually own across the valley',
     h2Exact: 'Huntington SEO Company',
     heroSubhead:
       "Ads die the minute you stop paying. SEO runs the other way: rank once for what your Huntington customers search and the leads keep arriving for months. We build that ranking and tie every report to real calls and booked jobs, not pretty charts.",
@@ -233,7 +233,7 @@ export const huntingtonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing piece of what we optimize for. We shape your content and schema so AI engines can read, trust, and name your business, not just classic search results." },
       { q: 'Which areas around Huntington do you cover?', a: "All of Huntington and the tri-state: Barboursville, Milton, Ceredo, Kenova, plus Ashland KY, Ironton OH, and the river towns around them, built with real local pages rather than one flat Huntington page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads straight to you. The more you own your search visibility, the less you rely on paying brokers for leads three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to out-rank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your shop. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to out-rank you, the highest-impact fixes, and a realistic Huntington SEO timeline with the numbers modeled for your shop so you can see the path to page one. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const huntingtonLocations = [
   {
     ...BASE,
     citySlug: 'huntington', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Huntington Web Design Company | OnwardCraft',
+    titleTag: 'Huntington Web Design Company | Built to Book Work | OnwardCraft',
     metaDescription:
-      'Huntington web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and ready for river flood-season demand.',
+      'Huntington Web Design engineered to bring in real work: fast, mobile-first contractor websites that convert visitors and hold up in river flood-season demand.',
     eyebrow: 'Web Design · Huntington-Ashland',
-    h1: 'Huntington web design that turns visitors into booked jobs',
+    h1: 'Huntington Web Design engineered to bring in real work from Ritter Park to Barboursville',
     h2Exact: 'Huntington Web Design Company',
     heroSubhead:
       "A good-looking site that never rings the phone is just an expensive brochure. We build Huntington contractors fast, mobile-first sites engineered to turn visitors into booked work, and tough enough to hold up when river season swamps your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Huntington contractor sites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. Web design done right plugs those leaks. We build sites that load fast, look like the pro you actually are, and turn Ritter-Park-to-Barboursville visitors into booked jobs, and that don't fall over when the river rises and sends your traffic through the roof.",
+      "Huntington Web Design done right plugs the leaks that bleed contractor sites dry: slow on a phone, call button buried, no clear offer anywhere. We build mobile-first sites that load fast, look like the pro you actually are, and turn Ritter-Park-to-Barboursville visitors into booked jobs, and that don't fall over when the river rises and sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Huntington?',
     aioAnswer:
       "A strong Huntington contractor site loads in under three seconds on a phone, puts the call button and a clear offer above the fold, builds trust with reviews and real project photos, and is made to hold up under traffic spikes during river-flood season. Since most searches here happen on mobile and homeowners favor local crews, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const huntingtonLocations = [
       { q: 'What platform do you build on?', a: "We match the platform to what you need and what you can comfortably manage on your own, usually WordPress or Webflow. In your free consult we name the right fit and walk through the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Launch support comes with every build, and after that we offer wallet-friendly monthly maintenance covering updates, load speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build itself is a one-time, fixed-price project. Any maintenance or SEO afterward runs month-to-month, so you are free to leave whenever you want." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Huntington site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Huntington Web Design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const huntingtonLocations = [
   {
     ...BASE,
     citySlug: 'huntington', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Huntington Website Redesign | OnwardCraft',
+    titleTag: 'Huntington Website Redesign | Modernize, Keep Rankings | OnwardCraft',
     metaDescription:
-      'Redesign your Huntington website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in river floods.',
+      'Huntington Website Redesign that modernizes without tanking your traffic: faster, mobile-first rebuilds that convert more and hold up in river floods.',
     eyebrow: 'Website Redesign · Huntington-Ashland',
-    h1: 'Redesign your Huntington website without losing your rankings',
+    h1: 'Huntington Website Redesign that modernizes without tanking your valley traffic',
     h2Exact: 'Huntington Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Huntington homeowner to skip right past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks nicer but converts exactly the same, or it launches and the rankings drop off a cliff overnight. We do neither. We redesign Huntington contractor sites for speed and conversions, build them to ride out river-season traffic, and migrate with the redirects and SEO care that protect the traffic you have spent years earning.",
+      "Huntington Website Redesign goes one of two bad ways for most shops: the site looks nicer but converts exactly the same, or it launches and the rankings drop off a cliff overnight. We do neither. We rebuild contractor sites for speed and conversions, build them to ride out river-season traffic, and run an SEO-safe migration with the redirects and care that protect the traffic you have spent years earning.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO through a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), holding onto your existing content and metadata, carrying over your schema, and testing the whole thing on staging before launch. Done right, a redesign keeps your rankings and lifts them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const huntingtonLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild it mobile-first and tune the load speed and Core Web Vitals, which pulls up both your conversions and your rankings." },
       { q: 'Do I own the redesigned site?', a: "Every bit of it: the site, the domain, and the content. There is no platform lock-in whatsoever." },
       { q: 'Am I locked into a contract?', a: "No. The redesign itself is a one-time project. Anything ongoing, maintenance or SEO, runs month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in lost leads and rankings, what the redesign needs to fix, and a fixed-price quote with a timeline and a safe migration plan laid out." },
+      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in lost leads and rankings, what your Huntington Website Redesign needs to fix, and a fixed-price quote with a timeline and a safe migration plan laid out." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const huntingtonCity = {
 
   titleTag: 'Huntington Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Huntington contractors. Get found, get booked, and own your leads instead of renting them, all built for river flood-season demand.',
+    'Huntington marketing for contractors: web design, SEO, and local SEO that get you found and booked, and let you own your leads instead of renting them.',
 
   eyebrow: 'Huntington · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Huntington contractors found and booked',
+  h1: 'Huntington marketing for contractors, built around the trades and the river valley',
   h2Exact: 'Huntington Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Huntington's tight-knit, tri-state, river-driven market where homeowners hire local. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const huntingtonCity = {
   primaryCta: 'Get my free Huntington audit',
 
   intro:
-    "If you run a contracting business in Huntington, you are scrapping for attention in a tight-knit, tri-state town where homeowners already lean toward hiring local, and the competition leans on that too. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all set before the next time the Ohio River rises or a hard freeze hits. Here is how we help Huntington contractors pull that off.",
+    "Huntington marketing for contractors comes down to one fight: scrapping for attention in a tight-knit, tri-state town where homeowners already lean toward hiring local, and the competition leans on that too. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all set before the next time the Ohio River rises or a hard freeze hits. As your Huntington digital marketing agency for the trades, here is how we help you get found and booked.",
   aioQuestion: 'How do Huntington contractors get more leads online?',
   aioAnswer:
     "Huntington contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that takes the Google Map Pack. Since homeowners here favor local crews and demand jumps hard during river flooding and freeze-thaw winters, the contractors who look settled and already rank before the season turns win the most work.",
@@ -422,6 +422,6 @@ export const huntingtonCity = {
     { q: 'Why does river-flood season matter for my marketing?', a: "When the Ohio River rises in spring or a flash flood swamps the older neighborhoods, demand for water-damage restoration, plumbing, and HVAC spikes inside a day and the backlog can run for weeks. Ranking takes months to build, so the contractors already visible before the season take that work. We get you set ahead of it." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds running $2,000 to $9,000. SEO and local SEO go month-to-month at $750 to $3,000, no long contract attached. We nail down the exact scope in your free audit." },
     { q: 'Which Huntington areas do you serve?', a: "All of Huntington and the tri-state: Ritter Park, Old Central City, Southside, Westmoreland, Barboursville, Milton, Ceredo, Kenova, plus Ashland KY, Ironton OH, and the river towns around them." },
-    { q: 'Where should I start?', a: "Start with a free Huntington audit. We look at your website, your rankings, and your Map Pack presence, then point you to the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Huntington audit. We look at your website, your rankings, and your Map Pack presence, then point you to the one or two moves in your Huntington marketing for contractors that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

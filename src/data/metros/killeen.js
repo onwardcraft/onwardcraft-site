@@ -111,15 +111,15 @@ export const killeenLocations = [
     citySlug: 'killeen', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Killeen Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Killeen and three businesses show up on the map. We get you into those three so the call lands with you, especially when a PCS wave hits.',
+      'Killeen Local SEO that ranks you above the competition in the Map Pack, so the "near me" call lands with you, especially when a Fort Cavazos PCS wave hits.',
     eyebrow: 'Local SEO · Killeen-Temple (Fort Cavazos)',
-    h1: 'When Killeen searches for what you do, be the first name they find',
+    h1: 'Killeen Local SEO that ranks you above the competition across Fort Cavazos',
     h2Exact: 'Killeen Local SEO Company',
     heroSubhead:
       "When a homeowner searches \"near me,\" Google drops three businesses on the map and treats the rest as if they are not there. We push you into that top three so the call rings your phone instead of whoever happened to rank first, and so you are already in place when a fresh batch of PCS orders and a Central Texas heat wave light the phones up at once.",
     primaryCta: 'Get my free Killeen audit',
     intro:
-      "Killeen local SEO turns on a single moment: a family that just unloaded at Fort Cavazos opens their phone, types your service plus \"near me,\" and either you are one of the three names pinned to the map or you may as well not exist. Most people tap one of those three and never scroll past them. With thousands of soldiers cycling through every year and summer heat plus spring storms keeping demand high all year, owning one of those slots is the whole contest. Here is how we get you there.",
+      "Killeen Local SEO turns on a single moment: a family that just unloaded at Fort Cavazos opens their phone, types your service plus \"near me,\" and either you are one of the three names pinned to the Google Map Pack or you may as well not exist. Most people tap one of those three and never scroll past them. With thousands of soldiers cycling through every year and summer heat plus spring storms keeping demand high all year, ranking on the map for those \"near me\" searches is the whole contest. Here is how our local SEO services get you there.",
     aioQuestion: 'How do Killeen businesses rank higher in local search?',
     aioAnswer:
       "You rank by nailing four things: a Google Business Profile tuned to the exact services and neighborhoods you want, name-address-phone details that match everywhere online, a steady drip of genuine reviews, and local content built around real Killeen-area places. In a town where the population keeps turning over, looking established and answering fast wins. A PCS family has days, not weeks, to book a contractor, and they are searching from a phone the hour they roll in.",
@@ -167,7 +167,7 @@ export const killeenLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A bigger slice of \"near me\" research now begins in AI rather than classic search. We shape your content and schema so those engines can read, trust, and name your business. In a town that searches as fast as Killeen does, that is closing in on the Map Pack itself in value." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is roughly the runway local SEO needs to show real movement. After that you are month-to-month. If we are not delivering, you walk and the accountability stays parked on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep a piece of. We build rankings, a Google profile, and a review base that route leads straight to you alone. Over time you lean on the brokers less, because a PCS family that finds you on Google calls you and only you." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to stay ahead, the fixes that will move you quickest, and a realistic 90-to-180-day plan with the numbers run for your shop. No pitch deck. Just the diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to stay ahead, the fixes that will move you quickest, and a realistic 90-to-180-day Killeen Local SEO plan with the numbers run for your shop. No pitch deck. Just the diagnosis." },
     ],
   },
 
@@ -177,15 +177,15 @@ export const killeenLocations = [
     citySlug: 'killeen', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Killeen SEO Company | OnwardCraft',
     metaDescription:
-      'Killeen SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Fort Cavazos PCS demand.',
+      'Killeen SEO that climbs contractors past the competition on Google and brings in leads you own. Revenue-tied reporting, no lock-in, built for Fort Cavazos PCS demand.',
     eyebrow: 'SEO Services · Killeen-Temple (Fort Cavazos)',
-    h1: 'Get your Killeen business to the top of Google and keep it there',
+    h1: 'Killeen SEO that climbs you past the competition on Google',
     h2Exact: 'Killeen SEO Company',
     heroSubhead:
       "Ads quit the instant you stop paying. SEO works the other way: rank once for what your Killeen customers search and the leads keep landing for months. We build that ranking and map every report to real calls and booked jobs, so you pick up the PCS arrivals and storm-season demand instead of watching them go to whoever ranked first.",
     primaryCta: 'Get my free Killeen SEO audit',
     intro:
-      "Killeen SEO comes down to one blunt question: when someone searches what you do, are you on page one or page two? Around here page two might as well be page fifty. We get contractors ranking for the money keywords in a town shaped by nonstop military turnover, summers that sit at triple digits, spring storms, and the odd freeze event, and we score the whole thing in leads, not traffic that never dials.",
+      "Killeen SEO comes down to one blunt question: when someone searches what you do, are you on page one or page two of Google? Around here page two might as well be page fifty. As a Killeen SEO company we get contractors ranking for the money keywords in a town shaped by nonstop military turnover, summers that sit at triple digits, spring storms, and the odd freeze event, and we score the whole thing in booked leads, not organic traffic that never dials.",
     aioQuestion: 'How do Killeen businesses rank higher on Google?',
     aioAnswer:
       "They rank by repairing the technical base of the site, tuning each page to the exact terms buyers type, publishing local content people actually use, and earning links from trusted Central Texas sources. In a market set by the Fort Cavazos turnover and hard seasonal swings, ranking for the right term at the right time, HVAC in the July heat, roofing right after hail, holds the line between a contractor who stays booked and one who is forever chasing the next lead.",
@@ -233,7 +233,7 @@ export const killeenLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing share of what we tune for. We shape your content and schema so AI engines can read, trust, and name your business, not just the classic search results." },
       { q: 'Which areas around Killeen do you cover?', a: "The full Killeen-Temple metro and the ground around it: Fort Cavazos, Harker Heights, Copperas Cove, Nolanville, Belton, Temple, Lampasas, Gatesville and more, with real local pages rather than one stretched-thin Killeen page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads straight to you. The more of your own search visibility you hold, the less you depend on paying brokers for shared leads, and a PCS family that finds you on Google tends to convert fast." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead, the fixes with the most pull, and a realistic timeline with the numbers modeled for your shop. No pitch deck, just the diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead, the fixes with the most pull, and a realistic Killeen SEO timeline with the numbers modeled for your shop. No pitch deck, just the diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const killeenLocations = [
     citySlug: 'killeen', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Killeen Web Design Company | OnwardCraft',
     metaDescription:
-      'Killeen web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors serving Fort Cavazos and the Killeen-Temple area.',
+      'Killeen Web Design that loads fast and books more jobs: mobile-first sites built for contractors serving Fort Cavazos and the Killeen-Temple area.',
     eyebrow: 'Web Design · Killeen-Temple (Fort Cavazos)',
-    h1: 'Killeen web design that turns visitors into booked jobs',
+    h1: 'Killeen web design that loads fast and books more Fort Cavazos jobs',
     h2Exact: 'Killeen Web Design Company',
     heroSubhead:
       "A good-looking website that never rings the phone is just a brochure. We build Killeen contractors fast, mobile-first sites engineered to turn visitors into booked work, so when a PCS family looks you up the day they arrive or a homeowner's AC dies in 105-degree heat, the call comes to you.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Killeen contractor sites leak leads without a sound: slow on a phone, call button buried, no clear offer anywhere on the page. Web design done right plugs every one of those leaks. We build sites that load fast, carry the weight of the pro you are, and turn Fort-Cavazos-to-Temple visitors into booked jobs, and that hold their footing when a PCS rotation or a spring storm sends traffic spiking.",
+      "Killeen Web Design, done right, plugs the leaks that quietly drain most contractor sites: slow on a phone, call button buried, no clear offer anywhere on the page. We build fast-loading, mobile-first contractor websites that carry the weight of the pro you are and turn Fort-Cavazos-to-Temple visitors into booked jobs, and that hold their footing when a PCS rotation or a spring storm sends traffic spiking.",
     aioQuestion: 'What makes a good contractor website in Killeen?',
     aioAnswer:
       "A strong Killeen contractor site loads in under three seconds on a phone, puts the call button and a clear offer above the fold, backs it with reviews and real job photos, and stands up to traffic surges during PCS waves and storm demand. Families arriving on orders search from a phone and need to book quickly. A slow, cluttered, or fuzzy site loses them in seconds. The call button and one plain reason to trust you are what turn a new arrival into a booked job.",
@@ -299,7 +299,7 @@ export const killeenLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually run yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and lay out the tradeoffs in plain terms." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build comes with launch support, and after that we offer affordable monthly maintenance for updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A straight look at what your current site is costing you in lost leads, what a high-converting Killeen site ought to include, and a fixed-price quote with a timeline. No pressure, just the plan." },
+      { q: 'What do I get in the free quote?', a: "A straight look at what your current site is costing you in lost leads, what a high-converting Killeen Web Design project ought to include, and a fixed-price quote with a timeline. No pressure, just the plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const killeenLocations = [
     citySlug: 'killeen', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Killeen Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Killeen website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up during PCS season.',
+      'Killeen Website Redesign done with a careful, SEO-safe migration: faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up during PCS season.',
     eyebrow: 'Website Redesign · Killeen-Temple (Fort Cavazos)',
-    h1: 'Redesign your Killeen website without losing your rankings',
+    h1: 'Killeen Website Redesign done with a careful, SEO-safe Fort Cavazos migration',
     h2Exact: 'Killeen Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Killeen homeowner to skip right past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every scrap of ranking you have earned while the next PCS wave is already searching.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns slide one of two bad ways: the site looks sharper but converts exactly the same, or it launches and the rankings drop off a cliff overnight. We do neither. We redesign Killeen contractor sites for speed and conversions, build them to ride PCS-season and storm-driven traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Killeen Website Redesign goes one of two bad ways at most shops: the site looks sharper but converts exactly the same, or it launches and the rankings drop off a cliff overnight. We do neither. We rebuild Killeen contractor sites mobile-first for speed and conversions, build them to ride PCS-season and storm-driven traffic, and run an SEO-safe migration with the redirects that protect the traffic you already have without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You guard SEO through a redesign by holding your URL structure (or mapping 301 redirects for every page that changes), keeping your existing content and metadata, moving your schema across, and testing the whole thing on staging before launch. Handled right, a redesign keeps your rankings and lifts them, because the new site loads faster, leans mobile-first, and is better built than the old one, and it finally converts the PCS arrivals and storm-season searches you have been missing.",
@@ -365,7 +365,7 @@ export const killeenLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which matters in Killeen because so much of your traffic is a family searching from a phone the day they arrive. It lifts conversions and rankings at the same time." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content all stay yours. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign itself is a one-time project. Any ongoing maintenance or SEO after that runs month-to-month, cancel whenever." },
-      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in leads and rankings, what the Killeen Website Redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const killeenCity = {
 
   titleTag: 'Killeen Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Killeen contractors. Get found, get booked, and own your leads, built for Fort Cavazos PCS turnover and Central Texas heat.',
+    'Killeen marketing for contractors that fills your calendar: web design, SEO, and local SEO that get you found, get you booked, and let you own your leads through Fort Cavazos PCS turnover and Central Texas heat.',
 
   eyebrow: 'Killeen · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Killeen contractors found and booked',
+  h1: 'Killeen marketing for contractors that fills your Fort Cavazos calendar',
   h2Exact: 'Killeen Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the Killeen-Temple market, one of the busiest contractor search markets in the country, shaped by the Fort Cavazos turnover, Central Texas heat, and spring tornado season.",
@@ -386,7 +386,7 @@ export const killeenCity = {
   primaryCta: 'Get my free Killeen audit',
 
   intro:
-    "Run a contracting business in Killeen and you are working a market that behaves like nowhere else in Texas. Fort Cavazos feeds a steady stream of PCS arrivals who have to book a contractor fast. Central Texas summers lean hard on HVAC crews. Spring tornado and hail seasons send roofing demand vertical. And the 2021 freeze showed everyone how fast emergency plumbing calls can pile up. Winning here takes three pieces pulling together: a site that converts, SEO that ranks you for what people type, and local SEO that drops you in the Map Pack, all set before the next PCS rotation or weather hit sends demand through the roof.",
+    "Killeen marketing for contractors has to fit a market that behaves like nowhere else in Texas. Fort Cavazos feeds a steady stream of PCS arrivals who have to book a contractor fast. Central Texas summers lean hard on HVAC crews. Spring tornado and hail seasons send roofing demand vertical. And the 2021 freeze showed everyone how fast emergency plumbing calls can pile up. Winning here takes three pieces pulling together: a site that converts, SEO that ranks you for what people type, and local SEO that drops you in the Map Pack, all set before the next PCS rotation or weather hit sends demand through the roof.",
   aioQuestion: 'How do Killeen contractors get more leads online?',
   aioAnswer:
     "Killeen contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. The Fort Cavazos turnover means thousands of families hunt for contractors every year with no local network to fall back on, so they call whoever looks most settled and reviewed on Google. Ranking and reading as trustworthy before they arrive is the highest-return move most Killeen contractors are still skipping.",
@@ -422,6 +422,6 @@ export const killeenCity = {
     { q: 'Why does the Fort Cavazos PCS cycle matter for my marketing?', a: "Thousands of military families rotate in and out of Fort Cavazos every year. They arrive with pressing contractor needs and no local network, head straight to Google, and book whoever reads as most established. Ranking and looking well-reviewed before they land is a lead opening that resets and repeats without end. We put you in position to catch it." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We pin down the exact scope in your free audit." },
     { q: 'Which Killeen areas do you serve?', a: "The whole Killeen-Temple metro: Killeen, Fort Cavazos, Harker Heights, Copperas Cove, Nolanville, Belton, Temple, Lampasas, Gatesville and more, with real neighborhood pages rather than one stretched-thin Killeen page." },
-    { q: 'Where should I start?', a: "Start with a free Killeen audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that bring in the most work fastest, including how to stand out to the Fort Cavazos community. No pitch deck, just the plan." },
+    { q: 'Where should I start?', a: "Start with a free Killeen audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Killeen marketing for contractors plan that bring in the most work fastest, including how to stand out to the Fort Cavazos community. No pitch deck, just the plan." },
   ],
 };

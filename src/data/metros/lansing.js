@@ -111,15 +111,15 @@ export const lansingLocations = [
     citySlug: 'lansing', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Lansing Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Lansing and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Lansing Local SEO that turns "near me" searches into a ringing phone. We get you into the three businesses Google pins to the map.',
     eyebrow: 'Local SEO · Lansing-East Lansing',
-    h1: 'When Lansing searches for what you do, be the first name they find',
+    h1: 'Lansing Local SEO that turns "near me" searches into a ringing phone in Old Town and beyond',
     h2Exact: 'Lansing Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. Whether it's an MSU landlord needing a plumber or a state employee homeowner after a heating emergency, we get you into that top three for your neighborhoods so the call lands with you.",
     primaryCta: 'Get my free Lansing audit',
     intro:
-      "Lansing local SEO comes down to one moment: a homeowner in Old Town or a student-rental landlord in East Lansing types your service plus \"near me,\" and either you are one of the three businesses Google pins to the map or you are not. Most people tap one of those three and never scroll. Between 50,000-plus MSU students renting homes that always need work, thousands of state employees owning near the Capitol, and auto families spread across Delta Township, the calls come all year. Being one of those three pins is the whole game. Here is how you get there.",
+      "Lansing Local SEO comes down to one moment: a homeowner in Old Town or a student-rental landlord in East Lansing types your service plus \"near me,\" and either you are one of the three businesses Google pins to the map or you are not. Most people tap one of those three and never scroll. Between 50,000-plus MSU students renting homes that always need work, thousands of state employees owning near the Capitol, and auto families spread across Delta Township, the calls come all year. Being one of those three pins is the whole game. Here is how you get there.",
     aioQuestion: 'How do Lansing businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile tuned to the exact services and neighborhoods you want; name, address, and phone details that match everywhere online; a steady flow of real reviews; and local content built around genuine Lansing neighborhoods. The winners here target tight service areas, since Old Town, Okemos, and Delta Township each search a little differently. They show up for the seasonal spikes that come with Michigan winters and spring flooding, and they answer fast when a heating emergency lands between November and March.",
@@ -167,7 +167,7 @@ export const lansingLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "There is no long contract. We ask for a first 90 days only because that window is what local SEO needs to show genuine movement in the Lansing map results. From there you run month to month. If the leads are not showing up, you cut us loose, and the burden of proof sits with us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and a visibility you never keep a claim to. We build rankings, a tuned Google profile, and a review base that route Lansing homeowners to your line and nobody else's. As that pipeline fills, the broker fees become optional rather than your lifeline." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Lansing neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Lansing neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the honest starting point for Lansing Local SEO that actually earns its keep. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -177,9 +177,9 @@ export const lansingLocations = [
     citySlug: 'lansing', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Lansing SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Lansing SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a market with year-round.',
+      'Lansing SEO that ranks you for the searches that book jobs and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built year-round.',
     eyebrow: 'SEO Services · Lansing-East Lansing',
-    h1: 'Get your Lansing business to the top of Google and keep it there',
+    h1: 'Lansing SEO that ranks you for the searches that book jobs near the Capitol and MSU',
     h2Exact: 'Lansing SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO does the reverse: rank once for what your Lansing customers search and the leads keep arriving, through Michigan winters, through spring flooding season, and through the steady year-round demand that MSU and state government create. We build that ranking and tie every report to real calls and booked jobs.",
@@ -233,7 +233,7 @@ export const lansingLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business by name, not just classic search results. It matters most for reaching the younger homebuyers and renters circling the MSU-area market." },
       { q: 'Which areas around Lansing do you cover?', a: "The full Lansing-East Lansing metro: Old Town, REO Town, Eastside, East Lansing, Haslett, Okemos, Dewitt, Delta Township, Mason, Grand Ledge, and the neighborhoods in between, with genuine local pages rather than one generic Lansing page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads that three of your competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today in Lansing, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today in Lansing, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is the clearest first step into Lansing SEO that pays for itself in booked work. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const lansingLocations = [
   {
     ...BASE,
     citySlug: 'lansing', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Lansing Web Design Company | OnwardCraft',
+    titleTag: 'Lansing Web Design Company | Built to Convert | OnwardCraft',
     metaDescription:
-      'Lansing web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors serving the MSU rental belt, the Capitol, and Delta Township.',
+      'Lansing Web Design built to convert clicks into calls: fast, mobile-first sites for contractors serving the MSU rental belt, the Capitol, and Delta Township.',
     eyebrow: 'Web Design · Lansing-East Lansing',
-    h1: 'Lansing web design that turns visitors into booked jobs',
+    h1: 'Lansing Web Design built to convert clicks into calls from East Lansing to Delta Township',
     h2Exact: 'Lansing Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just an expensive brochure. We build Lansing contractors fast, mobile-first sites engineered to turn visitors into booked work, from an MSU landlord calling for a quick repair to an Okemos homeowner scheduling a full renovation.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Lansing contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. Web design done right closes all of those leaks. We build sites that load fast, look like the professional you actually are, and turn visitors from Old Town to East Lansing into booked jobs. They are built to win in a market shaped by university demand, state-government stability, and the renovation needs of an affordable Midwest housing stock.",
+      "Lansing Web Design done right starts where most contractor sites fail: slow on a phone, call button buried, no clear offer anywhere. We close all of those leaks. We build sites that load fast, look like the professional you actually are, and turn visitors from Old Town to East Lansing into booked jobs. They are built to win in a market shaped by university demand, state-government stability, and the renovation needs of an affordable Midwest housing stock.",
     aioQuestion: 'What makes a good contractor website in Lansing?',
     aioAnswer:
       "A good Lansing contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods you serve, since East Lansing, Okemos, Delta Township, and Old Town all search a little differently. Because most Lansing searches happen on mobile and the metro has distinct demand drivers, naming your service areas and showing you grasp the local seasons are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const lansingLocations = [
       { q: 'What platform do you build on?', a: "We match the platform to what you need and what you can run yourself once we hand it over, most often WordPress or Webflow. During your free Lansing consult we name the right fit and walk through the tradeoffs in plain terms." },
       { q: 'Do you offer ongoing support?', a: "We do. Launch support comes with every build, and after that you can pick up affordable monthly maintenance covering updates, page speed, and security." },
       { q: 'Am I locked into a contract?', a: "Not at all. The build itself is a single fixed-price project. Anything ongoing, whether maintenance or SEO, runs month to month, so walking away is always your call." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Lansing site should include for your market segment, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Lansing Web Design should include for your market segment, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const lansingLocations = [
   {
     ...BASE,
     citySlug: 'lansing', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Lansing Website Redesign | OnwardCraft',
+    titleTag: 'Lansing Website Redesign | Keep Your Rankings | OnwardCraft',
     metaDescription:
-      'Redesign your Lansing website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up through Michigan winters.',
+      'Lansing Website Redesign that keeps every ranking you have earned. Faster, mobile-first rebuilds that convert more visitors into booked jobs through Michigan winters.',
     eyebrow: 'Website Redesign · Lansing-East Lansing',
-    h1: 'Redesign your Lansing website without losing your rankings',
+    h1: 'Lansing Website Redesign that keeps every ranking you have earned heading into winter',
     h2Exact: 'Lansing Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Lansing homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned heading into Michigan's busy seasons.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Lansing contractor sites for speed and conversions, build them to speak to the specific market segments that drive work here, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Lansing Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Lansing contractor sites for speed and conversions, build them to speak to the specific market segments that drive work here, and migrate with the redirects and SEO-safe care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured for the seasonal and neighborhood-specific searches that drive Lansing contractor demand.",
@@ -365,7 +365,7 @@ export const lansingLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings, and that speed counts most when someone is searching on a phone during a Michigan winter heating emergency." },
       { q: 'Do I own the redesigned site?', a: "Yes, every piece of it: the site, the domain, and the content. There is no platform that locks you in or holds your Lansing business in place." },
       { q: 'Am I locked into a contract?', a: "No. The redesign stands on its own as a one-time project. Should you add maintenance or SEO afterward, that part runs month to month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix for your specific Lansing market position, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what a Lansing Website Redesign should fix for your specific market position, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const lansingCity = {
 
   titleTag: 'Lansing Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Lansing contractors. Get found, get booked, and own your leads instead of renting them, built for the MSU market and Michigan winters.',
+    'Lansing marketing for contractors: web design, SEO, and local SEO that get you ranked and booked and let you own your leads, built for the MSU market and Michigan winters.',
 
   eyebrow: 'Lansing · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Lansing contractors found and booked',
+  h1: 'Lansing marketing for contractors: get ranked, get booked across the MSU and Capitol metro',
   h2Exact: 'Lansing Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Lansing's mix of university demand, state-government stability, and GM auto-worker neighborhoods. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const lansingCity = {
   primaryCta: 'Get my free Lansing audit',
 
   intro:
-    "If you run a contracting business in Lansing, you are working a market with more depth than most people credit it for: 50,000-plus MSU students and landlords driving constant rental and renovation demand in East Lansing, thousands of state-government employees forming a recession-resistant homeowner base near the Capitol, and a GM auto-worker heritage that built the working neighborhoods across Delta Township and beyond. Add Michigan's long, hard winters, one of the most demanding heating seasons in the Midwest, plus spring flooding along the Red Cedar and Grand Rivers, and you have a market that pays year-round for the contractors who rank when demand spikes. That takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here is exactly how we help Lansing contractors pull that off.",
+    "Lansing marketing for contractors starts with one fact: if you run a contracting business here, you are working a market with more depth than most people credit it for, 50,000-plus MSU students and landlords driving constant rental and renovation demand in East Lansing, thousands of state-government employees forming a recession-resistant homeowner base near the Capitol, and a GM auto-worker heritage that built the working neighborhoods across Delta Township and beyond. Add Michigan's long, hard winters, one of the most demanding heating seasons in the Midwest, plus spring flooding along the Red Cedar and Grand Rivers, and you have a market that pays year-round for the contractors who rank when demand spikes. That takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here is exactly how we help Lansing contractors pull that off.",
   aioQuestion: 'How do Lansing contractors get more leads online?',
   aioAnswer:
     "Lansing contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. The shops that dominate here target distinct segments, the MSU rental belt, the state-employee homeowner base near the Capitol, and the auto-worker neighborhoods, then rank for the seasonal terms that spike hardest during Michigan winters and spring flooding season.",
@@ -422,6 +422,6 @@ export const lansingCity = {
     { q: 'Why does the Lansing market need a specific approach?', a: "Lansing has demand drivers you have to understand to rank well: the MSU student-rental and young-homebuyer market in East Lansing, the stable state-employee homeowner base near the Capitol, and the auto-worker neighborhoods across Delta Township. Layer in Michigan's brutal winters and spring flooding off the Red Cedar and Grand Rivers, and you need the seasonal targeting and neighborhood specificity that generic national playbooks miss entirely." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds running $2,000 to $9,000. SEO and local SEO run month to month, $750 to $3,000, with no long contract attached. The exact scope gets pinned down in your free Lansing audit." },
     { q: 'Which Lansing areas do you serve?', a: "The full Lansing-East Lansing metro: Old Town, REO Town, Eastside, East Lansing, Haslett, Okemos, Dewitt, Delta Township, Mason, Grand Ledge, and the neighborhoods in between." },
-    { q: 'Where should I start?', a: "Start with a free Lansing audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, whether that means getting into the Map Pack before Michigan's winter heating season or rebuilding a site that is losing you leads every week. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Lansing audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, whether that means getting into the Map Pack before Michigan's winter heating season or rebuilding a site that is losing you leads every week. That is what Lansing marketing for contractors should look like: a clear plan, no pitch deck." },
   ],
 };

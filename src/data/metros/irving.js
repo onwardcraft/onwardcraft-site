@@ -111,9 +111,9 @@ export const irvingLocations = [
     citySlug: 'irving', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Irving Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Irving and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Irving Local SEO that lands you in the three businesses on the map, so the call from a Las Colinas homeowner reaches you first.',
     eyebrow: 'Local SEO · Irving-Las Colinas',
-    h1: 'When Irving searches for what you do, be the first name they find',
+    h1: 'Irving Local SEO that makes you the first name on the Las Colinas map',
     h2Exact: 'Irving Local SEO Company',
     heroSubhead:
       "Google drops three businesses onto the map when someone searches \"near me,\" and everyone underneath them is effectively invisible. We push you into that top three so the call lands with you rather than whoever ranked first, and so you are already there when the next hailstorm fills every phone in town.",
@@ -167,7 +167,7 @@ export const irvingLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A growing share of \"near me\" research now starts inside an AI tool rather than a plain search box. We arrange your content and schema so those engines can read you, trust what they read, and quote your business back to the searcher. In Irving it is closing in on the Map Pack itself for importance." },
       { q: 'Am I locked into a contract?', a: "Nope. We request a 90-day runway up front because that is about how long local SEO takes to post real gains. Once it clears, you are month-to-month. Fall short on our end and you are free to leave, which keeps the burden of proof on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those sites lease you shared leads and exposure that never sticks to your business. We construct rankings, a Google profile, and a review base that route inquiries straight to your phone. As that compounds, your reliance on the lead exchanges fades because the work is finding you on its own." },
-      { q: "What's in the free audit?", a: "A straight look at today's rankings across your service areas, the tactics your Map Pack rivals are using to outpace you, the fixes that will lift you the quickest, and a grounded 90-to-180-day plan with the figures worked out for your own business. No glossy deck. Just an honest read." },
+      { q: "What's in the free audit?", a: "A straight look at today's rankings across your service areas, the tactics your Map Pack rivals are using to outpace you, the fixes that will lift you the quickest, and a grounded 90-to-180-day Irving Local SEO plan with the figures worked out for your own business. No glossy deck. Just an honest read." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const irvingLocations = [
   {
     ...BASE,
     citySlug: 'irving', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Irving SEO Services for Contractors | OnwardCraft',
+    titleTag: 'Irving SEO Company for Contractors | OnwardCraft',
     metaDescription:
-      'Irving SEO that ranks contractors on Google and brings in leads you keep. Lead-tied reporting, no lock-in contracts, tuned for North Texas storm demand.',
+      'Irving SEO that ranks contractors on page one for money keywords and brings in leads you keep. Lead-tied reporting, no lock-in, built for storm demand.',
     eyebrow: 'SEO Services · Irving-Las Colinas',
-    h1: 'Get your Irving business to the top of Google and keep it there',
+    h1: 'Irving SEO that puts your Metroplex business on page one and holds it',
     h2Exact: 'Irving SEO Company',
     heroSubhead:
       "The instant your ad budget runs dry, the clicks die with it. SEO works the other way around: earn the ranking once for the terms Irving homeowners type and the leads keep arriving. We build that ranking and tie every report back to booked calls and finished jobs.",
@@ -233,7 +233,7 @@ export const irvingLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "Yes, and it is a growing slice of what we build toward. We shape your content and schema so AI engines can read your business, trust what they read, and quote you in their answers rather than leaving you to classic search alone." },
       { q: 'Which areas around Irving do you cover?', a: "All of Irving and the mid-cities around it: Las Colinas, Valley Ranch, Coppell, Grapevine, Euless, Farmers Branch, Carrollton and more, each with a real local page rather than a single generic Irving catch-all." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "We build the rankings and the Google footprint that channel inquiries straight to you. The further your own search visibility reaches, the less you have to keep paying brokers for leads they have already resold to your rivals." },
-      { q: "What's in the free SEO audit?", a: "Your current rankings, the moves rivals are making to stay ahead of you, the fixes with the biggest payoff, and a realistic timeline with the numbers run for your own business. No glossy deck, just a clear diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Your current rankings, the moves rivals are making to stay ahead of you, the fixes with the biggest payoff, and a realistic Irving SEO timeline with the organic-traffic numbers run for your own business. No glossy deck, just a clear diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const irvingLocations = [
     citySlug: 'irving', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Irving Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Irving web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and ready for North Texas hail-season demand.',
+      'Irving web design that books jobs instead of just looking nice: fast, mobile-first contractor websites ready for North Texas hail-season demand.',
     eyebrow: 'Web Design · Irving-Las Colinas',
-    h1: 'Irving web design that turns visitors into booked jobs',
+    h1: 'Irving web design that books jobs instead of just looking nice in Las Colinas',
     h2Exact: 'Irving Web Design Company',
     heroSubhead:
       "A good-looking site that never rings the phone is just a brochure with a domain. We build Irving contractors fast, mobile-first sites engineered to convert visitors into booked work, and tough enough to stay standing when hail season floods your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Irving contractor websites lose leads quietly: slow on a phone, the call button buried, no clear offer anywhere. Web design done right plugs every one of those leaks. We build sites that load fast and read like the professional you actually are, sharp enough for a Las Colinas executive yet plain enough for any homeowner, then turn Irving visitors into booked jobs that hold up when a hailstorm sends your traffic through the roof.",
+      "Irving web design only earns its keep when it books jobs, yet most contractor sites here lose leads quietly: slow on a phone, the call button buried, no clear offer anywhere. We plug every one of those leaks. We build sites that load fast and read like the professional you actually are, sharp enough for a Las Colinas executive yet plain enough for any homeowner, then turn Irving visitors into booked jobs that hold up when a hailstorm sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Irving?',
     aioAnswer:
       "A strong Irving contractor website loads in under three seconds on a phone, keeps the call button and a clear offer above the fold, backs up trust with reviews and real project photos, and is built to absorb the traffic spikes of hail season. Since most Irving searches come from a phone and reach an affluent, diverse audience, mobile speed and an unmistakable next step are what divide a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const irvingLocations = [
       { q: 'What platform do you build on?', a: "We choose the platform that suits your needs and that you can run without us, most often WordPress or Webflow. We will steer you to the right fit during your free consult and walk through the tradeoffs in plain language." },
       { q: 'Do you offer ongoing support?', a: "We do. Launch support comes with every build, and from there we offer reasonably priced monthly maintenance covering updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-off project at a fixed price. Any maintenance or SEO you add afterward runs month-to-month, so you can step away whenever you choose." },
-      { q: 'What do I get in the free quote?', a: "A plain accounting of what your current site is quietly costing you in lost leads, what a high-converting Irving site ought to carry, and a fixed-price quote with a timeline. No arm-twisting, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A plain accounting of what your current site is quietly costing you in lost leads, what high-converting Irving web design ought to carry, and a fixed-price quote with a timeline. No arm-twisting, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const irvingLocations = [
   {
     ...BASE,
     citySlug: 'irving', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Irving Website Redesign Company | OnwardCraft',
+    titleTag: 'Irving Website Redesign | Rebuilt for Leads | OnwardCraft',
     metaDescription:
-      'Redesign your Irving website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season.',
+      'Irving Website Redesign that rebuilds for leads, not just looks. Faster, mobile-first sites that convert more and hold every ranking through an SEO-safe migration.',
     eyebrow: 'Website Redesign · Irving-Las Colinas',
-    h1: 'Redesign your Irving website without losing your rankings',
+    h1: 'Irving Website Redesign that rebuilds for leads, not just looks',
     h2Exact: 'Irving Website Redesign Company',
     heroSubhead:
       "A dated site quietly drains jobs from you every week: slow to load, awkward on a phone, simple to overlook. We redesign Irving contractor sites to convert more and load faster, and we move them across with enough care that you hold on to every ranking you have built.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Redesigns usually fail one of two ways: the site looks sharper but books the same number of jobs, or it goes live and the rankings drop off a cliff. We avoid both. We redesign Irving contractor sites for speed and conversions, build them to take a hail-season traffic surge, and migrate with the redirects and SEO care that hold on to the traffic you already earned.",
+      "An Irving Website Redesign usually fails one of two ways: the site looks sharper but books the same number of jobs, or it goes live and the rankings drop off a cliff. We avoid both. We redesign Irving contractor sites for speed and conversions, build them to take a hail-season traffic surge, and run an SEO-safe migration with the redirects that hold on to the traffic you already earned.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You guard SEO through a redesign by holding your URL structure in place, or mapping a 301 redirect for every page that changes, keeping your existing content and metadata intact, carrying your schema across, and running the whole thing on staging before it goes live. Handled that way, an Irving redesign protects your rankings and usually lifts them, since the new build loads faster, leads with mobile, and is laid out cleaner than the old one.",
@@ -365,7 +365,7 @@ export const irvingLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild phone-first and tune for a quick load and clean Core Web Vitals, which lifts both your conversions and your rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely. The site, the domain, and the content are all yours. No platform you are locked onto." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a single one-time project. Anything ongoing, whether maintenance or SEO, runs month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign needs to repair, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Irving Website Redesign needs to repair, and a fixed-price quote with a timeline and an SEO-safe migration plan." },
     ],
   },
 ];
@@ -373,12 +373,12 @@ export const irvingLocations = [
 export const irvingCity = {
   citySlug: 'irving', city: 'Irving', state: 'Texas', stateAbbr: 'TX', metro: 'Irving-Las Colinas',
 
-  titleTag: 'Irving Contractor Marketing Agency | OnwardCraft',
+  titleTag: 'Irving Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Irving contractors. Get found, get booked, and keep your leads instead of renting them, all built for North Texas storm demand.',
+    'Irving marketing for contractors: web design, SEO, and local SEO that get you found, get you booked, and keep your leads instead of renting them, built for storm demand.',
 
   eyebrow: 'Irving · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Irving contractors found and booked',
+  h1: 'Irving marketing for contractors who want to own their leads',
   h2Exact: 'Irving Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Irving's affluent, globally diverse, storm-driven market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const irvingCity = {
   primaryCta: 'Get my free Irving audit',
 
   intro:
-    "If you run a contracting business in Irving, you're competing for attention right at the center of the DFW Metroplex, against an affluent Las Colinas executive base, a globally diverse homeowner market, and competition that climbs along with it. Winning here takes three pieces pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that lands you in the Map Pack, all set before the next hailstorm sends demand through the roof. Here is how we help Irving contractors pull that off.",
+    "Irving marketing for contractors comes down to competing for attention right at the center of the DFW Metroplex, against an affluent Las Colinas executive base, a globally diverse homeowner market, and competition that climbs along with it. Winning here takes three pieces pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that lands you in the Map Pack, all set before the next hailstorm sends demand through the roof. Here is how we help Irving contractors pull that off.",
   aioQuestion: 'How do Irving contractors get more leads online?',
   aioAnswer:
     "Irving contractors pull in more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that takes the Google Map Pack. Since Irving is affluent and globally diverse and demand jumps hard during North Texas hail and freeze events, the contractors who read as established and are already ranking before the storm capture the most work.",
@@ -422,6 +422,6 @@ export const irvingCity = {
     { q: 'Why does hail season matter for my marketing?', a: "When a North Texas hailstorm strikes Irving, roofing, restoration, and HVAC demand jumps overnight and the backlog can stretch for months. Rankings take months to build, so the contractors already visible when the cell hits are the ones who book that work. We get you in place ahead of the spring storm window." },
     { q: 'How much does it cost to work with you?', a: "Sites are one-time builds running $2,000 to $9,000. SEO and local SEO go month-to-month from $750 to $3,000, with no long contract attached. We settle the exact scope together in your free audit." },
     { q: 'Which Irving areas do you serve?', a: "All of Irving and the mid-cities around it: Las Colinas, Valley Ranch, Hackberry Creek, Coppell, Grapevine, Euless, Farmers Branch, Carrollton and more." },
-    { q: 'Where should I start?', a: "Begin with a free Irving audit. We will go through your site, your rankings, and your Map Pack standing, then point you to the one or two moves that bring in the most work the fastest. No glossy deck, just a plan." },
+    { q: 'Where should I start?', a: "Begin with a free Irving audit. We will go through your site, your rankings, and your Map Pack standing, then point you to the one or two moves in your Irving marketing for contractors that bring in the most work the fastest. No glossy deck, just a plan." },
   ],
 };

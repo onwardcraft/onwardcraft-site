@@ -110,17 +110,17 @@ export const lexingtonLocations = [
   {
     ...BASE,
     citySlug: 'lexington', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Lexington KY Local SEO Company | OnwardCraft',
+    titleTag: 'Lexington Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Lexington and three businesses show up on the map. We get you into those three, so the call lands with you, not a competitor.',
+      'Lexington Local SEO that puts you in the top three on the map, so the call lands with you, not a competitor across the bluegrass.',
     eyebrow: 'Local SEO · Lexington, KY',
-    h1: 'When Lexington searches for what you do, be the first name they find',
+    h1: 'Lexington Local SEO that ranks you above the bluegrass competition on the map',
     h2Exact: 'Lexington Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me\" in Lexington. Everyone below them is mostly invisible. Whether the homeowner is in Chevy Chase or calling after an ice storm leveled half their roof, we get you into that top three so the call lands with you.",
     primaryCta: 'Get my free Lexington audit',
     intro:
-      "Lexington local SEO comes down to one thing: when a homeowner in Chevy Chase or a horse-farm property manager near Keeneland searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. The market here blends historic urban neighborhoods with rural farm country and a large UK student population, and getting into those three spots for the areas you actually serve is the whole game. Here's how you do it.",
+      "Lexington Local SEO comes down to one thing: when a homeowner in Chevy Chase or a horse-farm property manager near Keeneland searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. The market here blends historic urban neighborhoods with rural farm country and a large UK student population, and winning the local 3-pack for the areas you actually serve, with a sharp Google Business Profile behind it, is the whole game. Here's how you do it.",
     aioQuestion: 'How do Lexington businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you serve; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to specific Lexington neighborhoods and surrounding counties. In a market that blends urban renovations with rural horse-country property work, the winners target tight service areas, like Chevy Chase, Nicholasville, Georgetown, and the horse-farm belt, and stay visible before the seasonal demand spikes from ice storms and tornado season.",
@@ -168,7 +168,7 @@ export const lexingtonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more local research starts in AI now. We structure your content and schema so those engines can read, trust, and cite your business: it's becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms charge you for leads three other Lexington contractors bought at the same time. We build rankings, a Google profile, and a review base that route the homeowner straight to you and nobody else. As that visibility grows, the broker invoices shrink, because the work is already finding you." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across Lexington and the surrounding counties, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers modeled for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across Lexington and the surrounding counties, what your Map Pack competitors are doing to beat you, and the fixes that will move you fastest. You leave with a realistic 90-to-180-day plan for Lexington Local SEO, with the numbers modeled for your business. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -176,17 +176,17 @@ export const lexingtonLocations = [
   {
     ...BASE,
     citySlug: 'lexington', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Lexington KY SEO Company | OnwardCraft',
+    titleTag: 'Lexington SEO Company | Rank on Google, Own Your Leads | OnwardCraft',
     metaDescription:
-      'Lexington SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a bluegrass market.',
+      'Lexington SEO that climbs contractors past the competition on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts.',
     eyebrow: 'SEO Services · Lexington, KY',
-    h1: 'Get your Lexington business to the top of Google and keep it there',
+    h1: 'Lexington SEO that climbs you past the bluegrass competition on Google',
     h2Exact: 'Lexington SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Lexington customers search, from Chevy Chase homeowners to horse-farm property managers, and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
     primaryCta: 'Get my free Lexington SEO audit',
     intro:
-      "Lexington SEO comes down to one question: when someone in Chevy Chase, Nicholasville, or Georgetown searches what you do, are you on page one or page two? Page two might as well not exist. We get contractors ranking for the money keywords across Lexington and the bluegrass counties, and we measure it in leads, not vanity traffic.",
+      "Lexington SEO comes down to one question: when someone in Chevy Chase, Nicholasville, or Georgetown searches what you do, are you on page one or page two of Google? Page two might as well not exist. As a Lexington SEO company built for the trades, we get contractors ranking for the money keywords across Lexington and the bluegrass counties, growing organic traffic that we measure in leads, not vanity numbers.",
     aioQuestion: 'How do Lexington businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content tied to specific Lexington neighborhoods and surrounding bluegrass counties, and earning links from trusted Kentucky sources. In this market, ranking ahead of the seasonal ice-storm and tornado-season demand spikes, and reaching the rural horse-property segment as well as the urban renovation market, are two of the quickest ways to pull ahead of competitors.",
@@ -234,7 +234,7 @@ export const lexingtonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business alongside classic search results." },
       { q: 'Which areas around Lexington do you cover?', a: "Lexington proper plus Nicholasville, Georgetown, Richmond, Winchester, Paris, and the surrounding bluegrass counties, with genuine local pages for each area rather than one generic Lexington page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "We build the rankings and Google presence that route a Lexington homeowner straight to you. The more of that search visibility you own outright, the less you have to pay a broker for a lead three competitors are also calling." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across Lexington and the surrounding counties, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today across Lexington and the surrounding counties, what your competitors are doing to beat you, and the highest-impact fixes. It is a straight read on what Lexington SEO can do for your business, with a realistic timeline and the numbers modeled for your shop. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -242,17 +242,17 @@ export const lexingtonLocations = [
   {
     ...BASE,
     citySlug: 'lexington', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Lexington KY Web Design Company | OnwardCraft',
+    titleTag: 'Lexington Web Design Company | Fast Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'Lexington web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors serving the bluegrass market.',
+      'Lexington Web Design that loads fast and books more jobs: mobile-first sites built for contractors serving the bluegrass market.',
     eyebrow: 'Web Design · Lexington, KY',
-    h1: 'Lexington web design that turns visitors into booked jobs',
+    h1: 'Lexington Web Design that loads fast and books more bluegrass jobs',
     h2Exact: 'Lexington Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Lexington contractors fast, mobile-first sites engineered to turn visitors into booked work, whether the homeowner is in Chevy Chase, a rental landlord near UK campus, or a horse-farm property manager out past Keeneland.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Lexington contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer for the work you actually want. Web design done right fixes all of that. We build sites that load fast, look professional, and convert visitors, from Ashland Park homeowners to Georgetown farm-country clients, into booked jobs. Built to stand out in a regional market where trust and local identity matter.",
+      "Lexington Web Design is the quiet difference between a site that books work and one that loses leads: slow on a phone, buried call button, no clear offer for the work you actually want. A website built right fixes all of that. We build contractor sites that load fast, look professional, and convert visitors, from Ashland Park homeowners to Georgetown farm-country clients, into booked jobs. Mobile-first, and built to stand out in a regional market where trust and local identity matter.",
     aioQuestion: 'What makes a good contractor website in Lexington?',
     aioAnswer:
       "A good Lexington contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods and surrounding counties you serve. Bluegrass homeowners have a strong preference for local contractors they trust, so a site that feels genuinely Lexington, not a national template with the city name changed, converts better and ranks better.",
@@ -300,7 +300,7 @@ export const lexingtonLocations = [
       { q: 'What platform do you build on?', a: "We choose the platform that suits your needs and that you can run yourself, which usually means WordPress or Webflow. During the free consult we tell you which one fits and walk through the tradeoffs in plain terms." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build comes with launch support, and after that we offer low-cost monthly maintenance covering updates, load speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Anything ongoing, whether maintenance or SEO, runs month-to-month, so you can step away whenever you choose." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Lexington contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Lexington contractor site should include, and a fixed-price quote with a timeline. It is the fastest way to see what Lexington Web Design that converts visitors into booked jobs would do for your shop. No pressure, just a plan." },
     ],
   },
 
@@ -308,17 +308,17 @@ export const lexingtonLocations = [
   {
     ...BASE,
     citySlug: 'lexington', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Lexington KY Website Redesign | OnwardCraft',
+    titleTag: 'Lexington Website Redesign | SEO-Safe Rebuilds | OnwardCraft',
     metaDescription:
-      'Redesign your Lexington website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across the bluegrass.',
+      'Lexington Website Redesign done with a careful, SEO-safe migration. Faster, mobile-first rebuilds that convert more visitors into booked jobs.',
     eyebrow: 'Website Redesign · Lexington, KY',
-    h1: 'Redesign your Lexington website without losing your rankings',
+    h1: 'Lexington Website Redesign done with a careful, SEO-safe migration',
     h2Exact: 'Lexington Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week: slow, hard to use on a phone, and easy for a Lexington homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've already built.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Lexington contractor sites for speed and conversions, build them to earn trust from bluegrass homeowners and horse-property clients, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Lexington Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Lexington contractor sites for speed and conversions, build them to earn trust from bluegrass homeowners and horse-property clients, and run an SEO-safe migration with the redirects and care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one, and in a market like Lexington, that also means a site that feels genuinely local rather than a national template.",
@@ -366,7 +366,7 @@ export const lexingtonLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings, and is essential when people are searching urgently after storm damage." },
       { q: 'Do I own the redesigned site?', a: "Completely. The site, the domain, and the content all belong to you, with no platform lock-in to worry about later." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project, and anything ongoing, whether maintenance or SEO, stays month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A straight read on what the current site is costing you in Lexington leads and rankings, the specific things the redesign should fix, and a fixed-price quote that includes a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A straight read on what the current site is costing you in Lexington leads and rankings, and the specific things the rebuild should fix. You get a fixed-price quote for your Lexington Website Redesign that includes a timeline and an SEO-safe migration plan, so you keep every ranking you have earned." },
     ],
   },
 ];
@@ -374,12 +374,12 @@ export const lexingtonLocations = [
 export const lexingtonCity = {
   citySlug: 'lexington', city: 'Lexington', state: 'Kentucky', stateAbbr: 'KY', metro: 'Lexington',
 
-  titleTag: 'Lexington KY Marketing for Contractors | OnwardCraft',
+  titleTag: 'Lexington Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Lexington contractors. Get found across the bluegrass market, own your leads, and stop renting them, all built for Kentucky.',
+    'Lexington marketing for contractors: web design, SEO, and local SEO that get you found across the bluegrass, own your leads, and fill your calendar.',
 
   eyebrow: 'Lexington, KY · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Lexington contractors found and booked',
+  h1: 'Lexington marketing for contractors that fills your bluegrass calendar',
   h2Exact: 'Lexington Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Lexington's blend of historic neighborhoods, horse-country estates, and a college-town rental market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -387,7 +387,7 @@ export const lexingtonCity = {
   primaryCta: 'Get my free Lexington audit',
 
   intro:
-    "If you run a contracting business in Lexington, you're operating in a market that's unlike any other: a city where a Chevy Chase historic renovation is across town from a horse-farm property near Keeneland, where the University of Kentucky generates constant rental demand, and where a single ice storm in January can create a two-week surge in roofing and tree calls that goes entirely to whoever ranks first on Google. Winning here takes three things working together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for Lexington and the surrounding bluegrass counties. Here's how we help Lexington contractors do exactly that.",
+    "Lexington marketing for contractors has to fit a market that's unlike any other: a city where a Chevy Chase historic renovation is across town from a horse-farm property near Keeneland, where the University of Kentucky generates constant rental demand, and where a single ice storm in January can create a two-week surge in roofing and tree calls that goes entirely to whoever ranks first on Google. Winning here takes three things working together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for Lexington and the surrounding bluegrass counties. Here's how we help Lexington contractors do exactly that.",
   aioQuestion: 'How do Lexington contractors get more leads online?',
   aioAnswer:
     "Lexington contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack across the city's neighborhoods and surrounding bluegrass counties. The contractors who win this market show up before the seasonal demand spikes, like ice-storm damage in January and February, tornado-season repairs in spring, and summer HVAC calls, and they earn trust by looking genuinely local, not like a national template with the city name swapped in.",
@@ -423,6 +423,6 @@ export const lexingtonCity = {
     { q: 'Why does the Lexington market need a different approach?', a: "Because it's genuinely different. You're serving historic urban neighborhoods, suburban growth areas, rural horse-country estates, and a university rental market all at once, plus three distinct weather-driven demand spikes every year. A national template with the city name changed doesn't cover any of that. We build for the actual Lexington market." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000 with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Lexington areas do you serve?', a: "All of Lexington's neighborhoods, including Chevy Chase, Ashland Park, Kenwick, Beaumont, Hamburg and more, plus the surrounding counties: Nicholasville, Georgetown, Richmond, Winchester, Paris, and across Jessamine, Scott, Clark, and Bourbon counties." },
-    { q: 'Where should I start?', a: "Start with a free Lexington audit. We'll look at your website, your rankings across the city and surrounding counties, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Lexington audit. We'll look at your website, your rankings across the city and surrounding counties, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It is the simplest first step into Lexington marketing for contractors that gets you found and booked. No pitch deck, just a plan." },
   ],
 };

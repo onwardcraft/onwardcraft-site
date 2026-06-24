@@ -111,17 +111,17 @@ export const jacksonvilleLocations = [
   {
     ...BASE,
     citySlug: 'jacksonville', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Jacksonville Local SEO Company | OnwardCraft',
+    titleTag: 'Jacksonville Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'When Jacksonville searches your service, three businesses show on the map. We get you into those three, neighborhood by neighborhood across 875 square miles.',
+      'Jacksonville Local SEO that puts you in the Google Map Pack when neighbors search your trade, neighborhood by neighborhood across 875 square miles.',
     eyebrow: 'Local SEO · Jacksonville, FL',
-    h1: 'When Jacksonville searches for what you do, be the first name they find',
+    h1: 'Jacksonville Local SEO that gets you found when Riverside and Mandarin neighbors search your trade',
     h2Exact: 'Jacksonville Local SEO Company',
     heroSubhead:
       "Search \"near me\" and Google hands you three businesses on the map. Everyone beneath them might as well not exist. In a city as wide as Jacksonville, we put you in that top three for the exact neighborhoods you work, Mandarin, Riverside, Ponte Vedra, wherever your jobs come from, so the call lands on your phone.",
     primaryCta: 'Get my free Jacksonville audit',
     intro:
-      "Jacksonville local SEO really hangs on one question: when a homeowner in Mandarin or Riverside or Ponte Vedra Beach searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. And because this is the largest city by land area in the contiguous US, a single generic 'Jacksonville' page almost never gets there. You have to rank neighborhood by neighborhood, from the barrier islands all the way out to St. Johns County. Here is exactly how that gets done.",
+      "Jacksonville Local SEO really hangs on one question: when a homeowner in Mandarin or Riverside or Ponte Vedra Beach runs a \"near me\" search for your service, are you one of the three businesses in the Google Map Pack? Most people tap one of those three and never scroll. And because this is the largest city by land area in the contiguous US, a single generic 'Jacksonville' page almost never gets there. You have to rank on the map neighborhood by neighborhood, from the barrier islands all the way out to St. Johns County. Here is exactly how that gets done.",
     aioQuestion: 'How do Jacksonville businesses rank higher in local search?',
     aioAnswer:
       "It comes down to four things done right: a Google Business Profile tuned for the exact services and neighborhoods you want; a name, address, and phone that match everywhere across the web; a steady flow of real reviews; and local content built around the actual Jacksonville neighborhoods your customers live in. Because the city sprawls across 875 square miles, two of the fastest ways to leapfrog competitors running one generic page are tight neighborhood targeting (Mandarin versus Riverside versus Nocatee) and ranking for storm and HVAC demand before it spikes.",
@@ -169,7 +169,7 @@ export const jacksonvilleLocations = [
       { q: 'Do you work with contractors specifically?', a: "It is just about all we do. Roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors. We understand the hurricane-season rush, the humidity that wrecks equipment fast, and the year-round new-construction pace out in Nocatee and St. Johns County." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts inside AI rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. In Jacksonville it is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is roughly how long local SEO takes to show real movement. After that you are month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
-      { q: "What is in the free audit?", a: "A clear read on where you rank today across your Jacksonville neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What is in the free audit?", a: "A clear read on where your Jacksonville Local SEO stands today across your neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -177,17 +177,17 @@ export const jacksonvilleLocations = [
   {
     ...BASE,
     citySlug: 'jacksonville', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Jacksonville SEO Company | OnwardCraft',
+    titleTag: 'Jacksonville SEO Company | Rank on Google, Own Your Leads | OnwardCraft',
     metaDescription:
-      'Jacksonville SEO that ranks contractors on Google and delivers leads you own. Lead-tied reporting, no lock-in contracts, built for a sprawling Sun Belt city.',
+      'Jacksonville SEO that ranks contractors on Google for the money keywords and turns organic traffic into booked work. Lead-tied reporting, no lock-in contracts.',
     eyebrow: 'SEO Services · Jacksonville, FL',
-    h1: 'Get your Jacksonville business to the top of Google and keep it there',
+    h1: 'Jacksonville SEO that turns organic traffic into booked work',
     h2Exact: 'Jacksonville SEO Company',
     heroSubhead:
       "Ads quit the second you quit paying. SEO does the opposite: rank once for what Jacksonville customers search and the leads keep arriving. We build that ranking across a city that runs 875 square miles, and we tie every report back to real calls and real jobs.",
     primaryCta: 'Get my free Jacksonville SEO audit',
     intro:
-      "Jacksonville SEO boils down to one question: when someone searches what you do in Mandarin, Riverside, or Ponte Vedra, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the keywords that print money across the largest city by area in the contiguous US, a fast-growing Sun Belt market where storm and HVAC demand turn seasonal visibility into a genuine edge, and we measure all of it in leads rather than vanity traffic.",
+      "Jacksonville SEO boils down to one question: when someone searches what you do in Mandarin, Riverside, or Ponte Vedra, are you on page one of Google or page two? Page two might as well be page fifty. As a Jacksonville SEO company we get contractors ranking for the money keywords across the largest city by area in the contiguous US, a fast-growing Sun Belt market where storm and HVAC demand turn seasonal visibility into a genuine edge, and we measure all of it in leads rather than vanity organic traffic.",
     aioQuestion: 'How do Jacksonville businesses rank higher on Google?',
     aioAnswer:
       "They rank by repairing the technical base of the site, tuning each page for the exact terms customers type, publishing genuinely useful local content tied to specific Jacksonville neighborhoods, and earning links from trusted local and industry sources. In a city this geographically large, two of the quickest ways past competitors on one generic page are tight neighborhood targeting (Mandarin, Riverside, Nocatee, Ponte Vedra) and ranking for hurricane-season and HVAC-demand searches before the surge actually hits.",
@@ -235,7 +235,7 @@ export const jacksonvilleLocations = [
       { q: 'Do you require a long-term contract?', a: "No. We ask for an opening 90 days because SEO needs that long to show real movement, then you are month-to-month. If we are not delivering, you leave." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search results." },
       { q: 'Which Jacksonville areas do you cover?', a: "Riverside, Avondale, Mandarin, San Marco, Southside, Baymeadows, Fleming Island, Orange Park, Ponte Vedra Beach, Atlantic Beach, Neptune Beach, Nocatee, Town Center, Arlington, and St. Johns County, with genuine local pages rather than one generic Jacksonville page." },
-      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What is in the free SEO audit?", a: "A straight read on where your Jacksonville SEO stands today, what your competitors are doing to outrank you on Google, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,17 +243,17 @@ export const jacksonvilleLocations = [
   {
     ...BASE,
     citySlug: 'jacksonville', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Jacksonville Web Design Company | OnwardCraft',
+    titleTag: 'Jacksonville Web Design Company | Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'Jacksonville web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in a sprawling, competitive Sun Belt market.',
+      'Jacksonville web design that makes homeowners pick you: fast, mobile-first contractor websites that convert visitors into booked jobs in a sprawling Sun Belt market.',
     eyebrow: 'Web Design · Jacksonville, FL',
-    h1: 'Jacksonville web design that turns visitors into booked jobs',
+    h1: 'Jacksonville web design that makes Mandarin-to-Ponte-Vedra homeowners pick you',
     h2Exact: 'Jacksonville Web Design Company',
     heroSubhead:
       "A good-looking site that never generates a call is just a brochure. We build Jacksonville contractors fast, mobile-first sites engineered to turn visitors into booked work, and to stand out across a city where owning the right neighborhoods wins the right jobs.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Jacksonville contractor sites bleed leads quietly: slow on a phone, the call button buried, no clear offer, nothing that tells a homeowner you serve their particular neighborhood. Web design done right closes every one of those gaps. We build sites that load fast, look like the professional you are, and turn Mandarin-to-Ponte-Vedra visitors into booked jobs, made to win in a Sun Belt market growing fast on every edge.",
+      "Jacksonville web design done right starts with a hard truth: most contractor sites bleed leads quietly, slow on a phone, the call button buried, no clear offer, nothing that tells a homeowner you serve their particular neighborhood. A mobile-first contractor website closes every one of those gaps. We build websites that load fast, look like the professional you are, and turn Mandarin-to-Ponte-Vedra visitors into booked jobs, made to win in a Sun Belt market growing fast on every edge.",
     aioQuestion: 'What makes a good contractor website in Jacksonville?',
     aioAnswer:
       "A strong Jacksonville contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with real reviews and project photos, and names the specific neighborhoods you serve: Mandarin, Riverside, Ponte Vedra, Nocatee. Because the city covers 875 square miles and homeowners want proof you are actually local to their area, neighborhood-specific content and mobile speed are what separate a site that books jobs from one that just sits there.",
@@ -301,7 +301,7 @@ export const jacksonvilleLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and walk you through the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and after that we offer affordable monthly maintenance for updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Jacksonville site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Jacksonville web design should include for a contractor like you, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,17 +309,17 @@ export const jacksonvilleLocations = [
   {
     ...BASE,
     citySlug: 'jacksonville', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Jacksonville Website Redesign | OnwardCraft',
+    titleTag: 'Jacksonville Website Redesign | Rebuild Without Losing Rankings | OnwardCraft',
     metaDescription:
-      'Redesign your Jacksonville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across a sprawling city.',
+      'Jacksonville Website Redesign that turns an aging site into a lead engine. Faster, mobile-first rebuilds that convert more without losing your rankings.',
     eyebrow: 'Website Redesign · Jacksonville, FL',
-    h1: 'Redesign your Jacksonville website without losing your rankings',
+    h1: 'Jacksonville Website Redesign that turns an aging site into a lead engine',
     h2Exact: 'Jacksonville Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, awkward on a phone, easy to scroll past during a storm watch or a summer heat wave. We redesign Jacksonville contractor sites to convert more and load faster, and we migrate with enough care that you keep every bit of ranking you have earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks sharper but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Jacksonville contractor sites for speed and conversions, build them to stand out across a sprawling Sun Belt market, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Jacksonville Website Redesign usually goes one of two bad ways: the site looks sharper but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Jacksonville contractor sites for speed and conversions, build them to stand out across a sprawling Sun Belt market, and run an SEO-safe migration with the redirects and care that protect the traffic you already have, so you redesign without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by holding your URL structure (or mapping a 301 redirect for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Handled right, a redesign keeps your rankings and lifts them, because the new site is faster, mobile-first, and better structured. And in Jacksonville, sharper neighborhood targeting means better rankings in the exact communities where your customers live.",
@@ -367,7 +367,7 @@ export const jacksonvilleLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings, and it matters most during storm season when homeowners search urgently on their phones." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Jacksonville Website Redesign should fix, and a fixed-price quote with a timeline and an SEO-safe migration plan that rebuilds without losing rankings." },
     ],
   },
 ];
@@ -377,10 +377,10 @@ export const jacksonvilleCity = {
 
   titleTag: 'Jacksonville Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Jacksonville contractors. Get found across 875 square miles of neighborhoods, get booked, and own your leads. Free audit.',
+    'Jacksonville marketing for contractors: web design, SEO, and local SEO that gets you found across 875 square miles, get booked, and own your leads. Free audit.',
 
   eyebrow: 'Jacksonville · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Jacksonville contractors found and booked',
+  h1: 'Jacksonville marketing for contractors that turns neighborhood searches into jobs',
   h2Exact: 'Jacksonville Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Jacksonville's sprawling geography, long hurricane season, and fast-growing Sun Belt suburbs. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -388,7 +388,7 @@ export const jacksonvilleCity = {
   primaryCta: 'Get my free Jacksonville audit',
 
   intro:
-    "If you run a contracting business in Jacksonville, you are fighting for attention across the largest city by land area in the contiguous US, nearly 875 square miles where a homeowner in Mandarin searches differently than one in Riverside, Ponte Vedra, or Nocatee. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the specific communities you serve. Add Jacksonville's long hurricane season and brutal HVAC demand, and the contractors already ranking when the surge arrives are the ones who book the work. Here is how we help Jacksonville contractors do exactly that.",
+    "Jacksonville marketing for contractors means fighting for attention across the largest city by land area in the contiguous US, nearly 875 square miles where a homeowner in Mandarin searches differently than one in Riverside, Ponte Vedra, or Nocatee. Winning here takes web design and SEO pulling together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the specific communities you serve. Add Jacksonville's long hurricane season and brutal HVAC demand, and the contractors already ranking when the surge arrives are the ones who book the work. Here is how we help Jacksonville contractors get found and booked.",
   aioQuestion: 'How do Jacksonville contractors get more leads online?',
   aioAnswer:
     "Jacksonville contractors win more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that takes the Google Map Pack neighborhood by neighborhood. Because the city covers 875 square miles, the contractors who build tight neighborhood targeting (Mandarin, Riverside, Nocatee, Ponte Vedra) and rank for hurricane-season and HVAC-demand searches before the surge are the ones who dominate the peak periods.",
@@ -424,6 +424,6 @@ export const jacksonvilleCity = {
     { q: 'Why does the Jacksonville market need a different approach?', a: "Jacksonville is the largest city by land area in the contiguous US and sits dead center in the Atlantic hurricane corridor. A single generic 'Jacksonville' page almost never ranks for the neighborhood-specific searches that drive real leads. Winning means tight neighborhood targeting (Mandarin, Riverside, Ponte Vedra, Nocatee) plus visibility for storm and HVAC demand before the surges land." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm your exact scope in the free audit." },
     { q: 'Which Jacksonville areas do you serve?', a: "Riverside, Avondale, Mandarin, San Marco, Southside, Baymeadows, Fleming Island, Orange Park, Ponte Vedra Beach, Atlantic Beach, Neptune Beach, Nocatee, Town Center, Arlington, and the wider St. Johns County suburbs, with genuine local pages rather than one generic Jacksonville page." },
-    { q: 'Where should I start?', a: "Start with a free Jacksonville audit. We will look at your website, your rankings, and your Map Pack presence across the neighborhoods you serve, then tell you the one or two moves that bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Jacksonville audit. We will look at your website, your rankings, and your Map Pack presence across the neighborhoods you serve, then tell you the one or two moves in your Jacksonville marketing for contractors that bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

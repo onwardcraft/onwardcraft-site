@@ -109,17 +109,17 @@ export const indianapolisLocations = [
   {
     ...BASE,
     citySlug: 'indianapolis', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Indianapolis Local SEO Company | OnwardCraft',
+    titleTag: 'Indianapolis Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Indianapolis and three businesses fill the map. We get you into those three before hail season and the next cold snap arrive.',
+      'Indianapolis Local SEO that lands you in the Google Map Pack before hail season and the next cold snap arrive, so "near me" searches ring your phone.',
     eyebrow: 'Local SEO · Indianapolis',
-    h1: 'When Indianapolis searches for what you do, be the first name on the map',
+    h1: 'Indianapolis Local SEO that puts your business in the Map Pack from Carmel to Greenwood',
     h2Exact: 'Indianapolis Local SEO Company',
     heroSubhead:
       "Google pins exactly three businesses to the map on a \"near me\" search, and everyone underneath them is basically invisible. In hail country, we get you into that top three before the cell rolls through, so the call lands on you instead of whoever rushed to rank once the damage was already done.",
     primaryCta: 'Get my free Indianapolis audit',
     intro:
-      "Indianapolis local SEO really comes down to one question: when a homeowner in Carmel or Greenwood searches your service plus \"near me,\" are you one of the three names Google pins to the map? Most people tap one of those three and never scroll a pixel further. This market runs on hail and hard winters, and the contractors who own the Map Pack before demand spikes catch the surge. Everyone else fights over what is left. Here is how we get you into those three spots and keep you there.",
+      "Indianapolis Local SEO really comes down to one question: when a homeowner in Carmel or Greenwood searches your service plus \"near me,\" are you one of the three names Google pins to the map? Most people tap one of those three and never scroll a pixel further. This market runs on hail and hard winters, and the local SEO services that own the Google Map Pack before demand spikes catch the surge. Everyone else fights over what is left. Here is how we get you into those three spots and keep you there.",
     aioQuestion: 'How do Indianapolis businesses rank higher in local search?',
     aioAnswer:
       "You rank by nailing four things: a Google Business Profile tuned to the exact services and suburbs you want to win, a name, address, and phone number that match everywhere on the web, a steady drip of real reviews, and local content tied to actual Indianapolis neighborhoods. In a hail market the extra edge is being fully optimized before storm season and winter arrive, so Google already trusts you when demand jumps and homeowners find you at the top exactly when they need help.",
@@ -167,7 +167,7 @@ export const indianapolisLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business by name. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO takes to show real movement. After that it runs month-to-month. If we are not delivering, you walk with no penalty." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads, and when every Indianapolis homeowner needs a roofer at once after a hail cell, prices spike and the same lead goes to three contractors. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less because the work arrives directly." },
-      { q: "What is in the free audit?", a: "A clear read on where you rank today across your suburbs, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What is in the free audit?", a: "A clear read on where you rank today across your suburbs, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is a straight, no-pitch diagnosis of exactly what Indianapolis Local SEO can do for your business." },
     ],
   },
 
@@ -177,15 +177,15 @@ export const indianapolisLocations = [
     citySlug: 'indianapolis', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Indianapolis SEO Company | OnwardCraft',
     metaDescription:
-      'Indianapolis SEO that ranks contractors on Google before hail season and hard winters hit. Lead-tied reporting, no lock-in, built for a storm market.',
+      'Indianapolis SEO that ranks contractors at the top of Google before hail season and hard winters hit. Lead-tied reporting, no lock-in, built for a storm market.',
     eyebrow: 'SEO Services · Indianapolis',
-    h1: 'Get your Indianapolis business to the top of Google and keep it there',
+    h1: 'Indianapolis SEO that gets you to the top of Google before hail season and keeps you there',
     h2Exact: 'Indianapolis SEO Company',
     heroSubhead:
       "Ads quit the second your card stops. SEO does the reverse: rank once for what your Indianapolis customers search and the leads keep arriving, including the moment a hail cell hits and every homeowner in the metro is searching at the same time.",
     primaryCta: 'Get my free Indianapolis SEO audit',
     intro:
-      "Indianapolis SEO comes down to one question: when a homeowner in Fishers or Greenwood searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in a market shaped by violent hail seasons, hard winters, and a wide buyer range, and we measure the work in booked leads rather than vanity traffic. Here is how that comes together.",
+      "Indianapolis SEO comes down to one question: when a homeowner in Fishers or Greenwood searches what you do, are you on page one or page two of Google? Page two might as well be page fifty. As your Indianapolis SEO company we get contractors ranking for the money keywords in a market shaped by violent hail seasons, hard winters, and a wide buyer range, and we measure search engine optimization in booked leads and organic traffic rather than vanity numbers. Here is how that comes together.",
     aioQuestion: 'How do Indianapolis businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content tied to specific suburbs and neighborhoods, and earning links from trusted Indianapolis sources. In a hail market, one of the fastest ways to pull ahead is ranking for hail damage, storm repair, and heating emergency searches before the season spikes, so you catch the surge when it lands instead of chasing it afterward.",
@@ -233,7 +233,7 @@ export const indianapolisLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which Indianapolis suburbs do you cover?', a: "Everywhere across the metro: Broad Ripple, Fountain Square, Mass Ave, Butler-Tarkington, Meridian-Kessler, Carmel, Fishers, Zionsville, Noblesville, Greenwood, Avon, Plainfield, Westfield, Brownsburg, and beyond. We build genuine suburb pages rather than one generic Indianapolis page, because that is what ranks for \"[service] [suburb]\" searches." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads directly to you. The more you own your search visibility, the less you lean on brokers for shared leads, especially during storm season when everyone is competing over the same homeowners." },
-      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is a straight diagnosis of what Indianapolis SEO can do to get you on page one, not a pitch deck." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const indianapolisLocations = [
     metaDescription:
       'Indianapolis web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in a storm-season market. Get a free quote.',
     eyebrow: 'Web Design · Indianapolis',
-    h1: 'Indianapolis web design that turns visitors into booked jobs',
+    h1: 'Indianapolis web design that turns post-storm visitors into booked jobs',
     h2Exact: 'Indianapolis Web Design Company',
     heroSubhead:
       "A pretty website that never rings the phone is just a brochure. We build Indianapolis contractors fast, mobile-first sites engineered to turn visitors into booked work, and to convert hard the moment hail season hits and homeowners are searching with their thumbs already on the call button.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Indianapolis contractor websites bleed leads quietly: slow on a phone, the call button buried, no clear offer anywhere. Web design done right closes every one of those leaks. We build sites that load fast, look like the pro you already are, and turn visitors from Carmel to Greenwood into booked jobs, ready to convert when a hail cell brings a surge and when a January cold snap fires off heating calls overnight. Here is what goes into one.",
+      "Indianapolis web design done right closes the leaks that bleed contractor websites dry: slow on a phone, the call button buried, no clear offer anywhere. As your Indianapolis web design company we build sites that load fast, look like the pro you already are, and turn visitors from Carmel to Greenwood into booked jobs, mobile-first and ready to convert when a hail cell brings a surge and when a January cold snap fires off heating calls overnight. Here is what goes into one.",
     aioQuestion: 'What makes a good contractor website in Indianapolis?',
     aioAnswer:
       "A good Indianapolis contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific suburbs and neighborhoods you serve. Because Indianapolis homeowners search urgently during storms and heating emergencies, the site has to make calling effortless, and because the market runs from premium suburbs like Carmel to value-focused neighborhoods closer to downtown, the messaging has to land with both.",
@@ -299,7 +299,7 @@ export const indianapolisLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Indianapolis contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting contractor site should include, and a fixed-price quote with a timeline. It is a plain plan for the Indianapolis web design that turns visitors into booked jobs, with no pressure attached." },
     ],
   },
 
@@ -311,13 +311,13 @@ export const indianapolisLocations = [
     metaDescription:
       'Redesign your Indianapolis website without losing rankings. Faster, mobile-first rebuilds that convert more visitors before hail season and hard winters.',
     eyebrow: 'Website Redesign · Indianapolis',
-    h1: 'Redesign your Indianapolis website without losing your rankings',
+    h1: 'Indianapolis Website Redesign that converts more before hail season without losing your rankings',
     h2Exact: 'Indianapolis Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every single week: slow, clumsy on a phone, easy to scroll past during a hail-season surge. We redesign Indianapolis contractor sites to convert more and load faster, and we migrate with enough care that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks sharper but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Indianapolis contractor sites for speed and conversions, build them around the hail-season and winter demand that drives this market, and migrate with the redirects and SEO care that protect the traffic you already have. Here is how it works.",
+      "An Indianapolis Website Redesign usually goes one of two bad ways: the site looks sharper but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. Our website redesign services rebuild Indianapolis contractor sites for speed and conversions, build them mobile-first around the hail-season and winter demand that drives this market, and run an SEO-safe migration with the redirects that protect the traffic you already have. Here is how it works.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping a 301 redirect for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one. That matters double in Indianapolis, where being visible before hail season or a winter cold snap is the difference between a booked calendar and picking through leftovers.",
@@ -365,7 +365,7 @@ export const indianapolisLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings. It matters most during storm season when homeowners are searching urgently on their phones." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in, no exceptions." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It maps exactly how an Indianapolis Website Redesign lifts your conversions without losing the rankings you already earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const indianapolisCity = {
 
   titleTag: 'Indianapolis Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Indianapolis contractors. Get found before hail season, own your leads, and quit paying for shared Angi leads.',
+    'Indianapolis marketing for contractors: web design, SEO, and local SEO that get you found before hail season, own your leads, and quit shared Angi leads.',
 
   eyebrow: 'Indianapolis · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Indianapolis contractors found and booked',
+  h1: 'Indianapolis marketing for contractors that gets you found and booked from Carmel to Greenwood',
   h2Exact: 'Indianapolis Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for a storm-season market. One team to get you ranking before hail season hits, converting from Carmel to Greenwood, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const indianapolisCity = {
   primaryCta: 'Get my free Indianapolis audit',
 
   intro:
-    "If you run a contracting business in Indianapolis, you are competing for work in a market shaped by hail alley, hard Midwest winters, and a buyer range that runs from premium homeowners in Carmel and Fishers to value-focused neighborhoods closer to downtown. Winning here takes three things pulling together: a site that converts when homeowners search urgently after a storm, SEO that ranks you before the season spikes, and local SEO that plants you in the Map Pack for the suburbs you serve. Here is how we help Indianapolis contractors do exactly that.",
+    "Indianapolis marketing for contractors means competing for work in a market shaped by hail alley, hard Midwest winters, and a buyer range that runs from premium homeowners in Carmel and Fishers to value-focused neighborhoods closer to downtown. Winning here takes three things pulling together: a site that converts when homeowners search urgently after a storm, SEO that ranks you before the season spikes, and local SEO that plants you in the Map Pack for the suburbs you serve. As a digital marketing agency built around the trades, here is how we help Indianapolis contractors do exactly that.",
   aioQuestion: 'How do Indianapolis contractors get more leads online?',
   aioAnswer:
     "Indianapolis contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches, especially storm-damage, hail repair, and heating emergency terms, plus local SEO that wins the Google Map Pack suburb by suburb. The contractors who rank before hail season and winter arrive catch the surge; everyone else chases it after the fact.",
@@ -422,6 +422,6 @@ export const indianapolisCity = {
     { q: 'Why does the Indianapolis market need a different approach?', a: "Indianapolis is hail alley. Major storm cells bring a huge surge in roofing and restoration demand, and the contractors already ranking catch that wave. The market also spans a wide income range: Carmel and Fishers rank among the wealthiest suburbs in the Midwest, while value-focused neighborhoods want dependable repair work. A generic national-agency playbook misses all of it." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Indianapolis suburbs and neighborhoods do you serve?', a: "Everywhere across the metro: Broad Ripple, Fountain Square, Mass Ave, Butler-Tarkington, Meridian-Kessler, Carmel, Fishers, Zionsville, Noblesville, Greenwood, Avon, Plainfield, Westfield, Brownsburg, and beyond." },
-    { q: 'Where should I start?', a: "Start with a free Indianapolis audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, including whether you are set up to catch the next storm surge. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Indianapolis audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, including whether you are set up to catch the next storm surge. It is a plain plan for Indianapolis marketing for contractors, not a pitch deck." },
   ],
 };

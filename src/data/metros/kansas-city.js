@@ -110,17 +110,17 @@ export const kansasCityLocations = [
   {
     ...BASE,
     citySlug: 'kansas-city', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Kansas City Local SEO Company | OnwardCraft',
+    titleTag: 'Kansas City Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search a trade in Kansas City and three businesses fill the map. We put you in those three, on both sides of the state line, so the call lands with you.',
+      'Kansas City Local SEO that wins you the top three on the map, on both sides of the state line, so the call lands with you instead of the next contractor.',
     eyebrow: 'Local SEO · Kansas City',
-    h1: 'When Kansas City searches for what you do, be the first name on the map',
+    h1: 'Kansas City Local SEO that wins you the top three on the map after every hail storm',
     h2Exact: 'Kansas City Local SEO Company',
     heroSubhead:
       "Google pins exactly three businesses to the map on a \"near me\" search. Everyone underneath them is basically invisible. In a metro where a single hail storm sends a thousand homeowners hunting for a roofer overnight, we get you into that top three on the Missouri side and the Kansas side, so the call rings your phone.",
     primaryCta: 'Get my free Kansas City audit',
     intro:
-      "Kansas City local SEO boils down to one moment: when a homeowner in Overland Park or Lee's Summit searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll an inch further. This is a two-state market with ferocious hail-season demand, fast-growing suburbs, and homeowners who lean toward local crews over national chains, and becoming one of those three across the neighborhoods you serve is the whole ballgame. Here is exactly how it gets done.",
+      "Kansas City Local SEO boils down to one moment: when a homeowner in Overland Park or Lee's Summit runs a \"near me\" search for your trade, are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll an inch further. This is a two-state local search market with ferocious hail-season demand, fast-growing suburbs, and homeowners who lean toward local crews over national chains, and a local SEO company that lands you in that top three across the neighborhoods you serve is running the whole ballgame. Here is exactly how it gets done.",
     aioQuestion: 'How do Kansas City businesses rank higher in local search?',
     aioAnswer:
       "You climb by nailing four things: a Google Business Profile tuned to the precise services and neighborhoods you want, consistent name, address and phone listings across the web, a steady drumbeat of real reviews, and local content tied to actual Kansas City suburbs on both sides of the state line. The two-state geography forces you to target Missouri and Kansas separately, because Overland Park and Olathe rank on a different board than Lee's Summit and Blue Springs. And since hail and storm demand can erupt overnight, the contractors already ranking when the sky turns green are the ones who catch every job.",
@@ -168,7 +168,7 @@ export const kansasCityLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now begins inside AI instead of classic search. We structure your content and schema so those engines can read, trust and cite your business. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it runs month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never get to keep. We build rankings, a Google profile and a review base that route leads straight to you. Over time, and especially after hail events and storm season, you lean on the brokers less because the work is already heading your way." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across both sides of the state line, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across both sides of the state line, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see what Kansas City Local SEO can do for your phone. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -176,11 +176,11 @@ export const kansasCityLocations = [
   {
     ...BASE,
     citySlug: 'kansas-city', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Kansas City SEO Company | OnwardCraft',
+    titleTag: 'Kansas City SEO Company | Rankings You Own | OnwardCraft',
     metaDescription:
-      'Kansas City SEO that ranks contractors on Google and delivers leads you own, on both sides of the state line. Revenue-tied reporting, no lock-in.',
+      'Kansas City SEO that builds rankings you actually own, ranking contractors on Google for the money keywords across both sides of the state line. No lock-in.',
     eyebrow: 'SEO Services · Kansas City',
-    h1: 'Get your Kansas City business to the top of Google and keep it there',
+    h1: 'Kansas City SEO that builds rankings you actually own, hail season after hail season',
     h2Exact: 'Kansas City SEO Company',
     heroSubhead:
       "Ads die the moment you stop paying. SEO does the opposite: rank once for what your Kansas City customers search and the leads keep landing, especially when hail season hits and your phone should be ringing for weeks. We build that ranking and tie every report to real calls and booked jobs.",
@@ -234,7 +234,7 @@ export const kansasCityLocations = [
       { q: 'Can you help me rank on both the Missouri and Kansas sides?', a: "Yes. The two-state geography is one of the defining features of this market and we build for both sides on purpose, targeting Overland Park, Olathe and Lenexa on the Kansas side alongside Lee's Summit, Blue Springs and Independence on the Missouri side." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust and cite your business, not just classic search." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads, especially during storm season when the demand is already there for the taking." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across both sides of the state line, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today across both sides of the state line, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is the clearest picture you will get of what Kansas City SEO can do for your organic traffic and your booked jobs. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -242,17 +242,17 @@ export const kansasCityLocations = [
   {
     ...BASE,
     citySlug: 'kansas-city', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Kansas City Web Design Company | OnwardCraft',
+    titleTag: 'Kansas City Web Design Company | Sites That Book Work | OnwardCraft',
     metaDescription:
-      'Kansas City web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors on both sides of the state line.',
+      'Kansas City Web Design engineered to bring in real work: fast, mobile-first sites built for contractors on both sides of the state line.',
     eyebrow: 'Web Design · Kansas City',
-    h1: 'Kansas City web design that turns visitors into booked jobs',
+    h1: 'Kansas City web design engineered to bring in real work, from Westport to Overland Park',
     h2Exact: 'Kansas City Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just a brochure. We build Kansas City contractors fast, mobile-first sites engineered to turn visitors into booked work, including the Overland Park and Olathe homeowners who start searching the second a hail storm clears.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Kansas City contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer for the suburb the visitor is searching from. Web design done right fixes every bit of that. We build sites that load fast, look like the professional you already are, and turn visitors from Westport to Overland Park into booked jobs, all engineered for a two-state market where local identity carries weight and homeowners trust crews they recognize.",
+      "Kansas City Web Design done right starts with one job: turning a visitor into a booked call. Most contractor websites bleed leads quietly instead, slow on a phone, call button buried, no clear offer for the suburb the visitor is searching from. We build sites that load fast, look like the professional you already are, and turn visitors from Westport to Overland Park into booked jobs, all engineered for a two-state market where local identity carries weight and homeowners trust crews they recognize.",
     aioQuestion: 'What makes a good contractor website in Kansas City?',
     aioAnswer:
       "A strong Kansas City contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific suburbs and neighborhoods you serve on both sides of the state line. Because Kansas City homeowners tend to favor local businesses over national chains, a site that signals genuine local presence, rather than a generic template with the city name dropped in, is what actually converts visitors into calls.",
@@ -300,7 +300,7 @@ export const kansasCityLocations = [
       { q: 'What platform do you build on?', a: "We choose the platform that fits your needs and that you can actually manage, usually WordPress or Webflow. We will recommend the right fit in your free consult and walk through the tradeoffs in plain English." },
       { q: 'Can you build suburb pages for both the Missouri and Kansas sides?', a: "Yes. We build genuine pages for the specific suburbs you serve: Overland Park and Olathe on the Kansas side, Lee's Summit and Blue Springs on the Missouri side, and everything in between. Those suburb pages are what actually rank for specific area searches." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO runs month-to-month, so you can leave whenever you want." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Kansas City site should include for your trade and your suburbs, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Kansas City Web Design should include for your trade and your suburbs, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -308,17 +308,17 @@ export const kansasCityLocations = [
   {
     ...BASE,
     citySlug: 'kansas-city', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Kansas City Website Redesign | OnwardCraft',
+    titleTag: 'Kansas City Website Redesign | Modernize, Keep Rankings | OnwardCraft',
     metaDescription:
-      'Redesign your Kansas City website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across both sides.',
+      'Kansas City Website Redesign that modernizes without tanking your traffic. Faster, mobile-first rebuilds that convert more visitors into booked jobs across both sides.',
     eyebrow: 'Website Redesign · Kansas City',
-    h1: 'Redesign your Kansas City website without losing your rankings',
+    h1: 'Kansas City Website Redesign that modernizes your site without tanking your hard-won traffic',
     h2Exact: 'Kansas City Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every single week: slow, clumsy on a phone, invisible to suburbs across the state line. We redesign Kansas City contractor sites to convert more and load faster, and we migrate with care so you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail in one of two ways: the site looks sharper but converts the same, or it launches and the rankings evaporate overnight. We do neither. We redesign Kansas City contractor sites for speed and conversions, build them to serve both sides of the state line, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Kansas City Website Redesign fails in one of two familiar ways: the site looks sharper but converts the same, or it launches and the rankings evaporate overnight. We do neither. We rebuild contractor sites for speed and conversions, build them to serve both sides of the state line, and run an SEO-safe migration with the redirects that protect the traffic you already have, so you redesign your Kansas City website without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first and better structured than the old one, including for both sides of Kansas City's two-state market.",
@@ -366,7 +366,7 @@ export const kansasCityLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO runs month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, which suburbs you are missing on either side of the state line, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, which suburbs you are missing on either side of the state line, what a Kansas City Website Redesign should fix for your business, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -376,10 +376,10 @@ export const kansasCityCity = {
 
   titleTag: 'Kansas City Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO and local SEO for Kansas City contractors. Get found on both sides of the state line, rank before hail season, and own your leads.',
+    'Kansas City marketing for contractors built around the trades. Web design and SEO that get you found on both sides of the state line, ranked before hail season.',
 
   eyebrow: 'Kansas City · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Kansas City contractors found and booked',
+  h1: 'Kansas City marketing for contractors, built around the trades and the hail-season rush',
   h2Exact: 'Kansas City Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO and local SEO built for Kansas City's two-state market and hail-season demand, from Overland Park to Lee's Summit. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -387,7 +387,7 @@ export const kansasCityCity = {
   primaryCta: 'Get my free Kansas City audit',
 
   intro:
-    "If you run a contracting business in Kansas City, you are working one of the most hail-prone metros in the country, across two states with distinct local search markets. Winning here takes three things firing together: a site that converts, SEO that ranks you for what people search on both the Missouri and Kansas sides, and local SEO that puts you in the Map Pack for the specific suburbs you serve, so when the next storm hits, your phone rings. Here is how we help Kansas City contractors pull off exactly that.",
+    "Kansas City marketing for contractors has to account for one of the most hail-prone metros in the country, spread across two states with distinct local search markets. Winning here takes three things firing together: a site that converts, SEO that ranks you for what people search on both the Missouri and Kansas sides, and local SEO that puts you in the Map Pack for the specific suburbs you serve, so when the next storm hits, your phone rings. As a digital marketing agency built for the trades, here is how we help Kansas City contractors pull off exactly that.",
   aioQuestion: 'How do Kansas City contractors get more leads online?',
   aioAnswer:
     "Kansas City contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack across both sides of the state line. Because Kansas City straddles Missouri and Kansas, contractors who target each side on purpose, Overland Park and Olathe separately from Lee's Summit and Independence, reach buyers their competitors miss entirely. And because hail and storm demand spikes predictably every spring and summer, contractors already ranking when the weather hits book all the work.",
@@ -423,6 +423,6 @@ export const kansasCityCity = {
     { q: 'Why does the Kansas City market need a different approach?', a: "Two big reasons. First, the metro spans two states and Google treats Missouri and Kansas as separate local markets, so you have to target each side on purpose. Second, hail and severe storm season drives more concentrated home-services demand here than almost anywhere in the country. Contractors ranking before the storm hits book the work; everyone else watches it go by." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Kansas City areas do you serve?', a: "The full metro on both sides of the state line: Kansas City MO, Overland Park KS, Olathe KS, Lee's Summit, Independence, Blue Springs, Liberty, Lenexa KS, Shawnee KS, Westport, Crossroads, Brookside, River Market, Waldo and more." },
-    { q: 'Where should I start?', a: "Start with a free Kansas City audit. We will look at your website, your rankings on both sides of the state line, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Kansas City audit. We will look at your website, your rankings on both sides of the state line, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It is the simplest way to see what Kansas City marketing for contractors can do to get you found and booked. No pitch deck, just a plan." },
   ],
 };

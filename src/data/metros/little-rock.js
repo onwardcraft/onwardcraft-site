@@ -109,11 +109,11 @@ export const littleRockLocations = [
   {
     ...BASE,
     citySlug: 'little-rock', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Little Rock Local SEO Company | OnwardCraft',
+    titleTag: 'Little Rock Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your trade in Little Rock and three businesses show up on the map. We get you into those three, especially during storm season and summer HVAC rushes.',
+      'Little Rock Local SEO that makes you the first name on the map when homeowners search your trade, especially during storm season and summer HVAC rushes.',
     eyebrow: 'Local SEO · Little Rock, AR',
-    h1: 'When Little Rock searches for what you do, be the first name they find',
+    h1: 'Little Rock Local SEO that makes you the first name on the Hillcrest-to-Conway map',
     h2Exact: 'Little Rock Local SEO Company',
     heroSubhead:
       "When a tornado cuts through Pulaski County or an ice storm rolls in off the plains, homeowners grab their phones and search for help right now. Google shows three businesses on the map. Everyone below them basically doesn't exist. We get you into those three for the neighborhoods you serve, so the call lands with you instead of whoever ranked first.",
@@ -167,7 +167,7 @@ export const littleRockLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More 'near me' research starts in AI now, especially for emergency and restoration searches. We structure your content and schema so those engines can read, trust, and cite your business, not just classic search." },
       { q: 'Am I locked into a contract?', a: "No. The only commitment we ask for is the first 90 days, since that's about how long Little Rock local SEO takes to start moving the needle. After that you're month-to-month and free to leave any time. The accountability sits on us, not on a signature." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. In Little Rock, where job volume is high but margins are tighter than on the coasts, paying per shared lead adds up fast. We build rankings and a review base that send leads straight to you, and over time you lean on lead brokers less because work comes in directly." },
-      { q: "What's in the free audit?", a: "We show you where you currently land in the Map Pack across Hillcrest, Conway, Bryant, and wherever else you work, who's outranking you and why, the quickest fixes, and a 90-to-180-day plan with your own numbers plugged in. It's a diagnosis, not a sales pitch." },
+      { q: "What's in the free audit?", a: "We show you where you currently land in the Map Pack across Hillcrest, Conway, Bryant, and wherever else you work, who's outranking you and why, the quickest fixes, and a 90-to-180-day plan with your own numbers plugged in. It's a diagnosis of your Little Rock Local SEO, not a sales pitch." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const littleRockLocations = [
   {
     ...BASE,
     citySlug: 'little-rock', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Little Rock SEO Company | OnwardCraft',
+    titleTag: 'Little Rock SEO Company | Page One That Holds | OnwardCraft',
     metaDescription:
-      'Little Rock SEO that ranks trade contractors on Google and brings in leads you own. Storm-season ready, revenue-tied reporting, no lock-in.',
+      'Little Rock SEO that puts your contractor business on page one of Google and holds it, with leads you own, storm-season timing, and revenue-tied reporting.',
     eyebrow: 'SEO Services · Little Rock, AR',
-    h1: 'Get your Little Rock business to the top of Google and keep it there',
+    h1: 'Little Rock SEO that puts your business on page one of Google and holds it through storm season',
     h2Exact: 'Little Rock SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what Little Rock homeowners search, like storm-damage roofing, summer AC repair, and emergency plumbing, and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const littleRockLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search. For emergency and restoration queries especially, AI Overviews are becoming a significant source of clicks." },
       { q: 'Which Little Rock areas do you cover?', a: "Little Rock, North Little Rock, Conway, Benton, Bryant, Sherwood, Maumelle, Jacksonville, Cabot, and neighborhoods inside the city like Hillcrest, The Heights, Pulaski Heights, West Little Rock, and Chenal Valley, with genuine local pages rather than one generic Little Rock page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. In Little Rock's affordable market, where shared leads cost almost as much as they do in bigger cities but project values are lower, owning your own pipeline matters even more. The more you own your search visibility, the less you depend on paying brokers." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across your neighborhoods, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a plain diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today across your neighborhoods, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It's a plain Little Rock SEO diagnosis, not a pitch deck." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const littleRockLocations = [
   {
     ...BASE,
     citySlug: 'little-rock', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Little Rock Web Design Company | OnwardCraft',
+    titleTag: 'Little Rock Web Design Company | Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'Little Rock web design that turns visitors into booked jobs: fast, mobile-first sites built for trade contractors across the Arkansas metro.',
+      'Little Rock Web Design that books jobs instead of just looking nice: fast, mobile-first sites built for trade contractors across the Arkansas metro.',
     eyebrow: 'Web Design · Little Rock, AR',
-    h1: 'Little Rock web design that turns visitors into booked jobs',
+    h1: 'Little Rock Web Design that books jobs from Benton to Chenal Valley instead of just looking nice',
     h2Exact: 'Little Rock Web Design Company',
     heroSubhead:
       "When a homeowner in Benton needs a roofer after a hailstorm or a West Little Rock family needs their AC fixed in July, they're searching from their phone and making a decision in seconds. We build Little Rock contractors fast, mobile-first sites that earn trust immediately and turn that visit into a booked job.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Little Rock contractor websites lose leads quietly: they load too slowly on a phone, bury the call button, and give a storm-anxious homeowner no clear reason to trust you over the next result. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn visitors from Hillcrest to Conway into booked jobs, with content that actually speaks to the communities you serve.",
+      "Little Rock Web Design is the difference between a site that books work and one that quietly loses leads: too slow on a phone, the call button buried, no clear reason for a storm-anxious homeowner to trust you over the next result. We fix all of that. We build a contractor website that loads fast, looks like the professional you are, and turns visitors from Hillcrest to Conway into booked jobs, with content that actually speaks to the communities you serve.",
     aioQuestion: 'What makes a good contractor website in Little Rock?',
     aioAnswer:
       "A good Little Rock contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with real reviews and project photos, and names the specific neighborhoods and communities you serve. Because a large share of Little Rock's searches come from mobile, especially during emergency events after storms or heat waves, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there. Authentic community representation also matters in a metro where nearly half of residents are Black or African American.",
@@ -299,7 +299,7 @@ export const littleRockLocations = [
       { q: 'What platform do you build on?', a: "Usually WordPress or Webflow, whichever one fits your needs and is something you can keep up with yourself. We'll talk through the tradeoffs in plain terms during your free consult and recommend the right call for your shop." },
       { q: 'Do you offer ongoing support?', a: "We do. Launch support comes with every build, and after that you can pick up affordable monthly maintenance that covers updates, load speed, and security patches." },
       { q: 'Am I locked into a contract?', a: "No. The build itself is a one-time, fixed-price project. If you add maintenance or SEO afterward, that runs month-to-month and you can step away whenever it stops making sense." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in missed leads, what a high-converting Little Rock contractor site should include, and a fixed-price quote with a firm timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in missed leads, what high-converting Little Rock Web Design should include, and a fixed-price quote with a firm timeline. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const littleRockLocations = [
   {
     ...BASE,
     citySlug: 'little-rock', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Little Rock Website Redesign | OnwardCraft',
+    titleTag: 'Little Rock Website Redesign | Rebuilt for Leads | OnwardCraft',
     metaDescription:
-      'Redesign your Little Rock contractor website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs. Free audit.',
+      'Little Rock Website Redesign that rebuilds for leads, not just looks: faster, mobile-first sites that convert more visitors into booked jobs without losing rankings.',
     eyebrow: 'Website Redesign · Little Rock, AR',
-    h1: 'Redesign your Little Rock website without losing your rankings',
+    h1: 'Little Rock Website Redesign that rebuilds for leads from Pulaski Heights to Chenal Valley, not just looks',
     h2Exact: 'Little Rock Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week: slow, hard to use on a phone, easy for a homeowner to leave. We redesign Little Rock contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've already earned going into storm season.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings disappear overnight. We do neither. We redesign Little Rock contractor sites for speed and conversions, built to stand out across neighborhoods from Pulaski Heights to Chenal Valley, and we migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Little Rock Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings disappear overnight. We do neither. We redesign contractor sites for speed and conversions, built to stand out across neighborhoods from Pulaski Heights to Chenal Valley, and we migrate with the redirects and SEO-safe care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one. In a market like Little Rock where storm-season search traffic can spike overnight, protecting those rankings going into peak season is especially important.",
@@ -365,7 +365,7 @@ export const littleRockLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings, and ensures you're capturing the mobile searches that happen immediately after a storm or HVAC failure." },
       { q: 'Do I own the redesigned site?', a: "Yes, fully: the site, the domain, and all the content. You're never locked to a platform you can't leave." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a single fixed-price project. If you add maintenance or SEO afterward, that's month-to-month and easy to cancel." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, a fixed-price quote with a timeline, and a safe migration plan so your traffic carries through. No pitch deck, just a diagnosis and a plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Little Rock Website Redesign should fix, a fixed-price quote with a timeline, and a safe migration plan so your traffic carries through. No pitch deck, just a diagnosis and a plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const littleRockCity = {
 
   titleTag: 'Little Rock Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Little Rock trade contractors. Get found before storm season, get booked through summer HVAC rushes, and own your leads.',
+    'Little Rock marketing for contractors who want to own their leads: web design, SEO, and local SEO that get you found before storm season and booked through summer.',
 
   eyebrow: 'Little Rock · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Little Rock contractors found and booked',
+  h1: 'Little Rock marketing for contractors who want to own their leads, not rent them',
   h2Exact: 'Little Rock Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for a market shaped by tornado-alley storms, Arkansas River flooding, and brutal summer humidity. One team to get you ranking before the rush, converting while it's happening, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const littleRockCity = {
   primaryCta: 'Get my free Little Rock audit',
 
   intro:
-    "If you run a contracting business in Little Rock, you're working in a market where demand can double overnight. A tornado cuts through Pulaski County in April, an ice storm rolls in January, the temperature breaks 95 for a week in July, and whoever is already ranking in the Map Pack gets the calls. Winning here means three things working together: a site that converts a stressed homeowner in seconds, SEO that ranks you for the right searches before peak season, and local SEO that puts you in the top three for the neighborhoods you actually serve. Here's how we help Little Rock contractors do exactly that.",
+    "Little Rock marketing for contractors works differently here, because demand can double overnight. A tornado cuts through Pulaski County in April, an ice storm rolls in January, the temperature breaks 95 for a week in July, and whoever is already ranking in the Map Pack gets the calls. Winning means three things working together: a site that converts a stressed homeowner in seconds, SEO that ranks you for the right searches before peak season, and local SEO that puts you in the top three for the neighborhoods you actually serve. Here's how we help Little Rock contractors do exactly that.",
   aioQuestion: 'How do Little Rock contractors get more leads online?',
   aioAnswer:
     "Little Rock contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because demand here spikes hard and fast after tornado events, ice storms, and summer heat waves, the contractors who are already ranking when disaster strikes capture almost all the emergency and restoration work. Building that visibility in the off-peak window, not chasing it after the storm has passed, is what separates the contractors with full calendars from the ones scrambling.",
@@ -422,6 +422,6 @@ export const littleRockCity = {
     { q: 'Why does the Little Rock market need a specialized approach?', a: "Because demand here doesn't rise gradually. It spikes overnight after a tornado event, an ice storm, or a week of 95-degree heat. Only the contractors already ranking in the Map Pack capture that surge. The metro also spans a wide geography from Hillcrest and The Heights inside the city to Conway, Benton, and Bryant in the suburbs, each pulling its own searches. You have to rank neighborhood by neighborhood, with seasonal timing built in." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $8,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Little Rock areas do you serve?', a: "Little Rock, North Little Rock, Conway, Benton, Bryant, Sherwood, Maumelle, Jacksonville, Cabot, and neighborhoods inside the city like Hillcrest, The Heights, Pulaski Heights, West Little Rock, and Chenal Valley. We build genuine local pages for the communities you actually serve." },
-    { q: 'Where should I start?', a: "Start with a free Little Rock audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work before your next peak season. No pitch deck, just a plain diagnosis and a plan." },
+    { q: 'Where should I start?', a: "Start with a free Little Rock audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work before your next peak season. That's what Little Rock marketing for contractors should be: a plain diagnosis and a plan, not a pitch deck." },
   ],
 };

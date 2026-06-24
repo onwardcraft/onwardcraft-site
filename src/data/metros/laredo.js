@@ -110,9 +110,9 @@ export const laredoLocations = [
     citySlug: 'laredo', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Laredo Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Laredo and three businesses show up on the map. We get you into those three, in Spanish and English, so the call lands with you.',
+      'Laredo Local SEO that puts you in the Map Pack, in Spanish and English, so when neighbors search your trade the call lands with you, not whoever ranked first.',
     eyebrow: 'Local SEO · Laredo, TX',
-    h1: 'When Laredo searches for what you do, be the first name they find',
+    h1: 'Laredo Local SEO that gets you found when neighbors search your trade in Spanish or English',
     h2Exact: 'Laredo Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, in Spanish and English, so the call lands with you instead of whoever ranked first, and so you're ready when summer heat or a rare freeze sends demand through the roof.",
@@ -166,7 +166,7 @@ export const laredoLocations = [
       { q: 'How does local SEO help me during the summer heat season?', a: "When July hits 112°F, HVAC calls spike overnight, and in Laredo, AC failure is a medical emergency. Families need someone on the map right now. We get you ranking and reviewed ahead of season so you're the contractor they find when it matters most." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema in Spanish and English so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days only because that is about how long local SEO takes to show honest movement in a bilingual market like Laredo. After that you are month-to-month. If the leads are not showing up, you cancel, and we are the ones left holding the accountability." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today in Spanish and English across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where your Laredo Local SEO stands today in Spanish and English across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -178,7 +178,7 @@ export const laredoLocations = [
     metaDescription:
       'Laredo SEO that ranks contractors on Google in Spanish and English: leads you own, revenue-tied reporting, no lock-in. Built for extreme heat season.',
     eyebrow: 'SEO Services · Laredo, TX',
-    h1: 'Get your Laredo business to the top of Google and keep it there',
+    h1: 'Laredo SEO that turns Spanish and English organic traffic into booked work',
     h2Exact: 'Laredo SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Laredo customers search, in Spanish and English, and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -232,7 +232,7 @@ export const laredoLocations = [
       { q: 'How does SEO help me during Laredo\'s extreme summer?', a: "May through September in Laredo is an HVAC emergency waiting to happen at 110°F+. We rank you for the Spanish and English heat-emergency searches before the season so you're the first contractor families find when the AC fails, and in Laredo, that's urgent." },
       { q: 'Which areas around Laredo do you cover?', a: "All of Laredo and Webb County: Del Mar Heights, North Laredo, Mines Road corridor, Padre Ranchitos, El Cenizo, Rio Bravo, and more, with genuine local pages in Spanish and English rather than one generic Laredo page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building bilingual rankings and a Google presence that send leads directly to you. The more you own your search visibility in Spanish and English, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today in Spanish and English, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "A straight read on where your Laredo SEO stands today in Spanish and English, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -244,13 +244,13 @@ export const laredoLocations = [
     metaDescription:
       'Laredo web design that turns visitors into booked jobs: fast, mobile-first, bilingual sites built for contractors and extreme heat season.',
     eyebrow: 'Web Design · Laredo, TX',
-    h1: 'Laredo web design that turns visitors into booked jobs',
+    h1: 'Laredo web design that makes Spanish and English homeowners pick you',
     h2Exact: 'Laredo Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Laredo contractors fast, mobile-first sites in Spanish and English, engineered to turn visitors into booked work and to hold up when summer heat floods your phone with HVAC emergencies.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Laredo contractor websites lose leads quietly: slow on a phone, buried call button, English-only in a 96% Hispanic market, no clear offer. Web design done right fixes all of that. We build bilingual sites that load fast, look like the professional you are, and turn Del-Mar-Heights-to-Padre-Ranchitos visitors into booked jobs, in Spanish and English.",
+      "Laredo web design is what decides whether a homeowner picks you or scrolls past. Most contractor sites lose leads quietly: slow on a phone, buried call button, English-only in a 96% Hispanic market, no clear offer. We build bilingual sites that load fast, look like the professional you are, and turn Del-Mar-Heights-to-Padre-Ranchitos visitors into booked jobs, in Spanish and English.",
     aioQuestion: 'What makes a good contractor website in Laredo?',
     aioAnswer:
       "A good Laredo contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, and serves content in both Spanish and English, because 96% of the market is Hispanic. It proves trust with reviews and real project photos and is built to handle traffic spikes during the extreme summer heat season, when HVAC calls become emergencies. Mobile speed, bilingual content, and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -298,7 +298,7 @@ export const laredoLocations = [
       { q: 'Will it work well on phones?', a: "We design mobile-first, because that's where almost all of your Laredo traffic comes from. Fast load, easy-to-tap call buttons, and forms built for a thumb, in Spanish and English." },
       { q: 'What platform do you build on?', a: "We choose the platform that suits your business and that you can run yourself once we hand it over, which is usually WordPress or Webflow. We name the right fit in your free consult and walk through the tradeoffs in plain language." },
       { q: 'Do you offer ongoing support?', a: "Yes. Launch support comes with every build, and after that we keep an affordable monthly maintenance plan going for updates, speed tuning, and security." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting bilingual Laredo site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting bilingual Laredo web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -308,15 +308,15 @@ export const laredoLocations = [
     citySlug: 'laredo', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Laredo Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Laredo website without losing rankings. Faster, bilingual, mobile-first rebuilds that convert more visitors into booked jobs. No lock-in.',
+      'Laredo Website Redesign without losing rankings: faster, bilingual, mobile-first rebuilds that convert more visitors into booked jobs. SEO-safe migration, no lock-in.',
     eyebrow: 'Website Redesign · Laredo, TX',
-    h1: 'Redesign your Laredo website without losing your rankings',
+    h1: 'Laredo Website Redesign that turns an aging, English-only site into a bilingual lead engine',
     h2Exact: 'Laredo Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week: slow, English-only in a Spanish-speaking market, hard to use on a phone, easy to ignore. We redesign Laredo contractor sites to convert more, serve both languages, and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Laredo contractor sites for speed and bilingual conversions, build them to handle extreme-heat emergency surges, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Laredo Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild contractor sites for speed and bilingual conversions, build them to handle extreme-heat emergency surges, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema (including bilingual hreflang if relevant), and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, bilingual, and better structured than the old one.",
@@ -364,7 +364,7 @@ export const laredoLocations = [
       { q: 'Will the new site handle a heat-emergency demand surge?', a: "Yes, and in Laredo that's critical. When AC failure at 112°F sends homeowners to Google in a panic, the fast, easy-to-call site wins the job. We rebuild for speed and keep the call to action obvious so the site converts when demand peaks." },
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild from the phone up and tune for quick load and Core Web Vitals, since almost every Laredo visitor arrives on mobile, and that speed lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Yes, in full. The site, the domain, and the bilingual content all belong to you, with no platform you are locked into." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, including any Spanish-language gap, what the redesign should fix, and a fixed-price quote with a timeline and a safe bilingual migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, including any Spanish-language gap, what your Laredo Website Redesign should fix, and a fixed-price quote with a timeline and a safe bilingual migration plan." },
     ],
   },
 ];
@@ -374,10 +374,10 @@ export const laredoCity = {
 
   titleTag: 'Laredo Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Laredo contractors, in Spanish and English. Get found, get booked, own your leads. Built for extreme heat.',
+    'Laredo marketing for contractors in Spanish and English: web design, SEO, and local SEO that get you found, get you booked, and let you own your leads. Built for extreme heat.',
 
   eyebrow: 'Laredo · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Laredo contractors found and booked',
+  h1: 'Laredo marketing for contractors that turns Spanish and English searches into jobs',
   h2Exact: 'Laredo Marketing Agency for Contractors',
   heroSubhead:
     "Bilingual websites, SEO, and local SEO built for Laredo's Spanish-speaking market and extreme-heat demand cycles. One team to get you ranking in Spanish and English, converting visitors into jobs, and off the rented-lead treadmill.",
@@ -385,7 +385,7 @@ export const laredoCity = {
   primaryCta: 'Get my free Laredo audit',
 
   intro:
-    "If you run a contracting business in Laredo, you're operating in one of the most unique markets in the United States. Nearly 96% of the city is Hispanic: almost the entire market searches in Spanish, yet almost no agencies optimize for it, which means near-zero competition for contractors who do. You're also in the hottest large city in the US, where HVAC failure at 112°F is a medical emergency, and the rare deep freeze turns a city built for extreme heat into a disaster zone. Winning here takes three things working together: a bilingual site that converts, SEO that ranks you in Spanish and English, and local SEO that puts you in the Map Pack before the next heat wave or freeze hits.",
+    "Laredo marketing for contractors means winning one of the most unique markets in the United States. Nearly 96% of the city is Hispanic: almost the entire market searches in Spanish, yet almost no agencies optimize for it, which means near-zero competition for contractors who do. You're also in the hottest large city in the US, where HVAC failure at 112°F is a medical emergency, and the rare deep freeze turns a city built for extreme heat into a disaster zone. Winning here takes three things working together: a bilingual site that converts, SEO that ranks you in Spanish and English, and local SEO that puts you in the Map Pack before the next heat wave or freeze hits.",
   aioQuestion: 'How do Laredo contractors get more leads online?',
   aioAnswer:
     "Laredo contractors get more leads by combining a fast, bilingual mobile-first website with SEO that ranks them for high-intent searches in Spanish and English, and local SEO that wins the Google Map Pack. Because almost the entire market searches in Spanish and demand spikes dramatically during extreme summer heat and the rare deep freeze, the contractors who show up bilingually and are already ranking before those moments hit win the most work.",
@@ -421,6 +421,6 @@ export const laredoCity = {
     { q: 'Why does Spanish-language SEO matter so much in Laredo?', a: "96% of Laredo is Hispanic, and almost the entire market searches in Spanish. Most marketing agencies optimize only in English, which means a contractor who shows up for Spanish searches faces near-zero competition. It's the single biggest untapped opportunity in the Laredo market." },
     { q: 'How much does it cost to work with you?', a: "Bilingual websites are one-time builds priced from $2,000 to $9,000. SEO and local SEO run month-to-month, from $750 to $3,000, with no long contract attached. We pin down the exact scope for your business in the free Laredo audit." },
     { q: 'Which Laredo areas do you serve?', a: "All of Laredo and Webb County: Del Mar Heights, North Laredo, Heights (El Azteca), Mines Road corridor, Padre Ranchitos, El Cenizo, Rio Bravo, and more, with genuine bilingual neighborhood pages rather than one generic Laredo page." },
-    { q: 'Where should I start?', a: "Start with a free Laredo audit. We'll look at your website in Spanish and English, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Laredo audit. We'll look at your website in Spanish and English, your rankings, and your Map Pack presence, then tell you the one or two moves in your Laredo marketing for contractors that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

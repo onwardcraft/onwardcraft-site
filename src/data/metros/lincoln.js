@@ -111,9 +111,9 @@ export const lincolnLocations = [
     citySlug: 'lincoln', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Lincoln Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Lincoln and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Lincoln Local SEO that puts your business in the Map Pack, so when a homeowner searches your trade the call lands with you.',
     eyebrow: 'Local SEO · Lincoln, NE',
-    h1: 'When Lincoln searches for what you do, be the first name they find',
+    h1: 'Lincoln Local SEO that puts your Near South shop in the Map Pack',
     h2Exact: 'Lincoln Local SEO Company',
     heroSubhead:
       "When a Lincoln homeowner searches \"near me,\" Google hands the click to three businesses on the map and leaves everyone underneath them in the dark. We push you into that top three so the call rings your phone instead of the shop that happened to rank first, and so you are already there the morning after a hailstorm fills every inbox in town.",
@@ -167,7 +167,7 @@ export const lincolnLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now kicks off inside AI tools rather than plain search. We frame your content and schema so those engines can read your business, trust it, and quote it back by name. In Lincoln that is fast catching up to the Map Pack in importance." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is about how long local SEO takes to show honest movement. After that you go month-to-month. If the results are not there, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those sites rent you shared leads and visibility you never keep a scrap of. We build rankings, a Google profile, and a review base that route calls to you alone. Month by month you lean on the brokers less, because the work is already finding you directly." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack rivals are doing to stay ahead of you, the fixes that will move you quickest, and a realistic 90-to-180-day plan with the numbers run for your shop. No slide deck. Just a clear diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack rivals are doing to stay ahead of you, the fixes that will move you quickest, and a realistic 90-to-180-day Lincoln Local SEO plan with the numbers run for your shop. No slide deck. Just a clear diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const lincolnLocations = [
     metaDescription:
       'Lincoln SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand.',
     eyebrow: 'SEO Services · Lincoln, NE',
-    h1: 'Get your Lincoln business to the top of Google and keep it there',
+    h1: 'Lincoln SEO that gets you to the top of Google before storm season and keeps you there',
     h2Exact: 'Lincoln SEO Company',
     heroSubhead:
       "Cut the ad budget and the leads vanish the same afternoon. SEO runs the other direction: earn the ranking once for what Lincoln homeowners search and the calls keep landing for months. We build that position and tie every report back to real calls and booked jobs.",
@@ -233,7 +233,7 @@ export const lincolnLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing slice of what we tune for. We frame your content and schema so AI engines can read your business, trust it, and quote it by name, not only the classic blue links." },
       { q: 'Which areas around Lincoln do you cover?', a: "All of Lincoln and the towns ringing it: Near South, Havelock, University Place, South Lincoln, Waverly, Hickman, Eagle and beyond, with honest local pages rather than one stretched-thin Lincoln page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that funnel calls straight to you. The more of your own search visibility you hold, the less you have to keep paying brokers for leads they sold three other shops." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead, the fixes with the most impact, and a realistic timeline with the numbers modeled for your shop. No slide deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead, the highest-impact fixes, and a realistic Lincoln SEO timeline with the numbers modeled for your shop. No slide deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const lincolnLocations = [
     metaDescription:
       'Lincoln web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and ready for storm-season demand.',
     eyebrow: 'Web Design · Lincoln, NE',
-    h1: 'Lincoln web design that turns visitors into booked jobs',
+    h1: 'Lincoln Web Design that turns Near South and Havelock visitors into booked jobs',
     h2Exact: 'Lincoln Web Design Company',
     heroSubhead:
       "A good-looking site that never rings the phone is just a costly brochure. We build Lincoln contractors quick, mobile-first sites engineered to turn visitors into booked work, and tough enough to hold their footing when storm season floods the inbox.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Lincoln contractor sites lose leads without anyone noticing: slow on a phone, the call button hidden away, no clear offer in sight. Web design handled right plugs every one of those leaks. We build sites that load quick, carry the polish of the pro you actually are, and turn visitors from Near South out to Waverly into booked jobs, and that keep standing when a hailstorm sends your traffic vertical.",
+      "Lincoln Web Design done right plugs the leaks that quietly drain leads from most contractor sites: slow on a phone, the call button hidden away, no clear offer in sight. We build sites that load quick, carry the polish of the pro you actually are, and turn visitors from Near South out to Waverly into booked jobs, and that keep standing when a hailstorm sends your traffic vertical.",
     aioQuestion: 'What makes a good contractor website in Lincoln?',
     aioAnswer:
       "A solid Lincoln contractor site loads under three seconds on a phone, keeps the call button and a clear offer above the fold, earns trust with reviews and real job photos, and is built to take the traffic spikes that come with storm season. Since most Lincoln searches happen on a phone, mobile speed and an obvious next step are what split a site that books work from one that just sits idle.",
@@ -299,7 +299,7 @@ export const lincolnLocations = [
       { q: 'What platform do you build on?', a: "We choose the platform that fits your needs and that you can actually run yourself, usually WordPress or Webflow. We point you to the right fit in your free consult and spell out the tradeoffs in plain language." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build ships with launch support, and after that we offer affordable monthly maintenance for updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can step away whenever you choose." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Lincoln site ought to include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Lincoln Web Design project ought to include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const lincolnLocations = [
     citySlug: 'lincoln', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Lincoln Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Lincoln website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
+      'Lincoln Website Redesign that converts more without losing your rankings: faster, mobile-first rebuilds that book more jobs and hold up in storm season.',
     eyebrow: 'Website Redesign · Lincoln, NE',
-    h1: 'Redesign your Lincoln website without losing your rankings',
+    h1: 'Lincoln Website Redesign that converts more without losing your hard-won rankings',
     h2Exact: 'Lincoln Website Redesign Company',
     heroSubhead:
       "An outdated site quietly bleeds jobs every week: slow, awkward on a phone, easy for a Lincoln homeowner to scroll right past. We redesign contractor sites to convert more and load faster, and we migrate with enough care that you keep every bit of ranking you have already built.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Redesigns usually fail one of two ways: the site comes out prettier but converts exactly the same, or it goes live and the rankings drop off the map overnight. We do neither. We redesign Lincoln contractor sites for speed and conversions, build them to hold up under storm-season traffic, and migrate with the redirects and SEO care that protect the rankings you have spent years earning.",
+      "A Lincoln Website Redesign usually fails one of two ways: the site comes out prettier but converts exactly the same, or it goes live and the rankings drop off the map overnight. We do neither. We rebuild contractor sites for speed and conversions, build them to hold up under storm-season traffic, and migrate with the redirects and SEO-safe care that protect the rankings you have spent years earning.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You guard your SEO through a redesign by keeping the URL structure (or mapping a 301 redirect for every page that moves), holding onto your existing content and metadata, carrying your schema across, and testing the whole thing on staging before it goes live. Handled right, a redesign holds your rankings and lifts them, because the new site loads faster, works mobile-first, and is built cleaner than the old one.",
@@ -365,7 +365,7 @@ export const lincolnLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings at once." },
       { q: 'Do I own the redesigned site?', a: "Every piece of it: the site itself, the domain, and the content. You are never boxed into a platform you cannot leave." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project, full stop. If you want ongoing maintenance or SEO afterward, that runs month-to-month and you can end it whenever." },
-      { q: "What's in the free redesign audit?", a: "A straight read on the leads and rankings your current site is leaking, the specific things a redesign needs to fix, and a fixed-price quote that comes with a timeline and a migration plan built to keep your traffic safe." },
+      { q: "What's in the free redesign audit?", a: "A straight read on the leads and rankings your current site is leaking, the specific things a Lincoln Website Redesign needs to fix, and a fixed-price quote that comes with a timeline and an SEO-safe migration plan built to keep your traffic safe." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const lincolnCity = {
 
   titleTag: 'Lincoln Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Lincoln contractors. Get found, get booked, and own your leads instead of renting them, all built for storm-season demand.',
+    'Lincoln marketing for contractors that gets you found and booked: web design, SEO, and local SEO built to own your leads and ready for storm-season demand.',
 
   eyebrow: 'Lincoln · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Lincoln contractors found and booked',
+  h1: 'Lincoln marketing for contractors that gets you found and booked before the storm',
   h2Exact: 'Lincoln Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Lincoln's steady capital-and-Husker market and its storm-driven swings. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const lincolnCity = {
   primaryCta: 'Get my free Lincoln audit',
 
   intro:
-    "Run a contracting business in Lincoln and you are competing in a steady capital-and-Husker town full of careful homeowners who would rather hire someone local, and the scramble for that work is real. Winning here takes three pieces pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that lands you in the Map Pack, all set before the next hailstorm or blizzard sends demand through the roof. Here is how we help Lincoln contractors pull it off.",
+    "Lincoln marketing for contractors comes down to three pieces pulling together in a steady capital-and-Husker town full of careful homeowners who would rather hire someone local. Winning here takes a site that converts, SEO that ranks you for what people search, and local SEO that lands you in the Map Pack, all set before the next hailstorm or blizzard sends demand through the roof. Here is how our Lincoln digital marketing agency helps contractors pull it off.",
   aioQuestion: 'How do Lincoln contractors get more leads online?',
   aioAnswer:
     "Lincoln contractors pull in more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Lincoln sits in hail country and grinds through hard Plains winters, the shops that look settled and are already ranking before the storm collect the most work.",
@@ -422,6 +422,6 @@ export const lincolnCity = {
     { q: 'Why does storm season matter for my marketing?', a: "Lincoln sits in hail country, and one bad storm can send roofing and restoration demand straight up overnight, with backlogs that run for months, then winter circles back with ice and freeze-thaw cracking. Ranking takes months to build, so the shops already visible before the storm take that work. We get you set ahead of the season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We settle the exact scope in your free audit." },
     { q: 'Which Lincoln areas do you serve?', a: "All of Lincoln and the Lancaster County towns around it: Near South, Country Club, University Place, Havelock, and South Lincoln, plus Waverly, Hickman, Eagle and more." },
-    { q: 'Where should I start?', a: "Start with a free Lincoln audit. We look over your website, your rankings, and your Map Pack standing, then point you to the one or two moves that will bring in the most work soonest. No slide deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Lincoln audit. We look over your website, your rankings, and your Map Pack standing, then point you to the one or two Lincoln marketing for contractors moves that will bring in the most work soonest. No slide deck, just a plan." },
   ],
 };

@@ -111,9 +111,9 @@ export const knoxvilleLocations = [
     citySlug: 'knoxville', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Knoxville Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your trade in Knoxville and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Knoxville Local SEO that lands you in the Map Pack when homeowners search your trade plus "near me," so the call comes straight to you.',
     eyebrow: 'Local SEO · Knoxville, TN',
-    h1: 'When Knoxville searches for what you do, be the first name they find',
+    h1: 'Knoxville Local SEO that puts your business in the Map Pack from Farragut to Fort Sanders',
     h2Exact: 'Knoxville Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone in Farragut or Fort Sanders searches your trade plus \"near me.\" Everyone below them basically doesn't exist. We get you into that top three across the Knoxville neighborhoods you serve, so the call lands with you, before the ice storm hits and every contractor in town is buried.",
@@ -167,7 +167,7 @@ export const knoxvilleLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business, it's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. The first 90 days are the minimum, because that's about how long local SEO takes to show honest movement in a Knoxville-area Map Pack. After that you're month-to-month with no exit fee. If the leads aren't showing up, you cancel and owe us nothing further." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms resell the same Knoxville homeowner to several contractors and bill all of you. But folks here who want local don't go hunting on a broker app, they Google it and tap the map. We build the rankings and Google profile that put your name in that tap, so the lead is yours and yours alone." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across the Knoxville metro, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across the Knoxville metro, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day Knoxville Local SEO plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const knoxvilleLocations = [
     metaDescription:
       'Knoxville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for East Tennessee.',
     eyebrow: 'SEO Services · Knoxville, TN',
-    h1: 'Get your Knoxville business to the top of Google and keep it there',
+    h1: 'Knoxville SEO that gets East Tennessee contractors to the top of Google and keeps them there',
     h2Exact: 'Knoxville SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what Knoxville homeowners search and the leads keep coming, including when ice storms and tornado season send searches spiking overnight. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const knoxvilleLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "Increasingly, yes, and we treat it as part of the job. We organize your pages and schema so AI engines can read your Knoxville business, trust it, and quote it back to searchers, not just the old blue links." },
       { q: 'Which Knoxville areas do you cover?', a: "The full metro, Fort Sanders, Farragut, Hardin Valley, Lenoir City, Powell, Oak Ridge, Maryville, Sequoyah Hills, and all the neighborhoods and suburbs in between. We build genuine local pages rather than one generic Knoxville page, because that's what actually ranks for neighborhood-level searches." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. Knoxville homeowners already want to hire local, we just make sure they find you instead of a competitor or a lead broker." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across the Knoxville metro, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today across the Knoxville metro, what your competitors are doing to beat you, the highest-impact fixes, and a realistic Knoxville SEO timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const knoxvilleLocations = [
     metaDescription:
       'Knoxville web design that turns visitors into booked jobs, fast, mobile-first sites built for contractors in East Tennessee. Transparent pricing, you own it.',
     eyebrow: 'Web Design · Knoxville, TN',
-    h1: 'Knoxville web design that turns visitors into booked jobs',
+    h1: 'Knoxville web design that turns Farragut-to-Fort-Sanders visitors into booked jobs',
     h2Exact: 'Knoxville Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is just a brochure. We build Knoxville contractors fast, mobile-first sites engineered to turn visitors into booked work, sites that feel local, load fast, and earn the trust of homeowners who already prefer to hire someone from their community.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Knoxville contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, nothing that signals you're a real local company. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Farragut-to-Fort-Sanders visitors into booked jobs, while earning the loyalty that Knoxville homeowners give to businesses that feel like neighbors.",
+      "Knoxville web design done right is the difference between a site that quietly loses leads and one that books work: most contractor websites here are slow on a phone, hide the call button, show no clear offer, and signal nothing about being a real local company. We build sites that load fast, look like the professional you are, and turn Farragut-to-Fort-Sanders visitors into booked jobs, while earning the loyalty that Knoxville homeowners give to businesses that feel like neighbors.",
     aioQuestion: 'What makes a good contractor website in Knoxville?',
     aioAnswer:
       "A good Knoxville contractor website loads fast on a phone, puts the call button and a clear offer above the fold, proves local trust with real reviews and project photos from the Knoxville area, and names the specific neighborhoods and suburbs you serve. Because Knoxville homeowners are loyal to local and skeptical of national chains, a site that looks and sounds like a genuine Knoxville company converts at a much higher rate than a generic template with a city name swapped in.",
@@ -299,7 +299,7 @@ export const knoxvilleLocations = [
       { q: 'What platform do you build on?', a: "Whatever fits your trade and that you can run yourself without us, usually WordPress or Webflow for a Knoxville contractor. We'll walk through the tradeoffs in your free consult and recommend one in plain terms." },
       { q: 'Do you offer ongoing support?', a: "We do. Launch support comes with every build, and after that there's low-cost monthly maintenance for updates, speed, and security, handy when you want a fresh suburb page or some storm-season content added before the ice hits." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time, fixed-price project. Anything ongoing, like maintenance or SEO, runs month-to-month, so you can step away whenever you decide to." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Knoxville contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting piece of Knoxville Web Design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const knoxvilleLocations = [
     citySlug: 'knoxville', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Knoxville Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Knoxville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across East Tennessee.',
+      'Knoxville Website Redesign that converts more without losing your rankings. Faster, mobile-first rebuilds that turn visitors into booked jobs across East Tennessee.',
     eyebrow: 'Website Redesign · Knoxville, TN',
-    h1: 'Redesign your Knoxville website without losing your rankings',
+    h1: 'Knoxville Website Redesign that converts more without losing the rankings you have earned',
     h2Exact: 'Knoxville Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week, slow on a phone, easy to ignore, nothing that says you're a real local company. We redesign Knoxville contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've built.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and rankings vanish overnight. We do neither. We redesign Knoxville contractor sites for speed, conversions, and local trust, and we migrate with the redirects and SEO care that protect the traffic you already have. If you've been earning rankings through Knoxville ice storm and storm-damage searches, we make sure that equity carries forward.",
+      "A Knoxville Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and rankings vanish overnight. We do neither. We redesign Knoxville contractor sites for speed, conversions, and local trust, and we migrate with the redirects and SEO care that protect the traffic you already have. If you've been earning rankings through Knoxville ice storm and storm-damage searches, we make sure that equity carries forward.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured for both users and Google, including the seasonal and neighborhood content that drives Knoxville-specific demand.",
@@ -365,7 +365,7 @@ export const knoxvilleLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, critical when Knoxville homeowners are searching urgently on their phones during ice storm or storm emergencies." },
       { q: 'Do I own the redesigned site?', a: "Yes, the site, the domain, and every bit of content. No platform you're stuck on and no holding your files hostage if you move on." },
       { q: 'Am I locked into a contract?', a: "No. The redesign itself is a one-time project. If you add ongoing maintenance or SEO afterward, that's month-to-month and you can stop it whenever." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan that protects the search equity you've built." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Knoxville Website Redesign should fix, and a fixed-price quote with a timeline and a safe migration plan that protects the search equity you've built." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const knoxvilleCity = {
 
   titleTag: 'Knoxville Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Knoxville contractors. Get found, get booked, and own your leads, built for East Tennessee homeowners who already prefer.',
+    'Knoxville marketing for contractors: web design, SEO, and local SEO that get you found, get you booked, and let you own your leads across East Tennessee.',
 
   eyebrow: 'Knoxville · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Knoxville contractors found and booked',
+  h1: 'Knoxville marketing for contractors that gets you found and booked from Farragut to Lenoir City',
   h2Exact: 'Knoxville Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for East Tennessee, a market that rewards local trust, swings hard with ice storms and tornado season, and is growing fast from Farragut to Lenoir City. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const knoxvilleCity = {
   primaryCta: 'Get my free Knoxville audit',
 
   intro:
-    "If you run a contracting business in Knoxville, you're competing in a market with some distinct advantages and some real challenges. The advantages: Knoxville homeowners are unusually loyal to local businesses, the Great Smoky Mountains draw tourism that adds a vacation rental and cabin maintenance market on top of urban residential, and the metro is growing fast with retirees and remote workers settling in suburbs like Farragut, Hardin Valley, and Lenoir City. The challenge: ice storms in January and February, tornado season in the spring, and the summer HVAC rush all create intense demand spikes that only reward the contractors already ranking. Winning means being found first, looking trustworthy, and getting the call before a competitor does. Here's how we help Knoxville contractors do exactly that.",
+    "Knoxville marketing for contractors means competing in a market with some distinct advantages and some real challenges. The advantages: Knoxville homeowners are unusually loyal to local businesses, the Great Smoky Mountains draw tourism that adds a vacation rental and cabin maintenance market on top of urban residential, and the metro is growing fast with retirees and remote workers settling in suburbs like Farragut, Hardin Valley, and Lenoir City. The challenge: ice storms in January and February, tornado season in the spring, and the summer HVAC rush all create intense demand spikes that only reward the contractors already ranking. Winning means being found first, looking trustworthy, and getting the call before a competitor does. Here's how we help Knoxville contractors do exactly that.",
   aioQuestion: 'How do Knoxville contractors get more leads online?',
   aioAnswer:
     "Knoxville contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack across the neighborhoods and suburbs they serve. Because Knoxville homeowners are loyal to local and the market has sharp seasonal demand spikes from ice storms and tornado season, the contractors who rank before those windows open, and who look genuinely local when homeowners find them, capture the most work.",
@@ -422,6 +422,6 @@ export const knoxvilleCity = {
     { q: 'Why does the Knoxville market need a different approach?', a: "Knoxville homeowners are loyal to local and skeptical of out-of-state companies, which means a site and SEO presence that looks and sounds genuinely local converts at a higher rate than a generic national template. The market also has sharp seasonal demand from ice storms and tornado season, so the contractors who are already ranking when those hit take all the work." },
     { q: 'How much does it cost to work with you?', a: "A website is a one-time build between $2,000 and $9,000. SEO and local SEO are month-to-month, $750 to $3,000, with no long contract holding you. We pin down the exact scope for your Knoxville business in the free audit." },
     { q: 'Which Knoxville areas do you serve?', a: "The full metro, Fort Sanders, Farragut, Hardin Valley, Lenoir City, Powell, Oak Ridge, Maryville, Sequoyah Hills, 4th & Gill, Market Square, Bearden, and all the neighborhoods and suburbs in between. We build genuine local pages rather than one generic Knoxville page." },
-    { q: 'Where should I start?', a: "Start with a free Knoxville audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, and whether you're positioned for the next ice storm or tornado season demand window. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Knoxville audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Knoxville marketing for contractors that will bring in the most work fastest, and whether you're positioned for the next ice storm or tornado season demand window. No pitch deck, just a plan." },
   ],
 };
