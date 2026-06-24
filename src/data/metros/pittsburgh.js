@@ -109,11 +109,11 @@ export const pittsburghLocations = [
   {
     ...BASE,
     citySlug: 'pittsburgh', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Pittsburgh Local SEO Company | OnwardCraft',
+    titleTag: 'Pittsburgh Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Pittsburgh and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Pittsburgh Local SEO that turns neighborhood "near me" searches into a ringing phone. We get you into the top three on the map, borough by borough.',
     eyebrow: 'Local SEO · Pittsburgh, PA',
-    h1: 'When Pittsburgh searches for what you do, be the first name they find',
+    h1: 'Pittsburgh Local SEO that turns hillside "near me" searches into a ringing phone',
     h2Exact: 'Pittsburgh Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In a city with 90-plus distinct boroughs and a housing stock full of century-old problems, we get you into that top three for the neighborhoods you serve, so the call lands with you instead of whoever ranked first.",
@@ -167,7 +167,7 @@ export const pittsburghLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Pittsburgh neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Pittsburgh neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis of what Pittsburgh Local SEO can do for your phone." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const pittsburghLocations = [
   {
     ...BASE,
     citySlug: 'pittsburgh', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Pittsburgh SEO Company | OnwardCraft',
+    titleTag: 'Pittsburgh SEO Company | Rank and Get Booked | OnwardCraft',
     metaDescription:
-      'Pittsburgh SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a city of old homes.',
+      'Pittsburgh SEO that turns organic traffic into booked work for contractors across a city of old homes. Revenue-tied reporting, no lock-in contracts.',
     eyebrow: 'SEO Services · Pittsburgh, PA',
-    h1: 'Get your Pittsburgh business to the top of Google and keep it there',
+    h1: 'Pittsburgh SEO that turns organic traffic into booked work across the three-rivers market',
     h2Exact: 'Pittsburgh SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Pittsburgh customers search and the leads keep coming. We build that ranking for a city of old homes, hillside lots, and distinct neighborhoods — and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const pittsburghLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which Pittsburgh areas do you cover?', a: "All the close-in neighborhoods and the suburbs — Lawrenceville, Bloomfield, Shadyside, Squirrel Hill, Mt. Lebanon, Bethel Park, Peters Township, Cranberry Township, Robinson Township, Ross Township, and more — with genuine local pages rather than one generic Pittsburgh page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared Pittsburgh leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a straight read on what Pittsburgh SEO can do for your page-one rankings and lead flow." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const pittsburghLocations = [
   {
     ...BASE,
     citySlug: 'pittsburgh', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Pittsburgh Web Design Company | OnwardCraft',
+    titleTag: 'Pittsburgh Web Design Company | Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'Pittsburgh web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving a city of old homes and distinct.',
+      'Pittsburgh Web Design engineered to bring in real work: fast, mobile-first sites built for contractors serving a city of old homes and distinct boroughs.',
     eyebrow: 'Web Design · Pittsburgh, PA',
-    h1: 'Pittsburgh web design that turns visitors into booked jobs',
+    h1: 'Pittsburgh web design engineered to bring in real work from Lawrenceville to Mt. Lebanon',
     h2Exact: 'Pittsburgh Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Pittsburgh contractors fast, mobile-first sites engineered to turn visitors into booked work — sites that speak to the homeowners, neighborhoods, and old-building challenges that make Pittsburgh different.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Pittsburgh contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, no mention of the specific neighborhood or old-home problem the visitor is actually dealing with. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Shadyside-to-Cranberry-Township visitors into booked jobs — built for a city where century-old homes and distinct boroughs demand more than a generic template.",
+      "Pittsburgh Web Design done right starts with one job: turning a visitor into a booked lead. Most contractor websites here lose leads quietly, slow on a phone, with a buried call button, no clear offer, and no mention of the specific neighborhood or old-home problem the visitor is actually dealing with. We build sites that load fast, look like the professional you are, and turn Shadyside-to-Cranberry-Township visitors into booked jobs, built for a city where century-old homes and distinct boroughs demand more than a generic template.",
     aioQuestion: 'What makes a good contractor website in Pittsburgh?',
     aioAnswer:
       "A good Pittsburgh contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods and boroughs you serve. Because Pittsburgh's homeowners are dealing with distinct old-building challenges — aging boilers, flat roofs, hillside drainage — a site that speaks directly to those problems converts far better than a generic contractor template.",
@@ -299,7 +299,7 @@ export const pittsburghLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Pittsburgh site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Pittsburgh site should include, and a fixed-price quote with a timeline. No pressure, just a straight plan for Pittsburgh Web Design that books real work." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const pittsburghLocations = [
   {
     ...BASE,
     citySlug: 'pittsburgh', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Pittsburgh Website Redesign | OnwardCraft',
+    titleTag: 'Pittsburgh Website Redesign | SEO-Safe Migration | OnwardCraft',
     metaDescription:
-      'Redesign your Pittsburgh website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across a city of distinct.',
+      'Pittsburgh Website Redesign done with a careful, SEO-safe migration. Faster, mobile-first rebuilds that convert more visitors into booked jobs across a city of distinct boroughs.',
     eyebrow: 'Website Redesign · Pittsburgh, PA',
-    h1: 'Redesign your Pittsburgh website without losing your rankings',
+    h1: 'Pittsburgh Website Redesign done with a careful, SEO-safe migration that keeps your hard-won rankings',
     h2Exact: 'Pittsburgh Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow on mobile, generic, easy to ignore. We redesign Pittsburgh contractor sites to convert more and load faster, speaking directly to the old-home and hillside challenges that drive work here, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Pittsburgh contractor sites for speed and conversions, make them speak to the specific neighborhoods and old-building problems that define this market, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Pittsburgh Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Pittsburgh contractor sites for speed and conversions, make them speak to the specific neighborhoods and old-building problems that define this market, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured — and for Pittsburgh contractors, that means it's also better tied to the specific neighborhoods and old-home work that drives local search.",
@@ -365,7 +365,7 @@ export const pittsburghLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan, so your Pittsburgh Website Redesign converts more without surrendering a single ranking." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const pittsburghCity = {
 
   titleTag: 'Pittsburgh Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Pittsburgh contractors. Get found in a city of old homes, steep hills, and distinct boroughs — and own your leads instead.',
+    'Pittsburgh marketing for contractors: web design, SEO, and local SEO that gets you found in a city of old homes, steep hills, and distinct boroughs, and own your leads.',
 
   eyebrow: 'Pittsburgh · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Pittsburgh contractors found and booked',
+  h1: 'Pittsburgh marketing for contractors that gets you found and booked across the three rivers',
   h2Exact: 'Pittsburgh Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Pittsburgh's old housing stock, distinct boroughs, and Appalachian winters. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const pittsburghCity = {
   primaryCta: 'Get my free Pittsburgh audit',
 
   intro:
-    "If you run a contracting business in Pittsburgh, you're working in a market shaped by geography unlike almost anywhere else in the country: a city of hills, three rivers, and century-old homes that need constant, skilled attention. The UPMC and Carnegie Mellon economy is pulling a new professional class into Lawrenceville and Bloomfield to renovate, while established neighborhoods from Shadyside to Mt. Lebanon to Bethel Park keep generating roofing, heating, plumbing, and restoration work year-round. Winning here takes three things working together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the specific boroughs you serve. Here's how we help Pittsburgh contractors do exactly that.",
+    "Pittsburgh marketing for contractors has to fit a market shaped by geography unlike almost anywhere else in the country: a city of hills, three rivers, and century-old homes that need constant, skilled attention. The UPMC and Carnegie Mellon economy is pulling a new professional class into Lawrenceville and Bloomfield to renovate, while established neighborhoods from Shadyside to Mt. Lebanon to Bethel Park keep generating roofing, heating, plumbing, and restoration work year-round. Winning here takes three things working together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the specific boroughs you serve. Here's how we help Pittsburgh contractors do exactly that.",
   aioQuestion: 'How do Pittsburgh contractors get more leads online?',
   aioAnswer:
     "Pittsburgh contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches — especially the old-home, heating, roofing, and flood-repair terms that drive Pittsburgh demand — and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because Pittsburgh's boroughs are so geographically and demographically distinct, the contractors who target tight service areas and rank for the specific searches in those neighborhoods win the most work.",
@@ -422,6 +422,6 @@ export const pittsburghCity = {
     { q: 'Why does the Pittsburgh market need a different approach?', a: "Pittsburgh is unusually borough-centric — homeowners search by their neighborhood, not just \"Pittsburgh\" — and roughly 62 percent of the housing stock predates 1960, which means the search terms driving most of the work are about old-home problems that generic contractor SEO completely ignores. Add in harsh Appalachian winters and three rivers creating flood risk, and you get a market that rewards specialists who actually understand it." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Pittsburgh areas do you serve?', a: "All the close-in neighborhoods and the suburbs — Lawrenceville, Bloomfield, Shadyside, Squirrel Hill, Mt. Lebanon, Bethel Park, Peters Township, Ross Township, Cranberry Township, Robinson Township, and more." },
-    { q: 'Where should I start?', a: "Start with a free Pittsburgh audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Pittsburgh audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a straight plan for Pittsburgh marketing for contractors that fills your calendar." },
   ],
 };

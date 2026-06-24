@@ -111,15 +111,15 @@ export const newHavenLocations = [
     citySlug: 'new-haven', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'New Haven Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in New Haven and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'New Haven Local SEO that puts contractors in the Map Pack. Search your service near East Rock and three businesses show on the map. Be one of them.',
     eyebrow: 'Local SEO · New Haven, CT',
-    h1: 'When New Haven searches for what you do, be the first name they find',
+    h1: 'New Haven Local SEO that makes you the first name East Rock finds on the map',
     h2Exact: 'New Haven Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In a city anchored by Yale and filled with century-old homes, we get you into that top three for your neighborhoods, so the call lands with you instead of whoever ranked first.",
     primaryCta: 'Get my free New Haven audit',
     intro:
-      "New Haven local SEO comes down to one thing: when a homeowner in East Rock or Westville searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. Yale faculty, hospital staff, and historic-home owners in this city are educated buyers who search carefully and choose the contractor who looks most credible. And a large share of New Haven's population searches in Spanish. Becoming one of those top three in the neighborhoods you serve is the whole game. Here's how you do it.",
+      "New Haven Local SEO comes down to one thing: when a homeowner in East Rock or Westville searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. Yale faculty, hospital staff, and historic-home owners in this city are educated buyers who search carefully and choose the contractor who looks most credible. And a large share of New Haven's population searches in Spanish. Becoming one of those top three in the neighborhoods you serve is the whole game. Here's how you do it.",
     aioQuestion: 'How do New Haven businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real New Haven neighborhoods. New Haven is diverse and multilingual, so the winners target tight service areas, show up in Spanish for the searches their competitors never see, and are ready before the next nor'easter or coastal storm drives emergency demand.",
@@ -167,7 +167,7 @@ export const newHavenLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day New Haven Local SEO plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -177,9 +177,9 @@ export const newHavenLocations = [
     citySlug: 'new-haven', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'New Haven SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'New Haven SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a diverse, educated.',
+      'New Haven SEO that puts contractors on page one and holds it. Rank for the searches Yale-area homeowners make, with revenue-tied reporting and no lock-in.',
     eyebrow: 'SEO Services · New Haven, CT',
-    h1: 'Get your New Haven business to the top of Google and keep it there',
+    h1: 'New Haven SEO that puts your business on page one and holds it through every storm season',
     h2Exact: 'New Haven SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your New Haven customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const newHavenLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around New Haven do you cover?', a: "New Haven's core neighborhoods — East Rock, Westville, Wooster Square, Edgewood, Fair Haven — and the surrounding suburbs: Hamden, North Haven, Orange, Woodbridge, Milford, Branford, Guilford, and Madison. We build genuine local pages rather than one generic New Haven page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic New Haven SEO timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const newHavenLocations = [
     citySlug: 'new-haven', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'New Haven Web Design Company | OnwardCraft',
     metaDescription:
-      'New Haven web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving Yale, historic homes, and a diverse.',
+      'New Haven Web Design that books jobs instead of just looking nice. Fast, mobile-first sites built for contractors serving Yale-area and historic homes.',
     eyebrow: 'Web Design · New Haven, CT',
-    h1: 'New Haven web design that turns visitors into booked jobs',
+    h1: 'New Haven web design that books Wooster Square jobs instead of just looking nice',
     h2Exact: 'New Haven Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build New Haven contractors fast, mobile-first sites engineered to turn visitors into booked work — and to earn the trust of Yale faculty, historic-home owners, and a diverse, research-oriented community.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most New Haven contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Yale-affiliated homeowners and professionals in East Rock and Wooster Square do their homework before they call — a weak site sends them to your competitor. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn visitors from Hamden to Branford into booked jobs.",
+      "New Haven Web Design should book jobs, not just sit there: most contractor sites lose leads quietly, slow on a phone, buried call button, no clear offer. Yale-affiliated homeowners and professionals in East Rock and Wooster Square do their homework before they call, and a weak site sends them to your competitor. Done right, it fixes all of that. We build sites that load fast, look like the professional you are, and turn visitors from Hamden to Branford into booked jobs.",
     aioQuestion: 'What makes a good contractor website in New Haven?',
     aioAnswer:
       "A good New Haven contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos of historic Colonial and Victorian work, and names the specific neighborhoods and suburbs you serve. Because Yale-affiliated and educated homeowners research contractors carefully before calling, and a significant share of the population speaks Spanish, the site needs to build credibility fast and speak to the community.",
@@ -299,7 +299,7 @@ export const newHavenLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting New Haven site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting New Haven Web Design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const newHavenLocations = [
     citySlug: 'new-haven', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'New Haven Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your New Haven website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs.',
+      'New Haven Website Redesign that rebuilds for leads, not just looks. Faster, mobile-first rebuilds that convert Yale-area homeowners without losing rankings.',
     eyebrow: 'Website Redesign · New Haven, CT',
-    h1: 'Redesign your New Haven website without losing your rankings',
+    h1: 'New Haven Website Redesign that rebuilds Fair Haven leads, not just looks',
     h2Exact: 'New Haven Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign New Haven contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign New Haven contractor sites for speed and conversions — built to earn the trust of educated, research-oriented homeowners and the diverse community this city is made of — and we migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A New Haven Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild New Haven contractor sites for speed and conversions — built to earn the trust of educated, research-oriented homeowners and the diverse community this city is made of — and we migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const newHavenLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your New Haven Website Redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const newHavenCity = {
 
   titleTag: 'New Haven Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for New Haven contractors. Get found by Yale-area homeowners, historic-home owners, and a diverse community — own your leads.',
+    'New Haven marketing for contractors who want to own their leads. Web design, SEO, and local SEO to get found by Yale-area and historic-home owners.',
 
   eyebrow: 'New Haven · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets New Haven contractors found and booked',
+  h1: 'New Haven marketing for contractors who want to own their leads, from East Rock to the shoreline',
   h2Exact: 'New Haven Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for New Haven's educated, diverse, nor'easter-tested market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const newHavenCity = {
   primaryCta: 'Get my free New Haven audit',
 
   intro:
-    "If you run a contracting business in New Haven, you're operating in a market shaped by Yale University, extraordinary old housing stock, punishing nor'easters, and a community that's roughly 40% Black and 32% Hispanic. Educated homeowners in East Rock research contractors carefully before calling. Spanish-speaking homeowners in Fair Haven and The Hill search in Spanish — and most contractors never show up. Old Colonials, Victorians, and triple-deckers need constant specialist care. And when a nor'easter hits or Long Island Sound floods the shoreline, emergency calls flood in overnight. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here's how we help New Haven contractors do exactly that.",
+    "New Haven marketing for contractors has to fit the market you actually work in: one shaped by Yale University, extraordinary old housing stock, punishing nor'easters, and a community that's roughly 40% Black and 32% Hispanic. Educated homeowners in East Rock research contractors carefully before calling. Spanish-speaking homeowners in Fair Haven and The Hill search in Spanish — and most contractors never show up. Old Colonials, Victorians, and triple-deckers need constant specialist care. And when a nor'easter hits or Long Island Sound floods the shoreline, emergency calls flood in overnight. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here's how we help New Haven contractors do exactly that.",
   aioQuestion: 'How do New Haven contractors get more leads online?',
   aioAnswer:
     "New Haven contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because the market is anchored by Yale-affiliated homeowners who research carefully, has significant Spanish-speaking demand that goes unserved by most contractors, and sees intense seasonal surges from nor'easters and Long Island Sound storms, the contractors who target the right neighborhoods, show up in Spanish, and rank before the storms win the most work.",
@@ -422,6 +422,6 @@ export const newHavenCity = {
     { q: 'Why does the New Haven market need a different approach?', a: "It's a uniquely layered market. Yale-affiliated homeowners are educated buyers who research carefully. A third of residents are Hispanic and many search in Spanish. The housing stock is old — Colonials, Federals, and Victorians from the 1700s through the 1920s — which means constant specialist demand. And nor'easters plus coastal storms create intense seasonal emergency surges. A national agency swapping a city name into a template misses all of that." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which New Haven areas do you serve?', a: "New Haven's core neighborhoods — East Rock, Westville, Wooster Square, Edgewood, Fair Haven, The Hill, Dixwell, Newhallville — and the surrounding suburbs: Hamden, North Haven, Orange, Woodbridge, Milford, Branford, Guilford, and Madison." },
-    { q: 'Where should I start?', a: "Start with a free New Haven audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free New Haven audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two New Haven marketing for contractors moves that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

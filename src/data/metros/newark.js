@@ -111,15 +111,15 @@ export const newarkLocations = [
     citySlug: 'newark', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Newark Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Newark and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Newark Local SEO that wins you the top three on the map, so when an Ironbound homeowner searches your trade, the call lands with you.',
     eyebrow: 'Local SEO · Newark-Essex County',
-    h1: 'When Newark searches for what you do, be the first name they find',
+    h1: 'Newark Local SEO that wins you the top three on the Ironbound map',
     h2Exact: 'Newark Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the call lands with you instead of whoever ranked first — and so you're ready when the next nor'easter fills everyone's phone.",
     primaryCta: 'Get my free Newark audit',
     intro:
-      "Newark local SEO comes down to one thing: when a homeowner in the Ironbound or Montclair searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This is a dense, fast-moving market that researches quickly and expects an answer, so becoming one of those three is the whole game. Here's how you do it.",
+      "Newark Local SEO comes down to one thing: when a homeowner in the Ironbound or Montclair searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This is a dense, fast-moving market that researches quickly and expects an answer, so winning that local 3-pack is the whole game. Local SEO services that fix your Google Business Profile and lift you in local search are how you get there. Here's how you do it.",
     aioQuestion: 'How do Newark businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Essex County neighborhoods. Newark is dense, bilingual, and storm-prone, so the winners look established, respond fast, serve Spanish- and Portuguese-speaking searchers, and are already ranking when nor'easter and hurricane demand spikes.",
@@ -167,7 +167,7 @@ export const newarkLocations = [
       { q: 'Do you work with contractors specifically?', a: "It's basically all we do. Roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors. We understand emergency calls, storm-driven demand, old-home work, and insurance jobs, and we build your local SEO around them." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's the honest starting point for Newark Local SEO that ranks you on the map and turns \"near me\" searches into a ringing phone. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const newarkLocations = [
   {
     ...BASE,
     citySlug: 'newark', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Newark SEO Company | OnwardCraft',
+    titleTag: 'Newark SEO Company | Rankings You Own | OnwardCraft',
     metaDescription:
-      'Newark SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand.',
+      'Newark SEO that builds rankings you actually own and ranks contractors on Google for the searches that book jobs. Revenue-tied reporting, no lock-in.',
     eyebrow: 'SEO Services · Newark-Essex County',
-    h1: 'Get your Newark business to the top of Google and keep it there',
+    h1: 'Newark SEO that builds rankings you actually own across Essex County',
     h2Exact: 'Newark SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Newark customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
     primaryCta: 'Get my free Newark SEO audit',
     intro:
-      "Newark SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in a dense, fast-moving, storm-prone market — and we measure it in leads, not vanity traffic.",
+      "Newark SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. As a Newark SEO company built for the trades, we get contractors ranking for the money keywords in a dense, fast-moving, storm-prone market, then turn that organic traffic into booked work. We measure it in leads, not vanity numbers.",
     aioQuestion: 'How do Newark businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Newark and Essex County sources. In a dense, bilingual, storm-prone Northeast market, keeping the site fast on mobile, serving Spanish- and Portuguese-speaking searchers, and ranking for nor'easter-driven seasonal terms are some of the quickest ways to pull ahead.",
@@ -233,7 +233,7 @@ export const newarkLocations = [
       { q: 'Do you require a long-term contract?', a: "No. We ask for an initial 90 days because SEO needs that long to show real movement, then it's month-to-month. If we're not delivering, you leave." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Newark do you cover?', a: "All of Newark and Essex County — the Ironbound, Forest Hill, Montclair, Bloomfield, Nutley, Belleville, Irvington, East Orange, West Orange and more — with genuine local pages rather than one generic Newark page." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It's the honest first step toward Newark SEO that gets you onto page one and keeps you there for the searches that book jobs. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const newarkLocations = [
     citySlug: 'newark', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Newark Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Newark web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand.',
+      'Newark Web Design engineered to bring in real work, with fast, mobile-first contractor websites built for the Ironbound and storm-season demand.',
     eyebrow: 'Web Design · Newark-Essex County',
-    h1: 'Newark web design that turns visitors into booked jobs',
+    h1: 'Newark web design engineered to bring in real work from the Ironbound to Montclair',
     h2Exact: 'Newark Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Newark contractors fast, mobile-first sites engineered to turn visitors into booked work — and to hold up when storm season floods your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Newark contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, no Spanish or Portuguese option for half the market. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Ironbound-to-Montclair visitors into booked jobs — and that don't fall over when a nor'easter sends your traffic through the roof.",
+      "Newark Web Design done right fixes the leaks most contractor sites have: slow on a phone, buried call button, no clear offer, no Spanish or Portuguese option for half the market. As a Newark web design company built for the trades, we build mobile-first, fast-loading websites that look like the professional you are and convert Ironbound-to-Montclair visitors into booked jobs, and that don't fall over when a nor'easter sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Newark?',
     aioAnswer:
       "A good Newark contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, serves a bilingual audience, and is built to handle traffic spikes during storm season. Because this is a dense, mobile-heavy market that researches fast, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const newarkLocations = [
       { q: 'Will it work well on phones?', a: "We design mobile-first, because that's where almost all of your Newark traffic comes from. Fast load, easy-to-tap call buttons, and forms built for a thumb." },
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
-      { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
+      { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price, and the result is Newark Web Design that converts visitors into booked jobs and stays fast under storm-season load. Any ongoing maintenance or SEO is month-to-month, and you can leave whenever." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const newarkLocations = [
   {
     ...BASE,
     citySlug: 'newark', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Newark Website Redesign | OnwardCraft',
+    titleTag: 'Newark Website Redesign | Modernize, Keep Traffic | OnwardCraft',
     metaDescription:
-      'Redesign your Newark website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
+      'Newark Website Redesign that modernizes your site without tanking your traffic. Faster, mobile-first rebuilds that convert more and hold up in storm season.',
     eyebrow: 'Website Redesign · Newark-Essex County',
-    h1: 'Redesign your Newark website without losing your rankings',
+    h1: 'Newark Website Redesign that modernizes your Essex County site without tanking your traffic',
     h2Exact: 'Newark Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Newark contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Newark contractor sites for speed and conversions, build them to handle nor'easter-season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Newark Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Newark contractor sites for speed and conversions with a mobile-first rebuild, prepare them for nor'easter-season traffic, and run an SEO-safe migration with the redirects that protect the traffic you already have, so you redesign your Newark website without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const newarkLocations = [
       { q: 'Can the redesign add Spanish and Portuguese support?', a: "Yes, and in Newark it's worth doing. With roughly 36% of the city Hispanic and a big Portuguese and Brazilian community in the Ironbound, a bilingual rebuild reaches homeowners most contractor sites ignore. We can fold that into the redesign." },
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It's the honest first step toward a Newark Website Redesign that converts more without losing the rankings you have earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const newarkCity = {
 
   titleTag: 'Newark Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Newark contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand.',
+    'Newark marketing for contractors that gets you found and booked across Essex County: web design, SEO, and local SEO built for storm-season demand.',
 
   eyebrow: 'Newark · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Newark contractors found and booked',
+  h1: 'Newark marketing for contractors, built around the trades from the Ironbound to Montclair',
   h2Exact: 'Newark Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Newark's dense, bilingual, storm-driven market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const newarkCity = {
   primaryCta: 'Get my free Newark audit',
 
   intro:
-    "If you run a contracting business in Newark, you're fighting for attention in one of the densest, fastest-moving markets in the country — eight miles from Manhattan, full of NYC-overflow homeowners who research fast and expect a quick answer. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack — all ready before the next nor'easter sends demand through the roof, and all built to reach a heavily bilingual market. Here's how we help Newark contractors do exactly that.",
+    "Newark marketing for contractors has to work in one of the densest, fastest-moving markets in the country: eight miles from Manhattan, full of NYC-overflow homeowners who research fast and expect a quick answer. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all ready before the next nor'easter sends demand through the roof and all built to reach a heavily bilingual market. As a Newark digital marketing agency with web design and SEO for contractors under one roof, here's how we get you found and booked.",
   aioQuestion: 'How do Newark contractors get more leads online?',
   aioAnswer:
     "Newark contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Newark is dense, bilingual, and storm-prone, the contractors who look established, serve Spanish- and Portuguese-speaking homeowners, and are already ranking before a nor'easter win the most work.",
@@ -422,6 +422,6 @@ export const newarkCity = {
     { q: 'Why does storm season matter for my marketing?', a: "New Jersey takes direct nor'easter and hurricane hits — Sandy in 2012 was catastrophic — and when one lands, demand for roofing, restoration, and HVAC spikes overnight. Ranking takes months to build, so the contractors already visible before the storm take that work. We get you in place ahead of the November-to-March nor'easter season and the August-to-October coastal window." },
     { q: 'Do you optimize for Spanish and Portuguese speakers?', a: "Yes, and in Newark it's a real differentiator. Roughly 36% of the city is Hispanic, with a large Portuguese and Brazilian community in the Ironbound, and almost no contractors optimize for those searches. We help you reach that under-served audience." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
-    { q: 'Which Newark areas do you serve?', a: "All of Newark and Essex County — the Ironbound, Forest Hill, Weequahic, the North Ward, plus Montclair, Bloomfield, Nutley, Belleville, Irvington, East Orange, West Orange and more." },
+    { q: 'Which Newark areas do you serve?', a: "All of Newark and Essex County: the Ironbound, Forest Hill, Weequahic, the North Ward, plus Montclair, Bloomfield, Nutley, Belleville, Irvington, East Orange, West Orange and more. It's Newark marketing for contractors that gets you found and booked in the neighborhoods you actually serve." },
   ],
 };

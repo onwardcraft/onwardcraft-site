@@ -111,15 +111,15 @@ export const omahaLocations = [
     citySlug: 'omaha', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Omaha Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Omaha and three businesses show up on the map. We get you into those three before the next hailstorm hits.',
+      'Omaha Local SEO that turns "near me" searches into a ringing phone. We get you into the Map Pack three before the next hailstorm hits.',
     eyebrow: 'Local SEO · Omaha, NE',
-    h1: 'When Omaha searches for what you do, be the first name they find',
+    h1: 'Omaha Local SEO that turns a West Omaha "near me" search into a ringing phone',
     h2Exact: 'Omaha Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In a market where storm seasons can make or break your whole year, we get you into that top three for Omaha and the surrounding suburbs — so the call lands with you when it matters most.",
     primaryCta: 'Get my free Omaha audit',
     intro:
-      "Omaha local SEO comes down to one question: when a homeowner in Papillion or West Omaha searches your service after a hailstorm, are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. Severe weather events, bitter Nebraska winters, and Missouri River flooding have made contractors in this market acutely aware that ranking before the storm matters more than scrambling after it. Here's how you become one of those three.",
+      "Omaha Local SEO comes down to one question: when a homeowner in Papillion or West Omaha searches your service after a hailstorm, are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. Severe weather events, bitter Nebraska winters, and Missouri River flooding have made contractors in this market acutely aware that ranking before the storm matters more than scrambling after it. Here's how you become one of those three.",
     aioQuestion: 'How do Omaha businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want — especially storm-related and emergency terms; consistent name, address, and phone listings across the web; a steady stream of real reviews from Omaha homeowners; and local content tied to the specific Omaha suburbs and neighborhoods you serve. In Omaha, contractors who rank for hail damage, wind damage, and emergency heating terms before peak season hit capture disproportionate market share when demand spikes.",
@@ -167,7 +167,7 @@ export const omahaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more homeowners start their search in AI now, especially for higher-stakes decisions like storm restoration and emergency repairs. We structure your content and schema so those engines can read, trust, and cite your business alongside classic Map Pack results." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk — and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor leads?', a: "Those platforms flood Omaha after every storm, selling the same homeowner's contact to multiple contractors at once. We build rankings, a Google presence, and a review base that send leads straight to you. Over time you depend on the lead brokers less because the work is finding you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across Omaha and its suburbs, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest — especially before storm season — and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across Omaha and its suburbs, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest before storm season, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see what Omaha Local SEO can do for your phone volume. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -177,9 +177,9 @@ export const omahaLocations = [
     citySlug: 'omaha', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Omaha SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Omaha SEO that ranks contractors on Google and brings in leads you own. Storm-season ready, revenue-tied reporting, no lock-in. Free Omaha SEO audit.',
+      'Omaha SEO that turns organic traffic into booked work for contractors. Storm-season ready, revenue-tied reporting, no lock-in. Free Omaha SEO audit.',
     eyebrow: 'SEO Services · Omaha, NE',
-    h1: 'Get your Omaha business to the top of Google and keep it there',
+    h1: 'Omaha SEO that turns Douglas County storm-season traffic into booked work',
     h2Exact: 'Omaha SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what Omaha homeowners search and the leads keep coming — especially when hail hits Papillion at 6 p.m. on a Tuesday and everyone pulls out their phone. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const omahaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. When Omaha homeowners ask an AI assistant for a roofing or restoration recommendation, we structure your content and schema so the AI can read, trust, and cite your business." },
       { q: 'Which areas around Omaha do you cover?', a: "The full metro — West Omaha, Elkhorn, Papillion, Bellevue, La Vista, Dundee, Benson, Midtown, Aksarben, Millard, Ralston, Gretna, and Council Bluffs across the river — with genuine local pages rather than one generic Omaha page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. After every storm, instead of competing against three other contractors for a shared lead, homeowners find you first and call you directly. The more you own your search visibility, the less you depend on paying aggregators for shared storm leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across Omaha and its suburbs, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business — including a look at your storm-season keyword gaps. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today across Omaha and its suburbs, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business, including a look at your storm-season keyword gaps. It is the clearest picture you can get of what Omaha SEO is worth to your calendar. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const omahaLocations = [
     citySlug: 'omaha', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Omaha Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Omaha web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a hail-country market.',
+      'Omaha web design engineered to bring in real work, fast, mobile-first sites built for contractors in a hail-country market.',
     eyebrow: 'Web Design · Omaha, NE',
-    h1: 'Omaha web design that turns storm-season traffic into booked jobs',
+    h1: 'Omaha web design engineered to bring in real work from Elkhorn to Bellevue',
     h2Exact: 'Omaha Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. When hail pounds West Omaha at 6 p.m. and homeowners pull out their phones, you need a site that loads fast, inspires trust immediately, and makes it dead simple to call. We build that site — and it works just as hard in the off-season too.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Omaha contractor websites lose leads quietly: slow on a phone, buried call button, nothing that proves you're local. When a severe weather event sends a wave of homeowners to Google, a weak site means you're invisible when it matters most. We build Omaha contractors fast, mobile-first sites engineered to turn visitors into booked work — and to signal the local credibility that Midwest homeowners demand before they hand over a job.",
+      "Omaha Web Design should do one job, bring in real work, yet most Omaha contractor websites lose leads quietly: slow on a phone, buried call button, nothing that proves you're local. When a severe weather event sends a wave of homeowners to Google, a weak site means you're invisible when it matters most. We build Omaha contractors fast, mobile-first sites engineered to turn visitors into booked work — and to signal the local credibility that Midwest homeowners demand before they hand over a job.",
     aioQuestion: 'What makes a good contractor website in Omaha?',
     aioAnswer:
       "A good Omaha contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific Omaha suburbs you serve. Because most post-storm searches happen on mobile in the first frantic minutes after a weather event, mobile speed and an obvious next step are what separate a site that books jobs from one that sends visitors to your competitor.",
@@ -299,7 +299,7 @@ export const omahaLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads — especially during storm season — what a high-converting Omaha site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, especially during storm season, what a high-converting Omaha site should include, and a fixed-price quote with a timeline. It is the simplest way to see what real Omaha Web Design would change about your booked-job volume. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const omahaLocations = [
   {
     ...BASE,
     citySlug: 'omaha', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Omaha Website Redesign | OnwardCraft',
+    titleTag: 'Omaha Website Redesign | SEO-Safe Migration | OnwardCraft',
     metaDescription:
-      'Redesign your Omaha website without losing rankings. Faster, mobile-first rebuilds that convert more visitors — especially during storm season. Free audit.',
+      'Omaha Website Redesign done with a careful, SEO-safe migration. Faster, mobile-first rebuilds that convert more visitors through storm season. Free audit.',
     eyebrow: 'Website Redesign · Omaha, NE',
-    h1: 'Redesign your Omaha website without losing your rankings',
+    h1: 'Omaha Website Redesign done with a careful, SEO-safe migration that keeps every storm-season ranking',
     h2Exact: 'Omaha Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore when a homeowner is searching after a hailstorm. We redesign Omaha contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned through all those Nebraska weather events.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Omaha contractor sites for speed and conversions — built for the storm-season surges and bitter-winter emergencies that drive the market — and we migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Omaha Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Omaha contractor sites for speed and conversions — built for the storm-season surges and bitter-winter emergencies that drive the market — and we migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and usually improves them, because the new site is faster, more mobile-friendly, and better structured — which matters enormously when hail-season search volumes spike overnight.",
@@ -365,7 +365,7 @@ export const omahaLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals — critical when post-storm demand spikes and homeowners are searching on their phones in the front yard." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings — including storm-season gaps — what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, including storm-season gaps, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It is the clearest way to see whether an Omaha Website Redesign will pay for itself before the next hail season." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const omahaCity = {
 
   titleTag: 'Omaha Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Omaha contractors. Get found before the next hailstorm, get booked, and own your leads — built for Nebraska\'s hail-country.',
+    'Omaha marketing for contractors that gets you found and booked before the next hailstorm. Web design, SEO, and local SEO built for Nebraska\'s hail-country.',
 
   eyebrow: 'Omaha · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Omaha contractors found before the storm hits',
+  h1: 'Omaha marketing for contractors that gets you found and booked before hail hits West Omaha',
   h2Exact: 'Omaha Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Omaha's hail-country, freeze-thaw, flood-zone market. One team to get you ranking before storm season, converting all year, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const omahaCity = {
   primaryCta: 'Get my free Omaha audit',
 
   intro:
-    "If you run a contracting business in Omaha, your busiest days don't follow a polite schedule. A hailstorm rips through West Omaha on a Wednesday night and suddenly hundreds of homeowners are on Google at once. A January cold snap kills furnaces across Papillion and Bellevue and the phones should be ringing. The contractors who rank when those moments hit collect the work; everyone else gets nothing. Winning here takes three things working together: a site that converts, SEO that puts you on page one for the searches that matter, and local SEO that pins you to the Map Pack across the suburbs your customers are calling from. Here's how we help Omaha contractors do exactly that.",
+    "Omaha marketing for contractors has to account for one fact: if you run a contracting business here, your busiest days don't follow a polite schedule. A hailstorm rips through West Omaha on a Wednesday night and suddenly hundreds of homeowners are on Google at once. A January cold snap kills furnaces across Papillion and Bellevue and the phones should be ringing. The contractors who rank when those moments hit collect the work; everyone else gets nothing. Winning here takes three things working together: a site that converts, SEO that puts you on page one for the searches that matter, and local SEO that pins you to the Map Pack across the suburbs your customers are calling from. Here's how we help Omaha contractors do exactly that.",
   aioQuestion: 'How do Omaha contractors get more leads online?',
   aioAnswer:
     "Omaha contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches — including storm damage, restoration, and emergency terms — and local SEO that wins the Google Map Pack suburb by suburb. Because demand in Omaha is strongly event-driven by weather, the contractors who invest in rankings before hail season and before winter cold snaps capture disproportionate market share when homeowners need help fast.",
@@ -422,6 +422,6 @@ export const omahaCity = {
     { q: 'Why does the Omaha market need a different approach?', a: "Omaha's demand is strongly event-driven. A hailstorm or a January cold snap can multiply search volume overnight, and the contractors who are already ranking collect almost all of it. Omaha homeowners are also strongly skeptical of out-of-state agencies and national chains — they prefer local, and we help you look and rank like the local you are." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Omaha areas do you serve?', a: "The full metro — West Omaha, Elkhorn, Papillion, Bellevue, La Vista, Dundee, Benson, Midtown, Aksarben, Millard, Ralston, Gretna, Bennington, Florence, and Council Bluffs across the river in Iowa — with genuine suburb pages rather than one generic Omaha page." },
-    { q: 'Where should I start?', a: "Start with a free Omaha audit. We'll look at your website, your rankings across the suburbs, and your Map Pack presence — especially for the storm-season and emergency terms that drive your highest-value jobs. Then we tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Omaha audit. We'll look at your website, your rankings across the suburbs, and your Map Pack presence, especially for the storm-season and emergency terms that drive your highest-value jobs. Then we tell you the one or two moves that will bring in the most work fastest. It is the simplest way to see what Omaha marketing for contractors can do for your calendar. No pitch deck, just a plan." },
   ],
 };

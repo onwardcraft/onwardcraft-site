@@ -109,17 +109,17 @@ export const oklahomaCityLocations = [
   {
     ...BASE,
     citySlug: 'oklahoma-city', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Oklahoma City Local SEO Company | OnwardCraft',
+    titleTag: 'Oklahoma City Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Three businesses fill the OKC map when homeowners search your trade. We put you in that top three before storm season so the post-hail calls land with you.',
+      'Oklahoma City Local SEO that puts your business in the top three on the map. We get you ranked before storm season so the post-hail calls land with you.',
     eyebrow: 'Local SEO · Oklahoma City',
-    h1: 'Be the first name Oklahoma City finds when it needs your trade',
+    h1: 'Oklahoma City Local SEO that makes you the first name on the map when Moore searches after a storm',
     h2Exact: 'Oklahoma City Local SEO Company',
     heroSubhead:
       "Google pins exactly three businesses to the map on a \"near me\" search. The hour a tornado or hail line clears OKC, those three field a wall of calls while everyone underneath them sits idle. We move you into that top three before storm season opens, so the surge rings your phone instead of theirs.",
     primaryCta: 'Get my free Oklahoma City audit',
     intro:
-      "Oklahoma City local SEO really hangs on a single question. When a homeowner in Moore or Edmond pulls out their phone after a hail storm and types your trade plus \"near me,\" does Google pin your business to the map or someone else's? The crews that already rank when tornado season turns are the ones who write up the post-storm work. This is a market that pays off preparation, and below is exactly how we build it for you.",
+      "Oklahoma City Local SEO really hangs on a single question. When a homeowner in Moore or Edmond pulls out their phone after a hail storm and types your trade plus \"near me,\" does Google pin your business to the Map Pack or someone else's? The crews that already rank in the local 3-pack when tornado season turns are the ones who write up the post-storm work. This is a market that pays off preparation, and below is exactly how we build it for you.",
     aioQuestion: 'How do Oklahoma City businesses rank higher in local search?',
     aioAnswer:
       "Four pieces have to line up: a Google Business Profile tuned to the precise services and suburbs you want, name-address-phone details that match everywhere on the web, a steady drip of genuine reviews, and local content rooted in real OKC suburbs and neighborhoods. Timing is its own lever here. Contractors who rank before tornado season opens in April ride the spike instead of chasing it once it passes. Targeting Moore, Edmond, Yukon, and Midwest City one suburb at a time is how you cover the entire metro.",
@@ -167,7 +167,7 @@ export const oklahomaCityLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "An ever larger slice of \"near me\" research now starts inside AI rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the map results themselves." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is roughly how long local SEO needs to show real movement. After that it runs month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never get to keep, and after an OKC storm they charge a premium for homeowners your competitors already bought too. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less because the work is already coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across OKC and its suburbs, what your map competitors are doing to outrank you, the fixes that will move you fastest, and a realistic 90 to 180 day plan with the numbers run for your specific business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across OKC and its suburbs, what your map competitors are doing to outrank you, the fixes that will move you fastest, and a realistic 90 to 180 day plan with the numbers run for your specific business. No pitch deck, just a straight diagnosis of what your Oklahoma City Local SEO needs to win the top three on the map before the next hail line crosses the metro." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const oklahomaCityLocations = [
   {
     ...BASE,
     citySlug: 'oklahoma-city', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Oklahoma City SEO Company | OnwardCraft',
+    titleTag: 'Oklahoma City SEO Company | Rank Before Tornado Season | OnwardCraft',
     metaDescription:
-      'Oklahoma City SEO that ranks contractors on Google and delivers leads you keep. Storm-season content, suburb targeting, and zero lock-in contracts here.',
+      'Oklahoma City SEO that puts contractors on page one and holds it. Storm-season content, suburb targeting, organic traffic you keep, and zero lock-in here.',
     eyebrow: 'SEO Services · Oklahoma City',
-    h1: 'Climb to the top of Google in Oklahoma City and stay parked there',
+    h1: 'Oklahoma City SEO that puts you on page one and holds it through every hail line in Tornado Alley',
     h2Exact: 'Oklahoma City SEO Company',
     heroSubhead:
       "Ads switch off the second your card stops. SEO does the reverse: earn the ranking once for what Oklahoma City homeowners search and the leads keep arriving, storm-season surge and all, the spike that sets the rhythm of the entire OKC contractor year.",
     primaryCta: 'Get my free Oklahoma City SEO audit',
     intro:
-      "Oklahoma City SEO narrows to one blunt question. When a homeowner searches your trade, storm bearing down or blue sky overhead, are you sitting on page one or buried on page two? Around here page two might as well be page fifty. We get contractors ranking for the keywords that pay across OKC's fast-growing suburbs, and we keep score in leads booked, not vanity traffic charts.",
+      "Oklahoma City SEO narrows to one blunt question. When a homeowner searches your trade, storm bearing down or blue sky overhead, are you sitting on page one or buried on page two? Around here page two might as well be page fifty. As your Oklahoma City SEO company we get contractors ranking on Google for the money keywords that pay across OKC's fast-growing suburbs, and we keep score in leads booked, not vanity organic traffic charts.",
     aioQuestion: 'How do Oklahoma City businesses rank higher on Google?',
     aioAnswer:
       "They climb by repairing the technical base of the site, tuning each page to the precise terms buyers type, publishing genuinely useful local content tied to specific OKC suburbs and neighborhoods, and earning links from sources Google already trusts. In Oklahoma City the crews who rank for storm-damage, hail-repair, and insurance-claim terms before tornado season opens in April are the ones who catch the surge. Working Moore, Edmond, Yukon, and Midwest City one suburb at a time is how you blanket the full metro.",
@@ -233,7 +233,7 @@ export const oklahomaCityLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a fast-growing slice of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business rather than just classic search." },
       { q: 'Which areas around Oklahoma City do you cover?', a: "The full OKC metro: Midtown, Nichols Hills, Edmond, Moore, Yukon, Mustang, Midwest City, Del City, Norman, Bethany, Chisholm Creek, and more, built on genuine suburb pages rather than one catch-all Oklahoma City page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that funnel leads directly to you. After a storm event those platforms charge a premium for homeowners your competitors also bought. We build the visibility you own so the calls reach you first." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across OKC and its suburbs, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today across OKC and its suburbs, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a straight diagnosis of what your Oklahoma City SEO needs to reach page one before tornado season opens in April." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const oklahomaCityLocations = [
   {
     ...BASE,
     citySlug: 'oklahoma-city', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Oklahoma City Web Design Company | OnwardCraft',
+    titleTag: 'Oklahoma City Web Design Company | Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'Oklahoma City web design that turns visitors into booked jobs: fast, mobile-first contractor sites built to convert a storm-driven market all year round.',
+      'Oklahoma City Web Design that books jobs instead of just looking nice: fast, mobile-first contractor sites built to convert a storm-driven market all year.',
     eyebrow: 'Web Design · Oklahoma City',
-    h1: 'Oklahoma City web design that turns visitors into booked jobs',
+    h1: 'Oklahoma City Web Design that books jobs instead of just looking nice when Edmond homeowners search after the hail',
     h2Exact: 'Oklahoma City Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure. We build OKC contractors fast, mobile-first sites engineered to convert storm-season visitors into booked work and to capture the year-round lead flow that keeps your crew on the clock.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Oklahoma City contractor websites bleed leads without anyone noticing: sluggish on a phone, a call button hidden three taps down, no clear reason to choose them. After a hail storm or tornado a homeowner is rattled and searching fast, and they will tap the first result that looks trustworthy and shows an obvious number. We build sites that load quick, carry the polish of the pro you already are, and turn visitors from Moore to Edmond into booked jobs.",
+      "Oklahoma City Web Design lives or dies on one thing: whether a stressed homeowner taps your number or scrolls past you. Most contractor sites here bleed leads without anyone noticing, sluggish on a phone, a call button hidden three taps down, no clear reason to choose them. After a hail storm or tornado a homeowner is rattled and searching fast, and they will tap the first result that looks trustworthy and shows an obvious number. As an Oklahoma City web design company we build fast, mobile-first contractor websites that carry the polish of the pro you already are and turn visitors from Moore to Edmond into booked jobs.",
     aioQuestion: 'What makes a good contractor website in Oklahoma City?',
     aioAnswer:
       "A strong Oklahoma City contractor website loads in under three seconds on a phone, places the call button and a plain offer above the fold, earns trust with reviews and real project photos, and names the exact suburbs you cover. Because OKC homeowners so often search mid-crisis, after a storm, during a July heat wave, or in a January freeze, speed and an obvious next step are what separate a site that books jobs from one that just decorates the internet.",
@@ -299,7 +299,7 @@ export const oklahomaCityLocations = [
       { q: 'What platform do you build on?', a: "We choose the platform that fits your needs and that you can actually run yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs in plain language." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build comes with launch support, and after that we offer affordable monthly maintenance covering updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear read on what your current site is costing you in lost leads, what a high-converting Oklahoma City site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear read on what your current site is costing you in lost leads, what a high-converting Oklahoma City site should include, and a fixed-price quote with a timeline. No pressure, just a plan for the Oklahoma City Web Design that converts visitors into booked jobs through every storm season." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const oklahomaCityLocations = [
   {
     ...BASE,
     citySlug: 'oklahoma-city', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Oklahoma City Website Redesign | OnwardCraft',
+    titleTag: 'Oklahoma City Website Redesign | Rebuilt for Leads | OnwardCraft',
     metaDescription:
-      'Redesign your Oklahoma City website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs for OKC contractors.',
+      'Oklahoma City Website Redesign that rebuilds for leads, not just looks. Faster, mobile-first rebuilds with an SEO-safe migration that holds your rankings.',
     eyebrow: 'Website Redesign · Oklahoma City',
-    h1: 'Redesign your Oklahoma City website without losing your rankings',
+    h1: 'Oklahoma City Website Redesign that rebuilds for leads, not just looks, before the next Tornado Alley hail line hits',
     h2Exact: 'Oklahoma City Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every single week: slow, awkward on a phone, easy to skip past in an emergency. We redesign OKC contractor sites to convert more and load faster, then migrate them with enough care that you hold onto every scrap of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail in one of two ways. Either the site looks sharper but converts no better, or it launches and the rankings evaporate overnight. We do neither. We redesign Oklahoma City contractor sites for speed and conversions, build them to stand apart in a market run by storm seasons, and migrate with the redirects and SEO care that guard the traffic you already have.",
+      "An Oklahoma City Website Redesign fails in one of two ways. Either the site looks sharper but converts no better, or it launches and the rankings evaporate overnight. We do neither. We rebuild Oklahoma City contractor sites for speed and conversions, build them to stand apart in a market run by storm seasons, and run an SEO-safe migration with the redirects and care that guard the traffic you already have without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO through a redesign by keeping your URL structure (or mapping 301 redirects for every page that changes), preserving your existing content and metadata, carrying over your schema, and testing the whole thing on staging before launch. Handled right, a redesign holds your rankings and lifts them, because the new site is faster, mobile-first, and better structured than the one it replaces.",
@@ -365,7 +365,7 @@ export const oklahomaCityLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts conversions and rankings together." },
       { q: 'Do I own the redesigned site?', a: "Entirely: the site, the domain, and the content. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan, so your Oklahoma City Website Redesign rebuilds for leads and holds every ranking through the next storm season." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const oklahomaCityCity = {
 
   titleTag: 'Oklahoma City Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Oklahoma City contractors. Get found before tornado season, own your leads instead of renting them, and convert more.',
+    'Oklahoma City marketing for contractors: web design, SEO, and local SEO. Get found before tornado season, own your leads instead of renting them, convert more.',
 
   eyebrow: 'Oklahoma City · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Oklahoma City contractors found and booked',
+  h1: 'Oklahoma City marketing for contractors who want to own their leads when the next hail line crosses Tornado Alley',
   h2Exact: 'Oklahoma City Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for OKC's storm-driven market. One team to get you ranking before tornado season turns, converting stressed homeowners into booked jobs, and finally off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const oklahomaCityCity = {
   primaryCta: 'Get my free Oklahoma City audit',
 
   intro:
-    "Run a contracting business in Oklahoma City and the weather writes your calendar for you. Tornado season, hail events, the summer HVAC rush, winter heating emergencies: those are the moments the phones actually ring. The crews already ranking on Google when each spike lands are the ones who book the work. Winning here takes three pieces pulling together: a site that converts a rattled homeowner fast, SEO that ranks you for what people type during and after a storm, and local SEO that plants you on the Google map for the suburbs you cover. Here is exactly how we help OKC contractors pull that off.",
+    "Oklahoma City marketing for contractors starts with one fact: run a contracting business here and the weather writes your calendar for you. Tornado season, hail events, the summer HVAC rush, winter heating emergencies, those are the moments the phones actually ring. The crews already ranking on Google when each spike lands are the ones who book the work. Winning here takes three pieces pulling together: a site that converts a rattled homeowner fast, SEO that ranks you for what people type during and after a storm, and local SEO that plants you on the Google map for the suburbs you cover. We are the Oklahoma City digital marketing agency that brings web design and SEO together for the trades, and here is exactly how we help OKC contractors pull that off.",
   aioQuestion: 'How do Oklahoma City contractors get more leads online?',
   aioAnswer:
     "Oklahoma City contractors win more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches (storm-damage, hail-repair, and insurance-claim terms included) and local SEO that captures the Google map suburb by suburb. Because the OKC metro has spread out across Moore, Edmond, Yukon, Mustang, and Midwest City, the contractors who target those suburbs by name and rank before tornado season opens in April are the ones who book the most work.",
@@ -422,6 +422,6 @@ export const oklahomaCityCity = {
     { q: 'Why does the Oklahoma City market need a different approach?', a: "Because the storm economy is real here. Tornado season and hail events do not slowly build demand. They create an overnight flood of homeowners hunting for a contractor, and the businesses sitting on the map when that hits write up the work. Winning means ranking before the season opens, suburb by suburb, across a metro that keeps growing." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000 with no long contract. We confirm the exact scope in your free audit." },
     { q: 'Which Oklahoma City areas do you serve?', a: "The full metro: Midtown, Nichols Hills, Edmond, Moore, Yukon, Mustang, Midwest City, Del City, Norman, Bethany, Chisholm Creek, Automobile Alley, Paseo Arts District, and more." },
-    { q: 'Where should I start?', a: "Start with a free Oklahoma City audit. We will go through your website, your rankings, and your map presence, then point you to the one or two moves that will bring in work fastest, including a straight answer on whether you are ready for tornado season. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Oklahoma City audit. We will go through your website, your rankings, and your map presence, then point you to the one or two moves that will bring in work fastest, including a straight answer on whether you are ready for tornado season. That is how Oklahoma City marketing for contractors gets you found and booked instead of renting leads. No pitch deck, just a plan." },
   ],
 };

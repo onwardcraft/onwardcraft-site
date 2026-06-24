@@ -109,17 +109,17 @@ export const philadelphiaLocations = [
   {
     ...BASE,
     citySlug: 'philadelphia', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Philadelphia Local SEO Company | OnwardCraft',
+    titleTag: 'Philadelphia Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your trade in Philadelphia and three businesses fill the map. We put you in those three so the call lands with you, not the crew next door.',
+      'Philadelphia Local SEO that puts your business in the Google Map Pack, so the "near me" call from Fishtown or Chestnut Hill lands with you, not the crew next door.',
     eyebrow: 'Local SEO · Greater Philadelphia',
-    h1: 'When Philadelphia searches for what you do, be the first name on the map',
+    h1: 'Philadelphia Local SEO that puts your rowhome trade in the Fishtown Map Pack',
     h2Exact: 'Philadelphia Local SEO Company',
     heroSubhead:
       "When someone types \"near me,\" Google hands the map to three businesses and quietly hides the rest. We get you into that three, so the call reaches you instead of whoever happened to rank first, and so you are already standing there when winter sends roof-leak and frozen-pipe searches climbing.",
     primaryCta: 'Get my free Philadelphia audit',
     intro:
-      "Local SEO in Philadelphia hinges on a single question: when a homeowner in Fishtown or Chestnut Hill searches your trade plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll past them. This is a packed market with a contractor on nearly every block and some of the oldest housing in the nation, so earning a spot in that three is the entire contest. Below is exactly how you win it.",
+      "Philadelphia Local SEO hinges on a single question: when a homeowner in Fishtown or Chestnut Hill searches your trade plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll past them. This is a packed market with a contractor on nearly every block and some of the oldest housing in the nation, so earning a spot in the local 3-pack is the entire contest. Below is exactly how you win it.",
     aioQuestion: 'How do Philadelphia businesses rank higher in local search?',
     aioAnswer:
       "You climb by nailing four things: a Google Business Profile tuned to the precise services and neighborhoods you want, name, address, and phone details that match everywhere on the web, a real and steady flow of reviews, and local content tied to actual Philadelphia neighborhoods. Because the housing here is old and the winters bite, the businesses that win look established, answer fast, and are already ranked when freeze-driven repair demand surges.",
@@ -167,7 +167,7 @@ export const philadelphiaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts inside AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you leave, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less because the work is already finding you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack rivals are doing to outpace you, the fixes that will move you fastest, and a realistic 90 to 180 day plan with the numbers run for your shop. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack rivals are doing to outpace you, the fixes that will move you fastest, and a realistic 90 to 180 day plan with the numbers run for your shop. It is a straight diagnosis of what your Philadelphia Local SEO needs to rank you on the map, not a pitch deck." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const philadelphiaLocations = [
   {
     ...BASE,
     citySlug: 'philadelphia', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Philadelphia SEO Company | OnwardCraft',
+    titleTag: 'Philadelphia SEO Company | Rank and Stay There | OnwardCraft',
     metaDescription:
       'Philadelphia SEO that ranks contractors on Google and brings in leads you own. Lead-tied reporting, no lock-in, built for old-home repair demand.',
     eyebrow: 'SEO Services · Greater Philadelphia',
-    h1: 'Get your Philadelphia business to the top of Google and keep it there',
+    h1: 'Philadelphia SEO that gets your South Philly trade to the top of Google and keeps it there',
     h2Exact: 'Philadelphia SEO Company',
     heroSubhead:
       "Ads switch off the second your card stops. SEO does the reverse: rank once for what your Philadelphia customers search and the leads keep landing. We build that ranking and tie every report back to real calls and booked jobs.",
@@ -233,7 +233,7 @@ export const philadelphiaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Philadelphia do you cover?', a: "All of Greater Philadelphia and the towns around it: Fishtown, South Philly, Manayunk, Chestnut Hill, King of Prussia, Cherry Hill, Conshohocken, Media and more, with genuine local pages rather than one generic Philadelphia page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads straight to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to outpace you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your shop. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to outpace you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your shop. It is a straight diagnosis of how Philadelphia SEO can move you onto page one and grow your organic traffic, not a pitch deck." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const philadelphiaLocations = [
   {
     ...BASE,
     citySlug: 'philadelphia', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Philadelphia Web Design Company | OnwardCraft',
+    titleTag: 'Philadelphia Web Design Company | Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'Philadelphia web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and old-home repair demand.',
+      'Philadelphia Web Design that turns visitors into booked jobs: fast, mobile-first contractor sites built for rowhome repair demand from Manayunk to South Philly.',
     eyebrow: 'Web Design · Greater Philadelphia',
-    h1: 'Philadelphia web design that turns visitors into booked jobs',
+    h1: 'Philadelphia web design that turns Manayunk and South Philly visitors into booked jobs',
     h2Exact: 'Philadelphia Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just a brochure. We build Philadelphia contractors fast, mobile-first sites engineered to turn visitors into booked work, and to hold their footing when a winter freeze floods your phone with repair calls.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Philadelphia contractor websites leak leads in silence: slow on a phone, a call button no one can find, no clear offer anywhere. Web design done properly closes every one of those gaps. We build sites that load fast, look like the professional you are, and turn Fishtown-to-Chestnut-Hill visitors into booked jobs, and that stay standing when a cold snap sends frozen-pipe and roof-leak traffic surging.",
+      "Philadelphia Web Design done properly fixes the silent leaks in most contractor websites: slow on a phone, a call button no one can find, no clear offer anywhere. We build mobile-first contractor sites that load fast, look like the professional you are, and turn Fishtown-to-Chestnut-Hill visitors into booked jobs, and that stay standing when a cold snap sends frozen-pipe and roof-leak traffic surging.",
     aioQuestion: 'What makes a good contractor website in Philadelphia?',
     aioAnswer:
       "A strong Philadelphia contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, builds trust with reviews and real project photos, and is engineered to absorb traffic spikes when a winter freeze drives repair calls. Because most local searches happen on mobile, phone speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const philadelphiaLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage, usually WordPress or Webflow. We will recommend the right fit in your free consult and explain the tradeoffs in plain language." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, and you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Philadelphia site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Philadelphia Web Design should include to turn visitors into booked jobs, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const philadelphiaLocations = [
   {
     ...BASE,
     citySlug: 'philadelphia', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Philadelphia Website Redesign | OnwardCraft',
+    titleTag: 'Philadelphia Website Redesign | Keep Your Rankings | OnwardCraft',
     metaDescription:
-      'Redesign your Philadelphia website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter.',
+      'Philadelphia Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter.',
     eyebrow: 'Website Redesign · Greater Philadelphia',
-    h1: 'Redesign your Philadelphia website without losing your rankings',
+    h1: 'Philadelphia Website Redesign that converts your Northern Liberties rowhome site without losing your rankings',
     h2Exact: 'Philadelphia Website Redesign Company',
     heroSubhead:
       "An outdated site bleeds jobs every week: slow, awkward on a phone, easy to scroll past. We redesign Philadelphia contractor sites to convert more and load faster, and we migrate with care so you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail in one of two ways: the site looks sharper but converts the same, or it goes live and the rankings evaporate overnight. We refuse both. We redesign Philadelphia contractor sites for speed and conversions, build them to shrug off winter repair-season traffic, and migrate with the redirects and SEO discipline that protect the traffic you already have.",
+      "A Philadelphia Website Redesign fails in one of two ways: the site looks sharper but converts the same, or it goes live and the rankings evaporate overnight. We refuse both. We rebuild contractor sites for speed and conversions, build them to shrug off winter repair-season traffic, and run an SEO-safe migration with the redirects and discipline that protect the traffic you already have, so you redesign without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and lifts them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const philadelphiaLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Philadelphia Website Redesign should fix, and a fixed-price quote with a timeline and an SEO-safe migration plan that rebuilds for leads without losing the rankings you have earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const philadelphiaCity = {
 
   titleTag: 'Philadelphia Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Philadelphia contractors. Get found, get booked, and own your leads instead of renting them, built for old-home repair.',
+    'Philadelphia marketing for contractors: web design, SEO, and local SEO that gets you found and booked, and owns your leads instead of renting them, built for old-home repair.',
 
   eyebrow: 'Philadelphia · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Philadelphia contractors found and booked',
+  h1: 'Philadelphia marketing for contractors that gets your rowhome trade found and booked from Fishtown to Chestnut Hill',
   h2Exact: 'Philadelphia Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Philadelphia's dense, old-housing market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const philadelphiaCity = {
   primaryCta: 'Get my free Philadelphia audit',
 
   intro:
-    "Run a contracting business in Philadelphia and you are fighting for attention in a tight East Coast market full of century-old homes, with a competitor on nearly every block. Winning here takes three pieces pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that drops you into the Map Pack, all of it set before the next freeze sends repair demand climbing. Here is how we help Philadelphia contractors pull off exactly that.",
+    "Philadelphia marketing for contractors has to win in a tight East Coast market full of century-old homes, with a competitor on nearly every block. Winning here takes three pieces pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that drops you into the Map Pack, all of it set before the next freeze sends repair demand climbing. As your Philadelphia digital marketing agency for the trades, here is how we help contractors pull off exactly that.",
   aioQuestion: 'How do Philadelphia contractors get more leads online?',
   aioAnswer:
     "Philadelphia contractors win more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that takes the Google Map Pack. Because the city's housing ranks among the oldest in the country and winters drive repair demand, the contractors who look established and are already ranked before the freeze win the most work.",
@@ -422,6 +422,6 @@ export const philadelphiaCity = {
     { q: 'Why does Philadelphia housing age matter for my marketing?', a: "Around 72% of city homes were built before 1960, one of the oldest housing stocks in the country. That means roofing, repointing, basement, and plumbing repair drive a huge share of searches, and a hard winter freeze sends burst-pipe and roof-leak demand spiking. Ranking takes months to build, so the contractors already visible before the cold take that work. We get you in place ahead of it." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Philadelphia areas do you serve?', a: "All of Greater Philadelphia and the towns around it: Fishtown, South Philly, Manayunk, Chestnut Hill, Germantown, plus King of Prussia, Cherry Hill, Conshohocken, Media and more." },
-    { q: 'Where should I start?', a: "Start with a free Philadelphia audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Philadelphia audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Philadelphia marketing for contractors that will get you found and booked fastest. No pitch deck, just a plan." },
   ],
 };

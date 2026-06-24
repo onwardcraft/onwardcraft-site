@@ -111,15 +111,15 @@ export const peoriaLocations = [
     citySlug: 'peoria', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Peoria Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Peoria and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Peoria Local SEO that ranks you above the competition on the map, from Moss-Bradley to Dunlap, so the call lands with you.',
     eyebrow: 'Local SEO · Peoria, IL',
-    h1: 'When Peoria searches for what you do, be the first name they find',
+    h1: 'Peoria Local SEO that ranks you above the competition from Moss-Bradley to Dunlap',
     h2Exact: 'Peoria Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In Peoria — the city that defines middle-market America — we get you into that top three for your neighborhoods so the call lands with you, not whoever ranked first.",
     primaryCta: 'Get my free Peoria audit',
     intro:
-      "Peoria local SEO comes down to one thing: when a homeowner in Moss-Bradley or Dunlap searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. Peoria is a market of practical, value-oriented buyers — many of them CAT engineers and healthcare professionals who know how to evaluate a contractor. Being credible and visible locally is everything. Here's how you do it.",
+      "Peoria Local SEO comes down to one thing: when a homeowner in Moss-Bradley or Dunlap searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three in the local 3-pack and never scroll. Peoria is a market of practical, value-oriented buyers, many of them CAT engineers and healthcare professionals who know how to evaluate a contractor. Being credible and visible in local search across the Illinois River metro is everything. Here's how you do it.",
     aioQuestion: 'How do Peoria businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Peoria neighborhoods. Peoria buyers are practical and research-minded, so the winners target tight service areas, respond fast during storm and flood season, and build genuine trust signals that hold up when a CAT engineer or OSF nurse checks them out.",
@@ -167,7 +167,7 @@ export const peoriaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads that multiple competitors also bought. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly — and in Peoria, where community reputation matters, owned visibility compounds." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's a straight diagnosis of where Peoria Local SEO can rank you on the map for your service area, no pitch deck." },
     ],
   },
 
@@ -177,15 +177,15 @@ export const peoriaLocations = [
     citySlug: 'peoria', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Peoria SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Peoria SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm season.',
+      'Peoria SEO that climbs contractors past the competition on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm season.',
     eyebrow: 'SEO Services · Peoria, IL',
-    h1: 'Get your Peoria business to the top of Google and keep it there',
+    h1: 'Peoria SEO that climbs you past the competition on Google, from Washington to the Illinois River',
     h2Exact: 'Peoria SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Peoria customers search and the leads keep coming — including the surge when storm season hits. We build that ranking and tie every report to actual calls and jobs.",
     primaryCta: 'Get my free Peoria SEO audit',
     intro:
-      "Peoria SEO comes down to one question: when a homeowner in Washington or Dunlap searches your service, are you on page one or page two? Page two might as well not exist. We get contractors ranking for the money keywords in Peoria's practical, research-minded market — and we measure it in leads, not vanity traffic.",
+      "Peoria SEO comes down to one question: when a homeowner in Washington or Dunlap searches your service, are you on page one or page two? Page two might as well not exist. We get contractors ranking on Google for the money keywords in Peoria's practical, research-minded market along the Illinois River, growing organic traffic and measuring it in leads, not vanity numbers.",
     aioQuestion: 'How do Peoria businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content tied to specific neighborhoods and communities, and earning links from trusted Peoria sources. In a market full of CAT engineers and healthcare professionals who do their homework, tight community targeting and ranking for seasonal storm, flood, and heating terms are two of the quickest ways to pull ahead.",
@@ -233,7 +233,7 @@ export const peoriaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Peoria do you cover?', a: "Peoria and the surrounding metro — East Peoria, Pekin, Dunlap, Morton, Washington, Canton, Galesburg, Chillicothe, Peoria Heights, Moss-Bradley, Richwoods, Northwoods, and more — with genuine local pages rather than one generic Peoria page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads. And in Peoria, where community reputation matters, owning your visibility compounds faster." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It shows exactly how Peoria SEO can move you onto page one for the searches that book jobs, no pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const peoriaLocations = [
     citySlug: 'peoria', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Peoria Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Peoria web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving a practical, research-minded market.',
+      'Peoria Web Design that loads fast and books more jobs. Mobile-first contractor websites built for the CAT engineers and pros who set the bar here.',
     eyebrow: 'Web Design · Peoria, IL',
-    h1: 'Peoria web design that turns visitors into booked jobs',
+    h1: 'Peoria Web Design that loads fast and books more jobs, even for the CAT engineers vetting you',
     h2Exact: 'Peoria Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Peoria contractors fast, mobile-first sites engineered to turn visitors into booked work — and to hold up under scrutiny from CAT engineers and healthcare professionals who know quality.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Peoria contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Peoria buyers are practical and do their homework — many are Caterpillar engineers or OSF and Methodist Medical staff who evaluate contractors the same way they'd evaluate a supplier. A website that looks credible, loads fast, and makes it obvious how to book the job is not optional here. We build exactly that.",
+      "Peoria Web Design has to do one job most contractor sites fail at: turn a visitor into a booked call instead of losing them to a slow load, a buried call button, or no clear offer. Peoria buyers are practical and do their homework, and many are Caterpillar engineers or OSF and Methodist Medical staff who evaluate a contractor website the same way they'd evaluate a supplier. A fast-loading, mobile-first site that looks credible and makes it obvious how to book the job is not optional here. We build exactly that.",
     aioQuestion: 'What makes a good contractor website in Peoria?',
     aioAnswer:
       "A good Peoria contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific communities you serve. Because Peoria buyers are research-minded and professional — a lot of them work at Caterpillar, OSF HealthCare, or Methodist Medical — a site that looks credible and is easy to verify converts far better than one that feels generic.",
@@ -299,7 +299,7 @@ export const peoriaLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Peoria site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Peoria Web Design should include for a contractor in this market, and a fixed-price quote with a timeline for a mobile-first site that turns visitors into booked jobs. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const peoriaLocations = [
   {
     ...BASE,
     citySlug: 'peoria', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Peoria Website Redesign | OnwardCraft',
+    titleTag: 'Peoria Website Redesign | SEO-Safe Rebuild | OnwardCraft',
     metaDescription:
-      'Redesign your Peoria website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a practical.',
+      'Peoria Website Redesign done with a careful, SEO-safe migration. Faster, mobile-first rebuilds that convert more visitors into booked jobs without losing rankings.',
     eyebrow: 'Website Redesign · Peoria, IL',
-    h1: 'Redesign your Peoria website without losing your rankings',
+    h1: 'Peoria Website Redesign done with a careful, SEO-safe migration along the Illinois River metro',
     h2Exact: 'Peoria Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, and easy to dismiss by a Peoria buyer who knows quality. We redesign contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Peoria contractor sites for speed and conversions, build them to withstand scrutiny from a professional homeowner base, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Peoria Website Redesign goes wrong one of two ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign contractor sites across the Illinois River metro for speed and conversions, rebuild them mobile-first to withstand scrutiny from a professional homeowner base, and handle an SEO-safe migration with the redirects that protect the rankings you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const peoriaLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline. You get the full plan for a Peoria Website Redesign with an SEO-safe migration that rebuilds for leads without losing the rankings you've earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const peoriaCity = {
 
   titleTag: 'Peoria Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Peoria contractors. Get found, get booked, and own your leads instead of renting them — built for middle-market buyers.',
+    'Peoria marketing for contractors that fills your calendar. Web design, SEO, and local SEO that get you found and booked, built for middle-market buyers.',
 
   eyebrow: 'Peoria, IL · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Peoria contractors found and booked',
+  h1: 'Peoria marketing for contractors that fills your calendar, from Moss-Bradley to the Illinois River',
   h2Exact: 'Peoria Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Peoria's practical, research-minded market — where CAT engineers and healthcare professionals set the bar and storm season drives the spikes. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const peoriaCity = {
   primaryCta: 'Get my free Peoria audit',
 
   intro:
-    "If you run a contracting business in Peoria, you're selling to a market that famously represents middle-market America — practical, value-focused, and skeptical of hype. A significant share of the professional homeowner class here are Caterpillar engineers and OSF or Methodist Medical staff who evaluate contractors the way they'd evaluate any vendor: systematically and honestly. To win their business online you need three things working together: a site that converts the scrutiny into a call, SEO that ranks you for what people search year-round, and local SEO that puts you in the Map Pack for the communities you serve — including before spring tornado season and Illinois River flooding drive the surge. Here's how we help Peoria contractors do exactly that.",
+    "Peoria marketing for contractors starts with one fact: you're selling to a market that famously represents middle-market America, practical, value-focused, and skeptical of hype. A significant share of the professional homeowner class here are Caterpillar engineers and OSF or Methodist Medical staff who evaluate contractors the way they'd evaluate any vendor, systematically and honestly. To win their business online you need three things working together: web design and SEO that convert the scrutiny into a call, SEO that ranks you for what people search year-round, and local SEO that puts you in the Map Pack for the communities you serve, including before spring tornado season and Illinois River flooding drive the surge. Here's how we help Peoria contractors do exactly that.",
   aioQuestion: 'How do Peoria contractors get more leads online?',
   aioAnswer:
     "Peoria contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack community by community. Because Peoria buyers are practical and research-minded — many are Caterpillar or healthcare professionals who do real homework — the contractors who look credible, target specific neighborhoods, and rank before storm and flood season capture the most work.",
@@ -422,6 +422,6 @@ export const peoriaCity = {
     { q: 'Why does the Peoria market need a different approach?', a: "Peoria is famous as a proxy for middle-market America — practical, value-focused buyers who are skeptical of hype and do their homework. A large share of the professional homeowner class works at Caterpillar or in healthcare, and they evaluate contractors carefully. Generic national templates don't cut it here; you need genuine local credibility and the right seasonal positioning." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Peoria areas do you serve?', a: "Peoria and the surrounding metro — East Peoria, Pekin, Dunlap, Morton, Washington, Canton, Galesburg, Chillicothe, Peoria Heights, Moss-Bradley, Richwoods, Northwoods, Bartonville, Metamora, and the communities in between." },
-    { q: 'Where should I start?', a: "Start with a free Peoria audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest — including how to position for storm season and winter demand. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Peoria audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, including how to position for storm season and winter demand. That's Peoria marketing for contractors in practice: get found, get booked, and own your leads. No pitch deck, just a plan." },
   ],
 };

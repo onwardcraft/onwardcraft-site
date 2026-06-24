@@ -111,15 +111,15 @@ export const norfolkLocations = [
     citySlug: 'norfolk', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Norfolk Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Norfolk and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Norfolk Local SEO that ranks you above the competition on the map, from Ghent to Ocean View, so the "near me" call lands with you.',
     eyebrow: 'Local SEO · Hampton Roads',
-    h1: 'When Norfolk searches for what you do, be the first name they find',
+    h1: 'Norfolk Local SEO that ranks you above the competition from Ghent to Naval Station Norfolk',
     h2Exact: 'Norfolk Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the call lands with you instead of whoever ranked first — and so you're the name the next Navy family finds the day they hit town.",
     primaryCta: 'Get my free Norfolk audit',
     intro:
-      "Norfolk local SEO comes down to one thing: when a homeowner in Ghent or a sailor's family just stationed at Naval Station Norfolk searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. With thousands of new arrivals every year and almost nobody with a contractor they already trust, becoming one of those three is the whole game. Here's how you do it.",
+      "Norfolk Local SEO comes down to one thing: when a homeowner in Ghent or a sailor's family just stationed at Naval Station Norfolk searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. With thousands of new arrivals every year and almost nobody with a contractor they already trust, ranking in that local 3-pack is the whole game. Here's how local SEO services and a tuned Google Business Profile get you there.",
     aioQuestion: 'How do Norfolk businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Hampton Roads neighborhoods. Norfolk has a constant influx of Navy families with no established contractors and a year-round flooding and storm problem, so the winners look established, respond fast, and are already ranking when demand spikes.",
@@ -167,7 +167,7 @@ export const norfolkLocations = [
       { q: 'Do you work with contractors specifically?', a: "It's basically all we do. Roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors. We understand emergency calls, flood-driven demand, and insurance jobs, and we build your local SEO around them." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
-      { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
+      { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. Norfolk Local SEO is the opposite: we build rankings, a Google Business Profile, and a review base that put you on the map and send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
     ],
   },
 
@@ -177,15 +177,15 @@ export const norfolkLocations = [
     citySlug: 'norfolk', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Norfolk SEO Company | OnwardCraft',
     metaDescription:
-      'Norfolk SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for military and storm-season.',
+      'Norfolk SEO that climbs you past the competition on Google and brings in leads you own. Revenue-tied reporting, no lock-in, built for military and storm-season.',
     eyebrow: 'SEO Services · Hampton Roads',
-    h1: 'Get your Norfolk business to the top of Google and keep it there',
+    h1: 'Norfolk SEO that climbs you past the competition on Google, from the base gates to the waterfront',
     h2Exact: 'Norfolk SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Hampton Roads customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
     primaryCta: 'Get my free Norfolk SEO audit',
     intro:
-      "Norfolk SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in a market driven by constant military turnover and relentless coastal flooding — and we measure it in leads, not vanity traffic.",
+      "Norfolk SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking on Google for the money keywords in a market driven by constant military turnover and relentless coastal flooding, building organic traffic you own and measuring it in booked leads, not vanity numbers.",
     aioQuestion: 'How do Norfolk businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Hampton Roads sources. In a market with a constant flow of new military arrivals and year-round flood and storm demand, keeping the site fast on mobile and ranking for seasonal and flood-driven terms are two of the quickest ways to pull ahead.",
@@ -233,7 +233,7 @@ export const norfolkLocations = [
       { q: 'Do you require a long-term contract?', a: "No. We ask for an initial 90 days because SEO needs that long to show real movement, then it's month-to-month. If we're not delivering, you leave." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Norfolk do you cover?', a: "All of Hampton Roads and the surrounding areas — Virginia Beach, Chesapeake, Portsmouth, Newport News, Hampton, Suffolk and more — with genuine local pages rather than one generic Norfolk page." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It's the clearest picture you'll get of what Norfolk SEO can do to push your money keywords onto page one. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const norfolkLocations = [
     citySlug: 'norfolk', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Norfolk Web Design Company | OnwardCraft',
     metaDescription:
-      'Norfolk web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors, military movers, and storm-season demand.',
+      'Norfolk Web Design that loads fast and books more jobs, mobile-first sites built for contractors, military movers, and storm-season demand.',
     eyebrow: 'Web Design · Hampton Roads',
-    h1: 'Norfolk web design that turns visitors into booked jobs',
+    h1: 'Norfolk web design that loads fast and books more jobs, even on the day a Larchmont street floods',
     h2Exact: 'Norfolk Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Norfolk contractors fast, mobile-first sites engineered to turn visitors into booked work — including the Navy family who just landed and the homeowner whose street just flooded.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Norfolk contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Ghent-to-Ocean-View visitors into booked jobs — and that don't fall over when a storm or PCS season sends your traffic through the roof.",
+      "Norfolk Web Design done right fixes the quiet leaks that cost contractors leads: slow on a phone, buried call button, no clear offer. We build mobile-first sites that load fast, look like the professional you are, and convert Ghent-to-Ocean-View visitors into booked jobs, sites that don't fall over when a storm or PCS season sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Norfolk?',
     aioAnswer:
       "A good Norfolk contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during storm season and PCS rotations. Because most Norfolk searches happen on mobile and many come from newly arrived military families with no local contacts, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const norfolkLocations = [
       { q: 'Will it work well on phones?', a: "We design mobile-first, because that's where almost all of your Norfolk traffic comes from. Fast load, easy-to-tap call buttons, and forms built for a thumb." },
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
-      { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
+      { q: 'Am I locked into a contract?', a: "No. Norfolk Web Design with us is a one-time project with a fixed price, and you walk away owning a fast-loading site that converts visitors into booked jobs. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const norfolkLocations = [
     citySlug: 'norfolk', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Norfolk Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Norfolk website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm and PCS.',
+      'Norfolk Website Redesign done with a careful, SEO-safe migration. Faster, mobile-first rebuilds that convert more visitors and hold up in storm and PCS season.',
     eyebrow: 'Website Redesign · Hampton Roads',
-    h1: 'Redesign your Norfolk website without losing your rankings',
+    h1: 'Norfolk Website Redesign done with a careful, SEO-safe migration that keeps you ranking when the next PCS wave hits',
     h2Exact: 'Norfolk Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Norfolk contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Norfolk contractor sites for speed and conversions, build them to handle storm- and PCS-season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Norfolk Website Redesign goes wrong one of two ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Norfolk contractor sites for speed and conversions, build them to handle storm- and PCS-season traffic, and run an SEO-safe migration with the redirects and metadata care that protect the rankings you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const norfolkLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and the SEO-safe migration plan that makes a Norfolk Website Redesign rebuild your site without losing the rankings you've earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const norfolkCity = {
 
   titleTag: 'Norfolk Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Norfolk contractors. Get found, get booked, and own your leads instead of renting them — built for military.',
+    'Norfolk marketing for contractors: web design, SEO, and local SEO that gets you found, gets you booked, and lets you own your leads instead of renting them.',
 
   eyebrow: 'Norfolk · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Norfolk contractors found and booked',
+  h1: 'Norfolk marketing for contractors that fills your calendar through every PCS season and storm',
   h2Exact: 'Norfolk Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Hampton Roads' military-driven, flood-prone market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const norfolkCity = {
   primaryCta: 'Get my free Norfolk audit',
 
   intro:
-    "If you run a contracting business in Norfolk, you're serving a market unlike any other — tens of thousands of Navy families rotating through Hampton Roads every year, and one of the worst coastal-flooding problems in the country. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack — all ready before the next PCS season or storm sends demand through the roof. Here's how we help Norfolk contractors do exactly that.",
+    "Norfolk marketing for contractors has to fit a market unlike any other: tens of thousands of Navy families rotating through Hampton Roads every year, and one of the worst coastal-flooding problems in the country. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all ready before the next PCS season or storm sends demand through the roof. As your Norfolk digital marketing agency, here's how we get you found and booked.",
   aioQuestion: 'How do Norfolk contractors get more leads online?',
   aioAnswer:
     "Norfolk contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Hampton Roads sees constant military turnover and frequent tidal flooding and storms, the contractors who look established and are already ranking before the next PCS season or flood win the most work.",
@@ -422,6 +422,6 @@ export const norfolkCity = {
     { q: 'Why does the military presence matter for my marketing?', a: "Norfolk is home to the largest naval base on Earth, and tens of thousands of Navy families PCS through Hampton Roads every year with no contractor they already trust. They search the day they arrive and book one of the top results. Ranking takes months to build, so the contractors already visible win that recurring, ready-to-spend audience. We get you in place ahead of each rotation." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Norfolk areas do you serve?', a: "All of Hampton Roads and the surrounding areas — Ghent, Larchmont, Ocean View, Colonial Place, plus Virginia Beach, Chesapeake, Portsmouth, Newport News, Suffolk and more." },
-    { q: 'Where should I start?', a: "Start with a free Norfolk audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Norfolk audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Norfolk marketing for contractors that will get you found and booked fastest. No pitch deck, just a plan." },
   ],
 };

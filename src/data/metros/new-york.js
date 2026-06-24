@@ -109,17 +109,17 @@ export const newYorkLocations = [
   {
     ...BASE,
     citySlug: 'new-york', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'New York Local SEO | Own the Map Pack | OnwardCraft',
+    titleTag: 'New York Local SEO Company | Own the Map Pack | OnwardCraft',
     metaDescription:
-      'When New Yorkers search your trade plus near me, three businesses claim the map. We get your shop into those three so the call rings your phone.',
+      'New York Local SEO that gets you found when neighbors search your trade. We muscle your shop into the three Map Pack pins so the call rings your phone.',
     eyebrow: 'Local SEO · New York City',
-    h1: 'When New York searches for your trade, be the name at the top',
+    h1: 'New York Local SEO that gets you found when neighbors in Park Slope and Astoria search your trade',
     h2Exact: 'New York Local SEO Company',
     heroSubhead:
       "Type any service plus \"near me\" and Google hands the map to just three businesses. Everyone underneath is wallpaper. In a city this packed we muscle your shop into that top three for your boroughs and neighborhoods, so the call rings your phone instead of whoever happened to rank first.",
     primaryCta: 'Get my free New York audit',
     intro:
-      "New York local SEO boils down to a single question: when a homeowner in Park Slope or Astoria taps in your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap a pin and never scroll past it. This is the densest, fiercest market in the country, and nearly half of New Yorkers run their searches in another language, so claiming one of those three pins across the neighborhoods you cover is the entire game. Here is exactly how you win it.",
+      "New York Local SEO boils down to a single question: when a homeowner in Park Slope or Astoria taps in your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap a pin and never scroll past it. This is the densest, fiercest market in the country, and nearly half of New Yorkers run their local searches in another language, so claiming one of those three pins across the neighborhoods you cover is the entire game. A sharp Google Business Profile and a local SEO company that ranks you on the map is how you win it.",
     aioQuestion: 'How do New York businesses rank higher in local search?',
     aioAnswer:
       "You climb by nailing four things: a Google Business Profile tuned to the precise services and neighborhoods you want, name-address-phone listings that match everywhere on the web, a steady drip of genuine reviews, and local content rooted in actual New York boroughs and neighborhoods. Because the city is so dense and so multilingual, the winners lock onto tight service areas, surface in the languages their buyers type, and answer fast when winter heating and summer cooling demand explodes.",
@@ -167,7 +167,7 @@ export const newYorkLocations = [
       { q: 'Will I appear in Google AI Overviews and ChatGPT?', a: "A growing share of \"near me\" research now starts in AI rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as decisive as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show genuine movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and borrowed visibility at some of the highest per-lead prices in the country. We build rankings, a Google profile, and a review base that funnel leads straight to you. Over time you lean on the brokers less because the work arrives directly." },
-      { q: "What is in the free audit?", a: "A clear read on where you rank today across your boroughs, what your Map Pack rivals are doing to beat you, the fixes that will move you fastest, and a realistic 90 to 180 day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What is in the free audit?", a: "A clear read on where you rank today across your boroughs, what your Map Pack rivals are doing to beat you, the fixes that will move you fastest, and a realistic 90 to 180 day plan with the numbers run for your business. It is the honest starting point for New York Local SEO that ranks you on the map. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const newYorkLocations = [
   {
     ...BASE,
     citySlug: 'new-york', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'New York SEO | Rank Higher, Win Leads | OnwardCraft',
+    titleTag: 'New York SEO Company | Rank Higher, Win Leads | OnwardCraft',
     metaDescription:
-      'New York SEO that ranks contractors on Google and feeds you leads you actually own. Reporting tied to revenue, no lock-in, built for a brutal market.',
+      'New York SEO that turns organic traffic into booked work for contractors. We rank you on Google for money keywords, with reporting tied to real leads.',
     eyebrow: 'SEO Services · New York City',
-    h1: 'Drive your New York business to the top of Google and keep it parked there',
+    h1: 'New York SEO that turns organic traffic from the five boroughs into booked work',
     h2Exact: 'New York SEO Company',
     heroSubhead:
       "Ads die the instant you stop paying. SEO does the opposite: rank once for what your New York customers search and the leads keep arriving. We build that ranking and tie every report to real calls and booked jobs.",
     primaryCta: 'Get my free New York SEO audit',
     intro:
-      "New York SEO comes down to one question: when someone searches what you do, are you sitting on page one or buried on page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in the densest, most cutthroat market in the country, and we count it in leads, never in vanity traffic.",
+      "New York SEO comes down to one question: when someone searches what you do, are you sitting on page one or buried on page two? Page two might as well be page fifty. As an SEO agency that works only with the trades, we get contractors ranking for the money keywords in the densest, most cutthroat market in the country, turning organic traffic into booked work and counting it in leads, never in vanity traffic.",
     aioQuestion: 'How do New York businesses rank higher on Google?',
     aioAnswer:
       "They rank by repairing the site's technical foundation, tuning every page to the exact terms buyers search, publishing genuinely useful local content tied to specific boroughs and neighborhoods, and earning links from trusted New York sources. In a market this brutal, tight neighborhood targeting and ranking early for seasonal heating and cooling terms are two of the fastest ways to pull ahead.",
@@ -233,7 +233,7 @@ export const newYorkLocations = [
       { q: 'Will I appear in Google AI Overviews and ChatGPT?', a: "That is a fast-growing slice of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around New York do you cover?', a: "All five boroughs and the neighborhoods within them: Manhattan, Brooklyn, Queens, the Bronx, and Staten Island, from Park Slope and Astoria to Riverdale and Bay Ridge, with genuine local pages instead of one catch-all New York page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads directly to you. The more you own your search visibility, the less you bleed paying brokers for shared leads at New York prices." },
-      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is the straightest path to New York SEO that turns organic traffic into booked jobs. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const newYorkLocations = [
   {
     ...BASE,
     citySlug: 'new-york', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'New York Web Design for Contractors | OnwardCraft',
+    titleTag: 'New York Web Design Company for Contractors | OnwardCraft',
     metaDescription:
-      'New York web design that converts visitors into booked jobs: fast, mobile-first sites built for contractors fighting in the densest market in the country.',
+      'New York Web Design that makes Brooklyn and Queens homeowners pick you: fast, mobile-first sites built to convert visitors into booked jobs in a brutal market.',
     eyebrow: 'Web Design · New York City',
-    h1: 'New York web design that turns visitors into booked jobs',
+    h1: 'New York Web Design that makes homeowners from Brooklyn to Queens pick you',
     h2Exact: 'New York Web Design Company',
     heroSubhead:
       "A handsome website that generates zero calls is just a brochure. We build New York contractors fast, mobile-first sites engineered to convert visitors into booked work and to cut through the most crowded market in the country.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most New York contractor websites leak leads quietly: sluggish on a phone, a call button hidden somewhere south of the fold, no clear offer. Web design done right plugs every one of those holes. We build sites that load fast, carry the polish your work deserves, and turn visitors from Park Slope to Riverdale into booked jobs, all engineered to win in a market where a dozen competitors are one tap away.",
+      "New York Web Design that wins comes down to one thing: a site that makes the homeowner pick you instead of the next tap. Most contractor websites leak leads quietly, sluggish on a phone, a call button hidden somewhere south of the fold, no clear offer. As a web design company built for the trades, we build mobile-first sites that load fast, carry the polish your work deserves, and turn visitors from Park Slope to Riverdale into booked jobs in a market where a dozen competitors are one tap away.",
     aioQuestion: 'What makes a good contractor website in New York?',
     aioAnswer:
       "A strong New York contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, builds trust with reviews and real project photos, and names the exact boroughs and neighborhoods you serve. Because most New York searches happen on mobile and the rivalry is ferocious, mobile speed and an unmistakable next step are what separate a site that books jobs from one that just collects dust.",
@@ -299,7 +299,7 @@ export const newYorkLocations = [
       { q: 'What platform do you build on?', a: "We choose the platform that fits your needs and that you can genuinely manage, usually WordPress or Webflow. We recommend the right fit in your free consult and lay out the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and afterward we offer affordable monthly maintenance covering updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO stays month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting New York site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting New York site should include, and a fixed-price quote with a timeline. It is the plain starting point for New York Web Design that converts visitors into booked jobs. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const newYorkLocations = [
     citySlug: 'new-york', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'New York Website Redesign | Keep Your Rankings | OnwardCraft',
     metaDescription:
-      'Redesign your New York website without torching your rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a brutal market.',
+      'New York Website Redesign that turns an aging site into a lead engine without torching your rankings. Faster, mobile-first rebuilds with an SEO-safe migration.',
     eyebrow: 'Website Redesign · New York City',
-    h1: 'Redesign your New York website without torching your rankings',
+    h1: 'New York Website Redesign that turns an aging brownstone-era site into a lead engine across the boroughs',
     h2Exact: 'New York Website Redesign Company',
     heroSubhead:
       "An outdated site bleeds jobs every week: slow, awkward on a phone, easy to scroll right past. We redesign New York contractor sites to convert more and load faster, then migrate with care so you keep every scrap of ranking you have earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns crash one of two ways: the site looks sharper but converts no better, or it launches and the rankings evaporate overnight. We refuse both outcomes. We redesign New York contractor sites for speed and conversions, build them to stand out in a brutal market, and migrate with the redirects and SEO care that guard the traffic you already own.",
+      "New York Website Redesign done right turns an aging site into a lead engine instead of crashing one of two ways: the site looks sharper but converts no better, or it launches and the rankings evaporate overnight. We refuse both. We rebuild New York contractor sites for speed and conversions, mobile-first so they stand out from Bay Ridge to Riverdale, and run an SEO-safe migration with the redirects that guard the traffic you already own.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing the whole thing on staging before launch. Handled right, a redesign holds your rankings and lifts them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const newYorkLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO stays month-to-month." },
-      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It is the honest starting point for a New York Website Redesign that adds leads without losing rankings." },
     ],
   },
 ];
@@ -373,12 +373,12 @@ export const newYorkLocations = [
 export const newYorkCity = {
   citySlug: 'new-york', city: 'New York', state: 'New York', stateAbbr: 'NY', metro: 'New York City',
 
-  titleTag: 'New York Contractor Marketing | OnwardCraft',
+  titleTag: 'New York Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for New York contractors. Get found, get booked, and own your leads instead of renting them, all built for a brutal market.',
+    'New York marketing for contractors that turns searches into jobs: web design, SEO, and local SEO to get found, get booked, and own your leads in a brutal market.',
 
   eyebrow: 'New York · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets New York contractors found and booked',
+  h1: 'New York marketing for contractors that turns borough-by-borough searches into booked jobs',
   h2Exact: 'New York Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for New York's dense, cutthroat, multilingual market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const newYorkCity = {
   primaryCta: 'Get my free New York audit',
 
   intro:
-    "Run a contracting business in New York and you are scrapping for attention in the densest, most cutthroat market in the country, with a dozen rivals one tap away in every neighborhood. Winning here takes three pieces firing together: a site that converts, SEO that ranks you for what people actually search, and local SEO that plants you in the Map Pack across the boroughs you serve, plus the multilingual reach to capture demand most agencies never spot. Here is how we help New York contractors pull off exactly that.",
+    "New York marketing for contractors comes down to turning searches into jobs in the densest, most cutthroat market in the country, where a dozen rivals sit one tap away in every neighborhood. Winning takes three pieces firing together: web design that converts, SEO that ranks you for what people actually search, and local SEO that plants you in the Map Pack across the boroughs you serve, plus the multilingual reach to capture demand most agencies never spot. As a digital marketing agency built for the trades, here is how we help New York contractors get found and booked.",
   aioQuestion: 'How do New York contractors get more leads online?',
   aioAnswer:
     "New York contractors win more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that takes the Google Map Pack borough by borough. Because the market is so dense and nearly half of residents speak another language at home, the contractors who zero in on tight neighborhoods and surface where their customers genuinely search book the most work.",
@@ -422,6 +422,6 @@ export const newYorkCity = {
     { q: 'Why does the New York market need a different approach?', a: "It is the densest, most cutthroat home-services market in the country, and nearly half of residents speak a language other than English at home. Winning means ranking tight, borough by borough and neighborhood by neighborhood, and surfacing for searches most contractors never even target." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free audit." },
     { q: 'Which New York areas do you serve?', a: "All five boroughs and the neighborhoods within them: Manhattan, Brooklyn, Queens, the Bronx, and Staten Island, from Park Slope and Astoria to Riverdale, Bay Ridge, Flushing and beyond." },
-    { q: 'Where should I start?', a: "Start with a free New York audit. We will look over your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free New York audit. We will look over your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It is the simplest first step into New York marketing for contractors that gets you found and booked. No pitch deck, just a plan." },
   ],
 };

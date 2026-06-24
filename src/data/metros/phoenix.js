@@ -109,17 +109,17 @@ export const phoenixLocations = [
   {
     ...BASE,
     citySlug: 'phoenix', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Phoenix Local SEO Company | Win the Map Pack',
+    titleTag: 'Phoenix Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your trade in Phoenix and three businesses pin to the map. We get you into those three, in English and Spanish, so the call lands with you.',
+      'Phoenix Local SEO that pins you to the map when neighbors search your trade, in English and Spanish, so the call lands with you, not three rivals.',
     eyebrow: 'Local SEO · Phoenix Metro',
-    h1: 'When Phoenix searches for what you do, be the first name they find',
+    h1: 'Phoenix Local SEO that makes you the first name on the Arcadia-to-Maryvale map',
     h2Exact: 'Phoenix Local SEO Company',
     heroSubhead:
       "At 5pm in July, when a homeowner taps \"AC repair near me,\" Google hands them three businesses on a map and almost nobody scrolls past them. Everyone below those three is invisible. We put you in that top three, in English and in Spanish, so the call rings your phone instead of the contractor who happened to rank first.",
     primaryCta: 'Get my free Phoenix audit',
     intro:
-      "Phoenix local SEO plays by its own rules because of the heat. When a system quits during a 115-degree afternoon, a homeowner in Arcadia or Maryvale grabs a phone, taps one of the three names Google pinned to the map, and never looks lower. Plenty of them type \"reparación de aire\" instead of \"AC repair,\" since roughly 42% of the metro is Hispanic. Owning one of those three spots, in both languages, is the entire game. Below is exactly how you take one.",
+      "Phoenix Local SEO plays by its own rules because of the heat. When a system quits during a 115-degree afternoon, a homeowner in Arcadia or Maryvale grabs a phone, taps one of the three names Google pinned to the map, and never looks lower. Plenty of them type \"reparación de aire\" instead of \"AC repair,\" since roughly 42% of the metro is Hispanic. Owning one of those Google Map Pack spots through smart local SEO services, in both languages, is the entire game. Below is exactly how you take one.",
     aioQuestion: 'How do Phoenix businesses rank higher in local search?',
     aioAnswer:
       "Four things decide it. A Google Business Profile tuned to the exact services and Valley neighborhoods you want, name-address-phone listings that match everywhere Google checks, a steady flow of genuine reviews, and local content that includes Spanish, since about 42% of the Phoenix metro is Hispanic. Because heat and monsoon demand spike without warning, the winners look established, answer the search first, and show up in both languages.",
@@ -167,7 +167,7 @@ export const phoenixLocations = [
       { q: 'Do you work with contractors specifically?', a: "It is nearly all we do. Roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors. We get emergency calls, heat-driven demand, monsoon damage, and insurance jobs, and we shape your local SEO around every one of them." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A growing share of \"near me\" research now starts inside AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. In Phoenix it is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays right where it belongs, on us." },
-      { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that route Phoenix homeowners straight to you. Over time you lean on the lead brokers less because the work is already arriving on its own." },
+      { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. Phoenix Local SEO builds the opposite: rankings, a Google Business Profile, and a review base that route Valley homeowners straight to you. Over time you lean on the lead brokers less because the work is already arriving on its own." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const phoenixLocations = [
   {
     ...BASE,
     citySlug: 'phoenix', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Phoenix SEO Company | Rank Higher, Get Leads',
+    titleTag: 'Phoenix SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
       'Phoenix SEO that ranks contractors on Google and delivers leads you own, in English and Spanish. Lead-tied reporting and no lock-in contracts.',
     eyebrow: 'SEO Services · Phoenix Metro',
-    h1: 'Get your Phoenix business to the top of Google and keep it there',
+    h1: 'Phoenix SEO that puts your business on page one and holds it through every heat wave',
     h2Exact: 'Phoenix SEO Company',
     heroSubhead:
       "Ads die the moment you stop paying. SEO does the opposite: rank once for what your Phoenix customers search, in both languages, and the leads keep arriving through every heat wave and every monsoon. We build that ranking and tie every report to actual calls and booked jobs.",
     primaryCta: 'Get my free Phoenix SEO audit',
     intro:
-      "Phoenix SEO boils down to one question: when a homeowner searches your trade, are you on page one or page two? Page two might as well be page fifty. We rank Valley contractors for the money keywords, in English and in the Spanish that 42% of this Hispanic metro types, and we measure the work in leads instead of vanity traffic. In a market where demand climbs with the thermometer, owning those rankings means you are booked while everyone else is still dialing for work.",
+      "Phoenix SEO boils down to one question: when a homeowner searches your trade, are you on page one or page two? Page two might as well be page fifty. As a Phoenix SEO company built for the trades, we rank Valley contractors for the money keywords, in English and in the Spanish that 42% of this Hispanic metro types, and we measure the work in leads instead of vanity organic traffic. In a market where demand climbs with the thermometer, owning those rankings on Google means you are booked while everyone else is still dialing for work.",
     aioQuestion: 'How do Phoenix businesses rank higher on Google?',
     aioAnswer:
       "They rank by repairing the technical foundation of the site, optimizing each page for the precise terms customers search, publishing genuinely useful local content, and earning links from trusted Phoenix sources. In a fast-growing, heat-driven market where about 42% of the metro is Hispanic, ranking in Spanish and keeping the site quick on mobile are two of the fastest ways to pull ahead of competitors who optimize in English only.",
@@ -233,7 +233,7 @@ export const phoenixLocations = [
       { q: 'Do you require a long-term contract?', a: "No. We ask for an initial 90 days because SEO needs that long to show real movement, then it shifts to month-to-month. If we are not delivering, you leave." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Phoenix do you cover?', a: "All of the Valley and the surrounding cities: Scottsdale, Mesa, Tempe, Chandler, Gilbert, Glendale, Peoria, Surprise, Goodyear, and more, with genuine local pages rather than one generic Phoenix page." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a clear diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is the clearest first look at what Phoenix SEO can earn you. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const phoenixLocations = [
   {
     ...BASE,
     citySlug: 'phoenix', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Phoenix Web Design Company | OnwardCraft',
+    titleTag: 'Phoenix Web Design Company | Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'Phoenix web design that turns visitors into booked jobs: fast, mobile-first, bilingual sites for contractors. Transparent pricing and you own it all.',
+      'Phoenix web design that books jobs instead of just looking nice: fast, mobile-first, bilingual sites for contractors. Transparent pricing and you own it all.',
     eyebrow: 'Web Design · Phoenix Metro',
-    h1: 'Phoenix web design that turns visitors into booked jobs',
+    h1: 'Phoenix web design that books the AC-emergency job instead of just looking nice',
     h2Exact: 'Phoenix Web Design Company',
     heroSubhead:
       "A handsome site that never rings the phone is just a brochure. We build Phoenix contractors fast, mobile-first websites, in English and Spanish, engineered to flip the AC-emergency visitor into a booked job instead of a polite compliment.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Phoenix contractor websites bleed leads quietly: slow on a phone, the call button buried, English-only in a metro that is 42% Hispanic. When an AC quits in July, the homeowner is not browsing your About page. They tap the first site that loads fast and shows a phone number. Web design done right closes every one of those gaps. We build Phoenix sites that load quick, look like the pro you are, and turn visitors from Arcadia to Avondale into booked work.",
+      "Phoenix web design has one job, and most contractor sites fail it: they bleed leads quietly, slow on a phone, the call button buried, English-only in a metro that is 42% Hispanic. When an AC quits in July, the homeowner is not browsing your About page. They tap the first site that loads fast and shows a phone number. A mobile-first contractor website done right closes every one of those gaps. We build fast-loading Phoenix sites that look like the pro you are and turn visitors from Arcadia to Avondale into booked work.",
     aioQuestion: 'What makes a good contractor website in Phoenix?',
     aioAnswer:
       "A strong Phoenix contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and works in both English and Spanish. Because most Phoenix searches happen on mobile, often during an urgent heat-driven emergency, mobile speed and an obvious way to call are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const phoenixLocations = [
       { q: 'Will it work well on phones?', a: "We design mobile-first, because that is where nearly all your Phoenix traffic comes from. Fast load, easy-to-tap call buttons, and forms built for a thumb." },
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
-      { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, and you can leave whenever you like." },
+      { q: 'Am I locked into a contract?', a: "No. Your Phoenix web design build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, and you can leave whenever you like." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const phoenixLocations = [
   {
     ...BASE,
     citySlug: 'phoenix', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Phoenix Website Redesign | More Leads, No Loss',
+    titleTag: 'Phoenix Website Redesign | More Leads, No Loss | OnwardCraft',
     metaDescription:
-      'Redesign your Phoenix website without losing rankings. Faster, mobile-first, bilingual rebuilds that convert more visitors into booked jobs.',
+      'Phoenix Website Redesign that rebuilds for leads, not just looks: faster, mobile-first, bilingual sites that hold every ranking you have earned.',
     eyebrow: 'Website Redesign · Phoenix Metro',
-    h1: 'Redesign your Phoenix website without losing your rankings',
+    h1: 'Phoenix Website Redesign that rebuilds for monsoon-season leads, not just looks',
     h2Exact: 'Phoenix Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, English-only. We redesign Phoenix contractor sites to convert more and load faster, and we migrate with such care that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go wrong in one of two ways: the site looks sharper but converts the same, or it launches and the rankings evaporate overnight, right before summer when Phoenix demand peaks. We do neither. We redesign Valley contractor sites for speed and conversions, build them bilingual for the 42% of the metro that is Hispanic, and migrate with the redirects and SEO care that protect every visitor you already have.",
+      "A Phoenix Website Redesign goes wrong in one of two ways: the site looks sharper but converts the same, or it launches and the rankings evaporate overnight, right before summer when Valley demand peaks. We do neither. We rebuild contractor sites for speed and conversions, build them bilingual for the 42% of the metro that is Hispanic, and run an SEO-safe migration with the redirects that protect every visitor you already have, all without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const phoenixLocations = [
       { q: 'Can you make my redesigned site bilingual?', a: "Absolutely, and in Phoenix we recommend it. A bilingual rebuild captures the 42% of the metro that is Hispanic, many of whom search in Spanish." },
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings, and matters most when homeowners are searching mid-emergency in the heat." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in of any kind." },
-      { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
+      { q: 'Am I locked into a contract?', a: "No. Your Phoenix Website Redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
     ],
   },
 ];
@@ -378,10 +378,10 @@ export const phoenixCity = {
 
   titleTag: 'Phoenix Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Phoenix contractors, in English and Spanish. Get found, get booked, and own your leads instead of renting them.',
+    'Phoenix marketing for contractors: web design, SEO, and local SEO in English and Spanish. Get found, get booked, and own your leads instead of renting them.',
 
   eyebrow: 'Phoenix · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Phoenix contractors found and booked',
+  h1: 'Phoenix marketing for contractors who want to own their leads, not rent them in the heat',
   h2Exact: 'Phoenix Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Phoenix's fast-growing, heat-driven market. One team to get you ranking, converting, and off the rented-lead treadmill, in English and Spanish.",
@@ -389,7 +389,7 @@ export const phoenixCity = {
   primaryCta: 'Get my free Phoenix audit',
 
   intro:
-    "Run a contracting business in Phoenix and you are scrapping for attention in one of the fastest-growing metros in the country, where the heat keeps HVAC, electrical, and roofing demand humming nearly all year. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what homeowners search, and local SEO that drops you into the Map Pack, all in English and Spanish. Here is how we help Valley contractors do exactly that.",
+    "Phoenix marketing for contractors means scrapping for attention in one of the fastest-growing metros in the country, where the heat keeps HVAC, electrical, and roofing demand humming nearly all year. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what homeowners search, and local SEO that drops you into the Map Pack, all in English and Spanish. As a Phoenix marketing agency built around the trades, here is how we help Valley contractors get found and booked.",
   aioQuestion: 'How do Phoenix contractors get more leads online?',
   aioAnswer:
     "Phoenix contractors get more leads by combining a fast, mobile-first, bilingual website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because about 42% of the metro is Hispanic and demand spikes with summer heat and monsoon storms, the contractors who show up in both languages and look established win the most work.",
@@ -426,6 +426,6 @@ export const phoenixCity = {
     { q: 'Do you offer services in Spanish?', a: "Yes, and in Phoenix it is a major advantage. About 42% of the metro is Hispanic, but most agencies optimize in English only. We build and rank you in both languages." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Phoenix areas do you serve?', a: "All of the Valley and the surrounding cities: Scottsdale, Mesa, Tempe, Chandler, Gilbert, Glendale, Peoria, Surprise, Goodyear, and more, plus Phoenix neighborhoods like Arcadia, Ahwatukee, and Desert Ridge." },
-    { q: 'Where should I start?', a: "Start with a free Phoenix audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Phoenix audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Phoenix marketing for contractors that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

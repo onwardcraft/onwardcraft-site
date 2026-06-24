@@ -111,15 +111,15 @@ export const ogdenLocations = [
     citySlug: 'ogden', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Ogden Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Ogden and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Ogden Local SEO that puts your business in the Map Pack, from the East Bench to Ogden Valley, so the call lands with you.',
     eyebrow: 'Local SEO · Ogden-Clearfield',
-    h1: 'When Ogden searches for what you do, be the first name they find',
+    h1: 'Ogden Local SEO that puts your East Bench business in the Map Pack',
     h2Exact: 'Ogden Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the call lands with you instead of whoever ranked first — and so you're the name a newly-arrived Hill Air Force Base family finds first.",
     primaryCta: 'Get my free Ogden audit',
     intro:
-      "Ogden local SEO comes down to one thing: when a homeowner on the East Bench or a family that just PCS'd into Layton searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. The metro is growing fast and the competition is growing with it, so becoming one of those three is the whole game. Here's how you do it.",
+      "Ogden Local SEO comes down to one thing: when a homeowner on the East Bench or a family that just PCS'd into Layton searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three in the local 3-pack and never scroll. The metro is growing fast and the competition is growing with it, so winning the Map Pack with a Google Business Profile that holds up is the whole game. Here's how you do it.",
     aioQuestion: 'How do Ogden businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Ogden-Clearfield neighborhoods. Ogden is fast-growing, has a constant churn of Hill Air Force Base newcomers, and runs hard on seasonal Wasatch-winter demand, so the winners look established, respond fast, and are already ranking before the snow flies.",
@@ -167,7 +167,7 @@ export const ogdenLocations = [
       { q: 'Do you offer Spanish-language local SEO?', a: "Yes, and in Ogden it matters — nearly a third of the city is Hispanic, higher than Provo or Salt Lake. We can optimize your profile and pages so Spanish-speaking homeowners searching for your service actually find you, which is a market most of your competitors ignore." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. The whole point of Ogden Local SEO is to rank you on the map and turn those \"near me\" searches into a phone that rings. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const ogdenLocations = [
   {
     ...BASE,
     citySlug: 'ogden', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Ogden SEO Company | OnwardCraft',
+    titleTag: 'Ogden SEO Company | Page One on the Wasatch Front | OnwardCraft',
     metaDescription:
-      'Ogden SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Wasatch-winter demand.',
+      'Ogden SEO that puts contractors on page one of Google and holds it, across the Wasatch Front. Revenue-tied reporting, no lock-in contracts.',
     eyebrow: 'SEO Services · Ogden-Clearfield',
-    h1: 'Get your Ogden business to the top of Google and keep it there',
+    h1: 'Ogden SEO that puts your Wasatch Front business on page one and holds it',
     h2Exact: 'Ogden SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Ogden customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
     primaryCta: 'Get my free Ogden SEO audit',
     intro:
-      "Ogden SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in a fast-growing, winter-driven market — and we measure it in leads, not vanity traffic.",
+      "Ogden SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. As an Ogden SEO company we get contractors ranking for the money keywords in a fast-growing, winter-driven market along the Wasatch Front, turning organic traffic into booked work and measuring it in leads, not vanity traffic.",
     aioQuestion: 'How do Ogden businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Ogden sources. In a fast-growing, competitive market along the Wasatch Front, keeping the site fast on mobile and ranking for winter-driven, seasonal terms are two of the quickest ways to pull ahead.",
@@ -233,7 +233,7 @@ export const ogdenLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Ogden do you cover?', a: "All of the Ogden-Clearfield metro and the surrounding areas — Layton, Clearfield, Roy, Riverdale, North Ogden, Pleasant View, Ogden Valley, Eden, Huntsville and more — with genuine local pages rather than one generic Ogden page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. Good Ogden SEO is search engine optimization built to rank you on Google for the searches that book jobs and grow the organic traffic you own. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const ogdenLocations = [
     citySlug: 'ogden', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Ogden Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Ogden web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Wasatch-winter demand.',
+      'Ogden Web Design built to convert clicks into calls, from Historic 25th Street to Ogden Valley. Fast, mobile-first sites for contractors.',
     eyebrow: 'Web Design · Ogden-Clearfield',
-    h1: 'Ogden web design that turns visitors into booked jobs',
+    h1: 'Ogden Web Design built to convert Historic 25th Street clicks into calls',
     h2Exact: 'Ogden Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Ogden contractors fast, mobile-first sites engineered to turn visitors into booked work — and to hold up when the first snow floods your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Ogden contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn East-Bench-to-Layton visitors into booked jobs — and that don't fall over when a winter storm sends your traffic through the roof.",
+      "Ogden Web Design done right fixes the way most contractor sites lose leads quietly: slow on a phone, buried call button, no clear offer. As an Ogden web design company we build mobile-first sites that load fast, look like the professional you are, and convert East-Bench-to-Layton visitors into booked jobs, sites that don't fall over when a winter storm sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Ogden?',
     aioAnswer:
       "A good Ogden contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during winter storms. Because most Ogden searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const ogdenLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Ogden site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Ogden site should include, and a fixed-price quote with a timeline. The goal of our Ogden Web Design work is a fast, mobile-first contractor website that converts visitors into booked jobs. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const ogdenLocations = [
   {
     ...BASE,
     citySlug: 'ogden', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Ogden Website Redesign | OnwardCraft',
+    titleTag: 'Ogden Website Redesign | Aging Site to Lead Engine | OnwardCraft',
     metaDescription:
-      'Redesign your Ogden website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter season.',
+      'Ogden Website Redesign that turns an aging site into a lead engine for Ogden Valley growth, without losing your rankings. SEO-safe migration.',
     eyebrow: 'Website Redesign · Ogden-Clearfield',
-    h1: 'Redesign your Ogden website without losing your rankings',
+    h1: 'Ogden Website Redesign that turns an aging Ogden Valley site into a lead engine',
     h2Exact: 'Ogden Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Ogden contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Ogden contractor sites for speed and conversions, build them to handle winter-storm traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "An Ogden Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Ogden contractor sites for speed and conversions, build them to handle winter-storm traffic, and run an SEO-safe migration with the redirects and care that protect the traffic you already have, so you redesign your Ogden website without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const ogdenLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. Our Ogden Website Redesign work rebuilds an aging site, mobile-first, into a faster lead engine with an SEO-safe migration so you keep every ranking you have earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const ogdenCity = {
 
   titleTag: 'Ogden Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Ogden contractors. Get found, get booked, and own your leads instead of renting them — built for Wasatch-winter demand.',
+    'Ogden marketing for contractors built around the trades: web design, SEO, and local SEO that get you found, booked, and off rented leads.',
 
   eyebrow: 'Ogden · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Ogden contractors found and booked',
+  h1: 'Ogden marketing for contractors, built around the trades and the Wasatch winter',
   h2Exact: 'Ogden Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Ogden-Clearfield's fast-growing, winter-driven market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const ogdenCity = {
   primaryCta: 'Get my free Ogden audit',
 
   intro:
-    "If you run a contracting business in Ogden, you're fighting for attention in one of the fastest-growing markets in the Mountain West, and the competition grows right along with it. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack — all ready before the first snow sends demand through the roof and before the next wave of Hill Air Force Base families goes searching for a contractor. Here's how we help Ogden contractors do exactly that.",
+    "Ogden marketing for contractors starts with a hard fact: you're fighting for attention in one of the fastest-growing markets in the Mountain West, and the competition grows right along with it. Winning here takes three things working together, a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all ready before the first snow sends demand through the roof and before the next wave of Hill Air Force Base families goes searching for a contractor. Here's how our web design and SEO for Ogden contractors gets you found and booked.",
   aioQuestion: 'How do Ogden contractors get more leads online?',
   aioAnswer:
     "Ogden contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because the Ogden-Clearfield metro is growing fast, sees constant turnover from Hill Air Force Base, and spikes hard during Wasatch winters, the contractors who look established and are already ranking before the snow win the most work.",
@@ -422,6 +422,6 @@ export const ogdenCity = {
     { q: 'Why does winter season matter for my marketing?', a: "When heavy Wasatch snow and ice dams hit, demand for roofing, ice-dam removal, and HVAC spikes overnight. Ranking takes months to build, so the contractors who are already visible before the cold sets in take that work. We get you in place ahead of the season." },
     { q: 'How does Hill Air Force Base affect my marketing?', a: "Hill is the region's biggest employer and churns thousands of military and civilian families in and out every year. Each newly-arrived family searches Google for contractors they've never heard of — so the businesses ranking in the Map Pack capture a steady stream of brand-new homeowners. We help you be the name they find." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
-    { q: 'Which Ogden areas do you serve?', a: "All of the Ogden-Clearfield metro and the surrounding areas — Historic 25th Street, the East Bench, Layton, Clearfield, Roy, Riverdale, North Ogden, Pleasant View, plus Ogden Valley, Eden and Huntsville." },
+    { q: 'Which Ogden areas do you serve?', a: "All of the Ogden-Clearfield metro and the surrounding areas: Historic 25th Street, the East Bench, Layton, Clearfield, Roy, Riverdale, North Ogden, Pleasant View, plus Ogden Valley, Eden and Huntsville. Across all of it, our Ogden marketing for contractors is built to get you found and booked with one team handling web design and SEO for Ogden contractors." },
   ],
 };

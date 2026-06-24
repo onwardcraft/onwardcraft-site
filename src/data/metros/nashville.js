@@ -109,17 +109,17 @@ export const nashvilleLocations = [
   {
     ...BASE,
     citySlug: 'nashville', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Nashville Local SEO Company | OnwardCraft',
+    titleTag: 'Nashville Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your trade in Nashville and three businesses pin to the map. We get you into that top three so the call lands with you, not your competitor.',
+      'Nashville Local SEO that puts your business in the Map Pack. Search your trade and three names pin to the map; we get you into that top three.',
     eyebrow: 'Local SEO · Nashville, TN',
-    h1: 'When Nashville searches for your trade, be the first name they tap',
+    h1: 'Nashville Local SEO that puts your business in the East Nashville Map Pack',
     h2Exact: 'Nashville Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map on a \"near me\" search, and everyone beneath them might as well not exist. In a metro adding new homeowners every single month, we put you in that top three for the neighborhoods you serve, so the call rings your phone instead of whoever happened to rank first.",
     primaryCta: 'Get my free Nashville audit',
     intro:
-      "Nashville local SEO really hangs on one question: when a homeowner in Franklin or East Nashville types your trade plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap a name in that group and never scroll an inch further. With transplants from Chicago and New York closing on homes here every week and searching for contractors they have never heard of, claiming those three spots in your neighborhoods is the entire contest. Here is how you take them.",
+      "Nashville Local SEO really hangs on one question: when a homeowner in Franklin or East Nashville types your trade plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap a name in that local 3-pack and never scroll an inch further. With transplants from Chicago and New York closing on homes here every week and searching for contractors they have never heard of, claiming those three spots in your neighborhoods is the entire contest. Here is how local SEO services rank you on the map.",
     aioQuestion: 'How do Nashville businesses rank higher in local search?',
     aioAnswer:
       "You climb by nailing four things: a Google Business Profile tuned to the exact services and neighborhoods you want, name-address-phone listings that match everywhere across the web, a steady drip of real reviews, and local content tied to actual Nashville neighborhoods and suburbs. Because the metro keeps gaining homeowners who do not know the local players yet, the businesses that surface again and again in East Nashville, Franklin, Brentwood, and Nolensville win that demand. And since a single spring storm can spike roofing searches overnight, you want to be ranked before tornado season arrives, not scrambling once it has passed.",
@@ -167,7 +167,7 @@ export const nashvilleLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts inside AI rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you leave, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less, because the work is already coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Nashville neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Nashville neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see what Nashville Local SEO can do for your phone. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const nashvilleLocations = [
   {
     ...BASE,
     citySlug: 'nashville', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Nashville SEO Company | OnwardCraft',
+    titleTag: 'Nashville SEO Company | Rank and Stay There | OnwardCraft',
     metaDescription:
-      'Nashville SEO that ranks contractors on Google and brings leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing metro.',
+      'Nashville SEO that gets contractors to the top of Google and keeps them there. Leads you own, revenue-tied reporting, no lock-in in a fast-growing metro.',
     eyebrow: 'SEO Services · Nashville, TN',
-    h1: 'Put your Nashville business on top of Google and keep it parked there',
+    h1: 'Nashville SEO that gets you to the top of Google across Music City and keeps you there',
     h2Exact: 'Nashville SEO Company',
     heroSubhead:
       "Ads die the second your card stops. SEO does the reverse: rank once for what your Nashville customers search and the leads keep landing. With this metro growing faster than almost any city in America and new homeowners searching daily, we build the ranking that captures them.",
     primaryCta: 'Get my free Nashville SEO audit',
     intro:
-      "Nashville SEO boils down to one question: when someone searches your trade, are you on page one or page two? Page two might as well be page fifty. The metro is adding people and homes at a clip most cities would kill for, which means fresh potential customers turn to Google constantly. We get contractors ranking for the money keywords in this fast-growing, crowded market, and we measure the work in leads, not vanity traffic.",
+      "Nashville SEO boils down to one question: when someone searches your trade, are you on page one or page two? Page two might as well be page fifty. The metro is adding people and homes at a clip most cities would kill for, which means fresh potential customers turn to Google constantly. As a Nashville SEO company built for the trades, we get contractors ranking for the money keywords in this fast-growing, crowded market, lifting your organic traffic and search engine optimization, and we measure the work in leads, not vanity traffic.",
     aioQuestion: 'How do Nashville businesses rank higher on Google?',
     aioAnswer:
       "They rank by repairing the site's technical foundation, tuning each page for the exact terms buyers search, publishing genuinely useful local content tied to specific Nashville neighborhoods and suburbs, and earning links from trusted local sources. In a metro growing this fast, two of the quickest ways to pull ahead are tight neighborhood targeting (ranking for Franklin and Brentwood and Nolensville, not a single flat Nashville page) and ranking for the seasonal storm-damage and HVAC terms that spike demand before each season breaks.",
@@ -233,7 +233,7 @@ export const nashvilleLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which Nashville areas do you cover?', a: "Every major neighborhood and suburb: East Nashville, Germantown, The Gulch, Green Hills, Belle Meade, Donelson, Brentwood, Franklin, Nolensville, Spring Hill, Hendersonville, Mt. Juliet, and more, with genuine local pages rather than one flat Nashville page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads straight to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is the clearest first look at what Nashville SEO can do to put you on page one. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const nashvilleLocations = [
   {
     ...BASE,
     citySlug: 'nashville', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Nashville Web Design Company | OnwardCraft',
+    titleTag: 'Nashville Web Design Company | Sites That Book Jobs | OnwardCraft',
     metaDescription:
       'Nashville web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in a fast-growing, competitive market.',
     eyebrow: 'Web Design · Nashville, TN',
-    h1: 'Nashville web design that turns visitors into booked jobs',
+    h1: 'Nashville web design that turns Franklin and East Nashville visitors into booked jobs',
     h2Exact: 'Nashville Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure. We build Nashville contractors fast, mobile-first sites engineered to turn visitors into booked work, and to stand out in a metro that has added thousands of new competitors right alongside thousands of new homeowners.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Nashville contractor sites leak leads quietly: slow on a phone, call button buried, no clear offer. Web design done properly closes every one of those gaps. With Nashville among the fastest-growing cities in America and new homeowners from the Northeast and Midwest Googling local contractors daily, we build sites that load fast, look like the pro you are, and turn Franklin-to-East-Nashville visitors into booked jobs. All of it built to stand out in a market that keeps getting more crowded.",
+      "Nashville web design done properly closes the gaps where most contractor sites leak leads: slow on a phone, call button buried, no clear offer. With Nashville among the fastest-growing cities in America and new homeowners from the Northeast and Midwest Googling local contractors daily, our web designers build mobile-first sites that load fast, look like the pro you are, and turn Franklin-to-East-Nashville visitors into booked jobs. All of it built to stand out in a market that keeps getting more crowded.",
     aioQuestion: 'What makes a good contractor website in Nashville?',
     aioAnswer:
       "A strong Nashville contractor site loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods and suburbs you serve. Transplants especially respond to specifics, because they do not know the local players yet and are hunting for clear signals that you cover their area and do quality work. Mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const nashvilleLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage, usually WordPress or Webflow. We will recommend the right fit in your free consult and walk through the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Nashville site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Nashville site should include, and a fixed-price quote with a timeline. It is the simplest way to see what Nashville web design built to convert visitors into booked jobs can do for you. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const nashvilleLocations = [
   {
     ...BASE,
     citySlug: 'nashville', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Nashville Website Redesign | OnwardCraft',
+    titleTag: 'Nashville Website Redesign | Convert More, Keep Rankings | OnwardCraft',
     metaDescription:
-      'Redesign your Nashville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing market.',
+      'Nashville Website Redesign that converts more without losing your rankings. Faster, mobile-first rebuilds that win over Brentwood and Franklin transplants.',
     eyebrow: 'Website Redesign · Nashville, TN',
-    h1: 'Redesign your Nashville website without losing your rankings',
+    h1: 'Nashville Website Redesign that converts more Brentwood and Franklin homeowners without losing your rankings',
     h2Exact: 'Nashville Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, awkward on a phone, easy to skip when a competitor looks sharper. We redesign Nashville contractor sites to convert more and load faster, and we migrate with enough care that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings disappear overnight. We do neither. We redesign Nashville contractor sites for speed and conversions, build them to stand out in a market that has grown far more crowded, and migrate with the redirects and SEO care that protect the traffic you already hold.",
+      "Nashville Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings disappear overnight. We do neither. We redesign your Nashville website for speed and conversions, build it to stand out in a market that has grown far more crowded, and run an SEO-safe migration with the 301 redirects that protect the traffic you already hold.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Handled this way, a redesign holds your rankings and usually improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const nashvilleLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It is the clearest way to see what a Nashville Website Redesign can do without putting your existing rankings at risk." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const nashvilleCity = {
 
   titleTag: 'Nashville Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Nashville contractors. Get found, get booked, and own your leads instead of renting them, built for a fast-growing metro.',
+    'Nashville marketing for contractors: web design, SEO, and local SEO that gets you found and booked. Own your leads instead of renting them in a fast-growing metro.',
 
   eyebrow: 'Nashville · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Nashville contractors found and booked',
+  h1: 'Nashville marketing for contractors that gets you found and booked across this fast-growing metro',
   h2Exact: 'Nashville Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Nashville's fast-growing, competitive market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const nashvilleCity = {
   primaryCta: 'Get my free Nashville audit',
 
   intro:
-    "If you run a contracting business in Nashville, you are working one of the fastest-growing markets in America. Thousands of transplants land every month, close on homes in Franklin, Brentwood, Nolensville, and East Nashville, and immediately Google contractors they have never heard of. That is an enormous opening, but Nashville has also drawn a wave of competitors right alongside those new residents. Winning here takes three things working as one: a site that converts those new homeowners, SEO that ranks you for what they search, and local SEO that drops you into the Map Pack across the suburbs and neighborhoods you serve. Here is how we help Nashville contractors do exactly that.",
+    "Nashville marketing for contractors comes down to this: you are working one of the fastest-growing markets in America. Thousands of transplants land every month, close on homes in Franklin, Brentwood, Nolensville, and East Nashville, and immediately Google contractors they have never heard of. That is an enormous opening, but Nashville has also drawn a wave of competitors right alongside those new residents. Winning here takes three things working as one: web design and SEO that convert and rank those new homeowners, and local SEO that drops you into the Map Pack across the suburbs and neighborhoods you serve. Here is how our Nashville digital marketing agency helps contractors do exactly that.",
   aioQuestion: 'How do Nashville contractors get more leads online?',
   aioAnswer:
     "Nashville contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. The metro's Sun Belt growth means a steady stream of new homeowners searching for contractors they do not know, and the businesses already ranking in Franklin, Brentwood, East Nashville, and Nolensville capture that demand. And because a single storm can spike roofing searches overnight, the contractors already in the Map Pack when a tornado hits win the most storm work.",
@@ -422,6 +422,6 @@ export const nashvilleCity = {
     { q: 'Why does the Nashville market need a different approach?', a: "Nashville is among the fastest-growing metros in the country, which means a constant wave of new homeowners searching for contractors they do not know yet. It also sits in tornado country, where a spring front can spike roofing demand overnight. You need to be ranked before those moments, not after." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Nashville areas do you serve?', a: "Every major neighborhood and suburb: East Nashville, Germantown, The Gulch, Sylvan Park, Green Hills, Belle Meade, Donelson, Brentwood, Franklin, Nolensville, Spring Hill, Hendersonville, Mt. Juliet, and more." },
-    { q: 'Where should I start?', a: "Start with a free Nashville audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Nashville audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It is the simplest first step into Nashville marketing for contractors that gets you found and booked. No pitch deck, just a plan." },
   ],
 };
