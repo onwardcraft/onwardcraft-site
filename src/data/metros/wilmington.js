@@ -109,11 +109,11 @@ export const wilmingtonLocations = [
   {
     ...BASE,
     citySlug: 'wilmington', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Wilmington Local SEO Company | OnwardCraft',
+    titleTag: 'Wilmington Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Wilmington and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Wilmington local SEO that gets you found when neighbors search your trade. We put you in the Map Pack so the call lands with you.',
     eyebrow: 'Local SEO · Wilmington, DE',
-    h1: 'When Wilmington searches for what you do, be the first name they find',
+    h1: 'Wilmington local SEO that gets you found when Greenville neighbors search your trade',
     h2Exact: 'Wilmington Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the call lands with you instead of whoever ranked first — and so you're ready when the next nor'easter fills everyone's phone.",
@@ -167,7 +167,7 @@ export const wilmingtonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day Wilmington local SEO plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const wilmingtonLocations = [
   {
     ...BASE,
     citySlug: 'wilmington', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Wilmington SEO Company | OnwardCraft',
+    titleTag: 'Wilmington SEO Company | Turn Traffic Into Booked Work | OnwardCraft',
     metaDescription:
-      'Wilmington SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand.',
+      'Wilmington SEO that turns organic traffic into booked work for contractors. Revenue-tied reporting, no lock-in contracts, built for storm-season demand.',
     eyebrow: 'SEO Services · Wilmington, DE',
-    h1: 'Get your Wilmington business to the top of Google and keep it there',
+    h1: 'Wilmington SEO that turns Brandywine Valley organic traffic into booked work',
     h2Exact: 'Wilmington SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Wilmington customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const wilmingtonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Wilmington do you cover?', a: "All of Wilmington and the surrounding areas — Newark, Hockessin, Greenville, Centreville, Pike Creek, Brandywine Hundred, New Castle and more — with genuine local pages rather than one generic Wilmington page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic Wilmington SEO timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const wilmingtonLocations = [
   {
     ...BASE,
     citySlug: 'wilmington', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Wilmington Web Design Company | OnwardCraft',
+    titleTag: 'Wilmington Web Design Company | Make Homeowners Pick You | OnwardCraft',
     metaDescription:
-      'Wilmington web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand.',
+      'Wilmington web design that makes homeowners pick you. Fast, mobile-first sites built for contractors and storm-season demand.',
     eyebrow: 'Web Design · Wilmington, DE',
-    h1: 'Wilmington web design that turns visitors into booked jobs',
+    h1: 'Wilmington web design that makes Greenville and Centreville homeowners pick you',
     h2Exact: 'Wilmington Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Wilmington contractors fast, mobile-first sites engineered to turn visitors into booked work — and to hold up when storm season floods your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Wilmington contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Trinity-Vicinity-to-Greenville visitors into booked jobs — and that don't fall over when a nor'easter sends your traffic through the roof.",
+      "Wilmington web design is what separates a contractor who gets the call from one who gets skipped. Most local contractor sites lose leads quietly: slow on a phone, buried call button, no clear offer. We build sites that load fast, look like the professional you are, and turn Trinity-Vicinity-to-Greenville visitors into booked jobs, and that don't fall over when a nor'easter sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Wilmington?',
     aioAnswer:
       "A good Wilmington contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during storm season. Because most Wilmington searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const wilmingtonLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Wilmington site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Wilmington web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const wilmingtonLocations = [
   {
     ...BASE,
     citySlug: 'wilmington', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Wilmington Website Redesign | OnwardCraft',
+    titleTag: 'Wilmington Website Redesign | Turn an Aging Site Into Leads | OnwardCraft',
     metaDescription:
-      'Redesign your Wilmington website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm.',
+      'Wilmington website redesign that turns an aging site into a lead engine. Faster, mobile-first rebuilds that convert and hold up in storm season.',
     eyebrow: 'Website Redesign · Wilmington, DE',
-    h1: 'Redesign your Wilmington website without losing your rankings',
+    h1: 'Wilmington website redesign that turns an aging Highlands site into a lead engine',
     h2Exact: 'Wilmington Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Wilmington contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Wilmington contractor sites for speed and conversions, build them to handle storm-season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Wilmington website redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild contractor sites for speed and conversions, build them to handle storm-season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const wilmingtonLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the Wilmington website redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const wilmingtonCity = {
 
   titleTag: 'Wilmington Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Wilmington contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand.',
+    'Wilmington marketing for contractors that turns searches into jobs. Web design, SEO, and local SEO that get you found, booked, and off rented leads.',
 
   eyebrow: 'Wilmington · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Wilmington contractors found and booked',
+  h1: 'Wilmington marketing for contractors that turns Brandywine-area searches into jobs',
   h2Exact: 'Wilmington Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Wilmington's settled, professional, storm-driven market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const wilmingtonCity = {
   primaryCta: 'Get my free Wilmington audit',
 
   intro:
-    "If you run a contracting business in Wilmington, you're working in one of the most settled, well-paid markets in the country — Delaware is the corporate capital of America and Wilmington is a major banking hub — and the competition for those discerning homeowners is real. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack — all ready before the next nor'easter sends demand through the roof. Here's how we help Wilmington contractors do exactly that.",
+    "Wilmington marketing for contractors works in one of the most settled, well-paid markets in the country, where Delaware is the corporate capital of America and Wilmington is a major banking hub, and the competition for those discerning homeowners is real. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all ready before the next nor'easter sends demand through the roof. Here's how we help Wilmington contractors do exactly that.",
   aioQuestion: 'How do Wilmington contractors get more leads online?',
   aioAnswer:
     "Wilmington contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Wilmington has a discerning, professional homeowner base and demand spikes hard during nor'easter and winter season, the contractors who look established and are already ranking before the storm win the most work.",
@@ -422,6 +422,6 @@ export const wilmingtonCity = {
     { q: 'Why does storm season matter for my marketing?', a: "When nor'easters, ice storms, or river flooding hit Wilmington, demand for roofing, restoration, and HVAC spikes overnight and the backlog can run long. Ranking takes months to build, so the contractors who are already visible before the storm take that work. We get you in place ahead of season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Wilmington areas do you serve?', a: "All of Wilmington and the surrounding areas — Trinity Vicinity, Cool Spring, Highlands, Greenville, Centreville, Hockessin, Newark, Pike Creek, Brandywine Hundred, New Castle and more." },
-    { q: 'Where should I start?', a: "Start with a free Wilmington audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Wilmington audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two Wilmington contractor marketing moves that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

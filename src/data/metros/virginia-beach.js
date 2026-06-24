@@ -109,11 +109,11 @@ export const virginiaBeachLocations = [
   {
     ...BASE,
     citySlug: "virginia-beach", serviceSlug: "local-seo", service: "Local SEO",
-    titleTag: "Virginia Beach Local SEO Company | OnwardCraft",
+    titleTag: "Virginia Beach Local SEO Company | Rank Above the Competition | OnwardCraft",
     metaDescription:
-      "Search your service in Virginia Beach and three businesses show up on the map. We get you into those three, so the call lands with you after every storm.",
+      "Virginia Beach local SEO that ranks you above the competition in the Google Map Pack, so the \"near me\" call lands with you after every storm and every PCS wave.",
     eyebrow: "Local SEO · Virginia Beach / Hampton Roads",
-    h1: "When Hampton Roads searches for what you do, be the first name they find",
+    h1: "Virginia Beach Local SEO that ranks you above the competition from Oceanfront to Kempsville",
     h2Exact: "Virginia Beach Local SEO Company",
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. When a hurricane rolls through or a military family arrives in town, those three spots are where the calls go — we get you into them.",
@@ -167,7 +167,7 @@ export const virginiaBeachLocations = [
       { q: "Will I show up in Google AI Overviews and ChatGPT?", a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: "Am I locked into a contract?", a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: "How does this get me off Angi and HomeAdvisor?", a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. When a storm drives a flood of homeowner searches, that traffic hits your profile directly — not a broker who sells it to four of your competitors." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across Hampton Roads, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across Hampton Roads, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's the fastest way to see exactly what Virginia Beach local SEO would take to put your business in the local 3-pack and rank you above the competition. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const virginiaBeachLocations = [
   {
     ...BASE,
     citySlug: "virginia-beach", serviceSlug: "seo-services", service: "SEO Services",
-    titleTag: "Virginia Beach SEO Company | OnwardCraft",
+    titleTag: "Virginia Beach SEO Company | Climb Past the Competition | OnwardCraft",
     metaDescription:
-      "Virginia Beach SEO that ranks contractors on Google and brings in leads you own. Storm-season and military-market expertise, revenue-tied reporting, no.",
+      "Virginia Beach SEO that climbs you past the competition on Google for the storm-season and coastal money keywords that book real Hampton Roads jobs.",
     eyebrow: "SEO Services · Virginia Beach / Hampton Roads",
-    h1: "Get your Virginia Beach business to the top of Google and keep it there",
+    h1: "Virginia Beach SEO that climbs you past the competition on Google through every storm season",
     h2Exact: "Virginia Beach SEO Company",
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Hampton Roads customers search and the leads keep coming — through storm season, through every PCS wave, and through every coastal repair cycle.",
@@ -233,7 +233,7 @@ export const virginiaBeachLocations = [
       { q: "Will I show up in Google AI Overviews and ChatGPT?", a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: "Which areas around Virginia Beach do you cover?", a: "All of Hampton Roads — Virginia Beach (Oceanfront, Great Neck, Kempsville, Princess Anne), Norfolk, Chesapeake, Hampton, Newport News, Suffolk, Portsmouth, Williamsburg, and Smithfield — with genuine local pages rather than one generic Virginia Beach page." },
       { q: "How do you get me off Angi and HomeAdvisor leads?", a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads. When a storm sends homeowners to Google, your owned rankings capture that traffic directly." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It maps out exactly what Virginia Beach SEO would take to move you onto page one for the money keywords and grow organic traffic you own. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const virginiaBeachLocations = [
   {
     ...BASE,
     citySlug: "virginia-beach", serviceSlug: "web-design", service: "Web Design",
-    titleTag: "Virginia Beach Web Design Company | OnwardCraft",
+    titleTag: "Virginia Beach Web Design Company | Loads Fast, Books More Jobs | OnwardCraft",
     metaDescription:
-      "Virginia Beach web design that turns visitors into booked jobs — fast, mobile-first sites built for a coastal, military, storm-driven market.",
+      "Virginia Beach web design that loads fast and books more jobs, mobile-first contractor sites built for a coastal, military, storm-driven Hampton Roads market.",
     eyebrow: "Web Design · Virginia Beach / Hampton Roads",
-    h1: "Virginia Beach web design that turns visitors into booked jobs",
+    h1: "Virginia Beach web design that loads fast and books more jobs when a storm hits the Oceanfront",
     h2Exact: "Virginia Beach Web Design Company",
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Hampton Roads contractors fast, mobile-first sites engineered to convert — built for a market where a storm or a PCS wave can send a hundred homeowners to Google overnight.",
     primaryCta: "Get my free quote",
     intro:
-      "Most Virginia Beach contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer for the homeowner who needs storm damage work done now or just arrived from a PCS move and doesn't know a soul locally. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Hampton Roads visitors into booked jobs.",
+      "Virginia Beach web design is really about one job: turning a visitor into a booked call. Most contractor websites here lose leads quietly instead, slow on a phone, buried call button, no clear offer for the homeowner who needs storm damage work done now or just arrived from a PCS move and doesn't know a soul locally. Done right, it fixes all of that. We build sites that load fast, look like the professional you are, and turn Hampton Roads visitors into booked jobs.",
     aioQuestion: "What makes a good contractor website in Virginia Beach?",
     aioAnswer:
       "A good Virginia Beach contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific cities and neighborhoods you serve across Hampton Roads. Because this market has high-urgency demand — storm damage calls, military homeowners who need a contractor immediately after a PCS — a fast site with an obvious next step is what separates a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const virginiaBeachLocations = [
       { q: "What platform do you build on?", a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: "Do you offer ongoing support?", a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: "Am I locked into a contract?", a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: "What do I get in the free quote?", a: "A clear look at what your current site is costing you in lost leads, what a high-converting Hampton Roads contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: "What do I get in the free quote?", a: "A clear look at what your current site is costing you in lost leads, what a high-converting Hampton Roads contractor site should include, and a fixed-price quote with a timeline. It shows exactly what Virginia Beach web design would take to give you a fast, mobile-first site that converts visitors into booked jobs. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const virginiaBeachLocations = [
   {
     ...BASE,
     citySlug: "virginia-beach", serviceSlug: "website-redesign", service: "Website Redesign",
-    titleTag: "Virginia Beach Website Redesign | OnwardCraft",
+    titleTag: "Virginia Beach Website Redesign | SEO-Safe Migration | OnwardCraft",
     metaDescription:
-      "Redesign your Virginia Beach website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a coastal.",
+      "Virginia Beach website redesign done with a careful, SEO-safe migration, faster mobile-first rebuilds that convert more without losing the rankings you earned.",
     eyebrow: "Website Redesign · Virginia Beach / Hampton Roads",
-    h1: "Redesign your Virginia Beach website without losing your rankings",
+    h1: "Virginia Beach website redesign done with a careful, SEO-safe migration that protects every Hampton Roads ranking",
     h2Exact: "Virginia Beach Website Redesign Company",
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore when a storm hits or a military family arrives and needs a contractor now. We redesign Hampton Roads contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: "Get my free redesign audit",
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Virginia Beach contractor sites for speed and conversions, build them to stand out in a market with high-urgency demand and constant new arrivals, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Virginia Beach website redesign goes one of two bad ways for most contractors: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Virginia Beach contractor sites for speed and conversions, build them to stand out in a market with high-urgency demand and constant new arrivals, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: "How do I redesign my website without losing SEO and traffic?",
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const virginiaBeachLocations = [
       { q: "Will the new site be mobile-friendly and fast?", a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: "Do I own the redesigned site?", a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: "Am I locked into a contract?", a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It lays out exactly what a Virginia Beach website redesign would take to rebuild for more leads without losing the rankings you already have." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const virginiaBeachCity = {
 
   titleTag: "Virginia Beach Marketing for Contractors | OnwardCraft",
   metaDescription:
-    "Web design, SEO, and local SEO for Virginia Beach and Hampton Roads contractors. Get found after every storm, capture military homeowners the day they arrive.",
+    "Virginia Beach marketing for contractors that fills your calendar. Web design, SEO, and local SEO that get you found after every storm and every PCS wave.",
 
   eyebrow: "Virginia Beach · Web Design, SEO & Lead Generation",
-  h1: "Marketing that gets Virginia Beach contractors found and booked",
+  h1: "Virginia Beach marketing for contractors that fills your calendar through every storm and PCS wave",
   h2Exact: "Virginia Beach Marketing Agency for Contractors",
   heroSubhead:
     "Websites, SEO, and local SEO built for coastal Virginia's storm-driven, military-heavy market. One team to get you ranking, converting, and off the rented-lead treadmill across all of Hampton Roads.",
@@ -386,7 +386,7 @@ export const virginiaBeachCity = {
   primaryCta: "Get my free Virginia Beach audit",
 
   intro:
-    "If you run a contracting business in Virginia Beach or anywhere across Hampton Roads, you're operating in one of the most distinctive home-services markets in the country. Hurricane and nor'easter season sends surges of homeowners to Google looking for roofing, siding, and restoration help. The largest concentration of military bases in the world means a constant flow of new homeowners who don't know a single local contractor and go straight to search the day they arrive. And the saltwater coastal environment means roofs, HVAC systems, and siding need replacement faster than anywhere inland. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack when demand spikes. Here's how we help Hampton Roads contractors do exactly that.",
+    "Virginia Beach marketing for contractors works differently here, because if you run a contracting business in Virginia Beach or anywhere across Hampton Roads, you're operating in one of the most distinctive home-services markets in the country. Hurricane and nor'easter season sends surges of homeowners to Google looking for roofing, siding, and restoration help. The largest concentration of military bases in the world means a constant flow of new homeowners who don't know a single local contractor and go straight to search the day they arrive. And the saltwater coastal environment means roofs, HVAC systems, and siding need replacement faster than anywhere inland. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack when demand spikes. Here's how we help Hampton Roads contractors do exactly that.",
   aioQuestion: "How do Virginia Beach contractors get more leads online?",
   aioAnswer:
     "Virginia Beach contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack across Hampton Roads. The market's two biggest opportunities are storm season — when hurricane and nor'easter damage sends homeowners directly to Google — and the military PCS cycle, which brings a constant wave of new homeowners who need contractors immediately and don't know anyone local. Contractors who rank for those searches and serve them with a fast, credible site capture a disproportionate share of the region's demand.",
@@ -422,6 +422,6 @@ export const virginiaBeachCity = {
     { q: "Why does the Hampton Roads market need a different approach?", a: "Two things most agencies miss. The storm-driven demand spikes — hurricanes and nor'easters send waves of homeowners to Google for roofing, siding, and restoration help overnight — and the military PCS cycle, which brings a constant stream of new homeowners who need contractors immediately and don't know anyone local. Winning means ranking before the surge and creating content that speaks to the newly arrived military family, not just a generic location page." },
     { q: "How much does it cost to work with you?", a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: "Which Virginia Beach and Hampton Roads areas do you serve?", a: "All of Hampton Roads — Virginia Beach (Oceanfront, Great Neck, Kempsville, Princess Anne), Norfolk, Chesapeake, Hampton, Newport News, Suffolk, Portsmouth, Williamsburg, and Smithfield." },
-    { q: "Where should I start?", a: "Start with a free Virginia Beach audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: "Where should I start?", a: "Start with a free Virginia Beach audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It's the simplest way to see what Virginia Beach marketing for contractors would take to get you found and booked across Hampton Roads. No pitch deck, just a plan." },
   ],
 };

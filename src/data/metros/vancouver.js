@@ -112,17 +112,17 @@ export const vancouverLocations = [
   {
     ...BASE,
     citySlug: 'vancouver', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Vancouver WA Local SEO Company | OnwardCraft',
+    titleTag: 'Vancouver Local SEO Company | Win the Clark County Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Vancouver WA and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Vancouver local SEO that gets you found when Felida and Camas neighbors search your trade. We win you the top three on the map, so the call lands with you.',
     eyebrow: 'Local SEO · Vancouver WA',
-    h1: 'When Vancouver searches for what you do, be the first name they find',
+    h1: 'Vancouver Local SEO that gets you found when Felida neighbors search your trade',
     h2Exact: 'Vancouver WA Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the call lands with you instead of whoever ranked first — and so the thousands of newcomers moving into Clark County find you first.",
     primaryCta: 'Get my free Vancouver audit',
     intro:
-      "Vancouver local SEO comes down to one thing: when a homeowner in Felida or Camas searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. Clark County is growing fast and the newcomers don't have a contractor yet, so becoming one of those three is the whole game. Here's how you do it.",
+      "Vancouver local SEO comes down to one thing: when a homeowner in Felida or Camas searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three in the local 3-pack and never scroll. Clark County is growing fast and the newcomers don't have a contractor yet, so becoming one of those three is the whole game. Here's how you get found when neighbors search your trade.",
     aioQuestion: 'How do Vancouver WA businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Clark County neighborhoods. Vancouver is fast-growing with constant newcomers from Portland and California, so the winners look established, respond fast, and are already ranking when those transplants start searching.",
@@ -170,7 +170,7 @@ export const vancouverLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's the honest starting point for Vancouver local SEO that ranks you on the map and turns \"near me\" searches into booked calls. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -178,17 +178,17 @@ export const vancouverLocations = [
   {
     ...BASE,
     citySlug: 'vancouver', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Vancouver WA SEO Company | OnwardCraft',
+    titleTag: 'Vancouver SEO Company | Rank for Roof and Heat-Pump Searches | OnwardCraft',
     metaDescription:
-      'Vancouver WA SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market.',
+      'Vancouver SEO that turns organic traffic into booked work for Clark County contractors. We rank you on Google for the money keywords, with revenue-tied reporting.',
     eyebrow: 'SEO Services · Vancouver WA',
-    h1: 'Get your Vancouver business to the top of Google and keep it there',
+    h1: 'Vancouver SEO that turns organic traffic into booked work across Clark County',
     h2Exact: 'Vancouver WA SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Vancouver customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
     primaryCta: 'Get my free Vancouver SEO audit',
     intro:
-      "Vancouver SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in a fast-growing, transplant-fueled market — and we measure it in leads, not vanity traffic.",
+      "Vancouver SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in a fast-growing, transplant-fueled market, then turn that organic traffic into booked work, measured in leads, not vanity numbers.",
     aioQuestion: 'How do Vancouver WA businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Clark County sources. In a fast-growing, competitive market full of newcomers, keeping the site fast on mobile and ranking for seasonal terms like rain-driven roof work and heat-pump installs are two of the quickest ways to pull ahead.",
@@ -236,7 +236,7 @@ export const vancouverLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Vancouver do you cover?', a: "All of Clark County and the surrounding areas — Camas, Washougal, Ridgefield, Battle Ground, Salmon Creek, Hazel Dell, Felida and more — with genuine local pages rather than one generic Vancouver page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It maps out the Vancouver SEO that gets you onto page one and keeps the organic traffic converting into booked jobs. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -244,17 +244,17 @@ export const vancouverLocations = [
   {
     ...BASE,
     citySlug: 'vancouver', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Vancouver WA Web Design Company | OnwardCraft',
+    titleTag: 'Vancouver Web Design Company | Sites That Win the Newcomers | OnwardCraft',
     metaDescription:
-      'Vancouver WA web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing market.',
+      'Vancouver web design that makes homeowners pick you: fast, mobile-first contractor sites that win the transplants comparing two or three names before they call.',
     eyebrow: 'Web Design · Vancouver WA',
-    h1: 'Vancouver web design that turns visitors into booked jobs',
+    h1: 'Vancouver web design that makes Clark County homeowners pick you',
     h2Exact: 'Vancouver WA Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Vancouver contractors fast, mobile-first sites engineered to turn visitors into booked work — the kind of site that wins the newcomers comparing two or three contractors before they call.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Vancouver contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Felida-to-Camas visitors into booked jobs — the kind of site that earns trust from a transplant who just moved in and is choosing between you and the next contractor on the list.",
+      "Vancouver web design that wins jobs starts where most contractor sites fail: they lose leads quietly with a slow phone load, a buried call button, and no clear offer. We fix all of that and build sites that look like the professional you are and turn Felida-to-Camas visitors into booked work, the kind of site that makes a transplant who just moved in pick you over the next contractor on the list.",
     aioQuestion: 'What makes a good contractor website in Vancouver WA?',
     aioAnswer:
       "A good Vancouver contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and looks established enough to win newcomers who are comparing a few contractors. Because most Vancouver searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -302,7 +302,7 @@ export const vancouverLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Vancouver site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Vancouver site should include, and a fixed-price quote with a timeline. It's the start of Vancouver web design that makes homeowners pick you instead of the contractor who simply looks more established. No pressure, just a plan." },
     ],
   },
 
@@ -310,17 +310,17 @@ export const vancouverLocations = [
   {
     ...BASE,
     citySlug: 'vancouver', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Vancouver WA Website Redesign | OnwardCraft',
+    titleTag: 'Vancouver Website Redesign | Turn an Aging Site Into a Lead Engine | OnwardCraft',
     metaDescription:
-      'Redesign your Vancouver WA website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing.',
+      'Vancouver website redesign that turns an aging site into a lead engine. Faster, mobile-first rebuilds with an SEO-safe migration, so you keep every ranking.',
     eyebrow: 'Website Redesign · Vancouver WA',
-    h1: 'Redesign your Vancouver website without losing your rankings',
+    h1: 'Vancouver Website Redesign that turns an aging Hazel Dell site into a lead engine',
     h2Exact: 'Vancouver WA Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Vancouver contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Vancouver contractor sites for speed and conversions, build them to win the newcomers comparing contractors, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Vancouver website redesign goes one of two bad ways for most contractors: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We turn an aging site into a lead engine, rebuilding for speed and conversions and winning the newcomers comparing contractors, then handle an SEO-safe migration with the redirects that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -368,7 +368,7 @@ export const vancouverLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It's how a Vancouver website redesign turns an aging site into a lead engine without losing the rankings you've already earned." },
     ],
   },
 ];
@@ -376,12 +376,12 @@ export const vancouverLocations = [
 export const vancouverCity = {
   citySlug: 'vancouver', city: 'Vancouver', state: 'Washington', stateAbbr: 'WA', metro: 'Vancouver WA-Clark County',
 
-  titleTag: 'Vancouver WA Marketing for Contractors | OnwardCraft',
+  titleTag: 'Vancouver Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Vancouver WA contractors. Get found, get booked, and own your leads instead of renting them — built for a fast-growing.',
+    'Vancouver marketing for contractors that turns river-crossing searches into jobs. Web design, SEO, and local SEO that get you found, get you booked, and own your leads.',
 
   eyebrow: 'Vancouver WA · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Vancouver contractors found and booked',
+  h1: 'Vancouver marketing for contractors that turns Clark County searches into jobs',
   h2Exact: 'Vancouver WA Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Vancouver and Clark County's fast-growing, transplant-fueled market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -389,7 +389,7 @@ export const vancouverCity = {
   primaryCta: 'Get my free Vancouver audit',
 
   intro:
-    "If you run a contracting business in Vancouver, you're fighting for attention in one of the fastest-growing markets in the Pacific Northwest, fed by Portland-area workers and California transplants chasing Washington's no-income-tax advantage. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack — so the steady stream of newcomers finds you first. Here's how we help Vancouver contractors do exactly that.",
+    "Vancouver marketing for contractors has one job: turn the searches happening across Clark County into booked jobs. You're fighting for attention in one of the fastest-growing markets in the Pacific Northwest, fed by Portland-area workers and California transplants chasing Washington's no-income-tax advantage. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, so the steady stream of newcomers finds you first. Here's how we help Vancouver contractors do exactly that.",
   aioQuestion: 'How do Vancouver WA contractors get more leads online?',
   aioAnswer:
     "Vancouver contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Clark County is growing fast with constant newcomers from Portland and California, the contractors who look established and are already ranking when those transplants start searching win the most work.",
@@ -425,6 +425,6 @@ export const vancouverCity = {
     { q: 'Why does Vancouver\'s growth matter for my marketing?', a: "Vancouver, Camas, Ridgefield, and Battle Ground keep gaining residents who crossed the river to skip Washington's income tax, and nearly all of them need a contractor they don't have yet. Ranking takes months to build, so the contractors who are already visible win that new work. We get you in place to catch it." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Vancouver areas do you serve?', a: "All of Vancouver and Clark County — Felida, Salmon Creek, Cascade Park, Fishers Landing, Hazel Dell, plus Camas, Washougal, Ridgefield, Battle Ground and more." },
-    { q: 'Where should I start?', a: "Start with a free Vancouver audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Vancouver audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It's the simplest way to put Vancouver marketing for contractors to work turning local searches into booked jobs. No pitch deck, just a plan." },
   ],
 };

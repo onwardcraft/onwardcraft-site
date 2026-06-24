@@ -112,9 +112,9 @@ export const tulsaLocations = [
     citySlug: 'tulsa', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Tulsa Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Tulsa and three businesses show up on the map. We get you into those three, so the call lands with you after every storm and every.',
+      'Tulsa Local SEO that turns "near me" searches into a ringing phone, from Brookside to Broken Arrow, so the call lands with you after every storm.',
     eyebrow: 'Local SEO · Tulsa, OK',
-    h1: 'When Tulsa searches for what you do, be the first name they find',
+    h1: 'Tulsa Local SEO that turns a post-hailstorm "near me" search into a ringing phone',
     h2Exact: 'Tulsa Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. After a Tulsa hailstorm, those three get every call. We get you into that top three for your neighborhoods — Jenks, Broken Arrow, Maple Ridge, wherever you work — so the surge lands with you.",
@@ -168,7 +168,7 @@ export const tulsaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement — and long enough to get you ranked before peak storm season. After that it's month-to-month. If we're not delivering, you walk." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms sell shared leads and visibility you never keep — especially expensive after a big storm when every contractor in Tulsa is buying the same leads. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you depend on the brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Tulsa neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers modeled for your business. No pitch deck — just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Tulsa neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers modeled for your business. No pitch deck, just a straight diagnosis of what your Tulsa local SEO needs to start winning the map." },
     ],
   },
 
@@ -180,7 +180,7 @@ export const tulsaLocations = [
     metaDescription:
       'Tulsa SEO that ranks contractors on Google and brings in leads you own. Storm-season ready, revenue-tied reporting, no lock-in contracts. Free Tulsa SEO audit.',
     eyebrow: 'SEO Services · Tulsa, OK',
-    h1: 'Get your Tulsa business to the top of Google and keep it there',
+    h1: 'Tulsa SEO that ranks you for the storm-season searches that book jobs',
     h2Exact: 'Tulsa SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Tulsa customers search and the leads keep coming — including during the hail-season surges when the phones should be ringing. We build that ranking and tie every report to actual calls and jobs.",
@@ -234,7 +234,7 @@ export const tulsaLocations = [
       { q: 'Can you help me rank for Spanish-language searches in Tulsa?', a: "Yes. About 16% of Tulsans are Hispanic and many search in Spanish. We can optimize your content and profile to show up for those searches — a pipeline your competitors likely ignore." },
       { q: 'Which Tulsa areas do you cover?', a: "The full metro: Tulsa, Broken Arrow, Jenks, Owasso, Sand Springs, Claremore, and the neighborhoods inside them — Maple Ridge, Brookside, Cherry Street, South Tulsa, Terwilleger Heights, and more. We build genuine local pages, not one generic Tulsa page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads — especially after a storm when broker prices spike." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today in Tulsa, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck — just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today in Tulsa, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a straight diagnosis of where your Tulsa SEO can win the money keywords." },
     ],
   },
 
@@ -246,13 +246,13 @@ export const tulsaLocations = [
     metaDescription:
       'Tulsa web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a storm-season market.',
     eyebrow: 'Web Design · Tulsa, OK',
-    h1: 'Tulsa web design that turns visitors into booked jobs',
+    h1: 'Tulsa web design built to convert post-storm phone clicks into calls',
     h2Exact: 'Tulsa Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Tulsa contractors fast, mobile-first sites engineered to turn visitors into booked work — and to stand out when the phones start ringing after every hailstorm.",
     primaryCta: 'Get my free Tulsa quote',
     intro:
-      "Most Tulsa contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Broken Arrow-to-Maple Ridge visitors into booked jobs — ready to capture the surge when storm season hits and homeowners are searching fast.",
+      "Tulsa web design done right fixes the leaks that cost most contractor sites their leads: slow on a phone, buried call button, no clear offer. We build sites that load fast, look like the professional you are, and turn Broken Arrow-to-Maple Ridge visitors into booked jobs, ready to capture the surge when storm season hits and homeowners are searching fast.",
     aioQuestion: 'What makes a good contractor website in Tulsa?',
     aioAnswer:
       "A good Tulsa contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods and suburbs you serve. In Tulsa, storm-season urgency means homeowners are making fast decisions on mobile — a site that's slow or unclear loses them to the next contractor in seconds.",
@@ -300,7 +300,7 @@ export const tulsaLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: "What do I get in the free quote?", a: "A clear look at what your current site is costing you in lost leads, what a high-converting Tulsa contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: "What do I get in the free quote?", a: "A clear look at what your current site is costing you in lost leads, what a high-converting Tulsa contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan for the Tulsa web design that finally books you work." },
     ],
   },
 
@@ -310,15 +310,15 @@ export const tulsaLocations = [
     citySlug: 'tulsa', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Tulsa Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Tulsa contractor website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — storm season.',
+      'Tulsa Website Redesign that keeps every ranking you have earned. Faster, mobile-first rebuilds that convert more visitors into booked jobs before storm season.',
     eyebrow: 'Website Redesign · Tulsa, OK',
-    h1: 'Redesign your Tulsa website without losing your rankings',
+    h1: 'Tulsa Website Redesign that keeps every Map Pack ranking you have earned before hail season',
     h2Exact: 'Tulsa Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — and after a Tulsa hailstorm, every day you're slow or hard to use on a phone is a day a competitor books your work. We redesign contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free Tulsa redesign audit',
     intro:
-      "Most Tulsa redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings disappear overnight. We do neither. We redesign Tulsa contractor sites for speed and conversions, build them to stand out in a market where storm season creates intense short-window demand, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Tulsa Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings disappear overnight. We do neither. We rebuild Tulsa contractor sites for speed and conversions, shape them to stand out in a market where storm season creates intense short-window demand, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my Tulsa website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your Tulsa rankings and improves them — because the new site is faster, mobile-first, and better structured to win storm-season and suburb searches.",
@@ -366,7 +366,7 @@ export const tulsaLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals — which matters most in Tulsa during storm season when homeowners are checking their phone from the yard." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current Tulsa site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current Tulsa site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan, so your Tulsa Website Redesign rebuilds for leads without losing the rankings you have." },
     ],
   },
 ];
@@ -376,10 +376,10 @@ export const tulsaCity = {
 
   titleTag: 'Tulsa Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Tulsa contractors. Get found after every storm, rank for your real neighborhoods, and own your leads. Free Tulsa audit.',
+    'Tulsa marketing for contractors: get ranked, get booked. Web design, SEO, and local SEO that get you found after every storm and let you own your leads.',
 
   eyebrow: 'Tulsa · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Tulsa contractors found and booked',
+  h1: 'Tulsa marketing for contractors: get ranked before hail season, get booked all year',
   h2Exact: 'Tulsa Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Tulsa's storm-season surges, growing southern suburbs, and a Spanish-speaking market most agencies ignore. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -387,7 +387,7 @@ export const tulsaCity = {
   primaryCta: 'Get my free Tulsa audit',
 
   intro:
-    "If you run a contracting business in Tulsa, you know the market has its own personality — this is not OKC. You have Art Deco character downtown, oil-heritage wealth in Maple Ridge and Terwilleger Heights, fast-growing suburbs from Broken Arrow to Owasso, and a spring storm season that can send your phone ringing off the hook or completely silent depending on who ranks on the map. Winning here takes three things working together: a site that converts the moment a homeowner searches after a hailstorm, SEO that keeps you ranking for your real service area, and local SEO that puts you in the Map Pack for the neighborhoods you actually serve. Here's how we help Tulsa contractors do exactly that.",
+    "Tulsa marketing for contractors only works when it respects how different this market is from OKC. You have Art Deco character downtown, oil-heritage wealth in Maple Ridge and Terwilleger Heights, fast-growing suburbs from Broken Arrow to Owasso, and a spring storm season that can send your phone ringing off the hook or completely silent depending on who ranks on the map. Winning here takes three things working together: a site that converts the moment a homeowner searches after a hailstorm, SEO that keeps you ranking for your real service area, and local SEO that puts you in the Map Pack for the neighborhoods you actually serve. Here's how we help Tulsa contractors do exactly that.",
   aioQuestion: 'How do Tulsa contractors get more leads online?',
   aioAnswer:
     "Tulsa contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because Tulsa's biggest demand spikes come during and after hail and tornado season, the contractors who rank before the storms hit capture the surge. And because about 16% of Tulsans are Hispanic, Spanish-language targeting adds a pipeline most competitors leave completely untapped.",
@@ -423,6 +423,6 @@ export const tulsaCity = {
     { q: 'Why does the Tulsa market need a different approach than other Oklahoma markets?', a: "Tulsa is not OKC, and locals feel that strongly. It has its own neighborhoods, identity, and demand patterns — Art Deco downtown, Green Country setting, oil-heritage wealth in the older neighborhoods, and fast-growing suburbs to the south. Ranking here means targeting the specific places Tulsans identify with, not treating the metro like a generic Oklahoma city. The storm-season timing angle is also more pronounced here than most markets." },
     { q: 'How much does it cost to work with you in Tulsa?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free Tulsa audit." },
     { q: 'Which Tulsa areas do you serve?', a: "The full metro: Tulsa, Broken Arrow, Jenks, Owasso, Sand Springs, Claremore, and the neighborhoods inside them — Maple Ridge, Brookside, Cherry Street, South Tulsa, Terwilleger Heights, and more." },
-    { q: 'Where should I start?', a: "Start with a free Tulsa audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work — especially with storm season in mind. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Tulsa audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work, especially with storm season in mind. No pitch deck, just a plan for Tulsa marketing for contractors that gets you found and booked." },
   ],
 };

@@ -110,17 +110,17 @@ export const venturaLocations = [
   {
     ...BASE,
     citySlug: 'ventura', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Ventura County Local SEO Company | OnwardCraft',
+    titleTag: 'Ventura County Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Ventura County and three businesses show up on the map. We get you into those three — especially during fire season when calls spike.',
+      'Ventura County Local SEO that wins your trade the top three Map Pack spots, from Thousand Oaks to Oxnard, before fire season makes the phones ring.',
     eyebrow: 'Local SEO · Ventura County',
-    h1: 'When Ventura County searches for what you do, be the first name they find',
+    h1: 'Ventura County Local SEO that wins your trade the top three on the map when Thousand Oaks searches for help',
     h2Exact: 'Ventura County Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. When Santa Ana winds arrive and homeowners in Thousand Oaks rush to find a fire-hardening contractor, the three already on that map take every call. We get you into that top three for your communities.",
     primaryCta: 'Get my free Ventura County audit',
     intro:
-      "Ventura County local SEO comes down to one thing: when a homeowner in Camarillo or Thousand Oaks searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? In a county shaped by fire risk, coastal moisture, and two distinct economic communities — from the affluent hillside neighborhoods of Westlake Village to the working-class coastal communities of Oxnard — showing up in the right searches at the right moment is everything. Here's how you do it.",
+      "Ventura County Local SEO comes down to one thing: when a homeowner in Camarillo or Thousand Oaks searches your service plus \"near me,\" are you one of the three businesses Google pins to the Map Pack? In a county shaped by fire risk, coastal moisture, and two distinct economic communities, from the affluent hillside neighborhoods of Westlake Village to the working-class coastal communities of Oxnard, showing up in those local searches at the right moment is everything. Here's how you win those top three spots.",
     aioQuestion: 'How do Ventura County businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and communities you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Ventura County neighborhoods and the fire-risk concerns that drive most contractor searches here. The contractors who win also show up for Spanish-language searches in Oxnard and Port Hueneme — demand most competitors never target.",
@@ -168,7 +168,7 @@ export const venturaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your communities, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your communities, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day Ventura County Local SEO plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -176,17 +176,17 @@ export const venturaLocations = [
   {
     ...BASE,
     citySlug: 'ventura', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Ventura County SEO Company | OnwardCraft',
+    titleTag: 'Ventura County SEO Company | Rankings You Own | OnwardCraft',
     metaDescription:
-      'Ventura County SEO that ranks contractors on Google and brings in leads you own — fire season, HVAC demand, and year-round coastal maintenance. No lock-in.',
+      'Ventura County SEO that builds contractors rankings they actually own, from fire-hardening terms in Ojai to summer HVAC demand and coastal maintenance. No lock-in.',
     eyebrow: 'SEO Services · Ventura County',
-    h1: 'Get your Ventura County business to the top of Google and keep it there',
+    h1: 'Ventura County SEO that builds your contracting business rankings you actually own, from Ojai fire-hardening to coastal Oxnard',
     h2Exact: 'Ventura County SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Ventura County customers search and the leads keep coming. We build that ranking — including for the fire-hardening and post-fire rebuild terms that drive this market — and tie every report to actual calls and jobs.",
     primaryCta: 'Get my free Ventura County SEO audit',
     intro:
-      "Ventura County SEO comes down to one question: when a homeowner in Thousand Oaks or Camarillo searches what you do, are you on page one or page two? Page two might as well be invisible. This is a county where the 2017 Thomas Fire and 2018 Woolsey Fire permanently changed what homeowners research, where Santa Ana winds trigger annual fire-hardening search spikes, and where affluent hillside households research contractors carefully before calling. We get contractors ranking for those money keywords and we measure it in leads.",
+      "Ventura County SEO comes down to one question: when a homeowner in Thousand Oaks or Ojai searches what you do, are you on page one or page two? Page two might as well be invisible. This is a county where the 2017 Thomas Fire and 2018 Woolsey Fire permanently changed what homeowners research, where Santa Ana winds trigger annual fire-hardening search spikes, and where affluent hillside households research contractors carefully before calling. We rank contractors for the money keywords that actually book jobs and we measure the work in leads, not vanity traffic.",
     aioQuestion: 'How do Ventura County businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search — including fire-hardening, defensible space, and ember-resistant terms that have dominated contractor searches since Woolsey — publishing local content tied to specific Ventura County communities, and earning links from trusted local sources. The contractors who win also rank for seasonal HVAC demand in summer and fire-risk terms in October through December, so they capture both peaks.",
@@ -234,7 +234,7 @@ export const venturaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Ventura County do you cover?', a: "All of Ventura County — Thousand Oaks, Westlake Village, Camarillo, Oxnard, Port Hueneme, Simi Valley, Moorpark, Ojai, Santa Paula, Fillmore, and more — with genuine community pages rather than one generic county page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic Ventura County SEO timeline with the numbers modeled for your business so you keep the organic traffic and page-one rankings you build. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -242,17 +242,17 @@ export const venturaLocations = [
   {
     ...BASE,
     citySlug: 'ventura', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Ventura County Web Design | Sites That Convert | OnwardCraft',
+    titleTag: 'Ventura County Web Design Company | Sites That Book Work | OnwardCraft',
     metaDescription:
-      'Ventura County web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in fire country and coastal California.',
+      'Ventura County web design engineered to bring in real work: fast, mobile-first sites for contractors from coastal Oxnard to fire-country Thousand Oaks.',
     eyebrow: 'Web Design · Ventura County',
-    h1: 'Ventura County web design that turns visitors into booked jobs',
+    h1: 'Ventura County web design engineered to bring in real work, from coastal Oxnard to fire-country Thousand Oaks',
     h2Exact: 'Ventura County Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Ventura County contractors fast, mobile-first sites engineered to convert visitors into booked work — and to earn the trust of homeowners who research carefully before calling anyone after a fire or a Santa Ana wind event.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Ventura County contractor websites lose leads quietly: slow on a phone, buried call button, nothing that speaks to fire risk or coastal maintenance. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Thousand Oaks and Oxnard visitors into booked jobs — built for a county where the Woolsey Fire changed what homeowners look for in a contractor forever.",
+      "Ventura County web design is the difference between a site that books work and one that loses leads quietly: slow on a phone, buried call button, nothing that speaks to fire risk or coastal maintenance. We build contractor websites that load fast, look like the professional you are, and turn Thousand Oaks and Oxnard visitors into booked jobs, built for a county where the Woolsey Fire changed what homeowners look for in a contractor forever.",
     aioQuestion: 'What makes a good contractor website in Ventura County?',
     aioAnswer:
       "A good Ventura County contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, speaks directly to fire-hardening and coastal maintenance concerns that drive the market, and names the specific communities you serve. Because affluent hillside homeowners in Thousand Oaks and Westlake Village research contractors carefully before calling, trust signals — reviews, project photos, specific service descriptions — are especially important here.",
@@ -300,7 +300,7 @@ export const venturaLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Ventura County contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Ventura County web design should include for a contractor in this market, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -308,17 +308,17 @@ export const venturaLocations = [
   {
     ...BASE,
     citySlug: 'ventura', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Ventura County Website Redesign | OnwardCraft',
+    titleTag: 'Ventura County Website Redesign | Modernize, Keep Traffic | OnwardCraft',
     metaDescription:
-      'Redesign your Ventura County contractor website without losing rankings. Faster, mobile-first rebuilds that convert more visitors — built for fire country.',
+      'Ventura County Website Redesign that modernizes your contractor site without tanking your traffic: faster, mobile-first rebuilds for fire country and the coast.',
     eyebrow: 'Website Redesign · Ventura County',
-    h1: 'Redesign your Ventura County website without losing your rankings',
+    h1: 'Ventura County Website Redesign that modernizes your contractor site without tanking the traffic Simi Valley already sends you',
     h2Exact: 'Ventura County Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, generic, nothing that earns trust from a homeowner who just survived the Woolsey Fire and is spending carefully. We redesign Ventura County contractor sites to convert more and load faster, and we migrate carefully so you keep every ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish. We do neither. We redesign Ventura County contractor sites for speed and conversions, build them to speak to fire risk, coastal maintenance, and the high-research habits of county homeowners, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Ventura County Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish. We do neither. We redesign contractor sites for speed and conversions, build them to speak to fire risk, coastal maintenance, and the high-research habits of county homeowners, and run an SEO-safe migration with the redirects that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them — because the new site is faster, mobile-first, and speaks more directly to what Ventura County homeowners search for.",
@@ -366,7 +366,7 @@ export const venturaLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Ventura County Website Redesign should fix, and a fixed-price quote with a timeline and an SEO-safe migration plan that rebuilds for leads without losing rankings." },
     ],
   },
 ];
@@ -376,10 +376,10 @@ export const venturaCity = {
 
   titleTag: 'Ventura County Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Ventura County contractors. Get found during fire season, HVAC demand, and year-round coastal maintenance — and own.',
+    'Ventura County marketing for contractors built around the trades: web design, SEO, and local SEO that get you found during fire season and booked year-round.',
 
   eyebrow: 'Ventura County · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Ventura County contractors found and booked',
+  h1: 'Ventura County marketing for contractors built around the trades, from fire-season demand to the coast',
   h2Exact: 'Ventura County Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Ventura County — fire season, coastal communities, and the full spectrum from Thousand Oaks to Oxnard. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -387,7 +387,7 @@ export const venturaCity = {
   primaryCta: 'Get my free Ventura County audit',
 
   intro:
-    "If you run a contracting business in Ventura County, you operate in one of the most fire-affected and demographically diverse markets in California. The Woolsey Fire (2018) and Thomas Fire (2017) permanently changed what homeowners research and spend on — fire-hardening, defensible space, and post-fire rebuilds are now among the most searched contractor categories in the county. Every October through December, Santa Ana winds spike those searches again. At the same time, affluent communities in Thousand Oaks, Westlake Village, and Camarillo want quality and research carefully, while working-class coastal communities in Oxnard and Port Hueneme — where roughly 42% of residents are Hispanic — want reliability and value. Winning this market takes three things working together: a site that converts, SEO that ranks you year-round and spikes during fire season, and local SEO that puts you on the map in the specific communities you serve.",
+    "Ventura County marketing for contractors has to fit one of the most fire-affected and demographically diverse markets in California. The Woolsey Fire (2018) and Thomas Fire (2017) permanently changed what homeowners research and spend on — fire-hardening, defensible space, and post-fire rebuilds are now among the most searched contractor categories in the county. Every October through December, Santa Ana winds spike those searches again. At the same time, affluent communities in Thousand Oaks, Westlake Village, and Camarillo want quality and research carefully, while working-class coastal communities in Oxnard and Port Hueneme — where roughly 42% of residents are Hispanic — want reliability and value. Winning this market takes three things working together: a site that converts, SEO that ranks you year-round and spikes during fire season, and local SEO that puts you on the map in the specific communities you serve.",
   aioQuestion: 'How do Ventura County contractors get more leads online?',
   aioAnswer:
     "Ventura County contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for fire-hardening, coastal maintenance, and HVAC searches, and local SEO that wins the Google Map Pack community by community. Because the county splits between high-income hillside neighborhoods and working-class coastal communities — including a large Spanish-speaking population in Oxnard — the contractors who target the full market and show up where their customers actually search win the most work.",
@@ -423,6 +423,6 @@ export const venturaCity = {
     { q: 'Why does Ventura County need a different approach?', a: "The Woolsey and Thomas fires permanently changed what homeowners here research and spend on. Fire-hardening, defensible space, and post-fire rebuilds are now dominant contractor categories, and Santa Ana winds spike those searches every fall. At the same time, the county splits between high-income hillside communities and working-class coastal areas with a large Spanish-speaking population — winning requires targeting both." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Ventura County areas do you serve?', a: "All of Ventura County — Thousand Oaks, Westlake Village, Camarillo, Oxnard, Port Hueneme, Simi Valley, Moorpark, Ojai, Santa Paula, Fillmore, and more — with genuine community pages rather than one generic county page." },
-    { q: 'Where should I start?', a: "Start with a free Ventura County audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest — including whether you're positioned for fire-season demand. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Ventura County audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Ventura County marketing for contractors that will bring in the most work fastest, including whether you're positioned for fire-season demand. No pitch deck, just a plan." },
   ],
 };

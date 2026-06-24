@@ -109,11 +109,11 @@ export const worcesterLocations = [
   {
     ...BASE,
     citySlug: 'worcester', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Worcester MA Local SEO Company | OnwardCraft',
+    titleTag: 'Worcester Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Worcester and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Worcester local SEO that gets contractors into the top three on the map. We win you the Map Pack across your neighborhoods so the call lands with you.',
     eyebrow: 'Local SEO · Worcester, MA',
-    h1: 'When Worcester searches for what you do, be the first name they find',
+    h1: 'Worcester Local SEO that ranks you above the competition from Tatnuck to Shrewsbury',
     h2Exact: 'Worcester MA Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. Worcester homeowners came from Boston with big renovation budgets and old 19th-century houses — we get you into that top three for your neighborhoods, so the call lands with you instead of whoever ranked first.",
@@ -167,7 +167,7 @@ export const worcesterLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Worcester neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Worcester neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day Worcester local SEO plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const worcesterLocations = [
   {
     ...BASE,
     citySlug: 'worcester', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Worcester MA SEO Company | OnwardCraft',
+    titleTag: 'Worcester SEO Company | Rank on Google, Own Your Leads | OnwardCraft',
     metaDescription:
       'Worcester SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a city with old homes.',
     eyebrow: 'SEO Services · Worcester, MA',
-    h1: 'Get your Worcester business to the top of Google and keep it there',
+    h1: 'Worcester SEO that climbs you past the competition before nor\'easter season hits',
     h2Exact: 'Worcester MA SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Worcester customers search and the leads keep coming — through nor'easter season, spring thaw, and summer HVAC calls alike. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const worcesterLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Worcester do you cover?', a: "Worcester proper and surrounding towns — Shrewsbury, Northborough, Auburn, Millbury, Grafton, and Webster — with genuine local pages for neighborhoods like Tatnuck, Greendale, and Indian Lake, rather than one generic Worcester page." },
       { q: 'Can you help me target Worcester\'s Spanish-speaking community?', a: "Yes. About 26 percent of Worcester residents are Hispanic and many search for services in Spanish. We can build content and optimize your presence for Spanish-language searches — demand that most of your competitors are completely ignoring." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic Worcester SEO timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const worcesterLocations = [
   {
     ...BASE,
     citySlug: 'worcester', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Worcester MA Web Design Company | OnwardCraft',
+    titleTag: 'Worcester Web Design Company | Fast Sites That Book Jobs | OnwardCraft',
     metaDescription:
       'Worcester web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving old New England homes in a nor\'easter.',
     eyebrow: 'Web Design · Worcester, MA',
-    h1: 'Worcester web design that turns visitors into booked jobs',
+    h1: 'Worcester web design that loads fast and books jobs for old-home contractors',
     h2Exact: 'Worcester MA Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Worcester contractors fast, mobile-first sites engineered to turn visitors into booked work — for homeowners who came from Boston with real budgets and 19th-century houses full of work to do.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Worcester contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Tatnuck-to-Shrewsbury visitors into booked jobs — designed for a market where Boston-income homeowners are calling contractors to work on houses built in 1890.",
+      "Worcester web design has one job, and most contractor sites fail at it: they lose leads quietly, slow on a phone, buried call button, no clear offer. Done right, it fixes all of that. We build sites that load fast, look like the professional you are, and turn Tatnuck-to-Shrewsbury visitors into booked jobs — designed for a market where Boston-income homeowners are calling contractors to work on houses built in 1890.",
     aioQuestion: 'What makes a good contractor website in Worcester MA?',
     aioAnswer:
       "A good Worcester contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos from local homes, and names the specific neighborhoods and surrounding towns you serve. Because Worcester's housing stock is almost entirely 19th century, showing that you understand old homes — original windows, old plumbing, historic woodwork — is what builds trust with the homeowners who are most likely to hire and pay well.",
@@ -299,7 +299,7 @@ export const worcesterLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Worcester contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Worcester web design project should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const worcesterLocations = [
   {
     ...BASE,
     citySlug: 'worcester', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Worcester MA Website Redesign | OnwardCraft',
+    titleTag: 'Worcester Website Redesign | SEO-Safe Rebuilds That Convert | OnwardCraft',
     metaDescription:
-      'Redesign your Worcester website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — built for a nor\'easter.',
+      'Worcester website redesign that rebuilds for speed and conversions without losing rankings. Mobile-first, SEO-safe migration built for an old-home, nor\'easter market.',
     eyebrow: 'Website Redesign · Worcester, MA',
-    h1: 'Redesign your Worcester website without losing your rankings',
+    h1: 'Worcester Website Redesign done with a careful, SEO-safe migration that holds your rankings',
     h2Exact: 'Worcester MA Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Worcester contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned through nor'easter season and beyond.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Worcester contractor sites for speed and conversions, build them to speak to homeowners with Boston incomes and 19th-century houses, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Worcester website redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Worcester contractor sites for speed and conversions, build them to speak to homeowners with Boston incomes and 19th-century houses, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one — and in Worcester's old-home market, a site that speaks specifically to 19th-century houses and nor'easter preparedness converts far better than a generic template.",
@@ -365,7 +365,7 @@ export const worcesterLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Worcester website redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const worcesterCity = {
 
   titleTag: 'Worcester MA Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Worcester MA contractors. Get found, get booked, and own your leads — built for a nor\'easter market with old homes.',
+    'Worcester marketing for contractors: web design, SEO, and local SEO that get you found, booked, and owning your leads in a nor\'easter market full of old homes.',
 
   eyebrow: 'Worcester, MA · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Worcester contractors found and booked',
+  h1: 'Worcester marketing for contractors that fills your calendar through nor\'easter season',
   h2Exact: 'Worcester MA Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Worcester's unique market: Boston-income homeowners, 19th-century housing stock, nor'easter winters, and a large Spanish-speaking community. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const worcesterCity = {
   primaryCta: 'Get my free Worcester audit',
 
   intro:
-    "If you run a contracting business in Worcester, you're operating in a market with a genuine story behind it. Thousands of Boston-priced-out families have moved here — people with real incomes who bought 19th-century mill-worker houses and Victorian triple-deckers that now need specialist contractors. Nor'easters pound the city harder than almost anywhere in New England. A large Hispanic community — about 26 percent of residents — is largely underserved by contractors willing to show up in Spanish. Winning here takes three things working together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here's how we help Worcester contractors do exactly that.",
+    "Worcester marketing for contractors starts with one fact: if you run a contracting business here, you're operating in a market with a genuine story behind it. Thousands of Boston-priced-out families have moved here — people with real incomes who bought 19th-century mill-worker houses and Victorian triple-deckers that now need specialist contractors. Nor'easters pound the city harder than almost anywhere in New England. A large Hispanic community — about 26 percent of residents — is largely underserved by contractors willing to show up in Spanish. Winning here takes three things working together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here's how we help Worcester contractors do exactly that.",
   aioQuestion: 'How do Worcester MA contractors get more leads online?',
   aioAnswer:
     "Worcester contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. Worcester's specific market — Boston-income homeowners, 19th-century housing stock requiring specialist work, extreme nor'easter winters, and a 26 percent Hispanic population — means the contractors who target the right searches in the right languages, and who are already ranking before winter season hits, win the most work.",
@@ -422,6 +422,6 @@ export const worcesterCity = {
     { q: 'Why does the Worcester market need a different approach?', a: "Worcester has a unique combination: Boston-income homeowners who bought 19th-century houses, the worst nor'easter winters in New England, a large Hispanic community that's underserved by contractors in Spanish, and a genuine city revival happening. Generic marketing templates miss all of it." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Worcester areas do you serve?', a: "Worcester proper and surrounding towns — Shrewsbury, Northborough, Auburn, Millbury, Grafton, and Webster — with genuine local pages for neighborhoods like Tatnuck, Greendale, Indian Lake, and Burncoat, rather than one generic city page." },
-    { q: 'Where should I start?', a: "Start with a free Worcester audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Worcester audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two Worcester contractor marketing moves that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

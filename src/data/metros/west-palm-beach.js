@@ -109,11 +109,11 @@ export const westPalmBeachLocations = [
   {
     ...BASE,
     citySlug: 'west-palm-beach', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'West Palm Beach Local SEO | Win the Map Pack | OnwardCraft',
+    titleTag: 'West Palm Beach Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in West Palm Beach and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'West Palm Beach Local SEO that makes you the first name on the map, from Palm Beach Island to Boynton Beach, so the call lands with you.',
     eyebrow: 'Local SEO · West Palm Beach',
-    h1: 'When Palm Beach County searches for what you do, be the first name they find',
+    h1: 'West Palm Beach Local SEO that makes you the first name on the map from the island to Boynton Beach',
     h2Exact: 'West Palm Beach Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three — so the call lands with you, whether the homeowner is on Palm Beach Island or Boynton Beach, and so you're ready when snowbird season and hurricane demand hit at once.",
@@ -167,7 +167,7 @@ export const westPalmBeachLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research — especially from high-end clients comparing contractors carefully — starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly — including the kind of estate and waterfront clients who search independently and call who looks most credible." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day West Palm Beach local SEO plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const westPalmBeachLocations = [
   {
     ...BASE,
     citySlug: 'west-palm-beach', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'West Palm Beach SEO Company | OnwardCraft',
+    titleTag: 'West Palm Beach SEO Company | Page One That Holds | OnwardCraft',
     metaDescription:
-      'West Palm Beach SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for snowbird.',
+      'West Palm Beach SEO that puts your business on page one and holds it, ranking contractors for the searches that book island and Intracoastal jobs.',
     eyebrow: 'SEO Services · West Palm Beach',
-    h1: 'Get your West Palm Beach business to the top of Google and keep it there',
+    h1: 'West Palm Beach SEO that puts your business on page one and holds it across the island and the Intracoastal',
     h2Exact: 'West Palm Beach SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Palm Beach County customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs — whether those clients are on the island or across the Intracoastal.",
@@ -233,7 +233,7 @@ export const westPalmBeachLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business. This matters especially in Palm Beach County, where high-end clients often research contractors thoroughly before calling." },
       { q: 'Which areas around West Palm Beach do you cover?', a: "All of Palm Beach County — Palm Beach Island, Palm Beach Gardens, Jupiter, Delray Beach, Boynton Beach, Boca Raton, Wellington, Riviera Beach, Lake Worth, and more — with genuine local pages rather than one generic West Palm Beach page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads — especially valuable in a market where the best clients are doing their own research online." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic West Palm Beach SEO timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const westPalmBeachLocations = [
   {
     ...BASE,
     citySlug: 'west-palm-beach', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'West Palm Beach Web Design | OnwardCraft',
+    titleTag: 'West Palm Beach Web Design Company | Books Jobs | OnwardCraft',
     metaDescription:
-      'West Palm Beach web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving estate clients and storm-season.',
+      'West Palm Beach web design that books jobs instead of just looking nice. Fast, mobile-first sites for contractors serving island estates and storm season.',
     eyebrow: 'Web Design · West Palm Beach',
-    h1: 'West Palm Beach web design that turns visitors into booked jobs',
+    h1: 'West Palm Beach web design that books jobs instead of just looking nice for island estates and Jupiter homes',
     h2Exact: 'West Palm Beach Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Palm Beach County contractors fast, mobile-first sites engineered to turn visitors into booked work — one that makes island estate owners and Boynton Beach homeowners equally confident in picking up the phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most West Palm Beach contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. In Palm Beach County that's especially costly — the ultra-wealthy snowbird clients on the island are choosing contractors based on how polished and credible the website looks. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn visitors into booked jobs whether you're serving a Jupiter estate or a Lake Worth renovation.",
+      "West Palm Beach web design is where most contractor sites lose leads quietly: slow on a phone, buried call button, no clear offer. In Palm Beach County that's especially costly. The ultra-wealthy snowbird clients on the island are choosing contractors based on how polished and credible the website looks. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn visitors into booked jobs whether you're serving a Jupiter estate or a Lake Worth renovation.",
     aioQuestion: 'What makes a good contractor website in West Palm Beach?',
     aioAnswer:
       "A good Palm Beach County contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during both snowbird activation and hurricane season. Because estate-level clients are researching carefully and most local searches happen on mobile, a professional look and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const westPalmBeachLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Palm Beach County contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting West Palm Beach web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const westPalmBeachLocations = [
   {
     ...BASE,
     citySlug: 'west-palm-beach', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'West Palm Beach Website Redesign | OnwardCraft',
+    titleTag: 'West Palm Beach Website Redesign | Rebuilt for Leads | OnwardCraft',
     metaDescription:
-      'Redesign your West Palm Beach website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up.',
+      'West Palm Beach Website Redesign that rebuilds for leads, not just looks. Faster, mobile-first sites that convert island and waterfront homeowners and hold rankings.',
     eyebrow: 'Website Redesign · West Palm Beach',
-    h1: 'Redesign your West Palm Beach website without losing your rankings',
+    h1: 'West Palm Beach Website Redesign that rebuilds for leads, not just looks, from the island to Palm Beach Gardens',
     h2Exact: 'West Palm Beach Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. In Palm Beach County, where estate clients judge you in seconds, that cost is even higher. We redesign contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign West Palm Beach contractor sites for speed and conversions, build them to handle the dual peaks of snowbird season and hurricane demand, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A West Palm Beach Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild contractor sites for speed and conversions, build them to handle the dual peaks of snowbird season and hurricane demand, and migrate with the redirects and SEO-safe care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one — all of which matter in the competitive Palm Beach County contractor market.",
@@ -365,7 +365,7 @@ export const westPalmBeachLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the West Palm Beach Website Redesign should fix, and a fixed-price quote with a timeline and an SEO-safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const westPalmBeachCity = {
 
   titleTag: 'West Palm Beach Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for West Palm Beach contractors. Get found by snowbird estate clients and hurricane-driven homeowners alike — and own.',
+    'West Palm Beach marketing for contractors who want to own their leads. Web design, SEO, and local SEO that get you found by island and county homeowners.',
 
   eyebrow: 'West Palm Beach · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Palm Beach County contractors found and booked',
+  h1: 'West Palm Beach marketing for contractors who want to own their leads, from the island to Riviera Beach',
   h2Exact: 'West Palm Beach Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Palm Beach County's unique market — snowbird estate wealth, Atlantic hurricane exposure, and a diverse year-round community from the island to Riviera Beach. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const westPalmBeachCity = {
   primaryCta: 'Get my free West Palm Beach audit',
 
   intro:
-    "If you run a contracting business in Palm Beach County, you're working in one of the most unusual markets in the country. On one end, Palm Beach Island is home to some of the wealthiest estates in the United States — homeowners who spend extraordinary amounts on contractors and expect the very highest level of professionalism online before they pick up the phone. On the other end, West Palm Beach proper and Riviera Beach have a diverse, working-class community with constant everyday demand. Layer over that the October-to-April snowbird influx and the June-to-November hurricane season, and you have a market that never really goes quiet — it just shifts. Winning here takes three things working together: a site that looks credible at every price point, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack ahead of the seasonal surges. Here's how we help Palm Beach County contractors do exactly that.",
+    "West Palm Beach marketing for contractors starts with one fact: if you run a contracting business in Palm Beach County, you're working in one of the most unusual markets in the country. On one end, Palm Beach Island is home to some of the wealthiest estates in the United States — homeowners who spend extraordinary amounts on contractors and expect the very highest level of professionalism online before they pick up the phone. On the other end, West Palm Beach proper and Riviera Beach have a diverse, working-class community with constant everyday demand. Layer over that the October-to-April snowbird influx and the June-to-November hurricane season, and you have a market that never really goes quiet — it just shifts. Winning here takes three things working together: a site that looks credible at every price point, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack ahead of the seasonal surges. Here's how we help Palm Beach County contractors do exactly that.",
   aioQuestion: 'How do Palm Beach County contractors get more leads online?',
   aioAnswer:
     "Palm Beach County contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because the market is shaped by ultra-wealthy seasonal residents from October through April and direct Atlantic hurricane exposure from June through November, contractors who look established and are already ranking before each season hits capture the most work — both the estate-level renovations on the island and the storm-prep and restoration calls across the county.",
@@ -422,6 +422,6 @@ export const westPalmBeachCity = {
     { q: 'Why do snowbird season and hurricane season matter for my marketing?', a: "Palm Beach County has two demand spikes that compound each other. From October through April, ultra-wealthy seasonal residents arrive and start hiring contractors immediately — concentrated, high-spending demand. From June through November, Atlantic hurricane exposure means roofing, impact windows, and restoration searches spike fast and stay elevated. Ranking takes months to build, so you have to be in place before each season begins." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Palm Beach County areas do you serve?', a: "All of Palm Beach County — West Palm Beach, Palm Beach Island, Palm Beach Gardens, Jupiter, Juno Beach, Delray Beach, Boynton Beach, Boca Raton, Wellington, Royal Palm Beach, Riviera Beach, Lake Worth, and more." },
-    { q: 'Where should I start?', a: "Start with a free West Palm Beach audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest — whether that's ahead of snowbird season or the next Atlantic storm. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free West Palm Beach audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two West Palm Beach marketing moves that will bring in the most work fastest, whether that's ahead of snowbird season or the next Atlantic storm. No pitch deck, just a plan." },
   ],
 };

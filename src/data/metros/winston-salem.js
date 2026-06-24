@@ -110,11 +110,11 @@ export const winstonSalemLocations = [
   {
     ...BASE,
     citySlug: "winston-salem", serviceSlug: "local-seo", service: "Local SEO",
-    titleTag: "Winston-Salem Local SEO Company | OnwardCraft",
+    titleTag: "Winston-Salem Local SEO Company | Win the Map Pack | OnwardCraft",
     metaDescription:
-      "Search your service in Winston-Salem and three businesses show up on the map. We get you into those three, so the call lands with you.",
+      "Winston-Salem local SEO that wins you the top three on the map, so the \"near me\" call from Ardmore or Clemmons lands with you, not the competition.",
     eyebrow: "Local SEO · Winston-Salem",
-    h1: "When Winston-Salem searches for what you do, be the first name they find",
+    h1: "Winston-Salem Local SEO that wins you the top three on the map across Ardmore, Clemmons, and the Piedmont Triad",
     h2Exact: "Winston-Salem Local SEO Company",
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three — so the call lands with you instead of whoever ranked first, and so you're ready when the next ice storm or HVAC surge floods everyone's phone.",
@@ -168,7 +168,7 @@ export const winstonSalemLocations = [
       { q: "Will I show up in Google AI Overviews and ChatGPT?", a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: "Am I locked into a contract?", a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: "How does this get me off Angi and HomeAdvisor?", a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where your Winston-Salem local SEO stands today across your service areas, what your Map Pack competitors are doing to beat you in local search, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -176,11 +176,11 @@ export const winstonSalemLocations = [
   {
     ...BASE,
     citySlug: "winston-salem", serviceSlug: "seo-services", service: "SEO Services",
-    titleTag: "Winston-Salem SEO Company | OnwardCraft",
+    titleTag: "Winston-Salem SEO Company | Rankings You Own | OnwardCraft",
     metaDescription:
-      "Winston-Salem SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Piedmont seasonal.",
+      "Winston-Salem SEO that builds rankings you actually own, putting contractors on page one of Google for the searches Piedmont homeowners use to book work.",
     eyebrow: "SEO Services · Winston-Salem",
-    h1: "Get your Winston-Salem business to the top of Google and keep it there",
+    h1: "Winston-Salem SEO that builds rankings you actually own, in front of the deliberate Wake Forest and Baptist Medical homeowners who research before they call",
     h2Exact: "Winston-Salem SEO Company",
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Winston-Salem customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -234,7 +234,7 @@ export const winstonSalemLocations = [
       { q: "Will I show up in Google AI Overviews and ChatGPT?", a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: "Which areas around Winston-Salem do you cover?", a: "All of Winston-Salem and the surrounding Piedmont Triad — Ardmore, Buena Vista, Clemmons, Kernersville, Lewisville, High Point, Greensboro and more — with genuine local pages rather than one generic city page." },
       { q: "How do you get me off Angi and HomeAdvisor leads?", a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where your Winston-Salem SEO stands today, which money keywords your competitors are ranking for, the highest-impact fixes to climb toward page one, and a realistic timeline with the organic traffic numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -242,17 +242,17 @@ export const winstonSalemLocations = [
   {
     ...BASE,
     citySlug: "winston-salem", serviceSlug: "web-design", service: "Web Design",
-    titleTag: "Winston-Salem Web Design Company | OnwardCraft",
+    titleTag: "Winston-Salem Web Design Company | Built to Book Work | OnwardCraft",
     metaDescription:
-      "Winston-Salem web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Piedmont seasonal demand.",
+      "Winston-Salem web design engineered to bring in real work: fast, mobile-first contractor sites that earn trust with Piedmont homeowners and book the job.",
     eyebrow: "Web Design · Winston-Salem",
-    h1: "Winston-Salem web design that turns visitors into booked jobs",
+    h1: "Winston-Salem web design engineered to bring in real work, from the Craftsman homes of Ardmore to growing Clemmons and Kernersville",
     h2Exact: "Winston-Salem Web Design Company",
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Winston-Salem contractors fast, mobile-first sites engineered to turn visitors into booked work — and to hold up when HVAC season or a Piedmont ice storm floods your phone.",
     primaryCta: "Get my free quote",
     intro:
-      "Most Winston-Salem contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn visitors from Ardmore to Kernersville into booked jobs — with the trust signals that matter to the Wake Forest faculty and Baptist Medical professionals who dominate this market.",
+      "Winston-Salem web design done right fixes the leaks most contractor sites have: slow on a phone, buried call button, no clear offer. We build sites that load fast, look like the professional you are, and turn visitors from Ardmore to Kernersville into booked jobs, with the trust signals that matter to the Wake Forest faculty and Baptist Medical professionals who dominate this market.",
     aioQuestion: "What makes a good contractor website in Winston-Salem?",
     aioAnswer:
       "A good Winston-Salem contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, and builds trust with reviews and real project photos — because the highly educated homeowners tied to Wake Forest and Atrium Health Wake Forest Baptist research carefully before calling. It also needs to handle traffic spikes during summer HVAC season and Piedmont ice storms, when demand can surge overnight.",
@@ -300,7 +300,7 @@ export const winstonSalemLocations = [
       { q: "What platform do you build on?", a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: "Do you offer ongoing support?", a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: "Am I locked into a contract?", a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: "What do I get in the free quote?", a: "A clear look at what your current site is costing you in lost leads, what a high-converting Winston-Salem site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: "What do I get in the free quote?", a: "A clear look at what your current site is costing you in lost leads, what a high-converting Winston-Salem web design should include to turn visitors into booked jobs, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -308,17 +308,17 @@ export const winstonSalemLocations = [
   {
     ...BASE,
     citySlug: "winston-salem", serviceSlug: "website-redesign", service: "Website Redesign",
-    titleTag: "Winston-Salem Website Redesign | OnwardCraft",
+    titleTag: "Winston-Salem Website Redesign | Modernize, Keep Traffic | OnwardCraft",
     metaDescription:
-      "Redesign your Winston-Salem website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in Piedmont.",
+      "Winston-Salem website redesign that modernizes your site without tanking your traffic: a faster, mobile-first rebuild that converts and keeps your rankings.",
     eyebrow: "Website Redesign · Winston-Salem",
-    h1: "Redesign your Winston-Salem website without losing your rankings",
+    h1: "Winston-Salem website redesign that modernizes without tanking your traffic, built to win the deliberate homeowners renovating Buena Vista and Sherwood Forest",
     h2Exact: "Winston-Salem Website Redesign Company",
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Winston-Salem contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: "Get my free redesign audit",
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Winston-Salem contractor sites for speed, trust, and conversions — built to impress the educated Piedmont homeowner and handle seasonal demand surges — and we migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Winston-Salem website redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild contractor sites for speed, trust, and conversions, built to impress the educated Piedmont homeowner and handle seasonal demand surges, and we migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: "How do I redesign my website without losing SEO and traffic?",
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -366,7 +366,7 @@ export const winstonSalemLocations = [
       { q: "Will the new site be mobile-friendly and fast?", a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: "Do I own the redesigned site?", a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: "Am I locked into a contract?", a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Winston-Salem website redesign should fix, and a fixed-price quote with a timeline and an SEO-safe migration plan that rebuilds without losing your rankings." },
     ],
   },
 ];
@@ -376,10 +376,10 @@ export const winstonSalemCity = {
 
   titleTag: "Winston-Salem Marketing for Contractors | OnwardCraft",
   metaDescription:
-    "Web design, SEO, and local SEO for Winston-Salem contractors. Get found, get booked, and own your leads instead of renting them — built for Piedmont seasonal.",
+    "Winston-Salem marketing for contractors built around the trades: web design, SEO, and local SEO that get you found, get you booked, and let you own your leads.",
 
   eyebrow: "Winston-Salem · Web Design, SEO & Lead Generation",
-  h1: "Marketing that gets Winston-Salem contractors found and booked",
+  h1: "Winston-Salem marketing for contractors, built around the trades and the Piedmont Triad's historic renovation wave",
   h2Exact: "Winston-Salem Marketing Agency for Contractors",
   heroSubhead:
     "Websites, SEO, and local SEO built for the Piedmont Triad's educated homeowners, historic renovation wave, and seasonal demand swings. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -387,7 +387,7 @@ export const winstonSalemCity = {
   primaryCta: "Get my free Winston-Salem audit",
 
   intro:
-    "If you run a contracting business in Winston-Salem, you're serving one of the most discerning homeowner markets in the Carolinas — faculty and medical professionals tied to Wake Forest University and Atrium Health Wake Forest Baptist who research contractors carefully before calling. Add the renovation wave rolling through historic Ardmore, Buena Vista, and Sherwood Forest neighborhoods, plus predictable seasonal spikes from summer HVAC demand and Piedmont ice storms, and the opportunity is real. Winning here takes three things working together: a site that builds trust and converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack when it matters most.",
+    "Winston-Salem marketing for contractors has to fit one of the most discerning homeowner markets in the Carolinas: faculty and medical professionals tied to Wake Forest University and Atrium Health Wake Forest Baptist who research contractors carefully before calling. Add the renovation wave rolling through historic Ardmore, Buena Vista, and Sherwood Forest neighborhoods, plus predictable seasonal spikes from summer HVAC demand and Piedmont ice storms, and the opportunity is real. Winning here takes three things working together: a site that builds trust and converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack when it matters most.",
   aioQuestion: "How do Winston-Salem contractors get more leads online?",
   aioAnswer:
     "Winston-Salem contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because the homeowner base here includes a large share of educated professionals who compare contractors before calling, trust signals — reviews, authoritative content, a polished site — carry extra weight. Seasonal readiness for HVAC demand and Piedmont ice storms rounds out what the top-ranking contractors do right.",
@@ -423,6 +423,6 @@ export const winstonSalemCity = {
     { q: "Why does seasonal demand matter for my marketing in Winston-Salem?", a: "The Piedmont has two distinct demand spikes: brutal summer heat that drives HVAC calls from June through September, and ice storms in December and January that can damage roofs and burst pipes overnight. Ranking takes months to build, so the contractors who are already visible when those moments hit take the work. We get you in place ahead of season." },
     { q: "How much does it cost to work with you?", a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: "Which Winston-Salem areas do you serve?", a: "All of Winston-Salem and the surrounding Piedmont Triad — Ardmore, Buena Vista, Sherwood Forest, Clemmons, Kernersville, Lewisville, Pfafftown, High Point, Greensboro and more." },
-    { q: "Where should I start?", a: "Start with a free Winston-Salem audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: "Where should I start?", a: "Start with a free Winston-Salem audit. We'll look at your website, your rankings, and your Map Pack presence, then map out the Winston-Salem contractor marketing moves that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

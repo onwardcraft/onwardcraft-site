@@ -111,9 +111,9 @@ export const toledoLocations = [
     citySlug: 'toledo', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Toledo Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Toledo and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Toledo Local SEO that puts you in the Map Pack. We get you into the three businesses Google pins on the map, so the call lands with you.',
     eyebrow: 'Local SEO · Toledo, OH',
-    h1: 'When Toledo searches for what you do, be the first name they find',
+    h1: 'Toledo Local SEO that puts your shop in the Map Pack from Old West End to Perrysburg',
     h2Exact: 'Toledo Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three — so the call lands with you instead of whoever ranked first, and so you're ready when Lake Erie winter drives a surge in contractor demand.",
@@ -167,7 +167,7 @@ export const toledoLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the honest starting point for Toledo local SEO, no pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const toledoLocations = [
   {
     ...BASE,
     citySlug: 'toledo', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Toledo SEO Company | OnwardCraft',
+    titleTag: 'Toledo SEO Company | Glass-City Search Rankings | OnwardCraft',
     metaDescription:
-      'Toledo SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Lake Erie seasonal demand.',
+      'Toledo SEO that gets contractors to the top of Google and keeps them there. Revenue-tied reporting, no lock-in contracts, built for Lake Erie seasonal demand.',
     eyebrow: 'SEO Services · Toledo, OH',
-    h1: 'Get your Toledo business to the top of Google and keep it there',
+    h1: 'Toledo SEO that gets glass-city contractors to the top of Google and keeps them there',
     h2Exact: 'Toledo SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Toledo customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const toledoLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Toledo do you cover?', a: "All of the Toledo metro and surrounding areas — Old West End, Ottawa Hills, Perrysburg, Maumee, Sylvania, Oregon, Northwood, Waterville, Bowling Green, and more — with genuine local pages rather than one generic Toledo page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is a straight diagnosis of what Toledo SEO can do for you, no pitch deck." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const toledoLocations = [
     citySlug: 'toledo', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Toledo Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Toledo web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and Ohio seasonal demand.',
+      'Toledo web design that turns visitors into booked jobs. Fast, mobile-first sites built for contractors and Lake Erie seasonal demand.',
     eyebrow: 'Web Design · Toledo, OH',
-    h1: 'Toledo web design that turns visitors into booked jobs',
+    h1: 'Toledo web design that turns Old West End and Maumee visitors into booked jobs',
     h2Exact: 'Toledo Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Toledo contractors fast, mobile-first sites engineered to turn visitors into booked work — and to hold up when Lake Erie winter floods your phone with HVAC and roofing calls.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Toledo contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Old-West-End-to-Perrysburg visitors into booked jobs — sites that don't fall over when a hard Ohio winter sends your traffic through the roof.",
+      "Toledo web design done right fixes the leaks that quietly cost contractors work: slow on a phone, buried call button, no clear offer. We build sites that load fast, look like the professional you are, and turn Old-West-End-to-Perrysburg visitors into booked jobs, sites that don't fall over when a hard Lake Erie winter sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Toledo?',
     aioAnswer:
       "A good Toledo contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle the traffic spikes that come with Lake Erie winters and spring thaw flooding. Because most Toledo searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const toledoLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Toledo site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Toledo web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const toledoLocations = [
   {
     ...BASE,
     citySlug: 'toledo', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Toledo Website Redesign | OnwardCraft',
+    titleTag: 'Toledo Website Redesign | SEO-Safe Rebuilds | OnwardCraft',
     metaDescription:
-      'Redesign your Toledo website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up through Ohio.',
+      'Toledo Website Redesign that converts more without losing your rankings. Faster, mobile-first rebuilds for contractors, built for Lake Erie seasonal demand.',
     eyebrow: 'Website Redesign · Toledo, OH',
-    h1: 'Redesign your Toledo website without losing your rankings',
+    h1: 'Toledo Website Redesign that converts more Glass-City leads without losing your rankings',
     h2Exact: 'Toledo Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Toledo contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Toledo contractor sites for speed and conversions, build them to handle Lake Erie seasonal demand, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Toledo Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild contractor sites for speed and conversions, design them to handle Lake Erie seasonal demand, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const toledoLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what a Toledo Website Redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const toledoCity = {
 
   titleTag: 'Toledo Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Toledo contractors. Get found, get booked, and own your leads instead of renting them — built for Lake Erie seasonal.',
+    'Toledo marketing for contractors: web design, SEO, and local SEO that get you found, get you booked, and let you own your leads instead of renting them.',
 
   eyebrow: 'Toledo · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Toledo contractors found and booked',
+  h1: 'Toledo marketing for contractors that gets glass-city trades found and booked',
   h2Exact: 'Toledo Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Toledo's glass-heritage, Jeep-assembly, Lake Erie market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const toledoCity = {
   primaryCta: 'Get my free Toledo audit',
 
   intro:
-    "If you run a contracting business in Toledo, you're operating in a market shaped by manufacturing heritage, union wages, and real Ohio winters — homeowners who understand quality and trust the contractor who looks established. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack — all in place before the next Lake Erie winter drives demand through the roof. Here's how we help Toledo contractors do exactly that.",
+    "Toledo marketing for contractors has to fit a market shaped by manufacturing heritage, union wages, and real Lake Erie winters, homeowners who understand quality and trust the contractor who looks established. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all in place before the next Lake Erie winter drives demand through the roof. Here's how we help Toledo contractors do exactly that.",
   aioQuestion: 'How do Toledo contractors get more leads online?',
   aioAnswer:
     "Toledo contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Toledo demand spikes predictably with Lake Erie winters, spring thaw flooding, and summer HVAC season, the contractors who look established and are already ranking when those windows open win the most work.",
@@ -422,6 +422,6 @@ export const toledoCity = {
     { q: 'Why does seasonal demand matter for my marketing?', a: "Lake Erie winters drive hard contractor demand from November through March — lake-effect snow, ice, and cold that fill phones with HVAC and roofing calls. Then spring thaw brings flooding and drainage work. Ranking takes months to build, so the contractors already visible when those windows open take that work. We get you in place ahead of the season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Toledo areas do you serve?', a: "All of the Toledo metro and surrounding areas — Old West End, Ottawa Hills, Perrysburg, Maumee, Sylvania, Waterville, Oregon, Northwood, Bowling Green, and more — with genuine neighborhood pages rather than one generic Toledo page." },
-    { q: 'Where should I start?', a: "Start with a free Toledo audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Toledo audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Toledo marketing for contractors that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

@@ -112,9 +112,9 @@ export const tucsonLocations = [
     citySlug: 'tucson', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Tucson Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Tucson and three businesses show up on the map. We get you into those three before the heat season and monsoon hits.',
+      'Tucson Local SEO that makes you the first name on the map from Sam Hughes to Oro Valley, in place before the heat and monsoon hit.',
     eyebrow: 'Local SEO · Tucson, AZ',
-    h1: 'When Tucson searches for what you do, be the first name they find',
+    h1: 'Tucson Local SEO that makes you the first name on the map from Sam Hughes to Oro Valley',
     h2Exact: 'Tucson Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In a market split between two contractor seasons, a 43% Hispanic population, and retirees who research before they call — we get you into that top three for your neighborhoods so the work lands with you.",
@@ -168,7 +168,7 @@ export const tucsonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now. We structure your content and schema so those engines can read, trust, and cite your business — particularly for desert-specific services where AI results are often thin or generic." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads that your competitors also bought. We build rankings, a Google profile, and a review base that send leads straight to you. In a seasonal market like Tucson, once you own the Map Pack for your category, you stop chasing leads — they come to you before and during the heat and monsoon windows." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across Tucson and its suburbs, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck — just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across Tucson and its suburbs, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's the honest starting point for Tucson local SEO that actually earns its keep: no pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -178,9 +178,9 @@ export const tucsonLocations = [
     citySlug: 'tucson', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Tucson SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Tucson SEO that ranks contractors on Google before the heat and monsoon seasons — leads you own, not leads you rent. Revenue-tied reporting, no lock-in.',
+      'Tucson SEO that puts contractors on page one and holds it through the heat and monsoon seasons. Leads you own, revenue-tied reporting, no lock-in.',
     eyebrow: 'SEO Services · Tucson, AZ',
-    h1: 'Get your Tucson business to the top of Google and keep it there',
+    h1: 'Tucson SEO that puts your business on page one and holds it through both desert seasons',
     h2Exact: 'Tucson SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Tucson customers search — HVAC in the June heat, roof repair after the monsoon, bathroom remodels for Catalina Foothills retirees — and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -234,7 +234,7 @@ export const tucsonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business — especially important for desert-specific services where AI results tend to be generic or thin." },
       { q: 'Which Tucson areas do you cover?', a: "The full greater Tucson metro — Oro Valley, Marana, Sahuarita, Green Valley, Vail, Saddlebrooke, Catalina Foothills, Sam Hughes, Armory Park, Barrio Viejo, and more. We build genuine neighborhood and service-area pages rather than a single generic Tucson page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. In a seasonal market like Tucson, once you own organic and Map Pack visibility for your category, you stop paying for shared leads during the windows when demand is highest — which is exactly when the per-lead cost from those platforms is at its peak too." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business and your peak seasons. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business and your peak seasons. It maps out the Tucson SEO work that moves the money keywords first. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -244,15 +244,15 @@ export const tucsonLocations = [
     citySlug: 'tucson', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Tucson Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Tucson web design that turns visitors into booked jobs — fast, mobile-first sites built for desert contractors, seasonal demand, and a bilingual market.',
+      'Tucson web design that books jobs instead of just looking nice. Fast, mobile-first sites built for desert contractors, seasonal demand, and a bilingual market.',
     eyebrow: 'Web Design · Tucson, AZ',
-    h1: 'Tucson web design that turns visitors into booked jobs',
+    h1: 'Tucson web design that books desert jobs instead of just looking nice',
     h2Exact: 'Tucson Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Tucson contractors fast, mobile-first sites engineered to convert visitors into booked work — and to speak to a market that includes Spanish-speaking homeowners, careful-researching retirees, and landlords managing University of Arizona rentals.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Tucson contractor websites lose leads quietly: slow on a phone, buried call button, nothing that speaks to the specific needs of desert homes or the communities you actually serve. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn visitors from Sam Hughes to Saddlebrooke into booked jobs — with the seasonal messaging and local specificity that make a Tucson homeowner trust you over a generic national chain.",
+      "Tucson web design is the difference between a site that books work and one that quietly loses it: slow on a phone, buried call button, nothing that speaks to the specific needs of desert homes or the communities you actually serve. Done right, it fixes all of that. We build sites that load fast, look like the professional you are, and turn visitors from Sam Hughes to Saddlebrooke into booked jobs, with the seasonal messaging and local specificity that make a Tucson homeowner trust you over a generic national chain.",
     aioQuestion: 'What makes a good contractor website in Tucson?',
     aioAnswer:
       "A good Tucson contractor website loads in under three seconds on a phone, leads with a clear offer that speaks to desert home needs — flat roofs, stucco, HVAC in 105-degree heat, monsoon prep — and names the specific Tucson neighborhoods and suburbs it serves. Because Tucson's market includes a large Spanish-speaking population and a retirement segment that researches carefully before calling, a strong site also carries credible reviews and is structured to build trust before asking for a call. Mobile speed and a clear next step are what separate a site that books jobs from one that just sits there.",
@@ -300,7 +300,7 @@ export const tucsonLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Tucson contractor site should include — seasonal messaging, neighborhood targeting, trust signals for retirees and Spanish-speaking homeowners — and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Tucson contractor site should include — seasonal messaging, neighborhood targeting, trust signals for retirees and Spanish-speaking homeowners — and a fixed-price quote with a timeline. It's the plainest way to see what Tucson web design done for booked jobs actually looks like. No pressure, just a plan." },
     ],
   },
 
@@ -310,15 +310,15 @@ export const tucsonLocations = [
     citySlug: 'tucson', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Tucson Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Tucson website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — built for desert contractors.',
+      'Tucson Website Redesign that rebuilds for leads, not just looks. Faster, mobile-first rebuilds that hold your rankings, built for desert contractors.',
     eyebrow: 'Website Redesign · Tucson, AZ',
-    h1: 'Redesign your Tucson website without losing your rankings',
+    h1: 'Tucson Website Redesign that rebuilds for desert-market leads, not just looks',
     h2Exact: 'Tucson Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow on a phone, generic messaging that could be any city, no seasonal urgency for the HVAC and monsoon calls that drive your busiest months. We redesign Tucson contractor sites to convert more, load faster, and speak to your actual market, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings drop overnight. We do neither. We redesign Tucson contractor sites for speed and conversions — with the desert-specific messaging and neighborhood targeting that turns a generic site into a market-specific lead engine — and we migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Tucson website redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings drop overnight. We do neither. We redesign Tucson contractor sites for speed and conversions, with the desert-specific messaging and neighborhood targeting that turns a generic site into a market-specific lead engine, and we migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured for the specific Tucson searches — seasonal HVAC, monsoon damage, desert construction — that drive your work.",
@@ -366,7 +366,7 @@ export const tucsonLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals — which matters especially during heat and monsoon emergencies when people are searching in distress from their phones." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix for Tucson's market, and a fixed-price quote with a timeline and a safe migration plan — including whether the timing lines up well with your seasonal demand windows." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix for Tucson's market, and a fixed-price quote with a timeline and a safe migration plan — including whether the timing lines up well with your seasonal demand windows. That's a Tucson website redesign scoped to add leads without costing you the rankings you already hold." },
     ],
   },
 ];
@@ -376,10 +376,10 @@ export const tucsonCity = {
 
   titleTag: 'Tucson Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Tucson contractors. Rank before the heat and monsoon, reach bilingual homeowners, and own your leads instead of renting.',
+    'Tucson marketing for contractors who want to own their leads: web design, SEO, and local SEO to rank before the heat and monsoon and reach bilingual homeowners.',
 
   eyebrow: 'Tucson · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Tucson contractors found and booked',
+  h1: 'Tucson marketing for contractors who want to own their leads through both desert seasons',
   h2Exact: 'Tucson Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Tucson's two contractor seasons, 43% Hispanic market, and retirement communities. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -387,7 +387,7 @@ export const tucsonCity = {
   primaryCta: 'Get my free Tucson audit',
 
   intro:
-    "Tucson's contractor market runs on two clocks: the summer heat that drives HVAC emergencies from June through September, and the Arizona monsoon that sends homeowners searching for roofers, waterproofers, and foundation contractors from July through September. If you're not in the Map Pack and on page one before those windows open, you're handing the calls to whoever got there first. Layer on top of that a 43% Hispanic population where Spanish-language search matters more than in almost any other mid-sized city, a University of Arizona rental market that keeps landlords calling year-round, and retirement communities full of high-value clients who research carefully before they call — and you have a market that rewards specificity and punishes generic approaches. Here's how we help Tucson contractors win it.",
+    "Tucson marketing for contractors starts with one fact: this market runs on two clocks, the summer heat that drives HVAC emergencies from June through September, and the Arizona monsoon that sends homeowners searching for roofers, waterproofers, and foundation contractors from July through September. If you're not in the Map Pack and on page one before those windows open, you're handing the calls to whoever got there first. Layer on top of that a 43% Hispanic population where Spanish-language search matters more than in almost any other mid-sized city, a University of Arizona rental market that keeps landlords calling year-round, and retirement communities full of high-value clients who research carefully before they call — and you have a market that rewards specificity and punishes generic approaches. Here's how we help Tucson contractors win it.",
   aioQuestion: 'How do Tucson contractors get more leads online?',
   aioAnswer:
     "Tucson contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because Tucson's demand is concentrated in two seasonal windows and roughly 43% of residents are Hispanic, the contractors who rank for seasonal and Spanish-language searches ahead of the spikes — and who build trust with the retirement market through credible reviews and professional sites — win the most work.",
@@ -423,6 +423,6 @@ export const tucsonCity = {
     { q: 'Why does the Tucson market need a different approach?', a: "Three reasons: Tucson has two hard contractor seasons that require you to rank before they open, not during them. About 43% of residents are Hispanic, making Spanish-language search unusually significant for a city this size. And the retirement market — Sun City Vistoso, Saddlebrooke, Green Valley — is high-value but research-driven, so your reviews and site professionalism matter more here than in a younger market. A national template handles none of that." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Tucson areas do you serve?', a: "The full greater Tucson metro — Oro Valley, Marana, Sahuarita, Green Valley, Vail, Saddlebrooke, Catalina Foothills, Sam Hughes, Armory Park, Barrio Viejo, Rita Ranch, Rincon Valley, Flowing Wells and more — with genuine neighborhood pages rather than a single generic Tucson page." },
-    { q: 'Where should I start?', a: "Start with a free Tucson audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work before your next demand season — whether that's the summer heat, the monsoon, or a retirement-community renovation campaign. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Tucson audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work before your next demand season — whether that's the summer heat, the monsoon, or a retirement-community renovation campaign. That's Tucson contractor marketing pointed at booked jobs: no pitch deck, just a plan." },
   ],
 };

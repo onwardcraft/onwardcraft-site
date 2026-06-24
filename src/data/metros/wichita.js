@@ -110,9 +110,9 @@ export const wichitaLocations = [
     citySlug: 'wichita', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Wichita Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Wichita and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Wichita Local SEO that turns College Hill \'near me\' searches into a ringing phone. We get you into the three businesses Google pins to the map.',
     eyebrow: 'Local SEO · Wichita',
-    h1: 'When Wichita searches for what you do, be the first name they find',
+    h1: 'Wichita Local SEO that turns College Hill \'near me\' searches into a ringing phone',
     h2Exact: 'Wichita Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the call lands with you instead of whoever ranked first — and so you're ready when the next hailstorm fills everyone's phone.",
@@ -166,7 +166,7 @@ export const wichitaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day Wichita local SEO plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -174,11 +174,11 @@ export const wichitaLocations = [
   {
     ...BASE,
     citySlug: 'wichita', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Wichita SEO Company | OnwardCraft',
+    titleTag: 'Wichita SEO Company | Rank for Jobs That Book | OnwardCraft',
     metaDescription:
-      'Wichita SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for tornado-season demand.',
+      'Wichita SEO that ranks you for the searches that book jobs, tuned for an aerospace market that researches before it calls. Leads you own, no lock-in.',
     eyebrow: 'SEO Services · Wichita',
-    h1: 'Get your Wichita business to the top of Google and keep it there',
+    h1: 'Wichita SEO that ranks you for the searches an aerospace town runs before it books a job',
     h2Exact: 'Wichita SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Wichita customers search and the leads keep coming. We build that ranking for a value-conscious, research-first market and tie every report to actual calls and jobs.",
@@ -232,7 +232,7 @@ export const wichitaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Wichita do you cover?', a: "All of Greater Wichita and surrounding communities — Andover, Derby, Maize, Haysville, Goddard, Valley Center, Newton, El Dorado and more — with genuine local pages rather than one generic Wichita page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is a straight read on what SEO services in Wichita can actually do for your pipeline. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -240,17 +240,17 @@ export const wichitaLocations = [
   {
     ...BASE,
     citySlug: 'wichita', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Wichita Web Design Company | OnwardCraft',
+    titleTag: 'Wichita Web Design Company | Clicks Into Calls | OnwardCraft',
     metaDescription:
-      'Wichita web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and tornado-season demand.',
+      'Wichita web design built to convert clicks into calls, with fast, mobile-first sites that hold up from Delano to Andover when tornado season hits.',
     eyebrow: 'Web Design · Wichita',
-    h1: 'Wichita web design that turns visitors into booked jobs',
+    h1: 'Wichita web design built to convert Delano-to-Andover clicks into calls',
     h2Exact: 'Wichita Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Wichita contractors fast, mobile-first sites engineered to turn visitors into booked work — built to convince an engineering-minded homeowner you're the right call, and to hold up when tornado season floods your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Wichita contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Wichita's aerospace and Koch-industry professionals compare contractors carefully before committing — your site has one shot to look as credible as you are. We build sites that load fast, earn trust in seconds, and turn College-Hill-to-Andover visitors into booked jobs — and that don't fall over when a spring storm sends your traffic through the roof.",
+      "Good Wichita web design starts where most contractor sites fail: they lose leads quietly, slow on a phone, with a buried call button and no clear offer. Wichita's aerospace and Koch-industry professionals compare contractors carefully before committing, so your site has one shot to look as credible as you are. We build sites that load fast, earn trust in seconds, and turn College-Hill-to-Andover visitors into booked jobs, and that don't fall over when a spring storm sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Wichita?',
     aioAnswer:
       "A good Wichita contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with real reviews and project photos, and is built to handle traffic spikes during tornado and hail season. Because Wichita's professional homeowners research carefully before calling, credibility signals like detailed service pages and honest FAQs carry extra weight here.",
@@ -298,7 +298,7 @@ export const wichitaLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Wichita site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Wichita web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -306,17 +306,17 @@ export const wichitaLocations = [
   {
     ...BASE,
     citySlug: 'wichita', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Wichita Website Redesign | OnwardCraft',
+    titleTag: 'Wichita Website Redesign | Keep Every Ranking | OnwardCraft',
     metaDescription:
-      'Redesign your Wichita website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in tornado.',
+      'Wichita Website Redesign that keeps every ranking you have earned, with a faster, mobile-first rebuild that wins over research-driven homeowners.',
     eyebrow: 'Website Redesign · Wichita',
-    h1: 'Redesign your Wichita website without losing your rankings',
+    h1: 'Wichita Website Redesign that keeps every ranking you have earned with research-driven homeowners',
     h2Exact: 'Wichita Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to dismiss by a research-driven Wichita homeowner. We redesign contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Wichita contractor sites for speed and conversions, build them to handle tornado-season traffic surges, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Wichita website redesign goes one of two bad ways for most contractors: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Wichita contractor sites for speed and conversions, build them to handle tornado-season traffic surges, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -364,7 +364,7 @@ export const wichitaLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the Wichita website redesign should fix, and a fixed-price quote with a timeline and a safe, SEO-safe migration plan." },
     ],
   },
 ];
@@ -374,10 +374,10 @@ export const wichitaCity = {
 
   titleTag: 'Wichita Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Wichita contractors. Get found, get booked, and own your leads instead of renting them — built for tornado-season demand.',
+    'Wichita marketing for contractors in the air capital: get ranked, get booked. Web design, SEO, and local SEO built for tornado-season demand.',
 
   eyebrow: 'Wichita · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Wichita contractors found and booked',
+  h1: 'Wichita marketing for contractors in the air capital: get ranked, get booked',
   h2Exact: 'Wichita Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the air capital of the world — a research-driven professional market sitting dead in the middle of tornado alley. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -385,7 +385,7 @@ export const wichitaCity = {
   primaryCta: 'Get my free Wichita audit',
 
   intro:
-    "If you run a contracting business in Wichita, you're selling to some of the most research-oriented homeowners in the country — aerospace engineers, manufacturing professionals, and Koch-industry employees who compare contractors carefully before they call. And you're in the middle of tornado alley, where spring storms send roofing and restoration demand vertical almost overnight. Winning here takes three things working together: a site that earns trust and converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack — all ready before the next storm rolls through. Here's how we help Wichita contractors do exactly that.",
+    "Wichita marketing for contractors has to account for who you're selling to: some of the most research-oriented homeowners in the country, aerospace engineers, manufacturing professionals, and Koch-industry employees who compare contractors carefully before they call. And you're in the middle of tornado alley, where spring storms send roofing and restoration demand vertical almost overnight. Winning here takes three things working together: a site that earns trust and converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all ready before the next storm rolls through. Here's how we help Wichita contractors do exactly that.",
   aioQuestion: 'How do Wichita contractors get more leads online?',
   aioAnswer:
     "Wichita contractors get more leads by combining a fast, mobile-first website that earns trust quickly with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Wichita's homeowner base is research-driven and tornado-alley demand spikes hard every spring, the contractors who look credible and are already ranking before the storms win the most work.",
@@ -421,6 +421,6 @@ export const wichitaCity = {
     { q: 'Why does tornado and hail season matter for my marketing?', a: "When spring storms roll through Sedgwick County, demand for roofing, restoration, and HVAC spikes overnight and the backlog can run for months. Ranking takes months to build, so the contractors who are already visible before the storms take that work. We get you in place ahead of season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Wichita areas do you serve?', a: "All of Greater Wichita and the surrounding communities — College Hill, Crown Heights, Delano, Andover, Derby, Maize, Haysville, Goddard, Valley Center, Newton and more." },
-    { q: 'Where should I start?', a: "Start with a free Wichita audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Wichita audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Wichita contractor marketing that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

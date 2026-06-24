@@ -112,9 +112,9 @@ export const wacoLocations = [
     citySlug: "waco", serviceSlug: "local-seo", service: "Local SEO",
     titleTag: "Waco Local SEO Company | Win the Map Pack | OnwardCraft",
     metaDescription:
-      "Search your service in Waco and three businesses show up on the map. We get you into those three — renovation demand, HVAC heat, storm season and all.",
+      "Waco Local SEO that lands you in the three businesses Google pins to the map. We get you found across renovation demand, HVAC heat, and storm season.",
     eyebrow: "Local SEO · Waco, TX",
-    h1: "When Waco searches for what you do, be the first name they find",
+    h1: "Waco Local SEO that puts your Heritage Square business in the Map Pack",
     h2Exact: "Waco Local SEO Company",
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. Waco's Fixer Upper renovation boom and brutal Central Texas summers create year-round demand — we get you into that top three for your neighborhoods so the call lands with you.",
@@ -168,7 +168,7 @@ export const wacoLocations = [
       { q: "Will I show up in Google AI Overviews and ChatGPT?", a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: "Am I locked into a contract?", a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: "How does this get me off Angi and HomeAdvisor?", a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work — Fixer Upper renovation jobs, HVAC calls, roofing estimates — is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Waco neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Waco neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's the honest starting point for Waco Local SEO that actually rings your phone. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -180,7 +180,7 @@ export const wacoLocations = [
     metaDescription:
       "Waco SEO that ranks contractors on Google and brings in leads you own. Built for renovation demand, HVAC heat, and storm season.",
     eyebrow: "SEO Services · Waco, TX",
-    h1: "Get your Waco business to the top of Google and keep it there",
+    h1: "Waco SEO that gets you to the top of Google for the renovation wave and keeps you there",
     h2Exact: "Waco SEO Company",
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Waco customers search and the leads keep coming — renovation homeowners, HVAC emergencies in July, post-freeze pipe calls. We build that ranking and tie every report to actual calls and jobs.",
@@ -234,7 +234,7 @@ export const wacoLocations = [
       { q: "Will I show up in Google AI Overviews and ChatGPT?", a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: "Which areas around Waco do you cover?", a: "Waco proper and the communities around it — Woodway, Hewitt, Lorena, Hillsboro, Temple, Belton, McGregor — plus specific neighborhoods like Heritage Square, Castle Heights, Sanger Heights, and Lake Waco, with genuine local pages rather than one generic Waco page." },
       { q: "How do you get me off Angi and HomeAdvisor leads?", a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility in the Waco renovation market, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It's a straight plan for Waco SEO that ranks you on page one and turns organic traffic into booked work. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -246,13 +246,13 @@ export const wacoLocations = [
     metaDescription:
       "Waco web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors serving a renovation-driven market.",
     eyebrow: "Web Design · Waco, TX",
-    h1: "Waco web design that turns visitors into booked jobs",
+    h1: "Waco web design that turns renovation-hungry homeowners into booked jobs",
     h2Exact: "Waco Web Design Company",
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Waco contractors fast, mobile-first sites engineered to turn renovation-hungry homeowners, HVAC callers, and storm-damage leads into booked work.",
     primaryCta: "Get my free quote",
     intro:
-      "Most Waco contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. The Fixer Upper effect has flooded Waco with homebuyers who came here specifically to renovate — they're ready to hire, they're searching on their phones, and if your site doesn't give them a clear reason to call you in the first few seconds, they tap to the next result. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Heritage Square to Woodway visitors into booked jobs.",
+      "Waco web design only earns its keep when it books jobs, and most contractor sites here lose leads quietly: slow on a phone, buried call button, no clear offer. The Fixer Upper effect has flooded Waco with homebuyers who came here specifically to renovate. They're ready to hire, they're searching on their phones, and if your site doesn't give them a clear reason to call you in the first few seconds, they tap to the next result. A website design done right fixes all of that. We build fast-loading, mobile-first sites that look like the professional you are and turn Heritage Square to Woodway visitors into booked jobs.",
     aioQuestion: "What makes a good contractor website in Waco?",
     aioAnswer:
       "A good Waco contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods you serve. Because Waco's renovation wave means buyers are actively searching for contractors in Heritage Square and Sanger Heights — and Central Texas heat emergencies mean people need to reach you fast in July — mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -300,7 +300,7 @@ export const wacoLocations = [
       { q: "What platform do you build on?", a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: "Do you offer ongoing support?", a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: "Am I locked into a contract?", a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: "What do I get in the free quote?", a: "A clear look at what your current site is costing you in lost leads, what a high-converting Waco contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: "What do I get in the free quote?", a: "A clear look at what your current site is costing you in lost leads, what a high-converting Waco contractor site should include, and a fixed-price quote with a timeline. It's a no-pressure plan for Waco web design that converts visitors into booked jobs, just the numbers and the next step." },
     ],
   },
 
@@ -310,15 +310,15 @@ export const wacoLocations = [
     citySlug: "waco", serviceSlug: "website-redesign", service: "Website Redesign",
     titleTag: "Waco Website Redesign | OnwardCraft",
     metaDescription:
-      "Redesign your Waco website without losing rankings. Faster, mobile-first rebuilds that convert more visitors — renovation homeowners, HVAC callers, storm.",
+      "Waco Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors: renovation homeowners, HVAC callers, storm leads.",
     eyebrow: "Website Redesign · Waco, TX",
-    h1: "Redesign your Waco website without losing your rankings",
+    h1: "Waco Website Redesign that converts more renovation buyers without losing your rankings",
     h2Exact: "Waco Website Redesign Company",
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Waco contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned in Waco's renovation-driven market.",
     primaryCta: "Get my free redesign audit",
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Waco contractor sites for speed and conversions — built for a market where Fixer Upper renovation buyers, Baylor-area homeowners, and Central Texas emergency callers are all searching on their phones. And we migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Waco Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Waco contractor sites for speed and conversions, built for a market where Fixer Upper renovation buyers, Baylor-area homeowners, and Central Texas emergency callers are all searching on their phones. And we handle the SEO-safe migration, with the redirects and care that protect the traffic you already have.",
     aioQuestion: "How do I redesign my website without losing SEO and traffic?",
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one — qualities Google's algorithm rewards.",
@@ -366,7 +366,7 @@ export const wacoLocations = [
       { q: "Will the new site be mobile-friendly and fast?", a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings. In a market where emergency calls happen on phones in July heat, speed is how you win the job." },
       { q: "Do I own the redesigned site?", a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: "Am I locked into a contract?", a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline. You also get the safe migration plan that makes a Waco Website Redesign convert more without losing the rankings you have earned." },
     ],
   },
 ];
@@ -376,10 +376,10 @@ export const wacoCity = {
 
   titleTag: "Waco Marketing for Contractors | OnwardCraft",
   metaDescription:
-    "Web design, SEO, and local SEO for Waco contractors. Ride the Fixer Upper renovation wave, survive Central Texas heat season, and own your leads.",
+    "Waco marketing for contractors: web design, SEO, and local SEO that get you found and booked. Ride the Fixer Upper renovation wave and own your leads.",
 
   eyebrow: "Waco · Web Design, SEO & Lead Generation",
-  h1: "Marketing that gets Waco contractors found and booked",
+  h1: "Waco marketing for contractors that gets you found and booked through the renovation wave",
   h2Exact: "Waco Marketing Agency for Contractors",
   heroSubhead:
     "Websites, SEO, and local SEO built for Waco's renovation-driven market — from Heritage Square to Lake Waco to Woodway. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -387,7 +387,7 @@ export const wacoCity = {
   primaryCta: "Get my free Waco audit",
 
   intro:
-    "Waco is one of the most interesting contractor markets in Texas right now. The Fixer Upper effect has brought a sustained wave of renovation-focused homebuyers to the city — people who came here specifically to renovate older homes in Heritage Square, Castle Heights, and Sanger Heights. Baylor University's growing professional class is buying and upgrading homes near campus. And the fundamentals of Central Texas — brutal summer heat, real tornado and hail exposure, and freeze events like 2021 — keep HVAC, roofing, and plumbing contractors busy year-round. Winning this market takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for your neighborhoods. Here's how we help Waco contractors do exactly that.",
+    "Waco marketing for contractors works differently than it does anywhere else in Texas right now. The Fixer Upper effect has brought a sustained wave of renovation-focused homebuyers to the city, people who came here specifically to renovate older homes in Heritage Square, Castle Heights, and Sanger Heights. Baylor University's growing professional class is buying and upgrading homes near campus. And the fundamentals of Central Texas, brutal summer heat, real tornado and hail exposure, and freeze events like 2021, keep HVAC, roofing, and plumbing contractors busy year-round. Winning this market takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for your neighborhoods. Here's how this web design and SEO for Waco contractors gets you found and booked.",
   aioQuestion: "How do Waco contractors get more leads online?",
   aioAnswer:
     "Waco contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. The Fixer Upper renovation wave means buyers are actively searching for contractors in Heritage Square and Sanger Heights. Waco's ~35% Hispanic population is a real Spanish-language search opportunity most competitors ignore. And ranking for seasonal demand — HVAC in summer, roofing after hail, freeze emergencies in winter — before the spike hits is how the busiest contractors here stay booked.",
@@ -423,6 +423,6 @@ export const wacoCity = {
     { q: "Why does Waco need a specialized approach?", a: "Waco has a unique market shaped by the Fixer Upper effect — a sustained wave of renovation-focused buyers who came here specifically to renovate older homes. Add Baylor University's growing professional class, Central Texas heat that tops 105°F in summer, real tornado and hail exposure, and a ~35% Hispanic population that searches in Spanish, and you have a market that rewards contractors who show up in the right searches." },
     { q: "How much does it cost to work with you?", a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: "Which Waco areas do you serve?", a: "Waco proper and the communities around it — Woodway, Hewitt, Lorena, Hillsboro, Temple, Belton, McGregor — plus specific neighborhoods like Heritage Square, Castle Heights, Sanger Heights, and Lake Waco." },
-    { q: "Where should I start?", a: "Start with a free Waco audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: "Where should I start?", a: "Start with a free Waco audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It's the simplest first step in Waco marketing for contractors who want to get found and booked. No pitch deck, just a plan." },
   ],
 };
