@@ -109,17 +109,17 @@ export const siouxFallsLocations = [
   {
     ...BASE,
     citySlug: 'sioux-falls', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Sioux Falls Local SEO Company | OnwardCraft',
+    titleTag: 'Sioux Falls Local SEO Company | Own the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Sioux Falls and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Sioux Falls Local SEO that puts your business in the three map spots homeowners actually call, from McKennan Park to Harrisburg.',
     eyebrow: 'Local SEO · Sioux Falls',
-    h1: 'When Sioux Falls searches for what you do, be the first name they find',
+    h1: 'Sioux Falls Local SEO that makes you the first name on the map from McKennan Park to Harrisburg',
     h2Exact: 'Sioux Falls Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In a city growing this fast — with hailstorms, floods, and brutal winters driving contractor demand every season — we get you into that top three for your neighborhoods so the call lands with you instead of whoever ranked first.",
     primaryCta: 'Get my free Sioux Falls audit',
     intro:
-      "Sioux Falls local SEO comes down to one thing: when a homeowner in McKennan Park or Harrisburg searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This city is growing faster than almost anywhere in the country, new homeowners are arriving constantly, and every major weather event — a hailstorm in spring, a flooding Big Sioux River, a January polar vortex — sends search volume spiking. Being in that top three before the demand wave hits is the whole game. Here's how you do it.",
+      "Sioux Falls Local SEO comes down to one thing: when a homeowner in McKennan Park or Harrisburg searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This city is growing faster than almost anywhere in the country, new homeowners are arriving constantly, and every major weather event — a hailstorm in spring, a flooding Big Sioux River, a January polar vortex — sends search volume spiking. Being in that top three before the demand wave hits is the whole game. Here's how you do it.",
     aioQuestion: 'How do Sioux Falls businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Sioux Falls neighborhoods and surrounding communities. Sioux Falls homeowners strongly prefer local contractors, so the winners target tight service areas, publish content that speaks to the hail alley weather cycle and South Dakota's homeowner culture, and respond fast when seasonal demand spikes.",
@@ -167,7 +167,7 @@ export const siouxFallsLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business — it's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly — especially important during high-demand seasons when call volume spikes." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is a straight diagnosis of your Sioux Falls Local SEO, from your Google Business Profile to your \"near me\" visibility. No pitch deck." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const siouxFallsLocations = [
   {
     ...BASE,
     citySlug: 'sioux-falls', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Sioux Falls SEO Company | OnwardCraft',
+    titleTag: 'Sioux Falls SEO Company | Page One That Holds | OnwardCraft',
     metaDescription:
       'Sioux Falls SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market.',
     eyebrow: 'SEO Services · Sioux Falls',
-    h1: 'Get your Sioux Falls business to the top of Google and keep it there',
+    h1: 'Sioux Falls SEO that puts your contracting business on page one and holds it through every hail season',
     h2Exact: 'Sioux Falls SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Sioux Falls customers search and the leads keep coming — through hail season, through winter, through every new wave of homeowners moving in. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const siouxFallsLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Sioux Falls do you cover?', a: "All of Sioux Falls and the surrounding communities — McKennan Park, Whittier, Brandon, Tea, Harrisburg, Dell Rapids, Baltic and more — with genuine local pages rather than one generic Sioux Falls page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads — especially critical in a market where new homeowners are searching constantly." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is a plain diagnosis of your Sioux Falls SEO, from technical health to the money keywords and organic traffic you should be earning. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const siouxFallsLocations = [
   {
     ...BASE,
     citySlug: 'sioux-falls', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Sioux Falls Web Design Company | OnwardCraft',
+    titleTag: 'Sioux Falls Web Design Company | Sites That Book Jobs | OnwardCraft',
     metaDescription:
       'Sioux Falls web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a fast-growing, weather-driven market.',
     eyebrow: 'Web Design · Sioux Falls',
-    h1: 'Sioux Falls web design that turns visitors into booked jobs',
+    h1: 'Sioux Falls web design that books jobs instead of just looking nice, from McKennan Park to Harrisburg',
     h2Exact: 'Sioux Falls Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Sioux Falls contractors fast, mobile-first sites engineered to turn visitors into booked work — and to earn the trust of Midwest homeowners who know the difference between a local contractor and an out-of-town company that just swapped a city name into a template.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Sioux Falls contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, nothing that signals you're actually local. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn McKennan Park to Harrisburg visitors into booked jobs — built to win in a market where a steady influx of new homeowners and extreme seasonal weather keep demand high year-round.",
+      "Sioux Falls web design only earns its keep when it books jobs, and most contractor websites here lose leads quietly: slow on a phone, buried call button, no clear offer, nothing that signals you're actually local. We fix all of that. We build mobile-first sites that load fast, look like the professional you are, and turn McKennan Park to Harrisburg visitors into booked work, built to win in a market where a steady influx of new homeowners and extreme seasonal weather keep demand high year-round.",
     aioQuestion: 'What makes a good contractor website in Sioux Falls?',
     aioAnswer:
       "A good Sioux Falls contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods and surrounding communities you serve. Because Sioux Falls homeowners strongly prefer local contractors with demonstrated knowledge of the area's extreme weather conditions — hail damage, flooding, brutal winters — a site that speaks to those realities converts far better than a generic template.",
@@ -299,7 +299,7 @@ export const siouxFallsLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Sioux Falls contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what good Sioux Falls web design should include to convert visitors into booked jobs, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const siouxFallsLocations = [
   {
     ...BASE,
     citySlug: 'sioux-falls', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Sioux Falls Website Redesign | OnwardCraft',
+    titleTag: 'Sioux Falls Website Redesign | Rebuilt for Leads | OnwardCraft',
     metaDescription:
-      'Redesign your Sioux Falls website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a growing.',
+      'Sioux Falls website redesign that rebuilds for leads without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs.',
     eyebrow: 'Website Redesign · Sioux Falls',
-    h1: 'Redesign your Sioux Falls website without losing your rankings',
+    h1: 'Sioux Falls Website Redesign that rebuilds for leads, not just looks, before the next hail season hits',
     h2Exact: 'Sioux Falls Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Sioux Falls contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned in a market that rewards being found first.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Sioux Falls contractor sites for speed and conversions, build them to speak directly to Midwest homeowners who value local expertise, and migrate with the redirects and SEO care that protect the traffic you already have — so your next hail season, winter, or flood season lands on a site that actually books jobs.",
+      "A Sioux Falls website redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Sioux Falls contractor sites for speed and conversions, build them to speak directly to Midwest homeowners who value local expertise, and run an SEO-safe migration with the redirects and care that protect the traffic you already have, so your next hail season, winter, or flood season lands on a site that actually books jobs.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one — which matters especially in a market like Sioux Falls where seasonal demand spikes reward whoever is already ranking.",
@@ -365,7 +365,7 @@ export const siouxFallsLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals — which lifts both conversions and rankings, especially during high-demand weather periods when search volume spikes." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan — so you go into your next busy season on a site that actually works." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Sioux Falls website redesign should fix, and a fixed-price quote with a timeline and an SEO-safe migration plan, so you go into your next busy season on a site that actually works." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const siouxFallsCity = {
 
   titleTag: 'Sioux Falls Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Sioux Falls contractors. Get found, get booked, and own your leads instead of renting them — built for a fast-growing.',
+    'Sioux Falls marketing for contractors: web design, SEO, and local SEO that get you found, get you booked, and let you own your leads instead of renting them.',
 
   eyebrow: 'Sioux Falls · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Sioux Falls contractors found and booked',
+  h1: 'Sioux Falls marketing for contractors who want to own their leads, not rent them from a broker',
   h2Exact: 'Sioux Falls Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Sioux Falls's fast-growing, weather-extreme, Midwest-values market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const siouxFallsCity = {
   primaryCta: 'Get my free Sioux Falls audit',
 
   intro:
-    "If you run a contracting business in Sioux Falls, you're working in one of the fastest-growing cities in the country, surrounded by homeowners who prefer local contractors, in a climate that punishes hard every season — hailstorms, river flooding, minus-twenty winters, and the occasional tornado. Winning here takes three things working together: a site that earns local trust and converts, SEO that ranks you for what people search before demand spikes, and local SEO that puts you in the Map Pack for the neighborhoods you actually serve. Here's how we help Sioux Falls contractors do exactly that.",
+    "Sioux Falls marketing for contractors has to account for one of the fastest-growing cities in the country, surrounded by homeowners who prefer local contractors, in a climate that punishes hard every season: hailstorms, river flooding, minus-twenty winters, and the occasional tornado. Winning here takes three things working together: a site that earns local trust and converts, SEO that ranks you for what people search before demand spikes, and local SEO that puts you in the Map Pack for the neighborhoods you actually serve. Here's how our Sioux Falls contractor marketing helps you get found and booked.",
   aioQuestion: 'How do Sioux Falls contractors get more leads online?',
   aioAnswer:
     "Sioux Falls contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because Sioux Falls homeowners strongly prefer local contractors and seasonal weather events drive sharp demand spikes, the contractors who rank for their communities and optimize for hail, flooding, and heating searches before each season peaks win the most work.",
@@ -422,6 +422,6 @@ export const siouxFallsCity = {
     { q: 'Why does the Sioux Falls market need a different approach?', a: "Three reasons: it's growing faster than almost any other US city, so the number of homeowners searching for contractors keeps rising; its extreme weather cycle — hail alley, Big Sioux flooding, brutal winters — creates sharp seasonal demand spikes; and Sioux Falls homeowners strongly prefer local contractors, so generic national-template sites get skipped. Winning means ranking tight, by neighborhood, and speaking the language of the communities you actually serve." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Sioux Falls areas do you serve?', a: "All of Sioux Falls and the surrounding communities — McKennan Park, Whittier, Brandon, Tea, Harrisburg, Dell Rapids, Baltic and more — with genuine local pages rather than a generic citywide template." },
-    { q: 'Where should I start?', a: "Start with a free Sioux Falls audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest — and whether to act before the next hail season or winter hits. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Sioux Falls audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Sioux Falls marketing for contractors that will bring in the most work fastest, and whether to act before the next hail season or winter hits. No pitch deck, just a plan." },
   ],
 };

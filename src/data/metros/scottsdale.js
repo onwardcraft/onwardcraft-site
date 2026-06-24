@@ -111,17 +111,17 @@ export const scottsdaleLocations = [
   {
     ...BASE,
     citySlug: 'scottsdale', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Scottsdale Local SEO Company | OnwardCraft',
+    titleTag: 'Scottsdale Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Scottsdale and three businesses show up on the map. We get you into those three — HOA communities, luxury neighborhoods, pool and HVAC.',
+      'Scottsdale Local SEO that wins you the top three on the map, from Old Town to North Scottsdale. HOA communities, luxury neighborhoods, pool and HVAC.',
     eyebrow: 'Local SEO · Scottsdale, AZ',
-    h1: 'When Scottsdale searches for what you do, be the first name they find',
+    h1: 'Scottsdale Local SEO that wins you the top three on the map from Old Town to Troon',
     h2Exact: 'Scottsdale Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone in DC Ranch or Gainey Ranch searches \"near me.\" Everyone below them basically doesn't exist. In a market of luxury homes and strict HOAs, we get you into that top three for your neighborhoods, so the call lands with you.",
     primaryCta: 'Get my free Scottsdale audit',
     intro:
-      "Scottsdale local SEO comes down to one thing: when a homeowner in McCormick Ranch or Troon searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This is a high-wealth, HOA-dominated market where homeowners research heavily before calling anyone — and getting into those top three spots in the neighborhoods you serve is how you win their high-margin jobs.",
+      "Scottsdale Local SEO comes down to one thing: when a homeowner in McCormick Ranch or Troon searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This is a high-wealth, HOA-dominated market where homeowners research heavily before calling anyone, and getting into those top three spots in the neighborhoods you serve is how you win their high-margin jobs.",
     aioQuestion: 'How do Scottsdale businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for your exact services and Scottsdale neighborhoods; consistent name, address, and phone listings across the web; a steady stream of real reviews that signal trust to luxury-market buyers; and local content tied to real Scottsdale neighborhoods and HOA communities. In a market of $1M–$5M+ homes, reviews and premium positioning matter more than almost anywhere else — wealthy homeowners read everything before they call.",
@@ -169,7 +169,7 @@ export const scottsdaleLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more Scottsdale homeowners — especially in luxury communities — start their contractor research in AI tools rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk — the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads that your competitors also bought. We build rankings, a Google profile, and a review base that send high-value Scottsdale homeowners directly to you. Over time you lean on lead brokers less because the work comes to you first." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Scottsdale neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck — just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Scottsdale neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's a straight diagnosis of what your Scottsdale Local SEO needs to win the top three on the map, from Old Town to North Scottsdale, with no pitch deck attached." },
     ],
   },
 
@@ -177,11 +177,11 @@ export const scottsdaleLocations = [
   {
     ...BASE,
     citySlug: 'scottsdale', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Scottsdale SEO Company | OnwardCraft',
+    titleTag: 'Scottsdale SEO Company | Rankings You Own | OnwardCraft',
     metaDescription:
-      'Scottsdale SEO that ranks contractors on Google and brings in leads you own. Luxury-market targeting, HOA-aware content, no lock-in. Free Scottsdale SEO audit.',
+      'Scottsdale SEO that builds rankings you actually own, from Old Town to North Scottsdale. Luxury-market targeting, HOA-aware content, no lock-in. Free audit.',
     eyebrow: 'SEO Services · Scottsdale, AZ',
-    h1: 'Get your Scottsdale business to the top of Google and keep it there',
+    h1: 'Scottsdale SEO that builds rankings you actually own, even against the luxury-market competition',
     h2Exact: 'Scottsdale SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Scottsdale customers search and the leads keep coming. We build that ranking with luxury-market and HOA-aware strategy — and tie every report to actual calls and jobs.",
@@ -235,7 +235,7 @@ export const scottsdaleLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. Scottsdale homeowners, especially in luxury communities, research thoroughly — and AI tools are increasingly where that research starts. We structure your content so those engines can read, trust, and cite your business." },
       { q: 'Which areas around Scottsdale do you cover?', a: "All of Scottsdale and the East Valley — Old Town, North Scottsdale, DC Ranch, Troon, McDowell Mountain Ranch, McCormick Ranch, Gainey Ranch, Paradise Valley, Fountain Hills, Cave Creek, and Carefree — with genuine local pages rather than one generic Scottsdale page." },
       { q: 'How do you help me compete in HOA communities?', a: "We build content and page structure that speaks directly to HOA exterior standards and approval processes — because Scottsdale homeowners in governed communities search for contractors who understand those constraints. It's a differentiator most competitors never address." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck — just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It's how we show that Scottsdale SEO can build rankings you actually own across your luxury neighborhoods, with no pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,17 +243,17 @@ export const scottsdaleLocations = [
   {
     ...BASE,
     citySlug: 'scottsdale', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Scottsdale Web Design Company | OnwardCraft',
+    titleTag: 'Scottsdale Web Design Company | Built to Book Work | OnwardCraft',
     metaDescription:
       'Scottsdale web design that converts luxury homeowners into booked jobs — fast, mobile-first sites built for HOA communities, pool contractors, HVAC, and.',
     eyebrow: 'Web Design · Scottsdale, AZ',
-    h1: 'Scottsdale web design that turns luxury homeowners into booked jobs',
+    h1: 'Scottsdale web design engineered to bring in real work from Troon to Old Town',
     h2Exact: 'Scottsdale Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Scottsdale contractors fast, mobile-first sites that look premium enough to earn the trust of North Scottsdale buyers — and engineered to turn DC Ranch homeowners into booked jobs.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Scottsdale contractor websites lose leads quietly: slow on a phone, no premium look, buried call button, nothing that speaks to HOA communities or luxury buyers. Web design done right fixes all of that. We build sites that load fast, look like the polished professional you are, and turn McDowell Mountain Ranch and Gainey Ranch visitors into booked work — built for a market where homeowners research before they call anyone.",
+      "Scottsdale web design has one job that most contractor sites fail: they lose leads quietly, with slow phone load, no premium look, a buried call button, and nothing that speaks to HOA communities or luxury buyers. Done right, it fixes all of that. We build sites that load fast, look like the polished professional you are, and turn McDowell Mountain Ranch and Gainey Ranch visitors into booked work — built for a market where homeowners research before they call anyone.",
     aioQuestion: 'What makes a good contractor website in Scottsdale?',
     aioAnswer:
       "A good Scottsdale contractor website loads in under three seconds on a phone, looks premium enough to earn trust from $2M-home buyers, puts the call button and a clear offer above the fold, proves credibility with reviews and real project photos, and names the specific HOA communities and neighborhoods you serve. Because Scottsdale homeowners research heavily before calling — especially in North Scottsdale — mobile speed, premium presentation, and trust signals are what separate a site that books luxury jobs from one that just sits there.",
@@ -301,7 +301,7 @@ export const scottsdaleLocations = [
       { q: 'Can the site speak to HOA communities?', a: "Yes, and that's a real differentiator in Scottsdale. We build pages and copy that name the HOA communities you serve, speak to exterior approval processes, and signal to those homeowners that you understand their constraints." },
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Scottsdale site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Scottsdale web design should include for a luxury HOA market, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,17 +309,17 @@ export const scottsdaleLocations = [
   {
     ...BASE,
     citySlug: 'scottsdale', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Scottsdale Website Redesign | OnwardCraft',
+    titleTag: 'Scottsdale Website Redesign | Keep Your Rankings | OnwardCraft',
     metaDescription:
-      'Redesign your Scottsdale website without losing rankings. Faster, mobile-first rebuilds that convert luxury homeowners into booked jobs. Free audit.',
+      'Scottsdale website redesign without losing rankings. Faster, mobile-first rebuilds that convert luxury homeowners into booked jobs. SEO-safe migration. Free audit.',
     eyebrow: 'Website Redesign · Scottsdale, AZ',
-    h1: 'Redesign your Scottsdale website without losing your rankings',
+    h1: 'Scottsdale Website Redesign that modernizes for DC Ranch luxury buyers without tanking your traffic',
     h2Exact: 'Scottsdale Website Redesign Company',
     heroSubhead:
       "An outdated site costs you Scottsdale jobs every week — especially in a luxury market where homeowners judge you in seconds. We redesign contractor sites to look premium, convert better, and migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Scottsdale contractor sites for premium trust and conversions, build them to speak to HOA communities and luxury buyers, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Scottsdale website redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Scottsdale contractor sites for premium trust and conversions, build them to speak to HOA communities and luxury buyers, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, more credible for luxury buyers, and better structured than the old one.",
@@ -367,7 +367,7 @@ export const scottsdaleLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings — critical when most Scottsdale homeowners search from their phones." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in, ever." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix — including HOA-community positioning and luxury trust signals — and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Scottsdale website redesign should fix, including HOA-community positioning and luxury trust signals, and a fixed-price quote with a timeline and a safe, SEO-safe migration plan." },
     ],
   },
 ];
@@ -377,10 +377,10 @@ export const scottsdaleCity = {
 
   titleTag: 'Scottsdale Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Scottsdale contractors. Win luxury homeowners, HOA communities, pool and HVAC work — own your leads, no lock-in.',
+    'Scottsdale marketing for contractors: web design, SEO, and local SEO. Win luxury homeowners, HOA communities, pool and HVAC work, own your leads, no lock-in.',
 
   eyebrow: 'Scottsdale · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Scottsdale contractors found and booked',
+  h1: 'Scottsdale marketing for contractors built around the trades, from luxury HOA communities to 110°F HVAC season',
   h2Exact: 'Scottsdale Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Scottsdale's luxury-market, HOA-dominated, extreme-heat reality. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -388,7 +388,7 @@ export const scottsdaleCity = {
   primaryCta: 'Get my free Scottsdale audit',
 
   intro:
-    "If you run a contracting business in Scottsdale, you're fighting for attention in one of the wealthiest mid-size cities in the US — where homeowners in DC Ranch and Troon research every contractor before they call, 82% of neighborhoods are HOA-governed with strict exterior standards, and 110°F summers make HVAC failure a medical emergency. Winning here takes three things working together: a site that looks premium and converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here's how we help Scottsdale contractors do exactly that.",
+    "Scottsdale marketing for contractors means fighting for attention in one of the wealthiest mid-size cities in the US — where homeowners in DC Ranch and Troon research every contractor before they call, 82% of neighborhoods are HOA-governed with strict exterior standards, and 110°F summers make HVAC failure a medical emergency. Winning here takes three things working together: a site that looks premium and converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here's how we help Scottsdale contractors do exactly that.",
   aioQuestion: 'How do Scottsdale contractors get more leads online?',
   aioAnswer:
     "Scottsdale contractors get more leads by combining a fast, premium-looking website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because the market skews luxury and nearly every community is HOA-governed, the contractors who look polished online, speak to HOA realities, and show up when Scottsdale homeowners search capture the highest-margin work.",
@@ -424,6 +424,6 @@ export const scottsdaleCity = {
     { q: 'Why does the Scottsdale market need a different approach?', a: "Scottsdale is a luxury market where homeowners research heavily before calling anyone — especially in North Scottsdale communities like Troon, DC Ranch, and McDowell Mountain Ranch. Nearly 82% of neighborhoods are HOA-governed with strict exterior standards. Pool ownership is among the highest per capita in the US. And 110°F summers make HVAC failure an emergency. Generic marketing misses all of that." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Scottsdale areas do you serve?', a: "All of Scottsdale and the surrounding East Valley — Old Town, North Scottsdale, DC Ranch, Troon, McDowell Mountain Ranch, McCormick Ranch, Gainey Ranch, Paradise Valley, Fountain Hills, Cave Creek, and Carefree, with genuine local pages rather than one generic Scottsdale page." },
-    { q: 'Where should I start?', a: "Start with a free Scottsdale audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most high-margin Scottsdale work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Scottsdale audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most high-margin work fastest. That is the simplest entry point into Scottsdale marketing for contractors who want to get found and booked. No pitch deck, just a plan." },
   ],
 };

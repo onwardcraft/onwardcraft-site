@@ -111,9 +111,9 @@ export const tacomaLocations = [
     citySlug: 'tacoma', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Tacoma Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your trade in Tacoma and three businesses show up on the map. We get you into those three, so the call lands with you — not a competitor.',
+      'Tacoma local SEO that gets you into the three businesses Google shows on the map. We win you those spots, so the call lands with you, not a competitor.',
     eyebrow: 'Local SEO · Tacoma, WA',
-    h1: 'When Tacoma searches for what you do, be the first name they find',
+    h1: 'Tacoma Local SEO that gets you found when JBLM families and Proctor homeowners search your trade',
     h2Exact: 'Tacoma Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches 'near me.' In Tacoma, those searches happen every day from military families who just arrived at JBLM and need a contractor now. We get you into that top three so the call lands with you.",
@@ -167,7 +167,7 @@ export const tacomaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more local research starts in AI now. We structure your content and schema so AI engines can read, trust, and recommend your business — not just classic Google search." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Lead marketplaces sell shared leads at prices that only make sense if you can win the job against three other contractors. Local SEO builds the opposite: a JBLM family searches, finds you on the map, calls you, and nobody else bought that same lead. Over time you lean on brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across Tacoma and Pierce County, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan modeled for your business. No pitch deck — just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across Tacoma and Pierce County, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan modeled for your business. No pitch deck, just a straight diagnosis of what your Tacoma local SEO needs to win the map." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const tacomaLocations = [
   {
     ...BASE,
     citySlug: 'tacoma', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Tacoma SEO Company | OnwardCraft',
+    titleTag: 'Tacoma SEO Company | Rank for the Rain-Season Work | OnwardCraft',
     metaDescription:
       'Tacoma SEO that ranks contractors on Google and builds a lead pipeline you own. Revenue-tied reporting, no lock-in, built for Pierce County.',
     eyebrow: 'SEO Services · Tacoma, WA',
-    h1: 'Get your Tacoma business to the top of Google and keep it there',
+    h1: 'Tacoma SEO that turns Pierce County organic traffic into booked rain-season work',
     h2Exact: 'Tacoma SEO Company',
     heroSubhead:
       "Ads stop the moment you stop paying. SEO is the opposite: rank once for what Tacoma and Pierce County customers search and the leads keep coming — including the JBLM families, the rain-season calls, and the historic-neighborhood renovations. We build that ranking and tie every report to actual jobs.",
@@ -233,7 +233,7 @@ export const tacomaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and recommend your business — not just classic Google search." },
       { q: 'Which Pierce County areas do you cover?', a: "Stadium District, North End, Proctor, Ruston, University Place, Gig Harbor, Puyallup, Bonney Lake, Spanaway, Lakewood, and the communities in between. We build genuine local pages for each area instead of one generic Tacoma page." },
       { q: 'How does this help me stop depending on lead marketplaces?', a: "By building rankings that send leads directly to you. The more you own your Pierce County search visibility, the less you need to pay for shared leads — especially during the rain-season and PCS surges when demand is highest anyway." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today in Tacoma and Pierce County, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck — just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today in Tacoma and Pierce County, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a straight read on what your Tacoma SEO needs to reach page one." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const tacomaLocations = [
     citySlug: 'tacoma', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Tacoma Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Tacoma web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in Pierce County. Transparent pricing, you own it.',
+      'Tacoma web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in Pierce County. Transparent pricing, you own it.',
     eyebrow: 'Web Design · Tacoma, WA',
-    h1: 'Tacoma web design that turns visitors into booked jobs',
+    h1: 'Tacoma web design that makes North End and Gig Harbor homeowners pick you',
     h2Exact: 'Tacoma Web Design Company',
     heroSubhead:
       "A website that doesn't generate calls is a brochure. We build Tacoma contractors fast, mobile-first sites engineered to convert visitors into booked work — built for a market shaped by rain-season urgency and JBLM families searching on their phones.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Tacoma contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, nothing that speaks to the neighborhoods you actually serve. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and convert rain-season urgency and JBLM-family searches into booked jobs — with a Tacoma-specific voice that the generic agency templates never get right.",
+      "Tacoma web design is the difference between a site that books work and one that loses leads quietly: slow on a phone, buried call button, no clear offer, nothing that speaks to the neighborhoods you actually serve. We build sites that load fast, look like the professional you are, and convert rain-season urgency and JBLM-family searches into booked jobs, with a Tacoma-specific voice that the generic agency templates never get right.",
     aioQuestion: 'What makes a good contractor website in Tacoma?',
     aioAnswer:
       "A good Tacoma contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and speaks to the specific Pierce County neighborhoods and communities you serve. In a market shaped by JBLM urgency, rain-season demand, and Seattle-income buyers who expect quality, a site that feels straight-talking and competitively priced converts faster than one that looks generic.",
@@ -299,7 +299,7 @@ export const tacomaLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Tacoma contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Tacoma web design should include for a contractor in your trade, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const tacomaLocations = [
   {
     ...BASE,
     citySlug: 'tacoma', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Tacoma Website Redesign | OnwardCraft',
+    titleTag: 'Tacoma Website Redesign | Keep Your Rankings | OnwardCraft',
     metaDescription:
-      'Redesign your Tacoma website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across Pierce County.',
+      'Tacoma website redesign that keeps your rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across Pierce County.',
     eyebrow: 'Website Redesign · Tacoma, WA',
-    h1: 'Redesign your Tacoma website without losing your rankings',
+    h1: 'Tacoma Website Redesign that turns an aging Stadium District contractor site into a lead engine',
     h2Exact: 'Tacoma Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week in Tacoma — slow on a phone, easy to ignore, nothing that speaks to your Pierce County neighborhoods. We rebuild contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings disappear overnight. We do neither. We rebuild Tacoma contractor sites for speed and conversions — built for rain-season urgency, JBLM-family searches, and the no-nonsense buyers who make up this market — and we migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Tacoma website redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings disappear overnight. We do neither. We rebuild Tacoma contractor sites for speed and conversions, built for rain-season urgency, JBLM-family searches, and the no-nonsense buyers who make up this market, and we migrate with the redirects and SEO-safe care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic in Tacoma?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure — or mapping 301 redirects for every changed URL — preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign protects your rankings and improves them, because the rebuilt site is faster, mobile-first, and better structured for Pierce County neighborhood searches than the old one.",
@@ -365,7 +365,7 @@ export const tacomaLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings — especially important for the mobile-heavy searches coming from JBLM families." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign needs to fix, and a fixed-price quote with a timeline and a safe migration plan specific to your Tacoma business." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Tacoma website redesign needs to fix, and a fixed-price quote with a timeline and an SEO-safe migration plan specific to your Pierce County business." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const tacomaCity = {
 
   titleTag: 'Tacoma Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Tacoma contractors. Get found across Pierce County, win JBLM-area searches, and own your leads instead of renting them.',
+    'Tacoma marketing for contractors: web design, SEO, and local SEO that get you found across Pierce County, win JBLM-area searches, and own your leads.',
 
   eyebrow: 'Tacoma · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Tacoma contractors found and booked',
+  h1: 'Tacoma marketing for contractors that turns Pierce County searches into booked jobs',
   h2Exact: 'Tacoma Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Pierce County — the rain-season demand cycle, JBLM PCS urgency, and no-nonsense buyers who value honest work at a fair price. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const tacomaCity = {
   primaryCta: 'Get my free Tacoma audit',
 
   intro:
-    "If you run a contracting business in Tacoma, you're operating in a market unlike most in the Pacific Northwest. The rain runs October through May — roof rot, moss, algae, drainage failures, and mold are year-round categories here, not seasonal ones. Joint Base Lewis-McChord drives a constant churn of military families who arrive needing contractors immediately, without local referral networks to lean on. And the city's working-class, port-city identity means buyers respond to straight-talking contractors who are competitive on price and credible on quality. Winning here takes three things working together: a site that converts, SEO that ranks you for what Pierce County buyers search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here's how we help Tacoma contractors do exactly that.",
+    "Tacoma marketing for contractors has to fit a market unlike most in the Pacific Northwest. The rain runs October through May — roof rot, moss, algae, drainage failures, and mold are year-round categories here, not seasonal ones. Joint Base Lewis-McChord drives a constant churn of military families who arrive needing contractors immediately, without local referral networks to lean on. And the city's working-class, port-city identity means buyers respond to straight-talking contractors who are competitive on price and credible on quality. Winning here takes three things working together: a site that converts, SEO that ranks you for what Pierce County buyers search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here's how we help Tacoma contractors do exactly that.",
   aioQuestion: 'How do Tacoma contractors get more leads online?',
   aioAnswer:
     "Tacoma contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack across Pierce County neighborhoods. The biggest opportunities are capturing rain-season moisture and drainage searches before October, ranking for JBLM-area searches that bring in military families with immediate contractor needs, and being visible in the historic neighborhoods where renovation demand is strongest.",
@@ -422,6 +422,6 @@ export const tacomaCity = {
     { q: 'Why does the Tacoma market need a different approach?', a: "Three things make Tacoma distinct. The rain runs October through May — longer than most markets — creating sustained demand for moisture, drainage, and roofing work. JBLM's PCS cycle brings in thousands of families every year who search immediately without local networks. And Tacoma buyers respond to straight-talking, value-forward contractors, not polished national-agency messaging." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Tacoma and Pierce County areas do you serve?', a: "Stadium District, North End, Proctor, Ruston, University Place, Gig Harbor, Puyallup, Bonney Lake, Spanaway, Lakewood, Fircrest, Steilacoom, DuPont, and Parkland. We build genuine neighborhood pages for the communities you actually serve." },
-    { q: 'Where should I start?', a: "Start with a free Tacoma audit. We'll look at your website, your rankings, and your Map Pack presence in Pierce County, then tell you the one or two moves that will bring in the most work fastest — whether that's the rain-season search window coming up or the JBLM-area gap your competitors haven't filled. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Tacoma audit. We'll look at your website, your rankings, and your Map Pack presence in Pierce County, then tell you the one or two moves that will bring in the most work fastest, whether that's the rain-season search window coming up or the JBLM-area gap your competitors haven't filled. That's where Tacoma marketing for contractors starts: a straight plan, not a pitch deck." },
   ],
 };

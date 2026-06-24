@@ -111,15 +111,15 @@ export const stamfordLocations = [
     citySlug: 'stamford', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Stamford Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Stamford or Greenwich and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Stamford Local SEO that puts your business in the Map Pack across Greenwich, Darien, and New Canaan, so the call lands with you, not a competitor.',
     eyebrow: 'Local SEO · Stamford & Fairfield County',
-    h1: 'When Fairfield County searches for what you do, be the first name they find',
+    h1: 'Stamford Local SEO that puts your business in the Greenwich-to-Darien Map Pack',
     h2Exact: 'Stamford Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In a county where homeowners spend $50K to $200K on projects and have zero tolerance for contractors who look unprofessional, we get you into that top three — town by town — so the call lands with you.",
     primaryCta: 'Get my free Stamford audit',
     intro:
-      "Stamford and Fairfield County local SEO comes down to one thing: when a homeowner in Greenwich, Darien, or New Canaan searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This is hedge fund capital territory — homeowners with Manhattan incomes and historic estates who spend freely on quality but demand professionalism before they ever call. Becoming one of those three pins in the towns you serve is the whole game. Here's how you do it.",
+      "Stamford Local SEO comes down to one thing: when a homeowner in Greenwich, Darien, or New Canaan searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This is hedge fund capital territory, homeowners with Manhattan incomes and historic estates who spend freely on quality but demand professionalism before they ever call. Winning the local 3-pack with a tuned Google Business Profile in the towns you serve is the whole game. Here's how you do it.",
     aioQuestion: 'How do Stamford businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and Fairfield County towns you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real neighborhoods like Greenwich, Darien, New Canaan, and Westport. Fairfield County is wealthy and high-expectation, so the winners target tight service areas by town, show up during nor'easter damage spikes, and respond fast during winter and summer demand surges.",
@@ -167,7 +167,7 @@ export const stamfordLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. In a market where a single Fairfield County job can be worth $30K to $150K, owning that pipeline instead of renting it from lead brokers is a very different business." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Fairfield County towns, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Fairfield County towns, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day Stamford Local SEO plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -177,9 +177,9 @@ export const stamfordLocations = [
     citySlug: 'stamford', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Stamford SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Stamford SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Fairfield County.',
+      'Stamford SEO that gets contractors to the top of Google and keeps them there, ranking for the money keywords Fairfield County homeowners actually search.',
     eyebrow: 'SEO Services · Stamford & Fairfield County',
-    h1: 'Get your Stamford business to the top of Google and keep it there',
+    h1: 'Stamford SEO that gets you to the top of Google for Fairfield County\'s money keywords and keeps you there',
     h2Exact: 'Stamford SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Fairfield County customers search and the leads keep coming. In a county where a single renovation project can be worth $50K to $200K, that pipeline belongs on your site — not on a lead broker's.",
@@ -233,7 +233,7 @@ export const stamfordLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which Fairfield County towns do you cover?', a: "All of them — Stamford, Greenwich, Darien, New Canaan, Westport, Fairfield, Trumbull, Shelton, Derby, and Norwalk, with genuine town-level content rather than one generic Fairfield County page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility across Fairfield County, the less you depend on paying brokers for shared leads — especially when those leads represent some of the highest-value renovation projects in Connecticut." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic Stamford SEO timeline with the organic traffic numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const stamfordLocations = [
     citySlug: 'stamford', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Stamford Web Design Company | OnwardCraft',
     metaDescription:
-      'Stamford web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in Fairfield County\'s high-expectation market.',
+      'Stamford web design that turns visitors into booked jobs. Fast, mobile-first contractor sites built for Greenwich and Darien\'s high-expectation homeowners.',
     eyebrow: 'Web Design · Stamford & Fairfield County',
-    h1: 'Stamford web design that turns visitors into booked jobs',
+    h1: 'Stamford web design that turns Greenwich and Darien visitors into booked jobs',
     h2Exact: 'Stamford Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. In Fairfield County — where homeowners have Manhattan incomes and zero tolerance for contractors who look unprofessional — your site is your first impression. We build fast, mobile-first sites that turn Greenwich and Darien visitors into booked work.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Stamford contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Fairfield County visitors into booked jobs — engineered for a market where a single project can be worth $50K to $200K and homeowners judge your company in the first three seconds.",
+      "Stamford web design done right fixes the leaks most contractor sites have: slow on a phone, buried call button, no clear offer. We build fast-loading, mobile-first websites that look like the professional you are and turn Fairfield County visitors into booked jobs, engineered for a market where a single project can be worth $50K to $200K and homeowners judge your company in the first three seconds.",
     aioQuestion: 'What makes a good contractor website in Stamford and Fairfield County?',
     aioAnswer:
       "A good Fairfield County contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific towns you serve — Greenwich, Darien, New Canaan, Westport, and so on. Because these are high-income homeowners with high expectations, a polished, professional appearance isn't optional. A site that looks dated or generic will never generate a call from a North Stamford or Greenwich homeowner, no matter how good your work is.",
@@ -299,7 +299,7 @@ export const stamfordLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost Fairfield County leads, what a high-converting site for this market should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost Fairfield County leads, what high-converting Stamford web design for this market should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const stamfordLocations = [
     citySlug: 'stamford', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Stamford Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Stamford website without losing rankings. Faster, mobile-first rebuilds that convert more Fairfield County visitors into booked jobs.',
+      'Stamford Website Redesign that converts more without losing your rankings. SEO-safe, mobile-first rebuilds for Greenwich and New Canaan\'s high-ticket market.',
     eyebrow: 'Website Redesign · Stamford & Fairfield County',
-    h1: 'Redesign your Stamford website without losing your rankings',
+    h1: 'Stamford Website Redesign that converts more Greenwich and New Canaan visitors without losing your rankings',
     h2Exact: 'Stamford Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week in Fairfield County — slow, hard to use on a phone, and not credible enough for a homeowner spending $50K to $200K on a project. We redesign Stamford contractor sites to convert more and load faster, and we migrate carefully so you keep every ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Fairfield County contractor sites for speed, credibility, and conversions — built to impress the high-income homeowners who make quick decisions — and we migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Stamford Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Fairfield County contractor sites for speed, credibility, and conversions, built to impress the high-income homeowners who make quick decisions, and we handle an SEO-safe migration with the redirects that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, more mobile-friendly, and more credible than the old one — exactly what Fairfield County homeowners expect before they call.",
@@ -365,7 +365,7 @@ export const stamfordLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in Fairfield County leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in Fairfield County leads and rankings, what the Stamford Website Redesign should fix, and a fixed-price quote with a timeline and an SEO-safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const stamfordCity = {
 
   titleTag: 'Stamford Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Stamford and Fairfield County contractors. Get found, get booked, and own your leads in the wealthiest commuter corridor.',
+    'Stamford marketing for contractors that gets you found and booked. Web design, SEO, and local SEO for Fairfield County\'s wealthiest commuter corridor.',
 
   eyebrow: 'Stamford · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Stamford contractors found and booked',
+  h1: 'Stamford marketing for contractors that gets you found and booked across Fairfield County',
   h2Exact: 'Stamford Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Fairfield County's high-expectation, high-value market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const stamfordCity = {
   primaryCta: 'Get my free Stamford audit',
 
   intro:
-    "If you run a contracting business in Stamford or Fairfield County, you're operating in one of the wealthiest, most competitive home-services markets in New England. Greenwich, Darien, New Canaan, and Westport homeowners have Manhattan incomes and historic estates — they spend freely on quality contractors, but they decide in seconds whether to call you based on how you look online. Winning here takes three things working together: a site that signals professional credibility, SEO that ranks you for what Fairfield County homeowners search, and local SEO that puts you in the Map Pack for the towns you serve. Here's how we help Stamford-area contractors do exactly that.",
+    "Stamford marketing for contractors has to work in one of the wealthiest, most competitive home-services markets in New England. Greenwich, Darien, New Canaan, and Westport homeowners have Manhattan incomes and historic estates. They spend freely on quality contractors, but they decide in seconds whether to call you based on how you look online. Winning here takes three things working together: a site that signals professional credibility, SEO that ranks you for what Fairfield County homeowners search, and local SEO that puts you in the Map Pack for the towns you serve. Here's how our Stamford digital marketing helps the area's contractors do exactly that.",
   aioQuestion: 'How do Stamford contractors get more leads online?',
   aioAnswer:
     "Stamford and Fairfield County contractors get more leads by combining a fast, polished website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack town by town. Because these are high-income homeowners with high expectations — many commuting to Manhattan on Metro-North — a professional online presence and tight town-by-town targeting are what separate contractors who win large jobs from those who stay invisible.",
@@ -422,6 +422,6 @@ export const stamfordCity = {
     { q: 'Why does the Fairfield County market need a different approach?', a: "Because the homeowners here are among the wealthiest in the country. Greenwich and Darien residents have Manhattan incomes and historic estates. They spend freely — but they judge you in seconds. A contractor who looks polished online wins very large jobs. One who doesn't never gets the call." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Fairfield County areas do you serve?', a: "All of them — Stamford, Greenwich, Darien, New Canaan, Westport, Fairfield, Trumbull, Shelton, Derby, Norwalk, and the neighborhoods within them: Glenbrook, Springdale, North Stamford, Cos Cob, Old Greenwich, and more." },
-    { q: 'Where should I start?', a: "Start with a free Stamford audit. We'll look at your website, your rankings, and your Map Pack presence across Fairfield County, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Stamford audit. We'll look at your website, your rankings, and your Map Pack presence across Fairfield County, then tell you the one or two Stamford contractor marketing moves that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

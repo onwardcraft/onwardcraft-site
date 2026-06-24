@@ -109,11 +109,11 @@ export const stPetersburgLocations = [
   {
     ...BASE,
     citySlug: 'st-petersburg', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'St. Petersburg Local SEO Company | OnwardCraft',
+    titleTag: 'St. Petersburg Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in St. Petersburg and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'St. Petersburg Local SEO that ranks you above the competition on the map, from Old Northeast to St. Pete Beach. We get you into the top three.',
     eyebrow: 'Local SEO · St. Petersburg',
-    h1: 'When St. Pete searches for what you do, be the first name they find',
+    h1: 'St. Petersburg Local SEO that ranks you above the competition from Old Northeast to the beaches',
     h2Exact: 'St. Petersburg Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the call lands with you instead of whoever ranked first — and so you're ready when the next storm fills everyone's phone across the peninsula.",
@@ -167,7 +167,7 @@ export const stPetersburgLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's the fastest way to see what St. Petersburg local SEO can actually do for your phone. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const stPetersburgLocations = [
   {
     ...BASE,
     citySlug: 'st-petersburg', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'St. Petersburg SEO Company | OnwardCraft',
+    titleTag: 'St. Petersburg SEO Company | Climb Past the Competition | OnwardCraft',
     metaDescription:
-      'St. Petersburg SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-rebuild demand.',
+      'St. Petersburg SEO that climbs contractors past the competition on Google across Pinellas County. Revenue-tied reporting, no lock-in, built for storm-rebuild demand.',
     eyebrow: 'SEO Services · St. Petersburg',
-    h1: 'Get your St. Pete business to the top of Google and keep it there',
+    h1: 'St. Petersburg SEO that climbs you past the competition on Google across Pinellas County',
     h2Exact: 'St. Petersburg SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your St. Pete customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const stPetersburgLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around St. Petersburg do you cover?', a: "All of Pinellas County and the surrounding areas — Clearwater, Largo, Seminole, Gulfport, St. Pete Beach, Treasure Island, Pinellas Park and more — with genuine local pages rather than one generic St. Pete page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It's the clearest way to see what St. Petersburg SEO can earn you on page one. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const stPetersburgLocations = [
   {
     ...BASE,
     citySlug: 'st-petersburg', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'St. Petersburg Web Design Company | OnwardCraft',
+    titleTag: 'St. Petersburg Web Design Company | Fast Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'St. Petersburg web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-rebuild demand.',
+      'St. Petersburg web design that loads fast and books more jobs, mobile-first sites built for Pinellas contractors and storm-rebuild demand.',
     eyebrow: 'Web Design · St. Petersburg',
-    h1: 'St. Petersburg web design that turns visitors into booked jobs',
+    h1: 'St. Petersburg web design that loads fast and books more jobs, even when storm season floods the phone',
     h2Exact: 'St. Petersburg Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build St. Pete contractors fast, mobile-first sites engineered to turn visitors into booked work — and to hold up when storm season floods your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most St. Pete contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Old-Northeast-to-the-beaches visitors into booked jobs — and that don't fall over when a storm sends your traffic through the roof.",
+      "St. Petersburg web design lives or dies on one thing: does the site turn a visitor into a booked job? Most St. Pete contractor websites lose leads quietly, slow on a phone, buried call button, no clear offer. We build sites that load fast, look like the professional you are, and turn Old-Northeast-to-the-beaches visitors into booked jobs, and that don't fall over when a storm sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in St. Petersburg?',
     aioAnswer:
       "A good St. Petersburg contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during storm season. Because most St. Pete searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const stPetersburgLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting St. Pete site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting St. Petersburg web design should include for your trade, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const stPetersburgLocations = [
   {
     ...BASE,
     citySlug: 'st-petersburg', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'St. Petersburg Website Redesign | OnwardCraft',
+    titleTag: 'St. Petersburg Website Redesign | SEO-Safe Migration | OnwardCraft',
     metaDescription:
-      'Redesign your St. Petersburg website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm.',
+      'St. Petersburg website redesign done with a careful, SEO-safe migration so you keep every ranking. Faster, mobile-first rebuilds that convert and hold up in storm.',
     eyebrow: 'Website Redesign · St. Petersburg',
-    h1: 'Redesign your St. Petersburg website without losing your rankings',
+    h1: 'St. Petersburg website redesign done with a careful, SEO-safe migration that keeps every Pinellas ranking',
     h2Exact: 'St. Petersburg Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign St. Pete contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign St. Pete contractor sites for speed and conversions, build them to handle storm-season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A St. Petersburg website redesign goes one of two bad ways when it's rushed: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign St. Pete contractor sites for speed and conversions, build them to handle storm-season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const stPetersburgLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and the SEO-safe migration plan that makes a St. Petersburg website redesign worth doing in the first place." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const stPetersburgCity = {
 
   titleTag: 'St. Petersburg Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for St. Petersburg contractors. Get found, get booked, and own your leads instead of renting them — built for storm-rebuild.',
+    'St. Petersburg marketing for contractors that fills your calendar: web design, SEO, and local SEO across Pinellas. Own your leads instead of renting them, built for storm-rebuild.',
 
   eyebrow: 'St. Petersburg · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets St. Petersburg contractors found and booked',
+  h1: 'St. Petersburg marketing for contractors that fills your calendar on a storm-exposed peninsula',
   h2Exact: 'St. Petersburg Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for St. Pete's storm-exposed, fast-rebuilding peninsula market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const stPetersburgCity = {
   primaryCta: 'Get my free St. Pete audit',
 
   intro:
-    "If you run a contracting business in St. Petersburg, you're fighting for attention on a peninsula that draws retirees and transplants year-round — and where the competition grows right along with the demand. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack — all ready before the next storm sends rebuild demand through the roof. Here's how we help St. Pete contractors do exactly that.",
+    "St. Petersburg marketing for contractors comes down to one fight: getting found on a peninsula that draws retirees and transplants year-round, where the competition grows right along with the demand. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all ready before the next storm sends rebuild demand through the roof. Here's how we help St. Pete contractors do exactly that.",
   aioQuestion: 'How do St. Petersburg contractors get more leads online?',
   aioAnswer:
     "St. Petersburg contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because St. Pete sits on a storm-exposed peninsula where rebuilding demand spikes hard after hurricanes like Helene and Milton, the contractors who look established and are already ranking before the storm win the most work.",
@@ -422,6 +422,6 @@ export const stPetersburgCity = {
     { q: 'Why does storm season matter for my marketing?', a: "When hurricanes like Helene and Milton hit Pinellas County, demand for roofing, restoration, and HVAC spikes overnight and the rebuild backlog can run for a year or more. Ranking takes months to build, so the contractors who are already visible before the storm take that work. We get you in place ahead of season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which St. Petersburg areas do you serve?', a: "All of St. Petersburg and Pinellas County — Old Northeast, Kenwood, Snell Isle, St. Pete Beach, Treasure Island, Gulfport, plus Clearwater, Largo, Seminole, Pinellas Park and more." },
-    { q: 'Where should I start?', a: "Start with a free St. Pete audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free St. Pete audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It's the simplest first step into St. Petersburg marketing for contractors that actually fills the calendar. No pitch deck, just a plan." },
   ],
 };

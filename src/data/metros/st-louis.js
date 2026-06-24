@@ -111,9 +111,9 @@ export const stLouisLocations = [
     citySlug: 'st-louis', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'St. Louis Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in St. Louis and three businesses show up on the map. We get you into those three — storm season ready, neighborhood-targeted, no lock-in.',
+      'St. Louis Local SEO that wins you the top three on the map, from Soulard to Chesterfield. Storm season ready, neighborhood-targeted, no lock-in.',
     eyebrow: 'Local SEO · St. Louis, MO',
-    h1: 'When St. Louis searches for what you do, be the first name they find',
+    h1: 'St. Louis Local SEO that wins you the top three on the map before hail season turns the Hill into a roofing scramble',
     h2Exact: 'St. Louis Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn\'t exist. In a city where hail season can flood your phone in 48 hours — or leave it silent — we get you into that top three for your neighborhoods, so the call lands with you instead of a competitor who ranked first.",
@@ -167,7 +167,7 @@ export const stLouisLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It\'s becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that\'s roughly how long local SEO needs to show real movement. After that it\'s month-to-month. If we\'re not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never own. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because St. Louis homeowners are finding you directly." },
-      { q: "What\'s in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that\'ll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What\'s in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that\'ll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It\'s the fastest way to see exactly what St. Louis Local SEO can do for your phone before you spend a dollar. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const stLouisLocations = [
     metaDescription:
       'St. Louis SEO that ranks contractors on Google and brings in leads you own. Storm-season ready, bi-state metro coverage, no lock-in. Free St. Louis SEO audit.',
     eyebrow: 'SEO Services · St. Louis, MO',
-    h1: 'Get your St. Louis business to the top of Google and keep it there',
+    h1: 'St. Louis SEO that builds rankings you actually own, from South City brick to Chesterfield',
     h2Exact: 'St. Louis SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your St. Louis customers search and the leads keep coming — including the storm-season surges that define the busiest weeks of the year. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const stLouisLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That\'s a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business — not just classic search results." },
       { q: 'Do you cover both Missouri and Illinois sides of the metro?', a: "Yes. We build local content and neighborhood pages for both sides of the bi-state metro — St. Louis City and County on the Missouri side, and Belleville, O\'Fallon, and other Illinois communities on the east side — so you rank across the full market you actually serve." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What\'s in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What\'s in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It shows you exactly what St. Louis SEO can do for your pipeline before you spend a dollar. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const stLouisLocations = [
     citySlug: 'st-louis', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'St. Louis Web Design Company | OnwardCraft',
     metaDescription:
-      'St. Louis web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a storm-season market.',
+      'St. Louis web design that turns visitors into booked jobs. Fast, mobile-first sites built for contractors in a storm-season market.',
     eyebrow: 'Web Design · St. Louis, MO',
-    h1: 'St. Louis web design that turns visitors into booked jobs',
+    h1: 'St. Louis web design engineered to bring in real work, from Tower Grove bungalows to Chesterfield',
     h2Exact: 'St. Louis Web Design Company',
     heroSubhead:
       "A pretty website that doesn\'t generate calls is a brochure. We build St. Louis contractors fast, mobile-first sites engineered to turn visitors into booked work — and to signal to homeowners in Soulard or Chesterfield that you\'re the local expert they\'ve been looking for.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most St. Louis contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn visitors into booked jobs — designed for a market where homeowners care deeply about whether you actually know their neighborhood and their housing stock.",
+      "St. Louis web design lives or dies on one thing: whether the site turns a visitor into a booked job. Most contractor websites here lose leads quietly, slow on a phone, with a buried call button and no clear offer. We build sites that load fast, look like the professional you are, and convert, designed for a market where homeowners care deeply about whether you actually know their neighborhood and their housing stock.",
     aioQuestion: 'What makes a good contractor website in St. Louis?',
     aioAnswer:
       "A good St. Louis contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos from recognizable neighborhoods, and names the specific communities you serve across both states. Because St. Louis residents have strong local identity and prefer contractors who know the city, specificity — referencing the Hill, Soulard, Webster Groves, or the brick housing stock of South City — is what converts a visitor into a call.",
@@ -299,7 +299,7 @@ export const stLouisLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We\'ll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Can you make my site speak to historic brick homeowners?', a: "Yes, and it\'s one of our strengths in St. Louis specifically. South City brick bungalows and row houses have specific concerns — tuckpointing, mortar repair, water infiltration — and we write copy and build pages around those needs so the right homeowners find you and trust you immediately." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting St. Louis site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting St. Louis web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const stLouisLocations = [
     citySlug: 'st-louis', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'St. Louis Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your St. Louis website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a storm-season market.',
+      'St. Louis website redesign that modernizes without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a storm-season market.',
     eyebrow: 'Website Redesign · St. Louis, MO',
-    h1: 'Redesign your St. Louis website without losing your rankings',
+    h1: 'St. Louis Website Redesign that modernizes your site without tanking the traffic you built before storm season',
     h2Exact: 'St. Louis Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore when homeowners are searching fast after a hail storm. We redesign St. Louis contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you\'ve earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign St. Louis contractor sites for speed and conversions, rebuild them to feel genuinely local in a city where residents notice the difference, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A St. Louis website redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild St. Louis contractor sites for speed and conversions, make them feel genuinely local in a city where residents notice the difference, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one — which matters especially in a seasonal market like St. Louis where ranking before storm season is critical.",
@@ -365,7 +365,7 @@ export const stLouisLocations = [
       { q: 'Can you make the new site appeal to homeowners with historic brick homes?', a: "Absolutely. South City, the Hill, Soulard, and other St. Louis neighborhoods have some of the most distinctive historic brick housing in the Midwest. We build content around that — tuckpointing, masonry repair, water damage prevention — so the homeowners searching for those specific services find you and trust you immediately." },
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
-      { q: "What\'s in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What\'s in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It shows you whether a St. Louis website redesign is worth it before you commit a dollar." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const stLouisCity = {
 
   titleTag: 'St. Louis Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for St. Louis contractors. Get found before storm season, rank in your neighborhoods, and own your leads. Free St. Louis audit.',
+    'St. Louis marketing for contractors: web design, SEO, and local SEO that get you found before storm season, rank your neighborhoods, and own your leads.',
 
   eyebrow: 'St. Louis · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets St. Louis contractors found and booked',
+  h1: 'St. Louis marketing for contractors built around the trades, from brick bungalows to hail season',
   h2Exact: 'St. Louis Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for St. Louis — storm seasons, brick bungalows, brutal summers, and a city that knows immediately when someone doesn\'t know the neighborhoods. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const stLouisCity = {
   primaryCta: 'Get my free St. Louis audit',
 
   intro:
-    "If you run a contracting business in St. Louis, you\'re competing in a market with a rhythm all its own: a sharp roofing and restoration season every spring when tornado and hail activity peaks, brutal summer humidity that drives HVAC demand from June through September, a historic brick housing stock in South City that requires specialist masonry knowledge, and a city where residents can tell in about five seconds whether you actually know the neighborhoods. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search when it matters, and local SEO that puts you in the Map Pack for the communities on both sides of the bi-state metro. Here\'s how we help St. Louis contractors do exactly that.",
+    "St. Louis marketing for contractors has to fit a market with a rhythm all its own. If you run a contracting business here, you\'re up against: a sharp roofing and restoration season every spring when tornado and hail activity peaks, brutal summer humidity that drives HVAC demand from June through September, a historic brick housing stock in South City that requires specialist masonry knowledge, and a city where residents can tell in about five seconds whether you actually know the neighborhoods. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search when it matters, and local SEO that puts you in the Map Pack for the communities on both sides of the bi-state metro. Here\'s how we help St. Louis contractors do exactly that.",
   aioQuestion: 'How do St. Louis contractors get more leads online?',
   aioAnswer:
     "St. Louis contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches — including storm-damage, masonry, and HVAC terms — and local SEO that wins the Google Map Pack neighborhood by neighborhood across the bi-state metro. Because the city has strong local identity and residents prefer contractors who know the neighborhoods, the businesses that feel genuinely local and rank before demand spikes win the most work.",
@@ -422,6 +422,6 @@ export const stLouisCity = {
     { q: 'Why does the St. Louis market need a different approach?', a: "St. Louis has a unique combination of factors: a sharp roofing and restoration peak in spring storm season, brutal summer humidity that drives HVAC demand, one of the most remarkable concentrations of historic brick housing in the Midwest, a bi-state metro, and residents who have strong local identity and prefer contractors who know their neighborhoods. Generic marketing from a national agency that just swaps in the city name doesn\'t work here." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which St. Louis areas do you serve?', a: "The full bi-state metro — St. Louis City and County on the Missouri side, and the Illinois communities including Belleville, O\'Fallon, and East St. Louis. Neighborhood-level pages for the Hill, Soulard, Tower Grove, Webster Groves, Kirkwood, Chesterfield, Ballwin, Maplewood, and more." },
-    { q: 'Where should I start?', a: "Start with a free St. Louis audit. We\'ll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest — including whether you\'re set up to capture storm-season demand before the next spring rolls around. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free St. Louis audit. We\'ll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, including whether you\'re set up to capture storm-season demand before the next spring rolls around. It\'s the clearest first step in St. Louis marketing for contractors, and there\'s no pitch deck, just a plan." },
   ],
 };

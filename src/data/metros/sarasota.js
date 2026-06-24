@@ -111,9 +111,9 @@ export const sarasotaLocations = [
     citySlug: 'sarasota', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Sarasota Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Sarasota and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Sarasota Local SEO that turns "near me" searches on Siesta Key and Lakewood Ranch into a ringing phone. Win the top three on the map.',
     eyebrow: 'Local SEO · Sarasota-Bradenton',
-    h1: 'When Sarasota searches for what you do, be the first name they find',
+    h1: 'Sarasota Local SEO that turns "near me" searches on Siesta Key into a ringing phone',
     h2Exact: 'Sarasota Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the affluent homeowner on Longboat Key or in Lakewood Ranch calls you instead of whoever ranked first — and so you're ready when storm-surge rebuilding and snowbird season fill everyone's phone.",
@@ -167,7 +167,7 @@ export const sarasotaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see what Sarasota Local SEO can do for your phone, from the islands to Lakewood Ranch. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const sarasotaLocations = [
   {
     ...BASE,
     citySlug: 'sarasota', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Sarasota SEO Company | OnwardCraft',
+    titleTag: 'Sarasota SEO Company | Rank for the Searches That Book Jobs | OnwardCraft',
     metaDescription:
-      'Sarasota SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for affluent and storm-driven.',
+      'Sarasota SEO that ranks contractors for the searches that book jobs, from Siesta Key to Lakewood Ranch. Leads you own, revenue-tied reporting, no lock-in.',
     eyebrow: 'SEO Services · Sarasota-Bradenton',
-    h1: 'Get your Sarasota business to the top of Google and keep it there',
+    h1: 'Sarasota SEO that ranks you for the searches that book jobs from Siesta Key to Lakewood Ranch',
     h2Exact: 'Sarasota SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Sarasota customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const sarasotaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Sarasota do you cover?', a: "All of Sarasota and Manatee counties and the surrounding areas — Lido Key, Longboat Key, Siesta Key, Lakewood Ranch, Bradenton, Venice, Osprey, Nokomis and more — with genuine local pages rather than one generic Sarasota page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It shows you exactly where Sarasota SEO can grow your organic traffic and page-one rankings before the next storm and snowbird season. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const sarasotaLocations = [
   {
     ...BASE,
     citySlug: 'sarasota', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Sarasota Web Design Company | OnwardCraft',
+    titleTag: 'Sarasota Web Design Company | Built to Convert Clicks Into Calls | OnwardCraft',
     metaDescription:
-      'Sarasota web design that turns visitors into booked jobs — fast, polished, mobile-first sites built for contractors and affluent island homeowners.',
+      'Sarasota web design built to convert clicks into calls. Fast, polished, mobile-first sites that turn Longboat Key and Lakewood Ranch homeowners into booked jobs.',
     eyebrow: 'Web Design · Sarasota-Bradenton',
-    h1: 'Sarasota web design that turns visitors into booked jobs',
+    h1: 'Sarasota web design built to convert clicks from Longboat Key homeowners into booked calls',
     h2Exact: 'Sarasota Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Sarasota contractors fast, polished, mobile-first sites engineered to turn affluent island and Lakewood Ranch homeowners into booked work — and to hold up when storm season and snowbird arrivals flood your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Sarasota contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, and a look that doesn't match the standards of a Longboat Key homeowner. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Lido-Key-to-Lakewood-Ranch visitors into booked jobs — and that don't fall over when a storm sends your traffic through the roof.",
+      "Sarasota web design done right is the difference between a site that books jobs and one that quietly leaks them: slow on a phone, buried call button, no clear offer, and a look that doesn't match the standards of a Longboat Key homeowner. We build sites that load fast, look like the professional you are, and turn Lido-Key-to-Lakewood-Ranch visitors into booked jobs, and that don't fall over when a storm sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Sarasota?',
     aioAnswer:
       "A good Sarasota contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, looks polished enough for an affluent island homeowner, and is built to handle traffic spikes during storm season. Because most Sarasota searches happen on mobile and the homeowner base is discerning, mobile speed, a professional look, and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const sarasotaLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Sarasota site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Sarasota site should include, and a fixed-price quote with a timeline. It is a straight read on what Sarasota web design should do for a contractor in this market, from the islands to Lakewood Ranch. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const sarasotaLocations = [
   {
     ...BASE,
     citySlug: 'sarasota', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Sarasota Website Redesign | OnwardCraft',
+    titleTag: 'Sarasota Website Redesign | Keep Every Ranking You Have Earned | OnwardCraft',
     metaDescription:
-      'Redesign your Sarasota website without losing rankings. Faster, polished, mobile-first rebuilds that convert more affluent visitors into booked jobs and hold.',
+      'Sarasota Website Redesign that keeps every ranking you have earned, with an SEO-safe migration. Faster, mobile-first rebuilds that convert more affluent island visitors.',
     eyebrow: 'Website Redesign · Sarasota-Bradenton',
-    h1: 'Redesign your Sarasota website without losing your rankings',
+    h1: 'Sarasota Website Redesign that keeps every Gulf-coast ranking you have earned, from the barrier islands to Lakewood Ranch',
     h2Exact: 'Sarasota Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, and too dated for a Longboat Key homeowner to trust. We redesign Sarasota contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Sarasota contractor sites for speed, polish, and conversions, build them to handle storm-season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Sarasota Website Redesign goes one of two bad ways when it is rushed: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Sarasota contractor sites for speed, polish, and conversions, build them to handle storm-season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, more polished, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const sarasotaLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It shows you exactly what a Sarasota Website Redesign should do without losing the rankings you have already earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const sarasotaCity = {
 
   titleTag: 'Sarasota Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Sarasota contractors. Get found, get booked, and own your leads instead of renting them — built for affluent.',
+    'Sarasota marketing for contractors: web design, SEO, and local SEO that get you ranked and booked across the islands and Lakewood Ranch. Own your leads, no lock-in.',
 
   eyebrow: 'Sarasota · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Sarasota contractors found and booked',
+  h1: 'Sarasota marketing for contractors: get ranked across the islands, get booked in Lakewood Ranch',
   h2Exact: 'Sarasota Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Sarasota-Bradenton's affluent, seasonal, storm-driven market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const sarasotaCity = {
   primaryCta: 'Get my free Sarasota audit',
 
   intro:
-    "If you run a contracting business in Sarasota, you're fighting for attention in one of Florida's wealthiest, most discerning markets — affluent island homeowners, seasonal snowbirds, and explosive new-construction growth in Lakewood Ranch. Winning here takes three things working together: a polished site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack — all ready before the next storm and the next snowbird season send demand through the roof. Here's how we help Sarasota contractors do exactly that.",
+    "Sarasota marketing for contractors means fighting for attention in one of Florida's wealthiest, most discerning markets: affluent island homeowners, seasonal snowbirds, and explosive new-construction growth in Lakewood Ranch. Winning here takes three things working together: a polished site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all ready before the next storm and the next snowbird season send demand through the roof. Here's how we help Sarasota contractors get found and booked while owning their leads.",
   aioQuestion: 'How do Sarasota contractors get more leads online?',
   aioAnswer:
     "Sarasota contractors get more leads by combining a fast, polished, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because the Sarasota market is affluent and seasonal and the barrier islands carry heavy storm-surge exposure, the contractors who look established and are already ranking before snowbird and hurricane season win the most work.",
@@ -422,6 +422,6 @@ export const sarasotaCity = {
     { q: 'Why does storm season matter for my marketing?', a: "When hurricanes like Ian, Helene, and Milton hit the Sarasota coast, demand for roofing, restoration, seawall, and HVAC work spikes and the rebuilding backlog can run for years. Ranking takes months to build, so the contractors who are already visible before the storm take that work. We get you in place ahead of season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Sarasota areas do you serve?', a: "All of Sarasota and Manatee counties and the surrounding areas — Lido Key, Longboat Key, Bird Key, Siesta Key, Downtown Sarasota, Lakewood Ranch, Bradenton, Venice, Osprey, Nokomis and more." },
-    { q: 'Where should I start?', a: "Start with a free Sarasota audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Sarasota audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It is the simplest way to see what Sarasota marketing for contractors can do for your calendar. No pitch deck, just a plan." },
   ],
 };

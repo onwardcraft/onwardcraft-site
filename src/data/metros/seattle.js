@@ -111,15 +111,15 @@ export const seattleLocations = [
     citySlug: 'seattle', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Seattle Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your trade in Seattle and three businesses pin to the map. We put you in those three so the rain-driven call lands with you, not a competitor.',
+      'Seattle Local SEO that ranks you above the competition in the Map Pack, so the rain-driven call lands with you across Ballard, Fremont, and Bellevue.',
     eyebrow: 'Local SEO · Seattle, WA',
-    h1: 'When Seattle searches for what you do, be the first name on the map',
+    h1: 'Seattle Local SEO that ranks you above the competition from Ballard to Bellevue',
     h2Exact: 'Seattle Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map on a \"near me\" search, and everyone beneath them might as well not exist. In a city of tech-savvy buyers who choose fast and rarely scroll, we put you in that top three across your neighborhoods and suburbs, so the call lands with you instead of whoever happened to rank first.",
     primaryCta: 'Get my free Seattle audit',
     intro:
-      "Seattle local SEO really comes down to one question: when a homeowner in Fremont or Bellevue searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll past them. This is a market where 155+ wet days a year keep roofing, drainage, and restoration demand running all year, and where Amazon and Microsoft workers make quick, credibility-led calls right on their phones. Landing in those three spots for the areas you serve is the whole ballgame.",
+      "Seattle Local SEO really comes down to one question: when a homeowner in Fremont or Bellevue searches your service plus \"near me,\" are you ranking above the competition in the three businesses Google pins to the map? Most people tap one of those three and never scroll past them. This is a market where 155+ wet days a year keep roofing, drainage, and restoration demand running all year, and where Amazon and Microsoft workers make quick, credibility-led calls right on their phones. As a Seattle local SEO company that lives in this market, we treat landing in those three spots for the areas you serve as the whole ballgame.",
     aioQuestion: 'How do Seattle businesses rank higher in local search?',
     aioAnswer:
       "You climb by nailing four things: a Google Business Profile tuned to the exact services and neighborhoods you want, name-address-phone listings that stay consistent everywhere online, a steady flow of real reviews, and local content tied to actual Seattle neighborhoods and suburbs. Seattle is tech-forward and heavily mobile, so the businesses that win respond fast, keep their profile sharp, and publish content built around rain-driven needs like moss treatment, drainage, roofing, and waterproofing, plus the energy-efficiency work that lands well with this audience.",
@@ -167,7 +167,7 @@ export const seattleLocations = [
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less, because the work is already coming in directly." },
       { q: 'How should I target Eastside suburbs like Bellevue and Kirkland separately?', a: "Bellevue and Kirkland search differently from Seattle proper: higher price points, newer homes, buyers who expect a premium presentation. We build dedicated pages and tune your profile for those areas on purpose, so you turn up as a credible local option on the Eastside instead of a Seattle contractor who just drives over the bridge." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you leave, and the accountability stays squarely on us." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to stay ahead of you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to stay ahead of you, the fixes that will move you fastest, and a realistic 90-to-180-day Seattle Local SEO plan with the numbers run for your business. No pitch deck. Just a straight diagnosis of how you climb the local 3-pack and start showing up on \"near me\" searches you are missing today." },
     ],
   },
 
@@ -177,15 +177,15 @@ export const seattleLocations = [
     citySlug: 'seattle', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Seattle SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Seattle SEO that ranks contractors on Google and delivers leads you own. Lead-tied reporting, no lock-in, built for a tech-savvy, rain-driven market.',
+      'Seattle SEO that climbs contractors past the competition on Google and delivers leads you own. Lead-tied reporting, no lock-in, built for a rain-driven market.',
     eyebrow: 'SEO Services · Seattle, WA',
-    h1: 'Get your Seattle business to the top of Google and hold it there',
+    h1: 'Seattle SEO that climbs your trade past the competition in a tech-forward market',
     h2Exact: 'Seattle SEO Company',
     heroSubhead:
       "Ads die the moment you stop paying. SEO does the opposite: rank once for what your Seattle customers search and the leads keep coming. We build that ranking and tie every report to real calls and booked jobs.",
     primaryCta: 'Get my free Seattle SEO audit',
     intro:
-      "Seattle SEO boils down to one question: when a homeowner searches what you do, are you on page one or page two? Page two might as well be page fifty, and in a market where tech-forward buyers decide fast on the first credible result they see, the distance between ranking and not ranking is huge. We get Seattle contractors ranking for the money keywords in a market shaped by rain-driven demand and high-earning, time-starved buyers.",
+      "Seattle SEO boils down to one question: when a homeowner searches what you do, are you on page one or page two? Page two might as well be page fifty, and in a market where tech-forward buyers decide fast on the first credible result they see, the distance between ranking and not ranking is huge. As a Seattle SEO company built around the trades, we get contractors ranking for the money keywords in a market shaped by rain-driven demand and high-earning, time-starved buyers from Capitol Hill to Kirkland.",
     aioQuestion: 'How do Seattle businesses rank higher on Google?',
     aioAnswer:
       "They climb by repairing the site's technical foundation, tuning each page for the exact terms customers type, publishing genuinely useful local content tied to specific Seattle neighborhoods and suburbs, and earning links from trusted local sources. In Seattle, ranking for rain-driven searches like roofing, drainage, moss treatment, waterproofing, and mold remediation, plus energy-efficiency terms like heat pumps and insulation, hands contractors a real edge over rivals running a generic national playbook.",
@@ -233,7 +233,7 @@ export const seattleLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. Seattle is one of the most tech-forward metros in the country, and your customers are already using AI tools to vet contractors. We structure your content and schema so those engines can read, trust, and cite your business." },
       { q: 'Which areas around Seattle do you cover?', a: "Every Seattle neighborhood plus the surrounding suburbs: Capitol Hill, Fremont, Ballard, West Seattle, Beacon Hill, and Rainier Beach inside the city, plus Bellevue, Redmond, Kirkland, Issaquah, Renton, and Federal Way out on the Eastside and South End." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. The more you own your search visibility, the less you have to pay brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead of you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead of you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is a straight Seattle SEO diagnosis: the money keywords you can win, the organic traffic on the table, and the path to page one. No pitch deck." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const seattleLocations = [
     metaDescription:
       'Seattle web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in a tech-savvy, rain-driven market.',
     eyebrow: 'Web Design · Seattle, WA',
-    h1: 'Seattle web design that turns visitors into booked jobs',
+    h1: 'Seattle web design that loads fast and books more jobs from Ballard to Bellevue',
     h2Exact: 'Seattle Web Design Company',
     heroSubhead:
       "A good-looking website that does not generate calls is just a brochure. We build Seattle contractors fast, mobile-first sites engineered to turn visitors into booked work, and to pass the credibility test that tech-savvy buyers run the instant they land on your page.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Seattle contractor websites bleed leads quietly: slow on a phone, a call button nobody can find, no clear offer. In a city where Amazon and Microsoft workers run a quick search, skim the top results, and go with whoever looks the most professional, a weak website is money walking out the door. We build sites that load fast, look like the credible business you already are, and turn Fremont-to-Bellevue visitors into booked jobs.",
+      "Seattle web design should do one job: turn a visitor into a booked lead. Most contractor sites bleed leads quietly instead, slow on a phone, a call button nobody can find, no clear offer. In a city where Amazon and Microsoft workers run a quick search, skim the top results, and go with whoever looks the most professional, a weak website is money walking out the door. As a Seattle web design company built for the trades, we craft fast, mobile-first sites that look like the credible business you already are and turn Fremont-to-Bellevue visitors into booked jobs.",
     aioQuestion: 'What makes a good contractor website in Seattle?',
     aioAnswer:
       "A strong Seattle contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods and suburbs you serve. Since most searches happen on mobile and buyers here are tech-forward and quick to decide, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const seattleLocations = [
       { q: 'Can you build pages that speak to Craftsman and Tudor homeowners in Ballard or Capitol Hill?', a: "Yes, and we do. Older Seattle housing stock carries specific needs: renovation skill, historic character preservation, moisture management, and your site should reflect that. We write copy and build pages aimed at those homeowners' real concerns, not a generic contractor template." },
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage, usually WordPress or Webflow. We will recommend the right fit during your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Seattle site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Seattle web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const seattleLocations = [
     citySlug: 'seattle', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Seattle Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Seattle website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a tech-savvy market.',
+      'Seattle Website Redesign without losing rankings: faster, mobile-first rebuilds that convert more visitors into booked jobs in a tech-savvy market.',
     eyebrow: 'Website Redesign · Seattle, WA',
-    h1: 'Redesign your Seattle website without losing your rankings',
+    h1: 'Seattle Website Redesign done with a careful, SEO-safe migration that keeps your Eastside rankings intact',
     h2Exact: 'Seattle Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week: slow, awkward on a phone, easy to scroll past. We redesign Seattle contractor sites to convert more and load faster, and we migrate with enough care that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go wrong in one of two ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Seattle contractor sites for speed and credibility, build them to win the fast-deciding buyers this market is full of, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Seattle Website Redesign goes wrong in one of two ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Seattle contractor sites for speed and credibility, design them to win the fast-deciding buyers this market is full of, and run an SEO-safe migration with the redirects and metadata care that protect the traffic you already have, from Ballard down to Bellevue.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping a 301 redirect for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Handled right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const seattleLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Can you rebuild around Eastside suburbs like Bellevue and Redmond?', a: "Absolutely. Bellevue and Redmond homeowners carry different expectations than Seattle city buyers: newer homes, higher price points, premium service expectations. We rebuild your site to speak to both audiences and target them with dedicated pages." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and the SEO-safe migration plan that makes a Seattle Website Redesign worth doing." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const seattleCity = {
 
   titleTag: 'Seattle Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Seattle contractors. Get found, get booked, and own your leads, built for a tech-savvy, rain-driven market.',
+    'Seattle marketing for contractors: web design, SEO, and local SEO that get you found, get you booked, and own your leads in a tech-savvy, rain-driven market.',
 
   eyebrow: 'Seattle · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Seattle contractors found and booked',
+  h1: 'Seattle marketing for contractors that fills your calendar through every rainy season',
   h2Exact: 'Seattle Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Seattle's tech-savvy, rain-driven market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const seattleCity = {
   primaryCta: 'Get my free Seattle audit',
 
   intro:
-    "If you run a contracting business in Seattle, you are competing for attention in a market shaped by two forces: 155+ wet days a year that keep roofing, drainage, waterproofing, and restoration demand coming, and a tech-workforce homeowner base that makes fast, credibility-led calls on their phones. Winning here takes three things working together: a site that passes the credibility test, SEO that ranks you for what people search when the rain hits, and local SEO that puts you in the Map Pack for the neighborhoods and suburbs you serve. Here is how we help Seattle contractors do exactly that.",
+    "Seattle marketing for contractors has to answer a market shaped by two forces: 155+ wet days a year that keep roofing, drainage, waterproofing, and restoration demand coming, and a tech-workforce homeowner base that makes fast, credibility-led calls on their phones. Winning here takes three things working together: a site that passes the credibility test, SEO that ranks you for what people search when the rain hits, and local SEO that puts you in the Map Pack for the neighborhoods and suburbs you serve from Ballard to Bellevue. Here is how our Seattle digital marketing works for contractors who want to get found and booked.",
   aioQuestion: 'How do Seattle contractors get more leads online?',
   aioAnswer:
     "Seattle contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because Seattle buyers are tech-forward and decide quickly based on credibility, and because rain drives year-round demand for roofing, drainage, and restoration work, the contractors who rank well with a professional online presence win the most work.",
@@ -422,6 +422,6 @@ export const seattleCity = {
     { q: 'Why does the Seattle market need a different approach?', a: "Two reasons. First, 155+ rainy days a year turn roofing, drainage, moss treatment, waterproofing, and restoration into year-round conversations rather than seasonal spikes, so your SEO has to reflect that. Second, Seattle is full of Amazon and Microsoft workers who scan credibility fast: they run a quick search, glance at the top results, and pick whoever looks the most professional. Generic national SEO and a mediocre website lose that decision every time." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope during your free audit." },
     { q: 'Which Seattle areas do you serve?', a: "Every Seattle neighborhood plus the surrounding suburbs: Capitol Hill, Fremont, Ballard, Queen Anne, Wallingford, West Seattle, Beacon Hill, and Rainier Beach inside the city, plus Bellevue, Redmond, Kirkland, Issaquah, Renton, and Federal Way." },
-    { q: 'Where should I start?', a: "Start with a free Seattle audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Seattle audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Seattle contractor marketing that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

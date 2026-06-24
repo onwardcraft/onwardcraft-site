@@ -111,9 +111,9 @@ export const syracuseLocations = [
     citySlug: 'syracuse', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Syracuse Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Syracuse and three businesses show up on the map. We get you into those three before the lake-effect season hits.',
+      'Syracuse local SEO that turns "near me" searches into a ringing phone. We get contractors into the Map Pack before lake-effect season hits.',
     eyebrow: 'Local SEO · Syracuse, NY',
-    h1: 'When Syracuse searches for what you do, be the first name they find',
+    h1: 'Syracuse Local SEO that turns "near me" searches in Eastwood into a ringing phone',
     h2Exact: 'Syracuse Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In the snowiest major city east of the Rockies, we get you into that top three before lake-effect season — so the roof collapse call, the frozen pipe call, and the heating emergency call land with you.",
@@ -167,7 +167,7 @@ export const syracuseLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. During peak snow season, you're competing with three or four other contractors for the same homeowner while all paying top dollar. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Syracuse neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where your Syracuse local SEO stands today across your neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const syracuseLocations = [
     metaDescription:
       'Syracuse SEO that ranks contractors on Google before lake-effect season hits. Revenue-tied reporting, no lock-in contracts, built for upstate NY.',
     eyebrow: 'SEO Services · Syracuse, NY',
-    h1: 'Get your Syracuse business to the top of Google before the snow season',
+    h1: 'Syracuse SEO that ranks you for the snow-season searches that book jobs',
     h2Exact: 'Syracuse SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Syracuse customers search and the leads keep coming through every lake-effect storm from November to April. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const syracuseLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Syracuse do you cover?', a: "The full metro — Strathmore, Sedgwick, Eastwood, Tipperary Hill, Westcott, DeWitt, Fayetteville, Manlius, Liverpool, Clay, Cicero, East Syracuse, Camillus, North Syracuse, and Baldwinsville — with genuine local pages rather than one generic Syracuse page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads that three other contractors also receive." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where your Syracuse SEO stands today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const syracuseLocations = [
     metaDescription:
       'Syracuse web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in the snowiest major city east of the Rockies.',
     eyebrow: 'Web Design · Syracuse, NY',
-    h1: 'Syracuse web design that turns winter visitors into booked jobs',
+    h1: 'Syracuse web design built to convert a midnight ice-dam click into a call',
     h2Exact: 'Syracuse Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Syracuse contractors fast, mobile-first sites engineered to turn visitors into booked work — before, during, and after the lake-effect season that defines this market.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Syracuse contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer for the homeowner dealing with two feet of lake-effect snow on their 1910 Craftsman roof. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Eastwood-to-Manlius visitors into booked jobs — sites that speak to upstate homeowners who want a local contractor, not a chain.",
+      "Syracuse web design is really about one thing: turning a click into a booked job. Most contractor websites here lose leads quietly, slow on a phone, buried call button, no clear offer for the homeowner dealing with two feet of lake-effect snow on their 1910 Craftsman roof. We build fast, mobile-first sites that look like the professional you are and turn Eastwood-to-Manlius visitors into booked work, sites that speak to upstate homeowners who want a local contractor, not a chain.",
     aioQuestion: 'What makes a good contractor website in Syracuse?',
     aioAnswer:
       "A good Syracuse contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods you serve. Because most Syracuse homeowners are searching during weather emergencies on mobile — a frozen pipe at midnight, a roof sagging under snow — speed and an obvious next step are what separate a site that books jobs from one that just sits there. Content that reflects knowledge of the local housing stock (Victorian, Craftsman, 1880–1930) also builds trust with the upstate homeowner who can spot a generic template instantly.",
@@ -299,7 +299,7 @@ export const syracuseLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Syracuse contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Syracuse web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const syracuseLocations = [
     citySlug: 'syracuse', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Syracuse Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Syracuse website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs before lake-effect season.',
+      'Syracuse website redesign that keeps every ranking you have earned. Faster, mobile-first rebuilds that convert more visitors into booked jobs before lake-effect season.',
     eyebrow: 'Website Redesign · Syracuse, NY',
-    h1: 'Redesign your Syracuse website without losing your rankings',
+    h1: 'Syracuse Website Redesign that keeps every ranking you have earned through snow season',
     h2Exact: 'Syracuse Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every winter — slow, hard to use on a phone, easy to ignore when a homeowner needs a contractor now. We redesign Syracuse contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Syracuse contractor sites for speed and conversions, build them to speak to the snow-season reality and old-housing stock of this market, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Syracuse website redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Syracuse contractor sites for speed and conversions, make them speak to the snow-season reality and old-housing stock of this market, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them — because the new site is faster, mobile-first, and better structured than the old one. In Syracuse, timing matters too: ideally you launch before lake-effect season, not during it.",
@@ -365,7 +365,7 @@ export const syracuseLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings — and makes your site usable during the winter emergencies that drive your busiest calls." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. No pressure, just a plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Syracuse website redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. No pressure, just a plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const syracuseCity = {
 
   titleTag: 'Syracuse Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Syracuse contractors. Get found before lake-effect season and own your leads — built for the snowiest major city east.',
+    'Syracuse marketing for contractors: web design, SEO, and local SEO that get you ranked and booked before lake-effect season, with leads you actually own.',
 
   eyebrow: 'Syracuse · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Syracuse contractors found before the snow hits',
+  h1: 'Syracuse marketing for contractors: get ranked and booked before the snow hits',
   h2Exact: 'Syracuse Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the snowiest major city east of the Rockies. One team to get you ranking before lake-effect season, converting year-round, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const syracuseCity = {
   primaryCta: 'Get my free Syracuse audit',
 
   intro:
-    "If you run a contracting business in Syracuse, the snow is your market. With 123 inches of annual snowfall — more than Buffalo in most years — the lake-effect season from November through April defines your busiest months. Roof collapses, ice dams, heating failures, and frozen pipes flood the calendar, and the contractors who own the Google Map Pack heading into November own the winter. Add one of the most concentrated old-housing markets in the Northeast — Victorian and Craftsman homes from 1880 to 1930 in Strathmore, Sedgwick, and Eastwood — and you have a market with deep, specialist year-round demand. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve — all built to reflect the local identity that Syracuse homeowners respond to.",
+    "Syracuse marketing for contractors starts with one fact: the snow is your market. With 123 inches of annual snowfall — more than Buffalo in most years — the lake-effect season from November through April defines your busiest months. Roof collapses, ice dams, heating failures, and frozen pipes flood the calendar, and the contractors who own the Google Map Pack heading into November own the winter. Add one of the most concentrated old-housing markets in the Northeast — Victorian and Craftsman homes from 1880 to 1930 in Strathmore, Sedgwick, and Eastwood — and you have a market with deep, specialist year-round demand. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve — all built to reflect the local identity that Syracuse homeowners respond to.",
   aioQuestion: 'How do Syracuse contractors get more leads online?',
   aioAnswer:
     "Syracuse contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. The contractors who dominate here start their SEO months before lake-effect season hits in November, rank for snow-season emergency searches, and build sites that speak to the old-house specialist needs of neighborhoods like Strathmore, Sedgwick, and Eastwood. Upstate homeowners prefer local contractors, so content that reads as genuinely local — not a generic city-swap template — closes more jobs.",
@@ -422,6 +422,6 @@ export const syracuseCity = {
     { q: 'Why does the Syracuse market need a different approach?', a: "Two reasons. First, 123 inches of annual snowfall — more than Buffalo most years — means the contractor busy season is defined by lake-effect emergencies from November through April, and the contractors who rank before that season starts win the most calls. Second, the old housing stock in neighborhoods like Strathmore, Sedgwick, and Eastwood creates specialist demand all year, and upstate homeowners can spot a generic city-swap template instantly." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Syracuse areas do you serve?', a: "The full metro — Strathmore, Sedgwick, Eastwood, Tipperary Hill, Westcott, DeWitt, Fayetteville, Manlius, Liverpool, Clay, Cicero, East Syracuse, Camillus, North Syracuse, and Baldwinsville — with genuine neighborhood pages rather than one generic Syracuse page." },
-    { q: 'Where should I start?', a: "Start with a free Syracuse audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work before the next snow season. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Syracuse audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Syracuse contractor marketing that will bring in the most work before the next snow season. No pitch deck, just a plan." },
   ],
 };

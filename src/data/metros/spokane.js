@@ -111,15 +111,15 @@ export const spokaneLocations = [
     citySlug: 'spokane', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Spokane Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Spokane and three businesses show up on the map. We get you into those three before the snow hits, so the call lands with you.',
+      'Spokane Local SEO that turns South Hill and Liberty Lake "near me" searches into a ringing phone. We get you into the Map Pack before the snow hits.',
     eyebrow: 'Local SEO · Spokane, WA',
-    h1: 'When Spokane searches for what you do in a cold snap, be the first name they find',
+    h1: 'Spokane Local SEO that turns a South Hill "near me" search into a ringing phone before the snow falls',
     h2Exact: 'Spokane Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In Spokane, winter emergencies arrive fast and homeowners grab the first number they see. We get you into that top three for your neighborhoods before the freeze — so the call lands with you, not whoever ranked first.",
     primaryCta: 'Get my free Spokane audit',
     intro:
-      "Spokane local SEO comes down to one thing: when a homeowner on South Hill or in Liberty Lake searches your service plus \"near me\" at 10 p.m. in January, are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. Spokane is a distinct market — real winters with 45-plus inches of snow, wildfire smoke driving HVAC demand every August, and a wave of Seattle transplants who are used to paying for quality contractors. Becoming the name that owns those searches, in the neighborhoods you actually serve, is the whole game.",
+      "Spokane Local SEO comes down to one thing: when a homeowner on South Hill or in Liberty Lake searches your service plus \"near me\" at 10 p.m. in January, are you one of the three businesses in the Google Map Pack? Most people tap one of those three and never scroll. Spokane is a distinct market with real winters, 45-plus inches of snow, wildfire smoke driving HVAC demand every August, and a wave of Seattle transplants who are used to paying for quality contractors. Local SEO services that rank you on the map, in the neighborhoods you actually serve, are the whole game.",
     aioQuestion: 'How do Spokane businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Spokane neighborhoods. In Spokane, the winners rank for winter emergency searches before the cold hits, show up for wildfire-smoke HVAC queries in August, and have the reviews and neighborhood pages to win the trust of cost-conscious transplants who comparison-shop before they call.",
@@ -167,7 +167,7 @@ export const spokaneLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work — especially from well-researched transplants with real budgets — comes to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Spokane neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Spokane neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's the fastest way to see what Spokane Local SEO can actually do for your phone. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const spokaneLocations = [
     metaDescription:
       'Spokane SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Inland Northwest winters.',
     eyebrow: 'SEO Services · Spokane, WA',
-    h1: 'Get your Spokane business to the top of Google before the busy season hits',
+    h1: 'Spokane SEO that ranks you for the winter-emergency searches that book jobs',
     h2Exact: 'Spokane SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Spokane customers search and the leads keep coming — including during the winter surge and wildfire smoke season when demand spikes and the phone should be ringing. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const spokaneLocations = [
       { q: 'Do you cover Coeur d\'Alene and Post Falls?', a: "Yes. We build content and local SEO for the full Inland Northwest market — Spokane, the Valley, Liberty Lake, and across the Idaho border to Coeur d'Alene and Post Falls." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business — not just classic search results." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The Seattle and Portland transplants who've moved to Spokane especially tend to go straight to Google and pick the most credible result — those are the high-value leads you want to own." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is the fastest way to see what Spokane SEO can actually do for your pipeline. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const spokaneLocations = [
     metaDescription:
       "Spokane web design that turns visitors into booked jobs — fast, mobile-first sites built for Inland Northwest contractors. Transparent pricing, you own it.",
     eyebrow: 'Web Design · Spokane, WA',
-    h1: 'Spokane web design that turns visitors into booked jobs',
+    h1: 'Spokane Web Design built to convert clicks into calls when the temperature drops',
     h2Exact: 'Spokane Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Spokane contractors fast, mobile-first sites engineered to turn visitors into booked work — sites that look and sound like a trusted local business, not a national franchise template, because that's what wins trust in the Inland Northwest.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Spokane contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, nothing that tells a South Hill homeowner you actually serve their street. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn visitors into booked jobs — designed for a regional market where seasonal demand is intense and the best customers have coastal standards and local values.",
+      "Spokane web design is what separates the contractor who books the job from the one who gets skipped, and most Spokane contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, nothing that tells a South Hill homeowner you actually serve their street. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn visitors into booked jobs, designed for a regional market where seasonal demand is intense and the best customers have coastal standards and local values.",
     aioQuestion: 'What makes a good contractor website in Spokane?',
     aioAnswer:
       "A good Spokane contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods you serve. In Spokane, the best customers — many of them Seattle and Portland transplants — comparison-shop online before they call. A site that looks professional, names South Hill and Liberty Lake and Coeur d'Alene, and makes it obvious how to reach you is the difference between getting the call and losing it to the next result.",
@@ -299,7 +299,7 @@ export const spokaneLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Spokane contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Spokane web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const spokaneLocations = [
     citySlug: 'spokane', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Spokane Website Redesign | OnwardCraft',
     metaDescription:
-      "Redesign your Spokane website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs before winter hits. Free audit.",
+      "Spokane Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs before winter hits. Free SEO-safe audit.",
     eyebrow: 'Website Redesign · Spokane, WA',
-    h1: 'Redesign your Spokane website without losing your rankings',
+    h1: 'Spokane Website Redesign that keeps every ranking you have earned before winter hits',
     h2Exact: 'Spokane Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, nothing that tells a Spokane homeowner you're their local contractor. We redesign Inland Northwest contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned before the next busy season.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Spokane contractor sites for speed and conversions — built for the seasonal demand spikes and the practical Inland Northwest buyers who do their research before they call — and we migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Spokane Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Spokane contractor sites for speed and conversions, built for the seasonal demand spikes and the practical Inland Northwest buyers who do their research before they call, and we migrate with the redirects and SEO-safe care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one — which matters especially in Spokane, where seasonal demand comes on fast and you can't afford a traffic dip heading into winter.",
@@ -365,7 +365,7 @@ export const spokaneLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals — essential for capturing the urgent mobile searches that happen when the temperature drops or the smoke rolls in." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan — before you spend a dollar." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what a Spokane Website Redesign should fix, and a fixed-price quote with a timeline and an SEO-safe migration plan, before you spend a dollar." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const spokaneCity = {
 
   titleTag: 'Spokane Marketing for Contractors | OnwardCraft',
   metaDescription:
-    "Web design, SEO, and local SEO for Spokane contractors. Get found before winter hits, own your leads instead of renting them — built for the Inland Northwest.",
+    "Spokane marketing for contractors: web design, SEO, and local SEO that get you found before winter hits and own your leads instead of renting them.",
 
   eyebrow: 'Spokane · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Spokane contractors found before the season hits',
+  h1: 'Spokane marketing for contractors: get ranked and get booked before the freeze hits',
   h2Exact: 'Spokane Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the Inland Northwest — real winters, wildfire smoke season, and buyers who value local over corporate. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const spokaneCity = {
   primaryCta: 'Get my free Spokane audit',
 
   intro:
-    "If you run a contracting business in Spokane, your busy season doesn't creep up — it arrives fast when the temperature drops, and the contractors already ranking on Google are the ones who book it. Winning here takes three things working together: a site that converts the practical Inland Northwest buyer, SEO that ranks you for what people search before the snow hits, and local SEO that puts you in the Map Pack for the neighborhoods you actually serve — from South Hill to Coeur d'Alene. Here's how we help Spokane contractors do exactly that.",
+    "Spokane marketing for contractors has to account for one thing: your busy season doesn't creep up, it arrives fast when the temperature drops, and the contractors already ranking on Google are the ones who book it. Winning here takes three things working together: a site that converts the practical Inland Northwest buyer, SEO that ranks you for what people search before the snow hits, and local SEO that puts you in the Map Pack for the neighborhoods you actually serve, from South Hill to Coeur d'Alene. Here's how we help Spokane contractors do exactly that.",
   aioQuestion: 'How do Spokane contractors get more leads online?',
   aioAnswer:
     "Spokane contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. In Spokane, the key is ranking for winter emergency and heating terms before November — and for wildfire HVAC and air-quality terms before August — so you're visible when demand spikes, not scrambling to catch up.",
@@ -422,6 +422,6 @@ export const spokaneCity = {
     { q: "Why does Spokane's market need a different approach than Seattle?", a: "Spokane's demand drivers are completely different. Real winters with 45-plus inches of snow mean frozen pipes, heating failures, and roof collapses define the busy season. Wildfire smoke drives HVAC filtration demand every August. And the best customers — many of them Seattle and Portland transplants — have coastal income and high standards and go to Google first. Winning means ranking for those seasonal and emergency terms before they matter, with content that sounds like a local business, not a national template." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Spokane areas do you serve?', a: "South Hill, Browne's Addition, Manito, Perry District, Liberty Lake, Airway Heights, Cheney, Spokane Valley, North Spokane, West Central, and across the Idaho border to Coeur d'Alene and Post Falls. We build genuine neighborhood pages for the areas you actually work." },
-    { q: 'Where should I start?', a: "Start with a free Spokane audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work before the next busy season. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Spokane audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that bring in the most work before the next busy season. It is the simplest first step into Spokane marketing for contractors that actually pays off. No pitch deck, just a plan." },
   ],
 };

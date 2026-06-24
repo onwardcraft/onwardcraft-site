@@ -109,11 +109,11 @@ export const tampaLocations = [
   {
     ...BASE,
     citySlug: 'tampa', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Tampa Local SEO Company | Win the Map Pack | OnwardCraft',
+    titleTag: 'Tampa Local SEO Company | Out-Rank the Competition | OnwardCraft',
     metaDescription:
-      'Search your trade in Tampa and three businesses fill the map. We put you in those three so the call rings your phone, not a competitor down the street.',
+      'Tampa Local SEO that ranks you above the competition on the map, from Hyde Park to Wesley Chapel. The call rings your phone, not a rival down the street.',
     eyebrow: 'Local SEO · Tampa Bay',
-    h1: 'When Tampa searches for what you do, be the name they tap first',
+    h1: 'Tampa Local SEO that ranks you above the competition from Hyde Park to Brandon',
     h2Exact: 'Tampa Local SEO Company',
     heroSubhead:
       "Type any service plus \"near me\" and Google hands the homeowner three businesses on a map. Everyone underneath them might as well not exist. We lift you into that top three so the call rings your phone instead of whoever beat you there, and so your calendar is already winning when the next storm lights up every phone in the bay.",
@@ -167,7 +167,7 @@ export const tampaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A growing slice of \"near me\" research now begins inside AI rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. In Tampa it is fast becoming as decisive as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is roughly how long local SEO needs to show genuine movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on our shoulders." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and borrowed visibility you never keep. We build rankings, a Google profile, and a review base that route homeowners straight to you. Month by month you lean on the brokers less, because the work is already coming to you direct." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to stay ahead, the fixes that will move you fastest, and a realistic 90 to 180 day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to stay ahead, the fixes that will move you fastest, and a realistic 90 to 180 day Tampa local SEO plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const tampaLocations = [
   {
     ...BASE,
     citySlug: 'tampa', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Tampa SEO Company | OnwardCraft',
+    titleTag: 'Tampa SEO Company | Climb Past the Competition | OnwardCraft',
     metaDescription:
-      'Tampa SEO that ranks contractors on Google and delivers leads you keep. Lead-tied reporting, no lock-in contracts, built for storm-season demand.',
+      'Tampa SEO that climbs contractors past the competition on Google and delivers leads you keep. Lead-tied reporting, no lock-in, built for storm-season demand.',
     eyebrow: 'SEO Services · Tampa Bay',
-    h1: 'Get your Tampa business to the top of Google and keep it parked there',
+    h1: 'Tampa SEO that climbs you past the competition on Google before the next storm hits',
     h2Exact: 'Tampa SEO Company',
     heroSubhead:
       "The instant you stop funding ads, the leads die. SEO runs the other direction: rank once for what Tampa homeowners search and the calls keep landing. We build that ranking and chain every report to real calls and booked jobs, not pretty traffic graphs.",
@@ -233,7 +233,7 @@ export const tampaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search results." },
       { q: 'Which areas around Tampa do you cover?', a: "All of Tampa Bay and the surrounding communities: Brandon, Riverview, Wesley Chapel, Carrollwood, St. Petersburg, Clearwater, Plant City and more, with genuine local pages rather than one generic Tampa page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route homeowners straight to you. The more of your search visibility you own, the less you depend on paying brokers for leads three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead, the highest-impact fixes, and a realistic Tampa SEO timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const tampaLocations = [
   {
     ...BASE,
     citySlug: 'tampa', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Tampa Web Design Company | Sites That Convert | OnwardCraft',
+    titleTag: 'Tampa Web Design Company | Fast Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'Tampa web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and the storm-season demand spike.',
+      'Tampa web design that loads fast and books more jobs: mobile-first sites built for contractors and the storm-season demand spike across the bay.',
     eyebrow: 'Web Design · Tampa Bay',
-    h1: 'Tampa web design that turns visitors into booked jobs',
+    h1: 'Tampa web design that loads fast on a phone and books more jobs across the bay',
     h2Exact: 'Tampa Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure with a domain. We build Tampa contractors fast, mobile-first sites engineered to turn visitors into booked work, and to stay standing the day storm season floods your inbox.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Tampa contractor websites bleed leads in silence: sluggish on a phone, a call button hidden three scrolls down, no offer worth acting on. Done right, web design closes every one of those leaks. We build sites that load fast, look like the professional you already are, and turn homeowners from Hyde Park to Wesley Chapel into booked jobs, then keep their footing when a storm sends your traffic vertical.",
+      "Tampa web design lives or dies on one thing: does the site load fast on a phone and hand the homeowner an obvious way to call you? Most contractor sites here bleed leads in silence, sluggish on mobile, a call button hidden three scrolls down, no offer worth acting on. Done right, the build closes every one of those leaks. We build sites that load fast, look like the professional you already are, and turn homeowners from Hyde Park to Wesley Chapel into booked jobs, then keep their footing when a storm sends your traffic vertical.",
     aioQuestion: 'What makes a good contractor website in Tampa?',
     aioAnswer:
       "A strong Tampa contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, earns trust with reviews and real project photos, and is built to absorb traffic spikes during storm season. Because most Tampa searches happen on mobile, phone speed and an unmistakable next step are what separate a site that books jobs from one that just sits there collecting dust.",
@@ -299,7 +299,7 @@ export const tampaLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and walk you through the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and after that we offer affordable monthly maintenance covering updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Tampa site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Tampa web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const tampaLocations = [
   {
     ...BASE,
     citySlug: 'tampa', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Tampa Website Redesign | OnwardCraft',
+    titleTag: 'Tampa Website Redesign | SEO-Safe Migration | OnwardCraft',
     metaDescription:
-      'Redesign your Tampa website without losing rankings. Faster, mobile-first rebuilds that book more jobs and hold up when storm season hits.',
+      'Tampa Website Redesign done with a careful, SEO-safe migration. Faster, mobile-first rebuilds that book more jobs and hold up when storm season hits the bay.',
     eyebrow: 'Website Redesign · Tampa Bay',
-    h1: 'Redesign your Tampa website without losing your rankings',
+    h1: 'Tampa Website Redesign done with a careful, SEO-safe migration that holds your rankings',
     h2Exact: 'Tampa Website Redesign Company',
     heroSubhead:
       "A dated site quietly costs you jobs every week: slow, awkward on a phone, easy for a Tampa homeowner to skip. We redesign contractor sites to convert more and load faster, and we migrate with enough care that you keep every bit of ranking you fought to earn.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns crash one of two ways: the site looks sharper but books the same number of jobs, or it launches and the rankings disappear overnight. We refuse both. We redesign Tampa contractor sites for speed and conversions, build them to take a storm-season traffic surge, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Tampa Website Redesign crashes one of two ways: the site looks sharper but books the same number of jobs, or it launches and the rankings disappear overnight. We refuse both. We redesign contractor sites for speed and conversions, build them to take a storm-season traffic surge, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO through a redesign by keeping your URL structure (or mapping a 301 redirect for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Handled right, a redesign keeps your rankings and lifts them, because the new site is faster, mobile-first, and better structured than the one it replaced.",
@@ -365,7 +365,7 @@ export const tampaLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts your conversions and your rankings together." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in, no strings." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what a Tampa Website Redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const tampaCity = {
 
   titleTag: 'Tampa Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Tampa contractors. Get found, get booked, and own your leads instead of renting them, built for storm-season demand.',
+    'Tampa marketing for contractors that fills your calendar: web design, SEO, and local SEO. Get found, get booked, and own your leads, built for storm-season demand.',
 
   eyebrow: 'Tampa · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Tampa contractors found and booked',
+  h1: 'Tampa marketing for contractors that fills your calendar before the next storm',
   h2Exact: 'Tampa Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Tampa Bay's fast-growing, storm-driven market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const tampaCity = {
   primaryCta: 'Get my free Tampa audit',
 
   intro:
-    "Run a contracting business in Tampa and you are competing for attention in one of the fastest-growing markets in the country, with new rivals showing up as quickly as new homeowners. Winning here takes three pieces locked together: a site that converts, SEO that ranks you for what people search, and local SEO that plants you in the Map Pack, all in place before the next storm sends demand through the roof. Here is how we help Tampa contractors pull off exactly that.",
+    "Tampa marketing for contractors comes down to competing for attention in one of the fastest-growing markets in the country, with new rivals showing up as quickly as new homeowners. Winning here takes three pieces locked together: a site that converts, SEO that ranks you for what people search, and local SEO that plants you in the Map Pack, all in place before the next storm sends demand through the roof. Here is how we help Tampa contractors pull off exactly that.",
   aioQuestion: 'How do Tampa contractors get more leads online?',
   aioAnswer:
     "Tampa contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Tampa Bay is growing fast and demand spikes hard during hurricane season, the contractors who look established and are already ranking before the storm capture the most work.",
@@ -422,6 +422,6 @@ export const tampaCity = {
     { q: 'Why does storm season matter for my marketing?', a: "When hurricanes like Helene and Milton cross Tampa Bay, demand for roofing, restoration, and HVAC explodes overnight and the backlog can run past a year. Ranking takes months to build, so the contractors already visible before the storm take that work. We get you in place ahead of season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope inside your free audit." },
     { q: 'Which Tampa areas do you serve?', a: "All of Tampa Bay and the surrounding communities: Hyde Park, Seminole Heights, Brandon, Riverview, Wesley Chapel, Carrollwood, St. Petersburg, Clearwater, Plant City and more." },
-    { q: 'Where should I start?', a: "Start with a free Tampa audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Tampa audit. We look at your website, your rankings, and your Map Pack presence, then map the Tampa marketing for contractors that brings in the most work fastest. No pitch deck, just a plan." },
   ],
 };
