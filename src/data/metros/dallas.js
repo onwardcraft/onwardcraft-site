@@ -114,15 +114,15 @@ export const dallasLocations = [
     citySlug: 'dallas', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Dallas Local SEO Company | Map Pack | OnwardCraft',
     metaDescription:
-      'Search any trade in Dallas and Google pins three businesses to the map. We get you into those three so the calls from hail season land with you first.',
+      'Dallas Local SEO that pins your business to the Google Map Pack, so the calls from hail season and every "near me" search land with you first.',
     eyebrow: 'Local SEO · Dallas-Fort Worth',
-    h1: 'When Dallas searches for what you do, be the first name on the map',
+    h1: 'Dallas Local SEO that puts you first on the map when homeowners search',
     h2Exact: 'Dallas Local SEO Company',
     heroSubhead:
       "Google pins exactly three businesses to the map on a \"near me\" search, and everyone underneath them is invisible. We move you into that top three, so when the next cell hits Plano or Arlington, the homeowner taps your number instead of whoever happened to rank first.",
     primaryCta: 'Get my free Dallas audit',
     intro:
-      "Local SEO in Dallas is a street fight. The metro is enormous, it keeps growing, and it sits dead center in hail alley, so demand for roofing and restoration can double in the days after a storm. A homeowner in Frisco or Oak Cliff thumbs one of the three businesses Google pinned to the map and never scrolls past them. Becoming one of those three is the entire contest, and building it is exactly what we do.",
+      "Dallas Local SEO is a street fight, and winning the Google Map Pack is the whole prize. The metro is enormous, it keeps growing, and it sits dead center in hail alley, so demand for roofing and restoration can double in the days after a storm. A homeowner in Frisco or Oak Cliff runs a \"near me\" search, thumbs one of the three businesses Google pinned to the map, and never scrolls past them. Becoming one of those three is the entire contest, and building it is exactly what our local SEO services do.",
     aioQuestion: 'How do Dallas businesses rank higher in local search?',
     aioAnswer:
       "Ranking comes down to four things done right: a Google Business Profile tuned to the services and suburbs you want, name-address-phone listings that match everywhere Google checks, a steady stream of real reviews, and local content for the neighborhoods you cover. Dallas is crowded and storm-prone, so the winners look established, reply fast, and are already ranked the day a hailstorm sends demand vertical.",
@@ -170,7 +170,7 @@ export const dallasLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research starts inside AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as decisive as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is roughly how long local SEO needs to show real movement. After that it runs month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the brokers less because the work is already finding you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your DFW service areas, what your Map Pack competitors are doing to outrank you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your shop. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your DFW service areas, what your Map Pack competitors are doing to outrank you, the fixes that move you fastest, and a realistic 90-to-180-day Dallas Local SEO plan with the numbers run for your shop. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -182,13 +182,13 @@ export const dallasLocations = [
     metaDescription:
       'Dallas SEO that ranks contractors on Google, brings in leads you own, and gets you found the moment hail season hits. Revenue-tied reporting, no lock-in.',
     eyebrow: 'SEO Services · Dallas-Fort Worth',
-    h1: 'Put your Dallas business at the top of Google and hold it there',
+    h1: 'Dallas SEO that puts your business at the top of Google and holds it there',
     h2Exact: 'Dallas SEO Company',
     heroSubhead:
       "Ads die the second you stop feeding them. SEO does the opposite: rank once for what your Dallas customers search, and the leads keep arriving, including the surge every time a storm tears across DFW. We build that ranking and tie every report to real calls and booked jobs.",
     primaryCta: 'Get my free Dallas SEO audit',
     intro:
-      "SEO services in Dallas boil down to one question: when a homeowner searches what you do, are you on page one or page two? Page two might as well be page fifty. We get DFW contractors ranking for the money keywords, ready for the hail-season jump in \"roof repair\" and \"storm damage\" searches, and we score it in leads rather than vanity traffic.",
+      "Dallas SEO boils down to one question: when a homeowner searches what you do, are you on page one or page two? Page two might as well be page fifty. As a Dallas SEO company built for the trades, we get DFW contractors ranking on Google for the money keywords, ready for the hail-season jump in \"roof repair\" and \"storm damage\" searches, and we score it in leads rather than vanity traffic.",
     aioQuestion: 'How do Dallas businesses rank higher on Google?',
     aioAnswer:
       "They rank by repairing the technical foundation of the site, tuning each page to the exact terms customers search, publishing genuinely useful local content, and earning links from trusted DFW sources. In a sprawling, storm-driven market like Dallas, being ranked before hail season and keeping the site quick on mobile are two of the fastest ways to pass competitors who optimize for nothing in particular.",
@@ -236,7 +236,7 @@ export const dallasLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing slice of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search results." },
       { q: 'Which areas around Dallas do you cover?', a: "All of Dallas-Fort Worth and the surrounding suburbs: Plano, Frisco, McKinney, Arlington, Irving, Garland, Richardson and more, each with genuine local pages rather than one generic Dallas page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads straight to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your shop. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic Dallas SEO timeline with the numbers modeled for your shop. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -254,7 +254,7 @@ export const dallasLocations = [
       "A handsome website that never rings the phone is just a brochure. We build Dallas contractors fast, mobile-first sites engineered to turn visitors into booked work, and to stay standing when a hailstorm shoves a flood of traffic your way.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Dallas contractor sites bleed leads quietly: sluggish on a phone, call button buried, no clear offer anywhere. Then a storm rolls in, traffic spikes, and the site cannot convert any of it. Web design done right closes every one of those leaks. We build sites that load fast, carry themselves like the pro you are, and turn Plano-to-Oak-Cliff visitors into booked jobs.",
+      "Dallas Web Design is the difference between a contractor website that books jobs and one that bleeds leads quietly: sluggish on a phone, call button buried, no clear offer anywhere. Then a storm rolls in, traffic spikes, and the site cannot convert any of it. Done right, it closes every one of those leaks. We build fast-loading, mobile-first sites that carry themselves like the pro you are and turn Plano-to-Oak-Cliff visitors into booked jobs.",
     aioQuestion: 'What makes a good contractor website in Dallas?',
     aioAnswer:
       "A strong Dallas contractor website loads in under three seconds on a phone, keeps the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to absorb traffic spikes during storm season. Because most Dallas searches happen on mobile and demand can surge overnight after hail, mobile speed and a conversion-first layout are what separate a site that books jobs from one that just sits there.",
@@ -302,7 +302,7 @@ export const dallasLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs in plain terms." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Dallas site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Dallas web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -312,15 +312,15 @@ export const dallasLocations = [
     citySlug: 'dallas', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Dallas Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Dallas website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
+      'Dallas Website Redesign without losing rankings: faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
     eyebrow: 'Website Redesign · Dallas-Fort Worth',
-    h1: 'Redesign your Dallas website without surrendering your rankings',
+    h1: 'Dallas Website Redesign that wins more leads without surrendering your rankings',
     h2Exact: 'Dallas Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, and useless under a storm surge. We redesign Dallas contractor sites to convert more and load faster, and we migrate with such care that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go wrong in one of two ways: the site looks sharper but converts exactly the same, or it launches and the rankings evaporate overnight. We do neither. We redesign Dallas contractor sites for speed and conversions, build in storm-damage pages where DFW demand concentrates, and migrate with the redirects and SEO discipline that protect the traffic you already have.",
+      "A Dallas Website Redesign goes wrong in one of two ways: the site looks sharper but converts exactly the same, or it launches and the rankings evaporate overnight. We do neither. We rebuild Dallas contractor sites for speed and conversions, build in storm-damage pages where DFW demand concentrates, and handle an SEO-safe migration with the redirects and discipline that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and even improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -368,7 +368,7 @@ export const dallasLocations = [
       { q: 'Can you add storm-damage and insurance pages?', a: "Absolutely, and in DFW we recommend it. Dedicated pages for hail, storm damage, and insurance claims capture the surge of searches every hail season brings and turn them into booked jobs." },
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what a Dallas Website Redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -378,10 +378,10 @@ export const dallasCity = {
 
   titleTag: 'Dallas Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Dallas-Fort Worth contractors. Get found, get booked, catch hail season, and own your leads instead of renting them.',
+    'Dallas marketing for contractors: web design, SEO, and local SEO that get you found, get you booked, catch hail season, and own your leads instead of renting them.',
 
   eyebrow: 'Dallas · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Dallas contractors found and booked',
+  h1: 'Dallas marketing for contractors that gets you found and booked',
   h2Exact: 'Dallas Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for DFW's huge, storm-driven market. One team to get you ranking, converting, and off the rented-lead treadmill, and ready the day hail season breaks.",
@@ -389,7 +389,7 @@ export const dallasCity = {
   primaryCta: 'Get my free Dallas audit',
 
   intro:
-    "Run a contracting business in Dallas-Fort Worth and you are scrapping for attention in one of the biggest, most competitive markets in the country, one that happens to sit in hail alley. Winning here takes three things firing together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack before the next storm breaks. Here is how we help DFW contractors pull off exactly that.",
+    "Dallas marketing for contractors means scrapping for attention in one of the biggest, most competitive markets in the country, one that happens to sit in hail alley. Winning here takes three things firing together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack before the next storm breaks. As a Dallas marketing agency built only for the trades, here is how we help DFW contractors pull off exactly that.",
   aioQuestion: 'How do Dallas contractors get more leads online?',
   aioAnswer:
     "Dallas contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because DFW leads the nation in hail claims and demand surges every storm season, the contractors already ranked and looking established catch that wave and win the most work.",
@@ -425,6 +425,6 @@ export const dallasCity = {
     { q: 'Can you help me catch DFW hail season?', a: "Yes, and it is one of the biggest reasons contractors work with us. North Texas leads the nation in hail claims, and roofing and restoration demand spikes April through June. We get you ranked and your site ready before the storms so you catch that surge instead of missing it." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Dallas areas do you serve?', a: "All of Dallas-Fort Worth and the surrounding suburbs: Plano, Frisco, McKinney, Arlington, Irving, Garland, Richardson, Allen, Grand Prairie and beyond." },
-    { q: 'Where should I start?', a: "Start with a free Dallas audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Dallas audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two Dallas marketing moves that will bring contractors the most work fastest. No pitch deck, just a plan." },
   ],
 };

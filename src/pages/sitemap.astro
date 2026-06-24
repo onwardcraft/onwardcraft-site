@@ -60,7 +60,7 @@ const corePages = [
                   <a class="sm-city" href={`/${c.citySlug}/`}>{c.city}</a>
                   <span class="sm-svcs">
                     {c.services.map((s) => (
-                      <a href={`/${c.citySlug}/${s.serviceSlug}/`}>{s.service}</a>
+                      <a href={`/${c.citySlug}/${s.serviceSlug}/`}>{c.city} {s.service}</a>
                     ))}
                   </span>
                 </li>

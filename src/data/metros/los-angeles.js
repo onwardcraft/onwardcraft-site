@@ -111,9 +111,9 @@ export const losAngelesLocations = [
     citySlug: 'los-angeles', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Los Angeles Local SEO Company | OnwardCraft',
     metaDescription:
-      'When your LA neighborhood searches your service, three businesses show up on the map. We get you into those three, in English and Spanish.',
+      'Los Angeles Local SEO that puts contractors in the Google Map Pack. We get you into the top three, in English and Spanish.',
     eyebrow: 'Local SEO · Greater Los Angeles',
-    h1: 'When your LA neighborhood searches for what you do, be the first name they find',
+    h1: 'Los Angeles Local SEO that puts your business in the top three on the map',
     h2Exact: 'Los Angeles Local SEO Company',
     heroSubhead:
       "Search \"near me\" in Los Angeles and Google pins exactly three businesses to the map. Everyone underneath them is effectively invisible. In a metro this big, the prize is owning your real service area, whether that is Sherman Oaks, Torrance, or the San Gabriel Valley, in the language your customers are actually typing.",
@@ -167,7 +167,7 @@ export const losAngelesLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A growing share of LA \"near me\" research now starts inside AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. In this market it is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that route LA homeowners straight to you. Over time you lean on the lead brokers less, because the work is already coming to you directly." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the honest starting point for Los Angeles Local SEO that ranks you on the map. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const losAngelesLocations = [
     metaDescription:
       'Los Angeles SEO that ranks contractors on Google and brings in leads you own. Lead-tied reporting, no lock-in, bilingual-ready for the LA market.',
     eyebrow: 'SEO Services · Greater Los Angeles',
-    h1: 'Get your Los Angeles business to the top of Google and keep it there',
+    h1: 'Los Angeles SEO that gets your business to the top of Google and keeps it there',
     h2Exact: 'Los Angeles SEO Company',
     heroSubhead:
       "Ads die the instant your card stops. SEO works the opposite way: rank once for what your LA customers search, and the leads keep arriving. We build that ranking across your real service area and tie every report to actual calls and booked jobs, not traffic charts.",
@@ -233,7 +233,7 @@ export const losAngelesLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your LA business, not just classic search results." },
       { q: 'Which areas around LA do you cover?', a: "All of Greater Los Angeles and the surrounding cities: Glendale, Pasadena, Burbank, Torrance, Long Beach, Santa Monica, Inglewood, Downey, and more, with genuine local pages rather than one catch-all LA page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route LA leads directly to you. The more of your search visibility you own, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is where Los Angeles SEO that grows organic traffic and booked leads actually starts. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -251,7 +251,7 @@ export const losAngelesLocations = [
       "A good-looking website that never generates a call is just an expensive brochure. We build LA contractors fast, mobile-first sites engineered to turn visitors into booked work, and ready to serve the enormous bilingual market most of your competitors quietly ignore.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Los Angeles contractor websites bleed leads without anyone noticing: slow on a phone, call button buried, no clear offer, English-only in a county where 40% of households speak Spanish at home. Web design done properly closes every one of those leaks. We build sites that load fast, carry the authority your work deserves, and turn visitors across the Valley, the South Bay, and the San Gabriel Valley into booked jobs.",
+      "Los Angeles web design is the difference between a site that books jobs and one that bleeds leads without anyone noticing: slow on a phone, call button buried, no clear offer, English-only in a county where 40% of households speak Spanish at home. Website design done properly closes every one of those leaks. We build mobile-first sites that load fast, carry the authority your work deserves, and turn visitors across the Valley, the South Bay, and the San Gabriel Valley into booked jobs.",
     aioQuestion: 'What makes a good contractor website in Los Angeles?',
     aioAnswer:
       "A strong LA contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the neighborhoods you serve outright. Because the metro is huge and roughly 40% of LA County households speak Spanish at home, mobile speed, a clear service area, and bilingual options are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const losAngelesLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can genuinely manage yourself, usually WordPress or Webflow. We will recommend the right fit in your free consult and walk through the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost LA leads, what a high-converting site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost LA leads, what a high-converting site should include, and a fixed-price quote with a timeline. It is a plain starting point for Los Angeles web design that turns visitors into booked jobs. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const losAngelesLocations = [
     citySlug: 'los-angeles', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Los Angeles Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Los Angeles website without losing rankings. Faster, mobile-first, bilingual-ready rebuilds that convert more visitors into booked jobs.',
+      'Los Angeles Website Redesign without losing rankings. Faster, mobile-first, bilingual-ready rebuilds that convert more visitors into booked jobs.',
     eyebrow: 'Website Redesign · Greater Los Angeles',
-    h1: 'Redesign your Los Angeles website without losing your rankings',
+    h1: 'Los Angeles Website Redesign that converts more without losing your rankings',
     h2Exact: 'Los Angeles Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, awkward on a phone, easy to scroll past, and completely silent to the half of LA that searches in Spanish. We redesign LA contractor sites to convert more and load faster, then migrate with care so you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks sharper but converts exactly the same, or it launches and the rankings vanish overnight. We refuse to do either. We redesign Los Angeles contractor sites for speed and conversions, build them bilingual-ready for the LA market, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Los Angeles Website Redesign goes one of two bad ways for most contractors: the site looks sharper but converts exactly the same, or it launches and the rankings vanish overnight. We refuse to do either. We rebuild Los Angeles contractor sites for speed and conversions, build them bilingual-ready for the LA market, and run an SEO-safe migration with the redirects that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const losAngelesLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings across the LA market." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in LA leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in LA leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It is the honest first step toward a Los Angeles Website Redesign that lifts conversions without losing rankings." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const losAngelesCity = {
 
   titleTag: 'Los Angeles Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Los Angeles contractors. Get found, get booked, and own your leads instead of renting them. Bilingual-ready for LA.',
+    'Los Angeles marketing for contractors: web design, SEO, and local SEO. Get found, get booked, and own your leads instead of renting them. Bilingual-ready for LA.',
 
   eyebrow: 'Los Angeles · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Los Angeles contractors found and booked',
+  h1: 'Los Angeles marketing for contractors that gets you found and booked',
   h2Exact: 'Los Angeles Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for LA's enormous, bilingual market. One team to get you ranking in the neighborhoods you serve, converting visitors into calls, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const losAngelesCity = {
   primaryCta: 'Get my free Los Angeles audit',
 
   intro:
-    "If you run a contracting business in Los Angeles, you are competing for attention in one of the largest, fiercest, most bilingual markets in the country. Winning here takes three pieces working together: a site that converts, SEO that ranks you for what people search in the neighborhoods you serve, and local SEO that pins you to the Map Pack, in both English and Spanish where it counts. Here is how we help LA contractors pull all three off.",
+    "Los Angeles marketing for contractors means competing for attention in one of the largest, fiercest, most bilingual markets in the country. Winning here takes three pieces working together: a site that converts, SEO that ranks you for what people search in the neighborhoods you serve, and local SEO that pins you to the Map Pack, in both English and Spanish where it counts. As a digital marketing agency built for the trades, here is how we help LA contractors get found and booked.",
   aioQuestion: 'How do Los Angeles contractors get more leads online?',
   aioAnswer:
     "LA contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack in their service area. Because Greater Los Angeles is huge and roughly 40% of LA County households speak Spanish at home, the contractors who target real neighborhoods and serve both languages win the most work.",
@@ -422,6 +422,6 @@ export const losAngelesCity = {
     { q: 'Why does the bilingual market matter for my marketing?', a: "Roughly 48% of Greater Los Angeles is Hispanic or Latino and about 40% of LA County households speak Spanish at home. A large share of your customers search, read, and call in Spanish. Showing up and converting in both languages unlocks demand English-only competitors never reach. We build that the right way so it strengthens your rankings." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free audit." },
     { q: 'Which LA areas do you serve?', a: "All of Greater Los Angeles and the surrounding cities: Sherman Oaks, Encino, Pasadena, Glendale, Burbank, Torrance, Long Beach, Santa Monica, Inglewood, Downey, and more. We target the specific neighborhoods your trucks actually serve, not one catch-all LA listing." },
-    { q: 'Where should I start?', a: "Start with a free Los Angeles audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Los Angeles audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It is the simplest way to see what Los Angeles marketing for contractors can do for your pipeline. No pitch deck, just a plan." },
   ],
 };

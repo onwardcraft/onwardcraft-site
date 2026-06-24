@@ -98,7 +98,7 @@ const schema = [
         </nav>
         <p class="eyebrow"><span class="eyebrow-dot"></span>{loc.eyebrow}</p>
         <h1>{loc.h1}</h1>
-        <p class="h2-exact">{loc.h2Exact}</p>
+        <h2 class="h2-exact">{loc.h2Exact}</h2>
         <p class="hero-sub">{loc.heroSubhead}</p>
         <div class="hero-actions">
           <a href={CALENDLY} class="btn-primary" rel="noopener noreferrer">{loc.primaryCta}
@@ -424,14 +424,6 @@ const schema = [
         <div class="chips">
           {loc.areasServed.map((a) => <span class="chip">{a}</span>)}
         </div>
-        {sameCity.length > 0 && (
-          <div class="service-links">
-            <span>More for {loc.city} businesses:</span>
-            {sameCity.map((l) => (
-              <a href={`/${l.citySlug}/${l.serviceSlug}/`}>{l.service}</a>
-            ))}
-          </div>
-        )}
         {nearbyServiceCities.length > 0 && (
           <div class="nearby-links reveal">
             <h3>{loc.service} in nearby cities</h3>
@@ -448,6 +440,28 @@ const schema = [
         )}
       </div>
     </section>
+
+    <!-- Other services in this city (keyword-rich internal links) -->
+    {sameCity.length > 0 && (
+      <section class="section section-alt">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">More {loc.city} services</p>
+            <h2>Other ways we help {loc.city} contractors get found</h2>
+          </div>
+          <div class="other-svc-grid stagger-children">
+            {sameCity.map((l) => (
+              <a class="other-svc-card stagger-item" href={`/${l.citySlug}/${l.serviceSlug}/`}>
+                <h3>{loc.city} {l.service}</h3>
+                <span class="other-svc-link">Explore {loc.city} {l.service}
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
   </main>
 
   <FinalCTA dark />
@@ -666,10 +680,19 @@ const schema = [
   .faq-item[open] summary::after { content: '−'; }
   .faq-item p { font-size: 15px; line-height: 1.7; color: var(--l-body); padding: 0 0 20px; margin: 0; }
 
-  /* ── Service links ── */
-  .service-links { margin-top: 32px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; font-size: 15px; color: var(--l-body); }
-  .service-links a { color: var(--l-teal-ink); text-decoration: none; font-weight: 600; border-bottom: 1px solid transparent; transition: border-color 0.2s; }
-  .service-links a:hover { border-color: var(--l-teal); }
+  /* ── Other services in this city ── */
+  .other-svc-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .other-svc-card {
+    display: flex; flex-direction: column; gap: 14px; justify-content: space-between;
+    background: var(--l-bg); border: 1px solid var(--l-border); border-radius: 16px; padding: 26px 28px;
+    text-decoration: none; box-shadow: var(--l-shadow);
+    transition: transform 0.3s cubic-bezier(0.22,1,0.36,1), border-color 0.3s, box-shadow 0.3s;
+  }
+  .other-svc-card:hover { transform: translateY(-4px); border-color: var(--l-teal); box-shadow: 0 0 0 1px var(--l-teal), 0 22px 46px rgba(6,214,160,0.12); }
+  .other-svc-card h3 { font-family: var(--font-heading); font-size: 20px; font-weight: 800; color: var(--l-ink); margin: 0; letter-spacing: -0.02em; }
+  .other-svc-link { display: inline-flex; align-items: center; gap: 7px; font-weight: 700; color: var(--l-teal-ink); font-size: 14.5px; }
+  .other-svc-card:hover .other-svc-link { gap: 11px; }
+  @media (max-width: 860px) { .other-svc-grid { grid-template-columns: 1fr; } }
 
   .nearby-links { margin-top: 44px; padding-top: 36px; border-top: 1px solid var(--l-border); }
   .nearby-links h3 { font-family: var(--font-heading); font-size: 20px; font-weight: 700; color: var(--l-ink); margin-bottom: 18px; }
