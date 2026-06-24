@@ -109,17 +109,17 @@ export const cedarRapidsLocations = [
   {
     ...BASE,
     citySlug: 'cedar-rapids', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Cedar Rapids Local SEO Company | OnwardCraft',
+    titleTag: 'Cedar Rapids Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Cedar Rapids and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Cedar Rapids Local SEO that gets you found when neighbors search your trade. We get you into the Google Map Pack, so the call lands with you.',
     eyebrow: 'Local SEO · Cedar Rapids',
-    h1: 'When Cedar Rapids searches for what you do, be the first name they find',
+    h1: 'Cedar Rapids Local SEO that gets you found when neighbors search your trade in Wellington Heights and Marion',
     h2Exact: 'Cedar Rapids Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the call lands with you instead of whoever ranked first, and so you're already there when the next storm fills every phone in the metro.",
     primaryCta: 'Get my free Cedar Rapids audit',
     intro:
-      "Cedar Rapids local SEO comes down to one moment: a homeowner in Wellington Heights or Marion types your service plus \"near me,\" and either you are one of the three businesses Google pins to the map or you are not. Most people tap one of those three and never scroll. Ever since the 2020 derecho, storm and rebuild work has kept the trades busy here, so landing in that top three is the whole game. Here's how we get you there.",
+      "Cedar Rapids Local SEO comes down to one moment: a homeowner in Wellington Heights or Marion types your service plus \"near me,\" and either you are one of the three businesses Google pins to the map or you are not. Most people tap one of those three and never scroll. A tuned Google Business Profile and steady local search signals are what put you there. Ever since the 2020 derecho, storm and rebuild work has kept the trades busy here, so landing in the Google Map Pack is the whole game. Here's how we get you there.",
     aioQuestion: 'How do Cedar Rapids businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile tuned to the exact services and neighborhoods you want; a name, address, and phone that match everywhere online; a steady flow of real reviews; and local content tied to genuine Cedar Rapids neighborhoods. Eastern Iowa is storm-prone, with derecho, tornadoes, ice, and Cedar River flooding all driving demand, so the winners look established, answer fast, and already rank when work surges.",
@@ -167,7 +167,7 @@ export const cedarRapidsLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A growing slice of \"near me\" research now starts in AI rather than classic search. We structure your content and schema so those engines can read, trust, and name your business. Around here it's getting close to as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that's roughly how long local SEO takes to show real movement. After that you're month-to-month. If we aren't delivering, you walk, and the accountability sits on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and a visibility you never keep. We build rankings, a Google profile, and a review base that route homeowners straight to you. As that grows, you depend on the brokers less because the work is already coming in direct." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to stay ahead, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your shop. No pitch deck, just a diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to stay ahead, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your shop. No pitch deck, just a diagnosis and a clear path for your Cedar Rapids Local SEO." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const cedarRapidsLocations = [
   {
     ...BASE,
     citySlug: 'cedar-rapids', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Cedar Rapids SEO Company | OnwardCraft',
+    titleTag: 'Cedar Rapids SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Cedar Rapids SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand.',
+      'Cedar Rapids SEO that turns organic traffic into booked work for contractors. Rank on Google for money keywords, with revenue-tied reporting and no lock-in.',
     eyebrow: 'SEO Services · Cedar Rapids',
-    h1: 'Get your Cedar Rapids business to the top of Google and keep it there',
+    h1: 'Cedar Rapids SEO that turns organic traffic into booked work through eastern Iowa storm season',
     h2Exact: 'Cedar Rapids SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Cedar Rapids customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
     primaryCta: 'Get my free Cedar Rapids SEO audit',
     intro:
-      "Cedar Rapids SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in a value-driven, storm-prone eastern Iowa market, and we measure it in leads, not vanity traffic.",
+      "Cedar Rapids SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors to rank on Google for the money keywords in a value-driven, storm-prone eastern Iowa market, then turn that organic traffic into booked jobs and measure it in leads, not vanity numbers.",
     aioQuestion: 'How do Cedar Rapids businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Cedar Rapids sources. In a market with strong seasonal swings, from derecho rebuild to winter ice to spring flooding, keeping the site fast on mobile and ranking for storm-driven, seasonal terms are two of the quickest ways to pull ahead.",
@@ -233,7 +233,7 @@ export const cedarRapidsLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search results." },
       { q: 'Which areas around Cedar Rapids do you cover?', a: "The whole metro and the surrounding Corridor: Marion, Hiawatha, Robins, Ely, Fairfax, Mount Vernon, Center Point and more, built on genuine local pages rather than one generic Cedar Rapids page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send homeowners straight to you. The more of your search visibility you own, the less you lean on brokers for leads three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis and a clear plan for your Cedar Rapids SEO." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const cedarRapidsLocations = [
   {
     ...BASE,
     citySlug: 'cedar-rapids', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Cedar Rapids Web Design Company | OnwardCraft',
+    titleTag: 'Cedar Rapids Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Cedar Rapids web design that turns visitors into booked jobs. Fast, mobile-first sites built for contractors and ready for storm-season demand.',
+      'Cedar Rapids web design that makes homeowners pick you. Fast, mobile-first contractor websites built to convert visitors into booked jobs and ready for storms.',
     eyebrow: 'Web Design · Cedar Rapids',
-    h1: 'Cedar Rapids web design that turns visitors into booked jobs',
+    h1: 'Cedar Rapids web design that makes value-minded homeowners pick you over the next name down the list',
     h2Exact: 'Cedar Rapids Web Design Company',
     heroSubhead:
       "A good-looking website that doesn't ring the phone is just a brochure. We build Cedar Rapids contractors fast, mobile-first sites engineered to turn visitors into booked work, and tough enough to hold up when storm season floods your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Cedar Rapids contractor websites bleed leads without anyone noticing: slow on a phone, the call button buried, no clear offer to act on. Web design done right plugs those leaks. We build sites that load fast, look like the professional you are, and turn Wellington-Heights-to-Marion visitors into booked jobs, and that hold steady when a derecho or ice storm sends your traffic through the roof.",
+      "Cedar Rapids Web Design is the difference between a contractor website that books jobs and one that quietly bleeds leads: slow on a phone, the call button buried, no clear offer to act on. Done right, it plugs those leaks. We build fast-loading, mobile-first sites that look like the professional you are and turn Wellington-Heights-to-Marion visitors into booked jobs, and that hold steady when a derecho or ice storm sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Cedar Rapids?',
     aioAnswer:
       "A good Cedar Rapids contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during storm season. Because most Cedar Rapids searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const cedarRapidsLocations = [
       { q: 'What platform do you build on?', a: "We match the platform to what you need and what you can comfortably manage on your own, usually WordPress or Webflow. We recommend the right fit in your free consult and lay out the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Cedar Rapids site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Cedar Rapids site should include, and a fixed-price quote with a timeline for your Cedar Rapids Web Design. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const cedarRapidsLocations = [
   {
     ...BASE,
     citySlug: 'cedar-rapids', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Cedar Rapids Website Redesign | OnwardCraft',
+    titleTag: 'Cedar Rapids Website Redesign | More Leads, No Traffic Loss | OnwardCraft',
     metaDescription:
-      'Redesign your Cedar Rapids website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm.',
+      'Cedar Rapids Website Redesign that turns an aging site into a lead engine. Faster, mobile-first rebuilds with an SEO-safe migration so you keep your rankings.',
     eyebrow: 'Website Redesign · Cedar Rapids',
-    h1: 'Redesign your Cedar Rapids website without losing your rankings',
+    h1: 'Cedar Rapids Website Redesign that turns an aging site into a lead engine without losing your rankings',
     h2Exact: 'Cedar Rapids Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Cedar Rapids homeowner to scroll right past. We redesign contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but books the same number of jobs, or it launches and the rankings drop off a cliff. We do neither. We redesign Cedar Rapids contractor sites for speed and conversions, build them to survive storm-season traffic surges, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Cedar Rapids Website Redesign goes one of two bad ways when it goes wrong: the site looks better but books the same number of jobs, or it launches and the rankings drop off a cliff. We do neither. We rebuild Cedar Rapids contractor sites for speed and conversions, build them mobile-first to survive storm-season traffic surges, and handle an SEO-safe migration with the redirects and care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const cedarRapidsLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan for your Cedar Rapids Website Redesign." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const cedarRapidsCity = {
 
   titleTag: 'Cedar Rapids Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Cedar Rapids contractors. Get found, get booked, and own your leads instead of renting them, all built for storm-season.',
+    'Cedar Rapids marketing for contractors that turns searches into jobs. Web design, SEO, and local SEO to get found, get booked, and own your leads, storm-ready.',
 
   eyebrow: 'Cedar Rapids · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Cedar Rapids contractors found and booked',
+  h1: 'Cedar Rapids marketing for contractors that turns storm-season searches into booked jobs',
   h2Exact: 'Cedar Rapids Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Cedar Rapids' value-driven, storm-prone market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const cedarRapidsCity = {
   primaryCta: 'Get my free Cedar Rapids audit',
 
   intro:
-    "If you run a contracting business in Cedar Rapids, you're competing for attention in a working manufacturing town where homeowners hold their houses for decades and weigh every dollar, and the field is crowded. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all set before the next derecho, ice storm, or flood sends demand through the roof. Here's how we help Cedar Rapids contractors do exactly that.",
+    "Cedar Rapids marketing for contractors means competing for attention in a working manufacturing town where homeowners hold their houses for decades and weigh every dollar, and the field is crowded. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all set before the next derecho, ice storm, or flood sends demand through the roof. As one team handling web design and SEO for Cedar Rapids contractors, here's how we help you get found and booked.",
   aioQuestion: 'How do Cedar Rapids contractors get more leads online?',
   aioAnswer:
     "Cedar Rapids contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because eastern Iowa demand spikes hard during storm season, from derecho to tornadoes to ice to Cedar River flooding, the contractors who look established and already rank before the storm win the most work.",
@@ -422,6 +422,6 @@ export const cedarRapidsCity = {
     { q: 'Why does storm season matter for my marketing?', a: "When the 2020 derecho flattened the city's tree canopy and roofs in under an hour, demand for roofing, restoration, and tree work spiked overnight and the backlog ran for years. The next ice storm, tornado, or flood does the same. Ranking takes months to build, so the contractors already visible before the storm take that work. We get you in place ahead of season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Cedar Rapids areas do you serve?', a: "All of the metro and the surrounding corridor: Wellington Heights, Czech Village, NewBo, Mound View, plus Marion, Hiawatha, Robins, Ely, Mount Vernon and more." },
-    { q: 'Where should I start?', a: "Start with a free Cedar Rapids audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Cedar Rapids audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan to put Cedar Rapids marketing for contractors to work for your shop." },
   ],
 };

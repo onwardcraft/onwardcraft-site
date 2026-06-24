@@ -110,15 +110,15 @@ export const billingsLocations = [
     citySlug: 'billings', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Billings Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'When Billings searches your service, three businesses show on the map. We put you in those three so the storm-season call lands with you, not a competitor.',
+      'Billings Local SEO that puts you in the Google Map Pack, so the storm-season "near me" call lands with you, not a competitor down the highway.',
     eyebrow: 'Local SEO · Billings',
-    h1: 'When Billings searches for what you do, be the first name they find',
+    h1: 'Billings Local SEO that puts your business in the Map Pack across the high plains',
     h2Exact: 'Billings Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when someone searches \"near me,\" and everyone underneath them might as well not exist. We get you into that top three, so the call lands with you instead of whoever ranked first, and so you're already there when the next hail line or cold snap fills every phone in the valley.",
     primaryCta: 'Get my free Billings audit',
     intro:
-      "Billings local SEO comes down to one moment: a homeowner in the Heights or out in Lockwood types your service plus \"near me,\" and either you're one of the three businesses Google pinned to the map or you're not. Most people tap one of those three and never scroll. Billings serves a trade area that stretches hundreds of miles, so winning one of those three spots is the whole game. Here's exactly how we get you there.",
+      "Billings Local SEO comes down to one moment: a homeowner in the Heights or out in Lockwood runs a \"near me\" search for your service, and either you're one of the three businesses Google pinned to the Map Pack or you're not. Most people tap one of those three and never scroll. Billings serves a trade area that stretches hundreds of miles, so a Billings local SEO company that can rank you on the map and keep you there is fighting for the whole game. Here's exactly how we get you there.",
     aioQuestion: 'How do Billings businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile tuned to the exact services and areas you want; name, address, and phone details that match everywhere online; a steady flow of real reviews; and local content built around genuine Billings neighborhoods. Because the city is a regional hub and weather drives demand in waves, the winners look established, answer fast, and are already ranking before the season turns.",
@@ -166,7 +166,7 @@ export const billingsLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts in AI tools instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you alone. Over time you lean on the brokers less because the work is already coming to you direct." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's the honest starting point for Billings Local SEO that actually earns its keep: no pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -178,7 +178,7 @@ export const billingsLocations = [
     metaDescription:
       'Billings SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in, built for winter heating and hail-season demand.',
     eyebrow: 'SEO Services · Billings',
-    h1: 'Get your Billings business to the top of Google and keep it there',
+    h1: 'Billings SEO that gets you to the top of Google for a region-wide trade area and keeps you there',
     h2Exact: 'Billings SEO Company',
     heroSubhead:
       "Ads die the second you stop paying. SEO does the reverse: rank once for what your Billings customers search and the leads keep arriving for months. We build that ranking and tie every report to real calls and booked jobs, not vanity charts.",
@@ -232,7 +232,7 @@ export const billingsLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business by name, not just classic search results." },
       { q: 'Which areas around Billings do you cover?', a: "All of Billings and the surrounding region: the Heights, Lockwood, Laurel, Shepherd, Worden, Columbus, Red Lodge and the towns that drive in, plus the wider catchment into northern Wyoming and the western Dakotas, with genuine local pages rather than one generic Billings page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for leads three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It's the clearest way to see what Billings SEO can do for your organic traffic before you spend a dollar: no pitch deck, just a diagnosis." },
     ],
   },
 
@@ -244,13 +244,13 @@ export const billingsLocations = [
     metaDescription:
       'Billings web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and ready for winter and hail-season demand.',
     eyebrow: 'Web Design · Billings',
-    h1: 'Billings web design that turns visitors into booked jobs',
+    h1: 'Billings Web Design that turns Heights-to-Red-Lodge visitors into booked jobs',
     h2Exact: 'Billings Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just an expensive brochure. We build Billings contractors fast, mobile-first sites engineered to turn visitors into booked work, and tough enough to hold up when a hail storm or a hard freeze sends your phone into overdrive.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Billings contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. Web design done right closes all of those leaks. We build sites that load fast, look like the professional you actually are, and turn Heights-to-West-End visitors into booked jobs, and that don't fall over when a hail line or cold snap sends your traffic through the roof.",
+      "Billings Web Design done right starts where most contractor websites bleed leads: slow on a phone, call button buried, no clear offer anywhere. We close all of those leaks. As a Billings web design company built for the trades, we build mobile-first sites that load fast, look like the professional you actually are, and turn Heights-to-West-End visitors into booked jobs, and that don't fall over when a hail line or cold snap sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Billings?',
     aioAnswer:
       "A good Billings contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during winter cold snaps and hail season. Because most Billings searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -298,7 +298,7 @@ export const billingsLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Billings site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Billings site should include, and a fixed-price quote with a timeline. It's a straight read on whether Billings Web Design built to convert visitors into booked jobs is worth it for you: no pressure, just a plan." },
     ],
   },
 
@@ -308,15 +308,15 @@ export const billingsLocations = [
     citySlug: 'billings', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Billings Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Billings website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up through hard winters.',
+      'Billings Website Redesign without losing your rankings: faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up through hard winters.',
     eyebrow: 'Website Redesign · Billings',
-    h1: 'Redesign your Billings website without losing your rankings',
+    h1: 'Billings Website Redesign that converts more without losing the rankings you have earned',
     h2Exact: 'Billings Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Billings homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you've already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Billings contractor sites for speed and conversions, build them to survive winter and hail-season demand surges, and migrate with the redirects and SEO care that protect the traffic you've spent years building.",
+      "Billings Website Redesign usually goes one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Billings contractor sites for speed and conversions, build them to survive winter and hail-season demand surges, and handle the SEO-safe migration with the redirects and care that protect the traffic you've spent years building.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -364,7 +364,7 @@ export const billingsLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It tells you plainly whether a Billings Website Redesign is worth it for your business before you commit a dollar." },
     ],
   },
 ];
@@ -374,10 +374,10 @@ export const billingsCity = {
 
   titleTag: 'Billings Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Billings contractors. Get found, get booked, and own your leads instead of renting them, all built for winter and hail-season demand.',
+    'Billings marketing for contractors: web design, SEO, and local SEO that get you found, get you booked, and let you own your leads through winter and hail-season demand.',
 
   eyebrow: 'Billings · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Billings contractors found and booked',
+  h1: 'Billings marketing for contractors that gets you found and booked across the high-plains hub',
   h2Exact: 'Billings Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Billings's regional-hub market and its hard winters and hail seasons. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -385,7 +385,7 @@ export const billingsCity = {
   primaryCta: 'Get my free Billings audit',
 
   intro:
-    "If you run a contracting business in Billings, you're serving the largest market in Montana and the hub for an enormous region that pulls customers in from Hardin, Roundup, Red Lodge, and across the Wyoming and Dakota lines. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the next cold snap or hail line sends demand through the roof. Here's exactly how we help Billings contractors pull that off.",
+    "Billings marketing for contractors has to fit the largest market in Montana and the hub for an enormous region that pulls customers in from Hardin, Roundup, Red Lodge, and across the Wyoming and Dakota lines. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the next cold snap or hail line sends demand through the roof. As a digital marketing agency built around the trades, here's exactly how we help Billings contractors get found and booked.",
   aioQuestion: 'How do Billings contractors get more leads online?',
   aioAnswer:
     "Billings contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Billings is the regional hub for a vast catchment and demand spikes hard during winter and hail season, the contractors who look established and are already ranking before the weather hits win the most work.",
@@ -421,6 +421,6 @@ export const billingsCity = {
     { q: 'Why does seasonal weather matter for my marketing?', a: "When a hail line crosses the Yellowstone Valley or a deep cold snap freezes pipes, demand for roofing, restoration, and HVAC spikes overnight and the backlog can run for weeks. Ranking takes months to build, so the contractors who are already visible before the weather take that work. We get you in place ahead of season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free audit." },
     { q: 'Which Billings areas do you serve?', a: "All of Billings and the surrounding region: the Heights, West End, Lockwood, Laurel, Shepherd, Worden, Columbus, Red Lodge and the towns that drive in, plus the wider catchment into northern Wyoming and the western Dakotas." },
-    { q: 'Where should I start?', a: "Start with a free Billings audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Billings audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It's the simplest first step into Billings marketing for contractors that gets you found and booked: no pitch deck, just a plan." },
   ],
 };

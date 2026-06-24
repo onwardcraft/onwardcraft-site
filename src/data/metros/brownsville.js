@@ -110,11 +110,11 @@ export const brownsvilleLocations = [
   {
     ...BASE,
     citySlug: 'brownsville', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Brownsville Local SEO Company | OnwardCraft',
+    titleTag: 'Brownsville Local SEO Company | Win the Valley Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Brownsville and three businesses show up on the map. We get you into those three, including Spanish-language searches.',
+      'Brownsville Local SEO that ranks you above the competition on the map, in English and Spanish, across the Rio Grande Valley. Get into the local 3-pack.',
     eyebrow: 'Local SEO · Brownsville, TX',
-    h1: 'When Brownsville searches for what you do, be the first name they find',
+    h1: 'Brownsville Local SEO that ranks you above the competition from Southmost to Los Fresnos',
     h2Exact: 'Brownsville Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In a market that's 94% Hispanic, we get you into that top three, in English and Spanish, so the call lands with you instead of whoever ranked first.",
@@ -168,7 +168,7 @@ export const brownsvilleLocations = [
       { q: 'How does the SpaceX Starbase development affect local SEO?', a: "SpaceX has brought hundreds of engineers and higher-income workers to the Boca Chica area, many of them new-to-town homeowners searching Google immediately for contractors. These are buyers with money to spend who don't have existing relationships with local tradespeople. If you're ranking when they search, you get the call." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across the Valley, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across the Valley, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's the honest starting point for the Brownsville Local SEO work that lands you in the local 3-pack and ranks you above the competition in both languages. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -176,11 +176,11 @@ export const brownsvilleLocations = [
   {
     ...BASE,
     citySlug: 'brownsville', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Brownsville SEO Company | OnwardCraft',
+    titleTag: 'Brownsville SEO Company | Climb Past the Competition on Google | OnwardCraft',
     metaDescription:
-      'Brownsville SEO that ranks contractors on Google in English and Spanish and brings in leads you own. Revenue-tied reporting, no lock-in, built for the Rio.',
+      'Brownsville SEO that climbs you past the competition on Google, in English and Spanish, for the money keywords that book jobs. Leads you own, no lock-in.',
     eyebrow: 'SEO Services · Brownsville, TX',
-    h1: 'Get your Brownsville business to the top of Google and keep it there',
+    h1: 'Brownsville SEO that climbs you past the competition on Google, in English and Spanish',
     h2Exact: 'Brownsville SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Brownsville customers search, in English and Spanish, and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -234,7 +234,7 @@ export const brownsvilleLocations = [
       { q: 'How does hurricane season affect SEO strategy?', a: "Hurricane season runs June through November in Brownsville, and roofing and restoration demand spikes with every storm. Ranking takes months to build, so you have to be in place before storm season, not chasing it after. We optimize for storm-related and emergency terms ahead of time so those calls land on you when demand surges." },
       { q: 'Which areas around Brownsville do you cover?', a: "All the key Rio Grande Valley communities: Brownsville, Harlingen, San Benito, Los Fresnos, Boca Chica, Palm Valley, Primera, Weslaco, and more, with genuine local pages rather than one generic Brownsville page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today in both English and Spanish searches, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today in both English and Spanish searches, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It's where Brownsville SEO starts: a clear path to page one for the money keywords and the organic traffic that books real work. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -242,17 +242,17 @@ export const brownsvilleLocations = [
   {
     ...BASE,
     citySlug: 'brownsville', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Brownsville Web Design Company | OnwardCraft',
+    titleTag: 'Brownsville Web Design Company | Fast Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'Brownsville web design that turns visitors into booked jobs. Fast, mobile-first, bilingual sites built for contractors in the Rio Grande Valley.',
+      'Brownsville web design that loads fast and books more jobs. Mobile-first, bilingual contractor websites that convert visitors across the Rio Grande Valley.',
     eyebrow: 'Web Design · Brownsville, TX',
-    h1: 'Brownsville web design that turns visitors into booked jobs',
+    h1: 'Brownsville web design that loads fast and books more jobs across the Rio Grande Valley',
     h2Exact: 'Brownsville Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Brownsville contractors fast, mobile-first, bilingual sites engineered to turn visitors into booked work, and to stand out in a market where the entire customer base is searching.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Brownsville contractor websites lose leads quietly: slow on a phone, buried call button, no Spanish content, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, speak to a 94 percent Hispanic market, and turn Valley-wide visitors into booked jobs.",
+      "Brownsville web design is where most contractor sites quietly lose leads: slow on a phone, buried call button, no Spanish content, no clear offer. A website design done right fixes all of that. We build mobile-first, fast-loading sites that look like the professional you are, speak to a 94 percent Hispanic market, and turn Valley-wide visitors into booked jobs.",
     aioQuestion: 'What makes a good contractor website in Brownsville?',
     aioAnswer:
       "A good Brownsville contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, includes Spanish-language content for a market that's 94% Hispanic, and names the specific Rio Grande Valley communities you serve. Because summers hit 106°F and hurricane season drives surges, seasonal trust signals for HVAC and roofing also matter. Mobile speed and bilingual content are what separate a site that books jobs from one that just sits there.",
@@ -300,7 +300,7 @@ export const brownsvilleLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage, usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting bilingual Brownsville site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting bilingual site should include, and a fixed-price quote with a timeline. It's the simplest way to see what Brownsville web design built to convert visitors into booked jobs can do for your business. No pressure, just a plan." },
     ],
   },
 
@@ -308,17 +308,17 @@ export const brownsvilleLocations = [
   {
     ...BASE,
     citySlug: 'brownsville', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Brownsville Website Redesign | OnwardCraft',
+    titleTag: 'Brownsville Website Redesign | SEO-Safe Rebuild | OnwardCraft',
     metaDescription:
-      'Redesign your Brownsville website without losing rankings. Faster, mobile-first, bilingual rebuilds that convert more visitors in the Rio Grande Valley.',
+      'Brownsville Website Redesign done with a careful, SEO-safe migration. Faster, mobile-first, bilingual rebuilds that convert more across the Rio Grande Valley.',
     eyebrow: 'Website Redesign · Brownsville, TX',
-    h1: 'Redesign your Brownsville website without losing your rankings',
+    h1: 'Brownsville Website Redesign done with a careful, SEO-safe migration that keeps your Valley rankings',
     h2Exact: 'Brownsville Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week: slow, English-only, hard to use on a phone. We redesign Brownsville contractor sites to convert more, reach a 94% Hispanic market in both languages, and load faster, while migrating carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Brownsville contractor sites for speed, bilingual reach, and conversions, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Brownsville Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild contractor sites for speed, bilingual reach, and conversions, then run a careful, SEO-safe migration with the redirects that protect the traffic you already have, all without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. For Brownsville contractors, a good redesign also adds Spanish-language content and bilingual UX that the old site likely lacked, which means the new site holds rankings and often improves them by opening up the Spanish-language search market.",
@@ -366,7 +366,7 @@ export const brownsvilleLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan, including how to open up the Spanish-language market you may currently be missing." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the rebuild should fix, and a fixed-price quote with a timeline and a safe migration plan, including how to open up the Spanish-language market you may currently be missing. It maps out a Brownsville Website Redesign that modernizes your site and keeps every ranking through an SEO-safe migration." },
     ],
   },
 ];
@@ -376,10 +376,10 @@ export const brownsvilleCity = {
 
   titleTag: 'Brownsville Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Brownsville contractors. Get found in English and Spanish, get booked, and own your leads, built for the Rio Grande.',
+    'Brownsville marketing for contractors that fills your calendar. Web design, SEO, and local SEO that get you found in English and Spanish across the Rio Grande.',
 
   eyebrow: 'Brownsville · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Brownsville contractors found and booked',
+  h1: 'Brownsville marketing for contractors that fills your calendar across the Rio Grande Valley',
   h2Exact: 'Brownsville Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the Rio Grande Valley: a 94% Hispanic market with extreme summer heat, hurricane exposure, and almost no Spanish-language competition to speak of.",
@@ -387,7 +387,7 @@ export const brownsvilleCity = {
   primaryCta: 'Get my free Brownsville audit',
 
   intro:
-    "If you run a contracting business in Brownsville, you're operating in one of the most distinctive markets in the country. Nearly 94 percent of residents are Hispanic, making this one of the most Hispanic large cities in the US, and a huge portion of local searches happen in Spanish. Summers hit 100 to 106 degrees for five straight months, hurricane season runs June through November, and SpaceX's Starbase in Boca Chica is bringing a new wave of higher-income homeowners who search Google the moment they arrive. Winning here takes three things: a site that converts, SEO that ranks you in both languages, and local SEO that puts you on the map across the Valley. Here's how we help Brownsville contractors do exactly that.",
+    "Brownsville marketing for contractors works differently here than almost anywhere else in the country. Nearly 94 percent of residents are Hispanic, making this one of the most Hispanic large cities in the US, and a huge portion of local searches happen in Spanish. Summers hit 100 to 106 degrees for five straight months, hurricane season runs June through November, and SpaceX's Starbase in Boca Chica is bringing a new wave of higher-income homeowners who search Google the moment they arrive. Winning here takes three things: a site that converts, SEO that ranks you in both languages, and local SEO that puts you on the map across the Valley. As a digital marketing agency built for the trades, here's how we help Brownsville contractors get found and booked.",
   aioQuestion: 'How do Brownsville contractors get more leads online?',
   aioAnswer:
     "Brownsville contractors get more leads by combining a fast, mobile-first bilingual website with SEO that ranks them for high-intent searches in both English and Spanish, and local SEO that wins the Google Map Pack across the Rio Grande Valley. Because 94% of Brownsville residents are Hispanic and most searches happen in Spanish, contractors who optimize for Spanish-language searches face almost no competition and capture a market their rivals can't see.",
@@ -423,6 +423,6 @@ export const brownsvilleCity = {
     { q: 'Why does the Brownsville market need a different approach?', a: "Because it's 94 percent Hispanic, and most search activity in that community happens in Spanish, which most agencies and contractors don't optimize for. On top of that, five months of extreme heat and an active hurricane season drive enormous sustained demand for HVAC and roofing. The contractors who rank in Spanish and for seasonal terms face almost no competition." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Brownsville and Valley areas do you serve?', a: "All the key communities: Brownsville, Harlingen, San Benito, Los Fresnos, Boca Chica, Palm Valley, Primera, Weslaco, and more, with genuine local pages rather than one generic Brownsville page." },
-    { q: 'Where should I start?', a: "Start with a free Brownsville audit. We'll look at your website, your rankings in English and Spanish, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Brownsville audit. We'll look at your website, your rankings in English and Spanish, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It's the front door to Brownsville marketing for contractors that gets you found and booked across the Rio Grande Valley. No pitch deck, just a plan." },
   ],
 };

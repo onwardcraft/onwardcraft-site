@@ -111,9 +111,9 @@ export const bostonLocations = [
     citySlug: 'boston', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Boston Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search a trade in Boston and three businesses sit on the map. We get you into those three so the ice-dam and burst-pipe calls land with you, not a competitor.',
+      'Boston Local SEO that gets you found when neighbors search your trade. We push you into the Map Pack so ice-dam and burst-pipe calls land with you.',
     eyebrow: 'Local SEO · Boston, MA',
-    h1: 'When Boston searches for what you do, be the first name on the map',
+    h1: 'Boston Local SEO that gets you found when a Dorchester neighbor searches your trade',
     h2Exact: 'Boston Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when a homeowner searches \"near me,\" and everyone underneath them is invisible. We push you into that top three so the call lands with you instead of whoever ranks first, and so you are already there when the next nor'easter sends every phone from Beacon Hill to Quincy into overdrive.",
@@ -168,7 +168,7 @@ export const bostonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now begins in AI tools instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business by name. In Boston that is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is about how long local SEO takes to show real movement in a market this competitive. After that you go month-to-month. If the Boston leads are not showing up, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you alone. Over time you lean on the brokers less because the work is already coming in direct." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your Boston neighborhoods, what your Map Pack competitors are doing to stay ahead of you, the fixes that move the needle fastest, and a realistic 90-to-180-day plan with the numbers run for your shop. No pitch deck, just a diagnosis you can act on." },
+      { q: "What's in the free audit?", a: "A straight read on where your Boston Local SEO stands today across your neighborhoods, what your Map Pack competitors are doing to stay ahead of you, the fixes that move the needle fastest, and a realistic 90-to-180-day plan with the numbers run for your shop. No pitch deck, just a diagnosis you can act on." },
     ],
   },
 
@@ -178,9 +178,9 @@ export const bostonLocations = [
     citySlug: 'boston', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Boston SEO Company | Rank Higher, Get Leads | OnwardCraft',
     metaDescription:
-      'Boston SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in, built for old-home work and winter-storm demand.',
+      'Boston SEO that turns organic traffic into booked work for contractors. Revenue-tied reporting, no lock-in, built for old-home jobs and winter-storm demand.',
     eyebrow: 'SEO Services · Boston, MA',
-    h1: 'Get your Boston business to the top of Google and keep it there',
+    h1: 'Boston SEO that turns organic traffic into booked work before the freeze',
     h2Exact: 'Boston SEO Company',
     heroSubhead:
       "Ads vanish the instant you stop paying. SEO does the reverse: rank once for what your Boston customers search and the leads keep arriving month after month. We build that ranking and tie every report to real calls and booked jobs, never a vanity chart.",
@@ -234,7 +234,7 @@ export const bostonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business by name when someone asks them for a contractor near Boston, not just classic search." },
       { q: 'Which areas around Boston do you cover?', a: "Back Bay, South End, Beacon Hill, Jamaica Plain, Dorchester, South Boston, Brookline, Newton, Lexington, Concord, Wellesley, Cambridge, Somerville, Medford, and Quincy, with genuine local pages rather than one generic Boston page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads straight to you. The more of your Boston search visibility you own, the less you have to wire to brokers for the same homeowner three competitors already bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead, the highest-impact fixes, and a realistic timeline with the numbers modeled for your Boston business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead, the highest-impact fixes, and a realistic Boston SEO timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -244,15 +244,15 @@ export const bostonLocations = [
     citySlug: 'boston', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Boston Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Boston web design that turns visitors into booked jobs. Fast, mobile-first sites built for contractors serving educated buyers and century-old homes.',
+      'Boston web design that makes research-heavy homeowners pick you. Fast, mobile-first sites built for contractors serving educated buyers and century-old homes.',
     eyebrow: 'Web Design · Boston, MA',
-    h1: 'Boston web design that turns visitors into booked jobs',
+    h1: 'Boston web design that makes research-heavy homeowners pick you',
     h2Exact: 'Boston Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is just a brochure. Boston homeowners are some of the most research-heavy buyers in the country. They compare websites carefully, read every review, and pay a premium for contractors who look professional and credible online. We build sites that win that comparison.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Boston contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. Boston buyers are educated and deliberate, and they read your site carefully before they ever call. We build sites that load fast, look like the professional you are, and turn Newton-to-Dorchester visitors into booked jobs, with the credibility signals that convince a research-heavy buyer to pick you.",
+      "Boston web design earns its keep when it makes a careful homeowner pick you instead of the next contractor on the map. Most contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Boston buyers are educated and deliberate, and they read your site carefully before they ever call. We build sites that load fast, look like the professional you are, and turn Newton-to-Dorchester visitors into booked jobs, with the credibility signals that convince a research-heavy buyer to choose you.",
     aioQuestion: 'What makes a good contractor website in Boston?',
     aioAnswer:
       "A good Boston contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with real reviews and project photos, names the specific neighborhoods you serve, and signals expertise with old-home specializations like boiler work, masonry, or slate roofing. Because Boston buyers research carefully and pay a premium for credibility, the quality of the copy and the visual professionalism of the site are what close the deal.",
@@ -300,7 +300,7 @@ export const bostonLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits what you need and that you can manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and walk through the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build comes with launch support, and after that we offer affordable monthly maintenance for updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any maintenance or SEO afterward is month-to-month, so you can leave whenever you want." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Boston site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Boston web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -310,15 +310,15 @@ export const bostonLocations = [
     citySlug: 'boston', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Boston Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Boston website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs before the winter rush.',
+      'Boston Website Redesign that turns an aging site into a lead engine without losing rankings. Faster, mobile-first rebuilds that book more jobs before the winter rush.',
     eyebrow: 'Website Redesign · Boston, MA',
-    h1: 'Redesign your Boston website without losing your rankings',
+    h1: 'Boston Website Redesign that turns an aging three-decker-era site into a lead engine',
     h2Exact: 'Boston Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week, and in Boston, where buyers research carefully and pay a premium for credibility, an old site quietly hands work to competitors who look sharper online. We redesign Boston contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Boston contractor sites for speed and conversions, build them to earn the trust of research-intensive buyers, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Boston Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Boston contractor sites for speed and conversions, build them to earn the trust of research-intensive buyers, and migrate with the redirects and SEO-safe care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by holding your URL structure steady, or mapping a 301 redirect for every page that moves, while preserving your content and metadata, carrying over your schema, and testing the whole thing on staging before it goes live. Handled this way, a redesign keeps your Boston rankings and usually lifts them, because the new build is faster, mobile-first, and better organized than what it replaced.",
@@ -366,7 +366,7 @@ export const bostonLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts conversions and rankings at the same time." },
       { q: 'Do I own the redesigned site?', a: "Completely. The site, the domain, and the content are yours, with no platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The Boston redesign is a one-time project with a fixed price. Any maintenance or SEO you add afterward runs month-to-month, and you can stop it whenever." },
-      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan for your Boston site." },
+      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price Boston Website Redesign quote with a timeline and a safe migration plan for your site." },
     ],
   },
 ];
@@ -376,10 +376,10 @@ export const bostonCity = {
 
   titleTag: 'Boston Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Boston contractors. Get found before the winter rush, win educated buyers, and own your leads instead of renting them.',
+    'Boston marketing for contractors that turns winter-rush searches into booked jobs. Web design, SEO, and local SEO that win educated buyers and own your leads.',
 
   eyebrow: 'Boston · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Boston contractors found and booked',
+  h1: 'Boston marketing for contractors that turns winter-rush searches into jobs',
   h2Exact: 'Boston Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for a market defined by brutal winters, 100-year-old homes, and buyers who research everything. One team to rank you before the storm hits, convert careful buyers, and get you off the rented-lead treadmill.",
@@ -387,7 +387,7 @@ export const bostonCity = {
   primaryCta: 'Get my free Boston audit',
 
   intro:
-    "If you run a contracting business in Boston, you're fighting for attention in a market shaped by some of the harshest winters in the country, the oldest housing stock of any major American city, and homeowners who research contractors more carefully than almost anywhere else. Winning here takes three things working together: a site that builds trust fast, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for your neighborhoods before the season hits, not after. Here's how we help Boston contractors do exactly that.",
+    "Boston marketing for contractors has to win a market shaped by some of the harshest winters in the country, the oldest housing stock of any major American city, and homeowners who research contractors more carefully than almost anywhere else. Winning here takes three things working together: a site that builds trust fast, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for your neighborhoods before the season hits, not after. Here's how our Boston contractor marketing helps you do exactly that.",
   aioQuestion: 'How do Boston contractors get more leads online?',
   aioAnswer:
     "Boston contractors get more leads by combining a fast, professional website that earns trust with educated buyers, SEO that ranks them for high-intent searches year-round, and local SEO that wins the Google Map Pack neighborhood by neighborhood, with seasonal timing built in so they're visible before winter emergency demand spikes instead of chasing rankings after the blizzard hits.",
@@ -423,6 +423,6 @@ export const bostonCity = {
     { q: 'Why does the Boston market need a different approach?', a: "Boston is defined by brutal winters that spike contractor demand overnight, the oldest housing stock of any major US city, and buyers who research more carefully than almost anywhere else. Winning means being ranked before the storm hits, not chasing rankings in January, and building the kind of credibility that earns a premium from discerning homeowners." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope for your Boston business in the free audit." },
     { q: 'Which Boston areas do you serve?', a: "Back Bay, South End, Beacon Hill, Jamaica Plain, Dorchester, South Boston, Brookline, Newton, Lexington, Concord, Wellesley, Cambridge, Somerville, Medford, and Quincy." },
-    { q: 'Where should I start?', a: "Start with a free Boston audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Boston audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Boston marketing for contractors that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

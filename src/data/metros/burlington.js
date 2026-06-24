@@ -111,9 +111,9 @@ export const burlingtonLocations = [
     citySlug: 'burlington', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Burlington Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Burlington and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Burlington Local SEO that puts your shop in the Map Pack. Search your service near you and three businesses show on the map. We get you into those three.',
     eyebrow: 'Local SEO · Burlington VT',
-    h1: 'When Burlington searches for what you do, be the first name they find',
+    h1: 'Burlington Local SEO that makes you the first name on the Lake Champlain map',
     h2Exact: 'Burlington Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when someone searches \"near me,\" and everyone below them basically does not exist. We get you into that top three, so the call lands with you instead of whoever ranked first, and so you are already there when the next long freeze fills every phone in Chittenden County.",
@@ -167,7 +167,7 @@ export const burlingtonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts in AI tools rather than classic search, and that fits a town that researches everything. We structure your content and schema so those engines can read, trust, and cite your business by name. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO takes to show real movement in a market this competitive. After that it is month-to-month. If we are not delivering Burlington leads, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never get to keep. We build rankings, a Google profile, and a review base that route leads straight to you and nobody else. Run it long enough and the broker invoices stop being something you need, because the work is already coming in direct." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to stay ahead of you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to stay ahead of you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see what Burlington Local SEO can actually do for your shop. No pitch deck. Just a diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const burlingtonLocations = [
     metaDescription:
       'Burlington SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for winter-season demand.',
     eyebrow: 'SEO Services · Burlington VT',
-    h1: 'Get your Burlington business to the top of Google and keep it there',
+    h1: 'Burlington SEO that puts your contracting business on page one and holds it through the winter',
     h2Exact: 'Burlington SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Burlington customers search and the leads keep coming. We build that ranking and tie every report to actual calls and booked jobs, not charts nobody can spend.",
@@ -233,7 +233,7 @@ export const burlingtonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search results. Burlington homeowners research heavily, and a lot of that research now opens in an AI tool." },
       { q: 'Which areas around Burlington do you cover?', a: "All of the Burlington metro and the surrounding Chittenden County towns: South Burlington, Winooski, Essex, Williston, Shelburne, Colchester, Milton, Jericho and more, with genuine local pages rather than one generic Burlington page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. The more of your search visibility you own outright, the less you depend on paying brokers for the same lead three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across the Burlington market, what your competitors are doing to stay ahead of you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today across the Burlington market, what your competitors are doing to stay ahead of you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is the clearest picture you can get of what Burlington SEO is worth to your shop. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const burlingtonLocations = [
     metaDescription:
       'Burlington web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and ready for winter-season demand.',
     eyebrow: 'Web Design · Burlington VT',
-    h1: 'Burlington web design that turns visitors into booked jobs',
+    h1: 'Burlington web design that books jobs instead of just looking nice on a phone in a cold garage',
     h2Exact: 'Burlington Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just an expensive brochure. We build Burlington contractors fast, mobile-first sites engineered to turn visitors into booked work, and tough enough to hold up when a long cold snap floods your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Burlington contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. Web design done right closes all of those leaks. We build sites that load fast, look like the professional you actually are, and turn Hill-Section-to-Williston visitors into booked jobs, and that do not fall over when a deep freeze sends your traffic through the roof. In a town that researches everything before it buys, a credible, fast site is what earns the call.",
+      "Burlington web design is where most contractor sites quietly bleed leads: slow on a phone, call button buried, no clear offer anywhere. Done right, it closes all of those leaks. We build sites that load fast, look like the professional you actually are, and turn Hill-Section-to-Williston visitors into booked jobs, and that do not fall over when a deep freeze sends your traffic through the roof. In a town that researches everything before it buys, a credible, fast site is what earns the call.",
     aioQuestion: 'What makes a good contractor website in Burlington?',
     aioAnswer:
       "A good Burlington contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during winter cold snaps. Because most Burlington searches happen on mobile and homeowners here research carefully, mobile speed, credibility, and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const burlingtonLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually run yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every Burlington build includes launch support, and after that we offer affordable monthly maintenance for updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The Burlington build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Burlington site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Burlington web design should include for your trade, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const burlingtonLocations = [
     citySlug: 'burlington', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Burlington Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Burlington website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in winter.',
+      'Burlington Website Redesign that rebuilds for leads, not just looks, without losing rankings. Faster, mobile-first rebuilds that convert more and hold up in winter.',
     eyebrow: 'Website Redesign · Burlington VT',
-    h1: 'Redesign your Burlington website without losing your rankings',
+    h1: 'Burlington Website Redesign that rebuilds for leads, not just a prettier look',
     h2Exact: 'Burlington Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Burlington homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Burlington contractor sites for speed and conversions, build them to take a winter cold-snap surge, and migrate with the redirects and SEO care that protect the traffic you have spent years building. In a research-heavy town, the credibility of the new site is part of the job, not an afterthought.",
+      "A Burlington Website Redesign tends to go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Burlington contractor sites for speed and conversions, build them to take a winter cold-snap surge, and migrate with the redirects and SEO care that protect the traffic you have spent years building. In a research-heavy town, the credibility of the new site is part of the job, not an afterthought.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const burlingtonLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first, because that is how most of Burlington reaches you, and tune for fast load and a passing set of Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content all stay with you. No platform lock-in of any kind, which suits a town that likes keeping control local." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time Burlington project with a fixed price. Anything ongoing, like maintenance or SEO, runs month-to-month so you can step away whenever you want." },
-      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in leads and rankings across the Burlington market, the fixes the redesign should make, and a fixed-price quote with a timeline and a safe migration plan that protects the rankings you already hold." },
+      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in leads and rankings across the Burlington market, the fixes a Burlington Website Redesign should make, and a fixed-price quote with a timeline and a safe migration plan that protects the rankings you already hold." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const burlingtonCity = {
 
   titleTag: 'Burlington Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Burlington contractors. Get found, get booked, and own your leads instead of renting them, all built for winter-season demand.',
+    'Burlington marketing for contractors: web design, SEO, and local SEO that get you found and booked and let you own your leads, all built for winter-season demand.',
 
   eyebrow: 'Burlington · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Burlington contractors found and booked',
+  h1: 'Burlington marketing for contractors who want to own their leads, not rent them',
   h2Exact: 'Burlington Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Burlington's educated, efficiency-minded, winter-driven market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const burlingtonCity = {
   primaryCta: 'Get my free Burlington audit',
 
   intro:
-    "If you run a contracting business in Burlington, you are fighting for attention in Vermont's largest market, an educated, research-heavy town that reflexively picks the local shop over a national chain. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the long winter sends heating, roofing, and ice-dam demand through the roof. Here is exactly how we help Burlington contractors pull that off.",
+    "Burlington marketing for contractors means fighting for attention in Vermont's largest market, an educated, research-heavy town that reflexively picks the local shop over a national chain. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the long winter sends heating, roofing, and ice-dam demand through the roof. Here is exactly how we help Burlington contractors pull that off.",
   aioQuestion: 'How do Burlington contractors get more leads online?',
   aioAnswer:
     "Burlington contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Burlington homeowners research carefully and demand spikes hard during the long winter, the contractors who look established and are already ranking before the freeze win the most work.",
@@ -422,6 +422,6 @@ export const burlingtonCity = {
     { q: 'Why does winter matter for my marketing?', a: "Burlington is one of the coldest, snowiest small metros in the country, with a long winter from November through April. When deep cold and heavy snow hit, demand for heating, roofing, and ice-dam work climbs fast, and the backlog can run for weeks. Ranking takes months to build, so the contractors already visible before the freeze take that work. We get you in place ahead of the season." },
     { q: 'How much does it cost to work with you?', a: "Burlington websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free audit before you commit a dollar." },
     { q: 'Which Burlington areas do you serve?', a: "All of the Burlington metro and the surrounding towns: the Hill Section, Old North End, South End, New North End, plus South Burlington, Winooski, Essex, Williston, Shelburne, Colchester and out toward Jericho and Hinesburg." },
-    { q: 'Where should I start?', a: "Start with a free Burlington audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Burlington audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Burlington marketing for contractors that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

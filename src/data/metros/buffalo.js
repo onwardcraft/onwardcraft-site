@@ -111,9 +111,9 @@ export const buffaloLocations = [
     citySlug: 'buffalo', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Buffalo Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Buffalo and three businesses show up on the map. We get you into those three before the next lake-effect storm.',
+      'Buffalo Local SEO that lands you in the three businesses Google pins to the map, in place before the next lake-effect storm books the work.',
     eyebrow: 'Local SEO · Buffalo, NY',
-    h1: 'When Buffalo searches for what you do, be the first name they find',
+    h1: 'Buffalo Local SEO that puts your trade in the Map Pack before the next lake-effect storm',
     h2Exact: 'Buffalo Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. When a lake-effect storm rolls in and homeowners are calling for emergency help, being one of those three is everything, and we get Buffalo contractors into that top three.",
@@ -167,7 +167,7 @@ export const buffaloLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms sell shared leads at a price that eats margins, and in Buffalo's affordable housing market those margins are already tighter than in coastal cities. We build rankings, a Google profile, and a review base that send leads straight to you, so over time you lean on the brokers less because the calls are coming directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across Buffalo neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across Buffalo neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see what Buffalo Local SEO can do for your phone before you spend a dollar. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const buffaloLocations = [
     metaDescription:
       'Buffalo SEO that ranks contractors on Google and brings in leads you own. Built for a seasonal market with old housing stock and winter demand spikes.',
     eyebrow: 'SEO Services · Buffalo, NY',
-    h1: 'Get your Buffalo business to the top of Google and keep it there',
+    h1: 'Buffalo SEO that gets your trade to the top of Google and keeps it there through ice-dam season',
     h2Exact: 'Buffalo SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what Buffalo homeowners search and the leads keep coming, through ice-dam season, spring thaw, and everything in between. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const buffaloLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic Google search." },
       { q: 'Which Buffalo neighborhoods and suburbs do you cover?', a: "The whole metro: Elmwood Village, Allentown, North Buffalo, Black Rock, Kenmore, Amherst, Williamsville, Orchard Park, Cheektowaga, Niagara Falls, Lockport, Tonawanda, Grand Island, East Aurora, and more, with genuine local pages rather than one generic Buffalo page." },
       { q: 'How do you help me get off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying lead brokers who sell the same homeowner to three of your competitors." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business, including the seasonal demand windows that matter most in Buffalo. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business, including the seasonal demand windows that matter most in Buffalo. It is the clearest picture of what Buffalo SEO can return for your business before you commit to anything. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const buffaloLocations = [
     citySlug: 'buffalo', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Buffalo Web Design Company | OnwardCraft',
     metaDescription:
-      'Buffalo web design that turns visitors into booked jobs, fast, mobile-first contractor sites built for a seasonal market with old housing stock.',
+      'Buffalo Web Design that turns visitors into booked jobs, fast, mobile-first contractor sites built for a seasonal market with old housing stock.',
     eyebrow: 'Web Design · Buffalo, NY',
-    h1: 'Buffalo web design that turns visitors into booked jobs',
+    h1: 'Buffalo web design that turns Elmwood Village visitors into booked jobs before the storm hits',
     h2Exact: 'Buffalo Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Buffalo contractors fast, mobile-first sites engineered to turn visitors into booked work, and to stand out when a homeowner is searching urgently in the middle of a January storm.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Buffalo contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, nothing that says you know this city or its old housing stock. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Elmwood Village and Amherst visitors into booked jobs, designed for a market where the winter season can make or break your year.",
+      "Buffalo web design is the difference between a site that books work and one that loses leads quietly: slow on a phone, buried call button, no clear offer, nothing that says you know this city or its old housing stock. Done right, it fixes all of that. We build sites that load fast, look like the professional you are, and turn Elmwood Village and Amherst visitors into booked jobs, designed for a market where the winter season can make or break your year.",
     aioQuestion: 'What makes a good contractor website in Buffalo?',
     aioAnswer:
       "A good Buffalo contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, names the specific neighborhoods and suburbs you serve, and signals that you understand the seasonal reality of this market. Because most Buffalo searches happen on mobile and winter emergency calls need to convert instantly, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const buffaloLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage, usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Buffalo contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Buffalo web design should include for a contractor, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const buffaloLocations = [
     citySlug: 'buffalo', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Buffalo Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Buffalo contractor website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs. Free audit.',
+      'Buffalo Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs. Free audit.',
     eyebrow: 'Website Redesign · Buffalo, NY',
-    h1: 'Redesign your Buffalo website without losing your rankings',
+    h1: 'Buffalo Website Redesign that converts more without losing the rankings you earned through winter',
     h2Exact: 'Buffalo Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week, and in a market where winter emergencies drive sudden demand spikes, it can cost you entire seasons. We redesign Buffalo contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Buffalo contractor sites for speed and conversions, build them to signal local expertise and earn trust with homeowners dealing with old housing and harsh winters, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Buffalo Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Buffalo contractor sites for speed and conversions, signal local expertise and earn trust with homeowners dealing with old housing and harsh winters, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one, which matters especially in Buffalo where seasonal demand makes every ranking position worth real money.",
@@ -365,7 +365,7 @@ export const buffaloLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings, critical when Buffalo homeowners are searching urgently in bad weather." },
       { q: 'Do I own the redesigned site?', a: "Completely, the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan that protects your existing positions." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what a Buffalo Website Redesign should fix, and a fixed-price quote with a timeline and a safe migration plan that protects your existing positions." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const buffaloCity = {
 
   titleTag: 'Buffalo Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Buffalo contractors. Get found before the next lake-effect storm, rank in your neighborhoods, and own your leads.',
+    'Buffalo marketing for contractors: web design, SEO, and local SEO that gets you found before the next lake-effect storm and lets you own your leads.',
 
   eyebrow: 'Buffalo · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Buffalo contractors found and booked',
+  h1: 'Buffalo marketing for contractors that gets you found and booked before the next lake-effect storm',
   h2Exact: 'Buffalo Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the snowiest major city in America. One team to get you ranking before the storm season, converting old-home renovation leads, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const buffaloCity = {
   primaryCta: 'Get my free Buffalo audit',
 
   intro:
-    "If you run a contracting business in Buffalo, you operate in one of the most distinctive markets in the country. The winters are extreme and create genuine emergency demand. The housing stock is old and requires specialists. The city is genuinely reviving, Elmwood Village, Allentown, Black Rock, and young homeowners are renovating at a pace the rest of the Rust Belt hasn't matched. Winning here takes three things working together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the neighborhoods and suburbs you serve. Here's how we help Buffalo contractors do exactly that.",
+    "Buffalo marketing for contractors has to fit one of the most distinctive markets in the country. The winters are extreme and create genuine emergency demand. The housing stock is old and requires specialists. The city is genuinely reviving, Elmwood Village, Allentown, Black Rock, and young homeowners are renovating at a pace the rest of the Rust Belt hasn't matched. Winning here takes three things working together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the neighborhoods and suburbs you serve. Here's how we help Buffalo contractors do exactly that.",
   aioQuestion: 'How do Buffalo contractors get more leads online?',
   aioAnswer:
     "Buffalo contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches, including the emergency winter terms that drive enormous seasonal demand, and local SEO that wins the Google Map Pack neighborhood by neighborhood. In a market shaped by lake-effect winters, old housing stock, and a genuine urban revival, the contractors who rank before the season and target tight by neighborhood win the most work.",
@@ -422,6 +422,6 @@ export const buffaloCity = {
     { q: 'Why does the Buffalo market need a different approach?', a: "Because no other major US city gets 95 inches of snow per year, and because the housing stock is genuinely old and distinctive. The seasonal demand spikes here are sharper than almost anywhere else, and the contractors who are ranking before the lake-effect season starts capture work their competitors scramble for all winter." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Buffalo areas do you serve?', a: "The whole metro: Elmwood Village, Allentown, North Buffalo, Black Rock, Kenmore, Amherst, Williamsville, Orchard Park, Cheektowaga, Niagara Falls, Lockport, Tonawanda, Grand Island, East Aurora, and more, with genuine local pages rather than one generic Buffalo page." },
-    { q: 'Where should I start?', a: "Start with a free Buffalo audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work before the next lake-effect season. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Buffalo audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Buffalo marketing for contractors that will bring in the most work before the next lake-effect season. No pitch deck, just a plan." },
   ],
 };

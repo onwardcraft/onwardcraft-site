@@ -109,11 +109,11 @@ export const chattanoogaLocations = [
   {
     ...BASE,
     citySlug: 'chattanooga', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Chattanooga Local SEO Company | OnwardCraft',
+    titleTag: 'Chattanooga Local SEO Company | Own the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Chattanooga and three businesses show up on the map. We get you into those three, so the storm-season call lands with you, not a competitor.',
+      'Chattanooga Local SEO that makes you the first name on the map. We get you into the top three local results, so the storm-season call lands with you, not a competitor.',
     eyebrow: 'Local SEO · Chattanooga',
-    h1: 'When Chattanooga searches for what you do, be the first name they find',
+    h1: 'Chattanooga Local SEO that makes you the first name on the valley map',
     h2Exact: 'Chattanooga Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when a homeowner searches \"near me,\" and everyone below them might as well not exist. We push you into that top three so the call lands with you instead of whoever ranked first, and so you are already there when the next spring storm or 95-degree week sends every Hamilton County phone into a frenzy.",
@@ -167,7 +167,7 @@ export const chattanoogaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts in AI tools instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business by name. In Chattanooga that is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO takes to show real movement in a market this competitive. After that it is month-to-month. If we are not delivering for your Chattanooga shop, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that route Chattanooga homeowners straight to you alone. Run it long enough and you lean on the brokers less because the work is already coming to you direct." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across the valley, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your Chattanooga business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across the valley, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day Chattanooga Local SEO plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const chattanoogaLocations = [
   {
     ...BASE,
     citySlug: 'chattanooga', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Chattanooga SEO Company | OnwardCraft',
+    titleTag: 'Chattanooga SEO Company | Page One That Holds | OnwardCraft',
     metaDescription:
-      'Chattanooga SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in, built for spring storms and summer HVAC demand.',
+      'Chattanooga SEO that puts your contractor business on page one of Google and holds it. Revenue-tied reporting, no lock-in, built for spring storms and summer HVAC demand.',
     eyebrow: 'SEO Services · Chattanooga',
-    h1: 'Get your Chattanooga business to the top of Google and keep it there',
+    h1: 'Chattanooga SEO that puts your trade on page one of Google and holds it',
     h2Exact: 'Chattanooga SEO Company',
     heroSubhead:
       "Ads die the second you stop paying. SEO works the other way: rank once for what your Chattanooga customers search and the leads keep arriving for months. We build that ranking and tie every report to real calls and booked jobs, not charts that look good and sell nothing.",
@@ -233,7 +233,7 @@ export const chattanoogaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for, and in a wired-up Gig City it matters. We structure your content and schema so AI engines can read, trust, and cite your Chattanooga business by name, not just classic search results." },
       { q: 'Which areas around Chattanooga do you cover?', a: "All of the river-valley metro: Northshore, St. Elmo, Hixson, Red Bank, East Ridge, Ooltewah, Signal Mountain, Lookout Mountain, Soddy-Daisy, Cleveland, Ringgold and more, with genuine local pages rather than one generic Chattanooga page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across the Chattanooga metro, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today across the Chattanooga metro, what your competitors are doing to beat you, the highest-impact fixes, and a realistic Chattanooga SEO timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const chattanoogaLocations = [
   {
     ...BASE,
     citySlug: 'chattanooga', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Chattanooga Web Design Company | OnwardCraft',
+    titleTag: 'Chattanooga Web Design Company | Books Jobs, Not Just Looks | OnwardCraft',
     metaDescription:
-      'Chattanooga web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and ready for spring storm and summer HVAC demand.',
+      'Chattanooga Web Design that books jobs instead of just looking nice: fast, mobile-first sites built for contractors and ready for spring storm and summer HVAC demand.',
     eyebrow: 'Web Design · Chattanooga',
-    h1: 'Chattanooga web design that turns visitors into booked jobs',
+    h1: 'Chattanooga Web Design that books valley jobs instead of just looking nice',
     h2Exact: 'Chattanooga Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just an expensive brochure. We build Chattanooga contractors fast, mobile-first sites engineered to turn visitors into booked work, and tough enough to hold up when a hail line or a heat wave sends your phone into overdrive.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Chattanooga contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. Web design done right closes all of those leaks. We build sites that load fast, look like the professional you actually are, and turn Northshore-to-Ooltewah visitors into booked jobs, and that do not fall over when a spring storm or a 95-degree stretch sends your traffic through the roof.",
+      "Chattanooga Web Design is the difference between a site that books jobs and a brochure that bleeds leads quietly: slow on a phone, call button buried, no clear offer anywhere. Done right, a website closes all of those leaks. We build mobile-first sites that load fast, look like the professional you actually are, and turn Northshore-to-Ooltewah visitors into booked jobs, and that do not fall over when a spring storm or a 95-degree stretch sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Chattanooga?',
     aioAnswer:
       "A good Chattanooga contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during spring storm season and the summer HVAC rush. Because most Chattanooga searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const chattanoogaLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually run yourself, usually WordPress or Webflow. We recommend the right fit in your free Chattanooga consult and explain the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build comes with launch support, and from there we offer affordable monthly maintenance covering updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO stays month-to-month, so you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Chattanooga site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Chattanooga Web Design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const chattanoogaLocations = [
   {
     ...BASE,
     citySlug: 'chattanooga', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Chattanooga Website Redesign | OnwardCraft',
+    titleTag: 'Chattanooga Website Redesign | Rebuilt for Leads | OnwardCraft',
     metaDescription:
-      'Redesign your Chattanooga website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
+      'Chattanooga Website Redesign that rebuilds for leads, not just looks. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
     eyebrow: 'Website Redesign · Chattanooga',
-    h1: 'Redesign your Chattanooga website without losing your rankings',
+    h1: 'Chattanooga Website Redesign that rebuilds for valley leads, not just looks',
     h2Exact: 'Chattanooga Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Chattanooga homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Chattanooga contractor sites for speed and conversions, build them to survive spring storm and summer HVAC surges, and migrate with the redirects and SEO care that protect the traffic you have spent years building.",
+      "A Chattanooga Website Redesign usually goes one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We rebuild contractor sites for speed and conversions, build them to survive spring storm and summer HVAC surges, and run an SEO-safe migration with the redirects and care that protect the traffic you have spent years building.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by holding your URL structure steady (or mapping 301 redirects for every page that moves), carrying over your existing content and metadata, migrating your schema, and proving it all on a staging copy before launch. Handled this way, a Chattanooga site keeps its rankings and usually climbs, because the rebuilt version loads faster, runs mobile-first, and is structured better than the old one.",
@@ -365,7 +365,7 @@ export const chattanoogaLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings for your Chattanooga site." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content are yours. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO afterward runs month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in Chattanooga leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in Chattanooga leads and rankings, what the Chattanooga Website Redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const chattanoogaCity = {
 
   titleTag: 'Chattanooga Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Chattanooga contractors. Get found, get booked, and own your leads instead of renting them, all built for storm-season demand.',
+    'Chattanooga marketing for contractors who want to own their leads: web design, SEO, and local SEO. Get found, get booked, all built for storm-season demand.',
 
   eyebrow: 'Chattanooga · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Chattanooga contractors found and booked',
+  h1: 'Chattanooga marketing for contractors who want to own their leads',
   h2Exact: 'Chattanooga Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Chattanooga's manufacturing-anchored, Gig City, storm-season market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const chattanoogaCity = {
   primaryCta: 'Get my free Chattanooga audit',
 
   intro:
-    "If you run a contracting business in Chattanooga, you are working a market that is more layered than its size suggests. Volkswagen-plant workers and manufacturing professionals pour money into their homes. Remote workers drawn up here by EPB's gigabit fiber make careful buying decisions online. And the ridges and the Tennessee River bring a steady stream of outdoor-recreation tourists who turn into residents. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the next spring storm or summer heat wave sends demand through the roof. Here is exactly how we help Chattanooga contractors pull that off.",
+    "Chattanooga marketing for contractors has to fit a market that is more layered than its size suggests. Volkswagen-plant workers and manufacturing professionals pour money into their homes. Remote workers drawn up here by EPB's gigabit fiber make careful buying decisions online. And the ridges and the Tennessee River bring a steady stream of outdoor-recreation tourists who turn into residents. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the next spring storm or summer heat wave sends demand through the roof. Here is exactly how we help Chattanooga contractors pull that off.",
   aioQuestion: 'How do Chattanooga contractors get more leads online?',
   aioAnswer:
     "Chattanooga contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because the city sits in a valley prone to spring storms and tornado risk and runs 95-degree summers, the contractors who look established and are already ranking before seasonal demand spikes win the most work.",
@@ -422,6 +422,6 @@ export const chattanoogaCity = {
     { q: 'Why does storm season matter for my marketing?', a: "Chattanooga sits in a valley between mountain ridges that funnels spring tornado and hail risk, and summer temperatures regularly top 95 degrees. Both drive urgent, high-intent search spikes for roofing, restoration, and HVAC. Ranking takes months to build, so the contractors already visible before the storm or the heat wave take that work. We get you in place ahead of season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope for your Chattanooga shop in the free audit." },
     { q: 'Which Chattanooga areas do you serve?', a: "All of the river-valley metro: Northshore, St. Elmo, Ferger Place, Hixson, Red Bank, East Ridge, Signal Mountain, Lookout Mountain, Ooltewah, Soddy-Daisy, Cleveland, Ringgold and more." },
-    { q: 'Where should I start?', a: "Start with a free Chattanooga audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Chattanooga audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two Chattanooga marketing for contractors moves that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

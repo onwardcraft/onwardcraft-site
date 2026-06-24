@@ -110,17 +110,17 @@ export const capeCoralLocations = [
   {
     ...BASE,
     citySlug: 'cape-coral', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Cape Coral Local SEO Company | OnwardCraft',
+    titleTag: 'Cape Coral Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'When Cape Coral searches your service, three businesses show on the map. We put you in those three so the canal-front and rebuild calls land with you.',
+      'Cape Coral Local SEO that turns "near me" searches into calls. We put you in the Google Map Pack so canal-front and rebuild jobs land with you.',
     eyebrow: 'Local SEO · Cape Coral-Fort Myers',
-    h1: 'When Cape Coral searches for what you do, be the first name they find',
+    h1: 'Cape Coral Local SEO that turns "near me" canal-front searches into a ringing phone',
     h2Exact: 'Cape Coral Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when a homeowner searches \"near me,\" and everyone underneath them is effectively invisible. We get you into that top three so the call lands with you instead of whoever ranked first, and so you are already there when a snowbird who just closed on a canal-front house starts hunting for a contractor.",
     primaryCta: 'Get my free Cape Coral audit',
     intro:
-      "Cape Coral local SEO comes down to one moment: a retiree who just bought a waterfront home off a Northeast Cape canal, or a homeowner over in Fort Myers, types your service plus \"near me\" and either you are one of the three businesses Google pinned to the map or you are not. Most people tap one of those three and never scroll. The buyers here skew older, they research before they call, and a lot of them have never hired a local trade in their life. Getting into that top three is the whole game.",
+      "Cape Coral Local SEO comes down to one moment: a retiree who just bought a waterfront home off a Northeast Cape canal, or a homeowner over in Fort Myers, runs a \"near me\" local search for your service and either you are one of the three businesses Google pinned to the map or you are not. Most people tap one of those three and never scroll. The buyers here skew older, they research before they call, and a lot of them have never hired a local trade in their life. Getting into that local 3-pack is the whole game.",
     aioQuestion: 'How do Cape Coral businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile tuned to the exact services and Cape Coral and Fort Myers neighborhoods you want; name, address, and phone details that match everywhere online; a steady flow of real reviews; and local content built around genuine waterfront and inland areas. In a city packed with snowbirds and recent transplants who research hard before calling, the contractor who looks established and already ranks tends to land the job.",
@@ -169,7 +169,7 @@ export const capeCoralLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A growing slice of \"near me\" research now starts in AI tools instead of classic search. We structure your content and schema so those engines can read, trust, and name your business. In Cape Coral that is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you alone. Over time you lean on the brokers less because the work is already coming to you direct." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the straightest path to Cape Coral Local SEO that ranks you on the map, no pitch deck, just a diagnosis." },
     ],
   },
 
@@ -177,17 +177,17 @@ export const capeCoralLocations = [
   {
     ...BASE,
     citySlug: 'cape-coral', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Cape Coral SEO Company | OnwardCraft',
+    titleTag: 'Cape Coral SEO Company | Rank On Google, Get Leads | OnwardCraft',
     metaDescription:
       'Cape Coral SEO that ranks contractors on Google and brings in leads you own. Built for post-Ian rebuild demand, snowbird migration, and canal-front work.',
     eyebrow: 'SEO Services · Cape Coral-Fort Myers',
-    h1: 'Get your Cape Coral business to the top of Google and keep it there',
+    h1: 'Cape Coral SEO that ranks you for the post-Ian rebuild searches that book jobs',
     h2Exact: 'Cape Coral SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO does the reverse: rank once for what your Cape Coral customers search and the leads keep arriving. We build that ranking and tie every report to real calls and jobs, in a market where post-Ian rebuild demand hands well-ranked contractors a pipeline that runs for years.",
     primaryCta: 'Get my free Cape Coral SEO audit',
     intro:
-      "Cape Coral SEO comes down to one question: when someone searches what you do, are you on page one or page two? In this market page two might as well be page fifty. We get contractors ranking for the money keywords in a city still absorbing years of Hurricane Ian rebuild demand, where retirees from the Midwest land every month and search for a contractor the week they move in. We count it in leads, not traffic that never picks up the phone.",
+      "Cape Coral SEO comes down to one question: when someone searches what you do, are you on page one or page two? In this market page two might as well be page fifty. As a Cape Coral SEO company we get contractors ranking on Google for the money keywords in a city still absorbing years of Hurricane Ian rebuild demand, where retirees from the Midwest land every month and search for a contractor the week they move in. We count organic traffic in leads, not visits that never pick up the phone.",
     aioQuestion: 'How do Cape Coral businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Cape Coral and Fort Myers sources. In a market reshaped by Hurricane Ian, ranking for storm-hardening, restoration, and rebuild searches alongside routine service keywords is one of the fastest ways to pull ahead of competitors who have not thought that far.",
@@ -235,7 +235,7 @@ export const capeCoralLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and name your business, not just classic search results." },
       { q: 'Which areas around Cape Coral do you cover?', a: "All of the Cape Coral-Fort Myers metro: Fort Myers Beach, Sanibel Island, Pine Island, Estero, Bonita Springs, Lehigh Acres, Naples and more, with genuine local pages rather than one generic Cape Coral page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. In a market with this much organic demand, owning your search visibility is far more efficient than paying for shared leads three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes including any rebuild and storm-hardening keyword gaps, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes including any rebuild and storm-hardening keyword gaps, and a realistic timeline with the numbers modeled for your business. It is your starting map for Cape Coral SEO that gets you to page one, no pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,17 +243,17 @@ export const capeCoralLocations = [
   {
     ...BASE,
     citySlug: 'cape-coral', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Cape Coral Web Design Company | OnwardCraft',
+    titleTag: 'Cape Coral Web Design Company | Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'Cape Coral web design that turns visitors into booked jobs. Fast, mobile-first sites built for contractors, post-Ian rebuild demand, and snowbird homeowners.',
+      'Cape Coral Web Design built to convert clicks into calls. Fast, mobile-first sites for contractors, post-Ian rebuild demand, and snowbird homeowners.',
     eyebrow: 'Web Design · Cape Coral-Fort Myers',
-    h1: 'Cape Coral web design that turns visitors into booked jobs',
+    h1: 'Cape Coral web design built to convert canal-front clicks into booked calls',
     h2Exact: 'Cape Coral Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just an expensive brochure. We build Cape Coral contractors fast, mobile-first sites engineered to turn visitors into booked work, so you capture post-Ian rebuild demand, snowbird retirees searching from a new zip code, and canal-front owners who need work done now.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Cape Coral contractor websites bleed leads quietly: slow on a phone, the call button buried, no clear offer anywhere. Web design done right closes those leaks. We build sites that load fast, look like the professional you are, and turn Fort Myers Beach, Sanibel, and Estero visitors into booked jobs, and that work just as hard on the wave of retirees from Ohio and Michigan who just moved in and are hunting for a contractor they do not know yet.",
+      "Cape Coral Web Design is the difference between a site that bleeds leads quietly and one that books work: most contractor sites here are slow on a phone, the call button buried, no clear offer anywhere. We build mobile-first websites that load fast, look like the professional you are, and turn Fort Myers Beach, Sanibel, and Estero visitors into booked jobs, and that work just as hard on the wave of retirees from Ohio and Michigan who just moved in and are hunting for a contractor they do not know yet.",
     aioQuestion: 'What makes a good contractor website in Cape Coral?',
     aioAnswer:
       "A good Cape Coral contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and speaks to this market directly: Hurricane Ian damage assessment and repair, seawall and canal-front work, and storm hardening. Because snowbird retirees research carefully before calling, a site that shows local expertise and real past work converts far better than a generic template.",
@@ -301,7 +301,7 @@ export const capeCoralLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Cape Coral site should include given this market's mix of rebuild, waterfront, and snowbird buyers, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Cape Coral Web Design should include given this market's mix of rebuild, waterfront, and snowbird buyers, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,17 +309,17 @@ export const capeCoralLocations = [
   {
     ...BASE,
     citySlug: 'cape-coral', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Cape Coral Website Redesign | OnwardCraft',
+    titleTag: 'Cape Coral Website Redesign | Keep Every Ranking | OnwardCraft',
     metaDescription:
-      'Redesign your Cape Coral website without losing rankings. Faster, mobile-first rebuilds that convert snowbird retirees and post-Ian rebuild searchers.',
+      'Cape Coral Website Redesign that keeps every ranking you have earned. Faster, mobile-first rebuilds that convert snowbird retirees and post-Ian rebuild searchers.',
     eyebrow: 'Website Redesign · Cape Coral-Fort Myers',
-    h1: 'Redesign your Cape Coral website without losing your rankings',
+    h1: 'Cape Coral Website Redesign that keeps every canal-front ranking you have earned',
     h2Exact: 'Cape Coral Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a snowbird shopping around to skip past. We redesign Cape Coral contractor sites to convert more and load faster, built to capture post-Ian rebuild demand and seasonal retirees, and migrated so carefully that you keep every ranking you have earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Cape Coral contractor sites for speed and conversions, build them to speak to this market's mix of hurricane rebuild, canal-front work, and Midwest retirees, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Cape Coral Website Redesign usually goes one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Cape Coral contractor sites for speed and conversions, shape them around this market's mix of hurricane rebuild, canal-front work, and Midwest retirees, and run an SEO-safe migration with the redirects that protect the traffic you already have so you redesign without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured. In Cape Coral it is also the moment to add the rebuild, canal-front, and snowbird-retiree messaging that converts this specific market.",
@@ -367,7 +367,7 @@ export const capeCoralLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix for Cape Coral's specific buyer mix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what a Cape Coral Website Redesign should fix for this market's specific buyer mix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -377,10 +377,10 @@ export const capeCoralCity = {
 
   titleTag: 'Cape Coral Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Cape Coral contractors. Get found, get booked, and own your leads, all built for post-Ian rebuild and canal-front demand.',
+    'Cape Coral marketing for contractors: web design, SEO, and local SEO. Get found, get booked, and own your leads, all built for post-Ian rebuild and canal-front demand.',
 
   eyebrow: 'Cape Coral · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Cape Coral contractors found and booked',
+  h1: 'Cape Coral marketing for contractors: get ranked, get booked across the canal city',
   h2Exact: 'Cape Coral Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for a market shaped by Hurricane Ian, 400 miles of canals, and a constant wave of retirees from up north. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -388,7 +388,7 @@ export const capeCoralCity = {
   primaryCta: 'Get my free Cape Coral audit',
 
   intro:
-    "If you run a contracting business in Cape Coral, you are working one of the most demand-rich markets in Florida right now. Hurricane Ian's 2022 landfall as a Category 4 storm destroyed or badly damaged thousands of homes across Cape Coral and Fort Myers, and that rebuild pipeline will keep contractors busy for years. Layer in 400 miles of canals that need constant seawall and waterfront maintenance, a steady stream of retirees from Ohio, Michigan, and Indiana who arrive with no contractor relationships, and HOA-governed communities that enforce strict exterior standards, and you get a market where the right online presence pays off faster than almost anywhere else. Here is how we help Cape Coral contractors capture it.",
+    "Cape Coral marketing for contractors starts with one fact: you are working one of the most demand-rich markets in Florida right now. Hurricane Ian's 2022 landfall as a Category 4 storm destroyed or badly damaged thousands of homes across Cape Coral and Fort Myers, and that rebuild pipeline will keep contractors busy for years. Layer in 400 miles of canals that need constant seawall and waterfront maintenance, a steady stream of retirees from Ohio, Michigan, and Indiana who arrive with no contractor relationships, and HOA-governed communities that enforce strict exterior standards, and you get a market where the right online presence pays off faster than almost anywhere else. Here is how we help Cape Coral contractors capture it.",
   aioQuestion: 'How do Cape Coral contractors get more leads online?',
   aioAnswer:
     "Cape Coral contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because this market is shaped by post-Ian rebuild demand, canal-front property work, and constant retiree migration, the contractors who look established online and are already ranking capture an outsized share of a pipeline that will run for years.",
@@ -424,6 +424,6 @@ export const capeCoralCity = {
     { q: 'Why does Hurricane Ian matter for my marketing?', a: "Ian made landfall in September 2022 as a catastrophic Category 4 storm, the deadliest to hit Florida since 1935. It destroyed thousands of homes across Cape Coral and Fort Myers and created a rebuild and storm-hardening pipeline that will keep contractors busy for five to ten years. Ranking now means capturing demand that is still active and will stay active for a long time." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free audit." },
     { q: 'Which Cape Coral areas do you serve?', a: "All of the Cape Coral-Fort Myers metro: Fort Myers, Fort Myers Beach, Sanibel Island, Pine Island, Matlacha, Estero, Bonita Springs, Lehigh Acres, Naples and more, with genuine local pages rather than one generic Cape Coral page." },
-    { q: 'Where should I start?', a: "Start with a free Cape Coral audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, including the post-Ian rebuild and canal-front angles your competitors may have missed. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Cape Coral audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, including the post-Ian rebuild and canal-front angles your competitors may have missed. It is the simplest first step in Cape Coral marketing for contractors who want to get found and booked, no pitch deck, just a plan." },
   ],
 };

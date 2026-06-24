@@ -109,17 +109,17 @@ export const birminghamLocations = [
   {
     ...BASE,
     citySlug: 'birmingham', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Birmingham Local SEO Company | OnwardCraft',
+    titleTag: 'Birmingham Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Birmingham and three businesses show up on the map. We get you into those three so the call lands with you after the next storm rolls through.',
+      'Birmingham Local SEO that puts you in the Google Map Pack for "near me" searches, so the call lands with you after the next storm rolls through.',
     eyebrow: 'Local SEO · Birmingham, AL',
-    h1: 'When Birmingham searches for what you do, be the first name they find',
+    h1: 'Birmingham Local SEO that makes you the first name on the map in Crestwood and Hoover',
     h2Exact: 'Birmingham Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them barely exists. In a Dixie Alley metro where a spring storm can flip every roofing phone on at once, we get you into that top three for your neighborhoods so the work lands with you instead of whoever ranked first.",
     primaryCta: 'Get my free Birmingham audit',
     intro:
-      "Birmingham local SEO comes down to one thing: when a homeowner in Vestavia Hills or Crestwood searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This metro splits into two markets, the older in-town neighborhoods full of pre-war housing and the over-the-mountain suburbs built around the UAB medical economy, and the contractors who rank for both are the ones who stay booked. Here's how you do it.",
+      "Birmingham Local SEO comes down to one thing: when a homeowner in Vestavia Hills or Crestwood searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This metro splits into two markets, the older in-town neighborhoods full of pre-war housing and the over-the-mountain suburbs built around the UAB medical economy, and the contractors who rank for both are the ones who stay booked. Here's how you do it.",
     aioQuestion: 'How do Birmingham businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile tuned to the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to actual Birmingham neighborhoods. Because spring tornado season and humid HVAC summers create sudden demand windows, the contractors who rank before the spike capture the most calls. Targeting both the in-town districts and the suburbs over Red Mountain is what separates the Map Pack winners from everyone else.",
@@ -167,7 +167,7 @@ export const birminghamLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A real share of \"near me\" research in Birmingham now starts inside AI tools rather than a plain Google search. We structure your content and schema so those engines can read your business, trust it, and name it when a homeowner asks. For storm-restoration questions especially, that AI answer is becoming as decisive as the Map Pack." },
       { q: 'Am I locked into a contract?', a: "No. We ask for 90 days up front because that is honestly about how long local SEO needs to show real movement in a market this competitive. After that you go month-to-month. If the work is not paying for itself, you cut us loose, and the pressure stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads at prices that add up fast. We build rankings, a strong Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Birmingham neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers modeled for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Birmingham neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers modeled for your business. It is a straight diagnosis of what your Birmingham Local SEO needs, not a pitch deck." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const birminghamLocations = [
     metaDescription:
       'Birmingham SEO for contractors: rank on Google before spring storm season, own your leads, and stop paying for shared Angi referrals every month.',
     eyebrow: 'SEO Services · Birmingham, AL',
-    h1: 'Get your Birmingham business to the top of Google and keep it there',
+    h1: 'Birmingham SEO that puts your business on page one and holds it there',
     h2Exact: 'Birmingham SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Birmingham customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs, not vanity traffic.",
@@ -233,7 +233,7 @@ export const birminghamLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing slice of what we tune for. We structure your content and schema so AI engines can read, trust, and name your business when a Birmingham homeowner asks them who to call, not just rank you in classic results." },
       { q: 'Which Birmingham areas do you cover?', a: "The full metro: Forest Park, Crestwood, Avondale, Mountain Brook, Vestavia Hills, Hoover, Homewood, Pelham, Trussville, Gardendale, and more, with genuine local pages rather than one generic Birmingham page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route the lead straight to you alone. The more of your Birmingham search visibility you own outright, the less you hand to a broker selling the same homeowner to three competitors." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is an honest read on what your Birmingham SEO needs to climb, not a pitch deck." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const birminghamLocations = [
     metaDescription:
       'Birmingham web design for contractors: fast, mobile-first sites that convert storm-restoration and renovation leads into booked jobs across the metro.',
     eyebrow: 'Web Design · Birmingham, AL',
-    h1: 'Birmingham web design that turns visitors into booked jobs',
+    h1: 'Birmingham web design that books jobs instead of just looking nice',
     h2Exact: 'Birmingham Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Birmingham contractors fast, mobile-first sites that turn storm-restoration inquiries and renovation leads into booked work, built to win on both sides of Red Mountain.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Birmingham contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, nothing that speaks to Forest Park renovators or Vestavia Hills homeowners protecting a high-value house. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and convert visitors into booked jobs, whether they're calling the morning after a storm or hunting for a spring renovation crew.",
+      "Birmingham web design is where most contractor sites quietly lose leads: slow on a phone, buried call button, no clear offer, nothing that speaks to Forest Park renovators or Vestavia Hills homeowners protecting a high-value house. Done right, it fixes all of that. We build sites that load fast, look like the professional you are, and convert visitors into booked jobs, whether they're calling the morning after a storm or hunting for a spring renovation crew.",
     aioQuestion: 'What makes a good contractor website in Birmingham?',
     aioAnswer:
       "A good Birmingham contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with real project photos and reviews, and speaks to the specific neighborhoods and suburbs you serve. Because Birmingham splits into the older in-town renovation belt and the UAB-economy suburbs over Red Mountain, the best sites address both and give homeowners in each a reason to call. Storm-readiness messaging matters too: a site that clearly states your availability during severe-weather season captures the homeowners searching under pressure.",
@@ -299,7 +299,7 @@ export const birminghamLocations = [
       { q: 'What platform do you build on?', a: "We choose the platform that fits your business and that you can actually run yourself, usually WordPress or Webflow. We recommend the right one in your free consult and lay out the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Birmingham site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Birmingham web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const birminghamLocations = [
     citySlug: 'birmingham', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Birmingham Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Birmingham contractor website without losing rankings. Faster, mobile-first rebuilds that turn storm-restoration and renovation leads into jobs.',
+      'Birmingham Website Redesign without losing rankings. Faster, mobile-first rebuilds that turn storm-restoration and renovation leads into booked jobs.',
     eyebrow: 'Website Redesign · Birmingham, AL',
-    h1: 'Redesign your Birmingham website without losing your rankings',
+    h1: 'Birmingham Website Redesign that rebuilds for leads, not just looks',
     h2Exact: 'Birmingham Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week: slow, hard to use on a phone, nothing that speaks to Vestavia Hills homeowners or Forest Park renovation buyers. We redesign Birmingham contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish. We do neither. We redesign Birmingham contractor sites for speed and conversions, build them to capture storm and renovation demand, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Birmingham Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish. We do neither. We redesign Birmingham contractor sites for speed and conversions, build them to capture storm and renovation demand, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and usually improves them, because the new site is faster, mobile-first, and better structured than the old one. For Birmingham contractors, the redesign is also a chance to add storm-readiness and seasonal content that drives demand through spring weather and the summer HVAC rush.",
@@ -365,7 +365,7 @@ export const birminghamLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings, and is especially important for the post-storm searches that happen under urgency." },
       { q: 'Do I own the redesigned site?', a: "Completely, the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Birmingham Website Redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const birminghamCity = {
 
   titleTag: 'Birmingham Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Birmingham contractors. Rank before spring storm season, own your leads, and stop paying for shared referrals.',
+    'Birmingham marketing for contractors: web design, SEO, and local SEO. Rank before spring storm season, own your leads, and stop paying for shared referrals.',
 
   eyebrow: 'Birmingham · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Birmingham contractors found and booked',
+  h1: 'Birmingham marketing for contractors who want to own their leads',
   h2Exact: 'Birmingham Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Birmingham's two-market metro: older in-town neighborhoods, UAB-economy suburbs over Red Mountain, Dixie Alley storms, and humid HVAC summers. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const birminghamCity = {
   primaryCta: 'Get my free Birmingham audit',
 
   intro:
-    "Running a contracting business in Birmingham means working a market that doesn't behave like anywhere else. You've got older neighborhoods, Forest Park, Crestwood, Avondale, where pre-war renovation work is booming alongside a newer wave of buyers. You've got affluent suburbs over Red Mountain in Mountain Brook, Vestavia Hills, and Hoover, where homeowners have high expectations and high budgets, and where much of the economy runs through UAB and the medical district. And you've got the Alabama weather: Dixie Alley tornado outbreaks and severe thunderstorms in spring that hit the metro hard, plus humid summers that punish HVAC systems from June into September. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the specific neighborhoods you serve, built around the demand cycles that are specific to Birmingham.",
+    "Birmingham marketing for contractors means working a market that doesn't behave like anywhere else. You've got older neighborhoods, Forest Park, Crestwood, Avondale, where pre-war renovation work is booming alongside a newer wave of buyers. You've got affluent suburbs over Red Mountain in Mountain Brook, Vestavia Hills, and Hoover, where homeowners have high expectations and high budgets, and where much of the economy runs through UAB and the medical district. And you've got the Alabama weather: Dixie Alley tornado outbreaks and severe thunderstorms in spring that hit the metro hard, plus humid summers that punish HVAC systems from June into September. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the specific neighborhoods you serve, built around the demand cycles that are specific to Birmingham.",
   aioQuestion: 'How do Birmingham contractors get more leads online?',
   aioAnswer:
     "Birmingham contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. The biggest differentiator in Birmingham is timing: the contractors already ranked when spring storms tear through Dixie Alley, or when summer humidity overloads HVAC systems, capture the sudden demand surges that drive the most urgent calls. Building that visibility well in advance, across both the older in-town neighborhoods and the over-the-mountain suburbs, is what separates booked contractors from idle ones.",
@@ -422,6 +422,6 @@ export const birminghamCity = {
     { q: 'Why does Birmingham need a different SEO approach?', a: "Because the demand patterns here are unlike most markets. Birmingham sits in Dixie Alley, so severe thunderstorms and tornado outbreaks in spring create sudden surges in roofing, restoration, and tree-damage calls; the April 2011 super outbreak hit the area directly and still shapes how homeowners think about storm risk. Humid summers then push HVAC demand from June into September. On top of that, the metro is two distinct markets: the older renovation neighborhoods in town and the affluent UAB-economy suburbs over Red Mountain. Winning means being visible across both and being ranked before the seasonal windows open." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract holding you in. We pin down the exact scope and price for your Birmingham business in the free audit." },
     { q: 'Which Birmingham areas do you serve?', a: "The full metro: Forest Park, Crestwood, Avondale, Mountain Brook, Vestavia Hills, Hoover, Homewood, Pelham, Trussville, Moody, Gardendale, and more, with genuine neighborhood targeting rather than one generic Birmingham page." },
-    { q: 'Where should I start?', a: "Start with a free Birmingham audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, and whether you're positioned for the next storm or seasonal demand spike. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Birmingham audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, and whether you're positioned for the next storm or seasonal demand spike. That is where Birmingham marketing for contractors begins, with a plan, not a pitch deck." },
   ],
 };

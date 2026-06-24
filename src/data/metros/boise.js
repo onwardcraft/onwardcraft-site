@@ -111,9 +111,9 @@ export const boiseLocations = [
     citySlug: 'boise', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Boise Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Boise and three businesses show up on the map. We get you into those three, so the call lands with you while the valley keeps filling up.',
+      'Boise Local SEO that turns the "near me" searches new Treasure Valley homeowners run into a ringing phone. We get you into the Google Map Pack three.',
     eyebrow: 'Local SEO · Boise, Idaho',
-    h1: 'When Boise searches for what you do, be the first name they find',
+    h1: 'Boise Local SEO that turns "near me" searches in the North End into a ringing phone',
     h2Exact: 'Boise Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me,\" and the names below them might as well not exist. In a valley filling up this fast, with new homeowners arriving every month who have nobody in their phone yet, those top three spots are how you build a customer base that belongs to you.",
@@ -167,7 +167,7 @@ export const boiseLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research now starts in AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. In a fast-growing market that is quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is about how long local SEO takes to move the needle in a Treasure Valley market this competitive. After that you are month-to-month. If the leads are not showing up, you walk, and the accountability sits with us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. In a market growing as fast as Boise those owned leads compound quickly, so over time you lean on the brokers less because the work is already coming to you direct." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across the Treasure Valley, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across the Treasure Valley, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis of what Boise Local SEO can do for your shop." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const boiseLocations = [
     metaDescription:
       'Boise SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing market.',
     eyebrow: 'SEO Services · Boise, Idaho',
-    h1: 'Get your Boise business to the top of Google and keep it there',
+    h1: 'Boise SEO that ranks you for the Treasure Valley searches that book jobs',
     h2Exact: 'Boise SEO Company',
     heroSubhead:
       "Ads die the second you stop paying. SEO does the reverse: rank once for what your Boise customers search and the leads keep arriving for months. We build that ranking for contractors across the Treasure Valley and tie every report to real calls and booked jobs, not vanity charts.",
@@ -233,7 +233,7 @@ export const boiseLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing slice of what we work on, and it matters in a metro where so many new arrivals research before they call. We structure your content and schema so AI engines can read, trust, and name your Boise business, not just rank it in classic results." },
       { q: 'Which areas around Boise do you cover?', a: "All of the Treasure Valley: Boise, Meridian, Nampa, Eagle, Caldwell, Star, Kuna, and Garden City, with genuine local pages for each community rather than one generic Boise page, because that is what actually ranks for \"[service] [city]\" searches." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. In a market growing as fast as Boise, those owned leads are worth more every year, so over time you lean on paying brokers for shared leads less because the work is already coming to you direct." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across the Treasure Valley, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today across the Treasure Valley, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a straight diagnosis of what Boise SEO can do for your bottom line." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const boiseLocations = [
     metaDescription:
       'Boise web design that turns visitors into booked jobs. Fast, mobile-first sites built for contractors in one of the fastest-growing markets in the country.',
     eyebrow: 'Web Design · Boise, Idaho',
-    h1: 'Boise web design that turns visitors into booked jobs',
+    h1: 'Boise Web Design built to convert Treasure Valley clicks into calls',
     h2Exact: 'Boise Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just an expensive brochure. We build Boise contractors fast, mobile-first sites engineered to turn visitors into booked work, and polished enough to win over the families who moved up from California expecting professional quality.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Boise contractor websites bleed leads quietly: slow on a phone, call button buried, nothing that tells a visitor you serve their neighborhood. Web design done right closes all of those leaks. We build sites that load fast, look like the professional you actually are, and turn Treasure Valley visitors into booked jobs, built for a market where new homeowners are searching every month and judging you on first impressions.",
+      "Boise Web Design that works is the difference between a site that books jobs and one that just sits there. Most contractor sites here bleed leads quietly: slow on a phone, call button buried, nothing that tells a visitor you serve their neighborhood. We build fast-loading, mobile-first websites that look like the professional you actually are and turn Treasure Valley visitors into booked jobs, built for a market where new homeowners are searching every month and judging you on first impressions.",
     aioQuestion: 'What makes a good contractor website in Boise?',
     aioAnswer:
       "A good Boise contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific communities you serve across the Treasure Valley. Because newcomers from California expect a clean online experience and most searches happen on mobile, phone speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const boiseLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every Boise build comes with launch support, and after that we offer affordable monthly maintenance covering updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any maintenance or SEO afterward runs month-to-month, so you can step away whenever you choose." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Boise contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Boise contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan for the Boise Web Design that finally books work." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const boiseLocations = [
     citySlug: 'boise', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Boise Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Boise website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing market.',
+      'Boise Website Redesign that keeps every ranking you have earned. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing market.',
     eyebrow: 'Website Redesign · Boise, Idaho',
-    h1: 'Redesign your Boise website without losing your rankings',
+    h1: 'Boise Website Redesign that keeps every Treasure Valley ranking you have earned',
     h2Exact: 'Boise Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Boise homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned in a market that only gets more competitive.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Boise contractor sites for speed and conversions, build them to win over newcomers and longtime locals alike, and migrate with the redirects and SEO care that protect the traffic you have already built.",
+      "Boise Website Redesign goes one of two bad ways for most contractors: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Boise contractor sites for speed and conversions, build them to win over newcomers and longtime locals alike, and handle the SEO-safe migration with the redirects and care that protect the traffic you have already built.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one, and in a market growing as fast as Boise a stronger site pays compounding dividends.",
@@ -365,7 +365,7 @@ export const boiseLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, since that is where nearly every Boise visitor lands and it lifts conversions and rankings together." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content are all yours. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any maintenance or SEO afterward runs month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in Boise leads and rankings, what the redesign needs to fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in Boise leads and rankings, what the redesign needs to fix, and a fixed-price quote with a timeline and a safe migration plan, so your Boise Website Redesign launches without losing a thing." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const boiseCity = {
 
   titleTag: 'Boise Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Boise contractors. Get found, get booked, and own your leads instead of renting them, built for a fast-growing Treasure Valley.',
+    'Boise marketing for contractors: web design, SEO, and local SEO that get you ranked and booked across the Treasure Valley. Own your leads instead of renting them.',
 
   eyebrow: 'Boise · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Boise contractors found and booked',
+  h1: 'Boise marketing for contractors in the Treasure Valley: get ranked, get booked',
   h2Exact: 'Boise Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for one of the fastest-growing markets in the country. One team to get you ranking across the Treasure Valley, winning over newcomers and locals alike, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const boiseCity = {
   primaryCta: 'Get my free Boise audit',
 
   intro:
-    "If you run a contracting business in Boise, you are operating in one of the fastest-growing metros in the United States. New homeowners, many of them arriving from California with no contractor relationships and money to spend, keep landing in the valley, and the first thing they do is search on their phone. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the communities you serve across the Treasure Valley. Add the wildfire-smoke spikes every August and September and the hard winters that drive heating demand from December into February, and you have a market with real seasonal opportunity for the contractor already ranking when demand hits. Here is exactly how we help Boise contractors pull that off.",
+    "Boise marketing for contractors has to account for one fact: you are operating in one of the fastest-growing metros in the United States. New homeowners, many of them arriving from California with no contractor relationships and money to spend, keep landing in the valley, and the first thing they do is search on their phone. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the communities you serve across the Treasure Valley. Add the wildfire-smoke spikes every August and September and the hard winters that drive heating demand from December into February, and you have a market with real seasonal opportunity for the contractor already ranking when demand hits. Here is exactly how we help Boise contractors pull that off.",
   aioQuestion: 'How do Boise contractors get more leads online?',
   aioAnswer:
     "Boise contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack community by community across the Treasure Valley. In a metro growing this fast, where new homeowners keep arriving with no contractor relationships, the contractor who shows up first in search wins a disproportionate share of new customers. Ranking for seasonal demand spikes like wildfire-smoke HVAC calls and winter heating searches gives extra ground over competitors who are not prepared.",
@@ -422,6 +422,6 @@ export const boiseCity = {
     { q: 'Why does the Boise market need a different approach?', a: "Boise has been one of the fastest-growing metros in the country for a decade. New homeowners keep arriving, many from California, with no existing contractor relationships, and they search on their phones. The contractor who shows up in those searches wins a customer for years, because those newcomers are building every relationship from scratch. Seasonal spikes from wildfire smoke and hard winters add opportunity for contractors who plan ahead." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope for your Boise business in the free audit." },
     { q: 'Which Boise and Treasure Valley areas do you serve?', a: "All of the Treasure Valley: Boise, Meridian, Nampa, Eagle, Caldwell, Star, Kuna, and Garden City, with genuine local pages for the North End, East End, Hyde Park, Harris Ranch, and the neighborhoods around them." },
-    { q: 'Where should I start?', a: "Start with a free Boise audit. We look at your website, your rankings, and your Map Pack presence across the Treasure Valley, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Boise audit. We look at your website, your rankings, and your Map Pack presence across the Treasure Valley, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan for Boise marketing for contractors that actually fills the calendar." },
   ],
 };

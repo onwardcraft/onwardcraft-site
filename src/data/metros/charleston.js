@@ -111,9 +111,9 @@ export const charlestonLocations = [
     citySlug: 'charleston', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Charleston Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'When Charleston searches your service, three businesses show on the map. We put you in those three so the storm-season call lands with you, not a competitor.',
+      'Charleston Local SEO that ranks you above the competition locally. We win the Map Pack so the storm-season call lands with you, not a competitor.',
     eyebrow: 'Local SEO · Charleston, SC',
-    h1: 'When Charleston searches for what you do, be the first name on the map',
+    h1: 'Charleston Local SEO that ranks you above the competition from the historic district to Daniel Island',
     h2Exact: 'Charleston Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when a homeowner searches \"near me,\" and everyone underneath them is invisible. We move you into that top three so the call lands with you instead of whoever ranks first, and so you are already there when the next storm or king tide floods every phone in the Lowcountry.",
@@ -167,7 +167,7 @@ export const charlestonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts in AI tools instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. In Charleston that is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you alone. Over time you lean on the brokers less because the work is already coming to you direct." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day Charleston Local SEO plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const charlestonLocations = [
     metaDescription:
       'Charleston SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in, built for hurricane and tidal-flood demand.',
     eyebrow: 'SEO Services · Charleston, SC',
-    h1: 'Get your Charleston business to the top of Google and keep it there',
+    h1: 'Charleston SEO that climbs you past the competition on Google as the Lowcountry keeps growing',
     h2Exact: 'Charleston SEO Company',
     heroSubhead:
       "Ads die the second you stop paying. SEO does the reverse: rank once for what your Charleston customers search and the leads keep arriving for months. We build that ranking and tie every report to real calls and booked jobs, not vanity charts.",
@@ -233,7 +233,7 @@ export const charlestonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business by name, not just classic search results." },
       { q: 'Which areas around Charleston do you cover?', a: "All of the Charleston metro and the surrounding Lowcountry: Mount Pleasant, West Ashley, James Island, Johns Island, Daniel Island, North Charleston, Summerville, Goose Creek and more, with genuine local pages rather than one generic Charleston page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for leads three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic Charleston SEO timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const charlestonLocations = [
     metaDescription:
       'Charleston web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and ready for hurricane and flood-season demand.',
     eyebrow: 'Web Design · Charleston, SC',
-    h1: 'Charleston web design that turns visitors into booked jobs',
+    h1: 'Charleston Web Design that loads fast and books more jobs across the Lowcountry',
     h2Exact: 'Charleston Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just an expensive brochure. We build Charleston contractors fast, mobile-first sites engineered to turn visitors into booked work, and tough enough to hold up when a storm or a king tide sends your phone into overdrive.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Charleston contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. Web design done right closes all of those leaks. We build sites that load fast, look like the polished professional you are, and turn South-of-Broad-to-Mount-Pleasant visitors into booked jobs, and that do not fall over when a hurricane warning or a flooded street sends your traffic through the roof.",
+      "Charleston Web Design done right closes the leaks that quietly bleed contractor sites dry: slow on a phone, call button buried, no clear offer anywhere. We build sites that load fast, look like the polished professional you are, and turn South-of-Broad-to-Mount-Pleasant visitors into booked jobs, and that do not fall over when a hurricane warning or a flooded street sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Charleston?',
     aioAnswer:
       "A good Charleston contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during hurricane and flood season. Because most Charleston searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const charlestonLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Charleston site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Charleston Web Design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const charlestonLocations = [
     citySlug: 'charleston', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Charleston Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Charleston website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
+      'Charleston Website Redesign done with a careful, SEO-safe migration. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
     eyebrow: 'Website Redesign · Charleston, SC',
-    h1: 'Redesign your Charleston website without losing your rankings',
+    h1: 'Charleston Website Redesign done with a careful, SEO-safe migration that protects every Lowcountry ranking',
     h2Exact: 'Charleston Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a design-conscious Charleston homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Charleston contractor sites for speed and conversions, build them to survive hurricane and flood-season surges, and migrate with the redirects and SEO care that protect the traffic you have spent years building.",
+      "A Charleston Website Redesign usually goes one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Charleston contractor sites for speed and conversions, build them to survive hurricane and flood-season surges, and migrate with the redirects and SEO care that protect the traffic you have spent years building.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const charlestonLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Charleston Website Redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const charlestonCity = {
 
   titleTag: 'Charleston Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Charleston contractors. Get found, get booked, and own your leads instead of renting them, all built for storm and flood demand.',
+    'Charleston marketing for contractors that fills your calendar: web design, SEO, and local SEO. Get found, get booked, and own your leads instead of renting them, all built for storm and flood demand.',
 
   eyebrow: 'Charleston · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Charleston contractors found and booked',
+  h1: 'Charleston marketing for contractors that fills your calendar before the next storm hits',
   h2Exact: 'Charleston Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Charleston's affluent, fast-growing, storm-and-flood-driven market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const charlestonCity = {
   primaryCta: 'Get my free Charleston audit',
 
   intro:
-    "If you run a contracting business in Charleston, you are fighting for attention in one of the fastest-growing and wealthiest markets in the Southeast, where new competitors arrive with every season of growth out toward Mount Pleasant and Daniel Island. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the next hurricane or king tide sends demand through the roof. Here is exactly how we help Charleston contractors pull that off.",
+    "Charleston marketing for contractors means fighting for attention in one of the fastest-growing and wealthiest markets in the Southeast, where new competitors arrive with every season of growth out toward Mount Pleasant and Daniel Island. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the next hurricane or king tide sends demand through the roof. Here is exactly how we help Charleston contractors pull that off.",
   aioQuestion: 'How do Charleston contractors get more leads online?',
   aioAnswer:
     "Charleston contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Charleston is growing fast and demand spikes hard during hurricane season and chronic tidal flooding, the contractors who look established and are already ranking before the storm win the most work.",
@@ -422,6 +422,6 @@ export const charlestonCity = {
     { q: 'Why does storm and flood season matter for my marketing?', a: "When hurricanes like Matthew and Irma hit Charleston, or when a king tide floods the peninsula on a sunny day, demand for roofing, flood mitigation, drainage, and HVAC spikes overnight and the backlog can run a year. Ranking takes months to build, so the contractors who are already visible before the storm take that work. We get you in place ahead of season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free audit." },
     { q: 'Which Charleston areas do you serve?', a: "All of the Charleston metro and the surrounding Lowcountry: South of Broad, Mount Pleasant, West Ashley, James Island, Johns Island, Daniel Island, North Charleston, Summerville, Goose Creek and more." },
-    { q: 'Where should I start?', a: "Start with a free Charleston audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Charleston audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Charleston marketing for contractors that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

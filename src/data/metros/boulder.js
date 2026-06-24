@@ -111,9 +111,9 @@ export const boulderLocations = [
     citySlug: 'boulder', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Boulder Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Boulder and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Boulder Local SEO that wins you the top three on the map, so the call lands with you when a Newlands or Superior homeowner searches near me.',
     eyebrow: 'Local SEO · Boulder',
-    h1: 'When Boulder searches for what you do, be the first name they find',
+    h1: 'Boulder Local SEO that wins you the top three on the map, from Newlands to Superior',
     h2Exact: 'Boulder Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when a homeowner searches \"near me,\" and everyone underneath them basically does not exist. We get you into that top three, so the call lands with you instead of whoever ranked first, and so you are already there when the next fire or hailstorm sends every Boulder County phone into overdrive.",
@@ -167,7 +167,7 @@ export const boulderLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts in AI tools instead of classic search, and Boulder's lab-and-startup homeowners are early to it. We structure your content and schema so those engines can read, trust, and cite your business. Here it is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. The one ask is an initial 90-day run, because that is about how long local SEO needs before the numbers start to move in a market this competitive. From there you are month-to-month. If the results are not there, you leave, and the burden of proof stays on us, where it should." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms lease you shared leads and a sliver of visibility you never get to keep. We build the opposite: rankings, a tuned Google profile, and a growing review base that route Boulder homeowners straight to you and only you. Month by month you depend on the brokers less, because the calls are already arriving direct." },
-      { q: "What's in the free audit?", a: "A straight read on where you currently rank across your service areas, what the Map Pack leaders are doing to stay ahead of you, the handful of fixes that will lift you fastest, and a grounded 90-to-180-day plan with the figures worked out for your business. No slide deck, just a diagnosis you can act on." },
+      { q: "What's in the free audit?", a: "A straight read on where you currently rank across your service areas, what the Map Pack leaders are doing to stay ahead of you, the handful of fixes that will lift you fastest, and a grounded 90-to-180-day plan with the figures worked out for your business. No slide deck, just a Boulder Local SEO diagnosis you can act on, built to put you in the local 3-pack and keep you there." },
     ],
   },
 
@@ -177,9 +177,9 @@ export const boulderLocations = [
     citySlug: 'boulder', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Boulder SEO Company | OnwardCraft',
     metaDescription:
-      'Boulder SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for fire and hail demand.',
+      'Boulder SEO that builds rankings you actually own, so contractors rank on Google for the money keywords. Revenue-tied reporting, no lock-in, built for fire and hail demand.',
     eyebrow: 'SEO Services · Boulder',
-    h1: 'Get your Boulder business to the top of Google and keep it there',
+    h1: 'Boulder SEO that builds rankings you actually own, in an affluent foothills market',
     h2Exact: 'Boulder SEO Company',
     heroSubhead:
       "Ads die the second you stop paying. SEO does the reverse: rank once for what your Boulder customers search and the leads keep arriving for months. We build that ranking and tie every report to real calls and booked jobs, not vanity charts.",
@@ -233,7 +233,7 @@ export const boulderLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for, and Boulder's lab-and-startup homeowners are early to it. We structure your content and schema so AI engines can read, trust, and cite your business by name, not just classic search results." },
       { q: 'Which areas around Boulder do you cover?', a: "All of Boulder County and the surrounding areas: Louisville, Superior, Lafayette, Erie, Niwot, Longmont, Gunbarrel, Broomfield and more, with genuine local pages rather than one generic Boulder page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route Boulder homeowners straight to your phone. The more of your search visibility you own outright, the less you have to pay brokers for leads three competitors bought the same hour." },
-      { q: "What's in the free SEO audit?", a: "Your current rankings, the moves your competitors are making to stay ahead of you, the fixes with the most upside, and a realistic timeline with the figures worked out for your business. No slide deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Your current rankings, the moves your competitors are making to stay ahead of you, the fixes with the most upside, and a realistic timeline with the figures worked out for your business. No slide deck, just a Boulder SEO diagnosis built to push your money keywords onto page one and grow the organic traffic you keep." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const boulderLocations = [
     citySlug: 'boulder', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Boulder Web Design Company | OnwardCraft',
     metaDescription:
-      'Boulder web design that turns visitors into booked jobs. Fast, mobile-first sites built for contractors and ready for fire and hail demand.',
+      'Boulder web design engineered to bring in real work, not just look nice. Fast, mobile-first contractor sites that convert and hold up through fire and hail demand.',
     eyebrow: 'Web Design · Boulder',
-    h1: 'Boulder web design that turns visitors into booked jobs',
+    h1: 'Boulder web design engineered to bring in real work, from Newlands to Superior',
     h2Exact: 'Boulder Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just an expensive brochure. We build Boulder contractors fast, mobile-first sites engineered to turn visitors into booked work, and tough enough to hold up when fire or hail season sends your phone into overdrive.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Boulder contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer, and no proof of the expertise this market checks for first. Web design done right closes all of those leaks. We build sites that load fast, look like the professional you actually are, and turn Newlands-to-Superior visitors into booked jobs, and that do not fall over when a fire or hailstorm sends your traffic through the roof.",
+      "Boulder Web Design is the difference between a website that books high-ticket jobs and one that quietly bleeds leads: slow on a phone, call button buried, no clear offer, and no proof of the expertise this market checks for first. Website design done right closes all of those leaks. We build a contractor website that loads fast, looks like the professional you actually are, and turns Newlands-to-Superior visitors into booked jobs, and that does not fall over when a fire or hailstorm sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Boulder?',
     aioAnswer:
       "A good Boulder contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews, credentials, and real project photos, and holds up under fire and hail season spikes. Because Boulder homeowners compare every contractor and most searches happen on mobile, speed and demonstrated expertise separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const boulderLocations = [
       { q: 'What platform do you build on?', a: "We choose the platform that suits what you need and that you can run on your own, most often WordPress or Webflow. We name the right fit in your free consult and walk through the tradeoffs in plain language." },
       { q: 'Do you offer ongoing support?', a: "Yes. Launch support comes with every build, and after that we offer reasonably priced monthly maintenance covering updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time, fixed-price project. Any maintenance or SEO you add on afterward runs month-to-month, so you can step away whenever it suits you." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Boulder site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Boulder site should include, and a fixed-price quote with a timeline. No pressure, just a Boulder Web Design plan built to convert visitors into booked jobs from the first day live." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const boulderLocations = [
     citySlug: 'boulder', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Boulder Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Boulder website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in fire and hail.',
+      'Boulder Website Redesign that modernizes without tanking your traffic. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in fire and hail.',
     eyebrow: 'Website Redesign · Boulder',
-    h1: 'Redesign your Boulder website without losing your rankings',
+    h1: 'Boulder Website Redesign that modernizes without tanking your foothills traffic',
     h2Exact: 'Boulder Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Boulder homeowner to judge and skip in seconds. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Boulder contractor sites for speed and conversions, build them to survive fire and hail traffic surges, and migrate with the redirects and SEO care that protect the traffic you have spent years building.",
+      "A Boulder Website Redesign usually goes one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Boulder contractor sites for speed and conversions, build them to survive fire and hail traffic surges, and run an SEO-safe migration with the redirects and care that protect the rankings you have spent years building.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "Protect your SEO by holding the URL structure steady, or mapping a 301 redirect for every page whose address changes, and by carrying content, metadata, and schema across and proving it on a staging copy before launch. Handled that way, a Boulder redesign keeps your rankings and tends to lift them, since the new build loads faster, leads on mobile, and is structured more cleanly than the old one.",
@@ -365,7 +365,7 @@ export const boulderLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for quick load times and Core Web Vitals, which lifts conversions and rankings alike." },
       { q: 'Do I own the redesigned site?', a: "Fully: the site, the domain, and the content. No platform lock-in of any sort." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Anything ongoing, maintenance or SEO, runs month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in leads and rankings, what the redesign needs to fix, and a fixed-price quote with a timeline and a migration plan that keeps your rankings safe." },
+      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in leads and rankings, what the redesign needs to fix, and a fixed-price quote with a timeline. You also get a Boulder Website Redesign plan with an SEO-safe migration mapped out, so you rebuild for more leads without losing the rankings you already hold." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const boulderCity = {
 
   titleTag: 'Boulder Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Boulder contractors. Get found, get booked, and own your leads instead of renting them, all built for fire and hail demand.',
+    'Boulder marketing for contractors built around the trades: web design, SEO, and local SEO that get you found and booked and let you own your leads, all ready for fire and hail demand.',
 
   eyebrow: 'Boulder · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Boulder contractors found and booked',
+  h1: 'Boulder marketing for contractors, built around the trades from Mapleton Hill to Superior',
   h2Exact: 'Boulder Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Boulder's affluent, research-driven, foothills market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const boulderCity = {
   primaryCta: 'Get my free Boulder audit',
 
   intro:
-    "If you run a contracting business in Boulder, you are fighting for attention in one of the most educated and affluent markets in the country, where CU researchers, lab scientists, and startup founders vet every contractor before they call. Winning here takes three things working together: a site that converts and proves your expertise, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the next fire or hailstorm sends demand through the roof. Here is exactly how we help Boulder contractors pull that off.",
+    "Boulder marketing for contractors means winning attention in one of the most educated and affluent markets in the country, where CU researchers, lab scientists, and startup founders vet every contractor before they call. Winning here takes three things working together: web design and SEO that converts and proves your expertise, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the next fire or hailstorm sends demand through the roof. Here is exactly how this Boulder marketing agency helps contractors get found and booked.",
   aioQuestion: 'How do Boulder contractors get more leads online?',
   aioAnswer:
     "Boulder contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Boulder homeowners research everything and demand spikes hard after fires like the Marshall Fire and during hail season, the contractors who look established and expert and are already ranking before disaster win the most work.",
@@ -422,6 +422,6 @@ export const boulderCity = {
     { q: 'Why does disaster season matter for my marketing?', a: "When the Marshall Fire crossed into Louisville and Superior, demand for roofing, restoration, and rebuilds spiked overnight and the backlog ran for years. Hail Alley does the same to roofing every summer. Ranking takes months to build, so the contractors who are already visible before disaster take that work. We get you in place ahead of season." },
     { q: 'How much does it cost to work with you?', a: "A website is a one-time build running $2,000 to $9,000. SEO and local SEO bill month-to-month, $750 to $3,000, and there is no long contract on either. We settle the exact scope in your free audit." },
     { q: 'Which Boulder areas do you serve?', a: "All of Boulder County and the surrounding areas: North Boulder, Newlands, Mapleton Hill, Table Mesa, Gunbarrel, Louisville, Superior, Lafayette, Erie, Niwot, Longmont and more." },
-    { q: 'Where should I start?', a: "Start with a free Boulder audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Boulder audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a Boulder marketing for contractors plan built to get you found and booked." },
   ],
 };

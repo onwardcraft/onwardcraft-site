@@ -111,9 +111,9 @@ export const bellevueLocations = [
     citySlug: 'bellevue', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Bellevue Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Bellevue and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Bellevue Local SEO that wins you the top three on the map, so when Medina and Mercer Island homeowners search "near me," the call lands with you.',
     eyebrow: 'Local SEO · Bellevue-Eastside',
-    h1: 'When the Eastside searches for what you do, be the first name they find',
+    h1: 'Bellevue Local SEO that wins you the top three on the Eastside map',
     h2Exact: 'Bellevue Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the call lands with you instead of whoever ranked first, and so Bellevue's research-heavy homeowners find a business that looks like the professional they want to hire.",
@@ -167,7 +167,7 @@ export const bellevueLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "Bellevue's tech-heavy homeowners are early adopters, so a growing share of \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. The one ask is an initial 90 days, because that is honestly about how long local SEO takes to show real movement in a market as competitive as the Eastside. After that you are month-to-month. If the leads are not showing up, you leave, and the burden of proving it works stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you a shared lead and a sliver of visibility you never actually own. We build the things that belong to you instead: your rankings, your Google profile, and a growing base of reviews that route Bellevue homeowners straight to your phone. As that pipeline fills, the broker invoices start to feel optional." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what the contractors ahead of you in the Map Pack are doing, the handful of fixes that will move you fastest, and a realistic 90-to-180-day plan with the math run on your actual numbers. No slide deck, just an honest diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what the contractors ahead of you in the Map Pack are doing, the handful of fixes that will move you fastest, and a realistic 90-to-180-day plan with the math run on your actual numbers. It is the honest starting point for Bellevue Local SEO that turns local search into booked work, no slide deck, just a clear diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const bellevueLocations = [
     metaDescription:
       'Bellevue SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for the Eastside market.',
     eyebrow: 'SEO Services · Bellevue-Eastside',
-    h1: 'Get your Bellevue business to the top of Google and keep it there',
+    h1: 'Bellevue SEO that builds Eastside rankings you actually own',
     h2Exact: 'Bellevue SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Eastside customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const bellevueLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "It is a growing slice of what we build for, and on the Eastside it lands harder than almost anywhere, since a lot of these homeowners work in tech and reach for an AI tool first. We structure your content and schema so those engines can read your business, trust it, and name it, not just classic blue links." },
       { q: 'Which areas around Bellevue do you cover?', a: "All of Bellevue and the wider Eastside: Kirkland, Redmond, Sammamish, Issaquah, Mercer Island, Newcastle, Medina, Clyde Hill, Bothell, Woodinville and more. We build real local pages for each rather than one catch-all Bellevue page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route homeowners straight to you. The more of your own search visibility you control, the less you have to pay brokers for a lead that three other contractors bought at the same time." },
-      { q: "What's in the free SEO audit?", a: "Where you rank now, what the competitors above you are doing, the fixes that will move the needle hardest, and a realistic timeline with the numbers run on your own business. No slide deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank now, what the competitors above you are doing, the fixes that will move the needle hardest, and a realistic timeline with the numbers run on your own business. It is the honest first step toward Bellevue SEO that ranks your Eastside business on Google and grows the organic traffic you actually own. No slide deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const bellevueLocations = [
     metaDescription:
       'Bellevue web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and the Eastside\'s research-heavy homeowners.',
     eyebrow: 'Web Design · Bellevue-Eastside',
-    h1: 'Bellevue web design that turns visitors into booked jobs',
+    h1: 'Bellevue web design engineered to bring in real Eastside work',
     h2Exact: 'Bellevue Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Eastside contractors fast, mobile-first sites engineered to turn visitors into booked work, and to look like the established professional Bellevue's research-heavy homeowners want to hire.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Bellevue contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, and nothing that signals real credibility to an affluent, skeptical buyer. Web design done right fixes all of that. We build sites that load fast, look like the high-end professional you are, and turn Medina-to-Mercer-Island visitors into booked jobs.",
+      "Bellevue web design is what separates a site that books high-ticket jobs from one that just sits there. Most contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, and nothing that signals real credibility to an affluent, skeptical buyer. We build fast, mobile-first sites that look like the high-end professional you are and convert Medina-to-Mercer-Island visitors into booked jobs.",
     aioQuestion: 'What makes a good contractor website in Bellevue?',
     aioAnswer:
       "A good Bellevue contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, and proves trust with reviews, credentials, and real project photos. Because Eastside homeowners are affluent and research every contractor before they call, the site has to look polished and established. That is what separates one that books high-ticket jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const bellevueLocations = [
       { q: 'What platform do you build on?', a: "We match the platform to what you need and what you can realistically run yourself, usually WordPress or Webflow. We recommend the right one in your free consult and explain the tradeoffs without the jargon." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build comes with launch support, and after that we offer reasonably priced monthly maintenance covering updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build itself is a one-time, fixed-price project. Anything ongoing, like maintenance or SEO, runs month-to-month, so you are free to step away whenever you want." },
-      { q: 'What do I get in the free quote?', a: "A straight look at what your current site is leaking in lost leads, what a high-converting Bellevue site ought to include, and a fixed-price quote with a timeline attached. No pressure, just a plan you can act on." },
+      { q: 'What do I get in the free quote?', a: "A straight look at what your current site is leaking in lost leads, what a high-converting Bellevue site ought to include, and a fixed-price quote with a timeline attached. It is a practical plan for Bellevue web design that converts visitors into booked jobs. No pressure, just something you can act on." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const bellevueLocations = [
     citySlug: 'bellevue', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Bellevue Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Bellevue website without losing rankings. Faster, mobile-first rebuilds that convert more of the Eastside\'s affluent homeowners into booked.',
+      'Bellevue Website Redesign that modernizes your site without losing rankings. Faster, mobile-first rebuilds that convert more of the Eastside\'s affluent homeowners.',
     eyebrow: 'Website Redesign · Bellevue-Eastside',
-    h1: 'Redesign your Bellevue website without losing your rankings',
+    h1: 'Bellevue Website Redesign that modernizes without tanking your Eastside traffic',
     h2Exact: 'Bellevue Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week: slow, hard to use on a phone, and too generic to earn an affluent Eastside buyer's trust. We redesign Bellevue contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Bellevue contractor sites for speed, conversions, and the credibility the Eastside's research-heavy homeowners demand, and we migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Bellevue Website Redesign goes one of two bad ways when it is rushed: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Bellevue contractor sites for speed, conversions, and the credibility the Eastside's research-heavy homeowners demand, and we run an SEO-safe migration with the redirects that protect the traffic you already have, so you redesign your Bellevue website without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const bellevueLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and a clean Core Web Vitals score, which raises both conversions and rankings together." },
       { q: 'Do I own the redesigned site?', a: "Entirely: the site, the domain, and the content. There is no platform lock-in to trap you later." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Anything ongoing, like maintenance or SEO, runs month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the rebuild needs to fix, and a fixed-price quote with a timeline and a safe migration plan attached." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the rebuild needs to fix, and a fixed-price quote with a timeline and a safe migration plan attached. It is the honest plan for a Bellevue Website Redesign that converts more without losing the rankings you have earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const bellevueCity = {
 
   titleTag: 'Bellevue Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Bellevue and Eastside contractors. Get found, get booked, and own your leads instead of renting them. Free Bellevue audit.',
+    'Bellevue marketing for contractors: web design, SEO, and local SEO for the Eastside. Get found, get booked, and own your leads instead of renting them.',
 
   eyebrow: 'Bellevue · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Bellevue contractors found and booked',
+  h1: 'Bellevue marketing for contractors, built around the trades and the Eastside',
   h2Exact: 'Bellevue Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the Eastside's affluent, research-heavy, year-round market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const bellevueCity = {
   primaryCta: 'Get my free Bellevue audit',
 
   intro:
-    "If you run a contracting business in Bellevue, you're competing for some of the highest-value jobs in the country, and the homeowners here research every contractor before they call. Winning takes three things working together: a site that converts and looks established, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all tuned for the Eastside's year-round rain, moss, and heat-pump demand. Here's how we help Bellevue contractors do exactly that.",
+    "Bellevue marketing for contractors is about winning some of the highest-value jobs in the country, in a market where homeowners research every contractor before they call. It takes three things working together: a site that converts and looks established, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all tuned for the Eastside's year-round rain, moss, and heat-pump demand. As a digital marketing agency built for the trades, here's how we help Bellevue contractors get found and booked.",
   aioQuestion: 'How do Bellevue contractors get more leads online?',
   aioAnswer:
     "Bellevue contractors get more leads by combining a fast, credible, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because the Eastside is affluent, research-heavy, and competitive, the contractors who look established and are already ranking win the most work, and the highest-value work.",
@@ -422,6 +422,6 @@ export const bellevueCity = {
     { q: 'Why does the Eastside market need a different approach?', a: "Bellevue is one of the wealthiest, most educated, most globally diverse cities in the country, and homeowners research every contractor before they hire. The jobs run large and go to the business that looks established and ranks well. We build for credibility and ranking together, tuned to the year-round rain, moss, and heat-pump demand that drives the market." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds running $2,000 to $9,000. SEO and local SEO are month-to-month, $750 to $3,000, with no long contract behind them. We settle the exact scope in your free audit before you commit a dollar." },
     { q: 'Which Bellevue areas do you serve?', a: "All of Bellevue and the surrounding Eastside: Downtown Bellevue, Somerset, Bridle Trails, Medina, Clyde Hill, Hunts Point, Mercer Island, plus Kirkland, Redmond, Sammamish, Issaquah, Newcastle, Bothell, Woodinville and more." },
-    { q: 'Where should I start?', a: "Start with a free Bellevue audit. We go through your website, your rankings, and your Map Pack standing, then tell you the one or two moves that will pull in the most work the fastest. No slide deck, just a plan you can run with." },
+    { q: 'Where should I start?', a: "Start with a free Bellevue audit. We go through your website, your rankings, and your Map Pack standing, then tell you the one or two moves that will pull in the most work the fastest. It is the simplest first step into Bellevue marketing for contractors that gets you found and booked. No slide deck, just a plan you can run with." },
   ],
 };

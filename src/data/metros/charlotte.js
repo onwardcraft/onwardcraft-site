@@ -111,9 +111,9 @@ export const charlotteLocations = [
     citySlug: 'charlotte', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Charlotte Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your trade in Charlotte and three businesses pin to the map. We get you into those three so the call lands with you, not your competitor. Free audit.',
+      'Charlotte Local SEO that pins your business to the Map Pack. We get you into the top three so the call lands with you, not your competitor. Free audit.',
     eyebrow: 'Local SEO · Charlotte, NC',
-    h1: 'When Charlotte searches for what you do, be the first name they find',
+    h1: 'Charlotte Local SEO that puts your business in the Map Pack for Ballantyne and SouthPark',
     h2Exact: 'Charlotte Local SEO Company',
     heroSubhead:
       "Type any service plus \"near me\" and Google pins exactly three businesses to the map. Everyone below those three is effectively invisible. We get you into that top three for your Charlotte neighborhoods, so the call comes to you instead of whoever happened to rank first, and so you are already there when the next HVAC season or ice storm sends demand straight up.",
@@ -167,7 +167,7 @@ export const charlotteLocations = [
       { q: 'Do you work with contractors specifically?', a: "It is very nearly all we do. Roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors. We understand seasonal demand, emergency calls, and the high bar in Charlotte's affluent neighborhoods, and we build your local SEO around every bit of it." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts inside AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
-      { q: "What is in the free audit?", a: "A clear read on where you rank today across your Charlotte neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What is in the free audit?", a: "A clear read on where you rank today across your Charlotte neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see what Charlotte Local SEO can actually do for your phone. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const charlotteLocations = [
     metaDescription:
       'Charlotte SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in, built for a fast-growing Sun Belt market.',
     eyebrow: 'SEO Services · Charlotte, NC',
-    h1: 'Get your Charlotte business to the top of Google and keep it there',
+    h1: 'Charlotte SEO that gets you to the top of Google and keeps you there through every HVAC season',
     h2Exact: 'Charlotte SEO Company',
     heroSubhead:
       "Ads die the instant you stop paying. SEO does the reverse: rank once for what your Charlotte customers search and the leads keep arriving. We build that ranking and tie every report to real calls and booked jobs, not traffic numbers nobody can spend.",
@@ -233,7 +233,7 @@ export const charlotteLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search results." },
       { q: 'Which areas around Charlotte do you cover?', a: "The whole Charlotte metro: Myers Park, SouthPark, Dilworth, Ballantyne, NoDa, Plaza Midwood, Huntersville, Cornelius, Davidson, Mooresville, Fort Mill, Gastonia, Concord, and the Lake Norman communities, with genuine local pages instead of one catch-all Charlotte page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. The more you own your search visibility, the less you have to depend on paying brokers for leads three competitors also bought." },
-      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is the clearest way to see what Charlotte SEO can earn you in real leads. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const charlotteLocations = [
     metaDescription:
       'Charlotte web design that turns visitors into booked jobs. Fast, mobile-first sites built for contractors serving a high-income, fast-growing market.',
     eyebrow: 'Web Design · Charlotte, NC',
-    h1: 'Charlotte web design that turns visitors into booked jobs',
+    h1: 'Charlotte web design that turns Myers Park and SouthPark visitors into booked jobs',
     h2Exact: 'Charlotte Web Design Company',
     heroSubhead:
       "A pretty website that never rings the phone is just a brochure. We build Charlotte contractors fast, mobile-first sites engineered to turn visitors into booked work, and to look credible enough to earn the trust of the high-income homeowners in SouthPark and Ballantyne who scrutinize everyone they hire.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Charlotte contractor websites bleed leads quietly: slow on a phone, the call button buried, no clear offer anywhere in sight. Web design done right closes all of those leaks. We build sites that load fast, look like the professional you already are, and turn Myers-Park-to-Mooresville visitors into booked jobs, built for a market where a homeowner's very next step is comparing you to two other contractors on the same phone.",
+      "Charlotte web design is the difference between a website that books work and one that bleeds leads quietly: slow on a phone, the call button buried, no clear offer anywhere in sight. Done right, it closes all of those leaks. We build sites that load fast, look like the professional you already are, and turn Myers-Park-to-Mooresville visitors into booked jobs, built for a market where a homeowner's very next step is comparing you to two other contractors on the same phone.",
     aioQuestion: 'What makes a good contractor website in Charlotte?',
     aioAnswer:
       "A good Charlotte contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific Charlotte neighborhoods you serve. Because Charlotte's high-income homeowners in SouthPark and Ballantyne research carefully before hiring, social proof and a professional look carry more weight here than in many markets, and because most searches happen on mobile, speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const charlotteLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage yourself, usually WordPress or Webflow. We will recommend the right fit in your free consult and lay out the tradeoffs in plain terms." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Charlotte site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Charlotte site should include, and a fixed-price quote with a timeline. It is a no-pressure way to see exactly what Charlotte Web Design can do for your booked-job count. Just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const charlotteLocations = [
     citySlug: 'charlotte', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Charlotte Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Charlotte website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a fast-growing market.',
+      'Charlotte Website Redesign that converts more without losing rankings. Faster, mobile-first rebuilds that turn visitors into booked jobs in a fast-growing market.',
     eyebrow: 'Website Redesign · Charlotte, NC',
-    h1: 'Redesign your Charlotte website without losing your rankings',
+    h1: 'Charlotte Website Redesign that converts more without losing your hard-won rankings',
     h2Exact: 'Charlotte Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy to scroll past. We redesign Charlotte contractor sites to convert more and load faster, and we migrate with such care that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks sharper but converts exactly the same, or it launches and the rankings vanish overnight. We refuse both outcomes. We redesign Charlotte contractor sites for speed and conversions, build them to look credible to the high-income homeowners who do their homework, and migrate with the redirects and SEO care that protect the traffic you have already built.",
+      "A Charlotte Website Redesign usually goes one of two bad ways: the site looks sharper but converts exactly the same, or it launches and the rankings vanish overnight. We refuse both outcomes. We redesign Charlotte contractor sites for speed and conversions, build them to look credible to the high-income homeowners who do their homework, and migrate with the redirects and SEO-safe care that protect the traffic you have already built.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const charlotteLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It shows you plainly whether a Charlotte Website Redesign will pay for itself in booked jobs." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const charlotteCity = {
 
   titleTag: 'Charlotte Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Charlotte contractors. Get found, get booked, and own your leads instead of renting them in a fast-growing Sun Belt market.',
+    'Charlotte marketing for contractors: web design, SEO, and local SEO. Get found, get booked, and own your leads instead of renting them in a fast-growing Sun Belt market.',
 
   eyebrow: 'Charlotte · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Charlotte contractors found and booked',
+  h1: 'Charlotte marketing for contractors that gets you found and booked across the metro',
   h2Exact: 'Charlotte Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Charlotte's fast-growing Sun Belt market and its high-income homeowners. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const charlotteCity = {
   primaryCta: 'Get my free Charlotte audit',
 
   intro:
-    "If you run a contracting business in Charlotte, you are competing in one of the fastest-growing cities in the Southeast: a banking hub where the homeowners in SouthPark and Ballantyne carry real budgets but hire whoever looks most credible online, where HVAC demand bakes in from May to September, and where a single January ice storm can send roofing and pipe calls vertical by morning. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that plants you in the Map Pack for the neighborhoods you serve. Here is how we help Charlotte contractors do exactly that.",
+    "Charlotte marketing for contractors has to fit one of the fastest-growing cities in the Southeast: a banking hub where the homeowners in SouthPark and Ballantyne carry real budgets but hire whoever looks most credible online, where HVAC demand bakes in from May to September, and where a single January ice storm can send roofing and pipe calls vertical by morning. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that plants you in the Map Pack for the neighborhoods you serve. Here is how we help Charlotte contractors do exactly that.",
   aioQuestion: 'How do Charlotte contractors get more leads online?',
   aioAnswer:
     "Charlotte contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because the market is growing fast and homeowners in Charlotte's affluent areas research contractors carefully online before they call, looking credible and being easy to find on a phone are what separate the contractors who stay booked from the ones who keep paying for shared leads.",
@@ -422,6 +422,6 @@ export const charlotteCity = {
     { q: 'Why does Charlotte\'s market need a different approach?', a: "It is a fast-growing Sun Belt city with a well-educated, high-income homeowner base that researches contractors carefully online. The suburbs are filling with transplants who have no local contractor relationship yet. And demand swings hard with the seasons: HVAC from May to September, storm damage in winter and spring. Winning here means looking credible, ranking in the right neighborhoods, and being in place before demand peaks." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free audit." },
     { q: 'Which Charlotte areas do you serve?', a: "The whole Charlotte metro: Myers Park, SouthPark, Dilworth, NoDa, Plaza Midwood, Ballantyne, Huntersville, Cornelius, Davidson, Mooresville, Fort Mill, Gastonia, Concord, Belmont, and the Lake Norman communities." },
-    { q: 'Where should I start?', a: "Start with a free Charlotte audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Charlotte audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It is the simplest first step into Charlotte marketing for contractors that actually fills your calendar. No pitch deck, just a plan." },
   ],
 };
