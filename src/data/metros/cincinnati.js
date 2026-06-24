@@ -109,11 +109,11 @@ export const cincinnatiLocations = [
   {
     ...BASE,
     citySlug: 'cincinnati', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Cincinnati Local SEO Company | OnwardCraft',
+    titleTag: 'Cincinnati Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Cincinnati and three businesses show on the map. We get you into those three across Ohio and Northern Kentucky so the call lands with you.',
+      'Cincinnati Local SEO that wins you the top three on the map across Ohio and Northern Kentucky, so the "near me" call lands with you instead of a competitor.',
     eyebrow: 'Local SEO · Cincinnati, OH',
-    h1: 'When Cincinnati searches for what you do, be the first name they find',
+    h1: 'Cincinnati Local SEO that wins you the top three on the map, hill by hill and bank by bank',
     h2Exact: 'Cincinnati Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when someone searches \"near me,\" and everyone below them is basically invisible. Across a three-state metro of hillside brick neighborhoods in Ohio and fast-growing suburbs in Northern Kentucky, we put you in that top three for every market you actually serve.",
@@ -167,7 +167,7 @@ export const cincinnatiLocations = [
       { q: "How does Cincinnati's weather change when I should invest in SEO?", a: "The seasonal swings here are real: summer HVAC from June through September when river-valley humidity peaks, spring storm and flooding calls from March through May, and winter freeze damage to pipes and old masonry. Rankings take months to build, so you need to be in place before the season hits, not chasing it. We get you ranking for those seasonal searches ahead of the spike." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research now starts inside AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business by name. In Cincinnati that's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO takes to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Cincinnati neighborhoods and the Kentucky side, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Cincinnati neighborhoods and the Kentucky side, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. Cincinnati Local SEO done well is how you take the top three on the map and turn local search into a phone that rings. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const cincinnatiLocations = [
   {
     ...BASE,
     citySlug: 'cincinnati', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Cincinnati SEO Company | OnwardCraft',
+    titleTag: 'Cincinnati SEO Company | Rankings You Own | OnwardCraft',
     metaDescription:
-      'Cincinnati SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in, built for a tri-state river-city market.',
+      'Cincinnati SEO that builds rankings you actually own, ranking contractors on Google for the money keywords across a tri-state river-city market. Revenue-tied reporting, no lock-in.',
     eyebrow: 'SEO Services · Cincinnati, OH',
-    h1: 'Get your Cincinnati business to the top of Google and keep it there',
+    h1: 'Cincinnati SEO that builds rankings you actually own, across a tri-state river-city market',
     h2Exact: 'Cincinnati SEO Company',
     heroSubhead:
       "Ads die the second you stop paying. SEO does the reverse: rank once for what Cincinnati homeowners search, from Hyde Park to Covington, and the leads keep arriving. We build that ranking and tie every report back to real calls and booked jobs.",
@@ -233,7 +233,7 @@ export const cincinnatiLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and name your Cincinnati business, not just classic search results." },
       { q: 'Which Cincinnati areas do you cover?', a: "The full tri-state metro: Hyde Park, Mt. Adams, Clifton, Oakley, Blue Ash, Mason, West Chester, Anderson Township, and across the river into Covington, Florence, and Newport, with genuine local pages rather than one generic Cincinnati page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. The more you own your search visibility across Cincinnati neighborhoods and Northern Kentucky, the less you depend on paying brokers for leads three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across Cincinnati and Northern Kentucky, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today across Cincinnati and Northern Kentucky, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. Cincinnati SEO is how you turn organic traffic into page-one rankings you own and money keywords that book real jobs. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const cincinnatiLocations = [
   {
     ...BASE,
     citySlug: 'cincinnati', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Cincinnati Web Design Company | OnwardCraft',
+    titleTag: 'Cincinnati Web Design Company | Sites That Book Work | OnwardCraft',
     metaDescription:
-      'Cincinnati web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors serving Ohio, Northern Kentucky, and old brick homes.',
+      'Cincinnati web design engineered to bring in real work: fast, mobile-first contractor websites built for Ohio, Northern Kentucky, and old brick homes that convert visitors into booked jobs.',
     eyebrow: 'Web Design · Cincinnati, OH',
-    h1: 'Cincinnati web design that turns visitors into booked jobs',
+    h1: 'Cincinnati web design engineered to bring in real work, from the hillside brick homes to the Kentucky bank',
     h2Exact: 'Cincinnati Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just a brochure. We build Cincinnati contractors fast, mobile-first sites engineered to turn visitors into booked work, from Hyde Park to Covington, in a market where loyal locals back whoever shows up first and looks like they know the neighborhood.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Cincinnati contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. Web design done right closes all of those leaks. We build sites that load fast, look like the professional you are, and turn visitors from Hyde Park to Florence KY into booked jobs. Built for a market where loyal Cincinnati homeowners reward the local name they already trust.",
+      "Cincinnati web design is the difference between a site that books jobs and one that quietly bleeds leads: slow on a phone, call button buried, no clear offer anywhere. We build contractor websites that load fast, look like the professional you are, and turn visitors from Hyde Park to Florence KY into booked jobs. Mobile-first and built for a market where loyal Cincinnati homeowners reward the local name they already trust.",
     aioQuestion: 'What makes a good contractor website in Cincinnati?',
     aioAnswer:
       "A good Cincinnati contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, shows you know the specific neighborhoods you serve on both banks of the Ohio River, and proves trust with reviews and real project photos from local brick and newer-build homes. Because more than half of Cincinnati searches happen on a phone and the competition is real, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const cincinnatiLocations = [
       { q: 'Can you build pages for my Northern Kentucky service area?', a: "Yes, and we recommend it. If you serve Covington, Florence, or Newport, we build dedicated pages for those markets so you rank on the Kentucky side separately from your Ohio pages. That's how you capture the full tri-state market." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and after that we offer affordable monthly maintenance for updates, speed, and security so your Cincinnati site stays sharp." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time fixed-price project. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Cincinnati site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Cincinnati site should include, and a fixed-price quote with a timeline. Cincinnati web design done right is a fast, mobile-first website that converts visitors into booked jobs. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const cincinnatiLocations = [
   {
     ...BASE,
     citySlug: 'cincinnati', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Cincinnati Website Redesign | OnwardCraft',
+    titleTag: 'Cincinnati Website Redesign | Modernize Without Losing Traffic | OnwardCraft',
     metaDescription:
-      'Redesign your Cincinnati website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across the tri-state metro.',
+      'Cincinnati Website Redesign that modernizes without tanking your traffic: faster, mobile-first rebuilds with an SEO-safe migration that convert more visitors into booked jobs across the tri-state metro.',
     eyebrow: 'Website Redesign · Cincinnati, OH',
-    h1: 'Redesign your Cincinnati website without losing your rankings',
+    h1: 'Cincinnati Website Redesign that modernizes without tanking your traffic across the tri-state metro',
     h2Exact: 'Cincinnati Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Cincinnati homeowner to scroll past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you've already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Cincinnati contractor sites for speed and conversions, build them to serve the full tri-state metro, and migrate with the redirects and SEO care that protect the traffic you've already got.",
+      "A Cincinnati Website Redesign usually goes one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We rebuild contractor sites for speed and conversions, build them to serve the full tri-state metro, and run an SEO-safe migration with the redirects and care that protect the traffic you've already got.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured, including proper targeting for both the Ohio and Northern Kentucky markets.",
@@ -365,7 +365,7 @@ export const cincinnatiLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which is exactly what most Cincinnati visitors and Google both reward." },
       { q: 'Do I own the redesigned site?', a: "Completely: the rebuilt site, the domain, and the content. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix (including tri-state coverage), and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix (including tri-state coverage), and a fixed-price quote with a timeline and a safe migration plan. A Cincinnati Website Redesign done our way rebuilds for leads and runs an SEO-safe migration so you modernize without losing rankings." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const cincinnatiCity = {
 
   titleTag: 'Cincinnati Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Cincinnati contractors across Ohio and Northern Kentucky. Get found, get booked, and own your leads instead of renting them.',
+    'Cincinnati marketing for contractors across Ohio and Northern Kentucky: web design, SEO, and local SEO that get you found, get you booked, and let you own your leads instead of renting them.',
 
   eyebrow: 'Cincinnati · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Cincinnati contractors found and booked',
+  h1: 'Cincinnati marketing for contractors, built around the trades on both banks of the river',
   h2Exact: 'Cincinnati Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Cincinnati's three-state metro, from the hillside brick neighborhoods in Ohio to the fast-growing Kentucky suburbs across the river. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const cincinnatiCity = {
   primaryCta: 'Get my free Cincinnati audit',
 
   intro:
-    "If you run a contracting business in Cincinnati, you're working a market most agencies have never fully mapped. There's the Ohio side: brick hillside neighborhoods in Mt. Adams and Clifton, the row houses of Over-the-Rhine, established suburbs in Blue Ash and Mason, and river-low areas with real flooding risk. And there's the Kentucky side: Covington, Florence, and Newport, a bridge away but a completely different local search market that most Ohio contractors ignore online. Winning in Cincinnati takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack on both banks. Here's how we help Cincinnati contractors pull that off.",
+    "Cincinnati marketing for contractors means working a market most agencies have never fully mapped. There's the Ohio side: brick hillside neighborhoods in Mt. Adams and Clifton, the row houses of Over-the-Rhine, established suburbs in Blue Ash and Mason, and river-low areas with real flooding risk. And there's the Kentucky side: Covington, Florence, and Newport, a bridge away but a completely different local search market that most Ohio contractors ignore online. Winning here takes three things working together: web design that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack on both banks. Here's how we help Cincinnati contractors pull that off.",
   aioQuestion: 'How do Cincinnati contractors get more leads online?',
   aioAnswer:
     "Cincinnati contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack across the tri-state metro. The contractors who do best also optimize separately for Northern Kentucky (Covington, Florence, and Newport), since those searches are often less competitive and represent real jobs that Ohio-based contractors keep leaving unclaimed.",
@@ -422,6 +422,6 @@ export const cincinnatiCity = {
     { q: 'Why does the Cincinnati market need a different approach?', a: "It's a genuine three-state metro built on seven hills. The Ohio neighborhoods and the Northern Kentucky suburbs are different local markets in Google's eyes, which means you have to be optimized for both banks separately. Most agencies treat the whole area as one market and miss half the opportunity." },
     { q: "Should I optimize for Northern Kentucky even if I'm based in Ohio?", a: "If you'll do the work in Covington, Florence, or Newport, yes. Those are real Cincinnati metro jobs, and most Ohio contractors have never targeted those searches. The competition there is often lighter, and the homeowners are just as close as the ones in Anderson Township." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free Cincinnati audit." },
-    { q: 'Where should I start?', a: "Start with a free Cincinnati audit. We'll look at your website, your rankings on both banks of the river, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Cincinnati audit. We'll look at your website, your rankings on both banks of the river, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. Cincinnati marketing for contractors works best when web design and SEO pull together to get you found and booked. No pitch deck, just a plan." },
   ],
 };

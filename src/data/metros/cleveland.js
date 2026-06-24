@@ -111,9 +111,9 @@ export const clevelandLocations = [
     citySlug: 'cleveland', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Cleveland Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your trade in Cleveland and three businesses show up on the map. We get you into those three before the lake-effect snow season hits.',
+      'Cleveland Local SEO that lands you in the Map Pack three before the lake-effect snow season hits, so the emergency calls reach you first.',
     eyebrow: 'Local SEO · Cleveland, OH',
-    h1: 'When Cleveland searches for what you do, be the first name they find',
+    h1: 'Cleveland Local SEO that puts your Ohio City and Westlake crews in the Map Pack',
     h2Exact: 'Cleveland Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when a homeowner searches \"near me,\" and everyone underneath them barely registers. In a market where a single lake-effect band can send homeowners hunting for a contractor overnight, we push you into that top three for the neighborhoods you cover, so the call lands with you instead of whoever happened to rank first.",
@@ -167,7 +167,7 @@ export const clevelandLocations = [
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you leave, and the accountability stays on us." },
       { q: 'How does this pull me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads at a price that pencils out for the broker, not for you. We build rankings, a Google profile, and a review base that route leads straight to you alone. Over time you lean on the brokers less because the work is already arriving direct, which matters most during the winter months when you need it." },
       { q: "What if I work both the city and the suburbs?", a: "That is common in Cleveland, where crews often run the historic inner-ring streets and the suburban belt in the same week. We build neighborhood and service-area pages for both, so you rank where your customers actually search instead of inside one generic city zone." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your Cleveland neighborhoods, what your Map Pack competitors are doing to stay ahead, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your Cleveland neighborhoods, what your Map Pack competitors are doing to stay ahead, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see what Cleveland Local SEO can do for your shop before you spend a dollar. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const clevelandLocations = [
     metaDescription:
       'Cleveland SEO that ranks contractors on Google and brings in leads you own. Built for the lake-effect market, revenue-tied reporting, no lock-in.',
     eyebrow: 'SEO Services · Cleveland, OH',
-    h1: 'Get your Cleveland business to the top of Google and keep it there',
+    h1: 'Cleveland SEO that gets you to the top of Google and holds you there through lake-effect season',
     h2Exact: 'Cleveland SEO Company',
     heroSubhead:
       "Ads quit the second you stop paying. SEO runs the other way: rank once for what your Cleveland customers search and the leads keep arriving for months, including through the winter emergency stretch when every contractor's phone ought to be ringing.",
@@ -233,7 +233,7 @@ export const clevelandLocations = [
       { q: 'Will AI Overviews and ChatGPT surface my business?', a: "That is a growing slice of what we optimize for. When a homeowner searches for help after a pipe bursts at midnight, more of those searches now start in AI. We structure your content and schema so AI engines can read, trust, and recommend your business by name." },
       { q: 'Which Cleveland areas do you cover?', a: "The full metro: Ohio City, Tremont, Detroit Shoreway, Slavic Village, Shaker Heights, University Heights, Westlake, Bay Village, Solon, Beachwood, Parma, Strongsville, Lakewood and more, with genuine local pages rather than a single flat Cleveland page." },
       { q: 'How do you wean me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. Cleveland homeowners already prefer local crews, so we make sure they can find you when they go looking, which steadily shrinks your dependence on brokers selling you shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across Cleveland, what your competitors are doing to stay ahead, the fixes with the highest payoff, and a realistic timeline with the numbers run for your shop. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today across Cleveland, what your competitors are doing to stay ahead, the fixes with the highest payoff, and a realistic timeline with the numbers run for your shop. It maps out exactly what Cleveland SEO would look like for your business and the organic traffic it can earn. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const clevelandLocations = [
     metaDescription:
       'Cleveland web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in the lake-effect market.',
     eyebrow: 'Web Design · Cleveland, OH',
-    h1: 'Cleveland web design that turns visitors into booked jobs',
+    h1: 'Cleveland web design that turns Ohio City and Westlake visitors into booked jobs',
     h2Exact: 'Cleveland Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure. We build Cleveland contractors fast, mobile-first sites engineered to turn visitors into booked work, and built to earn the trust of homeowners who can spot a local from a national chain off the homepage alone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Cleveland contractor websites leak leads quietly: slow on a phone, call button buried, generic copy that could belong to a shop in any city. Web design done right plugs every one of those holes. We build sites that load fast, look like the professional you actually are, and turn Ohio-City-to-Westlake visitors into booked jobs, tuned to win in a market where homeowners go out of their way for a local who knows what lake-effect winters and 1920s brick homes really demand.",
+      "Cleveland web design has one job a brochure never does: turning a slow, leaky contractor website into a site that books work. Most contractor sites quietly bleed leads, slow on a phone, call button buried, generic copy that could belong to a shop in any city. We build sites that load fast, look like the professional you actually are, and turn Ohio-City-to-Westlake visitors into booked jobs, tuned to win in a market where homeowners go out of their way for a local who knows what lake-effect winters and 1920s brick homes really demand.",
     aioQuestion: 'What makes a good contractor website in Cleveland?',
     aioAnswer:
       "A good Cleveland contractor site loads in under three seconds on a phone, keeps the call button and a clear offer above the fold, proves local trust with real project photos and neighborhood references, and names the specific Cleveland areas you serve. Because most emergency searches happen on mobile during weather events, and because Cleveland homeowners lean hard toward local over national, mobile speed, an obvious next step, and genuine local credibility are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const clevelandLocations = [
       { q: 'What platform do you build on?', a: "We choose the platform that fits your needs and that you can run yourself, usually WordPress or Webflow. We recommend the right fit in your free Cleveland consult and walk you through the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build ships with launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time, fixed-price project. Any ongoing maintenance or SEO runs month-to-month, so you can walk whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Cleveland contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Cleveland contractor site should include, and a fixed-price quote with a timeline. It is the simplest way to see what Cleveland web design built to convert visitors into booked jobs would do for your shop. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const clevelandLocations = [
     citySlug: 'cleveland', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Cleveland Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Cleveland website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs. Free audit.',
+      'Cleveland Website Redesign that converts more without losing your rankings. Faster, mobile-first rebuilds with an SEO-safe migration. Free audit.',
     eyebrow: 'Website Redesign · Cleveland, OH',
-    h1: 'Redesign your Cleveland website without losing your rankings',
+    h1: 'Cleveland Website Redesign that converts more without losing the rankings you earned',
     h2Exact: 'Cleveland Website Redesign Company',
     heroSubhead:
       "An outdated site quietly bleeds jobs every week, and in Cleveland that means missing emergency calls during the busiest contractor stretch of the year. We redesign contractor sites to convert more and load faster, and we migrate carefully enough that you keep every ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks sharper but converts exactly the same, or it launches and the rankings evaporate overnight. We do neither. We redesign Cleveland contractor sites for speed and local credibility, build them to stand out in a market that clearly prefers local, and migrate with the redirects and SEO care that protect the traffic you spent years earning, traffic that turns especially valuable the week lake-effect season arrives.",
+      "A Cleveland Website Redesign usually goes one of two bad ways: the site looks sharper but converts exactly the same, or it launches and the rankings evaporate overnight. We do neither. We redesign Cleveland contractor sites for speed and local credibility, build them to stand out in a market that clearly prefers local, and migrate with the redirects and SEO care that protect the traffic you spent years earning, traffic that turns especially valuable the week lake-effect season arrives.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and usually lifts them, because the new site is faster, more mobile-friendly, and better structured than the old one, all things Google rewards.",
@@ -365,7 +365,7 @@ export const clevelandLocations = [
       { q: 'Will the rebuilt site be fast and mobile-friendly?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings, and is decisive for catching the emergency searches Cleveland winters produce." },
       { q: 'Do I own the redesigned site?', a: "Every bit of it: the site, the domain, and the content are yours. No platform you are chained to and cannot leave." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project, and any ongoing maintenance or SEO stays month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A straight read on what your current Cleveland site is leaking in leads and rankings, the specific fixes the redesign should make, and a fixed-price quote with a timeline and a migration plan that guards your existing traffic." },
+      { q: "What's in the free redesign audit?", a: "A straight read on what your current Cleveland site is leaking in leads and rankings, the specific fixes the redesign should make, and a fixed-price quote with a timeline and a migration plan that guards your existing traffic. It shows exactly what a Cleveland Website Redesign would change before you commit a dollar." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const clevelandCity = {
 
   titleTag: 'Cleveland Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Cleveland contractors. Get found before lake-effect season, rank in every neighborhood, and own your leads.',
+    'Cleveland marketing for contractors: web design, SEO, and local SEO that get you found before lake-effect season and let you own your leads.',
 
   eyebrow: 'Cleveland · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Cleveland contractors found and booked',
+  h1: 'Cleveland marketing for contractors that gets you found and booked before the snow flies',
   h2Exact: 'Cleveland Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Cleveland's lake-effect winters, Rust Belt neighborhoods, and homeowners who almost always pick local. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const clevelandCity = {
   primaryCta: 'Get my free Cleveland audit',
 
   intro:
-    "If you run a contracting business in Cleveland, your market runs on weather. Lake-effect snow fires off emergency demand from November into March. The thaw sends basement-flooding calls through the roof from March into May. In between, Ohio City, Tremont, Shaker Heights, and Slavic Village are stacked with 1920s brick homes that need specialist work a national chain is not built to handle. Winning here takes three things pulling together: a site that earns local trust and converts, SEO that ranks you for what people search (including the seasonal emergency terms), and local SEO that lands you in the Map Pack for the neighborhoods you actually drive to. Here is how we help Cleveland contractors pull that off.",
+    "Cleveland marketing for contractors has to start with one fact: your market runs on weather. Lake-effect snow fires off emergency demand from November into March. The thaw sends basement-flooding calls through the roof from March into May. In between, Ohio City, Tremont, Shaker Heights, and Slavic Village are stacked with 1920s brick homes that need specialist work a national chain is not built to handle. Winning here takes three things pulling together: a site that earns local trust and converts, SEO that ranks you for what people search (including the seasonal emergency terms), and local SEO that lands you in the Map Pack for the neighborhoods you actually drive to. Here is how we help Cleveland contractors pull that off.",
   aioQuestion: 'How do Cleveland contractors get more leads online?',
   aioAnswer:
     "Cleveland contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because Cleveland homeowners lean hard toward local crews and because demand spikes sharply around lake-effect snow and the spring thaw, the contractors who build their rankings in the slow season and target the specific neighborhoods and emergency terms that matter here take the most work when it counts.",
@@ -422,6 +422,6 @@ export const clevelandCity = {
     { q: "Why does Cleveland's market need its own approach?", a: "Because demand here is seasonal and urgent. Lake-effect snow and thaw flooding create sharp, predictable spikes in contractor calls, and you have to be ranking before each window opens. And because Cleveland homeowners genuinely favor local crews, your web presence has to look and feel local, not like a template a national shop swapped a city name into." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds running $2,000 to $9,000. SEO and local SEO go month-to-month from $750 to $3,000, with no long contract. We nail down the exact scope for your Cleveland shop in the free audit." },
     { q: 'Which Cleveland areas do you serve?', a: "The full metro: Ohio City, Tremont, Detroit Shoreway, Slavic Village, University Heights, Shaker Heights, Westlake, Bay Village, Solon, Beachwood, Strongsville, Parma, Lakewood, Euclid and more, with genuine neighborhood pages rather than one flat Cleveland page." },
-    { q: 'Where should I start?', a: "Start with a free Cleveland audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work before the next weather season. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Cleveland audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work before the next weather season. It is the simplest first step into Cleveland marketing for contractors that gets you found and booked. No pitch deck, just a plan." },
   ],
 };

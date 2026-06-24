@@ -111,9 +111,9 @@ export const daytonLocations = [
     citySlug: 'dayton', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Dayton Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Dayton and three businesses show up on the map. We get you into those three, for PCS families, storm-season calls, and defense-area buyers.',
+      'Dayton Local SEO that ranks you above the competition in the Map Pack, for PCS families, storm-season calls, and defense-area buyers searching "near me."',
     eyebrow: 'Local SEO · Dayton, OH',
-    h1: 'When Dayton searches for what you do, be the first name they find',
+    h1: 'Dayton Local SEO that ranks you above the competition around Wright-Patterson',
     h2Exact: 'Dayton Local SEO Company',
     heroSubhead:
       "Google drops three businesses on the map when a homeowner searches \"near me,\" and everyone below that pin is basically invisible. In a city where military families land on PCS orders and search Google that same day, and where the 2019 tornadoes turned storm prep into a year-round habit, being one of those three is the line between a full calendar and a silent phone.",
@@ -167,7 +167,7 @@ export const daytonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts in AI, especially among the engineers and defense professionals near Wright-Patterson who are comfortable using it. We structure your content and schema so those tools can read, trust, and cite your business. It is quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement, and because storm season and Ohio winter are patterns worth measuring across a full cycle. After that it is month-to-month. If we are not delivering, you walk." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads for homeowners who were also handed to competing contractors, at rising prices. We build rankings, a Google profile, and a review base that send leads straight to you. Over time, especially as storm-season and PCS-arrival traffic builds, you lean on brokers less because the work comes to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across Dayton's suburbs, what your Map Pack competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across Dayton's suburbs, what your Map Pack competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see exactly what Dayton Local SEO would do for your calendar. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const daytonLocations = [
     metaDescription:
       'Dayton SEO that ranks contractors on Google and brings in leads you own. Built for storm-season demand, PCS arrivals, and the defense-area research buyer.',
     eyebrow: 'SEO Services · Dayton, OH',
-    h1: 'Get your Dayton business to the top of Google and keep it there',
+    h1: 'Dayton SEO that climbs you past the competition on Google before storm season hits',
     h2Exact: 'Dayton SEO Company',
     heroSubhead:
       "Ads quit the second your card does. SEO works the other way: rank once for what Dayton homeowners search before storm season, before the next PCS wave, before Ohio winter, and the leads keep landing. We build that ranking and tie every report to real calls and booked jobs.",
@@ -233,7 +233,7 @@ export const daytonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. The defense engineers and officers near Wright-Patterson are exactly the kind of buyers who use AI to research. We structure your content and schema so AI engines can read, trust, and cite your business." },
       { q: 'Which Dayton suburbs do you cover?', a: "All of them: Beavercreek, Centerville, Kettering, Springboro, Huber Heights, Vandalia, Fairborn, Miamisburg, Trotwood, and Dayton city neighborhoods, with genuine local content rather than one generic Dayton page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility for storm-season, winter, and PCS-arrival searches, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across your target Dayton suburbs, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today across your target Dayton suburbs, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It shows in plain terms what Dayton SEO can add to your organic traffic and booked work. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const daytonLocations = [
     metaDescription:
       'Dayton web design that turns visitors into booked jobs. Fast, mobile-first sites for contractors serving military families, defense-area pros, and storm-season homeowners.',
     eyebrow: 'Web Design · Dayton, OH',
-    h1: 'Dayton web design that turns visitors into booked jobs',
+    h1: 'Dayton web design that loads fast and books more jobs for the trades',
     h2Exact: 'Dayton Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure. We build Dayton contractors fast, mobile-first sites engineered to win the military-family buyer who searches the day they arrive, the defense-area professional who researches before calling, and the storm-season homeowner ready to book right now.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Dayton contractor websites lose leads quietly: slow on a phone, call button buried, no proof of local credibility. Web design done right closes all of that. We build sites that load fast, look like the professional you are, and speak directly to Dayton's particular demand, including military families arriving on PCS orders, Beavercreek engineers who research contractors online, and homeowners preparing for storm season every spring.",
+      "Dayton web design done right fixes what quietly costs most contractor websites leads: slow on a phone, call button buried, no proof of local credibility. We build sites that load fast, look like the professional you are, and speak directly to Dayton's particular demand, including military families arriving on PCS orders, Beavercreek engineers who research contractors online, and homeowners preparing for storm season every spring.",
     aioQuestion: 'What makes a good contractor website in Dayton?',
     aioAnswer:
       "A good Dayton contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves local credibility with real reviews and project photos from recognizable Dayton suburbs, and names the specific communities you serve like Beavercreek, Centerville, and Kettering. Because military families on PCS orders and defense-area professionals near Wright-Patterson research heavily before calling, trust signals and suburb-specific content separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const daytonLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security, including before-season refreshes ahead of storm season or Ohio winter." },
       { q: 'Am I locked into a contract?', a: "No. The Dayton build is a one-time, fixed-price project. Anything ongoing, like maintenance or SEO, runs month-to-month, so you can step away whenever you want." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads from PCS families, storm-season homeowners, and defense-area buyers, plus a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads from PCS families, storm-season homeowners, and defense-area buyers, plus a fixed-price quote with a timeline. It is the simplest way to see what Dayton web design built to convert visitors into booked jobs would mean for your business. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const daytonLocations = [
     citySlug: 'dayton', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Dayton Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Dayton website without losing rankings. Faster, mobile-first rebuilds that convert military families, defense-area buyers, and storm-season homeowners.',
+      'Dayton Website Redesign without losing your rankings. Faster, mobile-first rebuilds that convert military families, defense-area buyers, and storm-season homeowners.',
     eyebrow: 'Website Redesign · Dayton, OH',
-    h1: 'Redesign your Dayton website without losing your rankings',
+    h1: 'Dayton Website Redesign done with a careful, SEO-safe migration that keeps your rankings',
     h2Exact: 'Dayton Website Redesign Company',
     heroSubhead:
       "An outdated Dayton contractor site costs you jobs every week. It loads slow on a phone, runs thin on local credibility, and is easy for storm-season homeowners and PCS-arrival families to skip over. We redesign contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you have earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Dayton contractor sites for speed and conversions, with suburb-specific credibility for the Beavercreek and Centerville research buyer and storm-season trust signals for the homeowner ready to book right now, and we migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Dayton Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Dayton contractor sites for speed and conversions, with suburb-specific credibility for the Beavercreek and Centerville research buyer and storm-season trust signals for the homeowner ready to book right now, and we migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, suburb-targeted, and better structured than the old one, all of which Google rewards in Dayton's local market.",
@@ -365,7 +365,7 @@ export const daytonLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings, critical when storm-season and PCS-arrival buyers are searching on their phones." },
       { q: 'Do I own the redesigned site?', a: "Yes, fully. The rebuilt site, your domain, and the content all stay in your hands. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The Dayton redesign is a one-time project, and any maintenance or SEO afterward stays month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads from Dayton's key buyer segments, the PCS families, defense-area professionals, and storm-season homeowners, plus a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads from Dayton's key buyer segments, the PCS families, defense-area professionals, and storm-season homeowners, plus a fixed-price quote with a timeline and a safe migration plan. It shows exactly what a Dayton Website Redesign would protect and what it would win you." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const daytonCity = {
 
   titleTag: 'Dayton Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Dayton contractors. Get found by military families arriving on PCS orders, defense-area professionals, and storm-season homeowners.',
+    'Dayton marketing for contractors: web design, SEO, and local SEO that get you found by military families on PCS orders, defense-area pros, and storm-season homeowners.',
 
   eyebrow: 'Dayton, OH · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Dayton contractors found and booked',
+  h1: 'Dayton marketing for contractors that fills your calendar around Wright-Patterson demand',
   h2Exact: 'Dayton Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Dayton's particular market: Wright-Patterson military families, defense-area professionals, and storm-season homeowners. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const daytonCity = {
   primaryCta: 'Get my free Dayton audit',
 
   intro:
-    "If you run a contracting business in Dayton, you are working in one of the most distinctive demand markets in the Midwest. Wright-Patterson Air Force Base brings thousands of military families on PCS orders every year, and they search Google immediately because they have no local network yet. The 2019 tornado outbreak trained a whole generation of Dayton homeowners to take storm prep seriously. And the defense-area professional class in Beavercreek, Centerville, and Fairborn researches contractors online before ever making a call. Winning here takes three things working together: a site that converts that research-heavy buyer, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the suburbs you serve. Here is how we help Dayton contractors do exactly that.",
+    "Dayton marketing for contractors has to fit one of the most distinctive demand markets in the Midwest. Wright-Patterson Air Force Base brings thousands of military families on PCS orders every year, and they search Google immediately because they have no local network yet. The 2019 tornado outbreak trained a whole generation of Dayton homeowners to take storm prep seriously. And the defense-area professional class in Beavercreek, Centerville, and Fairborn researches contractors online before ever making a call. Winning here takes three things working together: a site that converts that research-heavy buyer, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the suburbs you serve. Here is how we help Dayton contractors do exactly that.",
   aioQuestion: 'How do Dayton contractors get more leads online?',
   aioAnswer:
     "Dayton contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches like storm-season roofing, PCS-arrival HVAC, and Ohio winter heating, and local SEO that wins the Google Map Pack suburb by suburb. Because Wright-Patterson creates a constant flow of new-to-market homeowners and the 2019 tornado outbreak made storm preparation a year-round conversation, the contractors who rank before demand peaks and build trust signals that satisfy the research-heavy defense-area buyer win the most work.",
@@ -422,6 +422,6 @@ export const daytonCity = {
     { q: 'Why does the Dayton market need a different approach?', a: "Because Dayton has demand patterns most markets do not. Wright-Patterson creates a constant PCS-driven pipeline of new homeowners searching Google immediately. The 2019 tornado outbreak made storm prep a year-round conversation. And the defense-area professional class near the base is research-heavy and picks contractors on online credibility. A generic approach misses all three." },
     { q: 'How much does it cost to work with you?', a: "Dayton websites are one-time builds running $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We pin down exact scope in your free audit." },
     { q: 'Which Dayton areas do you serve?', a: "All of them: Beavercreek, Centerville, Kettering, Springboro, Huber Heights, Vandalia, Fairborn, Miamisburg, Trotwood, and Dayton city neighborhoods like the Oregon District, South Park, and Grafton Hill, with genuine local content rather than one generic Dayton page." },
-    { q: 'Where should I start?', a: "Start with a free Dayton audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, whether that is showing up before the next storm season, capturing PCS-arrival searches, or winning the defense-area professional who has been researching for three weeks. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Dayton audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, whether that is showing up before the next storm season, capturing PCS-arrival searches, or winning the defense-area professional who has been researching for three weeks. It is the clearest first step into Dayton marketing for contractors that actually fills a calendar. No pitch deck, just a plan." },
   ],
 };

@@ -111,9 +111,9 @@ export const columbusLocations = [
     citySlug: 'columbus', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Columbus Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Columbus and three businesses show on the map. We get you into those three, from Dublin and Westerville to German Village and beyond.',
+      'Columbus Local SEO that puts your business in the three the map pins on a "near me" search, from Dublin and Westerville to German Village and beyond.',
     eyebrow: 'Local SEO · Columbus, OH',
-    h1: 'When Columbus searches for what you do, be the first name they find',
+    h1: 'Columbus Local SEO that gets you found when Dublin and German Village neighbors search your trade',
     h2Exact: 'Columbus Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map on a \"near me\" search, and everyone below them might as well not exist. In a metro adding people as fast as Columbus, from Dublin to German Village, we get you into that top three for the suburbs and neighborhoods you serve, so the call lands with you instead of whoever ranked first.",
@@ -167,7 +167,7 @@ export const columbusLocations = [
       { q: 'Do you work with contractors specifically?', a: "It is basically all we do: roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors. We understand freeze-thaw foundation damage, storm roofing emergencies, and basement flooding work, and we build your local SEO around exactly those jobs." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts inside AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays on us." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Columbus suburbs and neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where your Columbus Local SEO stands today across your suburbs and neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const columbusLocations = [
     metaDescription:
       'Columbus SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in contracts, built for a fast-growing metro.',
     eyebrow: 'SEO Services · Columbus, OH',
-    h1: 'Get your Columbus business to the top of Google and keep it there',
+    h1: 'Columbus SEO that turns organic traffic from Westerville to German Village into booked work',
     h2Exact: 'Columbus SEO Company',
     heroSubhead:
       "Ads die the second you stop paying. SEO does the reverse: rank once for what Columbus customers search and the leads keep arriving. We build that ranking and tie every report to real calls and jobs, in a metro that keeps growing and rewards the contractors who show up first.",
@@ -233,7 +233,7 @@ export const columbusLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which Columbus suburbs and neighborhoods do you cover?', a: "All the major ones: Dublin, Westerville, Powell, New Albany, Gahanna, Hilliard, Grove City, Upper Arlington, Bexley, Short North, German Village, Clintonville, Victorian Village, and more, with genuine local pages rather than one generic Columbus page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads straight to you. The more you own your search visibility, the less you lean on paying lead brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your Columbus competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "A clear read on where your Columbus SEO stands today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const columbusLocations = [
     metaDescription:
       'Columbus web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors across Dublin, German Village, Westerville, and more.',
     eyebrow: 'Web Design · Columbus, OH',
-    h1: 'Columbus web design that turns visitors into booked jobs',
+    h1: 'Columbus web design that makes homeowners from Dublin to German Village pick you',
     h2Exact: 'Columbus Web Design Company',
     heroSubhead:
       "A good-looking website that never generates a call is just a brochure. We build Columbus contractors fast, mobile-first sites engineered to turn visitors into booked work, and to stand out in a metro that keeps growing and where homeowners expect a professional presence before they will pick up the phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Columbus contractor sites bleed leads quietly: slow on a phone, a call button buried somewhere, no clear offer for the suburb someone is actually searching from. Web design done right closes all of those gaps. We build sites that load fast, look like the professional you are, and turn visitors from Dublin to German Village into booked jobs, built to win in a metro where the competition grows as fast as the population.",
+      "Columbus Web Design done right is the difference between a site that books jobs and one that quietly bleeds leads: slow on a phone, a call button buried somewhere, no clear offer for the suburb someone is actually searching from. We build mobile-first sites that load fast, look like the professional you are, and turn visitors from Dublin to German Village into booked jobs, built to win in a metro where the competition grows as fast as the population.",
     aioQuestion: 'What makes a good contractor website in Columbus?',
     aioAnswer:
       "A strong Columbus contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific suburbs and neighborhoods you serve. Because the Columbus market splits sharply between the growing tech-economy suburbs (Dublin, New Albany, Westerville) and the older city neighborhoods (German Village, Clintonville), a site that speaks to where you work and the problems you solve, storm and winter damage included, converts far better than a generic contractor template.",
@@ -299,7 +299,7 @@ export const columbusLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage, usually WordPress or Webflow. We will recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Columbus contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Columbus Web Design should include for a contractor, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const columbusLocations = [
     citySlug: 'columbus', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Columbus Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Columbus website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across Dublin and Westerville.',
+      'Columbus Website Redesign without losing your rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across Dublin and Westerville.',
     eyebrow: 'Website Redesign · Columbus, OH',
-    h1: 'Redesign your Columbus website without losing your rankings',
+    h1: 'Columbus Website Redesign that turns an aging Dublin or German Village site into a lead engine',
     h2Exact: 'Columbus Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, awkward on a phone, easy to skip past. We redesign Columbus contractor sites to convert more and load faster, and we migrate with care so you keep every bit of ranking you have earned across your suburbs and neighborhoods.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail one of two ways: the site looks sharper but converts the same, or it launches and the rankings disappear overnight. We do neither. We redesign Columbus contractor sites for speed and conversions, build them to stand out in a fast-growing metro, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Columbus Website Redesign fails one of two ways when done badly: the site looks sharper but converts the same, or it launches and the rankings disappear overnight. We do neither. We rebuild contractor sites for speed and conversions, build them to stand out in a fast-growing metro, and run an SEO-safe migration with the redirects that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done properly, a redesign holds your rankings and lifts them, because the new site is faster, mobile-first, and better structured than the old one, and in Columbus that means sharper suburb targeting too.",
@@ -365,7 +365,7 @@ export const columbusLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Columbus Website Redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const columbusCity = {
 
   titleTag: 'Columbus Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Columbus contractors. Get found, get booked, and own your leads, built for a fast-growing metro from Dublin to German Village.',
+    'Columbus marketing for contractors: web design, SEO, and local SEO that get you found, booked, and owning your leads, from Dublin to German Village.',
 
   eyebrow: 'Columbus · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Columbus contractors found and booked',
+  h1: 'Columbus marketing for contractors that turns Dublin and German Village searches into jobs',
   h2Exact: 'Columbus Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Columbus, from the Intel-economy suburbs of Dublin and New Albany to the older neighborhoods of German Village and Clintonville. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const columbusCity = {
   primaryCta: 'Get my free Columbus audit',
 
   intro:
-    "Running a contracting business in Columbus means fighting for attention in one of the fastest-growing metros in the Midwest, and the homeowner market here genuinely shifts depending on where you look. The suburbs like Dublin, Westerville, Powell, and New Albany carry a wave of well-paid homeowners from the Intel, Chase, and Nationwide economy who research contractors online before they call anyone. The older city neighborhoods like German Village, Short North, and Clintonville hold homes built between the early 1900s and the 1950s that need constant upkeep, with owners loyal to contractors who show real local expertise. And the storm calendar is no afterthought: Columbus winters bring ice storms and freeze-thaw damage, while spring drops flooding and severe weather. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the suburbs and neighborhoods you actually serve.",
+    "Columbus marketing for contractors means fighting for attention in one of the fastest-growing metros in the Midwest, and the homeowner market here genuinely shifts depending on where you look. The suburbs like Dublin, Westerville, Powell, and New Albany carry a wave of well-paid homeowners from the Intel, Chase, and Nationwide economy who research contractors online before they call anyone. The older city neighborhoods like German Village, Short North, and Clintonville hold homes built between the early 1900s and the 1950s that need constant upkeep, with owners loyal to contractors who show real local expertise. And the storm calendar is no afterthought: Columbus winters bring ice storms and freeze-thaw damage, while spring drops flooding and severe weather. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the suburbs and neighborhoods you actually serve.",
   aioQuestion: 'How do Columbus contractors get more leads online?',
   aioAnswer:
     "Columbus contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack suburb by suburb and neighborhood by neighborhood. Because the Columbus market splits sharply between the growing tech-economy suburbs and the older city neighborhoods, and because storm seasonality drives hard demand swings Nov-May, the contractors who rank specifically for where they work and for the seasonal searches that matter most book the most work.",
@@ -422,6 +422,6 @@ export const columbusCity = {
     { q: 'Why does the Columbus market need a local approach?', a: "Because it splits sharply between the growing tech-economy suburbs (Dublin, Westerville, New Albany, Powell) where homeowners research everything online, and the older city neighborhoods (German Village, Clintonville, Short North) where pre-1950s homes need ongoing specialty work. Generic templates win neither market. And storm seasonality drives real demand spikes: the contractors already ranking when a winter storm or spring flood hits get the calls." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Columbus areas do you serve?', a: "All the major suburbs and city neighborhoods: Dublin, Westerville, Powell, New Albany, Gahanna, Hilliard, Grove City, Upper Arlington, Bexley, Short North, German Village, Clintonville, Victorian Village, Italian Village, Worthington, and more." },
-    { q: 'Where should I start?', a: "Start with a free Columbus audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Columbus audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Columbus marketing for contractors that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

@@ -109,17 +109,17 @@ export const chicagoLocations = [
   {
     ...BASE,
     citySlug: 'chicago', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Chicago Local SEO Company | Win the Map Pack',
+    titleTag: 'Chicago Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your trade in Chicago and three businesses appear on the map. We get your shop into those three, so the next "near me" call rings your phone.',
+      'Chicago Local SEO that puts your shop in the Map Pack, so the next "near me" call from a neighbor rings your phone instead of the competition down the block.',
     eyebrow: 'Local SEO · Chicagoland',
-    h1: 'When Chicago searches for what you do, be the first name on the map',
+    h1: 'Chicago Local SEO that gets you found when neighbors search your trade',
     h2Exact: 'Chicago Local SEO Company',
     heroSubhead:
       "Type any service plus \"near me\" and Google pins exactly three businesses to the map. Everyone underneath them is, for practical purposes, invisible. We move you into that top three so the call rings your phone instead of whoever happened to rank first, and so you are already there when the next deep freeze lights up every contractor's voicemail at once.",
     primaryCta: 'Get my free Chicago audit',
     intro:
-      "Chicago local SEO really comes down to a single question. When a homeowner in Lincoln Park or Beverly searches your trade plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll an inch further. In a market this packed, with old houses that break on schedule, becoming one of those three is the entire ballgame. Here is exactly how you get there, and why starting before winter beats starting after it.",
+      "Chicago Local SEO really comes down to a single question. When a homeowner in Lincoln Park or Beverly runs a \"near me\" search for your trade, are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll an inch further. In a market this packed, with old houses that break on schedule, winning that local 3-pack and a tuned Google Business Profile is the entire ballgame. Here is exactly how a Chicago local SEO company gets you there, and why starting before winter beats starting after it.",
     aioQuestion: 'How do Chicago businesses rank higher in local search?',
     aioAnswer:
       "You climb by nailing four things: a Google Business Profile tuned to the exact services and neighborhoods you want, name-address-phone listings that match everywhere across the web, a steady drumbeat of real reviews, and local pages tied to genuine Chicago neighborhoods. Because the metro is dense, competitive, and full of aging homes, the winners are the shops that look established, answer fast, and are already ranked when a hard freeze sends demand vertical overnight.",
@@ -167,7 +167,7 @@ export const chicagoLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A growing slice of \"near me\" research now starts inside AI rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast turning into something as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is roughly how long local SEO needs to post real movement. After that it is month-to-month. If we are not delivering, you leave, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and a slice of visibility you never actually keep. We build rankings, a Google profile, and a review base that funnel leads straight to you. As that compounds, you lean on the brokers less, because the work is already coming in on its own." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to stay ahead of you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your actual business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to stay ahead of you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your actual business. It is the simplest way to see what Chicago Local SEO can do for your shop. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const chicagoLocations = [
   {
     ...BASE,
     citySlug: 'chicago', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Chicago SEO Company | OnwardCraft',
+    titleTag: 'Chicago SEO Company | Rank for Jobs | OnwardCraft',
     metaDescription:
-      'Chicago SEO that ranks contractors on Google and brings in leads you own. Reporting tied to booked jobs, no lock-in contracts, built for winter-freeze demand.',
+      'Chicago SEO that ranks contractors on Google and turns organic traffic into leads you own. Reporting tied to booked jobs, no lock-in, built for winter-freeze demand.',
     eyebrow: 'SEO Services · Chicagoland',
-    h1: 'Get your Chicago business to the top of Google and keep it there',
+    h1: 'Chicago SEO that turns organic traffic into booked work all winter',
     h2Exact: 'Chicago SEO Company',
     heroSubhead:
       "Ads die the instant you stop feeding them. SEO runs the other way: rank once for what Chicago homeowners are searching and the leads keep landing for months. We build that ranking and tie every report back to real calls and booked jobs.",
     primaryCta: 'Get my free Chicago SEO audit',
     intro:
-      "Chicago SEO boils down to one question: when someone searches what you do, are you on page one or stranded on page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in one of the densest, most cutthroat markets in the country, where the housing is old, the winters are merciless, and dozens of rivals crowd every trade, and we score the whole thing in leads, not vanity traffic.",
+      "Chicago SEO boils down to one question: when someone searches what you do, are you on page one or stranded on page two? Page two might as well be page fifty. As a Chicago SEO company we get contractors ranking on Google for the money keywords in one of the densest, most cutthroat markets in the country, where the housing is old, the winters are merciless, and dozens of rivals crowd every trade. We turn that organic traffic into booked jobs and score the whole thing in leads, not vanity numbers.",
     aioQuestion: 'How do Chicago businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical bones of the site, tuning each page to the exact terms customers type, publishing genuinely useful local content, and earning links from trusted Chicago sources. In a dense, competitive market stuffed with aging homes, keeping the site quick on mobile and ranking for winter-driven seasonal terms like burst pipes and furnace repair are two of the fastest ways to pull out in front.",
@@ -233,7 +233,7 @@ export const chicagoLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search results." },
       { q: 'Which areas around Chicago do you cover?', a: "All of Chicago and the surrounding suburbs: Lincoln Park, Logan Square, Pilsen, Naperville, Evanston, Oak Park, Schaumburg, Cicero and more, with genuine local pages rather than one generic Chicago page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. The more of your search visibility you own, the less you depend on paying brokers for leads they sold three other shops too." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is the clearest way to see what Chicago SEO can put on your calendar. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const chicagoLocations = [
   {
     ...BASE,
     citySlug: 'chicago', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Chicago Web Design Company | OnwardCraft',
+    titleTag: 'Chicago Web Design Company | Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'Chicago web design that turns visitors into booked jobs. Fast, mobile-first sites built for contractors and the winter-freeze demand that fills your phone.',
+      'Chicago Web Design that makes homeowners pick you. Fast, mobile-first contractor sites that convert visitors into booked jobs and hold up through winter-freeze demand.',
     eyebrow: 'Web Design · Chicagoland',
-    h1: 'Chicago web design that turns visitors into booked jobs',
+    h1: 'Chicago web design that makes Lincoln Park homeowners pick you',
     h2Exact: 'Chicago Web Design Company',
     heroSubhead:
       "A handsome website that never produces a call is just a brochure. We build Chicago contractors fast, mobile-first sites engineered to convert visitors into booked work, and to hold steady when a cold snap floods your phone with burst-pipe and no-heat calls.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Chicago contractor sites bleed leads quietly: sluggish on a phone, a call button buried three scrolls down, no clear offer anywhere. Web design done right closes every one of those leaks. We build sites that load fast, look like the pro you already are, and turn visitors from Lincoln Park to Naperville into booked jobs, and that do not fall over when a deep freeze sends your emergency traffic through the roof.",
+      "Chicago Web Design done right is the difference between a site that books work and one that bleeds leads quietly: sluggish on a phone, a call button buried three scrolls down, no clear offer anywhere. As a Chicago web design company we close every one of those leaks. We build mobile-first contractor sites that load fast, look like the pro you already are, and turn visitors from Lincoln Park to Naperville into booked jobs, and that do not fall over when a deep freeze sends your emergency traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Chicago?',
     aioAnswer:
       "A strong Chicago contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, earns trust with reviews and real project photos, and is built to absorb traffic spikes during a winter freeze. Because most Chicago searches happen on mobile, phone speed and an obvious next step are what separate a site that books jobs from one that simply sits there.",
@@ -299,7 +299,7 @@ export const chicagoLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage day to day, usually WordPress or Webflow. We recommend the right fit in your free consult and walk you through the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and after that we offer affordable monthly maintenance for updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO runs month-to-month, so you can leave whenever you choose." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is quietly costing you in lost leads, what a high-converting Chicago site should include, and a fixed-price quote with a real timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is quietly costing you in lost leads, what a high-converting Chicago site should include, and a fixed-price quote with a real timeline. It is the easiest way to see what Chicago Web Design can do for your booking rate. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const chicagoLocations = [
   {
     ...BASE,
     citySlug: 'chicago', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Chicago Website Redesign | OnwardCraft',
+    titleTag: 'Chicago Website Redesign | Keep Your Rankings | OnwardCraft',
     metaDescription:
-      'Redesign your Chicago website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up through winter.',
+      'Chicago Website Redesign that turns an aging site into a lead engine. Faster, mobile-first rebuilds with an SEO-safe migration that holds your rankings through winter.',
     eyebrow: 'Website Redesign · Chicagoland',
-    h1: 'Redesign your Chicago website without losing your rankings',
+    h1: 'Chicago Website Redesign that turns an aging site into a lead engine',
     h2Exact: 'Chicago Website Redesign Company',
     heroSubhead:
       "A dated site quietly costs you jobs every week: slow, clumsy on a phone, easy to scroll right past. We redesign Chicago contractor sites to convert more and load faster, and we migrate with enough care that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail one of two ways: the site looks better but converts exactly the same, or it launches and the rankings disappear overnight. We do neither. We redesign Chicago contractor sites for speed and conversions, build them to absorb winter-freeze traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Chicago Website Redesign fails one of two ways: the site looks better but converts exactly the same, or it launches and the rankings disappear overnight. We do neither. We rebuild Chicago contractor sites mobile-first for speed and conversions, build them to absorb winter-freeze traffic, and handle an SEO-safe migration with the redirects and care that let you redesign without losing the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const chicagoLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts your conversions and your rankings together." },
       { q: 'Do I own the redesigned site?', a: "Completely. The site, the domain, and the content are all yours. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO runs month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It is the clearest way to see what a Chicago Website Redesign can do without putting your rankings at risk." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const chicagoCity = {
 
   titleTag: 'Chicago Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Chicago contractors. Get found, get booked, and own your leads instead of renting them, built for winter-freeze demand.',
+    'Chicago marketing for contractors that gets you found and booked. Web design, SEO, and local SEO that win you leads you own, built for winter-freeze demand.',
 
   eyebrow: 'Chicago · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Chicago contractors found and booked',
+  h1: 'Chicago marketing for contractors that turns searches into jobs',
   h2Exact: 'Chicago Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Chicagoland's dense, winter-driven market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const chicagoCity = {
   primaryCta: 'Get my free Chicago audit',
 
   intro:
-    "Run a contracting business in Chicago and you are fighting for attention in one of the densest, most competitive markets in the country, where the housing is old and forever breaking and the winters pack everyone's phone before sunrise. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack, all in place before the next deep freeze sends demand through the roof. Here is how we help Chicago contractors do exactly that.",
+    "Chicago marketing for contractors means fighting for attention in one of the densest, most competitive markets in the country, where the housing is old and forever breaking and the winters pack everyone's phone before sunrise. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack, all in place before the next deep freeze sends demand through the roof. We pair web design and SEO for Chicago contractors so you get found and booked, instead of renting leads from a broker.",
   aioQuestion: 'How do Chicago contractors get more leads online?',
   aioAnswer:
     "Chicago contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Chicago is dense and competitive with aging homes and harsh winters, the contractors who look established and are already ranked before a hard freeze take the most work.",
@@ -422,6 +422,6 @@ export const chicagoCity = {
     { q: 'Why does winter matter for my marketing?', a: "When a deep freeze grips Chicagoland, demand for heating, plumbing, and roofing spikes overnight: burst pipes, dead furnaces, and ice-dam roof leaks all inside the same forty-eight hours. Ranking takes months to build, so the contractors already visible before the cold take that work. We get you in position ahead of winter." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope together in your free audit." },
     { q: 'Which Chicago areas do you serve?', a: "All of Chicago and the surrounding suburbs: Lincoln Park, Logan Square, Pilsen, Beverly, Andersonville, plus Naperville, Evanston, Oak Park, Schaumburg, Cicero and more." },
-    { q: 'Where should I start?', a: "Start with a free Chicago audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Chicago audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It is the simplest way to see what Chicago marketing for contractors can do for your calendar. No pitch deck, just a plan." },
   ],
 };

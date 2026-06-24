@@ -111,15 +111,15 @@ export const durhamLocations = [
     citySlug: 'durham', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Durham Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Durham and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Durham Local SEO that lands you in the three businesses on the map when neighbors search your trade, so the call comes to you.',
     eyebrow: 'Local SEO · Durham, NC',
-    h1: 'When Durham searches for what you do, be the first name they find',
+    h1: 'Durham Local SEO that gets you found when Trinity Park neighbors search your trade',
     h2Exact: 'Durham Local SEO Company',
     heroSubhead:
       "Google drops three businesses onto the map when a Durham homeowner searches \"near me,\" and the names below them might as well not exist. We get you into that trio, so the call lands with you and not a competitor, and so you are already there when HVAC season or the next ice storm lights up every phone in the Triangle.",
     primaryCta: 'Get my free Durham audit',
     intro:
-      "Durham local SEO turns on a single moment: a homeowner in Trinity Park or Watts-Hillandale types your service plus \"near me,\" and either you are one of the three businesses Google pinned to the map or you are nowhere. Most of them, the Duke faculty and RTP engineers who research everything included, tap one of those three and never scroll down. The Triangle keeps growing and the field keeps crowding, so becoming one of those three is the whole job. Here is how we do it.",
+      "Durham Local SEO turns on a single moment: a homeowner in Trinity Park or Watts-Hillandale runs a \"near me\" search for your trade, and either you are one of the three businesses Google pinned to the map or you are nowhere. Most of them, the Duke faculty and RTP engineers who research everything included, tap one of those three in the local 3-pack and never scroll down. The Triangle keeps growing and the field keeps crowding, so our local SEO services are aimed at one thing: making you that name on the map. Here is how we do it.",
     aioQuestion: 'How do Durham businesses rank higher in local search?',
     aioAnswer:
       "Rank by nailing four things: a Google Business Profile tuned to the exact services and Triangle neighborhoods you want, name-address-phone details that line up everywhere online, a steady drip of real reviews, and local pages tied to genuine Durham areas. Because the highly educated buyers here vet you before they dial, looking established and credible is what turns a ranking into an actual call.",
@@ -167,7 +167,7 @@ export const durhamLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More research now starts in AI tools instead of classic search, and Durham's highly educated homeowners are exactly the people who search that way. We structure your content and schema so those engines can read, trust, and cite your business." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is about how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that route Durham leads straight to you and no one else. Run it a few months and you lean on the brokers less, because the work is already arriving direct." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your shop. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your shop. It is the honest starting point for Durham Local SEO that ranks you on the map and keeps you there. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const durhamLocations = [
     metaDescription:
       'Durham SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in, built for Triangle and RTP-driven demand.',
     eyebrow: 'SEO Services · Durham, NC',
-    h1: 'Get your Durham business to the top of Google and keep it there',
+    h1: 'Durham SEO that turns Triangle organic traffic into booked work',
     h2Exact: 'Durham SEO Company',
     heroSubhead:
       "Ads vanish the moment your card stops. SEO works the other way: rank once for what your Durham customers search and the leads keep arriving for months. We build that ranking and tie every report to real calls and booked jobs, not vanity charts.",
@@ -233,7 +233,7 @@ export const durhamLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for, and Durham's highly educated homeowners are exactly the people who research in AI tools before calling anyone. We structure your content and schema so AI engines can read, trust, and cite your business." },
       { q: 'Which areas around Durham do you cover?', a: "All of the Triangle and the surrounding towns: Chapel Hill, Carrboro, Morrisville, Cary, Hillsborough, RTP and more, with genuine local pages rather than one generic Durham page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route Durham leads directly to you. The more you own your search visibility, the less you depend on paying brokers for leads two or three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across the Triangle, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your shop. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today across the Triangle, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your shop. It is a straight plan for Durham SEO that grows your organic traffic and ranks you on Google for the searches that book jobs. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const durhamLocations = [
     metaDescription:
       'Durham web design that turns visitors into booked jobs: fast, credibility-first sites built for contractors and the Triangle\'s highly educated homeowners.',
     eyebrow: 'Web Design · Durham, NC',
-    h1: 'Durham web design that turns visitors into booked jobs',
+    h1: 'Durham Web Design that makes research-minded Duke and RTP homeowners pick you',
     h2Exact: 'Durham Web Design Company',
     heroSubhead:
       "A handsome website that never books a call is just an expensive brochure. We build Durham contractors fast, credibility-first sites engineered to turn visitors into booked work, and built to satisfy the meticulous Duke or RTP homeowner who researches every contractor before they call.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Durham contractor websites bleed leads quietly: slow on a phone, call button buried, no trust signals for the researcher comparing three crews side by side. Web design done right closes every one of those leaks. We build sites that load fast, look like the professional you are, back it up with reviews and real project photos, and turn Old-North-Durham-to-Chapel-Hill visitors into booked jobs.",
+      "Durham Web Design is the difference between a site that books work and one that just sits there: most contractor websites here bleed leads quietly, slow on a phone, call button buried, no trust signals for the researcher comparing three crews side by side. Website design done right closes every one of those leaks. As a Durham web design company built for the trades, we build mobile-first, fast-loading sites that look like the professional you are, back it up with reviews and real project photos, and convert Old-North-Durham-to-Chapel-Hill visitors into booked jobs.",
     aioQuestion: 'What makes a good contractor website in Durham?',
     aioAnswer:
       "A good Durham contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, and proves trust with reviews, credentials, and real project photos, because Durham homeowners, many of them Duke faculty or RTP professionals, vet contractors harder than almost any market. It also has to take a traffic surge during summer HVAC season and winter ice storms without buckling.",
@@ -299,7 +299,7 @@ export const durhamLocations = [
       { q: 'What platform do you build on?', a: "We choose the platform that fits your needs and that you can actually run yourself, usually WordPress or Webflow. We recommend the right fit in your free Durham consult and lay out the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every Durham build comes with launch support, and after that we offer affordable monthly maintenance covering updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can step away whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Durham site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Durham site should include, and a fixed-price quote with a timeline. It is a no-pressure plan for Durham Web Design that converts visitors into booked jobs. Just the path, not a sales pitch." },
     ],
   },
 
@@ -311,13 +311,13 @@ export const durhamLocations = [
     metaDescription:
       'Redesign your Durham website without losing rankings. Faster, credibility-first rebuilds that convert more visitors into booked jobs and satisfy Triangle buyers.',
     eyebrow: 'Website Redesign · Durham, NC',
-    h1: 'Redesign your Durham website without losing your rankings',
+    h1: 'Durham Website Redesign that turns an aging Triangle site into a lead engine',
     h2Exact: 'Durham Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, and nowhere near credible enough for the Duke faculty member comparing three contractors. We redesign Durham contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Durham contractor sites for speed, credibility, and conversions, and we migrate with the redirects and SEO care that protect the traffic you have already built.",
+      "Durham Website Redesign usually goes one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. Our website redesign services rebuild Durham contractor sites for speed, credibility, and conversions, a mobile-first rebuild paired with an SEO-safe migration that protects the traffic you have already built so you redesign your Durham website without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, more trustworthy, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const durhamLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and a passing Core Web Vitals score, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content all belong to you. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The Durham redesign is a one-time project. Any ongoing maintenance or SEO runs month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current Durham site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current Durham site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It is the honest scope for a Durham Website Redesign that rebuilds for leads without losing the rankings you have earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const durhamCity = {
 
   titleTag: 'Durham Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Durham contractors. Get found by Duke homeowners and RTP professionals, get booked, and own your leads instead of renting them.',
+    'Durham marketing for contractors: web design and SEO that get you found by Duke homeowners and RTP professionals, booked, and owning your leads instead of renting them.',
 
   eyebrow: 'Durham · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Durham contractors found and booked',
+  h1: 'Durham marketing for contractors that turns Triangle searches into booked jobs',
   h2Exact: 'Durham Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for a market where Duke researchers and RTP engineers vet every contractor before they call. One team to get you ranking, looking credible, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const durhamCity = {
   primaryCta: 'Get my free Durham audit',
 
   intro:
-    "If you run a contracting business in Durham, you are working a market unlike anywhere else in North Carolina. Duke University, Duke Health, and Research Triangle Park mean your potential customers count among the most educated buyers in the country: they research contractors thoroughly, weigh their options, and trust credibility signals. Stack on block after block of 1900-to-1940 tobacco-era housing under renovation, humid Piedmont summers driving HVAC demand, and the occasional winter ice storm creating overnight emergencies, and the opportunity is enormous for the contractor who can be found. Winning here takes three things working together: a site that builds trust, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack. Here is exactly how we help Durham contractors pull that off.",
+    "Durham marketing for contractors has to fit a market unlike anywhere else in North Carolina. Duke University, Duke Health, and Research Triangle Park mean your potential customers count among the most educated buyers in the country: they research contractors thoroughly, weigh their options, and trust credibility signals. Stack on block after block of 1900-to-1940 tobacco-era housing under renovation, humid Piedmont summers driving HVAC demand, and the occasional winter ice storm creating overnight emergencies, and the opportunity is enormous for the contractor who can be found. Winning here takes three things working together: a site that builds trust, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack. Here is exactly how we help Durham contractors pull that off.",
   aioQuestion: 'How do Durham contractors get more leads online?',
   aioAnswer:
     "Durham contractors get more leads by combining a fast, credibility-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Durham homeowners, the Duke faculty and biotech researchers and RTP engineers, research before they call, looking established and credible counts just as much as ranking at all.",
@@ -422,6 +422,6 @@ export const durhamCity = {
     { q: 'Why do Duke and RTP homeowners matter for my marketing?', a: "Durham's buyers include a dense concentration of Duke faculty, Duke Health doctors, biotech researchers, and RTP engineers, people who research contractors carefully, weigh options, and trust credibility signals like reviews, photos, and a professional site. Showing up first matters, but looking trustworthy is what makes them call." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds running $2,000 to $9,000. SEO and local SEO go month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free Durham audit." },
     { q: 'Which Durham areas do you serve?', a: "All of Durham and the Triangle: Old North Durham, Trinity Park, Watts-Hillandale, Hope Valley, Chapel Hill, Carrboro, Morrisville, Cary, RTP, Hillsborough and more." },
-    { q: 'Where should I start?', a: "Start with a free Durham audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Durham audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It is the simplest first step in Durham marketing for contractors who want to get found and booked. No pitch deck, just a plan." },
   ],
 };

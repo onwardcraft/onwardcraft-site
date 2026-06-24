@@ -109,11 +109,11 @@ export const corpusChristiLocations = [
   {
     ...BASE,
     citySlug: 'corpus-christi', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Corpus Christi Local SEO | Win the Map Pack | OnwardCraft',
+    titleTag: 'Corpus Christi Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Corpus Christi and three businesses appear on the map. We get you into those three spots, in English and Spanish, so the call lands with you.',
+      'Corpus Christi Local SEO that wins you the top three on the map, in English and Spanish. We get you into the local 3-pack so the call lands with you.',
     eyebrow: 'Local SEO · Corpus Christi, TX',
-    h1: 'When Corpus Christi searches for what you do, be the first name they find',
+    h1: 'Corpus Christi Local SEO that wins you the top three on the map across Flour Bluff and the Coastal Bend',
     h2Exact: 'Corpus Christi Local SEO Company',
     heroSubhead:
       "When a homeowner taps \"near me,\" Google pins three businesses to the map and everyone underneath them is invisible. In a city where most of the market searches in Spanish and a named storm in the Gulf can rewrite your pipeline in two days, we get you into that top three so the call lands with you and not whoever ranked first.",
@@ -167,7 +167,7 @@ export const corpusChristiLocations = [
       { q: 'Will my business turn up in AI search like ChatGPT and Google AI Overviews?', a: "More of that \"near me\" research now begins inside AI tools rather than classic search. We structure your content and schema so those engines can read you, trust you, and cite your business by name. In this market it is fast becoming as important as the Map Pack itself." },
       { q: 'Am I tied into a long contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that you go month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this break my reliance on Angi and HomeAdvisor?', a: "Those platforms rent you shared leads that two or three competitors also bought. We build rankings, a Google profile, and a review base that route the homeowner straight to you. Run it long enough and you lean on the brokers less, because the work is already coming in direct." },
-      { q: "What does the free audit include?", a: "A clear read on where you rank today across Corpus Christi, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What does the free audit include?", a: "A clear read on where you rank today across Corpus Christi, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see what Corpus Christi Local SEO can do for your phone before you spend a dollar. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const corpusChristiLocations = [
   {
     ...BASE,
     citySlug: 'corpus-christi', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Corpus Christi SEO Company | OnwardCraft',
+    titleTag: 'Corpus Christi SEO Company | Rankings You Own | OnwardCraft',
     metaDescription:
-      'Corpus Christi SEO that ranks contractors on Google and brings in leads you own. Spanish-language optimization, hurricane season readiness, no lock-in.',
+      'Corpus Christi SEO that builds rankings you actually own and ranks contractors on Google. Spanish-language optimization, hurricane season readiness, no lock-in.',
     eyebrow: 'SEO Services · Corpus Christi, TX',
-    h1: 'Get your Corpus Christi business to the top of Google and keep it there',
+    h1: 'Corpus Christi SEO that builds rankings you actually own, in English and Spanish, across the Coastal Bend',
     h2Exact: 'Corpus Christi SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Corpus Christi customers search, in English and in Spanish, and the leads keep arriving for months. We build that ranking and tie every report to actual calls and booked jobs.",
@@ -233,7 +233,7 @@ export const corpusChristiLocations = [
       { q: 'Will my site get cited in AI Overviews and ChatGPT?', a: "That is a growing part of what we build for. We structure your content and schema so AI engines can read, trust, and cite your business by name, not just the classic blue-link results." },
       { q: 'Which areas around Corpus Christi do you cover?', a: "All of Corpus Christi and the surrounding metro: Flour Bluff, Calallen, Portland, Rockport, Aransas Pass, Gregory, Robstown, Padre Island, and more, with genuine local pages rather than one generic city page." },
       { q: 'How does this reduce my dependence on Angi and HomeAdvisor?', a: "By building rankings and a Google presence that route the homeowner straight to you. The more of your own search visibility you own, the less you have to pay brokers for leads two competitors also bought." },
-      { q: "What will the free SEO audit tell me?", a: "Where you rank today across Corpus Christi, what your competitors are doing to outrank you, the fixes that move the needle fastest, and a realistic timeline with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What will the free SEO audit tell me?", a: "Where you rank today across Corpus Christi, what your competitors are doing to outrank you, the fixes that move the needle fastest, and a realistic timeline with the numbers run for your business. It is the clearest look you can get at what Corpus Christi SEO would actually return for your shop. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const corpusChristiLocations = [
   {
     ...BASE,
     citySlug: 'corpus-christi', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Corpus Christi Web Design | Sites That Convert | OnwardCraft',
+    titleTag: 'Corpus Christi Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Corpus Christi web design that turns visitors into booked jobs. Fast, mobile-first sites built for contractors in a majority-Hispanic Gulf Coast market.',
+      'Corpus Christi web design engineered to bring in real work. Fast, mobile-first sites that convert visitors into booked jobs in a majority-Hispanic Gulf Coast market.',
     eyebrow: 'Web Design · Corpus Christi, TX',
-    h1: 'Corpus Christi web design that turns visitors into booked jobs',
+    h1: 'Corpus Christi web design engineered to bring in real work, from Flour Bluff to Rockport',
     h2Exact: 'Corpus Christi Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just a brochure. We build Corpus Christi contractors fast, mobile-first sites engineered to turn visitors into booked work, in a majority-Hispanic Gulf Coast market where a slow, generic site quietly costs you most of your potential customers.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Corpus Christi contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer, zero Spanish-language presence. Web design done right closes all of those leaks. We build sites that load fast, look like the professional you are, and turn visitors from Flour Bluff to Rockport into booked jobs, built to win in a market where Gulf Coast conditions and a bilingual customer base ask for more than a template.",
+      "Corpus Christi web design is where most contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer, zero Spanish-language presence. Web design done right closes all of those leaks. We build sites that load fast, look like the professional you are, and turn visitors from Flour Bluff to Rockport into booked jobs, built to win in a market where Gulf Coast conditions and a bilingual customer base ask for more than a template.",
     aioQuestion: 'What makes a good contractor website in Corpus Christi?',
     aioAnswer:
       "A good Corpus Christi contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, names the specific neighborhoods you serve, and either includes Spanish-language content or clearly signals that you serve Spanish-speaking customers. Because Corpus Christi is majority-Hispanic and most searches happen on mobile, these factors separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const corpusChristiLocations = [
       { q: 'Which platform do you build on?', a: "We pick the platform that fits your needs and that you can manage yourself, usually WordPress or Webflow. We recommend the right one in your free consult and explain the tradeoffs without the jargon." },
       { q: 'Is there support after the site launches?', a: "Yes. Every build comes with launch support, and from there you can add affordable monthly maintenance that covers updates, speed, and security." },
       { q: 'Does the build lock me into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO runs month-to-month, so you can leave whenever you like." },
-      { q: 'What do I actually get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Corpus Christi site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I actually get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Corpus Christi site should include, and a fixed-price quote with a timeline. It is the simplest way to see what real Corpus Christi web design would do for your booked jobs. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const corpusChristiLocations = [
   {
     ...BASE,
     citySlug: 'corpus-christi', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Corpus Christi Website Redesign | OnwardCraft',
+    titleTag: 'Corpus Christi Website Redesign | Modernize Without Losing Traffic | OnwardCraft',
     metaDescription:
-      'Redesign your Corpus Christi website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a bilingual Gulf.',
+      'Corpus Christi Website Redesign that modernizes without tanking your traffic. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a bilingual Gulf.',
     eyebrow: 'Website Redesign · Corpus Christi, TX',
-    h1: 'Redesign your Corpus Christi website without losing your rankings',
+    h1: 'Corpus Christi Website Redesign that modernizes your site without tanking your Coastal Bend traffic',
     h2Exact: 'Corpus Christi Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, invisible to Spanish-speaking homeowners. We redesign Corpus Christi contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Corpus Christi contractor sites for speed and conversions, build in the Spanish-language presence that most sites here are missing, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Corpus Christi Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Corpus Christi contractor sites for speed and conversions, build in the Spanish-language presence that most sites here are missing, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my site without losing SEO rankings and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, better structured, and in Corpus Christi finally reachable by the Spanish-speaking majority of the market.",
@@ -365,7 +365,7 @@ export const corpusChristiLocations = [
       { q: 'Will the rebuilt site load fast and work on phones?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings, which matters because almost all of your Corpus Christi traffic is on a phone." },
       { q: 'Do I own the redesigned website?', a: "Yes, completely: the site, the domain, and the content. No platform lock-in whatsoever." },
       { q: 'Does a redesign lock me into a contract?', a: "No. The redesign is a one-time project, and any maintenance or SEO afterward runs month-to-month." },
-      { q: "What does the free redesign audit cover?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan laid out." },
+      { q: "What does the free redesign audit cover?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan laid out. It is the clearest way to weigh whether a Corpus Christi Website Redesign is worth it before you commit a cent." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const corpusChristiCity = {
 
   titleTag: 'Corpus Christi Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Corpus Christi contractors. Rank in English and Spanish, get ready for hurricane season, and own your leads.',
+    'Corpus Christi marketing for contractors: web design, SEO, and local SEO. Rank in English and Spanish, get ready for hurricane season, and own your leads.',
 
   eyebrow: 'Corpus Christi · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Corpus Christi contractors found and booked',
+  h1: 'Corpus Christi marketing for contractors, built around the trades and the Gulf Coast you work in',
   h2Exact: 'Corpus Christi Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for a majority-Hispanic Gulf Coast city where Spanish is the dominant search language and hurricane season reshapes demand overnight. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const corpusChristiCity = {
   primaryCta: 'Get my free Corpus Christi audit',
 
   intro:
-    "If you run a contracting business in Corpus Christi, you are operating in a market unlike most Texas cities. About 65% of residents are Hispanic, Spanish-language searches carry a huge share of the market, and Gulf Coast hurricane season can flip your entire pipeline overnight. Winning here takes three things working together: a site that converts, SEO that ranks you for what people actually search in English and Spanish, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here is exactly how we help Corpus Christi contractors pull that off.",
+    "Corpus Christi marketing for contractors means working a market unlike most Texas cities. About 65% of residents are Hispanic, Spanish-language searches carry a huge share of the market, and Gulf Coast hurricane season can flip your entire pipeline overnight. Winning here takes three things working together: a site that converts, SEO that ranks you for what people actually search in English and Spanish, and local SEO that puts you in the Map Pack for the neighborhoods you serve. As one Corpus Christi marketing agency built for the trades, here is exactly how we help Corpus Christi contractors pull that off.",
   aioQuestion: 'How do Corpus Christi contractors get more leads online?',
   aioAnswer:
     "Corpus Christi contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches in both English and Spanish, and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because roughly 65% of residents are Hispanic and many search in Spanish, contractors who rank for Spanish-language terms reach the majority of the market that competitors have never tried for. Gulf Coast hurricane season also drives large roofing and restoration demand spikes, and the contractors already ranked when a storm hits capture that surge entirely.",
@@ -422,6 +422,6 @@ export const corpusChristiCity = {
     { q: 'Why does the Corpus Christi market need a different approach?', a: "Two big reasons. First, about 65% of residents are Hispanic and many search in Spanish, so a contractor showing up for those searches reaches most of the market competitors ignore entirely. Second, Gulf Coast hurricane season creates demand spikes that can fill a contractor's calendar overnight, but only if you are already ranked before the storm arrives." },
     { q: 'What will it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We lock the exact scope in your free Corpus Christi audit." },
     { q: 'Which Corpus Christi areas do you serve?', a: "All of Corpus Christi and the surrounding metro: Flour Bluff, Calallen, Portland, Rockport, Aransas Pass, Gregory, Robstown, North Beach, Padre Island, Mustang Island, and more. We build genuine neighborhood pages rather than one generic city page." },
-    { q: 'Where should I start?', a: "Start with a free Corpus Christi audit. We'll look at your website, your rankings, your Map Pack presence, and your Spanish-language visibility, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Corpus Christi audit. We'll look at your website, your rankings, your Map Pack presence, and your Spanish-language visibility, then tell you the one or two moves that will bring in the most work fastest. It is the simplest first step into Corpus Christi marketing for contractors, no pitch deck, just a plan." },
   ],
 };

@@ -111,9 +111,9 @@ export const elPasoLocations = [
     citySlug: 'el-paso', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'El Paso Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your trade in El Paso and three businesses sit on the map. We put you in those three, in English and Spanish, so the call lands with you.',
+      'El Paso Local SEO that lands you in the Map Pack, in English and Spanish, so the homeowner who searches your trade calls you and not the rival above you.',
     eyebrow: 'Local SEO · El Paso, TX',
-    h1: 'When El Paso searches for what you do, be the first name they find',
+    h1: 'El Paso Local SEO that wins you the top three pins on the map, in Spanish and English',
     h2Exact: 'El Paso Local SEO Company',
     heroSubhead:
       "Google drops three businesses onto the map the moment someone types \"near me,\" and everyone below them might as well be hidden. In a city where 81% of residents are Hispanic and the first search is often in Spanish, we push you into that top three for your neighborhoods, in both languages, so the call rings your phone instead of whoever ranked above you.",
@@ -167,7 +167,7 @@ export const elPasoLocations = [
       { q: 'Do you work with contractors specifically?', a: "It is nearly all we do: roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors. We understand El Paso's desert trades, the flat roofs, stucco, swamp coolers, and brutal AC emergencies, and we build your local SEO around them." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now opens in AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is about how long local SEO needs to show real movement. After that it runs month-to-month. If we are not delivering, you walk, and the accountability stays on us." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your El Paso neighborhoods, what your Map Pack rivals are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your El Paso neighborhoods, what your Map Pack rivals are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is a straight diagnosis of where El Paso Local SEO can take you, in both languages, with no pitch deck attached." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const elPasoLocations = [
     metaDescription:
       'El Paso SEO that ranks contractors on Google in English and Spanish and brings leads you own. Lead-tied reporting, no lock-in contracts.',
     eyebrow: 'SEO Services · El Paso, TX',
-    h1: 'Get your El Paso business to the top of Google and keep it there',
+    h1: 'El Paso SEO that builds rankings you actually own, in English and Spanish',
     h2Exact: 'El Paso SEO Company',
     heroSubhead:
       "Ads switch off the second your card stops. SEO runs the other way: rank once for what El Paso customers search, in English and Spanish, and the leads keep landing. We build that ranking and tie every report to real calls and booked jobs.",
@@ -233,7 +233,7 @@ export const elPasoLocations = [
       { q: 'Do you require a long-term contract?', a: "No. We ask for an opening 90 days because SEO needs that window to show real movement in El Paso, then it shifts to month-to-month. If we are not delivering, you leave." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing slice of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business by name, not just classic search." },
       { q: 'Which areas around El Paso do you cover?', a: "Every El Paso neighborhood: Kern Place, Mission Hills, Mesa Hills, Northeast, Far East, Horizon City, Socorro, Anthony, Sunland Park, the Fort Bliss area, Westside, and Central El Paso, each with genuine local pages rather than one flat city page." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today in both English and Spanish, what your rivals are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today in both English and Spanish, what your rivals are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It shows plainly what El Paso SEO can earn you on page one, no pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const elPasoLocations = [
     metaDescription:
       'El Paso web design that turns visitors into booked jobs: fast, mobile-first sites built for a bilingual, desert-climate market.',
     eyebrow: 'Web Design · El Paso, TX',
-    h1: 'El Paso web design that turns visitors into booked jobs',
+    h1: 'El Paso web design engineered to bring in real work, in Spanish and English',
     h2Exact: 'El Paso Web Design Company',
     heroSubhead:
       "A good-looking website that never rings the phone is just a brochure. We build El Paso contractors fast, mobile-first sites engineered to turn visitors into booked work, in English and Spanish, and to stand out in a market where the right language is the biggest edge on the board.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most El Paso contractor websites bleed leads without a sound: slow on a phone, call button buried, no clear offer, and zero presence in Spanish. Web design done right plugs every one of those leaks. We build sites that load fast, look like the professional you are, and turn visitors from Kern Place to Socorro into booked jobs, ready to reach the bilingual market your rivals leave untouched.",
+      "El Paso web design is the difference between a site that books jobs and one that bleeds leads in silence: slow on a phone, call button buried, no clear offer, and zero presence in Spanish. Done right, it plugs every one of those leaks. We build sites that load fast, look like the professional you are, and turn visitors from Kern Place to Socorro into booked jobs, ready to reach the bilingual market your rivals leave untouched.",
     aioQuestion: 'What makes a good contractor website in El Paso?',
     aioAnswer:
       "A good El Paso contractor website loads in under three seconds on a phone, sets the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the neighborhoods you serve. Because the city is overwhelmingly Hispanic and many homeowners search in Spanish, a site that speaks to that audience separates a contractor who books work from one who fades out.",
@@ -299,7 +299,7 @@ export const elPasoLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually run yourself, usually WordPress or Webflow. We recommend the right fit in your free El Paso consult and walk you through the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every El Paso build comes with launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The El Paso build is a one-time project at a fixed price. Any ongoing maintenance or SEO runs month-to-month, so you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting El Paso site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting El Paso web design should include for a bilingual market, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const elPasoLocations = [
     citySlug: 'el-paso', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'El Paso Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your El Paso website without losing rankings. Faster, mobile-first rebuilds that convert more visitors, in English and Spanish, into booked jobs.',
+      'El Paso Website Redesign that modernizes without tanking your traffic. Faster, mobile-first rebuilds that convert more visitors, in English and Spanish, into booked jobs.',
     eyebrow: 'Website Redesign · El Paso, TX',
-    h1: 'Redesign your El Paso website without losing your rankings',
+    h1: 'El Paso Website Redesign that modernizes your site without tanking your traffic',
     h2Exact: 'El Paso Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week: slow, clumsy on a phone, invisible in Spanish. We redesign El Paso contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign El Paso contractor sites for speed and conversions, build them to reach a bilingual community, and migrate with the redirects and SEO care that protect the traffic you already hold.",
+      "El Paso Website Redesign usually goes one of two bad ways: the site looks better but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We rebuild El Paso contractor sites for speed and conversions, build them to reach a bilingual community, and migrate with the redirects and SEO care that protect the traffic you already hold.",
     aioQuestion: 'How do I redesign my website without losing my El Paso rankings?',
     aioAnswer:
       "You guard El Paso rankings during a redesign by holding your URL structure (or mapping 301 redirects for every changed page), keeping your content and metadata, carrying your schema across, and testing on staging before launch. Handled this way, a redesign keeps your rankings and lifts them, because the rebuilt site loads faster, runs mobile-first, and is structured better than the old one, in both English and Spanish.",
@@ -365,7 +365,7 @@ export const elPasoLocations = [
       { q: 'Will the redesign help me compete in El Paso?', a: "Yes, and that is the whole point. We rebuild around the specific neighborhoods you serve, the bilingual community you work in, and the seasonal demand, like the summer HVAC rush, that drives your business. The new site should stand out, not blend in." },
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, since nearly every El Paso visitor lands on a phone and speed lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and every word of the content. No platform lock-in of any kind." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current El Paso site is costing you in leads and rankings, what the redesign should fix, whether bilingual reach is worth adding, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current El Paso site is costing you in leads and rankings, what an El Paso Website Redesign should fix, whether bilingual reach is worth adding, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const elPasoCity = {
 
   titleTag: 'El Paso Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for El Paso contractors, in English and Spanish. Get found, get booked, and own your leads instead of renting them.',
+    'El Paso marketing for contractors, in English and Spanish: web design, SEO, and local SEO that get you found, get you booked, and let you own your leads instead of renting them.',
 
   eyebrow: 'El Paso · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets El Paso contractors found and booked',
+  h1: 'El Paso marketing for contractors, built around the desert trades',
   h2Exact: 'El Paso Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for El Paso's bilingual, desert-climate market. One team to get you ranking in English and Spanish, converting visitors into booked jobs, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const elPasoCity = {
   primaryCta: 'Get my free El Paso audit',
 
   intro:
-    "If you run a contracting business in El Paso, you are in one of the most distinctly Hispanic big cities in the country: roughly 81% of residents are Hispanic, the first search is often in Spanish for a huge share of the market, and Fort Bliss keeps a constant stream of new military homeowners cycling through who lean entirely on search to find a contractor. Add 105-degree desert summers that make HVAC the most-called trade in town, and you have a market full of opening that most agencies have no idea how to reach. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that sets you in the Map Pack for your neighborhoods, in both languages. Here is exactly how we help El Paso contractors pull that off.",
+    "El Paso marketing for contractors has to fit one of the most distinctly Hispanic big cities in the country: roughly 81% of residents are Hispanic, the first search is often in Spanish for a huge share of the market, and Fort Bliss keeps a constant stream of new military homeowners cycling through who lean entirely on search to find a contractor. Add 105-degree desert summers that make HVAC the most-called trade in town, and you have a market full of opening that most agencies have no idea how to reach. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that sets you in the Map Pack for your neighborhoods, in both languages. Here is exactly how we help El Paso contractors pull that off.",
   aioQuestion: 'How do El Paso contractors get more leads online?',
   aioAnswer:
     "El Paso contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches in English and Spanish, and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because roughly 81% of residents are Hispanic and a large share searches in Spanish, the contractors who target that audience, and rank for summer HVAC demand before the peak, win the most work.",
@@ -422,6 +422,6 @@ export const elPasoCity = {
     { q: 'Why does the El Paso market need a different approach?', a: "Because it is unlike anywhere else. Roughly 81% of residents are Hispanic, the first search is often in Spanish for a huge share of the market, and almost no agency is set up to target that. Add Fort Bliss, thousands of PCS moves a year, and extreme desert HVAC demand, and you need someone who knows the market, not a national template shop." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which El Paso areas do you serve?', a: "Every El Paso neighborhood: Kern Place, Mission Hills, Mesa Hills, Northeast, Far East, Horizon City, Socorro, Anthony, Sunland Park, the Fort Bliss area, Westside, and Central El Paso, with genuine local pages rather than one flat city page." },
-    { q: 'Where should I start?', a: "Start with a free El Paso audit. We look at your website, your rankings in English and Spanish, and your Map Pack presence, then tell you the one or two moves that bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free El Paso audit. We look at your website, your rankings in English and Spanish, and your Map Pack presence, then tell you the one or two moves that bring in the most work fastest. It is the simplest way to see what El Paso marketing for contractors can do for your calendar, no pitch deck, just a plan." },
   ],
 };

@@ -111,9 +111,9 @@ export const eugeneLocations = [
     citySlug: 'eugene', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Eugene Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Eugene and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Eugene Local SEO that ranks you above the competition on the map, so the "near me" call lands with you, not three rivals across the Willamette Valley.',
     eyebrow: 'Local SEO · Eugene, OR',
-    h1: 'When Eugene searches for what you do, be the first name they find',
+    h1: 'Eugene Local SEO that ranks you above the South Hills competition on the map',
     h2Exact: 'Eugene Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In Eugene's research-driven, eco-conscious market, we get you into that top three for the neighborhoods you serve, so the call lands with you when the rains start in October or the heat pump inquiries spike in June.",
@@ -167,7 +167,7 @@ export const eugeneLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research starts in AI now, especially for Eugene's college-educated, tech-forward homeowners. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. The first 90 days are the runway local SEO needs to show real movement in a market like Eugene. After that you are month-to-month, and if the leads are not landing, you leave with the accountability resting on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads from homeowners who were also handed to your competitors. Eugene buyers already lean toward local, vetted operators, so owning your own Map Pack presence is an especially strong play here. We build rankings, a Google profile, and a review base that send leads straight to you." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Eugene and Springfield neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where your Eugene Local SEO stands today across your Eugene and Springfield neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const eugeneLocations = [
     metaDescription:
       'Eugene SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for the Willamette Valley.',
     eyebrow: 'SEO Services · Eugene, OR',
-    h1: 'Get your Eugene business to the top of Google and keep it there',
+    h1: 'Eugene SEO that climbs you past Willamette Valley rivals on Google',
     h2Exact: 'Eugene SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO works the other way: rank once for what Eugene homeowners search, from rain-season roofing to heat pump installation to gutter repair, and the leads keep coming. We build that ranking and tie every report to actual calls and booked jobs.",
@@ -233,7 +233,7 @@ export const eugeneLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for, and it matters especially in Eugene where homeowners are college-educated and research-driven. We structure your content and schema so AI engines can read, trust, and cite your business." },
       { q: 'Which areas around Eugene do you cover?', a: "Eugene, Springfield, South Hills, Friendly Area, Whiteaker, Fairmount, Junction City, Cottage Grove, Creswell, Veneta, and the surrounding Willamette Valley communities, with genuine neighborhood pages rather than one generic Eugene page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. Eugene buyers already prefer local, independent contractors over national lead-broker referrals, so ranking organically is an especially strong play here. The more you own your search visibility, the less you depend on shared lead services." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across Eugene and Springfield, what your competitors are doing to stay ahead, the fixes that move the needle fastest, and a realistic timeline with the numbers modeled for your shop. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "A straight read on where your Eugene SEO stands today across Eugene and Springfield, what your competitors are doing to stay ahead on Google, the fixes that move the needle fastest, and a realistic timeline with the numbers modeled for your shop. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const eugeneLocations = [
     metaDescription:
       'Eugene web design that turns visitors into booked jobs. Fast, mobile-first sites built for contractors in an eco-conscious, research-driven market.',
     eyebrow: 'Web Design · Eugene, OR',
-    h1: 'Eugene web design that turns visitors into booked jobs',
+    h1: 'Eugene web design that loads fast and books more jobs from South Hills to Springfield',
     h2Exact: 'Eugene Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is just a brochure. Eugene homeowners research carefully. They read everything, compare reviews, and choose local. We build fast, mobile-first sites that earn that trust and turn South Hills-to-Springfield visitors into booked work.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Eugene contractor websites lose leads quietly: slow on a phone, buried call button, no sense of local credibility. Eugene homeowners are college-educated, eco-conscious, and research-heavy, and they study your site carefully before calling. Web design done right speaks to that. We build sites that load fast, look like the established local operator you are, and earn the trust that turns Willamette Valley visitors into booked jobs.",
+      "Eugene web design lives or dies on one quiet truth: most contractor sites lose leads slowly, with a slow phone load, a buried call button, and no sense of local credibility. Eugene homeowners are college-educated, eco-conscious, and research-heavy, and they study your site carefully before calling. A web designer who knows this market speaks to that. We build mobile-first sites that load fast, look like the established local operator you are, and earn the trust that turns Willamette Valley visitors into booked jobs.",
     aioQuestion: 'What makes a good contractor website in Eugene?',
     aioAnswer:
       "A good Eugene contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with genuine reviews and real project photos from local neighborhoods, and names the specific Eugene and Springfield areas you serve. Because Eugene homeowners research before they call and lean toward local independent operators, credibility signals like real reviews, local photos, and named neighborhoods carry extra weight here.",
@@ -299,7 +299,7 @@ export const eugeneLocations = [
       { q: 'What platform do you build on?', a: "We choose the platform that fits your needs and that you can run yourself, usually WordPress or Webflow. We recommend the right one in your free consult and walk through the tradeoffs in plain terms." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build ships with launch support, and after that we offer low-cost monthly maintenance covering updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time, fixed-price project. Any maintenance or SEO that follows runs month-to-month, so you can step away whenever you want." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Eugene site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Eugene web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const eugeneLocations = [
     citySlug: 'eugene', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Eugene Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Eugene website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a research-driven Pacific.',
+      'Eugene Website Redesign without losing rankings. Faster, mobile-first rebuilds with SEO-safe migration that convert more visitors into booked jobs across the Valley.',
     eyebrow: 'Website Redesign · Eugene, OR',
-    h1: 'Redesign your Eugene website without losing your rankings',
+    h1: 'Eugene Website Redesign done with a careful, SEO-safe migration that keeps your rankings',
     h2Exact: 'Eugene Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week. It loads slowly, reads as hard to trust, and is easy for Eugene's research-heavy homeowners to skip past. We redesign Eugene contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free Eugene redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Eugene contractor sites for speed, credibility, and conversions, the three things that matter to a research-driven Pacific Northwest buyer, and we migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Eugene Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Eugene contractor sites for speed, credibility, and conversions, the three things that matter to a research-driven Pacific Northwest buyer, and we handle an SEO-safe migration with the redirects and care that protect the traffic you already have without losing rankings.",
     aioQuestion: 'How do I redesign a Eugene website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, more trustworthy, and better structured than the old one. That counts for extra in Eugene, where homeowners study sites carefully before calling.",
@@ -365,7 +365,7 @@ export const eugeneLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for quick load and Core Web Vitals, which lifts conversions and rankings together." },
       { q: 'Do I own the redesigned site?', a: "Fully. The site, the domain, and the content all belong to you. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The Eugene redesign is a one-time project, and any maintenance or SEO after it runs month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix for Eugene's research-intensive buyers, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Eugene Website Redesign should fix for Eugene's research-intensive buyers, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const eugeneCity = {
 
   titleTag: 'Eugene Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Eugene contractors. Get found, get booked, and own your leads, all built for the Willamette Valley rain season.',
+    'Eugene marketing for contractors: web design, SEO, and local SEO that get you found and booked, all built for the Willamette Valley rain season.',
 
   eyebrow: 'Eugene · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Eugene contractors found and booked',
+  h1: 'Eugene marketing for contractors that fills your rain-season calendar',
   h2Exact: 'Eugene Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the Willamette Valley's rain-season demand, post-heat-dome HVAC wave, and research-intensive homeowners who choose local. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const eugeneCity = {
   primaryCta: 'Get my free Eugene audit',
 
   intro:
-    "If you run a contracting business in Eugene, you're working in a market shaped by two things above all: the Willamette Valley's relentless rain season and the aftermath of the 2021 Pacific Northwest heat dome. October through April brings moss, roof, gutter, and drainage calls. Year-round there's a backlog of heat pump and mini-split installations in homes that were built without cooling. And the homeowners placing those calls are college-educated, eco-conscious, and research-heavy. They read everything before choosing a contractor, and they lean toward local independents over national brands. Winning here takes three things working together: a site that earns local trust, SEO that ranks you for the searches that drive this specific market, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here's how we help Eugene contractors do exactly that.",
+    "Eugene marketing for contractors has to fit a market shaped by two things above all: the Willamette Valley's relentless rain season and the aftermath of the 2021 Pacific Northwest heat dome. October through April brings moss, roof, gutter, and drainage calls. Year-round there's a backlog of heat pump and mini-split installations in homes that were built without cooling. And the homeowners placing those calls are college-educated, eco-conscious, and research-heavy. They read everything before choosing a contractor, and they lean toward local independents over national brands. Winning here takes three things working together: a site that earns local trust, SEO that ranks you for the searches that drive this specific market, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here's how we help Eugene contractors do exactly that.",
   aioQuestion: 'How do Eugene contractors get more leads online?',
   aioAnswer:
     "Eugene contractors get more leads by combining a fast, mobile-first website that earns trust with research-intensive homeowners, SEO that ranks them for rain-season and heat pump searches, and local SEO that wins the Google Map Pack for Eugene and Springfield neighborhoods. Because Eugene buyers research carefully and prefer local independent operators, strong organic presence and genuine review signals carry more weight here than in many other markets.",
@@ -422,6 +422,6 @@ export const eugeneCity = {
     { q: 'Why does the Eugene market need a different approach?', a: "Three things set it apart. The October-to-April rain season drives heavy moss, roof, gutter, and drainage demand. The 2021 heat dome created year-round HVAC and mini-split installation demand in homes that never had cooling. And Eugene homeowners are college-educated and research-heavy, so they evaluate sites, read reviews, and prefer local independents over national brands. Templates built for a generic market miss all of that." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds running $2,000 to $9,000. SEO and local SEO go month-to-month from $750 to $3,000, with no long contract. We pin down the exact scope in your free Eugene audit." },
     { q: 'Which Eugene and Springfield areas do you serve?', a: "Eugene, Springfield, South Hills, Friendly Area, Whiteaker, Fairmount, Junction City, Cottage Grove, Creswell, Veneta, River Road, Santa Clara, and surrounding Willamette Valley communities." },
-    { q: 'Where should I start?', a: "Start with a free Eugene audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, whether that's capturing the next rain season, the HVAC backlog, or both. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Eugene audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, whether that's capturing the next rain season, the HVAC backlog, or both. That's the whole point of Eugene marketing for contractors here: get found and booked. No pitch deck, just a plan." },
   ],
 };

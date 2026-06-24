@@ -115,15 +115,15 @@ export const denverLocations = [
     citySlug: 'denver', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Denver Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Denver homeowners tap one of three businesses on the map. We get your company into that top three so you catch every hailstorm surge and own the leads.',
+      'Denver Local SEO that lands your company in the top three on the map, so you catch every hailstorm surge and own the leads instead of renting them.',
     eyebrow: 'Local SEO · Denver Metro',
-    h1: 'When Denver searches for what you do, be the first name they find',
+    h1: 'Denver Local SEO that puts you in the Map Pack before the next hailstorm',
     h2Exact: 'Denver Local SEO Company',
     heroSubhead:
       "Google pins exactly three businesses to the map on a \"near me\" search, and the rest of the list barely registers. We move you into that top three, so the morning after the next hailstorm the call rings your phone instead of the company that beat you to page one.",
     primaryCta: 'Get my free Denver audit',
     intro:
-      "Denver local SEO lives or dies in a single moment. A homeowner in Highlands or Centennial pulls out their phone after a storm, types \"roof repair near me,\" and taps one of the three businesses Google has pinned to the map. They rarely scroll past them. In a metro that swallows three or four serious hailstorms a season and gains new homeowners every single month, claiming one of those three pins is the whole contest. Below is exactly how you win it.",
+      "Denver Local SEO lives or dies in a single moment. A homeowner in Highlands or Centennial pulls out their phone after a storm, runs a \"near me\" search like \"roof repair near me,\" and taps one of the three businesses Google has pinned to the Map Pack. They rarely scroll past that local 3-pack. In a metro that swallows three or four serious hailstorms a season and gains new homeowners every single month, claiming one of those three pins is the whole contest. Below is exactly how our local SEO services win it for you.",
     aioQuestion: 'How do Denver businesses rank higher in local search?',
     aioAnswer:
       "Ranking comes down to four moving parts working together: a Google Business Profile tuned to the services and neighborhoods you want, name-address-phone listings that match everywhere across the web, a steady flow of genuine reviews, and local content shaped around the way Denver actually searches. Since Colorado sits in Hail Alley, demand jumps the moment a storm passes, so the businesses that win look established, respond fast, and were already ranked long before the hail arrived.",
@@ -171,7 +171,7 @@ export const denverLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research kicks off inside AI now rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as decisive as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is roughly the runway local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep a scrap of. We build rankings, a Google profile, and a review base that route Denver homeowners straight to you. Over time you lean on the lead brokers less, because the work is already arriving on its own." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to outrank you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your specific business. No pitch deck. Just a diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to outrank you, the fixes that will move you fastest, and a realistic 90-to-180-day Denver Local SEO plan with the numbers run for your specific business. No pitch deck. Just a diagnosis." },
     ],
   },
 
@@ -179,17 +179,17 @@ export const denverLocations = [
   {
     ...BASE,
     citySlug: 'denver', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Denver SEO Company | OnwardCraft',
+    titleTag: 'Denver SEO Company | Rank for the Searches That Book Jobs | OnwardCraft',
     metaDescription:
       'Denver SEO that ranks contractors on Google and delivers leads you own, built for hail season and a booming market. Revenue-tied reporting, no lock-in.',
     eyebrow: 'SEO Services · Denver Metro',
-    h1: 'Get your Denver business to the top of Google and keep it there',
+    h1: 'Denver SEO that climbs you to the top of Google and holds it through hail season',
     h2Exact: 'Denver SEO Company',
     heroSubhead:
       "The second you stop paying for ads, the leads stop cold. SEO flips that: rank once for what your Denver customers search and the leads keep arriving, storm surges included. We build that ranking and tie every report back to real calls and booked jobs.",
     primaryCta: 'Get my free Denver SEO audit',
     intro:
-      "SEO services in Denver boil down to one question: when a homeowner searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the keywords that pay, the storm-driven \"hail damage\" and \"roof repair\" terms that spike every season very much included, and we score it in leads rather than vanity traffic.",
+      "Denver SEO boils down to one question: when a homeowner searches what you do, are you on page one or page two? Page two might as well be page fifty. As an SEO agency built for the trades, we get contractors ranking on Google for the money keywords that pay, the storm-driven \"hail damage\" and \"roof repair\" terms that spike every season very much included, and we score it in organic traffic that turns into leads rather than vanity numbers.",
     aioQuestion: 'How do Denver businesses rank higher on Google?',
     aioAnswer:
       "They rank by repairing the site's technical foundation, tuning each page to the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Denver sources. In a fast-growing, hail-prone market like this one, ranking for storm-restoration terms ahead of the season and keeping the site quick on mobile are two of the fastest ways to leap past slower competitors.",
@@ -237,7 +237,7 @@ export const denverLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Denver do you cover?', a: "All of the Denver metro and the surrounding suburbs: Aurora, Lakewood, Arvada, Westminster, Centennial, Littleton, Thornton, Highlands Ranch, and more, with real local pages rather than one generic Denver page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads straight to you. The more you own your search visibility, the less you lean on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic Denver SEO timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,17 +245,17 @@ export const denverLocations = [
   {
     ...BASE,
     citySlug: 'denver', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Denver Web Design Company | Sites That Convert',
+    titleTag: 'Denver Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Denver web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and ready for the hail-season demand surge.',
+      'Denver Web Design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and ready for the hail-season demand surge.',
     eyebrow: 'Web Design · Denver Metro',
-    h1: 'Denver web design that turns visitors into booked jobs',
+    h1: 'Denver web design that turns LoDo-to-Castle-Rock visitors into booked jobs',
     h2Exact: 'Denver Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure. We build Denver contractors fast, mobile-first sites engineered to turn visitors into booked work, and built to hold up when a hailstorm sends the whole metro searching at once.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Denver contractor websites bleed leads quietly: sluggish on a phone, the call button buried, no clear offer while a homeowner is standing in the yard staring at hail-dented gutters. Web design done properly closes every one of those gaps. We build sites that load quick, carry the look of the established pro you already are, and turn visitors from LoDo to Castle Rock into booked jobs.",
+      "Denver Web Design is where most contractor websites quietly bleed leads: sluggish on a phone, the call button buried, no clear offer while a homeowner is standing in the yard staring at hail-dented gutters. A website design done properly closes every one of those gaps. We build fast-loading, mobile-first sites that carry the look of the established pro you already are and convert visitors from LoDo to Castle Rock into booked jobs.",
     aioQuestion: 'What makes a good contractor website in Denver?',
     aioAnswer:
       "A strong Denver contractor website loads in under three seconds on a phone, keeps the call button and a clear offer above the fold, and earns trust with reviews and real project photos. Because most Denver searches happen on mobile and storm demand can surge overnight, mobile speed and a site that can absorb a traffic spike are what separate a site that books jobs from one that just sits there.",
@@ -303,7 +303,7 @@ export const denverLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and lay out the tradeoffs in plain terms." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Denver site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Denver Web Design build should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -311,17 +311,17 @@ export const denverLocations = [
   {
     ...BASE,
     citySlug: 'denver', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Denver Website Redesign | OnwardCraft',
+    titleTag: 'Denver Website Redesign | Convert More, Keep Your Rankings | OnwardCraft',
     metaDescription:
-      'Redesign your Denver website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and catch storm demand.',
+      'Denver Website Redesign that converts more without losing rankings. Faster, mobile-first rebuilds that turn visitors into booked jobs and catch storm demand.',
     eyebrow: 'Website Redesign · Denver Metro',
-    h1: 'Redesign your Denver website without losing your rankings',
+    h1: 'Denver Website Redesign that converts the hail-season surge without losing your rankings',
     h2Exact: 'Denver Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, awkward on a phone, and useless when storm demand spikes. We redesign Denver contractor sites to convert more and load faster, and we migrate with care so you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns crash one of two ways: the site looks sharper but converts no better, or it launches and the rankings evaporate overnight. We do neither. We redesign Denver contractor sites for speed and conversions, work in the storm-restoration pages that catch hail-season demand, and migrate with the redirects and SEO care that guard the traffic you already have.",
+      "A Denver Website Redesign usually crashes one of two ways: the site looks sharper but converts no better, or it launches and the rankings evaporate overnight. We do neither. We rebuild Denver contractor sites for speed and conversions, work in the storm-restoration pages that catch hail-season demand, and run an SEO-safe migration with the redirects that guard the traffic you already have, so you redesign without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and lifts them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -369,7 +369,7 @@ export const denverLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts conversions and rankings together." },
       { q: 'Do I own the redesigned site?', a: "Completely. The site, the domain, and the content are all yours. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the Denver Website Redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -382,10 +382,10 @@ export const denverCity = {
 
   titleTag: 'Denver Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Denver contractors, built for hail season and a fast-growing metro. Get found, get booked, and own your leads.',
+    'Denver marketing for contractors, built for hail season and a fast-growing metro: web design, SEO, and local SEO that get you found, booked, and owning your leads.',
 
   eyebrow: 'Denver · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Denver contractors found and booked',
+  h1: 'Denver marketing for contractors that gets you found and booked before the next storm',
   h2Exact: 'Denver Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Denver's storm-driven, fast-growing market. One team to get you ranking, converting, and off the rented-lead treadmill, and ranked before the next hailstorm lands.",
@@ -393,7 +393,7 @@ export const denverCity = {
   primaryCta: 'Get my free Denver audit',
 
   intro:
-    "Run a contracting business in Denver and you are competing for attention in one of the fastest-growing metros in the country, one that also sits in Hail Alley, where storm demand can spike overnight. Winning here takes three things firing together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack before the next storm. Here is how we help Denver contractors pull off exactly that.",
+    "Denver marketing for contractors means competing for attention in one of the fastest-growing metros in the country, one that also sits in Hail Alley, where storm demand can spike overnight. Winning here takes three things firing together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack before the next storm. As a digital marketing agency that pairs web design and SEO for Denver contractors, here is how we help you get found and booked.",
   aioQuestion: 'How do Denver contractors get more leads online?',
   aioAnswer:
     "Denver contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Colorado sits in Hail Alley and the metro keeps adding new homeowners, the contractors who already rank when a storm hits and who look established win the most work.",
@@ -429,6 +429,6 @@ export const denverCity = {
     { q: 'What makes Denver different from other markets?', a: "Two things. Colorado sits in Hail Alley, so roofing and restoration demand spikes three or four times a season and you have to be ranked before the storm to catch it. And Denver is one of the fastest-growing metros in the country, with a constant flow of new homeowners hunting for a contractor." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Denver areas do you serve?', a: "All of the Denver metro and the surrounding suburbs: Aurora, Lakewood, Arvada, Westminster, Centennial, Littleton, Thornton, Highlands Ranch, Parker, Castle Rock, and more, plus city neighborhoods like LoDo, RiNo, Cherry Creek, and Highlands." },
-    { q: 'Where should I start?', a: "Start with a free Denver audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, hail season firmly in mind. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Denver audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Denver marketing for contractors plan that will bring in the most work fastest, hail season firmly in mind. No pitch deck, just a plan." },
   ],
 };

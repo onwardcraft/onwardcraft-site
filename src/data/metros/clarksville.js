@@ -109,11 +109,11 @@ export const clarksvilleLocations = [
   {
     ...BASE,
     citySlug: 'clarksville', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Clarksville Local SEO Company | OnwardCraft',
+    titleTag: 'Clarksville Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Clarksville and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Clarksville Local SEO that ranks contractors above the competition in the Google Map Pack, so the "near me" call lands with you, not a rival.',
     eyebrow: 'Local SEO · Clarksville',
-    h1: 'When Clarksville searches for what you do, be the first name they find',
+    h1: 'Clarksville Local SEO that ranks you above the competition from Sango to Fort Campbell',
     h2Exact: 'Clarksville Local SEO Company',
     heroSubhead:
       "Google drops three businesses onto the map when someone searches \"near me,\" and everyone beneath them might as well not exist. We move you into that top three, so the call lands with you instead of whoever ranks first, and so the next family PCSing into Fort Campbell sees your name before anyone else's.",
@@ -167,7 +167,7 @@ export const clarksvilleLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now begins inside AI tools instead of classic search. We shape your content and schema so those engines can read, trust, and name your business. In Clarksville that is fast turning into something as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is roughly how long local SEO takes to show real movement. After that it runs month-to-month. If we are not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that route leads straight to you alone. Over time you lean on the brokers less, because the work is already arriving direct." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is a clear picture of what Clarksville Local SEO can win you, with no pitch deck, just a diagnosis." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const clarksvilleLocations = [
   {
     ...BASE,
     citySlug: 'clarksville', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Clarksville SEO Company | OnwardCraft',
+    titleTag: 'Clarksville SEO Company | Rank and Own Your Leads | OnwardCraft',
     metaDescription:
       'Clarksville SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Fort Campbell demand.',
     eyebrow: 'SEO Services · Clarksville',
-    h1: 'Get your Clarksville business to the top of Google and keep it there',
+    h1: 'Clarksville SEO that climbs you past the competition in the fastest-growing city in Tennessee',
     h2Exact: 'Clarksville SEO Company',
     heroSubhead:
       "Ads switch off the second you stop paying. SEO does the opposite: rank once for what your Clarksville customers search and the leads keep arriving. We build that ranking and tie every report to real calls and booked jobs.",
@@ -233,7 +233,7 @@ export const clarksvilleLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a fast-growing slice of what we optimize for. We structure your content and schema so AI engines can read, trust, and name your Clarksville business in their answers, not just rank it in classic search." },
       { q: 'Which areas around Clarksville do you cover?', a: "All of Clarksville and the ground around it: Sango, St. Bethlehem, Rossview, Woodlawn, Cunningham, Adams, plus Oak Grove and Hopkinsville KY and Fort Campbell, each with a genuine local page rather than one generic Clarksville page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads straight to your phone. The more of your search visibility you own outright, the less you have to pay brokers for leads three other Clarksville contractors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank in Clarksville search today, what your competitors are doing to stay ahead, the fixes with the highest payoff, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank in Clarksville search today, what your competitors are doing to stay ahead, the fixes with the highest payoff, and a realistic timeline with the numbers modeled for your business. It shows you exactly what Clarksville SEO can do for your pipeline. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const clarksvilleLocations = [
   {
     ...BASE,
     citySlug: 'clarksville', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Clarksville Web Design Company | OnwardCraft',
+    titleTag: 'Clarksville Web Design Company | Fast Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'Clarksville web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and Fort Campbell demand.',
+      'Clarksville web design that loads fast and books more jobs: mobile-first contractor sites that convert visitors and win over Fort Campbell newcomers.',
     eyebrow: 'Web Design · Clarksville',
-    h1: 'Clarksville web design that turns visitors into booked jobs',
+    h1: 'Clarksville web design that loads fast and books more jobs from Sango to Fort Campbell',
     h2Exact: 'Clarksville Web Design Company',
     heroSubhead:
       "A handsome website that never produces a call is just an expensive brochure. We build Clarksville contractors fast, mobile-first sites engineered to turn visitors into booked work, and to win over the military families and newcomers sizing you up for the very first time.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Clarksville contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. Web design done right closes every one of those leaks. We build sites that load fast, look like the professional you actually are, and turn Sango-to-St.-Bethlehem visitors into booked jobs, including the thousands of new arrivals checking you out before they ever dial.",
+      "Clarksville web design only earns its keep when it books jobs, and most contractor sites here bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. Done right, it closes every one of those leaks. We build sites that load fast, look like the professional you actually are, and turn Sango-to-St.-Bethlehem visitors into booked jobs, including the thousands of new arrivals checking you out before they ever dial.",
     aioQuestion: 'What makes a good contractor website in Clarksville?',
     aioAnswer:
       "A good Clarksville contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and reassures newcomers who have never heard your name. Because most Clarksville searches happen on mobile and so many searchers are brand-new to the area, mobile speed, obvious trust signals, and a clear next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const clarksvilleLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that suits your needs and that you can run yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and lay out the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Launch support comes with every build, and after that we offer affordable monthly maintenance covering updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO runs month-to-month, so you can step away whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A straight look at what your current site is costing you in lost leads, what a high-converting Clarksville site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A straight look at what your current site is costing you in lost leads, what high-converting Clarksville web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const clarksvilleLocations = [
   {
     ...BASE,
     citySlug: 'clarksville', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Clarksville Website Redesign | OnwardCraft',
+    titleTag: 'Clarksville Website Redesign | SEO-Safe Rebuilds | OnwardCraft',
     metaDescription:
-      'Redesign your Clarksville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and win over newcomers.',
+      'Clarksville Website Redesign done with a careful, SEO-safe migration: faster, mobile-first rebuilds that convert more visitors and keep your rankings.',
     eyebrow: 'Website Redesign · Clarksville',
-    h1: 'Redesign your Clarksville website without losing your rankings',
+    h1: 'Clarksville Website Redesign done with a careful, SEO-safe migration that holds your rankings',
     h2Exact: 'Clarksville Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Clarksville homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Clarksville contractor sites for speed and conversions, build them to earn trust from the steady stream of newcomers, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Clarksville Website Redesign usually goes one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We rebuild contractor sites for speed and conversions, build them to earn trust from the steady stream of newcomers, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You hold your rankings through a redesign by keeping the URL structure intact, or mapping a 301 redirect for every page that changes, carrying your content and metadata across, moving your schema with it, and testing the whole thing on staging before it goes live. Handled that way, a redesign protects your Clarksville rankings and tends to lift them, because the rebuilt site loads quicker, works mobile-first, and is structured better than the old one.",
@@ -365,7 +365,7 @@ export const clarksvilleLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for quick load and strong Core Web Vitals, which lifts both your conversions and your rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content are all yours. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO runs month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in leads and rankings, what the redesign needs to fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in leads and rankings, what your Clarksville Website Redesign needs to fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const clarksvilleCity = {
 
   titleTag: 'Clarksville Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Clarksville contractors. Get found, get booked, and own your leads instead of renting them, all built for Fort Campbell demand.',
+    'Clarksville marketing for contractors that fills your calendar: web design, SEO, and local SEO that get you found, booked, and owning your leads.',
 
   eyebrow: 'Clarksville · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Clarksville contractors found and booked',
+  h1: 'Clarksville marketing for contractors that fills your calendar all year',
   h2Exact: 'Clarksville Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Clarksville's fast-growing, Fort Campbell-driven market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const clarksvilleCity = {
   primaryCta: 'Get my free Clarksville audit',
 
   intro:
-    "If you run a contracting business in Clarksville, you are fighting for attention in Tennessee's fastest-growing city, and the competition grows right alongside it. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all ready to catch the constant run of Fort Campbell families and Nashville-overflow newcomers searching for a contractor. Here is exactly how we help Clarksville contractors pull that off.",
+    "Clarksville marketing for contractors comes down to winning attention in Tennessee's fastest-growing city, where the competition grows right alongside it. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all ready to catch the constant run of Fort Campbell families and Nashville-overflow newcomers searching for a contractor. Here is exactly how we help Clarksville contractors pull that off.",
   aioQuestion: 'How do Clarksville contractors get more leads online?',
   aioAnswer:
     "Clarksville contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Clarksville is Tennessee's fastest-growing city with Fort Campbell turnover that never stops, the contractors who look established and already rank when newcomers arrive searching win the most work.",
@@ -422,6 +422,6 @@ export const clarksvilleCity = {
     { q: 'Why does Fort Campbell matter for my marketing?', a: "Fort Campbell drives nonstop PCS turnover. Tens of thousands of soldiers and families rotate in and out, and every new arrival searches Google for contractors with no local contacts to fall back on. Ranking takes months to build, so the contractors already visible take that recurring work. We get you in place to catch it." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free audit." },
     { q: 'Which Clarksville areas do you serve?', a: "All of Clarksville and the surrounding areas: Sango, St. Bethlehem, Rossview, Woodlawn, Cunningham, Adams, plus Oak Grove and Hopkinsville across the Kentucky line and Fort Campbell itself." },
-    { q: 'Where should I start?', a: "Start with a free Clarksville audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Clarksville audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Clarksville marketing for contractors that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

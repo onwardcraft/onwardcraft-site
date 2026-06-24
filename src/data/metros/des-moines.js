@@ -111,15 +111,15 @@ export const desMoinesLocations = [
     citySlug: 'des-moines', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Des Moines Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'When Des Moines searches your service, three businesses show on the map. We put you in those three before spring hail, so the call lands with you, not a competitor.',
+      'Des Moines Local SEO that lands you in the Google Map Pack before spring hail, so the "near me" call rings your phone, not a competitor down the street.',
     eyebrow: 'Local SEO · Des Moines, IA',
-    h1: 'When Des Moines searches for what you do, be the first name they find',
+    h1: 'Des Moines Local SEO that makes you the first name on the map before the hail',
     h2Exact: 'Des Moines Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map for a \"near me\" search in Des Moines, and everyone below them is invisible. One spring hailstorm can send a thousand homeowners hunting for a roofer in the same afternoon, and every one taps one of those three. We get you there before the season opens, so the calls land with you.",
     primaryCta: 'Get my free Des Moines audit',
     intro:
-      "Des Moines local SEO is a story about timing and position. When hail rakes the metro or a polar vortex drops the thermometer below zero, homeowners in Ankeny, Beaverdale, and Waukee do not scroll. They tap one of the first three businesses Google pins to the map and dial. That is the whole contest. If you are not in that top three for your service areas before demand jumps, the work goes to whoever is. Here is how you claim a spot.",
+      "Des Moines Local SEO is a story about timing and position. When hail rakes the metro or a polar vortex drops the thermometer below zero, homeowners in Ankeny, Beaverdale, and Waukee do not scroll. They tap one of the first three businesses Google pins to the local 3-pack and dial. That is the whole contest. If your Google Business Profile is not in that top three for your service areas before demand jumps, the work goes to whoever is. Here is how you claim a spot on the map.",
     aioQuestion: 'How do Des Moines businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile tuned to the exact services and suburbs you want; name, address, and phone details that match everywhere online; a steady stream of genuine reviews; and local content tied to real Des Moines neighborhoods. In a storm-driven, insurance-savvy market like this one, you also have to be ranked before hail season, because it takes months to build and you cannot start in April and expect to be there when the cloud rolls in.",
@@ -167,7 +167,7 @@ export const desMoinesLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more local research starts in AI now rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. In Des Moines it is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. The first 90 days is the only commitment, because that is about how long local SEO takes to show real movement in Des Moines. After that you are month-to-month. If the leads are not showing up, you walk, and the pressure stays on us to keep earning the spot." },
       { q: 'How does this help with insurance-claim jobs?', a: "This is an insurance industry town, and Des Moines homeowners are comfortable with the claims process. We make sure your Google Business Profile and website clearly signal that you handle insurance work, which helps you surface when someone searches for hail or storm damage with a claim already in mind." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across Des Moines and its suburbs, what your Map Pack competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across Des Moines and its suburbs, what your Map Pack competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis from a Des Moines Local SEO company that wants to rank you on the map and keep you there." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const desMoinesLocations = [
     metaDescription:
       'Des Moines SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in, built for a storm-driven, insurance-savvy market.',
     eyebrow: 'SEO Services · Des Moines, IA',
-    h1: 'Get your Des Moines business to the top of Google and keep it there',
+    h1: 'Des Moines SEO that puts your contracting business on page one and holds it',
     h2Exact: 'Des Moines SEO Company',
     heroSubhead:
       "Ads quit the second you stop paying. SEO does the reverse: rank once for what your Des Moines customers search and the leads keep coming, through hail season, through Iowa winters, and through every slow stretch in between. We build that ranking and tie every report to real calls and booked jobs.",
@@ -233,7 +233,7 @@ export const desMoinesLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "Increasingly, yes, and it is a growing part of the work. We organize your content and schema so AI engines can read you, trust you, and name your business in an answer rather than leaving you out of the classic results entirely." },
       { q: 'Which Des Moines suburbs do you cover?', a: "The full metro: Des Moines proper plus Ankeny, Waukee, West Des Moines, Urbandale, Johnston, Altoona, Norwalk, Clive, and the surrounding communities. We build genuine suburb pages rather than one generic Des Moines page, because 'roofer Ankeny' and 'HVAC Waukee' are the searches that drive real local leads." },
       { q: 'How do you help me rank for insurance-claim work?', a: "Des Moines is an insurance industry hub, and many homeowners here already know the claim process. We make sure your site and profile clearly signal that you handle insurance-driven restoration and roofing, which helps you rank for the searches homeowners run right after filing." },
-      { q: "What's in the free SEO audit?", a: "A snapshot of where you rank today, the moves your Des Moines competitors are using to stay ahead, the fixes that pay off fastest, and a realistic timeline with the numbers run for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "A snapshot of where you rank today, the moves your Des Moines competitors are using to stay ahead, the fixes that pay off fastest, and a realistic timeline with the numbers run for your business. It is the honest first step of Des Moines SEO that turns organic traffic into booked work and a page-one position you actually own. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,7 +245,7 @@ export const desMoinesLocations = [
     metaDescription:
       'Des Moines web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in a storm-driven, fast-growing market.',
     eyebrow: 'Web Design · Des Moines, IA',
-    h1: 'Des Moines web design that turns visitors into booked jobs',
+    h1: 'Des Moines web design that books storm-season jobs instead of just looking nice',
     h2Exact: 'Des Moines Web Design Company',
     heroSubhead:
       "When hail crosses Des Moines, a hundred homeowners hunt for a roofer in the same afternoon. The contractor with a fast, clear, mobile-friendly site catches that wave. The one with a slow, confusing site loses it. We build sites engineered to convert, not brochures that sit quietly while the season passes.",
@@ -299,7 +299,7 @@ export const desMoinesLocations = [
       { q: 'What platform do you build on?', a: "We match the platform to your needs and to what you can run without us looking over your shoulder, usually WordPress or Webflow. We name the right fit in your free consult and walk through the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Launch support comes with every build, and after that we offer affordable monthly maintenance covering updates, speed, and security so the site stays sharp through each Des Moines season." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time, fixed-price project. Any maintenance or SEO you add afterward stays month-to-month, so you are free to leave whenever it suits you." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Des Moines contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Des Moines contractor site should include, and a fixed-price quote with a timeline. It is Des Moines web design that converts visitors into booked jobs, mobile-first and fast-loading from day one. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const desMoinesLocations = [
     citySlug: 'des-moines', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Des Moines Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Des Moines website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs before spring hail season.',
+      'Des Moines Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs before spring hail season.',
     eyebrow: 'Website Redesign · Des Moines, IA',
-    h1: 'Redesign your Des Moines website without losing your rankings',
+    h1: 'Des Moines Website Redesign that rebuilds for leads, not just looks',
     h2Exact: 'Des Moines Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week, and in Des Moines it can cost you the whole hail season if you are not ready when the spring storms come. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish because nobody handled the migration. We do neither. We redesign Des Moines contractor sites for mobile speed and conversions, build them to stand out in a market where demand jumps fast, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Des Moines Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish because nobody handled the migration. We do neither. We rebuild Des Moines contractor sites for mobile speed and conversions, build them to stand out in a market where demand jumps fast, and run an SEO-safe migration with the redirects and care that protect the traffic you already have.",
     aioQuestion: 'Can I redesign my Des Moines website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure or mapping 301 redirects for every changed page, preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one, which is exactly what Google rewards.",
@@ -365,7 +365,7 @@ export const desMoinesLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings, especially when mobile search spikes during a weather event." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in and no hostage situations." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO after that is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. No pressure, just a diagnosis." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and an SEO-safe migration plan. It is a Des Moines Website Redesign that converts more without losing your rankings, rebuilt mobile-first for the searches that book jobs. No pressure, just a diagnosis." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const desMoinesCity = {
 
   titleTag: 'Des Moines Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Des Moines contractors. Get found before hail season, get booked, and own your leads, built for a storm-driven market.',
+    'Des Moines marketing for contractors: web design, SEO, and local SEO. Get found before hail season, get booked, and own your leads, built for a storm-driven market.',
 
   eyebrow: 'Des Moines, IA · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Des Moines contractors found and booked',
+  h1: 'Des Moines marketing for contractors who want to own their leads, not rent them',
   h2Exact: 'Des Moines Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Des Moines's storm-driven, fast-growing market. One team to get you ranking before hail season, converting all year, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const desMoinesCity = {
   primaryCta: 'Get my free Des Moines audit',
 
   intro:
-    "Des Moines runs on two engines that most agencies never account for: a finance and insurance economy full of buyers who research before they call, and weather that decides who books the season. When hail crosses the metro, a hundred homeowners in Ankeny and Beaverdale and Waukee hunt for a roofer on their phone, and they call one of the first three names they see. The contractor already ranking wins the season. The one on page two waits for scraps. Winning here takes three things working together: a fast, mobile-first site that converts, SEO that ranks you for the searches that matter, and local SEO that puts you in the Map Pack for the suburbs you serve, all before the season hits rather than during it. Here is how we help Des Moines contractors do exactly that.",
+    "Des Moines marketing for contractors has to account for two engines most agencies never do: a finance and insurance economy full of buyers who research before they call, and weather that decides who books the season. When hail crosses the metro, a hundred homeowners in Ankeny and Beaverdale and Waukee hunt for a roofer on their phone, and they call one of the first three names they see. The contractor already ranking wins the season. The one on page two waits for scraps. Winning here takes three things working together: a fast, mobile-first site that converts, SEO that ranks you for the searches that matter, and local SEO that puts you in the Map Pack for the suburbs you serve, all before the season hits rather than during it. Here is how we help Des Moines contractors do exactly that.",
   aioQuestion: 'How do Des Moines contractors get more leads online?',
   aioAnswer:
     "Des Moines contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent seasonal searches and local SEO that wins the Google Map Pack suburb by suburb. In a storm-driven market where roofing and restoration demand can jump overnight, the contractors already ranking when the storm hits catch the wave. The ones who wait until demand spikes are already too late.",
@@ -422,6 +422,6 @@ export const desMoinesCity = {
     { q: 'Why does the Des Moines market need a different approach?', a: "It is a storm-driven, insurance-savvy market where demand can jump overnight. Spring hail and wind send a wave of homeowners searching at once, and the contractors already ranking catch it all. Winning here means being in position before the season, suburb by suburb and service by service, not reacting after the storm." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds running $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. The free audit nails down the exact scope for your Des Moines business." },
     { q: 'Which Des Moines areas do you serve?', a: "The full metro: Des Moines proper plus Ankeny, Waukee, West Des Moines, Urbandale, Johnston, Altoona, Norwalk, Clive, and the neighborhoods inside them, from East Village to Beaverdale to Sherman Hill. We build real suburb pages rather than one generic Des Moines page." },
-    { q: 'Where should I start?', a: "Start with a free Des Moines audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that bring in the most work before the next demand window. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Des Moines audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that bring in the most work before the next demand window. It is Des Moines marketing for contractors built to get you found and booked, with leads that belong to you. No pitch deck, just a plan." },
   ],
 };

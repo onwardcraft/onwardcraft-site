@@ -111,15 +111,15 @@ export const detroitLocations = [
     citySlug: "detroit", serviceSlug: "local-seo", service: "Local SEO",
     titleTag: "Detroit Local SEO Company | Win the Map Pack | OnwardCraft",
     metaDescription:
-      "Search a trade in Detroit and three businesses sit on the map. We get you into those three for your neighborhoods, so the freeze-season call lands with you.",
+      "Detroit Local SEO that lands you in the three businesses on the map for your neighborhoods, so the Corktown and freeze-season call rings your phone.",
     eyebrow: "Local SEO · Detroit",
-    h1: "When Detroit searches for what you do, be the first name they find",
+    h1: "Detroit Local SEO that turns a Corktown \"near me\" search into a ringing phone",
     h2Exact: "Detroit Local SEO Company",
     heroSubhead:
       "Google pins three businesses to the map when a homeowner taps \"near me,\" and everyone underneath them might as well not exist. In a city that hires on trust and on who feels local, we push you into that top three for the streets you work, so the job lands with you instead of whoever Google listed first.",
     primaryCta: "Get my free Detroit audit",
     intro:
-      "Detroit local SEO comes down to a single moment: a homeowner in Corktown or Grosse Pointe types your trade plus \"near me,\" and you are either one of the three businesses Google pinned to the map or you are nowhere. Most people tap one of those three and never scroll. In a town where folks pick the local, straight-talking crew over a national chain, and where a dead furnace in January cannot wait until next week, owning those three spots on your streets is the entire job. Here is how we get you there.",
+      "Detroit Local SEO comes down to a single moment: a homeowner in Corktown or Grosse Pointe types your trade plus \"near me,\" and you are either one of the three businesses Google pinned to the map or you are nowhere. Most people tap one of those three and never scroll. In a town where folks pick the local, straight-talking crew over a national chain, and where a dead furnace in January cannot wait until next week, owning those three spots on your streets is the entire job. Here is how we get you there.",
     aioQuestion: "How do Detroit businesses rank higher in local search?",
     aioAnswer:
       "You rank by nailing four things: a Google Business Profile built around the exact trades and neighborhoods you want; name, address, and phone details that match everywhere online; a steady run of real reviews; and local content tied to genuine Detroit neighborhoods and suburbs. Detroit homeowners hire on locality and trust, so the winners work tight service areas, build a real review base, and rank before the winter heating and spring thaw spikes.",
@@ -167,7 +167,7 @@ export const detroitLocations = [
       { q: "Will I show up in Google AI Overviews and ChatGPT?", a: "More and more \"near me\" research now starts inside AI tools instead of classic search. We structure your content and schema so those engines can read, trust, and name your business. In Detroit it is quickly getting as important as the Map Pack itself." },
       { q: "Am I locked into a contract?", a: "No. We ask for an initial 90 days because that is roughly the window local SEO needs to show real movement in a market this competitive. After that you are month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: "How does this get me off Angi and HomeAdvisor?", a: "Those platforms rent you shared leads and visibility you never keep. Detroiters are skeptical of that model to begin with; they would rather hire a local name they can vouch for. We build rankings, a Google profile, and a review base that send leads straight to you alone." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your neighborhoods and suburbs, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your neighborhoods and suburbs, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day Detroit Local SEO plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -177,9 +177,9 @@ export const detroitLocations = [
     citySlug: "detroit", serviceSlug: "seo-services", service: "SEO Services",
     titleTag: "Detroit SEO Company | Rank Higher, Get Leads | OnwardCraft",
     metaDescription:
-      "Detroit SEO that ranks contractors on Google and brings leads you own. Revenue-tied reporting, no lock-in, built for Michigan winters and the rehab boom.",
+      "Detroit SEO that ranks contractors for the searches that book jobs, from Corktown rehab to January no-heat calls. Lead-tied reporting, no lock-in.",
     eyebrow: "SEO Services · Detroit",
-    h1: "Get your Detroit business to the top of Google and keep it there",
+    h1: "Detroit SEO that ranks you for the rehab and no-heat searches that book jobs",
     h2Exact: "Detroit SEO Company",
     heroSubhead:
       "Ads quit the moment you stop paying. SEO works the other way: rank once for what your Detroit customers search and the leads keep landing for months. We build that ranking for Michigan contractors, from Corktown rehab searches to January no-heat calls, and tie every report to real calls and booked jobs.",
@@ -233,7 +233,7 @@ export const detroitLocations = [
       { q: "Will I show up in Google AI Overviews and ChatGPT?", a: "That is a growing slice of what we optimize for. We structure your content and schema so AI engines can read, trust, and name your Detroit business, not just the old blue-link results." },
       { q: "Which areas around Detroit do you cover?", a: "Detroit proper and its neighborhoods, including Midtown, Corktown, Indian Village, Boston-Edison, New Center, and Hamtramck, plus the suburbs: Grosse Pointe, Birmingham, Bloomfield Hills, Troy, Royal Oak, Ferndale, Dearborn, and Ann Arbor. Genuine local pages for each, not one generic Detroit page." },
       { q: "How do you get me off Angi and HomeAdvisor leads?", a: "By building rankings and a Google presence that send leads straight to you. Detroiters are already skeptical of lead-broker platforms; they would rather hire a local name they can verify. The more you own your search visibility, the less you lean on brokers for leads three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across Detroit, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your own business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today across Detroit, what your competitors are doing to beat you, the highest-impact fixes, and a realistic Detroit SEO timeline with the numbers modeled for your own business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const detroitLocations = [
     metaDescription:
       "Detroit web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in a market that hires on local trust and straight talk.",
     eyebrow: "Web Design · Detroit",
-    h1: "Detroit web design that turns visitors into booked jobs",
+    h1: "Detroit web design built to convert Corktown-to-Birmingham clicks into calls",
     h2Exact: "Detroit Web Design Company",
     heroSubhead:
       "A good-looking website that never rings the phone is just an expensive brochure. We build Detroit contractors fast, mobile-first sites that earn trust, turn visitors into booked work, and make it obvious you are a local crew, not a national chain wearing a local phone number.",
     primaryCta: "Get my free quote",
     intro:
-      "Most Detroit contractor websites bleed leads quietly: slow on a phone, no clear offer, nothing that signals you are actually from around here. In a town where homeowners back the straight-talking, community-rooted crew over a national brand, your website is your first handshake, and it has to match the quality of your work. We build sites that load fast, look like the pro you really are, and turn Corktown-to-Bloomfield-Hills visitors into booked jobs.",
+      "Detroit web design lives or dies on one thing: whether the site books a job or just sits there looking nice. Most Detroit contractor websites bleed leads quietly, slow on a phone, no clear offer, nothing that signals you are actually from around here. In a town where homeowners back the straight-talking, community-rooted crew over a national brand, your website is your first handshake, and it has to match the quality of your work. We build sites that load fast, look like the pro you really are, and turn Corktown-to-Bloomfield-Hills visitors into booked jobs.",
     aioQuestion: "What makes a good contractor website in Detroit?",
     aioAnswer:
       "A good Detroit contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with real reviews and local project photos, and names the specific neighborhoods and suburbs you serve. Detroit homeowners hire on local credibility, so a site that could belong to any national franchise will not earn their trust the way one that signals genuine local roots does.",
@@ -299,7 +299,7 @@ export const detroitLocations = [
       { q: "What platform do you build on?", a: "We pick the platform that fits your needs and that you can actually run yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and lay out the tradeoffs in plain English." },
       { q: "Do you offer ongoing support?", a: "Yes. Every Detroit build comes with launch support, and after that we offer affordable monthly maintenance covering updates, speed, and security." },
       { q: "Am I locked into a contract?", a: "No. The build is a one-time project at a fixed price. Any maintenance or SEO afterward is month-to-month, so you can leave whenever you like." },
-      { q: "What do I get in the free quote?", a: "A clear look at what your current site is costing you in lost leads, what a high-converting Detroit site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: "What do I get in the free quote?", a: "A clear look at what your current site is costing you in lost leads, what a high-converting Detroit web design project should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const detroitLocations = [
     citySlug: "detroit", serviceSlug: "website-redesign", service: "Website Redesign",
     titleTag: "Detroit Website Redesign | OnwardCraft",
     metaDescription:
-      "Redesign your Detroit website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and signal you are genuinely local.",
+      "Detroit Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and signal you are genuinely local.",
     eyebrow: "Website Redesign · Detroit",
-    h1: "Redesign your Detroit website without losing your rankings",
+    h1: "Detroit Website Redesign that keeps every ranking you have earned",
     h2Exact: "Detroit Website Redesign Company",
     heroSubhead:
       "An outdated site costs you jobs every single week: slow, clumsy on a phone, and easy for a Detroit homeowner to wave off as another national brand. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",
     primaryCta: "Get my free redesign audit",
     intro:
-      "Most redesigns go one of two bad ways: the site gets prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Detroit contractor sites for speed, local credibility, and conversions, then migrate with the redirects and SEO care that protect the traffic you have spent years building.",
+      "A Detroit Website Redesign usually goes one of two bad ways: the site gets prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Detroit contractor sites for speed, local credibility, and conversions, then migrate with the redirects and SEO-safe care that protect the traffic you have spent years building.",
     aioQuestion: "How do I redesign my website without losing SEO and traffic?",
     aioAnswer:
       "You protect SEO through a redesign by holding your URL structure (or mapping 301 redirects for every page that changes), keeping your existing content and metadata intact, carrying your schema across, and testing the whole thing on staging before you flip it live. Done right, the redesign keeps your rankings and nudges them up, because the new Detroit site loads faster, works on a phone first, and is built cleaner than the old one.",
@@ -365,7 +365,7 @@ export const detroitLocations = [
       { q: "Will the new site be mobile-friendly and fast?", a: "Yes. We rebuild mobile-first and tune for quick load and clean Core Web Vitals, which lifts both conversions and rankings." },
       { q: "Do I own the redesigned site?", a: "Completely: the site, the domain, and every bit of the content belong to you. No platform lock-in of any kind." },
       { q: "Am I locked into a contract?", a: "No. The redesign is a one-time Detroit project. Any maintenance or SEO afterward runs month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign needs to fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the Detroit Website Redesign needs to fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const detroitCity = {
 
   titleTag: "Detroit Marketing for Contractors | OnwardCraft",
   metaDescription:
-    "Web design, SEO, and local SEO for Detroit contractors. Get found, get booked, and own your leads instead of renting them, built for Michigan winters and the rehab boom.",
+    "Detroit marketing for contractors: web design, SEO, and local SEO. Get found, get booked, and own your leads instead of renting them, built for Michigan winters and the rehab boom.",
 
   eyebrow: "Detroit · Web Design, SEO & Lead Generation",
-  h1: "Marketing that gets Detroit contractors found and booked",
+  h1: "Detroit marketing for contractors: get ranked across the city, get booked",
   h2Exact: "Detroit Marketing Agency for Contractors",
   heroSubhead:
     "Websites, SEO, and local SEO built for Detroit's own market: Michigan winters, a historic rehab revival, and homeowners who pick local over national every time. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const detroitCity = {
   primaryCta: "Get my free Detroit audit",
 
   intro:
-    "If you run a contracting business in Detroit, you are working in one of the most interesting markets in the country: a city genuinely rebuilding itself, with historic neighborhoods full of rehab work, inner-ring suburbs where homeowners spend freely, and Michigan winters that turn HVAC and pipe failures into real emergencies. Winning here takes three things pulling together: a site that earns local trust, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the streets you serve. Here is exactly how we help Detroit contractors pull that off.",
+    "Detroit marketing for contractors is its own animal, because you are working in one of the most interesting markets in the country: a city genuinely rebuilding itself, with historic neighborhoods full of rehab work, inner-ring suburbs where homeowners spend freely, and Michigan winters that turn HVAC and pipe failures into real emergencies. Winning here takes three things pulling together: a site that earns local trust, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the streets you serve. Here is exactly how we help Detroit contractors pull that off.",
   aioQuestion: "How do Detroit contractors get more leads online?",
   aioAnswer:
     "Detroit contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. The ones who win look credibly local, rank for Michigan's seasonal emergencies before they hit, and earn the trust of homeowners who would rather hire a known local name than a national chain.",
@@ -422,6 +422,6 @@ export const detroitCity = {
     { q: "Why does the Detroit market need a different approach?", a: "Detroit homeowners lean hard toward local, trustworthy crews over national brands. Add Michigan's brutal winters, where furnace failures and burst pipes cannot wait, and a real rehab revival in neighborhoods like Corktown and Indian Village, and you get a market that rewards local know-how and seasonal SEO more than most." },
     { q: "How much does it cost to work with you?", a: "Websites are one-time builds running $2,000 to $9,000. SEO and local SEO are month-to-month, from $750 to $3,000, with no long contract. We lock the exact scope in your free audit." },
     { q: "Which Detroit areas do you serve?", a: "Detroit proper and its neighborhoods, including Midtown, Corktown, Indian Village, Boston-Edison, New Center, and Hamtramck, plus the suburbs: Grosse Pointe, Birmingham, Bloomfield Hills, Troy, Royal Oak, Ferndale, Dearborn, and Ann Arbor." },
-    { q: "Where should I start?", a: "Start with a free Detroit audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: "Where should I start?", a: "Start with a free Detroit audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Detroit marketing for contractors that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

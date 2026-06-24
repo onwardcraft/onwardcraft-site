@@ -109,17 +109,17 @@ export const columbiaLocations = [
   {
     ...BASE,
     citySlug: 'columbia', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Columbia SC Local SEO Company | OnwardCraft',
+    titleTag: 'Columbia Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Columbia SC and three businesses land on the map. We get you into those three so the call comes to you, not a competitor.',
+      'Columbia Local SEO that turns "near me" searches into a ringing phone. We get you into the Google Map Pack so the call comes to you, not a competitor.',
     eyebrow: 'Local SEO · Columbia, SC',
-    h1: 'When Columbia searches for what you do, be the first name they find',
+    h1: 'Columbia Local SEO that turns "near me" searches into a ringing phone',
     h2Exact: 'Columbia SC Local SEO Company',
     heroSubhead:
       "Google fills the map with exactly three businesses when someone types \"near me,\" and everybody under that pack is close to invisible. We push you into the top three so the call reaches you, whether it is a Fort Jackson family that just unpacked, a USC buyer settling into Shandon, or a homeowner whose AC quit in 102-degree heat.",
     primaryCta: 'Get my free Columbia audit',
     intro:
-      "Columbia local SEO hangs on a single moment: a homeowner in Forest Acres or Lexington adds \"near me\" to your service, and either you are one of the three businesses pinned to the map or you are nowhere. Hardly anyone scrolls past that pack. This is a market fed by military PCS moves, university-area buyers, brutal summer heat, and recurring inland flooding, and the contractor already in the Map Pack collects all of it. Here is how we put you there.",
+      "Columbia Local SEO hangs on a single moment: a homeowner in Forest Acres or Lexington adds \"near me\" to your service, and either you are one of the three businesses pinned to the Google Map Pack or you are nowhere. Hardly anyone scrolls past that local 3-pack. This is a market fed by military PCS moves, university-area buyers, brutal summer heat, and recurring inland flooding, and the contractor already on the map collects all of it. Here is how we put you there.",
     aioQuestion: 'How do Columbia SC businesses rank higher in local search?',
     aioAnswer:
       "Four things decide it: a Google Business Profile tuned to the exact services and Columbia neighborhoods you want, name, address, and phone details that match across the web, a dependable flow of genuine reviews, and local pages built on real Midlands neighborhoods. With Fort Jackson PCS cycles, USC alumni buyers, hard summer cooling demand, and inland flood work all in play, the winners look settled, answer fast, and rank before any of it spikes.",
@@ -167,7 +167,7 @@ export const columbiaLocations = [
       { q: 'Will I turn up in Google AI Overviews and ChatGPT?', a: "An ever larger share of \"near me\" research now starts inside AI rather than the classic results page. We structure your content and schema so those engines can read, trust, and quote your business. In Columbia that is fast becoming as decisive as the Map Pack itself." },
       { q: 'Does this lock me into a long agreement?', a: "No. We ask for an opening 90 days because that is about how long local SEO needs before real movement shows. After that you run month-to-month. If we are not producing, you walk, and the accountability stays squarely on us." },
       { q: 'How does this wean me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build the rankings, the Google profile, and the review base that route leads to you alone. As that compounds you lean on the brokers less, because the work is already finding you." },
-      { q: 'What do I actually get in the free audit?', a: "A clear read on where you rank today across your service areas, what your Map Pack competitors do to stay ahead of you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No slide deck, just a straight diagnosis." },
+      { q: 'What do I actually get in the free audit?', a: "A clear read on where you rank today across your service areas, what your Map Pack competitors do to stay ahead of you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No slide deck, just a straight Columbia Local SEO diagnosis that shows you how to rank on the map for the \"near me\" searches that book work." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const columbiaLocations = [
   {
     ...BASE,
     citySlug: 'columbia', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Columbia SC SEO Company | OnwardCraft',
+    titleTag: 'Columbia SEO Company | Rank for Jobs That Book | OnwardCraft',
     metaDescription:
-      'Columbia SC SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in, built for heat-season and flood demand.',
+      'Columbia SEO that ranks contractors for the searches that book jobs and brings in leads you own. Revenue-tied reporting, no lock-in, built for heat and flood demand.',
     eyebrow: 'SEO Services · Columbia, SC',
-    h1: 'Get your Columbia SC business to the top of Google and keep it there',
+    h1: 'Columbia SEO that ranks you for the searches that book jobs',
     h2Exact: 'Columbia SC SEO Company',
     heroSubhead:
       "Ads switch off the instant your card does. SEO runs the other way: rank once for what Columbia customers search and the leads keep arriving for months. We build that ranking and pin every report to real calls and booked jobs.",
     primaryCta: 'Get my free Columbia SEO audit',
     intro:
-      "Columbia SEO boils down to a single blunt question: when someone searches what you do, are you on page one or page two? Around here page two is the same as page fifty. We get contractors ranking for the money keywords in a market shaped by Fort Jackson PCS cycles, university-area buyers, ferocious summer heat, and inland flooding, and we score the whole thing in leads, not traffic that never calls.",
+      "Columbia SEO boils down to a single blunt question: when someone searches what you do, are you on page one or page two of Google? Around here page two is the same as page fifty. As a Columbia SEO company we get contractors ranking for the money keywords in a market shaped by Fort Jackson PCS cycles, university-area buyers, ferocious summer heat, and inland flooding, and we score the whole thing in organic leads, not traffic that never calls.",
     aioQuestion: 'How do Columbia SC businesses rank higher on Google?',
     aioAnswer:
       "They rank by repairing the site's technical base, tuning each page to the exact terms buyers type, publishing local content that genuinely helps, and earning links from Columbia sources Google trusts. In a market driven by Fort Jackson demand, USC alumni buyers, heavy summer cooling searches, and repeat inland flooding, keeping the site quick on mobile and ranking for the seasonal spikes are two of the fastest ways to pull in front.",
@@ -233,7 +233,7 @@ export const columbiaLocations = [
       { q: 'Can you get my business cited in AI Overviews and ChatGPT?', a: "That is a growing part of what we tune for. We structure your content and schema so AI engines can read, trust, and quote your business by name, not just the classic results page." },
       { q: 'Which areas around Columbia do you reach?', a: "The full Columbia metro and its outskirts: Lexington, Irmo, Blythewood, Chapin, Cayce, West Columbia, Forest Acres, Five Points, Shandon, Lake Murray, and more, with genuine local pages instead of one generic Columbia page." },
       { q: 'How do you free me from Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads straight to you. The more of your search visibility you own, the less you lean on brokers for shared leads three rivals also bought." },
-      { q: 'What comes in the free SEO audit?', a: "Where you rank today, what your competitors do to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No slide deck, just a diagnosis." },
+      { q: 'What comes in the free SEO audit?', a: "Where you rank today, what your competitors do to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No slide deck, just a straight Columbia SEO diagnosis that maps how you reach page one for the money keywords and grow organic traffic that books work." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const columbiaLocations = [
   {
     ...BASE,
     citySlug: 'columbia', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Columbia SC Web Design Company | OnwardCraft',
+    titleTag: 'Columbia Web Design Company | Clicks Into Calls | OnwardCraft',
     metaDescription:
-      'Columbia SC web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and the Midlands heat-and-flood season.',
+      'Columbia Web Design built to convert clicks into calls: fast, mobile-first sites for contractors that turn Midlands visitors into booked jobs, heat and flood season ready.',
     eyebrow: 'Web Design · Columbia, SC',
-    h1: 'Columbia SC web design that turns visitors into booked jobs',
+    h1: 'Columbia Web Design built to convert clicks into calls',
     h2Exact: 'Columbia SC Web Design Company',
     heroSubhead:
       "A good-looking site that never rings the phone is just a brochure with a hosting bill. We build Columbia contractors fast, mobile-first sites engineered to turn visitors into booked work, whether that visitor is a Fort Jackson family fresh to the area, a USC grad buying in Shandon, or a homeowner searching at midnight because the AC died.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Columbia contractor sites lose leads without a sound: slow on a phone, call button hidden, no clear offer anywhere on the page. Good web design plugs every one of those holes. We build sites that load fast, look like the professional you already are, and turn visitors from Lexington to Blythewood into booked jobs, and they hold steady when a heat wave floods HVAC searches.",
+      "Columbia Web Design is the difference between a site that books work and one that just sits there: most contractor sites lose leads without a sound, slow on a phone, call button hidden, no clear offer anywhere on the page. Good website design plugs every one of those holes. As a Columbia web design company we build fast, mobile-first sites that look like the professional you already are and turn visitors from Lexington to Blythewood into booked jobs, and they hold steady when a heat wave floods HVAC searches.",
     aioQuestion: 'What makes a good contractor website in Columbia SC?',
     aioAnswer:
       "A strong Columbia contractor site loads in under three seconds on a phone, puts the call button and a clear offer above the fold, earns trust with reviews and real project photos, and holds up under traffic spikes during summer cooling season and after heavy rain. Since most Columbia searches happen on a phone, mobile speed and an obvious next step are what split a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const columbiaLocations = [
       { q: 'Which platform will you build on?', a: "We pick the platform that suits your needs and that you can manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and spell out the tradeoffs in plain English." },
       { q: 'Is there ongoing support after launch?', a: "Yes. Every build comes with launch support, and after that we offer affordable monthly upkeep covering updates, speed, and security." },
       { q: 'Will I be tied to a contract?', a: "No. The build is a one-off project at a fixed price. Any maintenance or SEO afterward runs month-to-month, so you can step away whenever you want." },
-      { q: 'What comes with the free quote?', a: "A clear look at what your current site costs you in lost leads, what a high-converting Columbia site should carry, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What comes with the free quote?', a: "A clear look at what your current site costs you in lost leads, what a high-converting Columbia site should carry, and a fixed-price quote with a timeline. No pressure, just a plan for Columbia Web Design that loads fast, works on mobile, and converts visitors into booked jobs." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const columbiaLocations = [
   {
     ...BASE,
     citySlug: 'columbia', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Columbia SC Website Redesign | OnwardCraft',
+    titleTag: 'Columbia Website Redesign | Keep Every Ranking | OnwardCraft',
     metaDescription:
-      'Redesign your Columbia SC website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in heat.',
+      'Columbia Website Redesign that keeps every ranking you have earned. Faster, mobile-first rebuilds with an SEO-safe migration that convert more visitors into booked jobs.',
     eyebrow: 'Website Redesign · Columbia, SC',
-    h1: 'Redesign your Columbia SC website without losing your rankings',
+    h1: 'Columbia Website Redesign that keeps every ranking you have earned',
     h2Exact: 'Columbia SC Website Redesign Company',
     heroSubhead:
       "A dated site bleeds jobs every week: slow, clumsy on a phone, easy for a Columbia homeowner to scroll right past. We redesign contractor sites to convert more and load faster, and we migrate carefully enough that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail in one of two ways: the site looks prettier but converts the same, or it launches and the rankings disappear overnight. We do neither. We redesign Columbia contractor sites for speed and conversions, build them to ride out summer heat surges and post-flood demand spikes, and migrate with the redirects and SEO care that protect the traffic you have spent years earning.",
+      "Columbia Website Redesign goes wrong in one of two ways: the site looks prettier but converts the same, or it launches and the rankings disappear overnight. We do neither. We rebuild Columbia contractor sites for speed and conversions, build them to ride out summer heat surges and post-flood demand spikes, and run an SEO-safe migration with the redirects and care that protect the traffic you have spent years earning.",
     aioQuestion: 'How can I redesign my site without losing SEO and traffic?',
     aioAnswer:
       "Protect your SEO through a redesign by holding your URL structure (or mapping 301 redirects for every page that moves), keeping your existing content and metadata, carrying over your schema, and testing the whole thing on staging before it goes live. Handled this way, a redesign keeps your rankings and tends to lift them, because the new site loads faster, works on mobile, and is built on a cleaner structure than the old one.",
@@ -365,7 +365,7 @@ export const columbiaLocations = [
       { q: 'Will the new site be fast and mobile-friendly?', a: "Yes. We rebuild mobile-first and tune for fast load and clean Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I keep ownership of the redesigned site?', a: "Yes, fully: the site, the domain, and the content. No platform lock-in of any kind." },
       { q: 'Will the redesign tie me to a contract?', a: "No. The redesign is a one-off project. Any maintenance or SEO afterward stays month-to-month." },
-      { q: 'What comes with the free redesign audit?', a: "A clear read on what your current site costs you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: 'What comes with the free redesign audit?', a: "A clear read on what your current site costs you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. That is the whole point of a Columbia Website Redesign done right: a faster, mobile-first rebuild that converts more without losing the rankings you have already earned." },
     ],
   },
 ];
@@ -373,12 +373,12 @@ export const columbiaLocations = [
 export const columbiaCity = {
   citySlug: 'columbia', city: 'Columbia', state: 'South Carolina', stateAbbr: 'SC', metro: 'Columbia',
 
-  titleTag: 'Columbia SC Marketing for Contractors | OnwardCraft',
+  titleTag: 'Columbia Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Columbia SC contractors. Get found, get booked, and own your leads instead of renting them, all built for Fort Jackson demand.',
+    'Columbia marketing for contractors: web design, SEO, and local SEO that gets you ranked and booked. Own your leads instead of renting them, all built for Fort Jackson demand.',
 
   eyebrow: 'Columbia SC · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Columbia SC contractors found and booked',
+  h1: 'Columbia marketing for contractors: get ranked, get booked',
   h2Exact: 'Columbia SC Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Columbia's odd mix of state-capital steadiness, Fort Jackson churn, university buyers, savage summer heat, and inland flood risk. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const columbiaCity = {
   primaryCta: 'Get my free Columbia audit',
 
   intro:
-    "Run a contracting business in Columbia and you are working one of the more unusual markets in the Southeast. As the state capital it keeps a steady base of government work and the people who do it. Fort Jackson rotates thousands of military families through the area every year, and most of them open Google for a contractor within days of arriving. The University of South Carolina seats 35,000 students and a deep alumni buyer community across Five Points, Shandon, and Earlewood. Summers routinely hit 100 to 105 degrees, which makes cooling repair one of the highest-volume search categories in the metro. And inland flooding, from heavy rain bands to tropical leftovers, keeps roofing and restoration crews busy into the fall. Winning here takes three pieces pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that lands you in the Map Pack, all in place before the next spike hits. Here is how we help Columbia contractors pull it off.",
+    "Columbia marketing for contractors has to fit one of the more unusual markets in the Southeast, because running a contracting business here is unlike anywhere else. As the state capital it keeps a steady base of government work and the people who do it. Fort Jackson rotates thousands of military families through the area every year, and most of them open Google for a contractor within days of arriving. The University of South Carolina seats 35,000 students and a deep alumni buyer community across Five Points, Shandon, and Earlewood. Summers routinely hit 100 to 105 degrees, which makes cooling repair one of the highest-volume search categories in the metro. And inland flooding, from heavy rain bands to tropical leftovers, keeps roofing and restoration crews busy into the fall. Winning here takes three pieces pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that lands you in the Map Pack, all in place before the next spike hits. Here is how we help Columbia contractors pull it off.",
   aioQuestion: 'How do Columbia SC contractors get more leads online?',
   aioAnswer:
     "Columbia contractors win more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that takes the Google Map Pack. Because demand here runs on Fort Jackson PCS cycles, USC alumni buyers, heavy summer cooling searches, and recurring inland flooding, the contractors who look established and already rank ahead of each spike pull in the most work.",
@@ -422,6 +422,6 @@ export const columbiaCity = {
     { q: 'Why does Fort Jackson matter to my marketing?', a: "Fort Jackson runs more than 50,000 trainees through each year, and thousands of permanent military families PCS in and out of the Columbia area. When a family lands, they search Google right away for every contractor they need. Sitting in the Map Pack when that search happens is one of the steadiest sources of high-intent leads this market offers." },
     { q: 'What does it cost to work with you?', a: "Websites are one-off builds running $2,000 to $9,000. SEO and local SEO are month-to-month at $750 to $3,000, with no long contract. We lock the exact scope in your free audit." },
     { q: 'Which Columbia areas do you serve?', a: "The whole Columbia metro and the surrounding towns: Shandon, Five Points, Forest Acres, Elmwood Park, Earlewood, Lexington, Irmo, Blythewood, Chapin, Cayce, West Columbia, Lake Murray, Harbison, and more." },
-    { q: 'Where is the right place to start?', a: "Start with a free Columbia audit. We look at your website, your rankings, and your Map Pack presence, then point you to the one or two moves that will pull in the most work fastest. No slide deck, just a plan." },
+    { q: 'Where is the right place to start?', a: "Start with a free Columbia audit. We look at your website, your rankings, and your Map Pack presence, then point you to the one or two moves that will pull in the most work fastest. No slide deck, just a plan for Columbia marketing for contractors that gets you found, booked, and off the rented-lead treadmill." },
   ],
 };
