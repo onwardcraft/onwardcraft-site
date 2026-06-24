@@ -109,17 +109,17 @@ export const fayettevilleLocations = [
   {
     ...BASE,
     citySlug: 'fayetteville', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Fayetteville AR Local SEO | OnwardCraft',
+    titleTag: 'Fayetteville Local SEO Company | Win the NWA Map Pack | OnwardCraft',
     metaDescription:
-      'Type your service plus near me in NWA and Google shows three businesses on the map. We get you into those three so the storm-season call lands with you.',
+      'Fayetteville Local SEO that pins you to the top three on the map, so when NWA types your trade plus near me the storm-season call lands with you.',
     eyebrow: 'Local SEO · Northwest Arkansas',
-    h1: 'When NWA searches for what you do, be the first name they find',
+    h1: 'Fayetteville Local SEO that makes you the first name on the map from Bentonville to Springdale',
     h2Exact: 'Fayetteville Local SEO Company',
     heroSubhead:
       "Type a service plus \"near me\" anywhere in Northwest Arkansas and Google answers with three pins on a map. Everyone underneath them might as well not exist. We push you into that top three, so the call routes to you instead of whoever happened to rank first, and so your phone is already lit up when the next hailstorm or July heat wave breaks.",
     primaryCta: 'Get my free Fayetteville audit',
     intro:
-      "Local SEO in Northwest Arkansas hinges on a single moment: a homeowner in Bentonville or Springdale taps in your service and \"near me,\" and either Google has pinned you to the map or it has not. Almost no one scrolls past those three pins. This metro keeps adding people faster than most of the country, with Fortune 500 campuses, a growing University of Arkansas crowd, and Ozark second-home buyers all feeding demand, and the contractor pool grows right alongside it. Landing in that top three is the whole contest.",
+      "Fayetteville Local SEO hinges on a single moment: a homeowner in Bentonville or Springdale taps in your service and \"near me,\" and either Google has pinned you to the Map Pack or it has not. Almost no one scrolls past those three pins. This metro keeps adding people faster than most of the country, with Fortune 500 campuses, a growing University of Arkansas crowd, and Ozark second-home buyers all feeding demand, and the contractor pool grows right alongside it. Landing in that local 3-pack is the whole contest.",
     aioQuestion: 'How do Fayetteville businesses rank higher in local search?',
     aioAnswer:
       "Four moves do most of the work: a Google Business Profile aimed at the precise services and NWA towns you want; name, address, and phone details that read identically everywhere online; a real review habit that never quite stops; and content tied to actual Northwest Arkansas neighborhoods. Because the metro grows fast and spring brings violent weather, the winners look established, answer quickly, and already rank before the storm season hits.",
@@ -167,7 +167,7 @@ export const fayettevilleLocations = [
       { q: 'Can you get me cited in Google AI Overviews and ChatGPT?', a: "An increasing share of \"near me\" research now opens inside an AI tool rather than a classic results page. We structure your content and schema so those engines can read, trust, and cite your business by name. In NWA that is fast becoming as decisive as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is honestly about how long local SEO needs to show real movement. After that you are month-to-month. If we are not producing, you walk, and the accountability stays parked on us." },
       { q: 'How does this wean me off Angi and HomeAdvisor?', a: "Those platforms lease you shared leads and visibility that never become yours. We build the rankings, the Google profile, and the review base that funnel leads straight to you alone. As that compounds, you lean on the brokers less because the work is already arriving on its own." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your NWA service areas, what your Map Pack competitors are doing to stay ahead, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your own business. No slide deck, just a diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your NWA service areas, what your Map Pack competitors are doing to stay ahead, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your own business. It is the honest starting point for Fayetteville Local SEO that actually puts your business on the map. No slide deck, just a diagnosis." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const fayettevilleLocations = [
   {
     ...BASE,
     citySlug: 'fayetteville', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Fayetteville AR SEO Company | OnwardCraft',
+    titleTag: 'Fayetteville SEO Company | Rank on Google, Keep the Leads | OnwardCraft',
     metaDescription:
-      'NWA SEO that ranks contractors on Google and hands you leads you keep. Reporting tied to booked jobs, no lock-in, tuned for spring storm and summer HVAC demand.',
+      'Fayetteville SEO that ranks contractors on Google and hands you leads you keep. Reporting tied to booked jobs, no lock-in, tuned for spring storm and summer HVAC demand.',
     eyebrow: 'SEO Services · Northwest Arkansas',
-    h1: 'Get your Fayetteville business to the top of Google and keep it there',
+    h1: 'Fayetteville SEO that puts your business on page one and holds it through every storm season',
     h2Exact: 'Fayetteville SEO Company',
     heroSubhead:
       "The moment you pause Google Ads, the leads die with the card. SEO runs the other direction: earn the ranking once for what your NWA customers search, and the calls keep arriving for months. We build that ranking and pin every report to real phone calls and booked jobs.",
     primaryCta: 'Get my free Fayetteville SEO audit',
     intro:
-      "NWA SEO reduces to one blunt question: when someone searches what you do, are you on page one or page two? Around here page two is a rounding error. We get contractors ranking for the keywords that actually pay in a fast-growing, storm-prone metro built around Fortune 500 campuses, and we grade the whole thing in leads, not in traffic that never dials.",
+      "Fayetteville SEO reduces to one blunt question: when someone searches what you do, are you on page one or page two? Around here page two is a rounding error. As an SEO company built for the trades, we get contractors ranking on Google for the money keywords that actually pay in a fast-growing, storm-prone metro built around Fortune 500 campuses, and we grade the whole thing in booked leads, not in organic traffic that never dials.",
     aioQuestion: 'How do Fayetteville businesses rank higher on Google?',
     aioAnswer:
       "They rank by repairing the site's technical base, tuning each page for the precise terms buyers type, publishing local content people genuinely use, and earning links from NWA sources Google already respects. In a metro pulling executives from around the world and rocked by spring storms, keeping the site fast on mobile and ranking early for hail and summer HVAC terms are two of the quickest ways to pull clear of the pack.",
@@ -233,7 +233,7 @@ export const fayettevilleLocations = [
       { q: 'Will AI Overviews and ChatGPT surface my business?', a: "It is a growing part of the job. We structure your content and schema so AI engines can read, trust, and cite your business by name, not just feed you classic blue links." },
       { q: 'Which areas around Fayetteville do you cover?', a: "The full NWA footprint: Springdale, Rogers, Bentonville, Bella Vista, Siloam Springs, Elkins, Prairie Grove, Centerton, and beyond, each with its own real page rather than one generic Fayetteville catch-all." },
       { q: 'How do you cut my reliance on Angi and HomeAdvisor leads?', a: "By building the rankings and Google presence that route leads straight to you. The more of your own search visibility you own, the less you owe brokers for leads three competitors paid for too." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead, the fixes with the biggest payoff, and a realistic timeline with the numbers modeled for your business. No slide deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead, the fixes with the biggest payoff, and a realistic timeline with the numbers modeled for your business. It is a plain look at what Fayetteville SEO can earn you in organic traffic and booked work over the next two quarters. No slide deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const fayettevilleLocations = [
   {
     ...BASE,
     citySlug: 'fayetteville', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Fayetteville AR Web Design | OnwardCraft',
+    titleTag: 'Fayetteville Web Design Company | Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'NWA web design that turns visitors into booked jobs: fast, mobile-first sites built for Fayetteville-area contractors and ready for storm-season traffic.',
+      'Fayetteville Web Design that books jobs instead of just looking nice: fast, mobile-first sites built for NWA contractors and ready for storm-season traffic.',
     eyebrow: 'Web Design · Northwest Arkansas',
-    h1: 'Fayetteville web design that turns visitors into booked jobs',
+    h1: 'Fayetteville web design that books jobs instead of just looking nice from Bentonville to Springdale',
     h2Exact: 'Fayetteville Web Design Company',
     heroSubhead:
       "A good-looking site that never rings the phone is a brochure with a hosting bill. We build NWA contractors fast, mobile-first sites engineered to convert visitors into booked work, and sturdy enough to keep converting when tornado season or a July HVAC rush floods your line.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Fayetteville contractor sites leak leads without their owners noticing: slow to load on a phone, a call button buried below the fold, no offer that gives anyone a reason to pick up. Web design done properly seals every one of those leaks. We build sites that load fast, look like the professional you already are, and turn Bentonville-to-Springdale visitors into booked jobs, and that hold their footing when a storm sends your traffic vertical.",
+      "Fayetteville Web Design done right starts where most contractor sites leak leads without their owners noticing: slow to load on a phone, a call button buried below the fold, no offer that gives anyone a reason to pick up. Good website design seals every one of those leaks. As a web design company that only builds for the trades, we ship fast-loading, mobile-first contractor websites that look like the professional you already are and turn Bentonville-to-Springdale visitors into booked jobs, sites that hold their footing when a storm sends your traffic vertical.",
     aioQuestion: 'What makes a good contractor website in Fayetteville?',
     aioAnswer:
       "A strong NWA contractor site loads in under three seconds on a phone, puts the call button and a clear offer above the fold, earns trust with reviews and real job photos, and is built to absorb traffic spikes during spring storms and summer HVAC peaks. Since most NWA searches happen on mobile, phone speed and an obvious next step are what divide a site that books work from one that simply exists.",
@@ -299,7 +299,7 @@ export const fayettevilleLocations = [
       { q: 'What platform do you build on?', a: "We match the platform to your needs and to what you can manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and walk you through the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build ships with launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any maintenance or SEO that follows is month-to-month, so you can step away whenever you choose." },
-      { q: 'What do I get in the free quote?', a: "A clear picture of what your current site is costing you in lost leads, what a high-converting NWA site needs to include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear picture of what your current site is costing you in lost leads, what a high-converting NWA site needs to include, and a fixed-price quote with a timeline. It is the honest first step toward Fayetteville Web Design that converts visitors into booked jobs instead of just sitting there. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const fayettevilleLocations = [
   {
     ...BASE,
     citySlug: 'fayetteville', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Fayetteville AR Website Redesign | OnwardCraft',
+    titleTag: 'Fayetteville Website Redesign | Rebuild for Leads, Not Looks | OnwardCraft',
     metaDescription:
-      'Redesign your NWA website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up through storm season.',
+      'Fayetteville Website Redesign that rebuilds for leads, not just looks. Faster, mobile-first rebuilds that convert more visitors and hold up through storm season.',
     eyebrow: 'Website Redesign · Northwest Arkansas',
-    h1: 'Redesign your Fayetteville website without losing your rankings',
+    h1: 'Fayetteville Website Redesign that rebuilds for leads, not just looks, with your NWA rankings intact',
     h2Exact: 'Fayetteville Website Redesign Company',
     heroSubhead:
       "A dated site bleeds jobs every week without ever telling you: slow, awkward on a phone, easy for an NWA homeowner to skip. We redesign contractor sites to convert harder and load quicker, and we migrate with enough care that the rankings you have already earned come along untouched.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go wrong in one of two ways: the site gets prettier but converts exactly the same, or it launches and the rankings evaporate overnight. We refuse both. We redesign Fayetteville contractor sites for speed and conversions, build them to take spring storm and summer HVAC traffic without flinching, and migrate with the redirects and SEO care that protect the visibility you spent years building.",
+      "A Fayetteville Website Redesign goes wrong in one of two ways: the site gets prettier but converts exactly the same, or it launches and the rankings evaporate overnight. We refuse both. We rebuild Fayetteville contractor sites for speed and conversions, build them to take spring storm and summer HVAC traffic without flinching, and run an SEO-safe migration with the redirects that protect the visibility you spent years building, so you modernize without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You guard your SEO through a redesign by holding your URL structure (or mapping a 301 redirect for every page that moves), keeping your existing content and metadata, carrying your schema across, and testing the whole thing on staging before launch. Handled that way, a redesign keeps your rankings and usually lifts them, because the new build is faster, mobile-first, and better structured than the one it replaced.",
@@ -365,7 +365,7 @@ export const fayettevilleLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts conversions and rankings at once." },
       { q: 'Do I own the redesigned site?', a: "Every bit of it is yours, the design, the domain, and the content alike. You can hand it to another shop in Fayetteville tomorrow with no platform holding it hostage." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any maintenance or SEO that follows is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should repair, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should repair, and a fixed-price quote with a timeline and an SEO-safe migration plan. It is the honest starting point for a Fayetteville Website Redesign that converts more without losing your rankings." },
     ],
   },
 ];
@@ -373,12 +373,12 @@ export const fayettevilleLocations = [
 export const fayettevilleCity = {
   citySlug: 'fayetteville', city: 'Fayetteville', state: 'Arkansas', stateAbbr: 'AR', metro: 'Fayetteville-Springdale-Rogers (Northwest Arkansas)',
 
-  titleTag: 'Fayetteville AR Marketing for Contractors | OnwardCraft',
+  titleTag: 'Fayetteville Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Fayetteville and NWA contractors. Get found, get booked, and own your leads instead of renting them, built for storm season.',
+    'Fayetteville marketing for contractors who want to own their leads: web design, SEO, and local SEO across NWA. Get found and booked, built for storm season.',
 
   eyebrow: 'Fayetteville · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Fayetteville contractors found and booked',
+  h1: 'Fayetteville marketing for contractors who want to own their leads from Bentonville to Prairie Grove',
   h2Exact: 'Fayetteville Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Northwest Arkansas: a fast-growing, Fortune 500-anchored, storm-driven market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const fayettevilleCity = {
   primaryCta: 'Get my free Fayetteville audit',
 
   intro:
-    "Run a contracting business in Northwest Arkansas and you are competing inside one of the fastest-growing metros in the South, with Walmart, Tyson, and J.B. Hunt pulling in homebuyers and executives from around the world. Winning here takes three pieces moving together: a site that converts, SEO that ranks you for what people search, and local SEO that drops you into the Map Pack, all set before the next spring storm or summer heat wave sends demand through the roof. Here is how we help NWA contractors pull it off.",
+    "Fayetteville marketing for contractors comes down to competing inside one of the fastest-growing metros in the South, with Walmart, Tyson, and J.B. Hunt pulling in homebuyers and executives from around the world. Winning here takes three pieces moving together: web design and SEO for NWA contractors that ranks you for what people search, and local SEO that drops you into the Map Pack, all set before the next spring storm or summer heat wave sends demand through the roof. Here is how our marketing agency helps NWA contractors get found and booked.",
   aioQuestion: 'How do Fayetteville contractors get more leads online?',
   aioAnswer:
     "Fayetteville contractors win more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that takes the Google Map Pack. Because Northwest Arkansas keeps growing on the back of Fortune 500 headquarters and a rising University of Arkansas population, and because demand spikes hard during spring tornado season, the contractors who look established and already rank before the storms collect the most work.",
@@ -422,6 +422,6 @@ export const fayettevilleCity = {
     { q: 'Why does storm season matter for my marketing in NWA?', a: "Northwest Arkansas sits in a hard spring storm corridor. When severe weather and tornado outbreaks land from March into June, demand for roofing, restoration, and tree service spikes overnight and the backlog can stretch for months. Ranking takes months to build, so the contractors already visible before the storm collect that work. We get you in place ahead of the season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds running $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long lock-in. We confirm the exact scope in your free audit." },
     { q: 'Which Fayetteville and NWA areas do you serve?', a: "The whole of Northwest Arkansas: Fayetteville, Springdale, Rogers, Bentonville, Bella Vista, Siloam Springs, Elkins, Prairie Grove, Centerton, and more." },
-    { q: 'Where should I start?', a: "Start with a free Fayetteville audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No slide deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Fayetteville audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It is the simplest way to see what Fayetteville marketing for contractors can do for your business. No slide deck, just a plan." },
   ],
 };

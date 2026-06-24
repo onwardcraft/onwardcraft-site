@@ -111,15 +111,15 @@ export const friscoLocations = [
     citySlug: 'frisco', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Frisco Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search a trade in Frisco and Google pins three businesses to the map. We get you into those three, so the next hail-season call rings your phone.',
+      'Frisco Local SEO that pins your business to the Google Map Pack, so the next "near me" hail-season call rings your phone instead of a rival.',
     eyebrow: 'Local SEO · Frisco-Collin County',
-    h1: 'When Frisco searches for what you do, be the first name they find',
+    h1: 'Frisco Local SEO that makes you the first name on the map in Starwood',
     h2Exact: 'Frisco Local SEO Company',
     heroSubhead:
       "When a Frisco homeowner searches \"near me,\" Google pins exactly three businesses to the map and the rest of the list might as well not be there. We push you into that top three, so the call rings your phone instead of whoever happens to rank first, and so you are already in place when the next hail line lights up every phone in Collin County.",
     primaryCta: 'Get my free Frisco audit',
     intro:
-      "Frisco local SEO turns on a single moment: a family in Starwood or Phillips Creek Ranch types your trade plus \"near me,\" and you are either one of the three businesses Google dropped on the map or you are nowhere. Most of them tap one of those three and never scroll past it. In a city adding new homeowners by the thousand every year, owning one of those slots is the whole contest. Here is how we get you there.",
+      "Frisco Local SEO turns on a single moment: a family in Starwood or Phillips Creek Ranch types your trade plus \"near me,\" and you are either one of the three businesses Google dropped on the local 3-pack or you are nowhere. Most of them tap one of those three and never scroll past it. In a city adding new homeowners by the thousand every year, owning one of those Google Map Pack slots and a tuned Google Business Profile is the whole contest. Here is how we get you there.",
     aioQuestion: 'How do Frisco businesses rank higher in local search?',
     aioAnswer:
       "You rank by nailing four things: a Google Business Profile tuned to the exact trades and Collin County neighborhoods you want; matching name, address, and phone details everywhere online; a steady run of real reviews; and local pages built around genuine Frisco neighborhoods. In a fast-growing, hail-prone market, the winners look established, answer the storm call fast, and were already ranking before spring demand hit.",
@@ -167,7 +167,7 @@ export const friscoLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research now begins in AI tools rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business by name. In a market this connected it is fast becoming as decisive as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is about how long local SEO needs to show genuine movement. After that you are month-to-month. If we are not delivering, you leave, and the accountability sits squarely with us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never get to keep. We build rankings, a Google profile, and a review base that route leads straight to you alone. Over time you lean on the brokers less, because the work is already arriving direct." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to stay ahead, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to stay ahead, the fixes that will move you fastest, and a realistic 90-to-180-day Frisco Local SEO plan with the numbers run for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -177,15 +177,15 @@ export const friscoLocations = [
     citySlug: 'frisco', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Frisco SEO Company | OnwardCraft',
     metaDescription:
-      'Frisco SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in, built for hail-season and summer demand.',
+      'Frisco SEO that puts contractors on page one of Google and holds it, bringing in organic traffic and leads you own. Revenue-tied reporting, no lock-in.',
     eyebrow: 'SEO Services · Frisco-Collin County',
-    h1: 'Get your Frisco business to the top of Google and keep it there',
+    h1: 'Frisco SEO that puts your Collin County business on page one and holds it',
     h2Exact: 'Frisco SEO Company',
     heroSubhead:
       "The instant you stop funding ads, the leads stop with them. SEO flips that: rank once for what Frisco homeowners search and the work keeps arriving month after month. We build that ranking and tie every report to real calls and booked jobs, not climbing charts that never ring.",
     primaryCta: 'Get my free Frisco SEO audit',
     intro:
-      "Frisco SEO comes down to a blunt question: when a homeowner searches your trade, do you land on page one or page two? Out here page two is a rounding error. We get contractors ranking for the money keywords in one of the country's fastest-growing, hail-battered markets, and we score the whole thing in leads, not traffic that never lifts the phone.",
+      "Frisco SEO comes down to a blunt question: when a homeowner searches your trade, do you rank on Google's page one or page two? Out here page two is a rounding error. As a Frisco SEO company we get contractors ranking for the money keywords in one of the country's fastest-growing, hail-battered markets, and we score the whole thing in booked leads and real organic traffic, not numbers that never lift the phone.",
     aioQuestion: 'How do Frisco businesses rank higher on Google?',
     aioAnswer:
       "They rank by repairing the technical base of the site, tuning each page for the exact terms buyers type, publishing local content people actually need, and earning links from trusted Frisco and Collin County sources. In an affluent, fast-growing, crowded market, keeping the site quick on a phone and ranking for hail-driven seasonal terms are two of the fastest ways to pull in front.",
@@ -233,7 +233,7 @@ export const friscoLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we work on. We structure your content and schema so AI engines can read, trust, and cite your business by name, not just classic search results." },
       { q: 'Which areas around Frisco do you cover?', a: "All of Frisco and the surrounding Collin and Denton County areas: Prosper, McKinney, Celina, Little Elm, The Colony, Plano, Allen and more, each with genuine local pages rather than one generic Frisco page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads straight to you. The more of your search visibility you own, the less you depend on paying brokers for the same lead three rivals also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the fixes that will move you fastest, and a realistic timeline with the numbers modeled for your Frisco business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the fixes that will move you fastest, and a realistic Frisco SEO timeline with the organic traffic and lead numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const friscoLocations = [
     citySlug: 'frisco', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Frisco Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Frisco web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and ready for hail-season demand spikes.',
+      'Frisco Web Design that books jobs instead of just looking nice: fast, mobile-first contractor websites ready for hail-season demand spikes.',
     eyebrow: 'Web Design · Frisco-Collin County',
-    h1: 'Frisco web design that turns visitors into booked jobs',
+    h1: 'Frisco web design that books jobs instead of just looking nice in Phillips Creek Ranch',
     h2Exact: 'Frisco Web Design Company',
     heroSubhead:
       "A good-looking site that never produces a call is just an expensive flyer. We build Frisco contractors fast, mobile-first sites engineered to turn visitors into booked work, and sturdy enough to keep converting when a hailstorm floods your phone in a single afternoon.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Frisco contractor sites leak leads without anyone noticing: slow on a phone, call button hidden, no clear offer in sight. Web design done properly plugs every one of those holes. We build sites that load fast, look like the established pro you are, and turn Starwood-to-Phillips-Creek-Ranch visitors into booked jobs, and that hold their footing when a Collin County storm sends traffic vertical. Frisco buyers are affluent and do their homework, so the site has to earn their trust on sight.",
+      "Frisco Web Design is the difference between a contractor website that books work and one that leaks leads while it looks pretty: slow on a phone, call button hidden, no clear offer in sight. Website design done properly plugs every one of those holes. As a Frisco web design company we build fast-loading, mobile-first sites that look like the established pro you are and turn Starwood-to-Phillips-Creek-Ranch visitors into booked jobs, sites that hold their footing when a Collin County storm sends traffic vertical. Frisco buyers are affluent and do their homework, so the site has to earn their trust on sight.",
     aioQuestion: 'What makes a good contractor website in Frisco?',
     aioAnswer:
       "A strong Frisco contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to absorb traffic spikes during hail season. Because most Frisco searches happen on mobile and homeowners here research carefully, mobile speed, polished trust signals, and an obvious next step separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const friscoLocations = [
       { q: 'What platform do you build on?', a: "We choose the platform that fits your needs and that you can actually run yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and lay out the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every Frisco build ships with launch support baked in. After that you can add affordable monthly maintenance that covers updates, speed checks, and security, so the site holds up when hail season drives a rush of traffic at it." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you want." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Frisco site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Frisco Web Design build should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const friscoLocations = [
     citySlug: 'frisco', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Frisco Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Frisco website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season.',
+      'Frisco Website Redesign that rebuilds for leads, not just looks: faster, mobile-first contractor sites that convert more and hold up in hail season.',
     eyebrow: 'Website Redesign · Frisco-Collin County',
-    h1: 'Redesign your Frisco website without losing your rankings',
+    h1: 'Frisco Website Redesign that rebuilds for Collin County leads, not just looks',
     h2Exact: 'Frisco Website Redesign Company',
     heroSubhead:
       "An outdated site bleeds jobs quietly every week: slow, clumsy on a phone, easy for a Frisco family to scroll right past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you hold onto every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fall into one of two traps: the site looks sharper but converts exactly the same, or it launches and the rankings drop off a cliff overnight. We do neither. We redesign Frisco contractor sites for speed and conversions, build them to take a hail-season traffic rush, and migrate with the redirects and SEO care that protect the traffic you have spent years building.",
+      "A Frisco Website Redesign usually falls into one of two traps: the site looks sharper but converts exactly the same, or it launches and the rankings drop off a cliff overnight. We do neither. We rebuild Frisco contractor sites for speed and conversions, build them to take a hail-season traffic rush, and run an SEO-safe migration with the 301 redirects that protect the traffic you have spent years building, so you redesign your Frisco website without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const friscoLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild phone-first, since that is how nearly every Frisco homeowner reaches a contractor, and we tune for quick load and Core Web Vitals, which raises conversions and rankings together." },
       { q: 'Do I own the redesigned site?', a: "Completely. The site, the domain, and the content stay with your Frisco business, and there is no platform you get locked onto." },
       { q: 'Am I locked into a contract?', a: "No. The Frisco redesign is a one-time project at a fixed price. Any maintenance or SEO you add afterward runs month-to-month, so you can stop whenever it stops earning its keep." },
-      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in Frisco leads and lost rankings, the things the redesign needs to fix, and a fixed-price quote that comes with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in Frisco leads and lost rankings, the things the Frisco Website Redesign needs to fix, and a fixed-price quote that comes with a timeline and an SEO-safe migration plan that keeps every ranking you have earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const friscoCity = {
 
   titleTag: 'Frisco Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Frisco contractors. Get found, get booked, and own your leads instead of renting them, all built for hail-season demand.',
+    'Frisco marketing for contractors who want to own their leads: web design, SEO, and local SEO that get you found and booked, built for hail-season demand.',
 
   eyebrow: 'Frisco · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Frisco contractors found and booked',
+  h1: 'Frisco marketing for contractors who want to own their leads, not rent them',
   h2Exact: 'Frisco Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Frisco's fast-growing, affluent, hail-driven market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const friscoCity = {
   primaryCta: 'Get my free Frisco audit',
 
   intro:
-    "If you run a contracting business in Frisco, you are fighting for attention in a city that has roughly doubled in a decade and keeps drawing in affluent families who research every choice: new builds in Phillips Creek Ranch, estate homes in Starwood, golf-course lots out by Frisco Lakes, and the competition for that work grows right alongside the rooftops. Winning here takes three things in concert: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the next hailstorm sends demand through the roof. Here is exactly how we help Frisco contractors pull that off.",
+    "Frisco marketing for contractors means fighting for attention in a city that has roughly doubled in a decade and keeps drawing in affluent families who research every choice: new builds in Phillips Creek Ranch, estate homes in Starwood, golf-course lots out by Frisco Lakes, and the competition for that work grows right alongside the rooftops. Winning here takes web design and SEO for Frisco contractors working in concert: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the next hailstorm sends demand through the roof. Here is exactly how this Frisco marketing agency helps contractors get found and booked.",
   aioQuestion: 'How do Frisco contractors get more leads online?',
   aioAnswer:
     "Frisco contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Collin County keeps drawing affluent, research-heavy families and demand spikes hard during spring hail season, the contractors who look established and are already ranking before the storm win the most work.",

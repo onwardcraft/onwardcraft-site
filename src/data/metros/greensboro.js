@@ -109,11 +109,11 @@ export const greensboroLocations = [
   {
     ...BASE,
     citySlug: 'greensboro', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Greensboro Local SEO Company | OnwardCraft',
+    titleTag: 'Greensboro Local SEO Company | Win the Triad Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Greensboro and three businesses show up on the map. We get you into those three so the call lands with you, not a competitor.',
+      'Greensboro Local SEO that wins you the top three on the map, so the call lands with you, not a competitor across the Triad.',
     eyebrow: 'Local SEO · Greensboro, NC',
-    h1: 'When Greensboro searches for what you do, be the first name they find',
+    h1: 'Greensboro Local SEO that wins you the top three on the Triad map, from Fisher Park to Oak Ridge',
     h2Exact: 'Greensboro Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone in Greensboro searches \"near me.\" Everyone below them basically doesn't exist. In a Triad market growing fast with new logistics workers and homeowners, we get you into that top three for your neighborhoods so the call lands with you.",
@@ -167,7 +167,7 @@ export const greensboroLocations = [
       { q: 'Will my business turn up in Google AI Overviews and ChatGPT?', a: "More of that \"near me\" research now opens in an AI tool rather than a classic search box. We structure your content and schema so those engines can read, trust, and name your business. In a Triad market filling up with new residents, getting there early is a genuine head start." },
       { q: 'Am I tied into a contract?', a: "No. We ask for a first 90 days because that is roughly how long local SEO takes to show real movement. After that you are month-to-month. If we are not delivering, you walk, and the accountability sits with us." },
       { q: 'How does this break my dependence on Angi and HomeAdvisor?', a: "Those platforms sell the same Greensboro homeowner to a handful of contractors and bill each of you for the privilege. We build rankings, a Google profile, and a review base that route leads straight to you alone. Run it long enough and the brokers matter less, because the work arrives direct." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Triad neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Triad neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day Greensboro Local SEO plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const greensboroLocations = [
   {
     ...BASE,
     citySlug: 'greensboro', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Greensboro SEO Company | OnwardCraft',
+    titleTag: 'Greensboro SEO Company | Rankings You Actually Own | OnwardCraft',
     metaDescription:
-      'Greensboro SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for the Piedmont Triad.',
+      'Greensboro SEO that builds rankings you actually own and brings in leads, not rented traffic. Revenue-tied reporting, no lock-in, built for the Piedmont Triad.',
     eyebrow: 'SEO Services · Greensboro, NC',
-    h1: 'Get your Greensboro business to the top of Google and keep it there',
+    h1: 'Greensboro SEO that builds rankings you actually own, from High Point to Burlington',
     h2Exact: 'Greensboro SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what Triad homeowners search and the leads keep coming. We build that ranking for Greensboro contractors and tie every report to actual calls and jobs, not vanity traffic.",
@@ -233,7 +233,7 @@ export const greensboroLocations = [
       { q: 'Can you get me cited in Google AI Overviews and ChatGPT?', a: "That is a growing slice of what we optimize for. We structure your content and schema so AI engines can read, trust, and quote your business, not just the classic blue links." },
       { q: 'Which Triad areas do you cover?', a: "Greensboro, High Point, Winston-Salem, Burlington, Graham, Mebane, Kernersville, Summerfield, Oak Ridge, Jamestown, and the neighborhoods inside them, with genuine local pages rather than one generic Greensboro page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads for good?', a: "By building rankings and a Google presence that route Triad leads straight to you. The more search visibility you own, the less you lean on paying brokers full retail for leads three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across the Triad, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today across the Triad, what your competitors are doing to beat you, the highest-impact fixes, and a realistic Greensboro SEO timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const greensboroLocations = [
   {
     ...BASE,
     citySlug: 'greensboro', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Greensboro Web Design Company | OnwardCraft',
+    titleTag: 'Greensboro Web Design Company | Built to Bring In Work | OnwardCraft',
     metaDescription:
-      'Greensboro web design that turns visitors into booked jobs: fast, mobile-first sites built for Triad contractors in a growing market.',
+      'Greensboro web design engineered to bring in real work: fast, mobile-first sites built for Triad contractors in a growing market.',
     eyebrow: 'Web Design · Greensboro, NC',
-    h1: 'Greensboro web design that turns visitors into booked jobs',
+    h1: 'Greensboro web design engineered to bring in real work across the growing Triad',
     h2Exact: 'Greensboro Web Design Company',
     heroSubhead:
       "A good-looking website that doesn't generate calls is a brochure. We build Greensboro contractors fast, mobile-first sites engineered to turn Triad visitors into booked work, and to stand out in a market where Amazon, FedEx, and Toyota are bringing in new homeowners every month.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Greensboro contractor websites lose leads quietly: too slow on a phone, call button buried, no clear reason to choose you over the next result. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn visitors from Fisher Park to Summerfield into booked jobs, ready for the seasonal surges that define the Triad calendar.",
+      "Greensboro web design done right fixes the quiet leaks that cost contractors leads: a site too slow on a phone, a call button buried, no clear reason to choose you over the next result. We build sites that load fast, look like the professional you are, and turn visitors from Fisher Park to Summerfield into booked jobs, ready for the seasonal surges that define the Triad calendar.",
     aioQuestion: 'What makes a good contractor website in Greensboro?',
     aioAnswer:
       "A good Greensboro contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific Triad communities you serve. Because most Greensboro searches happen on mobile, and because the market is growing fast with new residents who don't have established contractor relationships, mobile speed and a compelling first impression are what separate a site that books jobs from one that sits there.",
@@ -299,7 +299,7 @@ export const greensboroLocations = [
       { q: 'What platform do you build on?', a: "We choose the platform that fits your needs and that you can run yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and walk you through the tradeoffs in plain terms." },
       { q: 'Do you offer ongoing support?', a: "Yes. Launch support comes with every build, and after that we offer affordable monthly maintenance covering updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO runs month-to-month, so you can leave whenever you want." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost Triad leads, what a high-converting Greensboro site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost Triad leads, what high-converting Greensboro web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const greensboroLocations = [
   {
     ...BASE,
     citySlug: 'greensboro', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Greensboro Website Redesign | OnwardCraft',
+    titleTag: 'Greensboro Website Redesign | Modernize Without Losing Traffic | OnwardCraft',
     metaDescription:
-      'Redesign your Greensboro website without losing rankings. Faster, mobile-first rebuilds that convert more Triad visitors into booked jobs. Free audit.',
+      'Greensboro Website Redesign that modernizes without tanking your traffic. Faster, mobile-first rebuilds that convert more Triad visitors into booked jobs. Free audit.',
     eyebrow: 'Website Redesign · Greensboro, NC',
-    h1: 'Redesign your Greensboro website without losing your rankings',
+    h1: 'Greensboro Website Redesign that modernizes without tanking your Triad traffic',
     h2Exact: 'Greensboro Website Redesign Company',
     heroSubhead:
       "An outdated site costs you Triad jobs every week: slow on a phone, hard to navigate, easy to ignore when a competitor's site loads faster. We redesign Greensboro contractor sites to convert more and rank better, and we migrate carefully so you keep every bit of ranking you've already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Greensboro contractor sites for speed and conversions, build them to stand out in a growing Triad market, and migrate with the redirects and SEO care that protect the traffic you already have, so when the next hurricane season hits, you're still ranking for the searches that matter.",
+      "Greensboro website redesign goes one of two bad ways for most contractors: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Greensboro contractor sites for speed and conversions, build them to stand out in a growing Triad market, and migrate with the redirects and SEO care that protect the traffic you already have, so when the next hurricane season hits, you're still ranking for the searches that matter.",
     aioQuestion: 'How do I redesign my Greensboro website without losing SEO and traffic?',
     aioAnswer:
       "You guard your SEO through a redesign by holding your URL structure steady, or mapping a 301 redirect for every page that changes, then preserving your existing content and metadata, carrying your schema across, and testing the whole thing on staging before it goes live. Handled this way, a redesign protects your rankings and usually lifts them, since the new Greensboro site loads faster, works mobile-first, and is built on a cleaner structure than the old one.",
@@ -365,7 +365,7 @@ export const greensboroLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for quick load and Core Web Vitals, which raises both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Fully: the site, the domain, and the content. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract for the redesign?', a: "No lock-in at all. You pay once for the rebuild itself, and if you want us handling maintenance or SEO afterward, that part stays month-to-month so you can stop whenever it suits you." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in Triad leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in Triad leads and rankings, what the Greensboro website redesign should fix, and a fixed-price quote with a timeline and a safe, SEO-safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const greensboroCity = {
 
   titleTag: 'Greensboro Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Greensboro and Triad contractors. Get found, get booked, and own your leads instead of renting them, built for a growing market.',
+    'Greensboro marketing for contractors: web design, SEO, and local SEO for the Triad. Get found, get booked, and own your leads instead of renting them.',
 
   eyebrow: 'Greensboro · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Greensboro contractors found and booked',
+  h1: 'Greensboro marketing for contractors, built around the trades and the Triad',
   h2Exact: 'Greensboro Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the Piedmont Triad: a growing manufacturing and logistics market where new homeowners are buying in Summerfield, Oak Ridge, and Mebane every month, and where hurricane season sends trade demand spiking every fall.",
@@ -386,7 +386,7 @@ export const greensboroCity = {
   primaryCta: 'Get my free Greensboro audit',
 
   intro:
-    "Greensboro sits at the heart of the Piedmont Triad, a market stretching through Winston-Salem and High Point that is growing fast with Amazon, FedEx, and Toyota operations bringing in workers who become homeowners. That growth means real opportunity, but it also means more competition for the three spots on Google's map when someone searches your service. Winning the Triad takes three things working together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the communities you serve, ready for HVAC season in July and roofing calls when the next hurricane remnant tracks inland. Here's how we help Greensboro contractors do exactly that.",
+    "Greensboro marketing for contractors starts with the Piedmont Triad, a market stretching through Winston-Salem and High Point that is growing fast with Amazon, FedEx, and Toyota operations bringing in workers who become homeowners. That growth means real opportunity, but it also means more competition for the three spots on Google's map when someone searches your service. Winning the Triad takes three things working together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the communities you serve, ready for HVAC season in July and roofing calls when the next hurricane remnant tracks inland. Here's how we help Greensboro contractors do exactly that.",
   aioQuestion: 'How do Greensboro contractors get more leads online?',
   aioAnswer:
     "Greensboro contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack community by community across the Triad. The contractors who also optimize for the Piedmont's seasonal demand windows, hurricane storm-damage in late summer and fall, HVAC calls through the summer heat, and ice-storm emergencies in winter, capture the spikes that define their busiest and most profitable weeks.",

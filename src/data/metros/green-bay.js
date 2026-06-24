@@ -110,9 +110,9 @@ export const greenBayLocations = [
     citySlug: 'green-bay', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Green Bay Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'When Green Bay searches your service, three businesses show on the map. We put you in those three, so the deep-freeze call lands with you, not a competitor.',
+      'Green Bay Local SEO that puts you in the three businesses Google pins to the map, so the deep-freeze call lands with you, not a competitor.',
     eyebrow: 'Local SEO · Green Bay',
-    h1: 'When Green Bay searches for what you do, be the first name they find',
+    h1: 'Green Bay Local SEO that gets you found when Fox Valley neighbors search your trade',
     h2Exact: 'Green Bay Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when a homeowner searches \"near me,\" and everyone under them might as well not exist. We get you into that top three, so the call lands with you instead of whoever ranked first, and so you're already there when the next deep freeze fills every phone in town.",
@@ -166,7 +166,7 @@ export const greenBayLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research kicks off inside AI tools now rather than classic search. We structure your content and schema so those engines can read, trust, and name your business. In a market this loyal, that's fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we aren't delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never get to keep. We build rankings, a Google profile, and a review base that send leads straight to you alone. Over time you lean on the brokers less because the work is already coming to you direct." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to stay ahead, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to stay ahead, the fixes that'll move you fastest, and a realistic 90-to-180-day Green Bay Local SEO plan with the numbers run for your business. No pitch deck. Just a diagnosis." },
     ],
   },
 
@@ -178,7 +178,7 @@ export const greenBayLocations = [
     metaDescription:
       'Green Bay SEO that ranks contractors on Google and brings in leads you own. Lead-tied reporting, no lock-in, built for winter-season and frozen-pipe demand.',
     eyebrow: 'SEO Services · Green Bay',
-    h1: 'Get your Green Bay business to the top of Google and keep it there',
+    h1: 'Green Bay SEO that turns organic traffic into booked winter work',
     h2Exact: 'Green Bay SEO Company',
     heroSubhead:
       "Ads quit the moment you stop paying. SEO runs the other direction: rank once for what your Green Bay customers search and the leads keep arriving for months. We build that ranking and tie every report to real calls and booked jobs, not vanity charts.",
@@ -232,7 +232,7 @@ export const greenBayLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and name your business, not just classic search results." },
       { q: 'Which areas around Green Bay do you cover?', a: "All of Green Bay and the surrounding communities: De Pere, Allouez, Ashwaubenon, Howard, Suamico, Bellevue, Hobart, Kaukauna and more, with genuine local pages rather than one catch-all Green Bay page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. The more you own your search visibility, the less you depend on paying brokers for leads three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank right now, what your competitors are doing to stay ahead of you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank right now, what your competitors are doing to stay ahead of you, the highest-impact fixes, and a realistic Green Bay SEO timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -244,13 +244,13 @@ export const greenBayLocations = [
     metaDescription:
       'Green Bay web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and ready for winter no-heat and frozen-pipe demand.',
     eyebrow: 'Web Design · Green Bay',
-    h1: 'Green Bay web design that turns visitors into booked jobs',
+    h1: 'Green Bay web design that makes a buy-local homeowner pick you',
     h2Exact: 'Green Bay Web Design Company',
     heroSubhead:
       "A good-looking site that never rings the phone is just an expensive brochure. We build Green Bay contractors fast, mobile-first sites engineered to turn visitors into booked work, and tough enough to hold up when a deep freeze floods your phone with no-heat and frozen-pipe calls.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Green Bay contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. Web design done right plugs every one of those leaks. We build sites that load fast, look like the local pro you actually are, and turn Astor-to-De-Pere visitors into booked jobs, and that don't fall over when a cold snap sends your traffic through the roof.",
+      "Green Bay web design done right plugs the leaks that quietly cost most contractor sites their leads: slow on a phone, call button buried, no clear offer anywhere. We build sites that load fast, look like the local pro you actually are, and turn Astor-to-De-Pere visitors into booked jobs, and that don't fall over when a cold snap sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Green Bay?',
     aioAnswer:
       "A good Green Bay contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to absorb traffic spikes during winter. Because most Green Bay searches happen on mobile and the town is fiercely buy-local, mobile speed, an obvious next step, and a genuinely local feel are what separate a site that books jobs from one that just sits there.",
@@ -298,7 +298,7 @@ export const greenBayLocations = [
       { q: 'What platform do you build on?', a: "We match the platform to your trade and to what you can run yourself between jobs, usually WordPress or Webflow. We name the right fit in your free Green Bay consult and lay out the tradeoffs in plain, no-nonsense terms." },
       { q: 'Do you offer ongoing support?', a: "We do. Every Green Bay build ships with launch support, and after that we keep an affordable monthly plan running for updates, speed, and security so your site holds up shift after shift." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time, fixed-price project. Any maintenance or SEO after it goes live runs month-to-month, so you can walk anytime, no 12-month handcuffs like the lead brokers pull." },
-      { q: 'What do I get in the free quote?', a: "A straight read on what your current site is leaking in lost Green Bay leads, what a site that actually books jobs in this town should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A straight read on what your current site is leaking in lost Green Bay leads, what Green Bay web design that actually books jobs in this town should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -308,15 +308,15 @@ export const greenBayLocations = [
     citySlug: 'green-bay', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Green Bay Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Green Bay website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up through winter.',
+      'Green Bay Website Redesign without losing your rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up through winter.',
     eyebrow: 'Website Redesign · Green Bay',
-    h1: 'Redesign your Green Bay website without losing your rankings',
+    h1: 'Green Bay Website Redesign that turns an aging site into a lead engine',
     h2Exact: 'Green Bay Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Green Bay homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you've already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Green Bay contractor sites for speed and conversions, build them to survive winter-season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Green Bay Website Redesign usually goes one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We rebuild contractor sites for speed and conversions, build them to survive winter-season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO through a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and lifts them, because the new site is faster, mobile-first, and better built than the old one.",
@@ -364,7 +364,7 @@ export const greenBayLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "It will. We rebuild mobile-first, since that's where nearly every Green Bay homeowner finds you, and tune for fast load and Core Web Vitals, which pulls up both your conversions and your rankings." },
       { q: 'Do I own the redesigned site?', a: "Every bit of it: the site, the domain, and the content all belong to you. No platform you're stuck on, no holding your own work hostage." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project, and any maintenance or SEO afterward runs month-to-month. Around here you keep us because the work is good, not because the paper traps you." },
-      { q: "What's in the free redesign audit?", a: "A plain read on what your current site is costing you in lost Green Bay leads and slipping rankings, what the rebuild needs to fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A plain read on what your current site is costing you in lost Green Bay leads and slipping rankings, what a Green Bay Website Redesign needs to fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -374,10 +374,10 @@ export const greenBayCity = {
 
   titleTag: 'Green Bay Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Green Bay contractors. Get found, get booked, and own your leads instead of renting them, all built for winter-season demand.',
+    'Green Bay marketing for contractors: web design, SEO, and local SEO that gets you found, gets you booked, and owns your leads, all built for winter-season demand.',
 
   eyebrow: 'Green Bay · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Green Bay contractors found and booked',
+  h1: 'Green Bay marketing for contractors that turns Titletown searches into jobs',
   h2Exact: 'Green Bay Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Green Bay's loyal, buy-local, winter-driven market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -385,7 +385,7 @@ export const greenBayCity = {
   primaryCta: 'Get my free Green Bay audit',
 
   intro:
-    "If you run a contracting business in Green Bay, you're competing for attention in a tight-knit, buy-local Titletown where homeowners want a real local pro and hire on word of mouth. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all set before the deep freeze sends demand through the roof. Here's how we help Green Bay contractors pull that off.",
+    "Green Bay marketing for contractors means competing for attention in a tight-knit, buy-local Titletown where homeowners want a real local pro and hire on word of mouth. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all set before the deep freeze sends demand through the roof. Here's how we help Green Bay contractors pull that off.",
   aioQuestion: 'How do Green Bay contractors get more leads online?',
   aioAnswer:
     "Green Bay contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Green Bay is a loyal, buy-local town and demand spikes hard through the brutal winter, the contractors who look established and local and are already ranking before the cold hits win the most work.",

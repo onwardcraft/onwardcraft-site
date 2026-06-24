@@ -111,9 +111,9 @@ export const fresnoLocations = [
     citySlug: 'fresno', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Fresno Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Fresno and three businesses show up on the map. We get you into those three, in English and Spanish, so the call lands with you.',
+      'Fresno Local SEO that puts you in the Map Pack, in English and Spanish, so the call lands with you when a neighbor searches your trade.',
     eyebrow: 'Local SEO · Fresno, CA',
-    h1: 'When Fresno searches for what you do, be the first name they find',
+    h1: 'Fresno Local SEO that puts your business in the Map Pack from the Tower District to Clovis',
     h2Exact: 'Fresno Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" In 110-degree Fresno heat, when an AC goes down, everyone below those three basically doesn't exist. We get you into that top three for the neighborhoods you serve, in English and Spanish, so the emergency call lands with you.",
@@ -167,7 +167,7 @@ export const fresnoLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "An increasing share of \"near me\" research now starts in AI tools rather than a classic search box, and plenty of Fresno residents ask those tools in Spanish. We structure your content and schema so they can read, trust, and name your business. Here it is becoming nearly as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for a first 90 days because that is about how long local SEO takes to show real movement in a market this size. After that you are month-to-month. If the results are not there, you walk, and the responsibility for that sits with us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never get to keep. We build rankings, a Google profile, and a base of reviews that route Fresno homeowners straight to your phone. As that compounds, you stop feeding the brokers because the work is already finding you." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across Fresno and your service area, including your Spanish-language visibility, what your Map Pack competitors are doing to stay ahead, the fixes that move you fastest, and an honest 90-to-180-day plan with the numbers run for your shop. No slide deck. Just the diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where your Fresno Local SEO stands today across the city and your service area, including your Spanish-language visibility, what your Map Pack competitors are doing to stay ahead, the fixes that move you fastest, and an honest 90-to-180-day plan with the numbers run for your shop. No slide deck. Just the diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const fresnoLocations = [
     metaDescription:
       'Fresno SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for the Valley market.',
     eyebrow: 'SEO Services · Fresno, CA',
-    h1: 'Get your Fresno business to the top of Google and keep it there',
+    h1: 'Fresno SEO that gets you to the top of Google before heat season and keeps you there',
     h2Exact: 'Fresno SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Fresno customers search and the leads keep coming through heat season, wildfire smoke season, and everything in between. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const fresnoLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing piece of what we optimize for. We structure your content and schema so AI engines can read, trust, and name your business, in English and Spanish, not just the classic search results." },
       { q: 'Which areas around Fresno do you cover?', a: "Fresno, Clovis, Madera, Sanger, Selma, Reedley, Fowler, Kingsburg, and the surrounding San Joaquin Valley towns, with real local pages for each area instead of one generic Fresno page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads straight to you. The more of your Fresno search visibility you own outright, the less you have to hand brokers for leads they already sold to two other contractors." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to stay ahead, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No slide deck, just the diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where your Fresno SEO ranks today, what your competitors are doing to stay ahead, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No slide deck, just the diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const fresnoLocations = [
     metaDescription:
       'Fresno web design that turns visitors into booked jobs with fast, mobile-first sites built for contractors in a high-heat, high-volume Valley market.',
     eyebrow: 'Web Design · Fresno, CA',
-    h1: 'Fresno web design that turns visitors into booked jobs',
+    h1: 'Fresno web design that turns visitors into booked jobs in English and Spanish',
     h2Exact: 'Fresno Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Fresno contractors fast, mobile-first sites engineered to turn visitors into booked work, in English and Spanish, designed for a market where heat emergencies happen in real time.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Fresno contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, invisible to Spanish-language searches. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Tower-District-to-Clovis visitors into booked jobs, in both English and Spanish, built to win in a market where a failing AC in July is a real emergency.",
+      "Fresno web design has one job: turn the homeowner who lands on your site into a booked job. Most contractor websites lose those leads quietly instead, slow on a phone, buried call button, no clear offer, invisible to Spanish-language searches. We build sites that load fast, look like the professional you are, and turn Tower-District-to-Clovis visitors into booked work, in both English and Spanish, built to win in a market where a failing AC in July is a real emergency.",
     aioQuestion: 'What makes a good contractor website in Fresno?',
     aioAnswer:
       "A good Fresno contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods and surrounding communities you serve. Because summer heat makes AC failures urgent and nearly half of Fresno residents search in Spanish, a site that works in both languages and converts fast under pressure is the standard to hit.",
@@ -299,7 +299,7 @@ export const fresnoLocations = [
       { q: 'What platform do you build on?', a: "We choose the platform that fits your needs and that you can run yourself, usually WordPress or Webflow. We recommend the right one in your free consult and lay out the tradeoffs in plain terms." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build comes with launch support, and after that we offer affordable monthly maintenance covering updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO runs month-to-month, so you can step away whenever you want." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Fresno contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Fresno web design should include for a contractor, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const fresnoLocations = [
     citySlug: 'fresno', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Fresno Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Fresno website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in the Valley market.',
+      'Fresno Website Redesign that converts more without losing your rankings. Faster, mobile-first, bilingual rebuilds that turn visitors into booked jobs.',
     eyebrow: 'Website Redesign · Fresno, CA',
-    h1: 'Redesign your Fresno website without losing your rankings',
+    h1: 'Fresno Website Redesign that converts more without losing the rankings you have earned through heat season',
     h2Exact: 'Fresno Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week: slow, hard to use on a phone, invisible to Spanish search, easy to ignore when the heat hits. We redesign Fresno contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free Fresno redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Fresno contractor sites for speed and conversions, build in Spanish-language reach, and migrate with the redirects and SEO care that protect the traffic you already have, so the new site performs better through heat season and beyond.",
+      "A Fresno Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Fresno contractor sites for speed and conversions, build in Spanish-language reach, and migrate with the redirects and SEO-safe care that protect the traffic you already have, so the new site performs better through heat season and beyond.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one. In Fresno, making sure Spanish-language content and neighborhood pages survive the migration intact is also critical.",
@@ -365,7 +365,7 @@ export const fresnoLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which matters in a market where many searches happen in urgent situations during extreme heat." },
       { q: 'Do I own the redesigned site?', a: "All of it: the site, the domain, and the content. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The Fresno redesign is billed as a single fixed-price project, and any maintenance or SEO you add afterward stays month-to-month so you can step away whenever you want." },
-      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in Fresno leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in Fresno leads and rankings, what a Fresno Website Redesign should fix, and a fixed-price quote with a timeline and a safe, SEO-safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const fresnoCity = {
 
   titleTag: 'Fresno Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Fresno contractors. Get found in English and Spanish, get booked, and own your leads instead of renting them.',
+    'Fresno marketing for contractors: web design, SEO, and local SEO that get you found in English and Spanish, booked, and off the rented-lead treadmill.',
 
   eyebrow: 'Fresno · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Fresno contractors found and booked',
+  h1: 'Fresno marketing for contractors that gets you found and booked in English and Spanish',
   h2Exact: 'Fresno Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Fresno's extreme heat market, bilingual homeowners, and high-volume agricultural economy. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const fresnoCity = {
   primaryCta: 'Get my free Fresno audit',
 
   intro:
-    "If you run a contracting business in Fresno, you're operating in one of California's highest-volume, most distinctive markets. Summer heat that regularly hits 110°F makes HVAC failure a genuine emergency and a single failed AC call can mean the difference between a homeowner's health and safety. Nearly half of Fresno residents are Hispanic, and Spanish-language search is half the market, demand most contractors aren't even showing up for. And Fresno is affordable California: home renovations are accessible to a much wider slice of homeowners here than on the coast, which means the transaction volume is real. Winning in this market takes three things working together: a site that converts in English and Spanish, SEO that ranks you for heat-season emergencies and year-round searches, and local SEO that puts you on the map for Fresno, Clovis, and the surrounding Valley communities. Here's how we help Fresno contractors do exactly that.",
+    "Fresno marketing for contractors has to fit one of California's highest-volume, most distinctive markets, because if you run a contracting business here you are not competing in a generic city. Summer heat that regularly hits 110°F makes HVAC failure a genuine emergency and a single failed AC call can mean the difference between a homeowner's health and safety. Nearly half of Fresno residents are Hispanic, and Spanish-language search is half the market, demand most contractors aren't even showing up for. And Fresno is affordable California: home renovations are accessible to a much wider slice of homeowners here than on the coast, which means the transaction volume is real. Winning in this market takes three things working together: a site that converts in English and Spanish, SEO that ranks you for heat-season emergencies and year-round searches, and local SEO that puts you on the map for Fresno, Clovis, and the surrounding Valley communities. Here's how we help Fresno contractors do exactly that.",
   aioQuestion: 'How do Fresno contractors get more leads online?',
   aioAnswer:
     "Fresno contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack across Fresno, Clovis, and surrounding communities. Because nearly half of Fresno residents are Hispanic and many search in Spanish, contractors who optimize for Spanish-language searches are capturing demand their competitors never touch. Ranking for summer HVAC and AC terms before the May–September heat season, when search urgency peaks, is also one of the highest-return moves a Fresno contractor can make.",
@@ -422,6 +422,6 @@ export const fresnoCity = {
     { q: 'Why does the Fresno market need a different approach?', a: "Fresno has specific dynamics that generic marketing misses. Extreme heat makes HVAC demand urgent in ways it isn't in most cities, since a failed AC in July is a health emergency. Nearly half the market is Hispanic and searches in Spanish. And wildfire smoke Aug–Oct creates a second demand spike for filtration work. Winning here means optimizing for these realities, not just swapping a city name into a template." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds running $2,000 to $9,000. SEO and local SEO are month-to-month, from $750 to $3,000, with no long contract. We pin down the exact scope in your free Fresno audit." },
     { q: 'Which Fresno areas do you serve?', a: "Fresno, Clovis, the Tower District, Fig Garden, Madera, Sanger, Selma, Reedley, Fowler, Kingsburg, and surrounding San Joaquin Valley communities, with genuine local pages for each area." },
-    { q: 'Where should I start?', a: "Start with a free Fresno audit. We'll look at your website, your rankings, your Map Pack presence, and your Spanish-language visibility, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Fresno audit. We'll look at your website, your rankings, your Map Pack presence, and your Spanish-language visibility, then tell you the one or two moves in your Fresno marketing for contractors that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

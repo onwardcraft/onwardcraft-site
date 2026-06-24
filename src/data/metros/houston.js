@@ -111,15 +111,15 @@ export const houstonLocations = [
     citySlug: 'houston', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Houston Local SEO Company | Win the Map Pack',
     metaDescription:
-      'When Houston searches your service, three businesses show up on the map. We get you into those three so the call lands with you, not a competitor.',
+      'Houston Local SEO that gets you found when neighbors search your trade. We win you a Google Map Pack spot so the call lands with you, not a competitor.',
     eyebrow: 'Local SEO · Greater Houston',
-    h1: 'When Houston searches for what you do, be the first name they find',
+    h1: 'Houston Local SEO that gets you found when Katy and Pearland neighbors search your trade',
     h2Exact: 'Houston Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when a homeowner searches \"near me.\" Everyone underneath them basically does not exist. We get you into that top three for the neighborhoods you really serve, so the call rings your phone instead of whoever grabbed the first spot, and so you are already there when the next storm lights up every phone in the city.",
     primaryCta: 'Get my free Houston audit',
     intro:
-      "Houston local SEO boils down to a single question: when a homeowner in Katy or Pearland types your service plus \"near me,\" are you one of the three businesses Google sticks on the map? Most people tap one of those three and never scroll a pixel further. This metro is massive, nine counties and 7.8 million people, so ranking happens neighborhood by neighborhood, never city-wide. Becoming one of those three in the areas you actually work is the entire game. Here is how you get there.",
+      "Houston Local SEO boils down to a single question: when a homeowner in Katy or Pearland types your service plus \"near me,\" are you one of the three businesses Google sticks on the map? Most people tap one of those three and never scroll a pixel further. This metro is massive, nine counties and 7.8 million people, so you rank on the map neighborhood by neighborhood, never city-wide. Becoming one of those three in the areas you actually work is the entire game. Here is how local SEO services get you there.",
     aioQuestion: 'How do Houston businesses rank higher in local search?',
     aioAnswer:
       "You rank by nailing four things: a Google Business Profile tuned to the exact services and neighborhoods you want, name-address-phone listings that match across the web, a steady drip of real reviews, and local content tied to genuine Houston areas. Because the metro is enormous and Gulf-coast storm-prone, the winners target specific suburbs, answer fast, and are already ranking when hurricane-season and summer-heat demand erupts.",
@@ -167,7 +167,7 @@ export const houstonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts inside AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build the rankings, the Google profile, and the review base that send leads straight to you. Over time you lean on the brokers less and less, because the work is coming to you directly." },
-      { q: "What is in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to outrank you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What is in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to outrank you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis of where Houston Local SEO can get you found and booked." },
     ],
   },
 
@@ -177,15 +177,15 @@ export const houstonLocations = [
     citySlug: 'houston', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Houston SEO Company | Rank Higher, Get Leads',
     metaDescription:
-      'Houston SEO that ranks contractors on Google and brings leads you own. Revenue-tied reporting, no lock-in, built for storm-season and heat demand.',
+      'Houston SEO that turns organic traffic into booked work. We rank contractors on Google for the money keywords, with revenue-tied reporting and no lock-in.',
     eyebrow: 'SEO Services · Greater Houston',
-    h1: 'Get your Houston business to the top of Google and keep it there',
+    h1: 'Houston SEO that turns organic traffic into booked work across a storm-prone metro',
     h2Exact: 'Houston SEO Company',
     heroSubhead:
       "Ads die the second you stop paying. SEO does the opposite: rank once for what your Houston customers search and the leads keep coming. We build that ranking and tie every report back to real calls and booked jobs.",
     primaryCta: 'Get my free Houston SEO audit',
     intro:
-      "Houston SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords across a metro of 7.8 million people, a market that runs hot and storm-prone every month of the year, and we measure the work in leads, not vanity traffic.",
+      "Houston SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. As a Houston SEO company we get contractors ranking on Google for the money keywords across a metro of 7.8 million people, a market that runs hot and storm-prone every month of the year, and we turn that organic traffic into leads, not vanity numbers.",
     aioQuestion: 'How do Houston businesses rank higher on Google?',
     aioAnswer:
       "They rank by repairing the technical foundation of the site, tuning each page for the precise terms customers search, publishing genuinely useful local content for specific suburbs, and earning links from trusted Houston sources. In a metro this large and competitive, targeting individual service areas and ranking for storm-driven and year-round HVAC terms are two of the quickest ways to pull ahead.",
@@ -233,7 +233,7 @@ export const houstonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Houston do you cover?', a: "All of Greater Houston and the surrounding suburbs: Katy, Sugar Land, The Woodlands, Pearland, Cypress, Spring, Pasadena, Humble, and more, with genuine local pages rather than one generic Houston page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building the rankings and Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a straight diagnosis of how Houston SEO can put you on page one and keep you there." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const houstonLocations = [
     citySlug: 'houston', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Houston Web Design Company | OnwardCraft',
     metaDescription:
-      'Houston web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and for heat and storm-season demand.',
+      'Houston Web Design that makes homeowners pick you: fast, mobile-first contractor websites that convert visitors into booked jobs through heat and storm-season demand.',
     eyebrow: 'Web Design · Greater Houston',
-    h1: 'Houston web design that turns visitors into booked jobs',
+    h1: 'Houston web design that makes River Oaks and Katy homeowners pick you',
     h2Exact: 'Houston Web Design Company',
     heroSubhead:
       "A pretty website that never rings the phone is just a brochure. We build Houston contractors fast, mobile-first sites engineered to turn visitors into booked work, and built to hold up when a heat wave or hurricane floods your phone with calls.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Houston contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer in sight. Web design done right fixes every bit of that. We build sites that load fast, look like the professional you are, and turn Katy-to-Pearland visitors into booked jobs, sites that do not fold the moment a storm or a 100-degree week sends your traffic surging.",
+      "Houston web design done right fixes the quiet leak in most contractor websites: slow on a phone, call button buried, no clear offer in sight. As a Houston web design company we build mobile-first, fast-loading sites that look like the professional you are and turn Katy-to-Pearland visitors into booked jobs, sites that do not fold the moment a storm or a 100-degree week sends your traffic surging.",
     aioQuestion: 'What makes a good contractor website in Houston?',
     aioAnswer:
       "A strong Houston contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to absorb traffic spikes during heat waves and storm season. Because most Houston searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const houstonLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage, usually WordPress or Webflow. We will recommend the right fit in your free consult and walk you through the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Houston site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Houston site should include, and a fixed-price quote with a timeline. No pressure, just a plan for Houston Web Design that turns visitors into booked jobs." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const houstonLocations = [
     citySlug: 'houston', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Houston Website Redesign | More Leads, No Loss',
     metaDescription:
-      'Redesign your Houston website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm season.',
+      'Houston Website Redesign that converts more without losing rankings. Faster, mobile-first rebuilds that turn visitors into booked jobs and hold up in storm season.',
     eyebrow: 'Website Redesign · Greater Houston',
-    h1: 'Redesign your Houston website without losing your rankings',
+    h1: 'Houston Website Redesign that turns an aging contractor site into a storm-ready lead engine',
     h2Exact: 'Houston Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy to scroll past. We redesign Houston contractor sites to convert more and load faster, and we migrate with care so you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad directions: the site looks sharper but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Houston contractor sites for speed and conversions, build them to absorb heat-wave and storm-season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Houston Website Redesign usually goes one of two bad directions: the site looks sharper but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Houston contractor sites for speed and conversions, build them to absorb heat-wave and storm-season traffic, and migrate with the redirects and SEO-safe care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and even improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const houstonLocations = [
       { q: 'Can you add Spanish pages in the redesign?', a: "Yes. With around 44% of Houston Hispanic and many homeowners searching in Spanish, adding bilingual pages during the rebuild can reach buyers your English-only site misses. We will advise whether it fits your trade and service area." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It is the honest starting point for a Houston Website Redesign that keeps your rankings and books more work." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const houstonCity = {
 
   titleTag: 'Houston Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Houston contractors. Get found, get booked, and own your leads instead of renting them, all built for storm-season demand.',
+    'Houston marketing for contractors: web design, SEO, and local SEO that gets you found and booked. Own your leads instead of renting them, all built for storm-season demand.',
 
   eyebrow: 'Houston · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Houston contractors found and booked',
+  h1: 'Houston marketing for contractors that turns nine-county searches into booked jobs',
   h2Exact: 'Houston Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Greater Houston's enormous, storm-driven market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const houstonCity = {
   primaryCta: 'Get my free Houston audit',
 
   intro:
-    "If you run a contracting business in Houston, you are fighting for attention across a nine-county, 7.8-million-person metro: too big for one generic page and packed wall to wall with competition. Winning here takes three things working in concert: a site that converts, SEO that ranks you for what people search, and local SEO that drops you into the Map Pack in the suburbs you actually serve, all locked in before the next storm sends demand through the roof. Here is how we help Houston contractors do exactly that.",
+    "Houston marketing for contractors comes down to winning attention across a nine-county, 7.8-million-person metro: too big for one generic page and packed wall to wall with competition. Winning here takes three things working in concert: a site that converts, SEO that ranks you for what people search, and local SEO that drops you into the Map Pack in the suburbs you actually serve, all locked in before the next storm sends demand through the roof. As a Houston digital marketing agency built around the trades, here is how we help contractors do exactly that.",
   aioQuestion: 'How do Houston contractors get more leads online?',
   aioAnswer:
     "Houston contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack in their specific suburbs. Because Houston is huge and demand spikes hard during hurricane season and summer heat, the contractors who look established and are already ranking before the spike win the most work.",
@@ -422,6 +422,6 @@ export const houstonCity = {
     { q: 'Why does storm season matter for my marketing?', a: "When a hurricane like Harvey hits Houston, demand for roofing, restoration, and HVAC spikes overnight and the backlog can stretch for a year. Ranking takes months to build, so the contractors already visible before the storm take that work. We get you in place ahead of season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Houston areas do you serve?', a: "All of Greater Houston and the surrounding suburbs: The Heights, Montrose, Spring Branch, Bellaire, plus Katy, Sugar Land, The Woodlands, Pearland, Cypress, Spring, and more." },
-    { q: 'Where should I start?', a: "Start with a free Houston audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Houston audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan, and a straight path to Houston marketing for contractors that gets you found and booked." },
   ],
 };

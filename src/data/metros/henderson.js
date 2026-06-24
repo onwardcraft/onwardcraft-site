@@ -111,9 +111,9 @@ export const hendersonLocations = [
     citySlug: 'henderson', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Henderson Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'When Henderson searches your service, three businesses show on the map. We put you in those three so the heat-season call lands with you, not a competitor.',
+      'Henderson Local SEO that puts your business in the top three on the map, so the heat-season call lands with you in Green Valley and Anthem, not a competitor.',
     eyebrow: 'Local SEO · Henderson, NV',
-    h1: 'When Henderson searches for what you do, be the first name on the map',
+    h1: 'Henderson Local SEO that makes you the first name on the Green Valley map',
     h2Exact: 'Henderson Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when a homeowner searches \"near me,\" and everyone underneath them is invisible. We muscle you into that top three so the call lands with you instead of whoever ranks first, and so you are already there when the next 110-degree week sends every Henderson phone into overdrive.",
@@ -167,7 +167,7 @@ export const hendersonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts in AI tools instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. In Henderson that is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long it takes for reviews and citations to start moving you up the Henderson map. After that you are month-to-month. If the leads are not showing, you walk, and the pressure to perform stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms resell the same Anthem or Green Valley homeowner to a handful of contractors and bill all of you. We build rankings, a Google profile, and a review base that route that homeowner to you and nobody else. As your own visibility grows, the broker invoices shrink because the work is already arriving direct." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank across Green Valley, Anthem, Inspirada, and your other target communities, the Map Pack competitors ahead of you and why, the fixes that move the needle fastest, and a realistic 90-to-180-day plan with your own numbers run. No pitch deck, just a diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where your Henderson Local SEO stands across Green Valley, Anthem, Inspirada, and your other target communities, the Map Pack competitors ahead of you and why, the fixes that move the needle fastest, and a realistic 90-to-180-day plan with your own numbers run. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -177,9 +177,9 @@ export const hendersonLocations = [
     citySlug: 'henderson', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Henderson SEO Company | OnwardCraft',
     metaDescription:
-      'Henderson SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in, built for desert-heat and monsoon demand.',
+      'Henderson SEO that puts your business on page one and holds it, ranking contractors for the money keywords and delivering leads you own across the valley.',
     eyebrow: 'SEO Services · Henderson, NV',
-    h1: 'Get your Henderson business to the top of Google and keep it there',
+    h1: 'Henderson SEO that puts your business on page one and holds it through summer',
     h2Exact: 'Henderson SEO Company',
     heroSubhead:
       "Ads die the second you stop paying. SEO does the reverse: rank once for what your Henderson customers search and the leads keep arriving for months. We build that ranking and tie every report to real calls and booked jobs, not vanity charts.",
@@ -233,7 +233,7 @@ export const hendersonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "Increasingly, yes, and it is a growing slice of what we tune for. We structure your content and schema so those engines can read your Henderson pages, trust them, and name your business in an answer, not only the classic blue links." },
       { q: 'Which areas around Henderson do you cover?', a: "Every part of Henderson and the wider Las Vegas valley: Green Valley, Anthem, Inspirada, Lake Las Vegas, Seven Hills, Boulder City, and on into Las Vegas and North Las Vegas. We build a real page per community rather than one catch-all Henderson page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By earning you rankings and a Google presence that route Henderson homeowners to you first. The more search visibility you own, the less you need to buy the same shared lead three valley competitors are also chasing." },
-      { q: "What's in the free SEO audit?", a: "Where your site ranks across the valley right now, the competitors outranking you and how, the highest-impact fixes to make first, and a realistic timeline with your own numbers modeled in. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where your Henderson SEO stands across the valley right now, the competitors outranking you and how, the highest-impact fixes to make first, and a realistic timeline with your own numbers modeled in. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const hendersonLocations = [
     citySlug: 'henderson', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Henderson Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Henderson web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and ready for desert-heat emergency demand.',
+      'Henderson web design that books jobs instead of just looking nice: fast, mobile-first sites built for contractors and ready for desert-heat emergency demand.',
     eyebrow: 'Web Design · Henderson, NV',
-    h1: 'Henderson web design that turns visitors into booked jobs',
+    h1: 'Henderson web design that books jobs instead of just looking nice in Green Valley',
     h2Exact: 'Henderson Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just an expensive brochure. We build Henderson contractors fast, mobile-first sites engineered to turn visitors into booked work, and tough enough to hold up when a heat wave sends your phone into overdrive.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Henderson contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. Web design done right closes all of those leaks. We build sites that load fast, look like the professional you actually are, and turn Green-Valley-to-Lake-Las-Vegas visitors into booked jobs, and that do not fall over when a 110-degree day sends your traffic through the roof.",
+      "Henderson web design starts with a hard truth: most contractor websites here bleed leads quietly, slow on a phone, call button buried, no clear offer anywhere. Done right, the website design closes all of those leaks. We build sites that load fast, look like the professional you actually are, and turn Green-Valley-to-Lake-Las-Vegas visitors into booked jobs, and that do not fall over when a 110-degree day sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Henderson?',
     aioAnswer:
       "A good Henderson contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during the summer heat. Because most Henderson searches happen on mobile and HOA-community homeowners hold high standards, mobile speed, a polished look, and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const hendersonLocations = [
       { q: 'What platform do you build on?', a: "We match the platform to your needs and to what you can manage on your own, usually WordPress or Webflow. We name the right fit in your free consult and walk through the tradeoffs in plain English, no jargon." },
       { q: 'Do you offer ongoing support?', a: "Yes. Launch support comes with every build, and after that we offer affordable monthly maintenance covering updates, load speed, and security so the site keeps performing." },
       { q: 'Am I locked into a contract?', a: "No. The build itself is a one-time fixed-price project. Any maintenance or SEO you add afterward runs month-to-month, so you can step away whenever you choose." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Henderson site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Henderson web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const hendersonLocations = [
     citySlug: 'henderson', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Henderson Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Henderson website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in desert heat.',
+      'Henderson Website Redesign that rebuilds for leads, not just looks. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in desert heat.',
     eyebrow: 'Website Redesign · Henderson, NV',
-    h1: 'Redesign your Henderson website without losing your rankings',
+    h1: 'Henderson Website Redesign that rebuilds for leads in Green Valley, not just looks',
     h2Exact: 'Henderson Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Henderson homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Henderson contractor sites for speed and conversions, build them to survive summer-demand surges, and migrate with the redirects and SEO care that protect the traffic you have spent years building.",
+      "A Henderson Website Redesign usually goes one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Henderson contractor sites for speed and conversions, build them to survive summer-demand surges, and migrate with the redirects and SEO care that protect the traffic you have spent years building.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const hendersonLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for quick load and a clean Core Web Vitals pass, the combination that lifts conversions and rankings for a Henderson contractor at once." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content all belong to you. There is no platform lock-in of any kind holding you in place." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time fixed-price project. Anything ongoing, like maintenance or SEO, stays month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is leaking in Henderson leads and rankings, what the rebuild needs to fix, and a fixed-price quote with a timeline and a safe migration plan attached." },
+      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is leaking in Henderson leads and rankings, what your Henderson Website Redesign needs to fix, and a fixed-price quote with a timeline and a safe migration plan attached." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const hendersonCity = {
 
   titleTag: 'Henderson Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Henderson contractors. Get found, get booked, and own your leads instead of renting them, all built for desert-heat demand.',
+    'Henderson marketing for contractors: web design, SEO, and local SEO that get you found and booked, so you own your leads instead of renting them, all built for desert-heat demand.',
 
   eyebrow: 'Henderson · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Henderson contractors found and booked',
+  h1: 'Henderson marketing for contractors who want to own their leads from Green Valley to Lake Las Vegas',
   h2Exact: 'Henderson Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Henderson's affluent, HOA-run, master-planned market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const hendersonCity = {
   primaryCta: 'Get my free Henderson audit',
 
   intro:
-    "If you run a contracting business in Henderson, you are fighting for attention in one of the safest, fastest-growing suburbs in the country: master-planned communities from Green Valley to Lake Las Vegas, retirees and young families side by side, and California transplants arriving with money to spend. The competition grows right along with the rooftops. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the desert summer sends demand through the roof. Here is exactly how we help Henderson contractors pull that off.",
+    "Henderson marketing for contractors means fighting for attention in one of the safest, fastest-growing suburbs in the country: master-planned communities from Green Valley to Lake Las Vegas, retirees and young families side by side, and California transplants arriving with money to spend. The competition grows right along with the rooftops. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the desert summer sends demand through the roof. Here is exactly how we help Henderson contractors pull that off.",
   aioQuestion: 'How do Henderson contractors get more leads online?',
   aioAnswer:
     "Henderson contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Henderson is affluent and HOA-heavy and demand spikes hard during the 110-degree summer, the contractors who look established, understand HOA approvals, and are already ranking before the heat win the most work.",
@@ -422,6 +422,6 @@ export const hendersonCity = {
     { q: 'Why does the summer heat matter for my marketing?', a: "When the Mojave holds at 110 and up from June through September, demand for emergency AC, HVAC, and pool service spikes overnight and the backlog can run for weeks. Ranking takes months to build, so the contractors who are already visible before summer take that work. We get you in place ahead of the heat." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds running $2,000 to $9,000. SEO and local SEO go month-to-month at $750 to $3,000, with no long contract attached. We pin down the exact scope for your Henderson business in the free audit." },
     { q: 'Which Henderson areas do you serve?', a: "All of Henderson and the surrounding Las Vegas valley: Green Valley, Anthem, Inspirada, Lake Las Vegas, Seven Hills, MacDonald Ranch, Tuscany, Whitney Ranch, Boulder City and into Las Vegas itself." },
-    { q: 'Where should I start?', a: "Start with a free Henderson audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Henderson audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Henderson marketing for contractors that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

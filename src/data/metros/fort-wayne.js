@@ -109,11 +109,11 @@ export const fortWayneLocations = [
   {
     ...BASE,
     citySlug: 'fort-wayne', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Fort Wayne Local SEO Company | OnwardCraft',
+    titleTag: 'Fort Wayne Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Fort Wayne and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Fort Wayne Local SEO that wins you the top three on the map, so a "near me" search lands with you instead of a rival.',
     eyebrow: 'Local SEO · Fort Wayne',
-    h1: 'When Fort Wayne searches for what you do, be the first name they find',
+    h1: 'Fort Wayne Local SEO that wins you the top three on the map from Aboite to West Central',
     h2Exact: 'Fort Wayne Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the call lands with you instead of whoever ranked first, and so you're ready when the rivers rise or an ice storm fills everyone's phone.",
@@ -167,7 +167,7 @@ export const fortWayneLocations = [
       { q: 'Will I turn up in Google AI Overviews and ChatGPT?', a: "An increasing share of \"near me\" research now starts in AI rather than classic search. We shape your content and schema so those engines can read, trust, and cite your business. In a town this size it is fast becoming as decisive as the Map Pack itself." },
       { q: 'Is there a contract holding me in?', a: "No. We ask for an opening 90 days because that is about how long local SEO needs to show real movement. After that it is month-to-month. If we are not producing, you walk, and the accountability stays planted on us." },
       { q: 'How does this pull me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility that never becomes yours. We build rankings, a Google profile, and a review base that route leads straight to you alone. Over time you lean on the brokers less, because the work is already arriving direct." },
-      { q: "What do I get in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a diagnosis." },
+      { q: "What do I get in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the starting point for Fort Wayne Local SEO that earns you a top-three spot on the map, not a pitch deck. Just a diagnosis." },
     ],
   },
 
@@ -175,11 +175,11 @@ export const fortWayneLocations = [
   {
     ...BASE,
     citySlug: 'fort-wayne', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Fort Wayne SEO Company | OnwardCraft',
+    titleTag: 'Fort Wayne SEO Company | Rankings You Own | OnwardCraft',
     metaDescription:
       'Fort Wayne SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for flood and winter demand.',
     eyebrow: 'SEO Services · Fort Wayne',
-    h1: 'Get your Fort Wayne business to the top of Google and keep it there',
+    h1: 'Fort Wayne SEO that builds rankings you actually own, season after flood season',
     h2Exact: 'Fort Wayne SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Fort Wayne customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const fortWayneLocations = [
       { q: 'Will I surface in Google AI Overviews and ChatGPT?', a: "That is a growing piece of what we tune for. We shape your content and schema so AI engines can read, trust, and cite your business, not classic results alone." },
       { q: 'Which areas around Fort Wayne do you cover?', a: "Every part of Fort Wayne and the surrounding towns: New Haven, Huntertown, Leo-Cedarville, Auburn, Aboite, Northwest Allen County, Columbia City and more, with real local pages instead of one blanket Fort Wayne page." },
       { q: 'How do you pull me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. The more of your search visibility you own, the less you ride on brokers selling shared leads." },
-      { q: "What comes in the free SEO audit?", a: "We show you where you stand on the Fort Wayne terms that matter, who is outranking you and how they got there, the repairs that will move you fastest, and a 90-to-180-day plan with the numbers run for your shop. It is a diagnosis, not a sales pitch." },
+      { q: "What comes in the free SEO audit?", a: "We show you where you stand on the Fort Wayne terms that matter, who is outranking you and how they got there, the repairs that will move you fastest, and a 90-to-180-day plan with the numbers run for your shop. It is where Fort Wayne SEO that earns you page one and lasting organic traffic begins. A diagnosis, not a sales pitch." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const fortWayneLocations = [
   {
     ...BASE,
     citySlug: 'fort-wayne', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Fort Wayne Web Design Company | OnwardCraft',
+    titleTag: 'Fort Wayne Web Design Company | Built to Book Work | OnwardCraft',
     metaDescription:
       'Fort Wayne web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and flood-season demand.',
     eyebrow: 'Web Design · Fort Wayne',
-    h1: 'Fort Wayne web design that turns visitors into booked jobs',
+    h1: 'Fort Wayne web design engineered to bring in real work, even when the rivers rise',
     h2Exact: 'Fort Wayne Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Fort Wayne contractors fast, mobile-first sites engineered to turn visitors into booked work, and to hold up when flooding or a winter storm floods your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Fort Wayne contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn West-Central-to-Aboite visitors into booked jobs, and that don't fall over when the rivers rise and traffic spikes.",
+      "Fort Wayne web design done right is the difference between a site that quietly loses leads, slow on a phone, buried call button, no clear offer, and one that books work. As a web design company built for contractors, we ship fast, mobile-first sites that look like the professional you are and turn West-Central-to-Aboite visitors into booked jobs, sites that don't fall over when the rivers rise and traffic spikes.",
     aioQuestion: 'What makes a good contractor website in Fort Wayne?',
     aioAnswer:
       "A good Fort Wayne contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during flood and winter season. Because most Fort Wayne searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const fortWayneLocations = [
       { q: 'Which platform do you build on?', a: "We choose the platform that fits your needs and that you can manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and walk through the tradeoffs in plain terms." },
       { q: 'Is there ongoing support?', a: "Yes. Launch support ships with every build, and after that you can add low-cost monthly maintenance covering updates, speed, and security." },
       { q: 'Am I tied to a contract?', a: "No. The build is a one-time project at a fixed price. Any maintenance or SEO afterward is month-to-month, so you can leave whenever." },
-      { q: 'What comes in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Fort Wayne site should carry, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What comes in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Fort Wayne site should carry, and a fixed-price quote with a timeline. It is where Fort Wayne web design that converts visitors into booked jobs starts. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const fortWayneLocations = [
   {
     ...BASE,
     citySlug: 'fort-wayne', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Fort Wayne Website Redesign | OnwardCraft',
+    titleTag: 'Fort Wayne Website Redesign | Modernize, Keep Your Traffic | OnwardCraft',
     metaDescription:
-      'Redesign your Fort Wayne website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in flood.',
+      'Fort Wayne Website Redesign that modernizes without tanking your traffic. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in flood.',
     eyebrow: 'Website Redesign · Fort Wayne',
-    h1: 'Redesign your Fort Wayne website without losing your rankings',
+    h1: 'Fort Wayne Website Redesign that modernizes without tanking your traffic from Aboite to New Haven',
     h2Exact: 'Fort Wayne Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week: slow, hard to use on a phone, easy to ignore. We redesign Fort Wayne contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Fort Wayne contractor sites for speed and conversions, build them to handle flood- and winter-season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Fort Wayne Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Fort Wayne contractor sites for speed and conversions, build them to handle flood- and winter-season traffic, and run an SEO-safe migration with the redirects that protect the traffic you already have, so you redesign without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const fortWayneLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts conversions and rankings both." },
       { q: 'Do I own the redesigned site?', a: "Fully: the site, the domain, and the content. No platform lock-in of any sort." },
       { q: 'Am I tied to a contract?', a: "No. The redesign is a one-time project. Any maintenance or SEO afterward is month-to-month." },
-      { q: "What comes in the free redesign audit?", a: "A straight read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What comes in the free redesign audit?", a: "A straight read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It is where a Fort Wayne Website Redesign that modernizes without losing your rankings begins." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const fortWayneCity = {
 
   titleTag: 'Fort Wayne Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Fort Wayne contractors. Get found, get booked, and own your leads instead of renting them, all built for flood and winter.',
+    'Fort Wayne marketing for contractors: web design, SEO, and local SEO that get you found and booked, so you own your leads instead of renting them.',
 
   eyebrow: 'Fort Wayne · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Fort Wayne contractors found and booked',
+  h1: 'Fort Wayne marketing for contractors, built around the trades and ready for flood season',
   h2Exact: 'Fort Wayne Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Fort Wayne's practical, manufacturing-rooted, flood-prone market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const fortWayneCity = {
   primaryCta: 'Get my free Fort Wayne audit',
 
   intro:
-    "If you run a contracting business in Fort Wayne, you're fighting for attention in a practical, local-first market where reputation and reviews carry real weight. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all of it ready before the rivers rise or the next ice storm sends demand through the roof. Here's how we help Fort Wayne contractors do exactly that.",
+    "Fort Wayne marketing for contractors means fighting for attention in a practical, local-first market where reputation and reviews carry real weight. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all of it ready before the rivers rise or the next ice storm sends demand through the roof. As a digital marketing agency built around web design and SEO for Fort Wayne contractors, here's how we help you do exactly that.",
   aioQuestion: 'How do Fort Wayne contractors get more leads online?',
   aioAnswer:
     "Fort Wayne contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Fort Wayne sits at the confluence of three rivers and faces hard Indiana winters, the contractors who look established and are already ranking before flood and storm season win the most work.",
@@ -422,6 +422,6 @@ export const fortWayneCity = {
     { q: 'Why do flood and winter season matter to my marketing?', a: "When snowmelt and heavy rain drive the three rivers up, or an ice storm settles in over winter, demand for restoration, roofing, and HVAC jumps overnight and the backlog can run for months. Ranking takes months to build, so the crews already visible before the season collect that work. We get you set ahead of time." },
     { q: 'What does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free audit." },
     { q: 'Which Fort Wayne areas do you serve?', a: "Every part of Fort Wayne and the towns around it: West Central, Lakeside, Southwood Park, Aboite, Northwest Allen County, New Haven, Huntertown, Leo-Cedarville, Auburn and more." },
-    { q: 'Where do I begin?', a: "Begin with a free Fort Wayne audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where do I begin?', a: "Begin with a free Fort Wayne audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It is the simplest way to start Fort Wayne marketing for contractors that gets you found and booked. No pitch deck, just a plan." },
   ],
 };

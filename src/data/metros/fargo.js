@@ -111,9 +111,9 @@ export const fargoLocations = [
     citySlug: 'fargo', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Fargo Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Fargo and three businesses show up on the map. We get you into those three before winter hits: honest pricing, no lock-in, free audit.',
+      'Fargo Local SEO that puts you in the Map Pack before winter hits. Get into the top three businesses Google shows: honest pricing, no lock-in, free audit.',
     eyebrow: 'Local SEO · Fargo-Moorhead',
-    h1: 'When Fargo searches for what you do, be the first name they find',
+    h1: 'Fargo Local SEO that puts your business in the Map Pack before the cold hits',
     h2Exact: 'Fargo Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In a market where the busiest five months are winter emergencies, we get you into that top three for Fargo and Moorhead before the cold arrives, so the heating call lands with you.",
@@ -167,7 +167,7 @@ export const fargoLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. In a market where someone needs a contractor fast during a heating emergency, being in AI results is quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is about how long local SEO needs to show honest movement in a market this competitive. After that, you go month-to-month. If the Fargo and Moorhead leads are not showing up, you walk, and the accountability stays squarely with us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads: the same Fargo homeowner sold to four contractors at once. We build rankings, a Google profile, and a review base that route the call straight to you alone. When a furnace dies at midnight in a -30°F snap, the homeowner is not browsing Angi. They are tapping the first name pinned to the map." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across Fargo and Moorhead, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across Fargo and Moorhead, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the honest starting point for Fargo Local SEO that earns the top three and keeps you there. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const fargoLocations = [
     metaDescription:
       'Fargo SEO that ranks contractors on Google and brings in leads you own. Built for a two-state winter market. Revenue-tied reporting, no lock-in contracts.',
     eyebrow: 'SEO Services · Fargo-Moorhead',
-    h1: 'Get your Fargo business to the top of Google and keep it there',
+    h1: 'Fargo SEO that gets you to the top of Google and keeps you there through winter',
     h2Exact: 'Fargo SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the reverse: rank once for what Fargo and Moorhead customers search and the leads keep arriving, including the winter heating emergencies and spring flood restoration calls that make or break a year on the Plains.",
@@ -233,7 +233,7 @@ export const fargoLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. When someone searches for a Fargo heating contractor in an AI tool at 11pm in January, we want your business to be what gets surfaced. We structure your content and schema so AI engines can read, trust, and cite you." },
       { q: 'Which areas around Fargo do you cover?', a: "The full Fargo-Moorhead metro on both sides of the Red River: Fargo, West Fargo, Moorhead, Dilworth, Horace, Harwood, Mapleton, and surrounding communities in both North Dakota and Minnesota. We build genuine local pages rather than one generic Fargo page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. During a Fargo winter heating emergency, homeowners do not browse lead marketplaces. They search, find whoever is ranking, and call. The more you own your search visibility, the less you lean on brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across Fargo and Moorhead, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business, plus a look at where you stand heading into the heating season. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today across Fargo and Moorhead, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business, plus a look at where you stand heading into the heating season. It is a straight plan for Fargo SEO that ranks you for the money keywords and holds page one. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const fargoLocations = [
     metaDescription:
       'Fargo web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in a brutal winter market.',
     eyebrow: 'Web Design · Fargo-Moorhead',
-    h1: 'Fargo web design that turns visitors into booked jobs',
+    h1: 'Fargo web design that turns visitors into booked jobs when the furnace quits at -30°F',
     h2Exact: 'Fargo Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just a brochure. We build Fargo and Moorhead contractors fast, mobile-first sites engineered to turn visitors into booked work, because when a furnace fails at -30°F, the homeowner taps whatever loads fast, reads clear, and looks local.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Fargo contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. In a market where a January heating emergency sends homeowners searching at midnight, a clunky site is a missed call that went to whoever loaded faster. We build sites that load fast, look like the professional you are, serve both banks of the Red River, and turn Fargo and Moorhead visitors into booked jobs. Out here, winter does not forgive a site that is slow or unclear.",
+      "Fargo web design lives or dies on one thing: does the site book the job, or just sit there looking nice? Most contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. In a market where a January heating emergency sends homeowners searching at midnight, a clunky site is a missed call that went to whoever loaded faster. We build sites that load fast, look like the professional you are, serve both banks of the Red River, and turn Fargo and Moorhead visitors into booked jobs. Out here, winter does not forgive a site that is slow or unclear.",
     aioQuestion: 'What makes a good contractor website in Fargo?',
     aioAnswer:
       "A good Fargo contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific Fargo and Moorhead neighborhoods you serve. Because Fargo's busiest months are winter emergencies when homeowners need a contractor fast and patience is zero, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const fargoLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and lay out the tradeoffs in plain Upper-Midwest English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and after that we offer affordable monthly maintenance covering updates, load speed, and security for your Fargo site." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO runs month-to-month, so you can leave whenever it stops earning its keep." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Fargo-Moorhead site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Fargo-Moorhead site should include, and a fixed-price quote with a timeline. It is the honest first step toward Fargo web design that loads fast and books more jobs. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const fargoLocations = [
     citySlug: 'fargo', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Fargo Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Fargo website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs, covering Fargo ND.',
+      'Fargo Website Redesign that converts more without losing your rankings. Faster, mobile-first rebuilds with an SEO-safe migration, covering Fargo ND.',
     eyebrow: 'Website Redesign · Fargo-Moorhead',
-    h1: 'Redesign your Fargo website without losing your rankings',
+    h1: 'Fargo Website Redesign that converts more without losing the rankings you earned',
     h2Exact: 'Fargo Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week, and in Fargo, every week from October through March is a potential heating emergency call you're not getting. We redesign Fargo and Moorhead contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Fargo and Moorhead contractor sites for speed and conversions, build them to serve both sides of the Red River, and migrate with the redirects and SEO care that protect the traffic you already have, because losing rankings heading into a Fargo winter is not an option.",
+      "A Fargo Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Fargo and Moorhead contractor sites for speed and conversions, build them to serve both sides of the Red River, and migrate with the redirects and SEO care that protect the traffic you already have, because losing rankings heading into a Fargo winter is not an option.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one, which matters especially in Fargo where losing organic visibility before winter means missing your peak season.",
@@ -365,7 +365,7 @@ export const fargoLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts conversions and Fargo-Moorhead rankings together." },
       { q: 'Do I own the redesigned site?', a: "Completely. The site, the domain, and the content are yours to keep. No platform lock-in whatsoever, on either side of the Red River." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project at a fixed price. Any ongoing maintenance or SEO runs month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan, including a look at where you stand heading into the busy season." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan, including a look at where you stand heading into the busy season. It is the careful first step toward a Fargo Website Redesign that converts more without tanking your traffic." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const fargoCity = {
 
   titleTag: 'Fargo Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Fargo and Moorhead contractors. Get found before winter, rank in both states, and own your leads. Free Fargo audit.',
+    'Fargo marketing for contractors: web design, SEO, and local SEO that get you found before winter, rank in both states, and own your leads. Free Fargo audit.',
 
   eyebrow: 'Fargo-Moorhead · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Fargo contractors found and booked before winter',
+  h1: 'Fargo marketing for contractors that gets you found and booked before winter',
   h2Exact: 'Fargo Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the coldest major metro in the Lower 48. Rank in both Fargo, ND and Moorhead, MN before October, and own the heating season instead of watching competitors take it.",
@@ -386,7 +386,7 @@ export const fargoCity = {
   primaryCta: 'Get my free Fargo audit',
 
   intro:
-    "If you run a contracting business in Fargo-Moorhead, you're operating in one of the most extreme and seasonal home-services markets in the country. January wind chills drop to -40°F, heating failure is a survival emergency, frozen pipes and ice dam damage are enormous contractor categories, and Red River spring flooding can send restoration work surging for months. The contractors who are already ranking when October arrives book the winter. The ones who aren't, aren't visible for five months. And because the real metro straddles the North Dakota–Minnesota border, ranking in both states is the whole game. Winning here takes three things working together: a site that converts emergency calls, SEO that ranks you for what people search before the seasons hit, and local SEO that puts you in the Map Pack across both Fargo and Moorhead. Here's how we help Fargo contractors do exactly that.",
+    "Fargo marketing for contractors has to reckon with one of the most extreme and seasonal home-services markets in the country. January wind chills drop to -40°F, heating failure is a survival emergency, frozen pipes and ice dam damage are enormous contractor categories, and Red River spring flooding can send restoration work surging for months. The contractors who are already ranking when October arrives book the winter. The ones who aren't, aren't visible for five months. And because the real metro straddles the North Dakota–Minnesota border, ranking in both states is the whole game. Winning here takes three things working together: a site that converts emergency calls, SEO that ranks you for what people search before the seasons hit, and local SEO that puts you in the Map Pack across both Fargo and Moorhead. Here's how we help Fargo contractors do exactly that.",
   aioQuestion: 'How do Fargo contractors get more leads online?',
   aioAnswer:
     "Fargo contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack across both Fargo, ND and Moorhead, MN. Because the market is defined by five months of extreme winter demand and a spring Red River flooding cycle, the contractors who rank for heating emergency and restoration terms before the season, and who show up on both sides of the river, win the most work.",
@@ -422,6 +422,6 @@ export const fargoCity = {
     { q: 'Why does the Fargo market need a different approach?', a: "Fargo is the coldest major metro in the Lower 48, with an extreme seasonal demand curve dominated by winter emergencies. The metro also straddles two states, so contractors must rank in both North Dakota and Minnesota to cover the real market. And the homeowner base here values practical, straight-talking local businesses over anything that seems corporate or generic." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We pin down the exact scope for your Fargo or Moorhead business in the free audit." },
     { q: 'Which Fargo and Moorhead areas do you serve?', a: "The full Fargo-Moorhead metro on both sides of the Red River: Fargo, West Fargo, Moorhead, Dilworth, Horace, Harwood, Mapleton, South Fargo, North Fargo, Island Park, and surrounding communities in both North Dakota and Minnesota." },
-    { q: 'Where should I start?', a: "Start with a free Fargo audit. We'll look at your website, your rankings, and your Map Pack presence in both states, then tell you the one or two moves that will bring in the most work before your next busy season. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Fargo audit. We'll look at your website, your rankings, and your Map Pack presence in both states, then tell you the one or two moves that will bring in the most work before your next busy season. That is what practical Fargo marketing for contractors looks like: get found, get booked, own the leads. No pitch deck, just a plan." },
   ],
 };

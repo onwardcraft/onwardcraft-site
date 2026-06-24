@@ -109,17 +109,17 @@ export const fortCollinsLocations = [
   {
     ...BASE,
     citySlug: 'fort-collins', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Fort Collins Local SEO Company | OnwardCraft',
+    titleTag: 'Fort Collins Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Fort Collins and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Fort Collins Local SEO that turns "near me" searches into booked calls. We get you into the top three on the Google Map Pack, so the call lands with you.',
     eyebrow: 'Local SEO · Fort Collins-Loveland',
-    h1: 'When Fort Collins searches for what you do, be the first name they find',
+    h1: 'Fort Collins Local SEO that turns "near me" searches from Old Town to Timnath into a ringing phone',
     h2Exact: 'Fort Collins Local SEO Company',
     heroSubhead:
       "Google drops three businesses on the map when a homeowner searches \"near me,\" and everyone beneath them might as well not exist. We push you into that top three so the call reaches you instead of whoever ranked first, and so you are already there when the next hail storm lights up every phone on the Front Range.",
     primaryCta: 'Get my free Fort Collins audit',
     intro:
-      "Fort Collins local SEO turns on a single moment: a homeowner in Old Town or Windsor types your service plus \"near me,\" and you are either one of the three businesses Google pinned to the map or you are not. Most people tap one of those three and never scroll. The I-25 corridor is filling with transplants and the competition is filling right along with it, so landing in that top three is the whole contest. Here is exactly how we get you there.",
+      "Fort Collins Local SEO turns on a single moment: a homeowner in Old Town or Windsor types your service plus \"near me,\" and you are either one of the three businesses Google pinned to the map or you are not. Most people tap one of those three and never scroll. Our local SEO services tune your Google Business Profile and listings so you rank on the map for the searches that matter. The I-25 corridor is filling with transplants and the competition is filling right along with it, so landing in that top three is the whole contest. Here is exactly how we get you there.",
     aioQuestion: 'How do Fort Collins businesses rank higher in local search?',
     aioAnswer:
       "You rank by nailing four things: a Google Business Profile tuned to the exact services and neighborhoods you want, name-address-phone details that match everywhere online, a steady run of real reviews, and local content tied to genuine Northern Colorado neighborhoods. Fort Collins is a college-educated, research-heavy market sitting in Hail Alley, so the winners look established, answer fast, and are already ranking before May storms arrive.",
@@ -167,7 +167,7 @@ export const fortCollinsLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts in AI tools instead of classic search. We structure your content and schema so those engines can read, trust, and name your business. In a tech-literate town like Fort Collins, that is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is about how long local SEO needs to show real movement. After that it runs month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never own. We build rankings, a Google profile, and a review base that route leads straight to you alone. Over time you lean on the brokers less, because the work is already coming to you direct." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank across Larimer and Weld counties today, which Map Pack competitors are beating you in Fort Collins and why, the handful of fixes that move you fastest, and a realistic 90-to-180-day climb with the numbers run for your shop. No pitch deck, just a straight diagnosis before hail season." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank across Larimer and Weld counties today, which Map Pack competitors are beating you in Fort Collins and why, the handful of fixes that move you fastest, and a realistic 90-to-180-day climb with the numbers run for your shop. It is the fastest way to see what Fort Collins Local SEO can do for your calendar. No pitch deck, just a straight diagnosis before hail season." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const fortCollinsLocations = [
   {
     ...BASE,
     citySlug: 'fort-collins', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Fort Collins SEO Company | OnwardCraft',
+    titleTag: 'Fort Collins SEO Company | Rank on Google, Own Your Leads | OnwardCraft',
     metaDescription:
-      'Fort Collins SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for Front Range hail.',
+      'Fort Collins SEO that ranks contractors on Google for the searches that book jobs and brings in organic traffic you own. Revenue-tied reporting, no lock-in contracts.',
     eyebrow: 'SEO Services · Fort Collins-Loveland',
-    h1: 'Get your Fort Collins business to the top of Google and keep it there',
+    h1: 'Fort Collins SEO that ranks you for the searches that book jobs',
     h2Exact: 'Fort Collins SEO Company',
     heroSubhead:
       "Ads die the second you stop paying. SEO runs the other way: rank once for what your Northern Colorado customers search and the leads keep arriving for months. We build that ranking and tie every report to real calls and booked jobs, not pretty charts.",
     primaryCta: 'Get my free Fort Collins SEO audit',
     intro:
-      "Fort Collins SEO comes down to one blunt question: when someone searches what you do, are you on page one or page two? Around here page two might as well be page fifty. We get contractors ranking for the money keywords in a fast-growing, hail-prone foothills market, and we measure the whole thing in leads, not traffic that never picks up the phone.",
+      "Fort Collins SEO comes down to one blunt question: when someone searches what you do, are you on page one or page two? Around here page two might as well be page fifty. As a Fort Collins SEO company, we get contractors ranking on Google for the money keywords in a fast-growing, hail-prone foothills market, then turn that organic traffic into booked work. We measure the whole thing in leads, not traffic that never picks up the phone.",
     aioQuestion: 'How do Fort Collins businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical base of the site, tuning each page for the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Northern Colorado sources. In a CSU-influenced, transplant-driven market, keeping the site fast on mobile and ranking for hail-driven and seasonal terms are two of the quickest ways to pull ahead of competitors who have not adapted.",
@@ -233,7 +233,7 @@ export const fortCollinsLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and name your business, not just classic search results." },
       { q: 'Which areas around Fort Collins do you cover?', a: "All of Northern Colorado: Loveland, Windsor, Timnath, Wellington, Greeley, Severance, Johnstown, Berthoud and more, with genuine local pages rather than one flat Fort Collins page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads directly to you. The more you own your search visibility, the less you depend on paying brokers for leads three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank across the Fort Collins-to-Greeley corridor right now, which competitors are outranking you and how, the highest-impact fixes, and a realistic timeline with the numbers modeled for your shop. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank across the Fort Collins-to-Greeley corridor right now, which competitors are outranking you and how, the highest-impact fixes, and a realistic timeline with the numbers modeled for your shop. It is the clearest picture you will get of what Fort Collins SEO can do for your pipeline. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const fortCollinsLocations = [
   {
     ...BASE,
     citySlug: 'fort-collins', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Fort Collins Web Design Company | OnwardCraft',
+    titleTag: 'Fort Collins Web Design Company | Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'Fort Collins web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and Front Range hail season.',
+      'Fort Collins Web Design built to convert clicks into calls: fast, mobile-first contractor websites that turn visitors into booked jobs and hold up in Front Range hail.',
     eyebrow: 'Web Design · Fort Collins-Loveland',
-    h1: 'Fort Collins web design that turns visitors into booked jobs',
+    h1: 'Fort Collins web design built to convert Old Town clicks into booked calls',
     h2Exact: 'Fort Collins Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just an expensive brochure. We build Fort Collins contractors fast, mobile-first sites engineered to turn visitors into booked work, and tough enough to hold up when hail season floods your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Fort Collins contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. Web design done right closes all of those leaks. We build sites that load fast, look like the professional you actually are, and turn Old-Town-to-Windsor visitors into booked jobs, and that do not fall over when a hail storm sends your traffic through the roof.",
+      "Fort Collins Web Design has one job, and most contractor sites fail it: they bleed leads quietly, slow on a phone, call button buried, no clear offer anywhere. Done right, website design closes all of those leaks. We build fast-loading, mobile-first sites that look like the professional you actually are, and turn Old-Town-to-Windsor visitors into booked jobs, and that do not fall over when a hail storm sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Fort Collins?',
     aioAnswer:
       "A good Fort Collins contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to absorb traffic spikes during hail season. Because Fort Collins homeowners are college-educated and research-driven, the site also has to answer their questions and show real expertise, not just list services and hope someone calls.",
@@ -299,7 +299,7 @@ export const fortCollinsLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform you can actually run yourself once we hand it over, usually WordPress or Webflow. We name the right fit for your Fort Collins shop in the free consult and lay out the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build ships with launch support, and after that we offer affordable monthly maintenance for updates, speed, and security, which matters when a hail surge tests the site." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time fixed-price project. Any maintenance or SEO afterward runs month-to-month, so you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Fort Collins site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Fort Collins site should include, and a fixed-price quote with a timeline. It is the easiest way to see what Fort Collins Web Design can do for your booked-job count. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const fortCollinsLocations = [
   {
     ...BASE,
     citySlug: 'fort-collins', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Fort Collins Website Redesign | OnwardCraft',
+    titleTag: 'Fort Collins Website Redesign | Keep Every Ranking | OnwardCraft',
     metaDescription:
-      'Redesign your Fort Collins website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail.',
+      'Fort Collins Website Redesign that keeps every ranking you have earned. Faster, mobile-first rebuilds with SEO-safe migration that convert more and hold up in hail.',
     eyebrow: 'Website Redesign · Fort Collins-Loveland',
-    h1: 'Redesign your Fort Collins website without losing your rankings',
+    h1: 'Fort Collins Website Redesign that keeps every ranking you have earned',
     h2Exact: 'Fort Collins Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Fort Collins homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Fort Collins contractor sites for speed and conversions, build them to survive a hail-season traffic surge, and migrate with the redirects and SEO care that protect the traffic you have spent years building.",
+      "A Fort Collins Website Redesign usually goes one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Fort Collins contractor sites mobile-first for speed and conversions, build them to survive a hail-season traffic surge, and run an SEO-safe migration with the redirects and care that protect the traffic you have spent years building, without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const fortCollinsLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, since nearly all your Fort Collins traffic is on a phone and that speed lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content are yours, with no platform lock-in of any kind to trap you." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project, and any maintenance or SEO afterward runs month-to-month. You can leave whenever you like." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current Fort Collins site is costing you in leads and rankings, what the rebuild should fix, and a fixed-price quote with a timeline and a safe 301 migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current Fort Collins site is costing you in leads and rankings, what the rebuild should fix, and a fixed-price quote with a timeline and a safe 301 migration plan. It is the clearest way to see whether a Fort Collins Website Redesign pays for itself." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const fortCollinsCity = {
 
   titleTag: 'Fort Collins Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Fort Collins contractors. Get found, get booked, and own your leads instead of renting them. Built for Front Range hail.',
+    'Fort Collins marketing for contractors: web design, SEO, and local SEO that get you found and booked. Own your leads instead of renting them. Built for Front Range hail.',
 
   eyebrow: 'Fort Collins · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Fort Collins contractors found and booked',
+  h1: 'Fort Collins marketing for contractors: get ranked, get booked',
   h2Exact: 'Fort Collins Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Northern Colorado's fast-growing, hail-driven foothills market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const fortCollinsCity = {
   primaryCta: 'Get my free Fort Collins audit',
 
   intro:
-    "If you run a contracting business in Fort Collins, you are fighting for attention in a college-educated, craft-beer foothills town that sits squarely in Hail Alley. The I-25 corridor from Fort Collins down to Greeley is one of the fastest-growing stretches in Colorado, and every new block in Timnath or Windsor brings transplant homeowners who search before they call. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the next hail storm sends demand through the roof. Here is exactly how we help Fort Collins contractors pull that off.",
+    "Fort Collins marketing for contractors comes down to getting found and getting booked in a college-educated, craft-beer foothills town that sits squarely in Hail Alley. The I-25 corridor from Fort Collins down to Greeley is one of the fastest-growing stretches in Colorado, and every new block in Timnath or Windsor brings transplant homeowners who search before they call. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the next hail storm sends demand through the roof. Web design and SEO for Fort Collins contractors is the whole of what we do, and here is exactly how we help you pull it off.",
   aioQuestion: 'How do Fort Collins contractors get more leads online?',
   aioAnswer:
     "Fort Collins contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Northern Colorado is growing fast along the I-25 corridor and demand spikes hard during Hail Alley storm season, the contractors who look established and are already ranking before the first supercell win the most work.",
@@ -422,6 +422,6 @@ export const fortCollinsCity = {
     { q: 'Why does hail season matter for my marketing?', a: "When a supercell rolls across Northern Colorado in May, June, or July, demand for roofing, gutters, and restoration spikes inside an afternoon and the backlog can run all summer. Ranking takes months to build, so the contractors already visible before the storm take that work. We get you in place ahead of season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time Fort Collins builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We settle the exact scope for your shop in the free audit." },
     { q: 'Which Fort Collins areas do you serve?', a: "All of Northern Colorado: Old Town, Midtown Fort Collins, Loveland, Windsor, Timnath, Wellington, Severance, Greeley, Johnstown, Berthoud and more." },
-    { q: 'Where should I start?', a: "Start with a free Fort Collins audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Fort Collins audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It is the simplest first step into Fort Collins marketing for contractors that actually books jobs. No pitch deck, just a plan." },
   ],
 };

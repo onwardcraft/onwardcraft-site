@@ -111,9 +111,9 @@ export const fortWorthLocations = [
     citySlug: 'fort-worth', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Fort Worth Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your trade in Fort Worth and three businesses fill the map. We put your business in that three before the next hail storm rolls through.',
+      'Fort Worth Local SEO that ranks contractors in the Google Map Pack before the next hail storm. Win the local 3-pack and own the "near me" searches.',
     eyebrow: 'Local SEO · Fort Worth, TX',
-    h1: 'When Fort Worth searches for your trade, be the first name on the map',
+    h1: 'Fort Worth Local SEO that ranks you above the competition from the Stockyards to Southlake',
     h2Exact: 'Fort Worth Local SEO Company',
     heroSubhead:
       "Google hands the map to three businesses when someone taps \"near me.\" Everyone underneath is effectively gone. In a hail-driven town like Fort Worth, we lift you into that top three for your neighborhoods before the next storm breaks, so the call rings your phone instead of the competitor who outranked you.",
@@ -167,7 +167,7 @@ export const fortWorthLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A growing share of \"near me\" research now begins inside AI rather than classic search. We structure your content and schema so those engines can read your business, trust it, and cite it." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is roughly how long local SEO needs to show real movement. After that you go month-to-month. If we are not delivering, you walk." },
       { q: 'How does this get me off Angi and HomeAdvisor leads?', a: "Those platforms sell the same Fort Worth homeowner, especially after a storm, to four contractors and bill each of you to fight on price. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less because the work arrives directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see what Fort Worth Local SEO can do for your calendar. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const fortWorthLocations = [
     metaDescription:
       'Fort Worth SEO that ranks contractors on Google and delivers leads you own. Storm-season ready, Spanish-language capable, and no lock-in contracts.',
     eyebrow: 'SEO Services · Fort Worth, TX',
-    h1: 'Push your Fort Worth business to the top of Google and hold it there',
+    h1: 'Fort Worth SEO that climbs you past the competition on Google through every hail season',
     h2Exact: 'Fort Worth SEO Company',
     heroSubhead:
       "Ads die the instant you stop paying. SEO does the reverse: rank once for what your Fort Worth customers search and the leads keep landing, through hail season, through the summer heat, through the suburban boom from Keller all the way to Crowley.",
@@ -233,7 +233,7 @@ export const fortWorthLocations = [
       { q: 'Can you help me rank in Spanish for Hispanic customers?', a: "Yes. Roughly 42% of Fort Worth residents are Hispanic and many search in Spanish. Optimizing for Spanish-language searches across neighborhoods like Saginaw, Haltom City, and parts of central Fort Worth is a serious edge most contractors ignore." },
       { q: 'Which areas around Fort Worth do you cover?', a: "Fort Worth proper plus the surrounding suburbs: Keller, Southlake, Mansfield, Burleson, Crowley, North Richland Hills, Haltom City, Saginaw, and Benbrook, with genuine local pages for each rather than one generic Fort Worth page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. The more you own your search visibility, especially before storm season, the less you depend on paying brokers for shared leads that four competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It shows you exactly what Fort Worth SEO can do for your organic traffic and page-one visibility. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const fortWorthLocations = [
     metaDescription:
       'Fort Worth web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in a hail market with fast-growing suburbs.',
     eyebrow: 'Web Design · Fort Worth, TX',
-    h1: 'Fort Worth web design that turns visitors into booked jobs',
+    h1: 'Fort Worth web design that loads fast and books more jobs from Keller to Crowley',
     h2Exact: 'Fort Worth Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure. We build Fort Worth contractors fast, mobile-first sites engineered to convert visitors into booked work: ready for storm season, ready for suburban growth, and built to carry Fort Worth's own identity rather than a Dallas hand-me-down.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Fort Worth contractor websites bleed leads quietly: slow on a phone, a call button buried somewhere, no clear offer. Web design done right repairs every bit of that. We build sites that load fast, look like the pro you already are, and turn Keller-to-Crowley visitors into booked jobs, built to stand out in a market where hail storms, suburban growth, and a 42% Hispanic population create demand spikes that reward whoever is best positioned.",
+      "Fort Worth web design is the difference between a site that books jobs and one that quietly bleeds leads: slow on a phone, a call button buried somewhere, no clear offer. We build mobile-first contractor websites that load fast, look like the pro you already are, and turn Keller-to-Crowley visitors into booked jobs, built to stand out in a market where hail storms, suburban growth, and a 42% Hispanic population create demand spikes that reward whoever is best positioned.",
     aioQuestion: 'What makes a good contractor website in Fort Worth?',
     aioAnswer:
       "A strong Fort Worth contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the exact neighborhoods and suburbs you serve. Because storm-chaser competition runs hot and most searches happen on mobile, a fast mobile site with obvious storm and emergency CTAs, plus local content that carries Fort Worth's own identity rather than a generic Dallas page, is what separates a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const fortWorthLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO is month-to-month, and you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Fort Worth site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Fort Worth web design should include for a contractor, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const fortWorthLocations = [
     citySlug: 'fort-worth', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Fort Worth Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Fort Worth website without losing rankings: faster, mobile-first rebuilds that convert more visitors into booked jobs and stay storm-ready.',
+      'Fort Worth Website Redesign with a careful, SEO-safe migration: faster, mobile-first rebuilds that convert more visitors into booked jobs without losing rankings.',
     eyebrow: 'Website Redesign · Fort Worth, TX',
-    h1: 'Redesign your Fort Worth website without losing your rankings',
+    h1: 'Fort Worth Website Redesign done with a careful, SEO-safe migration that keeps your hail-season rankings',
     h2Exact: 'Fort Worth Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week, and in a hail market it costs you a wave of work every storm season. We redesign Fort Worth contractor sites to convert more and load faster, and we migrate with care so you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail in one of two ways: the site looks sharper but converts the same, or it launches and the rankings evaporate overnight. We do neither. We redesign Fort Worth contractor sites for speed and conversions, build them to carry Fort Worth's own identity instead of a generic Texas template, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Fort Worth website redesign fails in one of two ways: the site looks sharper but converts the same, or it launches and the rankings evaporate overnight. We do neither. We rebuild Fort Worth contractor sites for speed and conversions, build them to carry Fort Worth's own identity instead of a generic Texas template, and run an SEO-safe migration with the redirects and care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done properly, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const fortWorthLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings, and that matters most when post-storm traffic lands overnight." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and the SEO-safe migration plan that makes a Fort Worth Website Redesign worth it. No pressure, just a plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const fortWorthCity = {
 
   titleTag: 'Fort Worth Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Fort Worth contractors. Get found, get booked, and own your leads, built for hail alley and fast-growing suburbs.',
+    'Fort Worth marketing for contractors: web design, SEO, and local SEO that gets you found, booked, and off rented leads, built for hail alley and fast-growing suburbs.',
 
   eyebrow: 'Fort Worth · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Fort Worth contractors found and booked',
+  h1: 'Fort Worth marketing for contractors that fills your calendar before the next hail storm',
   h2Exact: 'Fort Worth Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Fort Worth's hail seasons, fast-growing suburbs, and 42% Hispanic market. One team to get you ranking, converting, and off the rented-lead treadmill, all before the next storm hits.",
@@ -386,7 +386,7 @@ export const fortWorthCity = {
   primaryCta: 'Get my free Fort Worth audit',
 
   intro:
-    "Run a contracting business in Fort Worth and you are working a market unlike anywhere else in Texas. Fort Worth is not Dallas. It has its own neighborhoods, its own culture, and its own identity, and locals will set you straight on that. More than that, it sits in the heart of North Texas hail alley, so storm-driven demand spikes several times a year, fast-growing suburbs from Keller to Crowley keep funneling in new homeowners, and roughly 42% of residents are Hispanic with real Spanish-language search demand. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve, well before the storms arrive.",
+    "Fort Worth marketing for contractors works differently than anywhere else in Texas, because the market does. Fort Worth is not Dallas. It has its own neighborhoods, its own culture, and its own identity, and locals will set you straight on that. More than that, it sits in the heart of North Texas hail alley, so storm-driven demand spikes several times a year, fast-growing suburbs from Keller to Crowley keep funneling in new homeowners, and roughly 42% of residents are Hispanic with real Spanish-language search demand. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve, well before the storms arrive.",
   aioQuestion: 'How do Fort Worth contractors get more leads online?',
   aioAnswer:
     "Fort Worth contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches, including storm damage and hail repair, and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because roughly 42% of residents are Hispanic and storm-driven demand spikes are a regular feature here, contractors who rank before storm season and surface in Spanish searches win far more work than those leaning on generic Texas templates and rented leads.",
@@ -422,6 +422,6 @@ export const fortWorthCity = {
     { q: "Why is Fort Worth's market different?", a: "Fort Worth sits in North Texas hail alley, some of the most frequent and damaging hail in the country, so storm-driven demand spikes are a regular feature here. It also has roughly 42% Hispanic residents with real Spanish-language search demand, and fast-growing suburbs from Keller to Crowley feeding a constant stream of new homeowners. This is not a generic Texas market, and it is not Dallas." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Fort Worth areas do you serve?', a: "Fort Worth proper plus the surrounding suburbs: Keller, Southlake, Mansfield, Burleson, Crowley, North Richland Hills, Haltom City, Saginaw, and Benbrook, and the historic Fort Worth neighborhoods: Stockyards, Camp Bowie, Mistletoe Heights, Ryan Place, Fairmount, and Near Southside." },
-    { q: 'Where should I start?', a: "Start with a free Fort Worth audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, including what you should have in place before storm season. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Fort Worth audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, including what you should have in place before storm season. It is the simplest way to see what Fort Worth marketing for contractors can do for your calendar. No pitch deck, just a plan." },
   ],
 };

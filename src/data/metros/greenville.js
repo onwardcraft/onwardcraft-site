@@ -109,17 +109,17 @@ export const greenvilleLocations = [
   {
     ...BASE,
     citySlug: 'greenville', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Greenville SC Local SEO Company | OnwardCraft',
+    titleTag: 'Greenville Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'When Greenville searches your service, three businesses show on the map. We put you in those three so the summer-heat call lands with you, not a competitor.',
+      'Greenville Local SEO that ranks you above the competition in the Map Pack, so the summer-heat "near me" call lands with you, not a competitor.',
     eyebrow: 'Local SEO · Greenville-Spartanburg',
-    h1: 'When Greenville searches for what you do, be the first name they find',
+    h1: 'Greenville Local SEO that ranks you above the competition from Augusta Road to Greer',
     h2Exact: 'Greenville SC Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when a homeowner searches \"near me,\" and everyone underneath them is invisible. We muscle you into that top three so the call lands with you instead of whoever ranks first, and so you are already there when humid-summer heat, a spring storm line, or another wave of BMW-plant arrivals lights up every Upstate phone.",
     primaryCta: 'Get my free Greenville audit',
     intro:
-      "Greenville local SEO really comes down to one moment: a homeowner in Augusta Road or Simpsonville types your service plus \"near me,\" and either you are one of the three businesses Google pinned to the map or you are not. Most people tap one of those three and never scroll. The Upstate keeps filling up with high-income arrivals from the BMW plant, Michelin, and the German supplier base, and those buyers know how to research before they hire. Becoming one of those three is the whole game. Here is exactly how we get you there.",
+      "Greenville Local SEO really comes down to one moment: a homeowner in Augusta Road or Simpsonville types your service plus \"near me,\" and either you are one of the three businesses in the Google Map Pack or you are not. Most people tap one of those three and never scroll. The Upstate keeps filling up with high-income arrivals from the BMW plant, Michelin, and the German supplier base, and those buyers know how to research before they hire on a local search. Winning the local 3-pack is the whole game. Here is exactly how local SEO services get you there.",
     aioQuestion: 'How do Greenville SC businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile tuned to the exact services and Upstate neighborhoods you want; name, address, and phone details that match everywhere online; a steady flow of real reviews; and local content built around genuine Greenville-Spartanburg neighborhoods. Because so many buyers here are manufacturing professionals who research hard before calling, trust signals like reviews and an established presence carry extra weight.",
@@ -167,7 +167,7 @@ export const greenvilleLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts in AI tools instead of classic search, and Greenville's engineering-heavy, tech-comfortable manufacturing crowd is ahead of the curve on it. We structure your content and schema so those engines can read, trust, and cite your business. Here that is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because the Greenville Map Pack rarely shifts faster than that, and reviews and citations need a quarter to compound. After that you go month-to-month. If the calls are not landing, you walk, and the pressure stays on us to keep earning the spot." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those brokers sell the same Mauldin or Greer homeowner to three contractors and bill all of you. We build the asset they cannot: a Google profile, real Upstate rankings, and a review base that send the call to you alone. As that pipeline fills, the broker invoices become something you choose, not something you survive on." },
-      { q: "What's in the free audit?", a: "We map where you sit in the Map Pack today across each Upstate service area, name the competitors stacked above you and the trust signals carrying them, list the fixes that move you fastest, and lay out a realistic 90-to-180-day path with the numbers run for your shop. No pitch deck, just a straight read on the work ahead." },
+      { q: "What's in the free audit?", a: "We map where you sit in the Map Pack today across each Upstate service area, name the competitors stacked above you and the trust signals carrying them, list the fixes that move you fastest, and lay out a realistic 90-to-180-day path with the numbers run for your shop. No pitch deck, just a straight read on what Greenville Local SEO can do to rank you on the map." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const greenvilleLocations = [
   {
     ...BASE,
     citySlug: 'greenville', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Greenville SC SEO Company | OnwardCraft',
+    titleTag: 'Greenville SEO Company | Rank Past the Competition | OnwardCraft',
     metaDescription:
-      'Greenville SC SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in, built for Upstate summer-heat and storm demand.',
+      'Greenville SEO that climbs contractors past the competition on Google and delivers leads you own. Revenue-tied reporting, no lock-in, built for Upstate demand.',
     eyebrow: 'SEO Services · Greenville-Spartanburg',
-    h1: 'Get your Greenville business to the top of Google and keep it there',
+    h1: 'Greenville SEO that climbs you past the competition on Google, from downtown to Simpsonville',
     h2Exact: 'Greenville SC SEO Company',
     heroSubhead:
       "Ads die the second you stop paying. SEO does the reverse: rank once for what your Greenville customers search and the leads keep arriving for months. We build that ranking and tie every report to real calls and booked jobs, in a market where BMW engineers and new Upstate arrivals expect a professional before they dial.",
     primaryCta: 'Get my free Greenville SEO audit',
     intro:
-      "Greenville SEO comes down to one blunt question: when someone searches what you do, are you on page one or page two? In this market page two might as well be page fifty. We get contractors ranking for the money keywords in a fast-growing, manufacturing-anchored metro, and we measure the whole thing in leads, not traffic that never picks up the phone.",
+      "Greenville SEO comes down to one blunt question: when someone searches what you do, are you on page one or page two? In this market page two might as well be page fifty. As a Greenville SEO company we get contractors ranking on Google for the money keywords in a fast-growing, manufacturing-anchored metro, and we measure the whole thing in booked leads and organic traffic that actually picks up the phone, not vanity numbers.",
     aioQuestion: 'How do Greenville SC businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Upstate sources. In a market shaped by high-income manufacturing professionals who research before spending and a fast-growing residential base, strong reviews and authoritative local content are two of the quickest ways to pull ahead.",
@@ -233,7 +233,7 @@ export const greenvilleLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. Greenville's engineering and manufacturing community is already at home researching through AI tools. We structure your content and schema so AI engines can read, trust, and cite your business by name, not just classic search results." },
       { q: 'Which areas around Greenville do you cover?', a: "All of the Greenville-Spartanburg metro and the surrounding Upstate: Mauldin, Simpsonville, Greer, Taylors, Duncan, Boiling Springs, Inman, Fountain Inn, Travelers Rest, Easley, Anderson and more, with genuine local pages rather than one generic Greenville page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building organic rankings and a Google presence that route the Upstate homeowner straight to you. The stronger your own search visibility gets, the less you have to keep buying the same shared lead three Greenville competitors already paid for." },
-      { q: "What's in the free SEO audit?", a: "Your current rankings on the keywords that drive Greenville revenue, the competitors outranking you and how, the highest-impact fixes, and a realistic timeline with the numbers modeled for your shop. No pitch deck, just a diagnosis of where the work is." },
+      { q: "What's in the free SEO audit?", a: "Your current rankings on the keywords that drive Greenville revenue, the competitors outranking you and how, the highest-impact fixes, and a realistic timeline with the numbers modeled for your shop. No pitch deck, just a straight diagnosis of where the work is and how Greenville SEO gets you onto page one." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const greenvilleLocations = [
   {
     ...BASE,
     citySlug: 'greenville', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Greenville SC Web Design Company | OnwardCraft',
+    titleTag: 'Greenville Web Design Company | Fast Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      "Greenville SC web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and ready for Upstate summer-heat demand surges.",
+      "Greenville Web Design that loads fast and books more jobs: mobile-first sites built for contractors and ready for Upstate summer-heat demand surges.",
     eyebrow: 'Web Design · Greenville-Spartanburg',
-    h1: 'Greenville web design that turns visitors into booked jobs',
+    h1: 'Greenville Web Design that loads fast and books more jobs across the Upstate',
     h2Exact: 'Greenville SC Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just an expensive brochure. We build Greenville contractors fast, mobile-first sites engineered to turn visitors into booked work, and tough enough to hold up when a humid-summer heat wave or a spring storm line sends your phone into overdrive.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Greenville contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. Web design done right closes all of those leaks. The Upstate has a distinctive homeowner mix, from BMW and Michelin transplants to longtime Greenville families to new arrivals chasing the revived downtown, and they all research online before they hire. We build sites that load fast, look like the professional you actually are, and turn Augusta-Road-to-Simpsonville visitors into booked jobs.",
+      "Greenville Web Design is the difference between a website that books jobs and one that bleeds leads quietly: slow on a phone, call button buried, no clear offer anywhere. A contractor website done right closes all of those leaks. The Upstate has a distinctive homeowner mix, from BMW and Michelin transplants to longtime Greenville families to new arrivals chasing the revived downtown, and they all research online before they hire. We build mobile-first, fast-loading sites that look like the professional you actually are and turn Augusta-Road-to-Simpsonville visitors into booked jobs.",
     aioQuestion: 'What makes a good contractor website in Greenville SC?',
     aioAnswer:
       "A good Greenville contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and speaks to a homeowner base that researches carefully before spending, including the manufacturing professionals relocating for BMW, Michelin, and Bosch. Because most Greenville searches happen on mobile, speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const greenvilleLocations = [
       { q: 'What platform do you build on?', a: "Usually WordPress or Webflow, whichever fits your trade and is something you can manage without calling us every week. We recommend the right fit for your Greenville business in the free consult and walk you through the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every Greenville build comes with launch support, and after that we offer affordable monthly maintenance covering updates, speed, and security so the site keeps performing through peak season." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time, fixed-price project. Any maintenance or SEO you add afterward runs month-to-month, so you are free to step away whenever it suits your Greenville business." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Greenville site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Greenville site should include, and a fixed-price quote with a timeline. No pressure, just a plan for the Greenville Web Design that turns your visitors into booked jobs." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const greenvilleLocations = [
   {
     ...BASE,
     citySlug: 'greenville', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Greenville SC Website Redesign | OnwardCraft',
+    titleTag: 'Greenville Website Redesign | SEO-Safe Migration | OnwardCraft',
     metaDescription:
-      'Redesign your Greenville SC website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in peak season.',
+      'Greenville Website Redesign done with a careful, SEO-safe migration. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in peak season.',
     eyebrow: 'Website Redesign · Greenville-Spartanburg',
-    h1: 'Redesign your Greenville website without losing your rankings',
+    h1: 'Greenville Website Redesign done with a careful, SEO-safe migration that keeps every ranking',
     h2Exact: 'Greenville SC Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Greenville homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Greenville contractor sites for speed and conversions, build them to survive summer-heat and storm-season surges, and migrate with the redirects and SEO care that protect the traffic you have spent years building. In a market where BMW and Michelin executives judge your professionalism by your website before they even call, a weak first impression costs real money.",
+      "A Greenville Website Redesign usually goes one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign your Greenville website for speed and conversions, rebuild it to survive summer-heat and storm-season surges, and run a mobile-first rebuild with the redirects and SEO-safe migration that protect the traffic you have spent years building. In a market where BMW and Michelin executives judge your professionalism by your website before they even call, a weak first impression costs real money.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO through a redesign by holding your URL structure steady (or mapping 301 redirects for every page that changes), carrying over your existing content and metadata, migrating your schema, and testing the whole build on staging before it goes live. Handled that way, a redesign keeps your rankings and tends to lift them, because the new site is faster, mobile-first, and better organized than the one it replaced.",
@@ -365,7 +365,7 @@ export const greenvilleLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first for the phone where nearly all Greenville traffic lives, then tune load speed and Core Web Vitals so the site lifts both conversions and rankings instead of dragging them." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content all belong to you. No platform lock-in of any kind, and nobody holding your Greenville web presence hostage." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time, fixed-price project. Any maintenance or SEO you add afterward runs month-to-month, so you can step away whenever you choose." },
-      { q: "What's in the free redesign audit?", a: "A straight read on what your current Greenville site is costing you in leads and rankings, what the rebuild needs to fix, and a fixed-price quote with a timeline and a migration plan that protects the traffic you already have." },
+      { q: "What's in the free redesign audit?", a: "A straight read on what your current Greenville site is costing you in leads and rankings, what the rebuild needs to fix, and a fixed-price quote with a timeline. You leave knowing exactly what a Greenville Website Redesign should cost you and the migration plan that protects the traffic you already have." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const greenvilleCity = {
 
   titleTag: 'Greenville SC Marketing for Contractors | OnwardCraft',
   metaDescription:
-    "Web design, SEO, and local SEO for Greenville SC contractors. Get found, get booked, and own your leads instead of renting them, all built for Upstate demand.",
+    "Greenville marketing for contractors: web design, SEO, and local SEO that gets you found and booked. Own your leads instead of renting them, all built for Upstate demand.",
 
   eyebrow: 'Greenville SC · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Greenville contractors found and booked',
+  h1: 'Greenville marketing for contractors that fills your calendar across the Upstate',
   h2Exact: 'Greenville SC Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Greenville-Spartanburg's fast-growing, manufacturing-powered market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const greenvilleCity = {
   primaryCta: 'Get my free Greenville audit',
 
   intro:
-    "If you run a contracting business in Greenville, you are fighting for attention in one of the fastest-growing metros in the Southeast, anchored by BMW's plant up in Spartanburg, Michelin's North American headquarters, and a steady run of new residents drawn by jobs, affordability, and the revived downtown around Falls Park. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before a humid-summer heat wave or a spring storm line drives demand through the roof. Here is exactly how we help Greenville contractors pull that off.",
+    "Greenville marketing for contractors means fighting for attention in one of the fastest-growing metros in the Southeast, anchored by BMW's plant up in Spartanburg, Michelin's North American headquarters, and a steady run of new residents drawn by jobs, affordability, and the revived downtown around Falls Park. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before a humid-summer heat wave or a spring storm line drives demand through the roof. Here is exactly how we help Greenville contractors pull that off.",
   aioQuestion: 'How do Greenville SC contractors get more leads online?',
   aioAnswer:
     "Greenville contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because the Upstate's homeowner base includes high-income manufacturing professionals who research carefully before spending, strong reviews and neighborhood-specific content carry extra weight, and seasonal peaks like summer-heat HVAC demand and spring storm roofing reward the contractor already ranking before the surge hits.",
@@ -422,6 +422,6 @@ export const greenvilleCity = {
     { q: 'Why does seasonal demand matter for my marketing?', a: "When a humid Greenville summer pushes the heat index past 95, HVAC searches spike overnight. When spring thunderstorms roll through the foothills, roofing and restoration demand surges. Ranking takes months to build, so the contractors already visible before the season take the work. We get you in place ahead of time." },
     { q: 'How much does it cost to work with you?', a: "Greenville websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000 with no long contract. We lock the exact scope for your shop in the free audit before you commit a dollar." },
     { q: 'Which Greenville areas do you serve?', a: "All of the Greenville-Spartanburg metro and the surrounding Upstate: Augusta Road, Parkins Mill, North Main, Mauldin, Simpsonville, Greer, Taylors, Duncan, Boiling Springs, Inman, Fountain Inn, Travelers Rest and more." },
-    { q: 'Where should I start?', a: "Start with a free Greenville audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Greenville audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan for Greenville marketing for contractors that actually books jobs." },
   ],
 };

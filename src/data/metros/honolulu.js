@@ -111,9 +111,9 @@ export const honoluluLocations = [
     citySlug: 'honolulu', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Honolulu Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Honolulu and three businesses show up on the map. We get you into those three, so the island call lands with you, not a competitor.',
+      'Honolulu Local SEO that puts your crew in the Map Pack when Oahu searches "near me." Win the local 3-pack so the island call lands with you, not a competitor.',
     eyebrow: 'Local SEO · Honolulu, Hawaii',
-    h1: 'When Honolulu searches for what you do, be the first name they find',
+    h1: 'Honolulu Local SEO that turns "near me" searches from Kaimuki to Kapolei into a ringing phone',
     h2Exact: 'Honolulu Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when an Oahu homeowner searches \"near me,\" and everyone below them is effectively missing. In a market where land is scarce, homes top $850,000, and salt air keeps maintenance constant, we get you into that top three for your neighborhoods so the call lands with you instead of whoever ranked first.",
@@ -167,7 +167,7 @@ export const honoluluLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research now starts inside AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. On Oahu it is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you go, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less because the work arrives directly, which matters a lot in a market where every job is a high-dollar one." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your Honolulu neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your Honolulu neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the honest first step of Honolulu Local SEO that earns you the top of the local 3-pack. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const honoluluLocations = [
     metaDescription:
       'Honolulu SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in, built for an island market.',
     eyebrow: 'SEO Services · Honolulu, Hawaii',
-    h1: 'Get your Honolulu business to the top of Google and keep it there',
+    h1: 'Honolulu SEO that ranks you for the island searches that book real jobs',
     h2Exact: 'Honolulu SEO Company',
     heroSubhead:
       "Ads switch off the second your card stops. SEO runs the other way: rank once for what your Oahu customers search and the leads keep arriving. We build that ranking and tie every report to real calls and booked jobs, in a market where a single job is worth serious money.",
@@ -233,7 +233,7 @@ export const honoluluLocations = [
       { q: 'Can you help me rank for military community searches?', a: "Yes. Pearl Harbor, Hickam, Schofield Barracks, and Marine Corps Base Hawaii rotate thousands of families through Oahu every year. They search Google the week their orders land and need a contractor fast. We build content and landing pages that speak straight to that audience and the urgency they are under." },
       { q: 'Which areas around Honolulu do you cover?', a: "All of Oahu's key markets: Honolulu, Kailua, Kaneohe, Pearl City, Aiea, Ewa Beach, Kapolei, Mililani, Waipahu, Hawaii Kai, and the North Shore, with real local pages rather than one generic Honolulu page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads directly to you. In a high-value market like Honolulu, the more you own your search visibility, the less you depend on paying brokers for leads three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "A straight read on where you rank across Oahu today, which island competitors are outranking you and why, the fixes that move the needle fastest, and a realistic timeline with the numbers run for your trade. No slide deck, just a diagnosis you can act on." },
+      { q: "What's in the free SEO audit?", a: "A straight read on where you rank across Oahu today, which island competitors are outranking you and why, the fixes that move the needle fastest, and a realistic timeline with the numbers run for your trade. It is the practical start of Honolulu SEO that lands you on page one for the money keywords your customers actually search. No slide deck, just a diagnosis you can act on." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const honoluluLocations = [
     metaDescription:
       'Honolulu web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in a high-value island market.',
     eyebrow: 'Web Design · Honolulu, Hawaii',
-    h1: 'Honolulu web design that turns visitors into booked jobs',
+    h1: 'Honolulu web design built to convert clicks from Kailua to Kapolei into calls',
     h2Exact: 'Honolulu Web Design Company',
     heroSubhead:
       "A good-looking website that never rings the phone is just a brochure. We build Oahu contractors fast, mobile-first sites engineered to turn visitors into booked work, in a market where homes top $850,000 and homeowners expect to see real island know-how before they ever call.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Honolulu contractor websites lose leads quietly: slow on a phone, call button buried, no clear offer, nothing that signals island experience. Web design done right closes every one of those gaps. We build sites that load fast, look like the professional you are, and turn Kaimuki-to-Kapolei visitors into booked jobs, with the kamaaina sense to connect with a community that is deeply Hawaiian, heavily Japanese and Filipino, and full of military families who need someone they can trust right now.",
+      "Honolulu web design is the difference between a brochure that sits quiet and a website that books work, because most contractor sites here lose leads slowly: slow on a phone, call button buried, no clear offer, nothing that signals island experience. Done right, a fast, mobile-first website design closes every one of those gaps. We build sites that load fast, look like the professional you are, and turn Kaimuki-to-Kapolei visitors into booked jobs, with the kamaaina sense to connect with a community that is deeply Hawaiian, heavily Japanese and Filipino, and full of military families who need someone they can trust right now.",
     aioQuestion: 'What makes a good contractor website in Honolulu?',
     aioAnswer:
       "A good Honolulu contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific Oahu neighborhoods you serve. Because most island searches happen on mobile and owners are protecting six- and seven-figure homes, the site has to signal island knowledge: salt-air experience, hurricane-season readiness, Hawaii code familiarity. A mainland template with a palm-tree stock photo dropped in fools no one here.",
@@ -299,7 +299,7 @@ export const honoluluLocations = [
       { q: 'What platform do you build on?', a: "Whatever fits your trade and that you can actually run yourself once we hand it over, usually WordPress or Webflow. We name the right fit for your Honolulu shop in the free consult and lay out the tradeoffs in plain terms." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that, including a pre-hurricane-season review if you want it." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time, fixed-price project. If you add monthly upkeep or SEO afterward, that runs month-to-month, so you are free to step away whenever it stops earning its keep." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Honolulu site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Honolulu site should include, and a fixed-price quote with a timeline. It is where Honolulu web design starts paying off, with a mobile-first plan that converts visitors into booked jobs. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const honoluluLocations = [
     citySlug: 'honolulu', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Honolulu Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Honolulu website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a high-value island market.',
+      'Honolulu Website Redesign that keeps every ranking you have earned. Faster, mobile-first rebuilds with an SEO-safe migration that convert more visitors into booked island jobs.',
     eyebrow: 'Website Redesign · Honolulu, Hawaii',
-    h1: 'Redesign your Honolulu website without losing your rankings',
+    h1: 'Honolulu Website Redesign that keeps every Oahu ranking you have earned',
     h2Exact: 'Honolulu Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for an Oahu homeowner to skip past. We redesign Honolulu contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you have earned in one of the highest-value markets in the country.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Honolulu contractor sites for speed and conversions, build them to show genuine island experience, and migrate with the redirects and SEO care that protect the traffic you already have. In a market where owners are guarding $850,000 homes, a site that signals trust and local knowledge is the line between a call and a bounce.",
+      "Honolulu Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Honolulu contractor sites for speed and conversions, build them to show genuine island experience, and run an SEO-safe migration with the redirects and care that protect the traffic you already have. In a market where owners are guarding $850,000 homes, a site that signals trust and local knowledge is the line between a call and a bounce.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. In Honolulu that also means safeguarding the neighborhood and service-area pages driving your local rankings, since those pages represent months of authority-building and should not be disrupted. Done right, a redesign holds your rankings and improves them.",
@@ -365,7 +365,7 @@ export const honoluluLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first, since that is where almost every Honolulu visitor finds you, and tune for quick load and clean Core Web Vitals, which lifts conversions and rankings alike." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content all stay in your hands. No platform that pens you in once the rebuild is done." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project, paid once. If you keep us on for upkeep or SEO afterward, that stays month-to-month so you can leave when it suits you." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan that protects your Honolulu neighborhood rankings." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline. It is where a Honolulu Website Redesign starts earning its keep, with an SEO-safe migration plan that protects the neighborhood rankings you have already built." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const honoluluCity = {
 
   titleTag: 'Honolulu Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Honolulu contractors. Get found, get booked, and own your leads instead of renting them, built for an island market.',
+    'Honolulu marketing for contractors: web design, SEO, and local SEO that get you found and booked. Own your leads instead of renting them, built for an island market.',
 
   eyebrow: 'Honolulu · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Honolulu contractors found and booked',
+  h1: 'Honolulu marketing for contractors: get ranked across Oahu, get booked',
   h2Exact: 'Honolulu Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Honolulu's high-value, salt-air, storm-aware island market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const honoluluCity = {
   primaryCta: 'Get my free Honolulu audit',
 
   intro:
-    "If you run a contracting business in Honolulu, you are working in one of the most unusual home-services markets in the country. Buildable land is scarce and median home values run past $850,000. Salt air and humidity wear every system down faster than anything on the mainland. Hurricane and king-tide season runs June through November, and when a storm forms, demand for roofing, storm prep, and emergency repairs climbs overnight. Materials arrive by ocean freight with real lead times. And Oahu carries one of the largest military populations in the country, with thousands of families rotating through every year who need a contractor the week they land. Winning here takes three things working together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here is how we help Honolulu contractors pull that off.",
+    "Honolulu marketing for contractors has to start with one fact: if you run a contracting business here, you are working in one of the most unusual home-services markets in the country. Buildable land is scarce and median home values run past $850,000. Salt air and humidity wear every system down faster than anything on the mainland. Hurricane and king-tide season runs June through November, and when a storm forms, demand for roofing, storm prep, and emergency repairs climbs overnight. Materials arrive by ocean freight with real lead times. And Oahu carries one of the largest military populations in the country, with thousands of families rotating through every year who need a contractor the week they land. Winning here takes three things working together: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here is how we help Honolulu contractors pull that off.",
   aioQuestion: 'How do Honolulu contractors get more leads online?',
   aioAnswer:
     "Honolulu contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. The island market opens its own doors: hurricane-season content that catches surge demand, military-community pages for new arrivals, and salt-air maintenance guides mainland competitors never write. Contractors who rank for those signals win work that stays invisible to anyone using a generic approach.",
@@ -422,6 +422,6 @@ export const honoluluCity = {
     { q: 'Why does the Honolulu market need a different approach?', a: "Because it is genuinely unlike any mainland market. Land is scarce and median homes top $850,000, so owners spend seriously to protect a property they cannot easily replace. Salt air and humidity wear every system down faster and demand more frequent service. Hurricane season drives demand spikes mainland templates never plan for. Materials carry ocean-freight lead times. And the military rotates thousands of families through Oahu yearly who search for a contractor the moment they land. A generic approach misses every bit of that." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long lock-in, which counts for something in a market where most other bills only climb. We confirm the exact scope in your free Oahu audit." },
     { q: 'Which Honolulu areas do you serve?', a: "All of Oahu's key markets: Honolulu (Kaimuki, Manoa, Nuuanu, Makiki), Kailua, Kaneohe, Pearl City, Aiea, Ewa Beach, Kapolei, Mililani, Waipahu, Hawaii Kai, and the North Shore, with real neighborhood pages rather than one generic Honolulu page." },
-    { q: 'Where should I start?', a: "Start with a free Honolulu audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan built for the island market." },
+    { q: 'Where should I start?', a: "Start with a free Honolulu audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just Honolulu marketing for contractors built around the island market and the trades you work in." },
   ],
 };

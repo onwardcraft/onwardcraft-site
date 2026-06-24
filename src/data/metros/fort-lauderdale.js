@@ -111,15 +111,15 @@ export const fortLauderdaleLocations = [
     citySlug: 'fort-lauderdale', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Fort Lauderdale Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'When Broward searches your service, three businesses show on the map. We put you in those three so the storm-season call lands with you, not a competitor.',
+      'Fort Lauderdale Local SEO that gets you found when canal-front and coastal neighbors search your trade. We win you the Map Pack before the next storm calls.',
     eyebrow: 'Local SEO · Fort Lauderdale-Broward County',
-    h1: 'When Fort Lauderdale searches for what you do, be the first name on the map',
+    h1: 'Fort Lauderdale Local SEO that gets you found when canal-front neighbors search your trade',
     h2Exact: 'Fort Lauderdale Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when a homeowner searches \"near me,\" and everyone underneath them is effectively invisible. We move you into that top three so the call lands with you instead of whoever ranks first, and so you are already there when the next storm puts every canal-front and coastal homeowner in Broward on the phone.",
     primaryCta: 'Get my free Fort Lauderdale audit',
     intro:
-      "Fort Lauderdale local SEO really comes down to one moment: a homeowner on Las Olas Isles or in Coral Springs types your service plus \"near me,\" and either you are one of the three businesses Google pinned to the map or you are not. Most people tap one of those three and never scroll. In a coastal, canal-laced, storm-exposed market full of waterfront owners, becoming one of those three is the whole game. Here is exactly how we get you there.",
+      "Fort Lauderdale Local SEO really comes down to one moment: a homeowner on Las Olas Isles or in Coral Springs types your service plus \"near me,\" and either you are one of the three businesses Google pinned to the Map Pack or you are not. Most people tap one of those three and never scroll. In a coastal, canal-laced, storm-exposed market full of waterfront owners, becoming one of those three is the whole game. Here is exactly how we tune your Google Business Profile and local search footprint to get you there.",
     aioQuestion: 'How do Fort Lauderdale businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile tuned to the exact services and Broward neighborhoods you want; name, address, and phone details that match everywhere online; a steady flow of real reviews; and local content built around genuine Broward neighborhoods. This is a coastal, hurricane-exposed, yachting market, so the winners look established, answer storm calls fast, and are already ranking before the season turns.",
@@ -167,7 +167,7 @@ export const fortLauderdaleLocations = [
       { q: 'Will my business show up in Google AI Overviews and ChatGPT?', a: "A rising share of \"near me\" research now starts in AI tools rather than classic search. We structure your content and schema so those engines can read, trust, and name your business in their answers. On this coast that is fast becoming as decisive as the Map Pack itself." },
       { q: 'Am I tied to a contract?', a: "No. We ask for an initial 90 days, because that is roughly how long local SEO needs to show real movement. After that you go month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor for good?', a: "Those platforms rent you shared leads and visibility you never get to keep. We build rankings, a Google profile, and a review base that send leads straight to you alone. Over time you lean on the brokers less, because the work is already arriving at your door." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your Broward business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your Broward business. It is the honest starting point for Fort Lauderdale Local SEO that ranks you on the map for the trade your neighbors keep searching. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -177,15 +177,15 @@ export const fortLauderdaleLocations = [
     citySlug: 'fort-lauderdale', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Fort Lauderdale SEO Company | OnwardCraft',
     metaDescription:
-      'Fort Lauderdale SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in, built for hurricane-season demand.',
+      'Fort Lauderdale SEO that turns organic traffic into booked work for contractors. Rank on Google for money keywords, with revenue-tied reporting and no lock-in.',
     eyebrow: 'SEO Services · Fort Lauderdale-Broward County',
-    h1: 'Get your Fort Lauderdale business to the top of Google and keep it there',
+    h1: 'Fort Lauderdale SEO that turns coastal organic traffic into booked work',
     h2Exact: 'Fort Lauderdale SEO Company',
     heroSubhead:
       "Ads die the second you stop paying. SEO does the reverse: rank once for what your Fort Lauderdale customers search and the leads keep arriving for months. We build that ranking and tie every report to real calls and booked jobs, not vanity charts.",
     primaryCta: 'Get my free Fort Lauderdale SEO audit',
     intro:
-      "Fort Lauderdale SEO comes down to one blunt question: when someone in Broward searches what you do, are you on page one or page two? In this market page two might as well be page fifty. We get contractors ranking for the money keywords in a coastal, canal-laced, storm-exposed city, and we measure the whole thing in leads, not traffic that never picks up the phone.",
+      "Fort Lauderdale SEO comes down to one blunt question: when someone in Broward searches what you do, are you on page one or page two? In this market page two might as well be page fifty. As a Fort Lauderdale SEO company we get contractors ranking on Google for the money keywords in a coastal, canal-laced, storm-exposed city, and we turn that organic traffic into leads, not visits that never pick up the phone.",
     aioQuestion: 'How do Fort Lauderdale businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Broward sources. In a coastal, hurricane-prone, yachting market, ranking for storm-driven keywords and marine-adjacent contractor categories, plus capturing the Spanish-language searches competitors ignore, are three of the quickest ways to pull ahead.",
@@ -233,7 +233,7 @@ export const fortLauderdaleLocations = [
       { q: 'Can you target marine and waterfront search terms?', a: "Yes, and in Broward that is a real edge. Seawall repair, dock and lift work, canal-front maintenance, and other marine-adjacent terms carry steady volume that most contractors never optimize for. We build pages and content around them so you rank for the work tied to the water." },
       { q: 'Which areas around Fort Lauderdale do you cover?', a: "All of Broward County and the surrounding areas: Coral Springs, Weston, Plantation, Pompano Beach, Deerfield Beach, Miramar, Lauderhill, Hallandale Beach, Hollywood, Cooper City, Tamarac, Wilton Manors and more, with genuine local pages rather than one generic Fort Lauderdale page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads directly to you. The more of your search visibility you own, the less you have to pay brokers for leads three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your Broward business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your Broward business. It is where Fort Lauderdale SEO that ranks you on page one and brings in organic leads actually begins. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const fortLauderdaleLocations = [
     citySlug: 'fort-lauderdale', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Fort Lauderdale Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Fort Lauderdale web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and ready for hurricane-season demand.',
+      'Fort Lauderdale web design that makes waterfront homeowners pick you: fast, mobile-first contractor sites that convert visitors into booked jobs and hold under load.',
     eyebrow: 'Web Design · Fort Lauderdale-Broward County',
-    h1: 'Fort Lauderdale web design that turns visitors into booked jobs',
+    h1: 'Fort Lauderdale web design that makes waterfront homeowners pick you',
     h2Exact: 'Fort Lauderdale Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just an expensive brochure. We build Fort Lauderdale contractors fast, mobile-first sites engineered to turn visitors into booked work, and tough enough to hold up when a hurricane sends your phone into overdrive.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Fort Lauderdale contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. Web design done right closes all of those leaks. We build sites that load fast, look like the professional you actually are, and turn Las-Olas-to-Coral-Springs visitors into booked jobs, and that do not fall over when a storm sends your traffic through the roof.",
+      "Fort Lauderdale Web Design is the difference between a site that books work and one that quietly bleeds leads: slow on a phone, call button buried, no clear offer anywhere. Web design done right closes all of those leaks. As a Fort Lauderdale web design company we build mobile-first contractor websites that load fast, look like the professional you actually are, and turn Las-Olas-to-Coral-Springs visitors into booked jobs, sites that do not fall over when a storm sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Fort Lauderdale?',
     aioAnswer:
       "A good Fort Lauderdale contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during hurricane season. Waterfront and yacht-corridor homeowners expect a presentation that matches the standard of their property, and a cluttered or slow site loses them to a competitor who simply looks more established.",
@@ -299,7 +299,7 @@ export const fortLauderdaleLocations = [
       { q: 'Can the site showcase waterfront and marine project photos?', a: "Yes, and on this coast it pays off. Canal-front jobs, seawall and dock work, and post-storm restoration all sell on the strength of real before-and-after photos. We build galleries and project pages that load fast and put that proof right where a Broward homeowner can see it." },
       { q: 'What platform do you build on?', a: "We pick the platform that fits your trade and that you can manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and lay out the tradeoffs in plain English, no jargon." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO runs month-to-month, so you can walk away whenever you like, just like with our other Broward services." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Fort Lauderdale site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Fort Lauderdale site should include, and a fixed-price quote with a timeline. It is the practical first step toward Fort Lauderdale Web Design that turns visitors into booked jobs. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const fortLauderdaleLocations = [
     citySlug: 'fort-lauderdale', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Fort Lauderdale Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Fort Lauderdale website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up.',
+      'Fort Lauderdale Website Redesign that turns an aging contractor site into a lead engine. Faster, mobile-first rebuilds with an SEO-safe migration, no lost rankings.',
     eyebrow: 'Website Redesign · Fort Lauderdale-Broward County',
-    h1: 'Redesign your Fort Lauderdale website without losing your rankings',
+    h1: 'Fort Lauderdale Website Redesign that turns an aging coastal site into a lead engine',
     h2Exact: 'Fort Lauderdale Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Broward homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Fort Lauderdale contractor sites for speed and conversions, build them to survive hurricane-season traffic surges, and migrate with the redirects and SEO care that protect the traffic you have spent years building.",
+      "Fort Lauderdale Website Redesign usually goes one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Fort Lauderdale contractor sites for speed and conversions, build them to survive hurricane-season traffic surges, and run an SEO-safe migration with the redirects and care that protect the rankings you have spent years building.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const fortLauderdaleLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first, because that is where almost all of your Broward traffic sits, and tune for fast load and Core Web Vitals so both conversions and rankings climb." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content are yours. No platform lock-in of any kind, the same straight deal we run on every Broward project." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project at a fixed price. Any ongoing maintenance or SEO runs month-to-month, so you stay in control." },
-      { q: "What's in the free redesign audit?", a: "A plain read on what your current site is costing you in Broward leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A plain read on what your current site is costing you in Broward leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It is the honest starting point for a Fort Lauderdale Website Redesign that lifts conversions without losing your rankings." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const fortLauderdaleCity = {
 
   titleTag: 'Fort Lauderdale Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Fort Lauderdale contractors. Get found, get booked, and own your leads instead of renting them, all built for hurricane-season demand.',
+    'Fort Lauderdale marketing for contractors that turns coastal searches into booked jobs. Web design, SEO, and local SEO that get you found and own your leads.',
 
   eyebrow: 'Fort Lauderdale · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Fort Lauderdale contractors found and booked',
+  h1: 'Fort Lauderdale marketing for contractors that turns coastal searches into jobs',
   h2Exact: 'Fort Lauderdale Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Broward's coastal, canal-laced, hurricane-exposed market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const fortLauderdaleCity = {
   primaryCta: 'Get my free Fort Lauderdale audit',
 
   intro:
-    "If you run a contracting business in Fort Lauderdale or Broward County, you are working a market unlike any other in Florida. The Venice of America carries more than 300 miles of canals and the largest yachting industry anywhere, which turns seawall, dock, and waterfront work into a trade of its own. It also sits in the hurricane corridor, where the next storm is a question of when, not if. Winning here takes three things working together: a site that converts an affluent, discerning homeowner, SEO that ranks you before storm season, and local SEO that puts you in the Map Pack for the coastal, marine, and bilingual searches your competitors overlook. Here is exactly how we help Fort Lauderdale contractors pull that off.",
+    "Fort Lauderdale marketing for contractors works differently here, because you are in a market unlike any other in Florida. The Venice of America carries more than 300 miles of canals and the largest yachting industry anywhere, which turns seawall, dock, and waterfront work into a trade of its own. It also sits in the hurricane corridor, where the next storm is a question of when, not if. Winning here takes three things working together: a site that converts an affluent, discerning homeowner, SEO that ranks you before storm season, and local SEO that puts you in the Map Pack for the coastal, marine, and bilingual searches your competitors overlook. Here is exactly how web design and SEO for Fort Lauderdale contractors get you found and booked.",
   aioQuestion: 'How do Fort Lauderdale contractors get more leads online?',
   aioAnswer:
     "Fort Lauderdale contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Broward is a coastal, canal-laced, hurricane-exposed market with affluent waterfront and snowbird buyers plus steady Spanish-language search, the contractors who look established, rank for storm-driven and marine-adjacent terms, and are already visible before a storm hits win the most valuable work.",
@@ -422,6 +422,6 @@ export const fortLauderdaleCity = {
     { q: 'Why does the Fort Lauderdale market require a specialist?', a: "Three reasons. Broward sits in the hurricane corridor, so impact windows, roofing, and restoration are year-round conversations. It is the yachting capital with more than 300 miles of canals, which creates marine and waterfront search categories you find nowhere else. And the waterfront and snowbird homeowner base has both a higher budget and a higher standard, so a generic contractor site will not cut it." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We lock the exact scope for your Broward business in the free audit before you spend a dollar." },
     { q: 'Which Fort Lauderdale and Broward areas do you serve?', a: "All of Broward County: Fort Lauderdale, Coral Springs, Weston, Plantation, Pompano Beach, Deerfield Beach, Miramar, Lauderhill, Hallandale Beach, Hollywood, Cooper City, Tamarac, Wilton Manors and more." },
-    { q: 'Where should I start?', a: "Start with a free Fort Lauderdale audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Fort Lauderdale audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It is the simplest way to put Fort Lauderdale marketing for contractors to work and get your business found and booked. No pitch deck, just a plan." },
   ],
 };

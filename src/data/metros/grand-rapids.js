@@ -111,9 +111,9 @@ export const grandRapidsLocations = [
     citySlug: 'grand-rapids', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Grand Rapids Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Grand Rapids and three businesses show on the map. We put you in those three so the winter call lands with you, not a competitor.',
+      'Grand Rapids Local SEO that lands you in the Map Pack three when a homeowner searches "near me," so the winter call goes to you, not a competitor.',
     eyebrow: 'Local SEO · Grand Rapids, MI',
-    h1: 'When Grand Rapids searches for what you do, be the first name they find',
+    h1: 'Grand Rapids Local SEO that turns a Heritage Hill "near me" search into a ringing phone',
     h2Exact: 'Grand Rapids Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when someone searches \"near me,\" and everyone below them might as well not exist. In a market built on furniture-trade craftsmanship and a booming craft-beer downtown, we get you into that top three for the neighborhoods you serve, from Heritage Hill to Kentwood to Byron Center, so the call lands with you and not whoever ranked first.",
@@ -167,7 +167,7 @@ export const grandRapidsLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research starts in AI tools now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. In Grand Rapids that is quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is about how long local SEO takes to show real movement across Grand Rapids. After that it is month-to-month. If we are not delivering, you walk, and the accountability sits with us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads at prices that chew up your margin. We build rankings, a Google profile, and a review base that route West Michigan leads straight to you alone. Over time you lean on the brokers less because the work is already coming in direct." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Grand Rapids suburbs, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Grand Rapids suburbs, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see exactly what Grand Rapids Local SEO would do for your shop. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const grandRapidsLocations = [
     metaDescription:
       'Grand Rapids SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in, built for West Michigan winters.',
     eyebrow: 'SEO Services · Grand Rapids, MI',
-    h1: 'Get your Grand Rapids business to the top of Google and keep it there',
+    h1: 'Grand Rapids SEO that ranks you for the searches that book winter jobs',
     h2Exact: 'Grand Rapids SEO Company',
     heroSubhead:
       "Ads die the second you stop paying. SEO does the reverse: rank once for what your Grand Rapids customers search and the leads keep arriving for months. We build that ranking for West Michigan contractors and tie every report to real calls and booked jobs.",
@@ -233,7 +233,7 @@ export const grandRapidsLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "It is a bigger slice of our work every month. We organize your content and schema so the AI engines pull your shop into their answers by name when a West Michigan homeowner asks them for a recommendation." },
       { q: 'Which areas around Grand Rapids do you cover?', a: "Grand Rapids proper and the full suburban belt: Kentwood, Wyoming, Byron Center, Caledonia, Rockford, Lowell, Ada, Cascade, Grandville, Walker, Comstock Park, and Holland, with genuine suburb pages rather than one generic Grand Rapids page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "We build the rankings and Google profile that route West Michigan homeowners straight to your phone. As your own visibility grows, the broker fees for shared leads, the ones three Kentwood competitors also paid for, become something you can finally cut." },
-      { q: "What's in the free SEO audit?", a: "Your current Grand Rapids rankings, the moves your competitors are making to outrank you, the fixes that pay off fastest, and a realistic timeline with the numbers run for your trade. We send a straight diagnosis, not a pitch deck." },
+      { q: "What's in the free SEO audit?", a: "Your current Grand Rapids rankings, the moves your competitors are making to outrank you, the fixes that pay off fastest, and a realistic timeline with the numbers run for your trade. It shows you, in plain terms, what Grand Rapids SEO would actually earn your shop. We send a straight diagnosis, not a pitch deck." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const grandRapidsLocations = [
     citySlug: 'grand-rapids', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Grand Rapids Web Design Company | OnwardCraft',
     metaDescription:
-      'Grand Rapids web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors across West Michigan.',
+      'Grand Rapids web design built to convert clicks into calls: fast, mobile-first sites for contractors across West Michigan, from Heritage Hill to Byron Center.',
     eyebrow: 'Web Design · Grand Rapids, MI',
-    h1: 'Grand Rapids web design that turns visitors into booked jobs',
+    h1: 'Grand Rapids web design built to convert a Kentwood click into a booked call',
     h2Exact: 'Grand Rapids Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just an expensive brochure. We build Grand Rapids contractors fast, mobile-first sites engineered to turn visitors into booked work, sites that earn the trust of careful West Michigan homeowners and hold up when a lake-effect band sends everyone searching at once.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Grand Rapids contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer, nothing that speaks to the local neighborhoods. Web design done right closes all of those leaks. We build sites that load fast, look like the professional you actually are, and turn Kentwood-to-Rockford visitors into booked jobs, built for homeowners who do their homework before they call.",
+      "Grand Rapids web design is where most contractor sites quietly bleed leads: slow on a phone, call button buried, no clear offer, nothing that speaks to the local neighborhoods. Done right, web design closes all of those leaks. We build sites that load fast, look like the professional you actually are, and turn Kentwood-to-Rockford visitors into booked jobs, built for homeowners who do their homework before they call.",
     aioQuestion: 'What makes a good contractor website in Grand Rapids?',
     aioAnswer:
       "A good Grand Rapids contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific suburbs and neighborhoods you serve. Because West Michigan homeowners research carefully and respect good work, trust signals like licenses, reviews, and real project photos matter more here than almost anywhere. And because winters are brutal, having seasonal messaging ready for lake-effect snow, ice-dam, and heating searches gives you an edge the moment the temperature drops.",
@@ -299,7 +299,7 @@ export const grandRapidsLocations = [
       { q: 'What platform do you build on?', a: "Whatever you can run yourself once we hand it over, usually WordPress or Webflow. We pick the fit in your free consult and walk a busy Grand Rapids contractor through the tradeoffs without the jargon." },
       { q: 'Do you offer ongoing support?', a: "Yes. Launch support comes with every build, and after that we keep affordable monthly upkeep on the table for updates, speed, and security so your site stays sharp through the seasons." },
       { q: 'Am I locked into a contract?', a: "No. The build itself is a fixed-price, one-time project. Anything ongoing, maintenance or SEO, runs month-to-month, so you can step away whenever it suits your shop." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Grand Rapids contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Grand Rapids contractor site should include, and a fixed-price quote with a timeline. It is the simplest way to see what Grand Rapids web design built around booked jobs would do for you. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const grandRapidsLocations = [
     citySlug: 'grand-rapids', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Grand Rapids Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Grand Rapids website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across West Michigan.',
+      'Grand Rapids Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across West Michigan.',
     eyebrow: 'Website Redesign · Grand Rapids, MI',
-    h1: 'Redesign your Grand Rapids website without losing your rankings',
+    h1: 'Grand Rapids Website Redesign that keeps every ranking you earned before lake-effect season',
     h2Exact: 'Grand Rapids Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Grand Rapids homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have earned going into the next lake-effect season.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Grand Rapids contractor sites for speed and conversions, build them to earn the trust of West Michigan homeowners, and migrate with the redirects and SEO care that protect the traffic you already have heading into your busiest season.",
+      "A Grand Rapids Website Redesign usually goes one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign contractor sites for speed and conversions, build them to earn the trust of West Michigan homeowners, and migrate with the redirects and SEO-safe care that protect the traffic you already have heading into your busiest season.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one, which matters in Grand Rapids, where you want to be fully indexed and ranking before lake-effect winter demand kicks in.",
@@ -365,7 +365,7 @@ export const grandRapidsLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. The rebuild is mobile-first and tuned for quick load and Core Web Vitals, since most of your Grand Rapids visitors arrive on a phone and that speed lifts both bookings and rankings." },
       { q: 'Do I own the redesigned site?', a: "Every piece: the site, the domain, and the content stay with your West Michigan business. There is no platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project, and anything ongoing runs month-to-month, so you are never tied down past the work itself." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan built around your next busy season." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline. It lays out exactly what a Grand Rapids Website Redesign would change for your shop, with an SEO-safe migration plan built around your next busy season." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const grandRapidsCity = {
 
   titleTag: 'Grand Rapids Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Grand Rapids contractors. Get found, get booked, and own your leads instead of renting them, all built for West Michigan.',
+    'Grand Rapids marketing for contractors: web design, SEO, and local SEO that get you found and booked. Own your leads instead of renting them, all built for West Michigan.',
 
   eyebrow: 'Grand Rapids · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Grand Rapids contractors found and booked',
+  h1: 'Grand Rapids marketing for contractors: get ranked before the lake-effect season, get booked',
   h2Exact: 'Grand Rapids Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for West Michigan's lake-effect winters, its furniture-trade craftsmanship, and a suburban belt growing faster than most of the Midwest. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const grandRapidsCity = {
   primaryCta: 'Get my free Grand Rapids audit',
 
   intro:
-    "If you run a contracting business in Grand Rapids, you are working a market shaped by about 74 inches of lake-effect snow a year, a Furniture City homeowner base that values craftsmanship and a straight answer, and a suburban belt, Kentwood, Wyoming, Byron Center, Caledonia, Rockford, growing faster than most of the Midwest. Winning here takes three things working together: a site that converts quality-minded West Michigan homeowners, SEO that ranks you before the lake-effect season hits, and local SEO that puts you in the Map Pack for the suburbs you actually serve. Here is exactly how we help Grand Rapids contractors pull that off.",
+    "Grand Rapids marketing for contractors has to fit a market shaped by about 74 inches of lake-effect snow a year, a Furniture City homeowner base that values craftsmanship and a straight answer, and a suburban belt, Kentwood, Wyoming, Byron Center, Caledonia, Rockford, growing faster than most of the Midwest. Winning here takes three things working together: a site that converts quality-minded West Michigan homeowners, SEO that ranks you before the lake-effect season hits, and local SEO that puts you in the Map Pack for the suburbs you actually serve. Here is exactly how we help Grand Rapids contractors pull that off.",
   aioQuestion: 'How do Grand Rapids contractors get more leads online?',
   aioAnswer:
     "Grand Rapids contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack suburb by suburb. Seasonal timing matters more here than in most markets: contractors who rank for lake-effect roofing, heating, ice-dam, and insulation terms before November catch the year's biggest demand spike while everyone else scrambles to catch up. West Michigan homeowners also research hard before calling, so trust signals like reviews, real project photos, and suburb-specific pages are what turn the visit into a call.",
