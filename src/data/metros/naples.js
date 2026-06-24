@@ -311,7 +311,7 @@ export const naplesLocations = [
     metaDescription:
       'Naples Website Redesign done with a careful, SEO-safe migration. Faster, polished, mobile-first rebuilds that convert more high-end visitors into booked jobs.',
     eyebrow: 'Website Redesign · Naples',
-    h1: 'Naples Website Redesign done with a careful, SEO-safe migration that keeps your rankings',
+    h1: 'Naples Website Redesign that holds your post-Ian rankings and the polish Port Royal expects',
     h2Exact: 'Naples Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, and too dated for the high-end clients you want. We redesign Naples contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",

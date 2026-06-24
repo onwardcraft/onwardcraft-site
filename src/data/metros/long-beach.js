@@ -311,7 +311,7 @@ export const longBeachLocations = [
     metaDescription:
       'Long Beach Website Redesign that keeps every ranking you have earned. Faster, mobile-first, bilingual-ready rebuilds that turn more visitors into booked jobs.',
     eyebrow: 'Website Redesign · Long Beach',
-    h1: 'Long Beach Website Redesign that keeps every ranking you have earned',
+    h1: 'Long Beach Website Redesign that keeps every ranking you have earned across the historic homes of Bluff Heights and Belmont Heights',
     h2Exact: 'Long Beach Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Long Beach homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",
@@ -378,7 +378,7 @@ export const longBeachCity = {
     'Long Beach marketing for contractors: web design, SEO, and local SEO. Get found, get ranked, get booked, and own your leads instead of renting them.',
 
   eyebrow: 'Long Beach · Web Design, SEO & Lead Generation',
-  h1: 'Long Beach marketing for contractors: get ranked, get booked',
+  h1: 'Long Beach marketing for contractors: get ranked, get booked in English and Spanish',
   h2Exact: 'Long Beach Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Long Beach's diverse, coastal market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",

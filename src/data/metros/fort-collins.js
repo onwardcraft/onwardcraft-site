@@ -311,7 +311,7 @@ export const fortCollinsLocations = [
     metaDescription:
       'Fort Collins Website Redesign that keeps every ranking you have earned. Faster, mobile-first rebuilds with SEO-safe migration that convert more and hold up in hail.',
     eyebrow: 'Website Redesign · Fort Collins-Loveland',
-    h1: 'Fort Collins Website Redesign that keeps every ranking you have earned',
+    h1: 'Fort Collins Website Redesign that keeps every ranking you have earned from Old Town to Timnath',
     h2Exact: 'Fort Collins Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Fort Collins homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",
@@ -378,7 +378,7 @@ export const fortCollinsCity = {
     'Fort Collins marketing for contractors: web design, SEO, and local SEO that get you found and booked. Own your leads instead of renting them. Built for Front Range hail.',
 
   eyebrow: 'Fort Collins · Web Design, SEO & Lead Generation',
-  h1: 'Fort Collins marketing for contractors: get ranked, get booked',
+  h1: 'Fort Collins marketing for contractors: get ranked, get booked before Hail Alley season hits',
   h2Exact: 'Fort Collins Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Northern Colorado's fast-growing, hail-driven foothills market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",

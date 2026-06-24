@@ -311,7 +311,7 @@ export const worcesterLocations = [
     metaDescription:
       'Worcester website redesign that rebuilds for speed and conversions without losing rankings. Mobile-first, SEO-safe migration built for an old-home, nor\'easter market.',
     eyebrow: 'Website Redesign · Worcester, MA',
-    h1: 'Worcester Website Redesign done with a careful, SEO-safe migration that holds your rankings',
+    h1: 'Worcester Website Redesign that speaks to old-home owners and survives nor\'easter season with every ranking intact',
     h2Exact: 'Worcester MA Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Worcester contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned through nor'easter season and beyond.",

@@ -181,7 +181,7 @@ export const jacksonvilleLocations = [
     metaDescription:
       'Jacksonville SEO that ranks contractors on Google for the money keywords and turns organic traffic into booked work. Lead-tied reporting, no lock-in contracts.',
     eyebrow: 'SEO Services · Jacksonville, FL',
-    h1: 'Jacksonville SEO that turns organic traffic into booked work',
+    h1: 'Jacksonville SEO that turns organic traffic into booked work before hurricane season hits',
     h2Exact: 'Jacksonville SEO Company',
     heroSubhead:
       "Ads quit the second you quit paying. SEO does the opposite: rank once for what Jacksonville customers search and the leads keep arriving. We build that ranking across a city that runs 875 square miles, and we tie every report back to real calls and real jobs.",
@@ -313,7 +313,7 @@ export const jacksonvilleLocations = [
     metaDescription:
       'Jacksonville Website Redesign that turns an aging site into a lead engine. Faster, mobile-first rebuilds that convert more without losing your rankings.',
     eyebrow: 'Website Redesign · Jacksonville, FL',
-    h1: 'Jacksonville Website Redesign that turns an aging site into a lead engine',
+    h1: 'Jacksonville Website Redesign that turns an aging site into a lead engine across all 875 square miles',
     h2Exact: 'Jacksonville Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, awkward on a phone, easy to scroll past during a storm watch or a summer heat wave. We redesign Jacksonville contractor sites to convert more and load faster, and we migrate with enough care that you keep every bit of ranking you have earned.",

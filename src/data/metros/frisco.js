@@ -378,7 +378,7 @@ export const friscoCity = {
     'Frisco marketing for contractors who want to own their leads: web design, SEO, and local SEO that get you found and booked, built for hail-season demand.',
 
   eyebrow: 'Frisco · Web Design, SEO & Lead Generation',
-  h1: 'Frisco marketing for contractors who want to own their leads, not rent them',
+  h1: 'Frisco marketing for contractors who want to own their leads in a city that doubled in a decade',
   h2Exact: 'Frisco Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Frisco's fast-growing, affluent, hail-driven market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",

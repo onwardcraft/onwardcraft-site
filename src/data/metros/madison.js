@@ -311,7 +311,7 @@ export const madisonLocations = [
     metaDescription:
       'Madison Website Redesign without losing rankings. Faster, mobile-first rebuilds with an SEO-safe migration that convert more visitors into booked jobs in a research-driven market.',
     eyebrow: 'Website Redesign · Madison, WI',
-    h1: 'Madison Website Redesign that converts more without losing the rankings you have earned',
+    h1: 'Madison Website Redesign that converts the isthmus and over toward Nakoma without losing the rankings you have earned',
     h2Exact: 'Madison WI Website Redesign Company',
     heroSubhead:
       "An outdated site bleeds jobs every week, especially in a city where homeowners compare three websites before they call. We redesign Madison contractor sites to convert more and load faster, and we migrate with care so you keep every bit of ranking you have earned.",

@@ -311,7 +311,7 @@ export const hartfordLocations = [
     metaDescription:
       "Hartford Website Redesign that converts more without losing rankings. Faster, mobile-first rebuilds with an SEO-safe migration that hold up through winter.",
     eyebrow: 'Website Redesign · Hartford, CT',
-    h1: 'Hartford Website Redesign that converts more without losing the rankings you have earned',
+    h1: 'Hartford Website Redesign that converts more and keeps your rankings before the first ice dam',
     h2Exact: 'Hartford Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a research-minded Hartford homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",

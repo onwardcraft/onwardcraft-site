@@ -311,7 +311,7 @@ export const desMoinesLocations = [
     metaDescription:
       'Des Moines Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs before spring hail season.',
     eyebrow: 'Website Redesign · Des Moines, IA',
-    h1: 'Des Moines Website Redesign that rebuilds for leads, not just looks',
+    h1: 'Des Moines Website Redesign that rebuilds for leads across Ankeny, Waukee, and the booming suburbs',
     h2Exact: 'Des Moines Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week, and in Des Moines it can cost you the whole hail season if you are not ready when the spring storms come. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every ranking you have already earned.",
@@ -378,7 +378,7 @@ export const desMoinesCity = {
     'Des Moines marketing for contractors: web design, SEO, and local SEO. Get found before hail season, get booked, and own your leads, built for a storm-driven market.',
 
   eyebrow: 'Des Moines, IA · Web Design, SEO & Lead Generation',
-  h1: 'Des Moines marketing for contractors who want to own their leads, not rent them',
+  h1: 'Des Moines marketing for contractors who want to own their leads in an insurance-savvy market',
   h2Exact: 'Des Moines Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Des Moines's storm-driven, fast-growing market. One team to get you ranking before hail season, converting all year, and off the rented-lead treadmill.",

@@ -311,7 +311,7 @@ export const columbiaLocations = [
     metaDescription:
       'Columbia Website Redesign that keeps every ranking you have earned. Faster, mobile-first rebuilds with an SEO-safe migration that convert more visitors into booked jobs.',
     eyebrow: 'Website Redesign · Columbia, SC',
-    h1: 'Columbia Website Redesign that keeps every ranking you have earned',
+    h1: 'Columbia Website Redesign that keeps every ranking you have earned when Fort Jackson families search',
     h2Exact: 'Columbia SC Website Redesign Company',
     heroSubhead:
       "A dated site bleeds jobs every week: slow, clumsy on a phone, easy for a Columbia homeowner to scroll right past. We redesign contractor sites to convert more and load faster, and we migrate carefully enough that you keep every bit of ranking you have already earned.",
@@ -378,7 +378,7 @@ export const columbiaCity = {
     'Columbia marketing for contractors: web design, SEO, and local SEO that gets you ranked and booked. Own your leads instead of renting them, all built for Fort Jackson demand.',
 
   eyebrow: 'Columbia SC · Web Design, SEO & Lead Generation',
-  h1: 'Columbia marketing for contractors: get ranked, get booked',
+  h1: 'Columbia marketing for contractors: get ranked, get booked before the Midlands summer heat spikes',
   h2Exact: 'Columbia SC Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Columbia's odd mix of state-capital steadiness, Fort Jackson churn, university buyers, savage summer heat, and inland flood risk. One team to get you ranking, converting, and off the rented-lead treadmill for good.",

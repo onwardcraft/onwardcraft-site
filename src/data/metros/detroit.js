@@ -311,7 +311,7 @@ export const detroitLocations = [
     metaDescription:
       "Detroit Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and signal you are genuinely local.",
     eyebrow: "Website Redesign · Detroit",
-    h1: "Detroit Website Redesign that keeps every ranking you have earned",
+    h1: "Detroit Website Redesign that rebuilds for the rehab market from Corktown to Grosse Pointe without dropping a ranking",
     h2Exact: "Detroit Website Redesign Company",
     heroSubhead:
       "An outdated site costs you jobs every single week: slow, clumsy on a phone, and easy for a Detroit homeowner to wave off as another national brand. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",

@@ -311,7 +311,7 @@ export const daytonLocations = [
     metaDescription:
       'Dayton Website Redesign without losing your rankings. Faster, mobile-first rebuilds that convert military families, defense-area buyers, and storm-season homeowners.',
     eyebrow: 'Website Redesign · Dayton, OH',
-    h1: 'Dayton Website Redesign done with a careful, SEO-safe migration that keeps your rankings',
+    h1: 'Dayton Website Redesign that keeps the rankings you have earned around Wright-Patterson',
     h2Exact: 'Dayton Website Redesign Company',
     heroSubhead:
       "An outdated Dayton contractor site costs you jobs every week. It loads slow on a phone, runs thin on local credibility, and is easy for storm-season homeowners and PCS-arrival families to skip over. We redesign contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you have earned.",

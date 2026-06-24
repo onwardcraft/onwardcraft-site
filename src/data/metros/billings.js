@@ -310,7 +310,7 @@ export const billingsLocations = [
     metaDescription:
       'Billings Website Redesign without losing your rankings: faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up through hard winters.',
     eyebrow: 'Website Redesign · Billings',
-    h1: 'Billings Website Redesign that converts more without losing the rankings you have earned',
+    h1: 'Billings Website Redesign that converts from the Heights out to Lockwood without losing the rankings you have earned',
     h2Exact: 'Billings Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Billings homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you've already earned.",

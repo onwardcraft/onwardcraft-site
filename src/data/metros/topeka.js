@@ -245,7 +245,7 @@ export const topekaLocations = [
     metaDescription:
       'Topeka web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand.',
     eyebrow: 'Web Design · Topeka',
-    h1: 'Topeka web design that turns visitors into booked jobs',
+    h1: 'Topeka web design that turns visitors into booked jobs before the next storm hits',
     h2Exact: 'Topeka Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Topeka contractors fast, mobile-first sites engineered to turn visitors into booked work — and to hold up when storm season floods your phone.",
@@ -378,7 +378,7 @@ export const topekaCity = {
     'Topeka marketing for contractors: web design, SEO, and local SEO that get you found, get you booked, and let you own your leads instead of renting them.',
 
   eyebrow: 'Topeka · Web Design, SEO & Lead Generation',
-  h1: 'Topeka marketing for contractors that gets you found and booked',
+  h1: 'Topeka marketing for contractors that gets you found and booked from Potwin to Westboro',
   h2Exact: 'Topeka Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Topeka's value-conscious, tornado-alley market. One team to get you ranking, converting, and off the rented-lead treadmill.",

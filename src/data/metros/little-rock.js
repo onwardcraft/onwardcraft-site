@@ -378,7 +378,7 @@ export const littleRockCity = {
     'Little Rock marketing for contractors who want to own their leads: web design, SEO, and local SEO that get you found before storm season and booked through summer.',
 
   eyebrow: 'Little Rock · Web Design, SEO & Lead Generation',
-  h1: 'Little Rock marketing for contractors who want to own their leads, not rent them',
+  h1: 'Little Rock marketing for contractors who want to own their leads when tornado season hits',
   h2Exact: 'Little Rock Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for a market shaped by tornado-alley storms, Arkansas River flooding, and brutal summer humidity. One team to get you ranking before the rush, converting while it's happening, and off the rented-lead treadmill for good.",

@@ -248,7 +248,7 @@ export const dallasLocations = [
     metaDescription:
       'Dallas web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and ready for storm-season demand. Get a free quote.',
     eyebrow: 'Web Design · Dallas-Fort Worth',
-    h1: 'Dallas web design that turns visitors into booked jobs',
+    h1: 'Dallas web design that turns hail-season traffic into booked jobs',
     h2Exact: 'Dallas Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure. We build Dallas contractors fast, mobile-first sites engineered to turn visitors into booked work, and to stay standing when a hailstorm shoves a flood of traffic your way.",
@@ -381,7 +381,7 @@ export const dallasCity = {
     'Dallas marketing for contractors: web design, SEO, and local SEO that get you found, get you booked, catch hail season, and own your leads instead of renting them.',
 
   eyebrow: 'Dallas · Web Design, SEO & Lead Generation',
-  h1: 'Dallas marketing for contractors that gets you found and booked',
+  h1: 'Dallas marketing for contractors that gets you found and booked from Plano to Arlington',
   h2Exact: 'Dallas Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for DFW's huge, storm-driven market. One team to get you ranking, converting, and off the rented-lead treadmill, and ready the day hail season breaks.",

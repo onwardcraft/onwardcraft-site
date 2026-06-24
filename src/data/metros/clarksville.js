@@ -311,7 +311,7 @@ export const clarksvilleLocations = [
     metaDescription:
       'Clarksville Website Redesign done with a careful, SEO-safe migration: faster, mobile-first rebuilds that convert more visitors and keep your rankings.',
     eyebrow: 'Website Redesign · Clarksville',
-    h1: 'Clarksville Website Redesign done with a careful, SEO-safe migration that holds your rankings',
+    h1: 'Clarksville Website Redesign that wins over Fort Campbell newcomers and migrates without losing a ranking',
     h2Exact: 'Clarksville Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Clarksville homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",

@@ -245,7 +245,7 @@ export const losAngelesLocations = [
     metaDescription:
       'Los Angeles web design that turns visitors into booked jobs: fast, mobile-first, bilingual-ready sites built for contractors who want the phone to ring.',
     eyebrow: 'Web Design · Greater Los Angeles',
-    h1: 'Los Angeles web design that turns visitors into booked jobs',
+    h1: 'Los Angeles web design that turns Valley-to-South-Bay visitors into booked jobs',
     h2Exact: 'Los Angeles Web Design Company',
     heroSubhead:
       "A good-looking website that never generates a call is just an expensive brochure. We build LA contractors fast, mobile-first sites engineered to turn visitors into booked work, and ready to serve the enormous bilingual market most of your competitors quietly ignore.",
@@ -378,7 +378,7 @@ export const losAngelesCity = {
     'Los Angeles marketing for contractors: web design, SEO, and local SEO. Get found, get booked, and own your leads instead of renting them. Bilingual-ready for LA.',
 
   eyebrow: 'Los Angeles · Web Design, SEO & Lead Generation',
-  h1: 'Los Angeles marketing for contractors that gets you found and booked',
+  h1: 'Los Angeles marketing for contractors that gets you found and booked in English and Spanish',
   h2Exact: 'Los Angeles Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for LA's enormous, bilingual market. One team to get you ranking in the neighborhoods you serve, converting visitors into calls, and off the rented-lead treadmill for good.",

@@ -311,7 +311,7 @@ export const eugeneLocations = [
     metaDescription:
       'Eugene Website Redesign without losing rankings. Faster, mobile-first rebuilds with SEO-safe migration that convert more visitors into booked jobs across the Valley.',
     eyebrow: 'Website Redesign · Eugene, OR',
-    h1: 'Eugene Website Redesign done with a careful, SEO-safe migration that keeps your rankings',
+    h1: 'Eugene Website Redesign that keeps your rain-season rankings from South Hills to Springfield',
     h2Exact: 'Eugene Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week. It loads slowly, reads as hard to trust, and is easy for Eugene's research-heavy homeowners to skip past. We redesign Eugene contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",

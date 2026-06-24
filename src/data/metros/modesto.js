@@ -113,7 +113,7 @@ export const modestoLocations = [
     metaDescription:
       'Modesto Local SEO that gets you into the three businesses Google pins to the map, so the call lands with you instead of a competitor.',
     eyebrow: 'Local SEO · Modesto',
-    h1: 'Modesto Local SEO that gets you found when neighbors search your trade',
+    h1: 'Modesto Local SEO that puts you in the Map Pack from Oakdale to Turlock',
     h2Exact: 'Modesto Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the call lands with you — and so you're ready when valley heat or wildfire smoke drives every homeowner to their phone.",
@@ -179,7 +179,7 @@ export const modestoLocations = [
     metaDescription:
       'Modesto SEO that ranks contractors on Google and turns organic traffic into booked work you own. Revenue-tied reporting, no lock-in, built for valley heat.',
     eyebrow: 'SEO Services · Modesto',
-    h1: 'Modesto SEO that turns organic traffic into booked work',
+    h1: 'Modesto SEO that turns organic traffic into booked work through wildfire smoke season',
     h2Exact: 'Modesto SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Modesto customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -311,7 +311,7 @@ export const modestoLocations = [
     metaDescription:
       'Modesto Website Redesign that rebuilds an aging site into a lead engine without losing rankings. Faster, mobile-first, and ready for valley heat.',
     eyebrow: 'Website Redesign · Modesto',
-    h1: 'Modesto Website Redesign that turns an aging site into a lead engine',
+    h1: 'Modesto Website Redesign that turns an aging site into a lead engine before the valley heat hits',
     h2Exact: 'Modesto Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Modesto contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
@@ -378,7 +378,7 @@ export const modestoCity = {
     'Modesto marketing for contractors that turns searches into jobs. Web design, SEO, and local SEO built for San Joaquin Valley heat and wildfire smoke.',
 
   eyebrow: 'Modesto · Web Design, SEO & Lead Generation',
-  h1: 'Modesto marketing for contractors that turns searches into jobs',
+  h1: 'Modesto marketing for contractors that turns searches into jobs when summer hits 107 degrees',
   h2Exact: 'Modesto Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the San Joaquin Valley's heat-driven, smoke-prone market and Bay Area transplant homeowners. One team to get you ranking, converting, and off the rented-lead treadmill.",

@@ -311,7 +311,7 @@ export const knoxvilleLocations = [
     metaDescription:
       'Knoxville Website Redesign that converts more without losing your rankings. Faster, mobile-first rebuilds that turn visitors into booked jobs across East Tennessee.',
     eyebrow: 'Website Redesign · Knoxville, TN',
-    h1: 'Knoxville Website Redesign that converts more without losing the rankings you have earned',
+    h1: 'Knoxville Website Redesign that converts more and protects your ice-storm search rankings',
     h2Exact: 'Knoxville Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week, slow on a phone, easy to ignore, nothing that says you're a real local company. We redesign Knoxville contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've built.",

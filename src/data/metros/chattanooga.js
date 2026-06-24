@@ -378,7 +378,7 @@ export const chattanoogaCity = {
     'Chattanooga marketing for contractors who want to own their leads: web design, SEO, and local SEO. Get found, get booked, all built for storm-season demand.',
 
   eyebrow: 'Chattanooga · Web Design, SEO & Lead Generation',
-  h1: 'Chattanooga marketing for contractors who want to own their leads',
+  h1: 'Chattanooga marketing for contractors who want to own their leads from Northshore to Ooltewah',
   h2Exact: 'Chattanooga Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Chattanooga's manufacturing-anchored, Gig City, storm-season market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",

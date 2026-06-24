@@ -311,7 +311,7 @@ export const bendLocations = [
     metaDescription:
       'Bend Website Redesign with a careful, SEO-safe migration. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in wildfire.',
     eyebrow: 'Website Redesign · Bend-Redmond',
-    h1: 'Bend Website Redesign done with a careful, SEO-safe migration that holds your rankings',
+    h1: 'Bend Website Redesign that holds fast through smoke season and keeps every high-desert ranking you have earned',
     h2Exact: 'Bend Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week: slow, hard to use on a phone, easy to ignore. We redesign Bend contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",

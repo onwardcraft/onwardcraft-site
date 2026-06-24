@@ -311,7 +311,7 @@ export const birminghamLocations = [
     metaDescription:
       'Birmingham Website Redesign without losing rankings. Faster, mobile-first rebuilds that turn storm-restoration and renovation leads into booked jobs.',
     eyebrow: 'Website Redesign · Birmingham, AL',
-    h1: 'Birmingham Website Redesign that rebuilds for leads, not just looks',
+    h1: 'Birmingham Website Redesign that rebuilds for Dixie Alley storm leads, not just looks',
     h2Exact: 'Birmingham Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week: slow, hard to use on a phone, nothing that speaks to Vestavia Hills homeowners or Forest Park renovation buyers. We redesign Birmingham contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
@@ -378,7 +378,7 @@ export const birminghamCity = {
     'Birmingham marketing for contractors: web design, SEO, and local SEO. Rank before spring storm season, own your leads, and stop paying for shared referrals.',
 
   eyebrow: 'Birmingham · Web Design, SEO & Lead Generation',
-  h1: 'Birmingham marketing for contractors who want to own their leads',
+  h1: 'Birmingham marketing for contractors who want to own their leads on both sides of Red Mountain',
   h2Exact: 'Birmingham Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Birmingham's two-market metro: older in-town neighborhoods, UAB-economy suburbs over Red Mountain, Dixie Alley storms, and humid HVAC summers. One team to get you ranking, converting, and off the rented-lead treadmill.",

@@ -311,7 +311,7 @@ export const maconLocations = [
     metaDescription:
       'Macon Website Redesign done with a careful, SEO-safe migration: faster mobile-first rebuilds that convert more visitors without losing your rankings.',
     eyebrow: 'Website Redesign · Macon-Bibb County',
-    h1: 'Macon Website Redesign done with a careful, SEO-safe migration that keeps your rankings',
+    h1: 'Macon Website Redesign with an SEO-safe migration that keeps the rankings arriving Robins families search for',
     h2Exact: 'Macon Website Redesign Company',
     heroSubhead:
       "A dated site quietly costs you jobs every week: slow, awkward on a phone, easy to scroll past. We redesign Macon contractor sites to convert more and load faster, then migrate with care so you keep every bit of ranking you have already earned.",

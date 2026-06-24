@@ -311,7 +311,7 @@ export const irvingLocations = [
     metaDescription:
       'Irving Website Redesign that rebuilds for leads, not just looks. Faster, mobile-first sites that convert more and hold every ranking through an SEO-safe migration.',
     eyebrow: 'Website Redesign · Irving-Las Colinas',
-    h1: 'Irving Website Redesign that rebuilds for leads, not just looks',
+    h1: 'Irving Website Redesign that rebuilds for North Texas hail-season leads, not just looks',
     h2Exact: 'Irving Website Redesign Company',
     heroSubhead:
       "A dated site quietly drains jobs from you every week: slow to load, awkward on a phone, simple to overlook. We redesign Irving contractor sites to convert more and load faster, and we move them across with enough care that you hold on to every ranking you have built.",
@@ -378,7 +378,7 @@ export const irvingCity = {
     'Irving marketing for contractors: web design, SEO, and local SEO that get you found, get you booked, and keep your leads instead of renting them, built for storm demand.',
 
   eyebrow: 'Irving · Web Design, SEO & Lead Generation',
-  h1: 'Irving marketing for contractors who want to own their leads',
+  h1: 'Irving marketing for contractors who want to own their leads across Las Colinas and Valley Ranch',
   h2Exact: 'Irving Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Irving's affluent, globally diverse, storm-driven market. One team to get you ranking, converting, and off the rented-lead treadmill.",

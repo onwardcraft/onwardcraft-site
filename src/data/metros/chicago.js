@@ -113,7 +113,7 @@ export const chicagoLocations = [
     metaDescription:
       'Chicago Local SEO that puts your shop in the Map Pack, so the next "near me" call from a neighbor rings your phone instead of the competition down the block.',
     eyebrow: 'Local SEO · Chicagoland',
-    h1: 'Chicago Local SEO that gets you found when neighbors search your trade',
+    h1: 'Chicago Local SEO that puts you in the Map Pack from Lincoln Park to Beverly',
     h2Exact: 'Chicago Local SEO Company',
     heroSubhead:
       "Type any service plus \"near me\" and Google pins exactly three businesses to the map. Everyone underneath them is, for practical purposes, invisible. We move you into that top three so the call rings your phone instead of whoever happened to rank first, and so you are already there when the next deep freeze lights up every contractor's voicemail at once.",
@@ -311,7 +311,7 @@ export const chicagoLocations = [
     metaDescription:
       'Chicago Website Redesign that turns an aging site into a lead engine. Faster, mobile-first rebuilds with an SEO-safe migration that holds your rankings through winter.',
     eyebrow: 'Website Redesign · Chicagoland',
-    h1: 'Chicago Website Redesign that turns an aging site into a lead engine',
+    h1: 'Chicago Website Redesign that turns an aging site into a lead engine before the deep freeze',
     h2Exact: 'Chicago Website Redesign Company',
     heroSubhead:
       "A dated site quietly costs you jobs every week: slow, clumsy on a phone, easy to scroll right past. We redesign Chicago contractor sites to convert more and load faster, and we migrate with enough care that you keep every bit of ranking you have already earned.",
@@ -378,7 +378,7 @@ export const chicagoCity = {
     'Chicago marketing for contractors that gets you found and booked. Web design, SEO, and local SEO that win you leads you own, built for winter-freeze demand.',
 
   eyebrow: 'Chicago · Web Design, SEO & Lead Generation',
-  h1: 'Chicago marketing for contractors that turns searches into jobs',
+  h1: 'Chicago marketing for contractors that turns searches into jobs across Logan Square and Pilsen',
   h2Exact: 'Chicago Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Chicagoland's dense, winter-driven market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",

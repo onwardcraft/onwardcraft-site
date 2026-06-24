@@ -378,7 +378,7 @@ export const burlingtonCity = {
     'Burlington marketing for contractors: web design, SEO, and local SEO that get you found and booked and let you own your leads, all built for winter-season demand.',
 
   eyebrow: 'Burlington · Web Design, SEO & Lead Generation',
-  h1: 'Burlington marketing for contractors who want to own their leads, not rent them',
+  h1: 'Burlington marketing for contractors who want to own their leads in a buy-local Lake Champlain town',
   h2Exact: 'Burlington Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Burlington's educated, efficiency-minded, winter-driven market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",

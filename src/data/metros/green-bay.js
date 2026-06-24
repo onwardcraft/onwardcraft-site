@@ -310,7 +310,7 @@ export const greenBayLocations = [
     metaDescription:
       'Green Bay Website Redesign without losing your rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up through winter.',
     eyebrow: 'Website Redesign · Green Bay',
-    h1: 'Green Bay Website Redesign that turns an aging site into a lead engine',
+    h1: 'Green Bay Website Redesign that turns a tired site into a booked calendar from Astor to De Pere',
     h2Exact: 'Green Bay Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Green Bay homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you've already earned.",

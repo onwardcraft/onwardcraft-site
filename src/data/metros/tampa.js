@@ -311,7 +311,7 @@ export const tampaLocations = [
     metaDescription:
       'Tampa Website Redesign done with a careful, SEO-safe migration. Faster, mobile-first rebuilds that book more jobs and hold up when storm season hits the bay.',
     eyebrow: 'Website Redesign · Tampa Bay',
-    h1: 'Tampa Website Redesign done with a careful, SEO-safe migration that holds your rankings',
+    h1: 'Tampa Website Redesign built to take a storm-season surge and migrate without losing a ranking',
     h2Exact: 'Tampa Website Redesign Company',
     heroSubhead:
       "A dated site quietly costs you jobs every week: slow, awkward on a phone, easy for a Tampa homeowner to skip. We redesign contractor sites to convert more and load faster, and we migrate with enough care that you keep every bit of ranking you fought to earn.",

@@ -113,7 +113,7 @@ export const memphisLocations = [
     metaDescription:
       'Memphis Local SEO that puts your business in the three spots Google pins to the map, so the call lands with you well before storm season hits.',
     eyebrow: 'Local SEO · Memphis, TN',
-    h1: 'Memphis Local SEO that gets you found when neighbors search your trade',
+    h1: 'Memphis Local SEO that puts you in the Map Pack from Germantown to Midtown',
     h2Exact: 'Memphis Local SEO Company',
     heroSubhead:
       "Google pins just three businesses to the map when someone searches \"near me,\" and everyone below them might as well be invisible. In Memphis we get you into that top three for your neighborhoods before storm season or the summer heat wave lands, so the call rings your phone instead of whoever happened to rank first.",
@@ -179,7 +179,7 @@ export const memphisLocations = [
     metaDescription:
       'Memphis SEO that ranks contractors on Google and brings leads you own. Lead-tied reporting, no lock-in contracts, built for storm season and summer heat.',
     eyebrow: 'SEO Services · Memphis, TN',
-    h1: 'Memphis SEO that turns organic traffic into booked work',
+    h1: 'Memphis SEO that turns organic traffic into booked work in Cooper-Young and beyond',
     h2Exact: 'Memphis SEO Company',
     heroSubhead:
       "Ads die the second your card stops. SEO does the opposite: rank once for what Memphis customers search and the leads keep arriving through storm season, summer heat waves, and winter cold snaps. We build that ranking and tie every report to real calls and real jobs.",
@@ -311,7 +311,7 @@ export const memphisLocations = [
     metaDescription:
       'Memphis Website Redesign that converts more without losing rankings. Faster, mobile-first rebuilds that turn visitors into booked jobs in Germantown and Midtown.',
     eyebrow: 'Website Redesign · Memphis, TN',
-    h1: 'Memphis Website Redesign that turns an aging site into a lead engine',
+    h1: 'Memphis Website Redesign that turns an aging site into a lead engine before storm season',
     h2Exact: 'Memphis Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week, and it stings most heading into storm season or the summer HVAC rush. We redesign Memphis contractor sites to convert more and load faster, then migrate them carefully so you keep every bit of ranking you have already earned.",
@@ -378,7 +378,7 @@ export const memphisCity = {
     'Memphis marketing for contractors: web design, SEO, and local SEO that get you found before storm season and the summer HVAC rush, and own your leads instead of renting them.',
 
   eyebrow: 'Memphis · Web Design, SEO & Lead Generation',
-  h1: 'Memphis marketing for contractors that turns searches into jobs',
+  h1: 'Memphis marketing for contractors that turns searches into jobs through the summer HVAC rush',
   h2Exact: 'Memphis Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Memphis's seasonal demand spikes, older housing stock, and neighborhood-driven market. One team to get you ranking, converting, and off the rented-lead treadmill.",
