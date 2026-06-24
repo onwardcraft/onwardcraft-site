@@ -111,15 +111,15 @@ export const lubbockLocations = [
     citySlug: 'lubbock', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Lubbock Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'When a Lubbock hailstorm hits, three names show up on the map. We get you into those three, so the roofing, HVAC, and trade calls land with you.',
+      'Lubbock Local SEO that wins the top three on the map. When a hailstorm hits, the roofing, HVAC, and trade calls land with you, not page two.',
     eyebrow: 'Local SEO · Lubbock, TX',
-    h1: 'When Lubbock searches for what you do, be the first name they find',
+    h1: 'Lubbock Local SEO that wins you the top three on the Tech Terrace map',
     h2Exact: 'Lubbock Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when someone searches \"near me.\" On the Llano Estacado, where a single hailstorm creates months of roofing demand overnight, those three spots are worth everything. We get you into that top three for your Lubbock neighborhoods, in English and in Spanish, so the call lands with you instead of whoever ranked first.",
     primaryCta: 'Get my free Lubbock audit',
     intro:
-      "Lubbock local SEO comes down to one thing: when a homeowner in Tech Terrace or Wolfforth searches for a roofer, HVAC tech, or plumber after a storm, are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. In a market where storm demand can go from zero to overwhelming overnight, and where roughly 36 percent of searchers use Spanish, getting into those three spots for your neighborhoods is the highest-return move most Lubbock contractors can make. Here's how you do it.",
+      "Lubbock Local SEO comes down to one thing: when a homeowner in Tech Terrace or Wolfforth searches for a roofer, HVAC tech, or plumber after a storm, are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. In a market where storm demand can go from zero to overwhelming overnight, and where roughly 36 percent of searchers use Spanish, getting into those three spots for your neighborhoods is the highest-return move most Lubbock contractors can make. Here's how you do it.",
     aioQuestion: 'How do Lubbock businesses rank higher in local search?',
     aioAnswer:
       "You rank in Lubbock by getting four things right: a Google Business Profile optimized for the specific services and neighborhoods you serve; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to Lubbock neighborhoods and storm-season demand. Because roughly 36 percent of Lubbock is Hispanic, contractors who also target Spanish-language searches reach a significant market most competitors ignore entirely.",
@@ -167,7 +167,7 @@ export const lubbockLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A growing share of storm-season and \"near me\" research starts in AI now, not classic search. We structure your content and schema so those engines can read, trust, and cite your business, increasingly important when a homeowner's first move after a hailstorm is to ask an AI assistant for roofers nearby." },
       { q: 'Am I locked into a contract?', a: "No. We ask for 90 days up front because that is honestly how long it takes local SEO to move the needle in Lubbock, especially heading into hail season. After that you are month-to-month and free to walk if the results are not there." },
       { q: 'How does this get me off Angi and shared leads?', a: "Those platforms sell the same Lubbock homeowner to several contractors at once, and in a price-sensitive market, you end up in a race to the bottom. We build rankings, a Google profile, and a review base that send leads straight to you. Over time the work comes to you directly and the lead brokers become unnecessary." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Lubbock service area, what your Map Pack competitors are doing, the fixes that'll move you fastest, especially heading into storm season, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Lubbock service area, what your Map Pack competitors are doing, the fixes that'll move you fastest, especially heading into storm season, and a realistic 90-to-180-day plan with the numbers run for your business. Lubbock Local SEO is the highest-return move most contractors here can make, and the audit shows you exactly where to start. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const lubbockLocations = [
     metaDescription:
       'Lubbock SEO that ranks contractors on Google before storm season and keeps them there. Revenue-tied reporting, bilingual reach, no lock-in contracts.',
     eyebrow: 'SEO Services · Lubbock, TX',
-    h1: 'Get your Lubbock business to the top of Google before storm season hits',
+    h1: 'Lubbock SEO that builds storm-season rankings you actually own',
     h2Exact: 'Lubbock SEO Company',
     heroSubhead:
       "Ads stop the moment you stop paying. SEO is the opposite: rank for what Lubbock homeowners search after a hailstorm or during a 105-degree July, and the leads keep coming. We build that ranking, in English and in Spanish, and tie every report to actual calls and booked jobs.",
@@ -233,7 +233,7 @@ export const lubbockLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read and recommend your business, especially important when a homeowner's first move after a Lubbock hailstorm is to ask an AI assistant for roofers near them." },
       { q: 'Which areas around Lubbock do you cover?', a: "All of Lubbock and the surrounding communities (Tech Terrace, Wolfcamp, Maxey Park, Raintree, Wolfforth, Shallowater, Idalou, Slaton, and more) with genuine local pages instead of one generic Lubbock page." },
       { q: 'How do you get me off Angi and shared leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility for storm-season and HVAC terms, the less you need to pay brokers for leads they also sold to your competitors." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you in Lubbock search, the highest-impact fixes heading into storm season, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you in Lubbock search, the highest-impact fixes heading into storm season, and a realistic timeline with the numbers modeled for your business. Lubbock SEO compounds, so the audit shows you the fastest path to rankings you keep. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const lubbockLocations = [
     citySlug: 'lubbock', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Lubbock Web Design Company | OnwardCraft',
     metaDescription:
-      'Lubbock web design that turns storm-season visitors into booked jobs: fast, mobile-first sites built for trade contractors in West Texas.',
+      'Lubbock Web Design engineered to bring in real work: fast, mobile-first sites built for trade contractors across West Texas storm-season demand.',
     eyebrow: 'Web Design · Lubbock, TX',
-    h1: 'Lubbock web design that turns storm-season visitors into booked jobs',
+    h1: 'Lubbock web design engineered to bring in real work after the next hailstorm',
     h2Exact: 'Lubbock Web Design Company',
     heroSubhead:
       "A website that looks decent but doesn't book jobs is just a brochure. We build Lubbock trade contractors fast, mobile-first sites engineered to convert hailstorm researchers, HVAC shoppers, and price-sensitive homeowners into real calls, in English and in Spanish.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Lubbock contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, nothing that distinguishes you from the next guy. When a hailstorm rolls through and a homeowner Googles a roofer from their driveway, your site has about three seconds to earn the call. We build sites that load fast, look like the professional you are, and turn Tech Terrace to Wolfforth visitors into booked jobs, built for a market where storm demand is real and value-conscious homeowners compare quickly.",
+      "Lubbock Web Design should do one job: book work. Most contractor sites here lose leads quietly instead, slow on a phone, buried call button, no clear offer, nothing that distinguishes you from the next guy. When a hailstorm rolls through and a homeowner Googles a roofer from their driveway, your site has about three seconds to earn the call. We build sites that load fast, look like the professional you are, and turn Tech Terrace to Wolfforth visitors into booked jobs, built for a market where storm demand is real and value-conscious homeowners compare quickly.",
     aioQuestion: 'What makes a good contractor website in Lubbock?',
     aioAnswer:
       "A good Lubbock contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with real reviews and project photos from local jobs, and names the specific Lubbock neighborhoods you serve. Because most post-storm searches happen on mobile and homeowners are price-sensitive and comparing quickly, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const lubbockLocations = [
       { q: 'Will it work well on phones?', a: "We design mobile-first, because that's where most of your Lubbock traffic comes from, including homeowners searching from their yard after a storm or an AC failure. Fast load, easy-to-tap call buttons, forms built for a thumb." },
       { q: 'What platform do you build on?', a: "Whatever fits your trade and your comfort level running it day to day, most often WordPress or Webflow. We walk you through the tradeoffs of each in plain language during the free consult and let you make the call with the facts in front of you." },
       { q: 'Do you offer ongoing support?', a: "We do. Launch support comes with every build, and after that you can add a low monthly plan that covers updates, speed tuning, and security patching so the site stays sharp through every storm season." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost storm-season and heat-emergency leads, what a high-converting Lubbock site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost storm-season and heat-emergency leads, what a high-converting Lubbock site should include, and a fixed-price quote with a timeline. Good Lubbock Web Design pays for itself in booked jobs, and the quote shows you exactly how. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const lubbockLocations = [
     citySlug: 'lubbock', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Lubbock Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Lubbock contractor website without losing rankings. Faster, mobile-first rebuilds that convert storm-season visitors into booked jobs in West.',
+      'Lubbock Website Redesign that modernizes without tanking your traffic. Faster, mobile-first rebuilds that convert storm-season visitors into booked jobs.',
     eyebrow: 'Website Redesign · Lubbock, TX',
-    h1: 'Redesign your Lubbock website without losing your rankings heading into storm season',
+    h1: 'Lubbock Website Redesign that modernizes your site without tanking storm-season traffic',
     h2Exact: 'Lubbock Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week, especially when Lubbock hailstorm season hits and homeowners are searching on their phones. We redesign trade contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've already built.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the Google rankings you spent months building disappear overnight. We do neither. We redesign Lubbock contractor sites for speed and conversions, built for post-storm search traffic and value-conscious homeowners, and we migrate with the redirects and SEO care that protect the traffic you already have. We also add the bilingual reach that most Lubbock sites are missing.",
+      "A Lubbock Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the Google rankings you spent months building disappear overnight. We do neither. We redesign Lubbock contractor sites for speed and conversions, built for post-storm search traffic and value-conscious homeowners, and we migrate with the redirects and SEO care that protect the traffic you already have. We also add the bilingual reach that most Lubbock sites are missing.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure or mapping 301 redirects for every changed page, preserving existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and often improves them, because the new site is faster, mobile-first, and better structured than the old one, which matters especially for storm-season traffic spikes in Lubbock.",
@@ -365,7 +365,7 @@ export const lubbockLocations = [
       { q: 'Will the redesign help me win more storm-season jobs?', a: "Yes, and that's the core goal. We rebuild around the specific neighborhoods you serve, make the site load fast on a phone, put a clear offer and call button front and center, and add the bilingual reach most Lubbock competitors skip, so when the next hailstorm hits, your site is the one that books the job." },
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings, especially for the storm-season traffic spikes that hit Lubbock's fastest-moving search days." },
       { q: 'Do I own the redesigned site?', a: "All yours, start to finish: the rebuilt site, the domain, and the content. There is no platform you get trapped inside and nothing held over your business to keep you paying." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in storm-season leads and Google rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. No pressure, just a plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in storm-season leads and Google rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. A Lubbock Website Redesign done right holds your rankings and lifts your bookings, and the audit shows you how. No pressure, just a plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const lubbockCity = {
 
   titleTag: 'Lubbock Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Lubbock trade contractors. Get found before storm season, capture the bilingual market, and own your leads.',
+    'Lubbock marketing for contractors: web design, SEO, and local SEO that get you found before storm season, capture the bilingual market, and own your leads.',
 
   eyebrow: 'Lubbock · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Lubbock contractors found when it counts most',
+  h1: 'Lubbock marketing for contractors, built around the trades and the West Texas storm season',
   h2Exact: 'Lubbock Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Lubbock's storm-driven, bilingual, West Texas market. One team to get you ranking before hail season, converting in English and Spanish, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const lubbockCity = {
   primaryCta: 'Get my free Lubbock audit',
 
   intro:
-    "If you run a contracting business in Lubbock, your biggest demand spikes come from things you can't control: a hailstorm rolling across the Llano Estacado, a July heat wave that kills every AC in Raintree, a hard freeze that bursts pipes across Tech Terrace. The contractors who capture that demand are the ones already visible on Google when the event hits. Getting there, and staying there, takes three things working together: a site that converts value-conscious homeowners, SEO that ranks you for storm-season and emergency searches, and local SEO that wins the Map Pack for the Lubbock neighborhoods you serve. And because roughly 36 percent of Lubbock is Hispanic, the contractor who also shows up in Spanish closes a market most of the competition never even sees.",
+    "Lubbock marketing for contractors has to start with one fact: your biggest demand spikes come from things you can't control, a hailstorm rolling across the Llano Estacado, a July heat wave that kills every AC in Raintree, a hard freeze that bursts pipes across Tech Terrace. The contractors who capture that demand are the ones already visible on Google when the event hits. Getting there, and staying there, takes three things working together: a site that converts value-conscious homeowners, SEO that ranks you for storm-season and emergency searches, and local SEO that wins the Map Pack for the Lubbock neighborhoods you serve. And because roughly 36 percent of Lubbock is Hispanic, the contractor who also shows up in Spanish closes a market most of the competition never even sees.",
   aioQuestion: 'How do Lubbock contractors get more leads online?',
   aioAnswer:
     "Lubbock contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for storm-damage and emergency searches before demand spikes, and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because roughly 36 percent of Lubbock residents are Hispanic and Lubbock is one of the windiest large cities in the US, with near-annual hailstorm events, the contractors who target bilingual searches and rank for weather-driven keywords before storm season capture the most work.",
@@ -422,6 +422,6 @@ export const lubbockCity = {
     { q: 'Why does the Lubbock market need a specific approach?', a: "Three things make Lubbock distinct. First, storm-driven demand: near-annual hailstorm events and extreme seasonal temperature swings create intense, weather-tied demand spikes that reward contractors who are already visible. Second, the bilingual market: roughly 36 percent of Lubbock residents are Hispanic, and targeting Spanish-language searches is a real competitive edge most agencies skip. Third, the Texas Tech effect: 40,000 students create steady rental-property and first-time-buyer contractor work that cycles differently from the rest of the market." },
     { q: 'How much does it cost to work with you?', a: "A website is a one-time build between $2,000 and $9,000. SEO and local SEO run month-to-month, $750 to $3,000, with nothing locking you in. The free Lubbock audit is where we pin down the exact number for your situation." },
     { q: 'Which Lubbock areas do you serve?', a: "All of Lubbock and the surrounding communities: Tech Terrace, Wolfcamp, Maxey Park, Raintree, Wolfforth, Shallowater, Idalou, Slaton, and more. We build genuine neighborhood and surrounding-area pages rather than one generic Lubbock page, because local specificity is what earns rankings and trust." },
-    { q: 'Where should I start?', a: "Start with a free Lubbock audit. We'll look at your website, your current rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work before the next storm season, and show you whether the bilingual search gap is an opportunity for your business. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Lubbock audit. We'll look at your website, your current rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work before the next storm season, and show you whether the bilingual search gap is an opportunity for your business. Lubbock marketing for contractors works best as one coordinated plan, and the audit is where that plan begins. No pitch deck, just a plan." },
   ],
 };

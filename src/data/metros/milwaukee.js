@@ -111,15 +111,15 @@ export const milwaukeeLocations = [
     citySlug: 'milwaukee', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Milwaukee Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Milwaukee and three businesses show up on the map. We get you into those three before the next freeze or flooding season hits.',
+      'Milwaukee Local SEO that puts your business in the Map Pack before the next freeze or flooding season hits, so homeowners find you first and call you.',
     eyebrow: 'Local SEO · Milwaukee, WI',
-    h1: 'When Milwaukee searches for what you do, be the first name they find',
+    h1: 'Milwaukee Local SEO that puts your business in the Map Pack when a furnace dies',
     h2Exact: 'Milwaukee Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. When a Milwaukee homeowner's furnace dies at midnight in January, they call one of those three. We get you there — across the city and the suburban belt — before the next emergency.",
     primaryCta: 'Get my free Milwaukee audit',
     intro:
-      "Milwaukee local SEO comes down to one thing: when a homeowner in Bay View or Wauwatosa searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. The stakes are highest in winter, when heating and storm-damage calls spike overnight and a homeowner in an emergency isn't browsing around. Being one of those three in the neighborhoods and suburbs you serve is the whole game. Here's how you do it.",
+      "Milwaukee Local SEO comes down to one thing: when a homeowner in Bay View or Wauwatosa runs a \"near me\" search for your service, are you one of the three businesses Google pins to the Map Pack? Most people tap one of those three in the local 3-pack and never scroll. The stakes are highest in winter, when heating and storm-damage calls spike overnight and a homeowner in an emergency isn't browsing around. Ranking on the map in the neighborhoods and suburbs you serve, through a Google Business Profile built for local search, is the whole game. Here's how you do it.",
     aioQuestion: 'How do Milwaukee businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you serve; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Milwaukee neighborhoods and suburbs. Milwaukee's seasonal demand — heating and storm work in winter, basement and foundation work in spring — means the contractors who build their local presence before those spikes hit are the ones who book the most urgent, highest-value work.",
@@ -167,7 +167,7 @@ export const milwaukeeLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads you never keep — and they sell the same Milwaukee homeowner to your competitors too. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Milwaukee service area, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Milwaukee service area, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis of what your Milwaukee Local SEO needs to rank on the map." },
     ],
   },
 
@@ -179,13 +179,13 @@ export const milwaukeeLocations = [
     metaDescription:
       'Milwaukee SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for seasonal and emergency.',
     eyebrow: 'SEO Services · Milwaukee, WI',
-    h1: 'Get your Milwaukee business to the top of Google and keep it there',
+    h1: 'Milwaukee SEO that gets you to the top of Google and keeps you there before winter',
     h2Exact: 'Milwaukee SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Milwaukee customers search — heating emergencies in January, basement flooding in April, Cream City brick repair any time of year — and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
     primaryCta: 'Get my free Milwaukee SEO audit',
     intro:
-      "Milwaukee SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in a market shaped by brutal winters, aging housing stock, and homeowners who do their research before they call. We measure it in leads, not vanity traffic.",
+      "Milwaukee SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. As your Milwaukee SEO company, we get contractors ranking on Google for the money keywords in a market shaped by brutal winters, aging housing stock, and homeowners who do their research before they call. We turn search engine optimization into organic traffic you measure in leads, not vanity numbers.",
     aioQuestion: 'How do Milwaukee businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content tied to specific Milwaukee neighborhoods and suburbs, and earning links from trusted local sources. In Milwaukee, building your rankings around the heating and storm-damage searches before winter — and the foundation and basement searches before spring thaw — is one of the quickest ways to pull ahead of competitors who optimize year-round without thinking about timing.",
@@ -233,7 +233,7 @@ export const milwaukeeLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business — not just classic search." },
       { q: 'Which Milwaukee suburbs do you cover?', a: "The full metro belt — Wauwatosa, Brookfield, Greenfield, Oak Creek, Menomonee Falls, Waukesha, New Berlin, West Allis, Cudahy, South Milwaukee, and the city neighborhoods. We build genuine local pages rather than one generic Milwaukee page, because that's what actually ranks for suburb-specific searches." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a straight diagnosis of what your Milwaukee SEO needs to reach page one." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const milwaukeeLocations = [
     metaDescription:
       'Milwaukee web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a market shaped by brutal winters and old.',
     eyebrow: 'Web Design · Milwaukee, WI',
-    h1: 'Milwaukee web design that turns visitors into booked jobs',
+    h1: 'Milwaukee web design that turns Bay View and Brookfield visitors into booked jobs',
     h2Exact: 'Milwaukee Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Milwaukee contractors fast, mobile-first sites engineered to turn visitors into booked work — and to earn the trust of homeowners who value straight talk and local expertise over slick marketing.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Milwaukee contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, nothing that says 'I know this neighborhood and I know old houses.' Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Bay View-to-Brookfield visitors into booked jobs — built to win the trust of a city that values honest work.",
+      "Milwaukee Web Design done right fixes the leaks most contractor websites have: slow on a phone, buried call button, no clear offer, nothing that says 'I know this neighborhood and I know old houses.' We build mobile-first, fast-loading sites that look like the professional you are, and that convert Bay View-to-Brookfield visitors into booked jobs, built to win the trust of a city that values honest work.",
     aioQuestion: 'What makes a good contractor website in Milwaukee?',
     aioAnswer:
       "A good Milwaukee contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods and suburbs you serve. Because Milwaukee homeowners are often dealing with urgent seasonal problems — a failing furnace in January, a flooded basement in April — a site that makes calling easy and looks locally credible is what converts. Milwaukee residents also appreciate plain-spoken copy over corporate language.",
@@ -299,7 +299,7 @@ export const milwaukeeLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Milwaukee contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Milwaukee contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan for Milwaukee Web Design that converts visitors into booked jobs." },
     ],
   },
 
@@ -311,13 +311,13 @@ export const milwaukeeLocations = [
     metaDescription:
       'Redesign your Milwaukee website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs — including the seasonal.',
     eyebrow: 'Website Redesign · Milwaukee, WI',
-    h1: 'Redesign your Milwaukee website without losing your rankings',
+    h1: 'Milwaukee Website Redesign that converts more without losing your rankings before heating season',
     h2Exact: 'Milwaukee Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, nothing that signals local expertise. We redesign Milwaukee contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned before the next heating season.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Milwaukee contractor sites for speed and conversions, build them to earn trust with homeowners who value straight talk, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Milwaukee Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Milwaukee contractor sites for speed and conversions, build them to earn trust with homeowners who value straight talk, and run an SEO-safe migration with the 301 redirects that protect the traffic you already have, so you redesign without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them — because the new site is faster, mobile-first, and better structured for the seasonal and emergency searches that drive Milwaukee's biggest demand spikes.",
@@ -365,7 +365,7 @@ export const milwaukeeLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan, so your Milwaukee Website Redesign converts more without losing the rankings you've earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const milwaukeeCity = {
 
   titleTag: 'Milwaukee Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Milwaukee contractors. Get found before the next freeze or flooding season hits, own your leads instead of renting them.',
+    'Milwaukee marketing for contractors: web design, SEO, and local SEO that get you found before the next freeze or flooding season hits and own your leads.',
 
   eyebrow: 'Milwaukee · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Milwaukee contractors found and booked',
+  h1: 'Milwaukee marketing for contractors that gets you found and booked before the next freeze',
   h2Exact: 'Milwaukee Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Milwaukee's seasonal market — brutal winters, aging housing stock, and homeowners who trust straight-talking local contractors over polished national agencies.",
@@ -386,7 +386,7 @@ export const milwaukeeCity = {
   primaryCta: 'Get my free Milwaukee audit',
 
   intro:
-    "If you run a contracting business in Milwaukee, your busiest seasons are shaped by the lake. When January wind chills hit -30°F and a furnace dies, homeowners call whoever shows up first in Google. When April snowmelt floods a basement, they need a contractor today. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods and suburbs you serve — including the seasonal and emergency searches that drive Milwaukee's biggest demand spikes. Here's how we help Milwaukee contractors do exactly that.",
+    "Milwaukee marketing for contractors is shaped by the lake, because your busiest seasons are too. When January wind chills hit -30°F and a furnace dies, homeowners call whoever shows up first in Google. When April snowmelt floods a basement, they need a contractor today. Getting found and booked here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods and suburbs you serve, including the seasonal and emergency searches that drive Milwaukee's biggest demand spikes. Here's how we pair web design and SEO for Milwaukee contractors to do exactly that.",
   aioQuestion: 'How do Milwaukee contractors get more leads online?',
   aioAnswer:
     "Milwaukee contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because demand spikes hard in winter heating season and spring flooding season, the contractors who build their rankings before those waves hit — rather than during them — are the ones who book the most urgent, highest-value work.",
@@ -422,6 +422,6 @@ export const milwaukeeCity = {
     { q: 'Why does the Milwaukee market need a different approach?', a: "Because demand here is shaped by the lake and the housing stock. Milwaukee gets brutal winters with heavy lake-effect snow and temperatures that drive heating and storm-damage emergencies. The city has hundreds of thousands of pre-1960 homes — many with Cream City brick — that need specialist knowledge. And about 18% of city residents are Hispanic, with real Spanish-language search demand most contractors never target. Generic marketing misses all of that." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Milwaukee areas do you serve?', a: "The city and the full suburban belt — Brady Street, Walker's Point, Bay View, Riverwest, Wauwatosa, Brookfield, Greenfield, Oak Creek, Menomonee Falls, Waukesha, New Berlin, West Allis, Cudahy, South Milwaukee, and more." },
-    { q: 'Where should I start?', a: "Start with a free Milwaukee audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest — including whether your seasonal and emergency search coverage is where it needs to be before the next heating season. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Milwaukee audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, including whether your seasonal and emergency search coverage is where it needs to be before the next heating season. No pitch deck, just a plan for Milwaukee marketing for contractors that gets you found and booked." },
   ],
 };

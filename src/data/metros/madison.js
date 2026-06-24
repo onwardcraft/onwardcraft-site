@@ -111,9 +111,9 @@ export const madisonLocations = [
     citySlug: 'madison', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Madison WI Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your service in Madison and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Madison Local SEO that puts contractors in the Map Pack: search your trade nearby and we get you into those three results, so the call lands with you.',
     eyebrow: 'Local SEO · Madison, WI',
-    h1: 'When Madison searches for what you do, be the first name they find',
+    h1: 'Madison Local SEO that puts your crew in the Map Pack across the isthmus',
     h2Exact: 'Madison Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map on a \"near me\" search, and everyone underneath them is essentially invisible. In a city of state employees and UW researchers who vet before they call, we get you into that top three for the Madison neighborhoods you serve, so the job lands with you rather than whoever happened to rank first.",
@@ -167,7 +167,7 @@ export const madisonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More research now begins in AI rather than classic search, and Madison's educated homeowner base is out ahead on this. We shape your content and schema so those AI engines can read your business, trust it, and quote it back to a Madison searcher. It is fast becoming as important as the map results themselves." },
       { q: 'Am I locked into a contract?', a: "No. We request an opening 90-day run because that is about how long local SEO needs to produce real movement in a market this competitive. After that it is month-to-month. If we are not delivering, you leave, and the accountability stays with us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build the rankings, the Google profile, and the review base that send Madison leads directly to your phone. Over time you lean on the brokers less because the work is already coming your way." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across Madison's neighborhoods, what your map competitors are doing to stay ahead, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where your Madison Local SEO stands today across the neighborhoods you serve, what your map competitors are doing to stay ahead, the fixes that will move you fastest into the local 3-pack, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -177,9 +177,9 @@ export const madisonLocations = [
     citySlug: 'madison', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Madison WI SEO Company | OnwardCraft',
     metaDescription:
-      'Madison SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for an educated, research-driven.',
+      'Madison SEO that ranks contractors on Google and brings in organic leads you own. Revenue-tied reporting, no lock-in contracts, built for a research-driven market.',
     eyebrow: 'SEO Services · Madison, WI',
-    h1: 'Get your Madison business to the top of Google and keep it there',
+    h1: 'Madison SEO that gets your trade to the top of Google and keeps it there through every winter',
     h2Exact: 'Madison WI SEO Company',
     heroSubhead:
       "Ads switch off the moment you stop paying. SEO works the other way: rank once for what Madison homeowners search and the leads keep arriving. We build that ranking and tie every report back to real calls and booked jobs, not vanity traffic.",
@@ -233,7 +233,7 @@ export const madisonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for, and Madison's highly educated homeowner base uses these tools more than most cities. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Madison do you cover?', a: "Madison proper plus Fitchburg, Middleton, Verona, Sun Prairie, Monona, Cottage Grove, Waunakee, Stoughton, McFarland, De Forest, and the surrounding Dane County communities, with genuine local pages rather than one catch-all Madison page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads straight to you. The more you own your search visibility, the less you need to pay brokers for shared leads you are splitting with three competitors." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today across Madison, what your competitors are doing to stay ahead, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where your Madison SEO stands today across the city, the money keywords your competitors are ranking for to stay ahead, the highest-impact fixes to grow organic traffic, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const madisonLocations = [
     metaDescription:
       'Madison web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in a research-driven college market.',
     eyebrow: 'Web Design · Madison, WI',
-    h1: 'Madison web design that turns visitors into booked jobs',
+    h1: 'Madison web design that turns isthmus visitors into booked jobs',
     h2Exact: 'Madison WI Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure. We build Madison contractors fast, mobile-first sites engineered to hold up under the scrutiny of educated, research-heavy homeowners, and to turn that scrutiny into booked work.",
     primaryCta: 'Get my free quote',
     intro:
-      "Madison homeowners do not just tap the first result: they open three tabs, work through the reviews, study the site, and then decide. A slow, generic, or unconvincing site quietly sends them to your competitor. We build contractor websites made to come through that scrutiny intact: fast, clear, credible, and built to convert research into calls across Willy Street, Fitchburg, Middleton, and beyond.",
+      "Madison web design has to do more than look sharp, because homeowners here do not just tap the first result: they open three tabs, work through the reviews, study the site, and then decide. A slow, generic, or unconvincing website quietly sends them to your competitor. We are a Madison web design company that builds contractor websites made to come through that scrutiny intact: fast, mobile-first, credible, and built to convert research into calls across Willy Street, Fitchburg, Middleton, and beyond.",
     aioQuestion: 'What makes a good contractor website in Madison WI?',
     aioAnswer:
       "A strong Madison contractor site loads in under three seconds on a phone, puts the call button and a clear offer up top, proves trust with real project photos and reviews, and names the specific neighborhoods you serve. Because Madison homeowners are highly educated and comparison-shop hard, credibility signals like project galleries, review counts, and licensing details count more here than in most markets. Working in energy efficiency and sustainability where it fits also wins the growing group of Madison buyers who specifically hunt for eco-minded contractors.",
@@ -299,7 +299,7 @@ export const madisonLocations = [
       { q: 'Will it work well on phones?', a: "We design mobile-first, since that is where most of your Madison traffic comes from. Fast load, easy-to-tap call buttons, and forms built for a thumb." },
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage, usually WordPress or Webflow. We will recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build comes with launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost Madison leads, what a high-converting contractor site in this market should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost Madison leads, what high-converting Madison web design in this market should include, from mobile-first build to neighborhood pages, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const madisonLocations = [
     citySlug: 'madison', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Madison WI Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Madison website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a research-driven market.',
+      'Madison Website Redesign without losing rankings. Faster, mobile-first rebuilds with an SEO-safe migration that convert more visitors into booked jobs in a research-driven market.',
     eyebrow: 'Website Redesign · Madison, WI',
-    h1: 'Redesign your Madison website without losing your rankings',
+    h1: 'Madison Website Redesign that converts more without losing the rankings you have earned',
     h2Exact: 'Madison WI Website Redesign Company',
     heroSubhead:
       "An outdated site bleeds jobs every week, especially in a city where homeowners compare three websites before they call. We redesign Madison contractor sites to convert more and load faster, and we migrate with care so you keep every bit of ranking you have earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go wrong in one of two ways: the site looks sharper but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Madison contractor sites for the research-heavy buyers who live here, build them to win on the first impression, and migrate with the redirects and SEO care that protect the traffic you have already worked hard to earn.",
+      "A Madison Website Redesign usually goes wrong in one of two ways: the site looks sharper but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Madison contractor sites for the research-heavy buyers who live here, design them to win on the first impression, and handle a careful, SEO-safe migration with the redirects that protect the traffic you have already worked hard to earn.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and lifts them, because the new site is faster, more credible, mobile-first, and better organized than the old one. In Madison, where homeowners research hard, a redesign that strengthens trust signals and adds neighborhood-specific content usually delivers a conversion bump alongside the ranking protection.",
@@ -365,7 +365,7 @@ export const madisonLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO runs month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. No pressure, just an honest assessment." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Madison Website Redesign should fix, and a fixed-price quote with a timeline and an SEO-safe migration plan that rebuilds without losing rankings. No pressure, just an honest assessment." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const madisonCity = {
 
   titleTag: 'Madison WI Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Madison WI contractors. Get found, get booked, and own your leads instead of renting them, built for a research-driven market.',
+    'Madison marketing for contractors: web design, SEO, and local SEO that get you found and booked, so you own your leads instead of renting them in a research-driven market.',
 
   eyebrow: 'Madison, WI · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Madison contractors found and booked',
+  h1: 'Madison marketing for contractors that gets you found and booked across the isthmus',
   h2Exact: 'Madison WI Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Madison's educated, eco-minded, research-heavy market. One team to get you ranking, converting, and off the rented-lead treadmill, ready for Dane County winters and UW-area homebuyers alike.",
@@ -386,7 +386,7 @@ export const madisonCity = {
   primaryCta: 'Get my free Madison audit',
 
   intro:
-    "Running a contracting business in Madison means competing for the attention of some of the most research-heavy homebuyers in the region. UW-Madison brings 50,000 students who become renters, then homeowners, then the kind of buyers who read every review and open three contractor websites before calling one. The winters add urgency: ice dams, frozen pipes, and no-heat calls do not wait for you to finish ranking. And Madison's progressive culture means a growing share of homeowners specifically want contractors who can talk through energy efficiency, heat pumps, and green roofing. Winning here takes three things pulling together: a site that earns trust, SEO that ranks you for what people actually search, and local SEO that puts you in the map results across Madison's neighborhoods. Here is how we help Madison contractors do exactly that.",
+    "Madison marketing for contractors means competing for the attention of some of the most research-heavy homebuyers in the region. UW-Madison brings 50,000 students who become renters, then homeowners, then the kind of buyers who read every review and open three contractor websites before calling one. The winters add urgency: ice dams, frozen pipes, and no-heat calls do not wait for you to finish ranking. And Madison's progressive culture means a growing share of homeowners specifically want contractors who can talk through energy efficiency, heat pumps, and green roofing. Winning here takes three things pulling together: a site that earns trust, SEO that ranks you for what people actually search, and local SEO that puts you in the map results across Madison's neighborhoods. Here is how we help Madison contractors do exactly that.",
   aioQuestion: 'How do Madison WI contractors get more leads online?',
   aioAnswer:
     "Madison contractors win more leads by pairing a fast, credible, mobile-first website with SEO that ranks them for high-intent searches and local SEO that takes the Google map results across their specific neighborhoods. Because Madison homeowners are highly educated and research-driven, strong reviews, detailed neighborhood pages, and content that speaks to energy efficiency and Wisconsin's seasonal trade demand carry extra weight here.",
@@ -422,6 +422,6 @@ export const madisonCity = {
     { q: 'Why does the Madison market need a different approach?', a: "Madison homeowners are unusually research-heavy: 68% hold a degree, and many work at the university or in state government. They compare websites, read reviews closely, and often ask about sustainability and efficiency before hiring. That makes credibility signals, neighborhood-specific content, and eco-minded language matter more here than in a generic market." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are billed month-to-month, from $750 to $3,000, with nothing long-term to sign. We confirm exact scope in your free audit." },
     { q: 'Which Madison-area communities do you serve?', a: "Madison proper plus Fitchburg, Middleton, Verona, Sun Prairie, Monona, Cottage Grove, Waunakee, Stoughton, McFarland, De Forest, Oregon, and the surrounding Dane County communities. We build genuine neighborhood pages, from Willy Street and Atwood to Dudgeon-Monroe and beyond, rather than one catch-all Madison page." },
-    { q: 'Where should I start?', a: "Start with a free Madison audit. We will look at your website, your rankings, and your map result presence, including how you show up for Wisconsin's seasonal demand windows, and tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Madison audit. We will look at your website, your rankings, and your map result presence, including how you show up for Wisconsin's seasonal demand windows, and tell you the one or two Madison marketing for contractors moves that will get you found and booked fastest. No pitch deck, just a plan." },
   ],
 };

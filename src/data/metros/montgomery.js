@@ -108,17 +108,17 @@ export const montgomeryLocations = [
   {
     ...BASE,
     citySlug: 'montgomery', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Montgomery Local SEO Company | OnwardCraft',
+    titleTag: 'Montgomery Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Montgomery and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Montgomery Local SEO that lands you in the Google Map Pack, so when neighbors search your trade plus "near me," the call comes to you.',
     eyebrow: 'Local SEO · Montgomery',
-    h1: 'When Montgomery searches for what you do, be the first name they find',
+    h1: 'Montgomery Local SEO that wins you the top three on the map',
     h2Exact: 'Montgomery Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the call lands with you instead of whoever ranked first — and so you're ready when the next storm fills everyone's phone.",
     primaryCta: 'Get my free Montgomery audit',
     intro:
-      "Montgomery local SEO comes down to one thing: when a homeowner in Old Cloverdale or Pike Road searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This is a city with deep local pride and a constant flow of military families searching for a contractor the day they arrive, so becoming one of those three is the whole game. Here's how you do it.",
+      "Montgomery Local SEO comes down to one thing: when a homeowner in Old Cloverdale or Pike Road runs a \"near me\" search for your trade, are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This is a city with deep local pride and a constant flow of military families searching for a contractor the day they arrive, so becoming one of those three is the whole game. Here's how a Montgomery local SEO company gets you there.",
     aioQuestion: 'How do Montgomery businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Montgomery neighborhoods. Montgomery homeowners favor recognized local businesses and central Alabama is tornado-prone, so the winners look established, respond fast, and are already ranking when spring-storm demand spikes.",
@@ -166,7 +166,7 @@ export const montgomeryLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day Montgomery Local SEO plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -174,17 +174,17 @@ export const montgomeryLocations = [
   {
     ...BASE,
     citySlug: 'montgomery', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Montgomery SEO Company | OnwardCraft',
+    titleTag: 'Montgomery SEO Company | Rankings You Own | OnwardCraft',
     metaDescription:
       'Montgomery SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-season demand.',
     eyebrow: 'SEO Services · Montgomery',
-    h1: 'Get your Montgomery business to the top of Google and keep it there',
+    h1: 'Montgomery SEO that builds rankings you actually own',
     h2Exact: 'Montgomery SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Montgomery customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
     primaryCta: 'Get my free Montgomery SEO audit',
     intro:
-      "Montgomery SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in a market built on Hyundai, Maxwell AFB, and a constant flow of new homeowners — and we measure it in leads, not vanity traffic.",
+      "Montgomery SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in a market built on Hyundai, Maxwell AFB, and a constant flow of new homeowners, and we measure it in leads, not vanity traffic.",
     aioQuestion: 'How do Montgomery businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Montgomery sources. In a market with deep local loyalty and tornado-driven seasonal demand, keeping the site fast on mobile and ranking for storm-driven, seasonal terms are two of the quickest ways to pull ahead.",
@@ -232,7 +232,7 @@ export const montgomeryLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Montgomery do you cover?', a: "All of the Montgomery metro and the surrounding areas — Pike Road, Prattville, Wetumpka, Millbrook, Deatsville, plus Old Cloverdale, Garden District, Cottage Hill and more — with genuine local pages rather than one generic Montgomery page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic Montgomery SEO timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -240,17 +240,17 @@ export const montgomeryLocations = [
   {
     ...BASE,
     citySlug: 'montgomery', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Montgomery Web Design Company | OnwardCraft',
+    titleTag: 'Montgomery Web Design Company | Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'Montgomery web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and storm-season demand.',
+      'Montgomery Web Design that brings in real work: fast, mobile-first contractor sites engineered to convert visitors into booked jobs and hold up in storm season.',
     eyebrow: 'Web Design · Montgomery',
-    h1: 'Montgomery web design that turns visitors into booked jobs',
+    h1: 'Montgomery web design engineered to bring in real work',
     h2Exact: 'Montgomery Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Montgomery contractors fast, mobile-first sites engineered to turn visitors into booked work — and to hold up when storm season floods your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Montgomery contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn Old-Cloverdale-to-Pike-Road visitors into booked jobs — and that don't fall over when a tornado outbreak sends your traffic through the roof.",
+      "Montgomery Web Design that works fixes the leaks most contractor websites bleed leads through: slow on a phone, buried call button, no clear offer. We build mobile-first sites that load fast, look like the professional you are, and turn Old-Cloverdale-to-Pike-Road visitors into booked jobs, and that don't fall over when a tornado outbreak sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Montgomery?',
     aioAnswer:
       "A good Montgomery contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during tornado and storm season. Because most Montgomery searches happen on mobile and military families search the moment they arrive, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -298,7 +298,7 @@ export const montgomeryLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Montgomery site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Montgomery Web Design project should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -306,17 +306,17 @@ export const montgomeryLocations = [
   {
     ...BASE,
     citySlug: 'montgomery', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Montgomery Website Redesign | OnwardCraft',
+    titleTag: 'Montgomery Website Redesign | Modernize Without Losing Traffic | OnwardCraft',
     metaDescription:
-      'Redesign your Montgomery website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in storm.',
+      'Montgomery Website Redesign that modernizes your site without tanking your traffic. Faster, mobile-first rebuilds that convert more and hold up in storm season.',
     eyebrow: 'Website Redesign · Montgomery',
-    h1: 'Redesign your Montgomery website without losing your rankings',
+    h1: 'Montgomery Website Redesign that modernizes without tanking your traffic',
     h2Exact: 'Montgomery Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Montgomery contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Montgomery contractor sites for speed and conversions, build them to handle storm-season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Montgomery Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Montgomery contractor sites for speed and conversions, build them to handle storm-season traffic, and run an SEO-safe migration with the redirects that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -364,7 +364,7 @@ export const montgomeryLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Montgomery Website Redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -374,10 +374,10 @@ export const montgomeryCity = {
 
   titleTag: 'Montgomery Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Montgomery contractors. Get found, get booked, and own your leads instead of renting them — built for storm-season demand.',
+    'Montgomery marketing for contractors: web design, SEO, and local SEO that get you found, get you booked, and let you own your leads. Built for storm-season demand.',
 
   eyebrow: 'Montgomery · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Montgomery contractors found and booked',
+  h1: 'Montgomery marketing for contractors built around the trades',
   h2Exact: 'Montgomery Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Montgomery's capital-city market — deep local pride, military families, and tornado-driven storm demand. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -385,7 +385,7 @@ export const montgomeryCity = {
   primaryCta: 'Get my free Montgomery audit',
 
   intro:
-    "If you run a contracting business in Montgomery, you're fighting for attention in a capital-city market where homeowners favor a recognized local name and military families search the day they arrive. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack — all ready before the next tornado outbreak sends demand through the roof. Here's how we help Montgomery contractors do exactly that.",
+    "Montgomery marketing for contractors means fighting for attention in a capital-city market where homeowners favor a recognized local name and military families search the day they arrive. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all ready before the next tornado outbreak sends demand through the roof. As a Montgomery digital marketing agency for the trades, here's how we help contractors do exactly that.",
   aioQuestion: 'How do Montgomery contractors get more leads online?',
   aioAnswer:
     "Montgomery contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Montgomery homeowners favor recognized local businesses and demand spikes hard during tornado and storm season, the contractors who look established and are already ranking before the storm win the most work.",
@@ -421,6 +421,6 @@ export const montgomeryCity = {
     { q: 'Why does storm season matter for my marketing?', a: "When tornadoes and severe storms tear through central Alabama in spring, demand for roofing and restoration spikes overnight and the backlog can run for months. Ranking takes months to build, so the contractors who are already visible before the storm take that work. We get you in place ahead of season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Montgomery areas do you serve?', a: "All of the Montgomery metro and the surrounding areas — Old Cloverdale, Garden District, Cottage Hill, Capitol Heights, Pike Road, Prattville, Wetumpka, Millbrook, Deatsville and more." },
-    { q: 'Where should I start?', a: "Start with a free Montgomery audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Montgomery audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Montgomery marketing for contractors plan that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

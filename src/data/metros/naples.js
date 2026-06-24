@@ -111,15 +111,15 @@ export const naplesLocations = [
     citySlug: 'naples', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Naples Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Naples and three businesses show up on the map. We get you into those three, so the high-end call lands with you.',
+      'Naples Local SEO that puts you in the Map Pack so the high-end Port Royal and Pelican Bay calls land with you, not the competition.',
     eyebrow: 'Local SEO · Naples',
-    h1: 'When Naples searches for what you do, be the first name they find',
+    h1: 'Naples Local SEO that ranks you above the competition across Port Royal and Pelican Bay',
     h2Exact: 'Naples Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the Port Royal or Pelican Bay call lands with you — and so you're ready when post-Ian rebuilding and snowbird season fill everyone's phone.",
     primaryCta: 'Get my free Naples audit',
     intro:
-      "Naples local SEO comes down to one thing: when a homeowner in Old Naples or Pelican Bay searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. In a market this wealthy and this demanding, where homeowners vet you online before they call, becoming one of those three is the whole game. Here's how you do it.",
+      "Naples Local SEO comes down to one thing: when a homeowner in Old Naples or Pelican Bay searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three local 3-pack results and never scroll. In a market this wealthy and this demanding, where homeowners vet you online before they call, becoming one of those three is the whole game. Here's how a focused local SEO program puts you there.",
     aioQuestion: 'How do Naples businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Naples neighborhoods. Naples is wealthy, demanding, and still rebuilding from Hurricane Ian, so the winners look polished and established, respond fast, and are already ranking when storm-rebuild and snowbird-season demand spike.",
@@ -167,7 +167,7 @@ export const naplesLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It's a straight diagnosis of what Naples Local SEO can do for your business, with no pitch deck attached." },
     ],
   },
 
@@ -177,15 +177,15 @@ export const naplesLocations = [
     citySlug: 'naples', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Naples SEO Company | OnwardCraft',
     metaDescription:
-      'Naples SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for storm-rebuild and luxury.',
+      'Naples SEO that climbs contractors past the competition on Google and brings in organic traffic you own. Revenue-tied reporting, no lock-in contracts.',
     eyebrow: 'SEO Services · Naples',
-    h1: 'Get your Naples business to the top of Google and keep it there',
+    h1: 'Naples SEO that climbs you past the competition on Google, from Old Naples to Marco Island',
     h2Exact: 'Naples SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Naples customers search and the leads keep coming. We build that ranking and tie every report to actual calls and high-end jobs.",
     primaryCta: 'Get my free Naples SEO audit',
     intro:
-      "Naples SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in one of the wealthiest, most demanding markets in the country — and we measure it in leads, not vanity traffic.",
+      "Naples SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking on Google for the money keywords in one of the wealthiest, most demanding markets in the country, and we measure that organic traffic in leads, not vanity numbers.",
     aioQuestion: 'How do Naples businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Naples sources. In a wealthy, demanding, storm-prone market, keeping the site fast on mobile and ranking for storm-rebuild and seasonal terms are two of the quickest ways to pull ahead.",
@@ -233,7 +233,7 @@ export const naplesLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Naples do you cover?', a: "All of Naples and Collier County and the surrounding areas — Old Naples, Port Royal, Pelican Bay, Park Shore, Pine Ridge, Marco Island, Bonita Springs, Estero and more — with genuine local pages rather than one generic Naples page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It's an honest look at what Naples SEO can do for you, with no pitch deck attached." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const naplesLocations = [
     metaDescription:
       'Naples web design that turns high-end visitors into booked jobs — fast, polished, mobile-first sites built for luxury clients and storm-rebuild demand.',
     eyebrow: 'Web Design · Naples',
-    h1: 'Naples web design that turns visitors into booked jobs',
+    h1: 'Naples Web Design that loads fast and books more jobs from luxury homeowners',
     h2Exact: 'Naples Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Naples contractors fast, polished, mobile-first sites engineered to turn high-end visitors into booked work — and to hold up when storm-rebuild and snowbird season flood your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Naples contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, and a look that doesn't match the price of the jobs. In a market where homeowners spending millions vet you online first, web design done right fixes all of that. We build sites that load fast, look like the premium professional you are, and turn Old-Naples-to-Marco-Island visitors into booked jobs — and that don't fall over when a storm sends your traffic through the roof.",
+      "Naples Web Design done right fixes the quiet leaks that cost most contractor websites their leads: slow on a phone, buried call button, no clear offer, and a look that doesn't match the price of the jobs. In a market where homeowners spending millions vet you online first, website design has to do more than look nice. We build mobile-first sites that load fast, look like the premium professional you are, and convert Old-Naples-to-Marco-Island visitors into booked jobs, and that don't fall over when a storm sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Naples?',
     aioAnswer:
       "A good Naples contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, looks polished enough to match high-end clients' expectations, and is built to handle traffic spikes during storm rebuilding and season. Because Naples homeowners vet contractors online before they call, professional design and an obvious next step are what separate a site that books premium jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const naplesLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Naples site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Naples site should include, and a fixed-price quote with a timeline. It's a straight plan for what Naples Web Design can do for your business, with no pressure attached." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const naplesLocations = [
     citySlug: 'naples', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Naples Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Naples website without losing rankings. Faster, polished, mobile-first rebuilds that convert more high-end visitors into booked jobs and hold up.',
+      'Naples Website Redesign done with a careful, SEO-safe migration. Faster, polished, mobile-first rebuilds that convert more high-end visitors into booked jobs.',
     eyebrow: 'Website Redesign · Naples',
-    h1: 'Redesign your Naples website without losing your rankings',
+    h1: 'Naples Website Redesign done with a careful, SEO-safe migration that keeps your rankings',
     h2Exact: 'Naples Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, and too dated for the high-end clients you want. We redesign Naples contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Naples contractor sites for speed, conversions, and the polish high-end clients expect, build them to handle storm-rebuild traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Naples Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Naples contractor sites for speed, conversions, and the polish high-end clients expect, make them mobile-first to handle storm-rebuild traffic, and run an SEO-safe migration with the redirects and care that protect the rankings you already have, so you redesign your Naples website without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const naplesLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline. You walk away knowing exactly what a Naples Website Redesign would do for your business and how we'd protect your traffic through the migration." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const naplesCity = {
 
   titleTag: 'Naples Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Naples contractors. Get found, get booked, and own your leads instead of renting them — built for luxury clients.',
+    'Naples marketing for contractors: web design, SEO, and local SEO that get you found and booked so you own your leads instead of renting them.',
 
   eyebrow: 'Naples · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Naples contractors found and booked',
+  h1: 'Naples marketing for contractors that fills your calendar with luxury and storm-rebuild work',
   h2Exact: 'Naples Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Naples's wealthy, demanding, storm-driven market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const naplesCity = {
   primaryCta: 'Get my free Naples audit',
 
   intro:
-    "If you run a contracting business in Naples, you're competing for some of the most valuable home-service work in the country — estates that trade for millions, owners who vet you online before they call, and a market still rebuilding from Hurricane Ian. Winning here takes three things working together: a polished site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack — all ready before the next storm and the next season send demand through the roof. Here's how we help Naples contractors do exactly that.",
+    "Naples marketing for contractors has to fit a market unlike any other: you're competing for some of the most valuable home-service work in the country, estates that trade for millions, owners who vet you online before they call, and a region still rebuilding from Hurricane Ian. Winning here takes three things working together: a polished site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all ready before the next storm and the next season send demand through the roof. As a digital marketing agency built around the trades, here's how we help Naples contractors get found and booked.",
   aioQuestion: 'How do Naples contractors get more leads online?',
   aioAnswer:
     "Naples contractors get more leads by combining a fast, polished, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Naples is wealthy and demanding and still rebuilding from Hurricane Ian, the contractors who look established and are already ranking before the storm and the season win the most work.",
@@ -422,6 +422,6 @@ export const naplesCity = {
     { q: 'Why does storm rebuilding matter for my marketing?', a: "When Hurricane Ian made a direct hit on Collier County, demand for roofing, restoration, impact windows, and HVAC spiked overnight and the backlog has run for years. Ranking takes months to build, so the contractors who are already visible before the storm take that work. We get you in place ahead of season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Naples areas do you serve?', a: "All of Naples and Collier County and the surrounding areas — Old Naples, Port Royal, Aqualane Shores, Pelican Bay, Park Shore, Pine Ridge, Marco Island, Bonita Springs, Estero and more." },
-    { q: 'Where should I start?', a: "Start with a free Naples audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Naples audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It's the simplest way to see what Naples marketing for contractors can do for your calendar, with no pitch deck and no pressure." },
   ],
 };

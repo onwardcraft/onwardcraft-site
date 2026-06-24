@@ -111,15 +111,15 @@ export const modestoLocations = [
     citySlug: 'modesto', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Modesto Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Modesto and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Modesto Local SEO that gets you into the three businesses Google pins to the map, so the call lands with you instead of a competitor.',
     eyebrow: 'Local SEO · Modesto',
-    h1: 'When Modesto searches for what you do, be the first name they find',
+    h1: 'Modesto Local SEO that gets you found when neighbors search your trade',
     h2Exact: 'Modesto Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. We get you into that top three, so the call lands with you — and so you're ready when valley heat or wildfire smoke drives every homeowner to their phone.",
     primaryCta: 'Get my free Modesto audit',
     intro:
-      "Modesto local SEO comes down to one thing: when a homeowner in Oakdale or Turlock searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. When temperatures hit 107°F and an AC goes down, that first name on the map gets the call. Here's how you become it.",
+      "Modesto Local SEO comes down to one thing: when a homeowner in Oakdale or Turlock searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. When temperatures hit 107°F and an AC goes down, that first name on the map gets the call. Here's how you become it.",
     aioQuestion: 'How do Modesto businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile optimized for the exact services and neighborhoods you want; consistent name, address, and phone listings across the web; a steady stream of real reviews; and local content tied to real Modesto and San Joaquin Valley neighborhoods. In a heat-driven market with a large Spanish-speaking community and a growing Bay Area transplant population, the winners look established, respond fast, and are already ranking before demand spikes in June.",
@@ -167,7 +167,7 @@ export const modestoLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly — including from Bay Area transplants who moved here with real renovation budgets." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day Modesto Local SEO plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -177,9 +177,9 @@ export const modestoLocations = [
     citySlug: 'modesto', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Modesto SEO Company | OnwardCraft',
     metaDescription:
-      'Modesto SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for valley heat and wildfire.',
+      'Modesto SEO that ranks contractors on Google and turns organic traffic into booked work you own. Revenue-tied reporting, no lock-in, built for valley heat.',
     eyebrow: 'SEO Services · Modesto',
-    h1: 'Get your Modesto business to the top of Google and keep it there',
+    h1: 'Modesto SEO that turns organic traffic into booked work',
     h2Exact: 'Modesto SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Modesto customers search and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const modestoLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Modesto do you cover?', a: "All of the greater Modesto metro and the surrounding communities — Oakdale, Turlock, Ceres, Riverbank, Patterson, Salida, Waterford, Ripon, Manteca and more — with genuine local pages rather than one generic Modesto page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic Modesto SEO timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,7 +245,7 @@ export const modestoLocations = [
     metaDescription:
       'Modesto web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors and San Joaquin Valley heat demand.',
     eyebrow: 'Web Design · Modesto',
-    h1: 'Modesto web design that turns visitors into booked jobs',
+    h1: 'Modesto web design that makes valley homeowners pick you',
     h2Exact: 'Modesto Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Modesto contractors fast, mobile-first sites engineered to turn visitors into booked work — and to hold up when valley heat or wildfire smoke drives every homeowner to their phone at once.",
@@ -299,7 +299,7 @@ export const modestoLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Modesto site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Modesto Web Design build should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const modestoLocations = [
     citySlug: 'modesto', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Modesto Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Modesto website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in valley heat.',
+      'Modesto Website Redesign that rebuilds an aging site into a lead engine without losing rankings. Faster, mobile-first, and ready for valley heat.',
     eyebrow: 'Website Redesign · Modesto',
-    h1: 'Redesign your Modesto website without losing your rankings',
+    h1: 'Modesto Website Redesign that turns an aging site into a lead engine',
     h2Exact: 'Modesto Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Modesto contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Modesto contractor sites for speed and conversions, build them to handle heat-season traffic surges, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Modesto Website Redesign goes one of two bad ways for most contractors: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Modesto contractor sites for speed and conversions, build them to handle heat-season traffic surges, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const modestoLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Modesto Website Redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const modestoCity = {
 
   titleTag: 'Modesto Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Modesto contractors. Get found, get booked, and own your leads — built for San Joaquin Valley heat and wildfire smoke.',
+    'Modesto marketing for contractors that turns searches into jobs. Web design, SEO, and local SEO built for San Joaquin Valley heat and wildfire smoke.',
 
   eyebrow: 'Modesto · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Modesto contractors found and booked',
+  h1: 'Modesto marketing for contractors that turns searches into jobs',
   h2Exact: 'Modesto Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the San Joaquin Valley's heat-driven, smoke-prone market and Bay Area transplant homeowners. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const modestoCity = {
   primaryCta: 'Get my free Modesto audit',
 
   intro:
-    "If you run a contracting business in Modesto, you're working in one of California's most demanding markets. Summers hit 105 to 110°F — making HVAC the most urgent home-service category in the region. Wildfire smoke from the Sierra Nevada arrives every August through October. And thousands of Bay Area remote workers have moved here, bringing renovation budgets that make every job ticket bigger. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack — all in place before the next heat wave. Here's how we help Modesto contractors do exactly that.",
+    "Modesto marketing for contractors has to account for one of California's most demanding markets. Summers hit 105 to 110°F, making HVAC the most urgent home-service category in the region. Wildfire smoke from the Sierra Nevada arrives every August through October. And thousands of Bay Area remote workers have moved here, bringing renovation budgets that make every job ticket bigger. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack — all in place before the next heat wave. Here's how we help Modesto contractors do exactly that.",
   aioQuestion: 'How do Modesto contractors get more leads online?',
   aioAnswer:
     "Modesto contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because San Joaquin Valley heat makes HVAC demand urgent and wildfire smoke creates a second annual spike, the contractors who are already visible and ranking before those seasons hit win the most work — including from Bay Area transplants who expect to be able to find you easily online.",
@@ -422,6 +422,6 @@ export const modestoCity = {
     { q: 'Why does summer heat matter for my marketing?', a: "When San Joaquin Valley temperatures hit 105 to 110°F, searches for HVAC and cooling become urgent and ranking takes months to build — so you have to be visible before the heat arrives, not scrambling after. The contractors already in the Map Pack when a heat wave lands take those calls. Wildfire smoke in August through October adds a second demand wave for air filtration and duct cleaning. We get you in place ahead of both." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Modesto areas do you serve?', a: "All of the greater Modesto metro and the surrounding communities — Oakdale, Turlock, Ceres, Riverbank, Salida, Patterson, Waterford, Empire, Ripon, Manteca and more." },
-    { q: 'Where should I start?', a: "Start with a free Modesto audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Modesto audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two Modesto marketing for contractors moves that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

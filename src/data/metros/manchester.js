@@ -111,15 +111,15 @@ export const manchesterLocations = [
     citySlug: 'manchester', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Manchester Local SEO Company | OnwardCraft',
     metaDescription:
-      'Type your trade plus near me in Manchester NH and three businesses fill the map. We get your shop into those three so the call lands with you.',
+      'Manchester Local SEO that lands your shop in the Map Pack, the three businesses Google pins when neighbors search your trade plus near me.',
     eyebrow: 'Local SEO · Manchester-Nashua',
-    h1: 'Be the first trade Manchester finds when it searches for what you do',
+    h1: 'Manchester Local SEO that makes you the first name on the map from Rimmon Heights to Bedford',
     h2Exact: 'Manchester Local SEO Company',
     heroSubhead:
       "When someone here searches \"near me,\" Google pins exactly three businesses to the map. Anyone underneath might as well not exist. We move your shop into that top three so the call reaches you, not whoever happened to rank first, and so you're set before the next storm jams everyone's phone lines.",
     primaryCta: 'Get my free Manchester audit',
     intro:
-      "Local SEO in Manchester turns on a single question: when a homeowner in Rimmon Heights or out in Bedford types your trade plus \"near me,\" is your shop one of the three Google sticks to the map? Most people tap one of those three and never scroll past them. Families keep crossing up from Massachusetts and the field of competitors thickens right alongside them, so landing in that trio is the entire contest. Here's the work that gets you there.",
+      "Manchester Local SEO turns on a single question: when a homeowner in Rimmon Heights or out in Bedford types your trade plus \"near me,\" is your shop one of the three Google sticks to the map? Most people tap one of those three and never scroll past them. Families keep crossing up from Massachusetts and the field of competitors thickens right alongside them, so winning the local 3-pack is the entire contest. A tuned Google Business Profile, matching listings, and pages built for real near me searches are what get you there.",
     aioQuestion: 'How do Manchester NH businesses rank higher in local search?',
     aioAnswer:
       "You earn it with four pieces: a Google Business Profile tuned to the exact services and neighborhoods you want, name-address-phone listings that match everywhere online, a steady run of genuine reviews, and local pages tied to real Manchester-Nashua areas like the North End, the Millyard, and Hooksett. New Hampshire homeowners lean independent and favor a local crew, and storm-season demand jumps fast, so the shops that win look established, answer quickly, and are already ranking before the first nor'easter lands.",
@@ -167,7 +167,7 @@ export const manchesterLocations = [
       { q: 'Will I turn up in Google AI Overviews and ChatGPT?', a: "A rising share of \"near me\" research now opens in AI rather than classic search. We structure your content and schema so those engines can read, trust, and cite your shop. It's fast becoming as decisive as the Map Pack itself." },
       { q: 'Am I tied to a contract?', a: "No. We ask for an opening 90 days because that's about how long local SEO needs to show real movement. After that it runs month-to-month. If we're not producing, you leave, and the accountability stays on us." },
       { q: 'How does this wean me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less because the work arrives directly. Folks here already prefer hiring a local contractor straight, so this just puts you in front of them." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, how your Map Pack rivals are getting ahead, the fixes that'll move you fastest, and a grounded 90-to-180-day plan with the numbers run for your shop. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, how your Map Pack rivals are getting ahead, the fixes that'll move you fastest, and a grounded 90-to-180-day Manchester Local SEO plan with the numbers run for your shop. No pitch deck, just a straight diagnosis of what it takes to rank on the map." },
     ],
   },
 
@@ -177,15 +177,15 @@ export const manchesterLocations = [
     citySlug: 'manchester', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Manchester SEO Company | OnwardCraft',
     metaDescription:
-      'SEO that ranks Manchester NH contractors on Google and delivers leads you keep. Lead-tied reporting, no lock-in, tuned for storm-season demand.',
+      'Manchester SEO that ranks contractors on page one of Google and delivers leads you keep. Lead-tied reporting, no lock-in, tuned for storm-season demand.',
     eyebrow: 'SEO Services · Manchester-Nashua',
-    h1: 'Climb to the top of Google for Manchester and hold the spot',
+    h1: 'Manchester SEO that puts your trade on page one of Google and holds it through storm season',
     h2Exact: 'Manchester SEO Company',
     heroSubhead:
       "Ads die the instant you stop feeding them. SEO runs the other way: rank once for what your Manchester customers search and the leads keep arriving. We build that ranking and tie every report to real calls and booked jobs.",
     primaryCta: 'Get my free Manchester SEO audit',
     intro:
-      "SEO in Manchester reduces to one question: when someone searches your trade, do you land on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in a metro stocked with new arrivals carrying Boston-area budgets, and we score it in leads, not vanity traffic.",
+      "Manchester SEO reduces to one question: when someone searches your trade, do you land on page one or page two? Page two might as well be page fifty. As a Manchester SEO company built for the trades, we rank contractors for the money keywords in a metro stocked with new arrivals carrying Boston-area budgets, then score the organic traffic in leads, not vanity numbers.",
     aioQuestion: 'How do Manchester NH businesses rank higher on Google?',
     aioAnswer:
       "They climb by repairing the site's technical base, tuning each page to the exact terms buyers type, publishing local content people actually use, and earning links from trusted Manchester sources like the Union Leader and regional trade groups. In a crowded market fed by in-migrating homeowners, keeping the site quick on mobile and ranking for the storm-driven seasonal terms are two of the fastest ways to break ahead.",
@@ -233,7 +233,7 @@ export const manchesterLocations = [
       { q: 'Will I turn up in Google AI Overviews and ChatGPT?', a: "That's a growing slice of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your shop, not just classic search." },
       { q: 'Which areas around Manchester do you cover?', a: "The whole Manchester-Nashua metro and the towns around it: Bedford, Hooksett, Goffstown, Londonderry, Derry, Nashua, Merrimack, and more, with real local pages rather than one catch-all Manchester page." },
       { q: 'How do you cut me loose from Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. The more of your search visibility you own, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, how your competitors are getting past you, the highest-impact fixes, and a grounded timeline with the numbers modeled for your shop. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, how your competitors are getting past you, the highest-impact fixes, and a grounded Manchester SEO timeline with the numbers modeled for your shop so you can see the path to page one. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const manchesterLocations = [
     citySlug: 'manchester', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Manchester Web Design Company | OnwardCraft',
     metaDescription:
-      'Manchester NH web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and storm-season demand.',
+      'Manchester Web Design that books jobs instead of just looking nice: fast, mobile-first contractor websites built for storm-season demand.',
     eyebrow: 'Web Design · Manchester-Nashua',
-    h1: 'Manchester web design that turns visitors into booked jobs',
+    h1: 'Manchester web design that books jobs instead of just looking nice, from the Millyard to Bedford',
     h2Exact: 'Manchester Web Design Company',
     heroSubhead:
       "A handsome site that never rings the phone is just a brochure. We build Manchester contractors fast, mobile-first sites engineered to convert visitors into booked work, and to stay standing when a nor'easter floods your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Manchester contractor sites bleed leads quietly: slow on a phone, a call button buried somewhere, no clear offer up top. Web design done right closes every one of those gaps. We build sites that load quick, carry the polish your work deserves, and turn visitors from the Millyard to Bedford into booked jobs, sites that don't fold when a snowstorm sends your traffic vertical.",
+      "Manchester Web Design has one job: close the gaps that quietly bleed leads from most contractor sites, the slow mobile load, the buried call button, the missing offer up top. As a Manchester web design company built for the trades, we ship fast-loading, mobile-first sites that carry the polish your work deserves and turn visitors from the Millyard to Bedford into booked jobs, sites that don't fold when a snowstorm sends your traffic vertical.",
     aioQuestion: 'What makes a strong contractor website in Manchester NH?',
     aioAnswer:
       "A strong Manchester contractor site loads in under three seconds on a phone, puts the call button and a clear offer above the fold, backs it with reviews and real job photos, and holds up under the traffic spikes that come with winter storms. Since most searches here happen on mobile, phone speed and an obvious next step are what split a site that books work from one that just sits there.",
@@ -299,7 +299,7 @@ export const manchesterLocations = [
       { q: 'What platform do you build on?', a: "We pick the one that fits your needs and that you can actually run, usually WordPress or Webflow. We'll recommend the right fit in your free consult and walk through the tradeoffs in plain terms." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build comes with launch support, and after that we offer affordable monthly maintenance for updates, speed, and security." },
       { q: 'Am I tied to a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO runs month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear read on what your current site is costing you in lost leads, what a high-converting Manchester site should carry, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear read on what your current site is costing you in lost leads, what a high-converting Manchester site should carry, and a fixed-price Manchester Web Design quote with a timeline. No pressure, just a plan that converts visitors into booked jobs." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const manchesterLocations = [
     citySlug: 'manchester', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Manchester Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Manchester NH website without losing rankings. Faster, mobile-first rebuilds that convert more visitors and hold up in storm season.',
+      'Manchester Website Redesign that rebuilds for leads, not just looks. Faster, mobile-first rebuilds with an SEO-safe migration that holds your rankings.',
     eyebrow: 'Website Redesign · Manchester-Nashua',
-    h1: 'Redesign your Manchester website without surrendering your rankings',
+    h1: 'Manchester Website Redesign that rebuilds for leads, not just looks, and keeps the rankings you have earned',
     h2Exact: 'Manchester Website Redesign Company',
     heroSubhead:
       "A dated site costs you jobs every single week: slow, awkward on a phone, easy to scroll past. We redesign Manchester contractor sites to convert more and load faster, and we migrate with care so you keep every scrap of ranking you've built.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail one of two ways: the site looks sharper but converts no better, or it goes live and the rankings evaporate overnight. We do neither. We redesign Manchester contractor sites for speed and conversions, build them to take a winter-storm traffic load, and migrate with the redirects and SEO care that guard the traffic you already have.",
+      "Manchester Website Redesign fails one of two ways for most contractors: the site looks sharper but converts no better, or it goes live and the rankings evaporate overnight. We do neither. We rebuild Manchester contractor sites for speed and conversions, build them to take a winter-storm traffic load, and run an SEO-safe migration with the redirects that guard the traffic you already have, so you redesign your Manchester website without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO through a redesign by holding your URL structure (or mapping 301 redirects for every changed page), keeping your existing content and metadata, carrying your schema across, and testing it all on staging before launch. Handled right, a redesign holds your rankings and lifts them, because the new site is faster, mobile-first, and better built than the one it replaced.",
@@ -365,7 +365,7 @@ export const manchesterLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for quick load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Fully: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I tied to a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO runs month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price Manchester Website Redesign quote with a timeline and an SEO-safe migration plan that holds your rankings." },
     ],
   },
 ];
@@ -373,12 +373,12 @@ export const manchesterLocations = [
 export const manchesterCity = {
   citySlug: 'manchester', city: 'Manchester', state: 'New Hampshire', stateAbbr: 'NH', metro: 'Manchester-Nashua',
 
-  titleTag: 'Manchester NH Marketing for Contractors | OnwardCraft',
+  titleTag: 'Manchester Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Manchester NH contractors. Get found, get booked, and keep your leads instead of renting them, built for storm season.',
+    'Manchester marketing for contractors: web design, SEO, and local SEO that get you found and booked, and keep your leads instead of renting them.',
 
   eyebrow: 'Manchester · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Manchester contractors found and booked',
+  h1: 'Manchester marketing for contractors who want to own their leads from the Millyard to Hooksett',
   h2Exact: 'Manchester Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the Manchester-Nashua market: a no-tax magnet for Boston-area buyers with hard New England winters. One team to get you ranking, converting, and off the rented-lead wheel.",
@@ -386,7 +386,7 @@ export const manchesterCity = {
   primaryCta: 'Get my free Manchester audit',
 
   intro:
-    "Run a contracting business in Manchester and you're scrapping for attention in a metro that keeps drawing homeowners up from across the Massachusetts line, with the competition thickening right alongside it. Winning here takes three pieces moving together: a site that converts, SEO that ranks you for what people type, and local SEO that puts you in the Map Pack, all set before the next storm sends demand vertical. Here's how we help Manchester contractors pull it off.",
+    "Manchester marketing for contractors comes down to winning attention in a metro that keeps drawing homeowners up from across the Massachusetts line, with the competition thickening right alongside it. Winning here takes three pieces moving together: a site that converts, SEO that ranks you for what people type, and local SEO that puts you in the Map Pack, all set before the next storm sends demand vertical. As a digital marketing agency built for the trades, here's how we help Manchester contractors get found and booked.",
   aioQuestion: 'How do Manchester NH contractors get more leads online?',
   aioAnswer:
     "Manchester contractors win more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that takes the Google Map Pack. Since New Hampshire's no-tax pull keeps drawing Boston-area buyers north and demand jumps hard each winter, the crews that look established and already rank before the storm collect the most work.",
@@ -422,6 +422,6 @@ export const manchesterCity = {
     { q: 'Why does winter matter for my marketing?', a: "When a nor'easter buries Manchester or a hard freeze cracks supply lines across town, demand for roofing, plumbing, and heating jumps overnight and the backlog stretches for weeks. Ranking takes months to build, so the crews already visible before the storm grab that work. We get you set ahead of the season." },
     { q: 'What does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We lock exact scope in your free audit." },
     { q: 'Which Manchester areas do you serve?', a: "The full Manchester-Nashua metro and the towns around it: the North End, Rimmon Heights, Hallsville, Bedford, Hooksett, Goffstown, Londonderry, Derry, Nashua, Merrimack, and more." },
-    { q: 'Where should I start?', a: "Start with a free Manchester audit. We'll go through your website, your rankings, and your Map Pack presence, then point you to the one or two moves that bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Manchester audit. We'll go through your website, your rankings, and your Map Pack presence, then point you to the one or two moves in your Manchester marketing for contractors that bring in the most work fastest. No pitch deck, just a plan to get found and booked." },
   ],
 };

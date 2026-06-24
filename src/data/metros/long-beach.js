@@ -109,17 +109,17 @@ export const longBeachLocations = [
   {
     ...BASE,
     citySlug: 'long-beach', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Long Beach Local SEO Company | OnwardCraft',
+    titleTag: 'Long Beach Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'When Long Beach searches your service, three businesses show on the map. We put you in those three so the call lands with you, in English and in Spanish.',
+      'Long Beach Local SEO that turns "near me" searches into a ringing phone. We put you in the top three on the map, in English and in Spanish.',
     eyebrow: 'Local SEO · Long Beach',
-    h1: 'When Long Beach searches for what you do, be the first name they find',
+    h1: 'Long Beach Local SEO that turns Belmont Shore "near me" searches into a ringing phone',
     h2Exact: 'Long Beach Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when someone searches \"near me,\" and everyone below that line might as well not exist. We move you into that top three so the call lands with you instead of whoever ranked first, and so a bilingual, phone-first coastal market can actually find you.",
     primaryCta: 'Get my free Long Beach audit',
     intro:
-      "Long Beach local SEO turns on a single moment: a homeowner in Belmont Shore or Bixby Knolls types your service plus \"near me,\" and either you are one of the three businesses Google pinned to the map or you are not. Most people tap one of the three and never scroll. This is a dense, deeply diverse, coastal city where a big share of searches run in Spanish and nearly all of them happen on a phone, so landing in that top three is the whole contest. Here is how we get you there.",
+      "Long Beach Local SEO turns on a single moment: a homeowner in Belmont Shore or Bixby Knolls types your service plus \"near me,\" and either you are one of the three businesses Google pinned to the map or you are not. Most people tap one of the three and never scroll. This is a dense, deeply diverse, coastal city where a big share of local search runs in Spanish and nearly all of it happens on a phone, so landing in that top three of the Google Map Pack is the whole contest. Here is how we get you there.",
     aioQuestion: 'How do Long Beach businesses rank higher in local search?',
     aioAnswer:
       "You rank by getting four things right: a Google Business Profile tuned to the exact services and neighborhoods you want; name, address, and phone details that match everywhere online; a steady flow of real reviews; and local content built on genuine Long Beach neighborhoods. Because this is a coastal, bilingual city, the winners look established, answer fast, show up in Spanish search, and rank for year-round salt-air upkeep and summer HVAC demand.",
@@ -167,7 +167,7 @@ export const longBeachLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts in AI tools instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. In a market this competitive, that is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. The first 90 days are the only commitment, because that is about how long local SEO takes to show real movement. After that you are month-to-month. If the results are not there, you leave, and the burden of proving it works stays on our side." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and a visibility you never get to keep. We build the rankings, the Google profile, and the review base that route leads to you and nobody else. Month by month your reliance on the brokers shrinks, because the calls are already arriving on their own." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, how your Map Pack competitors are staying ahead of you, the moves that will lift you fastest, and a realistic 90-to-180-day plan with the numbers worked out for your business. No slide deck, just the diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, how your Map Pack competitors are staying ahead of you, the moves that will lift you fastest, and a realistic 90-to-180-day plan with the numbers worked out for your business. No slide deck, just the diagnosis and a clear path for your Long Beach Local SEO." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const longBeachLocations = [
   {
     ...BASE,
     citySlug: 'long-beach', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Long Beach SEO Company | OnwardCraft',
+    titleTag: 'Long Beach SEO Company | Rank for the Jobs You Want | OnwardCraft',
     metaDescription:
-      'Long Beach SEO that ranks contractors on Google and brings leads you own. Revenue-tied reporting, no lock-in, built for a coastal, bilingual port market.',
+      'Long Beach SEO that ranks you for the searches that book jobs and brings leads you own. Revenue-tied reporting, no lock-in, built for a coastal, bilingual port market.',
     eyebrow: 'SEO Services · Long Beach',
-    h1: 'Get your Long Beach business to the top of Google and keep it there',
+    h1: 'Long Beach SEO that ranks you for the coastal searches that book jobs',
     h2Exact: 'Long Beach SEO Company',
     heroSubhead:
       "Ads quit the second your card stops. SEO does the reverse: rank once for what your Long Beach customers search and the leads keep arriving for months. We build that ranking and tie every report to real calls and booked jobs, not pretty charts.",
     primaryCta: 'Get my free Long Beach SEO audit',
     intro:
-      "Long Beach SEO comes down to one blunt question: when someone searches what you do, are you on page one or page two? In this market page two might as well be page fifty. We get contractors ranking for the money keywords in a dense, diverse, coastal city, including the salt-air upkeep, seismic-retrofit, and summer HVAC searches that drive real work, and we measure the whole thing in leads, not traffic that never picks up the phone.",
+      "Long Beach SEO comes down to one blunt question: when someone searches what you do, do you rank on page one or page two? In this market page two might as well be page fifty. As a Long Beach SEO company we get contractors ranking for the money keywords in a dense, diverse, coastal city, including the salt-air upkeep, seismic-retrofit, and summer HVAC searches that drive real work, and we measure the whole thing in booked leads, not organic traffic that never picks up the phone.",
     aioQuestion: 'How do Long Beach businesses rank higher on Google?',
     aioAnswer:
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Long Beach sources. In a competitive coastal market, keeping the site fast on mobile, ranking in Spanish as well as English, and targeting seasonal terms like summer HVAC and salt-air upkeep are some of the quickest ways to pull ahead.",
@@ -233,7 +233,7 @@ export const longBeachLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "It is a growing slice of what we tune for. We set up your content and schema so those AI engines can read your business, trust it, and cite it by name in both English and Spanish queries, not just feed you classic blue links." },
       { q: 'Which areas around Long Beach do you cover?', a: "All of Long Beach and the cities around it: Signal Hill, Lakewood, Seal Beach, Los Alamitos, Cerritos, Carson, San Pedro and more, each on a real local page rather than one stretched-thin Long Beach page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "We build rankings and a Google presence that funnel leads straight to you. The more of your search visibility you own outright, the less you pay brokers to fight three competitors for the same shared lead." },
-      { q: "What's in the free SEO audit?", a: "Your current ranking position, how competitors are staying ahead of you, the fixes with the most impact, and a realistic timeline with the math worked out for your business. No slide deck, just the diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Your current ranking position, how competitors are staying ahead of you, the fixes with the most impact, and a realistic timeline with the math worked out for your business. No slide deck, just the diagnosis and a clear plan for your Long Beach SEO." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const longBeachLocations = [
   {
     ...BASE,
     citySlug: 'long-beach', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Long Beach Web Design Company | OnwardCraft',
+    titleTag: 'Long Beach Web Design Company | Clicks Into Calls | OnwardCraft',
     metaDescription:
-      'Long Beach web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and a diverse, bilingual coastal market.',
+      'Long Beach web design built to convert clicks into calls: fast, mobile-first sites for contractors and a diverse, bilingual coastal market.',
     eyebrow: 'Web Design · Long Beach',
-    h1: 'Long Beach web design that turns visitors into booked jobs',
+    h1: 'Long Beach web design built to convert Belmont Shore clicks into calls',
     h2Exact: 'Long Beach Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just an expensive brochure. We build Long Beach contractors fast, mobile-first sites engineered to turn visitors into booked work, and built to speak to a diverse, bilingual city that searches on its phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Long Beach contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer, and nothing that speaks to the city's bilingual market. Web design done right closes all of those leaks. We build sites that load fast, look like the professional you actually are, and turn Belmont-Shore-to-Bixby-Knolls visitors into booked jobs.",
+      "Long Beach web design is the difference between a site that books work and a contractor website that bleeds leads quietly: slow on a phone, call button buried, no clear offer, and nothing that speaks to the city's bilingual market. Web design done right closes all of those leaks. We build mobile-first sites that load fast, look like the professional you actually are, and turn Belmont-Shore-to-Bixby-Knolls visitors into booked jobs.",
     aioQuestion: 'What makes a good contractor website in Long Beach?',
     aioAnswer:
       "A good Long Beach contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and speaks to the city's diverse, bilingual market. Because most Long Beach searches happen on mobile and a large share run in Spanish, mobile speed, an obvious next step, and bilingual-ready content are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const longBeachLocations = [
       { q: 'What platform do you build on?', a: "We choose the platform that matches your needs and that you can run yourself, usually WordPress or Webflow. In the free consult we tell you which fits and walk through the tradeoffs in plain language." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build ships with launch support, and from there you can add affordable monthly maintenance that keeps the updates, the load speed, and the security handled for your Long Beach site." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time, fixed-price project. Any maintenance or SEO you add afterward runs month-to-month, so you can step away whenever you want." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Long Beach site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting site should include, and a fixed-price quote with a timeline. No pressure, just a plan for your Long Beach web design." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const longBeachLocations = [
   {
     ...BASE,
     citySlug: 'long-beach', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Long Beach Website Redesign | OnwardCraft',
+    titleTag: 'Long Beach Website Redesign | Keep Every Ranking | OnwardCraft',
     metaDescription:
-      'Redesign your Long Beach website without losing rankings. Faster, mobile-first, bilingual-ready rebuilds that turn more visitors into booked jobs.',
+      'Long Beach Website Redesign that keeps every ranking you have earned. Faster, mobile-first, bilingual-ready rebuilds that turn more visitors into booked jobs.',
     eyebrow: 'Website Redesign · Long Beach',
-    h1: 'Redesign your Long Beach website without losing your rankings',
+    h1: 'Long Beach Website Redesign that keeps every ranking you have earned',
     h2Exact: 'Long Beach Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for a Long Beach homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Long Beach contractor sites for speed and conversions, build them to serve a diverse, bilingual market, and migrate with the redirects and SEO care that protect the traffic you have spent years building.",
+      "A Long Beach Website Redesign usually goes one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign contractor sites for speed and conversions, build them to serve a diverse, bilingual market, and run an SEO-safe migration with the redirects that protect the traffic you have spent years building.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const longBeachLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for quick load and Core Web Vitals, which raises conversions and rankings at once." },
       { q: 'Do I own the redesigned site?', a: "Fully: the site, the domain, and the content. No platform lock-in, period." },
       { q: 'Am I locked into a contract?', a: "No. The redesign itself is a one-time project. If you keep us on for maintenance or SEO afterward, that part runs month-to-month with nothing locking you in." },
-      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in leads and rankings, the things the redesign needs to fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in leads and rankings, the things the redesign needs to fix, and a fixed-price quote with a timeline and an SEO-safe migration plan for your Long Beach Website Redesign." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const longBeachCity = {
 
   titleTag: 'Long Beach Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Long Beach contractors. Get found, get booked, and own your leads instead of renting them, built for a bilingual coast.',
+    'Long Beach marketing for contractors: web design, SEO, and local SEO. Get found, get ranked, get booked, and own your leads instead of renting them.',
 
   eyebrow: 'Long Beach · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Long Beach contractors found and booked',
+  h1: 'Long Beach marketing for contractors: get ranked, get booked',
   h2Exact: 'Long Beach Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Long Beach's diverse, coastal market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const longBeachCity = {
   primaryCta: 'Get my free Long Beach audit',
 
   intro:
-    "If you run a contracting business in Long Beach, you are fighting for attention in a dense, diverse, coastal city where a heavy share of homeowners search in Spanish and nearly all of them search on a phone. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all built to reach the whole bilingual market and the year-round coastal demand. Here is exactly how we help Long Beach contractors pull that off.",
+    "Long Beach marketing for contractors means fighting for attention in a dense, diverse, coastal city where a heavy share of homeowners search in Spanish and nearly all of them search on a phone. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all built to reach the whole bilingual market and the year-round coastal demand. As a Long Beach digital marketing agency built around the trades, here is exactly how we help contractors get found and booked.",
   aioQuestion: 'How do Long Beach contractors get more leads online?',
   aioAnswer:
     "Long Beach contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Long Beach is deeply bilingual and coastal, with year-round salt-air upkeep and summer HVAC demand, the contractors who look established, show up in both English and Spanish search, and are already ranking win the most work.",
@@ -422,6 +422,6 @@ export const longBeachCity = {
     { q: 'Why does the bilingual market matter for my marketing?', a: "Long Beach is roughly 43% Hispanic, with the largest Cambodian community in the US and a heavy share of homeowners searching in Spanish. Contractors who only target English search are invisible to a big block of paying customers. We build your marketing to reach both, which is one of the fastest ways to pull ahead here." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds running $2,000 to $9,000. SEO and local SEO are month-to-month, $750 to $3,000, with no long contract holding you. Your free Long Beach audit nails down the exact scope before anything starts." },
     { q: 'Which Long Beach areas do you serve?', a: "All of Long Beach and the surrounding cities: Belmont Shore, Naples, Bluff Heights, Bixby Knolls, California Heights, plus Signal Hill, Lakewood, Seal Beach, Los Alamitos, Cerritos and more." },
-    { q: 'Where should I start?', a: "Start with a free Long Beach audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Long Beach audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan to put Long Beach marketing for contractors to work for you." },
   ],
 };

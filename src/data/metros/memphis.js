@@ -109,11 +109,11 @@ export const memphisLocations = [
   {
     ...BASE,
     citySlug: 'memphis', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Memphis Local SEO Company | Win the Map Pack',
+    titleTag: 'Memphis Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your trade in Memphis and three businesses pin to the map. We put you in those three so the call lands with you, well before storm season hits.',
+      'Memphis Local SEO that puts your business in the three spots Google pins to the map, so the call lands with you well before storm season hits.',
     eyebrow: 'Local SEO · Memphis, TN',
-    h1: 'When Memphis searches for what you do, be the first name they see',
+    h1: 'Memphis Local SEO that gets you found when neighbors search your trade',
     h2Exact: 'Memphis Local SEO Company',
     heroSubhead:
       "Google pins just three businesses to the map when someone searches \"near me,\" and everyone below them might as well be invisible. In Memphis we get you into that top three for your neighborhoods before storm season or the summer heat wave lands, so the call rings your phone instead of whoever happened to rank first.",
@@ -167,7 +167,7 @@ export const memphisLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A growing share of \"near me\" research now starts in AI rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads in a price-sensitive market where four contractors fight over one job. We build the rankings, the Google profile, and the review base that route leads straight to you. Over time you lean on the brokers less because the work is already coming in directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Memphis neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Memphis neighborhoods, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day Memphis Local SEO plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const memphisLocations = [
     metaDescription:
       'Memphis SEO that ranks contractors on Google and brings leads you own. Lead-tied reporting, no lock-in contracts, built for storm season and summer heat.',
     eyebrow: 'SEO Services · Memphis, TN',
-    h1: 'Get your Memphis business to the top of Google and keep it there',
+    h1: 'Memphis SEO that turns organic traffic into booked work',
     h2Exact: 'Memphis SEO Company',
     heroSubhead:
       "Ads die the second your card stops. SEO does the opposite: rank once for what Memphis customers search and the leads keep arriving through storm season, summer heat waves, and winter cold snaps. We build that ranking and tie every report to real calls and real jobs.",
@@ -233,7 +233,7 @@ export const memphisLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Memphis do you cover?', a: "All of Shelby County and the suburbs around it: Midtown, Cooper-Young, East Memphis, Germantown, Collierville, Bartlett, Cordova, Lakeland, Arlington, plus the northern Mississippi communities of Southaven and Olive Branch, with genuine local pages rather than one generic Memphis page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads straight to you. In Memphis's cost-conscious market, owning your pipeline means you stop fighting on price against contractors who bought the very same shared lead." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic Memphis SEO timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const memphisLocations = [
     metaDescription:
       'Memphis web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors serving Midtown, Germantown, and Collierville.',
     eyebrow: 'Web Design · Memphis, TN',
-    h1: 'Memphis web design that turns visitors into booked jobs',
+    h1: 'Memphis web design that makes homeowners pick you',
     h2Exact: 'Memphis Web Design Company',
     heroSubhead:
       "A good-looking website that never rings the phone is just a brochure. We build Memphis contractors fast, mobile-first sites engineered to turn visitors into booked work and to earn trust across the communities you serve, from Germantown to Midtown to Southaven.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Memphis contractor websites leak leads quietly: slow on a phone, call button buried, no clear offer anywhere. Web design done right closes every one of those gaps. We build sites that load fast, look like the professional you already are, and turn visitors from Bartlett to Cooper-Young into booked jobs, with the community-first feel that earns trust in Memphis neighborhoods.",
+      "Memphis web design done right closes the gaps where contractor sites leak leads: slow on a phone, call button buried, no clear offer anywhere. As a Memphis web design company built for the trades, we ship fast, mobile-first sites that look like the professional you already are and turn visitors from Bartlett to Cooper-Young into booked jobs, with the community-first feel that earns trust in Memphis neighborhoods.",
     aioQuestion: 'What makes a good contractor website in Memphis?',
     aioAnswer:
       "A strong Memphis contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos from local neighborhoods, and names the specific Memphis communities you serve. Since most searches happen on mobile and trust runs through neighborhoods in this market, authentic local connection and mobile speed are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const memphisLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs in plain language." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Memphis site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Memphis web design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const memphisLocations = [
     citySlug: 'memphis', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Memphis Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Memphis website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in Germantown and Midtown.',
+      'Memphis Website Redesign that converts more without losing rankings. Faster, mobile-first rebuilds that turn visitors into booked jobs in Germantown and Midtown.',
     eyebrow: 'Website Redesign · Memphis, TN',
-    h1: 'Redesign your Memphis website without losing your rankings',
+    h1: 'Memphis Website Redesign that turns an aging site into a lead engine',
     h2Exact: 'Memphis Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week, and it stings most heading into storm season or the summer HVAC rush. We redesign Memphis contractor sites to convert more and load faster, then migrate them carefully so you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks sharper but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Memphis contractor sites for speed and conversions, build them to earn community trust, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Most Memphis Website Redesign projects go one of two bad ways: the site looks sharper but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Memphis contractor sites for speed and conversions, build them to earn community trust, and run an SEO-safe migration with the redirects and care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and lifts them, because the new site loads faster, runs mobile-first, and is structured better than the old one.",
@@ -365,7 +365,7 @@ export const memphisLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both your conversions and your rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the Memphis Website Redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const memphisCity = {
 
   titleTag: 'Memphis Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Memphis contractors. Get found before storm season and the summer HVAC rush, and own your leads instead of renting them.',
+    'Memphis marketing for contractors: web design, SEO, and local SEO that get you found before storm season and the summer HVAC rush, and own your leads instead of renting them.',
 
   eyebrow: 'Memphis · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Memphis contractors found and booked',
+  h1: 'Memphis marketing for contractors that turns searches into jobs',
   h2Exact: 'Memphis Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Memphis's seasonal demand spikes, older housing stock, and neighborhood-driven market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const memphisCity = {
   primaryCta: 'Get my free Memphis audit',
 
   intro:
-    "If you run a contracting business in Memphis, two forces shape your whole year: the spring storm season that drives roofing and restoration demand overnight, and the brutal summer humidity that keeps HVAC and mold calls coming through June, July, August, and September. Winning here means being ranked before those seasons arrive, not chasing them after. It also means earning trust in tight-knit communities from Germantown to Midtown to Southaven, where reputation travels fast. Here is how we help Memphis contractors do exactly that.",
+    "Memphis marketing for contractors has to answer two forces that shape your whole year: the spring storm season that drives roofing and restoration demand overnight, and the brutal summer humidity that keeps HVAC and mold calls coming through June, July, August, and September. Winning here means being ranked before those seasons arrive, not chasing them after. It also means earning trust in tight-knit communities from Germantown to Midtown to Southaven, where reputation travels fast. Here is how our web design and SEO for Memphis contractors do exactly that.",
   aioQuestion: 'How do Memphis contractors get more leads online?',
   aioAnswer:
     "Memphis contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. The seasonal spikes here (storm roofing in spring, HVAC in summer, heating in winter) mean ranking ahead of each season is essential, not optional. And because local competition is thinner in Memphis than in the major metros, an early mover can own their market for years.",
@@ -422,6 +422,6 @@ export const memphisCity = {
     { q: 'Why does the Memphis market need a different approach?', a: "Because demand here is heavily seasonal and the housing stock runs old. Storm roofing and restoration peak in spring, HVAC demand peaks in the brutal summer humidity, and heating climbs in winter, so you have to rank before each season arrives. And since the field is thinner here than in the major metros, investing now pays off faster and holds longer." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free audit." },
     { q: 'Which Memphis areas do you serve?', a: "All of Memphis and the suburbs around it: Midtown, Cooper-Young, Overton Square, East Memphis, Germantown, Collierville, Bartlett, Cordova, Lakeland, Arlington, plus the northern Mississippi communities of Southaven and Olive Branch, with genuine neighborhood pages rather than one generic Memphis page." },
-    { q: 'Where should I start?', a: "Start with a free Memphis audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, especially before storm season or the summer heat wave. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Memphis audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Memphis marketing for contractors that will bring in the most work fastest, especially before storm season or the summer heat wave. No pitch deck, just a plan." },
   ],
 };

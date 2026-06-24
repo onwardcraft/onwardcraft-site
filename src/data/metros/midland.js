@@ -109,17 +109,17 @@ export const midlandLocations = [
   {
     ...BASE,
     citySlug: 'midland', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Midland TX Local SEO Company | OnwardCraft',
+    titleTag: 'Midland Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Midland and three businesses show up on the map. We get you into those three before the next oil boom hits.',
+      'Midland Local SEO that ranks your business above the competition on the map, before the next Permian Basin oil boom hits. We get you into the local 3-pack.',
     eyebrow: 'Local SEO · Midland-Odessa, TX',
-    h1: 'When Midland searches for what you do, be the first name they find',
+    h1: 'Midland Local SEO that ranks you above the competition in the Permian Basin',
     h2Exact: 'Midland Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In Midland-Odessa, where an oil boom can flood the market with renovation budgets overnight, we get you into that top three for your neighborhoods so the call lands with you, well before the wave hits.",
     primaryCta: 'Get my free Midland audit',
     intro:
-      "Midland local SEO comes down to one thing: when a homeowner in Greenwood or Gardendale searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never scroll. This market has something most don't: an oil-driven economy that can spike renovation demand almost overnight, and a 57% Hispanic community searching in Spanish. Sitting in those top three spots before the boom, and in the languages your customers actually use, is the whole game. Here's how you do it.",
+      "Midland Local SEO comes down to one thing: when a homeowner in Greenwood or Gardendale fires off a \"near me\" search for your trade, are you one of the three businesses Google pins to the Map Pack? Most people tap one of those three and never scroll. This market has something most don't: an oil-driven economy that can spike renovation demand almost overnight, and a 57% Hispanic community searching in Spanish. Sitting in those top three spots before the boom, and in the languages your customers actually use, is the whole game. Here's how you do it.",
     aioQuestion: 'How do Midland TX businesses rank higher in local search?',
     aioAnswer:
       "Four pieces have to line up: a Google Business Profile built around the exact trades and neighborhoods you chase, name-address-phone details that match on every listing the web holds about you, a dependable flow of genuine reviews, and pages written around actual Midland and Odessa neighborhoods. Out here in the Permian Basin the contractors who pull ahead also chase the calendar, ranking for the May-through-September HVAC rush and the plumbing and restoration spike a hard freeze sets off, and they show up in Spanish for the 57% Hispanic share of the metro that most rivals never bother to court.",
@@ -167,7 +167,7 @@ export const midlandLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A rising share of \"near me\" research now opens inside an AI answer rather than the old blue links. We frame your content and schema so those engines can read, trust, and quote your business back to the searcher. It is fast becoming as decisive as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is about how long local SEO needs to post real movement in a competitive basin market. After that you bill month to month, and if the work is not landing you walk, with the accountability resting on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those services rent you shared leads and exposure you never keep, and the moment basin demand jumps in a boom their per-lead prices jump right alongside it. We build rankings, a sharp Google profile, and a review base that route calls straight to you. As that grows you lean on the brokers less, because the work arrives on its own." },
-      { q: "What's in the free audit?", a: "A clear read on where you sit today across the Permian Basin, what your Map Pack rivals are doing to stay ahead, the fixes that will move you fastest, and an honest 90-to-180-day plan with the math run on your own business. No slide deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you sit today across the Permian Basin, what your Map Pack rivals are doing to stay ahead, the fixes that will move you fastest, and an honest 90-to-180-day Midland Local SEO plan with the math run on your own business. No slide deck. Just a straight diagnosis." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const midlandLocations = [
   {
     ...BASE,
     citySlug: 'midland', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Midland TX SEO Company | OnwardCraft',
+    titleTag: 'Midland SEO Company | Rank on Google | OnwardCraft',
     metaDescription:
-      'Midland TX SEO that ranks contractors on Google before the next oil boom hits. Revenue-tied reporting, no lock-in contracts, built for the Permian Basin.',
+      'Midland SEO that climbs contractors past the competition on Google before the next oil boom hits. Revenue-tied reporting, no lock-in, built for the Permian Basin.',
     eyebrow: 'SEO Services · Midland-Odessa, TX',
-    h1: 'Get your Midland business to the top of Google and keep it there',
+    h1: 'Midland SEO that climbs you past the competition on Google in the Permian Basin',
     h2Exact: 'Midland TX SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Midland customers search and the leads keep coming, through the slow season and into the next boom. We build that ranking and tie every report to actual calls and jobs.",
     primaryCta: 'Get my free Midland SEO audit',
     intro:
-      "Midland SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in the Permian Basin, the HVAC searches in a 110°F July, the emergency plumbing after a freeze, the renovation work during an oil-boom cycle, and we measure it in leads, not vanity traffic.",
+      "Midland SEO comes down to one question: when someone searches what you do, are you on page one or page two? Page two might as well be page fifty. As a Midland SEO company we get contractors ranking for the money keywords across the Permian Basin, the HVAC searches in a 110°F July, the emergency plumbing after a freeze, the renovation work during an oil-boom cycle, and we measure it in organic traffic that turns into leads, not vanity numbers.",
     aioQuestion: 'How do Midland TX businesses rank higher on Google?',
     aioAnswer:
       "They climb by repairing the technical base of the site, shaping every page around the precise phrases buyers type, posting truly useful local content anchored to Midland and Odessa neighborhoods, and earning links from West Texas sources Google already respects. In the Permian Basin the quickest movers also ride the calendar, owning the May-through-September HVAC crush and the winter freeze-emergency searches, and they appear in Spanish for the 57% of the metro searching that way.",
@@ -233,7 +233,7 @@ export const midlandLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a piece we keep building on. We shape your content and schema so AI engines can read, trust, and quote your business back, not just the old list of links." },
       { q: 'Which areas around Midland do you cover?', a: "Midland, Odessa, Midland Country Club, Greenwood, Gardendale, Goldsmith, Notrees, and the wider Permian Basin corridor stretching toward Andrews and Big Spring. We write real local pages instead of one stock Midland page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that funnel leads straight to your line. When an oil-boom surge hits, those platforms charge more per lead because demand jumps. Owned rankings cost you the same whatever crude is doing, and the leads answer to nobody but you." },
-      { q: "What's in the free SEO audit?", a: "Where you stand today, what your rivals are doing to keep the lead, the fixes with the biggest payoff, and an honest timeline with the math run on your own business. No slide deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you stand today, what your rivals are doing to keep the lead, the fixes with the biggest payoff, and an honest Midland SEO timeline with the math run on your own business. No slide deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const midlandLocations = [
   {
     ...BASE,
     citySlug: 'midland', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Midland TX Web Design | Sites That Convert | OnwardCraft',
+    titleTag: 'Midland Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Midland TX web design that turns visitors into booked jobs: fast, mobile-first sites built for Permian Basin contractors. Transparent pricing, you own it.',
+      'Midland Web Design that loads fast and books more jobs: mobile-first sites built for Permian Basin contractors. Transparent pricing, and you own the site.',
     eyebrow: 'Web Design · Midland-Odessa, TX',
-    h1: 'Midland web design that turns visitors into booked jobs',
+    h1: 'Midland Web Design that loads fast and books more Permian Basin jobs',
     h2Exact: 'Midland TX Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. We build Permian Basin contractors fast, mobile-first sites engineered to turn visitors into booked work, and to be ready when the next oil boom floods the market with renovation budgets.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Midland contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer. Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and turn visitors from Greenwood to Gardendale into booked jobs, built to capture the wave when Permian Basin oil wealth drives a renovation surge, and visible enough to handle the summer HVAC rush when temperatures hit 110°F.",
+      "Midland Web Design done right fixes what quietly bleeds leads on most contractor sites: slow on a phone, buried call button, no clear offer. As a Midland web design company we build mobile-first sites that load fast, look like the professional you are, and turn visitors from Greenwood to Gardendale into booked jobs, built to capture the wave when Permian Basin oil wealth drives a renovation surge, and visible enough to handle the summer HVAC rush when temperatures hit 110°F.",
     aioQuestion: 'What makes a good contractor website in Midland TX?',
     aioAnswer:
       "A good Midland contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods you serve across the Permian Basin. Because oil-boom cycles can spike renovation demand quickly and summer heat makes HVAC an emergency category, a site that converts fast and ranks well before those spikes is worth far more than one built during the surge.",
@@ -299,7 +299,7 @@ export const midlandLocations = [
       { q: 'What platform do you build on?', a: "We match the platform to your needs and to what you can comfortably manage yourself, most often WordPress or Webflow. We name the right fit during your free basin consult and lay out the tradeoffs in plain terms." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build ships with launch support, and from there you can pick up fair-priced monthly upkeep covering updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time, fixed-price project. Any upkeep or SEO afterward runs month to month, and you can step away whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A straight read on what your current site is costing you in missed leads, what a high-converting Midland site ought to include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A straight read on what your current site is costing you in missed leads, what high-converting Midland Web Design ought to include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const midlandLocations = [
   {
     ...BASE,
     citySlug: 'midland', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Midland TX Website Redesign | OnwardCraft',
+    titleTag: 'Midland Website Redesign | SEO-Safe Rebuilds | OnwardCraft',
     metaDescription:
-      'Redesign your Midland TX website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs for Permian Basin.',
+      'Midland Website Redesign done with a careful, SEO-safe migration. Faster, mobile-first rebuilds that convert more visitors into booked Permian Basin jobs.',
     eyebrow: 'Website Redesign · Midland-Odessa, TX',
-    h1: 'Redesign your Midland website without losing your rankings',
+    h1: 'Midland Website Redesign done with a careful, SEO-safe Permian Basin migration',
     h2Exact: 'Midland TX Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week: slow, hard to use on a phone, easy to ignore. We redesign Midland contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned going into the next oil boom.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail one of two ways: the new site is prettier but books the same handful of jobs, or it goes live and the rankings drop off a cliff that night. We refuse both outcomes. We rebuild Permian Basin contractor sites for speed and conversions, give them a look that holds up in a market run by oil money and triple-digit heat, and move every page over with the redirects and SEO care that keep the basin traffic you already earned.",
+      "Midland Website Redesign fails one of two ways when done wrong: the new site is prettier but books the same handful of jobs, or it goes live and the rankings drop off a cliff that night. We refuse both outcomes. We rebuild Permian Basin contractor sites for speed and conversions, give them a look that holds up in a market run by oil money and triple-digit heat, and run an SEO-safe migration that moves every page over with the redirects and care that keep the basin traffic you already earned.",
     aioQuestion: 'How do I redesign my Midland website without losing SEO and traffic?',
     aioAnswer:
       "You hold onto SEO through a redesign by keeping your URL structure (or mapping a 301 redirect for every page that changes), carrying over your existing content and metadata, moving your schema across, and proving it all on staging before launch. Handled that way, a redesign keeps your rankings and lifts them, because the new build is faster, mobile-first, and cleaner than the old one, which counts for plenty right before Midland's summer heat season and the next oil-boom surge.",
@@ -365,7 +365,7 @@ export const midlandLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings. In Midland's summer heat, a site that loads in two seconds vs. six seconds is the difference between getting the emergency HVAC call and losing it." },
       { q: 'Do I own the redesigned site?', a: "Yours outright once it launches: the site, the domain, and the content. No platform that holds you captive." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any upkeep or SEO afterward runs month to month." },
-      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in leads and rankings, what the rebuild needs to fix, and a fixed-price quote with a timeline plus a safe migration plan. No pressure, just a plan." },
+      { q: "What's in the free redesign audit?", a: "A straight read on what your current site is costing you in leads and rankings, what the rebuild needs to fix, and a fixed-price Midland Website Redesign quote with a timeline plus an SEO-safe migration plan. No pressure, just a plan." },
     ],
   },
 ];
@@ -373,12 +373,12 @@ export const midlandLocations = [
 export const midlandCity = {
   citySlug: 'midland', city: 'Midland', state: 'Texas', stateAbbr: 'TX', metro: 'Midland-Odessa (Permian Basin)',
 
-  titleTag: 'Midland TX Marketing for Contractors | OnwardCraft',
+  titleTag: 'Midland Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Midland-Odessa contractors. Rank before the next oil boom, capture summer HVAC demand, and own your leads, built for the basin.',
+    'Midland marketing for contractors that fills your calendar: web design, SEO, and local SEO for the Permian Basin. Rank before the next oil boom and own your leads.',
 
   eyebrow: 'Midland-Odessa · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Midland contractors found and booked',
+  h1: 'Midland marketing for contractors that fills your Permian Basin calendar',
   h2Exact: 'Midland TX Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the Permian Basin, where oil booms spike renovation demand, summers hit 110°F, and being visible before the wave is everything.",
@@ -386,7 +386,7 @@ export const midlandCity = {
   primaryCta: 'Get my free Midland audit',
 
   intro:
-    "If you run a contracting business in Midland-Odessa, you're operating in one of the most economically volatile and extreme-climate markets in the country. Oil booms can flood the metro with renovation budgets almost overnight, but only the contractors already ranking capture the surge. Summers hit 105 to 110°F, making HVAC failure a genuine emergency from May through September. The 2021 Texas freeze caused catastrophic pipe damage across nearly every home in the metro. And 57% of the population is Hispanic, which means Spanish-language search is a real market most of your competitors ignore. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here's how we help Midland contractors do exactly that.",
+    "Midland marketing for contractors has to fit one of the most economically volatile and extreme-climate markets in the country. Oil booms can flood the metro with renovation budgets almost overnight, but only the contractors already ranking capture the surge. Summers hit 105 to 110°F, making HVAC failure a genuine emergency from May through September. The 2021 Texas freeze caused catastrophic pipe damage across nearly every home in the metro. And 57% of the population is Hispanic, which means Spanish-language search is a real market most of your competitors ignore. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here's how we help Midland contractors do exactly that.",
   aioQuestion: 'How do Midland TX contractors get more leads online?',
   aioAnswer:
     "Midland contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack across Permian Basin neighborhoods. The contractors who win this market rank before oil-boom cycles peak, show up for Spanish-language searches from the 57% Hispanic population, and are visible for summer HVAC emergencies before temperatures hit 110°F.",
@@ -422,6 +422,6 @@ export const midlandCity = {
     { q: 'Why does the Midland market need a different approach?', a: "Three forces set Midland and Odessa apart from most markets: oil-up cycles that can throw renovation demand sky-high almost overnight (so whoever already ranks scoops most of it), brutal West Texas summers that turn HVAC into an emergency category from May through September, and a metro that runs 57% Hispanic, which makes Spanish-language search a real market most contractors skip entirely." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO bill month to month from $750 to $3,000, with no long contract. We pin the exact scope down in your free audit." },
     { q: 'Which Midland-Odessa areas do you serve?', a: "Midland, Odessa, Midland Country Club, Greenwood, Gardendale, Goldsmith, Notrees, and the basin communities around them. We write real local pages rather than one stock Midland page." },
-    { q: 'Where should I start?', a: "Start with a free Midland audit. We look over your website, your rankings, and your Map Pack presence, then name the one or two moves that will pull in the most work fastest and ready you for the next demand cycle. No slide deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Midland audit. We look over your website, your rankings, and your Map Pack presence, then name the one or two moves in your Midland marketing for contractors that will pull in the most work fastest and ready you for the next demand cycle. No slide deck, just a plan." },
   ],
 };

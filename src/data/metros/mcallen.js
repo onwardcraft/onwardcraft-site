@@ -111,15 +111,15 @@ export const mcallenLocations = [
     citySlug: 'mcallen', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'McAllen Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your trade in McAllen and three businesses fill the map. We put you in that three, in English and Spanish, so the Hidalgo County call rings your phone.',
+      'McAllen Local SEO that turns "near me" and "cerca de mí" searches into a ringing phone. We put you in the top three, in English and Spanish, across Hidalgo County.',
     eyebrow: 'Local SEO · McAllen-Edinburg-Mission',
-    h1: 'When Hidalgo County looks up your trade, be the first name on the map',
+    h1: 'McAllen Local SEO that turns "near me" and "cerca de mí" searches into a ringing phone',
     h2Exact: 'McAllen Local SEO Company',
     heroSubhead:
       "A \"near me\" search shows just three businesses pinned to the map, and everyone underneath them is practically invisible. We move you into that top three in English and in Spanish, so the call comes to you when 108-degree afternoons or a Gulf storm push the whole Valley to grab their phones.",
     primaryCta: 'Get my free McAllen audit',
     intro:
-      "Local SEO in McAllen turns on a single question: when a homeowner in Edinburg or Mission searches your trade, does Google pin your business to the map? Most people tap one of those three results and never scroll down. With close to 92 percent of the metro being Hispanic and almost no rival optimizing in Spanish, ranking in both languages is the strongest move a Valley contractor can make. Here is the path to get there.",
+      "McAllen Local SEO turns on a single question: when a homeowner in Edinburg or Mission searches your trade, does Google pin your business to the map? Most people tap one of those three results and never scroll down. With close to 92 percent of the metro being Hispanic and almost no rival optimizing in Spanish, ranking on the map in both languages is the strongest move a Valley contractor can make. Here is the path to get there.",
     aioQuestion: 'How do McAllen businesses rank higher in local search?',
     aioAnswer:
       "Five pieces drive it: a Google Business Profile tuned for the exact trades and Hidalgo County towns you want, in English and Spanish; matching name, address, and phone details everywhere Google checks; a steady flow of genuine reviews; pages built around real Valley towns like Pharr and Weslaco; and Spanish content that grabs the searches rivals skip. With heat surging by May and the Gulf storm threat from June on, the winners are ranked and reviewed before demand peaks, not racing to catch it afterward.",
@@ -167,7 +167,7 @@ export const mcallenLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now begins inside AI rather than classic search. We frame your content and schema so those engines can read, trust, and quote your business. It is fast becoming as decisive as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is about how long local SEO needs to show real motion. After that it runs month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a bilingual Google profile, and a review base that route leads straight to you. Over time the broker dependence fades because the work is already heading your way." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today in English and Spanish across your towns, what your Map Pack rivals are doing to stay ahead, the fixes that move you fastest, and a realistic 90 to 180 day plan with the math run for your shop. No slideshow, just a diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today in English and Spanish across your towns, what your Map Pack rivals are doing to stay ahead, the fixes that move you fastest, and a realistic 90 to 180 day plan with the math run for your shop. McAllen Local SEO comes down to ranking on the map for the searches your neighbors actually type, in both languages, and the audit is the diagnosis, not a slideshow." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const mcallenLocations = [
   {
     ...BASE,
     citySlug: 'mcallen', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'McAllen SEO Company | OnwardCraft',
+    titleTag: 'McAllen SEO Company | Rank for the Searches That Book Jobs | OnwardCraft',
     metaDescription:
-      'McAllen SEO that ranks contractors on Google in English and Spanish and delivers leads you own. Lead-tied reporting, no lock-in, built for Hidalgo County.',
+      'McAllen SEO that ranks contractors for the Google searches that book jobs, in English and Spanish, with leads you own. Lead-tied reporting, no lock-in, Hidalgo County.',
     eyebrow: 'SEO Services · McAllen-Edinburg-Mission',
-    h1: 'Push your McAllen business to the top of Google, in English and Spanish',
+    h1: 'McAllen SEO that ranks you for the searches that book jobs, in English and Spanish',
     h2Exact: 'McAllen SEO Company',
     heroSubhead:
       "Ads die the moment your card stops paying. SEO works the other way: rank once for what your Valley customers search and the leads keep arriving. We build that ranking in both languages, because most of Hidalgo County reaches for Spanish first and your rivals are not bothering with it.",
     primaryCta: 'Get my free McAllen SEO audit',
     intro:
-      "McAllen SEO boils down to one thing: when someone searches your trade, in English or Spanish, are you sitting on page one or stuck on page two? Page two might as well be page fifty. We get contractors ranking for the money keywords in a fast-growing, bilingual, heat-driven market, and we judge it in leads rather than vanity traffic.",
+      "McAllen SEO boils down to one thing: when someone searches your trade, in English or Spanish, are you sitting on page one or stuck on page two? Page two might as well be page fifty. We get contractors ranking for the money keywords that book jobs in a fast-growing, bilingual, heat-driven market, building organic traffic you own, and we judge it in leads rather than vanity traffic.",
     aioQuestion: 'How do McAllen businesses rank higher on Google?',
     aioAnswer:
       "They win by repairing the site's technical base, tuning each page for the precise terms customers type in English and Spanish, publishing content that genuinely helps Valley towns like Pharr and Weslaco, and earning links from trusted local sources. Across the Rio Grande Valley, Spanish content is one of the least-contested SEO openings in any US metro, since almost no rival ranks for it, which leaves the field clear for the contractors who do.",
@@ -233,7 +233,7 @@ export const mcallenLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we tune for. We frame your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around McAllen do you cover?', a: "The whole Rio Grande Valley: Edinburg, Mission, Pharr, Weslaco, San Juan, Alamo, Donna, Mercedes, Harlingen, and beyond, with real bilingual town pages instead of one generic McAllen page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building bilingual rankings and a Google presence that send leads straight to you. The more you own your search visibility in English and Spanish, the less you owe brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today in both languages, what your rivals are doing to stay ahead, the highest-impact fixes, and a realistic timeline with the math modeled for your shop. No slideshow, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today in both languages, what your rivals are doing to stay ahead, the highest-impact fixes, and a realistic timeline with the math modeled for your shop. Good McAllen SEO is about owning page one for the money keywords that book jobs, in English and Spanish, and the audit is the diagnosis, not a slideshow." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const mcallenLocations = [
   {
     ...BASE,
     citySlug: 'mcallen', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'McAllen Web Design Company | OnwardCraft',
+    titleTag: 'McAllen Web Design Company | Convert Clicks Into Calls | OnwardCraft',
     metaDescription:
-      'McAllen web design that turns visitors into booked jobs: fast, mobile-first, bilingual sites built for contractors and Rio Grande Valley demand. Free quote.',
+      'McAllen web design built to convert clicks into calls: fast, mobile-first, bilingual contractor sites made for Rio Grande Valley demand. Free quote.',
     eyebrow: 'Web Design · McAllen-Edinburg-Mission',
-    h1: 'McAllen web design that turns visitors into booked jobs',
+    h1: 'McAllen web design built to convert Valley clicks into booked calls, in English and Spanish',
     h2Exact: 'McAllen Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure. We build McAllen contractors fast, mobile-first, bilingual sites engineered to convert visitors into booked work, and to hold steady when a 108-degree afternoon sends the whole block reaching for their phones at once.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most McAllen contractor sites bleed leads quietly: slow on a phone, the call button buried, and no Spanish content for the large majority of the metro that searches in it. Web design done right closes every one of those gaps. We build sites that load fast, look like the pro you are, convert Spanish and English visitors alike, and stay upright when the summer heat drives your traffic through the roof.",
+      "McAllen web design has one job: turning a click into a booked call instead of bleeding leads quietly through a slow phone load, a buried call button, and no Spanish content for the large majority of the metro that searches in it. We build fast-loading, mobile-first contractor sites that look like the pro you are, convert Spanish and English visitors alike, and stay upright when the summer heat drives your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in McAllen?',
     aioAnswer:
       "A strong McAllen contractor site loads in under three seconds on a phone, puts the call button and a clear offer above the fold, runs in English and Spanish to reach the whole market, backs up trust with reviews and real job photos, and is built to absorb the traffic spikes of cooling season. Since this market is predominantly Hispanic, bilingual content is not a nice extra, it is how you reach the people actually searching across Hidalgo County.",
@@ -299,7 +299,7 @@ export const mcallenLocations = [
       { q: 'Will it work well on phones?', a: "We design mobile-first, because that is where nearly all your Valley traffic comes from. Fast load, easy-to-tap call buttons, and forms built for a thumb." },
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually run yourself, usually WordPress or Webflow. We recommend the right fit during your free consult and lay out the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and after that we offer affordable monthly maintenance for updates, speed, and security." },
-      { q: 'What do I get in the free quote?', a: "A clear read on what your current site is costing you in lost leads, what a high-converting bilingual Valley site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear read on what your current site is costing you in lost leads, what a high-converting bilingual Valley site should include, and a fixed-price quote with a timeline. Good McAllen web design exists to convert clicks into booked calls, not just to look nice, and that is what the quote is built around. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const mcallenLocations = [
   {
     ...BASE,
     citySlug: 'mcallen', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'McAllen Website Redesign | OnwardCraft',
+    titleTag: 'McAllen Website Redesign | Keep Every Ranking You Have Earned | OnwardCraft',
     metaDescription:
-      'Redesign your McAllen website without losing rankings. Faster, bilingual, mobile-first rebuilds that convert more Valley visitors into booked jobs. Free audit.',
+      'McAllen Website Redesign that keeps every ranking you have earned: faster, bilingual, mobile-first rebuilds that convert more Valley visitors into booked jobs. Free audit.',
     eyebrow: 'Website Redesign · McAllen-Edinburg-Mission',
-    h1: 'Redesign your McAllen website without losing your rankings',
+    h1: 'McAllen Website Redesign that keeps every Valley ranking you have earned, in both languages',
     h2Exact: 'McAllen Website Redesign Company',
     heroSubhead:
       "A dated site quietly costs you jobs every week: slow, English-only in a market where most homeowners search in Spanish, easy to scroll past. We redesign McAllen contractor sites to convert more, load faster, and serve the full bilingual Valley, then migrate with enough care that you keep every bit of ranking you have earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go wrong one of two ways: the site looks nicer but converts the same, or it launches and the rankings evaporate overnight. We do neither. We redesign McAllen contractor sites for speed, conversions, and bilingual reach, then migrate with the redirects and SEO care that protect the traffic you already hold.",
+      "A McAllen Website Redesign goes wrong one of two ways: the site looks nicer but converts the same, or it launches and the rankings evaporate overnight. We do neither. We rebuild McAllen contractor sites for speed, conversions, and bilingual reach, then run an SEO-safe migration with the redirects and care that protect the traffic you already hold.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You guard SEO during a redesign by keeping your URL structure or mapping 301 redirects for every changed page, preserving your existing content and metadata, carrying over your schema, and testing everything on staging before launch. For McAllen contractors, a redesign is also the moment to add Spanish content, since you can widen your reach across Hidalgo County dramatically without risking a single existing English ranking.",
@@ -365,7 +365,7 @@ export const mcallenLocations = [
       { q: 'Will the new site handle Rio Grande Valley summer traffic?', a: "Yes, and in McAllen that is a real factor. When the Valley sits at 108 in July and cooling calls flood in, contractor sites take a wave of traffic, and the slow ones lose leads. We rebuild for speed and keep the call to action obvious so the site converts when demand peaks." },
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, Spanish-search gaps included, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, Spanish-search gaps included, what the redesign should fix, and a fixed-price quote with a timeline. A McAllen Website Redesign done right keeps every ranking you have earned through an SEO-safe migration while it lifts conversions, and that is the plan the audit lays out for you." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const mcallenCity = {
 
   titleTag: 'McAllen Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for McAllen contractors in English and Spanish. Get found, get booked, and own your leads across the Rio Grande Valley. Free audit.',
+    'McAllen marketing for contractors in English and Spanish: web design, SEO, and local SEO. Get ranked, get booked, and own your leads across the Rio Grande Valley. Free audit.',
 
   eyebrow: 'McAllen · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets McAllen contractors found and booked',
+  h1: 'McAllen marketing for contractors: get ranked across the Valley, get booked in both languages',
   h2Exact: 'McAllen Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the Rio Grande Valley's bilingual, fast-growing, heat-driven market. One team to get you ranking in English and Spanish, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const mcallenCity = {
   primaryCta: 'Get my free McAllen audit',
 
   intro:
-    "Running a contracting business in McAllen means operating in one of the most unusual markets in the country. The metro grows fast, sits at roughly 92 percent Hispanic, and straddles one of the busiest produce-trade corridors in the US, with bridges at Pharr, Anzalduas, and Hidalgo moving freight daily. Nearly every rival ignores Spanish search, so owning the Map Pack bilingually is still up for grabs. Stack on the climate, where 105 to 110 from May into September keeps cooling demand huge and sustained, plus Gulf storm exposure and a steady wave of new rooftops, and winning here takes three things pulling together: a bilingual site that converts, SEO that ranks you for what the Valley actually searches, and local SEO that lands you in the Map Pack before the heat sets in.",
+    "McAllen marketing for contractors means operating in one of the most unusual markets in the country. The metro grows fast, sits at roughly 92 percent Hispanic, and straddles one of the busiest produce-trade corridors in the US, with bridges at Pharr, Anzalduas, and Hidalgo moving freight daily. Nearly every rival ignores Spanish search, so owning the Map Pack bilingually is still up for grabs. Stack on the climate, where 105 to 110 from May into September keeps cooling demand huge and sustained, plus Gulf storm exposure and a steady wave of new rooftops, and winning here takes three things pulling together: a bilingual site that converts, SEO that ranks you for what the Valley actually searches, and local SEO that lands you in the Map Pack before the heat sets in.",
   aioQuestion: 'How do McAllen contractors get more leads online?',
   aioAnswer:
     "McAllen contractors win more leads by pairing a fast, bilingual, mobile-first website with SEO that ranks them for high-intent searches in English and Spanish, plus local SEO that takes the Google Map Pack across the Rio Grande Valley. Since the market is roughly 92 percent Hispanic and demand jumps hard during the extreme summer heat and Gulf storm season, the contractors who are visible bilingually and already ranked before the season opens take the most work.",
@@ -422,6 +422,6 @@ export const mcallenCity = {
     { q: 'Do you work only with contractors?', a: "Nearly so. We specialize in home-service trades: roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors, so we understand the after-hours emergency, the triple-digit cooling rush, and the storm-season surge." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We confirm exact scope during your free audit." },
     { q: 'Which McAllen areas do you serve?', a: "The whole Rio Grande Valley: McAllen, Edinburg, Mission, Pharr, Weslaco, San Juan, Alamo, Donna, Mercedes, Harlingen, and beyond. We build real bilingual town pages rather than one generic McAllen page." },
-    { q: 'Where should I start?', a: "Start with a free McAllen audit. We look at your website, your rankings in English and Spanish, and your Map Pack presence, then tell you the one or two moves that bring in the most work fastest. No slideshow, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free McAllen audit. We look at your website, your rankings in English and Spanish, and your Map Pack presence, then tell you the one or two moves that bring in the most work fastest. McAllen marketing for contractors works best when web design, SEO, and local SEO pull together to get you found and booked, and the audit shows you where to begin. No slideshow, just a plan." },
   ],
 };

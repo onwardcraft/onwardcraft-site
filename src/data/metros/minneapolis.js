@@ -109,11 +109,11 @@ export const minneapolisLocations = [
   {
     ...BASE,
     citySlug: 'minneapolis', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Minneapolis Local SEO Company | OnwardCraft',
+    titleTag: 'Minneapolis Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Minneapolis and three businesses show up on the map. We get you into those three, so the call lands with you.',
+      'Minneapolis Local SEO that lands you in the Google Map Pack, so the "near me" call goes to you. Local search built for a brutal winter market.',
     eyebrow: 'Local SEO · Minneapolis, MN',
-    h1: 'When Minneapolis searches for what you do, be the first name they find',
+    h1: 'Minneapolis Local SEO that makes you the first name on the Map Pack from Linden Hills to Maple Grove',
     h2Exact: 'Minneapolis Local SEO Company',
     heroSubhead:
       "Google shows three businesses on the map when someone searches \"near me.\" Everyone below them basically doesn't exist. In a market with brutal winters and demanding homeowners, we get you into that top three for your neighborhoods and suburbs — so when January drops to -30°F and a furnace dies, the emergency call lands with you.",
@@ -166,7 +166,7 @@ export const minneapolisLocations = [
       { q: 'Do you work with contractors specifically?', a: "It's basically all we do. Roofing, HVAC, plumbing, solar, electrical, restoration, and general contractors. We understand winter heating emergencies, ice dam and freeze-thaw damage, and the spring melt flooding season — and we build your local SEO around them." },
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts in AI now instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It's quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that's roughly how long local SEO needs to show real movement. After that it's month-to-month. If we're not delivering, you walk, and the accountability stays on us." },
-      { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads. We build rankings, a Google profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly — and in a market where homeowners are already doing their research, owned visibility converts far better than a shared lead does." },
+      { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads. We build rankings, a Google Business Profile, and a review base that send leads straight to you. Over time you lean on the lead brokers less because the work is coming to you directly, and in a market where homeowners are already doing their research, Minneapolis Local SEO that ranks you on the map converts far better than a shared lead does." },
       { q: "What's in the free audit?", a: "A clear read on where you rank today across your Minneapolis neighborhoods and suburbs, what your Map Pack competitors are doing to beat you, the fixes that'll move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
     ],
   },
@@ -175,11 +175,11 @@ export const minneapolisLocations = [
   {
     ...BASE,
     citySlug: 'minneapolis', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Minneapolis SEO Company | OnwardCraft',
+    titleTag: 'Minneapolis SEO Company | Page One, Held | OnwardCraft',
     metaDescription:
-      'Minneapolis SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in contracts, built for a seasonal market.',
+      'Minneapolis SEO that ranks contractors on page one of Google and holds it. Search engine optimization tied to leads you own, no lock-in contracts.',
     eyebrow: 'SEO Services · Minneapolis, MN',
-    h1: 'Get your Minneapolis business to the top of Google and keep it there',
+    h1: 'Minneapolis SEO that puts your business on page one for the searches that book jobs and holds it through the seasonal swings',
     h2Exact: 'Minneapolis SEO Company',
     heroSubhead:
       "Ads stop the second you stop paying. SEO is the opposite: rank once for what your Minneapolis customers search — heating emergencies in January, ice dam repairs in February, basement waterproofing in April — and the leads keep coming. We build that ranking and tie every report to actual calls and jobs.",
@@ -233,7 +233,7 @@ export const minneapolisLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That's a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business — not just classic search results." },
       { q: 'Which areas around Minneapolis do you cover?', a: "Minneapolis, St. Paul, and the full suburb belt — Bloomington, Eden Prairie, Plymouth, Maple Grove, Woodbury, Burnsville, Apple Valley, Eagan — with genuine local pages rather than one generic Twin Cities page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. Minneapolis homeowners do their research before calling, so owning your search visibility means those leads come in pre-qualified — far better than a shared lead three competitors also got." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes including any seasonal gaps, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes including any seasonal gaps, and a realistic timeline with the numbers modeled for your business. It's the first step in the Minneapolis SEO plan that grows your organic traffic and gets your money keywords onto page one. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const minneapolisLocations = [
   {
     ...BASE,
     citySlug: 'minneapolis', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Minneapolis Web Design Company | OnwardCraft',
+    titleTag: 'Minneapolis Web Design Company | Books Jobs | OnwardCraft',
     metaDescription:
-      'Minneapolis web design that turns visitors into booked jobs — fast, mobile-first sites built for contractors in a demanding, review-driven market.',
+      'Minneapolis Web Design that books jobs instead of just looking nice. Fast, mobile-first website design built for contractors in a review-driven market.',
     eyebrow: 'Web Design · Minneapolis, MN',
-    h1: 'Minneapolis web design that turns visitors into booked jobs',
+    h1: 'Minneapolis Web Design that books jobs instead of just looking nice, even when the call comes at -10°F',
     h2Exact: 'Minneapolis Web Design Company',
     heroSubhead:
       "A pretty website that doesn't generate calls is a brochure. Minneapolis homeowners are thorough — they check your site, read your reviews, and decide in seconds whether you look like someone they'd trust with a heating emergency at -10°F. We build contractor websites that pass that test and convert the visit into a booked job.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Minneapolis contractor websites lose leads quietly: slow on a phone, buried call button, no clear offer, nothing that signals \"this is the contractor for my Linden Hills neighborhood.\" Web design done right fixes all of that. We build sites that load fast, look like the professional you are, and convert visitors from Kenwood to Woodbury into booked jobs — built for a market where homeowners read everything before they hire.",
+      "Minneapolis Web Design that books jobs starts where most contractor websites quietly lose them: slow on a phone, buried call button, no clear offer, nothing that signals \"this is the contractor for my Linden Hills neighborhood.\" We build mobile-first sites that load fast, look like the professional you are, and convert visitors from Kenwood to Woodbury into booked jobs, built for a market where homeowners read everything before they hire.",
     aioQuestion: 'What makes a good contractor website in Minneapolis?',
     aioAnswer:
       "A good Minneapolis contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with real reviews and project photos, and names the specific neighborhoods and suburbs you serve. Minneapolis homeowners are research-driven — they check reviews, look at photos of past work, and expect polished, professional presentation. A site that looks generic or loads slowly will cost you jobs to competitors who look more established, even if your work is better.",
@@ -299,7 +299,7 @@ export const minneapolisLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Minneapolis contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Minneapolis contractor site should include, and a fixed-price quote with a timeline. It's the first step toward Minneapolis Web Design that converts visitors into booked jobs instead of just sitting there as a brochure. No pressure, just a plan." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const minneapolisLocations = [
   {
     ...BASE,
     citySlug: 'minneapolis', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Minneapolis Website Redesign | OnwardCraft',
+    titleTag: 'Minneapolis Website Redesign | Rebuilt for Leads | OnwardCraft',
     metaDescription:
-      'Redesign your Minneapolis website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a review-driven.',
+      'Minneapolis Website Redesign that rebuilds for leads, not just looks. Faster, mobile-first rebuilds with an SEO-safe migration so you keep your rankings.',
     eyebrow: 'Website Redesign · Minneapolis, MN',
-    h1: 'Redesign your Minneapolis website without losing your rankings',
+    h1: 'Minneapolis Website Redesign that rebuilds for leads, not just looks, without tanking the rankings you have earned',
     h2Exact: 'Minneapolis Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, and easy to dismiss when Minneapolis homeowners are comparing you to three other results. We redesign contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings drop overnight. We do neither. We redesign Minneapolis contractor sites for speed and conversions, rebuild them to stand out in a research-driven market, and migrate with the redirects and SEO care that protect the traffic you've worked to earn.",
+      "A Minneapolis Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings drop overnight. We do neither. We rebuild Minneapolis contractor sites for speed and conversions, redesign them to stand out in a research-driven market, and handle the SEO-safe migration with the redirects and care that protect the traffic you've worked to earn.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and often improves them — because the new site is faster, mobile-first, and better structured than the old one, which Google rewards.",
@@ -365,7 +365,7 @@ export const minneapolisLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals — which lifts both conversions and rankings, and matters especially when someone searches for a heating contractor on their phone at midnight in January." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix to compete in Minneapolis, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix to compete in Minneapolis, and a fixed-price quote with a timeline. It maps the Minneapolis Website Redesign and SEO-safe migration that rebuild your site for leads without losing the rankings you have earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const minneapolisCity = {
 
   titleTag: 'Minneapolis Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Minneapolis contractors. Get found, get booked, and own your leads instead of renting them — built for a cold-weather.',
+    'Minneapolis marketing for contractors who want to own their leads. Web design and SEO for Minneapolis contractors that gets you found and booked.',
 
   eyebrow: 'Minneapolis · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Minneapolis contractors found and booked',
+  h1: 'Minneapolis marketing for contractors who want to own their leads, not rent them from a broker',
   h2Exact: 'Minneapolis Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Minneapolis's brutal winters, lakes-filled neighborhoods, and demanding homeowners. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const minneapolisCity = {
   primaryCta: 'Get my free Minneapolis audit',
 
   intro:
-    "If you run a contracting business in Minneapolis, you're operating in a market with two forces working against you: fierce competition from dozens of contractors fighting for the same search results, and demand that arrives in sharp seasonal bursts — winter heating failures, ice dam damage, spring melt flooding. The contractors who win here are ranked before those spikes hit, not chasing leads after. Winning takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods and suburbs you serve. Here's how we help Minneapolis contractors do exactly that.",
+    "Minneapolis marketing for contractors means winning a market with two forces working against you: fierce competition from dozens of contractors fighting for the same search results, and demand that arrives in sharp seasonal bursts, from winter heating failures to ice dam damage to spring melt flooding. The contractors who win here are ranked before those spikes hit, not chasing leads after. Winning takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods and suburbs you serve. Here's how we help Minneapolis contractors do exactly that.",
   aioQuestion: 'How do Minneapolis contractors get more leads online?',
   aioAnswer:
     "Minneapolis contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood and suburb by suburb. Because demand is sharply seasonal — with winter heating and spring melt driving the biggest spikes — the contractors who rank before those seasons arrive capture the most work. Minneapolis homeowners are also unusually thorough researchers who check reviews and expect polished online presence, so trust signals and quality content matter more here than in many other markets.",
@@ -422,6 +422,6 @@ export const minneapolisCity = {
     { q: 'Why does the Minneapolis market need a different approach?', a: "Two things make it distinct. Demand is sharply seasonal: winter heating, ice dams, and spring melt flooding create massive overnight spikes, and you need to rank before those seasons arrive. And Minneapolis homeowners are research-driven — they read reviews carefully and expect a polished, professional online presence before they call. A generic template approach fails on both counts." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Minneapolis areas do you serve?', a: "Minneapolis, St. Paul, and the full suburb belt — Bloomington, Eden Prairie, Plymouth, Maple Grove, Woodbury, Burnsville, Apple Valley, Eagan — plus neighborhoods inside the city like Uptown, Linden Hills, Kenwood, Northeast Minneapolis, and the North Loop." },
-    { q: 'Where should I start?', a: "Start with a free Minneapolis audit. We'll look at your website, your rankings, and your Map Pack presence across your neighborhoods and suburbs, then tell you the one or two moves that will bring in the most work fastest — including whether there are seasonal gaps to close before the next heating or melt season. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Minneapolis audit. We'll look at your website, your rankings, and your Map Pack presence across your neighborhoods and suburbs, then tell you the one or two moves that will bring in the most work fastest, including whether there are seasonal gaps to close before the next heating or melt season. It's the simplest way to see how Minneapolis marketing for contractors gets you found and booked on leads you own. No pitch deck, just a plan." },
   ],
 };

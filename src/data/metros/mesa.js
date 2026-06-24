@@ -111,15 +111,15 @@ export const mesaLocations = [
     citySlug: 'mesa', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Mesa Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search a trade plus "near me" in Mesa and three businesses sit on the map. We put you in those three so the East Valley call rings your phone first.',
+      'Mesa Local SEO that wins you the top three on the map. We put your shop in those pins so the East Valley call rings your phone first.',
     eyebrow: 'Local SEO · Mesa-East Valley',
-    h1: 'Be the name the East Valley sees first when it searches for your trade',
+    h1: 'Mesa Local SEO that wins you the top three on the map, from Las Sendas to Queen Creek',
     h2Exact: 'Mesa Local SEO Company',
     heroSubhead:
       "When a Mesa homeowner taps \"near me,\" Google hands the map to just three businesses. Everyone underneath might as well not exist. We move you into that trio so the call comes to you, not the shop that beat you to it, and so your profile is locked in before the summer heat or the snowbird wave lights up every contractor's phone at once.",
     primaryCta: 'Get my free Mesa audit',
     intro:
-      "Local SEO in Mesa hangs on a single question: when someone in Las Sendas or Dobson Ranch searches your trade with \"near me\" tacked on, are you one of the three pins Google drops on the map? Most Mesa searchers tap one of those three pins and never look past them. This is the third-largest city in Arizona, Eastmark and Queen Creek keep adding rooftops, and every new rooftop adds a competitor, so claiming one of those three slots is the entire contest. Here is how it gets done.",
+      "Mesa Local SEO hangs on a single question: when someone in Las Sendas or Dobson Ranch searches your trade with \"near me\" tacked on, are you one of the three pins Google drops on the map? Most local searchers tap one of those pins and never look past them, which is why winning the Google Map Pack is the whole game. This is the third-largest city in Arizona, Eastmark and Queen Creek keep adding rooftops, and every new rooftop adds a competitor, so claiming one of those three slots is the entire contest. Here is how it gets done.",
     aioQuestion: 'How do Mesa contractors climb higher in local search?',
     aioAnswer:
       "It comes down to four pieces done right: a Google Business Profile tuned to the precise services and East Valley neighborhoods you want, a name-address-phone that reads identically everywhere online, a steady flow of genuine reviews, and pages built around real places like Las Sendas, Eastmark, and Sunland Village. Mesa runs on two demand peaks, the triple-digit summer and the October-to-April winter-visitor surge, so the shops that win look settled, answer fast, and are already ranking before each peak arrives.",
@@ -167,7 +167,7 @@ export const mesaLocations = [
       { q: 'Will Mesa searchers find me in AI Overviews and ChatGPT?', a: "More \"near me\" research now kicks off inside an AI tool rather than a classic search box. We arrange your content and schema so those engines can read you, trust you, and cite you. Across the East Valley that is fast turning into a deciding factor right alongside the Map Pack." },
       { q: 'Am I tied into a contract?', a: "No. We ask for an opening 90 days because that is roughly the window local SEO needs before honest movement shows up in a market the size of Mesa. After that you go month-to-month. If the results are not landing, you walk, and the accountability sits with us." },
       { q: 'How does this get me off Angi and HomeAdvisor in Mesa?', a: "Those platforms rent you shared leads and a sliver of visibility that is never yours to keep. We build the rankings, the Google profile, and the review base that funnel East Valley calls straight to you. As that compounds, you lean on the brokers less because the work is already arriving direct." },
-      { q: "What do I get in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack rivals are doing to stay ahead, the fixes that will move you fastest, and a grounded 90-to-180-day plan with the numbers run for your shop. No slide deck, just a clear diagnosis." },
+      { q: "What do I get in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack rivals are doing to stay ahead, the fixes that will move you fastest, and a grounded 90-to-180-day Mesa Local SEO plan with the numbers run for your shop. No slide deck, just a clear diagnosis." },
     ],
   },
 
@@ -177,15 +177,15 @@ export const mesaLocations = [
     citySlug: 'mesa', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Mesa SEO Company | Rank Higher, Get More Leads | OnwardCraft',
     metaDescription:
-      'SEO that ranks Mesa contractors on Google and brings in leads you keep. Reports tied to calls, no lock-in, tuned for desert heat and winter visitors.',
+      'Mesa SEO that ranks contractors on Google and brings in leads you keep. Reports tied to calls, no lock-in, tuned for desert heat and winter visitors.',
     eyebrow: 'SEO Services · Mesa-East Valley',
-    h1: 'Put your Mesa business at the top of Google and keep it parked there',
+    h1: 'Mesa SEO that builds East Valley rankings you actually own',
     h2Exact: 'Mesa SEO Company',
     heroSubhead:
       "The leads from ads die the instant your card stops. SEO runs the other way: rank once for what East Valley customers search and the calls keep arriving. We build that ranking and tie every report straight back to the calls and jobs it booked for you.",
     primaryCta: 'Get my free Mesa SEO audit',
     intro:
-      "Mesa SEO boils down to one thing: when someone searches your trade, do you sit on page one or page two? Page two might as well be page fifty. We get contractors ranking for the keywords that pay in an East Valley that keeps growing and a market that swings hard between summer emergencies and winter-visitor work, and we score it in leads rather than empty traffic.",
+      "Mesa SEO boils down to one thing: when someone searches your trade, do you sit on page one or page two? Page two might as well be page fifty. As a search engine optimization shop, we get contractors ranking on Google for the money keywords that pay in an East Valley that keeps growing and a market that swings hard between summer emergencies and winter-visitor work, and we score it in booked leads and organic traffic rather than empty visits.",
     aioQuestion: 'How do Mesa contractors rank higher on Google?',
     aioAnswer:
       "They rank by repairing the technical base of the site, tuning each page to the exact terms buyers type, publishing local content people actually find useful, and earning links from East Valley sources Google trusts. In a fast-growing desert market, keeping the site quick on a phone and ranking for the seasonal terms, AC in the heat, monsoon roof damage, winter-visitor maintenance, are two of the fastest ways to break ahead.",
@@ -233,7 +233,7 @@ export const mesaLocations = [
       { q: 'Will my Mesa business show up in AI Overviews and ChatGPT?', a: "That is a growing slice of what we tune for. We arrange your content and schema so AI engines can read, trust, and cite your business, not just the classic search box." },
       { q: 'Which areas around Mesa do you cover?', a: "All of Mesa and the surrounding East Valley: Gilbert, Chandler, Tempe, Apache Junction, Queen Creek, Gold Canyon, San Tan Valley, and more, with genuine local pages instead of one blanket Mesa page." },
       { q: 'How do you get my Mesa shop off Angi and HomeAdvisor?', a: "By building rankings and a Google presence that route calls straight to you. The more of your search visibility you own, the less you have to lean on brokers for leads they sold three times over." },
-      { q: "What is in the free SEO audit?", a: "Where you rank today, what your rivals are doing to stay ahead, the highest-impact fixes, and a grounded timeline with the numbers modeled for your business. No slide deck, just a diagnosis." },
+      { q: "What is in the free SEO audit?", a: "Where you rank today, what your rivals are doing to stay ahead, the highest-impact fixes, and a grounded Mesa SEO timeline with the numbers modeled for your business so you can see the path to page one. No slide deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const mesaLocations = [
     citySlug: 'mesa', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Mesa Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Mesa web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors, triple-digit AC demand, and winter-visitor season.',
+      'Mesa Web Design engineered to bring in real work: fast, mobile-first sites built for contractors, triple-digit AC demand, and winter-visitor season.',
     eyebrow: 'Web Design · Mesa-East Valley',
-    h1: 'Mesa web design that converts visitors into jobs on the calendar',
+    h1: 'Mesa web design engineered to bring in real East Valley work, not just a pretty brochure',
     h2Exact: 'Mesa Web Design Company',
     heroSubhead:
       "A good-looking site that never makes the phone ring is just a brochure with better fonts. We build East Valley contractors fast, mobile-first sites engineered to turn visitors into booked work, and tough enough to hold up when a 115-degree afternoon or the winter-visitor wave floods your phone at once.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Mesa contractor sites bleed leads without a sound: sluggish on a phone, a call button hidden three scrolls down, no offer that lands. Web design done properly plugs every one of those leaks. We build sites that load quick, carry the polish your work deserves, and turn visitors from Las Sendas to Queen Creek into booked jobs, sites that stay standing when a heat wave or monsoon storm sends your traffic vertical.",
+      "Good Mesa Web Design starts where most contractor sites fail: they bleed leads without a sound, sluggish on a phone, a call button hidden three scrolls down, no offer that lands. A mobile-first build done properly plugs every one of those leaks. We build sites that load quick, carry the polish your work deserves, and turn visitors from Las Sendas to Queen Creek into booked jobs, sites that stay standing when a heat wave or monsoon storm sends your traffic vertical.",
     aioQuestion: 'What makes a strong contractor website in Mesa?',
     aioAnswer:
       "A strong Mesa contractor site loads in under three seconds on a phone, keeps the call button and a clear offer above the fold, earns trust with reviews and real job photos, and stays fast through the traffic spikes of a heat wave, a monsoon storm, or winter-visitor season. Because most East Valley searches happen on mobile, phone speed and an unmistakable next step are what separate a site that books work from one that just sits idle.",
@@ -299,7 +299,7 @@ export const mesaLocations = [
       { q: 'Can you build a bilingual site for Spanish-speaking customers?', a: "Yes. About 27% of Mesa residents are Hispanic, and a bilingual site lets you capture Spanish-language searches and customers many of your rivals never bother with. We build and structure it so both audiences find you and convert." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build ships with launch support, and from there we offer low-cost monthly upkeep covering updates, load speed, and security patches." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any maintenance or SEO afterward is month-to-month, and you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear read on what your current site is costing you in lost leads, what a high-converting Mesa site should carry, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear read on what your current site is costing you in lost leads, what high-converting Mesa Web Design should carry to turn visitors into booked jobs, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const mesaLocations = [
     citySlug: 'mesa', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Mesa Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Mesa site without losing rankings. Faster, mobile-first rebuilds that convert more visitors and hold up in desert heat and winter-visitor season.',
+      'Mesa Website Redesign that modernizes without tanking your traffic. Faster, mobile-first rebuilds that convert more and hold up in desert heat and winter-visitor season.',
     eyebrow: 'Website Redesign · Mesa-East Valley',
-    h1: 'Rebuild your Mesa website without surrendering your rankings',
+    h1: 'Mesa Website Redesign that modernizes your site without tanking your East Valley traffic',
     h2Exact: 'Mesa Website Redesign Company',
     heroSubhead:
       "A dated site bleeds you a few jobs every week: slow, clumsy on a phone, easy to swipe past. We redesign East Valley contractor sites to convert more and load faster, and we migrate with care so you keep every scrap of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail one of two ways: the site looks sharper but books the same, or it goes live and the rankings drop off a cliff overnight. We let neither happen. We rebuild Mesa contractor sites for speed and conversions, brace them for heat-wave and winter-visitor traffic, and migrate with the redirects and SEO discipline that protect the traffic you have already built.",
+      "A Mesa Website Redesign fails one of two ways: the site looks sharper but books the same, or it goes live and the rankings drop off a cliff overnight. We let neither happen. We rebuild East Valley contractor sites for speed and conversions, brace them for heat-wave and winter-visitor traffic, and run an SEO-safe migration with the redirects and discipline that protect the traffic you have already built, so you redesign your Mesa website without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO through a redesign by holding your URL structure or mapping a 301 redirect for every page that moves, keeping your existing content and metadata, carrying over your schema, and testing the whole thing on staging before launch. Handled right, a redesign keeps your rankings and lifts them, because the new build is faster, mobile-first, and better organized than the old one.",
@@ -365,7 +365,7 @@ export const mesaLocations = [
       { q: 'Will the rebuilt site be fast on Mesa phones?', a: "Yes. We rebuild it mobile-first and tune the load speed to pass Core Web Vitals, which raises both your conversion rate and your search position." },
       { q: 'Do I own the redesigned site?', a: "Fully: the site, the domain, and the content. No platform you cannot leave." },
       { q: 'Am I locked into a contract?', a: "No. The redesign itself is a one-time project, and anything ongoing like maintenance or SEO runs month-to-month with no lock-in." },
-      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the rebuild should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the rebuild should fix, and a fixed-price Mesa Website Redesign quote with a timeline and an SEO-safe migration plan that keeps your rankings intact. No pressure, just a plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const mesaCity = {
 
   titleTag: 'Mesa Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Mesa contractors. Get found, get booked, and own your leads instead of renting them, built for desert heat and winter visitors.',
+    'Mesa marketing for contractors: web design, SEO, and local SEO that get you found and booked. Own your leads instead of renting them, built for desert heat and winter visitors.',
 
   eyebrow: 'Mesa · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets East Valley contractors found and booked',
+  h1: 'Mesa marketing for contractors, built around the trades and the East Valley seasons',
   h2Exact: 'Mesa Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the East Valley's growing, season-swung market. One team that gets you ranking across Mesa, converting visitors into jobs, and finally off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const mesaCity = {
   primaryCta: 'Get my free Mesa audit',
 
   intro:
-    "Run a contracting business in Mesa and you are competing for eyeballs in Arizona's third-largest city, inside an East Valley that keeps sprouting rooftops and a market that lurches between summer emergencies and winter-visitor work. Winning here needs three pieces pulling together: a site that converts, SEO that ranks you for what people actually search, and local SEO that lands you in the Map Pack, all set before the next heat wave or winter-visitor wave sends demand through the roof. Here is how we help Mesa contractors pull that off.",
+    "Mesa marketing for contractors comes down to competing for eyeballs in Arizona's third-largest city, inside an East Valley that keeps sprouting rooftops and a market that lurches between summer emergencies and winter-visitor work. As a digital marketing agency built for the trades, we pull three pieces together: a site that converts, SEO that ranks you for what people actually search, and local SEO that lands you in the Map Pack, all set before the next heat wave or winter-visitor wave sends demand through the roof. Here is how we help you get found and booked.",
   aioQuestion: 'How do Mesa contractors get more leads online?',
   aioAnswer:
     "Mesa contractors pull in more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that takes the Google Map Pack. Because the East Valley keeps growing and demand jumps hard during the triple-digit summer, the monsoon, and the winter-visitor surge, the shops that look settled and already rank before each season collect the most work.",
@@ -422,6 +422,6 @@ export const mesaCity = {
     { q: 'Why does the season matter so much for my marketing?', a: "Mesa demand swings harder than almost anywhere. The triple-digit summer turns a dead AC into an emergency, monsoon storms batter roofs and equipment, and from October through April the winter-visitor population fills the 55-plus parks like Leisure World with repair work. Ranking takes months to build, so the contractors already visible before each season grab that work. We get you in position ahead of it." },
     { q: 'What does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Mesa areas do you serve?', a: "All of Mesa and the East Valley: Downtown Mesa, Las Sendas, Red Mountain, Eastmark, Dobson Ranch, Superstition Springs, and out to Gilbert, Chandler, Tempe, Apache Junction, and Queen Creek." },
-    { q: 'Where should I start?', a: "Start with a free Mesa audit. We will look over your website, your rankings, and your Map Pack standing, then point out the one or two moves that will bring in the most work soonest. No slide deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Mesa audit. We will look over your website, your rankings, and your Map Pack standing, then point out the one or two moves in your Mesa marketing for contractors that will bring in the most work soonest. No slide deck, just a plan." },
   ],
 };

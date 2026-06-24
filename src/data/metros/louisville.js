@@ -109,17 +109,17 @@ export const louisvilleLocations = [
   {
     ...BASE,
     citySlug: 'louisville', serviceSlug: 'local-seo', service: 'Local SEO',
-    titleTag: 'Louisville Local SEO Company | OnwardCraft',
+    titleTag: 'Louisville Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Search your service in Louisville and three businesses claim the map. We put you in that three so the call rings your phone, not a competitor down the road.',
+      'Louisville Local SEO that lands you in the Google Map Pack when neighbors search your trade. Get found, ring your own phone, not a competitor down the road.',
     eyebrow: 'Local SEO · Louisville, KY',
-    h1: 'When Louisville searches for what you do, be the first name they find',
+    h1: 'Louisville Local SEO that gets you found when Highlands neighbors search your trade',
     h2Exact: 'Louisville Local SEO Company',
     heroSubhead:
       "When someone types \"near me,\" Google hands the map to three businesses. Everyone underneath might as well not exist. We push you into that top three for your Louisville neighborhoods, from the Highlands to Prospect, St. Matthews to Clarksville, so the call rings your phone instead of whoever happened to rank first.",
     primaryCta: 'Get my free Louisville audit',
     intro:
-      "Louisville local SEO boils down to a single question: when a homeowner in Crescent Hill or Middletown searches your service plus \"near me,\" are you one of the three businesses Google pins to the map? Most people tap one of those three and never bother scrolling. This is a city where locals choose local, and they spot a corporate template a mile off. Ranking in the right neighborhoods before spring storm season rolls in and ahead of the summer HVAC rush is the whole game. Here is exactly how you get there.",
+      "Louisville Local SEO boils down to a single question: when a homeowner in Crescent Hill or Middletown runs a \"near me\" search for your service, are you one of the three businesses Google pins to the map? Most people tap one of those three and never bother scrolling. This is a city where locals choose local, and they spot a corporate template a mile off. Ranking in the right neighborhoods before spring storm season rolls in and ahead of the summer HVAC rush is the whole game. Here is exactly how a focused local SEO services plan gets you there.",
     aioQuestion: 'How do Louisville businesses rank higher in local search?',
     aioAnswer:
       "You climb by nailing four things: a Google Business Profile tuned to the precise services and neighborhoods you want, name, address, and phone listings that match everywhere on the web, a steady drip of genuine reviews, and local content anchored to real Louisville neighborhoods. The seasonal rhythm here matters too. Spring tornadoes and hail drive roofing, Ohio River floods drive restoration, hot summers and icy winters drive HVAC, so the winners fix their profiles and content before each season rather than after. Tight targeting across the Highlands, St. Matthews, Prospect, Oldham County, and the Indiana side in New Albany and Clarksville is what divides the contractors who own the Map Pack from the ones who watch it.",
@@ -167,7 +167,7 @@ export const louisvilleLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research now starts in AI rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is roughly how long local SEO needs to show genuine movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never get to keep. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less because the work is already heading your way." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Louisville neighborhoods, what your Map Pack competitors are doing to outrank you, the fixes that will move you fastest, and an honest 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Louisville neighborhoods, what your Map Pack competitors are doing to outrank you, the fixes that will move you fastest, and an honest 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis of what your Louisville Local SEO needs to win the top three on the map." },
     ],
   },
 
@@ -175,17 +175,17 @@ export const louisvilleLocations = [
   {
     ...BASE,
     citySlug: 'louisville', serviceSlug: 'seo-services', service: 'SEO Services',
-    titleTag: 'Louisville SEO Company | OnwardCraft',
+    titleTag: 'Louisville SEO Company | Rank on Google | OnwardCraft',
     metaDescription:
-      'Louisville SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in, built for storm and flood season demand.',
+      'Louisville SEO that turns organic traffic into booked work, ranking contractors on page one of Google for the money keywords. Leads you own, no lock-in.',
     eyebrow: 'SEO Services · Louisville, KY',
-    h1: 'Get your Louisville business to the top of Google and keep it there',
+    h1: 'Louisville SEO that turns organic traffic into booked work across Oldham County',
     h2Exact: 'Louisville SEO Company',
     heroSubhead:
       "Ads die the second the card stops. SEO does the opposite: rank once for what your Louisville customers search and the leads keep arriving. We build that ranking, including the seasonal storm and flood terms that fuel your busiest weeks, and we tie every report to actual calls and booked jobs.",
     primaryCta: 'Get my free Louisville SEO audit',
     intro:
-      "Louisville SEO comes down to one question: when someone searches what you do in the Highlands or Middletown or Oldham County, are you on page one or page two? Page two might as well be page fifty. We get contractors ranking for the money keywords across Louisville, including the spring roofing surge, summer HVAC demand, and flood-restoration searches, and we measure the result in leads, not vanity traffic.",
+      "Louisville SEO comes down to one question: when someone searches what you do in the Highlands or Middletown or Oldham County, are you on page one or page two? Page two might as well be page fifty. As a Louisville SEO company built for the trades, we get contractors ranking on Google for the money keywords, including the spring roofing surge, summer HVAC demand, and flood-restoration searches, and we measure the result in booked leads and organic traffic, not vanity numbers.",
     aioQuestion: 'How do Louisville businesses rank higher on Google?',
     aioAnswer:
       "They rank by repairing the technical foundation of the site, tuning each page for the exact terms customers type, publishing genuinely useful local content tied to Louisville neighborhoods and seasonal events, and earning links from trusted local sources. The seasonal pattern here decides a lot: spring tornado and hail roofing, Ohio River flood restoration, summer-heat HVAC, winter freeze emergencies. The contractors who get their content and pages right before each season are the ones who own those searches when demand explodes.",
@@ -233,7 +233,7 @@ export const louisvilleLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a fast-growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Louisville do you cover?', a: "The full Louisville metro and the communities around it: Highlands, Crescent Hill, St. Matthews, Middletown, Prospect, Oldham County, Shelbyville, New Albany, Clarksville, and more, with genuine local pages instead of one generic Louisville page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads directly to you. The more you own your search visibility, the less you depend on paying brokers for leads three rivals also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a straight diagnosis of what your Louisville SEO needs to reach page one and stay there." },
     ],
   },
 
@@ -241,17 +241,17 @@ export const louisvilleLocations = [
   {
     ...BASE,
     citySlug: 'louisville', serviceSlug: 'web-design', service: 'Web Design',
-    titleTag: 'Louisville Web Design Company | OnwardCraft',
+    titleTag: 'Louisville Web Design Company | Sites That Book Jobs | OnwardCraft',
     metaDescription:
-      'Louisville web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors who want to win trust in bourbon country.',
+      'Louisville Web Design that makes homeowners pick you: fast, mobile-first contractor websites that convert visitors into booked jobs across bourbon country.',
     eyebrow: 'Web Design · Louisville, KY',
-    h1: 'Louisville web design that turns visitors into booked jobs',
+    h1: 'Louisville web design that makes Crescent Hill homeowners pick you',
     h2Exact: 'Louisville Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure. We build Louisville contractors fast, mobile-first sites engineered to turn visitors into booked work, and to read as genuinely local in a city where people can spot the difference between a community business and a corporate template.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Louisville contractor websites leak leads quietly: sluggish on a phone, a buried call button, no clear offer, no sense of being truly local. Web design done right plugs every one of those holes. We build sites that load fast, look like the professional you already are, talk to Louisville homeowners from the Highlands to Oldham County, and turn visitors into booked jobs instead of sitting there like every other contractor's page.",
+      "Louisville Web Design done right plugs the holes that quietly leak leads: a sluggish mobile experience, a buried call button, no clear offer, no sense of being truly local. We build fast-loading, mobile-first contractor websites that look like the professional you already are, talk to Louisville homeowners from the Highlands to Oldham County, and convert visitors into booked jobs instead of sitting there like every other contractor's page.",
     aioQuestion: 'What makes a good contractor website in Louisville?',
     aioAnswer:
       "A good Louisville contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods and communities you serve, from the historic Highlands to horse-farm country in Oldham County. Louisville is a city where locals buy local, so a site that reads authentically Louisville earns trust a national-chain template never will. Mobile speed and an obvious next step are what separate a site that books jobs from one that simply sits there." ,
@@ -299,7 +299,7 @@ export const louisvilleLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can genuinely manage, usually WordPress or Webflow. We will recommend the right fit in your free consult and walk you through the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, and you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Louisville site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Louisville site should include, and a fixed-price quote with a timeline. No pressure, just a plan for the Louisville Web Design that turns more of your visitors into booked jobs." },
     ],
   },
 
@@ -307,17 +307,17 @@ export const louisvilleLocations = [
   {
     ...BASE,
     citySlug: 'louisville', serviceSlug: 'website-redesign', service: 'Website Redesign',
-    titleTag: 'Louisville Website Redesign | OnwardCraft',
+    titleTag: 'Louisville Website Redesign | Keep Your Rankings | OnwardCraft',
     metaDescription:
-      'Redesign your Louisville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across bourbon country.',
+      'Louisville Website Redesign that turns an aging site into a lead engine. Faster, mobile-first rebuilds with an SEO-safe migration, no rankings lost.',
     eyebrow: 'Website Redesign · Louisville, KY',
-    h1: 'Redesign your Louisville website without losing your rankings',
+    h1: 'Louisville Website Redesign that turns an aging site into a lead engine for Prospect contractors',
     h2Exact: 'Louisville Website Redesign Company',
     heroSubhead:
       "An outdated site bleeds jobs every week: slow, clumsy on a phone, easy to scroll past. We redesign Louisville contractor sites to convert more and load faster, and we migrate with care so you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks sharper but converts the same, or it launches and the rankings evaporate overnight. We do neither. We redesign Louisville contractor sites for speed and conversions, build them to feel genuinely local in a city that rewards community roots, and migrate with the redirects and SEO care that guard the traffic you already have.",
+      "A Louisville Website Redesign usually goes one of two bad ways: the site looks sharper but converts the same, or it launches and the rankings evaporate overnight. We do neither. We rebuild Louisville contractor sites for speed and conversions, make them feel genuinely local in a city that rewards community roots, and handle an SEO-safe migration with the redirects that guard the traffic you already have, so you redesign your Louisville website without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and lifts them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const louisvilleLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan, so your Louisville Website Redesign rebuilds for leads without tanking your traffic." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const louisvilleCity = {
 
   titleTag: 'Louisville Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Louisville contractors. Get found, get booked, and own your leads instead of renting them, built for bourbon country.',
+    'Louisville marketing for contractors that turns searches into jobs: web design, SEO, and local SEO that get you found, get you booked, and own your leads.',
 
   eyebrow: 'Louisville · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Louisville contractors found and booked',
+  h1: 'Louisville marketing for contractors that turns river-city searches into booked jobs',
   h2Exact: 'Louisville Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Louisville's seasonal storms, the Ohio River flood market, and a community that buys local. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const louisvilleCity = {
   primaryCta: 'Get my free Louisville audit',
 
   intro:
-    "If you run a contracting business in Louisville, you are competing in a market shaped by genuine seasonal forces: a spring tornado and hail season that spikes roofing demand, Ohio River flood events that drive restoration calls, a hot, humid summer that packs HVAC calendars, and hard winters that keep heating and pipe contractors slammed. And Louisville buys local; people here know the gap between a community business and a national chain wearing a Kentucky phone number. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that plants you in the Map Pack for the neighborhoods you serve, all in place before each season lands. Here is how we help Louisville contractors do exactly that.",
+    "Louisville marketing for contractors has to reckon with a market shaped by genuine seasonal forces: a spring tornado and hail season that spikes roofing demand, Ohio River flood events that drive restoration calls, a hot, humid summer that packs HVAC calendars, and hard winters that keep heating and pipe contractors slammed. And Louisville buys local; people here know the gap between a community business and a national chain wearing a Kentucky phone number. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that plants you in the Map Pack for the neighborhoods you serve, all in place before each season lands. As a Louisville digital marketing agency built for the trades, here is how we get you found and booked.",
   aioQuestion: 'How do Louisville contractors get more leads online?',
   aioAnswer:
     "Louisville contractors win more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that takes the Google Map Pack neighborhood by neighborhood. The seasonal pattern here decides a lot: spring storm roofing, flood restoration, summer HVAC, winter emergencies, so the contractors who rank before each season catch the surge. And because Louisville strongly favors local businesses, a site and online presence that reads authentically Louisville earns trust a national template never will.",
@@ -422,6 +422,6 @@ export const louisvilleCity = {
     { q: 'Why does the Louisville market need a different approach?', a: "Louisville runs on distinct demand spikes most agencies overlook: spring tornado and hail season packs roofing calendars, Ohio River flood events fire off restoration calls with little warning, hot humid summers and hard winters drive HVAC at both ends of the year. And Louisville buys local; a generic national template does not win here the way an authentically Louisville presence does." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Louisville areas do you serve?', a: "The full metro: Highlands, Cherokee Triangle, Crescent Hill, Clifton, NuLu, Portland, St. Matthews, Middletown, Prospect, Germantown, Oldham County, Shelbyville, New Albany, and Clarksville, with genuine neighborhood pages rather than one generic Louisville page." },
-    { q: 'Where should I start?', a: "Start with a free Louisville audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Louisville audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan for the Louisville marketing for contractors that gets you found and booked." },
   ],
 };

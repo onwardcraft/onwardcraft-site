@@ -111,15 +111,15 @@ export const maconLocations = [
     citySlug: 'macon', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Macon Local SEO Company | Win the Map Pack | OnwardCraft',
     metaDescription:
-      'Type your service plus Macon and three names fill the map. We work you into that trio so the call comes to you, not a competitor.',
+      'Macon Local SEO that ranks you above the competition. We work your business into the Map Pack so the "near me" call comes to you, not a rival.',
     eyebrow: 'Local SEO · Macon-Bibb County',
-    h1: 'Be the first name middle Georgia sees when it searches your trade',
+    h1: 'Macon Local SEO that ranks you above the competition from Vineville to Warner Robins',
     h2Exact: 'Macon Local SEO Company',
     heroSubhead:
       "A \"near me\" search puts three businesses on Google's map, and everyone underneath them might as well not exist. We work you into that trio so the homeowner reaches you rather than whoever happened to rank first, and so your profile is set before the next storm lights up every phone in Bibb County.",
     primaryCta: 'Get my free Macon audit',
     intro:
-      "Local SEO in Macon hinges on a single question: when someone in Vineville or Warner Robins types your trade and \"near me,\" do you appear among the three businesses Google fixes to the map? Most searchers tap one of those three and never scroll past them. Add the thousands of Robins families arriving each year and a spring severe-weather window, and earning one of those three spots becomes the entire contest. This is how it gets done.",
+      "Macon Local SEO hinges on a single question: when someone in Vineville or Warner Robins types your trade and \"near me,\" do you appear in the Google Map Pack among the three businesses fixed to the map? Most searchers tap one of those three and never scroll past them. Add the thousands of Robins families arriving each year and a spring severe-weather window, and earning a spot in the local 3-pack becomes the entire contest. This is how it gets done.",
     aioQuestion: 'How do Macon businesses rank higher in local search?',
     aioAnswer:
       "Ranking comes from four pieces done well: a Google Business Profile tuned to the precise services and neighborhoods you want, name-address-phone details that line up everywhere online, a regular flow of genuine reviews, and local pages tied to actual middle-Georgia communities. Because Macon constantly absorbs transferring Robins Air Force Base families and takes a beating from spring tornadoes and hail, the businesses that win look settled, answer quickly, and already hold their rankings when storm-driven demand jumps.",
@@ -167,7 +167,7 @@ export const maconLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "An increasing slice of \"near me\" research now starts inside AI rather than classic search. We structure your content and schema so those engines can read, trust, and quote your business. That channel is fast becoming as decisive as the map results themselves." },
       { q: 'Am I locked into a contract?', a: "No. We request an opening 90 days because that is roughly how long local SEO takes to produce real movement. After that the arrangement is month-to-month. If we are not delivering, you leave, and the accountability stays squarely with us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and exposure you never keep. We build rankings, a Google profile, and a review base that route inquiries straight to you. Over time your reliance on brokers fades because the work arrives directly." },
-      { q: "What's in the free audit?", a: "A plain read on where you rank today across your service areas, how your map competitors are beating you, the fixes that move you fastest, and a grounded 90-to-180-day plan with the numbers worked out for your shop. No slide deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A plain read on where your Macon Local SEO stands today across your service areas, how your map competitors are beating you, the fixes that move you fastest, and a grounded 90-to-180-day plan with the numbers worked out for your shop. No slide deck. Just a straight diagnosis." },
     ],
   },
 
@@ -177,15 +177,15 @@ export const maconLocations = [
     citySlug: 'macon', serviceSlug: 'seo-services', service: 'SEO Services',
     titleTag: 'Macon SEO Company | OnwardCraft',
     metaDescription:
-      'SEO for Macon contractors that ranks you on Google and delivers leads you own. Lead-tied reporting, no lock-in, built around middle-Georgia demand.',
+      'Macon SEO that climbs you past the competition on Google and delivers leads you own. Lead-tied reporting, no lock-in, built around middle-Georgia demand.',
     eyebrow: 'SEO Services · Macon-Bibb County',
-    h1: 'Move your Macon business to the top of Google and stay there',
+    h1: 'Macon SEO that climbs you past the competition on Google and holds the lead',
     h2Exact: 'Macon SEO Company',
     heroSubhead:
       "Paid ads switch off the instant your card stops. SEO behaves the opposite way: earn the ranking once for what middle-Georgia homeowners search, and the leads keep arriving. We build that ranking and connect every report to real calls and booked jobs.",
     primaryCta: 'Get my free Macon SEO audit',
     intro:
-      "SEO in Macon reduces to one question: when a homeowner searches your trade, are you sitting on page one or buried on page two? Page two might as well be page fifty. We get contractors ranking for the revenue keywords across this middle-Georgia hub, a market fed by Mercer and Navicent professionals plus arriving Robins families, and we track it in leads rather than vanity traffic.",
+      "Macon SEO reduces to one question: when a homeowner searches your trade, are you on page one or buried on page two? Page two might as well be page fifty. As your Macon SEO company we get contractors ranking for the money keywords across this middle-Georgia hub, a market fed by Mercer and Navicent professionals plus arriving Robins families, and we track organic traffic in leads rather than vanity numbers.",
     aioQuestion: 'How do Macon businesses rank higher on Google?',
     aioAnswer:
       "They climb by repairing the site's technical base, tuning each page to the precise phrases customers search, publishing local content people genuinely find useful, and earning links from trusted middle-Georgia sources. In a hub that draws transferring Robins Air Force Base families and absorbs spring tornado and hail damage, two of the fastest ways to pull ahead are keeping the site quick on mobile and ranking for the weather-driven, seasonal terms before they spike.",
@@ -233,7 +233,7 @@ export const maconLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing piece of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Macon do you cover?', a: "All of Macon-Bibb and the territory around it: Warner Robins, Centerville, Bonaire, Byron, Forsyth, Gray, Perry, and more, built on real local pages instead of one generic Macon page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send inquiries straight to you. The more of your search visibility you own, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank now, how your competitors are beating you, the highest-impact fixes, and a grounded timeline with the numbers modeled for your shop. No slide deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where your Macon SEO ranks now, how your competitors are beating you, the highest-impact fixes, and a grounded timeline with the numbers modeled for your shop. No slide deck, just a diagnosis." },
     ],
   },
 
@@ -243,15 +243,15 @@ export const maconLocations = [
     citySlug: 'macon', serviceSlug: 'web-design', service: 'Web Design',
     titleTag: 'Macon Web Design Company | Sites That Convert | OnwardCraft',
     metaDescription:
-      'Web design for Macon contractors that turns visitors into booked jobs: fast, mobile-first sites built for the trades and middle-Georgia demand.',
+      'Macon Web Design that loads fast and books more jobs: mobile-first contractor websites built to convert visitors and ride out middle-Georgia storm season.',
     eyebrow: 'Web Design · Macon-Bibb County',
-    h1: 'Macon web design that converts visitors into booked jobs',
+    h1: 'Macon web design that loads fast and books more jobs from Vineville to Warner Robins',
     h2Exact: 'Macon Web Design Company',
     heroSubhead:
       "A good-looking website that never produces a call is just a brochure. We build Macon contractors fast, mobile-first sites engineered to convert visitors into booked work and to hold steady when severe weather floods your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Macon contractor websites bleed leads quietly: sluggish on a phone, a call button nobody can find, no clear offer. Web design done properly corrects all of it. We build sites that load fast, present you as the professional you are, and turn visitors from Vineville to Warner Robins into booked jobs, sites that stay upright when a tornado warning sends your traffic climbing.",
+      "Macon Web Design done right starts where most contractor sites fail: sluggish on a phone, a call button nobody can find, no clear offer. We build a fast-loading, mobile-first contractor website that presents you as the professional you are and converts visitors from Vineville to Warner Robins into booked jobs, a site that stays upright when a tornado warning sends your traffic climbing.",
     aioQuestion: 'What makes a good contractor website in Macon?',
     aioAnswer:
       "A strong Macon contractor website loads in under three seconds on a phone, keeps the call button and a clear offer above the fold, builds trust with reviews and real project photos, and is engineered to absorb traffic spikes during tornado and hail season. Since most local searches happen on mobile, including the steady run of relocating Robins families with no local references, mobile speed and an unmistakable next step are what separate a site that books jobs from one that merely sits there.",
@@ -299,7 +299,7 @@ export const maconLocations = [
       { q: 'What platform do you build on?', a: "We choose the platform that suits your needs and that you can manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and lay out the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security afterward." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project at a fixed price. Any ongoing maintenance or SEO stays month-to-month, and you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear view of what your current site is costing you in lost leads, what a high-converting Macon site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear view of what your current site is costing you in lost leads, what high-converting Macon Web Design should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const maconLocations = [
     citySlug: 'macon', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Macon Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Macon website without surrendering rankings. Faster, mobile-first rebuilds that convert more visitors and hold up in severe weather.',
+      'Macon Website Redesign done with a careful, SEO-safe migration: faster mobile-first rebuilds that convert more visitors without losing your rankings.',
     eyebrow: 'Website Redesign · Macon-Bibb County',
-    h1: 'Rebuild your Macon website without surrendering your rankings',
+    h1: 'Macon Website Redesign done with a careful, SEO-safe migration that keeps your rankings',
     h2Exact: 'Macon Website Redesign Company',
     heroSubhead:
       "A dated site quietly costs you jobs every week: slow, awkward on a phone, easy to scroll past. We redesign Macon contractor sites to convert more and load faster, then migrate with care so you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Redesigns tend to fail in one of two ways: the site looks sharper but converts no better, or it launches and the rankings disappear overnight. We avoid both. We redesign Macon contractor sites for speed and conversions, build them to handle severe-weather traffic, and migrate with the redirects and SEO care that protect the traffic you already hold.",
+      "Macon Website Redesign tends to fail in one of two ways: the site looks sharper but converts no better, or it launches and the rankings disappear overnight. We avoid both. We rebuild contractor sites mobile-first for speed and conversions, build them to handle severe-weather traffic, and run an SEO-safe migration with the redirects and care that protect the traffic you already hold.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You safeguard SEO through a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, carrying over your schema, and testing everything on staging before launch. Handled correctly, a redesign holds your rankings and lifts them, because the new site loads faster, works mobile-first, and is better structured than the old one.",
@@ -365,7 +365,7 @@ export const maconLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which raises both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Entirely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO stays month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign needs to fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what your Macon Website Redesign needs to fix, and a fixed-price quote with a timeline and a safe migration plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const maconCity = {
 
   titleTag: 'Macon Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Macon contractors. Get found, get booked, and own your leads rather than renting them, built for middle-Georgia demand.',
+    'Macon marketing for contractors that fills your calendar: web design, SEO, and local SEO that get you found and booked, with leads you own, not rent.',
 
   eyebrow: 'Macon · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Macon contractors found and booked',
+  h1: 'Macon marketing for contractors that fills your calendar',
   h2Exact: 'Macon Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for this middle-Georgia hub: arriving Robins families, century-old houses, and weather-driven demand. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const maconCity = {
   primaryCta: 'Get my free Macon audit',
 
   intro:
-    "Run a contracting business in Macon and you are competing for attention in middle Georgia's commercial center, where Mercer and Navicent professionals own older homes and thousands of Robins Air Force Base families arrive every year. Winning here takes three pieces working in concert: a site that converts, SEO that ranks you for what homeowners search, and local SEO that lands you in the map results, all set before the next tornado or hail line sends demand climbing. Here is how we help Macon contractors pull that off.",
+    "Macon marketing for contractors comes down to competing for attention in middle Georgia's commercial center, where Mercer and Navicent professionals own older homes and thousands of Robins Air Force Base families arrive every year. As a Macon digital marketing agency built around the trades, we pair three pieces: a site that converts, SEO that ranks you for what homeowners search, and local SEO that lands you in the map results, all set before the next tornado or hail line sends demand climbing. Here is how we get Macon contractors found and booked.",
   aioQuestion: 'How do Macon contractors get more leads online?',
   aioAnswer:
     "Macon contractors gather more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that takes the Google map results. Because Macon is a middle-Georgia hub that draws transferring Robins Air Force Base families and takes hard hits from spring tornadoes and hail, the contractors who look established and already rank before the weather turns capture the most work.",
@@ -422,6 +422,6 @@ export const maconCity = {
     { q: 'Why does severe-weather season matter for my marketing?', a: "When tornadoes, hail, and high wind cross middle Georgia in spring, demand for roofing and restoration jumps overnight and the backlog can stretch for months. Ranking takes months to build, so the contractors already visible before the storm claim that work. We get you positioned ahead of the season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Macon areas do you serve?', a: "All of Macon-Bibb and the surrounding territory: Intown, Vineville, Shirley Hills, Ingleside, North Macon, along with Warner Robins, Centerville, Bonaire, Byron, Forsyth, Gray, Perry, and more." },
-    { q: 'Where should I start?', a: "Start with a free Macon audit. We review your website, your rankings, and your map presence, then point to the one or two moves that will bring in the most work fastest. No slide deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Macon audit. We review your website, your rankings, and your map presence, then point to the one or two moves in your Macon marketing for contractors that will bring in the most work fastest. No slide deck, just a plan." },
   ],
 };
