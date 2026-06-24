@@ -113,9 +113,9 @@ export const augustaLocations = [
     citySlug: 'augusta', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Augusta Local SEO Company | Win the Map Pack',
     metaDescription:
-      'When Augusta searches your service, three businesses appear on the map. We put you in those three so the call lands with you, not a competitor.',
+      'Augusta Local SEO that puts you in the three businesses on the map when homeowners search your service, so the call lands with you, not a competitor.',
     eyebrow: 'Local SEO · Augusta, GA',
-    h1: 'When Augusta searches for what you do, be the first name on the map',
+    h1: 'Augusta Local SEO that wins you the top three on the map before heat season hits',
     h2Exact: 'Augusta Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map on a \"near me\" search, and everyone underneath them might as well not exist. We get you into that top three so the call rings your phone instead of whoever happened to rank first, and so you are ready the moment HVAC season and Savannah River flooding send demand vertical.",
@@ -169,7 +169,7 @@ export const augustaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research now starts inside AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less, because the work is already coming to you directly." },
-      { q: "What is in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What is in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see what Augusta Local SEO can do for you: where your Google Business Profile stands, which local 3-pack spots are within reach, and how soon. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -181,7 +181,7 @@ export const augustaLocations = [
     metaDescription:
       'Augusta SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in, built for heat season and flood demand.',
     eyebrow: 'SEO Services · Augusta, GA',
-    h1: 'Get your Augusta business to the top of Google and keep it there',
+    h1: 'Augusta SEO that builds CSRA rankings you actually own',
     h2Exact: 'Augusta SEO Company',
     heroSubhead:
       "Ads stop the second your card does. SEO works the other way: rank once for what your Augusta customers search and the leads keep arriving. We build that ranking and tie every report back to real calls and booked jobs.",
@@ -235,7 +235,7 @@ export const augustaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Do you cover Aiken County and North Augusta SC?', a: "Yes. We build genuine local pages for North Augusta, Aiken, Evans, Martinez, Grovetown, and every CSRA market on both sides of the river, not one generic Augusta page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It shows exactly where Augusta SEO can grow your organic traffic and which money keywords can move you onto page one. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -247,13 +247,13 @@ export const augustaLocations = [
     metaDescription:
       'Augusta web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and heat-season demand. Get a free quote.',
     eyebrow: 'Web Design · Augusta, GA',
-    h1: 'Augusta web design that turns visitors into booked jobs',
+    h1: 'Augusta web design engineered to bring in real work through heat season',
     h2Exact: 'Augusta Web Design Company',
     heroSubhead:
       "A pretty website that never rings the phone is just a brochure. We build Augusta contractors fast, mobile-first sites engineered to turn visitors into booked work, and to hold steady when HVAC season and flooding drive your call volume through the roof.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Augusta contractor websites bleed leads quietly: slow on a phone, the call button buried, no clear offer in sight. Web design done right closes every one of those leaks. We build sites that load fast, look like the professional you already are, and turn Evans-to-North-Augusta visitors into booked jobs, and that hold up when summer heat sends your traffic surging.",
+      "Augusta web design done right is the difference between a site that books jobs and one that quietly bleeds leads: slow on a phone, the call button buried, no clear offer in sight. We build mobile-first, fast-loading sites that look like the professional you already are and turn Evans-to-North-Augusta visitors into booked jobs, and that hold up when summer heat sends your traffic surging.",
     aioQuestion: 'What makes a good contractor website in Augusta?',
     aioAnswer:
       "A good Augusta contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during HVAC season and flooding events. Because most searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -301,7 +301,7 @@ export const augustaLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage, usually WordPress or Webflow. We will recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Augusta site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Augusta site should include, and a fixed-price quote with a timeline. It is the simplest way to see what Augusta Web Design that converts visitors into booked jobs would look like for your contractor website. No pressure, just a plan." },
     ],
   },
 
@@ -311,15 +311,15 @@ export const augustaLocations = [
     citySlug: 'augusta', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Augusta Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Augusta website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in heat season.',
+      'Augusta Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in heat season.',
     eyebrow: 'Website Redesign · Augusta, GA',
-    h1: 'Redesign your Augusta website without losing your rankings',
+    h1: 'Augusta Website Redesign that modernizes for Masters Week buyers without tanking your traffic',
     h2Exact: 'Augusta Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every single week: slow, clumsy on a phone, easy to scroll past. We redesign Augusta contractor sites to convert more and load faster, and we migrate with care so you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Augusta contractor sites for speed and conversions, build them to take heat-season and flood traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "An Augusta Website Redesign usually goes one of two bad ways: the site looks better but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Augusta contractor sites for speed and conversions with a mobile-first rebuild, build them to take heat-season and flood traffic, and handle an SEO-safe migration with the redirects and care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -367,7 +367,7 @@ export const augustaLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It is the clearest way to see what an Augusta Website Redesign would change for you, and how the SEO-safe migration keeps every ranking you have without losing rankings in the move." },
     ],
   },
 ];
@@ -377,10 +377,10 @@ export const augustaCity = {
 
   titleTag: 'Augusta Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Augusta contractors. Get found, get booked, and own your leads instead of renting them. Built for heat season and the CSRA.',
+    'Augusta marketing for contractors: web design, SEO, and local SEO that get you found and booked and own your leads instead of renting them. Built for the CSRA.',
 
   eyebrow: 'Augusta · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Augusta contractors found and booked',
+  h1: 'Augusta marketing for contractors built around the trades across the CSRA',
   h2Exact: 'Augusta Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Augusta's one-of-a-kind market: Fort Eisenhower PCS demand, Masters Week buyers, brutal Georgia summers, and Savannah River flood risk. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -388,7 +388,7 @@ export const augustaCity = {
   primaryCta: 'Get my free Augusta audit',
 
   intro:
-    "If you run a contracting business in Augusta, you are competing in a market like nowhere else. Fort Eisenhower sends a constant wave of military families PCS-ing in and out, steady demand on a predictable cycle. Augusta National keeps a wealthy buyer segment invested in the area all year. Augusta University Health puts thousands of healthcare workers into the housing market. And every summer, 98-degree heat and Georgia humidity drive HVAC demand straight up. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the next heat wave or flooding event sends demand through the roof. Here is how we help Augusta contractors do exactly that.",
+    "Augusta marketing for contractors has to fit a market like nowhere else, because if you run a contracting business here you are competing in one. Fort Eisenhower sends a constant wave of military families PCS-ing in and out, steady demand on a predictable cycle. Augusta National keeps a wealthy buyer segment invested in the area all year. Augusta University Health puts thousands of healthcare workers into the housing market. And every summer, 98-degree heat and Georgia humidity drive HVAC demand straight up. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the next heat wave or flooding event sends demand through the roof. Here is how we help Augusta contractors do exactly that.",
   aioQuestion: 'How do Augusta contractors get more leads online?',
   aioAnswer:
     "Augusta contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Augusta's demand is shaped by Fort Eisenhower PCS cycles, Masters Week buyers, summer HVAC emergencies, and Savannah River flooding, the contractors who look established and are already ranking when those spikes hit win the most work.",
@@ -424,6 +424,6 @@ export const augustaCity = {
     { q: 'Why does Fort Eisenhower matter for my marketing?', a: "Fort Eisenhower is the Army's Cyber Center of Excellence and one of the largest employers in the CSRA. Thousands of military families PCS in and out every year, and each one is a potential customer who needs a trusted contractor fast. Ranking well means yours is the name they find when they land in Augusta." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free audit." },
     { q: 'Which Augusta areas do you serve?', a: "All of Augusta and the CSRA: Evans, Martinez, Grovetown, Summerville, Forest Hills, Hephzibah, and across the Savannah River into North Augusta, Aiken, and Beech Island, SC." },
-    { q: 'Where should I start?', a: "Start with a free Augusta audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Augusta audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. As an Augusta digital marketing agency built around web design and SEO for Augusta contractors, our whole focus is Augusta marketing for contractors that gets you found and booked. No pitch deck, just a plan." },
   ],
 };

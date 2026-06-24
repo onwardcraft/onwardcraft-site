@@ -112,9 +112,9 @@ export const albuquerqueLocations = [
     citySlug: 'albuquerque', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Albuquerque Local SEO Company | OnwardCraft',
     metaDescription:
-      'When Albuquerque searches your service, three businesses show on the map. We put you in those three, in English and Spanish, so the call lands with you.',
+      'Albuquerque Local SEO that puts you in the three businesses Google pins to the map, in English and Spanish, so the call lands with you.',
     eyebrow: 'Local SEO · Albuquerque, NM',
-    h1: 'When Albuquerque searches for what you do, be the first name on the map',
+    h1: 'Albuquerque Local SEO that turns "near me" searches, in English and Spanish, into a ringing phone',
     h2Exact: 'Albuquerque Local SEO Company',
     heroSubhead:
       "Google pins exactly three businesses to the map when someone types \"near me.\" Everyone underneath is invisible. In a city that is nearly half Hispanic, sits a mile high, and swings from 95°F afternoons to snow, we put you in that top three for your neighborhoods, in English and Spanish, so the call rings your phone instead of the contractor who simply ranked above you.",
@@ -168,7 +168,7 @@ export const albuquerqueLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts inside AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself, and we build for it now rather than later." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads that three competitors also paid for. We build rankings, a Google profile, and a review base that route leads straight to you and only you. As that visibility grows, your reliance on the brokers shrinks, because the work starts arriving directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Albuquerque neighborhoods, what your Map Pack competitors are doing to beat you, whether you are surfacing for Spanish-language searches, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Albuquerque neighborhoods, what your Map Pack competitors are doing to beat you, whether you are surfacing for Spanish-language and \"near me\" searches, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see what Albuquerque Local SEO can actually do for your phone, with no pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -180,7 +180,7 @@ export const albuquerqueLocations = [
     metaDescription:
       'Albuquerque SEO that ranks contractors on Google in English and Spanish for leads you own. Revenue-tied reporting, no lock-in, built for a desert market.',
     eyebrow: 'SEO Services · Albuquerque, NM',
-    h1: 'Get your Albuquerque business to the top of Google and keep it there',
+    h1: 'Albuquerque SEO that ranks you for the monsoon and HVAC searches that book jobs',
     h2Exact: 'Albuquerque SEO Company',
     heroSubhead:
       "Ads die the instant you stop paying. SEO does the opposite: rank once for what your Albuquerque customers search, in English and Spanish, and the leads keep arriving. We build that ranking and tie every report to real calls and booked jobs, never vanity traffic.",
@@ -234,7 +234,7 @@ export const albuquerqueLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business when Albuquerque homeowners ask them for a contractor recommendation." },
       { q: 'Which areas around Albuquerque do you cover?', a: "All of Albuquerque and the surrounding metro: Nob Hill, Old Town, the Heights, Rio Rancho, Corrales, Los Ranchos, Paradise Hills, Four Hills, Tijeras, the North and South Valley, with genuine local pages rather than one generic city page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads straight to you. The more you own your search visibility, the less you lean on brokers reselling the same shared lead to your competitors." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, whether you are missing Spanish-language demand, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, whether you are missing Spanish-language demand, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is the clearest look you will get at what Albuquerque SEO can do to grow your organic traffic and push your money keywords onto page one. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -246,13 +246,13 @@ export const albuquerqueLocations = [
     metaDescription:
       'Albuquerque web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in a desert market with Spanish-speaking buyers.',
     eyebrow: 'Web Design · Albuquerque, NM',
-    h1: 'Albuquerque web design that turns visitors into booked jobs',
+    h1: 'Albuquerque web design built to convert Nob Hill clicks into calls, in English and Spanish',
     h2Exact: 'Albuquerque Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure. We build Albuquerque contractors fast, mobile-first sites engineered to turn visitors into booked work, made for a market where nearly half the city searches in Spanish and a monsoon storm can create urgent demand overnight.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Albuquerque contractor websites bleed leads quietly: sluggish on a phone, a call button buried three scrolls down, no clear offer, and nothing that speaks to the neighborhoods, the language, or the seasonal rhythm of this city. Web design done right fixes every bit of that. We build sites that load fast, look like the professional you already are, and turn visitors from Nob Hill to Rio Rancho into booked jobs, all designed for a market shaped by the desert, the altitude, the monsoon, and a community that is nearly half Hispanic.",
+      "Albuquerque Web Design is the difference between a site that books work and one that just sits there, because most contractor websites here bleed leads quietly: sluggish on a phone, a call button buried three scrolls down, no clear offer, and nothing that speaks to the neighborhoods, the language, or the seasonal rhythm of this city. Website design done right fixes every bit of that. We build fast-loading, mobile-first sites that look like the professional you already are and convert visitors from Nob Hill to Rio Rancho into booked jobs, all designed for a market shaped by the desert, the altitude, the monsoon, and a community that is nearly half Hispanic.",
     aioQuestion: 'What makes a good contractor website in Albuquerque?',
     aioAnswer:
       "A good Albuquerque contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods you serve. Because Albuquerque is nearly half Hispanic, a strong site also reaches Spanish-speaking homeowners. And because monsoon season drives urgent storm-damage calls from July through September, a high-converting site is positioned for that seasonal surge, not just the year-round baseline.",
@@ -300,7 +300,7 @@ export const albuquerqueLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage day to day, usually WordPress or Webflow. We will recommend the right fit in your free consult and walk you through the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that, only if you want it." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Albuquerque site should include (including whether Spanish-language reach fits your trade), and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what high-converting Albuquerque Web Design should include for your trade (including whether Spanish-language reach fits), and a fixed-price quote with a timeline. No pressure, just a plan." },
     ],
   },
 
@@ -310,15 +310,15 @@ export const albuquerqueLocations = [
     citySlug: 'albuquerque', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Albuquerque Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Albuquerque website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs, in English and Spanish.',
+      'Albuquerque Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs, in English and Spanish.',
     eyebrow: 'Website Redesign · Albuquerque, NM',
-    h1: 'Redesign your Albuquerque website without losing your rankings',
+    h1: 'Albuquerque Website Redesign that keeps every ranking you have earned and finally reaches Spanish search',
     h2Exact: 'Albuquerque Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, awkward on a phone, and invisible to Spanish-speaking homeowners. We redesign Albuquerque contractor sites to convert more and load faster, and we migrate with such care that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail in one of two ways: the site looks sharper but converts exactly the same, or it launches and the rankings evaporate overnight. We refuse both. We redesign Albuquerque contractor sites for speed and conversions, add the Spanish-language and neighborhood-specific content this market demands, and migrate with the redirects and SEO care that protect the traffic you already have, so the new site captures the next monsoon-season surge instead of starting from zero.",
+      "Albuquerque Website Redesign usually fails in one of two ways: the site looks sharper but converts exactly the same, or it launches and the rankings evaporate overnight. We refuse both. We rebuild Albuquerque contractor sites for speed and conversions, add the Spanish-language and neighborhood-specific content this market demands, and handle an SEO-safe migration with the redirects and care that protect the traffic you already have, so the new mobile-first rebuild captures the next monsoon-season surge instead of starting from zero.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, better structured, and, in Albuquerque, finally reaching the Spanish-speaking homeowners the old site quietly ignored.",
@@ -366,7 +366,7 @@ export const albuquerqueLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which is critical when someone is calling you from a phone during a monsoon storm or an AC failure in the summer heat." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in and no strings." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month, so you stay only as long as it is working." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings (including whether you are missing Spanish-language demand or monsoon-season searches), what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings (including whether you are missing Spanish-language demand or monsoon-season searches), what an Albuquerque Website Redesign should fix for your trade, and a fixed-price quote with a timeline and an SEO-safe migration plan." },
     ],
   },
 ];
@@ -376,10 +376,10 @@ export const albuquerqueCity = {
 
   titleTag: 'Albuquerque Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Albuquerque contractors. Rank in English and Spanish, capture monsoon-season demand, and finally own your own leads.',
+    'Albuquerque marketing for contractors: web design, SEO, and local SEO that rank you in English and Spanish, capture monsoon-season demand, and own your leads.',
 
   eyebrow: 'Albuquerque · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Albuquerque contractors found and booked',
+  h1: 'Albuquerque marketing for contractors: get ranked in English and Spanish, get booked',
   h2Exact: 'Albuquerque Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for a high-desert market that is nearly half Hispanic, hammered by monsoon storms every summer, and shaped by adobe construction nobody outside New Mexico truly gets. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -387,7 +387,7 @@ export const albuquerqueCity = {
   primaryCta: 'Get my free Albuquerque audit',
 
   intro:
-    "If you run a contracting business in Albuquerque, you are working a market with a character most national agencies have never stopped to understand. Nearly half the city is Hispanic and searches in Spanish, which is a huge uncontested opening. The climate at 5,300 feet forces HVAC to beat both desert heat above 95°F and genuinely snowy winters, which creates specialist demand. Adobe and stucco construction is everywhere, and generic contractors get it wrong. And every July through September the monsoon rolls in, and the roofers, stucco crews, and restoration teams already ranking are the ones who field every call. Winning here takes a website that converts, SEO that reaches both English and Spanish searches, and local SEO that lands you in the Map Pack neighborhood by neighborhood. Here is how we help Albuquerque contractors do exactly that.",
+    "Albuquerque marketing for contractors only works when it respects how this city actually buys, and most national agencies have never stopped to understand that character. Nearly half the city is Hispanic and searches in Spanish, which is a huge uncontested opening. The climate at 5,300 feet forces HVAC to beat both desert heat above 95°F and genuinely snowy winters, which creates specialist demand. Adobe and stucco construction is everywhere, and generic contractors get it wrong. And every July through September the monsoon rolls in, and the roofers, stucco crews, and restoration teams already ranking are the ones who field every call. Winning here takes a website that converts, SEO that reaches both English and Spanish searches, and local SEO that lands you in the Map Pack neighborhood by neighborhood. Here is how we help Albuquerque contractors do exactly that.",
   aioQuestion: 'How do Albuquerque contractors get more leads online?',
   aioAnswer:
     "Albuquerque contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them in both English and Spanish and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because nearly half the city is Hispanic and the market sees distinct seasonal peaks (monsoon storm damage in summer, heating in winter), contractors who show up in Spanish and are positioned for those surges before they hit book far more work than the ones treating Albuquerque like a generic Southwest city.",
@@ -423,6 +423,6 @@ export const albuquerqueCity = {
     { q: 'Why does the Albuquerque market need a different approach?', a: "Because it genuinely is different. Albuquerque is nearly half Hispanic, sits at 5,300 feet with both desert heat and real winters, has a traditional adobe construction stock that generic contractors mishandle, and takes a monsoon beating every July through September. Winning here means showing up in Spanish, being positioned for seasonal demand before it lands, and targeting neighborhoods on purpose, not dropping a city name into a template built for a flat, English-speaking suburb." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free audit before you commit to anything." },
     { q: 'Which Albuquerque areas do you serve?', a: "All of Albuquerque and the surrounding metro: Nob Hill, Old Town, the Heights, Rio Rancho, Corrales, Los Ranchos, Paradise Hills, Four Hills, Tijeras, the North and South Valley, and Bernalillo, with genuine neighborhood pages rather than one generic city page." },
-    { q: 'Where should I start?', a: "Start with a free Albuquerque audit. We will look at your website, your rankings in English and Spanish, and your Map Pack presence across your service area, then tell you the one or two moves that will bring in the most work fastest, whether that is monsoon-season positioning, Spanish-language reach, or something else entirely. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Albuquerque audit. We will look at your website, your rankings in English and Spanish, and your Map Pack presence across your service area, then tell you the one or two moves that will bring in the most work fastest, whether that is monsoon-season positioning, Spanish-language reach, or something else entirely. It is the simplest way to see what Albuquerque marketing for contractors can do to get you found and booked. No pitch deck, just a plan." },
   ],
 };

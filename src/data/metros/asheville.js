@@ -111,9 +111,9 @@ export const ashevilleLocations = [
     citySlug: 'asheville', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Asheville Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your trade in Asheville and three businesses sit on the map. We get you into those three so the call, and the rebuilding job, lands with you.',
+      'Asheville Local SEO that puts your trade in the three map spots so the call, and the rebuilding job, lands with you instead of a competitor.',
     eyebrow: 'Local SEO · Asheville',
-    h1: 'When Asheville searches for your trade, be the first name on the map',
+    h1: 'Asheville Local SEO that turns a Montford "near me" search into a ringing phone',
     h2Exact: 'Asheville Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map for every \"near me\" search, and everyone below them might as well not exist. We get you into that top three so the call lands with you instead of whoever showed up first, and so families rebuilding after Helene find you before anyone else.",
@@ -167,7 +167,7 @@ export const ashevilleLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now begins in AI rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. In Asheville it is quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you leave, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never get to keep. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less, because the work is already finding you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90 to 180 day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90 to 180 day plan with the numbers run for your business. It is the fastest way to see what Asheville Local SEO can do to rank you on the map and turn \"near me\" searches into booked work. No pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const ashevilleLocations = [
     metaDescription:
       'Asheville SEO that ranks contractors on Google and delivers leads you own. Lead-tied reporting, no lock-in, built for years of Helene rebuilding demand.',
     eyebrow: 'SEO Services · Asheville',
-    h1: 'Get your Asheville business to the top of Google and keep it there',
+    h1: 'Asheville SEO that ranks your mountain trade for the searches that book rebuilding jobs',
     h2Exact: 'Asheville SEO Company',
     heroSubhead:
       "Ads die the moment you stop paying. SEO does the reverse: rank once for what your Asheville customers search and the leads keep landing. We build that ranking and tie every report to real calls and booked jobs, not vanity traffic.",
@@ -233,7 +233,7 @@ export const ashevilleLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not only classic search." },
       { q: 'Which areas around Asheville do you cover?', a: "All of Asheville and the surrounding mountain communities: Black Mountain, Weaverville, Hendersonville, Fletcher, Arden, Biltmore Forest, and more, with genuine local pages rather than one generic Asheville page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads directly to you. The more you own your search visibility, the less you have to depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is the clearest way to see how Asheville SEO can move you onto page one for the money keywords that bring real organic traffic. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const ashevilleLocations = [
     metaDescription:
       'Asheville web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and years of Helene rebuilding demand.',
     eyebrow: 'Web Design · Asheville',
-    h1: 'Asheville web design that turns visitors into booked jobs',
+    h1: 'Asheville web design built to convert River Arts District clicks into calls',
     h2Exact: 'Asheville Web Design Company',
     heroSubhead:
       "A good-looking website that never rings the phone is just a brochure. We build Asheville contractors fast, mobile-first sites engineered to turn visitors into booked work, and built to hold steady when rebuilding demand floods your phone.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Asheville contractor websites bleed leads quietly: slow on a phone, a call button nobody can find, no clear offer. Web design done right closes every one of those leaks. We build sites that load fast, look like the professional you already are, and turn visitors from Montford to Hendersonville into booked jobs, sites that do not buckle when rebuilding demand sends your traffic climbing.",
+      "Asheville web design is the difference between a site that books work and one that quietly bleeds leads: slow on a phone, a call button nobody can find, no clear offer. Done right, it closes every one of those leaks. We build sites that load fast, look like the professional you already are, and turn visitors from Montford to Hendersonville into booked jobs, sites that do not buckle when rebuilding demand sends your traffic climbing.",
     aioQuestion: 'What makes a good contractor website in Asheville?',
     aioAnswer:
       "A strong Asheville contractor website loads in under three seconds on a phone, keeps the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle the steady demand from the Helene rebuild. Because most Asheville searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const ashevilleLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage yourself, usually WordPress or Webflow. We will recommend the right fit in your free consult and explain the tradeoffs in plain language." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Asheville site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Asheville site should include, and a fixed-price quote with a timeline. It shows you exactly what Asheville web design built fast and mobile-first can do to convert more visitors into booked jobs. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const ashevilleLocations = [
     citySlug: 'asheville', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Asheville Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Asheville website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and handle the rebuild.',
+      'Asheville Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and handle the rebuild.',
     eyebrow: 'Website Redesign · Asheville',
-    h1: 'Redesign your Asheville website without losing your rankings',
+    h1: 'Asheville Website Redesign that keeps every ranking you earned through the Helene rebuild',
     h2Exact: 'Asheville Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, awkward on a phone, easy to scroll past. We redesign Asheville contractor sites to convert more and load faster, and we migrate with care so you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail one of two ways: the site looks better but converts no differently, or it launches and the rankings disappear overnight. We do neither. We redesign Asheville contractor sites for speed and conversions, build them to absorb years of Helene rebuild demand, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "An Asheville website redesign fails one of two ways: the site looks better but converts no differently, or it launches and the rankings disappear overnight. We do neither. We redesign Asheville contractor sites for speed and conversions, build them to absorb years of Helene rebuild demand, and handle an SEO-safe migration with the redirects that protect the traffic you already have, so you rebuild without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const ashevilleLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It is the simplest way to see how an Asheville Website Redesign can rebuild your site mobile-first and faster without losing the rankings you have already earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const ashevilleCity = {
 
   titleTag: 'Asheville Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Asheville contractors. Get found, get booked, and own your leads instead of renting them, built for the Helene rebuild.',
+    'Asheville marketing for contractors: web design, SEO, and local SEO that get you found and booked, and own your leads instead of renting them, built for the Helene rebuild.',
 
   eyebrow: 'Asheville · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Asheville contractors found and booked',
+  h1: 'Asheville marketing for contractors: get ranked across the mountain communities, get booked',
   h2Exact: 'Asheville Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Asheville's mountain market and the historic Helene rebuilding effort. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const ashevilleCity = {
   primaryCta: 'Get my free Asheville audit',
 
   intro:
-    "If you run a contracting business in Asheville, you are working in a market reshaped by Hurricane Helene: the largest rebuilding effort in the region's history, set to run for years, layered on top of a visitor and second-home economy that never really sleeps. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, so displaced families and new homeowners find you first. Here is how we help Asheville contractors do exactly that.",
+    "Asheville marketing for contractors has to reckon with a market reshaped by Hurricane Helene: the largest rebuilding effort in the region's history, set to run for years, layered on top of a visitor and second-home economy that never really sleeps. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, so displaced families and new homeowners find you first. As a digital marketing agency built around web design and SEO for Asheville contractors, here is how we help you get found and booked.",
   aioQuestion: 'How do Asheville contractors get more leads online?',
   aioAnswer:
     "Asheville contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because the Helene rebuild is driving historic, multi-year demand, the contractors who look established and are already ranking are the ones displaced and rebuilding homeowners call first.",
@@ -422,6 +422,6 @@ export const ashevilleCity = {
     { q: 'Why does Helene rebuilding matter for my marketing?', a: "Hurricane Helene's catastrophic flooding and landslides devastated the River Arts District and mountain communities across Western NC, and the rebuild is the largest contractor demand the region has ever seen, work that will run for years. Ranking takes months to build, so the contractors already visible are the ones families call first. We get you in position to catch that demand." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Asheville areas do you serve?', a: "All of Asheville and the surrounding mountain communities: Montford, West Asheville, North Asheville, Biltmore Forest, plus Black Mountain, Weaverville, Hendersonville, Fletcher, Arden, and more." },
-    { q: 'Where should I start?', a: "Start with a free Asheville audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Asheville audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It is the simplest first step in Asheville marketing for contractors who want to get found and booked. No pitch deck, just a plan." },
   ],
 };

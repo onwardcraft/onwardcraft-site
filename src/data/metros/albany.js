@@ -111,9 +111,9 @@ export const albanyLocations = [
     citySlug: 'albany', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Albany Local SEO Company | Map Pack Wins | OnwardCraft',
     metaDescription:
-      'Search your trade in Albany and only three businesses show up on the map. We get you into those three across the Capital Region so the call rings your phone.',
+      'Albany Local SEO that puts your trade in the three businesses Google pins to the map across the Capital Region, so the call rings your phone.',
     eyebrow: 'Local SEO · Albany, NY',
-    h1: 'When the Capital Region searches for your trade, be the name on the map',
+    h1: 'Albany Local SEO that makes you the first name on the map from Center Square to Saratoga Springs',
     h2Exact: 'Albany Local SEO Company',
     heroSubhead:
       "Google pins exactly three businesses to the map on a \"near me\" search, and everyone below those three is invisible. In a metro fractured across Albany, Troy, Schenectady, and a dozen suburbs, we put you in that top three for the neighborhoods you serve, so the call rings your phone instead of a competitor's.",
@@ -167,7 +167,7 @@ export const albanyLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More 'near me' research now starts inside AI rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business, which matters a lot when Capital Region homeowners run deep research before calling a specialist contractor." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that you are month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you, and since Capital Region homeowners are educated professionals who research carefully, those owned leads tend to convert at a higher rate than shared ones anyway." },
-      { q: 'What do I get in the free audit?', a: "A clear read on where you rank today across the Capital Region, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: 'What do I get in the free audit?', a: "A clear read on where you rank today across the Capital Region, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see what Albany Local SEO can do for your phone, with no pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const albanyLocations = [
     metaDescription:
       'Albany SEO that ranks Capital Region contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in, built for old homes and hard winters.',
     eyebrow: 'SEO Services · Albany, NY',
-    h1: 'Put your Albany business at the top of Google and keep it parked there',
+    h1: 'Albany SEO that puts your Capital Region trade on page one and holds it through every season',
     h2Exact: 'Albany SEO Company',
     heroSubhead:
       "Ads die the instant you stop paying. SEO does the opposite: rank once for what Capital Region homeowners search and the leads keep arriving, including the seasonal surges that define this market. We build that ranking and tie every report to real calls and booked jobs.",
@@ -233,7 +233,7 @@ export const albanyLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "It is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, which is especially important when Capital Region homeowners research carefully before calling a specialist contractor for their 1890 brownstone." },
       { q: 'Which areas around Albany do you cover?', a: "The full Capital Region: Albany, Troy, Schenectady, Colonie, Clifton Park, Latham, Guilderland, Saratoga Springs, Malta, and their neighborhoods like Center Square, Washington Park, Helderberg, and Lark Street, with genuine local pages instead of one generic 'Albany area' page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. In Albany, where homeowners are educated professionals who research before calling, owned leads convert better than shared ones anyway, and they do not cost you a per-lead fee split with three competitors." },
-      { q: 'What is in the free SEO audit?', a: "Where you rank today across the Capital Region, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis you can act on." },
+      { q: 'What is in the free SEO audit?', a: "Where you rank today across the Capital Region, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It shows you exactly where Albany SEO can win you page one and more organic traffic. No pitch deck, just a diagnosis you can act on." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const albanyLocations = [
     metaDescription:
       'Albany web design that turns visitors into booked jobs: fast, mobile-first sites built for Capital Region contractors who serve old homes and hard winters.',
     eyebrow: 'Web Design · Albany, NY',
-    h1: 'Albany web design that turns quiet visitors into booked jobs',
+    h1: 'Albany web design that books jobs from educated Capital Region homeowners instead of just looking nice',
     h2Exact: 'Albany Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure. We build Capital Region contractors fast, mobile-first sites engineered to convert visitors into booked work and to earn the trust of educated, professional homeowners who research hard before they call.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Albany contractor websites bleed leads quietly: slow on a phone, a call button buried halfway down, and zero signal that you understand 150-year-old homes or know how to handle a nor'easter emergency. Done right, web design fixes all of it. We build sites that load fast, look like the specialist you actually are, and turn Capital Region visitors into booked jobs, whether they are state employees in Center Square, Fab 8 engineers in Clifton Park, or professors out in Guilderland.",
+      "Albany web design is the difference between a site that books jobs and one that bleeds leads quietly: slow on a phone, a call button buried halfway down, and zero signal that you understand 150-year-old homes or know how to handle a nor'easter emergency. Done right, a website fixes all of it. We are an Albany web design company that builds fast, mobile-first sites that look like the specialist you actually are and convert Capital Region visitors into booked jobs, whether they are state employees in Center Square, Fab 8 engineers in Clifton Park, or professors out in Guilderland.",
     aioQuestion: 'What makes a good contractor website in Albany?',
     aioAnswer:
       "A strong Albany contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves expertise with old homes and seasonal emergencies, and names the specific Capital Region cities and neighborhoods you serve. Because Albany's homeowner base is educated and professional (state workers, SUNY staff, GlobalFoundries engineers), trust signals like real project photos of Victorian and Federal-style homes and honest reviews carry more weight here than in most markets.",
@@ -299,7 +299,7 @@ export const albanyLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Capital Region contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Capital Region contractor site should include, and a fixed-price quote with a timeline. It is the easiest way to see what Albany web design can do for your booking calendar. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const albanyLocations = [
     citySlug: 'albany', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Albany Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Albany website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in the Capital Region.',
+      'Albany Website Redesign that rebuilds your site without losing rankings. Faster, mobile-first rebuilds that convert more Capital Region visitors into booked jobs.',
     eyebrow: 'Website Redesign · Albany, NY',
-    h1: 'Redesign your Albany website without losing your rankings',
+    h1: 'Albany Website Redesign that rebuilds for leads across the Capital Region, not just looks',
     h2Exact: 'Albany Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, and missing the specialist trust signals that educated Capital Region homeowners need to see before they call. We redesign Albany contractor sites to convert more and load faster, and we migrate carefully so you keep every ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Capital Region contractor sites for speed and conversions, build them to speak to the educated professional homeowners who dominate this market, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Albany Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Capital Region contractor sites for speed and conversions, build them to speak to the educated professional homeowners who dominate this market, and handle an SEO-safe migration with the redirects that protect the traffic you already have, so you rebuild without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them — because the new site is faster, mobile-first, and better structured than the old one. In a market like Albany where homeowners research carefully, a modern, credible site also converts those visits at a higher rate.",
@@ -365,7 +365,7 @@ export const albanyLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings — and makes sure you capture emergency calls from homeowners on a phone in the middle of a storm." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings across the Capital Region, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings across the Capital Region, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It shows you exactly what an Albany Website Redesign can win back for your business." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const albanyCity = {
 
   titleTag: 'Albany Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Albany and Capital Region contractors. Get found, get booked, and own your leads instead of renting them — built for old.',
+    'Albany marketing for contractors: web design, SEO, and local SEO that get Capital Region trades found, booked, and owning their leads instead of renting them.',
 
   eyebrow: 'Albany · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Capital Region contractors found and booked',
+  h1: 'Albany marketing for contractors who want to own their leads across the Capital Region',
   h2Exact: 'Albany Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Albany's old housing stock, nor'easter winters, and stable government-professional homeowner base. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const albanyCity = {
   primaryCta: 'Get my free Albany audit',
 
   intro:
-    "If you run a contracting business in the Capital Region, you're navigating a genuinely complex market: Albany, Troy, Schenectady, and a ring of suburbs each with their own character; some of the oldest housing stock outside New England demanding specialist expertise; winters that drive nor'easter emergencies, ice dams, and heating calls from November through March; and a homeowner base of state workers, university staff, Albany Med physicians, and GlobalFoundries engineers who research carefully before they call. Winning here takes three things working together: a site that earns trust and converts, SEO that ranks you for what this market actually searches, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here's how we help Capital Region contractors do exactly that.",
+    "Albany marketing for contractors has to reckon with a genuinely complex market. If you run a contracting business in the Capital Region, you're up against Albany, Troy, Schenectady, and a ring of suburbs each with their own character; some of the oldest housing stock outside New England demanding specialist expertise; winters that drive nor'easter emergencies, ice dams, and heating calls from November through March; and a homeowner base of state workers, university staff, Albany Med physicians, and GlobalFoundries engineers who research carefully before they call. Winning here takes three things working together: a site that earns trust and converts, SEO that ranks you for what this market actually searches, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here's how we help Capital Region contractors do exactly that.",
   aioQuestion: 'How do Albany contractors get more leads online?',
   aioAnswer:
     "Albany contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches — including specialist old-home and seasonal emergency terms — and local SEO that wins the Google Map Pack across Albany, Troy, Schenectady, and their suburbs. Because the homeowner base skews educated and professional, trust signals like real project photos, genuine reviews, and content that demonstrates old-home expertise convert at higher rates than generic contractor pages.",
@@ -422,6 +422,6 @@ export const albanyCity = {
     { q: 'Why does the Capital Region need a different approach?', a: "The metro is fragmented across Albany, Troy, Schenectady, and a ring of suburbs — each with its own identity and homeowner character. The housing stock is among the oldest outside New England, creating demand for specialist contractors that generic SEO misses entirely. And seasonal demand here — nor'easters, spring flooding, summer HVAC — is more dramatic than most markets. Winning means targeting tight and ranking before each season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Capital Region areas do you serve?', a: "The full metro: Albany, Troy, Schenectady, Colonie, Clifton Park, Latham, Guilderland, Saratoga Springs, Malta, Cohoes, Watervliet, Bethlehem, and their neighborhoods — Center Square, Washington Park, Helderberg, Lark Street, and more — with genuine local pages rather than one generic 'Capital Region' page." },
-    { q: 'Where should I start?', a: "Start with a free Albany audit. We'll look at your website, your rankings, and your Map Pack presence across the Capital Region, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Albany audit. We'll look at your website, your rankings, and your Map Pack presence across the Capital Region, then tell you the one or two moves that will bring in the most work fastest. It is the simplest first step into Albany marketing for contractors who want to get found and booked. No pitch deck, just a plan." },
   ],
 };

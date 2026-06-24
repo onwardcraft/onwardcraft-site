@@ -111,9 +111,9 @@ export const anaheimLocations = [
     citySlug: 'anaheim', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Anaheim Local SEO Company | Win the Map Pack',
     metaDescription:
-      'When Anaheim searches your trade, three businesses pin to the map. We put you in those three so the call lands with you, in English and Spanish.',
+      'Anaheim Local SEO that pins your business to the map. When Anaheim searches your trade, we put you in the top three, in English and Spanish.',
     eyebrow: 'Local SEO · Anaheim-Orange County',
-    h1: 'When Anaheim searches for your trade, be the first name on the map',
+    h1: 'Anaheim Local SEO that ranks you above the competition in English and Spanish across Anaheim Hills',
     h2Exact: 'Anaheim Local SEO Company',
     heroSubhead:
       "Google drops three businesses on the map for a \"near me\" search, and everyone underneath them might as well not exist. We get you into that top three so the call rings your phone instead of whoever happened to rank first, in English and in Spanish, where most of your competitors have not even shown up.",
@@ -125,7 +125,7 @@ export const anaheimLocations = [
       "You win local search by nailing four things: a Google Business Profile tuned to the exact services and neighborhoods you want, name, address, and phone details that match everywhere on the web, a steady drip of real reviews, and local content tied to genuine Orange County neighborhoods. Because Anaheim is affluent and roughly 54% Hispanic, the businesses that pull ahead look polished, reply fast, and scoop up the Spanish-language searches their competitors leave on the table.",
     problemHeading: "If your phone is too quiet, it is usually one of these three",
     painPoints: [
-      { title: 'Your competitors own the three map spots', body: "Type your own service plus \"near me\" right now. The three businesses Google pins to the map collect the lion's share of the clicks, full stop. If your name is not up there, the quality of your work barely registers because most people never lay eyes on you. For an Anaheim contractor, breaking into that top three is usually the single move with the biggest payoff." },
+      { title: 'Your competitors own the three map spots', body: "Type your own service plus \"near me\" right now. The three businesses Google pins to the map collect the lion's share of the clicks, full stop. If your name is not up there, the quality of your work barely registers because most people never lay eyes on you. For an Anaheim contractor, breaking into that top three is usually the single move with the biggest payoff, and it is exactly what our local SEO services are built to do." },
       { title: "You are paying for leads that were never yours", body: "Angi, Thumbtack, and HomeAdvisor sell the same Orange County homeowner to four contractors, then charge each of you to brawl over the scraps. That is a treadmill, not a pipeline. Local SEO builds the opposite: the homeowner finds you, calls you, and no rival got a copy. Slowly you stop renting and start owning." },
       { title: "Half your market cannot find you", body: "Anaheim runs about 54% Hispanic, with a large Vietnamese community right next door in Little Saigon, and almost none of your competitors rank in Spanish. That is open road. We help you surface for the searches your rivals do not even realize they are forfeiting, putting you in front of homeowners nobody else is reaching." },
     ],
@@ -167,7 +167,7 @@ export const anaheimLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research now starts inside AI rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you leave, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never get to keep. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less because the work is already coming to you directly." },
-      { q: "What is in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to outrank you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your specific business. No pitch deck, just a straight diagnosis." },
+      { q: "What is in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to outrank you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your specific business. No pitch deck, just a straight diagnosis of what your Anaheim Local SEO needs to climb into the local 3-pack and rank on the map." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const anaheimLocations = [
     metaDescription:
       'Anaheim SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in, built around Orange County seasonal demand.',
     eyebrow: 'SEO Services · Anaheim-Orange County',
-    h1: 'Get your Anaheim business to the top of Google and keep it parked there',
+    h1: 'Anaheim SEO that climbs you past the competition on Google across Orange County',
     h2Exact: 'Anaheim SEO Company',
     heroSubhead:
       "Ads die the moment your card stops. SEO does the reverse: rank once for what your Anaheim customers search and the leads keep showing up. We build that ranking and tie every report to real calls and booked jobs, not vanity traffic.",
@@ -191,7 +191,7 @@ export const anaheimLocations = [
       "They rank by repairing the technical foundation of the site, tuning each page to the exact terms customers type, publishing genuinely useful local content, and earning links from trusted Orange County sources. In an affluent, competitive market that runs over half Hispanic, ranking in both English and Spanish and for wildfire- and heat-driven seasonal terms are two of the fastest ways to pull ahead of the pack.",
     problemHeading: "Three reasons your Anaheim site is not bringing in work",
     painPoints: [
-      { title: "You are stranded on page two", body: "Almost nobody clicks past the first page of Google, and they rarely scroll deep into it. If you are not among the top handful of results for what you sell, your site is effectively invisible, no matter how slick it looks." },
+      { title: "You are stranded on page two", body: "Almost nobody clicks past the first page of Google, and they rarely scroll deep into it. If you are not among the top handful of results for what you sell, your site is effectively invisible, no matter how slick it looks. As an Anaheim SEO company that works only with contractors, getting you ranked for those money keywords is the whole job." },
       { title: "You are renting traffic from Google Ads", body: "Ads can work, but the second your card stops the leads stop with it. SEO builds an asset you own: rankings that keep producing leads months and years after the work is done, at a fraction of the cost per lead." },
       { title: "You are missing the demand that actually matters", body: "Orange County demand swings hard with the calendar: Santa Ana winds and wildfire risk in the fall, HVAC heat through the summer, and the contractors who rank for those terms ahead of time catch the wave. If your SEO skips fire-driven, seasonal, and Spanish-language searches, you are handing away your busiest months." },
     ],
@@ -233,7 +233,7 @@ export const anaheimLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing slice of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search results." },
       { q: 'Which areas around Anaheim do you cover?', a: "All of Anaheim and the surrounding Orange County areas: Anaheim Hills, Yorba Linda, Orange, Fullerton, Placentia, Brea, Garden Grove, Westminster, and more, with genuine local pages rather than one generic Anaheim page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. The more you own your search visibility, the less you depend on paying brokers for leads they already sold to three competitors." },
-      { q: 'What is in the free SEO audit?', a: "Where you rank today, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: 'What is in the free SEO audit?', a: "Where you rank today, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a straight diagnosis of what your Anaheim SEO needs to reach page one and pull in organic traffic that actually calls." },
     ],
   },
 
@@ -245,19 +245,19 @@ export const anaheimLocations = [
     metaDescription:
       'Anaheim web design that turns visitors into booked jobs: fast, mobile-first, bilingual-ready sites built for Orange County contractors and OC standards.',
     eyebrow: 'Web Design · Anaheim-Orange County',
-    h1: 'Anaheim web design that turns visitors into booked jobs',
+    h1: 'Anaheim web design that loads fast and books more jobs in English and Spanish',
     h2Exact: 'Anaheim Web Design Company',
     heroSubhead:
       "A pretty website that never rings the phone is just a brochure. We build Anaheim contractors fast, mobile-first sites engineered to turn visitors into booked work, polished enough for Orange County's standards and ready to convert in English and Spanish.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Anaheim contractor websites bleed leads quietly: sluggish on a phone, a call button buried three scrolls down, no clear offer, English-only in a market that runs over half Hispanic. Web design done right shuts every one of those leaks. We build sites that load fast, look as polished as affluent Orange County homeowners expect, and turn Anaheim-Hills-to-West-Anaheim visitors into booked jobs.",
+      "Anaheim web design comes down to one test: does the site book jobs or just sit there? Most Anaheim contractor websites bleed leads quietly: sluggish on a phone, a call button buried three scrolls down, no clear offer, English-only in a market that runs over half Hispanic. Web design done right shuts every one of those leaks. We build sites that load fast, look as polished as affluent Orange County homeowners expect, and turn Anaheim-Hills-to-West-Anaheim visitors into booked jobs.",
     aioQuestion: 'What makes a good contractor website in Anaheim?',
     aioAnswer:
       "A good Anaheim contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and looks polished enough for Orange County's affluent, high-standards homeowners. Because Anaheim runs over half Hispanic and most searches happen on mobile, a bilingual-ready, fast, mobile-first build is what separates a site that books jobs from one that just sits there.",
     problemHeading: "Why your current site is not bringing in work",
     painPoints: [
-      { title: "It is a brochure, not a lead engine", body: "Plenty of contractor sites simply list services and stop there. No clear offer, no obvious next step, no reason to call you over the next guy. We design every page around one job: turning a visitor into a booked lead." },
+      { title: "It is a brochure, not a lead engine", body: "Plenty of contractor sites simply list services and stop there. No clear offer, no obvious next step, no reason to call you over the next guy. As an Anaheim web design company, we design every page around one job: turning a visitor into a booked lead." },
       { title: "It is too slow on a phone", body: "Most of your Anaheim visitors are on mobile, and they bounce if the site takes more than a few seconds to appear. Slow sites also rank worse. We build fast, so you keep the visitor and the ranking both." },
       { title: "It does not look the part, or speak the language", body: "In an affluent market like Orange County, homeowners protecting a big investment size you up by your site within seconds, and a dated look quietly waves them toward someone else. Worse, an English-only site shrugs off the 54% of Anaheim that is Hispanic. We build polished, bilingual-ready sites that earn trust across the entire market." },
     ],
@@ -299,7 +299,7 @@ export const anaheimLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually run yourself, usually WordPress or Webflow. We will recommend the right fit in your free consult and walk you through the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Anaheim site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Anaheim site should include, and a fixed-price quote with a timeline. No pressure, just a plan for the Anaheim web design that converts visitors into booked jobs." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const anaheimLocations = [
     citySlug: 'anaheim', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Anaheim Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Anaheim website without losing rankings. Faster, mobile-first, bilingual-ready rebuilds that convert more Orange County visitors into jobs.',
+      'Anaheim Website Redesign without losing rankings. Faster, mobile-first, bilingual-ready rebuilds that convert more Orange County visitors into jobs.',
     eyebrow: 'Website Redesign · Anaheim-Orange County',
-    h1: 'Redesign your Anaheim website without surrendering your rankings',
+    h1: 'Anaheim Website Redesign done with a careful, SEO-safe Orange County migration',
     h2Exact: 'Anaheim Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, awkward on a phone, easy to scroll past, and invisible to half of Anaheim. We redesign Orange County contractor sites to convert more and load faster, then migrate with care so you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go wrong one of two ways: the site looks better but converts the same, or it launches and the rankings evaporate overnight. We do neither. We redesign Anaheim contractor sites for speed and conversions, make them polished and bilingual-ready for Orange County's market, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "An Anaheim Website Redesign goes wrong one of two ways: the site looks better but converts the same, or it launches and the rankings evaporate overnight. We do neither. We redesign Anaheim contractor sites for speed and conversions, make them polished and bilingual-ready for Orange County's market, and migrate with the redirects and SEO care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and lifts them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const anaheimLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: 'What is in the free redesign audit?', a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: 'What is in the free redesign audit?', a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and an SEO-safe migration plan, so your Anaheim Website Redesign rebuilds the site without losing rankings." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const anaheimCity = {
 
   titleTag: 'Anaheim Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Anaheim contractors. Get found, get booked, and own your leads instead of renting them, bilingual-ready for Orange County.',
+    'Anaheim marketing for contractors: web design, SEO, and local SEO. Get found, get booked, and own your leads instead of renting them, bilingual-ready for Orange County.',
 
   eyebrow: 'Anaheim · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Anaheim contractors found and booked',
+  h1: 'Anaheim marketing for contractors that fills your calendar across Orange County',
   h2Exact: 'Anaheim Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Orange County's affluent, bilingual market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const anaheimCity = {
   primaryCta: 'Get my free Anaheim audit',
 
   intro:
-    "If you run a contracting business in Anaheim, you are fighting for attention in the largest city in Orange County, one of the most affluent home markets in the country and a market that runs over half Hispanic. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all polished enough for OC standards and built to reach homeowners in both languages. Here is how we help Anaheim contractors do precisely that.",
+    "Anaheim marketing for contractors comes down to one outcome: getting found and booked in the largest city in Orange County, one of the most affluent home markets in the country and a market that runs over half Hispanic. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all polished enough for OC standards and built to reach homeowners in both languages. As a digital marketing agency built for Anaheim contractors, here is how we help you do precisely that.",
   aioQuestion: 'How do Anaheim contractors get more leads online?',
   aioAnswer:
     "Anaheim contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Anaheim is affluent and roughly 54% Hispanic, the contractors who look polished, rank in both English and Spanish, and are already visible before seasonal demand spikes win the most work.",
@@ -422,6 +422,6 @@ export const anaheimCity = {
     { q: 'Why does bilingual marketing matter in Anaheim?', a: "Anaheim runs roughly 54% Hispanic, with a large Vietnamese community nearby in Little Saigon, and almost none of your competitors market in Spanish. That makes Spanish-language search and bilingual websites one of the cheapest, biggest edges available: you reach homeowners nobody else is even talking to." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Anaheim areas do you serve?', a: "All of Anaheim and the surrounding Orange County areas: Anaheim Hills, Yorba Linda, West Anaheim, Orange, Fullerton, Placentia, Brea, Garden Grove, Westminster, Santa Ana, and more." },
-    { q: 'Where should I start?', a: "Start with a free Anaheim audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Anaheim audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan for Anaheim marketing for contractors that gets you found and booked." },
   ],
 };

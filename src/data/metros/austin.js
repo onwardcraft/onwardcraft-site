@@ -111,9 +111,9 @@ export const austinLocations = [
     citySlug: 'austin', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Austin Local SEO Company | Win the Map Pack',
     metaDescription:
-      'Search your service in Austin and three businesses appear on the map. We get you into those three so the call rings your phone, not a competitor down the road.',
+      'Austin Local SEO that gets you into the three businesses on the map, so the call rings your phone, not a competitor down the road.',
     eyebrow: 'Local SEO · Austin, TX',
-    h1: 'When Austin searches for what you do, be the first name they find',
+    h1: 'Austin Local SEO that puts your business in the Map Pack from Hyde Park to Round Rock',
     h2Exact: 'Austin Local SEO Company',
     heroSubhead:
       "Google pins exactly three businesses to the map when someone types \"near me.\" Everyone beneath them is basically invisible. In a metro filling up this fast, with thousands of new homeowners who cannot name a single local contractor yet, we land you in that top three for your neighborhoods so the call rings your phone instead of whoever happened to rank first.",
@@ -167,7 +167,7 @@ export const austinLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research now starts inside AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to post real movement. After that you are month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never get to keep. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less because the work is already showing up on its own." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your Austin neighborhoods, what your Map Pack competitors are doing to stay ahead of you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank on the map today across your Austin neighborhoods, what your Map Pack competitors are doing to stay ahead of you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. Austin Local SEO is the highest-return move most local contractors can make, so the audit ends with a straight diagnosis, not a pitch deck." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const austinLocations = [
     metaDescription:
       'Austin SEO that ranks contractors on Google and delivers leads you own. Reporting tied to revenue, no lock-in contracts, and built for a fast-growing market.',
     eyebrow: 'SEO Services · Austin, TX',
-    h1: 'Get your Austin business to the top of Google and keep it there',
+    h1: 'Austin SEO that gets you to the top of Google for the city\'s tech-transplant wave and keeps you there',
     h2Exact: 'Austin SEO Company',
     heroSubhead:
       "Ads die the second you stop feeding them. SEO does the opposite: rank once for what your Austin customers search and the leads keep showing up. We build that ranking for contractors in one of the fastest-growing cities in the country, and we tie every report to real calls and booked jobs.",
@@ -233,7 +233,7 @@ export const austinLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not only classic search." },
       { q: 'Which areas around Austin do you cover?', a: "All of greater Austin and the surrounding suburbs: Hyde Park, South Congress, East Austin, Mueller, the Domain, Westlake, plus Round Rock, Cedar Park, Pflugerville, Kyle, Georgetown, Leander, and Manor, all with genuine local pages rather than one generic Austin page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. The more you own your search visibility, the less you depend on paying brokers for leads three other contractors already bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. The goal of our Austin SEO work is plain: more organic traffic on page one for the money keywords that book jobs. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const austinLocations = [
     metaDescription:
       'Austin web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in a booming market. Transparent pricing, and you own it.',
     eyebrow: 'Web Design · Austin, TX',
-    h1: 'Austin web design that turns visitors into booked jobs',
+    h1: 'Austin web design that turns East Austin and Mueller visitors into booked jobs',
     h2Exact: 'Austin Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure. We build Austin contractors fast, mobile-first sites engineered to convert visitors into booked work, and to stand out in a city where thousands of new homeowners are hunting for a contractor they can trust.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Austin contractor websites bleed leads quietly: slow on a phone, a call button nobody can find, no clear offer. Web design done right plugs every one of those holes. We build sites that load fast, look like the pro you already are, and turn Hyde-Park-to-Round-Rock visitors into booked jobs, all engineered to win in a market where Austin's tech-transplant wave is searching for someone exactly like you.",
+      "Austin web design is the difference between a contractor website that bleeds leads quietly, slow on a phone, a call button nobody can find, no clear offer, and one that books work. Website design done right plugs every one of those holes. We build fast-loading, mobile-first sites that look like the pro you already are and turn Hyde-Park-to-Round-Rock visitors into booked jobs, all engineered to win in a market where Austin's tech-transplant wave is searching for someone exactly like you.",
     aioQuestion: 'What makes a good contractor website in Austin?',
     aioAnswer:
       "A strong Austin contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific neighborhoods and suburbs you serve. Because Austin homeowners, especially the tech transplants who moved in from out of state, run almost everything from their phones and have no contractor on call, a fast site with one obvious next step is what separates a business that books jobs from one that merely looks nice.",
@@ -299,7 +299,7 @@ export const austinLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually run yourself, usually WordPress or Webflow. We will recommend the right fit in your free consult and explain the tradeoffs in plain terms." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and after that we offer affordable monthly maintenance for updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Austin site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Austin site should include, and a fixed-price quote with a timeline. Good Austin web design converts visitors into booked jobs, so the quote spells out exactly how we get you there. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const austinLocations = [
     citySlug: 'austin', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Austin Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Austin website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a booming market. Free audit.',
+      'Austin Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in a booming market. Free audit.',
     eyebrow: 'Website Redesign · Austin, TX',
-    h1: 'Redesign your Austin website without losing your rankings',
+    h1: 'Austin Website Redesign that converts more without losing the rankings you earned in a booming market',
     h2Exact: 'Austin Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy to skip. We redesign Austin contractor sites to convert more and load faster, and we migrate with enough care that you keep every bit of ranking you have earned in a market that keeps growing.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail one of two ways: the site looks sharper but converts the same, or it launches and the rankings evaporate overnight. We do neither. We redesign Austin contractor sites for speed and conversions, build them to stand out in a city where new homeowners are actively searching for someone to trust, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "Most Austin Website Redesign projects fail one of two ways: the site looks sharper but converts the same, or it launches and the rankings evaporate overnight. We do neither. We rebuild Austin contractor sites for speed and conversions, build them to stand out in a city where new homeowners are actively searching for someone to trust, and handle an SEO-safe migration with the redirects and care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const austinLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely. The site, the domain, and the content are yours. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline. Every Austin Website Redesign we run pairs a mobile-first rebuild with an SEO-safe migration plan, so you gain conversions without losing rankings." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const austinCity = {
 
   titleTag: 'Austin Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Austin contractors. Get found, get booked, and own your leads instead of renting them, all built for a fast-growing Texas.',
+    'Austin marketing for contractors: web design, SEO, and local SEO that get you found and booked and own your leads instead of renting them, built for a fast-growing Texas.',
 
   eyebrow: 'Austin · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Austin contractors found and booked',
+  h1: 'Austin marketing for contractors that gets you found and booked before the new-homeowner wave passes',
   h2Exact: 'Austin Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Austin's booming, crowded market. One team to get you ranking, converting, and off the rented-lead treadmill, before the window closes.",
@@ -386,7 +386,7 @@ export const austinCity = {
   primaryCta: 'Get my free Austin audit',
 
   intro:
-    "Run a contracting business in Austin and you are fighting for attention in one of the fastest-growing markets in the country, with more competitors arriving by the month. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that lands you in the Map Pack for the neighborhoods you serve. Get all three right and you catch the wave of new homeowners searching this minute. Get any one of them wrong and you hand that demand to whoever ranks above you.",
+    "Austin marketing for contractors means fighting for attention in one of the fastest-growing markets in the country, with more competitors arriving by the month. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that lands you in the Map Pack for the neighborhoods you serve. Get all three right and you catch the wave of new homeowners searching this minute. Get any one of them wrong and you hand that demand to whoever ranks above you.",
   aioQuestion: 'How do Austin contractors get more leads online?',
   aioAnswer:
     "Austin contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. Austin's wave of tech transplants, new homeowners with no contractor on call, searches online for everything, so the contractors who rank in local search and convert visitors on mobile are the ones who capture that demand.",
@@ -422,6 +422,6 @@ export const austinCity = {
     { q: 'Why does the Austin market need a different approach?', a: "Austin has gained hundreds of thousands of residents in the past decade, many of them tech transplants buying their first house in Texas. They have no contractor on call and search online for everything. The contractors who rank now, while the market is still sorting itself out, capture a compounding wave of demand. On top of that, Austin summers turn severe enough that HVAC work spikes almost overnight, and spring storms set off a recurring restoration rush that rewards whoever is already ranking." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Austin areas do you serve?', a: "All of greater Austin and the surrounding suburbs: Hyde Park, South Congress, Barton Hills, East Austin, Travis Heights, Bouldin Creek, Mueller, the Domain, Westlake, Cedar Park, Round Rock, Pflugerville, Kyle, Georgetown, and Leander." },
-    { q: 'Where should I start?', a: "Start with a free Austin audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Austin audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. Austin marketing for contractors works best when web design and SEO pull together, and that is exactly what the audit maps out. No pitch deck, just a plan." },
   ],
 };

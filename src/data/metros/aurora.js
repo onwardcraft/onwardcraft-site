@@ -111,9 +111,9 @@ export const auroraLocations = [
     citySlug: 'aurora', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Aurora Local SEO Company | Win the Map Pack',
     metaDescription:
-      'Search your trade in Aurora and three businesses pin to the map. We get you into those three so the call rings your phone, not a competitor down the road.',
+      'Aurora Local SEO that puts you in the three businesses Google pins to the map, so the call rings your phone, not a competitor down the road.',
     eyebrow: 'Local SEO · Aurora, CO',
-    h1: 'When Aurora searches for what you do, be the name on top',
+    h1: 'Aurora Local SEO that ranks you above the competition before the next hail storm',
     h2Exact: 'Aurora Local SEO Company',
     heroSubhead:
       "Google pins exactly three businesses to the map on a \"near me\" search, and everyone underneath them might as well be invisible. We muscle you into that top three so the call lands with you instead of whoever happened to rank first, and so your phone is ready the morning a hail storm fills everyone else's.",
@@ -167,7 +167,7 @@ export const auroraLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research now starts inside AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. In Aurora it is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days, because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never get to keep. We build rankings, a Google profile, and a review base that route leads straight to you. Month by month you lean on the brokers less, because the work is already coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see what Aurora Local SEO can actually do for your phone. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const auroraLocations = [
     metaDescription:
       'Aurora SEO that ranks contractors on Google and delivers leads you own. Reporting tied to revenue, no lock-in contracts, built for hail-season demand.',
     eyebrow: 'SEO Services · Aurora, CO',
-    h1: 'Get your Aurora business to the top of Google and stay there',
+    h1: 'Aurora SEO that climbs you past the Front Range competition on Google',
     h2Exact: 'Aurora SEO Company',
     heroSubhead:
       "Ads die the second you stop feeding them. SEO does the opposite: rank once for what your Aurora customers search and the leads keep arriving long after. We build that ranking and pin every report to real calls and booked jobs.",
@@ -233,7 +233,7 @@ export const auroraLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search results." },
       { q: 'Which areas around Aurora do you cover?', a: "All of Aurora and the surrounding areas: Southlands, Saddle Rock, Murphy Creek, Original Aurora, Centennial, Parker, Green Valley Ranch and more, with genuine local pages rather than one generic Aurora page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for leads three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It shows exactly where Aurora SEO can move you onto page one and grow the organic traffic that turns into booked work. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const auroraLocations = [
     metaDescription:
       'Aurora web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and ready for hail-season demand spikes.',
     eyebrow: 'Web Design · Aurora, CO',
-    h1: 'Aurora web design that turns visitors into booked jobs',
+    h1: 'Aurora web design that loads fast and books more jobs when hail season hits',
     h2Exact: 'Aurora Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure. We build Aurora contractors fast, mobile-first sites engineered to convert visitors into booked work, and to stay standing when hail season floods your line.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Aurora contractor websites bleed leads in silence: slow on a phone, the call button buried, no clear offer, and no path for the big share of homeowners who would rather read in Spanish. Done right, web design fixes every one of those leaks. We build sites that load fast, look like the pro you already are, and turn Southlands-to-Original-Aurora visitors into booked jobs, sites that do not fold the moment a hail storm sends your traffic vertical.",
+      "Aurora web design lives or dies on one thing: whether the site turns visitors into booked jobs. Most Aurora contractor websites bleed leads in silence instead: slow on a phone, the call button buried, no clear offer, and no path for the big share of homeowners who would rather read in Spanish. Done right, web design fixes every one of those leaks. We build sites that load fast, look like the pro you already are, and turn Southlands-to-Original-Aurora visitors into booked jobs, sites that do not fold the moment a hail storm sends your traffic vertical.",
     aioQuestion: 'What makes a good contractor website in Aurora?',
     aioAnswer:
       "A good Aurora contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to absorb traffic spikes during hail season. Because most Aurora searches happen on mobile and the city is highly diverse, mobile speed, an obvious next step, and often a second-language option separate a site that books jobs from one that simply sits there.",
@@ -299,7 +299,7 @@ export const auroraLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage yourself, usually WordPress or Webflow. We will recommend the right fit in your free consult and explain the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, and you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Aurora site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Aurora site should include, and a fixed-price quote with a timeline. It is the simplest way to see what Aurora web design can do for your booked-job numbers. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const auroraLocations = [
     citySlug: 'aurora', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Aurora Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Aurora website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season.',
+      'Aurora Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season.',
     eyebrow: 'Website Redesign · Aurora, CO',
-    h1: 'Redesign your Aurora website without losing your rankings',
+    h1: 'Aurora Website Redesign done with a careful, SEO-safe migration that survives hail season',
     h2Exact: 'Aurora Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy to scroll past. We redesign Aurora contractor sites to convert more and load faster, and we migrate with such care that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks sharper but converts exactly the same, or it launches and the rankings evaporate overnight. We refuse both. We redesign Aurora contractor sites for speed and conversions, build them to absorb hail-season traffic, and migrate with the redirects and SEO care that protect the traffic you already fought to earn.",
+      "An Aurora Website Redesign goes one of two bad ways for most contractors: the site looks sharper but converts exactly the same, or it launches and the rankings evaporate overnight. We refuse both. We redesign Aurora contractor sites for speed and conversions, build them to absorb hail-season traffic, and handle the SEO-safe migration with the redirects and care that protect the traffic you already fought to earn, all without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const auroraLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in, no leverage held over you." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It shows plainly whether an Aurora Website Redesign is worth it for your business." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const auroraCity = {
 
   titleTag: 'Aurora Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Aurora contractors. Get found, get booked, and own your leads instead of renting them, built for hail-season demand.',
+    'Aurora marketing for contractors: web design, SEO, and local SEO that get you found and booked, and let you own your leads instead of renting them.',
 
   eyebrow: 'Aurora · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Aurora contractors found and booked',
+  h1: 'Aurora marketing for contractors that fills your calendar after every hail storm',
   h2Exact: 'Aurora Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Aurora's diverse, hail-driven market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const auroraCity = {
   primaryCta: 'Get my free Aurora audit',
 
   intro:
-    "If you run a contracting business in Aurora, you are scrapping for attention in Colorado's third-largest and most diverse city, and the field gets more crowded every year. Winning here takes three things working in concert: a site that converts, SEO that ranks you for what people actually search, and local SEO that drops you into the Map Pack, all of it set before the next hail storm sends demand through the roof. Here is how we help Aurora contractors pull that off.",
+    "Aurora marketing for contractors comes down to getting found and booked while you are scrapping for attention in Colorado's third-largest and most diverse city, where the field gets more crowded every year. Winning here takes three things working in concert: a site that converts, SEO that ranks you for what people actually search, and local SEO that drops you into the Map Pack, all of it set before the next hail storm sends demand through the roof. Here is how our web design and SEO for Aurora contractors pull that off.",
   aioQuestion: 'How do Aurora contractors get more leads online?',
   aioAnswer:
     "Aurora contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Aurora is highly diverse and demand spikes hard during hail season, the contractors who look established, serve customers in more than one language, and are already ranking before the storm win the most work.",
@@ -422,6 +422,6 @@ export const auroraCity = {
     { q: 'Why does hail season matter for my marketing?', a: "Aurora and the Denver metro sit in the most damaging hail corridor in the country. When a big storm rolls through, demand for roofing, restoration, and HVAC spikes overnight and the backlog can run a full year. Ranking takes months to build, so the contractors already visible before the storm take that work. We get you in place ahead of season." },
     { q: 'Can you market my business in Spanish?', a: "Yes. Aurora is the most diverse city in Colorado, with large Hispanic, Ethiopian, Korean, and East African communities, and a big share of homeowners search in Spanish or another language. We can build Spanish-language and multilingual pages so you reach buyers most agencies overlook." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
-    { q: 'Which Aurora areas do you serve?', a: "All of Aurora and the surrounding areas: Southlands, Saddle Rock, Murphy Creek, Tallyn's Reach, Original Aurora, Heather Gardens, Centennial, Parker, Green Valley Ranch and more." },
+    { q: 'Which Aurora areas do you serve?', a: "All of Aurora and the surrounding areas: Southlands, Saddle Rock, Murphy Creek, Tallyn's Reach, Original Aurora, Heather Gardens, Centennial, Parker, Green Valley Ranch and more. Wherever you work, our Aurora marketing for contractors is built to get you found and booked there." },
   ],
 };

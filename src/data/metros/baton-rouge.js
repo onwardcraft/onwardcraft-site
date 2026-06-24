@@ -111,9 +111,9 @@ export const batonRougeLocations = [
     citySlug: 'baton-rouge', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Baton Rouge Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your trade in Baton Rouge and three businesses pin to the map. We put you in those three before hurricane season floods the phones.',
+      'Baton Rouge Local SEO that puts you in the Google Map Pack: be one of the three businesses pinned to the map before hurricane season floods the phones.',
     eyebrow: 'Local SEO · Baton Rouge, LA',
-    h1: 'When Baton Rouge searches for your trade, be the first name on the map',
+    h1: 'Baton Rouge Local SEO that gets you found when storm-hit neighbors search your trade',
     h2Exact: 'Baton Rouge Local SEO Company',
     heroSubhead:
       "Google pins exactly three businesses to the map on a \"near me\" search. Everyone underneath is basically invisible. In a market ruled by storm cycles and Gulf-coast humidity, we get you into that top three before the next system forms, so the call lands on you instead of whoever happened to rank first.",
@@ -167,7 +167,7 @@ export const batonRougeLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts in AI tools instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. In a storm market where homeowners are searching fast and rattled, showing up in every channel matters." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. In a storm market, per-lead prices spike after every event and you are still competing with three other crews for the same job. We build the rankings, the Google profile, and the review base that send leads straight to you. Over time you lean on brokers less because the work is already coming to your door." },
-      { q: "What is in the free audit?", a: "A clear read on where you rank today across your service area, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest before storm season, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What is in the free audit?", a: "A clear read on where you rank today across your service area, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest before storm season, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis from a Baton Rouge Local SEO company that wants to rank you on the map and keep you there." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const batonRougeLocations = [
     metaDescription:
       'Baton Rouge SEO that ranks contractors on Google and delivers leads you own. Storm-season ready, lead-tied reporting, and no lock-in contracts.',
     eyebrow: 'SEO Services · Baton Rouge, LA',
-    h1: 'Get your Baton Rouge business to the top of Google and keep it there',
+    h1: 'Baton Rouge SEO that turns storm-season organic traffic into booked work',
     h2Exact: 'Baton Rouge SEO Company',
     heroSubhead:
       "Ads die the second you stop paying. SEO does the opposite: rank once for what Baton Rouge searches (storm damage, HVAC repair, restoration) and the leads keep arriving. We build that ranking and tie every report back to real calls and booked jobs.",
@@ -233,7 +233,7 @@ export const batonRougeLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. When a homeowner is stressed after a flood and searching on a phone, they may well be using an AI tool. We structure your content and schema so those engines can read, trust, and cite your business." },
       { q: 'Which areas around Baton Rouge do you cover?', a: "The full metro: Prairieville, Zachary, Denham Springs, Central, Baker, Gonzales, Walker, Port Allen, and the city neighborhoods including Garden District and Mid City. We build genuine local pages, not one generic Baton Rouge page, because that is what actually ranks for \"[service] [community]\" searches." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. After storm events, when shared-lead prices spike, contractors who own their search visibility do not have to pay a broker for demand that is already hunting for them." },
-      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business, including where storm-season keywords could move fastest. No pitch deck, just a diagnosis." },
+      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business, including where storm-season keywords could move fastest. It is the fastest way to see what Baton Rouge SEO can do for your organic traffic and which money keywords can reach page one. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const batonRougeLocations = [
     metaDescription:
       'Baton Rouge web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in a storm-driven, community-rooted market.',
     eyebrow: 'Web Design · Baton Rouge, LA',
-    h1: 'Baton Rouge web design that turns visitors into booked jobs',
+    h1: 'Baton Rouge web design that makes Garden District homeowners pick you',
     h2Exact: 'Baton Rouge Web Design Company',
     heroSubhead:
       "A good-looking site that never rings the phone is just a digital brochure. We build Baton Rouge contractors fast, mobile-first sites engineered to turn visitors into booked work, and to earn trust in a community where authenticity and local identity genuinely count.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Baton Rouge contractor websites leak leads quietly: sluggish on a phone, no clear offer, nothing that signals to a homeowner in Zachary or the Garden District that you are the real thing. Web design done right closes every one of those gaps. We build sites that load fast, look like the professional you already are, and convert storm-season visitors into booked jobs, designed for a community that backs genuine local businesses over generic corporate templates.",
+      "Baton Rouge web design is the difference between a site that books jobs and one that leaks leads quietly: sluggish on a phone, no clear offer, nothing that signals to a homeowner in Zachary or the Garden District that you are the real thing. Done right, web design closes every one of those gaps. We build fast-loading, mobile-first sites that look like the professional you already are and convert storm-season visitors into booked jobs, designed for a community that backs genuine local businesses over generic corporate templates.",
     aioQuestion: 'What makes a good contractor website in Baton Rouge?',
     aioAnswer:
       "A strong Baton Rouge contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the exact suburbs and neighborhoods you serve. Because storm events drive homeowners to their phones in a hurry and the community values an authentic local presence, mobile speed, an obvious next step, and copy that speaks to real Baton Rouge life are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const batonRougeLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Baton Rouge site should include for your specific trade and communities, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting contractor website should include for your specific trade and communities, and a fixed-price quote with a timeline. It is the fastest way to see what Baton Rouge web design built to convert visitors into booked jobs can do for your business. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const batonRougeLocations = [
     citySlug: 'baton-rouge', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Baton Rouge Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Baton Rouge website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs before storm season.',
+      'Baton Rouge Website Redesign without losing rankings: faster, mobile-first rebuilds that convert more visitors into booked jobs before storm season.',
     eyebrow: 'Website Redesign · Baton Rouge, LA',
-    h1: 'Redesign your Baton Rouge website without losing your rankings',
+    h1: 'Baton Rouge Website Redesign that turns an aging site into a storm-season lead engine',
     h2Exact: 'Baton Rouge Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, awkward on a phone, easy to skip when a homeowner is stressed after a storm. We redesign Baton Rouge contractor sites to convert more and load faster, and we migrate with care so you keep every bit of ranking you have earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail one of two ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Baton Rouge contractor sites for speed and conversions, build them to earn community trust and stand out across the metro, and migrate with the redirects and SEO care that protect the traffic you already have, which matters most right before storm season when your rankings are pure money.",
+      "A Baton Rouge Website Redesign fails one of two ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Baton Rouge contractor sites for speed and conversions, build them to earn community trust and stand out across the metro, and run an SEO-safe migration with the redirects and care that protect the traffic you already have, which matters most right before storm season when your rankings are pure money.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one. In a storm-driven market like Baton Rouge, losing rankings right before June can cost you the most profitable season of the year.",
@@ -365,7 +365,7 @@ export const batonRougeLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings, and matters especially when homeowners are searching from their phones in the middle of a weather event." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix for the Baton Rouge market specifically, and a fixed-price quote with a timeline and a safe migration plan. No pressure, just a diagnosis." },
+      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix for the Baton Rouge market specifically, and a fixed-price quote with a timeline and a safe migration plan. It is the fastest way to see what a Baton Rouge Website Redesign with an SEO-safe migration can do without losing the rankings you have earned. No pressure, just a diagnosis." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const batonRougeCity = {
 
   titleTag: 'Baton Rouge Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Baton Rouge contractors. Get found before storm season, get booked, and own your leads in a community-rooted market.',
+    'Baton Rouge marketing for contractors: web design, SEO, and local SEO that get you found before storm season, get you booked, and let you own your leads.',
 
   eyebrow: 'Baton Rouge · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Baton Rouge contractors found and booked',
+  h1: 'Baton Rouge marketing for contractors that turns storm-season searches into jobs',
   h2Exact: 'Baton Rouge Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Baton Rouge's storm-driven, community-rooted market. One team to get you ranking before hurricane season, converting year-round, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const batonRougeCity = {
   primaryCta: 'Get my free Baton Rouge audit',
 
   intro:
-    "If you run a contracting business in Baton Rouge, your market does not behave like anyone else's. Hurricane Gustav, the catastrophic 2016 flood, and every season since have shaped what homeowners here search for and the exact moment they search for it. Gulf humidity runs all year, Chemical Corridor families in Prairieville and Zachary have real budgets, and this is a majority-Black community with a strong sense of place, which means a generic template from an out-of-town agency simply does not land the same way. Winning here takes three things pulling together: a site that converts, SEO that ranks you before the season opens, and local SEO that puts you in the Map Pack across the suburbs and neighborhoods you serve. Here is how we help Baton Rouge contractors do exactly that.",
+    "Baton Rouge marketing for contractors does not work the way it does anywhere else, because your market does not behave like anyone else's. Hurricane Gustav, the catastrophic 2016 flood, and every season since have shaped what homeowners here search for and the exact moment they search for it. Gulf humidity runs all year, Chemical Corridor families in Prairieville and Zachary have real budgets, and this is a majority-Black community with a strong sense of place, which means a generic template from an out-of-town agency simply does not land the same way. Winning here takes three things pulling together: web design and SEO for Baton Rouge contractors that converts and ranks you before the season opens, and local SEO that puts you in the Map Pack across the suburbs and neighborhoods you serve. Here is how we help Baton Rouge contractors get found and booked.",
   aioQuestion: 'How do Baton Rouge contractors get more leads online?',
   aioAnswer:
     "Baton Rouge contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack across the metro's suburbs and neighborhoods. The ones who win here get into the Map Pack before storm season, optimize for the emergency and humidity-driven searches that spike year-round, and earn trust with a community that backs authentic local businesses over out-of-town templates.",
@@ -422,6 +422,6 @@ export const batonRougeCity = {
     { q: 'Why does the Baton Rouge market need a different approach?', a: "A few reasons. The market is storm-driven: Hurricane Gustav in 2008 and the catastrophic 2016 flood put roofing and restoration contractors in constant demand, and every June through November the cycle repeats. Gulf humidity keeps HVAC and mold work going year-round. And Baton Rouge is a majority-Black community with a strong local identity, so authentic framing matters here in a way a generic out-of-town template cannot match." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free audit." },
     { q: 'Which Baton Rouge areas do you serve?', a: "The full metro: Prairieville, Zachary, Denham Springs, Central, Baker, Gonzales, Walker, Port Allen, and the city neighborhoods including Garden District, Mid City, and Perkins Road. We build genuine community pages instead of one generic Baton Rouge page." },
-    { q: 'Where should I start?', a: "Start with a free Baton Rouge audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work before the next storm season. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Baton Rouge audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work before the next storm season. It is the simplest first step into Baton Rouge marketing for contractors that gets you found and booked. No pitch deck, just a plan." },
   ],
 };

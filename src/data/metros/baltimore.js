@@ -111,9 +111,9 @@ export const baltimoreLocations = [
     citySlug: 'baltimore', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Baltimore Local SEO Company | Win the Map Pack',
     metaDescription:
-      'When Baltimore searches your service, three businesses fill the map. We put you in those three so the call lands with you, not a row house rival.',
+      'Baltimore Local SEO that puts you in the three businesses Google pins to the map, so the call lands with you, not a row house rival.',
     eyebrow: 'Local SEO · Baltimore, MD',
-    h1: 'When Baltimore searches for what you do, be the first name they find',
+    h1: 'Baltimore Local SEO that turns row house "near me" searches into a ringing phone',
     h2Exact: 'Baltimore Local SEO Company',
     heroSubhead:
       "Google drops three businesses on the map for a \"near me\" search, and everyone underneath them is effectively invisible. In a city built on 150,000 historic row houses and thick Chesapeake Bay humidity, we get you into that top three for your neighborhoods, so the homeowner calls you instead of whoever happened to rank first.",
@@ -167,7 +167,7 @@ export const baltimoreLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "A growing share of \"near me\" research now starts in AI rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is about how long local SEO needs to show real movement. After that it runs month-to-month. If we are not delivering, you leave, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less, because the work is finding you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to outpace you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your neighborhoods, what your Map Pack competitors are doing to outpace you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see what Baltimore Local SEO can do for your phone, with no pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const baltimoreLocations = [
     metaDescription:
       'Baltimore SEO that ranks contractors on Google and delivers leads you own. Row house expertise, Bay-climate angles, revenue reporting, no lock-in.',
     eyebrow: 'SEO Services · Baltimore, MD',
-    h1: 'Get your Baltimore business to the top of Google and keep it there',
+    h1: 'Baltimore SEO that ranks you for the storm and row house searches that book jobs',
     h2Exact: 'Baltimore SEO Company',
     heroSubhead:
       "Ads die the instant you stop paying. SEO does the reverse: rank once for what your Baltimore customers search and the leads keep arriving. We build that ranking around the row house, storm-damage, and Bay-humidity angles that define this market, and tie every report to real calls and booked jobs.",
@@ -233,7 +233,7 @@ export const baltimoreLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Baltimore do you cover?', a: "Baltimore city and the surrounding metro: Federal Hill, Canton, Fells Point, Hampden, Roland Park, Towson, Ellicott City, Columbia, Annapolis, Owings Mills, Lutherville, Catonsville, Dundalk, and more, with genuine local pages rather than one generic Baltimore page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to outrank you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It shows exactly how Baltimore SEO turns into organic traffic and money keywords that put you on page one. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const baltimoreLocations = [
     metaDescription:
       'Baltimore web design that turns visitors into booked jobs: fast, mobile-first sites for contractors serving row houses, Bay-climate homes, and the metro.',
     eyebrow: 'Web Design · Baltimore, MD',
-    h1: 'Baltimore web design that turns visitors into booked jobs',
+    h1: 'Baltimore web design built to convert Federal Hill clicks into calls',
     h2Exact: 'Baltimore Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just a brochure. We build Baltimore contractors fast, mobile-first sites engineered to turn visitors into booked work, and to prove you are the specialist for row houses, Bay humidity, and the neighborhoods you actually serve.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Baltimore contractor websites bleed leads quietly: sluggish on a phone, a call button buried somewhere down the page, no mention of the specific neighborhoods or home types you work on. Web design done properly fixes every bit of that. We build sites that load fast, look like the professional you are, and turn visitors from Federal Hill to Howard County into booked jobs, all built to win in a market where row house expertise and Bay-climate knowledge decide who gets the call.",
+      "Baltimore web design is the difference between a site that books work and one that quietly bleeds leads: sluggish on a phone, a call button buried somewhere down the page, no mention of the specific neighborhoods or home types you work on. Done properly, web design fixes every bit of that. We build sites that load fast, look like the professional you are, and turn visitors from Federal Hill to Howard County into booked jobs, all built to win in a market where row house expertise and Bay-climate knowledge decide who gets the call.",
     aioQuestion: 'What makes a good contractor website in Baltimore?',
     aioAnswer:
       "A strong Baltimore contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, builds trust with reviews and real project photos, and names the specific neighborhoods and counties you serve. Because Baltimore homeowners are often wrestling with older row house stock, Bay humidity, and storm damage, a site that calls out that expertise (masonry, moisture, storm repair) wins the call over a generic site that could belong to anyone, anywhere.",
@@ -299,7 +299,7 @@ export const baltimoreLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage, usually WordPress or Webflow. We will recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Baltimore site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting, mobile-first contractor website should include, and a fixed-price quote with a timeline. It is the simplest way to see what Baltimore Web Design can do for your bookings. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const baltimoreLocations = [
     citySlug: 'baltimore', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Baltimore Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Baltimore website without losing rankings: faster, mobile-first rebuilds that convert more visitors into booked jobs across the metro.',
+      'Baltimore Website Redesign without losing rankings: faster, mobile-first rebuilds that convert more visitors into booked jobs across the metro.',
     eyebrow: 'Website Redesign · Baltimore, MD',
-    h1: 'Redesign your Baltimore website without losing your rankings',
+    h1: 'Baltimore Website Redesign that keeps every ranking you have earned across the metro',
     h2Exact: 'Baltimore Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, awkward on a phone, and easy to skip past when a homeowner in Canton or Ellicott City is comparing contractors. We redesign Baltimore contractor sites to convert more and load faster, and we migrate with enough care that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail in one of two ways: the site looks sharper but converts no better, or it launches and the rankings vanish overnight. We do neither. We redesign Baltimore contractor sites for speed and conversions, build them to speak to row houses, Bay-climate concerns, and the neighborhoods you serve, and migrate with the redirects and SEO discipline that protect the traffic you already have.",
+      "A Baltimore Website Redesign fails in one of two ways: the site looks sharper but converts no better, or it launches and the rankings vanish overnight. We do neither. We redesign Baltimore contractor sites for speed and conversions, build them to speak to row houses, Bay-climate concerns, and the neighborhoods you serve, and handle the SEO-safe migration with the redirects and discipline that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and tends to improve them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const baltimoreLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It is the clearest way to see whether a Baltimore Website Redesign is worth it for your business." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const baltimoreCity = {
 
   titleTag: 'Baltimore Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Baltimore contractors. Get found, get booked, and own your leads in a market of row houses and Bay humidity.',
+    'Baltimore marketing for contractors: web design, SEO, and local SEO. Get found, get booked, and own your leads in a market of row houses and Bay humidity.',
 
   eyebrow: 'Baltimore · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Baltimore contractors found and booked',
+  h1: 'Baltimore marketing for contractors: get ranked across the row house metro, get booked',
   h2Exact: 'Baltimore Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Baltimore's row house market, its Chesapeake Bay climate, and the full metro from Federal Hill to Howard County. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const baltimoreCity = {
   primaryCta: 'Get my free Baltimore audit',
 
   intro:
-    "Run a contracting business in Baltimore and you are serving one of the most distinctive home markets in the country: more than 150,000 historic row houses that demand specialist hands, Chesapeake Bay humidity that speeds up wear on every roof, HVAC unit, and siding job, and a metro that runs from city blocks getting revitalized by young buyers out to Howard County suburbs with DC-level incomes. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here is how we help Baltimore contractors do exactly that.",
+    "Baltimore marketing for contractors starts with the home market itself, one of the most distinctive in the country: more than 150,000 historic row houses that demand specialist hands, Chesapeake Bay humidity that speeds up wear on every roof, HVAC unit, and siding job, and a metro that runs from city blocks getting revitalized by young buyers out to Howard County suburbs with DC-level incomes. Winning here takes three things pulling together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack for the neighborhoods you serve. Here is how we help Baltimore contractors do exactly that.",
   aioQuestion: 'How do Baltimore contractors get more leads online?',
   aioAnswer:
     "Baltimore contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack neighborhood by neighborhood. Because Baltimore's housing stock is largely pre-1960 row houses and Bay humidity speeds up wear, the contractors who call out row house expertise, moisture and mold remediation, storm damage, and seasonal HVAC in their content and profiles win the highest-value calls.",
@@ -422,6 +422,6 @@ export const baltimoreCity = {
     { q: 'Why does the Baltimore market need a different approach?', a: "It is a market built on historic row houses: narrow brick homes from 1880 to 1930 that need specialists who understand masonry, parapet flashing, and old-home systems. Add Chesapeake Bay humidity, storm season, and a wide income spread from city neighborhoods to Howard County suburbs, and you need local content that speaks to all of it, not a generic contractor template." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Baltimore areas do you serve?', a: "Baltimore city and the surrounding metro: Federal Hill, Canton, Fells Point, Hampden, Roland Park, Towson, Ellicott City, Columbia, Annapolis, Owings Mills, Lutherville, Catonsville, Dundalk, and more, with genuine local pages rather than one generic Baltimore page." },
-    { q: 'Where should I start?', a: "Start with a free Baltimore audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Baltimore audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. It is the simplest first step into Baltimore marketing for contractors that actually gets you found and booked. No pitch deck, just a plan." },
   ],
 };

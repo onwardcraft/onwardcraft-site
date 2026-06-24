@@ -111,9 +111,9 @@ export const atlantaLocations = [
     citySlug: 'atlanta', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Atlanta Local SEO Company | Win the Map Pack',
     metaDescription:
-      'Search your trade in Atlanta and three businesses appear on the map. We get you into those three across Alpharetta, Marietta, Duluth, and the suburbs that pay.',
+      'Atlanta Local SEO that gets contractors into the Google Map Pack across Alpharetta, Marietta, Duluth, and the suburbs that actually pay.',
     eyebrow: 'Local SEO · Atlanta, Georgia',
-    h1: 'When Atlanta searches for what you do, be the first name on the map',
+    h1: 'Atlanta Local SEO that gets you found when Alpharetta and Marietta neighbors search your trade',
     h2Exact: 'Atlanta Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map on a \"near me\" search, and everyone underneath them might as well not exist. In a metro where traffic makes homeowners pick the nearest crew, we put you in that top three for your suburbs and neighborhoods, so the call rings your phone instead of the contractor who beat you to the top.",
@@ -167,7 +167,7 @@ export const atlantaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now kicks off inside AI tools rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as decisive as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it runs month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less, because the work starts coming to you directly." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your suburbs, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today in local search across your suburbs, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the honest starting point for Atlanta Local SEO that actually ranks you on the map, with no pitch deck, just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const atlantaLocations = [
     metaDescription:
       'Atlanta SEO that ranks contractors on Google and delivers leads you own. Suburb-by-suburb targeting, seasonal demand SEO, and reporting tied to real revenue.',
     eyebrow: 'SEO Services · Atlanta, Georgia',
-    h1: 'Get your Atlanta business to the top of Google and keep it there',
+    h1: 'Atlanta SEO that turns suburb-by-suburb organic traffic into booked work',
     h2Exact: 'Atlanta SEO Company',
     heroSubhead:
       "The second you stop paying, ads go dark. SEO works the other way: rank once for what your Atlanta customers search and the leads keep arriving. We build that ranking suburb by suburb and tie every report to real calls and booked jobs, not vanity charts.",
@@ -233,7 +233,7 @@ export const atlantaLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just the classic search results." },
       { q: 'Which Atlanta suburbs do you cover?', a: "The full Atlanta metro: Alpharetta, Marietta, Smyrna, Duluth, Lawrenceville, Roswell, Sandy Springs, Decatur, Cumming, Woodstock, Buckhead, Midtown, Inman Park, Johns Creek, and more, with genuine suburb pages rather than one generic Atlanta page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads directly to you. The more you own your search visibility, the less you depend on paying brokers for leads three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is a straight plan for Atlanta SEO that lands you on page one and turns organic traffic into booked jobs. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const atlantaLocations = [
     metaDescription:
       'Atlanta web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in Alpharetta, Marietta, Duluth, and the suburbs.',
     eyebrow: 'Web Design · Atlanta, Georgia',
-    h1: 'Atlanta web design that turns visitors into booked jobs',
+    h1: 'Atlanta web design that makes the homeowner stuck in traffic pick you',
     h2Exact: 'Atlanta Web Design Company',
     heroSubhead:
       "A pretty site that never rings the phone is just a brochure. We build Atlanta contractors fast, mobile-first sites engineered to turn visitors into booked work, designed for a market where homeowners pick local and pick fast.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Atlanta contractor sites bleed leads quietly: slow on a phone, the call button buried, no clear offer, and nothing signaling you actually serve Marietta or Alpharetta. Web design done right closes every one of those leaks. We build sites that load fast, look like the professional you already are, and convert suburban Atlanta visitors into booked jobs, because in a metro where distance decides everything, reading as local and trustworthy is how you win the call.",
+      "Atlanta web design is really about one thing: turning visitors into booked jobs. Most Atlanta contractor sites bleed leads quietly, slow on a phone, the call button buried, no clear offer, and nothing signaling you actually serve Marietta or Alpharetta. Web design done right closes every one of those leaks. We build sites that load fast, look like the professional you already are, and convert suburban Atlanta visitors into booked jobs, because in a metro where distance decides everything, reading as local and trustworthy is how you win the call.",
     aioQuestion: 'What makes a good contractor website in Atlanta?',
     aioAnswer:
       "A strong Atlanta contractor site loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific suburbs and neighborhoods you serve. Because traffic makes Atlanta homeowners local-first, a site that says \"serving Alpharetta, Marietta, and Duluth\" converts far better than one leaning on a generic Atlanta page. Most Atlanta searches happen on mobile, so mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const atlantaLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage yourself, usually WordPress or Webflow. We will recommend the right fit in your free consult and lay out the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and after that we offer affordable monthly maintenance for updates, speed, and security." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Atlanta site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting, mobile-first Atlanta site should include, and a fixed-price quote with a timeline. It is everything you need to decide on Atlanta web design that converts visitors into booked jobs. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const atlantaLocations = [
     citySlug: 'atlanta', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Atlanta Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Atlanta website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across Alpharetta and Marietta.',
+      'Atlanta Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs across Alpharetta and Marietta.',
     eyebrow: 'Website Redesign · Atlanta, Georgia',
-    h1: 'Redesign your Atlanta website without losing your rankings',
+    h1: 'Atlanta Website Redesign that turns an aging site into a suburb-targeting lead engine',
     h2Exact: 'Atlanta Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy to scroll past. We redesign Atlanta contractor sites to convert more and load faster, and we migrate with care so you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail one of two ways: the site looks sharper but converts exactly the same, or it launches and the rankings vanish overnight. We refuse both. We redesign Atlanta contractor sites for speed and conversions, build them to speak straight to the suburbs where your customers live, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "An Atlanta Website Redesign fails one of two ways: the site looks sharper but converts exactly the same, or it launches and the rankings vanish overnight. We refuse both. We redesign Atlanta contractor sites for speed and conversions with an SEO-safe migration, build them to speak straight to the suburbs where your customers live, and handle the redirects and SEO care that protect the traffic you already have without losing rankings.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Handled right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const atlantaLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO runs month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It is your roadmap to an Atlanta Website Redesign that rebuilds for conversions without losing rankings." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const atlantaCity = {
 
   titleTag: 'Atlanta Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Atlanta contractors. Get found in Alpharetta, Marietta, Duluth, and the suburbs where the work is, and own your leads.',
+    'Atlanta marketing for contractors: web design, SEO, and local SEO that get you found in Alpharetta, Marietta, Duluth, and the suburbs where the work is.',
 
   eyebrow: 'Atlanta · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Atlanta contractors found and booked',
+  h1: 'Atlanta marketing for contractors that turns suburban searches into jobs',
   h2Exact: 'Atlanta Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Atlanta's sprawling suburban market, where traffic makes homeowners fiercely local-first and a single seasonal spike can fill your calendar overnight.",
@@ -386,7 +386,7 @@ export const atlantaCity = {
   primaryCta: 'Get my free Atlanta audit',
 
   intro:
-    "If you run a contracting business in Atlanta, the work is out in the suburbs: Alpharetta, Marietta, Duluth, Smyrna, Cumming, Woodstock. The metro's legendary traffic pushes homeowners to search hyper-locally; they want the crew that is genuinely nearby, and the Map Pack is how they choose. Winning here takes three things working as one: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack suburb by suburb, plus content that positions you for summer HVAC season and winter ice storm demand before those spikes land. Here is how we help Atlanta contractors pull it off.",
+    "Atlanta marketing for contractors comes down to getting found and booked where the work is: Alpharetta, Marietta, Duluth, Smyrna, Cumming, Woodstock. The metro's legendary traffic pushes homeowners to search hyper-locally; they want the crew that is genuinely nearby, and the Map Pack is how they choose. Winning here takes three things working as one: a site that converts, SEO that ranks you for what people actually search, and local SEO that puts you in the Map Pack suburb by suburb, plus content that positions you for summer HVAC season and winter ice storm demand before those spikes land. Here is how our web design and SEO for Atlanta contractors pull it off.",
   aioQuestion: 'How do Atlanta contractors get more leads online?',
   aioAnswer:
     "Atlanta contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack suburb by suburb. Because traffic makes homeowners strongly prefer nearby contractors, the businesses that target Alpharetta, Marietta, Duluth, and Smyrna by name, rather than leaning on a generic Atlanta page, win far more work. Ranking for summer HVAC and ice storm roofing terms before the season lands is the other major edge.",
@@ -422,6 +422,6 @@ export const atlantaCity = {
     { q: 'Why does the Atlanta market need a different approach?', a: "The work is in the suburbs, not downtown. The metro's legendary traffic makes homeowners fiercely local-first in their searches; they want the crew that is genuinely nearby. That makes suburb-specific targeting more powerful here than in most metros. Seasonal demand is dramatic too: HVAC from May through September, and ice storms in January and February that can spike demand overnight." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO run month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Atlanta areas do you serve?', a: "The full metro: Alpharetta, Marietta, Smyrna, Duluth, Lawrenceville, Roswell, Sandy Springs, Decatur, Cumming, Woodstock, Buckhead, Midtown Atlanta, Inman Park, Virginia-Highland, Johns Creek, and more." },
-    { q: 'Where should I start?', a: "Start with a free Atlanta audit. We will look at your website, your rankings, and your Map Pack presence across the suburbs you serve, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Atlanta audit. We will look at your website, your rankings, and your Map Pack presence across the suburbs you serve, then tell you the one or two moves that will bring in the most work fastest. It is the simplest way to see what Atlanta marketing for contractors can do to get you found and booked. No pitch deck, just a plan." },
   ],
 };

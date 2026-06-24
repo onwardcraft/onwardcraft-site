@@ -111,9 +111,9 @@ export const allentownLocations = [
     citySlug: 'allentown', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Allentown Local SEO Company | OnwardCraft',
     metaDescription:
-      'When Allentown homeowners search your trade, three businesses show on the map. We get you into those three so the call lands with you, not a competitor.',
+      'Allentown Local SEO that puts you in the three businesses on the map when homeowners search your trade, so the call lands with you, not a competitor.',
     eyebrow: 'Local SEO · Lehigh Valley',
-    h1: 'When Allentown searches for what you do, be the first name on the map',
+    h1: 'Allentown Local SEO that gets you found when Lehigh Valley neighbors search your trade in English or Spanish',
     h2Exact: 'Allentown Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map when a Valley homeowner searches \"near me,\" and almost nobody scrolls past them. We put you in that top three so the call lands with you instead of whoever beat you to it, and so your name is already there when the next nor'easter sets every phone in Allentown ringing at once.",
@@ -167,7 +167,7 @@ export const allentownLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts in AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business by name. In the Valley it is quickly becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to your phone. Over time you lean on the brokers less because the work is already coming to you directly." },
-      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90 to 180 day plan with the numbers run for your business. No pitch deck. Just a diagnosis." },
+      { q: "What's in the free audit?", a: "A straight read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90 to 180 day plan with the numbers run for your business. It is the clearest picture you can get of what Allentown Local SEO would actually do for your Google Business Profile and your spot on the map. No pitch deck. Just a diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const allentownLocations = [
     metaDescription:
       'Allentown SEO that ranks contractors on Google and brings in leads you own. Revenue-tied reporting, no lock-in, built for Lehigh Valley winters and Spanish search.',
     eyebrow: 'SEO Services · Lehigh Valley',
-    h1: 'Get your Allentown business to the top of Google and keep it there',
+    h1: 'Allentown SEO that turns Lehigh Valley organic traffic into booked work, in both languages',
     h2Exact: 'Allentown SEO Company',
     heroSubhead:
       "The minute you stop paying for ads, the leads stop cold. SEO works the other way: rank once for what your Allentown customers search and the calls keep arriving. We build that ranking in English and Spanish, and we tie every report to real calls and booked jobs, not traffic you cannot cash.",
@@ -233,7 +233,7 @@ export const allentownLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business by name, not just classic search results." },
       { q: 'Which areas around Allentown do you cover?', a: "All of the Lehigh Valley and the towns around it: Bethlehem, Easton, Emmaus, Nazareth, Whitehall, Macungie, Quakertown, Stroudsburg and more, with genuine local pages rather than one generic Allentown page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. The more of your search visibility you own, the less you depend on paying brokers for leads three competitors bought too." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis you can act on." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It shows you in plain terms what Allentown SEO would do for your organic traffic and your money keywords, and how fast you could reach page one. No pitch deck, just a diagnosis you can act on." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const allentownLocations = [
     metaDescription:
       'Allentown web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors, Lehigh Valley winters, and the growing Hispanic market.',
     eyebrow: 'Web Design · Lehigh Valley',
-    h1: 'Allentown web design that turns visitors into booked jobs',
+    h1: 'Allentown web design that makes Lehigh Valley homeowners pick you, in English and Spanish',
     h2Exact: 'Allentown Web Design Company',
     heroSubhead:
       "A handsome website that does not generate calls is just a brochure. We build Allentown contractors fast, mobile-first sites engineered to turn visitors into booked work, in English and Spanish, and tough enough to stay standing when a nor'easter floods your phone with emergency requests.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Allentown contractor sites bleed leads quietly: slow on a phone, call button buried, no clear offer, and English-only in a city that is half Hispanic. Web design done right plugs every one of those leaks. We build sites that load fast, look like the professional you already are, and turn visitors from Center City to Emmaus into booked jobs, in both languages, without buckling when a February ice storm sends your traffic spiking overnight.",
+      "Allentown web design is the difference between a site that books jobs and one that bleeds leads quietly: slow on a phone, call button buried, no clear offer, and English-only in a city that is half Hispanic. Web design done right plugs every one of those leaks. We build sites that load fast, look like the professional you already are, and turn visitors from Center City to Emmaus into booked jobs, in both languages, without buckling when a February ice storm sends your traffic spiking overnight.",
     aioQuestion: 'What makes a good contractor website in Allentown?',
     aioAnswer:
       "A good Allentown contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, offers at least basic Spanish-language content for the city's large Hispanic population, and holds up under the traffic spikes that come with nor'easter emergencies. Because most Lehigh Valley searches happen on mobile, phone speed and an obvious next step are what separate a site that books jobs from one that just sits there looking nice.",
@@ -299,7 +299,7 @@ export const allentownLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs plainly, no jargon." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you want." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Allentown site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Allentown site should include, and a fixed-price quote with a timeline. It is a straight answer on what Allentown web design should do for you: a fast, mobile-first site that converts visitors into booked jobs. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const allentownLocations = [
     citySlug: 'allentown', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Allentown Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Allentown website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and reach the Hispanic market.',
+      'Allentown Website Redesign without losing rankings: faster, mobile-first rebuilds that convert more visitors into booked jobs and reach the Hispanic market.',
     eyebrow: 'Website Redesign · Lehigh Valley',
-    h1: 'Redesign your Allentown website without losing your rankings',
+    h1: 'Allentown Website Redesign that turns an aging, English-only site into a bilingual lead engine',
     h2Exact: 'Allentown Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy to scroll past, and English-only in a half-Hispanic city. We redesign Allentown contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail one of two ways: the site looks sharper but converts exactly the same, or it launches and the rankings disappear overnight. We do neither. We redesign Allentown contractor sites for speed and conversions, add bilingual reach for the city's large Hispanic population, build them to absorb nor'easter emergency surges, and migrate with the redirects and SEO care that protect the traffic you already worked years to earn.",
+      "Allentown Website Redesign goes wrong one of two ways: the site looks sharper but converts exactly the same, or it launches and the rankings disappear overnight. We do neither. We redesign Allentown contractor sites for speed and conversions, add bilingual reach for the city's large Hispanic population, build them to absorb nor'easter emergency surges, and migrate with the redirects and SEO care that protect the traffic you already worked years to earn.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one. Adding Spanish-language content during a redesign is also one of the lowest-cost, highest-return moves in an Allentown market where that lane is nearly empty.",
@@ -365,7 +365,7 @@ export const allentownLocations = [
       { q: 'Will the new site handle winter emergency traffic?', a: "Yes, and in the Lehigh Valley that is a real consideration. Nor'easters, ice storms, and burst pipes drive sudden surges in roofing, heating, and plumbing searches, and the old site that slows to a crawl loses those leads. We rebuild for speed and keep the call to action obvious so the site converts right when demand peaks." },
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in, no strings." },
-      { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month, so you stay only as long as we keep earning it." },
+      { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month, so you stay only as long as we keep earning it. An Allentown Website Redesign with us is a fixed-price, mobile-first rebuild handled with an SEO-safe migration, so you keep every bit of ranking you have already earned." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const allentownCity = {
 
   titleTag: 'Allentown Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Allentown contractors. Get found in English and Spanish, get booked, and own your leads. Built for Lehigh Valley winters.',
+    'Allentown marketing for contractors: web design, SEO, and local SEO. Get found in English and Spanish, get booked, and own your leads. Built for Lehigh Valley winters.',
 
   eyebrow: 'Allentown · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Allentown contractors found and booked',
+  h1: 'Allentown marketing for contractors that turns Lehigh Valley searches into jobs',
   h2Exact: 'Allentown Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the Lehigh Valley: NYC and Philly overflow demand, hard Pennsylvania winters, and a half-Hispanic market where Spanish-language search is the most wide-open lane in the city.",
@@ -386,7 +386,7 @@ export const allentownCity = {
   primaryCta: 'Get my free Allentown audit',
 
   intro:
-    "If you run a contracting business in Allentown, you are competing in one of the most interesting markets in the Northeast. NYC and Philadelphia families keep pouring in, carrying big-city budgets to Valley prices. Hard Pennsylvania winters drive roofing, heating, and pipe-freeze emergencies from November through April. And Allentown is roughly half Hispanic, which makes Spanish-language search one of the highest-volume, lowest-competition lanes any local contractor can claim right now. Winning here takes three things firing together: a site that converts in both languages, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack before the next nor'easter hits. Here is how we help Valley contractors do exactly that.",
+    "Allentown marketing for contractors has to fit one of the most interesting markets in the Northeast. NYC and Philadelphia families keep pouring in, carrying big-city budgets to Valley prices. Hard Pennsylvania winters drive roofing, heating, and pipe-freeze emergencies from November through April. And Allentown is roughly half Hispanic, which makes Spanish-language search one of the highest-volume, lowest-competition lanes any local contractor can claim right now. Winning here takes three things firing together: a site that converts in both languages, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack before the next nor'easter hits. Here is how we help Valley contractors do exactly that.",
   aioQuestion: 'How do Allentown contractors get more leads online?',
   aioAnswer:
     "Allentown contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches, in English and Spanish, and local SEO that wins the Google Map Pack. Because the Lehigh Valley is growing fast on NYC and Philadelphia overflow, gets hard Pennsylvania winters that spike emergency demand, and is roughly half Hispanic with nearly untouched Spanish-language search competition, the contractors who cover all three of those angles are competing in lanes their rivals have not even entered.",
@@ -422,6 +422,6 @@ export const allentownCity = {
     { q: 'Can you help me reach Allentown\'s Hispanic community?', a: "Yes, and it is one of the most powerful things a Valley contractor can do right now. Allentown is roughly half Hispanic, and Spanish-language searches for roofing, HVAC, plumbing, and remodeling are high-volume and nearly uncontested. We run your Google Business Profile in Spanish, build bilingual content, and target the terms Allentown's Hispanic homeowners are already typing." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free audit before you commit." },
     { q: 'Which Allentown areas do you serve?', a: "All of the Lehigh Valley and the towns around it: Center City Allentown, West End, Bethlehem, South Bethlehem, Easton, Emmaus, Nazareth, Macungie, Whitehall, Quakertown, Stroudsburg and more." },
-    { q: 'Where should I start?', a: "Start with a free Allentown audit. We look at your website, your rankings, your Map Pack presence, and whether you are missing the Spanish-language opportunity, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Allentown audit. We look at your website, your rankings, your Map Pack presence, and whether you are missing the Spanish-language opportunity, then tell you the one or two moves that will bring in the most work fastest. It is the simplest way to see what Allentown marketing for contractors, web design and SEO working together, would do to get you found and booked. No pitch deck, just a plan." },
   ],
 };

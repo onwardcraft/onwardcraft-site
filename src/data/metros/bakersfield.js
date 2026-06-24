@@ -111,9 +111,9 @@ export const bakersfieldLocations = [
     citySlug: 'bakersfield', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Bakersfield Local SEO Company | OnwardCraft',
     metaDescription:
-      'Search your trade in Bakersfield and three businesses pin to the map. We put you in those three, so the next emergency call rings your phone, not theirs.',
+      'Bakersfield Local SEO that pins your trade to the Google Map Pack. We put you in the top three, so the next emergency call rings your phone, not theirs.',
     eyebrow: 'Local SEO · Bakersfield',
-    h1: 'When Bakersfield searches for your trade, be the name on the map',
+    h1: 'Bakersfield Local SEO that makes you the first name on the map when August hits 110',
     h2Exact: 'Bakersfield Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map on a \"near me\" search, and everyone underneath them is invisible. We get you into that top three, so the moment it is 112 in August and a homeowner's AC dies, your phone rings instead of the contractor who beat you to the map.",
@@ -167,7 +167,7 @@ export const bakersfieldLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now starts inside an AI tool rather than a classic search box. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the map itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an opening 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and a visibility you never keep. We build rankings, a strong Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less because the work is already coming to your door." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your map competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No slide deck. Just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your map competitors are doing to beat you, the fixes that move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No slide deck. Just a straight diagnosis from a Bakersfield Local SEO company that only works the trades." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const bakersfieldLocations = [
     metaDescription:
       'Bakersfield SEO that ranks contractors on Google and feeds you leads you own. Lead-tied reporting, no lock-in contracts, built for heat-season demand.',
     eyebrow: 'SEO Services · Bakersfield',
-    h1: 'Put your Bakersfield business at the top of Google and keep it there',
+    h1: 'Bakersfield SEO that puts your oil-economy trade on page one and holds it',
     h2Exact: 'Bakersfield SEO Company',
     heroSubhead:
       "Ads die the instant you stop paying. SEO does the opposite: rank once for what your Bakersfield customers search and the leads keep coming. We build that ranking and tie every report to real calls and booked jobs.",
@@ -233,7 +233,7 @@ export const bakersfieldLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search." },
       { q: 'Which areas around Bakersfield do you cover?', a: "All of Bakersfield and Kern County: Riverlakes, Seven Oaks, Oildale, Rosedale, Shafter, Wasco, Delano, Tehachapi and more, with genuine local pages rather than one generic Bakersfield page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No slide deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No slide deck, just a diagnosis from a Bakersfield SEO company built to put contractors on page one and grow the organic traffic you own." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const bakersfieldLocations = [
     metaDescription:
       'Bakersfield web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and the valley\'s extreme-heat demand.',
     eyebrow: 'Web Design · Bakersfield',
-    h1: 'Bakersfield web design that turns visitors into booked jobs',
+    h1: 'Bakersfield web design that books emergency jobs instead of just looking nice',
     h2Exact: 'Bakersfield Web Design Company',
     heroSubhead:
       "A handsome website that never generates a call is just a brochure. We build Bakersfield contractors fast, mobile-first sites engineered to turn visitors into booked work, and to hold up when summer heat floods your phone with emergency calls.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Bakersfield contractor sites bleed leads quietly: sluggish on a phone, call button buried, no clear offer anywhere. Web design done right closes every one of those leaks. We build sites that load fast, carry the credibility you have earned, and turn visitors from Riverlakes to Oildale into booked jobs, and that do not buckle when a heat wave drives your traffic through the roof.",
+      "Bakersfield web design that earns its keep closes the leaks most contractor sites bleed leads through: sluggish on a phone, call button buried, no clear offer anywhere. We build mobile-first sites that load fast, carry the credibility you have earned, and turn visitors from Riverlakes to Oildale into booked jobs, and that do not buckle when a heat wave drives your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Bakersfield?',
     aioAnswer:
       "A good Bakersfield contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to absorb traffic spikes during summer heat season. Because most Bakersfield searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that simply sits there.",
@@ -299,7 +299,7 @@ export const bakersfieldLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, and you can leave whenever you like." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Bakersfield site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Bakersfield site should include, and a fixed-price quote with a timeline from a Bakersfield web design company that builds fast, mobile-first sites to convert visitors into booked jobs. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const bakersfieldLocations = [
     citySlug: 'bakersfield', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Bakersfield Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Bakersfield website without losing rankings. Faster, mobile-first rebuilds that book more jobs and stay standing when heat-season traffic surges.',
+      'Bakersfield Website Redesign without losing your rankings. Faster, mobile-first rebuilds that book more jobs and stay standing when heat-season traffic surges.',
     eyebrow: 'Website Redesign · Bakersfield',
-    h1: 'Redesign your Bakersfield website without losing your rankings',
+    h1: 'Bakersfield Website Redesign that rebuilds for heat-season leads, not just looks',
     h2Exact: 'Bakersfield Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, awkward on a phone, easy to scroll right past. We redesign Bakersfield contractor sites to convert more and load faster, and we migrate with such care that you keep every bit of ranking you have earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns fail one of two ways: the site looks sharper but converts exactly the same, or it launches and the rankings disappear overnight. We refuse to do either. We redesign Bakersfield contractor sites for speed and conversions, build them to absorb heat-season traffic surges, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "A Bakersfield Website Redesign fails one of two ways: the site looks sharper but converts exactly the same, or it launches and the rankings disappear overnight. We refuse to do either. We redesign Bakersfield contractor sites for speed and conversions, build them to absorb heat-season traffic surges, and handle the SEO-safe migration, with the redirects that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const bakersfieldLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It is the honest first step of a Bakersfield Website Redesign that rebuilds mobile-first without losing rankings." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const bakersfieldCity = {
 
   titleTag: 'Bakersfield Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Bakersfield contractors. Get found, get booked, and own your leads instead of renting them, built for extreme-heat demand.',
+    'Bakersfield marketing for contractors: web design, SEO, and local SEO that get you found, get you booked, and let you own your leads instead of renting them.',
 
   eyebrow: 'Bakersfield · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Bakersfield contractors found and booked',
+  h1: 'Bakersfield marketing for contractors who want to own their oil-and-ag leads',
   h2Exact: 'Bakersfield Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Bakersfield's oil-economy, triple-digit-heat market. One team to get you ranking, converting, and off the rented-lead treadmill.",
@@ -386,7 +386,7 @@ export const bakersfieldCity = {
   primaryCta: 'Get my free Bakersfield audit',
 
   intro:
-    "If you run a contracting business in Bakersfield, you are working a market unlike anywhere else in California. Kern County oil money, 110-degree summers, some of the dirtiest air in the country, and a steady wave of first-time buyers who need the trades and need them fast. Winning here takes three pieces moving together: a site that converts, SEO that ranks you for what people actually type, and local SEO that puts you on the map, all in place before heat season lands. Here is how we help Bakersfield contractors pull off exactly that.",
+    "Bakersfield marketing for contractors works differently here, because you run a market unlike anywhere else in California. Kern County oil money, 110-degree summers, some of the dirtiest air in the country, and a steady wave of first-time buyers who need the trades and need them fast. Winning here takes three pieces moving together: a site that converts, SEO that ranks you for what people actually type, and local SEO that puts you on the map, all in place before heat season lands. As a Bakersfield digital marketing agency built around web design and SEO for Bakersfield contractors, here is how we help you pull that off.",
   aioQuestion: 'How do Bakersfield contractors get more leads online?',
   aioAnswer:
     "Bakersfield contractors get more leads by pairing a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google map results. Because Bakersfield has extreme summer heat that drives urgent HVAC demand and wildfire smoke that drives filtration demand, the contractors already ranking and reviewing before those seasons hit are the ones who win the most work.",
@@ -422,6 +422,6 @@ export const bakersfieldCity = {
     { q: 'Why does heat season matter for my marketing?', a: "When Bakersfield hits 110 in July and August, HVAC demand spikes overnight and homeowners call whoever shows up first on Google. Ranking takes months to build, so the contractors already visible before the heat take that work. We get you in position ahead of season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Bakersfield areas do you serve?', a: "All of Bakersfield and Kern County: Riverlakes, Seven Oaks, East Bakersfield, Oildale, Rosedale, Shafter, Wasco, Delano, Tehachapi and beyond." },
-    { q: 'Where should I start?', a: "Start with a free Bakersfield audit. We look at your website, your rankings, and your map presence, then tell you the one or two moves that will bring in the most work fastest. No slide deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Bakersfield audit. We look at your website, your rankings, and your map presence, then tell you the one or two moves that will bring in the most work fastest. It is the simplest way to put Bakersfield marketing for contractors to work and get found and booked. No slide deck, just a plan." },
   ],
 };

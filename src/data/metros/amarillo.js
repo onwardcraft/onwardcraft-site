@@ -111,9 +111,9 @@ export const amarilloLocations = [
     citySlug: 'amarillo', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Amarillo Local SEO Company | Win the Map Pack',
     metaDescription:
-      'When Amarillo searches your service, three businesses show on the map. We put you in those three so the call lands with you, ready before hail season hits.',
+      'Amarillo Local SEO that wins the Map Pack: when a homeowner searches, three businesses show on the map and we put you in those three before hail season hits.',
     eyebrow: 'Local SEO · Amarillo, TX',
-    h1: 'When Amarillo searches for what you do, be the name they call first',
+    h1: 'Amarillo Local SEO that wins you the top three on the map before the next hailstorm',
     h2Exact: 'Amarillo Local SEO Company',
     heroSubhead:
       "Search \"near me\" and Google pins exactly three businesses to the map. Everyone below that line might as well not exist. We move you into that top three so the call rings your phone, and so you are already ranking the day the next Panhandle hailstorm sends every homeowner hunting for a roofer.",
@@ -125,7 +125,7 @@ export const amarilloLocations = [
       "You climb by nailing four things: a Google Business Profile tuned to the exact services and neighborhoods you want; name, address, and phone details that match everywhere online; a steady flow of real reviews; and local content tied to actual Amarillo and Panhandle neighborhoods. Because the Panhandle is storm-prone and temperature-extreme, the winners look established, answer fast, and are already ranking the moment hail-season demand spikes.",
     problemHeading: "When the phone goes quiet, it is usually one of these three",
     painPoints: [
-      { title: 'Competitors own all three pins on the map', body: "Search your own service plus \"near me\" right now. Those three businesses Google pins to the map pull the lion's share of the clicks. If you are not one of them, the quality of your work barely matters, because most homeowners never lay eyes on your name. In Amarillo, after a single big hail event, those three pins can be worth a year of backlog." },
+      { title: 'Competitors own all three pins on the map', body: "Search your own service plus \"near me\" right now. Those three businesses Google pins to the map, the Google Map Pack, pull the lion's share of the clicks. If you are not one of them, the quality of your work barely matters, because most homeowners never lay eyes on your name. In Amarillo, after a single big hail event, those three pins can be worth a year of backlog." },
       { title: "You are paying for leads that were never yours", body: "Angi, Thumbtack, and HomeAdvisor sell the same Amarillo homeowner to four contractors, then bill each of you to scrap over the deal. After a storm, out-of-state chasers snap up those same leads too. Local SEO flips that: a homeowner finds you, calls you, and no one else got the lead." },
       { title: "You are not ready when the cell drops", body: "Every spring the Panhandle takes a beating from hail and tornadoes. Demand for roofing, restoration, and HVAC does not climb, it detonates, and the contractors already ranking grab the calls. Sit invisible on the map when the next cell hits and the work goes to whoever Google already trusts." },
     ],
@@ -167,7 +167,7 @@ export const amarilloLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more \"near me\" research starts inside AI now rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the map itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep, and after every Amarillo hailstorm out-of-state chasers are buying those same leads. We build rankings, a Google profile, and a review base that route leads straight to you. Over time you lean on the brokers less, because the work is already coming to you direct." },
-      { q: "What is in the free audit?", a: "A clear read on where you rank today across your service areas, what your map competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What is in the free audit?", a: "A clear read on where you rank today across your service areas, what your map competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the fastest way to see what Amarillo Local SEO can do for your map presence: no pitch deck, just a straight diagnosis of how to rank on the map." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const amarilloLocations = [
     metaDescription:
       'Amarillo SEO that ranks contractors on Google and delivers leads you own. Lead-tied reporting, no lock-in contracts, and built for Panhandle hail demand.',
     eyebrow: 'SEO Services · Amarillo, TX',
-    h1: 'Put your Amarillo business at the top of Google and keep it parked there',
+    h1: 'Amarillo SEO that builds Panhandle rankings you actually own',
     h2Exact: 'Amarillo SEO Company',
     heroSubhead:
       "Ads die the instant you stop feeding them. SEO does the opposite: rank once for what Amarillo searches and the leads keep arriving. We build that ranking, tie every report to real calls and booked jobs, and get you there before the first hail cell forms.",
@@ -192,7 +192,7 @@ export const amarilloLocations = [
     problemHeading: "Three reasons your Amarillo site is not bringing in work",
     painPoints: [
       { title: "You are stranded on page two", body: "Hardly anyone clicks past Google's first page, and they rarely scroll far down it. If you are not in the top handful of results for what you sell, your site is invisible, no matter how clean your work is or how many years you have run in Amarillo." },
-      { title: "You are renting traffic from Google Ads", body: "Ads can work, but the second your card stops, the leads stop. SEO builds an asset you own: rankings that keep producing leads months and years after the work is paid for, at a fraction of the per-lead cost. In a market with predictable storm-driven cycles, owning that asset matters even more." },
+      { title: "You are renting traffic from Google Ads", body: "Ads can work, but the second your card stops, the leads stop. Search engine optimization builds an asset you own: rankings that keep producing organic traffic and leads months and years after the work is paid for, at a fraction of the per-lead cost. In a market with predictable storm-driven cycles, owning that asset matters even more." },
       { title: "You are not ranking for the demand that pays", body: "Amarillo demand swings hard with hail season and extreme temperature events, and the contractors who rank for those terms ahead of time catch the surge. If your SEO ignores storm-driven and seasonal searches, you are handing away your busiest months." },
     ],
     servicesHeading: 'The SEO work that actually moves rankings',
@@ -233,7 +233,7 @@ export const amarilloLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search results." },
       { q: 'Which areas around Amarillo do you cover?', a: "The whole Amarillo metro and surrounding Panhandle towns: Canyon, Bushland, Tascosa, Randall County, Potter County, Hereford, Pampa, Borger and more, each with a genuine local page rather than one generic Amarillo page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send leads straight to you. The more you own your search visibility, the less you depend on brokers for shared leads, and the less you elbow out-of-state chasers who buy those same leads after every hail event." },
-      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is the clearest way to see what Amarillo SEO can do for your pipeline before you commit a dollar. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const amarilloLocations = [
     metaDescription:
       'Amarillo web design that turns visitors into booked jobs. Fast, mobile-first sites built for contractors and ready for Panhandle hail-season demand.',
     eyebrow: 'Web Design · Amarillo, TX',
-    h1: 'Amarillo web design that turns visitors into booked jobs',
+    h1: 'Amarillo web design engineered to bring in real work from Wolflin to Canyon',
     h2Exact: 'Amarillo Web Design Company',
     heroSubhead:
       "A handsome website that never rings the phone is just a brochure. We build Amarillo contractors fast, mobile-first sites engineered to turn visitors into booked work, and to stay standing when hail season has your phone going nonstop.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Amarillo contractor sites leak leads quietly: slow on a phone, a call button buried halfway down, no clear offer up top. Web design done right plugs every one of those holes. We build sites that load fast, look like the pro you already are, and turn Wolflin-to-Canyon visitors into booked jobs, sites that hold up when a major hailstorm sends your traffic vertical.",
+      "Amarillo Web Design is about one thing for a contractor: turning a click into a booked job. Most Amarillo contractor sites leak leads quietly: slow on a phone, a call button buried halfway down, no clear offer up top. Web design done right plugs every one of those holes. We build mobile-first sites that load fast, look like the pro you already are, and convert Wolflin-to-Canyon visitors into booked jobs, sites that hold up when a major hailstorm sends your traffic vertical.",
     aioQuestion: 'What makes a good contractor website in Amarillo?',
     aioAnswer:
       "A strong Amarillo contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, earns trust with reviews and real project photos, and is built to absorb traffic surges during hail and tornado season. Because most Amarillo searches happen on mobile and storm-driven demand can land overnight, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const amarilloLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage — usually WordPress or Webflow. We'll recommend the right fit in your free consult and explain the tradeoffs plainly." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month — you can leave whenever." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Amarillo contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Amarillo contractor website should include, and a fixed-price quote with a timeline. It is the simplest way to see what Amarillo Web Design can do for your booking rate. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const amarilloLocations = [
     citySlug: 'amarillo', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Amarillo Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Amarillo website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season.',
+      'Amarillo Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in hail season.',
     eyebrow: 'Website Redesign · Amarillo, TX',
-    h1: 'Redesign your Amarillo website without losing your rankings',
+    h1: 'Amarillo Website Redesign that modernizes your site without tanking your Panhandle traffic',
     h2Exact: 'Amarillo Website Redesign Company',
     heroSubhead:
       "An outdated site costs you jobs every week — slow, hard to use on a phone, easy to ignore. We redesign Amarillo contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of ranking you've earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Amarillo contractor sites for speed and conversions, build them to handle hail-season traffic, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "An Amarillo Website Redesign usually goes one of two bad ways: the site looks better but converts the same, or it launches and the rankings vanish overnight. We do neither. We rebuild Amarillo contractor sites mobile-first for speed and conversions, build them to handle hail-season traffic, and run an SEO-safe migration with the redirects and care that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const amarilloLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: 'Do I own the redesigned site?', a: "Completely — the site, the domain, and the content. No platform lock-in." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It is the easiest way to see whether an Amarillo Website Redesign is worth it for your shop before you spend a dollar." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const amarilloCity = {
 
   titleTag: 'Amarillo Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Amarillo contractors. Get found, get booked, and own your leads instead of renting them — built for hail-season demand.',
+    'Amarillo marketing for contractors: web design, SEO, and local SEO that get you found and booked, so you own your leads instead of renting them, built for hail-season demand.',
 
   eyebrow: 'Amarillo · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Amarillo contractors found and booked',
+  h1: 'Amarillo marketing for contractors built around the trades and Panhandle hail season',
   h2Exact: 'Amarillo Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for the Texas Panhandle's hail-driven, temperature-extreme market. One team to get you ranking, converting, and off the rented-lead treadmill — before storm season.",
@@ -386,7 +386,7 @@ export const amarilloCity = {
   primaryCta: 'Get my free Amarillo audit',
 
   intro:
-    "If you run a contracting business in Amarillo, you're fighting for attention in a market defined by extremes — baseball-sized hail every spring, temperature swings that keep HVAC companies busy year-round, and a steady wave of out-of-state storm chasers who flood in after every major event and compete for your leads. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack — all in place before the next storm cell drops on the Panhandle. Here's how we help Amarillo contractors do exactly that.",
+    "Amarillo marketing for contractors lives or dies in a market defined by extremes: baseball-sized hail every spring, temperature swings that keep HVAC companies busy year-round, and a steady wave of out-of-state storm chasers who flood in after every major event and compete for your leads. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all in place before the next storm cell drops on the Panhandle. As your Amarillo digital marketing agency, here's how we help contractors do exactly that.",
   aioQuestion: 'How do Amarillo contractors get more leads online?',
   aioAnswer:
     "Amarillo contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because the Panhandle sees intense hail and tornado season from April through August and extreme HVAC demand year-round, the contractors who look established and are already ranking before the storm win the most work — and keep it away from out-of-state chasers.",
@@ -422,6 +422,6 @@ export const amarilloCity = {
     { q: 'Why does hail season matter for my marketing?', a: "Every spring, the Texas Panhandle gets some of the worst hailstorms in the country. When a major cell hits Amarillo, demand for roofing, restoration, and HVAC explodes overnight — and out-of-state chasers pour in to compete for the backlog. Ranking takes months to build, so the contractors already visible before the storm take that work. We get you in place ahead of season." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free audit." },
     { q: 'Which Amarillo areas do you serve?', a: "All of Amarillo and the surrounding Panhandle communities — Wolflin, Sleepy Hollow, River Road, Tascosa, Canyon, Bushland, and throughout Randall and Potter counties." },
-    { q: 'Where should I start?', a: "Start with a free Amarillo audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest — especially with storm season in mind. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Amarillo audit. We'll look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest, especially with storm season in mind. It is the simplest first step into Amarillo marketing for contractors built to get you found and booked. No pitch deck, just a plan." },
   ],
 };

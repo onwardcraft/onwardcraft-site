@@ -111,9 +111,9 @@ export const arlingtonLocations = [
     citySlug: 'arlington', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Arlington Local SEO Company | Win the Map Pack',
     metaDescription:
-      'Search your trade in Arlington and three businesses pin to the map. We get you into those three so the call lands with you, not a Mid-Cities competitor.',
+      'Arlington Local SEO that pins your trade to the Google Map Pack. We get you into the top three so the call lands with you, not a Mid-Cities competitor.',
     eyebrow: 'Local SEO · Arlington-Mid-Cities',
-    h1: 'When Arlington searches for what you do, be the first name on the map',
+    h1: 'Arlington Local SEO that makes you the first name on the map from Downtown Arlington to Mansfield',
     h2Exact: 'Arlington Local SEO Company',
     heroSubhead:
       "Google pins three businesses to the map the moment someone searches \"near me.\" Everyone underneath them basically does not exist. We get you into that top three so the Arlington homeowner calls you instead of whoever ranked first, and so your phone is already winning when the next hailstorm lights up every screen in the Mid-Cities.",
@@ -167,7 +167,7 @@ export const arlingtonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More and more Arlington \"near me\" research now starts inside AI instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the Map Pack itself." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement in a market this competitive. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build the rankings, Google profile, and review base that send Arlington homeowners straight to you. Over time you lean on the brokers less because the work is coming to you directly." },
-      { q: "What's in the free Arlington audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck. Just a straight diagnosis." },
+      { q: "What's in the free Arlington audit?", a: "A clear read on where you rank today across your service areas, what your local 3-pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. It is the honest starting point for Arlington Local SEO that actually puts you on the map. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const arlingtonLocations = [
     metaDescription:
       'Arlington SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in, built for Mid-Cities hail-season demand.',
     eyebrow: 'SEO Services · Arlington-Mid-Cities',
-    h1: 'Get your Arlington business to the top of Google and keep it there',
+    h1: 'Arlington SEO that puts your business on page one across the Mid-Cities and holds it',
     h2Exact: 'Arlington SEO Company',
     heroSubhead:
       "Ads die the second you stop paying for them. SEO is the opposite: rank once for what your Arlington customers search and the leads keep landing for months. We build that ranking across the Mid-Cities and tie every report to real calls and booked jobs, not vanity traffic.",
@@ -233,7 +233,7 @@ export const arlingtonLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your Arlington business, not just classic search." },
       { q: 'Which areas around Arlington do you cover?', a: "All of Arlington and the surrounding Mid-Cities: Mansfield, Grand Prairie, Euless, Bedford, Hurst, Pantego, Colleyville, Southlake and more, with genuine local pages rather than one generic Arlington page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that send Arlington leads directly to you. The more you own your search visibility, the less you depend on paying brokers for shared leads." },
-      { q: "What's in the free Arlington SEO audit?", a: "Where you rank today, what your Mid-Cities competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free Arlington SEO audit?", a: "Where you rank today, what your Mid-Cities competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. It is a straight look at what Arlington SEO can do for your organic traffic and your pipeline. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const arlingtonLocations = [
     metaDescription:
       'Arlington web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and Mid-Cities hail-season demand.',
     eyebrow: 'Web Design · Arlington-Mid-Cities',
-    h1: 'Arlington web design that turns visitors into booked jobs',
+    h1: 'Arlington web design that books hail-season jobs instead of just looking nice',
     h2Exact: 'Arlington Web Design Company',
     heroSubhead:
       "A pretty website that never rings the phone is just a brochure. We build Arlington contractors fast, mobile-first sites engineered to turn visitors into booked work, and built to stay standing the day hail season floods every screen in the Mid-Cities.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Arlington contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. Web design done right plugs every one of those leaks. We build sites that load fast, look like the professional you already are, and turn Downtown-Arlington-to-Mansfield visitors into booked jobs, sites that do not fall over when a hailstorm sends your traffic through the roof.",
+      "Arlington Web Design done right plugs the leaks that quietly bleed contractor sites dry: slow on a phone, call button buried, no clear offer anywhere. We build sites that load fast, look like the professional you already are, and turn Downtown-Arlington-to-Mansfield visitors into booked jobs, sites that do not fall over when a hailstorm sends your traffic through the roof.",
     aioQuestion: 'What makes a good contractor website in Arlington?',
     aioAnswer:
       "A good Arlington contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during hail season. Because most Arlington searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there collecting dust.",
@@ -299,7 +299,7 @@ export const arlingtonLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage yourself, usually WordPress or Webflow. We will recommend the right fit in your free consult and explain the tradeoffs in plain English." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, and you can leave whenever you want." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost Arlington leads, what a high-converting site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost Arlington leads, what a high-converting site should include, and a fixed-price quote with a timeline. It is the simplest way to see what Arlington Web Design built around your trade is worth. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const arlingtonLocations = [
     citySlug: 'arlington', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Arlington Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Arlington website without losing rankings. Faster, mobile-first rebuilds that convert more visitors and hold up in Mid-Cities hail season.',
+      'Arlington Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors and hold up in Mid-Cities hail season.',
     eyebrow: 'Website Redesign · Arlington-Mid-Cities',
-    h1: 'Redesign your Arlington website without losing your rankings',
+    h1: 'Arlington Website Redesign that rebuilds for Mid-Cities leads, not just looks',
     h2Exact: 'Arlington Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy to scroll right past. We redesign Arlington contractor sites to convert more and load faster, and we migrate carefully so you keep every bit of Mid-Cities ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks sharper but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Arlington contractor sites for speed and conversions, build them to take a hail-season traffic surge, and migrate with the redirects and SEO care that protect the Mid-Cities traffic you already own.",
+      "Arlington Website Redesign goes one of two bad ways for most contractors: the site looks sharper but converts the same, or it launches and the rankings vanish overnight. We do neither. We redesign Arlington contractor sites for speed and conversions, build them to take a hail-season traffic surge, and handle the SEO-safe migration with the redirects that protect the Mid-Cities traffic you already own.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one. In a competitive Arlington market, that care is what keeps a redesign from setting you back months.",
@@ -365,7 +365,7 @@ export const arlingtonLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings across the Arlington market." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in, ever." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in Arlington leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in Arlington leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It tells you plainly whether an Arlington Website Redesign is worth it for your business." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const arlingtonCity = {
 
   titleTag: 'Arlington Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Arlington contractors. Get found, get booked, and own your leads instead of renting them, built for Mid-Cities hail-season demand.',
+    'Arlington marketing for contractors: web design, SEO, and local SEO that gets you found and booked, so you own your leads instead of renting them.',
 
   eyebrow: 'Arlington · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Arlington contractors found and booked',
+  h1: 'Arlington marketing for contractors who want to own their Mid-Cities leads',
   h2Exact: 'Arlington Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Arlington's dense, diverse, storm-driven Mid-Cities market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const arlingtonCity = {
   primaryCta: 'Get my free Arlington audit',
 
   intro:
-    "If you run a contracting business in Arlington, you are fighting for attention in the busy heart of the Dallas-Fort Worth Metroplex, and the competition is everywhere you look. Winning here takes three things working together: a site that converts, SEO that ranks you for what homeowners search, and local SEO that puts you in the Map Pack, all set before the next hailstorm sends Mid-Cities demand through the roof. Here is how we help Arlington contractors do exactly that.",
+    "Arlington marketing for contractors comes down to fighting for attention in the busy heart of the Dallas-Fort Worth Metroplex, where the competition is everywhere you look. Winning here takes three things working together: a site that converts, SEO that ranks you for what homeowners search, and local SEO that puts you in the Map Pack, all set before the next hailstorm sends Mid-Cities demand through the roof. Here is how our web design and SEO for Arlington contractors do exactly that.",
   aioQuestion: 'How do Arlington contractors get more leads online?',
   aioAnswer:
     "Arlington contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Arlington is a dense, diverse Mid-Cities market and demand spikes hard during spring hail and tornado season, the contractors who look established and are already ranking before the storm win the most work.",
@@ -422,6 +422,6 @@ export const arlingtonCity = {
     { q: 'Why does hail season matter for my marketing?', a: "When a spring hailstorm or tornado hits North Texas, demand for roofing and restoration spikes overnight and the backlog can run for months. Ranking takes months to build, so the contractors who are already visible before the storm take that work. We get you in place ahead of the Mar to Jun window." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm exact scope in your free Arlington audit." },
     { q: 'Which Arlington areas do you serve?', a: "All of Arlington and the surrounding Mid-Cities: Downtown Arlington, Mansfield, Grand Prairie, Euless, Bedford, Hurst, Pantego, Kennedale, plus Colleyville, Southlake and more." },
-    { q: 'Where should I start?', a: "Start with a free Arlington audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Arlington audit. We will look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves in your Arlington marketing for contractors that will bring in the most work fastest. No pitch deck, just a plan." },
   ],
 };

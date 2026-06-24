@@ -111,15 +111,15 @@ export const anchorageLocations = [
     citySlug: 'anchorage', serviceSlug: 'local-seo', service: 'Local SEO',
     titleTag: 'Anchorage Local SEO Company | Win the Map | OnwardCraft',
     metaDescription:
-      'Search your trade in Anchorage and Google pins three businesses to the map. We get you into those three so the emergency call lands with you, not a rival.',
+      'Anchorage Local SEO that pins your business to the map when homeowners search your trade. We get you into the top three so the emergency call lands with you, not a rival.',
     eyebrow: 'Local SEO · Anchorage, Alaska',
-    h1: 'When Anchorage searches for your trade, be the first name on the map',
+    h1: 'Anchorage Local SEO that puts your business in the Map Pack when the furnace dies in Spenard',
     h2Exact: 'Anchorage Local SEO Company',
     heroSubhead:
       "Google pins exactly three businesses to the map on a \"near me\" search, and almost nobody scrolls past them. In a city where a dead furnace at -30°F is a survival problem, we get you into that top three for your neighborhoods, so the call reaches you before the homeowner ever tries the next contractor.",
     primaryCta: 'Get my free Anchorage audit',
     intro:
-      "Anchorage local SEO really comes down to one moment: a homeowner in Eagle River or South Anchorage types your trade plus \"near me,\" and either you are one of the three businesses Google sticks to the map or you are not. Most people tap one of those three and never look further. This market runs on urgency, from heating failures in a brutal six-month winter to post-earthquake repair to the narrow summer renovation window, and the contractor who already ranks is the one who catches every call worth catching. Below is exactly how we get you there.",
+      "Anchorage local SEO really comes down to one moment: a homeowner in Eagle River or South Anchorage types your trade plus \"near me,\" and either you are one of the three businesses Google sticks to the map, the local 3-pack, or you are not. Most people tap one of those three and never look further. This market runs on urgency, from heating failures in a brutal six-month winter to post-earthquake repair to the narrow summer renovation window, and the contractor who already ranks on the map is the one who catches every call worth catching. Below is exactly how we get you there.",
     aioQuestion: 'How do Anchorage businesses rank higher in local search?',
     aioAnswer:
       "You win by nailing four things: a Google Business Profile tuned to the precise services and Anchorage neighborhoods you want, name-address-phone listings that match everywhere across the web, a steady drip of real reviews, and local content built around actual Anchorage communities and Alaska-specific work. Because this is a tight, urgency-driven market shaped by deep cold, seismic risk, and a military population with no local network, the contractors who win target specific neighborhoods, lead with emergency availability, and get ranked before demand spikes rather than after.",
@@ -167,7 +167,7 @@ export const anchorageLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "More \"near me\" research now begins inside AI rather than classic search. We structure your content and schema so those engines can read, trust, and cite your business. It is fast becoming as important as the map itself, and we build for it now rather than playing catch-up later." },
       { q: 'Am I locked into a contract?', a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: 'How does this get me off Angi and HomeAdvisor?', a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that route leads straight to you alone. Over time you lean on the brokers less and less, because the work is already coming to you directly." },
-      { q: "What is in the free audit?", a: "A clear read on where you rank today across your Anchorage neighborhoods, what your map competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your actual business. No pitch deck. Just a straight diagnosis." },
+      { q: "What is in the free audit?", a: "A clear read on where you rank today across your Anchorage neighborhoods, what your map competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your actual business. It is the fastest way to see exactly what Anchorage Local SEO can do for your pipeline. No pitch deck. Just a straight diagnosis." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const anchorageLocations = [
     metaDescription:
       'Anchorage SEO that ranks contractors on Google and feeds you leads you own. Lead-tied reporting, no lock-in contracts, built for an extreme-climate market.',
     eyebrow: 'SEO Services · Anchorage, Alaska',
-    h1: 'Get your Anchorage business to the top of Google and keep it there',
+    h1: 'Anchorage SEO that gets you to the top of Google for no-heat searches and keeps you there',
     h2Exact: 'Anchorage SEO Company',
     heroSubhead:
       "Ads die the second you stop paying. SEO does the opposite: rank once for what your Anchorage customers search and the leads keep coming through winter, earthquake season, and the summer renovation rush. We build that ranking and tie every report to real calls and booked jobs, not vanity traffic.",
@@ -191,7 +191,7 @@ export const anchorageLocations = [
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms Alaska customers type, publishing genuinely useful local content tied to Anchorage neighborhoods and Alaska-specific work, and earning links from trusted local sources. In a market shaped by deep cold, seismic risk, and a military population, the fastest way to pull ahead is to rank for emergency and seasonal terms before the surge lands, because a homeowner does not comparison-shop when it is -30°F and the heat is out.",
     problemHeading: "Three reasons your Anchorage site is not bringing in work",
     painPoints: [
-      { title: "You are stranded on page two", body: "Almost nobody clicks past the first page of Google. In Anchorage, where a heating failure is urgent and the homeowner needs help now, the contractor on page two basically does not exist. If you are not in the top handful of results for what you do, your site is invisible, no matter how strong your reputation is by word of mouth." },
+      { title: "You are stranded on page two", body: "Almost nobody clicks past page one of Google. In Anchorage, where a heating failure is urgent and the homeowner needs help now, the contractor who fails to rank on Google's first page basically does not exist. If you are not in the top handful of results for what you do, your site is invisible, no matter how strong your reputation is by word of mouth." },
       { title: "You are renting your traffic from Google Ads", body: "Ads can work, but the instant your card stops, the leads stop with it. SEO builds an asset you own: rankings that keep producing leads through every winter emergency, every wave of earthquake repair, and every summer renovation season, at a fraction of the per-lead cost once they mature." },
       { title: "You are not ranking for the demand that matters", body: "Anchorage demand spikes in ways most contractors fail to plan for: heating and pipe emergencies across the six-month winter, a compressed renovation window in June through August, and post-earthquake structural calls with no warning at all. The contractors who rank for those terms ahead of time catch every surge. Ignore them in your SEO and you leave your highest-value work sitting on the table for someone else." },
     ],
@@ -233,7 +233,7 @@ export const anchorageLocations = [
       { q: 'Will I show up in Google AI Overviews and ChatGPT?', a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business, not just classic search results." },
       { q: 'Which Anchorage areas do you cover?', a: "All of Anchorage and surrounding communities: Midtown, Spenard, South Anchorage, Eagle River, Chugiak, Downtown, Mountain View, Muldoon, Abbott Loop, Girdwood, plus the Mat-Su Valley including Wasilla and Palmer, with genuine local pages rather than one generic Anchorage page." },
       { q: 'How do you get me off Angi and HomeAdvisor leads?', a: "By building rankings and a Google presence that route leads straight to you. The more you own your search visibility, the less you depend on paying brokers for leads that were already sold to three competitors." },
-      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your actual business. No pitch deck, just a diagnosis." },
+      { q: "What is in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your actual business. It is the clearest picture you will get of what Anchorage SEO can do to grow your organic traffic. No pitch deck, just a diagnosis." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const anchorageLocations = [
     metaDescription:
       'Anchorage web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors in an extreme-climate, oil-economy market.',
     eyebrow: 'Web Design · Anchorage, Alaska',
-    h1: 'Anchorage web design that turns visitors into booked jobs',
+    h1: 'Anchorage web design that turns the 3 a.m. emergency search into a booked job',
     h2Exact: 'Anchorage Web Design Company',
     heroSubhead:
       "A handsome website that never produces a call is just a brochure. We build Anchorage contractors fast, mobile-first sites engineered to turn visitors into booked work, designed for a market where the emergency hits at 3 a.m. in January and the homeowner has to decide in seconds.",
     primaryCta: 'Get my free quote',
     intro:
-      "Most Anchorage contractor sites bleed leads quietly: slow on a phone, the call button buried, no clear offer, and nothing that speaks to a -30°F winter or a post-earthquake repair. Done right, web design fixes every bit of that. We build sites that load fast, look like the professional you already are, and turn visitors from Eagle River to Girdwood into booked jobs, designed specifically for a market where trust and urgency decide who gets hired.",
+      "Anchorage web design has one real job: turning a visitor into a booked call. Most contractor sites bleed leads quietly instead: slow on a phone, the call button buried, no clear offer, and nothing that speaks to a -30°F winter or a post-earthquake repair. Done right, web design fixes every bit of that. We build fast-loading sites that look like the professional you already are and turn visitors from Eagle River to Girdwood into booked jobs, designed specifically for a market where trust and urgency decide who gets hired.",
     aioQuestion: 'What makes a good contractor website in Anchorage?',
     aioAnswer:
       "A good Anchorage contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and names the specific Anchorage neighborhoods you serve. Because so many Anchorage searches happen mid-emergency, from no-heat to burst pipes to post-earthquake damage, an obvious phone number and a plain statement of emergency availability are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const anchorageLocations = [
       { q: 'What platform do you build on?', a: "We pick the platform that fits your needs and that you can actually manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs in plain language." },
       { q: 'Do you offer ongoing support?', a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that, with no obligation to keep it." },
       { q: 'Am I locked into a contract?', a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you choose." },
-      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Anchorage contractor site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: 'What do I get in the free quote?', a: "A clear look at what your current site is costing you in lost leads, what a high-converting Anchorage contractor website should include, and a fixed-price quote with a timeline. It is the simplest way to see what Anchorage Web Design built around booked jobs would mean for your business. No pressure, just a plan." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const anchorageLocations = [
     citySlug: 'anchorage', serviceSlug: 'website-redesign', service: 'Website Redesign',
     titleTag: 'Anchorage Website Redesign | OnwardCraft',
     metaDescription:
-      'Redesign your Anchorage website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in an extreme-climate market.',
+      'Anchorage Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs in an extreme-climate market.',
     eyebrow: 'Website Redesign · Anchorage, Alaska',
-    h1: 'Redesign your Anchorage website without losing your rankings',
+    h1: 'Anchorage Website Redesign that converts more without losing your hard-won Alaska rankings',
     h2Exact: 'Anchorage Website Redesign Company',
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, awkward on a phone, and silent on Anchorage winters or earthquake prep. We redesign Anchorage contractor sites to convert more and load faster, and we migrate with enough care that you keep every bit of ranking you have already earned.",
     primaryCta: 'Get my free redesign audit',
     intro:
-      "Most redesigns go one of two bad ways: the site looks sharper but converts exactly the same, or it launches and the rankings evaporate overnight. We refuse to do either. We redesign Anchorage contractor sites for speed and conversions, build them to speak to what Alaska homeowners actually worry about, and migrate with the redirects and SEO care that protect the traffic you already have.",
+      "An Anchorage website redesign usually goes one of two bad ways: the site looks sharper but converts exactly the same, or it launches and the rankings evaporate overnight. We refuse to do either. We redesign Anchorage contractor sites for speed and conversions, build them to speak to what Alaska homeowners actually worry about, and handle the SEO-safe migration, redirects and metadata, that protect the traffic you already have.",
     aioQuestion: 'How do I redesign my website without losing SEO and traffic?',
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign holds your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one, and in Anchorage that means capturing more of the heating-emergency and seasonal renovation searches that drive the highest-value work.",
@@ -365,7 +365,7 @@ export const anchorageLocations = [
       { q: 'Will the new site be mobile-friendly and fast?', a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings together." },
       { q: 'Do I own the redesigned site?', a: "Completely: the site, the domain, and the content. No platform lock-in of any kind." },
       { q: 'Am I locked into a contract?', a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month, cancel whenever." },
-      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. No pressure, just a plan." },
+      { q: "What is in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It shows you exactly what an Anchorage Website Redesign would change for your lead flow. No pressure, just a plan." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const anchorageCity = {
 
   titleTag: 'Anchorage Marketing for Contractors | OnwardCraft',
   metaDescription:
-    'Web design, SEO, and local SEO for Anchorage contractors. Get found during winter emergencies and renovation season, and own your leads instead of renting.',
+    'Anchorage marketing for contractors: web design, SEO, and local SEO that get you found during winter emergencies and renovation season, so you own your leads instead of renting.',
 
   eyebrow: 'Anchorage · Web Design, SEO & Lead Generation',
-  h1: 'Marketing that gets Anchorage contractors found and booked',
+  h1: 'Anchorage marketing for contractors that gets you found and booked through winter emergencies',
   h2Exact: 'Anchorage Marketing Agency for Contractors',
   heroSubhead:
     "Websites, SEO, and local SEO built for Anchorage's extreme-climate, oil-economy, military market. One team to get you ranking before heating season, converting all year, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const anchorageCity = {
   primaryCta: 'Get my free Anchorage audit',
 
   intro:
-    "If you run a contracting business in Anchorage, you are competing in one of the most demanding markets in North America. Winters fall to -40°F, major earthquakes shake the ground, the summer renovation window lasts only 8 to 10 weeks, and a large military population at JBER arrives with no local network and heads straight to Google. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you on the map for the neighborhoods and emergencies you serve. Here is how we help Anchorage contractors do exactly that.",
+    "Anchorage marketing for contractors has to answer one hard market: you are competing in one of the most demanding regions in North America. Winters fall to -40°F, major earthquakes shake the ground, the summer renovation window lasts only 8 to 10 weeks, and a large military population at JBER arrives with no local network and heads straight to Google. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you on the map for the neighborhoods and emergencies you serve. Here is how we help Anchorage contractors do exactly that.",
   aioQuestion: 'How do Anchorage contractors get more leads online?',
   aioAnswer:
     "Anchorage contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google map neighborhood by neighborhood. Because the market is urgency-driven, from heating emergencies in brutal winters to post-earthquake repairs to a short renovation season, and includes a large military population leaning entirely on Google, the contractors who rank before demand spikes win the most work.",
@@ -417,11 +417,11 @@ export const anchorageCity = {
   ],
 
   faqs: [
-    { q: 'What marketing services do you offer in Anchorage?', a: "Four core services for contractors: web design, website redesign, SEO, and local SEO. Most clients pair a high-converting website with SEO and local SEO so they rank, convert, and own their leads straight through Anchorage's winter emergencies, earthquake repair waves, and summer renovation season." },
+    { q: 'What marketing services do you offer in Anchorage?', a: "Four core services for contractors: web design, website redesign, SEO, and local SEO. As a focused Anchorage digital marketing agency, we pair web design and SEO for Anchorage contractors with local SEO so most clients rank, convert, and own their leads straight through Anchorage's winter emergencies, earthquake repair waves, and summer renovation season." },
     { q: 'Do you work only with contractors?', a: "Almost entirely. We specialize in home-service trades: roofing, HVAC, plumbing, electrical, restoration, seismic retrofit, and general contractors, so we already understand Anchorage heating emergencies, Alaska-specific construction like permafrost pilings, and the short summer renovation window." },
     { q: 'Why does the Anchorage market need a different approach?', a: "Anchorage is shaped by forces almost no other U.S. market shares: winters that turn furnace failures into survival calls, major earthquakes that create sudden demand for structural repair, a short renovation season, and a large military population with no local contractor network. Winning here means ranking before demand spikes and showing up with messaging that speaks to real Alaska conditions." },
     { q: 'How much does it cost to work with you?', a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free audit before you commit." },
     { q: 'Which Anchorage areas do you serve?', a: "All of Anchorage and surrounding communities: Midtown, Spenard, South Anchorage, Eagle River, Chugiak, Downtown, Mountain View, Muldoon, Girdwood, plus the Mat-Su Valley including Wasilla and Palmer." },
-    { q: 'Where should I start?', a: "Start with a free Anchorage audit. We will look at your website, your rankings, and your map presence, then tell you the one or two moves that will bring in the most work fastest, whether that is capturing the next heating season, the summer renovation rush, or year-round earthquake-prep searches. No pitch deck, just a plan." },
+    { q: 'Where should I start?', a: "Start with a free Anchorage audit. We will look at your website, your rankings, and your map presence, then tell you the one or two moves that will bring in the most work fastest, whether that is capturing the next heating season, the summer renovation rush, or year-round earthquake-prep searches. It is the easiest first step into Anchorage marketing for contractors that actually gets you found and booked. No pitch deck, just a plan." },
   ],
 };

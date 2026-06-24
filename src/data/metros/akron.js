@@ -111,9 +111,9 @@ export const akronLocations = [
     citySlug: "akron", serviceSlug: "local-seo", service: "Local SEO",
     titleTag: "Akron Local SEO Company | Win the Map Pack | OnwardCraft",
     metaDescription:
-      "When Akron searches your service, three businesses show on the map. We put you in those three so the freeze-season call lands with you, not a competitor.",
+      "Akron Local SEO that wins the Map Pack. When a homeowner searches your service, we put you in the top three so the freeze-season call lands with you.",
     eyebrow: "Local SEO · Akron, OH",
-    h1: "When Akron searches for what you do, be the first name on the map",
+    h1: "Akron Local SEO that puts you in the Map Pack before the next lake-effect freeze",
     h2Exact: "Akron Local SEO Company",
     heroSubhead:
       "Google pins three businesses to the map when a homeowner searches \"near me,\" and everyone underneath them is invisible. We muscle you into that top three so the call lands with you instead of whoever ranks first, and so you are already there when the next Ohio freeze sends every Summit County phone into overdrive.",
@@ -125,7 +125,7 @@ export const akronLocations = [
       "You rank by getting four things right: a Google Business Profile tuned to the exact services and Summit County neighborhoods you want; name, address, and phone details that match everywhere online; a steady flow of real reviews; and local content built around genuine Akron neighborhoods. In Ohio's freeze-prone climate the winners look established, answer emergency calls fast, and are already ranking before November demand spikes.",
     problemHeading: "If your phone is quiet, it's usually one of these three",
     painPoints: [
-      { title: "Your competitors own the three map spots", body: "Search your own service plus \"near me\" right now. Those three businesses Google pins to the map soak up the overwhelming majority of the clicks. If you are not one of them, the quality of your work barely matters, because most Akron homeowners never see your name. Climbing into that top three is usually the single highest-return move a local business here can make." },
+      { title: "Your competitors own the three map spots", body: "Search your own service plus \"near me\" right now. Those three businesses Google pins to the map, the local 3-pack, soak up the overwhelming majority of the clicks. If you are not one of them, the quality of your work barely matters, because most Akron homeowners never see your name. Climbing into that top three is usually the single highest-return move a local business here can make, and it is exactly what our local SEO services are built to do." },
       { title: "You're paying for leads you don't own", body: "Angi, Thumbtack, and HomeAdvisor sell the same Akron homeowner to four contractors at once, then bill each of you to brawl over them. It is a treadmill you can never get off. Local SEO builds the opposite asset: a homeowner finds you, calls you, and nobody else got the lead. Run it long enough and you stop renting visibility and start owning the pipeline." },
       { title: "You're not ready when the freeze hits", body: "When lake-effect snow and ice storms sweep across Summit County, demand for roofing, HVAC, and pipe repair goes vertical overnight, and the contractors already in the Map Pack scoop up those calls. If you are invisible on the map when the cold snaps in, that booked work flows to whoever Google already trusts. Ranking now is how you ride that wave instead of watching it roll past your shop." },
     ],
@@ -167,7 +167,7 @@ export const akronLocations = [
       { q: "Will I show up in Google AI Overviews and ChatGPT?", a: "More \"near me\" research now starts in AI tools instead of classic search. We structure your content and schema so those engines can read, trust, and cite your business. In Akron that is fast becoming as important as the Map Pack itself." },
       { q: "Am I locked into a contract?", a: "No. We ask for an initial 90 days because that is roughly how long local SEO needs to show real movement. After that it is month-to-month. If we are not delivering, you walk, and the accountability stays squarely on us." },
       { q: "How does this get me off Angi and HomeAdvisor?", a: "Those platforms rent you shared leads and visibility you never keep. We build rankings, a Google profile, and a review base that send leads straight to you alone. Over time you lean on the brokers less because the work is already coming to you direct." },
-      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis." },
+      { q: "What's in the free audit?", a: "A clear read on where you rank today across your service areas, what your Map Pack competitors are doing to beat you, the fixes that will move you fastest, and a realistic 90-to-180-day plan with the numbers run for your business. No pitch deck, just a straight diagnosis of what your Akron Local SEO needs to rank on the map." },
     ],
   },
 
@@ -179,7 +179,7 @@ export const akronLocations = [
     metaDescription:
       "Akron SEO that ranks contractors on Google and delivers leads you own. Revenue-tied reporting, no lock-in, built for Ohio winter and spring-thaw demand.",
     eyebrow: "SEO Services · Akron, OH",
-    h1: "Get your Akron business to the top of Google and keep it there",
+    h1: "Akron SEO that gets you to the top of Google for the jobs Highland Square homeowners search",
     h2Exact: "Akron SEO Company",
     heroSubhead:
       "Ads die the second you stop paying. SEO does the reverse: rank once for what your Akron customers search and the leads keep arriving for months. We build that ranking and tie every report to real calls and booked jobs, not vanity charts.",
@@ -191,7 +191,7 @@ export const akronLocations = [
       "They rank by fixing the technical foundation of the site, optimizing each page for the exact terms customers search, publishing genuinely useful local content, and earning links from trusted Akron sources. In a market with a professional homeowner class and hard seasonal demand from November to May, keeping the site fast on mobile and ranking for winter emergency terms are two of the quickest ways to pull ahead.",
     problemHeading: "Three reasons your Akron site isn't bringing in work",
     painPoints: [
-      { title: "You're stranded on page two", body: "Almost nobody clicks past the first page of Google, and they rarely scroll far down it either. If you are not in the top handful of results for what you sell, your site is effectively invisible no matter how sharp it looks. In Akron, that invisibility is exactly what is sending your jobs to the competition." },
+      { title: "You're stranded on page two", body: "Almost nobody clicks past the first page of Google, and they rarely scroll far down it either. If you are not in the top handful of results for what you sell, your site is effectively invisible no matter how sharp it looks. The whole job of search engine optimization is to rank on Google for the terms that bring you work, and in Akron that invisibility is exactly what is sending your jobs to the competition." },
       { title: "You're renting traffic from Google Ads", body: "Ads can work, but the instant your card stops, the leads stop cold. SEO builds an asset you actually own: rankings that keep producing leads months and years after the work is done, at a fraction of the per-lead cost you are paying now." },
       { title: "You're not ranking for the demand that matters", body: "Akron demand swings hard with Ohio winters and spring thaws, and the contractors who rank for those terms ahead of time catch the spike. If your SEO ignores freeze-driven and seasonal searches, you are quietly handing away your busiest, most profitable months." },
     ],
@@ -233,7 +233,7 @@ export const akronLocations = [
       { q: "Will I show up in Google AI Overviews and ChatGPT?", a: "That is a growing part of what we optimize for. We structure your content and schema so AI engines can read, trust, and cite your business by name, not just classic search results." },
       { q: "Which areas around Akron do you cover?", a: "All of Summit County and the surrounding communities: Cuyahoga Falls, Stow, Hudson, Fairlawn, Barberton, Norton, Tallmadge, Green and more, with genuine local pages rather than one generic Akron page." },
       { q: "How do you get me off Angi and HomeAdvisor leads?", a: "By building rankings and a Google presence that send leads directly to you. The more you own your search visibility, the less you depend on paying brokers for leads three competitors also bought." },
-      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a diagnosis." },
+      { q: "What's in the free SEO audit?", a: "Where you rank today, what your competitors are doing to beat you, the highest-impact fixes, and a realistic timeline with the numbers modeled for your business. No pitch deck, just a straight diagnosis of what your Akron SEO needs to reach page one and start earning organic traffic that converts." },
     ],
   },
 
@@ -245,13 +245,13 @@ export const akronLocations = [
     metaDescription:
       "Akron web design that turns visitors into booked jobs: fast, mobile-first sites built for contractors and ready for Ohio winter freeze-season demand.",
     eyebrow: "Web Design · Akron, OH",
-    h1: "Akron web design that turns visitors into booked jobs",
+    h1: "Akron web design that turns Merriman Valley visitors into booked jobs",
     h2Exact: "Akron Web Design Company",
     heroSubhead:
       "A handsome website that never generates a call is just an expensive brochure. We build Akron contractors fast, mobile-first sites engineered to turn visitors into booked work, and tough enough to hold up when a hard freeze sends your phone into overdrive.",
     primaryCta: "Get my free quote",
     intro:
-      "Most Akron contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. Web design done right closes all of those leaks. We build sites that load fast, look like the professional you actually are, and turn Highland-Square-to-Hudson visitors into booked jobs, and that do not fall over when an Ohio ice storm sends your traffic through the roof.",
+      "Akron Web Design is about one thing: turning the homeowner who lands on your site into a booked call. Most Akron contractor websites bleed leads quietly: slow on a phone, call button buried, no clear offer anywhere. Website design done right closes all of those leaks. We build fast-loading, mobile-first sites that look like the professional you actually are, and turn Highland-Square-to-Hudson visitors into booked jobs, and that do not fall over when an Ohio ice storm sends your traffic through the roof.",
     aioQuestion: "What makes a good contractor website in Akron?",
     aioAnswer:
       "A good Akron contractor website loads in under three seconds on a phone, puts the call button and a clear offer above the fold, proves trust with reviews and real project photos, and is built to handle traffic spikes during winter freeze season. Because most Akron searches happen on mobile, mobile speed and an obvious next step are what separate a site that books jobs from one that just sits there.",
@@ -299,7 +299,7 @@ export const akronLocations = [
       { q: "What platform do you build on?", a: "We pick the platform that fits your needs and that you can actually manage yourself, usually WordPress or Webflow. We recommend the right fit in your free consult and explain the tradeoffs in plain English." },
       { q: "Do you offer ongoing support?", a: "Yes. Every build includes launch support, and we offer affordable monthly maintenance for updates, speed, and security after that." },
       { q: "Am I locked into a contract?", a: "No. The build is a one-time project with a fixed price. Any ongoing maintenance or SEO is month-to-month, so you can leave whenever you like." },
-      { q: "What do I get in the free quote?", a: "A clear look at what your current site is costing you in lost leads, what a high-converting Akron site should include, and a fixed-price quote with a timeline. No pressure, just a plan." },
+      { q: "What do I get in the free quote?", a: "A clear look at what your current contractor website is costing you in lost leads, what a high-converting Akron site should include, and a fixed-price quote with a timeline. No pressure, just a plan for the Akron Web Design that finally turns visitors into booked jobs." },
     ],
   },
 
@@ -309,15 +309,15 @@ export const akronLocations = [
     citySlug: "akron", serviceSlug: "website-redesign", service: "Website Redesign",
     titleTag: "Akron Website Redesign | OnwardCraft",
     metaDescription:
-      "Redesign your Akron website without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in Ohio winters.",
+      "Akron Website Redesign without losing rankings. Faster, mobile-first rebuilds that convert more visitors into booked jobs and hold up in Ohio winters.",
     eyebrow: "Website Redesign · Akron, OH",
-    h1: "Redesign your Akron website without losing your rankings",
+    h1: "Akron Website Redesign that converts more freeze-season traffic without losing your rankings",
     h2Exact: "Akron Website Redesign Company",
     heroSubhead:
       "An outdated site quietly costs you jobs every week: slow, clumsy on a phone, easy for an Akron homeowner to skip past. We redesign contractor sites to convert more and load faster, and we migrate so carefully that you keep every bit of ranking you have already earned.",
     primaryCta: "Get my free redesign audit",
     intro:
-      "Most redesigns go one of two bad ways: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Akron contractor sites for speed and conversions, build them to survive winter-demand surges, and migrate with the redirects and SEO care that protect the traffic you have spent years building.",
+      "An Akron Website Redesign goes one of two bad ways when it is done carelessly: the site looks prettier but converts exactly the same, or it launches and the rankings vanish overnight. We do neither. We redesign Akron contractor sites for speed and conversions, build them to survive winter-demand surges, and run an SEO-safe migration with the redirects and care that protect the traffic you have spent years building.",
     aioQuestion: "How do I redesign my website without losing SEO and traffic?",
     aioAnswer:
       "You protect SEO during a redesign by keeping your URL structure (or mapping 301 redirects for every changed page), preserving your existing content and metadata, migrating your schema, and testing everything on staging before launch. Done right, a redesign keeps your rankings and improves them, because the new site is faster, mobile-first, and better structured than the old one.",
@@ -365,7 +365,7 @@ export const akronLocations = [
       { q: "Will the new site be mobile-friendly and fast?", a: "Yes. We rebuild mobile-first and tune for fast load and Core Web Vitals, which lifts both conversions and rankings." },
       { q: "Do I own the redesigned site?", a: "Completely: the site, the domain, and the content. No platform lock-in of any kind." },
       { q: "Am I locked into a contract?", a: "No. The redesign is a one-time project. Any ongoing maintenance or SEO is month-to-month." },
-      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan." },
+      { q: "What's in the free redesign audit?", a: "A clear read on what your current site is costing you in leads and rankings, what the redesign should fix, and a fixed-price quote with a timeline and a safe migration plan. It is the honest first step toward an Akron Website Redesign that rebuilds for conversions without losing rankings." },
     ],
   },
 ];
@@ -375,10 +375,10 @@ export const akronCity = {
 
   titleTag: "Akron Marketing for Contractors | OnwardCraft",
   metaDescription:
-    "Web design, SEO, and local SEO for Akron contractors. Get found, get booked, and own your leads instead of renting them, all built for Ohio winter demand.",
+    "Akron marketing for contractors: web design, SEO, and local SEO that get you found, get you booked, and own your leads instead of renting them, built for Ohio winter demand.",
 
   eyebrow: "Akron · Web Design, SEO & Lead Generation",
-  h1: "Marketing that gets Akron contractors found and booked",
+  h1: "Akron marketing for contractors that gets you found and booked across Summit County",
   h2Exact: "Akron Marketing Agency for Contractors",
   heroSubhead:
     "Websites, SEO, and local SEO built for Akron's homeowner-rich, Ohio-winter market. One team to get you ranking, converting, and off the rented-lead treadmill for good.",
@@ -386,7 +386,7 @@ export const akronCity = {
   primaryCta: "Get my free Akron audit",
 
   intro:
-    "If you run a contracting business in Akron, you are fighting for attention in a city where homeowners genuinely invest in their homes: craftsman bungalows in Highland Square, Tudors in West Hill, newer construction out in Stow and Hudson, and the competition for those jobs is fierce. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the next Ohio freeze sends demand through the roof. Here is exactly how we help Akron contractors pull that off.",
+    "Akron marketing for contractors comes down to one goal: getting found and booked in a city where homeowners genuinely invest in their homes. You are fighting for attention against craftsman bungalows in Highland Square, Tudors in West Hill, and newer construction out in Stow and Hudson, and the competition for those jobs is fierce. Winning here takes three things working together: a site that converts, SEO that ranks you for what people search, and local SEO that puts you in the Map Pack, all locked in before the next Ohio freeze sends demand through the roof. Here is exactly how we help Akron contractors pull that off.",
   aioQuestion: "How do Akron contractors get more leads online?",
   aioAnswer:
     "Akron contractors get more leads by combining a fast, mobile-first website with SEO that ranks them for high-intent searches and local SEO that wins the Google Map Pack. Because Summit County has a dense, homeowner-heavy professional class and demand spikes hard during Ohio winters, the contractors who look established and are already ranking before the freeze win the most work.",
@@ -422,6 +422,6 @@ export const akronCity = {
     { q: "Why does Ohio winter matter for my marketing?", a: "When lake-effect snow and ice hit Akron, demand for roofing, HVAC, and plumbing spikes overnight and the backlog can run for weeks. Ranking takes months to build, so the contractors who are already visible before the freeze take that work. We get you in place ahead of season." },
     { q: "How much does it cost to work with you?", a: "Websites are one-time builds from $2,000 to $9,000. SEO and local SEO are month-to-month from $750 to $3,000, with no long contract. We confirm the exact scope in your free audit." },
     { q: "Which Akron areas do you serve?", a: "All of Summit County and the surrounding communities: Highland Square, Merriman Valley, West Hill, Cuyahoga Falls, Stow, Hudson, Fairlawn, Barberton, Norton, Tallmadge, Green and more." },
-    { q: "Where should I start?", a: "Start with a free Akron audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan." },
+    { q: "Where should I start?", a: "Start with a free Akron audit. We look at your website, your rankings, and your Map Pack presence, then tell you the one or two moves that will bring in the most work fastest. No pitch deck, just a plan, because Akron marketing for contractors should be measured in booked jobs, not promises. As your digital marketing agency we pair web design and SEO for Akron contractors into one accountable team." },
   ],
 };
