@@ -137,22 +137,48 @@ const schema = [
             <h2>Get Weekly Growth Tactics</h2>
             <p>One email per week. Zero spam. Actionable insights you can implement the same day.</p>
           </div>
-          <form class="newsletter-form" id="newsletterForm">
-            <input type="email" id="newsletterEmail" placeholder="your@email.com" required />
+          <form class="newsletter-form" id="newsletterForm" action="https://formsubmit.co/ajax/getonwardcraft@gmail.com" method="POST">
+            <input type="hidden" name="_cc" value="rachitnand@gmail.com" />
+            <input type="hidden" name="_subject" value="New Newsletter Subscriber — OnwardCraft" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+            <input type="email" id="newsletterEmail" name="email" placeholder="your@email.com" required />
             <button type="submit" class="btn-primary">Subscribe</button>
           </form>
           <script is:inline>
-            document.getElementById('newsletterForm')?.addEventListener('submit', function (e) {
+            document.getElementById('newsletterForm')?.addEventListener('submit', async function (e) {
               e.preventDefault();
-              var email = document.getElementById('newsletterEmail').value.trim();
+              var form = e.target;
+              var emailInput = document.getElementById('newsletterEmail');
+              var email = emailInput.value.trim();
               if (!email) return;
-              // No newsletter backend yet — open a pre-filled subscribe email so the
-              // request reaches a real inbox instead of silently disappearing.
-              window.location.href =
-                'mailto:getonwardcraft@gmail.com?subject=' +
-                encodeURIComponent('Newsletter subscribe') +
-                '&body=' +
-                encodeURIComponent('Please add me to the weekly growth tactics list: ' + email);
+              var button = form.querySelector('button');
+              var originalLabel = button.textContent;
+              button.disabled = true;
+              button.textContent = 'Subscribing…';
+              try {
+                var res = await fetch(form.action, {
+                  method: 'POST',
+                  body: new FormData(form),
+                  headers: { Accept: 'application/json' },
+                });
+                if (res.ok) {
+                  button.textContent = 'Subscribed!';
+                  emailInput.value = '';
+                } else {
+                  throw new Error('request failed');
+                }
+              } catch {
+                // Last-resort fallback so the signup is never silently lost.
+                window.location.href =
+                  'mailto:getonwardcraft@gmail.com?subject=' +
+                  encodeURIComponent('Newsletter subscribe') +
+                  '&body=' +
+                  encodeURIComponent('Please add me to the weekly growth tactics list: ' + email);
+                button.textContent = originalLabel;
+              } finally {
+                button.disabled = false;
+              }
             });
           </script>
         </div>

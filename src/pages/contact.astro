@@ -13,13 +13,11 @@ const faqs = [
   { q: 'What information should I provide?', a: 'Your website URL, your business name, and a brief description of what you need. The more context, the better we can prepare for our call.' },
 ];
 
-// Formspree form ID. Create a free form at https://formspree.io and paste the
-// ID here (the part after /f/ in your endpoint, e.g. "myzgabcd").
-// Until this is set to a real ID, the form falls back to a mailto: submission
-// so no lead is ever silently lost.
-const FORMSPREE_ID = 'YOUR_FORM_ID';
-const FORM_ENDPOINT = `https://formspree.io/f/${FORMSPREE_ID}`;
-const FORM_CONFIGURED = FORMSPREE_ID !== 'YOUR_FORM_ID';
+// FormSubmit.co — no signup required. First submission after this ships
+// triggers a one-time "confirm your FormSubmit activation" email to
+// getonwardcraft@gmail.com; someone with access to that inbox must click the
+// activation link once, or notifications will silently fail.
+const FORM_ENDPOINT = 'https://formsubmit.co/ajax/getonwardcraft@gmail.com';
 
 const schema = [
   {
@@ -76,7 +74,12 @@ const schema = [
             <p>We've received your details and we'll send your free video audit within 48 hours. Check your inbox (and spam folder, just in case).</p>
             <a href="/book-call/" class="submit-btn" rel="noopener noreferrer" style="margin-top:8px;width:auto;display:inline-flex;">Or book a call now</a>
           </div>
-          <form class="contact-form" id="contactForm" action={FORM_ENDPOINT} method="POST" data-configured={FORM_CONFIGURED.toString()} novalidate>
+          <form class="contact-form" id="contactForm" action={FORM_ENDPOINT} method="POST" novalidate>
+            <input type="hidden" name="_cc" value="rachitnand@gmail.com" />
+            <input type="hidden" name="_subject" value="New Free Audit Request — OnwardCraft" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
             <div class="form-step" id="step1">
               <h3>Step 1: What do you need?</h3>
               <div class="radio-group">
@@ -257,7 +260,6 @@ const schema = [
     const successEl = document.getElementById('formSuccess') as HTMLElement;
     const submitBtn = document.getElementById('submitBtn') as HTMLButtonElement;
     const labelEl = submitBtn?.querySelector('.submit-label') as HTMLElement;
-    const configured = form.dataset.configured === 'true';
 
     const showError = (msg: string) => {
       errorEl.textContent = msg;
@@ -274,25 +276,16 @@ const schema = [
       if (!name) return showError('Please enter your name so we know who we are talking to.');
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return showError('Please enter a valid email address so we can send your audit.');
 
-      // Fallback: if Formspree is not configured yet, open a pre-filled email
-      // so the lead is never silently lost.
-      if (!configured) {
-        const data = new FormData(form);
-        const body = Array.from(data.entries())
-          .map(([k, v]) => `${k}: ${v}`)
-          .join('%0D%0A');
-        window.location.href =
-          `mailto:getonwardcraft@gmail.com?subject=${encodeURIComponent('Free Audit Request — ' + name)}&body=${body}`;
-        return;
-      }
-
       submitBtn.disabled = true;
       if (labelEl) labelEl.textContent = 'Sending…';
+
+      const data = new FormData(form);
+      data.set('_replyto', email);
 
       try {
         const res = await fetch(form.action, {
           method: 'POST',
-          body: new FormData(form),
+          body: data,
           headers: { Accept: 'application/json' },
         });
         if (res.ok) {
@@ -302,10 +295,17 @@ const schema = [
           (window as any).gtag && (window as any).gtag('event', 'generate_lead', { form_id: 'contact' });
         } else {
           const json = await res.json().catch(() => ({}));
-          showError(json?.errors?.[0]?.message || 'Something went wrong. Please email getonwardcraft@gmail.com directly.');
+          showError(json?.message || 'Something went wrong. Please email getonwardcraft@gmail.com directly.');
         }
       } catch {
-        showError('Network error. Please email getonwardcraft@gmail.com directly and we will respond fast.');
+        // Last-resort fallback so the lead is never silently lost if the
+        // network request itself fails (offline, blocked request, etc).
+        const body = Array.from(data.entries())
+          .map(([k, v]) => `${k}: ${v}`)
+          .join('%0D%0A');
+        window.location.href =
+          `mailto:getonwardcraft@gmail.com?subject=${encodeURIComponent('Free Audit Request — ' + name)}&body=${body}`;
+        showError('Network error — opening a pre-filled email instead. Please hit send so we get your request.');
       } finally {
         submitBtn.disabled = false;
         if (labelEl) labelEl.textContent = 'Get My Free Audit';
