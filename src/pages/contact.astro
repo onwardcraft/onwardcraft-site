@@ -74,7 +74,7 @@ const schema = [
             </div>
             <h3>Got it — your audit is on the way.</h3>
             <p>We've received your details and we'll send your free video audit within 48 hours. Check your inbox (and spam folder, just in case).</p>
-            <a href="https://calendly.com/getonwardcraft/30min" class="submit-btn" rel="noopener noreferrer" style="margin-top:8px;width:auto;display:inline-flex;">Or book a call now</a>
+            <a href="/book-call/" class="submit-btn" rel="noopener noreferrer" style="margin-top:8px;width:auto;display:inline-flex;">Or book a call now</a>
           </div>
           <form class="contact-form" id="contactForm" action={FORM_ENDPOINT} method="POST" data-configured={FORM_CONFIGURED.toString()} novalidate>
             <div class="form-step" id="step1">
@@ -206,14 +206,14 @@ const schema = [
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
               <div>
                 <strong>Email</strong>
-                <a href="mailto:hello@onwardcraft.com">hello@onwardcraft.com</a>
+                <a href="mailto:getonwardcraft@gmail.com">getonwardcraft@gmail.com</a>
               </div>
             </div>
             <div class="contact-method">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
               <div>
                 <strong>Book Directly</strong>
-                <a href="https://calendly.com/getonwardcraft/30min" rel="noopener noreferrer">calendly.com/getonwardcraft</a>
+                <a href="/book-call/">Book a free 30-minute call</a>
               </div>
             </div>
             <div class="contact-method">
@@ -282,7 +282,7 @@ const schema = [
           .map(([k, v]) => `${k}: ${v}`)
           .join('%0D%0A');
         window.location.href =
-          `mailto:hello@onwardcraft.com?subject=${encodeURIComponent('Free Audit Request — ' + name)}&body=${body}`;
+          `mailto:getonwardcraft@gmail.com?subject=${encodeURIComponent('Free Audit Request — ' + name)}&body=${body}`;
         return;
       }
 
@@ -302,10 +302,10 @@ const schema = [
           (window as any).gtag && (window as any).gtag('event', 'generate_lead', { form_id: 'contact' });
         } else {
           const json = await res.json().catch(() => ({}));
-          showError(json?.errors?.[0]?.message || 'Something went wrong. Please email hello@onwardcraft.com directly.');
+          showError(json?.errors?.[0]?.message || 'Something went wrong. Please email getonwardcraft@gmail.com directly.');
         }
       } catch {
-        showError('Network error. Please email hello@onwardcraft.com directly and we will respond fast.');
+        showError('Network error. Please email getonwardcraft@gmail.com directly and we will respond fast.');
       } finally {
         submitBtn.disabled = false;
         if (labelEl) labelEl.textContent = 'Get My Free Audit';
@@ -477,7 +477,18 @@ const schema = [
   }
 
   .radio-card input {
-    display: none;
+    /* Keep in accessibility tree for keyboard operation (sr-only pattern) */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+
+  .radio-card:has(input:focus-visible) {
+    outline: 2px solid var(--accent-primary);
+    outline-offset: 2px;
   }
 
   .radio-check {
@@ -573,7 +584,7 @@ const schema = [
     width: 100%;
     padding: 18px 36px;
     background: var(--accent-primary);
-    color: white;
+    color: var(--accent-on);
     font-size: 16px;
     font-weight: 600;
     border-radius: var(--radius-md);

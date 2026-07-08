@@ -12,9 +12,40 @@ const categories = getCategories();
 
 const featuredPost = posts.find(p => p.featured);
 const regularPosts = posts.filter(p => !p.featured);
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": ["Blog", "CollectionPage"],
+    "@id": "https://onwardcraft.com/blog/#blog",
+    name: "OnwardCraft Blog",
+    description,
+    url: "https://onwardcraft.com/blog/",
+    isPartOf: { "@id": "https://onwardcraft.com/#website" },
+    publisher: { "@id": "https://onwardcraft.com/#organization" },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: posts.length,
+      itemListElement: posts.slice(0, 25).map((p, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: `https://onwardcraft.com/blog/${p.slug}/`,
+        name: p.title,
+      })),
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://onwardcraft.com/" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://onwardcraft.com/blog/" },
+    ],
+  },
+];
 ---
 
-<Layout title={title} description={description}>
+<Layout title={title} description={description} schema={schema}>
   <Navbar dark />
 
   <div class="blog-page">
@@ -118,7 +149,7 @@ const regularPosts = posts.filter(p => !p.featured);
               // No newsletter backend yet — open a pre-filled subscribe email so the
               // request reaches a real inbox instead of silently disappearing.
               window.location.href =
-                'mailto:hello@onwardcraft.com?subject=' +
+                'mailto:getonwardcraft@gmail.com?subject=' +
                 encodeURIComponent('Newsletter subscribe') +
                 '&body=' +
                 encodeURIComponent('Please add me to the weekly growth tactics list: ' + email);

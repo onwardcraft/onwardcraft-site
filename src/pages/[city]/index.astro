@@ -14,7 +14,7 @@ export async function getStaticPaths() {
 
 const { c } = Astro.props;
 const canonical = `https://onwardcraft.com/${c.citySlug}/`;
-const CALENDLY = 'https://calendly.com/getonwardcraft/30min';
+const CALENDLY = '/book-call/';
 
 // Donut: unit defaults to '%'; ring fill is clamped so values >100 don't overflow.
 const donutUnit = c.localMarket.donut.unit ?? '%';

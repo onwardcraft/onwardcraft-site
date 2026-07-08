@@ -10,6 +10,7 @@ const schema = [
     "@type": "Article",
     "headline": "500 Contractor Google Business Profiles: 11 Key Findings",
     "description": "Original industry study analyzing 500 contractor GBPs across 6 trades to identify local SEO ranking factor correlations.",
+    "image": "https://onwardcraft.com/og-image.png",
     "author": {
       "@type": "Organization",
       "name": "OnwardCraft"
@@ -203,7 +204,6 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 </div>
 <h3>Data Collection Period</h3>
 <p>Data collected between January 15 and February 28, 2026. All ranking positions verified within 72 hours of publication.</p>
-<p>[VISUAL: Methodology flowchart showing sample selection → variable extraction → ranking measurement → correlation analysis]</p>
 <hr />
 <h2>Key Finding #1: Review Recency Beats Review Count</h2>
 <p><strong>The data:</strong> Review recency (days since most recent review) showed a <strong>-0.41 correlation</strong> with ranking position. Review count showed only <strong>-0.22</strong>.</p>
@@ -264,7 +264,6 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 </ol>
 <h3>The Action Item</h3>
 <p>Set up an automated review request system that triggers within 24 hours of job completion. Target 4-8 new reviews per month minimum. If your total review count is high but your recency is poor, your rankings are at risk regardless of your historical volume.</p>
-<p>[VISUAL: Bar chart showing "Days Since Last Review" by ranking position — steep curve from position 1 to 20]</p>
 <hr />
 <h2>Key Finding #2: Photo Quantity Shows Stronger Correlation Than Expected</h2>
 <p><strong>The data:</strong> Photo count correlated at <strong>-0.35</strong> with ranking position — stronger than review count (-0.22) and nearly as strong as review recency (-0.41).</p>
@@ -332,7 +331,6 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 <p><strong>Critical insight:</strong> The top-performing profiles added photos <strong>consistently</strong>, not in bulk. Profiles that uploaded 50 photos in one day and then went silent performed worse than profiles that added 2-3 photos per week ongoing.</p>
 <h3>The Action Item</h3>
 <p>Upload a minimum of 60 photos across all categories. Then add 2-3 new photos weekly. Use original images — not stock photos. Geotag images to your service area before upload (while Google strips EXIF data, the practice ensures your photo library is location-relevant).</p>
-<p>[VISUAL: Scatter plot showing photo count vs. ranking position with trend line]</p>
 <hr />
 <h2>Key Finding #3: Primary Category Selection Is the Single Highest-Impact Variable</h2>
 <p><strong>The data:</strong> Primary category alignment showed the strongest correlation of any variable we measured: <strong>-0.47</strong>.</p>
@@ -427,7 +425,6 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 </div>
 <h3>The Action Item</h3>
 <p>Audit your primary category. If it doesn't exactly match what your ideal customer types into Google, change it. Then select 3-4 highly relevant secondary categories — no more. Avoid the temptation to add tangential categories "just in case."</p>
-<p>[VISUAL: Bar chart showing "Primary Category Alignment" percentage by ranking position group]</p>
 <hr />
 <h2>Key Finding #4: Post Frequency Creates a Clear Ranking Advantage</h2>
 <p><strong>The data:</strong> Post frequency (posts per month) correlated at <strong>-0.28</strong> with ranking position. More interestingly, profiles posting 2+ times per week were <strong>2.3x more likely</strong> to rank in positions 1-3 than profiles posting less than once per month.</p>
@@ -485,7 +482,6 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 <p><strong>What they don't post:</strong> Generic motivational quotes, irrelevant memes, or content that doesn't mention their service area.</p>
 <h3>The Action Item</h3>
 <p>Post at least twice per week. Use a simple content calendar: Monday (project update), Wednesday (educational tip), Friday (offer or seasonal reminder). Each post should include a photo, a location reference, and a clear call-to-action button.</p>
-<p>[VISUAL: Line chart showing post frequency vs. probability of ranking in positions 1-3]</p>
 <hr />
 <h2>Key Finding #5: Service-Area Businesses Face a Structural Disadvantage (But Can Overcome It)</h2>
 <p><strong>The data:</strong> Service-area businesses (SABs) with hidden addresses ranked in positions 1-3 <strong>31% less often</strong> than brick-and-mortar contractors with visible addresses — <strong>when all other variables were equal</strong>.</p>
@@ -544,7 +540,6 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 </ol>
 <h3>The Action Item</h3>
 <p>If you're a service-area business, don't just hide your address and hope for the best. Define specific service areas (cities, not radiuses). Build unique location pages. Encourage location-specific reviews. And accept that you may need stronger overall signals to compete with brick-and-mortar competitors.</p>
-<p>[VISUAL: Comparison table — SAB vs. Brick-and-Mortar ranking distribution with compensation strategies]</p>
 <hr />
 <h2>Key Finding #6: Business Description Length Matters Less Than You Think</h2>
 <p><strong>The data:</strong> Business description length correlated at only <strong>-0.09</strong> with ranking position — effectively no relationship.</p>
@@ -602,7 +597,6 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 <p>The second description is longer but contains zero searchable keywords. It tells a story. It doesn't help Google understand what the business does or where it operates.</p>
 <h3>The Action Item</h3>
 <p>Write a concise description (150-300 characters) that includes your primary service, your top 2-3 service areas, and one differentiator. Don't waste time on lengthy origin stories or mission statements. The description field is for relevance signaling, not brand storytelling.</p>
-<p>[VISUAL: Horizontal bar chart showing description length buckets vs. average ranking position — flat line]</p>
 <hr />
 <h2>Key Finding #7: Review Response Rate Correlates With Ranking Position</h2>
 <p><strong>The data:</strong> Review response rate (percentage of reviews with a public reply) correlated at <strong>-0.24</strong> with ranking position. More notably, <strong>100% response rate</strong> was 3.1x more common among position 1-3 profiles than among position 11-20 profiles.</p>
@@ -671,7 +665,6 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 <p>This response mentions the service (roof, hail damage, gutters), the location (Frisco, Dallas), and includes a real name — all in 40 words.</p>
 <h3>The Action Item</h3>
 <p>Respond to 100% of reviews within 24-48 hours. Use the response as an opportunity to reinforce keywords naturally. Never use generic templates like "Thanks for your review!" — that's wasted real estate.</p>
-<p>[VISUAL: Stacked bar chart showing response rate buckets by ranking position group]</p>
 <hr />
 <h2>Key Finding #8: Secondary Categories Provide Diminishing Returns After Three</h2>
 <p><strong>The data:</strong> Profiles with 1-3 secondary categories outperformed profiles with 0 secondaries (correlation: -0.18). But profiles with 6+ secondary categories showed <strong>worse</strong> performance than those with 3-4.</p>
@@ -731,7 +724,6 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 <p>Restoration contractors were the one trade where 4-5 secondary categories performed well. This makes sense: water damage, fire damage, and mold remediation are closely related services that customers often need simultaneously. A restoration company with multiple damage-type categories appears more comprehensive, not diluted.</p>
 <h3>The Action Item</h3>
 <p>Select exactly 3 secondary categories that are closely related to your primary service. Remove any tangential categories. If you're a plumber with "Painter" or "Carpenter" as secondaries, delete them — they're hurting more than helping.</p>
-<p>[VISUAL: Line chart showing average ranking position by number of secondary categories — U-shaped curve]</p>
 <hr />
 <h2>Key Finding #9: The "Openness" Signal Is Now a Hard Filter</h2>
 <p><strong>The data:</strong> This wasn't a correlation — it was a binary observation. In our sample, <strong>zero profiles</strong> ranked in positions 1-3 when the search was conducted outside their stated business hours.</p>
@@ -751,7 +743,6 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 <p>This finding has massive implications for emergency trades: plumbing, HVAC, electrical, and restoration. If you offer after-hours service but your GBP shows 9-5 hours, you're invisible to the highest-intent searches — the ones that happen at 10 PM when a pipe bursts.</p>
 <h3>The Action Item</h3>
 <p>If you offer any form of after-hours service — even just emergency call-taking — update your GBP hours to reflect it. You don't need technicians on-site 24/7. You need someone answering the phone. Set up an after-hours answering service and list those hours. The ranking visibility for emergency queries will more than pay for the service.</p>
-<p>[VISUAL: Side-by-side comparison chart — ranking distribution during business hours vs. after hours for same profiles]</p>
 <hr />
 <h2>Key Finding #10: Trade-Specific Variations Are Larger Than Expected</h2>
 <p><strong>The data:</strong> The relative importance of ranking factors varied significantly by trade. What works for a roofer doesn't necessarily work for a plumber.</p>
@@ -879,7 +870,6 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 <p><strong>Solar and restoration require the strongest signals to compete.</strong> These are high-ticket, trust-dependent services where customers research extensively before calling.</p>
 <h3>The Action Item</h3>
 <p>Don't apply generic local SEO advice blindly. If you're a solar contractor, prioritize photos and recent reviews above all else. If you're an electrician, you may be able to rank with fewer total signals due to lower competition. Benchmark against your specific trade, not "local businesses" generally.</p>
-<p>[VISUAL: Heatmap showing correlation strength across all variables and all six trades]</p>
 <hr />
 <h2>Key Finding #11: Q&amp;A Activity Showed No Measurable Correlation (And Now It's Gone)</h2>
 <p><strong>The data:</strong> Q&amp;A count (questions + answers on the GBP) correlated at <strong>-0.06</strong> with ranking position — statistically meaningless.</p>
@@ -899,7 +889,6 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 1. Building a comprehensive FAQ page on your website with schema markup<br />
 2. Writing keyword-rich review responses that mention services and locations<br />
 3. Ensuring your website content clearly answers common customer questions</p>
-<p>[VISUAL: Before/after diagram showing Q&amp;A section being replaced by "Ask this place" AI feature]</p>
 <hr />
 <h2>The Complete Ranking Factors Correlation Matrix</h2>
 <p>Here's every variable we measured, ranked by correlation strength:</p>
@@ -1008,15 +997,12 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 <td>16</td>
 <td>Website link presence</td>
 <td>-0.05</td>
-<td>Ne<div class="callout callout-warning">
-gligible</td>
+<td>Negligible</td>
 </tr>
 </tbody>
 </table>
-</div>
 <p><strong>Note on service area size:</strong> The positive correlation (+0.07) means larger service areas correlated with <em>worse</em> rankings. This supports our SAB finding — broad, vague service areas dilute relevance.</p>
 </div>
-<p>[VISUAL: Horizontal bar chart showing all 16 variables ranked by correlation strength — primary category and review recency at the top, Q&amp;A and website link at the bottom]</p>
 <hr />
 <h2>What This Means for Your GBP Strategy</h2>
 <p>Let's translate these findings into a prioritized action plan.</p>
@@ -1047,7 +1033,6 @@ gligible</td>
 <li><strong>Bulk photo uploads</strong> — consistent freshness beats one-time volume</li>
 <li><strong>Keyword-stuffing your business name</strong> — this triggers suspensions and penalties</li>
 </ul>
-<p>[VISUAL: Priority pyramid infographic — Tier 1 at the base (largest), Tier 3 at the top (smallest)]</p>
 <hr />
 <h2>Limitations of This Study</h2>
 <p>We believe in transparent methodology — including honest acknowledgment of what this study cannot tell you.</p>
@@ -1204,7 +1189,7 @@ gligible</td>
 <div class="cta-box">
 <h3>Need a Website That Actually Converts?</h3>
 <p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
-<a href="https://calendly.com/getonwardcraft/30min" target="_blank" rel="noopener noreferrer">Book Your Free Call</a>
+<a href="/book-call/" target="_blank" rel="noopener noreferrer">Book Your Free Call</a>
 </div>
 
 `;

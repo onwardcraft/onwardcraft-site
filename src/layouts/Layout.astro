@@ -22,18 +22,37 @@ const canonicalUrl = canonical || `https://onwardcraft.com${canonicalPath}`;
 
 // Sitewide structured data (Organization + WebSite). Page-specific schema
 // (Service, FAQPage, BreadcrumbList…) is passed in via the `schema` prop.
+// Real external profiles only — never ship an empty sameAs array (it signals
+// "no entity presence" to AI systems). Add LinkedIn/Clutch/Crunchbase/YouTube
+// URLs here as each profile is created; the key is omitted while the list is empty.
+const sameAs: string[] = [];
 const orgSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": "https://onwardcraft.com/#organization",
   name: "OnwardCraft",
   url: "https://onwardcraft.com/",
-  logo: "https://onwardcraft.com/logo.png",
+  logo: {
+    "@type": "ImageObject",
+    "@id": "https://onwardcraft.com/#logo",
+    url: "https://onwardcraft.com/logo.png",
+    width: 1228,
+    height: 206,
+  },
+  image: "https://onwardcraft.com/og-image.png",
   description: "Conversion-focused web design, SEO, and lead generation for home-service contractors.",
-  email: "hello@onwardcraft.com",
+  email: "getonwardcraft@gmail.com",
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "sales",
+    email: "getonwardcraft@gmail.com",
+    url: "https://onwardcraft.com/book-call/",
+    areaServed: "US",
+    availableLanguage: "English",
+  },
   areaServed: "United States",
   knowsAbout: ["Web Design", "Search Engine Optimization", "Lead Generation", "Local SEO", "Conversion Rate Optimization", "Home Services Marketing"],
-  sameAs: [] as string[],
+  ...(sameAs.length > 0 ? { sameAs } : {}),
 };
 const websiteSchema = {
   "@context": "https://schema.org",
@@ -66,6 +85,7 @@ const allSchemas = [orgSchema, websiteSchema, ...pageSchemas];
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="OnwardCraft — conversion-focused websites, SEO & lead generation for contractors" />
     <meta property="og:site_name" content="OnwardCraft" />
+    <meta property="og:locale" content="en_US" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -80,7 +100,10 @@ const allSchemas = [orgSchema, websiteSchema, ...pageSchemas];
       <script type="application/ld+json" set:html={JSON.stringify(s)} />
     ))}
 
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" type="image/png" href="/logo/fabicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#080C14" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
@@ -329,6 +352,13 @@ const allSchemas = [orgSchema, websiteSchema, ...pageSchemas];
 
   a { color: inherit; text-decoration: none; }
   img { max-width: 100%; display: block; }
+
+  /* Keyboard focus visibility (WCAG 2.4.7) — dark theme needs an explicit ring */
+  :focus-visible {
+    outline: 2px solid var(--accent-primary);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
 
   .container {
     max-width: var(--container);

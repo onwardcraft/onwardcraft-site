@@ -27,7 +27,7 @@ const darkPillStyle = dark
 <nav class="navbar" id="navbar" data-dark={dark ? 'true' : undefined}>
   <div class="navbar-pill" style={darkPillStyle}>
     <a href="/" class="nav-brand">
-      <img src="/logo/logo.svg" alt="OnwardCraft" width="170" height="28" loading="eager" decoding="async" class="brand-logo" />
+      <img src="/logo/logo-nav.png" alt="OnwardCraft" width="170" height="28" loading="eager" decoding="async" class="brand-logo" />
     </a>
 
     <div class="nav-links" id="navLinks">
@@ -53,13 +53,13 @@ const darkPillStyle = dark
     </div>
 
     <div class="nav-actions">
-      <a href="https://calendly.com/getonwardcraft/30min" class="nav-cta" rel="noopener noreferrer">
+      <a href="/book-call/" class="nav-cta">
         <span>Book Free Audit</span>
         <svg class="cta-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <path d="M5 12h14M12 5l7 7-7 7"/>
         </svg>
       </a>
-      <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Menu">
+      <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Menu" aria-expanded="false" aria-controls="mobileOverlay">
         <span class="hamburger-line"></span>
         <span class="hamburger-line"></span>
       </button>
@@ -83,7 +83,7 @@ const darkPillStyle = dark
         <a href={link.href} class="mobile-link">{link.label}</a>
       ))}
     </div>
-    <a href="https://calendly.com/getonwardcraft/30min" class="mobile-cta" rel="noopener noreferrer">Book Free Audit</a>
+    <a href="/book-call/" class="mobile-cta">Book Free Audit</a>
   </div>
 </div>
 
@@ -416,13 +416,16 @@ const darkPillStyle = dark
       toggle.addEventListener('click', () => {
         toggle.classList.toggle('active');
         overlay.classList.toggle('active');
-        document.body.style.overflow = overlay.classList.contains('active') ? 'hidden' : '';
+        const open = overlay.classList.contains('active');
+        toggle.setAttribute('aria-expanded', String(open));
+        document.body.style.overflow = open ? 'hidden' : '';
       });
 
       overlay.querySelectorAll('.mobile-link, .mobile-cta').forEach((link) => {
         link.addEventListener('click', () => {
           toggle.classList.remove('active');
           overlay.classList.remove('active');
+          toggle.setAttribute('aria-expanded', 'false');
           document.body.style.overflow = '';
         });
       });

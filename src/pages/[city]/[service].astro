@@ -17,7 +17,7 @@ export async function getStaticPaths() {
 
 const { loc } = Astro.props;
 const canonical = `https://onwardcraft.com/${loc.citySlug}/${loc.serviceSlug}/`;
-const CALENDLY = 'https://calendly.com/getonwardcraft/30min';
+const CALENDLY = '/book-call/';
 
 const sameCity = locations.filter(
   (l) => l.citySlug === loc.citySlug && l.serviceSlug !== loc.serviceSlug

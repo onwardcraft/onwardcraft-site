@@ -16,14 +16,14 @@ const plans = [
     price: '$4,500',
     period: 'one-time',
     features: ['Up to 5 custom pages', 'CMS for blog / content', 'Advanced SEO + speed optimization', 'Google Analytics + Search Console', 'Custom design system', '4 revision rounds', 'Delivery in 4-6 weeks'],
-    cta: 'Most Popular',
+    cta: 'Book My Call',
     highlight: true,
   },
   {
     name: 'Growth',
     desc: 'Complex builds, e-commerce, custom features, and dedicated support for serious growth.',
-    price: '$8,000',
-    period: 'custom',
+    price: 'from $8,000',
+    period: 'custom scope',
     features: ['Unlimited pages', 'E-commerce / memberships', 'Custom integrations + API', 'Priority support (30 days)', 'Unlimited revisions', 'Custom timeline'],
     cta: 'Book My Call',
     highlight: false,
@@ -47,7 +47,7 @@ const plans = [
           <div class="pricing-desc">{plan.desc}</div>
           <div class="pricing-price">
             {plan.price}
-            <span>/{plan.period}</span>
+            <span>{plan.period}</span>
           </div>
           <ul class="pricing-features">
             {plan.features.map(f => (
@@ -57,13 +57,13 @@ const plans = [
               </li>
             ))}
           </ul>
-          <a href="https://calendly.com/getonwardcraft/30min" class:list={['pricing-cta', { primary: plan.highlight }]} rel="noopener noreferrer">{plan.cta}</a>
+          <a href="/book-call/" class:list={['pricing-cta', { primary: plan.highlight }]}>{plan.cta}</a>
         </div>
       ))}
     </div>
 
     <div class="pricing-note reveal">
-      <p>Not sure which fits? <a href="https://calendly.com/getonwardcraft/30min" rel="noopener noreferrer">Tell us your situation</a> and we will diagnose the right solution — no upsell, no pressure. Every project is backed by our performance guarantee: if your metrics do not improve, we keep working until they do.</p>
+      <p>Not sure which fits? <a href="/book-call/">Tell us your situation</a> and we will diagnose the right solution — no upsell, no pressure. Every project is backed by our performance guarantee: if your metrics do not improve, we keep working until they do.</p>
     </div>
   </div>
 </section>
@@ -139,7 +139,7 @@ const plans = [
     left: 50%;
     transform: translateX(-50%);
     background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-    color: white;
+    color: var(--accent-on);
     font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
@@ -226,7 +226,7 @@ const plans = [
   .pricing-cta.primary {
     background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
     border-color: transparent;
-    color: white;
+    color: var(--accent-on);
   }
 
   .pricing-cta.primary:hover {

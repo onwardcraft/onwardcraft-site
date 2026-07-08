@@ -21,7 +21,8 @@ We start every engagement with a free, no-obligation website and SEO audit deliv
 - [Web Design](https://onwardcraft.com/services/web-design/) — Conversion-focused contractor websites
 - [SEO](https://onwardcraft.com/services/seo/) — Local search optimization
 - [Lead Generation](https://onwardcraft.com/services/lead-generation/) — Lead capture and conversion systems
-- [Pricing](https://onwardcraft.com/pricing/) — Transparent, fixed-scope packages ($2,000–$8,000 builds)
+- [Pricing](https://onwardcraft.com/pricing/) — Transparent, fixed-scope packages
+- [Case Studies](https://onwardcraft.com/case-studies/) — How we work and what we build
 - [Process](https://onwardcraft.com/process/) — How we work
 - [Locations](https://onwardcraft.com/locations/) — Local marketing across 160 cities in all 50 states (each with a city hub plus Local SEO, SEO, Web Design, and Website Redesign pages)
 - [Contractor Marketing FAQ](https://onwardcraft.com/contractor-marketing-faq/) — Straight answers to common contractor marketing questions
@@ -63,8 +64,30 @@ In-depth resources for contractors and home-service business owners:
 - [Restoration Marketing Guide](https://onwardcraft.com/blog/restoration-marketing-guide/)
 - [General Contractor Marketing Guide](https://onwardcraft.com/blog/general-contractor-marketing-guide/)
 
+## Pricing
+
+Fixed, transparent packages — no hidden fees:
+
+- **Starter — $2,000 one-time**: high-converting landing page or single-page site, delivered in 2–3 weeks
+- **Business — $4,500 one-time**: complete multi-page website with CMS, analytics, and advanced SEO, delivered in 4–6 weeks (most popular)
+- **Growth — from $8,000**: complex builds, e-commerce, custom integrations, custom timeline
+- **SEO retainers — from $500/month**, scaled to competition and content volume
+- Every project is backed by a written performance guarantee and starts with a free 48-hour website audit
+
+## Comparison Guides
+
+Honest comparisons for buyers weighing their options:
+
+- [SEO vs Google Ads: Which Has Better ROI?](https://onwardcraft.com/blog/seo-vs-google-ads-which-has-better-roi/)
+- [DIY Website vs Hiring an Agency](https://onwardcraft.com/blog/diy-website-vs-hiring-an-agency/)
+- [DIY SEO vs Hiring an Agency: Pros and Cons](https://onwardcraft.com/blog/diy-seo-vs-hiring-an-agency-pros-and-cons/)
+- [Wix vs Custom Website](https://onwardcraft.com/blog/wix-vs-custom-website/)
+- [Custom Website vs Template](https://onwardcraft.com/blog/custom-website-vs-template-which-is-better/)
+- [WordPress vs Webflow for Contractors](https://onwardcraft.com/blog/wordpress-vs-webflow-contractors/)
+- [SEO vs PPC for Contractors](https://onwardcraft.com/blog/seo-vs-ppc-contractors-comparison/)
+
 ## Contact
 
 - Website: https://onwardcraft.com
-- Email: hello@onwardcraft.com
-- Free strategy call: https://calendly.com/getonwardcraft/30min
+- Email: getonwardcraft@gmail.com
+- Book a free 30-minute strategy call: https://onwardcraft.com/book-call/

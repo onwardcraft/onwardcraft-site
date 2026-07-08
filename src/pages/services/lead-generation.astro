@@ -135,9 +135,41 @@ const faqs = [
   { q: 'Do you guarantee a certain cost per lead?', a: 'We cannot guarantee specific CPL numbers — every market is different. What we do guarantee: full transparency on your numbers, weekly optimization, and a clear path to positive ROI. If we cannot make it work, we tell you fast.' },
   { q: 'What makes your funnels different?', a: 'Most agencies build generic landing pages and hope for the best. We build qualification funnels: prospects answer key questions, see proof you can do the job, and book directly into your calendar. By the time they reach you, they are pre-sold.' },
 ];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://onwardcraft.com/services/lead-generation/#service",
+    name: "Lead Generation & Paid Ads",
+    serviceType: "Lead generation funnels and paid advertising for home-service contractors",
+    description,
+    url: "https://onwardcraft.com/services/lead-generation/",
+    provider: { "@id": "https://onwardcraft.com/#organization" },
+    areaServed: "United States",
+    audience: { "@type": "Audience", audienceType: "Home-service contractors" },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question", name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://onwardcraft.com/" },
+      { "@type": "ListItem", position: 2, name: "Services", item: "https://onwardcraft.com/services/" },
+      { "@type": "ListItem", position: 3, name: "Lead Generation", item: "https://onwardcraft.com/services/lead-generation/" },
+    ],
+  },
+];
 ---
 
-<Layout title={title} description={description}>
+<Layout title={title} description={description} schema={schema}>
   <Navbar />
 
   <section class="service-hero">
@@ -393,7 +425,7 @@ const faqs = [
         <div class="final-cta-content">
           <h2>Stop Burning Budget on Ads That Do Not Convert.</h2>
           <p>Get your free funnel audit and discover exactly why your ads are not converting — and the specific steps to fix it. No pitch. Just a plan.</p>
-          <a href="https://calendly.com/getonwardcraft/30min" class="cta-button magnetic" rel="noopener noreferrer">Get Your Free Funnel Audit</a>
+          <a href="/book-call/" class="cta-button magnetic" rel="noopener noreferrer">Get Your Free Funnel Audit</a>
           <p class="cta-guarantee">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
             100% satisfaction guarantee. If you are not happy, we make it right.

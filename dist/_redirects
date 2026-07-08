@@ -55,3 +55,11 @@ https://www.onwardcraft.com/* https://onwardcraft.com/:splat 301
 /blog/how-much-does-a-website-cost-2026/ /blog/how-much-does-a-website-cost/ 301
 /blog/how-much-does-seo-cost-in-2026 /blog/how-much-does-seo-cost/ 301
 /blog/how-much-does-seo-cost-in-2026/ /blog/how-much-does-seo-cost/ 301
+
+# Keyword-cannibalization consolidation (thin early posts superseded by long-form versions)
+/blog/signs-your-website-needs-redesign /blog/signs-website-needs-redesign/ 301
+/blog/signs-your-website-needs-redesign/ /blog/signs-website-needs-redesign/ 301
+/blog/seo-for-local-businesses /blog/local-seo-guide/ 301
+/blog/seo-for-local-businesses/ /blog/local-seo-guide/ 301
+/blog/general-contractor-marketing /blog/general-contractor-marketing-guide/ 301
+/blog/general-contractor-marketing/ /blog/general-contractor-marketing-guide/ 301
