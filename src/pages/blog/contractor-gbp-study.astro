@@ -1,15 +1,15 @@
 ---
 import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
 
-const title = '500 Contractor Google Business Profiles: 11 Key Findings';
-const description = 'We analyzed 500 contractor Google Business Profiles across 6 trades and 50 US cities to find what actually impacts local rankings. See the data, 7 charts,...';
+const title = 'Google Business Profile Ranking Factors for Contractors: 11 Things That Actually Matter';
+const description = 'A practical guide to the Google Business Profile factors that most affect contractor rankings — reviews, photos, categories, posts, and more — grounded in published local SEO research and real-world best practices.';
 
 const schema = [
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "500 Contractor Google Business Profiles: 11 Key Findings",
-    "description": "Original industry study analyzing 500 contractor GBPs across 6 trades to identify local SEO ranking factor correlations.",
+    "headline": "Google Business Profile Ranking Factors for Contractors: 11 Things That Actually Matter",
+    "description": "An expert guide to the Google Business Profile factors that most affect local pack visibility for contractors, drawing on published local SEO research and hands-on optimization experience.",
     "image": "https://onwardcraft.com/og-image.png",
     "author": {
       "@type": "Organization",
@@ -39,302 +39,73 @@ const schema = [
         "name": "How many reviews do I need to rank in the top 3?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "There's no magic number. Position 1-3 profiles averaged 187 total reviews, but recency matters more than total count. Target 4-8 new reviews per month consistently."
+          "text": "There's no magic number. Review recency matters more than total count — target a steady cadence of 4-8 new reviews per month rather than chasing a specific total."
         }
       }
     ]
   }
 ];
-const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. "Get more reviews." "Fill out your profile." "Post weekly." You've heard it all before. But which tactics actually move the needle — and by how much?</p>
-<p>We analyzed 500 real contractor Google Business Profiles across six trades in 50 US cities to find out. We measured 15 variables per profile and cross-referenced them against observed local pack rankings for high-intent keywords like "roofing contractor Dallas" and "emergency plumber Phoenix."</p>
-<p>The results surprised us. Some "best practices" barely correlated with rankings. Others showed stronger relationships than the industry literature suggests. And a few findings directly contradict what most SEO blogs tell you to do.</p>
-<p>Here's what the data actually says.</p>
+const contentHtml = `<p class="lead">Most local SEO advice for contractors is recycled opinion. "Get more reviews." "Fill out your profile." "Post weekly." You've heard it all before. But which of these actually move the needle on local pack rankings — and why?</p>
+<p>This guide breaks down the Google Business Profile (GBP) factors that most affect contractor rankings, drawing on published local SEO research — including Whitespark's annual Local Search Ranking Factors Survey and BrightLocal's Local Consumer Review Survey — combined with what we see working (and not working) across roofing, HVAC, plumbing, electrical, solar, and restoration companies.</p>
+<p>Some "best practices" turn out to matter less than the industry assumes. A few pieces of common advice are close to outdated. Here's what's actually worth your time — and what isn't.</p>
 <hr />
 <nav class="toc">
 <h4>Table of Contents</h4>
 <ol>
-<li><a href="#our-methodology-how-we-collected-and-analyzed-the-data">Our Methodology: How We Collected and Analyzed the Data</a></li>
-<li><a href="#key-finding-1-review-recency-beats-review-count">Key Finding #1: Review Recency Beats Review Count</a></li>
-<li><a href="#key-finding-2-photo-quantity-shows-stronger-correlation-than-expected">Key Finding #2: Photo Quantity Shows Stronger Correlation Than Expected</a></li>
-<li><a href="#key-finding-3-primary-category-selection-is-the-single-highest-impact-variable">Key Finding #3: Primary Category Selection Is the Single Highest-Impact Variable</a></li>
-<li><a href="#key-finding-4-post-frequency-creates-a-clear-ranking-advantage">Key Finding #4: Post Frequency Creates a Clear Ranking Advantage</a></li>
-<li><a href="#key-finding-5-service-area-businesses-face-a-structural-disadvantage-but-can-overcome-it">Key Finding #5: Service-Area Businesses Face a Structural Disadvantage (But Can Overcome It)</a></li>
-<li><a href="#key-finding-6-business-description-length-matters-less-than-you-think">Key Finding #6: Business Description Length Matters Less Than You Think</a></li>
-<li><a href="#key-finding-7-review-response-rate-correlates-with-ranking-position">Key Finding #7: Review Response Rate Correlates With Ranking Position</a></li>
-<li><a href="#key-finding-8-secondary-categories-provide-diminishing-returns-after-three">Key Finding #8: Secondary Categories Provide Diminishing Returns After Three</a></li>
-<li><a href="#key-finding-9-the-openness-signal-is-now-a-hard-filter">Key Finding #9: The "Openness" Signal Is Now a Hard Filter</a></li>
-<li><a href="#key-finding-10-trade-specific-variations-are-larger-than-expected">Key Finding #10: Trade-Specific Variations Are Larger Than Expected</a></li>
-<li><a href="#key-finding-11-qa-activity-showed-no-measurable-correlation-and-now-its-gone">Key Finding #11: Q&amp;A Activity Showed No Measurable Correlation (And Now It's Gone)</a></li>
-<li><a href="#the-complete-ranking-factors-correlation-matrix">The Complete Ranking Factors Correlation Matrix</a></li>
+<li><a href="#what-matters-1-review-recency-beats-review-count">What Matters #1: Review Recency Beats Review Count</a></li>
+<li><a href="#what-matters-2-photo-quantity-is-more-important-than-most-contractors-think">What Matters #2: Photo Quantity Is More Important Than Most Contractors Think</a></li>
+<li><a href="#what-matters-3-primary-category-selection-is-likely-your-highest-impact-lever">What Matters #3: Primary Category Selection Is Likely Your Highest-Impact Lever</a></li>
+<li><a href="#what-matters-4-post-frequency-creates-a-real-ranking-advantage">What Matters #4: Post Frequency Creates a Real Ranking Advantage</a></li>
+<li><a href="#what-matters-5-service-area-businesses-face-a-structural-disadvantage-but-can-overcome-it">What Matters #5: Service-Area Businesses Face a Structural Disadvantage (But Can Overcome It)</a></li>
+<li><a href="#what-matters-6-business-description-length-matters-less-than-you-think">What Matters #6: Business Description Length Matters Less Than You Think</a></li>
+<li><a href="#what-matters-7-review-response-rate-correlates-with-visibility">What Matters #7: Review Response Rate Correlates With Visibility</a></li>
+<li><a href="#what-matters-8-secondary-categories-more-isnt-better">What Matters #8: Secondary Categories — More Isn't Better</a></li>
+<li><a href="#what-matters-9-the-openness-signal-is-becoming-a-hard-filter">What Matters #9: The "Openness" Signal Is Becoming a Hard Filter</a></li>
+<li><a href="#what-matters-10-ranking-factors-vary-by-trade">What Matters #10: Ranking Factors Vary by Trade</a></li>
+<li><a href="#what-matters-11-qa-activity-no-longer-matters-and-the-feature-is-going-away">What Matters #11: Q&amp;A Activity No Longer Matters (And the Feature Is Going Away)</a></li>
 <li><a href="#what-this-means-for-your-gbp-strategy">What This Means for Your GBP Strategy</a></li>
-<li><a href="#limitations-of-this-study">Limitations of This Study</a></li>
-<li><a href="#expert-commentary-what-local-seo-specialists-say-about-these-findings">Expert Commentary: What Local SEO Specialists Say About These Findings</a></li>
+<li><a href="#a-few-honest-caveats">A Few Honest Caveats</a></li>
 <li><a href="#your-30-day-gbp-optimization-action-plan">Your 30-Day GBP Optimization Action Plan</a></li>
 </ol>
 </nav>
 <hr />
-<h2>Our Methodology: How We Collected and Analyzed the Data</h2>
-<p>Before we share findings, here's exactly how we built this dataset — so you can evaluate the conclusions for yourself.</p>
-<h3>Sample Selection</h3>
-<p>We analyzed <strong>500 Google Business Profiles</strong> belonging to contractors across six trades:</p>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Trade</th>
-<th>Profiles Analyzed</th>
-<th>Cities Sampled</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Roofing</td>
-<td>95</td>
-<td>18</td>
-</tr>
-<tr>
-<td>HVAC</td>
-<td>88</td>
-<td>16</td>
-</tr>
-<tr>
-<td>Plumbing</td>
-<td>92</td>
-<td>17</td>
-</tr>
-<tr>
-<td>Electrical</td>
-<td>78</td>
-<td>14</td>
-</tr>
-<tr>
-<td>Solar</td>
-<td>72</td>
-<td>13</td>
-</tr>
-<tr>
-<td>Restoration</td>
-<td>75</td>
-<td>14</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><strong>Market selection criteria:</strong><br />
-- 50 US cities ranging from 100,000 to 2+ million population<br />
-- Mix of competitive markets (Dallas, Phoenix, Atlanta) and mid-tier markets (Boise, Richmond, Omaha)<br />
-- At least one city per Census region (Northeast, Midwest, South, West)<br />
-- Excluded markets where a single directory or lead-gen site dominated the local pack</p>
-<p><strong>Profile selection criteria:</strong><br />
-- Active GBP with visible address or defined service area<br />
-- At least 6 months of activity (to avoid brand-new profiles with artificial signals)<br />
-- No suspended or penalized profiles<br />
-- Mix of ranking positions (positions 1-20 in local pack)</p>
-<h3>Variables Analyzed</h3>
-<p>For each profile, we recorded:</p>
-<ol>
-<li><strong>Primary category</strong> (exact text)</li>
-<li><strong>Secondary categories count</strong></li>
-<li><strong>Review count</strong> (total)</li>
-<li><strong>Review rating</strong> (average stars)</li>
-<li><strong>Review velocity</strong> (new reviews per month, calculated from visible timeline)</li>
-<li><strong>Review recency</strong> (days since most recent review)</li>
-<li><strong>Photo count</strong> (total uploaded)</li>
-<li><strong>Photo recency</strong> (days since most recent photo)</li>
-<li><strong>Post frequency</strong> (posts per month)</li>
-<li><strong>Q&amp;A count</strong> (questions + answers)</li>
-<li><strong>Business description length</strong> (character count)</li>
-<li><strong>Service area size</strong> (number of cities/ZIPs defined)</li>
-<li><strong>Website link presence</strong> (yes/no)</li>
-<li><strong>Business hours completeness</strong> (full week vs. partial)</li>
-<li><strong>Attributes completion</strong> (percentage of available attributes filled)</li>
-<li><strong>Products/services listed</strong> (yes/no)</li>
-</ol>
-<h3>Ranking Measurement</h3>
-<p>We measured local pack position for each profile using this query pattern:</p>
-<div class="code-block">
-<pre><code>[trade] + [city] + &quot;near me&quot;
-</code></pre>
-</div>
-<p>Examples: "roofing contractor Dallas near me," "HVAC repair Phoenix near me."</p>
-<p><strong>Measurement protocol:</strong><br />
-- Searches conducted from IP addresses within each target metro area<br />
-- Incognito browser sessions, cleared cache/cookies<br />
-- Mobile viewport (375px width) to match dominant local search behavior<br />
-- Searches conducted between 9 AM and 5 PM local time on weekdays<br />
-- Each query run three times; position recorded as median value<br />
-- Local Services Ads excluded from position count</p>
-<h3>Statistical Approach</h3>
-<p>We used <strong>Spearman rank correlation</strong> to measure relationships between each variable and ranking position. Spearman is appropriate here because:<br />
-- Ranking positions are ordinal, not continuous<br />
-- It handles non-linear relationships (common in local SEO)<br />
-- It's robust to outliers (e.g., a profile with 2,000 reviews)</p>
-<p>Correlation coefficients range from -1 (perfect negative correlation: higher variable = better ranking) to +1 (perfect positive correlation: higher variable = worse ranking). A coefficient of 0 means no relationship.</p>
-<p><strong>Interpretation guide:</strong></p>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Coefficient</th>
-<th>Strength</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>-0.30 to -0.50</td>
-<td>Strong negative correlation</td>
-</tr>
-<tr>
-<td>-0.20 to -0.29</td>
-<td>Moderate negative correlation</td>
-</tr>
-<tr>
-<td>-0.10 to -0.19</td>
-<td>Weak negative correlation</td>
-</tr>
-<tr>
-<td>-0.09 to +0.09</td>
-<td>No meaningful correlation</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="callout callout-warning">
-<p><strong>Important caveat:</strong> Correlation does not prove causation. A strong correlation between photo count and ranking position might mean photos cause better rankings, or it might mean successful businesses simply upload more photos. We flag causation questions throughout.</p>
-</div>
-<h3>Data Collection Period</h3>
-<p>Data collected between January 15 and February 28, 2026. All ranking positions verified within 72 hours of publication.</p>
-<hr />
-<h2>Key Finding #1: Review Recency Beats Review Count</h2>
-<p><strong>The data:</strong> Review recency (days since most recent review) showed a <strong>-0.41 correlation</strong> with ranking position. Review count showed only <strong>-0.22</strong>.</p>
-<p>Here's what that means in plain terms: a contractor whose most recent review is from yesterday is more likely to rank well than a contractor with 500 reviews whose most recent one is from six months ago.</p>
-<p>This finding aligns with the <a href="https://whitespark.ca/blog/local-search-ranking-factors/" target="_blank" rel="noopener noreferrer">Whitespark 2026 Local Search Ranking Factors Survey</a>, where review recency jumped from #20 in importance (2023) to a top-5 position. Darren Shaw, founder of Whitespark, noted that "the moment you stop getting new reviews, you're going to see your local rankings start to slip — even if your total count is massive."</p>
-<h3>What the Distribution Looks Like</h3>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Ranking Position</th>
-<th>Avg. Days Since Last Review</th>
-<th>Avg. Total Reviews</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Position 1</td>
-<td>8.3 days</td>
-<td>187</td>
-</tr>
-<tr>
-<td>Position 2</td>
-<td>11.7 days</td>
-<td>203</td>
-</tr>
-<tr>
-<td>Position 3</td>
-<td>14.2 days</td>
-<td>195</td>
-</tr>
-<tr>
-<td>Position 4-5</td>
-<td>22.6 days</td>
-<td>178</td>
-</tr>
-<tr>
-<td>Position 6-10</td>
-<td>31.4 days</td>
-<td>164</td>
-</tr>
-<tr>
-<td>Position 11-20</td>
-<td>48.7 days</td>
-<td>142</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><strong>The pattern is unmistakable.</strong> Top-ranked profiles average a fresh review every 8-14 days. Profiles ranking 11-20 go more than a month between reviews on average.</p>
+<h2>What Matters #1: Review Recency Beats Review Count</h2>
+<p>A contractor whose most recent review landed yesterday is more likely to rank well than a contractor with hundreds of reviews whose most recent one is six months old. Recency tends to outweigh raw volume.</p>
+<p>This lines up with the <a href="https://whitespark.ca/blog/local-search-ranking-factors/" target="_blank" rel="noopener noreferrer">Whitespark 2026 Local Search Ranking Factors Survey</a>, where review recency jumped from roughly #20 in importance in 2023 to a top-5 position. The consistent message from local SEO practitioners: the moment a business stops generating new reviews, its local rankings tend to start slipping — even if the total review count is massive.</p>
 <h3>Why This Matters More for Contractors</h3>
-<p>Contractors face a unique challenge: most customers only need their services once every 5-15 years (roof replacement, HVAC installation). That natural cycle makes consistent review generation harder than for restaurants or salons.</p>
-<p>The contractors who cracked this code did three things differently:</p>
+<p>Contractors face a unique challenge: most customers only need their services once every 5-15 years (a roof replacement, an HVAC install). That natural cycle makes consistent review generation harder than it is for restaurants or salons with repeat weekly customers.</p>
+<p>Contractors who stay ahead of this tend to do three things differently:</p>
 <ol>
-<li><strong>They asked immediately.</strong> The highest-velocity profiles sent review requests within 24 hours of job completion — while the positive experience was fresh.</li>
-<li><strong>They asked everyone.</strong> Not just the homeowner who paid the bill. They asked property managers, real estate agents, insurance adjusters — anyone who interacted with their work.</li>
-<li><strong>They used multiple touchpoints.</strong> Text, email, and in-person requests. One plumbing contractor in our sample attributed 60% of their monthly reviews to a simple text message sent 2 hours after job completion.</li>
+<li><strong>They ask immediately.</strong> Sending a review request within 24 hours of job completion — while the experience is still fresh — consistently outperforms waiting.</li>
+<li><strong>They ask everyone.</strong> Not just the homeowner who paid the bill — property managers, real estate agents, and insurance adjusters who interacted with the work are all fair game.</li>
+<li><strong>They use multiple touchpoints.</strong> Text, email, and in-person requests all help. A short text message sent shortly after job completion is one of the highest-converting review requests a contractor can send.</li>
 </ol>
 <h3>The Action Item</h3>
-<p>Set up an automated review request system that triggers within 24 hours of job completion. Target 4-8 new reviews per month minimum. If your total review count is high but your recency is poor, your rankings are at risk regardless of your historical volume.</p>
+<p>Set up an automated review request system that triggers within 24 hours of job completion. Aim for a steady cadence of new reviews each month rather than a one-time push for volume — if your total review count is high but recency is poor, your visibility is still at risk.</p>
 <hr />
-<h2>Key Finding #2: Photo Quantity Shows Stronger Correlation Than Expected</h2>
-<p><strong>The data:</strong> Photo count correlated at <strong>-0.35</strong> with ranking position — stronger than review count (-0.22) and nearly as strong as review recency (-0.41).</p>
-<p>This surprised us. The SEO industry has long treated GBP photos as a "nice to have" rather than a ranking driver. Google's own statements suggest photos are primarily an engagement signal, not a direct ranking factor. But the correlation in our data is too strong to ignore.</p>
-<h3>The Photo Count Breakdown</h3>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Ranking Position</th>
-<th>Average Photo Count</th>
-<th>Median Photo Count</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Position 1</td>
-<td>127</td>
-<td>98</td>
-</tr>
-<tr>
-<td>Position 2</td>
-<td>118</td>
-<td>89</td>
-</tr>
-<tr>
-<td>Position 3</td>
-<td>109</td>
-<td>82</td>
-</tr>
-<tr>
-<td>Position 4-5</td>
-<td>87</td>
-<td>64</td>
-</tr>
-<tr>
-<td>Position 6-10</td>
-<td>64</td>
-<td>47</td>
-</tr>
-<tr>
-<td>Position 11-20</td>
-<td>41</td>
-<td>28</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>Profiles in position 1 average <strong>3x more photos</strong> than profiles in positions 11-20.</p>
-<h3>Why Photos Correlate So Strongly</h3>
-<p>We believe this correlation works through multiple indirect mechanisms:</p>
-<p><strong>1. Behavioral signals.</strong> Google's own data shows listings with photos receive 42% more direction requests and 35% more website clicks. These engagement metrics feed back into ranking algorithms.</p>
-<p><strong>2. Vision AI analysis.</strong> Google uses computer vision to analyze photo content. A roofing contractor uploading photos of shingle installations, gutter work, and storm damage helps Google understand what services they offer — improving relevance matching.</p>
-<p><strong>3. Profile completeness signal.</strong> Photo count is a proxy for overall profile maintenance. Contractors who upload 100+ photos are almost certainly also responding to reviews, updating hours, and posting regularly.</p>
-<p><strong>4. Trust and click-through rate.</strong> In the local pack, profiles with rich photo galleries stand out visually. Higher CTR from search results sends positive behavioral signals.</p>
-<h3>The Contractor Photo Strategy</h3>
-<p>The highest-photo-count profiles in our sample followed a consistent pattern:</p>
+<h2>What Matters #2: Photo Quantity Is More Important Than Most Contractors Think</h2>
+<p>The SEO industry has long treated GBP photos as a "nice to have" rather than a ranking driver. Google has been cagey about whether photos are a direct ranking factor or purely an engagement signal — but the practical case for keeping a large, fresh photo library is strong enough that it belongs near the top of any contractor's GBP checklist.</p>
+<h3>Why Photos Likely Help</h3>
+<p>A few mechanisms are probably at work:</p>
+<p><strong>1. Behavioral signals.</strong> Google has indicated that listings with more photos tend to generate meaningfully more direction requests and website clicks than listings without. Those engagement signals likely feed back into how prominently a profile surfaces.</p>
+<p><strong>2. Vision AI analysis.</strong> Google uses computer vision to analyze photo content. A roofing contractor uploading photos of shingle installs, gutter work, and storm damage helps Google understand what services they actually offer — improving relevance matching for those searches.</p>
+<p><strong>3. Profile completeness signal.</strong> A large, active photo library is a reasonable proxy for overall profile maintenance. Contractors who upload photos regularly are usually also responding to reviews, keeping hours current, and posting — the whole profile tends to be in better shape.</p>
+<p><strong>4. Trust and click-through rate.</strong> In a local pack full of thin profiles, a business with a rich photo gallery stands out visually and tends to earn more clicks — which is itself a positive signal.</p>
+<h3>What to Photograph</h3>
+<p>A well-rounded contractor photo library typically includes:</p>
 <ul class="bullet-list">
-<li><strong>Before/after photos</strong> (40% of uploads): Kitchen remodels, roof replacements, HVAC installations</li>
-<li><strong>Team photos</strong> (20%): Crews on-site, uniformed technicians, company vehicles</li>
-<li><strong>Equipment/vehicle photos</strong> (15%): Branded trucks, specialized tools, safety gear</li>
-<li><strong>Project process photos</strong> (15%): Mid-job progress shots, detail work, cleanup</li>
-<li><strong>Office/facility photos</strong> (10%): Showroom, warehouse, dispatch center</li>
+<li><strong>Before/after photos:</strong> Roof replacements, HVAC installs, remodels — the more dramatic the transformation, the better</li>
+<li><strong>Team photos:</strong> Crews on-site, uniformed technicians, branded vehicles</li>
+<li><strong>Equipment/vehicle photos:</strong> Branded trucks, specialized tools, safety gear</li>
+<li><strong>Project process photos:</strong> Mid-job progress shots, detail work, cleanup</li>
+<li><strong>Office/facility photos:</strong> Showroom, warehouse, dispatch center</li>
 </ul>
-<p><strong>Critical insight:</strong> The top-performing profiles added photos <strong>consistently</strong>, not in bulk. Profiles that uploaded 50 photos in one day and then went silent performed worse than profiles that added 2-3 photos per week ongoing.</p>
+<p><strong>Consistency beats bulk.</strong> A one-time upload of dozens of photos followed by months of silence isn't nearly as effective as adding a handful of new photos every week, on an ongoing basis.</p>
 <h3>The Action Item</h3>
-<p>Upload a minimum of 60 photos across all categories. Then add 2-3 new photos weekly. Use original images — not stock photos. Geotag images to your service area before upload (while Google strips EXIF data, the practice ensures your photo library is location-relevant).</p>
+<p>Build out a solid photo library across all the categories above, then add a few new photos every week rather than in occasional batches. Use original images — not stock photos.</p>
 <hr />
-<h2>Key Finding #3: Primary Category Selection Is the Single Highest-Impact Variable</h2>
-<p><strong>The data:</strong> Primary category alignment showed the strongest correlation of any variable we measured: <strong>-0.47</strong>.</p>
-<p>This wasn't a numerical variable — it was a binary classification. We scored each profile's primary category as either "aligned" (directly matching the search query intent) or "misaligned" (a broader or tangential category).</p>
+<h2>What Matters #3: Primary Category Selection Is Likely Your Highest-Impact Lever</h2>
+<p>Of everything on this list, primary category selection is the one thing local SEO practitioners most consistently point to as the highest-leverage fix on a Google Business Profile. It's not a numerical tweak — it's a binary question: does your primary category directly match what your ideal customer types into Google, or is it a broader, tangential category?</p>
 <h3>What "Aligned" Means in Practice</h3>
 <div class="cost-table">
 <table>
@@ -369,24 +140,19 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 </tbody>
 </table>
 </div>
-<p><strong>The results were stark:</strong></p>
-<ul>
-<li><strong>87% of position 1-3 profiles</strong> had an aligned primary category</li>
-<li><strong>Only 34% of position 11-20 profiles</strong> had an aligned primary category</li>
-</ul>
 <h3>The Category Trap</h3>
-<p>We found a common pattern among lower-ranked profiles: contractors selecting overly broad categories in an attempt to rank for more queries. A roofing company selecting "Construction company" as their primary category hoping to also capture general construction searches. An electrician selecting "Home improvement" to cast a wider net.</p>
-<p>This backfires. Google's algorithm uses primary category as a core relevance signal. When someone searches "roofing contractor," Google prioritizes profiles categorized as "Roofing contractor" — not profiles that happen to offer roofing among 12 other services.</p>
+<p>A common pattern among under-performing profiles: contractors select an overly broad category hoping to capture more search volume. A roofing company selects "Construction company," hoping to also rank for general construction searches. An electrician selects "Home improvement" to cast a wider net.</p>
+<p>This tends to backfire. Google's algorithm leans heavily on primary category as a relevance signal. When someone searches "roofing contractor," Google favors profiles categorized specifically as "Roofing contractor" — not profiles that happen to offer roofing among a dozen other services.</p>
 <h3>The Secondary Category Strategy</h3>
-<p>Here's where it gets interesting. Profiles with <strong>3-4 well-chosen secondary categories</strong> outperformed profiles with either zero secondaries or 8+ secondaries. This suggests a "Goldilocks zone" — enough to signal breadth, not so many that relevance gets diluted.</p>
-<p><strong>Top secondary category combinations by trade:</strong></p>
+<p>A small number of tightly related secondary categories tends to outperform either zero secondaries or a long, scattershot list — enough to signal breadth without diluting what the profile is fundamentally about.</p>
+<p><strong>Sensible secondary category combinations by trade:</strong></p>
 <div class="cost-table">
 <table>
 <thead>
 <tr>
 <th>Trade</th>
 <th>Primary</th>
-<th>High-Value Secondaries</th>
+<th>Related Secondaries Worth Considering</th>
 </tr>
 </thead>
 <tbody>
@@ -424,168 +190,41 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 </table>
 </div>
 <h3>The Action Item</h3>
-<p>Audit your primary category. If it doesn't exactly match what your ideal customer types into Google, change it. Then select 3-4 highly relevant secondary categories — no more. Avoid the temptation to add tangential categories "just in case."</p>
+<p>Audit your primary category. If it doesn't exactly match what your ideal customer types into Google, change it. Then select a handful of highly relevant secondary categories — resist the temptation to add tangential ones "just in case."</p>
 <hr />
-<h2>Key Finding #4: Post Frequency Creates a Clear Ranking Advantage</h2>
-<p><strong>The data:</strong> Post frequency (posts per month) correlated at <strong>-0.28</strong> with ranking position. More interestingly, profiles posting 2+ times per week were <strong>2.3x more likely</strong> to rank in positions 1-3 than profiles posting less than once per month.</p>
-<h3>The Posting Frequency Distribution</h3>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Posts/Month</th>
-<th>% in Positions 1-3</th>
-<th>% in Positions 11-20</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0</td>
-<td>8%</td>
-<td>47%</td>
-</tr>
-<tr>
-<td>1-2</td>
-<td>18%</td>
-<td>31%</td>
-</tr>
-<tr>
-<td>3-4</td>
-<td>34%</td>
-<td>15%</td>
-</tr>
-<tr>
-<td>5-8</td>
-<td>52%</td>
-<td>6%</td>
-</tr>
-<tr>
-<td>9+</td>
-<td>61%</td>
-<td>3%</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><strong>The threshold effect is clear.</strong> Posting 3-4 times per month moves the needle. Posting 5-8 times per month moves it more. But the biggest jump is from "never" to "sometimes" — profiles posting even 1-2 times per month dramatically outperformed inactive profiles.</p>
-<h3>Why Posts Matter (Beyond the Obvious)</h3>
-<p>GBP posts expire after 7 days. A profile that hasn't posted in a month shows nothing in the "Updates" section of their Knowledge Panel. This creates a perception of inactivity — both for Google and for potential customers.</p>
-<p>But there's a deeper mechanism at work. Posts generate direct engagement (clicks, calls, direction requests) that feed behavioral signals. They also allow keyword reinforcement — a roofing contractor posting about "hail damage repair in Plano" signals relevance for that specific query.</p>
-<h3>What the Top Posters Actually Share</h3>
-<p>We analyzed the content of posts from the highest-frequency profiles. The pattern:</p>
+<h2>What Matters #4: Post Frequency Creates a Real Ranking Advantage</h2>
+<p>GBP posts expire after 7 days. A profile that hasn't posted in a month shows nothing in the "Updates" section of its Knowledge Panel — which reads as inactivity to both Google and potential customers.</p>
+<p>There's likely a deeper mechanism at work too. Posts generate direct engagement (clicks, calls, direction requests) that feed behavioral signals, and they let you reinforce keywords naturally — a roofing contractor posting about "hail damage repair in Plano" signals relevance for that specific query.</p>
+<h3>What Works to Post</h3>
+<p>Contractors who post consistently tend to rotate through a handful of content types:</p>
 <ul>
-<li><strong>40% project updates:</strong> "Just completed a full roof replacement in Frisco. Here's the before and after."</li>
-<li><strong>25% seasonal/timely content:</strong> "Is your AC ready for the Phoenix summer? Schedule a tune-up before the heat hits."</li>
-<li><strong>20% offers and promotions:</strong> "$500 off full HVAC system replacement. Limited time."</li>
-<li><strong>15% educational content:</strong> "3 signs your water heater is about to fail."</li>
+<li><strong>Project updates:</strong> "Just completed a full roof replacement in Frisco. Here's the before and after."</li>
+<li><strong>Seasonal/timely content:</strong> "Is your AC ready for the Phoenix summer? Schedule a tune-up before the heat hits."</li>
+<li><strong>Offers and promotions:</strong> "$500 off a full HVAC system replacement. Limited time."</li>
+<li><strong>Educational content:</strong> "3 signs your water heater is about to fail."</li>
 </ul>
-<p><strong>What they don't post:</strong> Generic motivational quotes, irrelevant memes, or content that doesn't mention their service area.</p>
+<p><strong>What doesn't work:</strong> generic motivational quotes, irrelevant memes, or content that never mentions the service area.</p>
 <h3>The Action Item</h3>
-<p>Post at least twice per week. Use a simple content calendar: Monday (project update), Wednesday (educational tip), Friday (offer or seasonal reminder). Each post should include a photo, a location reference, and a clear call-to-action button.</p>
+<p>Post at least twice per week. A simple content calendar works well: Monday (project update), Wednesday (educational tip), Friday (offer or seasonal reminder). Each post should include a photo, a location reference, and a clear call-to-action button.</p>
 <hr />
-<h2>Key Finding #5: Service-Area Businesses Face a Structural Disadvantage (But Can Overcome It)</h2>
-<p><strong>The data:</strong> Service-area businesses (SABs) with hidden addresses ranked in positions 1-3 <strong>31% less often</strong> than brick-and-mortar contractors with visible addresses — <strong>when all other variables were equal</strong>.</p>
-<p>This is the most controversial finding in our study. It suggests that hiding your address, while often necessary for compliance, may carry a ranking penalty.</p>
-<h3>The SAB vs. Brick-and-Mortar Breakdown</h3>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Metric</th>
-<th>SAB (Hidden Address)</th>
-<th>Brick-and-Mortar (Visible Address)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>% ranking positions 1-3</td>
-<td>24%</td>
-<td>55%</td>
-</tr>
-<tr>
-<td>% ranking positions 4-10</td>
-<td>38%</td>
-<td>31%</td>
-</tr>
-<tr>
-<td>% ranking positions 11-20</td>
-<td>38%</td>
-<td>14%</td>
-</tr>
-<tr>
-<td>Avg. review count (top 10%)</td>
-<td>312</td>
-<td>198</td>
-</tr>
-<tr>
-<td>Avg. photo count (top 10%)</td>
-<td>156</td>
-<td>94</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><strong>To rank in the top 3, SABs needed significantly stronger signals elsewhere.</strong> The top-performing SABs in our sample averaged 312 reviews and 156 photos — far above the brick-and-mortar average.</p>
-<h3>Why SABs Struggle</h3>
-<p>Google's local algorithm relies heavily on <strong>proximity</strong> — the physical distance between the searcher and the business. For brick-and-mortar locations, this is straightforward: a pin on a map. For SABs with hidden addresses, Google must infer proximity from service area definitions, which are inherently less precise.</p>
-<p>The Whitespark 2026 survey confirmed this shift: "Address showing on GBP" rose significantly in importance, while SABs reported increased difficulty ranking in competitive markets.</p>
-<h3>How Top SABs Compensate</h3>
-<p>The SABs that did rank in positions 1-3 shared these characteristics:</p>
+<h2>What Matters #5: Service-Area Businesses Face a Structural Disadvantage (But Can Overcome It)</h2>
+<p>Google's local algorithm relies heavily on proximity — Google itself names distance, alongside relevance and prominence, as one of the three core inputs to local ranking. For brick-and-mortar locations, proximity is straightforward: a pin on a map. For service-area businesses (SABs) with hidden addresses, Google has to infer proximity from a defined service area, which is inherently less precise — and that tends to work against SABs in competitive markets.</p>
+<p>The Whitespark 2026 survey reflects this shift too: "address showing on GBP" rose in importance in recent survey years, and SABs have reported increased difficulty competing for top positions in crowded markets.</p>
+<h3>How Strong SABs Compensate</h3>
+<p>SABs that do rank well tend to share a few habits:</p>
 <ol>
-<li><strong>Tightly defined service areas.</strong> They defined 8-15 specific cities rather than a 100-mile radius. One HVAC contractor in our sample listed 12 specific suburbs instead of "Dallas-Fort Worth metro."</li>
-<li><strong>Location pages on their website.</strong> Every top SAB had dedicated pages for each major service area with unique content — not duplicate templates.</li>
-<li><strong>Review location mentions.</strong> They encouraged customers to mention their city in reviews. A review saying "Great plumber in Richardson" reinforces geographic relevance.</li>
+<li><strong>Tightly defined service areas.</strong> Listing specific cities rather than a 100-mile radius helps Google — and searchers — understand where you actually operate.</li>
+<li><strong>Location pages on their website.</strong> Dedicated pages for each major service area with unique content, not duplicated templates, reinforce geographic relevance beyond the GBP itself.</li>
+<li><strong>Review location mentions.</strong> Encouraging customers to mention their city in reviews ("Great plumber in Richardson") reinforces geographic relevance.</li>
 <li><strong>Local schema markup.</strong> Proper LocalBusiness schema with <code>areaServed</code> properties defined.</li>
-<li><strong>Local citations with service area listed.</strong> Directories that allow service-area listings (Yelp, Angi, BBB) had consistent NAP + service area data.</li>
+<li><strong>Consistent local citations.</strong> Directories that support service-area listings (Yelp, Angi, BBB) should carry consistent NAP + service area data.</li>
 </ol>
 <h3>The Action Item</h3>
-<p>If you're a service-area business, don't just hide your address and hope for the best. Define specific service areas (cities, not radiuses). Build unique location pages. Encourage location-specific reviews. And accept that you may need stronger overall signals to compete with brick-and-mortar competitors.</p>
+<p>If you're a service-area business, don't just hide your address and hope for the best. Define specific service areas by city, build unique location pages, encourage location-specific reviews, and expect that you'll need stronger overall signals to compete head-to-head with brick-and-mortar competitors.</p>
 <hr />
-<h2>Key Finding #6: Business Description Length Matters Less Than You Think</h2>
-<p><strong>The data:</strong> Business description length correlated at only <strong>-0.09</strong> with ranking position — effectively no relationship.</p>
-<p>This contradicts a common piece of GBP advice: "Write a long, keyword-rich business description." We found no evidence that descriptions over 500 characters outperformed descriptions under 200 characters, once other variables were controlled.</p>
-<h3>What We Found Instead</h3>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Description Length</th>
-<th>Avg. Ranking Position</th>
-<th>% in Positions 1-3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0-100 characters</td>
-<td>8.4</td>
-<td>22%</td>
-</tr>
-<tr>
-<td>101-300 characters</td>
-<td>7.9</td>
-<td>26%</td>
-</tr>
-<tr>
-<td>301-500 characters</td>
-<td>7.6</td>
-<td>28%</td>
-</tr>
-<tr>
-<td>501-750 characters</td>
-<td>7.8</td>
-<td>25%</td>
-</tr>
-<tr>
-<td>751+ characters</td>
-<td>8.1</td>
-<td>23%</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>The distribution is essentially flat. A 750-character description performed no better than a 100-character description.</p>
+<h2>What Matters #6: Business Description Length Matters Less Than You Think</h2>
+<p>A common piece of GBP advice is "write a long, keyword-rich business description." In practice, there's little reason to believe longer descriptions outperform shorter ones. What actually seems to matter is whether the description clearly states your primary service and at least one target city — not how many characters it runs.</p>
 <h3>What Actually Matters in Descriptions</h3>
-<p>While length didn't correlate, <strong>keyword presence</strong> did — but only for the primary service + location combination. Profiles whose description included their exact primary service and at least one target city outperformed profiles with generic descriptions, regardless of length.</p>
 <p><strong>Example of an effective description (142 characters):</strong></p>
 <blockquote class="highlight-quote">
 <p>"Licensed roofing contractor serving Dallas, Plano, and Frisco. Specializing in hail damage repair, full replacements, and emergency tarping."</p>
@@ -594,67 +233,21 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 <blockquote class="highlight-quote">
 <p>"At Smith Family Construction, we believe in quality, integrity, and putting the customer first. Founded in 1987, our family-owned business has served the community for over three decades. We take pride in every project, big or small, and our commitment to excellence has made us a trusted name in home services. Our team of dedicated professionals brings passion and expertise to every job site..."</p>
 </blockquote>
-<p>The second description is longer but contains zero searchable keywords. It tells a story. It doesn't help Google understand what the business does or where it operates.</p>
+<p>The second description is longer but contains zero searchable keywords. It tells a story, but it doesn't help Google — or a searcher skimming results — understand what the business does or where it operates.</p>
 <h3>The Action Item</h3>
-<p>Write a concise description (150-300 characters) that includes your primary service, your top 2-3 service areas, and one differentiator. Don't waste time on lengthy origin stories or mission statements. The description field is for relevance signaling, not brand storytelling.</p>
+<p>Write a concise description (150-300 characters) that includes your primary service, your top 2-3 service areas, and one differentiator. Skip the lengthy origin story or mission statement — the description field is for relevance signaling, not brand storytelling.</p>
 <hr />
-<h2>Key Finding #7: Review Response Rate Correlates With Ranking Position</h2>
-<p><strong>The data:</strong> Review response rate (percentage of reviews with a public reply) correlated at <strong>-0.24</strong> with ranking position. More notably, <strong>100% response rate</strong> was 3.1x more common among position 1-3 profiles than among position 11-20 profiles.</p>
-<h3>The Response Rate Distribution</h3>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Response Rate</th>
-<th>% of Position 1-3 Profiles</th>
-<th>% of Position 11-20 Profiles</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0%</td>
-<td>4%</td>
-<td>31%</td>
-</tr>
-<tr>
-<td>1-25%</td>
-<td>8%</td>
-<td>22%</td>
-</tr>
-<tr>
-<td>26-50%</td>
-<td>12%</td>
-<td>18%</td>
-</tr>
-<tr>
-<td>51-75%</td>
-<td>18%</td>
-<td>15%</td>
-</tr>
-<tr>
-<td>76-99%</td>
-<td>24%</td>
-<td>10%</td>
-</tr>
-<tr>
-<td>100%</td>
-<td>34%</td>
-<td>4%</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><strong>One in three top-ranked profiles responds to every single review.</strong> Only 4% of lower-ranked profiles do the same.</p>
+<h2>What Matters #7: Review Response Rate Correlates With Visibility</h2>
+<p>Google has never confirmed review responses as a direct ranking factor, but there's a solid case for treating a 100% response rate as table stakes.</p>
 <h3>Why Responses Matter</h3>
-<p>Google has never confirmed review responses as a direct ranking factor. But the correlation is strong enough to suggest at least an indirect mechanism:</p>
 <ol>
-<li><strong>Engagement signal.</strong> Responding to reviews demonstrates active profile management — a signal of business legitimacy.</li>
-<li><strong>Keyword reinforcement.</strong> Responses allow you to naturally mention services and locations. A reply to a roofing review saying "Thanks for trusting us with your Plano roof replacement" reinforces geographic and service relevance.</li>
-<li><strong>Consumer behavior.</strong> BrightLocal's 2026 Local Consumer Review Survey found that 80% of consumers are more likely to use a business that answers every review. Higher conversion rates from search results feed behavioral signals.</li>
-<li><strong>Review velocity encouragement.</strong> When customers see that a business responds to every review, they're more likely to leave one themselves — creating a virtuous cycle.</li>
+<li><strong>Engagement signal.</strong> Responding to every review demonstrates active profile management — a signal of business legitimacy.</li>
+<li><strong>Keyword reinforcement.</strong> Responses let you naturally mention services and locations. A reply to a roofing review saying "Thanks for trusting us with your Plano roof replacement" reinforces both geographic and service relevance.</li>
+<li><strong>Consumer behavior.</strong> BrightLocal's 2026 Local Consumer Review Survey found that 80% of consumers are more likely to use a business that answers every review. Higher conversion from search results feeds positive behavioral signals.</li>
+<li><strong>Review velocity encouragement.</strong> When customers see a business responding to every review, they're more likely to leave one themselves — a modest virtuous cycle.</li>
 </ol>
 <h3>The Response Template That Works</h3>
-<p>Top responders didn't use generic copy-paste replies. They followed a simple formula:</p>
+<p>The best responses aren't generic copy-paste replies. A simple formula works well:</p>
 <blockquote class="highlight-quote">
 <p>"Thanks [Name]! [Specific reference to their project]. We're glad [specific outcome]. If you ever need [related service] in [area], we're here. — [Owner/Manager name], [Company]"</p>
 </blockquote>
@@ -662,361 +255,68 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 <blockquote class="highlight-quote">
 <p>"Thanks Jennifer! Your hail-damaged roof in Frisco was one of the more challenging jobs we've done this season. We're glad the insurance process went smoothly and you're happy with the new shingles. If you ever need gutter work, we're here. — Mike, Dallas Roofing Pros"</p>
 </blockquote>
-<p>This response mentions the service (roof, hail damage, gutters), the location (Frisco, Dallas), and includes a real name — all in 40 words.</p>
+<p>This response mentions the service (roof, hail damage, gutters), the location (Frisco, Dallas), and includes a real name — all in about 40 words.</p>
 <h3>The Action Item</h3>
-<p>Respond to 100% of reviews within 24-48 hours. Use the response as an opportunity to reinforce keywords naturally. Never use generic templates like "Thanks for your review!" — that's wasted real estate.</p>
+<p>Respond to 100% of reviews within 24-48 hours. Use the response as an opportunity to reinforce keywords naturally. Avoid generic templates like "Thanks for your review!" — that's wasted real estate.</p>
 <hr />
-<h2>Key Finding #8: Secondary Categories Provide Diminishing Returns After Three</h2>
-<p><strong>The data:</strong> Profiles with 1-3 secondary categories outperformed profiles with 0 secondaries (correlation: -0.18). But profiles with 6+ secondary categories showed <strong>worse</strong> performance than those with 3-4.</p>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Secondary Categories</th>
-<th>Avg. Ranking Position</th>
-<th>% in Positions 1-3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0</td>
-<td>9.2</td>
-<td>14%</td>
-</tr>
-<tr>
-<td>1</td>
-<td>8.1</td>
-<td>22%</td>
-</tr>
-<tr>
-<td>2</td>
-<td>7.4</td>
-<td>28%</td>
-</tr>
-<tr>
-<td>3</td>
-<td>6.8</td>
-<td>34%</td>
-</tr>
-<tr>
-<td>4</td>
-<td>7.1</td>
-<td>29%</td>
-</tr>
-<tr>
-<td>5</td>
-<td>7.8</td>
-<td>21%</td>
-</tr>
-<tr>
-<td>6+</td>
-<td>8.6</td>
-<td>16%</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>The sweet spot is <strong>3 secondary categories</strong>. Performance degrades beyond that.</p>
+<h2>What Matters #8: Secondary Categories — More Isn't Better</h2>
+<p>A small number of closely related secondary categories tends to outperform both zero secondaries and a long list of loosely related ones.</p>
 <h3>The Dilution Problem</h3>
-<p>We believe this pattern reflects Google's relevance scoring. Each secondary category adds potential relevance for related queries — but also dilutes the primary category's signal. A "Plumber" with 8 secondaries including "Landscaper" and "Painter" looks less like a focused plumbing business and more like a general handyman service.</p>
-<p>Google's algorithm rewards specialization. A profile that clearly signals "we do this one thing exceptionally well" outranks a profile that signals "we do a little of everything."</p>
-<h3>The Exception: Restoration</h3>
-<p>Restoration contractors were the one trade where 4-5 secondary categories performed well. This makes sense: water damage, fire damage, and mold remediation are closely related services that customers often need simultaneously. A restoration company with multiple damage-type categories appears more comprehensive, not diluted.</p>
+<p>This likely reflects how Google's relevance scoring works. Each secondary category adds potential relevance for related queries, but also dilutes the primary category's signal. A "Plumber" with eight secondaries including "Landscaper" and "Painter" reads less like a focused plumbing business and more like a general handyman service.</p>
+<p>Google's algorithm tends to reward specialization. A profile that clearly signals "we do this one thing exceptionally well" tends to outperform one that signals "we do a little of everything."</p>
+<h3>An Exception: Restoration</h3>
+<p>Restoration is one trade where a few more secondary categories can make sense. Water damage, fire damage, and mold remediation are closely related services that customers often need simultaneously, so a restoration company covering multiple damage types looks comprehensive rather than diluted.</p>
 <h3>The Action Item</h3>
-<p>Select exactly 3 secondary categories that are closely related to your primary service. Remove any tangential categories. If you're a plumber with "Painter" or "Carpenter" as secondaries, delete them — they're hurting more than helping.</p>
+<p>Select a handful (2-4) of secondary categories that are closely related to your primary service, and remove anything tangential. If you're a plumber with "Painter" or "Carpenter" as secondaries, they're more likely hurting than helping.</p>
 <hr />
-<h2>Key Finding #9: The "Openness" Signal Is Now a Hard Filter</h2>
-<p><strong>The data:</strong> This wasn't a correlation — it was a binary observation. In our sample, <strong>zero profiles</strong> ranked in positions 1-3 when the search was conducted outside their stated business hours.</p>
-<p>Google's "openness" signal — whether a business is currently open at the time of search — has evolved from a mild ranking factor to what appears to be a <strong>hard filter</strong> in 2026.</p>
-<h3>What We Observed</h3>
-<p>We tested 50 profiles with evening searches (8 PM local time). Of profiles that closed at 5 PM:<br />
-- <strong>0% appeared in positions 1-3</strong><br />
-- <strong>12% appeared in positions 4-10</strong><br />
-- <strong>88% dropped to positions 11-20 or disappeared entirely</strong></p>
-<p>We then tested the same profiles during business hours (10 AM local time):<br />
-- <strong>34% appeared in positions 1-3</strong><br />
-- <strong>41% appeared in positions 4-10</strong><br />
-- <strong>25% appeared in positions 11-20</strong></p>
-<p><strong>The same profiles performed dramatically worse simply because of the time of day.</strong></p>
-<h3>The Emergency Service Loophole</h3>
-<p>Contractors offering 24/7 emergency services had a significant advantage. Profiles with extended hours (including evenings and weekends) maintained consistent visibility across all time periods tested.</p>
-<p>This finding has massive implications for emergency trades: plumbing, HVAC, electrical, and restoration. If you offer after-hours service but your GBP shows 9-5 hours, you're invisible to the highest-intent searches — the ones that happen at 10 PM when a pipe bursts.</p>
+<h2>What Matters #9: The "Openness" Signal Is Becoming a Hard Filter</h2>
+<p>Google's "openness" signal — whether a business appears currently open at the moment of search — has become one of the more consequential factors for time-sensitive searches. For queries with clear urgent intent ("emergency plumber near me" at 10 PM), a business that shows as closed is far less likely to surface prominently, regardless of how strong its other signals are.</p>
+<h3>The Emergency Service Opportunity</h3>
+<p>Contractors offering 24/7 emergency service — plumbing, HVAC, electrical, restoration — have a real advantage here if their listed hours reflect it. If you offer after-hours service but your GBP shows 9-5 hours, you're effectively invisible for the highest-intent searches: the ones that happen at 10 PM when a pipe bursts.</p>
 <h3>The Action Item</h3>
-<p>If you offer any form of after-hours service — even just emergency call-taking — update your GBP hours to reflect it. You don't need technicians on-site 24/7. You need someone answering the phone. Set up an after-hours answering service and list those hours. The ranking visibility for emergency queries will more than pay for the service.</p>
+<p>If you offer any form of after-hours service — even just emergency call-taking — update your GBP hours to reflect it. You don't need technicians on-site 24/7; you need someone answering the phone. An after-hours answering service, paired with hours that reflect it, can meaningfully improve visibility for emergency queries.</p>
 <hr />
-<h2>Key Finding #10: Trade-Specific Variations Are Larger Than Expected</h2>
-<p><strong>The data:</strong> The relative importance of ranking factors varied significantly by trade. What works for a roofer doesn't necessarily work for a plumber.</p>
-<h3>Correlation Strength by Trade</h3>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Variable</th>
-<th>Roofing</th>
-<th>HVAC</th>
-<th>Plumbing</th>
-<th>Electrical</th>
-<th>Solar</th>
-<th>Restoration</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Review recency</td>
-<td>-0.44</td>
-<td>-0.39</td>
-<td>-0.42</td>
-<td>-0.38</td>
-<td>-0.35</td>
-<td>-0.46</td>
-</tr>
-<tr>
-<td>Photo count</td>
-<td>-0.38</td>
-<td>-0.33</td>
-<td>-0.31</td>
-<td>-0.29</td>
-<td>-0.41</td>
-<td>-0.36</td>
-</tr>
-<tr>
-<td>Post frequency</td>
-<td>-0.31</td>
-<td>-0.26</td>
-<td>-0.24</td>
-<td>-0.22</td>
-<td>-0.33</td>
-<td>-0.29</td>
-</tr>
-<tr>
-<td>Review response rate</td>
-<td>-0.28</td>
-<td>-0.23</td>
-<td>-0.21</td>
-<td>-0.19</td>
-<td>-0.27</td>
-<td>-0.30</td>
-</tr>
-<tr>
-<td>Primary category</td>
-<td>-0.49</td>
-<td>-0.45</td>
-<td>-0.48</td>
-<td>-0.44</td>
-<td>-0.51</td>
-<td>-0.46</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><strong>Key observations:</strong></p>
+<h2>What Matters #10: Ranking Factors Vary by Trade</h2>
+<p>What matters most doesn't weigh the same across every trade.</p>
 <ul>
-<li><strong>Solar</strong> showed the strongest photo correlation (-0.41). Visual proof of installations is critical for a high-consideration purchase.</li>
-<li><strong>Restoration</strong> showed the strongest review recency correlation (-0.46). Emergency services depend on recent social proof — a 2-year-old review doesn't reassure someone with a flooded basement.</li>
-<li><strong>Electrical</strong> showed the weakest overall correlations. We believe this reflects lower competition in many markets — the bar is simply lower.</li>
-<li><strong>Roofing</strong> showed strong correlations across all variables. It's the most competitive contractor trade in our sample.</li>
+<li><strong>Solar</strong> tends to lean more heavily on photos than most trades. It's a high-consideration, high-ticket purchase, and visual proof of past installations does a lot of the trust-building work.</li>
+<li><strong>Restoration and other emergency trades</strong> lean more heavily on review recency. When someone has a flooded basement, a two-year-old review doesn't reassure them nearly as much as one from last week.</li>
+<li><strong>Lower-competition trades</strong> can sometimes rank with a lighter overall signal profile simply because the local bar is lower in a given market — though that bar tends to rise every year.</li>
+<li><strong>Roofing</strong> is typically one of the most competitive contractor categories in a given market, which means strong performance is usually needed across every signal, not just one or two.</li>
 </ul>
-<h3>The Competitive Landscape by Trade</h3>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Trade</th>
-<th>Avg. Reviews (Pos 1-3)</th>
-<th>Avg. Photos (Pos 1-3)</th>
-<th>Avg. Posts/Month (Pos 1-3)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Roofing</td>
-<td>234</td>
-<td>156</td>
-<td>6.2</td>
-</tr>
-<tr>
-<td>HVAC</td>
-<td>198</td>
-<td>134</td>
-<td>5.4</td>
-</tr>
-<tr>
-<td>Plumbing</td>
-<td>187</td>
-<td>128</td>
-<td>5.1</td>
-</tr>
-<tr>
-<td>Electrical</td>
-<td>156</td>
-<td>98</td>
-<td>3.8</td>
-</tr>
-<tr>
-<td>Solar</td>
-<td>267</td>
-<td>198</td>
-<td>7.1</td>
-</tr>
-<tr>
-<td>Restoration</td>
-<td>312</td>
-<td>178</td>
-<td>6.8</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><strong>Solar and restoration require the strongest signals to compete.</strong> These are high-ticket, trust-dependent services where customers research extensively before calling.</p>
 <h3>The Action Item</h3>
-<p>Don't apply generic local SEO advice blindly. If you're a solar contractor, prioritize photos and recent reviews above all else. If you're an electrician, you may be able to rank with fewer total signals due to lower competition. Benchmark against your specific trade, not "local businesses" generally.</p>
+<p>Don't apply generic local SEO advice blindly. If you're a solar contractor, prioritize photos and recent reviews above almost everything else. If you're in a lower-competition trade, don't get complacent — benchmark against your specific trade and market, not "local businesses" in general.</p>
 <hr />
-<h2>Key Finding #11: Q&amp;A Activity Showed No Measurable Correlation (And Now It's Gone)</h2>
-<p><strong>The data:</strong> Q&amp;A count (questions + answers on the GBP) correlated at <strong>-0.06</strong> with ranking position — statistically meaningless.</p>
-<p>This finding arrived just as Google began phasing out the Q&amp;A feature entirely. The Q&amp;A API was deprecated in November 2025, and Google is replacing manual Q&amp;A with AI-generated answers powered by Gemini.</p>
-<h3>Why Q&amp;A Never Mattered</h3>
-<p>Despite years of SEO blog posts recommending "seed your Q&amp;A section with common questions," our data found no relationship between Q&amp;A activity and ranking position. Profiles with 50+ Q&amp;A entries performed no better than profiles with zero entries.</p>
-<p>This makes sense in retrospect. Q&amp;A content was never indexed in traditional search results. It appeared only on the Knowledge Panel, which relatively few users expanded. And Google never confirmed it as a ranking signal.</p>
+<h2>What Matters #11: Q&amp;A Activity No Longer Matters (And the Feature Is Going Away)</h2>
+<p>Despite years of SEO advice recommending "seed your Q&amp;A section with common questions," Q&amp;A activity was never confirmed by Google as a ranking signal — and the feature itself is being phased out in favor of AI-generated answers.</p>
+<h3>Why Q&amp;A Never Mattered Much</h3>
+<p>Q&amp;A content was never indexed in traditional search results — it appeared only on the Knowledge Panel, which relatively few users expanded. Google never confirmed it as a ranking factor, and it's increasingly being replaced by AI-generated answers powered by Gemini through Google's "Ask this place" feature in Maps.</p>
 <h3>What Replaces Q&amp;A</h3>
-<p>Google's new "Ask this place" feature in Maps uses AI to generate answers from multiple sources:<br />
+<p>Google's "Ask this place" feature uses AI to generate answers from multiple sources:<br />
 - Your website content<br />
 - Your GBP description and services<br />
 - Your reviews (and review responses)<br />
 - Third-party mentions and citations</p>
-<p>This shift makes your <strong>website FAQ content</strong> and <strong>review response keywords</strong> more important than ever. The Q&amp;A section you controlled is being replaced by AI-generated answers based on data you influence indirectly.</p>
+<p>This shift makes your <strong>website FAQ content</strong> and <strong>review response keywords</strong> more important than ever. The Q&amp;A section you used to control directly is being replaced by AI-generated answers based on data you only influence indirectly.</p>
 <h3>The Action Item</h3>
-<p>If you invested heavily in GBP Q&amp;A, that effort is now wasted. Redirect that energy to:<br />
+<p>If you invested heavily in GBP Q&amp;A, redirect that energy to:<br />
 1. Building a comprehensive FAQ page on your website with schema markup<br />
 2. Writing keyword-rich review responses that mention services and locations<br />
-3. Ensuring your website content clearly answers common customer questions</p>
-<hr />
-<h2>The Complete Ranking Factors Correlation Matrix</h2>
-<p>Here's every variable we measured, ranked by correlation strength:</p>
-<div class="cost-table">
-<table>
-<thead>
-<tr>
-<th>Rank</th>
-<th>Variable</th>
-<th>Correlation</th>
-<th>Strength</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Primary category alignment</td>
-<td>-0.47</td>
-<td>Strong</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Review recency</td>
-<td>-0.41</td>
-<td>Strong</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Photo count</td>
-<td>-0.35</td>
-<td>Strong</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Post frequency</td>
-<td>-0.28</td>
-<td>Moderate</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Review response rate</td>
-<td>-0.24</td>
-<td>Moderate</td>
-</tr>
-<tr>
-<td>6</td>
-<td>Review count</td>
-<td>-0.22</td>
-<td>Moderate</td>
-</tr>
-<tr>
-<td>7</td>
-<td>Secondary categories (optimal: 3)</td>
-<td>-0.18</td>
-<td>Weak-Moderate</td>
-</tr>
-<tr>
-<td>8</td>
-<td>Photo recency</td>
-<td>-0.15</td>
-<td>Weak</td>
-</tr>
-<tr>
-<td>9</td>
-<td>Review velocity</td>
-<td>-0.14</td>
-<td>Weak</td>
-</tr>
-<tr>
-<td>10</td>
-<td>Attributes completion</td>
-<td>-0.12</td>
-<td>Weak</td>
-</tr>
-<tr>
-<td>11</td>
-<td>Business hours completeness</td>
-<td>-0.11</td>
-<td>Weak</td>
-</tr>
-<tr>
-<td>12</td>
-<td>Products/services listed</td>
-<td>-0.10</td>
-<td>Weak</td>
-</tr>
-<tr>
-<td>13</td>
-<td>Business description length</td>
-<td>-0.09</td>
-<td>Negligible</td>
-</tr>
-<tr>
-<td>14</td>
-<td>Service area size</td>
-<td>+0.07</td>
-<td>Negligible (negative)</td>
-</tr>
-<tr>
-<td>15</td>
-<td>Q&amp;A count</td>
-<td>-0.06</td>
-<td>Negligible</td>
-</tr>
-<tr>
-<td>16</td>
-<td>Website link presence</td>
-<td>-0.05</td>
-<td>Negligible</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Note on service area size:</strong> The positive correlation (+0.07) means larger service areas correlated with <em>worse</em> rankings. This supports our SAB finding — broad, vague service areas dilute relevance.</p>
-</div>
+3. Making sure your website content clearly answers common customer questions</p>
 <hr />
 <h2>What This Means for Your GBP Strategy</h2>
-<p>Let's translate these findings into a prioritized action plan.</p>
+<p>Let's translate this into a prioritized action plan.</p>
 <h3>Tier 1: Do These First (Highest Impact)</h3>
 <ol>
 <li><strong>Audit your primary category.</strong> If it doesn't exactly match your core service, change it today.</li>
-<li><strong>Implement a review generation system.</strong> Target 4-8 new reviews per month with automated requests within 24 hours of job completion.</li>
-<li><strong>Upload 60+ photos</strong> across all categories, then add 2-3 new photos weekly.</li>
+<li><strong>Implement a review generation system.</strong> Target a steady stream of new reviews per month with automated requests within 24 hours of job completion.</li>
+<li><strong>Build a solid photo library</strong> across all categories, then add a few new photos weekly.</li>
 </ol>
 <h3>Tier 2: Do These Next (Strong Impact)</h3>
 <ol>
 <li><strong>Post twice per week</strong> on your GBP with project updates, seasonal tips, and offers.</li>
 <li><strong>Respond to 100% of reviews</strong> within 24-48 hours using keyword-rich, personalized replies.</li>
-<li><strong>Select exactly 3 secondary categories</strong> — remove any tangential ones.</li>
+<li><strong>Select a handful of secondary categories</strong> — remove any tangential ones.</li>
 </ol>
 <h3>Tier 3: Do These When Tier 1-2 Are Complete (Moderate Impact)</h3>
 <ol>
@@ -1029,64 +329,33 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 <ul>
 <li><strong>Lengthy business descriptions</strong> — 300 characters is plenty</li>
 <li><strong>GBP Q&amp;A</strong> — Google is removing this feature</li>
-<li><strong>Adding 8+ secondary categories</strong> — 3 is the sweet spot</li>
+<li><strong>Piling on secondary categories</strong> — a handful is the sweet spot</li>
 <li><strong>Bulk photo uploads</strong> — consistent freshness beats one-time volume</li>
-<li><strong>Keyword-stuffing your business name</strong> — this triggers suspensions and penalties</li>
+<li><strong>Keyword-stuffing your business name</strong> — this can trigger suspensions and penalties</li>
 </ul>
 <hr />
-<h2>Limitations of This Study</h2>
-<p>We believe in transparent methodology — including honest acknowledgment of what this study cannot tell you.</p>
-<h3>1. Correlation Is Not Causation</h3>
-<p>A strong correlation between photo count and ranking position might mean photos cause better rankings. Or it might mean successful businesses simply have more resources to upload photos. We cannot prove causation from observational data.</p>
-<h3>2. Proximity Is a Confounding Variable</h3>
-<p>Google's local algorithm weighs proximity heavily — often more heavily than any factor we measured. A perfectly optimized profile 20 miles from the searcher may still lose to a mediocre profile 2 miles away. Our study controlled for this by searching from within each metro area, but we could not fully isolate proximity effects.</p>
-<h3>3. Industry-Specific Generalization</h3>
-<p>Our sample includes only contractors in six home service trades. These findings may not generalize to restaurants, retail, healthcare, or professional services. Each industry has unique competitive dynamics.</p>
-<h3>4. Temporal Validity</h3>
-<p>Google's algorithm changes constantly. The ranking factor weights we observed in February 2026 may shift by summer. The Q&amp;A deprecation is one example of how quickly the landscape changes.</p>
-<h3>5. Sample Size by Trade</h3>
-<p>While 500 total profiles is substantial, individual trades had samples of 72-95 profiles. This is adequate for correlation analysis but limits our ability to detect subtle trade-specific effects.</p>
-<h3>6. Ranking Position Measurement</h3>
-<p>Local pack rankings vary by searcher location, device, search history, and time of day. We standardized our measurement protocol, but some variance is inevitable. We report median positions from three searches to reduce noise.</p>
-<h3>7. Missing Variables</h3>
-<p>We did not measure:<br />
-- Website quality and on-page SEO<br />
-- Backlink profiles<br />
-- Citation consistency<br />
-- Google Ads / Local Services Ads spend<br />
-- Historical ranking trajectory<br />
-- Brand search volume</p>
-<p>These factors almost certainly influence rankings and may explain some of the variance our model didn't capture.</p>
-<hr />
-<h2>Expert Commentary: What Local SEO Specialists Say About These Findings</h2>
-<p>We shared our draft findings with five local SEO practitioners for independent validation. Here's what they said.</p>
-<p><strong>Darren Shaw, Founder of Whitespark:</strong></p>
-<blockquote class="highlight-quote">
-<p>"The review recency finding aligns perfectly with our 2026 survey data. We saw recency jump from #20 to top 5 in importance. The photo count correlation is stronger than I expected — I suspect it's acting as a proxy for overall profile engagement. The SAB disadvantage is real and underreported. We've been advising SABs to build stronger signals elsewhere for years."</p>
-</blockquote>
-<p><strong>Joy Hawkins, Owner of Sterling Sky:</strong></p>
-<blockquote class="highlight-quote">
-<p>"The primary category finding is the most important one here. I see contractors mis-categorize constantly — 'Home improvement' instead of 'Roofing contractor.' It's the fastest fix with the biggest impact. The openness filter observation is new to me, but it makes sense given Google's recent emphasis on real-time business status."</p>
-</blockquote>
-<p><strong>Mike Blumenthal, Co-Founder of Near Media:</strong></p>
-<blockquote class="highlight-quote">
-<p>"Your Q&amp;A finding is timely and validates what many of us suspected — it was never a ranking factor, just a user experience feature. The shift to AI-generated answers makes website FAQ content critical. I'd love to see a follow-up study measuring how often AI answers cite specific website pages."</p>
-</blockquote>
-<p><strong>Greg Gifford, Vice President of Search at SearchLab:</strong></p>
-<blockquote class="highlight-quote">
-<p>"The secondary category diminishing returns finding is fascinating. I've always recommended 3-5 categories, but your data suggests 3 is optimal. I'll be adjusting my recommendations. The post frequency threshold effect — 2x/week vs. monthly — is also stronger than I expected."</p>
-</blockquote>
-<p><strong>Claire Carlile, Local SEO Consultant:</strong></p>
-<blockquote class="highlight-quote">
-<p>"The trade-specific variations are really valuable. Solar needing the strongest signals makes total sense — it's a high-consideration, high-ticket purchase. I'd caution readers not to under-invest just because they're in a 'lower competition' trade like electrical. The bar rises every year."</p>
-</blockquote>
+<h2>A Few Honest Caveats</h2>
+<p>Before you treat any of this as gospel, a few things worth keeping in mind.</p>
+<h3>Correlation Is Not Causation</h3>
+<p>A relationship between something like photo count and ranking position might mean photos cause better rankings. Or it might mean successful, well-resourced businesses simply upload more photos. Treat directional guidance like this as informed judgment, not proof.</p>
+<div class="callout callout-warning">
+<p><strong>Important caveat:</strong> Even well-documented ranking factors rarely act alone. A profile that nails every recommendation above can still be outranked by proximity, competition, or factors outside its GBP entirely.</p>
+</div>
+<h3>Proximity Is a Massive Confounding Variable</h3>
+<p>Google's local algorithm weighs proximity heavily — often more heavily than any single factor discussed above. A perfectly optimized profile 20 miles from a searcher can still lose to a mediocre profile 2 miles away. No amount of GBP optimization fully overcomes distance.</p>
+<h3>This Guide Is Written for Contractors Specifically</h3>
+<p>This guide focuses on home service trades — roofing, HVAC, plumbing, electrical, solar, and restoration. The relative importance of these factors may look different for restaurants, retail, healthcare, or professional services, which have different competitive dynamics.</p>
+<h3>Google's Algorithm Changes Constantly</h3>
+<p>What matters today may shift by next year. The Q&amp;A deprecation is a good example of how quickly the landscape can change — a feature the industry spent years optimizing for is being phased out entirely.</p>
+<h3>There's More to Local Rankings Than Your GBP</h3>
+<p>This guide is scoped to your Google Business Profile. It doesn't cover website quality and on-page SEO, backlink profiles, citation consistency, Google Ads / Local Services Ads spend, historical ranking trajectory, or brand search volume — all of which also influence local pack rankings and deserve separate attention.</p>
 <hr />
 <h2>Your 30-Day GBP Optimization Action Plan</h2>
-<p>Here's exactly what to do in the next 30 days, based on our findings.</p>
+<p>Here's exactly what to do in the next 30 days.</p>
 <h3>Week 1: Foundation Fixes</h3>
 <ul class="checklist">
 <li>[ ] Audit and correct your primary category</li>
-<li>[ ] Select exactly 3 secondary categories; remove extras</li>
+<li>[ ] Select a handful of secondary categories; remove extras</li>
 <li>[ ] Rewrite your business description (150-300 characters, keyword-rich)</li>
 <li>[ ] Verify business hours are accurate; add after-hours if applicable</li>
 <li>[ ] Tighten service area to specific cities (remove broad radius)</li>
@@ -1111,23 +380,23 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 <ul class="checklist">
 <li>[ ] Schedule 2 GBP posts per week in your calendar</li>
 <li>[ ] Set a recurring task to upload 2-3 new photos weekly</li>
-<li>[ ] Monitor review velocity — target 4-8 new reviews per month</li>
+<li>[ ] Monitor review velocity — target a steady stream of new reviews per month</li>
 <li>[ ] Check "Ask this place" AI answers for your business; correct inaccuracies</li>
 <li>[ ] Track ranking positions for your top 5 keywords weekly</li>
 </ul>
 <hr />
-<h2>Conclusion / What to Do With This Data</h2>
+<h2>Conclusion: What to Do Next</h2>
 <p>Local SEO isn't about doing everything. It's about doing the right things consistently.</p>
-<p>Our analysis of 500 contractor Google Business Profiles reveals a clear hierarchy: category alignment and review recency matter most. Photos and posts create competitive separation. Profile completeness is table stakes. And some commonly recommended tactics — lengthy descriptions, Q&amp;A seeding, excessive secondary categories — show little to no correlation with rankings.</p>
-<p>The contractors who win in local search aren't necessarily the ones with the biggest budgets. They're the ones who treat their GBP as a living asset — fresh reviews, regular posts, new photos, active engagement — rather than a one-time setup task.</p>
+<p>Across contractor Google Business Profiles, a fairly clear hierarchy tends to show up: category alignment and review recency matter most. Photos and posts create competitive separation. Profile completeness is table stakes. And a few commonly recommended tactics — long descriptions, Q&amp;A seeding, piling on secondary categories — deliver little to no real benefit.</p>
+<p>The contractors who win in local search generally aren't the ones with the biggest budgets. They're the ones who treat their GBP as a living asset — fresh reviews, regular posts, new photos, active engagement — rather than a one-time setup task.</p>
 <h3>Key Takeaways</h3>
 <ul>
-<li><strong>Review recency beats review count.</strong> A profile with 50 fresh reviews outranks one with 500 stale reviews.</li>
-<li><strong>Primary category alignment is the #1 factor.</strong> Get this wrong and everything else is uphill.</li>
-<li><strong>Photos are underrated.</strong> 60+ photos with weekly additions correlates strongly with top rankings.</li>
-<li><strong>Post at least twice per week.</strong> The threshold from "inactive" to "active" is the biggest jump.</li>
-<li><strong>SABs need stronger signals.</strong> Service-area businesses face structural disadvantages that require compensation through volume and precision.</li>
-<li><strong>3 secondary categories is the sweet spot.</strong> More dilutes; fewer misses opportunities.</li>
+<li><strong>Review recency beats review count.</strong> A profile with a steady trickle of fresh reviews tends to outrank one with hundreds of stale reviews.</li>
+<li><strong>Primary category alignment is likely the #1 factor.</strong> Get this wrong and everything else is uphill.</li>
+<li><strong>Photos are underrated.</strong> A solid, consistently growing photo library correlates with stronger visibility.</li>
+<li><strong>Post at least twice per week.</strong> The jump from "inactive" to "active" tends to matter more than posting even more once you're already active.</li>
+<li><strong>SABs need stronger signals.</strong> Service-area businesses face structural disadvantages that require compensation through volume and precision elsewhere.</li>
+<li><strong>A handful of secondary categories is the sweet spot.</strong> More dilutes; too few misses opportunities.</li>
 </ul>
 <h3>Your Next Steps</h3>
 <ol>
@@ -1136,45 +405,45 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 <li><strong>This month:</strong> Establish a posting rhythm and respond to every existing review.</li>
 <li><strong>This quarter:</strong> Track your ranking positions and adjust based on what moves.</li>
 </ol>
-<p>The data is clear. The tactics are known. The only variable left is execution.</p>
+<p>The tactics above are well understood. The only variable left is execution.</p>
 <hr />
 <h2>FAQ Section</h2>
 <h3>How many reviews do I need to rank in the top 3?</h3>
-<p>There's no magic number. In our sample, position 1-3 profiles averaged 187 total reviews — but the range was 34 to 892. What matters more than total count is <strong>recency</strong>. A profile with 80 reviews and 3 new ones this month outperformed profiles with 400 reviews and none in the last 90 days. Target 4-8 new reviews per month consistently rather than chasing a specific total.</p>
+<p>There's no magic number. What matters more than total count is <strong>recency</strong> — a profile with a modest review count and a few new ones this month tends to outperform a profile with hundreds of reviews and nothing recent. Aim for a steady trickle of new reviews (roughly 4-8 per month) rather than chasing a specific total.</p>
 <h3>Does hiding my address hurt my rankings?</h3>
-<p>Our data suggests service-area businesses with hidden addresses rank in positions 1-3 <strong>31% less often</strong> than brick-and-mortar competitors with visible addresses — when other signals are equal. However, hiding your address is often required for compliance (if customers don't visit you). The solution: compensate with stronger signals elsewhere — more reviews, more photos, tighter service areas, and location-specific website content.</p>
+<p>Likely, to some degree. Service-area businesses with hidden addresses tend to have a harder time cracking the top 3 than brick-and-mortar competitors with visible addresses, largely because Google's algorithm relies heavily on proximity. Hiding your address is often required for compliance if customers don't visit you — the fix is to compensate with stronger signals elsewhere: more reviews, more photos, tighter service areas, and location-specific website content.</p>
 <h3>How often should I post on my Google Business Profile?</h3>
-<p>Post at least <strong>twice per week</strong>. Our data shows the biggest ranking jump happens between "never post" and "post 3-4 times per month." Profiles posting 5-8 times per month performed best overall. Posts expire after 7 days, so a profile without recent posts looks inactive to both Google and potential customers.</p>
+<p>Post at least <strong>twice per week</strong>. The biggest jump in visibility tends to happen between "never post" and "post regularly." Posts expire after 7 days, so a profile without recent posts looks inactive to both Google and potential customers.</p>
 <h3>What's the ideal number of photos for a contractor GBP?</h3>
-<p>Aim for <strong>60+ photos</strong> to start, then add <strong>2-3 new photos weekly</strong>. In our sample, position 1 profiles averaged 127 photos. But the correlation is about ongoing freshness, not just total count. A profile that uploaded 50 photos in one day and stopped performed worse than a profile with 60 photos added consistently over six months.</p>
+<p>Build toward a solid library — aim for several dozen photos covering your work, team, and equipment — then add a few new photos weekly. What seems to matter most is ongoing freshness, not just total count: a profile that uploads photos in one big batch and then goes quiet tends to underperform one that adds a handful consistently over time.</p>
 <h3>Should I respond to every review, even positive ones?</h3>
-<p><strong>Yes.</strong> Profiles with 100% review response rates were 3.1x more likely to rank in positions 1-3. Responses aren't just customer service — they're keyword real estate. Mention your service and location naturally: "Thanks for trusting us with your Plano roof replacement." This reinforces relevance signals while building customer trust.</p>
+<p><strong>Yes.</strong> A 100% review response rate is a strong signal of active profile management, and BrightLocal's research shows most consumers are more likely to use a business that answers every review. Responses aren't just customer service — they're keyword real estate. Mention your service and location naturally: "Thanks for trusting us with your Plano roof replacement."</p>
 <h3>How many secondary categories should I add?</h3>
-<p><strong>Exactly 3.</strong> Our data shows a clear sweet spot: 3 secondary categories outperformed both 0 secondaries and 6+ secondaries. Adding too many dilutes your primary category signal. Choose secondary categories that are closely related to your primary service — not tangential offerings.</p>
+<p><strong>A small number — roughly 2 to 4</strong> — chosen because they're closely related to your primary service, not because you want to cast a wide net. Adding too many dilutes your primary category signal. Skip tangential offerings.</p>
 <h3>Does my business description length matter for rankings?</h3>
-<p><strong>No.</strong> We found no correlation between description length and ranking position. A 100-character description performed as well as a 750-character description. What matters is <strong>keyword presence</strong> — include your primary service and top 2-3 locations. Skip the lengthy origin story. Keep it under 300 characters.</p>
+<p><strong>Not much.</strong> There's little reason to believe a longer description outperforms a shorter one. What matters more is <strong>keyword presence</strong> — include your primary service and top 2-3 locations. Skip the lengthy origin story and keep it under 300 characters.</p>
 <h3>What happens if I'm closed when someone searches?</h3>
-<p>Google's "openness" signal appears to act as a <strong>hard filter</strong> in 2026. In our sample, <strong>zero profiles</strong> ranked in positions 1-3 for searches conducted outside their stated hours. If you offer emergency or after-hours service, update your GBP hours to reflect it — even if you just have an answering service. Otherwise, you're invisible to the highest-intent searches.</p>
+<p>You're much less likely to surface prominently, especially for urgent "near me" searches. Google's "openness" signal increasingly behaves like a hard filter for time-sensitive queries. If you offer emergency or after-hours service, update your GBP hours to reflect it — even if it's just an answering service — otherwise you're effectively invisible to the highest-intent searches.</p>
 <h3>Do Google Business Profile posts really help rankings?</h3>
-<p>Yes, indirectly. Post frequency correlated at -0.28 with ranking position in our data. Posts drive engagement (clicks, calls, directions) that feed behavioral signals. They also keep your profile looking active and current. The key is consistency — a steady rhythm of 2+ posts per week outperforms sporadic bulk posting.</p>
+<p>Indirectly, yes. Posts drive engagement (clicks, calls, direction requests) that likely feeds behavioral signals, and they keep your profile looking active and current. The key is consistency — a steady rhythm of 2+ posts per week outperforms sporadic bulk posting.</p>
 <h3>Is Q&amp;A still worth optimizing on my GBP?</h3>
-<p><strong>No.</strong> Google is phasing out the Q&amp;A feature entirely, replacing it with AI-generated answers. Our data found no correlation between Q&amp;A activity and rankings even before the deprecation. Redirect your effort to building FAQ content on your website with schema markup, and writing keyword-rich review responses instead.</p>
+<p><strong>No.</strong> Google is phasing out the Q&amp;A feature entirely in favor of AI-generated answers, and it was never a confirmed ranking factor to begin with. Redirect that effort to building FAQ content on your website with schema markup and writing keyword-rich review responses instead.</p>
 <h3>How do ranking factors differ by trade?</h3>
-<p>Significantly. Solar contractors need the strongest photo signals (-0.41 correlation). Restoration depends heavily on review recency (-0.46). Electrical showed the weakest correlations overall, likely due to lower competition. Benchmark against your specific trade, not generic "local business" advice.</p>
+<p>Meaningfully. Solar contractors tend to lean more on strong photo libraries. Restoration and other emergency trades depend heavily on review recency. Lower-competition trades can sometimes get away with lighter signals — though that gap tends to close over time. Benchmark against your specific trade, not generic "local business" advice.</p>
 <h3>What's the fastest way to improve my local rankings?</h3>
-<p>If you do nothing else, do these three things this week: (1) Verify your primary category exactly matches what customers search for, (2) Set up automated review requests to generate 4-8 fresh reviews per month, and (3) Upload 20 high-quality photos. These three actions alone address the highest-impact variables in our study.</p>
+<p>If you do nothing else, do these three things this week: (1) verify your primary category exactly matches what customers search for, (2) set up automated review requests to generate a steady stream of fresh reviews, and (3) upload a solid batch of high-quality photos. These three areas tend to have the largest impact for contractors.</p>
 <h3>Can I rank well without a physical storefront?</h3>
-<p>Yes, but it's harder. Service-area businesses in our sample needed stronger compensating signals — more reviews, more photos, tighter service area definitions, and location-specific website content. The SABs that ranked well treated their digital presence with the same precision a brick-and-mortar business brings to its physical location.</p>
+<p>Yes, but it's harder. Service-area businesses typically need stronger compensating signals — more reviews, more photos, tighter service area definitions, and location-specific website content. The SABs that rank well treat their digital presence with the same precision a brick-and-mortar business brings to its physical location.</p>
 <h3>How long until I see ranking improvements from GBP optimization?</h3>
-<p>Based on our observations and industry consensus: category changes and hour updates can show impact within <strong>1-2 weeks</strong>. Review velocity improvements typically show within <strong>4-6 weeks</strong>. Photo and post frequency changes may take <strong>6-10 weeks</strong> to fully register. Local SEO is a compounding game — consistency over months beats intensity over days.</p>
+<p>Based on general local SEO experience: category changes and hour updates can show impact within <strong>1-2 weeks</strong>. Review velocity improvements typically show within <strong>4-6 weeks</strong>. Photo and post frequency changes may take <strong>6-10 weeks</strong> to fully register. Local SEO is a compounding game — consistency over months beats intensity over days.</p>
 <h3>Should I include keywords in my business name on GBP?</h3>
-<p><strong>Be careful.</strong> While "keywords in business title" is a known ranking factor, Google actively penalizes businesses that add keywords to names that aren't part of their legal business name. This can trigger suspensions. If your legal name already includes a keyword (e.g., "Dallas Roofing Pros"), that's fine. If you're "Smith Construction" trying to become "Smith Construction Roofing Dallas," you're risking your profile.</p>
+<p><strong>Be careful.</strong> While a keyword-matching business name can help, Google actively penalizes businesses that add keywords to names that aren't part of their legal business name — this can trigger suspensions. If your legal name already includes a keyword (e.g., "Dallas Roofing Pros"), that's fine. If you're "Smith Construction" trying to become "Smith Construction Roofing Dallas," you're risking your profile.</p>
 <h3>What's more important: review count or review rating?</h3>
-<p><strong>Neither — review recency matters most.</strong> But if forced to choose between count and rating: a 4.6-star profile with 200 reviews outperformed a 5.0-star profile with 30 reviews in our sample. Perfect 5.0 ratings can actually trigger Google's fraud detection. Aim for 4.5-4.8 stars with steady volume.</p>
+<p><strong>Neither on its own — review recency matters most.</strong> Between the two, a solidly-rated profile (roughly 4.5-4.8 stars) with steady review volume tends to outperform a "perfect" 5.0-star profile with very few reviews. Some practitioners believe an unusually flawless rating paired with a thin review count can even look suspicious to Google's spam systems, though that's more industry intuition than confirmed fact.</p>
 <h3>Do citations still matter for local rankings?</h3>
-<p>Citations mattered less in our study than commonly assumed — but they're still foundational. Perfect NAP consistency across major directories is table stakes. What matters more for competitive differentiation is <strong>review velocity, photo freshness, and posting consistency</strong>. Get citations right, then move on to higher-impact activities.</p>
+<p>They're foundational but not where the biggest wins are anymore. Perfect NAP (name, address, phone) consistency across major directories is table stakes at this point. What tends to matter more for competitive differentiation today is review velocity, photo freshness, and posting consistency. Get citations right, then move on to higher-impact activities.</p>
 <h3>How do I know if my GBP is fully optimized?</h3>
-<p>Use this checklist: Primary category aligned (yes/no), 3 secondary categories selected (yes/no), 60+ photos uploaded (yes/no), 2+ posts per week (yes/no), 100% review response rate (yes/no), business hours accurate including after-hours (yes/no), 150-300 character description with keywords (yes/no), all attributes completed (yes/no). Score 8/8 and you're in the top 10% of optimized profiles.</p>
+<p>Use this checklist: primary category aligned (yes/no), a handful of relevant secondary categories selected (yes/no), a solid, growing photo library (yes/no), 2+ posts per week (yes/no), 100% review response rate (yes/no), business hours accurate including after-hours (yes/no), 150-300 character description with keywords (yes/no), all attributes completed (yes/no). Check every box and you'll be well ahead of most local competitors.</p>
 <hr />
 
 <hr />
@@ -1198,10 +467,10 @@ const contentHtml = `<p class="lead">Most local SEO advice is recycled opinion. 
 <BlogPostLayout
   title={title}
   description={description}
-  category='Case Studies'
+  category='Local SEO'
   date='June 2026'
-  readTime='35 min read'
-  tags={['Case Studies']}
+  readTime='20 min read'
+  tags={['Local SEO']}
   contentHtml={contentHtml}
   schema={schema}
 />

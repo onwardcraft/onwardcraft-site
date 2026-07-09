@@ -176,11 +176,11 @@ export const posts = [
   },
   {
     slug: "contractor-gbp-study",
-    title: "We Analyzed 500 Contractor Google Business Profiles: 11 Findings That Actually Impact Rankings [Data]",
-    excerpt: "We analyzed 500 contractor Google Business Profiles across 6 trades and 50 US cities to find what actually impacts local rankings. See the data, 7 charts,...",
-    category: "Case Studies",
+    title: "Google Business Profile Ranking Factors for Contractors: 11 Things That Actually Matter",
+    excerpt: "A practical guide to the Google Business Profile factors that most affect contractor rankings — reviews, photos, categories, posts, and more — grounded in published local SEO research and real-world best practices.",
+    category: "Local SEO",
     date: "June 2026",
-    readTime: "35 min read",
+    readTime: "20 min read",
     featured: false,
   },
   {
@@ -194,8 +194,8 @@ export const posts = [
   },
   {
     slug: "contractor-website-study",
-    title: "Contractor Website Conversion Study (2026): 200 Sites Analyzed",
-    excerpt: "We analyzed 200 contractor websites to find the 27 elements that actually convert visitors to leads. See the data, real examples, and an actionable 27-point...",
+    title: "The Contractor Website Conversion Guide: 27 Elements That Turn Visitors Into Leads",
+    excerpt: "The 27 website elements that actually turn contractor site visitors into leads. See real examples and an actionable 27-point conversion checklist.",
     category: "Conversion",
     date: "June 2026",
     readTime: "22 min read",
@@ -311,11 +311,11 @@ export const posts = [
   },
   {
     slug: "website-speed-lead-generation-study",
-    title: "How Website Speed Affects Contractor Lead Generation [Data Study]",
-    excerpt: "We analyzed 100 contractor websites to find how speed affects lead generation. Includes Core Web Vitals data, mobile performance, and actionable fixes.",
+    title: "How Website Speed Affects Contractor Lead Generation",
+    excerpt: "How website speed affects contractor lead generation: the Core Web Vitals benchmarks that matter, and the technical fixes that turn more visitors into leads.",
     category: "SEO",
     date: "June 2026",
-    readTime: "18 min read",
+    readTime: "14 min read",
     featured: false,
   },
   {
@@ -428,8 +428,8 @@ export const posts = [
   },
   {
     slug: "google-business-profile-categories-study",
-    title: "Google Business Profile Categories Study: What Actually Impacts Rankings",
-    excerpt: "Analyzed Google Business Profiles to find which categories and attributes impact rankings. Includes trade-specific recommendations.",
+    title: "Google Business Profile Categories: What Impacts Rankings",
+    excerpt: "A practical guide to choosing the right Google Business Profile category, backed by real local SEO research from Whitespark and Sterling Sky.",
     category: "SEO",
     date: "June 2026",
     readTime: "20 min read",
@@ -626,8 +626,8 @@ export const posts = [
   },
   {
     slug: "contractor-landing-page-study",
-    title: "Contractor Landing Pages Study: The Anatomy of High-Converting Pages",
-    excerpt: "Analyzed contractor landing pages to find the anatomy of high-converting pages. Includes element analysis, mobile data, and optimization recommendations.",
+    title: "Contractor Landing Pages: The Anatomy of High Converters",
+    excerpt: "A practical breakdown of what makes contractor landing pages convert — headline and message match, form design, mobile UX, and social proof.",
     category: "Conversion",
     date: "June 2026",
     readTime: "18 min read",
@@ -680,11 +680,11 @@ export const posts = [
   },
   {
     slug: "mobile-website-conversion-study",
-    title: "The Mobile-First Mandate: How Mobile Experience Affects Contractor Lead Generation",
-    excerpt: "We analyzed 100 contractor websites to find how mobile experience affects lead generation. Includes speed data, conversion rates, and mobile mistakes.",
+    title: "How Mobile Experience Affects Contractor Lead Generation",
+    excerpt: "How mobile experience affects contractor lead generation, backed by Google's published mobile research, plus the mistakes killing mobile leads.",
     category: "Web Design",
     date: "June 2026",
-    readTime: "26 min read",
+    readTime: "17 min read",
     featured: false,
   },
   {
@@ -698,11 +698,11 @@ export const posts = [
   },
   {
     slug: "review-velocity-local-seo-study",
-    title: "The Review Velocity Effect: How Review Frequency Impacts Local Rankings [Study]",
-    excerpt: "We analyzed 300+ contractor Google Business Profiles to find how review frequency impacts local rankings. See the data and recommendations.",
+    title: "Review Velocity Effect: How Reviews Impact Local Rankings",
+    excerpt: "Why review velocity, not total review count, is one of the strongest local SEO signals for contractors — and how to build a system that keeps reviews flowing.",
     category: "Local SEO",
     date: "June 2026",
-    readTime: "29 min read",
+    readTime: "25 min read",
     featured: false,
   },
   {
