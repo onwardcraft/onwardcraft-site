@@ -129,7 +129,7 @@ const principles = [
 ];
 
 const faqs = [
-  { q: 'How much do I need to spend on ads?', a: 'We recommend a minimum ad spend of $2,000/month to gather meaningful data and see consistent results. Most clients scale to $5,000-15,000/month once the funnel is proven. We never recommend spending more until we have positive ROI data.' },
+  { q: 'How much do I need to spend on ads?', a: 'We recommend a minimum ad spend of $750/month to gather meaningful data and see consistent results. Most clients scale to $2,000-5,000/month once the funnel is proven. We never recommend spending more until we have positive ROI data.' },
   { q: 'What platforms do you run ads on?', a: 'For home-service trades we focus on Google Ads (Search + Local Services) and Facebook/Instagram Ads, where homeowners with real intent actually spend their time. We choose platforms based on where your customers are — not what is trendy.' },
   { q: 'How long until I see results?', a: 'Most campaigns generate leads within the first 7-14 days. However, peak performance typically happens at the 30-60 day mark after we have gathered enough data to optimize audiences, creatives, and landing pages.' },
   { q: 'Do you guarantee a certain cost per lead?', a: 'We cannot guarantee specific CPL numbers — every market is different. What we do guarantee: full transparency on your numbers, weekly optimization, and a clear path to positive ROI. If we cannot make it work, we tell you fast.' },
@@ -213,6 +213,32 @@ const schema = [
             <p>{p.desc}</p>
           </div>
         ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="rent-own-section">
+    <div class="container">
+      <div class="rent-own-inner reveal">
+        <div class="rent-own-copy">
+          <p class="section-label scramble-text">Rented vs. Owned</p>
+          <h2 class="section-title">Shared Leads Are Never as Cheap as They Look.</h2>
+          <p>Platforms like Angi and Thumbtack advertise leads for $15-$100 — but that same homeowner is usually sold to 4-5 other contractors at once. Once you factor in real close rates, the effective cost per booked job typically runs $350-$1,000+. An owned funnel costs more to start, but every lead is exclusively yours, and your cost per job drops as your rankings and reputation compound.</p>
+        </div>
+        <div class="rent-own-stats">
+          <div class="rent-own-stat">
+            <span class="ros-num">4-5x</span>
+            <span class="ros-label">Contractors sharing the same lead on Angi/Thumbtack</span>
+          </div>
+          <div class="rent-own-stat">
+            <span class="ros-num">$350-$1,000+</span>
+            <span class="ros-label">Real cost per booked job on shared-lead platforms</span>
+          </div>
+          <div class="rent-own-stat">
+            <span class="ros-num">100%</span>
+            <span class="ros-label">Yours — every lead from your own funnel</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -350,12 +376,13 @@ const schema = [
       <div class="pricing-header reveal">
         <p class="section-label scramble-text">Pricing</p>
         <h2 class="section-title">Investment. Not Expense.</h2>
-        <p class="pricing-subtitle">Stop burning ad spend. Start buying qualified leads at a predictable cost.</p>
+        <p class="pricing-subtitle">Real pricing local businesses can actually afford. Stop burning ad spend. Start buying qualified leads at a predictable cost.</p>
       </div>
       <div class="pricing-grid reveal">
         <div class="pricing-card">
           <div class="pricing-name">Starter</div>
-          <div class="pricing-price">$1,000<span>/mo + ad spend</span></div>
+          <div class="pricing-price">$497<span>/mo + ad spend</span></div>
+          <p class="pricing-roi">→ Built to prove ROI before you scale spend</p>
           <p class="pricing-desc">For businesses testing paid acquisition. One funnel, focused targeting, real results.</p>
           <ul class="pricing-features">
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>1 high-converting funnel</li>
@@ -370,7 +397,8 @@ const schema = [
         <div class="pricing-card popular">
           <div class="popular-badge">Most Popular</div>
           <div class="pricing-name">Growth</div>
-          <div class="pricing-price">$1,500<span>/mo + ad spend</span></div>
+          <div class="pricing-price">$897<span>/mo + ad spend</span></div>
+          <p class="pricing-roi">→ One extra closed job usually covers the fee</p>
           <p class="pricing-desc">For businesses ready to scale. Multiple funnels, A/B testing, and a lead nurture system.</p>
           <ul class="pricing-features">
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>3 conversion funnels</li>
@@ -385,7 +413,8 @@ const schema = [
         </div>
         <div class="pricing-card">
           <div class="pricing-name">Scale</div>
-          <div class="pricing-price">$3,000<span>/mo + ad spend</span></div>
+          <div class="pricing-price">$1,697<span>/mo + ad spend</span></div>
+          <p class="pricing-roi">→ For teams ready to turn ad spend into a revenue engine</p>
           <p class="pricing-desc">For aggressive growth. Unlimited funnels, multi-channel, and a dedicated growth manager.</p>
           <ul class="pricing-features">
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Unlimited funnels</li>
@@ -398,7 +427,7 @@ const schema = [
           <a href="#contact" class="pricing-cta">Book a Call</a>
         </div>
       </div>
-      <p class="pricing-note reveal">Ad spend is separate and paid directly to platforms. We recommend starting with $1,500-$3,000/mo in ad spend for meaningful data.</p>
+      <p class="pricing-note reveal">Ad spend is separate and paid directly to platforms. We recommend starting with $750-$1,500/mo in ad spend for meaningful data.</p>
     </div>
   </section>
   <!-- FAQ -->
@@ -628,6 +657,75 @@ const schema = [
     font-size: 15px;
     color: var(--text-secondary);
     line-height: 1.7;
+  }
+
+  .rent-own-section {
+    padding: 100px 0;
+    background: var(--bg-primary);
+    position: relative;
+  }
+
+  .rent-own-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border), transparent);
+  }
+
+  .rent-own-inner {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    max-width: 1120px;
+    margin: 0 auto;
+    background: rgba(17, 24, 39, 0.5);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: 56px;
+  }
+
+  .rent-own-copy {
+    flex: 1.2;
+  }
+
+  .rent-own-copy .section-label { margin-bottom: 12px; }
+  .rent-own-copy .section-title { margin-bottom: 20px; text-align: left; }
+
+  .rent-own-copy p {
+    font-size: 16px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+
+  .rent-own-stats {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .rent-own-stat {
+    border-left: 2px solid var(--accent-primary);
+    padding-left: 20px;
+  }
+
+  .ros-num {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+  }
+
+  .ros-label {
+    display: block;
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.5;
   }
 
   .solution-section {
@@ -1271,6 +1369,13 @@ const schema = [
     background: none;
   }
 
+  .pricing-roi {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-primary);
+    margin-bottom: 16px;
+  }
+
   .pricing-desc {
     font-size: 15px;
     color: var(--text-secondary);
@@ -1393,12 +1498,15 @@ const schema = [
     .pricing-card { max-width: 420px; margin: 0 auto; }
     .step-deliverables ul { grid-template-columns: 1fr; }
     .principles-grid { grid-template-columns: 1fr; }
+    .rent-own-inner { flex-direction: column; padding: 40px 32px; gap: 32px; }
+    .rent-own-copy .section-title { text-align: center; }
   }
 
   @media (max-width: 640px) {
     .service-hero { padding: 140px 0 80px; }
     .service-title { font-size: 36px; }
-    .problem-section, .solution-section, .results-section-mini, .included-section, .steps-section, .principles-section, .faq-section { padding: 100px 0; }
+    .problem-section, .solution-section, .rent-own-section, .results-section-mini, .included-section, .steps-section, .principles-section, .faq-section { padding: 100px 0; }
+    .rent-own-inner { padding: 32px 24px; }
     .service-cta { flex-direction: column; align-items: center; }
     .service-cta .btn-primary, .service-cta .btn-secondary { width: 100%; max-width: 300px; }
     .gradient-blob { display: none; }

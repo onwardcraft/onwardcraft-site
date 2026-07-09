@@ -9,46 +9,50 @@ const description = 'No hidden fees. No surprise costs. See exactly what you get
 const plans = [
   {
     name: 'Starter',
-    price: '$2,000',
-    desc: 'A high-converting landing page or single-page site for businesses ready to look professional and capture leads.',
+    price: '$500',
+    desc: 'A single, high-converting page built to look professional and start capturing leads immediately.',
+    roi: 'Invest $500 once. Break even with a single new lead.',
     features: [
-      'Single landing page design',
+      '1 custom page',
       'Mobile-first responsive',
       'Basic on-page SEO setup',
       'Contact form + lead capture',
-      '2 revision rounds',
-      'Delivery in 2-3 weeks',
+      '1 revision round',
+      'Delivery in 1-2 weeks',
     ],
     cta: 'Book a Call',
     popular: false,
   },
   {
     name: 'Business',
-    price: '$4,500',
-    desc: 'A complete multi-page website with CMS, analytics, and everything you need to grow.',
+    price: '$999',
+    desc: 'Home, service, and core pages plus a blog — everything a growing local business needs to look credible and get found.',
+    roi: 'Invest $999 once. Most clients break even in 1-2 booked jobs.',
     features: [
-      'Up to 5 custom pages',
-      'CMS for blog / content',
-      'Advanced SEO + speed opt',
+      'Home + service pages + core pages',
+      'Blog / CMS setup',
+      'Mobile-first responsive',
+      'On-page SEO for every page',
       'Google Analytics + Search Console',
-      'Custom design system',
-      '4 revision rounds',
-      'Delivery in 4-6 weeks',
+      '2 revision rounds',
+      'Delivery in 2-4 weeks',
     ],
     cta: 'Book a Call',
     popular: true,
   },
   {
     name: 'Growth',
-    price: '$8,000',
-    desc: 'Complex builds, e-commerce, custom features, and dedicated support for serious growth.',
+    price: '$2,500',
+    priceMonthly: '+ $1,000/mo',
+    desc: 'The same programmatic SEO system built into our own site — up to 500 pages plus ongoing SEO to keep it growing.',
+    roi: 'Invest $2,500 once + $1,000/mo. Built to compound as more pages rank.',
     features: [
-      'Unlimited pages',
-      'E-commerce / memberships',
-      'Custom integrations + API',
-      'Priority support (30 days)',
-      'Unlimited revisions',
-      'Custom timeline',
+      'Up to 500 total pages',
+      '100 blog posts included',
+      'Location pages + service pages for every area you serve',
+      'Ongoing SEO, content & backlinks',
+      'Local SEO + GEO/AIO optimization',
+      'Priority support',
     ],
     cta: 'Book a Call',
     popular: false,
@@ -56,21 +60,20 @@ const plans = [
 ];
 
 const comparisonFeatures = [
-  { name: 'Pages', starter: '1', business: 'Up to 5', growth: 'Unlimited' },
-  { name: 'CMS', starter: '—', business: 'Included', growth: 'Included' },
-  { name: 'SEO Setup', starter: 'Basic', business: 'Advanced', growth: 'Enterprise' },
-  { name: 'Analytics', starter: '—', business: 'GA4 + GSC', growth: 'Full Stack' },
-  { name: 'Revisions', starter: '2 rounds', business: '4 rounds', growth: 'Unlimited' },
-  { name: 'E-commerce', starter: '—', business: '—', growth: 'Included' },
-  { name: 'Custom Integrations', starter: '—', business: '—', growth: 'Included' },
-  { name: 'Support', starter: '14 days', business: '30 days', growth: '60 days' },
-  { name: 'Delivery', starter: '2-3 weeks', business: '4-6 weeks', growth: 'Custom' },
+  { name: 'Total Pages', starter: '1', business: '5-10', growth: 'Up to 500' },
+  { name: 'Blog / CMS', starter: '—', business: 'Included', growth: '100 posts included' },
+  { name: 'Location Pages', starter: '—', business: '—', growth: 'Included' },
+  { name: 'SEO Setup', starter: 'Basic', business: 'On-page', growth: 'Full local SEO + GEO/AIO' },
+  { name: 'Ongoing SEO', starter: '—', business: '—', growth: '$1,000/mo' },
+  { name: 'Analytics', starter: '—', business: 'GA4 + GSC', growth: 'GA4 + GSC + reporting' },
+  { name: 'Revisions', starter: '1 round', business: '2 rounds', growth: 'Priority support' },
+  { name: 'Delivery', starter: '1-2 weeks', business: '2-4 weeks', growth: 'Phased rollout' },
 ];
 
 const faqs = [
   { q: 'Are there any hidden fees?', a: 'Absolutely not. The price you see is the price you pay. We will never surprise you with additional charges. If your project scope changes, we will discuss it upfront before any extra work begins.' },
   { q: 'What is your payment structure?', a: '50% deposit to begin, 50% on launch. For larger projects, we can split into 3 payments (30/40/30). We accept bank transfer, credit card, and PayPal.' },
-  { q: 'What if I need changes after launch?', a: 'Every plan includes post-launch support. After that period, we offer monthly maintenance retainers starting at $500/month for ongoing updates, optimizations, and support.' },
+  { q: 'What if I need changes after launch?', a: 'Every plan includes post-launch support. After that period, we offer monthly maintenance retainers starting at $197/month for ongoing updates, optimizations, and support.' },
   { q: 'Do you offer refunds?', a: 'We do not offer refunds, but we do offer a 100% satisfaction guarantee. If you are not happy with the work, we keep revising until you are. We have never had an unsatisfied client walk away.' },
   { q: 'Can I upgrade my plan later?', a: 'Yes. Many clients start with Starter and upgrade to Business or Growth as their needs evolve. We will credit what you have already paid toward the new plan.' },
 ];
@@ -138,7 +141,8 @@ const schema = [
             {plan.popular && <div class="popular-badge">Most Popular</div>}
             <div class="pricing-card-header">
               <span class="plan-name">{plan.name}</span>
-              <div class="plan-price">{plan.price}</div>
+              <div class="plan-price">{plan.price}{plan.priceMonthly && <span class="plan-price-monthly">{plan.priceMonthly}</span>}</div>
+              <p class="plan-roi">→ {plan.roi}</p>
               <p class="plan-desc">{plan.desc}</p>
             </div>
             <ul class="plan-features">
@@ -189,14 +193,71 @@ const schema = [
     </div>
   </section>
 
-  <!-- ROI Calculator Teaser -->
-  <section class="roi-section">
+  <!-- Alternatives Comparison -->
+  <section class="alternatives-section">
     <div class="container">
+      <div class="alternatives-header reveal">
+        <p class="section-label scramble-text">The Alternatives</p>
+        <h2 class="section-title">How Local Businesses Usually Get This — And What It Really Costs</h2>
+        <p class="section-subtitle">We priced these packages after looking at what contractors actually pay elsewhere. Here is the honest comparison.</p>
+      </div>
+      <div class="alternatives-grid stagger-children">
+        <div class="alt-card stagger-item">
+          <span class="alt-name">DIY Website Builder</span>
+          <span class="alt-price">~$200-600/yr</span>
+          <p class="alt-copy">The cheapest sticker price. But building it yourself typically eats 60-80 hours of your own time — two work weeks off the tools, with no SEO or lead system built in.</p>
+        </div>
+        <div class="alt-card stagger-item">
+          <span class="alt-name">Freelancer</span>
+          <span class="alt-price">$1,500-$8,000/project</span>
+          <p class="alt-copy">Fair for a basic brochure site. Rarely includes ongoing SEO, lead capture, or post-launch support unless you negotiate it separately.</p>
+        </div>
+        <div class="alt-card stagger-item">
+          <span class="alt-name">Pay-Per-Lead Platforms</span>
+          <span class="alt-price">$15-100/lead</span>
+          <p class="alt-copy">Angi and Thumbtack sell the same lead to 4-5 other contractors. Once you factor in close rates, the real cost per booked job usually runs $350-$1,000+.</p>
+        </div>
+        <div class="alt-card stagger-item">
+          <span class="alt-name">Full-Service Agencies</span>
+          <span class="alt-price">$2,500-$10,000+/mo</span>
+          <p class="alt-copy">Agencies like Blue Corona and Hook Agency do great work — for contractors doing $2M+/year who can absorb custom, uncapped retainers.</p>
+        </div>
+        <div class="alt-card stagger-item highlight">
+          <span class="alt-name">OnwardCraft</span>
+          <span class="alt-price">Fixed, from $500</span>
+          <p class="alt-copy">Transparent tiers built for where your business actually is today — a real website, real SEO, and a real lead system, owned by you, not rented.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Investment vs Return -->
+  <section class="invest-return-section">
+    <div class="container">
+      <div class="invest-return-header reveal">
+        <p class="section-label scramble-text">The Math</p>
+        <h2 class="section-title">What You Invest. What You Get Back.</h2>
+        <p class="section-subtitle">These prices are built for real local businesses, not enterprise budgets. Here is the honest breakeven on each tier.</p>
+      </div>
+      <div class="invest-return-grid stagger-children">
+        <div class="invest-return-card stagger-item">
+          <span class="ir-plan">Starter — $500</span>
+          <p class="ir-copy">A one-time investment. Most local trades close a single job worth well over $500 — so one new lead from your page typically covers the entire cost.</p>
+        </div>
+        <div class="invest-return-card stagger-item">
+          <span class="ir-plan">Business — $999</span>
+          <p class="ir-copy">A one-time investment in a full, credible website. Most clients recoup this within their first 1-2 booked jobs, then every lead after is pure upside.</p>
+        </div>
+        <div class="invest-return-card stagger-item">
+          <span class="ir-plan">Growth — $2,500 + $1,000/mo</span>
+          <p class="ir-copy">A 500-page programmatic system plus ongoing SEO. Built for businesses ready to compound — the more pages that rank, the cheaper every new lead gets.</p>
+        </div>
+      </div>
       <div class="roi-card reveal gradient-border">
         <div class="roi-inner">
           <div class="roi-content">
-            <h2>Calculate Your Website ROI</h2>
-            <p>See how much revenue a high-converting website could generate for your business. When a site lifts conversion from a typical 2% to 6–8%, it can pay for itself from a single extra job a month — we will model the math for your numbers in your free audit.</p>
+            <h2>Want the Exact Math for Your Business?</h2>
+            <p>See how much revenue a high-converting website could generate for you. When a site lifts conversion from a typical 2–3% to 6–8%, it pays for itself fast — we will model the real numbers for your market in your free audit.</p>
           </div>
           <a href="/book-call/" class="cta-button" rel="noopener noreferrer">Get a Custom Quote</a>
         </div>
@@ -441,6 +502,22 @@ const schema = [
     background-clip: text;
   }
 
+  .plan-price-monthly {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--accent-primary);
+    -webkit-text-fill-color: var(--accent-primary);
+    background: none;
+  }
+
+  .plan-roi {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-primary);
+    margin-bottom: 16px;
+  }
+
   .plan-desc {
     font-size: 15px;
     color: var(--text-secondary);
@@ -598,9 +675,134 @@ const schema = [
     background: rgba(6, 214, 160, 0.06);
   }
 
+  /* Alternatives Comparison */
+  .alternatives-section {
+    padding: 120px 0 40px;
+    background: var(--bg-primary);
+    position: relative;
+  }
+
+  .alternatives-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border), transparent);
+  }
+
+  .alternatives-header {
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto 56px;
+  }
+
+  .alternatives-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .alt-card {
+    background: rgba(17, 24, 39, 0.5);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 24px 20px;
+  }
+
+  .alt-card.highlight {
+    border-color: rgba(6, 214, 160, 0.35);
+    background:
+      radial-gradient(ellipse 120% 80% at 50% 0%, rgba(6, 214, 160, 0.08) 0%, transparent 60%),
+      rgba(17, 24, 39, 0.6);
+  }
+
+  .alt-name {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+  }
+
+  .alt-price {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+  }
+
+  .alt-card.highlight .alt-price {
+    color: var(--accent-primary);
+  }
+
+  .alt-copy {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+
+  /* Investment vs Return */
+  .invest-return-section {
+    padding: 120px 0 40px;
+    background: var(--bg-primary);
+    position: relative;
+  }
+
+  .invest-return-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border), transparent);
+  }
+
+  .invest-return-header {
+    text-align: center;
+    max-width: 620px;
+    margin: 0 auto 56px;
+  }
+
+  .invest-return-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1060px;
+    margin: 0 auto 56px;
+  }
+
+  .invest-return-card {
+    background: rgba(17, 24, 39, 0.5);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: 32px 28px;
+  }
+
+  .ir-plan {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--accent-primary);
+    margin-bottom: 12px;
+  }
+
+  .ir-copy {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+  }
+
   /* ROI */
   .roi-section {
-    padding: 80px 0;
+    padding: 40px 0 80px;
     background: var(--bg-primary);
     position: relative;
   }
@@ -805,6 +1007,8 @@ const schema = [
   @media (max-width: 1024px) {
     .pricing-cards-grid { grid-template-columns: 1fr; }
     .pricing-card { max-width: 420px; margin: 0 auto; }
+    .alternatives-grid { grid-template-columns: repeat(2, 1fr); max-width: 640px; }
+    .invest-return-grid { grid-template-columns: 1fr; max-width: 480px; }
     .roi-inner { flex-direction: column; text-align: center; }
     .comparison-table-wrapper { overflow-x: auto; }
     .final-cta-card { padding: 48px 28px; }
@@ -814,6 +1018,7 @@ const schema = [
     .pricing-hero { padding: 140px 0 60px; }
     .pricing-title { font-size: 36px; }
     .pricing-card { padding: 36px 28px; }
+    .alternatives-grid { grid-template-columns: 1fr; max-width: 380px; }
     .roi-inner { padding: 32px 24px; }
     .gradient-blob { display: none; }
   }

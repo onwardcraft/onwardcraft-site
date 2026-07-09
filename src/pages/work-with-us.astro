@@ -33,28 +33,32 @@ const systems = [
 const pricing = [
   {
     name: 'Starter',
-    price: '$2,000',
+    price: '$500',
     period: 'one-time',
-    desc: 'A professional, conversion-focused site that starts capturing leads from day one.',
-    features: ['Single high-converting landing page', 'Basic on-page SEO setup', 'Mobile-first responsive design', 'Lead capture forms', 'Google Analytics integration', '2 rounds of revisions'],
+    roi: 'Pays for itself with your first new lead.',
+    desc: 'A single, high-converting page that starts capturing leads from day one.',
+    features: ['1 custom page', 'Basic on-page SEO setup', 'Mobile-first responsive design', 'Lead capture forms', 'Google Analytics integration', '1 round of revisions'],
     cta: 'Book My Free Call',
     popular: false,
   },
   {
     name: 'Business',
-    price: '$4,500',
+    price: '$999',
     period: 'one-time',
-    desc: 'The complete system: conversion architecture, SEO foundation, and lead funnels built to book jobs.',
-    features: ['Up to 5-page custom website', 'Advanced SEO + blog setup', 'Conversion funnel design', 'A/B test ready pages', 'CMS integration', '4 rounds of revisions', '30-day post-launch support'],
+    roi: 'Most clients break even in 1-2 booked jobs.',
+    desc: 'Home, service, and core pages plus a blog — everything a growing local business needs to look credible and get found.',
+    features: ['Home + service pages + core pages', 'Blog / CMS setup', 'On-page SEO for every page', 'Google Analytics + Search Console', '2 rounds of revisions', '30-day post-launch support'],
     cta: 'Book My Free Call',
     popular: true,
   },
   {
     name: 'Growth',
-    price: '$8,000',
-    period: 'custom',
-    desc: 'A full digital growth system for trades businesses scaling fast — not just a website.',
-    features: ['Unlimited pages + custom features', 'Full design system', 'Custom integrations + API work', 'Founder-led project delivery', 'Priority support', 'Ongoing maintenance included', 'Written performance guarantee'],
+    price: '$2,500',
+    priceMonthly: '+ $1,000/mo',
+    period: 'one-time',
+    roi: 'Built to compound — more pages ranking, cheaper every lead.',
+    desc: 'The same programmatic SEO system built into our own site — up to 500 pages plus ongoing SEO to keep it growing, not just a website.',
+    features: ['Up to 500 total pages', '100 blog posts included', 'Location pages + service pages', 'Ongoing SEO, content & backlinks', 'Local SEO + GEO/AIO optimization', 'Priority support'],
     cta: 'Book My Free Call',
     popular: false,
   },
@@ -264,7 +268,9 @@ const notFor = [
               <div class="pricing-price">
                 <span class="price-num">{p.price}</span>
                 <span class="price-period">{p.period}</span>
+                {p.priceMonthly && <span class="price-monthly">{p.priceMonthly}</span>}
               </div>
+              <p class="pricing-roi">→ {p.roi}</p>
               <p class="pricing-desc">{p.desc}</p>
             </div>
             <ul class="pricing-features-deck">
@@ -863,7 +869,7 @@ const notFor = [
     margin-bottom: 12px;
     color: var(--text-primary);
   }
-  .pricing-price { display: flex; align-items: baseline; gap: 8px; margin-bottom: 12px; }
+  .pricing-price { display: flex; align-items: baseline; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
   .price-num {
     font-family: var(--font-heading);
     font-size: 36px;
@@ -874,6 +880,18 @@ const notFor = [
   .price-period {
     font-size: 14px;
     color: var(--text-muted);
+  }
+  .price-monthly {
+    flex-basis: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--accent-primary);
+  }
+  .pricing-roi {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-primary);
+    margin-bottom: 12px;
   }
   .pricing-desc {
     font-size: 15px;

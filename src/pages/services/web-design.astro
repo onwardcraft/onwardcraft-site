@@ -129,11 +129,11 @@ const principles = [
 ];
 
 const faqs = [
-  { q: 'How long does a website project take?', a: 'A standard multi-page contractor site launches in 4-6 weeks from kickoff. Single landing pages ship in 2-3 weeks; complex builds with e-commerce or custom integrations run 6-8 weeks. We give you a precise timeline during our strategy call.' },
+  { q: 'How long does a website project take?', a: 'A single-page Starter site ships in 1-2 weeks. Business (home + service pages + blog) launches in 2-4 weeks. The Growth 500-page system rolls out in phases as pages are built and published. We give you a precise timeline during our strategy call.' },
   { q: 'What platforms do you build on?', a: 'We primarily build with Astro and React for maximum performance and SEO. For clients who need a CMS, we use headless WordPress or Contentful — giving you easy content management without sacrificing speed.' },
   { q: 'Will my site rank on Google?', a: 'Every site we build follows SEO best practices: semantic HTML, structured data, fast load times, mobile optimization, and clean URL architecture. With that foundation in place, it is common to see ranking improvements within 30-60 days of launch.' },
-  { q: 'What if I do not like the design?', a: 'You get 2 full revision rounds. Because we do deep discovery upfront, the first direction usually lands close — but if something is not right, we refine until it is.' },
-  { q: 'Do you offer ongoing support?', a: 'Yes. Every project includes 30 days of post-launch support. After that, we offer monthly maintenance and optimization retainers for clients who want continuous improvement.' },
+  { q: 'What if I do not like the design?', a: 'Starter includes 1 revision round, Business includes 2. Because we do deep discovery upfront, the first direction usually lands close — but if something is not right, we refine until it is.' },
+  { q: 'Do you offer ongoing support?', a: 'Yes. The Growth plan includes ongoing SEO and website management built in at $1,000/month. For Starter and Business clients, we offer monthly maintenance retainers starting at $197/month for updates and support after launch.' },
 ];
 
 const schema = [
@@ -149,9 +149,9 @@ const schema = [
     areaServed: "United States",
     audience: { "@type": "Audience", audienceType: "Home-service contractors" },
     offers: [
-      { "@type": "Offer", name: "Starter", price: "2000", priceCurrency: "USD", description: "High-converting landing page or single-page site." },
-      { "@type": "Offer", name: "Business", price: "4500", priceCurrency: "USD", description: "Complete multi-page website with CMS and analytics." },
-      { "@type": "Offer", name: "Growth", price: "8000", priceCurrency: "USD", description: "Complex builds, e-commerce, custom features. Priced from $8,000." },
+      { "@type": "Offer", name: "Starter", price: "500", priceCurrency: "USD", description: "A single, high-converting page." },
+      { "@type": "Offer", name: "Business", price: "999", priceCurrency: "USD", description: "Home, service, and core pages plus a blog." },
+      { "@type": "Offer", name: "Growth", price: "2500", priceCurrency: "USD", description: "Up to 500 pages (blogs, location pages, service pages) plus $1,000/month ongoing SEO." },
     ],
   },
   {
@@ -360,50 +360,52 @@ const schema = [
       <div class="pricing-header reveal">
         <p class="section-label scramble-text">Pricing</p>
         <h2 class="section-title">Investment. Not Expense.</h2>
-        <p class="pricing-subtitle">A website that converts pays for itself. Here is what it takes to get yours.</p>
+        <p class="pricing-subtitle">Real pricing local businesses can actually afford. Here is what you invest — and what it typically gets back.</p>
       </div>
       <div class="pricing-grid reveal">
         <div class="pricing-card">
           <div class="pricing-name">Starter</div>
-          <div class="pricing-price">$2,000</div>
-          <p class="pricing-desc">A high-converting landing page or single-page site for businesses ready to look professional and capture leads.</p>
+          <div class="pricing-price">$500</div>
+          <p class="pricing-roi">→ Pays for itself with your first new lead</p>
+          <p class="pricing-desc">A single, high-converting page built to look professional and start capturing leads immediately.</p>
           <ul class="pricing-features">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Single landing page design</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>1 custom page</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Mobile-first responsive</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Basic on-page SEO setup</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Contact form + lead capture</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>2 revision rounds</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Delivery in 2-3 weeks</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>1 revision round</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Delivery in 1-2 weeks</li>
           </ul>
           <a href="#contact" class="pricing-cta">Book a Call</a>
         </div>
         <div class="pricing-card popular">
           <div class="popular-badge">Most Popular</div>
           <div class="pricing-name">Business</div>
-          <div class="pricing-price">$4,500</div>
-          <p class="pricing-desc">A complete multi-page website with CMS, analytics, and everything you need to grow.</p>
+          <div class="pricing-price">$999</div>
+          <p class="pricing-roi">→ Most clients break even in 1-2 booked jobs</p>
+          <p class="pricing-desc">Home, service, and core pages plus a blog — everything a growing local business needs to look credible and get found.</p>
           <ul class="pricing-features">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Up to 5 custom pages</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>CMS for blog / content</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Advanced SEO + speed opt</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Home + service pages + core pages</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Blog / CMS setup</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>On-page SEO for every page</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Google Analytics + Search Console</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Custom design system</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>4 revision rounds</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Delivery in 4-6 weeks</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>2 revision rounds</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Delivery in 2-4 weeks</li>
           </ul>
           <a href="#contact" class="pricing-cta primary">Book a Call</a>
         </div>
         <div class="pricing-card">
           <div class="pricing-name">Growth</div>
-          <div class="pricing-price">$8,000<span>+</span></div>
-          <p class="pricing-desc">Complex builds, e-commerce, custom features, and dedicated support for serious growth.</p>
+          <div class="pricing-price">$2,500<span class="price-monthly-inline">+ $1,000/mo</span></div>
+          <p class="pricing-roi">→ Built to compound — more pages ranking, cheaper every lead</p>
+          <p class="pricing-desc">The same programmatic SEO system built into our own site — up to 500 pages plus ongoing SEO to keep it growing.</p>
           <ul class="pricing-features">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Unlimited pages</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>E-commerce / memberships</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Custom integrations + API</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Priority support (30 days)</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Unlimited revisions</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Custom timeline</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Up to 500 total pages</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>100 blog posts included</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Location pages + service pages for every area you serve</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Ongoing SEO, content & backlinks</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Local SEO + GEO/AIO optimization</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Priority support</li>
           </ul>
           <a href="#contact" class="pricing-cta">Book a Call</a>
         </div>
@@ -1290,6 +1292,21 @@ const schema = [
     color: var(--text-muted);
     -webkit-text-fill-color: var(--text-muted);
     background: none;
+  }
+
+  .pricing-price span.price-monthly-inline {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--accent-primary);
+    -webkit-text-fill-color: var(--accent-primary);
+  }
+
+  .pricing-roi {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-primary);
+    margin-bottom: 16px;
   }
 
   .pricing-desc {

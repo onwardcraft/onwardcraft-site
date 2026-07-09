@@ -132,7 +132,7 @@ const faqs = [
   { q: 'How long until I see SEO results?', a: 'For local home-service SEO, you can typically expect measurable ranking improvements within 60-90 days, with significant traffic growth over 4-6 months. SEO is a compounding investment — the results at month 6 are just the beginning.' },
   { q: 'Do you guarantee first-page rankings?', a: 'No ethical SEO agency can guarantee a specific ranking — Google controls the algorithm. What we guarantee is in writing: we agree on the metrics that matter to your business, and if they do not improve, we keep working until they do. You get a data-driven strategy, transparent reporting, and continuous optimization.' },
   { q: 'What industries do you work with?', a: 'We work exclusively with home-service trades — roofing, HVAC, plumbing, solar, electrical, and restoration. That focus means we already know the keywords, search intent, and local competitive landscape in your market.' },
-  { q: 'How much does SEO cost?', a: 'Our SEO retainers start at $500/month and scale based on competition, target keywords, and content volume. We provide a custom quote after your free 48-hour audit — no obligation.' },
+  { q: 'How much does SEO cost?', a: 'Our SEO retainers run $699, $999, or $1,499/month depending on scope — well under the $1,500–$5,000/month most agencies charge for local SEO. The $1,499/month plan bundles everything: local SEO, website management, content and backlinks, plus GEO/AIO so you show up in AI answer engines too. We provide a custom quote after your free 48-hour audit — no obligation.' },
   { q: 'Can you work with my existing website?', a: 'Absolutely. We work with most platforms — WordPress, Webflow, Shopify, Squarespace, and custom builds. Our technical team handles all on-site optimizations without disrupting your current design.' },
 ];
 
@@ -149,7 +149,9 @@ const schema = [
     areaServed: "United States",
     audience: { "@type": "Audience", audienceType: "Home-service contractors" },
     offers: [
-      { "@type": "Offer", name: "SEO Retainer", price: "500", priceCurrency: "USD", description: "Monthly SEO retainers from $500/month, scaled to competition and content volume." },
+      { "@type": "Offer", name: "SEO Starter", price: "699", priceCurrency: "USD", description: "Monthly content-driven SEO retainer, 30 blogs/month." },
+      { "@type": "Offer", name: "SEO Growth", price: "999", priceCurrency: "USD", description: "Monthly SEO retainer with content and link building, 60 blogs/month." },
+      { "@type": "Offer", name: "SEO All-In", price: "1499", priceCurrency: "USD", description: "Local SEO, website management, content, backlinks, and GEO/AIO optimization in one plan." },
     ],
   },
   {
@@ -353,48 +355,53 @@ const schema = [
       <div class="pricing-header reveal">
         <p class="section-label scramble-text">Pricing</p>
         <h2 class="section-title">Investment. Not Expense.</h2>
-        <p class="pricing-subtitle">SEO is the only marketing channel that compounds. The sooner you start, the bigger the gap you create.</p>
+        <p class="pricing-subtitle">Real pricing local businesses can actually afford. SEO is the only channel that compounds — the sooner you start, the bigger the gap you create.</p>
       </div>
       <div class="pricing-grid reveal">
         <div class="pricing-card">
           <div class="pricing-name">Starter</div>
-          <div class="pricing-price">$500<span>/mo</span></div>
+          <div class="pricing-price">$699<span>/mo</span></div>
+          <p class="pricing-roi">→ Costs less than a single lost job a month</p>
           <p class="pricing-desc">Build authority with consistent, high-quality blog content that ranks and drives organic traffic.</p>
           <ul class="pricing-features">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>20 SEO-optimized blogs / month</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>30 SEO-optimized blogs / month</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Keyword research & targeting</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>On-page SEO for each post</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Content calendar planning</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Monthly performance report</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>1 revision round per blog</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>2 revision rounds per blog</li>
           </ul>
           <a href="#contact" class="pricing-cta">Book a Call</a>
         </div>
         <div class="pricing-card popular">
           <div class="popular-badge">Most Popular</div>
           <div class="pricing-name">Growth</div>
-          <div class="pricing-price">$1,000<span>/mo</span></div>
+          <div class="pricing-price">$999<span>/mo</span></div>
+          <p class="pricing-roi">→ One extra job a month typically covers this</p>
           <p class="pricing-desc">Scale your content engine with more blogs plus strategic link building to boost domain authority.</p>
           <ul class="pricing-features">
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>50 SEO-optimized blogs / month</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>10 quality backlinks / month</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>60 SEO-optimized blogs / month</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>15 quality backlinks / month</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Link building outreach</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Competitor content analysis</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Technical SEO audit</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Bi-weekly strategy calls</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>2 revision rounds per blog</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>3 revision rounds per blog</li>
           </ul>
           <a href="#contact" class="pricing-cta primary">Book a Call</a>
         </div>
         <div class="pricing-card">
-          <div class="pricing-name">Scale</div>
-          <div class="pricing-price">$2,000<span>/mo</span></div>
-          <p class="pricing-desc">Full website management with massive content output, aggressive link building, and local SEO dominance.</p>
+          <div class="pricing-name">All-In</div>
+          <div class="pricing-price">$1,499<span>/mo</span></div>
+          <p class="pricing-roi">→ Built for markets where each ranking is worth thousands</p>
+          <p class="pricing-desc">Everything, in one plan: local SEO, website management, full content and backlinks, plus GEO and AIO so you show up in AI answers too.</p>
           <ul class="pricing-features">
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>150 SEO-optimized blogs / month</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>25 quality backlinks / month</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Full website management</li>
-            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Local SEO + GMB optimization</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Local SEO + Google Business Profile domination</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Full website management & maintenance</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>GEO — optimized for ChatGPT, Perplexity & AI Overviews</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>AIO — structured for AI answer engines</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Weekly strategy calls</li>
             <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>Unlimited revisions</li>
           </ul>
@@ -1270,6 +1277,13 @@ const schema = [
     color: var(--text-muted);
     -webkit-text-fill-color: var(--text-muted);
     background: none;
+  }
+
+  .pricing-roi {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-primary);
+    margin-bottom: 16px;
   }
 
   .pricing-desc {

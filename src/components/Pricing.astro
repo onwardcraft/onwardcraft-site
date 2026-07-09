@@ -3,28 +3,32 @@
 const plans = [
   {
     name: 'Starter',
-    desc: 'A high-converting landing page or single-page site for businesses ready to look professional and capture leads.',
-    price: '$2,000',
+    desc: 'A single, high-converting page built to look professional and start capturing leads immediately.',
+    price: '$500',
     period: 'one-time',
-    features: ['Single landing page design', 'Mobile-first responsive', 'Basic on-page SEO setup', 'Contact form + lead capture', '2 revision rounds', 'Delivery in 2-3 weeks'],
+    roi: 'Pays for itself with your first new lead.',
+    features: ['1 custom page', 'Mobile-first responsive', 'Basic on-page SEO setup', 'Contact form + lead capture', '1 revision round', 'Delivery in 1-2 weeks'],
     cta: 'Book My Call',
     highlight: false,
   },
   {
     name: 'Business',
-    desc: 'A complete multi-page website with CMS, analytics, and everything you need to grow. Our most popular package.',
-    price: '$4,500',
+    desc: 'Home, service, and core pages plus a blog — everything a growing local business needs to look credible and get found. Our most popular package.',
+    price: '$999',
     period: 'one-time',
-    features: ['Up to 5 custom pages', 'CMS for blog / content', 'Advanced SEO + speed optimization', 'Google Analytics + Search Console', 'Custom design system', '4 revision rounds', 'Delivery in 4-6 weeks'],
+    roi: 'Most clients break even in 1-2 booked jobs.',
+    features: ['Home + service pages + core pages', 'Blog / CMS setup', 'Mobile-first responsive', 'On-page SEO for every page', 'Google Analytics + Search Console', '2 revision rounds', 'Delivery in 2-4 weeks'],
     cta: 'Book My Call',
     highlight: true,
   },
   {
     name: 'Growth',
-    desc: 'Complex builds, e-commerce, custom features, and dedicated support for serious growth.',
-    price: 'from $8,000',
-    period: 'custom scope',
-    features: ['Unlimited pages', 'E-commerce / memberships', 'Custom integrations + API', 'Priority support (30 days)', 'Unlimited revisions', 'Custom timeline'],
+    desc: 'The same programmatic SEO system built into our own site — up to 500 pages plus ongoing SEO to keep it growing.',
+    price: '$2,500',
+    priceMonthly: '+ $1,000/mo',
+    period: 'one-time',
+    roi: 'Built to compound — the more pages that rank, the cheaper each lead gets.',
+    features: ['Up to 500 total pages', '100 blog posts included', 'Location pages + service pages for every area you serve', 'Ongoing SEO, content & backlinks', 'Local SEO + GEO/AIO optimization', 'Priority support'],
     cta: 'Book My Call',
     highlight: false,
   },
@@ -48,7 +52,9 @@ const plans = [
           <div class="pricing-price">
             {plan.price}
             <span>{plan.period}</span>
+            {plan.priceMonthly && <span class="pricing-price-monthly">{plan.priceMonthly}</span>}
           </div>
+          <p class="pricing-roi">→ {plan.roi}</p>
           <ul class="pricing-features">
             {plan.features.map(f => (
               <li>
@@ -177,6 +183,21 @@ const plans = [
     font-size: 14px;
     color: var(--text-muted);
     font-weight: 500;
+  }
+
+  .pricing-price-monthly {
+    display: block;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    color: var(--accent-primary) !important;
+    margin-top: 2px;
+  }
+
+  .pricing-roi {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-primary);
+    margin: -16px 0 28px;
   }
 
   .pricing-features {
