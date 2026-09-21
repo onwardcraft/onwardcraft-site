@@ -10,8 +10,8 @@ import { cities } from '../data/cities.js';
 
 const lead = getFeatured();
 const rest = posts.filter((p) => p.slug !== lead.slug);
-const secondary = rest.slice(0, 4);
-const latest = rest.slice(4, 10);
+const picks = rest.slice(0, 6);
+const latest = rest.slice(6, 12);
 
 // A spread of large markets for the city-guide rail. The full index is at
 // /locations/; this is just the shop window.
@@ -21,6 +21,15 @@ const RAIL_CITIES = [
 ]
   .map((slug) => cities.find((c) => c.citySlug === slug))
   .filter(Boolean);
+
+// Counts are derived, never typed by hand, so the hero can never drift from
+// what the site actually publishes.
+const STATS = [
+  { n: String(posts.length), label: 'in-depth guides' },
+  { n: String(cities.length), label: 'city search guides' },
+  { n: String(SECTIONS.length), label: 'desks, nothing else' },
+  { n: '$0', label: 'for sale, ever' },
+];
 
 const schema = {
   '@context': 'https://schema.org',
@@ -33,7 +42,7 @@ const schema = {
   about: { '@type': 'Thing', name: 'Search engine optimization for small businesses' },
   mainEntity: {
     '@type': 'ItemList',
-    itemListElement: [lead, ...secondary].map((p, i) => ({
+    itemListElement: [lead, ...picks].map((p, i) => ({
       '@type': 'ListItem',
       position: i + 1,
       url: `${SITE.url}/blog/${p.slug}/`,
@@ -52,56 +61,103 @@ const schema = {
   <SiteHeader />
 
   <main id="main">
-    <!-- ── Statement of purpose ─────────────────────────────── -->
-    <section class="intro">
-      <div class="container intro__inner">
-        <p class="intro__text">
-          <strong>OnwardCraft covers one subject: search.</strong> Guides, checklists and
-          benchmark data for small businesses doing their own SEO — plus a local
-          search guide for every one of {cities.length} US metros. We sell nothing,
-          rank no one for money, and label every estimate as an estimate.
-        </p>
-        <a class="intro__link" href="/about/">How we work →</a>
+    <!-- ── Hero ─────────────────────────────────────────────── -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="kicker">Independent SEO publication</p>
+          <h1 class="hero__h1">
+            Learn the SEO that actually moves a <span>small business</span>.
+          </h1>
+          <p class="hero__sub">
+            Guides, checklists and benchmark data for owners doing their own search
+            marketing — plus a local search guide for every one of {cities.length} US
+            metros. We sell nothing, rank no one for money, and label every estimate
+            as an estimate.
+          </p>
+
+          <Newsletter variant="hero" location="home-hero" />
+
+          <ul class="hero__stats">
+            {STATS.map((s) => (
+              <li><strong>{s.n}</strong><span>{s.label}</span></li>
+            ))}
+          </ul>
+        </div>
+
+        <aside class="hero__card" aria-label="Start here">
+          <p class="hero__card-h">Start here</p>
+          <ol class="hero__list">
+            {[lead, ...picks.slice(0, 3)].map((p) => (
+              <li>
+                <a href={`/blog/${p.slug}/`}>
+                  <span class="hero__list-title">{p.title}</span>
+                  <span class="hero__list-meta">{p.category} · {p.readTime}</span>
+                </a>
+              </li>
+            ))}
+          </ol>
+          <a class="hero__card-more" href="/blog/">Browse all {posts.length} guides →</a>
+        </aside>
       </div>
     </section>
 
-    <!-- ── Lead + secondary stories ─────────────────────────── -->
-    <section class="frontpage container" aria-label="Latest articles">
-      <div class="frontpage__lead">
-        <StoryCard post={lead} size="lead" />
-      </div>
-      <div class="frontpage__secondary">
-        {secondary.map((p) => <StoryCard post={p} />)}
-      </div>
-    </section>
-
-    <!-- ── Desks ────────────────────────────────────────────── -->
-    <section class="desks container reveal" aria-labelledby="desks-h">
+    <!-- ── Featured ─────────────────────────────────────────── -->
+    <section class="featured container reveal" aria-labelledby="featured-h">
       <div class="section-head">
-        <h2 id="desks-h">The three desks</h2>
+        <h2 id="featured-h">Featured guide</h2>
+        <a class="section-more" href="/blog/">All articles →</a>
+      </div>
+      <StoryCard post={lead} size="lead" />
+    </section>
+
+    <!-- ── Editor's picks ───────────────────────────────────── -->
+    <section class="picks container reveal" aria-labelledby="picks-h">
+      <div class="section-head">
+        <h2 id="picks-h">Editor's picks</h2>
         <a class="section-more" href="/topics/">Topics index →</a>
       </div>
-      <div class="desks__grid">
-        {SECTIONS.map((s) => {
-          const count = getPostsByCategory(s.name).length;
-          return (
-            <a class="desk" href={`/blog/category/${s.slug}/`}>
-              <span class="desk__name">{s.name}</span>
-              <span class="desk__blurb">{s.blurb}</span>
-              <span class="desk__count">{count} {count === 1 ? 'article' : 'articles'} →</span>
-            </a>
-          );
-        })}
+      <div class="grid-3">
+        {picks.map((p) => <StoryCard post={p} />)}
       </div>
     </section>
 
-    <!-- ── More reading ─────────────────────────────────────── -->
+    <!-- ── Desks / resource hubs ────────────────────────────── -->
+    <section class="desks reveal" aria-labelledby="desks-h">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="desks-h">The three desks</h2>
+          <a class="section-more" href="/topics/">Topics index →</a>
+        </div>
+        <div class="desks__grid">
+          {SECTIONS.map((s) => {
+            const items = getPostsByCategory(s.name);
+            return (
+              <div class="desk">
+                <a class="desk__name" href={`/blog/category/${s.slug}/`}>{s.name}</a>
+                <p class="desk__blurb">{s.blurb}</p>
+                <ul class="desk__links">
+                  {items.slice(0, 4).map((p) => (
+                    <li><a href={`/blog/${p.slug}/`}>{p.title}</a></li>
+                  ))}
+                </ul>
+                <a class="desk__count" href={`/blog/category/${s.slug}/`}>
+                  All {items.length} {items.length === 1 ? 'article' : 'articles'} →
+                </a>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Latest ───────────────────────────────────────────── -->
     <section class="more container reveal" aria-labelledby="more-h">
       <div class="section-head">
-        <h2 id="more-h">More from the archive</h2>
+        <h2 id="more-h">Latest from the archive</h2>
         <a class="section-more" href="/blog/">All {posts.length} articles →</a>
       </div>
-      <div class="more__grid">
+      <div class="grid-3 grid-3--rows">
         {latest.map((p) => <StoryCard post={p} size="compact" showDek={false} />)}
       </div>
     </section>
@@ -154,139 +210,205 @@ const schema = {
 </Layout>
 
 <style>
-  /* ── Statement of purpose ── */
-  .intro {
+  /* ── Hero ── */
+  .hero {
+    background:
+      radial-gradient(720px 340px at 8% -20%, rgba(91, 51, 239, 0.10), transparent 62%),
+      radial-gradient(620px 320px at 96% 0%, rgba(34, 166, 179, 0.10), transparent 60%),
+      var(--paper);
     border-bottom: 1px solid var(--rule);
-    background: var(--paper-2);
-    padding: 22px 0;
+    padding: 72px 0 76px;
   }
-  .intro__inner {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 28px;
-    flex-wrap: wrap;
+  .hero__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+    gap: 64px;
+    align-items: start;
   }
-  .intro__text {
+  .hero__h1 {
+    margin-top: 16px;
+    font-size: clamp(36px, 5.2vw, 60px);
+    line-height: 1.05;
+    letter-spacing: -0.035em;
+  }
+  .hero__h1 span {
+    background: linear-gradient(120deg, var(--accent), #22A6B3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .hero__sub {
+    margin-top: 20px;
     font-family: var(--font-read);
-    font-size: 17px;
-    line-height: 1.55;
+    font-size: 18.5px;
+    line-height: 1.6;
     color: var(--ink-2);
-    max-width: 78ch;
+    max-width: 60ch;
   }
-  .intro__text strong { color: var(--ink); font-weight: 600; }
-  .intro__link {
+
+  .hero__stats {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 40px;
+    margin-top: 34px;
+    padding-top: 26px;
+    border-top: 1px solid var(--rule);
+  }
+  .hero__stats li { display: flex; flex-direction: column; }
+  .hero__stats strong {
+    font-family: var(--font-display);
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--ink);
+    letter-spacing: -0.03em;
+  }
+  .hero__stats span { font-size: 13px; color: var(--ink-3); }
+
+  /* Start-here card */
+  .hero__card {
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+    padding: 26px;
+  }
+  .hero__card-h {
     font-family: var(--font-ui);
-    font-size: 13px;
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+  .hero__list { list-style: none; counter-reset: hl; margin-top: 14px; }
+  .hero__list li { counter-increment: hl; border-top: 1px solid var(--rule); }
+  .hero__list li:first-child { border-top: none; }
+  .hero__list a { display: block; padding: 14px 0; }
+  .hero__list-title {
+    display: block;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 15.5px;
+    line-height: 1.35;
+    color: var(--ink);
+    transition: color 0.18s var(--ease);
+  }
+  .hero__list-title::before {
+    content: counter(hl) '. ';
+    color: var(--accent);
+  }
+  .hero__list a:hover .hero__list-title { color: var(--accent); }
+  .hero__list-meta { display: block; margin-top: 5px; font-size: 12.5px; color: var(--ink-3); }
+  .hero__card-more {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 13.5px;
     font-weight: 600;
     color: var(--accent);
-    white-space: nowrap;
   }
-  .intro__link:hover { text-decoration: underline; }
+  .hero__card-more:hover { text-decoration: underline; }
 
-  /* ── Front page ── */
-  .frontpage {
-    display: grid;
-    grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
-    gap: 56px;
-    padding-top: 44px;
-    padding-bottom: 60px;
-  }
-  .frontpage__secondary {
-    display: flex;
-    flex-direction: column;
-    gap: 26px;
-    border-left: 1px solid var(--rule);
-    padding-left: 40px;
-  }
+  /* ── Section rhythm ── */
+  .featured, .picks, .more, .cities { padding-top: 64px; }
+  .desks { padding: 72px 0; margin-top: 64px; background: var(--paper-2); border-block: 1px solid var(--rule); }
+
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .grid-3--rows { gap: 0 40px; }
 
   /* ── Desks ── */
-  .desks, .more, .cities { padding-bottom: 60px; }
-  .desks__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; }
+  .desks__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
   .desk {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 26px 28px 26px 0;
-    border-right: 1px solid var(--rule);
+    gap: 12px;
+    padding: 28px;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-lg);
+    transition: box-shadow 0.2s var(--ease), transform 0.2s var(--ease);
   }
-  .desk:last-child { border-right: none; }
-  .desk:not(:first-child) { padding-left: 28px; }
+  .desk:hover { box-shadow: var(--shadow); transform: translateY(-2px); }
   .desk__name {
     font-family: var(--font-display);
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: -0.025em;
     color: var(--ink);
-    transition: color 0.18s var(--ease);
   }
   .desk:hover .desk__name { color: var(--accent); }
   .desk__blurb {
     font-family: var(--font-read);
-    font-size: 16px;
-    line-height: 1.55;
+    font-size: 15px;
+    line-height: 1.6;
     color: var(--ink-3);
   }
+  .desk__links { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+  .desk__links li { padding-left: 16px; position: relative; }
+  .desk__links li::before {
+    content: '';
+    position: absolute; left: 0; top: 9px;
+    width: 5px; height: 5px; border-radius: 999px; background: var(--rule-strong);
+  }
+  .desk__links a {
+    font-size: 14.5px;
+    line-height: 1.45;
+    color: var(--ink-2);
+    transition: color 0.18s var(--ease);
+  }
+  .desk__links a:hover { color: var(--accent); }
   .desk__count {
     margin-top: auto;
     padding-top: 6px;
     font-family: var(--font-ui);
-    font-size: 12.5px;
+    font-size: 13.5px;
     font-weight: 600;
     color: var(--accent);
   }
-
-  /* ── More ── */
-  .more__grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0 36px;
-  }
+  .desk__count:hover { text-decoration: underline; }
 
   /* ── Cities ── */
   .cities__note {
     font-family: var(--font-read);
-    font-size: 17px;
-    line-height: 1.55;
+    font-size: 16.5px;
+    line-height: 1.6;
     color: var(--ink-3);
     max-width: 68ch;
-    margin: -14px 0 26px;
+    margin: -12px 0 26px;
   }
   .cities__grid {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 1px;
-    background: var(--rule);
-    border: 1px solid var(--rule);
+    gap: 12px;
   }
   .cities__grid a {
     display: flex;
     flex-direction: column;
     gap: 3px;
     padding: 16px 18px;
-    background: var(--paper);
     height: 100%;
-    transition: background 0.18s var(--ease);
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    transition: border-color 0.18s var(--ease), box-shadow 0.18s var(--ease), transform 0.18s var(--ease);
   }
-  .cities__grid a:hover { background: var(--paper-2); }
-  .cities__name { font-family: var(--font-display); font-weight: 700; font-size: 16px; color: var(--ink); }
+  .cities__grid a:hover { border-color: var(--accent); box-shadow: var(--shadow-sm); transform: translateY(-2px); }
+  .cities__name { font-family: var(--font-display); font-weight: 700; font-size: 15.5px; color: var(--ink); }
   .cities__grid a:hover .cities__name { color: var(--accent); }
   .cities__state { font-family: var(--font-ui); font-size: 11.5px; letter-spacing: 0.08em; color: var(--ink-3); }
 
   /* ── Standards ── */
-  .standards { background: var(--paper-2); border-top: 1px solid var(--rule); padding: 56px 0; }
+  .standards { margin-top: 72px; padding: 72px 0; background: var(--paper-2); border-top: 1px solid var(--rule); }
   .standards__list {
     list-style: none;
     counter-reset: std;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 28px 36px;
   }
   .standards__list li { counter-increment: std; }
-  .standards__list h3 {
-    font-size: 18px;
-    margin-bottom: 8px;
-  }
+  .standards__list h3 { font-size: 18px; margin-bottom: 8px; }
   .standards__list h3::before {
     content: counter(std, decimal-leading-zero);
     display: block;
@@ -299,24 +421,21 @@ const schema = {
   }
   .standards__list p {
     font-family: var(--font-read);
-    font-size: 16px;
-    line-height: 1.55;
+    font-size: 15.5px;
+    line-height: 1.6;
     color: var(--ink-3);
   }
 
-  @media (max-width: 1000px) {
-    .frontpage { grid-template-columns: 1fr; gap: 40px; }
-    .frontpage__secondary { border-left: none; padding-left: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 26px 32px; }
-    .desks__grid { grid-template-columns: 1fr; }
-    .desk { border-right: none; border-bottom: 1px solid var(--rule); padding: 22px 0; }
-    .desk:not(:first-child) { padding-left: 0; }
-    .desk:last-child { border-bottom: none; }
-    .more__grid { grid-template-columns: 1fr 1fr; gap: 0 32px; }
+  @media (max-width: 1040px) {
+    .hero__inner { grid-template-columns: 1fr; gap: 40px; }
+    .hero { padding: 52px 0 60px; }
+    .grid-3, .desks__grid { grid-template-columns: 1fr 1fr; }
     .cities__grid { grid-template-columns: repeat(3, 1fr); }
   }
-  @media (max-width: 620px) {
-    .frontpage__secondary { grid-template-columns: 1fr; }
-    .more__grid { grid-template-columns: 1fr; }
+  @media (max-width: 720px) {
+    .grid-3, .desks__grid { grid-template-columns: 1fr; }
+    .grid-3--rows { gap: 0; }
     .cities__grid { grid-template-columns: repeat(2, 1fr); }
+    .featured, .picks, .more, .cities { padding-top: 48px; }
   }
 </style>

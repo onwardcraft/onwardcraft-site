@@ -1,162 +1,234 @@
 ---
-import { SITE, NAV } from '../data/site.js';
+import { SITE, NAV, SECTIONS } from '../data/site.js';
 
 export interface Props {
-  /** Compact masthead for article and guide pages. */
+  /** Compact masthead for article and guide pages: no promo strip. */
   compact?: boolean;
 }
 const { compact = false } = Astro.props;
 const path = Astro.url.pathname;
 const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
-
-// The dateline is a magazine convention and a freshness signal for readers.
-const issueDate = new Date().toLocaleDateString('en-US', {
-  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
-});
 ---
 
-<header class:list={['masthead', compact && 'masthead--compact']}>
-  {!compact && (
-    <div class="masthead__top">
-      <div class="container masthead__top-inner">
-        <span class="masthead__date">{issueDate}</span>
-        <span class="masthead__promise">Independent · Nothing for sale · Free newsletter</span>
-      </div>
+{!compact && (
+  <div class="promo">
+    <div class="container promo__inner">
+      <span class="promo__dot" aria-hidden="true"></span>
+      <span>Independent · nothing for sale · a free SEO email every other week</span>
+      <a class="promo__cta" href="/newsletter/">Join free →</a>
     </div>
-  )}
+  </div>
+)}
 
-  <div class="container masthead__main">
-    <a href="/" class="wordmark" aria-label={`${SITE.name} home`}>
-      <span class="wordmark__name">{SITE.name}</span>
-      {!compact && <span class="wordmark__tag">{SITE.tagline}</span>}
+<header class:list={['nav', compact && 'nav--compact']} id="siteNav">
+  <div class="container nav__inner">
+    <a href="/" class="brand" aria-label={`${SITE.name} home`}>
+      <span class="brand__mark" aria-hidden="true">OC</span>
+      <span class="brand__name">{SITE.name}</span>
     </a>
 
-    <button class="masthead__toggle" id="mastheadToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mastheadNav">
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
       <span></span><span></span><span></span>
     </button>
 
-    <nav class="masthead__nav" id="mastheadNav" aria-label="Sections">
-      {NAV.map((item) => (
-        <a href={item.href} class:list={['masthead__link', isActive(item.href) && 'is-active']}>{item.label}</a>
-      ))}
-      <a href="/newsletter/" class="masthead__subscribe">Subscribe</a>
+    <nav class="nav__menu" id="navMenu" aria-label="Main">
+      <div class="nav__links">
+        {NAV.map((item) =>
+          item.label === 'Topics' ? (
+            <div class="nav__item nav__item--has-menu">
+              <a href={item.href} class:list={['nav__link', isActive(item.href) && 'is-active']}>
+                {item.label}
+                <svg class="nav__chev" width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </a>
+              <div class="nav__drop">
+                {SECTIONS.map((s) => (
+                  <a class="nav__drop-item" href={`/blog/category/${s.slug}/`}>
+                    <span class="nav__drop-name">{s.name}</span>
+                    <span class="nav__drop-blurb">{s.blurb}</span>
+                  </a>
+                ))}
+                <a class="nav__drop-item nav__drop-item--all" href="/topics/">Every topic we cover →</a>
+              </div>
+            </div>
+          ) : (
+            <a href={item.href} class:list={['nav__link', isActive(item.href) && 'is-active']}>{item.label}</a>
+          )
+        )}
+      </div>
+      <a href="/newsletter/" class="nav__cta">Get the newsletter</a>
     </nav>
   </div>
 </header>
 
 <style>
-  .masthead {
-    position: relative;
-    z-index: 900;
-    background: var(--paper);
-    border-bottom: 2px solid var(--ink);
-  }
-
-  .masthead__top {
-    border-bottom: 1px solid var(--rule);
-    background: var(--paper-2);
-  }
-  .masthead__top-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    height: 34px;
+  /* ── Promo strip ── */
+  .promo {
+    background: var(--ink);
+    color: rgba(255, 255, 255, 0.82);
     font-family: var(--font-ui);
-    font-size: 11.5px;
-    letter-spacing: 0.06em;
-    color: var(--ink-3);
-    text-transform: uppercase;
+    font-size: 13px;
   }
-  .masthead__promise { color: var(--accent); font-weight: 600; }
+  .promo__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 40px;
+    text-align: center;
+  }
+  .promo__dot {
+    width: 7px; height: 7px; border-radius: 999px;
+    background: #7BE5A8; flex: none;
+  }
+  .promo__cta { color: #fff; font-weight: 600; }
+  .promo__cta:hover { text-decoration: underline; }
 
-  .masthead__main {
+  /* ── Nav bar ── */
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 900;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: saturate(180%) blur(12px);
+    border-bottom: 1px solid var(--rule);
+  }
+  .nav__inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 28px;
-    padding-top: 22px;
-    padding-bottom: 20px;
+    gap: 24px;
+    height: 72px;
   }
+  .nav--compact .nav__inner { height: 64px; }
 
-  .wordmark { display: flex; flex-direction: column; gap: 4px; }
-  .wordmark__name {
+  .brand { display: inline-flex; align-items: center; gap: 10px; }
+  .brand__mark {
+    display: grid;
+    place-items: center;
+    width: 34px; height: 34px;
+    border-radius: 9px;
+    background: var(--accent);
+    color: #fff;
     font-family: var(--font-display);
     font-weight: 800;
-    font-size: 34px;
-    line-height: 1;
-    letter-spacing: -0.035em;
+    font-size: 13.5px;
+    letter-spacing: 0.02em;
+  }
+  .brand__name {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 21px;
+    letter-spacing: -0.03em;
     color: var(--ink);
   }
-  .wordmark__tag {
-    font-family: var(--font-read);
-    font-size: 13.5px;
-    font-style: italic;
-    color: var(--ink-3);
-  }
 
-  .masthead--compact .masthead__main { padding-top: 14px; padding-bottom: 12px; }
-  .masthead--compact .wordmark__name { font-size: 24px; }
+  .nav__menu { display: flex; align-items: center; gap: 22px; }
+  .nav__links { display: flex; align-items: center; gap: 4px; }
+  .nav__item { position: relative; }
 
-  .masthead__nav {
-    display: flex;
+  .nav__link {
+    display: inline-flex;
     align-items: center;
     gap: 6px;
-  }
-  .masthead__link {
     font-family: var(--font-ui);
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--ink-2);
+    padding: 9px 12px;
+    border-radius: 8px;
+    transition: color 0.18s var(--ease), background 0.18s var(--ease);
+  }
+  .nav__link:hover { color: var(--ink); background: var(--paper-2); }
+  .nav__link.is-active { color: var(--accent); font-weight: 600; }
+  .nav__chev { opacity: 0.6; transition: transform 0.2s var(--ease); }
+  .nav__item--has-menu:hover .nav__chev { transform: rotate(180deg); }
+
+  /* Dropdown */
+  .nav__drop {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: -8px;
+    width: 340px;
+    padding: 8px;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-6px);
+    transition: opacity 0.18s var(--ease), transform 0.18s var(--ease), visibility 0.18s;
+  }
+  .nav__item--has-menu:hover .nav__drop,
+  .nav__item--has-menu:focus-within .nav__drop {
+    opacity: 1; visibility: visible; transform: translateY(0);
+  }
+  .nav__drop-item {
+    display: block;
+    padding: 11px 12px;
+    border-radius: 10px;
+    transition: background 0.16s var(--ease);
+  }
+  .nav__drop-item:hover { background: var(--paper-2); }
+  .nav__drop-name {
+    display: block;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--ink);
+  }
+  .nav__drop-blurb {
+    display: block;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--ink-3);
+    margin-top: 3px;
+  }
+  .nav__drop-item--all {
     font-size: 13.5px;
     font-weight: 600;
-    letter-spacing: 0.02em;
-    color: var(--ink-2);
-    padding: 8px 12px;
-    border-bottom: 2px solid transparent;
-    transition: color 0.18s var(--ease), border-color 0.18s var(--ease);
+    color: var(--accent);
+    border-top: 1px solid var(--rule);
+    border-radius: 0 0 10px 10px;
+    margin-top: 4px;
   }
-  .masthead__link:hover { color: var(--accent); }
-  .masthead__link.is-active { color: var(--ink); border-bottom-color: var(--accent); }
 
-  .masthead__subscribe {
-    margin-left: 10px;
-    padding: 10px 18px;
-    background: var(--ink);
-    color: var(--ink-invert);
+  .nav__cta {
+    padding: 11px 18px;
+    background: var(--accent);
+    color: #fff;
     font-family: var(--font-ui);
-    font-size: 13.5px;
+    font-size: 14.5px;
     font-weight: 600;
     border-radius: var(--radius);
-    transition: background 0.2s var(--ease);
+    box-shadow: var(--shadow-sm);
+    transition: background 0.2s var(--ease), transform 0.2s var(--ease), box-shadow 0.2s var(--ease);
   }
-  .masthead__subscribe:hover { background: var(--accent); }
+  .nav__cta:hover { background: var(--accent-deep); transform: translateY(-1px); box-shadow: var(--shadow); }
 
-  .masthead__toggle {
+  .nav__toggle {
     display: none;
     flex-direction: column;
     justify-content: center;
     gap: 5px;
-    width: 40px;
-    height: 40px;
+    width: 42px; height: 42px;
     background: none;
-    border: 1px solid var(--rule-strong);
-    border-radius: var(--radius);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
     cursor: pointer;
   }
-  .masthead__toggle span {
-    display: block;
-    width: 18px;
-    height: 1.5px;
-    margin: 0 auto;
-    background: var(--ink);
+  .nav__toggle span {
+    display: block; width: 18px; height: 1.8px;
+    margin: 0 auto; border-radius: 2px; background: var(--ink);
     transition: transform 0.25s var(--ease), opacity 0.2s var(--ease);
   }
-  .masthead__toggle.is-open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
-  .masthead__toggle.is-open span:nth-child(2) { opacity: 0; }
-  .masthead__toggle.is-open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+  .nav__toggle.is-open span:nth-child(1) { transform: translateY(6.8px) rotate(45deg); }
+  .nav__toggle.is-open span:nth-child(2) { opacity: 0; }
+  .nav__toggle.is-open span:nth-child(3) { transform: translateY(-6.8px) rotate(-45deg); }
 
-  @media (max-width: 900px) {
-    .masthead__promise { display: none; }
-    .masthead__toggle { display: flex; }
-    .masthead__nav {
+  @media (max-width: 940px) {
+    .nav__toggle { display: flex; }
+    .nav__menu {
       display: none;
       position: absolute;
       left: 0; right: 0; top: 100%;
@@ -164,29 +236,42 @@ const issueDate = new Date().toLocaleDateString('en-US', {
       align-items: stretch;
       gap: 0;
       background: var(--paper);
-      border-bottom: 2px solid var(--ink);
-      padding: 8px 20px 20px;
-      box-shadow: 0 18px 40px rgba(23, 20, 15, 0.09);
+      border-bottom: 1px solid var(--rule);
+      padding: 10px 20px 22px;
+      box-shadow: var(--shadow-lg);
     }
-    .masthead__nav.is-open { display: flex; }
-    .masthead__link {
+    .nav__menu.is-open { display: flex; }
+    .nav__links { flex-direction: column; align-items: stretch; gap: 0; }
+    .nav__link {
       padding: 14px 0;
       font-size: 17px;
       border-bottom: 1px solid var(--rule);
+      border-radius: 0;
+      justify-content: space-between;
     }
-    .masthead__link.is-active { border-bottom-color: var(--accent); }
-    .masthead__subscribe { margin: 16px 0 0; text-align: center; }
-    .wordmark__tag { display: none; }
+    .nav__link:hover { background: none; }
+    .nav__drop {
+      position: static;
+      opacity: 1; visibility: visible; transform: none;
+      width: auto; box-shadow: none; border: none; padding: 4px 0 10px;
+      border-bottom: 1px solid var(--rule);
+    }
+    .nav__drop-blurb { display: none; }
+    .nav__cta { margin-top: 18px; text-align: center; }
+  }
+  @media (max-width: 600px) {
+    .promo__inner span:not(.promo__dot) { font-size: 12px; }
+    .promo__cta { display: none; }
   }
 </style>
 
 <script is:inline>
   (function () {
-    var toggle = document.getElementById('mastheadToggle');
-    var nav = document.getElementById('mastheadNav');
-    if (!toggle || !nav) return;
+    var toggle = document.getElementById('navToggle');
+    var menu = document.getElementById('navMenu');
+    if (!toggle || !menu) return;
     toggle.addEventListener('click', function () {
-      var open = nav.classList.toggle('is-open');
+      var open = menu.classList.toggle('is-open');
       toggle.classList.toggle('is-open', open);
       toggle.setAttribute('aria-expanded', String(open));
       toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');

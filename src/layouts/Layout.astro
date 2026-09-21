@@ -129,11 +129,11 @@ const allSchemas = [orgSchema, websiteSchema, blogSchema, deskSchema, ...pageSch
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" type="image/png" href="/logo/fabicon.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <meta name="theme-color" content="#FFFCF7" />
+    <meta name="theme-color" content="#FFFFFF" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
@@ -216,32 +216,40 @@ const allSchemas = [orgSchema, websiteSchema, blogSchema, deskSchema, ...pageSch
 
 <style is:global>
   /* ============================================================
-     OnwardCraft — editorial magazine design system.
-     Warm paper, ink-black text, a single rust accent, serif
-     display type over a serif reading face. Light only: this is
-     a publication, and the archive pages are dense with type.
+     OnwardCraft — modern SEO-publication design system.
+     White canvas, near-black type, one violet accent, a single
+     geometric sans for display over Inter for everything else.
+     Card-led layout: rounded surfaces, hairline borders, soft
+     lift on hover. Light only — the archive pages are dense.
      ============================================================ */
   :root {
-    --paper: #FFFCF7;          /* page background — warm newsprint white */
-    --paper-2: #F7F2E9;        /* recessed panels, table stripes */
-    --paper-3: #EFE8DB;        /* deeper wells */
-    --ink: #17140F;            /* headlines, primary text */
-    --ink-2: #453E33;          /* body copy */
-    --ink-3: #6E6455;          /* meta, captions, muted */
-    --rule: #E2D9C9;           /* hairlines */
-    --rule-strong: #C9BCA5;
-    --accent: #A8321B;         /* editorial rust — links, section marks */
-    --accent-deep: #7E2313;
-    --accent-wash: rgba(168, 50, 27, 0.07);
-    --ink-invert: #FBF7F0;
+    --paper: #FFFFFF;          /* page background */
+    --paper-2: #F6F7FB;        /* recessed panels, table stripes, cards */
+    --paper-3: #EDEFF6;        /* deeper wells */
+    --ink: #0E1220;            /* headlines, primary text */
+    --ink-2: #3C4256;          /* body copy */
+    --ink-3: #6B7387;          /* meta, captions, muted */
+    --rule: #E6E8F0;           /* hairlines */
+    --rule-strong: #CFD3E2;
+    --accent: #5B33EF;         /* violet — links, tags, CTAs */
+    --accent-deep: #4522C4;
+    --accent-soft: #EFEAFE;
+    --accent-wash: rgba(91, 51, 239, 0.08);
+    --ink-invert: #FFFFFF;
+    --navy: #0E1220;           /* dark bands and footer */
+    --navy-2: #181D31;
 
-    --font-display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
-    --font-read: 'Newsreader', Georgia, 'Times New Roman', serif;
+    --font-display: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-read: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
-    --container: 1180px;
-    --measure: 690px;          /* article line length */
-    --radius: 4px;             /* magazines are square; keep corners tight */
+    --container: 1200px;
+    --measure: 720px;          /* article line length */
+    --radius: 10px;
+    --radius-lg: 16px;
+    --shadow-sm: 0 1px 2px rgba(14, 18, 32, 0.05);
+    --shadow: 0 6px 24px rgba(14, 18, 32, 0.07);
+    --shadow-lg: 0 18px 44px rgba(14, 18, 32, 0.12);
     --ease: cubic-bezier(0.22, 1, 0.36, 1);
   }
 
@@ -261,7 +269,7 @@ const allSchemas = [orgSchema, websiteSchema, blogSchema, deskSchema, ...pageSch
     font-family: var(--font-ui);
     background: var(--paper);
     color: var(--ink-2);
-    line-height: 1.6;
+    line-height: 1.65;
     overflow-x: hidden;
     font-size: 16px;
   }
@@ -269,10 +277,9 @@ const allSchemas = [orgSchema, websiteSchema, blogSchema, deskSchema, ...pageSch
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
     color: var(--ink);
-    font-weight: 700;
-    line-height: 1.08;
-    letter-spacing: -0.018em;
-    font-variation-settings: 'opsz' 96, 'SOFT' 0;
+    font-weight: 800;
+    line-height: 1.12;
+    letter-spacing: -0.022em;
   }
 
   a { color: inherit; text-decoration: none; }
@@ -281,13 +288,14 @@ const allSchemas = [orgSchema, websiteSchema, blogSchema, deskSchema, ...pageSch
   .skip-link {
     position: absolute; left: -9999px; top: 0; z-index: 2000;
     background: var(--ink); color: var(--ink-invert);
-    padding: 12px 20px; font-size: 14px; font-weight: 600;
+    padding: 12px 20px; font-size: 14px; font-weight: 600; border-radius: var(--radius);
   }
   .skip-link:focus { left: 12px; top: 12px; }
 
   :focus-visible {
     outline: 2px solid var(--accent);
     outline-offset: 3px;
+    border-radius: 4px;
   }
 
   .container {
@@ -296,7 +304,7 @@ const allSchemas = [orgSchema, websiteSchema, blogSchema, deskSchema, ...pageSch
     padding: 0 32px;
   }
   .container-narrow {
-    max-width: 820px;
+    max-width: 840px;
     margin: 0 auto;
     padding: 0 32px;
   }
@@ -304,36 +312,52 @@ const allSchemas = [orgSchema, websiteSchema, blogSchema, deskSchema, ...pageSch
     .container, .container-narrow { padding: 0 20px; }
   }
 
-  /* ── Kicker / section marks ───────────────────────────────── */
+  /* ── Eyebrows / tags ──────────────────────────────────────── */
   .kicker {
     display: inline-flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     font-family: var(--font-ui);
-    font-size: 11.5px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.14em;
+    letter-spacing: 0.1em;
     color: var(--accent);
   }
   .kicker--muted { color: var(--ink-3); }
+
+  /* A pill tag, the way category labels read on card grids. */
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 11px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent-deep);
+    font-family: var(--font-ui);
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: background 0.18s var(--ease), color 0.18s var(--ease);
+  }
+  a.tag:hover { background: var(--accent); color: #fff; }
 
   .section-head {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     gap: 24px;
-    padding-bottom: 14px;
-    margin-bottom: 32px;
-    border-bottom: 2px solid var(--ink);
+    margin-bottom: 28px;
   }
   .section-head h2 {
-    font-size: clamp(24px, 3vw, 32px);
-    letter-spacing: -0.02em;
+    font-size: clamp(25px, 3vw, 34px);
+    letter-spacing: -0.028em;
   }
   .section-head .section-more {
     font-family: var(--font-ui);
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--accent);
     white-space: nowrap;
@@ -348,16 +372,18 @@ const allSchemas = [orgSchema, websiteSchema, blogSchema, deskSchema, ...pageSch
     gap: 9px;
     padding: 13px 24px;
     font-family: var(--font-ui);
-    font-size: 14.5px;
+    font-size: 15px;
     font-weight: 600;
     border-radius: var(--radius);
     border: 1px solid transparent;
     cursor: pointer;
-    transition: background 0.2s var(--ease), color 0.2s var(--ease), border-color 0.2s var(--ease);
+    transition: background 0.2s var(--ease), color 0.2s var(--ease),
+                border-color 0.2s var(--ease), transform 0.2s var(--ease),
+                box-shadow 0.2s var(--ease);
   }
-  .btn-primary { background: var(--ink); color: var(--ink-invert); }
-  .btn-primary:hover { background: var(--accent); }
-  .btn-secondary { background: transparent; color: var(--ink); border-color: var(--rule-strong); }
+  .btn-primary { background: var(--accent); color: #fff; box-shadow: var(--shadow-sm); }
+  .btn-primary:hover { background: var(--accent-deep); transform: translateY(-1px); box-shadow: var(--shadow); }
+  .btn-secondary { background: var(--paper); color: var(--ink); border-color: var(--rule-strong); }
   .btn-secondary:hover { border-color: var(--ink); background: var(--paper-2); }
 
   /* ── Reveal ───────────────────────────────────────────────── */
@@ -374,43 +400,50 @@ const allSchemas = [orgSchema, websiteSchema, blogSchema, deskSchema, ...pageSch
   /* ── Shared article/story card ────────────────────────────── */
   .story {
     display: block;
-    padding-top: 20px;
-    border-top: 1px solid var(--rule);
+    padding: 20px;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-lg);
+    transition: border-color 0.2s var(--ease), box-shadow 0.2s var(--ease), transform 0.2s var(--ease);
   }
+  .story:hover { border-color: var(--rule-strong); box-shadow: var(--shadow); transform: translateY(-2px); }
   .story__cat {
     font-family: var(--font-ui);
-    font-size: 11px; font-weight: 700; letter-spacing: 0.12em;
+    font-size: 11.5px; font-weight: 700; letter-spacing: 0.08em;
     text-transform: uppercase; color: var(--accent);
   }
   .story__title {
-    font-size: 21px;
-    line-height: 1.16;
+    font-size: 19px;
+    line-height: 1.28;
     margin: 10px 0 8px;
     transition: color 0.18s var(--ease);
   }
   .story:hover .story__title { color: var(--accent); }
   .story__dek {
     font-family: var(--font-read);
-    font-size: 16px;
-    line-height: 1.55;
+    font-size: 15px;
+    line-height: 1.6;
     color: var(--ink-3);
   }
   .story__meta {
     margin-top: 12px;
     font-family: var(--font-ui);
-    font-size: 12px;
+    font-size: 12.5px;
     color: var(--ink-3);
-    letter-spacing: 0.01em;
   }
 
   /* ── Tables shared by guides + articles ───────────────────── */
-  .oc-table { width: 100%; border-collapse: collapse; font-family: var(--font-ui); font-size: 14.5px; }
+  .oc-table {
+    width: 100%; border-collapse: separate; border-spacing: 0;
+    font-family: var(--font-ui); font-size: 14.5px;
+    border: 1px solid var(--rule); border-radius: var(--radius); overflow: hidden;
+  }
   .oc-table th {
-    text-align: left; padding: 12px 16px;
-    font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+    text-align: left; padding: 13px 16px;
+    font-size: 11.5px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
     color: var(--ink-invert); background: var(--ink);
   }
-  .oc-table td { padding: 12px 16px; border-bottom: 1px solid var(--rule); color: var(--ink-2); }
+  .oc-table td { padding: 13px 16px; border-bottom: 1px solid var(--rule); color: var(--ink-2); }
   .oc-table tbody tr:nth-child(even) { background: var(--paper-2); }
   .oc-table tbody tr:last-child td { border-bottom: none; }
 
@@ -420,20 +453,25 @@ const allSchemas = [orgSchema, websiteSchema, blogSchema, deskSchema, ...pageSch
     flex-wrap: wrap;
     gap: 8px;
     font-family: var(--font-ui);
-    font-size: 12.5px;
+    font-size: 13px;
     color: var(--ink-3);
     margin-bottom: 24px;
   }
   .crumbs a:hover { color: var(--accent); text-decoration: underline; }
 
   /* ── Sidebar rail primitives (articles and guides) ────────── */
-  .rail__sticky { position: sticky; top: 24px; display: flex; flex-direction: column; gap: 22px; }
-  .rail__box { border-top: 2px solid var(--ink); padding-top: 16px; }
+  .rail__sticky { position: sticky; top: 92px; display: flex; flex-direction: column; gap: 20px; }
+  .rail__box {
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-lg);
+    padding: 20px;
+  }
   .rail__h {
     font-family: var(--font-ui);
     font-size: 11.5px;
     font-weight: 700;
-    letter-spacing: 0.13em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--ink-3);
     margin-bottom: 12px;
@@ -443,6 +481,6 @@ const allSchemas = [orgSchema, websiteSchema, blogSchema, deskSchema, ...pageSch
   ::selection { background: var(--accent-wash); color: var(--ink); }
   ::-webkit-scrollbar { width: 10px; }
   ::-webkit-scrollbar-track { background: var(--paper-2); }
-  ::-webkit-scrollbar-thumb { background: var(--rule-strong); }
+  ::-webkit-scrollbar-thumb { background: var(--rule-strong); border-radius: 999px; }
   ::-webkit-scrollbar-thumb:hover { background: var(--ink-3); }
 </style>
