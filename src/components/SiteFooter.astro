@@ -1,0 +1,164 @@
+---
+import { SITE, SECTIONS } from '../data/site.js';
+import { cities } from '../data/cities.js';
+
+// A short, stable set of the largest markets. The full 160-city index lives at
+// /locations/; the footer only needs enough to open a crawl path.
+const FOOTER_CITIES = [
+  'new-york', 'los-angeles', 'chicago', 'houston', 'phoenix', 'philadelphia',
+  'san-antonio', 'san-diego', 'dallas', 'austin', 'atlanta', 'miami',
+  'denver', 'seattle', 'boston', 'tampa',
+]
+  .map((slug) => cities.find((c) => c.citySlug === slug))
+  .filter(Boolean);
+
+const year = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <span class="footer__wordmark">{SITE.name}</span>
+      <p class="footer__blurb">{SITE.description}</p>
+      <p class="footer__pledge">
+        Independent. Nothing on this site is for sale, and no one pays to appear on it.
+      </p>
+    </div>
+
+    <nav class="footer__col" aria-label="Desks">
+      <h2 class="footer__h">Desks</h2>
+      <ul>
+        {SECTIONS.map((s) => (
+          <li><a href={`/blog/category/${s.slug}/`}>{s.name}</a></li>
+        ))}
+        <li><a href="/blog/">All articles</a></li>
+        <li><a href="/topics/">Topics index</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer__col" aria-label="City guides">
+      <h2 class="footer__h">City guides</h2>
+      <ul class="footer__cities">
+        {FOOTER_CITIES.map((c) => (
+          <li><a href={`/${c.citySlug}/`}>{c.city}</a></li>
+        ))}
+      </ul>
+      <a class="footer__more" href="/locations/">All 160 cities →</a>
+    </nav>
+
+    <nav class="footer__col" aria-label="The publication">
+      <h2 class="footer__h">The publication</h2>
+      <ul>
+        <li><a href="/about/">About &amp; standards</a></li>
+        <li><a href="/newsletter/">Newsletter</a></li>
+        <li><a href="/contact/">Contact &amp; corrections</a></li>
+        <li><a href="/rss.xml">RSS feed</a></li>
+        <li><a href="/sitemap/">Site index</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="container footer__base">
+    <p>© {year} {SITE.name}. Published independently.</p>
+    <p class="footer__legal">
+      <a href="/privacy/">Privacy</a>
+      <span aria-hidden="true">·</span>
+      <a href="/terms/">Terms</a>
+    </p>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    font-family: var(--font-ui);
+    background: var(--paper-2);
+    border-top: 2px solid var(--ink);
+    margin-top: 0;
+    padding: 56px 0 28px;
+  }
+
+  .footer__grid {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr 1.2fr 1fr;
+    gap: 40px;
+  }
+
+  .footer__wordmark {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 26px;
+    letter-spacing: -0.03em;
+    color: var(--ink);
+  }
+  .footer__blurb {
+    margin-top: 12px;
+    font-family: var(--font-read);
+    font-size: 15.5px;
+    line-height: 1.55;
+    color: var(--ink-3);
+    max-width: 42ch;
+  }
+  .footer__pledge {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid var(--rule);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    max-width: 42ch;
+  }
+
+  .footer__h {
+    font-family: var(--font-ui);
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin-bottom: 14px;
+  }
+  .footer__col ul { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+  .footer__col a {
+    font-size: 14.5px;
+    color: var(--ink-2);
+    transition: color 0.18s var(--ease);
+  }
+  .footer__col a:hover { color: var(--accent); text-decoration: underline; }
+
+  .footer__cities {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 9px 18px;
+  }
+  .footer__more {
+    display: inline-block;
+    margin-top: 14px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+  }
+  .footer__more:hover { text-decoration: underline; }
+
+  .footer__base {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 44px;
+    padding-top: 20px;
+    border-top: 1px solid var(--rule);
+    font-size: 13px;
+    color: var(--ink-3);
+  }
+  .footer__legal { display: flex; gap: 10px; }
+  .footer__legal a:hover { color: var(--accent); text-decoration: underline; }
+
+  @media (max-width: 960px) {
+    .footer__grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+    .footer__brand { grid-column: 1 / -1; }
+  }
+  @media (max-width: 560px) {
+    .footer__grid { grid-template-columns: 1fr; }
+    .footer__cities { grid-template-columns: 1fr 1fr; }
+  }
+</style>

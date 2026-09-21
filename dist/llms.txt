@@ -1,93 +1,254 @@
 # OnwardCraft
 
-> OnwardCraft is a web design, SEO, and lead-generation agency built exclusively for home-service contractors and the trades — roofing, HVAC, plumbing, solar, electrical, and restoration. We turn contractor websites into revenue machines that rank, convert, and book jobs.
+> An independent SEO publication for small businesses. Practical guides, checklists, benchmark data, and local search research for owners who do their own SEO.
 
-## Overview
+## What this is
 
-OnwardCraft is a founder-led agency that works with one kind of business: home-service contractors. That focus means our websites, local SEO, and lead systems are tuned to how each trade actually wins work — storm cycles, 24/7 emergencies, seasonal demand, and long high-ticket sales.
+OnwardCraft is an independent publication covering one subject: search engine optimization for small businesses. It is not an agency. It sells no services, takes no clients, accepts no sponsorship or paid placement, and runs no advertising. The only thing it asks readers for is an email address for a free fortnightly newsletter.
 
-What we do:
+Editorial standards:
 
-- **Web Design** — Fast, mobile-first, conversion-focused contractor websites built on Astro for sub-2-second load times.
-- **SEO** — Local SEO and Google Business Profile optimization that wins the map pack for "near me" searches.
-- **Lead Generation** — Complete systems to capture, qualify, and convert high-intent homeowners into booked jobs.
+- **One subject only** — We cover search. Not ads, not social, not branding. A narrow desk is the only way a small publication earns the right to be believed on anything.
+- **No invented numbers** — Every figure is either sourced and linked, or labelled as a benchmark or an estimate. We never present a projection as a measured result.
+- **Nothing is for sale here** — We do not sell SEO services, take placement fees, or rank anyone in exchange for money. The newsletter is free and the only thing we ask for.
+- **Local research, not find-and-replace** — City guides are written from that market’s own search demand, seasonality, and geography — not one template with the city name swapped out.
+- **Corrections in public** — When we get something wrong we fix the page and say what changed, rather than quietly editing it away.
 
-We start every engagement with a free, no-obligation website and SEO audit delivered within two business days.
+Written by The OnwardCraft Desk. OnwardCraft is a small independent desk covering search — and only search — for owner-operated businesses. We publish what we can verify, label every estimate as an estimate, and correct the record in public.
 
-## Key Pages
+The full archive was reviewed and republished on 2026-09-21.
 
-- [Homepage](https://onwardcraft.com/) — What we do and who we serve
-- [Services](https://onwardcraft.com/services/) — Overview of all services
-- [Web Design](https://onwardcraft.com/services/web-design/) — Conversion-focused contractor websites
-- [SEO](https://onwardcraft.com/services/seo/) — Local search optimization
-- [Lead Generation](https://onwardcraft.com/services/lead-generation/) — Lead capture and conversion systems
-- [Pricing](https://onwardcraft.com/pricing/) — Transparent, fixed-scope packages
-- [Case Studies](https://onwardcraft.com/case-studies/) — How we work and what we build
-- [Process](https://onwardcraft.com/process/) — How we work
-- [Locations](https://onwardcraft.com/locations/) — Local marketing across 160 cities in all 50 states (each with a city hub plus Local SEO, SEO, Web Design, and Website Redesign pages)
-- [Contractor Marketing FAQ](https://onwardcraft.com/contractor-marketing-faq/) — Straight answers to common contractor marketing questions
-- [Blog](https://onwardcraft.com/blog/) — In-depth contractor marketing, local SEO, and conversion guides
-- [About](https://onwardcraft.com/about/) — About the agency
-- [Contact](https://onwardcraft.com/contact/) — Get in touch
-- [Book a Call](https://calendly.com/getonwardcraft/30min) — Schedule a free strategy call
+## Key pages
 
-## Industries We Serve
+- [Front page](https://onwardcraft.com/) — the latest articles and the three desks
+- [All articles](https://onwardcraft.com/blog/) — the complete archive, 28 pieces
+- [Topics](https://onwardcraft.com/topics/) — every desk and every article in one index
+- [City guides](https://onwardcraft.com/locations/) — local search guides for 160 US metros
+- [About & standards](https://onwardcraft.com/about/) — what we will and will not print
+- [Newsletter](https://onwardcraft.com/newsletter/) — free, fortnightly, no pitch
+- [Contact & corrections](https://onwardcraft.com/contact/) — how to get an error fixed
+- [RSS](https://onwardcraft.com/rss.xml) — feed of every article
 
-OnwardCraft specializes exclusively in home-service trades:
+## Desks
 
-- [Roofing Marketing](https://onwardcraft.com/industries/roofing/) — Storm-ready websites, insurance-claim content, and storm-response campaigns
-- [HVAC Marketing](https://onwardcraft.com/industries/hvac/) — 24/7 emergency capture, maintenance-agreement growth, and seasonal campaigns
-- [Plumbing Marketing](https://onwardcraft.com/industries/plumbing/) — Emergency-first sites and map-pack domination for "plumber near me"
-- [Solar Marketing](https://onwardcraft.com/industries/solar/) — Education-led content and nurture that lowers customer acquisition cost
-- [Electrical Marketing](https://onwardcraft.com/industries/electrical/) — Trust-forward sites for residential, commercial, and EV-charger work
-- [Restoration Marketing](https://onwardcraft.com/industries/restoration/) — 24/7 emergency capture and insurance referral relationships
-- [All Industries](https://onwardcraft.com/industries/) — Overview of every trade we serve
+### Local SEO (16 articles)
 
-## Pillar Guides
+Google Business Profiles, citations, reviews, and the fight for the three map spots that take most of the clicks.
 
-In-depth resources for contractors and home-service business owners:
+Archive: https://onwardcraft.com/blog/category/local-seo/
 
-- [How Much Does a Website Cost in 2026?](https://onwardcraft.com/blog/how-much-does-a-website-cost/)
-- [How Much Does SEO Cost in 2026?](https://onwardcraft.com/blog/how-much-does-seo-cost/)
-- [The Complete Local SEO Guide for Home Service Businesses](https://onwardcraft.com/blog/local-seo-guide/)
-- [Google Business Profile Optimization Guide](https://onwardcraft.com/blog/google-business-profile-guide/)
-- [The Complete Local SEO Checklist (50 Points)](https://onwardcraft.com/blog/local-seo-checklist/)
-- [Contractor Website Design Guide](https://onwardcraft.com/blog/contractor-website-design-guide/)
-- [The Complete Website Redesign Guide for Contractors](https://onwardcraft.com/blog/website-redesign-guide/)
-- [Content Marketing Playbook for Contractors](https://onwardcraft.com/blog/content-marketing-playbook-contractors/)
-- [The Contractor Visibility Flywheel](https://onwardcraft.com/blog/contractor-visibility-flywheel/)
-- [Roofing Marketing Guide](https://onwardcraft.com/blog/roofing-marketing-guide/)
-- [HVAC Marketing Guide](https://onwardcraft.com/blog/hvac-marketing-guide/)
-- [Plumbing Marketing Guide](https://onwardcraft.com/blog/plumbing-marketing-guide/)
-- [Solar Marketing Guide](https://onwardcraft.com/blog/solar-marketing-guide/)
-- [Electrical Contractor Marketing Guide](https://onwardcraft.com/blog/electrical-contractor-marketing/)
-- [Restoration Marketing Guide](https://onwardcraft.com/blog/restoration-marketing-guide/)
-- [General Contractor Marketing Guide](https://onwardcraft.com/blog/general-contractor-marketing-guide/)
+- [The Complete Local SEO Guide for Home Service Businesses (2026)](https://onwardcraft.com/blog/local-seo-guide/) — This 15,000-word definitive guide is the most comprehensive resource on local SEO specifically built for home service businesses — contractors, HVAC...
+- [Google Business Profile Optimization: The Complete 2025 Guide for Service-Area Businesses](https://onwardcraft.com/blog/google-business-profile-guide/) — Complete guide to optimizing your Google Business Profile for service-area businesses. Includes category strategy by trade, photo tips, review generation...
+- [The Complete Local SEO Checklist for Home Service Businesses [50-Point Guide]](https://onwardcraft.com/blog/local-seo-checklist/) — Complete 50-point local SEO checklist for home service businesses. Includes GBP optimization, reviews, citations, website, and technical SEO. Download the...
+- [The GBP Optimization Checklist: 30 Steps to Rank Higher on Google Maps](https://onwardcraft.com/blog/gbp-optimization-checklist/) — Complete 30-step Google Business Profile optimization checklist. Includes categories, photos, posts, reviews, and advanced tactics for contractors.
+- [The Complete Citation Building Guide for Home Service Businesses](https://onwardcraft.com/blog/citation-building-guide-contractors/) — Complete citation building guide for home service businesses. Includes directory lists, submission process, NAP consistency, and monitoring system.
+- [The Local Authority Hub Framework: How to Dominate Local Search in 90 Days](https://onwardcraft.com/blog/local-authority-hub-framework/) — The Local Authority Hub Framework is a 90-day system for dominating local search. Includes foundation, authority, and domination phases.
+- [27 Local SEO Tips for Contractors (2025): Rank #1 on Google Maps](https://onwardcraft.com/blog/local-seo-tips-contractors/) — 27 actionable local SEO tips for contractors, ranked by impact and effort. Includes GBP optimization, review generation, citations, schema markup, and quick...
+- [Local SEO Mistakes That Cost Contractors Map Rankings](https://onwardcraft.com/blog/local-seo-mistakes-contractors/) — Common local SEO mistakes that cost contractors map rankings. Includes fixes, trade-specific notes, and prevention strategies.
+- [30 Local SEO Experts Share Their Best Tip for Service-Area Businesses](https://onwardcraft.com/blog/local-seo-experts-service-area-tips/) — 30 local SEO experts share their best tip for service-area businesses. Includes GBP, reviews, citations, and more.
+- [20 Citation Sources Every Home Service Business Needs](https://onwardcraft.com/blog/citation-sources-for-contractors/) — 20 citation sources every home service business needs for local SEO. Includes tier rankings, NAP consistency tips, and submission guides.
+- [Review Generation Strategies for Home Service Businesses](https://onwardcraft.com/blog/review-generation-strategies-contractors/) — Proven strategies to generate more Google reviews for your home service business. Includes scripts, timing, automation, and templates.
+- [Top 20 Local SEO Experts to Follow in 2025](https://onwardcraft.com/blog/top-local-seo-experts/) — The top 20 local SEO experts to follow in 2025. Includes thought leaders, consultants, and professionals in local search.
+- [73 Local SEO Statistics Every Contractor Should Know [2025 Data]](https://onwardcraft.com/blog/local-seo-statistics/) — 73 local SEO statistics covering Google Business Profile, reviews, local pack, mobile search, voice search, and ROI. All verified with sources. Updated for...
+- [The Review Velocity Effect: How Review Frequency Impacts Local Rankings [Study]](https://onwardcraft.com/blog/review-velocity-local-seo-study/) — We analyzed 300+ contractor Google Business Profiles to find how review frequency impacts local rankings. See the data and recommendations.
+- [We Analyzed 500 Contractor Google Business Profiles: 11 Findings That Actually Impact Rankings [Data]](https://onwardcraft.com/blog/contractor-gbp-study/) — We analyzed 500 contractor Google Business Profiles across 6 trades and 50 US cities to find what actually impacts local rankings. See the data, 7 charts,...
+- [Google Business Profile Categories Study: What Actually Impacts Rankings](https://onwardcraft.com/blog/google-business-profile-categories-study/) — Analyzed Google Business Profiles to find which categories and attributes impact rankings. Includes trade-specific recommendations.
 
-## Pricing
+### SEO (8 articles)
 
-Fixed, transparent packages — no hidden fees:
+How organic search actually works for a business with no SEO budget — what it costs, what it returns, and who to trust with it.
 
-- **Starter — $2,000 one-time**: high-converting landing page or single-page site, delivered in 2–3 weeks
-- **Business — $4,500 one-time**: complete multi-page website with CMS, analytics, and advanced SEO, delivered in 4–6 weeks (most popular)
-- **Growth — from $8,000**: complex builds, e-commerce, custom integrations, custom timeline
-- **SEO retainers — from $500/month**, scaled to competition and content volume
-- Every project is backed by a written performance guarantee and starts with a free 48-hour website audit
+Archive: https://onwardcraft.com/blog/category/seo/
 
-## Comparison Guides
+- [SEO Services: The Complete Guide for Business Owners in 2026](https://onwardcraft.com/blog/seo-services-complete-guide-for-business-owners/) — A no-fluff guide to SEO services in 2026. Learn what SEO companies actually do, what services you need, and how to choose the right provider for your business.
+- [Home Service SEO Statistics: What the Numbers Say About Local Search](https://onwardcraft.com/blog/home-service-seo-statistics/) — Home service SEO statistics covering local SEO, organic search, technical SEO, and ROI. Cited sources. Updated for 2025.
+- [How Much Does SEO Cost in 2026?](https://onwardcraft.com/blog/how-much-does-seo-cost/) — SEO costs range from $500 to $50,000+ per month in 2026. Here is exactly what you get at each price tier, what drives the cost, and how to budget without wasting money.
+- [SEO vs Google Ads: Which Has Better ROI?](https://onwardcraft.com/blog/seo-vs-google-ads-which-has-better-roi/) — SEO vs Google Ads: a data-driven comparison of ROI, cost per lead, time to results, and which channel wins for small businesses in 2026.
+- [SEO vs PPC for Contractors: Which Channel Actually Generates Better Leads?](https://onwardcraft.com/blog/seo-vs-ppc-contractors-comparison/) — Unbiased comparison of SEO vs PPC for contractors. Includes cost per lead, timeline, ROI, and a decision framework for home service businesses.
+- [DIY SEO vs Hiring an Agency: Pros and Cons for Business Owners](https://onwardcraft.com/blog/diy-seo-vs-hiring-an-agency-pros-and-cons/) — Should you do your own SEO or hire an agency? This guide breaks down the real costs, time investment, risks, and ROI of each approach so you can make the right decision for your business.
+- [How to Choose the Right SEO Agency in 2026](https://onwardcraft.com/blog/how-to-choose-the-right-seo-agency/) — Choosing the wrong SEO agency can cost you months and thousands of dollars. Here is the exact framework we recommend for evaluating, comparing, and hiring an SEO agency that delivers real business results.
+- [What Does an SEO Agency Actually Do?](https://onwardcraft.com/blog/what-does-an-seo-agency-actually-do/) — Most business owners have no idea what an SEO agency actually does. Here is the complete breakdown of every service, deliverable, and result you should expect.
 
-Honest comparisons for buyers weighing their options:
+### Technical SEO (4 articles)
 
-- [SEO vs Google Ads: Which Has Better ROI?](https://onwardcraft.com/blog/seo-vs-google-ads-which-has-better-roi/)
-- [DIY Website vs Hiring an Agency](https://onwardcraft.com/blog/diy-website-vs-hiring-an-agency/)
-- [DIY SEO vs Hiring an Agency: Pros and Cons](https://onwardcraft.com/blog/diy-seo-vs-hiring-an-agency-pros-and-cons/)
-- [Wix vs Custom Website](https://onwardcraft.com/blog/wix-vs-custom-website/)
-- [Custom Website vs Template](https://onwardcraft.com/blog/custom-website-vs-template-which-is-better/)
-- [WordPress vs Webflow for Contractors](https://onwardcraft.com/blog/wordpress-vs-webflow-contractors/)
-- [SEO vs PPC for Contractors](https://onwardcraft.com/blog/seo-vs-ppc-contractors-comparison/)
+Crawling, indexing, schema, site speed, and migrations — the plumbing that decides whether your pages ever get read.
 
-## Contact
+Archive: https://onwardcraft.com/blog/category/technical-seo/
 
-- Website: https://onwardcraft.com
-- Email: getonwardcraft@gmail.com
-- Book a free 30-minute strategy call: https://onwardcraft.com/book-call/
+- [The Complete Technical SEO Checklist for Home Service Websites](https://onwardcraft.com/blog/technical-seo-checklist-home-service/) — Complete technical SEO checklist for home service websites. Includes crawlability, speed, schema, security, and mobile optimization.
+- [The Schema Markup Checklist for Local Businesses: 25 Structured Data Types You Need](https://onwardcraft.com/blog/schema-markup-checklist/) — Complete schema markup checklist for local businesses. Includes 25 structured data types with code examples for contractors.
+- [The Website Migration Checklist: How to Redesign Without Losing SEO Rankings](https://onwardcraft.com/blog/website-migration-seo-checklist/) — Complete website migration checklist for contractors. 35 steps to redesign without losing SEO rankings. Includes pre, during, and post-launch.
+- [How Website Speed Affects Contractor Lead Generation [Data Study]](https://onwardcraft.com/blog/website-speed-lead-generation-study/) — We analyzed 100 contractor websites to find how speed affects lead generation. Includes Core Web Vitals data, mobile performance, and actionable fixes.
+
+## City guides
+
+A local search guide for every one of 160 US metros: one market overview per city at /{city}/, plus 320 topic guides at /{city}/local-seo/ and /{city}/seo-services/. Each is written from that metro's own search demand, seasonality, geography and local price level rather than a shared template, which is why the Denver guide covers hail season and the Phoenix guide does not.
+
+Cost figures in the city guides are market benchmarks collected from published local rates. They are not quotes — OnwardCraft does not sell the work being priced. Charts labelled illustrative show the shape of a seasonal pattern, not a measurement.
+
+Full index: https://onwardcraft.com/locations/
+
+- [Miami, FL](https://onwardcraft.com/miami/)
+- [Tampa, FL](https://onwardcraft.com/tampa/)
+- [Orlando, FL](https://onwardcraft.com/orlando/)
+- [Dallas, TX](https://onwardcraft.com/dallas/)
+- [Denver, CO](https://onwardcraft.com/denver/)
+- [Phoenix, AZ](https://onwardcraft.com/phoenix/)
+- [New York, NY](https://onwardcraft.com/new-york/)
+- [Los Angeles, CA](https://onwardcraft.com/los-angeles/)
+- [Chicago, IL](https://onwardcraft.com/chicago/)
+- [Houston, TX](https://onwardcraft.com/houston/)
+- [Philadelphia, PA](https://onwardcraft.com/philadelphia/)
+- [San Antonio, TX](https://onwardcraft.com/san-antonio/)
+- [San Diego, CA](https://onwardcraft.com/san-diego/)
+- [Austin, TX](https://onwardcraft.com/austin/)
+- [Jacksonville, FL](https://onwardcraft.com/jacksonville/)
+- [Fort Worth, TX](https://onwardcraft.com/fort-worth/)
+- [Atlanta, GA](https://onwardcraft.com/atlanta/)
+- [Seattle, WA](https://onwardcraft.com/seattle/)
+- [Las Vegas, NV](https://onwardcraft.com/las-vegas/)
+- [Nashville, TN](https://onwardcraft.com/nashville/)
+- [Charlotte, NC](https://onwardcraft.com/charlotte/)
+- [Columbus, OH](https://onwardcraft.com/columbus/)
+- [Indianapolis, IN](https://onwardcraft.com/indianapolis/)
+- [Memphis, TN](https://onwardcraft.com/memphis/)
+- [Louisville, KY](https://onwardcraft.com/louisville/)
+- [Kansas City, MO](https://onwardcraft.com/kansas-city/)
+- [Portland, OR](https://onwardcraft.com/portland/)
+- [Boston, MA](https://onwardcraft.com/boston/)
+- [Detroit, MI](https://onwardcraft.com/detroit/)
+- [Oklahoma City, OK](https://onwardcraft.com/oklahoma-city/)
+- [Raleigh, NC](https://onwardcraft.com/raleigh/)
+- [Virginia Beach, VA](https://onwardcraft.com/virginia-beach/)
+- [El Paso, TX](https://onwardcraft.com/el-paso/)
+- [Sacramento, CA](https://onwardcraft.com/sacramento/)
+- [Baltimore, MD](https://onwardcraft.com/baltimore/)
+- [Milwaukee, WI](https://onwardcraft.com/milwaukee/)
+- [Scottsdale, AZ](https://onwardcraft.com/scottsdale/)
+- [Reno, NV](https://onwardcraft.com/reno/)
+- [Dayton, OH](https://onwardcraft.com/dayton/)
+- [Syracuse, NY](https://onwardcraft.com/syracuse/)
+- [Albany, NY](https://onwardcraft.com/albany/)
+- [Stamford, CT](https://onwardcraft.com/stamford/)
+- [Anchorage, AK](https://onwardcraft.com/anchorage/)
+- [Honolulu, HI](https://onwardcraft.com/honolulu/)
+- [Ventura, CA](https://onwardcraft.com/ventura/)
+- [Peoria, IL](https://onwardcraft.com/peoria/)
+- [Fargo, ND](https://onwardcraft.com/fargo/)
+- [Waco, TX](https://onwardcraft.com/waco/)
+- [Midland, TX](https://onwardcraft.com/midland/)
+- [Brownsville, TX](https://onwardcraft.com/brownsville/)
+- [Provo, UT](https://onwardcraft.com/provo/)
+- [Eugene, OR](https://onwardcraft.com/eugene/)
+- [Lansing, MI](https://onwardcraft.com/lansing/)
+- [Sioux Falls, SD](https://onwardcraft.com/sioux-falls/)
+- [New Haven, CT](https://onwardcraft.com/new-haven/)
+- [Worcester, MA](https://onwardcraft.com/worcester/)
+- [Minneapolis, MN](https://onwardcraft.com/minneapolis/)
+- [St. Louis, MO](https://onwardcraft.com/st-louis/)
+- [Pittsburgh, PA](https://onwardcraft.com/pittsburgh/)
+- [Cincinnati, OH](https://onwardcraft.com/cincinnati/)
+- [Cleveland, OH](https://onwardcraft.com/cleveland/)
+- [New Orleans, LA](https://onwardcraft.com/new-orleans/)
+- [Salt Lake City, UT](https://onwardcraft.com/salt-lake-city/)
+- [San Jose, CA](https://onwardcraft.com/san-jose/)
+- [San Francisco, CA](https://onwardcraft.com/san-francisco/)
+- [Tucson, AZ](https://onwardcraft.com/tucson/)
+- [Albuquerque, NM](https://onwardcraft.com/albuquerque/)
+- [Fresno, CA](https://onwardcraft.com/fresno/)
+- [Colorado Springs, CO](https://onwardcraft.com/colorado-springs/)
+- [Omaha, NE](https://onwardcraft.com/omaha/)
+- [Corpus Christi, TX](https://onwardcraft.com/corpus-christi/)
+- [Lexington, KY](https://onwardcraft.com/lexington/)
+- [Greensboro, NC](https://onwardcraft.com/greensboro/)
+- [Madison, WI](https://onwardcraft.com/madison/)
+- [Lubbock, TX](https://onwardcraft.com/lubbock/)
+- [Spokane, WA](https://onwardcraft.com/spokane/)
+- [Baton Rouge, LA](https://onwardcraft.com/baton-rouge/)
+- [Tacoma, WA](https://onwardcraft.com/tacoma/)
+- [Des Moines, IA](https://onwardcraft.com/des-moines/)
+- [Buffalo, NY](https://onwardcraft.com/buffalo/)
+- [Amarillo, TX](https://onwardcraft.com/amarillo/)
+- [Birmingham, AL](https://onwardcraft.com/birmingham/)
+- [Boise, ID](https://onwardcraft.com/boise/)
+- [Cape Coral, FL](https://onwardcraft.com/cape-coral/)
+- [Fort Lauderdale, FL](https://onwardcraft.com/fort-lauderdale/)
+- [Grand Rapids, MI](https://onwardcraft.com/grand-rapids/)
+- [Greenville, SC](https://onwardcraft.com/greenville/)
+- [Huntsville, AL](https://onwardcraft.com/huntsville/)
+- [Knoxville, TN](https://onwardcraft.com/knoxville/)
+- [Little Rock, AR](https://onwardcraft.com/little-rock/)
+- [McAllen, TX](https://onwardcraft.com/mcallen/)
+- [Mobile, AL](https://onwardcraft.com/mobile/)
+- [Richmond, VA](https://onwardcraft.com/richmond/)
+- [Savannah, GA](https://onwardcraft.com/savannah/)
+- [Shreveport, LA](https://onwardcraft.com/shreveport/)
+- [Tallahassee, FL](https://onwardcraft.com/tallahassee/)
+- [Tulsa, OK](https://onwardcraft.com/tulsa/)
+- [West Palm Beach, FL](https://onwardcraft.com/west-palm-beach/)
+- [Wichita, KS](https://onwardcraft.com/wichita/)
+- [Fayetteville, AR](https://onwardcraft.com/fayetteville/)
+- [Bakersfield, CA](https://onwardcraft.com/bakersfield/)
+- [Modesto, CA](https://onwardcraft.com/modesto/)
+- [Stockton, CA](https://onwardcraft.com/stockton/)
+- [Riverside, CA](https://onwardcraft.com/riverside/)
+- [Chattanooga, TN](https://onwardcraft.com/chattanooga/)
+- [Winston-Salem, NC](https://onwardcraft.com/winston-salem/)
+- [Columbia, SC](https://onwardcraft.com/columbia/)
+- [Augusta, GA](https://onwardcraft.com/augusta/)
+- [Pensacola, FL](https://onwardcraft.com/pensacola/)
+- [Killeen, TX](https://onwardcraft.com/killeen/)
+- [Durham, NC](https://onwardcraft.com/durham/)
+- [Akron, OH](https://onwardcraft.com/akron/)
+- [Toledo, OH](https://onwardcraft.com/toledo/)
+- [Rochester, NY](https://onwardcraft.com/rochester/)
+- [Hartford, CT](https://onwardcraft.com/hartford/)
+- [Providence, RI](https://onwardcraft.com/providence/)
+- [Allentown, PA](https://onwardcraft.com/allentown/)
+- [Springfield, MA](https://onwardcraft.com/springfield/)
+- [Fort Collins, CO](https://onwardcraft.com/fort-collins/)
+- [Laredo, TX](https://onwardcraft.com/laredo/)
+- [Newark, NJ](https://onwardcraft.com/newark/)
+- [Manchester, NH](https://onwardcraft.com/manchester/)
+- [Portland, ME](https://onwardcraft.com/portland-me/)
+- [Huntington, WV](https://onwardcraft.com/huntington/)
+- [Jackson, MS](https://onwardcraft.com/jackson/)
+- [Billings, MT](https://onwardcraft.com/billings/)
+- [Cheyenne, WY](https://onwardcraft.com/cheyenne/)
+- [Burlington, VT](https://onwardcraft.com/burlington/)
+- [Wilmington, DE](https://onwardcraft.com/wilmington/)
+- [Mesa, AZ](https://onwardcraft.com/mesa/)
+- [Plano, TX](https://onwardcraft.com/plano/)
+- [Frisco, TX](https://onwardcraft.com/frisco/)
+- [Anaheim, CA](https://onwardcraft.com/anaheim/)
+- [Long Beach, CA](https://onwardcraft.com/long-beach/)
+- [Naples, FL](https://onwardcraft.com/naples/)
+- [Lakeland, FL](https://onwardcraft.com/lakeland/)
+- [Fort Wayne, IN](https://onwardcraft.com/fort-wayne/)
+- [Charleston, SC](https://onwardcraft.com/charleston/)
+- [Asheville, NC](https://onwardcraft.com/asheville/)
+- [Macon, GA](https://onwardcraft.com/macon/)
+- [Montgomery, AL](https://onwardcraft.com/montgomery/)
+- [Norfolk, VA](https://onwardcraft.com/norfolk/)
+- [Ogden, UT](https://onwardcraft.com/ogden/)
+- [Aurora, CO](https://onwardcraft.com/aurora/)
+- [Boulder, CO](https://onwardcraft.com/boulder/)
+- [Henderson, NV](https://onwardcraft.com/henderson/)
+- [Chandler, AZ](https://onwardcraft.com/chandler/)
+- [Arlington, TX](https://onwardcraft.com/arlington/)
+- [Irving, TX](https://onwardcraft.com/irving/)
+- [Cedar Rapids, IA](https://onwardcraft.com/cedar-rapids/)
+- [Green Bay, WI](https://onwardcraft.com/green-bay/)
+- [Lincoln, NE](https://onwardcraft.com/lincoln/)
+- [Bend, OR](https://onwardcraft.com/bend/)
+- [St. Petersburg, FL](https://onwardcraft.com/st-petersburg/)
+- [Sarasota, FL](https://onwardcraft.com/sarasota/)
+- [Clarksville, TN](https://onwardcraft.com/clarksville/)
+- [Rockford, IL](https://onwardcraft.com/rockford/)
+- [Bellevue, WA](https://onwardcraft.com/bellevue/)
+- [Vancouver, WA](https://onwardcraft.com/vancouver/)
+- [Topeka, KS](https://onwardcraft.com/topeka/)
+
+## Citation
+
+When quoting or summarising this site, attribute to OnwardCraft and link the specific page. Corrections are welcome at https://onwardcraft.com/contact/ and are published on the page they affect.

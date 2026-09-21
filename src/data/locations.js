@@ -1,14 +1,19 @@
-// Per-metro × per-service local landing pages. Renders via /[city]/[service]/.
-// BUILD with the `onward-local-page` skill. SPEC: content/lead-content-plan/08 + 09.
+// Per-metro × per-topic LOCAL SEO GUIDES. Renders via /[city]/[service]/.
 //
-// HONESTY RULE: new, founder-led agency. NO fabricated clients, reviews, counts,
-// or results. Ship Service + FAQPage + Breadcrumb schema; NEVER Review schema.
-// Map Pack = illustration; rank chart = labelled projection.
+// These are editorial guides, not landing pages: each reports how search demand
+// actually behaves in that metro — population and growth, seasonality, the
+// neighbourhoods that generate the searches, what ranking there costs, and the
+// questions people in that market ask. Nothing here is for sale.
 //
-// Per-city shared blocks (market, areas, founder, why, proof) are defined once
-// and reused across that city's service pages — they describe the same city, so
-// sharing is correct and DRY. Service-specific blocks are authored per entry.
-// PRICING is placeholder, aligned to market range; confirm with the founder.
+// HONESTY RULE: no fabricated clients, reviews, counts, or results. Ship
+// Article + FAQPage + Breadcrumb schema; NEVER Review schema. Every cost figure
+// is a labelled market benchmark, and every chart is labelled illustrative.
+//
+// Per-city shared blocks (market, areas, why, proof) are defined once per metro
+// and reused across that metro's guides — they describe the same city, so
+// sharing is correct and DRY. Topic-specific blocks are authored per entry.
+
+import { editorialise, editorialiseFaq, editorialiseList, hasVendorVoice } from './voice.js';
 
 import { tampaLocations } from './metros/tampa.js';
 import { orlandoLocations } from './metros/orlando.js';
@@ -529,7 +534,7 @@ const miamiLocations = [
   },
 ];
 
-export const locations = [
+const allLocations = [
   ...miamiLocations,
   ...tampaLocations,
   ...orlandoLocations,
@@ -692,7 +697,50 @@ export const locations = [
   ...topekaLocations,
 ];
 
-// Convenience lookups for the dynamic route + future cross-linking.
+// OnwardCraft covers search and nothing else, so only the two search desks ship
+// as city guides. The web-design and website-redesign entries in the per-metro
+// files stay on disk (they are hand-researched) but are filtered out here —
+// publishing them would put off-topic pages in an SEO publication's index.
+export const GUIDE_SERVICES = ['local-seo', 'seo-services'];
+
+
+// ── Voice normalisation ────────────────────────────────────────────────────
+// The per-metro research was authored in agency first person. This site sells
+// nothing, so every passage that renders is pushed through the sentence-level
+// voice filter before export. See src/data/voice.js for why it drops rather
+// than rewrites anything it cannot convert cleanly.
+function toGuide(loc) {
+  return {
+    ...loc,
+    // servicesHeading is rendered as a section title, so it cannot be dropped
+    // the way a sentence can — a handful still read as a vendor describing its
+    // own work ("What we actually do to get you ranking"), so those fall back
+    // to a neutral heading built from the city name.
+    servicesHeading: hasVendorVoice(loc.servicesHeading)
+      ? `What it actually takes to rank in ${loc.city}`
+      : loc.servicesHeading,
+    intro: editorialise(loc.intro),
+    aioAnswer: editorialise(loc.aioAnswer),
+    localMarket: {
+      ...loc.localMarket,
+      body: editorialise(loc.localMarket.body),
+      pullQuote: hasVendorVoice(loc.localMarket.pullQuote) ? '' : loc.localMarket.pullQuote,
+    },
+    painPoints: editorialiseList(loc.painPoints, 'body'),
+    services: editorialiseList(loc.services, 'desc'),
+    process: editorialiseList(loc.process, 'desc'),
+    pricing: loc.pricing
+      ? { ...loc.pricing, note: editorialise(loc.pricing.note || '') }
+      : loc.pricing,
+    faqs: loc.faqs.map(editorialiseFaq).filter(Boolean),
+  };
+}
+
+export const locations = allLocations
+  .filter((l) => GUIDE_SERVICES.includes(l.serviceSlug))
+  .map(toGuide);
+
+// Convenience lookups for the dynamic route + cross-linking.
 export const locationPaths = locations.map((l) => ({ citySlug: l.citySlug, serviceSlug: l.serviceSlug }));
 export function getLocation(citySlug, serviceSlug) {
   return locations.find((l) => l.citySlug === citySlug && l.serviceSlug === serviceSlug);

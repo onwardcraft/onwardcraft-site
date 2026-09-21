@@ -1,375 +1,180 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Navbar from '../components/Navbar.astro';
-import Footer from '../components/Footer.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import Newsletter from '../components/Newsletter.astro';
+import { SITE } from '../data/site.js';
 import { cities } from '../data/cities.js';
+import { locations } from '../data/locations.js';
+import { GUIDE_ORDER, GUIDE_TOPICS } from '../data/guides.js';
+import { PUBLISHED_ISO } from '../data/posts.js';
 
-const title = 'Locations We Serve | Contractor Marketing Across the US | OnwardCraft';
-const description = 'OnwardCraft builds websites, SEO, and local SEO for contractors in 120+ US cities. Find your city and see how we help local contractors win more leads online.';
-
-// Group by state, sorted
-const byState = {};
+// Group every metro under its state so the index reads like a gazetteer
+// rather than a 160-item wall.
+const byState = new Map();
 for (const c of cities) {
-  if (!byState[c.state]) byState[c.state] = [];
-  byState[c.state].push(c);
+  if (!byState.has(c.state)) byState.set(c.state, []);
+  byState.get(c.state).push(c);
 }
-const stateGroups = Object.entries(byState)
-  .sort(([a], [b]) => a.localeCompare(b))
-  .map(([state, stateCities]) => ({
-    state,
-    stateAbbr: stateCities[0].stateAbbr,
-    cities: stateCities.sort((a, b) => a.city.localeCompare(b.city)),
-  }));
+const states = [...byState.entries()]
+  .map(([state, list]) => ({ state, list: list.slice().sort((a, b) => a.city.localeCompare(b.city)) }))
+  .sort((a, b) => a.state.localeCompare(b.state));
 
-const totalCities = cities.length;
-const totalStates = stateGroups.length;
+const guideCount = locations.length;
+const title = `Local SEO City Guides — All ${cities.length} US Metros | ${SITE.name}`;
+const description = `A local search guide for every major US metro: ${guideCount} city guides across ${cities.length} markets, covering map pack ranking, seasonal demand, neighbourhood search behaviour, and what SEO costs locally.`;
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': `${SITE.url}/locations/#index`,
+    url: `${SITE.url}/locations/`,
+    name: 'Local SEO city guides',
+    description,
+    isPartOf: { '@id': `${SITE.url}/#website` },
+    dateModified: PUBLISHED_ISO,
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: cities.length,
+      itemListElement: cities.map((c, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        url: `${SITE.url}/${c.citySlug}/`,
+        name: `${c.city}, ${c.stateAbbr}`,
+      })),
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE.url}/` },
+      { '@type': 'ListItem', position: 2, name: 'City guides', item: `${SITE.url}/locations/` },
+    ],
+  },
+];
 ---
 
-<Layout title={title} description={description}>
-  <Navbar />
+<Layout title={title} description={description} schema={schema}>
+  <SiteHeader />
 
-  <!-- Hero -->
-  <section class="loc-hero">
-    <div class="hero-bg">
-      <div class="gradient-blob blob-1"></div>
-      <div class="gradient-blob blob-2"></div>
-    </div>
-    <div class="container loc-hero-inner">
-      <p class="section-label reveal">Service Locations</p>
-      <h1 class="loc-title reveal">
-        Contractor Marketing<br/>
-        <span class="accent">Across the Country</span>
-      </h1>
-      <p class="loc-desc reveal">
-        We build websites, SEO, and local SEO for contractors in <strong>{totalCities} cities</strong> across <strong>{totalStates} states</strong> — with market-specific content built around your city's real demand patterns, not copy-paste templates.
-      </p>
-      <div class="hero-stats reveal">
-        <div class="hstat">
-          <span class="hstat-num">{totalCities}+</span>
-          <span class="hstat-label">Cities</span>
-        </div>
-        <div class="hstat-divider"></div>
-        <div class="hstat">
-          <span class="hstat-num">{totalStates}</span>
-          <span class="hstat-label">States</span>
-        </div>
-        <div class="hstat-divider"></div>
-        <div class="hstat">
-          <span class="hstat-num">4</span>
-          <span class="hstat-label">Services per City</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Search hint -->
-  <section class="search-section">
-    <div class="container">
-      <div class="search-card reveal">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
-        <input
-          type="text"
-          id="city-search"
-          placeholder="Search your city…"
-          autocomplete="off"
-          aria-label="Search cities"
-        />
-      </div>
-    </div>
-  </section>
-
-  <!-- City grid by state -->
-  <section class="states-section">
-    <div class="container">
-      <div id="states-list">
-        {stateGroups.map(({ state, stateAbbr, cities: sc }) => (
-          <div class="state-block" data-state={state}>
-            <div class="state-header">
-              <span class="state-abbr">{stateAbbr}</span>
-              <h2 class="state-name">{state}</h2>
-              <span class="state-count">{sc.length} {sc.length === 1 ? 'city' : 'cities'}</span>
-            </div>
-            <div class="city-grid">
-              {sc.map((c) => (
-                <a class="city-card" href={`/${c.citySlug}/`} data-city={c.city.toLowerCase()}>
-                  <span class="city-name">{c.city}</span>
-                  <span class="city-services">
-                    <span class="svc-tag">Local SEO</span>
-                    <span class="svc-tag">SEO</span>
-                    <span class="svc-tag">Web Design</span>
-                    <span class="svc-tag">Redesign</span>
-                  </span>
-                  <span class="city-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                  </span>
-                </a>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
-      <p id="no-results" class="no-results" style="display:none">No cities match — <a href="/contact">contact us</a> to ask about yours.</p>
-    </div>
-  </section>
-
-  <!-- Bottom CTA -->
-  <section class="loc-cta">
-    <div class="container">
-      <div class="loc-cta-card reveal gradient-border">
-        <p class="section-label">Don't see your city?</p>
-        <h2 class="loc-cta-title">We cover markets not on this list too.</h2>
-        <p class="loc-cta-desc">
-          We take on contractors outside our listed metros. Reach out and we'll tell you exactly how we'd approach your market.
+  <main id="main">
+    <header class="loc-head">
+      <div class="container">
+        <p class="kicker">City guides</p>
+        <h1>Local search, {cities.length} metros at a time</h1>
+        <p class="loc-head__dek">
+          Local SEO advice written for "a local business" is written for nobody.
+          Demand in Denver spikes with hail; demand in Phoenix spikes with heat;
+          Miami searches in two languages. So we publish a guide per market,
+          built on that market's own demand pattern, geography and price level.
         </p>
-        <a href="/contact" class="btn btn-primary">Get in touch</a>
+        <dl class="loc-stats">
+          <div><dt>Metros</dt><dd>{cities.length}</dd></div>
+          <div><dt>Guides</dt><dd>{guideCount}</dd></div>
+          <div><dt>States</dt><dd>{states.length}</dd></div>
+        </dl>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <Footer />
+    <section class="container loc-what" aria-labelledby="loc-what-h">
+      <div class="section-head"><h2 id="loc-what-h">What each city gets</h2></div>
+      <div class="loc-what__grid">
+        <div class="loc-what__item">
+          <h3>An overview</h3>
+          <p>
+            One hub per metro at <code>/city/</code> — the market, the seasonality,
+            the areas that generate searches, and the questions asked most there.
+          </p>
+        </div>
+        {GUIDE_ORDER.map((slug) => {
+          const t = GUIDE_TOPICS[slug];
+          return (
+            <div class="loc-what__item">
+              <h3>{t.label}</h3>
+              <p>{t.dek('that city').replace('that city', 'the metro')}</p>
+              <code>/city/{slug}/</code>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+
+    <section class="container loc-index" aria-labelledby="loc-index-h">
+      <div class="section-head">
+        <h2 id="loc-index-h">Every metro, by state</h2>
+      </div>
+      {states.map((s) => (
+        <div class="state">
+          <h3 class="state__name">{s.state}</h3>
+          <ul class="state__cities">
+            {s.list.map((c) => (
+              <li><a href={`/${c.citySlug}/`}>{c.city}</a></li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </section>
+
+    <Newsletter location="locations-band" />
+  </main>
+
+  <SiteFooter />
 </Layout>
 
-<script>
-  const input = document.getElementById('city-search') as HTMLInputElement;
-  const stateBlocks = document.querySelectorAll<HTMLElement>('.state-block');
-  const noResults = document.getElementById('no-results') as HTMLElement;
-
-  input.addEventListener('input', () => {
-    const q = input.value.toLowerCase().trim();
-    let anyVisible = false;
-
-    stateBlocks.forEach((block) => {
-      const cards = block.querySelectorAll<HTMLElement>('.city-card');
-      let blockVisible = false;
-
-      cards.forEach((card) => {
-        const name = card.dataset.city || '';
-        const match = !q || name.includes(q);
-        card.style.display = match ? '' : 'none';
-        if (match) blockVisible = true;
-      });
-
-      block.style.display = blockVisible ? '' : 'none';
-      if (blockVisible) anyVisible = true;
-    });
-
-    noResults.style.display = anyVisible ? 'none' : 'block';
-  });
-</script>
-
 <style>
-/* ── Hero ─────────────────────────────────────────────────────────────── */
-.loc-hero {
-  position: relative;
-  overflow: hidden;
-  padding: 7rem 0 4rem;
-  text-align: center;
-}
-.loc-hero .hero-bg { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
-.loc-hero .gradient-blob {
-  position: absolute; border-radius: 50%;
-  filter: blur(80px); opacity: .18;
-}
-.blob-1 { width: 600px; height: 600px; background: var(--teal, #0ea5e9); top: -200px; left: -100px; }
-.blob-2 { width: 500px; height: 500px; background: var(--accent, #6366f1); top: -100px; right: -80px; }
-.loc-hero-inner { position: relative; z-index: 1; max-width: 760px; margin: 0 auto; }
-.loc-title {
-  font-size: clamp(2.4rem, 5vw, 4rem);
-  font-weight: 800;
-  line-height: 1.1;
-  margin: .75rem 0 1.25rem;
-  color: var(--text-primary, #f1f5f9);
-}
-.loc-title .accent { color: var(--teal, #0ea5e9); }
-.loc-desc {
-  font-size: 1.15rem;
-  color: var(--text-secondary, #94a3b8);
-  max-width: 580px;
-  margin: 0 auto 2rem;
-  line-height: 1.7;
-}
-.loc-desc strong { color: var(--text-primary, #f1f5f9); }
+  .loc-head { padding: 44px 0 34px; border-bottom: 2px solid var(--ink); }
+  .loc-head h1 { font-size: clamp(34px, 5vw, 54px); margin: 12px 0 16px; }
+  .loc-head__dek {
+    font-family: var(--font-read);
+    font-size: 19px; line-height: 1.6; color: var(--ink-3); max-width: 66ch;
+  }
+  .loc-stats { display: flex; gap: 44px; margin-top: 28px; }
+  .loc-stats dt {
+    font-family: var(--font-ui); font-size: 11.5px; font-weight: 700;
+    letter-spacing: 0.13em; text-transform: uppercase; color: var(--ink-3);
+  }
+  .loc-stats dd {
+    font-family: var(--font-display); font-weight: 800; font-size: 32px;
+    color: var(--ink); line-height: 1.1; margin-top: 4px;
+  }
 
-.hero-stats {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-.hstat { text-align: center; }
-.hstat-num {
-  display: block;
-  font-size: 2rem;
-  font-weight: 800;
-  color: var(--teal, #0ea5e9);
-  line-height: 1;
-}
-.hstat-label {
-  display: block;
-  font-size: .8rem;
-  color: var(--text-secondary, #94a3b8);
-  text-transform: uppercase;
-  letter-spacing: .08em;
-  margin-top: .25rem;
-}
-.hstat-divider {
-  width: 1px;
-  height: 40px;
-  background: var(--border, rgba(255,255,255,.1));
-}
+  .loc-what { padding: 44px 0 20px; }
+  .loc-what__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+  .loc-what__item h3 { font-size: 19px; margin-bottom: 9px; }
+  .loc-what__item p {
+    font-family: var(--font-read); font-size: 16px; line-height: 1.55; color: var(--ink-3);
+  }
+  .loc-what__item code {
+    display: inline-block; margin-top: 10px;
+    font-family: ui-monospace, Menlo, monospace; font-size: 12.5px;
+    background: var(--paper-2); padding: 3px 8px; color: var(--accent-deep);
+  }
 
-/* ── Search ───────────────────────────────────────────────────────────── */
-.search-section { padding: 0 0 1.5rem; }
-.search-card {
-  display: flex;
-  align-items: center;
-  gap: .75rem;
-  max-width: 480px;
-  margin: 0 auto;
-  background: var(--card-bg, rgba(255,255,255,.04));
-  border: 1px solid var(--border, rgba(255,255,255,.1));
-  border-radius: 12px;
-  padding: .75rem 1.25rem;
-  transition: border-color .2s;
-}
-.search-card:focus-within { border-color: var(--teal, #0ea5e9); }
-.search-card svg { flex-shrink: 0; color: var(--text-secondary, #94a3b8); }
-#city-search {
-  flex: 1;
-  background: none;
-  border: none;
-  outline: none;
-  font-size: 1rem;
-  color: var(--text-primary, #f1f5f9);
-}
-#city-search::placeholder { color: var(--text-secondary, #94a3b8); }
+  .loc-index { padding: 48px 0 20px; }
+  .state { padding: 20px 0; border-bottom: 1px solid var(--rule); display: grid; grid-template-columns: 200px 1fr; gap: 28px; }
+  .state__name {
+    font-size: 17px;
+    font-family: var(--font-ui); font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+  .state__cities {
+    list-style: none;
+    display: flex; flex-wrap: wrap; gap: 8px 10px;
+  }
+  .state__cities a {
+    display: inline-block;
+    font-family: var(--font-ui); font-size: 14px;
+    color: var(--ink-2);
+    border: 1px solid var(--rule); padding: 6px 13px; border-radius: 100px;
+    transition: border-color 0.18s var(--ease), color 0.18s var(--ease);
+  }
+  .state__cities a:hover { border-color: var(--ink); color: var(--accent); }
 
-/* ── States section ───────────────────────────────────────────────────── */
-.states-section { padding: 1rem 0 4rem; }
-
-.state-block { margin-bottom: 3rem; }
-
-.state-header {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
-  padding-bottom: .75rem;
-  border-bottom: 1px solid var(--border, rgba(255,255,255,.1));
-}
-.state-abbr {
-  background: var(--teal, #0ea5e9);
-  color: #000;
-  font-weight: 800;
-  font-size: .75rem;
-  letter-spacing: .08em;
-  padding: .2rem .55rem;
-  border-radius: 6px;
-  line-height: 1.4;
-}
-.state-name {
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: var(--text-primary, #f1f5f9);
-  margin: 0;
-}
-.state-count {
-  margin-left: auto;
-  font-size: .8rem;
-  color: var(--text-secondary, #94a3b8);
-}
-
-.city-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: .75rem;
-}
-
-.city-card {
-  display: flex;
-  flex-direction: column;
-  gap: .4rem;
-  padding: 1rem 1.1rem;
-  background: var(--card-bg, rgba(255,255,255,.03));
-  border: 1px solid var(--border, rgba(255,255,255,.08));
-  border-radius: 10px;
-  text-decoration: none;
-  transition: border-color .18s, background .18s, transform .18s;
-  position: relative;
-}
-.city-card:hover {
-  border-color: var(--teal, #0ea5e9);
-  background: rgba(14,165,233,.06);
-  transform: translateY(-2px);
-}
-.city-name {
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--text-primary, #f1f5f9);
-}
-.city-services {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .3rem;
-}
-.svc-tag {
-  font-size: .68rem;
-  padding: .15rem .45rem;
-  background: rgba(14,165,233,.12);
-  color: var(--teal, #0ea5e9);
-  border-radius: 4px;
-  letter-spacing: .02em;
-}
-.city-arrow {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  color: var(--text-secondary, #94a3b8);
-  opacity: 0;
-  transition: opacity .18s, transform .18s;
-}
-.city-card:hover .city-arrow { opacity: 1; transform: translateX(3px); }
-
-.no-results {
-  text-align: center;
-  padding: 3rem 0;
-  color: var(--text-secondary, #94a3b8);
-}
-.no-results a { color: var(--teal, #0ea5e9); text-decoration: underline; }
-
-/* ── Bottom CTA ───────────────────────────────────────────────────────── */
-.loc-cta { padding: 2rem 0 5rem; }
-.loc-cta-card {
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 3rem 2rem;
-  border-radius: 20px;
-  background: var(--card-bg, rgba(255,255,255,.04));
-  border: 1px solid var(--border, rgba(255,255,255,.1));
-}
-.loc-cta-title {
-  font-size: clamp(1.5rem, 3vw, 2.1rem);
-  font-weight: 800;
-  color: var(--text-primary, #f1f5f9);
-  margin: .5rem 0 1rem;
-}
-.loc-cta-desc {
-  color: var(--text-secondary, #94a3b8);
-  font-size: 1.05rem;
-  margin-bottom: 1.75rem;
-  line-height: 1.7;
-}
-
-/* ── Responsive ───────────────────────────────────────────────────────── */
-@media (max-width: 640px) {
-  .loc-hero { padding: 5rem 0 3rem; }
-  .city-grid { grid-template-columns: 1fr 1fr; }
-  .hero-stats { gap: 1.25rem; }
-  .hstat-divider { height: 30px; }
-}
-@media (max-width: 420px) {
-  .city-grid { grid-template-columns: 1fr; }
-}
+  @media (max-width: 900px) {
+    .loc-what__grid { grid-template-columns: 1fr; gap: 26px; }
+    .state { grid-template-columns: 1fr; gap: 12px; }
+    .loc-stats { gap: 30px; }
+  }
 </style>

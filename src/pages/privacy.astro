@@ -1,66 +1,98 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Navbar from '../components/Navbar.astro';
-import Footer from '../components/Footer.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import { SITE } from '../data/site.js';
+import { PUBLISHED_ISO, PUBLISHED_LABEL } from '../data/posts.js';
 
-const title = 'Privacy Policy — OnwardCraft';
-const description = 'Read the OnwardCraft privacy policy to learn how we collect, use, store, and protect your personal information when you use our website and services.';
+const canonical = `${SITE.url}/privacy/`;
 ---
 
-<Layout title={title} description={description}>
-  <Navbar />
-  <article class="legal-page">
-    <div class="container">
-      <header class="legal-header reveal">
-        <h1>Privacy Policy</h1>
-        <p>Last updated: May 2026</p>
-      </header>
-      <div class="legal-content reveal">
-        <p>At OnwardCraft, we take your privacy seriously. This Privacy Policy describes how we collect, use, and protect your personal information when you visit our website or use our services.</p>
+<Layout
+  title={`Privacy | ${SITE.name}`}
+  description="What OnwardCraft collects, what it does not, and what happens to your email address if you subscribe."
+  canonical={canonical}
+>
+  <SiteHeader />
+  <main id="main">
+    <div class="container legal">
+      <p class="kicker">Legal</p>
+      <h1>Privacy</h1>
+      <p class="legal__date">Last updated <time datetime={PUBLISHED_ISO}>{PUBLISHED_LABEL}</time></p>
 
-        <h2>Information We Collect</h2>
-        <p>We collect information you provide directly to us, such as when you fill out a contact form, book a call, or subscribe to our newsletter. This may include:</p>
-        <ul>
-          <li>Name and contact information</li>
-          <li>Business information</li>
-          <li>Website URL</li>
-          <li>Any other information you choose to provide</li>
-        </ul>
+      <h2>The short version</h2>
+      <p>
+        This is a blog. We collect an email address if you choose to give us one,
+        and anonymous traffic statistics so we know which articles get read.
+        That is the entire list.
+      </p>
 
-        <h2>How We Use Your Information</h2>
-        <p>We use the information we collect to:</p>
-        <ul>
-          <li>Respond to your inquiries and provide our services</li>
-          <li>Send you marketing communications (with your consent)</li>
-          <li>Improve our website and services</li>
-          <li>Comply with legal obligations</li>
-        </ul>
+      <h2>Your email address</h2>
+      <p>
+        If you subscribe to the newsletter, your address is stored so we can send
+        it to you. We do not sell it, rent it, share it, or run it through any
+        service that tries to work out who you are or where you work. We do not
+        add you to any other list. Unsubscribing removes you permanently — there
+        is no win-back sequence.
+      </p>
+      <p>
+        Newsletter and contact submissions are delivered through FormSubmit.co,
+        which processes the message on its way to us and is subject to its own
+        privacy terms.
+      </p>
 
-        <h2>Information Sharing</h2>
-        <p>We do not sell, trade, or rent your personal information to third parties. We may share information with trusted service providers who assist us in operating our website and conducting our business.</p>
+      <h2>Analytics</h2>
+      <p>
+        We use Google Analytics to count page views, referrers and rough
+        geography. It sets cookies in your browser. We use it to decide what to
+        write next, not to build a profile of you, and we do not run advertising
+        or remarketing tags of any kind. Browser-level tracking protection or an
+        ad blocker will stop it, and nothing on this site will break if you do.
+      </p>
 
-        <h2>Data Security</h2>
-        <p>We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.</p>
+      <h2>What we do not do</h2>
+      <ul>
+        <li>No advertising networks and no remarketing pixels.</li>
+        <li>No selling, renting or trading of any data.</li>
+        <li>No accounts, so no passwords and no personal data to leak.</li>
+        <li>No payments, so no card details ever touch this site.</li>
+      </ul>
 
-        <h2>Your Rights</h2>
-        <p>You have the right to access, correct, or delete your personal information. To exercise these rights, please contact us at getonwardcraft@gmail.com.</p>
+      <h2>Links out</h2>
+      <p>
+        We link to sources, studies and tools. Those sites have their own privacy
+        practices and we have no control over them. None of our outbound links
+        are affiliate links.
+      </p>
 
-        <h2>Contact Us</h2>
-        <p>If you have any questions about this Privacy Policy, please contact us at getonwardcraft@gmail.com.</p>
-      </div>
+      <h2>Your choices</h2>
+      <p>
+        You can unsubscribe from any email in one click, and you can ask us to
+        delete your address entirely by writing to <a href="/contact/">the desk</a>.
+        We will confirm when it is done.
+      </p>
+
+      <h2>Changes</h2>
+      <p>
+        If this notice changes materially, we will update the date at the top and
+        say what changed rather than quietly swapping the text.
+      </p>
     </div>
-  </article>
-  <Footer />
+  </main>
+  <SiteFooter />
 </Layout>
 
 <style>
-  .legal-page { padding: 160px 0 80px; background: var(--bg-primary); min-height: 100vh; }
-  .legal-header { max-width: 720px; margin: 0 auto 48px; text-align: center; }
-  .legal-header h1 { font-size: clamp(32px, 4vw, 48px); font-weight: 700; margin-bottom: 12px; }
-  .legal-header p { font-size: 14px; color: var(--text-muted); }
-  .legal-content { max-width: 720px; margin: 0 auto; }
-  .legal-content h2 { font-size: 22px; font-weight: 700; margin: 40px 0 16px; color: var(--text-primary); }
-  .legal-content p { font-size: 16px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 16px; }
-  .legal-content ul { margin: 0 0 20px 24px; }
-  .legal-content li { font-size: 16px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 8px; }
+  .legal { max-width: 720px; padding: 48px 0 80px; }
+  .legal h1 { font-size: clamp(32px, 4.6vw, 46px); margin: 12px 0 10px; }
+  .legal__date { font-family: var(--font-ui); font-size: 13px; color: var(--ink-3); margin-bottom: 36px; }
+  .legal h2 { font-size: 22px; margin: 40px 0 12px; padding-top: 18px; border-top: 1px solid var(--rule); }
+  .legal p, .legal li {
+    font-family: var(--font-read); font-size: 18px; line-height: 1.7; color: var(--ink-2);
+  }
+  .legal p { margin-bottom: 16px; }
+  .legal ul { padding-left: 22px; margin-bottom: 16px; }
+  .legal li { margin-bottom: 8px; }
+  .legal li::marker { color: var(--accent); }
+  .legal a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
 </style>

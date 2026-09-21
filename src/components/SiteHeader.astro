@@ -1,0 +1,195 @@
+---
+import { SITE, NAV } from '../data/site.js';
+
+export interface Props {
+  /** Compact masthead for article and guide pages. */
+  compact?: boolean;
+}
+const { compact = false } = Astro.props;
+const path = Astro.url.pathname;
+const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
+
+// The dateline is a magazine convention and a freshness signal for readers.
+const issueDate = new Date().toLocaleDateString('en-US', {
+  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+});
+---
+
+<header class:list={['masthead', compact && 'masthead--compact']}>
+  {!compact && (
+    <div class="masthead__top">
+      <div class="container masthead__top-inner">
+        <span class="masthead__date">{issueDate}</span>
+        <span class="masthead__promise">Independent · Nothing for sale · Free newsletter</span>
+      </div>
+    </div>
+  )}
+
+  <div class="container masthead__main">
+    <a href="/" class="wordmark" aria-label={`${SITE.name} home`}>
+      <span class="wordmark__name">{SITE.name}</span>
+      {!compact && <span class="wordmark__tag">{SITE.tagline}</span>}
+    </a>
+
+    <button class="masthead__toggle" id="mastheadToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mastheadNav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="masthead__nav" id="mastheadNav" aria-label="Sections">
+      {NAV.map((item) => (
+        <a href={item.href} class:list={['masthead__link', isActive(item.href) && 'is-active']}>{item.label}</a>
+      ))}
+      <a href="/newsletter/" class="masthead__subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .masthead {
+    position: relative;
+    z-index: 900;
+    background: var(--paper);
+    border-bottom: 2px solid var(--ink);
+  }
+
+  .masthead__top {
+    border-bottom: 1px solid var(--rule);
+    background: var(--paper-2);
+  }
+  .masthead__top-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    height: 34px;
+    font-family: var(--font-ui);
+    font-size: 11.5px;
+    letter-spacing: 0.06em;
+    color: var(--ink-3);
+    text-transform: uppercase;
+  }
+  .masthead__promise { color: var(--accent); font-weight: 600; }
+
+  .masthead__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    padding-top: 22px;
+    padding-bottom: 20px;
+  }
+
+  .wordmark { display: flex; flex-direction: column; gap: 4px; }
+  .wordmark__name {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1;
+    letter-spacing: -0.035em;
+    color: var(--ink);
+  }
+  .wordmark__tag {
+    font-family: var(--font-read);
+    font-size: 13.5px;
+    font-style: italic;
+    color: var(--ink-3);
+  }
+
+  .masthead--compact .masthead__main { padding-top: 14px; padding-bottom: 12px; }
+  .masthead--compact .wordmark__name { font-size: 24px; }
+
+  .masthead__nav {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .masthead__link {
+    font-family: var(--font-ui);
+    font-size: 13.5px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--ink-2);
+    padding: 8px 12px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.18s var(--ease), border-color 0.18s var(--ease);
+  }
+  .masthead__link:hover { color: var(--accent); }
+  .masthead__link.is-active { color: var(--ink); border-bottom-color: var(--accent); }
+
+  .masthead__subscribe {
+    margin-left: 10px;
+    padding: 10px 18px;
+    background: var(--ink);
+    color: var(--ink-invert);
+    font-family: var(--font-ui);
+    font-size: 13.5px;
+    font-weight: 600;
+    border-radius: var(--radius);
+    transition: background 0.2s var(--ease);
+  }
+  .masthead__subscribe:hover { background: var(--accent); }
+
+  .masthead__toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 1px solid var(--rule-strong);
+    border-radius: var(--radius);
+    cursor: pointer;
+  }
+  .masthead__toggle span {
+    display: block;
+    width: 18px;
+    height: 1.5px;
+    margin: 0 auto;
+    background: var(--ink);
+    transition: transform 0.25s var(--ease), opacity 0.2s var(--ease);
+  }
+  .masthead__toggle.is-open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+  .masthead__toggle.is-open span:nth-child(2) { opacity: 0; }
+  .masthead__toggle.is-open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+  @media (max-width: 900px) {
+    .masthead__promise { display: none; }
+    .masthead__toggle { display: flex; }
+    .masthead__nav {
+      display: none;
+      position: absolute;
+      left: 0; right: 0; top: 100%;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+      background: var(--paper);
+      border-bottom: 2px solid var(--ink);
+      padding: 8px 20px 20px;
+      box-shadow: 0 18px 40px rgba(23, 20, 15, 0.09);
+    }
+    .masthead__nav.is-open { display: flex; }
+    .masthead__link {
+      padding: 14px 0;
+      font-size: 17px;
+      border-bottom: 1px solid var(--rule);
+    }
+    .masthead__link.is-active { border-bottom-color: var(--accent); }
+    .masthead__subscribe { margin: 16px 0 0; text-align: center; }
+    .wordmark__tag { display: none; }
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    var toggle = document.getElementById('mastheadToggle');
+    var nav = document.getElementById('mastheadNav');
+    if (!toggle || !nav) return;
+    toggle.addEventListener('click', function () {
+      var open = nav.classList.toggle('is-open');
+      toggle.classList.toggle('is-open', open);
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    });
+  })();
+</script>

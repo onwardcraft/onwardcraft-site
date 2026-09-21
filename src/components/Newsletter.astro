@@ -1,0 +1,221 @@
+---
+import { SITE } from '../data/site.js';
+
+export interface Props {
+  /** 'band' = full-width section, 'inline' = mid-article, 'rail' = sidebar. */
+  variant?: 'band' | 'inline' | 'rail';
+  heading?: string;
+  blurb?: string;
+  /** Sent to GA4 so we can see which placement earns subscribers. */
+  location?: string;
+}
+const {
+  variant = 'band',
+  heading = 'One SEO email. Every other week.',
+  blurb = 'What actually changed in search, what to do about it, and the checklist to do it with. No pitch — we have nothing to sell you.',
+  location = variant,
+} = Astro.props;
+
+// Unique ids so more than one form can live on a page without colliding.
+const uid = Math.random().toString(36).slice(2, 8);
+---
+
+<section class:list={['nl', `nl--${variant}`]} aria-labelledby={`nl-h-${uid}`}>
+  <div class={variant === 'band' ? 'container nl__inner' : 'nl__inner'}>
+    <div class="nl__copy">
+      <p class="kicker">The newsletter</p>
+      <h2 id={`nl-h-${uid}`} class="nl__heading">{heading}</h2>
+      <p class="nl__blurb">{blurb}</p>
+    </div>
+
+    <form class="newsletter-form nl__form" id={`nl-${uid}`} data-location={location} action={SITE.newsletterEndpoint} method="POST" novalidate>
+      <input type="hidden" name="_subject" value="OnwardCraft newsletter signup" />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="source" value={location} />
+      <!-- Honeypot: bots fill it, humans never see it. -->
+      <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="nl__honey" aria-hidden="true" />
+
+      <label class="nl__label" for={`nl-email-${uid}`}>Email address</label>
+      <div class="nl__row">
+        <input
+          class="nl__input"
+          id={`nl-email-${uid}`}
+          type="email"
+          name="email"
+          required
+          autocomplete="email"
+          placeholder="you@yourbusiness.com"
+        />
+        <button class="nl__btn" type="submit">Subscribe</button>
+      </div>
+      <p class="nl__note" data-nl-note>Free. Unsubscribe in one click. We never share your address.</p>
+    </form>
+  </div>
+</section>
+
+<style>
+  .nl { font-family: var(--font-ui); }
+
+  /* ── Full-width band ── */
+  .nl--band {
+    background: var(--ink);
+    color: var(--ink-invert);
+    padding: 64px 0;
+    margin: 72px 0 0;
+  }
+  .nl--band .nl__inner {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 48px;
+    align-items: center;
+  }
+  .nl--band .kicker { color: #E8A08F; }
+  .nl--band .nl__heading { color: var(--ink-invert); font-size: clamp(26px, 3.4vw, 38px); }
+  .nl--band .nl__blurb { color: rgba(251, 247, 240, 0.72); }
+  .nl--band .nl__label { color: rgba(251, 247, 240, 0.72); }
+  .nl--band .nl__input { background: rgba(255, 255, 255, 0.06); border-color: rgba(255, 255, 255, 0.22); color: var(--ink-invert); }
+  .nl--band .nl__input::placeholder { color: rgba(251, 247, 240, 0.4); }
+  .nl--band .nl__btn { background: var(--accent); color: #fff; }
+  .nl--band .nl__btn:hover { background: #C4472E; }
+  .nl--band .nl__note { color: rgba(251, 247, 240, 0.5); }
+
+  /* ── Mid-article ── */
+  .nl--inline {
+    background: var(--paper-2);
+    border-top: 2px solid var(--ink);
+    border-bottom: 1px solid var(--rule);
+    padding: 32px;
+    margin: 48px 0;
+  }
+  .nl--inline .nl__heading { font-size: 24px; }
+
+  /* ── Sidebar rail ── */
+  .nl--rail {
+    background: var(--ink);
+    color: var(--ink-invert);
+    padding: 28px 24px;
+  }
+  .nl--rail .kicker { color: #E8A08F; }
+  .nl--rail .nl__heading { color: var(--ink-invert); font-size: 21px; }
+  .nl--rail .nl__blurb { color: rgba(251, 247, 240, 0.72); font-size: 14.5px; }
+  .nl--rail .nl__label { color: rgba(251, 247, 240, 0.72); }
+  .nl--rail .nl__row { flex-direction: column; }
+  .nl--rail .nl__input { background: rgba(255, 255, 255, 0.06); border-color: rgba(255, 255, 255, 0.22); color: var(--ink-invert); }
+  .nl--rail .nl__input::placeholder { color: rgba(251, 247, 240, 0.4); }
+  .nl--rail .nl__btn { background: var(--accent); color: #fff; width: 100%; }
+  .nl--rail .nl__note { color: rgba(251, 247, 240, 0.5); }
+  .nl--rail .nl__form { margin-top: 18px; }
+
+  .nl__heading {
+    font-family: var(--font-display);
+    line-height: 1.1;
+    margin: 12px 0 10px;
+  }
+  .nl__blurb {
+    font-family: var(--font-read);
+    font-size: 16.5px;
+    line-height: 1.55;
+    color: var(--ink-3);
+    max-width: 46ch;
+  }
+
+  .nl__form { margin-top: 20px; }
+  .nl__label {
+    display: block;
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin-bottom: 8px;
+  }
+  .nl__row { display: flex; gap: 10px; }
+  .nl__input {
+    flex: 1;
+    min-width: 0;
+    padding: 13px 15px;
+    font-family: var(--font-ui);
+    font-size: 15px;
+    color: var(--ink);
+    background: var(--paper);
+    border: 1px solid var(--rule-strong);
+    border-radius: var(--radius);
+  }
+  .nl__input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .nl__btn {
+    padding: 13px 24px;
+    font-family: var(--font-ui);
+    font-size: 14.5px;
+    font-weight: 600;
+    color: var(--ink-invert);
+    background: var(--ink);
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.2s var(--ease);
+  }
+  .nl__btn:hover { background: var(--accent); }
+  .nl__btn[disabled] { opacity: 0.6; cursor: default; }
+  .nl__note { margin-top: 10px; font-size: 12.5px; color: var(--ink-3); }
+  .nl__note[data-state='ok'] { color: #1F7A4D; font-weight: 600; }
+  .nl__note[data-state='error'] { color: var(--accent); font-weight: 600; }
+  .nl--band .nl__note[data-state='ok'], .nl--rail .nl__note[data-state='ok'] { color: #7FD6A6; }
+  .nl--band .nl__note[data-state='error'], .nl--rail .nl__note[data-state='error'] { color: #F0A28F; }
+
+  .nl__honey { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+
+  @media (max-width: 860px) {
+    .nl--band .nl__inner { grid-template-columns: 1fr; gap: 28px; }
+    .nl--band { padding: 48px 0; }
+    .nl__row { flex-direction: column; }
+    .nl__btn { width: 100%; }
+  }
+</style>
+
+<script is:inline>
+  // Progressive enhancement: the form posts normally without JS, and submits
+  // over fetch with JS so the reader never leaves the article they are reading.
+  (function () {
+    document.querySelectorAll('.newsletter-form').forEach(function (form) {
+      if (form.dataset.bound) return;
+      form.dataset.bound = '1';
+
+      form.addEventListener('submit', function (e) {
+        var email = form.querySelector('input[type=email]');
+        var note = form.querySelector('[data-nl-note]');
+        var btn = form.querySelector('button[type=submit]');
+        if (!email || !email.value || email.validity.valid === false) {
+          e.preventDefault();
+          note.textContent = 'That email address does not look right.';
+          note.setAttribute('data-state', 'error');
+          return;
+        }
+        if (!window.fetch) return; // no-JS/legacy path: normal POST
+
+        e.preventDefault();
+        btn.disabled = true;
+        note.removeAttribute('data-state');
+        note.textContent = 'Subscribing…';
+
+        fetch(form.getAttribute('action'), {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify(Object.fromEntries(new FormData(form).entries())),
+        })
+          .then(function (r) { if (!r.ok) throw new Error('bad status'); return r.json(); })
+          .then(function () {
+            form.reset();
+            note.textContent = 'You are on the list. Check your inbox to confirm.';
+            note.setAttribute('data-state', 'ok');
+          })
+          .catch(function () {
+            note.textContent = 'Something went wrong. Email ' + form.getAttribute('action').split('/').pop() + ' instead.';
+            note.setAttribute('data-state', 'error');
+          })
+          .finally(function () { btn.disabled = false; });
+      });
+    });
+  })();
+</script>

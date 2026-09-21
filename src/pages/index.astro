@@ -1,32 +1,322 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Navbar from '../components/Navbar.astro';
-import Hero from '../components/Hero.astro';
-import TrustBar from '../components/TrustBar.astro';
-import ProblemSection from '../components/ProblemSection.astro';
-import CaseStudies from '../components/CaseStudies.astro';
-import Services from '../components/Services.astro';
-import Industries from '../components/Industries.astro';
-import Process from '../components/Process.astro';
-import WhyUs from '../components/WhyUs.astro';
-import Testimonials from '../components/Testimonials.astro';
-import Pricing from '../components/Pricing.astro';
-import FinalCTA from '../components/FinalCTA.astro';
-import Footer from '../components/Footer.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import Newsletter from '../components/Newsletter.astro';
+import StoryCard from '../components/StoryCard.astro';
+import { SITE, SECTIONS, STANDARDS } from '../data/site.js';
+import { posts, getFeatured, getPostsByCategory, PUBLISHED_ISO } from '../data/posts.js';
+import { cities } from '../data/cities.js';
+
+const lead = getFeatured();
+const rest = posts.filter((p) => p.slug !== lead.slug);
+const secondary = rest.slice(0, 4);
+const latest = rest.slice(4, 10);
+
+// A spread of large markets for the city-guide rail. The full index is at
+// /locations/; this is just the shop window.
+const RAIL_CITIES = [
+  'new-york', 'los-angeles', 'chicago', 'houston', 'phoenix', 'philadelphia',
+  'san-antonio', 'san-diego', 'dallas', 'austin', 'miami', 'atlanta',
+]
+  .map((slug) => cities.find((c) => c.citySlug === slug))
+  .filter(Boolean);
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  '@id': `${SITE.url}/#homepage`,
+  url: `${SITE.url}/`,
+  name: `${SITE.name} — ${SITE.tagline}`,
+  description: SITE.description,
+  isPartOf: { '@id': `${SITE.url}/#website` },
+  about: { '@type': 'Thing', name: 'Search engine optimization for small businesses' },
+  mainEntity: {
+    '@type': 'ItemList',
+    itemListElement: [lead, ...secondary].map((p, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${SITE.url}/blog/${p.slug}/`,
+      name: p.title,
+    })),
+  },
+  dateModified: PUBLISHED_ISO,
+};
 ---
 
-<Layout>
-  <Navbar />
-  <Hero />
-  <TrustBar />
-  <ProblemSection />
-  <CaseStudies />
-  <Services />
-  <Industries />
-  <Process />
-  <WhyUs />
-  <Testimonials />
-  <Pricing />
-  <FinalCTA />
-  <Footer />
+<Layout
+  title={`${SITE.name} — ${SITE.tagline}`}
+  description={SITE.description}
+  schema={schema}
+>
+  <SiteHeader />
+
+  <main id="main">
+    <!-- ── Statement of purpose ─────────────────────────────── -->
+    <section class="intro">
+      <div class="container intro__inner">
+        <p class="intro__text">
+          <strong>OnwardCraft covers one subject: search.</strong> Guides, checklists and
+          benchmark data for small businesses doing their own SEO — plus a local
+          search guide for every one of {cities.length} US metros. We sell nothing,
+          rank no one for money, and label every estimate as an estimate.
+        </p>
+        <a class="intro__link" href="/about/">How we work →</a>
+      </div>
+    </section>
+
+    <!-- ── Lead + secondary stories ─────────────────────────── -->
+    <section class="frontpage container" aria-label="Latest articles">
+      <div class="frontpage__lead">
+        <StoryCard post={lead} size="lead" />
+      </div>
+      <div class="frontpage__secondary">
+        {secondary.map((p) => <StoryCard post={p} />)}
+      </div>
+    </section>
+
+    <!-- ── Desks ────────────────────────────────────────────── -->
+    <section class="desks container reveal" aria-labelledby="desks-h">
+      <div class="section-head">
+        <h2 id="desks-h">The three desks</h2>
+        <a class="section-more" href="/topics/">Topics index →</a>
+      </div>
+      <div class="desks__grid">
+        {SECTIONS.map((s) => {
+          const count = getPostsByCategory(s.name).length;
+          return (
+            <a class="desk" href={`/blog/category/${s.slug}/`}>
+              <span class="desk__name">{s.name}</span>
+              <span class="desk__blurb">{s.blurb}</span>
+              <span class="desk__count">{count} {count === 1 ? 'article' : 'articles'} →</span>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+
+    <!-- ── More reading ─────────────────────────────────────── -->
+    <section class="more container reveal" aria-labelledby="more-h">
+      <div class="section-head">
+        <h2 id="more-h">More from the archive</h2>
+        <a class="section-more" href="/blog/">All {posts.length} articles →</a>
+      </div>
+      <div class="more__grid">
+        {latest.map((p) => <StoryCard post={p} size="compact" showDek={false} />)}
+      </div>
+    </section>
+
+    <!-- ── City guides ──────────────────────────────────────── -->
+    <section class="cities container reveal" aria-labelledby="cities-h">
+      <div class="section-head">
+        <h2 id="cities-h">Local search, city by city</h2>
+        <a class="section-more" href="/locations/">All {cities.length} cities →</a>
+      </div>
+      <p class="cities__note">
+        Every guide is written from that metro's own search demand — how the
+        season moves, which neighbourhoods generate the queries, and what
+        ranking there realistically costs. No template with the city swapped out.
+      </p>
+      <ul class="cities__grid">
+        {RAIL_CITIES.map((c) => (
+          <li>
+            <a href={`/${c.citySlug}/`}>
+              <span class="cities__name">{c.city}</span>
+              <span class="cities__state">{c.stateAbbr}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <!-- ── Standards ────────────────────────────────────────── -->
+    <section class="standards reveal" aria-labelledby="standards-h">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="standards-h">What we will and will not print</h2>
+          <a class="section-more" href="/about/">Full standards →</a>
+        </div>
+        <ol class="standards__list">
+          {STANDARDS.map((s) => (
+            <li>
+              <h3>{s.title}</h3>
+              <p>{s.body}</p>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+
+    <Newsletter location="home-band" />
+  </main>
+
+  <SiteFooter />
 </Layout>
+
+<style>
+  /* ── Statement of purpose ── */
+  .intro {
+    border-bottom: 1px solid var(--rule);
+    background: var(--paper-2);
+    padding: 22px 0;
+  }
+  .intro__inner {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 28px;
+    flex-wrap: wrap;
+  }
+  .intro__text {
+    font-family: var(--font-read);
+    font-size: 17px;
+    line-height: 1.55;
+    color: var(--ink-2);
+    max-width: 78ch;
+  }
+  .intro__text strong { color: var(--ink); font-weight: 600; }
+  .intro__link {
+    font-family: var(--font-ui);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    white-space: nowrap;
+  }
+  .intro__link:hover { text-decoration: underline; }
+
+  /* ── Front page ── */
+  .frontpage {
+    display: grid;
+    grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+    gap: 56px;
+    padding-top: 44px;
+    padding-bottom: 60px;
+  }
+  .frontpage__secondary {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    border-left: 1px solid var(--rule);
+    padding-left: 40px;
+  }
+
+  /* ── Desks ── */
+  .desks, .more, .cities { padding-bottom: 60px; }
+  .desks__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; }
+  .desk {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 26px 28px 26px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .desk:last-child { border-right: none; }
+  .desk:not(:first-child) { padding-left: 28px; }
+  .desk__name {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--ink);
+    transition: color 0.18s var(--ease);
+  }
+  .desk:hover .desk__name { color: var(--accent); }
+  .desk__blurb {
+    font-family: var(--font-read);
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--ink-3);
+  }
+  .desk__count {
+    margin-top: auto;
+    padding-top: 6px;
+    font-family: var(--font-ui);
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--accent);
+  }
+
+  /* ── More ── */
+  .more__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 36px;
+  }
+
+  /* ── Cities ── */
+  .cities__note {
+    font-family: var(--font-read);
+    font-size: 17px;
+    line-height: 1.55;
+    color: var(--ink-3);
+    max-width: 68ch;
+    margin: -14px 0 26px;
+  }
+  .cities__grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+  }
+  .cities__grid a {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 16px 18px;
+    background: var(--paper);
+    height: 100%;
+    transition: background 0.18s var(--ease);
+  }
+  .cities__grid a:hover { background: var(--paper-2); }
+  .cities__name { font-family: var(--font-display); font-weight: 700; font-size: 16px; color: var(--ink); }
+  .cities__grid a:hover .cities__name { color: var(--accent); }
+  .cities__state { font-family: var(--font-ui); font-size: 11.5px; letter-spacing: 0.08em; color: var(--ink-3); }
+
+  /* ── Standards ── */
+  .standards { background: var(--paper-2); border-top: 1px solid var(--rule); padding: 56px 0; }
+  .standards__list {
+    list-style: none;
+    counter-reset: std;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 28px 36px;
+  }
+  .standards__list li { counter-increment: std; }
+  .standards__list h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .standards__list h3::before {
+    content: counter(std, decimal-leading-zero);
+    display: block;
+    font-family: var(--font-ui);
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    margin-bottom: 7px;
+  }
+  .standards__list p {
+    font-family: var(--font-read);
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--ink-3);
+  }
+
+  @media (max-width: 1000px) {
+    .frontpage { grid-template-columns: 1fr; gap: 40px; }
+    .frontpage__secondary { border-left: none; padding-left: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 26px 32px; }
+    .desks__grid { grid-template-columns: 1fr; }
+    .desk { border-right: none; border-bottom: 1px solid var(--rule); padding: 22px 0; }
+    .desk:not(:first-child) { padding-left: 0; }
+    .desk:last-child { border-bottom: none; }
+    .more__grid { grid-template-columns: 1fr 1fr; gap: 0 32px; }
+    .cities__grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 620px) {
+    .frontpage__secondary { grid-template-columns: 1fr; }
+    .more__grid { grid-template-columns: 1fr; }
+    .cities__grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>

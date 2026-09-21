@@ -1,63 +1,95 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Navbar from '../components/Navbar.astro';
-import Footer from '../components/Footer.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import { SITE } from '../data/site.js';
+import { PUBLISHED_ISO, PUBLISHED_LABEL } from '../data/posts.js';
 
-const title = 'Terms of Service — OnwardCraft';
-const description = 'Read the OnwardCraft terms of service. These rules and guidelines govern your use of our website, services, and any agreements between you and OnwardCraft.';
+const canonical = `${SITE.url}/terms/`;
 ---
 
-<Layout title={title} description={description}>
-  <Navbar />
-  <article class="legal-page">
-    <div class="container">
-      <header class="legal-header reveal">
-        <h1>Terms of Service</h1>
-        <p>Last updated: May 2026</p>
-      </header>
-      <div class="legal-content reveal">
-        <p>By accessing and using the OnwardCraft website and services, you agree to be bound by these Terms of Service.</p>
+<Layout
+  title={`Terms | ${SITE.name}`}
+  description="The terms for reading OnwardCraft: what the advice is and is not, how our figures should be read, and what you may do with our writing."
+  canonical={canonical}
+>
+  <SiteHeader />
+  <main id="main">
+    <div class="container legal">
+      <p class="kicker">Legal</p>
+      <h1>Terms</h1>
+      <p class="legal__date">Last updated <time datetime={PUBLISHED_ISO}>{PUBLISHED_LABEL}</time></p>
 
-        <h2>Services</h2>
-        <p>OnwardCraft provides web design, development, SEO, and digital marketing services. Specific terms for each project will be outlined in a separate agreement or statement of work.</p>
+      <h2>What this site is</h2>
+      <p>
+        OnwardCraft is an independent publication about search engine
+        optimization. It publishes editorial guidance. It is not a service
+        business, it takes no clients, and nothing here is an offer to sell
+        anything.
+      </p>
 
-        <h2>Intellectual Property</h2>
-        <p>Upon full payment, clients receive ownership of the final website design and code. OnwardCraft retains the right to use project work for portfolio and marketing purposes unless otherwise agreed.</p>
+      <h2>How to read the advice</h2>
+      <p>
+        Everything here is general information, not advice tailored to your
+        business. Search results depend on your market, your competitors, your
+        history and decisions made by Google that nobody outside Google fully
+        understands. We cannot promise a ranking, a traffic level or a
+        commercial outcome, and you should be sceptical of anyone who does.
+      </p>
 
-        <h2>Payment Terms</h2>
-        <p>Unless otherwise specified in your project agreement, payment terms are 50% deposit to begin and 50% upon project completion. Late payments may result in project delays.</p>
+      <h2>How to read our numbers</h2>
+      <p>
+        Where a figure comes from published research we link the source. Where a
+        figure is a benchmark, an estimate or a projection, we label it as one on
+        the page. Pricing shown in the city guides is a market benchmark
+        collected from published rates — it is not a quote, and we do not sell
+        the work being priced. Charts marked illustrative show the shape of a
+        pattern, not a measurement of your market.
+      </p>
 
-        <h2>Revisions and Changes</h2>
-        <p>Each project includes a specified number of revision rounds. Additional revisions beyond the agreed scope may incur extra charges.</p>
+      <h2>Third-party names</h2>
+      <p>
+        We name tools, platforms and companies for the purpose of reporting on
+        them. Those names and trademarks belong to their owners, and mentioning
+        one implies no relationship, endorsement or sponsorship in either
+        direction. Nobody has paid to appear on this site.
+      </p>
 
-        <h2>Limitation of Liability</h2>
-        <p>OnwardCraft shall not be liable for any indirect, incidental, special, or consequential damages arising from the use of our services or website.</p>
+      <h2>Using our writing</h2>
+      <p>
+        The articles and guides are our copyright. You may quote from them and
+        link to them freely — that is what they are for — provided the quotation
+        is accurate and credits <a href="/">OnwardCraft</a> with a link to the
+        page. Republishing an article in full, or feeding the archive into a
+        product, requires written permission.
+      </p>
 
-        <h2>Termination</h2>
-        <p>Either party may terminate a project with written notice. Upon termination, the client is responsible for payment for all work completed up to the termination date.</p>
+      <h2>Liability</h2>
+      <p>
+        We publish in good faith and correct what we get wrong, but the site is
+        provided as-is. We are not liable for losses arising from decisions made
+        on the basis of anything you read here. If you find an error,
+        <a href="/contact/">tell us</a> and we will fix it.
+      </p>
 
-        <h2>Governing Law</h2>
-        <p>These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which OnwardCraft operates.</p>
-
-        <h2>Changes to Terms</h2>
-        <p>We reserve the right to modify these Terms at any time. Continued use of our services constitutes acceptance of the updated Terms.</p>
-
-        <h2>Contact</h2>
-        <p>For questions about these Terms, contact us at getonwardcraft@gmail.com.</p>
-      </div>
+      <h2>Changes</h2>
+      <p>
+        These terms may change. The date at the top of this page will change with
+        them.
+      </p>
     </div>
-  </article>
-  <Footer />
+  </main>
+  <SiteFooter />
 </Layout>
 
 <style>
-  .legal-page { padding: 160px 0 80px; background: var(--bg-primary); min-height: 100vh; }
-  .legal-header { max-width: 720px; margin: 0 auto 48px; text-align: center; }
-  .legal-header h1 { font-size: clamp(32px, 4vw, 48px); font-weight: 700; margin-bottom: 12px; }
-  .legal-header p { font-size: 14px; color: var(--text-muted); }
-  .legal-content { max-width: 720px; margin: 0 auto; }
-  .legal-content h2 { font-size: 22px; font-weight: 700; margin: 40px 0 16px; color: var(--text-primary); }
-  .legal-content p { font-size: 16px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 16px; }
-  .legal-content ul { margin: 0 0 20px 24px; }
-  .legal-content li { font-size: 16px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 8px; }
+  .legal { max-width: 720px; padding: 48px 0 80px; }
+  .legal h1 { font-size: clamp(32px, 4.6vw, 46px); margin: 12px 0 10px; }
+  .legal__date { font-family: var(--font-ui); font-size: 13px; color: var(--ink-3); margin-bottom: 36px; }
+  .legal h2 { font-size: 22px; margin: 40px 0 12px; padding-top: 18px; border-top: 1px solid var(--rule); }
+  .legal p, .legal li {
+    font-family: var(--font-read); font-size: 18px; line-height: 1.7; color: var(--ink-2);
+  }
+  .legal p { margin-bottom: 16px; }
+  .legal a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
 </style>

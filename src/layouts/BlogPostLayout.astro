@@ -1,422 +1,432 @@
 ---
 import Layout from './Layout.astro';
-import Navbar from '../components/Navbar.astro';
-import Footer from '../components/Footer.astro';
-import FinalCTA from '../components/FinalCTA.astro';
-import { getRelatedPosts } from '../data/posts.js';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import Newsletter from '../components/Newsletter.astro';
+import { SITE, AUTHOR } from '../data/site.js';
+import { getPost, getRelatedPosts, categorySlug, PUBLISHED_ISO, PUBLISHED_LABEL } from '../data/posts.js';
 
 export interface Props {
   title: string;
   description: string;
-  category: string;
-  date: string;
-  readTime: string;
+  category?: string;
+  date?: string;
+  readTime?: string;
   tags?: string[];
   contentHtml?: string;
   author?: string;
-  authorTitle?: string;
-  schema?: object;
+  schema?: object | object[];
 }
 
 const {
   title,
   description,
-  category,
-  date,
-  readTime,
-  tags = [],
   contentHtml,
-  author = 'OnwardCraft Team',
-  authorTitle = 'Growth Strategists',
+  tags = [],
+  author = AUTHOR.name,
   schema,
 } = Astro.props;
 
 const displayTitle = title.replace(/^['"]+|['"]+$/g, '').trim();
 
-// Derive this post's slug from the URL so related-post linking works without
-// every post having to pass its own slug. e.g. /blog/local-seo-guide/ -> local-seo-guide
-const currentSlug = Astro.url.pathname.replace(/^\/blog\//, '').replace(/\/$/, '');
-const relatedPosts = getRelatedPosts(currentSlug, 3);
+// Derive the slug from the URL, then read the article's own metadata from the
+// registry. The registry is the single source of truth for category, date and
+// read time, so re-dating the library is a one-line change in posts.js rather
+// than an edit to 28 files.
+const slug = Astro.url.pathname.replace(/^\/blog\//, '').replace(/\/$/, '');
+const record = getPost(slug);
+const category = record?.category ?? Astro.props.category ?? 'SEO';
+const date = record?.date ?? Astro.props.date ?? PUBLISHED_LABEL;
+const isoDate = record?.isoDate ?? PUBLISHED_ISO;
+const readTime = record?.readTime ?? Astro.props.readTime ?? '';
+const canonical = `${SITE.url}/blog/${slug}/`;
+const related = getRelatedPosts(slug, 4);
 
-// Every post gets a BreadcrumbList; the page-specific Article/FAQ schema is
-// still passed by each post via the `schema` prop (rendered in the head slot).
 const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://onwardcraft.com/" },
-    { "@type": "ListItem", position: 2, name: "Blog", item: "https://onwardcraft.com/blog/" },
-    { "@type": "ListItem", position: 3, name: displayTitle, item: `https://onwardcraft.com/blog/${currentSlug}/` },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE.url}/` },
+    { '@type': 'ListItem', position: 2, name: 'Articles', item: `${SITE.url}/blog/` },
+    { '@type': 'ListItem', position: 3, name: category, item: `${SITE.url}/blog/category/${categorySlug(category)}/` },
+    { '@type': 'ListItem', position: 4, name: displayTitle, item: canonical },
   ],
 };
 ---
 
-<Layout title={displayTitle} description={description} ogType="article" schema={breadcrumbSchema}>
+<Layout
+  title={`${displayTitle} | ${SITE.name}`}
+  description={description}
+  canonical={canonical}
+  ogType="article"
+  schema={breadcrumbSchema}
+>
   {schema && (
     <Fragment slot="head">
-      <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+      <meta property="article:published_time" content={isoDate} />
+      <meta property="article:modified_time" content={isoDate} />
+      <meta property="article:section" content={category} />
+      {(Array.isArray(schema) ? schema : [schema]).map((s) => (
+        <script type="application/ld+json" set:html={JSON.stringify(s)} />
+      ))}
     </Fragment>
   )}
-  <Navbar dark />
 
-  <article class="blog-post">
-    <div class="hero-bg">
-      <div class="gradient-blob blob-1"></div>
-      <div class="gradient-blob blob-2"></div>
-    </div>
+  <div class="read-progress" id="readProgress"></div>
+  <SiteHeader compact />
 
-    <div class="container">
-      <div class="blog-layout">
-        <div class="blog-main">
-          <header class="post-header">
-            <div class="post-meta">
-              <span class="post-category">{category}</span>
-              <span class="post-date">{date} &middot; {readTime}</span>
-            </div>
-            <h1 class="post-title">{displayTitle}</h1>
-            <p class="post-excerpt">{description}</p>
-            <div class="post-author">
-              <div class="author-avatar">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-              </div>
-              <div class="author-info">
-                <span class="author-name">{author}</span>
-                <span class="author-title">{authorTitle}</span>
-              </div>
+  <main id="main">
+    <article class="article" data-progress-target>
+      <div class="container article__grid">
+        <div class="article__main">
+          <nav class="crumbs" aria-label="Breadcrumb">
+            <a href="/blog/">Articles</a>
+            <span aria-hidden="true">/</span>
+            <a href={`/blog/category/${categorySlug(category)}/`}>{category}</a>
+          </nav>
+
+          <header class="article__head">
+            <p class="kicker">{category}</p>
+            <h1 class="article__title">{displayTitle}</h1>
+            <p class="article__dek">{description}</p>
+            <div class="article__byline">
+              <span class="article__author">{author}</span>
+              <span aria-hidden="true">·</span>
+              <time datetime={isoDate}>{date}</time>
+              {readTime && <><span aria-hidden="true">·</span><span>{readTime}</span></>}
             </div>
           </header>
 
-          <div class="post-content" set:html={contentHtml}>
+          <div class="prose" set:html={contentHtml}>
             {!contentHtml && <slot />}
           </div>
 
-          <div class="related-resources">
-            <h3>Keep Reading</h3>
-            <div class="related-grid">
-              {relatedPosts.map((post) => (
-                <a href={`/blog/${post.slug}/`} class="related-card">
-                  <span class="related-label">{post.category}</span>
-                  <h4>{post.title}</h4>
-                  <p>{post.excerpt}</p>
+          <Newsletter
+            variant="inline"
+            heading="Get the next one by email"
+            blurb="One SEO email every other week — what changed in search and the checklist to act on it. Free, and we have nothing to sell you."
+            location="article-footer"
+          />
+
+          {tags.length > 0 && (
+            <ul class="tags" aria-label="Tags">
+              {tags.map((tag) => <li>{tag}</li>)}
+            </ul>
+          )}
+
+          <section class="related" aria-labelledby="related-h">
+            <div class="section-head">
+              <h2 id="related-h">Keep reading</h2>
+              <a class="section-more" href="/blog/">All articles →</a>
+            </div>
+            <div class="related__grid">
+              {related.map((p) => (
+                <a class="related__item" href={`/blog/${p.slug}/`}>
+                  <span class="related__cat">{p.category}</span>
+                  <span class="related__title">{p.title}</span>
+                  <span class="related__meta">{p.readTime}</span>
                 </a>
               ))}
-              <a href="/services/web-design/" class="related-card related-card--service">
-                <span class="related-label">Work With Us</span>
-                <h4>Need this done for you?</h4>
-                <p>We build conversion-focused websites, SEO, and lead generation for contractors. Get a free audit.</p>
-              </a>
             </div>
-          </div>
-
-          <div class="post-footer">
-            {tags.length > 0 && (
-              <div class="post-tags">
-                {tags.map((tag) => (
-                  <span>{tag}</span>
-                ))}
-              </div>
-            )}
-            <a href="/blog/" class="back-link">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
-              Back to Blog
-            </a>
-          </div>
+          </section>
         </div>
 
-        <aside class="blog-sidebar">
-          <div class="sidebar-cta">
-            <h3>Need a Website That Actually Converts?</h3>
-            <p>Book a free 30-minute strategy call. We will audit your current site and show you exactly how to turn it into a lead-generating machine.</p>
-            <a href="/book-call/" class="sidebar-cta-btn" rel="noopener noreferrer">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-              Book Your Free Call
-            </a>
-            <div class="sidebar-trust">
-              <div class="trust-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>No obligation</span></div>
-              <div class="trust-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Free site audit</span></div>
-              <div class="trust-item"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Actionable plan</span></div>
-            </div>
-          </div>
+        <aside class="article__rail">
+          <div class="rail__sticky">
+            <Newsletter variant="rail" heading="The OnwardCraft email" location="article-rail" />
 
-          <div class="sidebar-share">
-            <h4>Share This Article</h4>
-            <div class="share-buttons">
-              <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(displayTitle)}&url=${encodeURIComponent(`https://onwardcraft.com/blog`)}`} target="_blank" rel="noopener noreferrer" class="share-btn share-x" aria-label="Share on X">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-              </a>
-              <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://onwardcraft.com/blog`)}`} target="_blank" rel="noopener noreferrer" class="share-btn share-linkedin" aria-label="Share on LinkedIn">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-              </a>
-              <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(`https://onwardcraft.com/blog`)}`} target="_blank" rel="noopener noreferrer" class="share-btn share-facebook" aria-label="Share on Facebook">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-              </a>
+            <div class="rail__box">
+              <h2 class="rail__h">About this desk</h2>
+              <p class="rail__body">{AUTHOR.bio}</p>
+              <a class="rail__link" href="/about/">Our editorial standards →</a>
+            </div>
+
+            <div class="rail__box">
+              <h2 class="rail__h">Share</h2>
+              <div class="rail__share">
+                <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(displayTitle)}&url=${encodeURIComponent(canonical)}`} target="_blank" rel="noopener noreferrer">X</a>
+                <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(canonical)}`} target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href={`mailto:?subject=${encodeURIComponent(displayTitle)}&body=${encodeURIComponent(canonical)}`}>Email</a>
+              </div>
             </div>
           </div>
         </aside>
       </div>
-    </div>
-  </article>
+    </article>
+  </main>
 
-  <FinalCTA dark />
-  <Footer />
+  <SiteFooter />
 </Layout>
 
 <style is:global>
-  /* ===== BLOG POST BASE ===== */
-  .blog-post {
-    --bg-primary: #ffffff;
-    --bg-secondary: #f8fafc;
-    --bg-card: #ffffff;
-    --bg-card-hover: #f1f5f9;
-    --text-primary: #0f172a;
-    --text-secondary: rgba(15, 23, 42, 0.75);
-    --text-muted: rgba(15, 23, 42, 0.5);
-    --border: rgba(0, 0, 0, 0.08);
-    --border-hover: rgba(0, 0, 0, 0.15);
-    --accent-primary: #06D6A0;
-    --accent-secondary: #06D6A0;
-    --accent-glow: #FFB84D;
-    --radius-sm: 8px;
-    --radius-md: 12px;
-    --radius-lg: 16px;
-    --radius-xl: 20px;
-    --font-heading: 'Space Grotesk', sans-serif;
-    --font-body: 'Inter', sans-serif;
-    padding: 140px 0 80px;
-    position: relative;
-    background: #ffffff;
-    color: var(--text-primary);
-    min-height: 100vh;
+  /* ============================================================
+     Article page. Deliberately plain: one column of serif text on
+     warm paper, a single rail, no boxes competing with the prose.
+     ============================================================ */
+  .article { padding: 44px 0 72px; }
+
+  .article__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 64px;
+    align-items: start;
+  }
+  .article__main { min-width: 0; max-width: var(--measure); }
+
+
+  .article__head { padding-bottom: 28px; border-bottom: 1px solid var(--rule); margin-bottom: 36px; }
+  .article__title {
+    font-size: clamp(30px, 4.6vw, 48px);
+    line-height: 1.05;
+    margin: 14px 0 18px;
+  }
+  .article__dek {
+    font-family: var(--font-read);
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--ink-3);
+  }
+  .article__byline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-top: 22px;
+    font-family: var(--font-ui);
+    font-size: 13px;
+    color: var(--ink-3);
+  }
+  .article__author { font-weight: 600; color: var(--ink-2); }
+
+  /* ── Prose ────────────────────────────────────────────────── */
+  .prose {
+    font-family: var(--font-read);
+    font-size: 19px;
+    line-height: 1.72;
+    color: var(--ink-2);
+  }
+  .prose > *:first-child { margin-top: 0; }
+  .prose p { margin: 0 0 22px; }
+  .prose .lead { font-size: 21px; line-height: 1.6; color: var(--ink); margin-bottom: 28px; }
+
+  .prose h2 {
+    font-size: 30px;
+    line-height: 1.12;
+    margin: 52px 0 18px;
+    padding-top: 18px;
+    border-top: 1px solid var(--rule);
+  }
+  .prose h3 { font-size: 23px; margin: 36px 0 14px; }
+  .prose h4 { font-size: 19px; font-family: var(--font-ui); font-weight: 700; margin: 28px 0 10px; letter-spacing: 0; }
+  .prose h2 a, .prose h3 a, .prose h4 a { border-bottom: none; color: inherit; }
+
+  .prose a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  .prose a:hover { color: var(--accent-deep); text-decoration-thickness: 2px; }
+
+  .prose ul, .prose ol { margin: 0 0 24px; padding-left: 24px; }
+  .prose li { margin-bottom: 10px; }
+  .prose li::marker { color: var(--accent); }
+  .prose strong { color: var(--ink); font-weight: 600; }
+
+  /* Table of contents — a plain boxed list, no counters or gradients. */
+  .prose .toc {
+    background: var(--paper-2);
+    border-left: 3px solid var(--accent);
+    padding: 22px 26px;
+    margin: 0 0 40px;
+    font-family: var(--font-ui);
+    font-size: 15px;
+  }
+  .prose .toc h2, .prose .toc h4 {
+    font-family: var(--font-ui);
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin: 0 0 14px;
+    padding: 0;
+    border: none;
+  }
+  .prose .toc ol, .prose .toc ul { margin: 0; padding-left: 20px; }
+  .prose .toc li { margin-bottom: 7px; }
+  .prose .toc a { color: var(--ink-2); text-decoration: none; }
+  .prose .toc a:hover { color: var(--accent); text-decoration: underline; }
+
+  /* Callouts — one flat style, differentiated by the rule colour only. */
+  .prose .callout {
+    background: var(--paper-2);
+    border-left: 3px solid var(--rule-strong);
+    padding: 20px 24px;
+    margin: 30px 0;
+    font-family: var(--font-ui);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .prose .callout p { margin-bottom: 10px; }
+  .prose .callout p:last-child { margin-bottom: 0; }
+  .prose .callout p strong { display: block; font-size: 11.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 6px; }
+  .prose .callout-tip, .prose .callout-success { border-left-color: #2F7D52; }
+  .prose .callout-warning { border-left-color: #B8860B; }
+  .prose .callout-info { border-left-color: var(--accent); }
+
+  .prose blockquote, .prose .highlight-quote {
+    border-left: 3px solid var(--accent);
+    padding: 4px 0 4px 24px;
+    margin: 32px 0;
+  }
+  .prose blockquote p, .prose .highlight-quote p {
+    font-size: 21px;
+    line-height: 1.5;
+    font-style: italic;
+    color: var(--ink);
+    margin-bottom: 0;
   }
 
-  .hero-bg { display: none; }
-  .gradient-blob { position: absolute; border-radius: 50%; filter: blur(120px); opacity: 0.3; }
-  .blob-1 { width: 400px; height: 400px; background: radial-gradient(circle, rgba(6, 214, 160, 0.3), transparent 70%); top: 5%; right: -10%; }
-  .blob-2 { width: 300px; height: 300px; background: radial-gradient(circle, rgba(255, 184, 77, 0.25), transparent 70%); bottom: 20%; left: -5%; }
+  /* Tables */
+  .prose table, .prose .cost-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--font-ui);
+    font-size: 15px;
+    margin: 0;
+  }
+  .prose .cost-table { margin: 30px 0; overflow-x: auto; border: 1px solid var(--rule); }
+  .prose th { text-align: left; padding: 12px 16px; background: var(--ink); color: var(--ink-invert); font-size: 11.5px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+  .prose td { padding: 12px 16px; border-bottom: 1px solid var(--rule); }
+  .prose tbody tr:nth-child(even) { background: var(--paper-2); }
+  .prose tbody tr:last-child td { border-bottom: none; }
 
-  /* ===== POST HEADER ===== */
-  .post-header { position: relative; z-index: 1; max-width: none; margin: 0 0 48px; text-align: left; }
-  .post-meta { display: flex; justify-content: flex-start; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; align-items: center; }
-  .post-category { font-size: 12px; font-weight: 700; color: var(--accent-primary); text-transform: uppercase; letter-spacing: 0.08em; background: rgba(6, 214, 160, 0.08); padding: 6px 14px; border-radius: 100px; }
-  .post-date { font-size: 13px; color: #888888; display: flex; align-items: center; gap: 6px; }
-  .post-title { font-size: clamp(32px, 5vw, 52px); font-weight: 800; line-height: 1.05; margin-bottom: 20px; color: #000000; letter-spacing: -0.03em; }
-  .post-excerpt { font-size: 18px; color: #555555; line-height: 1.7; max-width: 680px; margin: 0 0 24px 0; font-weight: 400; }
+  /* The old templates shipped sales CTAs inside article bodies. This site has
+     nothing to sell, so they are flattened into a plain note rather than left
+     as dark gradient panels with a button. */
+  .prose .cta-box {
+    background: var(--paper-2);
+    border-top: 2px solid var(--ink);
+    border-bottom: 1px solid var(--rule);
+    padding: 26px;
+    margin: 36px 0;
+    text-align: left;
+  }
+  .prose .cta-box h3 { font-size: 21px; margin: 0 0 10px; }
+  .prose .cta-box p { font-family: var(--font-ui); font-size: 16px; margin-bottom: 14px; }
+  .prose .cta-box a, .prose .cta-box .cta-button {
+    display: inline-block;
+    padding: 11px 20px;
+    background: var(--ink);
+    color: var(--ink-invert);
+    font-family: var(--font-ui);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: var(--radius);
+    text-decoration: none;
+  }
+  .prose .cta-box a:hover, .prose .cta-box .cta-button:hover { background: var(--accent); color: #fff; }
 
-  /* Author */
-  .post-author { display: flex; align-items: center; gap: 12px; margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--border); }
-  .author-avatar { width: 40px; height: 40px; border-radius: 50%; background: linear-gradient(135deg, var(--accent-primary), var(--accent-glow)); display: flex; align-items: center; justify-content: center; color: white; }
-  .author-info { display: flex; flex-direction: column; }
-  .author-name { font-size: 14px; font-weight: 600; color: var(--text-primary); }
-  .author-title { font-size: 12px; color: var(--text-muted); }
+  .prose .stat-card {
+    background: var(--paper-2);
+    border-left: 3px solid var(--accent);
+    padding: 18px 22px;
+    margin: 18px 0;
+    font-family: var(--font-ui);
+    font-size: 16px;
+  }
+  .prose .stat-card p { margin-bottom: 0; }
+  .prose .stat-card strong { color: var(--accent); }
 
-  /* ===== POST CONTENT ===== */
-  .post-content { position: relative; z-index: 1; max-width: none; margin: 0; }
+  .prose .conclusion {
+    font-size: 19px;
+    margin-top: 44px;
+    padding: 26px;
+    background: var(--paper-2);
+    border-left: 3px solid var(--ink);
+  }
 
-  /* Lead paragraph */
-  .post-content .lead { font-size: 20px; color: #1a1a1a; line-height: 1.75; margin-bottom: 40px; font-weight: 400; }
+  .prose code {
+    font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+    font-size: 15px;
+    background: var(--paper-3);
+    padding: 2px 6px;
+    border-radius: 3px;
+    color: var(--accent-deep);
+  }
+  .prose pre { background: var(--ink); color: #EDE6DA; padding: 20px; overflow-x: auto; margin: 26px 0; border-radius: var(--radius); }
+  .prose pre code { background: none; color: inherit; font-size: 14px; padding: 0; }
 
-  /* Headings */
-  .post-content h2 { font-size: 32px; font-weight: 800; margin: 64px 0 24px; color: #000000; letter-spacing: -0.02em; line-height: 1.15; position: relative; padding-bottom: 16px; }
-  .post-content h2::after { content: ''; position: absolute; bottom: 0; left: 0; width: 60px; height: 4px; background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary)); border-radius: 2px; }
-  .post-content h3 { font-size: 24px; font-weight: 700; margin: 40px 0 16px; color: #111111; letter-spacing: -0.01em; line-height: 1.25; }
-  .post-content h4 { font-size: 20px; font-weight: 700; margin: 28px 0 12px; color: #1a1a1a; line-height: 1.3; }
-  .post-content h2 a, .post-content h3 a, .post-content h4 a { color: inherit; border-bottom: none; }
-  .post-content h2 a:hover, .post-content h3 a:hover, .post-content h4 a:hover { color: var(--accent-primary); }
+  .prose hr { border: none; border-top: 1px solid var(--rule); margin: 44px 0; }
+  .prose img { margin: 28px 0; border: 1px solid var(--rule); }
 
-  /* Paragraphs */
-  .post-content p { font-size: 17px; color: #333333; line-height: 1.85; margin-bottom: 20px; }
+  /* ── Tags ─────────────────────────────────────────────────── */
+  .tags { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin: 32px 0 0; }
+  .tags li {
+    font-family: var(--font-ui);
+    font-size: 12px;
+    color: var(--ink-3);
+    border: 1px solid var(--rule);
+    padding: 5px 12px;
+    border-radius: 100px;
+  }
 
-  /* ===== TABLE OF CONTENTS ===== */
-  .post-content .toc { background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid var(--border); border-radius: var(--radius-xl); padding: 32px; margin: 32px 0 48px; position: relative; overflow: hidden; }
-  .post-content .toc::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: linear-gradient(180deg, var(--accent-primary), var(--accent-secondary)); }
-  .post-content .toc h4 { font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin: 0 0 20px 0; padding: 0; }
-  .post-content .toc h4::after { display: none; }
-  .post-content .toc h2 { font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin: 0 0 20px 0; padding: 0; }
-  .post-content .toc h2::after { display: none; }
-  .post-content .toc ol { margin: 0; padding: 0; list-style: none; counter-reset: toc; }
-  .post-content .toc li { margin: 0 0 10px 0; padding: 0; position: relative; padding-left: 32px; font-size: 15px; }
-  .post-content .toc li::before { counter-increment: toc; content: counter(toc); position: absolute; left: 0; top: 2px; width: 22px; height: 22px; background: linear-gradient(135deg, var(--accent-primary), var(--accent-glow)); color: white; font-size: 11px; font-weight: 700; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
-  .post-content .toc li a { color: var(--text-primary); text-decoration: none; font-weight: 500; transition: color 0.2s; border-bottom: none; }
-  .post-content .toc li a:hover { color: var(--accent-primary); }
+  /* ── Related ──────────────────────────────────────────────── */
+  .related { margin-top: 56px; }
+  .related__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 32px; }
+  .related__item {
+    display: block;
+    padding: 18px 0;
+    border-top: 1px solid var(--rule);
+  }
+  .related__item:hover .related__title { color: var(--accent); }
+  .related__cat {
+    display: block;
+    font-family: var(--font-ui);
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .related__title {
+    display: block;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 17.5px;
+    line-height: 1.2;
+    color: var(--ink);
+    margin: 8px 0 6px;
+    transition: color 0.18s var(--ease);
+  }
+  .related__meta { font-family: var(--font-ui); font-size: 12px; color: var(--ink-3); }
 
-  /* ===== TABLES ===== */
-  .cost-table { margin: 32px 0; overflow-x: auto; border-radius: var(--radius-lg); border: 1px solid var(--border); box-shadow: 0 4px 24px rgba(0,0,0,0.06); }
-  .cost-table table { width: 100%; border-collapse: collapse; font-size: 15px; }
-  .cost-table thead { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
-  .cost-table th { padding: 16px 20px; text-align: left; font-family: var(--font-heading); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: rgba(255,255,255,0.9); border-bottom: none; }
-  .cost-table td { padding: 14px 20px; color: var(--text-secondary); border-bottom: 1px solid var(--border); }
-  .cost-table tbody tr:nth-child(even) { background: var(--bg-secondary); }
-  .cost-table tbody tr:hover { background: rgba(6, 214, 160, 0.04); }
-  .cost-table tbody tr:last-child td { border-bottom: none; }
-  .cost-table td strong { color: var(--text-primary); }
+  /* ── Rail ─────────────────────────────────────────────────── */
+  .article__rail { font-family: var(--font-ui); }
+  .rail__body { font-family: var(--font-read); font-size: 15.5px; line-height: 1.55; color: var(--ink-3); }
+  .rail__link { display: inline-block; margin-top: 12px; font-size: 13px; font-weight: 600; color: var(--accent); }
+  .rail__link:hover { text-decoration: underline; }
+  .rail__share { display: flex; gap: 8px; flex-wrap: wrap; }
+  .rail__share a {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink-2);
+    border: 1px solid var(--rule-strong);
+    padding: 7px 14px;
+    border-radius: var(--radius);
+  }
+  .rail__share a:hover { border-color: var(--ink); color: var(--accent); }
 
-  /* ===== LISTS ===== */
-  .post-content ul, .post-content ol { margin: 0 0 24px 0; padding-left: 0; }
-  .post-content ul li, .post-content ol li { font-size: 17px; color: #333333; line-height: 1.8; margin-bottom: 12px; position: relative; }
-
-  /* Bullet lists with custom markers */
-  .post-content ul.bullet-list { list-style: none; padding-left: 0; }
-  .post-content ul.bullet-list li { padding-left: 28px; }
-  .post-content ul.bullet-list li::before { content: ''; position: absolute; left: 0; top: 10px; width: 8px; height: 8px; background: linear-gradient(135deg, var(--accent-primary), var(--accent-glow)); border-radius: 50%; }
-
-  /* Regular ul styling */
-  .post-content ul:not(.checklist):not(.toc ol):not(.bullet-list) { list-style: none; padding-left: 0; }
-  .post-content ul:not(.checklist):not(.toc ol):not(.bullet-list) li { padding-left: 28px; }
-  .post-content ul:not(.checklist):not(.toc ol):not(.bullet-list) li::before { content: ''; position: absolute; left: 0; top: 10px; width: 8px; height: 8px; background: linear-gradient(135deg, var(--accent-primary), var(--accent-glow)); border-radius: 50%; }
-
-  /* Checklist */
-  .post-content ul.checklist { list-style: none; padding-left: 0; }
-  .post-content ul.checklist li { padding-left: 32px; }
-  .post-content ul.checklist li::before { content: '✓'; position: absolute; left: 0; top: 0; width: 22px; height: 22px; background: linear-gradient(135deg, #22c55e, #16a34a); color: white; font-size: 12px; font-weight: 700; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
-
-  /* Numbered lists */
-  .post-content ol:not(.toc ol) { list-style: none; counter-reset: item; padding-left: 0; }
-  .post-content ol:not(.toc ol) li { padding-left: 40px; counter-increment: item; }
-  .post-content ol:not(.toc ol) li::before { content: counter(item); position: absolute; left: 0; top: 0; width: 28px; height: 28px; background: linear-gradient(135deg, var(--accent-primary), var(--accent-glow)); color: white; font-size: 13px; font-weight: 700; border-radius: 8px; display: flex; align-items: center; justify-content: center; }
-
-  /* List item strong text */
-  .post-content li strong { color: var(--text-primary); }
-
-  /* ===== LINKS ===== */
-  .post-content a { color: var(--accent-primary); text-decoration: none; font-weight: 500; border-bottom: 2px solid rgba(6, 214, 160, 0.2); transition: all 0.2s; }
-  .post-content a:hover { color: #14B8A6; border-bottom-color: var(--accent-primary); }
-  .post-content .toc a { border-bottom: none; }
-  .post-content .cta-box a { border-bottom: none; }
-
-  /* ===== BLOCKQUOTES ===== */
-  .post-content blockquote, .post-content .highlight-quote { border-left: 4px solid var(--accent-primary); padding: 20px 28px; margin: 32px 0; background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border-radius: 0 12px 12px 0; position: relative; }
-  .post-content blockquote::before, .post-content .highlight-quote::before { content: '"'; position: absolute; top: 8px; left: 16px; font-size: 48px; color: var(--accent-primary); opacity: 0.2; font-family: Georgia, serif; line-height: 1; }
-  .post-content blockquote p, .post-content .highlight-quote p { margin-bottom: 0; font-size: 17px; font-style: italic; color: var(--text-secondary); }
-  .post-content blockquote p:last-child, .post-content .highlight-quote p:last-child { margin-bottom: 0; }
-
-  /* ===== CALLOUT BOXES ===== */
-  .post-content .callout { border-radius: var(--radius-lg); padding: 24px 28px; margin: 28px 0; position: relative; overflow: hidden; }
-  .post-content .callout::before { content: ''; position: absolute; top: 0; left: 0; width: 4px; height: 100%; }
-  .post-content .callout p { margin-bottom: 0; font-size: 16px; }
-  .post-content .callout p strong { display: block; margin-bottom: 8px; font-size: 15px; text-transform: uppercase; letter-spacing: 0.05em; }
-  .post-content .callout p:last-child { margin-bottom: 0; }
-
-  .post-content .callout-info { background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border: 1px solid rgba(6, 214, 160, 0.15); }
-  .post-content .callout-info::before { background: linear-gradient(180deg, #06D6A0, #06D6A0); }
-  .post-content .callout-info p strong { color: #14B8A6; }
-  .post-content .callout-info p { color: #1e3a5f; }
-
-  .post-content .callout-tip { background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border: 1px solid rgba(34,197,94,0.15); }
-  .post-content .callout-tip::before { background: linear-gradient(180deg, #22c55e, #4ade80); }
-  .post-content .callout-tip p strong { color: #15803d; }
-  .post-content .callout-tip p { color: #14532d; }
-
-  .post-content .callout-warning { background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); border: 1px solid rgba(245,158,11,0.15); }
-  .post-content .callout-warning::before { background: linear-gradient(180deg, #f59e0b, #fbbf24); }
-  .post-content .callout-warning p strong { color: #b45309; }
-  .post-content .callout-warning p { color: #78350f; }
-
-  .post-content .callout-success { background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border: 1px solid rgba(6, 214, 160, 0.15); }
-  .post-content .callout-success::before { background: linear-gradient(180deg, #06D6A0, #38bdf8); }
-  .post-content .callout-success p strong { color: #0369a1; }
-  .post-content .callout-success p { color: #0c4a6e; }
-
-  /* ===== CTA BOX ===== */
-  .post-content .cta-box { background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%); border: 1px solid rgba(255,255,255,0.08); border-radius: var(--radius-xl); padding: 40px; margin: 40px 0; text-align: center; position: relative; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
-  .post-content .cta-box::before { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(6, 214, 160, 0.08) 0%, transparent 70%); }
-  .post-content .cta-box h3 { font-size: 24px; font-weight: 700; margin-bottom: 12px; color: #ffffff; position: relative; z-index: 1; }
-  .post-content .cta-box p { font-size: 16px; color: rgba(255,255,255,0.85); line-height: 1.7; margin-bottom: 24px; position: relative; z-index: 1; }
-  .post-content .cta-box a { display: inline-flex; align-items: center; gap: 10px; padding: 14px 32px; background: linear-gradient(135deg, var(--accent-primary), var(--accent-glow)); color: white; font-size: 15px; font-weight: 600; border-radius: var(--radius-md); text-decoration: none; border: none; transition: all 0.3s; box-shadow: 0 8px 32px rgba(6, 214, 160, 0.4); position: relative; z-index: 1; }
-  .post-content .cta-box a:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(6, 214, 160, 0.5); }
-  .post-content .cta-box .cta-button { display: inline-flex; align-items: center; gap: 10px; padding: 14px 32px; background: linear-gradient(135deg, var(--accent-primary), var(--accent-glow)); color: white; font-size: 15px; font-weight: 600; border-radius: var(--radius-md); text-decoration: none; border: none; transition: all 0.3s; box-shadow: 0 8px 32px rgba(6, 214, 160, 0.4); position: relative; z-index: 1; }
-  .post-content .cta-box .cta-button:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(6, 214, 160, 0.5); }
-
-  /* ===== STAT CARDS ===== */
-  .post-content .stat-card { background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 24px 28px; margin: 16px 0; position: relative; box-shadow: 0 2px 12px rgba(0,0,0,0.04); transition: all 0.3s; }
-  .post-content .stat-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
-  .post-content .stat-card::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary)); border-radius: var(--radius-lg) var(--radius-lg) 0 0; }
-  .post-content .stat-card p { margin-bottom: 0; font-size: 16px; }
-  .post-content .stat-card strong { color: var(--accent-primary); font-size: 18px; }
-
-  /* ===== CONCLUSION ===== */
-  .post-content .conclusion { font-size: 18px; color: var(--text-primary); font-weight: 500; margin-top: 48px; padding: 32px; background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border-radius: var(--radius-lg); border-left: 4px solid var(--accent-primary); }
-
-  /* ===== CODE ===== */
-  .post-content code { font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Fira Code', monospace; font-size: 14.5px; background: rgba(6, 214, 160, 0.08); padding: 3px 8px; border-radius: 6px; color: #14B8A6; font-weight: 500; }
-  .post-content .code-block { margin: 28px 0; border-radius: var(--radius-lg); overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
-  .post-content pre { background: #0f172a; padding: 24px; overflow-x: auto; margin: 0; border-radius: var(--radius-lg); }
-  .post-content pre code { background: transparent; padding: 0; color: #e2e8f0; font-size: 14px; font-weight: 400; }
-
-  /* ===== HR / DIVIDERS ===== */
-  .post-content hr { border: none; height: 1px; background: linear-gradient(90deg, transparent, var(--border), transparent); margin: 48px 0; }
-
-  /* ===== IMAGES ===== */
-  .post-content img { border-radius: var(--radius-lg); margin: 28px 0; box-shadow: 0 8px 32px rgba(0,0,0,0.1); max-width: 100%; display: block; }
-
-  /* ===== POST FOOTER ===== */
-  .post-footer { max-width: none; margin: 60px 0 0; padding-top: 40px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
-  .post-tags { display: flex; gap: 10px; flex-wrap: wrap; }
-  .post-tags span { font-size: 13px; color: var(--text-muted); padding: 6px 14px; background: rgba(0,0,0,0.04); border-radius: 100px; }
-  .back-link { display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; color: var(--accent-primary); transition: gap 0.3s; border-bottom: none; }
-  .back-link:hover { gap: 12px; }
-
-  /* ===== LAYOUT ===== */
-  .blog-layout { display: grid; grid-template-columns: 1fr 320px; gap: 48px; align-items: start; }
-  .blog-main { min-width: 0; }
-  .blog-sidebar { position: sticky; top: 120px; display: flex; flex-direction: column; gap: 24px; }
-
-  /* ===== SIDEBAR CTA ===== */
-  .sidebar-cta { background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-xl); padding: 32px; text-align: center; }
-  .sidebar-cta h3 { font-size: 18px; font-weight: 700; margin-bottom: 12px; color: #ffffff; line-height: 1.3; }
-  .sidebar-cta p { font-size: 14px; color: rgba(255,255,255,0.85); line-height: 1.6; margin-bottom: 20px; }
-  .sidebar-cta-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; width: 100%; padding: 14px 20px; background: linear-gradient(135deg, var(--accent-primary), var(--accent-glow)); color: white; font-size: 14px; font-weight: 600; border-radius: var(--radius-md); transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94); box-shadow: 0 4px 20px rgba(6, 214, 160, 0.3); text-decoration: none; border: none; }
-  .sidebar-cta-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(6, 214, 160, 0.4); }
-  .sidebar-trust { margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); display: flex; flex-direction: column; gap: 10px; }
-  .trust-item { display: flex; align-items: center; gap: 8px; font-size: 12px; color: rgba(255,255,255,0.7); }
-  .trust-item svg { width: 14px; height: 14px; color: var(--accent-secondary); flex-shrink: 0; }
-
-  /* ===== SIDEBAR SHARE ===== */
-  .sidebar-share { background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%); border: 1px solid var(--border); border-radius: var(--radius-xl); padding: 24px; text-align: center; }
-  .sidebar-share h4 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 16px; }
-  .share-buttons { display: flex; justify-content: center; gap: 10px; }
-  .share-btn { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; transition: all 0.3s; }
-  .share-btn:hover { transform: translateY(-2px); }
-  .share-x { background: #0f172a; }
-  .share-linkedin { background: #0077b5; }
-  .share-facebook { background: #1877f2; }
-
-  /* ===== RELATED RESOURCES ===== */
-  .related-resources { margin: 64px 0 48px; padding-top: 48px; border-top: 1px solid var(--border); }
-  .related-resources h3 { font-size: 24px; font-weight: 700; margin-bottom: 24px; color: var(--text-primary); }
-  .related-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
-  .related-card { display: block; padding: 24px; background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%); border: 1px solid var(--border); border-radius: var(--radius-lg); text-decoration: none; transition: all 0.3s; }
-  .related-card:hover { border-color: var(--accent-primary); transform: translateY(-3px); box-shadow: 0 12px 32px rgba(0,0,0,0.08); }
-  .related-label { display: inline-block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent-primary); background: rgba(6, 214, 160, 0.08); padding: 4px 10px; border-radius: 100px; margin-bottom: 12px; }
-  .related-card h4 { font-size: 17px; font-weight: 700; margin-bottom: 8px; color: var(--text-primary); }
-  .related-card p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; margin: 0; }
-  .related-card--service { background: linear-gradient(135deg, rgba(6,214,160,0.06) 0%, rgba(255,184,77,0.05) 100%); border-color: rgba(6,214,160,0.22); }
-  .related-card--service .related-label { color: var(--accent-on, #03100B); background: var(--accent-primary); }
+  @media (max-width: 1040px) {
+    .article__grid { grid-template-columns: 1fr; gap: 48px; }
+    .article__main { max-width: none; }
+  }
   @media (max-width: 640px) {
-    .related-grid { grid-template-columns: 1fr; }
-    .related-resources { margin: 48px 0 32px; padding-top: 32px; }
-  }
-
-  /* ===== RESPONSIVE ===== */
-  @media (max-width: 1024px) {
-    .blog-layout { grid-template-columns: 1fr; }
-    .blog-sidebar { position: static; margin-top: 40px; }
-    .sidebar-cta { max-width: 400px; margin: 0 auto; }
-    .sidebar-share { max-width: 400px; margin: 0 auto; }
-  }
-  @media (max-width: 640px) {
-    .blog-post { padding: 120px 0 60px; }
-    .post-title { font-size: 28px; }
-    .post-content h2 { font-size: 26px; }
-    .post-content h3 { font-size: 21px; }
-    .post-content h4 { font-size: 18px; }
-    .post-content .lead { font-size: 18px; }
-    .cost-table { font-size: 14px; }
-    .cost-table th, .cost-table td { padding: 12px 14px; }
-    .post-content .toc { padding: 24px 20px; }
-    .post-content .cta-box { padding: 28px 20px; }
-    .post-content .callout { padding: 20px; }
-    .post-content ol:not(.toc ol) li { padding-left: 34px; }
-    .post-content ol:not(.toc ol) li::before { width: 24px; height: 24px; font-size: 12px; }
-    .post-author { flex-direction: column; align-items: flex-start; }
+    .article { padding: 28px 0 56px; }
+    .prose { font-size: 18px; }
+    .prose h2 { font-size: 25px; margin-top: 40px; }
+    .prose h3 { font-size: 20px; }
+    .article__dek { font-size: 18px; }
+    .related__grid { grid-template-columns: 1fr; }
   }
 </style>

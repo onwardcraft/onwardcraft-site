@@ -1,665 +1,110 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import Navbar from '../../components/Navbar.astro';
-import Footer from '../../components/Footer.astro';
-import { posts, getCategories } from '../../data/posts.js';
-
-const title = 'Blog — Home Service Marketing, Web Design & SEO Insights';
-const description = 'Actionable insights on web design, local SEO, lead generation, and conversion optimization for home-service contractors and trades businesses.';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import Newsletter from '../../components/Newsletter.astro';
+import StoryCard from '../../components/StoryCard.astro';
+import { SITE } from '../../data/site.js';
+import { posts, getCategories, PUBLISHED_ISO } from '../../data/posts.js';
 
 const categories = getCategories();
+const title = `All Articles | ${SITE.name}`;
+const description = `Every article OnwardCraft has published on SEO — ${posts.length} guides, checklists, and studies on local, organic, and technical search for small businesses.`;
 
-
-const featuredPost = posts.find(p => p.featured);
-const regularPosts = posts.filter(p => !p.featured);
-
-const schema = [
-  {
-    "@context": "https://schema.org",
-    "@type": ["Blog", "CollectionPage"],
-    "@id": "https://onwardcraft.com/blog/#blog",
-    name: "OnwardCraft Blog",
-    description,
-    url: "https://onwardcraft.com/blog/",
-    isPartOf: { "@id": "https://onwardcraft.com/#website" },
-    publisher: { "@id": "https://onwardcraft.com/#organization" },
-    mainEntity: {
-      "@type": "ItemList",
-      numberOfItems: posts.length,
-      itemListElement: posts.slice(0, 25).map((p, i) => ({
-        "@type": "ListItem",
-        position: i + 1,
-        url: `https://onwardcraft.com/blog/${p.slug}/`,
-        name: p.title,
-      })),
-    },
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  '@id': `${SITE.url}/blog/#archive`,
+  url: `${SITE.url}/blog/`,
+  name: 'All Articles',
+  description,
+  isPartOf: { '@id': `${SITE.url}/#website` },
+  dateModified: PUBLISHED_ISO,
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: posts.length,
+    itemListElement: posts.map((p, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${SITE.url}/blog/${p.slug}/`,
+      name: p.title,
+    })),
   },
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://onwardcraft.com/" },
-      { "@type": "ListItem", position: 2, name: "Blog", item: "https://onwardcraft.com/blog/" },
-    ],
-  },
-];
+};
 ---
 
 <Layout title={title} description={description} schema={schema}>
-  <Navbar dark />
+  <SiteHeader />
 
-  <div class="blog-page">
-  <!-- Hero -->
-  <section class="blog-hero">
-    <div class="hero-bg">
-      <div class="gradient-blob blob-1"></div>
-      <div class="gradient-blob blob-2"></div>
-    </div>
-    <div class="blog-hero-inner container">
-      <p class="section-label reveal">The Blog</p>
-      <h1 class="blog-title reveal">
-        Growth Tactics for<br/>
-        <span class="accent">Ambitious Businesses.</span>
-      </h1>
-      <p class="blog-desc reveal">
-        No fluff. No generic advice. Just actionable insights on web design, SEO, and conversion optimization that actually moves the needle.
-      </p>
-    </div>
-  </section>
-
-  <!-- Featured Post -->
-  {featuredPost && (
-    <section class="featured-section">
+  <main id="main">
+    <header class="archive-head">
       <div class="container">
-        <a href={`/blog/${featuredPost.slug}/`} class="featured-card reveal">
-          <div class="featured-badge">Featured</div>
-          <div class="featured-content">
-            <div class="featured-meta">
-              <span class="featured-category">{featuredPost.category}</span>
-              <span class="featured-date">{featuredPost.date} · {featuredPost.readTime}</span>
-            </div>
-            <h2>{featuredPost.title}</h2>
-            <p>{featuredPost.excerpt}</p>
-            <span class="featured-link">
-              Read Article
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
-            </span>
-          </div>
-        </a>
+        <p class="kicker">The archive</p>
+        <h1>All articles</h1>
+        <p class="archive-head__dek">
+          Everything we have published, newest first. {posts.length} articles across
+          three desks — all of them about search, none of them selling anything.
+        </p>
+        <nav class="filters" aria-label="Filter by desk">
+          <span class="filters__current">All ({posts.length})</span>
+          {categories.map((c) => (
+            <a href={`/blog/category/${c.slug}/`}>{c.name} ({c.count})</a>
+          ))}
+        </nav>
+      </div>
+    </header>
+
+    <section class="container archive">
+      <div class="archive__grid">
+        {posts.map((p) => <StoryCard post={p} />)}
       </div>
     </section>
-  )}
 
-  <!-- Categories -->
-  <section class="categories-section">
-    <div class="container">
-      <nav class="category-list reveal" aria-label="Blog categories">
-        <a href="/blog/" class="category-btn active">All</a>
-        {categories.map((cat) => (
-          <a href={`/blog/category/${cat.slug}/`} class="category-btn">{cat.name} <span class="category-count">{cat.count}</span></a>
-        ))}
-      </nav>
-    </div>
-  </section>
+    <Newsletter location="archive-band" />
+  </main>
 
-  <!-- Posts Grid -->
-  <section class="posts-section">
-    <div class="container">
-      <div class="posts-grid stagger-children">
-        {regularPosts.map((post) => (
-          <a href={`/blog/${post.slug}/`} class="post-card stagger-item">
-            <div class="post-card-inner">
-              <div class="post-meta">
-                <span class="post-category">{post.category}</span>
-                <span class="post-date">{post.date}</span>
-              </div>
-              <h3>{post.title}</h3>
-              <p>{post.excerpt}</p>
-              <div class="post-footer">
-                <span class="post-read">{post.readTime}</span>
-                <span class="post-arrow">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
-                </span>
-              </div>
-            </div>
-          </a>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <!-- Newsletter -->
-  <section class="newsletter-section">
-    <div class="container">
-      <div class="newsletter-card reveal gradient-border">
-        <div class="newsletter-inner">
-          <div class="newsletter-content">
-            <h2>Get Weekly Growth Tactics</h2>
-            <p>One email per week. Zero spam. Actionable insights you can implement the same day.</p>
-          </div>
-          <form class="newsletter-form" id="newsletterForm" action="https://formsubmit.co/ajax/getonwardcraft@gmail.com" method="POST">
-            <input type="hidden" name="_cc" value="rachitnand@gmail.com" />
-            <input type="hidden" name="_subject" value="Something great" />
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
-            <input type="email" id="newsletterEmail" name="email" placeholder="your@email.com" required />
-            <button type="submit" class="btn-primary">Subscribe</button>
-          </form>
-          <script is:inline>
-            document.getElementById('newsletterForm')?.addEventListener('submit', async function (e) {
-              e.preventDefault();
-              var form = e.target;
-              var emailInput = document.getElementById('newsletterEmail');
-              var email = emailInput.value.trim();
-              if (!email) return;
-              var button = form.querySelector('button');
-              var originalLabel = button.textContent;
-              button.disabled = true;
-              button.textContent = 'Subscribing…';
-              try {
-                var res = await fetch(form.action, {
-                  method: 'POST',
-                  body: new FormData(form),
-                  headers: { Accept: 'application/json' },
-                });
-                if (res.ok) {
-                  button.textContent = 'Subscribed!';
-                  emailInput.value = '';
-                } else {
-                  throw new Error('request failed');
-                }
-              } catch {
-                // Last-resort fallback so the signup is never silently lost.
-                window.location.href =
-                  'mailto:getonwardcraft@gmail.com?subject=' +
-                  encodeURIComponent('Newsletter subscribe') +
-                  '&body=' +
-                  encodeURIComponent('Please add me to the weekly growth tactics list: ' + email);
-                button.textContent = originalLabel;
-              } finally {
-                button.disabled = false;
-              }
-            });
-          </script>
-        </div>
-      </div>
-    </div>
-  </section>
-  </div>
-
-  <Footer />
+  <SiteFooter />
 </Layout>
 
 <style>
-  .blog-page {
-    --bg-primary: #ffffff;
-    --bg-secondary: #f8fafc;
-    --bg-card: #ffffff;
-    --bg-card-hover: #f1f5f9;
-    --text-primary: #0f172a;
-    --text-secondary: rgba(15, 23, 42, 0.75);
-    --text-muted: rgba(15, 23, 42, 0.5);
-    --border: rgba(0, 0, 0, 0.08);
-    --border-hover: rgba(0, 0, 0, 0.15);
-    color: var(--text-primary);
-    background: var(--bg-primary);
-    min-height: 100vh;
+  .archive-head {
+    padding: 44px 0 30px;
+    border-bottom: 2px solid var(--ink);
   }
-  .blog-hero {
-    min-height: 60vh;
+  .archive-head h1 { font-size: clamp(34px, 5vw, 52px); margin: 12px 0 14px; }
+  .archive-head__dek {
+    font-family: var(--font-read);
+    font-size: 19px;
+    line-height: 1.55;
+    color: var(--ink-3);
+    max-width: 62ch;
+  }
+
+  .filters {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 160px 0 80px;
-    position: relative;
-    overflow: hidden;
-    background: #ffffff;
-    justify-content: center;
-  }
-
-  .hero-bg { display: none; }
-
-  .gradient-blob {
-    position: absolute;
-    border-radius: 50%;
-    filter: blur(120px);
-    opacity: 0.5;
-  }
-
-  .blob-1 {
-    width: 500px;
-    height: 500px;
-    background: radial-gradient(circle, rgba(6, 214, 160, 0.4), transparent 70%);
-    top: -10%;
-    left: -5%;
-    animation: blobFloat1 20s ease-in-out infinite;
-  }
-
-  .blob-2 {
-    width: 400px;
-    height: 400px;
-    background: radial-gradient(circle, rgba(255, 184, 77, 0.3), transparent 70%);
-    bottom: -5%;
-    right: -5%;
-    animation: blobFloat2 18s ease-in-out infinite;
-  }
-
-  @keyframes blobFloat1 {
-    0%, 100% { transform: translate(0, 0) scale(1); }
-    50% { transform: translate(40px, -30px) scale(1.1); }
-  }
-
-  @keyframes blobFloat2 {
-    0%, 100% { transform: translate(0, 0) scale(1); }
-    50% { transform: translate(-30px, 20px) scale(1.15); }
-  }
-
-  .blog-hero-inner {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    max-width: 720px;
-    margin: 0 auto;
-  }
-
-  .blog-title {
-    font-size: clamp(40px, 6vw, 64px);
-    font-weight: 700;
-    line-height: 1.05;
-    letter-spacing: -0.04em;
-    margin-bottom: 24px;
-    text-align: left;
-    color: #000000;
-  }
-
-  .blog-title .accent {
-    background: linear-gradient(135deg, #FFB84D 0%, #06D6A0 55%, #14B8A6 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-style: italic;
-    font-weight: 500;
-    font-family: 'Georgia', 'Times New Roman', serif;
-  }
-
-  .blog-desc {
-    font-size: 18px;
-    color: #444444;
-    line-height: 1.7;
-    max-width: 560px;
-    margin: 0 auto;
-  }
-
-  /* Featured */
-  .featured-section {
-    padding: 60px 0 40px;
-    background: var(--bg-primary);
-    position: relative;
-  }
-
-  .featured-card {
-    display: block;
-    background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-xl);
-    padding: 48px;
-    position: relative;
-    overflow: hidden;
-    transition: all 0.5s var(--transition);
-    text-decoration: none;
-  }
-
-  .featured-card:hover {
-    border-color: var(--border-hover);
-    transform: translateY(-4px);
-    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.35);
-  }
-
-  .featured-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
-  }
-
-  .featured-badge {
-    display: inline-block;
-    font-family: var(--font-heading);
-    font-size: 11px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: white;
-    padding: 6px 16px;
-    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
-    border-radius: 100px;
-    margin-bottom: 20px;
-  }
-
-  .featured-meta {
-    display: flex;
-    gap: 16px;
-    align-items: center;
-    margin-bottom: 16px;
     flex-wrap: wrap;
-  }
-
-  .featured-category {
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--accent-primary);
-  }
-
-  .featured-date {
-    font-size: 13px;
-    color: var(--text-muted);
-  }
-
-  .featured-content h2 {
-    font-size: clamp(24px, 3vw, 36px);
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 16px;
-    color: var(--text-primary);
-    max-width: 700px;
-  }
-
-  .featured-content p {
-    font-size: 16px;
-    color: var(--text-secondary);
-    line-height: 1.7;
-    margin-bottom: 24px;
-    max-width: 640px;
-  }
-
-  .featured-link {
-    display: inline-flex;
-    align-items: center;
     gap: 8px;
-    font-size: 15px;
-    font-weight: 600;
-    color: var(--accent-primary);
-    transition: gap 0.3s;
-  }
-
-  .featured-card:hover .featured-link {
-    gap: 12px;
-  }
-
-  /* Categories */
-  .categories-section {
-    padding: 20px 0 40px;
-    background: var(--bg-primary);
-  }
-
-  .category-list {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-
-  .category-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 7px;
-    padding: 10px 18px;
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--text-secondary);
-    background: rgba(0, 0, 0, 0.04);
-    border: 1px solid var(--border);
-    border-radius: 100px;
-    cursor: pointer;
-    transition: all 0.3s;
-    font-family: var(--font-body);
-    text-decoration: none;
-  }
-
-  .category-btn:hover {
-    background: rgba(6, 214, 160, 0.08);
-    border-color: var(--accent-primary);
-    color: var(--text-primary);
-  }
-
-  .category-btn.active {
-    background: var(--accent-primary);
-    border-color: var(--accent-primary);
-    color: var(--accent-on, #03100B);
+    margin-top: 26px;
+    font-family: var(--font-ui);
+    font-size: 13.5px;
     font-weight: 600;
   }
-
-  .category-count {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 20px;
-    height: 20px;
-    padding: 0 6px;
-    font-size: 11px;
-    font-weight: 700;
+  .filters a, .filters__current {
+    padding: 8px 16px;
+    border: 1px solid var(--rule-strong);
     border-radius: 100px;
-    background: rgba(0, 0, 0, 0.06);
-    color: var(--text-muted);
+    color: var(--ink-2);
   }
+  .filters__current { background: var(--ink); border-color: var(--ink); color: var(--ink-invert); }
+  .filters a:hover { border-color: var(--ink); color: var(--accent); }
 
-  .category-btn.active .category-count {
-    background: rgba(0, 0, 0, 0.14);
-    color: var(--accent-on, #03100B);
-  }
-
-  /* Posts Grid */
-  .posts-section {
-    padding: 40px 0 120px;
-    background: var(--bg-primary);
-    position: relative;
-  }
-
-  .posts-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, var(--border), transparent);
-  }
-
-  .posts-grid {
+  .archive { padding: 40px 0 20px; }
+  .archive__grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px 40px;
   }
 
-  .post-card {
-    display: block;
-    background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-xl);
-    overflow: hidden;
-    transition: all 0.4s var(--transition);
-    text-decoration: none;
-  }
-
-  .post-card:hover {
-    border-color: var(--border-hover);
-    transform: translateY(-4px);
-    box-shadow: 0 20px 48px rgba(0, 0, 0, 0.3);
-  }
-
-  .post-card-inner {
-    padding: 36px;
-  }
-
-  .post-meta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 16px;
-  }
-
-  .post-category {
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--accent-primary);
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-  }
-
-  .post-date {
-    font-size: 12px;
-    color: var(--text-muted);
-  }
-
-  .post-card h3 {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.3;
-    margin-bottom: 12px;
-    color: var(--text-primary);
-    transition: color 0.3s;
-  }
-
-  .post-card:hover h3 {
-    color: var(--accent-primary);
-  }
-
-  .post-card p {
-    font-size: 14px;
-    color: var(--text-secondary);
-    line-height: 1.7;
-    margin-bottom: 20px;
-  }
-
-  .post-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 16px;
-    border-top: 1px solid rgba(255, 255, 255, 0.04);
-  }
-
-  .post-read {
-    font-size: 13px;
-    color: var(--text-muted);
-  }
-
-  .post-arrow {
-    color: var(--text-muted);
-    transition: all 0.3s;
-  }
-
-  .post-card:hover .post-arrow {
-    color: var(--accent-primary);
-    transform: translateX(4px);
-  }
-
-  /* Newsletter */
-  .newsletter-section {
-    padding: 80px 0 120px;
-    background: var(--bg-primary);
-    position: relative;
-  }
-
-  .newsletter-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, var(--border), transparent);
-  }
-
-  .newsletter-card {
-    padding: 1px;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
-  .newsletter-inner {
-    background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
-    border-radius: calc(var(--radius-xl) - 1px);
-    padding: 48px;
-    display: flex;
-    align-items: center;
-    gap: 40px;
-  }
-
-  .newsletter-content {
-    flex: 1;
-  }
-
-  .newsletter-content h2 {
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 8px;
-    color: var(--text-primary);
-  }
-
-  .newsletter-content p {
-    font-size: 15px;
-    color: var(--text-secondary);
-    line-height: 1.6;
-  }
-
-  .newsletter-form {
-    display: flex;
-    gap: 12px;
-    flex: 1;
-  }
-
-  .newsletter-form input {
-    flex: 1;
-    padding: 14px 18px;
-    background: rgba(0, 0, 0, 0.04);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-md);
-    color: var(--text-primary);
-    font-size: 15px;
-    font-family: var(--font-body);
-    outline: none;
-    transition: all 0.3s;
-  }
-
-  .newsletter-form input::placeholder {
-    color: var(--text-muted);
-  }
-
-  .newsletter-form input:focus {
-    border-color: var(--accent-primary);
-    box-shadow: 0 0 0 3px rgba(6, 214, 160, 0.12);
-  }
-
-  .newsletter-form button {
-    padding: 14px 28px;
-    white-space: nowrap;
-  }
-
-  @media (max-width: 1024px) {
-    .posts-grid { grid-template-columns: 1fr; }
-    .newsletter-inner { flex-direction: column; text-align: center; }
-    .newsletter-form { width: 100%; }
-  }
-
-  @media (max-width: 640px) {
-    .blog-hero { padding: 140px 0 60px; }
-    .blog-title { font-size: 36px; }
-    .featured-card { padding: 32px 24px; }
-    .post-card-inner { padding: 28px 24px; }
-    .newsletter-inner { padding: 32px 24px; }
-    .newsletter-form { flex-direction: column; }
-    .gradient-blob { display: none; }
-  }
-
-  /* Disable scroll reveal animations — cards must be visible immediately */
-  .blog-page .reveal,
-  .blog-page .stagger-children,
-  .blog-page .stagger-item {
-    opacity: 1 !important;
-    transform: translateY(0) !important;
-    transition: none !important;
-  }
+  @media (max-width: 960px) { .archive__grid { grid-template-columns: 1fr 1fr; gap: 4px 32px; } }
+  @media (max-width: 620px) { .archive__grid { grid-template-columns: 1fr; } }
 </style>

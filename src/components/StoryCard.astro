@@ -1,0 +1,74 @@
+---
+import { categorySlug } from '../data/posts.js';
+
+export interface Props {
+  post: {
+    slug: string;
+    title: string;
+    excerpt: string;
+    category: string;
+    date: string;
+    readTime: string;
+  };
+  /** 'lead' = oversized top story, 'default' = column item, 'compact' = list row. */
+  size?: 'lead' | 'default' | 'compact';
+  /** Show the deck. Off for dense list views. */
+  showDek?: boolean;
+}
+const { post, size = 'default', showDek = true } = Astro.props;
+---
+
+<article class:list={['card', `card--${size}`]}>
+  <a class="card__cat" href={`/blog/category/${categorySlug(post.category)}/`}>{post.category}</a>
+  <h3 class="card__title">
+    <a href={`/blog/${post.slug}/`}>{post.title}</a>
+  </h3>
+  {showDek && <p class="card__dek">{post.excerpt}</p>}
+  <p class="card__meta">{post.date} · {post.readTime}</p>
+</article>
+
+<style>
+  .card {
+    border-top: 1px solid var(--rule);
+    padding-top: 18px;
+  }
+  .card__cat {
+    font-family: var(--font-ui);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .card__cat:hover { text-decoration: underline; }
+
+  .card__title {
+    font-size: 20px;
+    line-height: 1.17;
+    margin: 9px 0 8px;
+  }
+  .card__title a { transition: color 0.18s var(--ease); }
+  .card__title a:hover { color: var(--accent); }
+
+  .card__dek {
+    font-family: var(--font-read);
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--ink-3);
+  }
+  .card__meta {
+    margin-top: 11px;
+    font-family: var(--font-ui);
+    font-size: 12px;
+    color: var(--ink-3);
+  }
+
+  /* Lead story — the one above the fold. */
+  .card--lead { border-top: 3px solid var(--ink); padding-top: 22px; }
+  .card--lead .card__title { font-size: clamp(30px, 4.4vw, 46px); line-height: 1.04; margin: 12px 0 14px; }
+  .card--lead .card__dek { font-size: 19px; line-height: 1.55; color: var(--ink-2); max-width: 56ch; }
+
+  /* Compact row — archives and rails. */
+  .card--compact .card__title { font-size: 17px; margin: 8px 0 0; }
+  .card--compact .card__meta { margin-top: 8px; }
+</style>

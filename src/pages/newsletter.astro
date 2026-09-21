@@ -1,0 +1,177 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import Newsletter from '../components/Newsletter.astro';
+import { SITE } from '../data/site.js';
+import { posts, PUBLISHED_ISO } from '../data/posts.js';
+import { cities } from '../data/cities.js';
+
+const canonical = `${SITE.url}/newsletter/`;
+const title = `The OnwardCraft Newsletter | ${SITE.name}`;
+const description =
+  'One SEO email every other week: what actually changed in search, the checklist to act on it, and the new city guides. Free, no pitch — we sell nothing.';
+
+const WHAT_YOU_GET = [
+  {
+    h: 'What changed, and whether it matters',
+    p: 'Search changes constantly and almost none of it is worth your Tuesday. We read the updates so you can skip the ones that do not apply to a business your size.',
+  },
+  {
+    h: 'One thing to actually do',
+    p: 'Every issue ends with a single concrete task — a profile field to fix, a page to merge, a query to check. Fifteen minutes, not a project plan.',
+  },
+  {
+    h: 'New city guides as they publish',
+    p: `We are working through ${cities.length} US metros. When your market's guide is updated, you hear about it.`,
+  },
+  {
+    h: 'Nothing else',
+    p: 'No webinars, no funnels, no "quick question — do you have 15 minutes?". There is no sales call at the end of this, because there is nothing to sell.',
+  },
+];
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${canonical}#page`,
+    url: canonical,
+    name: 'The OnwardCraft Newsletter',
+    description,
+    isPartOf: { '@id': `${SITE.url}/#website` },
+    dateModified: PUBLISHED_ISO,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE.url}/` },
+      { '@type': 'ListItem', position: 2, name: 'Newsletter', item: canonical },
+    ],
+  },
+];
+---
+
+<Layout title={title} description={description} canonical={canonical} schema={schema}>
+  <SiteHeader />
+
+  <main id="main">
+    <section class="nl-hero">
+      <div class="container nl-hero__inner">
+        <div>
+          <p class="kicker">The newsletter</p>
+          <h1>One SEO email. Every other week.</h1>
+          <p class="nl-hero__dek">
+            What actually changed in search, what to do about it, and the new
+            city guides as they publish. Free, and the only thing this site
+            ever asks you for.
+          </p>
+          <ul class="nl-hero__facts">
+            <li><strong>Fortnightly</strong> — not daily, not "whenever we feel like it"</li>
+            <li><strong>One action per issue</strong> — fifteen minutes of work, not a project</li>
+            <li><strong>No pitch</strong> — we sell nothing, so there is nothing to pitch</li>
+          </ul>
+        </div>
+
+        <div class="nl-hero__form">
+          <Newsletter
+            variant="inline"
+            heading="Subscribe"
+            blurb="Enter your email and confirm from your inbox. Unsubscribe in one click, any time."
+            location="newsletter-page"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="container nl-what" aria-labelledby="nl-what-h">
+      <div class="section-head"><h2 id="nl-what-h">What lands in your inbox</h2></div>
+      <div class="nl-what__grid">
+        {WHAT_YOU_GET.map((item) => (
+          <div class="nl-what__item">
+            <h3>{item.h}</h3>
+            <p>{item.p}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="container nl-sample" aria-labelledby="nl-sample-h">
+      <div class="section-head">
+        <h2 id="nl-sample-h">Not ready? Start with the archive</h2>
+        <a class="section-more" href="/blog/">All {posts.length} articles →</a>
+      </div>
+      <ul class="nl-sample__list">
+        {posts.slice(0, 6).map((p) => (
+          <li>
+            <a href={`/blog/${p.slug}/`}>{p.title}</a>
+            <span>{p.category} · {p.readTime}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="container nl-privacy">
+      <h2>What we do with your address</h2>
+      <p>
+        We send you the newsletter. That is the whole list. We do not sell,
+        rent, or share it, we do not run it through an enrichment service to
+        find out where you work, and we do not add you to anything else.
+        Unsubscribe once and you are gone for good. The full policy is in the
+        <a href="/privacy/">privacy notice</a>.
+      </p>
+    </section>
+  </main>
+
+  <SiteFooter />
+</Layout>
+
+<style>
+  .nl-hero { border-bottom: 2px solid var(--ink); padding: 44px 0 48px; }
+  .nl-hero__inner {
+    display: grid; grid-template-columns: 1.05fr 1fr; gap: 56px; align-items: start;
+  }
+  .nl-hero h1 { font-size: clamp(32px, 5vw, 52px); margin: 12px 0 18px; }
+  .nl-hero__dek {
+    font-family: var(--font-read); font-size: 20px; line-height: 1.6;
+    color: var(--ink-3); max-width: 50ch;
+  }
+  .nl-hero__facts { list-style: none; margin-top: 26px; }
+  .nl-hero__facts li {
+    padding: 12px 0; border-top: 1px solid var(--rule);
+    font-family: var(--font-ui); font-size: 15px; color: var(--ink-3);
+  }
+  .nl-hero__facts strong { color: var(--ink); font-weight: 600; }
+  .nl-hero__form :global(.nl--inline) { margin: 0; }
+
+  .nl-what, .nl-sample { padding: 48px 0 0; }
+  .nl-what__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 40px; }
+  .nl-what__item h3 { font-size: 19px; margin-bottom: 8px; }
+  .nl-what__item p {
+    font-family: var(--font-read); font-size: 17px; line-height: 1.6; color: var(--ink-3);
+  }
+
+  .nl-sample__list { list-style: none; }
+  .nl-sample__list li {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 20px;
+    padding: 13px 0; border-bottom: 1px solid var(--rule);
+  }
+  .nl-sample__list a {
+    font-family: var(--font-display); font-weight: 700; font-size: 17px; color: var(--ink);
+  }
+  .nl-sample__list a:hover { color: var(--accent); }
+  .nl-sample__list span { font-family: var(--font-ui); font-size: 12.5px; color: var(--ink-3); white-space: nowrap; }
+
+  .nl-privacy { padding: 48px 0 64px; max-width: 760px; }
+  .nl-privacy h2 { font-size: 22px; margin-bottom: 12px; }
+  .nl-privacy p {
+    font-family: var(--font-read); font-size: 17.5px; line-height: 1.65; color: var(--ink-3);
+  }
+  .nl-privacy a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+
+  @media (max-width: 900px) {
+    .nl-hero__inner { grid-template-columns: 1fr; gap: 36px; }
+    .nl-what__grid { grid-template-columns: 1fr; }
+  }
+</style>

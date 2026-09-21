@@ -6,6 +6,8 @@
 // HONESTY RULE applies: no fabricated clients/reviews/results; no Review schema.
 
 import { MIAMI_MARKET, MIAMI_AREAS, MIAMI_FOUNDER, MIAMI_WHY } from './locations.js';
+import { editorialise, editorialiseFaq, editorialiseList, hasVendorVoice } from './voice.js';
+
 import { tampaCity } from './metros/tampa.js';
 import { orlandoCity } from './metros/orlando.js';
 import { dallasCity } from './metros/dallas.js';
@@ -223,7 +225,7 @@ const miamiCity = {
     ],
 };
 
-export const cities = [
+const allCities = [
   miamiCity, tampaCity, orlandoCity, dallasCity, denverCity, phoenixCity,
   newYorkCity, losAngelesCity, chicagoCity, houstonCity, philadelphiaCity,
   sanAntonioCity, sanDiegoCity, austinCity, jacksonvilleCity, fortWorthCity,
@@ -258,6 +260,30 @@ export const cities = [
   greenBayCity, lincolnCity, bendCity, stPetersburgCity, sarasotaCity,
   clarksvilleCity, rockfordCity, bellevueCity, vancouverCity, topekaCity,
 ];
+
+// ── Voice normalisation ────────────────────────────────────────────────────
+// The hub copy was authored in agency first person. This site sells nothing,
+// so every passage that renders goes through the sentence-level voice filter
+// before export. See src/data/voice.js for why it drops rather than rewrites
+// anything it cannot convert cleanly.
+function toCityGuide(city) {
+  return {
+    ...city,
+    intro: editorialise(city.intro),
+    aioAnswer: editorialise(city.aioAnswer),
+    localMarket: city.localMarket
+      ? {
+          ...city.localMarket,
+          body: editorialise(city.localMarket.body),
+          pullQuote: hasVendorVoice(city.localMarket.pullQuote) ? '' : city.localMarket.pullQuote,
+        }
+      : city.localMarket,
+    services: editorialiseList(city.services, 'desc'),
+    faqs: city.faqs.map(editorialiseFaq).filter(Boolean),
+  };
+}
+
+export const cities = allCities.map(toCityGuide);
 
 export const cityPaths = cities.map((c) => ({ citySlug: c.citySlug }));
 export function getCity(citySlug) {

@@ -29,3 +29,7 @@ Allow: /
 Disallow: /cdn-cgi/
 
 Sitemap: https://onwardcraft.com/sitemap.xml
+
+# Editorial feed and the plain-text summary of the publication for AI clients.
+# Feed: https://onwardcraft.com/rss.xml
+# About: https://onwardcraft.com/llms.txt
