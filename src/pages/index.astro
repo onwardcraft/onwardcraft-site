@@ -6,29 +6,39 @@ import Newsletter from '../components/Newsletter.astro';
 import StoryCard from '../components/StoryCard.astro';
 import { SITE, SECTIONS, STANDARDS } from '../data/site.js';
 import { posts, getFeatured, getPostsByCategory, PUBLISHED_ISO } from '../data/posts.js';
-import { cities } from '../data/cities.js';
 
 const lead = getFeatured();
 const rest = posts.filter((p) => p.slug !== lead.slug);
 const picks = rest.slice(0, 6);
 const latest = rest.slice(6, 12);
 
-// A spread of large markets for the city-guide rail. The full index is at
-// /locations/; this is just the shop window.
-const RAIL_CITIES = [
-  'new-york', 'los-angeles', 'chicago', 'houston', 'phoenix', 'philadelphia',
-  'san-antonio', 'san-diego', 'dallas', 'austin', 'miami', 'atlanta',
-]
-  .map((slug) => cities.find((c) => c.citySlug === slug))
-  .filter(Boolean);
-
 // Counts are derived, never typed by hand, so the hero can never drift from
 // what the site actually publishes.
 const STATS = [
   { n: String(posts.length), label: 'in-depth guides' },
-  { n: String(cities.length), label: 'city search guides' },
   { n: String(SECTIONS.length), label: 'desks, nothing else' },
+  { n: '100%', label: 'sourced or labelled' },
   { n: '$0', label: 'for sale, ever' },
+];
+
+// The three promises that separate this from vendor content. Icons are inline
+// so the hero costs no extra request.
+const PROMISES = [
+  {
+    title: 'Nothing for sale',
+    body: 'No services, no placement fees, no affiliate rankings. The newsletter is the only thing we ask for.',
+    d: 'M12 3l7 4v5c0 4.4-3 8.3-7 9-4-0.7-7-4.6-7-9V7l7-4z',
+  },
+  {
+    title: 'Every number sourced',
+    body: 'Figures are linked to their source or labelled a benchmark. A projection is never printed as a measurement.',
+    d: 'M4 19V5m0 14h16M8 15V9m4 6V7m4 8v-4',
+  },
+  {
+    title: 'Corrections in public',
+    body: 'When we get something wrong we fix the page and say what changed, on the page it affects.',
+    d: 'M20 12a8 8 0 1 1-2.3-5.6M20 4v5h-5',
+  },
 ];
 
 const schema = {
@@ -63,17 +73,17 @@ const schema = {
   <main id="main">
     <!-- ── Hero ─────────────────────────────────────────────── -->
     <section class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
       <div class="container hero__inner">
         <div class="hero__copy">
-          <p class="kicker">Independent SEO publication</p>
+          <p class="hero__eyebrow"><span class="hero__pulse" aria-hidden="true"></span>Independent SEO publication</p>
           <h1 class="hero__h1">
             Learn the SEO that actually moves a <span>small business</span>.
           </h1>
           <p class="hero__sub">
-            Guides, checklists and benchmark data for owners doing their own search
-            marketing — plus a local search guide for every one of {cities.length} US
-            metros. We sell nothing, rank no one for money, and label every estimate
-            as an estimate.
+            Guides, checklists and benchmark data for owners doing their own
+            search marketing. We sell nothing, rank no one for money, and label
+            every estimate as an estimate.
           </p>
 
           <Newsletter variant="hero" location="home-hero" />
@@ -86,7 +96,10 @@ const schema = {
         </div>
 
         <aside class="hero__card" aria-label="Start here">
-          <p class="hero__card-h">Start here</p>
+          <div class="hero__card-head">
+            <p class="hero__card-h">Start here</p>
+            <span class="hero__card-badge">Most read</span>
+          </div>
           <ol class="hero__list">
             {[lead, ...picks.slice(0, 3)].map((p) => (
               <li>
@@ -99,6 +112,21 @@ const schema = {
           </ol>
           <a class="hero__card-more" href="/blog/">Browse all {posts.length} guides →</a>
         </aside>
+      </div>
+    </section>
+
+    <!-- ── Promises ─────────────────────────────────────────── -->
+    <section class="promises" aria-label="How this publication works">
+      <div class="container promises__grid">
+        {PROMISES.map((p) => (
+          <div class="promise">
+            <span class="promise__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d={p.d} /></svg>
+            </span>
+            <h2 class="promise__title">{p.title}</h2>
+            <p class="promise__body">{p.body}</p>
+          </div>
+        ))}
       </div>
     </section>
 
@@ -125,15 +153,16 @@ const schema = {
     <!-- ── Desks / resource hubs ────────────────────────────── -->
     <section class="desks reveal" aria-labelledby="desks-h">
       <div class="container">
-        <div class="section-head">
+        <div class="section-head section-head--invert">
           <h2 id="desks-h">The three desks</h2>
           <a class="section-more" href="/topics/">Topics index →</a>
         </div>
         <div class="desks__grid">
-          {SECTIONS.map((s) => {
+          {SECTIONS.map((s, i) => {
             const items = getPostsByCategory(s.name);
             return (
-              <div class="desk">
+              <div class="desk" data-i={i}>
+                <span class="desk__num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
                 <a class="desk__name" href={`/blog/category/${s.slug}/`}>{s.name}</a>
                 <p class="desk__blurb">{s.blurb}</p>
                 <ul class="desk__links">
@@ -160,29 +189,6 @@ const schema = {
       <div class="grid-3 grid-3--rows">
         {latest.map((p) => <StoryCard post={p} size="compact" showDek={false} />)}
       </div>
-    </section>
-
-    <!-- ── City guides ──────────────────────────────────────── -->
-    <section class="cities container reveal" aria-labelledby="cities-h">
-      <div class="section-head">
-        <h2 id="cities-h">Local search, city by city</h2>
-        <a class="section-more" href="/locations/">All {cities.length} cities →</a>
-      </div>
-      <p class="cities__note">
-        Every guide is written from that metro's own search demand — how the
-        season moves, which neighbourhoods generate the queries, and what
-        ranking there realistically costs. No template with the city swapped out.
-      </p>
-      <ul class="cities__grid">
-        {RAIL_CITIES.map((c) => (
-          <li>
-            <a href={`/${c.citySlug}/`}>
-              <span class="cities__name">{c.city}</span>
-              <span class="cities__state">{c.stateAbbr}</span>
-            </a>
-          </li>
-        ))}
-      </ul>
     </section>
 
     <!-- ── Standards ────────────────────────────────────────── -->
@@ -212,27 +218,74 @@ const schema = {
 <style>
   /* ── Hero ── */
   .hero {
-    background:
-      radial-gradient(720px 340px at 8% -20%, rgba(91, 51, 239, 0.10), transparent 62%),
-      radial-gradient(620px 320px at 96% 0%, rgba(34, 166, 179, 0.10), transparent 60%),
-      var(--paper);
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    background: linear-gradient(180deg, #FAFAFF 0%, var(--paper) 100%);
     border-bottom: 1px solid var(--rule);
-    padding: 72px 0 76px;
+    padding: 76px 0 84px;
   }
+  /* Soft colour wash + a faint grid, so the white page has depth without noise. */
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+    background-image:
+      linear-gradient(var(--rule) 1px, transparent 1px),
+      linear-gradient(90deg, var(--rule) 1px, transparent 1px);
+    background-size: 56px 56px;
+    mask-image: radial-gradient(760px 420px at 20% 0%, #000 0%, transparent 78%);
+    -webkit-mask-image: radial-gradient(760px 420px at 20% 0%, #000 0%, transparent 78%);
+    opacity: 0.6;
+  }
+  .hero__glow {
+    position: absolute;
+    inset: -20% -10% auto -10%;
+    height: 620px;
+    z-index: -1;
+    background:
+      radial-gradient(520px 280px at 12% 30%, rgba(91, 51, 239, 0.18), transparent 65%),
+      radial-gradient(460px 260px at 62% 10%, rgba(34, 166, 179, 0.16), transparent 62%),
+      radial-gradient(420px 240px at 92% 40%, rgba(236, 72, 153, 0.12), transparent 62%);
+    filter: blur(6px);
+  }
+
   .hero__inner {
     display: grid;
     grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
     gap: 64px;
     align-items: start;
   }
+
+  .hero__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 7px 14px 7px 11px;
+    border-radius: 999px;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    box-shadow: var(--shadow-sm);
+    font-size: 12.5px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--ink-2);
+  }
+  .hero__pulse {
+    width: 8px; height: 8px; border-radius: 999px;
+    background: #22C55E;
+    box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.18);
+  }
+
   .hero__h1 {
-    margin-top: 16px;
-    font-size: clamp(36px, 5.2vw, 60px);
-    line-height: 1.05;
-    letter-spacing: -0.035em;
+    margin-top: 20px;
+    font-size: clamp(38px, 5.4vw, 64px);
+    line-height: 1.03;
+    letter-spacing: -0.038em;
   }
   .hero__h1 span {
-    background: linear-gradient(120deg, var(--accent), #22A6B3);
+    background: linear-gradient(115deg, var(--accent) 10%, #9333EA 48%, #14B8A6 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -241,38 +294,51 @@ const schema = {
     margin-top: 20px;
     font-family: var(--font-read);
     font-size: 18.5px;
-    line-height: 1.6;
+    line-height: 1.62;
     color: var(--ink-2);
-    max-width: 60ch;
+    max-width: 58ch;
   }
 
   .hero__stats {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 14px 40px;
-    margin-top: 34px;
+    gap: 14px 44px;
+    margin-top: 36px;
     padding-top: 26px;
     border-top: 1px solid var(--rule);
   }
   .hero__stats li { display: flex; flex-direction: column; }
   .hero__stats strong {
     font-family: var(--font-display);
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 800;
-    color: var(--ink);
     letter-spacing: -0.03em;
+    background: linear-gradient(140deg, var(--ink) 30%, var(--accent));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
   }
   .hero__stats span { font-size: 13px; color: var(--ink-3); }
 
   /* Start-here card */
   .hero__card {
+    position: relative;
     background: var(--paper);
     border: 1px solid var(--rule);
     border-radius: var(--radius-lg);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-lg);
     padding: 26px;
   }
+  .hero__card::before {
+    content: '';
+    position: absolute;
+    inset: -1px -1px auto;
+    height: 4px;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    background: linear-gradient(90deg, var(--accent), #9333EA 50%, #14B8A6);
+  }
+  .hero__card-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
   .hero__card-h {
     font-family: var(--font-ui);
     font-size: 11.5px;
@@ -280,6 +346,15 @@ const schema = {
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: var(--ink-3);
+  }
+  .hero__card-badge {
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent-deep);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
   }
   .hero__list { list-style: none; counter-reset: hl; margin-top: 14px; }
   .hero__list li { counter-increment: hl; border-top: 1px solid var(--rule); }
@@ -294,10 +369,7 @@ const schema = {
     color: var(--ink);
     transition: color 0.18s var(--ease);
   }
-  .hero__list-title::before {
-    content: counter(hl) '. ';
-    color: var(--accent);
-  }
+  .hero__list-title::before { content: counter(hl) '. '; color: var(--accent); }
   .hero__list a:hover .hero__list-title { color: var(--accent); }
   .hero__list-meta { display: block; margin-top: 5px; font-size: 12.5px; color: var(--ink-3); }
   .hero__card-more {
@@ -309,94 +381,106 @@ const schema = {
   }
   .hero__card-more:hover { text-decoration: underline; }
 
-  /* ── Section rhythm ── */
-  .featured, .picks, .more, .cities { padding-top: 64px; }
-  .desks { padding: 72px 0; margin-top: 64px; background: var(--paper-2); border-block: 1px solid var(--rule); }
+  /* ── Promises ── */
+  .promises { padding: 28px 0 0; }
+  .promises__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 28px;
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-lg);
+  }
+  .promise { display: flex; flex-direction: column; gap: 8px; }
+  .promise__icon {
+    display: grid;
+    place-items: center;
+    width: 38px; height: 38px;
+    border-radius: 11px;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    color: var(--accent);
+    margin-bottom: 4px;
+  }
+  .promise__icon svg { width: 19px; height: 19px; }
+  .promise__title { font-size: 16.5px; }
+  .promise__body { font-size: 14.5px; line-height: 1.6; color: var(--ink-3); }
 
+  /* ── Section rhythm ── */
+  .featured, .picks, .more { padding-top: 64px; }
   .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
   .grid-3--rows { gap: 0 40px; }
 
-  /* ── Desks ── */
+  /* ── Desks — dark band ── */
+  .desks {
+    position: relative;
+    margin-top: 72px;
+    padding: 76px 0;
+    background: var(--navy);
+    background-image:
+      radial-gradient(760px 360px at 10% -10%, rgba(91, 51, 239, 0.45), transparent 62%),
+      radial-gradient(620px 320px at 92% 108%, rgba(20, 184, 166, 0.28), transparent 62%);
+    overflow: hidden;
+  }
+  .section-head--invert h2 { color: #fff; }
+  .section-head--invert .section-more { color: #B9A6FF; }
+
   .desks__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
   .desk {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 12px;
     padding: 28px;
-    background: var(--paper);
-    border: 1px solid var(--rule);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: var(--radius-lg);
-    transition: box-shadow 0.2s var(--ease), transform 0.2s var(--ease);
+    backdrop-filter: blur(6px);
+    transition: background 0.22s var(--ease), border-color 0.22s var(--ease), transform 0.22s var(--ease);
   }
-  .desk:hover { box-shadow: var(--shadow); transform: translateY(-2px); }
+  .desk:hover { background: rgba(255, 255, 255, 0.08); border-color: rgba(255, 255, 255, 0.24); transform: translateY(-3px); }
+  .desk__num {
+    position: absolute;
+    top: 18px; right: 22px;
+    font-family: var(--font-display);
+    font-size: 34px;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    color: rgba(255, 255, 255, 0.12);
+  }
   .desk__name {
     font-family: var(--font-display);
     font-weight: 800;
     font-size: 22px;
     letter-spacing: -0.025em;
-    color: var(--ink);
+    color: #fff;
   }
-  .desk:hover .desk__name { color: var(--accent); }
-  .desk__blurb {
-    font-family: var(--font-read);
-    font-size: 15px;
-    line-height: 1.6;
-    color: var(--ink-3);
-  }
+  .desk:hover .desk__name { color: #C9B8FF; }
+  .desk__blurb { font-size: 15px; line-height: 1.6; color: rgba(255, 255, 255, 0.68); }
   .desk__links { list-style: none; display: flex; flex-direction: column; gap: 9px; }
   .desk__links li { padding-left: 16px; position: relative; }
   .desk__links li::before {
     content: '';
     position: absolute; left: 0; top: 9px;
-    width: 5px; height: 5px; border-radius: 999px; background: var(--rule-strong);
+    width: 5px; height: 5px; border-radius: 999px;
+    background: rgba(255, 255, 255, 0.35);
   }
   .desk__links a {
     font-size: 14.5px;
     line-height: 1.45;
-    color: var(--ink-2);
+    color: rgba(255, 255, 255, 0.86);
     transition: color 0.18s var(--ease);
   }
-  .desk__links a:hover { color: var(--accent); }
+  .desk__links a:hover { color: #fff; text-decoration: underline; }
   .desk__count {
     margin-top: auto;
     padding-top: 6px;
-    font-family: var(--font-ui);
     font-size: 13.5px;
     font-weight: 600;
-    color: var(--accent);
+    color: #B9A6FF;
   }
   .desk__count:hover { text-decoration: underline; }
-
-  /* ── Cities ── */
-  .cities__note {
-    font-family: var(--font-read);
-    font-size: 16.5px;
-    line-height: 1.6;
-    color: var(--ink-3);
-    max-width: 68ch;
-    margin: -12px 0 26px;
-  }
-  .cities__grid {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 12px;
-  }
-  .cities__grid a {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-    padding: 16px 18px;
-    height: 100%;
-    background: var(--paper);
-    border: 1px solid var(--rule);
-    border-radius: var(--radius);
-    transition: border-color 0.18s var(--ease), box-shadow 0.18s var(--ease), transform 0.18s var(--ease);
-  }
-  .cities__grid a:hover { border-color: var(--accent); box-shadow: var(--shadow-sm); transform: translateY(-2px); }
-  .cities__name { font-family: var(--font-display); font-weight: 700; font-size: 15.5px; color: var(--ink); }
-  .cities__grid a:hover .cities__name { color: var(--accent); }
-  .cities__state { font-family: var(--font-ui); font-size: 11.5px; letter-spacing: 0.08em; color: var(--ink-3); }
 
   /* ── Standards ── */
   .standards { margin-top: 72px; padding: 72px 0; background: var(--paper-2); border-top: 1px solid var(--rule); }
@@ -404,38 +488,43 @@ const schema = {
     list-style: none;
     counter-reset: std;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 28px 36px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
   }
-  .standards__list li { counter-increment: std; }
-  .standards__list h3 { font-size: 18px; margin-bottom: 8px; }
+  .standards__list li {
+    counter-increment: std;
+    padding: 24px;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius-lg);
+    transition: box-shadow 0.2s var(--ease), transform 0.2s var(--ease);
+  }
+  .standards__list li:hover { box-shadow: var(--shadow); transform: translateY(-2px); }
+  .standards__list h3 { font-size: 17.5px; margin-bottom: 8px; }
   .standards__list h3::before {
     content: counter(std, decimal-leading-zero);
     display: block;
-    font-family: var(--font-ui);
-    font-size: 11.5px;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    color: var(--accent);
-    margin-bottom: 7px;
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    background: linear-gradient(140deg, var(--accent), #14B8A6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 8px;
   }
-  .standards__list p {
-    font-family: var(--font-read);
-    font-size: 15.5px;
-    line-height: 1.6;
-    color: var(--ink-3);
-  }
+  .standards__list p { font-size: 15px; line-height: 1.6; color: var(--ink-3); }
 
   @media (max-width: 1040px) {
     .hero__inner { grid-template-columns: 1fr; gap: 40px; }
     .hero { padding: 52px 0 60px; }
-    .grid-3, .desks__grid { grid-template-columns: 1fr 1fr; }
-    .cities__grid { grid-template-columns: repeat(3, 1fr); }
+    .grid-3, .desks__grid, .promises__grid { grid-template-columns: 1fr 1fr; }
   }
   @media (max-width: 720px) {
-    .grid-3, .desks__grid { grid-template-columns: 1fr; }
+    .grid-3, .desks__grid, .promises__grid { grid-template-columns: 1fr; }
     .grid-3--rows { gap: 0; }
-    .cities__grid { grid-template-columns: repeat(2, 1fr); }
-    .featured, .picks, .more, .cities { padding-top: 48px; }
+    .featured, .picks, .more { padding-top: 48px; }
+    .promises__grid { padding: 22px; }
   }
 </style>

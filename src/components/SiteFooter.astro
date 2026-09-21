@@ -1,16 +1,5 @@
 ---
 import { SITE, SECTIONS } from '../data/site.js';
-import { cities } from '../data/cities.js';
-
-// A short, stable set of the largest markets. The full 160-city index lives at
-// /locations/; the footer only needs enough to open a crawl path.
-const FOOTER_CITIES = [
-  'new-york', 'los-angeles', 'chicago', 'houston', 'phoenix', 'philadelphia',
-  'san-antonio', 'san-diego', 'dallas', 'austin', 'atlanta', 'miami',
-  'denver', 'seattle', 'boston', 'tampa',
-]
-  .map((slug) => cities.find((c) => c.citySlug === slug))
-  .filter(Boolean);
 
 const year = new Date().getFullYear();
 ---
@@ -34,16 +23,6 @@ const year = new Date().getFullYear();
         <li><a href="/blog/">All articles</a></li>
         <li><a href="/topics/">Topics index</a></li>
       </ul>
-    </nav>
-
-    <nav class="footer__col" aria-label="City guides">
-      <h2 class="footer__h">City guides</h2>
-      <ul class="footer__cities">
-        {FOOTER_CITIES.map((c) => (
-          <li><a href={`/${c.citySlug}/`}>{c.city}</a></li>
-        ))}
-      </ul>
-      <a class="footer__more" href="/locations/">All 160 cities →</a>
     </nav>
 
     <nav class="footer__col" aria-label="The publication">
@@ -78,7 +57,7 @@ const year = new Date().getFullYear();
 
   .footer__grid {
     display: grid;
-    grid-template-columns: 1.6fr 1fr 1.2fr 1fr;
+    grid-template-columns: 1.6fr 1fr 1fr;
     gap: 48px;
   }
 

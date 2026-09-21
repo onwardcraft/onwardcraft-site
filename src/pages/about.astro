@@ -5,13 +5,11 @@ import SiteFooter from '../components/SiteFooter.astro';
 import Newsletter from '../components/Newsletter.astro';
 import { SITE, AUTHOR, STANDARDS, SECTIONS } from '../data/site.js';
 import { posts, PUBLISHED_ISO } from '../data/posts.js';
-import { cities } from '../data/cities.js';
-import { locations } from '../data/locations.js';
 
 const canonical = `${SITE.url}/about/`;
 const title = `About ${SITE.name} — an independent SEO publication`;
 const description =
-  'OnwardCraft is an independent SEO publication for small businesses. What we cover, what we refuse to print, how the city guides are researched, and who writes them.';
+  'OnwardCraft is an independent SEO publication for small businesses. What we cover, what we refuse to print, and who writes it.';
 
 const schema = [
   {
@@ -88,28 +86,6 @@ const schema = [
         </section>
 
         <section class="sec">
-          <h2>How the city guides are researched</h2>
-          <p>
-            We publish a local search guide for every one of {cities.length} US
-            metros — {locations.length} topic guides plus {cities.length} market
-            overviews. Each one starts from that market rather than a template:
-            how big it is and which way it is growing, what makes its demand
-            seasonal, which parts of the metro generate the searches, and what
-            local practitioners actually charge.
-          </p>
-          <p>
-            That is why the Denver guide talks about hail season and the Phoenix
-            guide does not. Where a figure is a published benchmark we link it.
-            Where it is an estimate, we say so on the page, next to the number
-            rather than in a footer nobody reads. Charts are labelled
-            illustrative when they show a shape rather than a measurement.
-          </p>
-          <p>
-            <a href="/locations/">Browse the city index →</a>
-          </p>
-        </section>
-
-        <section class="sec">
           <h2>Who writes this</h2>
           <p>{AUTHOR.bio}</p>
           <p>
@@ -148,8 +124,7 @@ const schema = [
             <h2 class="rail__h">By the numbers</h2>
             <dl class="mini-stats">
               <div><dt>Articles</dt><dd>{posts.length}</dd></div>
-              <div><dt>City guides</dt><dd>{locations.length + cities.length}</dd></div>
-              <div><dt>Metros</dt><dd>{cities.length}</dd></div>
+              <div><dt>Desks</dt><dd>{SECTIONS.length}</dd></div>
               <div><dt>Things for sale</dt><dd>0</dd></div>
             </dl>
           </div>

@@ -33,7 +33,6 @@ export const AUTHOR = {
 export const NAV = [
   { label: 'Latest', href: '/blog/' },
   { label: 'Topics', href: '/topics/' },
-  { label: 'City Guides', href: '/locations/' },
   { label: 'About', href: '/about/' },
 ];
 
@@ -77,11 +76,6 @@ export const STANDARDS = [
     title: 'Nothing is for sale here',
     body:
       'We do not sell SEO services, take placement fees, or rank anyone in exchange for money. The newsletter is free and the only thing we ask for.',
-  },
-  {
-    title: 'Local research, not find-and-replace',
-    body:
-      'City guides are written from that market\u2019s own search demand, seasonality, and geography \u2014 not one template with the city name swapped out.',
   },
   {
     title: 'Corrections in public',

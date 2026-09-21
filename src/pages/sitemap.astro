@@ -4,13 +4,10 @@ import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import { SITE, SECTIONS } from '../data/site.js';
 import { posts, getPostsByCategory } from '../data/posts.js';
-import { cities } from '../data/cities.js';
-import { locations } from '../data/locations.js';
-import { GUIDE_TOPICS } from '../data/guides.js';
 
 const canonical = `${SITE.url}/sitemap/`;
-const total = posts.length + cities.length + locations.length + 9;
-const description = `A human-readable index of everything on OnwardCraft — ${posts.length} SEO articles, ${cities.length} city overviews, and ${locations.length} local search guides.`;
+const total = posts.length + 8;
+const description = `A human-readable index of everything on OnwardCraft — all ${posts.length} SEO articles plus every section of the publication.`;
 ---
 
 <Layout title={`Site index | ${SITE.name}`} description={description} canonical={canonical}>
@@ -35,7 +32,6 @@ const description = `A human-readable index of everything on OnwardCraft — ${p
           <li><a href="/">Front page</a></li>
           <li><a href="/blog/">All articles</a></li>
           <li><a href="/topics/">Topics</a></li>
-          <li><a href="/locations/">City guides</a></li>
           <li><a href="/about/">About &amp; standards</a></li>
           <li><a href="/newsletter/">Newsletter</a></li>
           <li><a href="/contact/">Contact &amp; corrections</a></li>
@@ -56,21 +52,6 @@ const description = `A human-readable index of everything on OnwardCraft — ${p
         );
       })}
 
-      <section class="idx__sec">
-        <h2>City guides <span>({cities.length + locations.length})</span></h2>
-        <ul class="idx__cities">
-          {cities.map((c) => (
-            <li>
-              <a class="idx__city" href={`/${c.citySlug}/`}>{c.city}, {c.stateAbbr}</a>
-              {locations
-                .filter((l) => l.citySlug === c.citySlug)
-                .map((l) => (
-                  <a class="idx__sub" href={`/${l.citySlug}/${l.serviceSlug}/`}>{GUIDE_TOPICS[l.serviceSlug].label}</a>
-                ))}
-            </li>
-          ))}
-        </ul>
-      </section>
     </div>
   </main>
   <SiteFooter />

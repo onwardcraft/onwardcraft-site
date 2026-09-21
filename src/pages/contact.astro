@@ -9,7 +9,7 @@ import { PUBLISHED_ISO } from '../data/posts.js';
 const canonical = `${SITE.url}/contact/`;
 const title = `Contact & Corrections | ${SITE.name}`;
 const description =
-  'Send a correction, suggest a city guide, or point out something we got wrong. OnwardCraft is an independent SEO publication — we take corrections seriously and publish them.';
+  'Send a correction, suggest a topic, or point out something we got wrong. OnwardCraft is an independent SEO publication — we take corrections seriously and publish them.';
 
 // Same FormSubmit.co endpoint the newsletter uses. First submission after a
 // deploy triggers a one-time activation email to the publication address.
@@ -17,7 +17,7 @@ const FORM_ENDPOINT = SITE.newsletterEndpoint;
 
 const REASONS = [
   { value: 'correction', label: 'A correction — something here is wrong' },
-  { value: 'city', label: 'A city guide request' },
+  { value: 'topic', label: 'A topic you want covered' },
   { value: 'topic', label: 'A topic you should cover' },
   { value: 'other', label: 'Something else' },
 ];
@@ -117,13 +117,13 @@ const REASONS = [
           </div>
 
           <div class="rail__box">
-            <h2 class="rail__h">Requesting a city</h2>
+            <h2 class="rail__h">Requesting a topic</h2>
             <p class="rail__body">
-              We publish guides for 160 US metros. If yours is missing, say which
-              one and what is distinctive about demand there — that context is
-              what makes a guide worth writing.
+              If there is a search problem you keep hitting and we have not
+              covered it, say what you tried and where it went wrong — that
+              context is what makes a guide worth writing.
             </p>
-            <a class="rail__link" href="/locations/">City index →</a>
+            <a class="rail__link" href="/topics/">Topics index →</a>
           </div>
 
           <Newsletter variant="rail" heading="The OnwardCraft email" location="contact-rail" />

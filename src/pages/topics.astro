@@ -5,12 +5,10 @@ import SiteFooter from '../components/SiteFooter.astro';
 import Newsletter from '../components/Newsletter.astro';
 import { SITE, SECTIONS } from '../data/site.js';
 import { getPostsByCategory, posts, PUBLISHED_ISO } from '../data/posts.js';
-import { cities } from '../data/cities.js';
-import { GUIDE_ORDER, GUIDE_TOPICS } from '../data/guides.js';
 
 const title = `Topics | ${SITE.name}`;
 const description =
-  'Everything OnwardCraft covers, in one index: the three SEO desks, every article filed under each, and the two local search guides published for all 160 US metros.';
+  'Everything OnwardCraft covers, in one index: the three SEO desks and every article filed under each.';
 
 const schema = {
   '@context': 'https://schema.org',
@@ -33,8 +31,7 @@ const schema = {
         <p class="kicker">Index</p>
         <h1>Topics</h1>
         <p class="topics-head__dek">
-          One subject, three desks, {posts.length} articles — plus a local search
-          guide for every one of {cities.length} US metros. If it is not about
+          One subject, three desks, {posts.length} articles. If it is not about
           search, we do not publish it.
         </p>
       </div>
@@ -64,27 +61,6 @@ const schema = {
         );
       })}
 
-      <section class="desk-block" aria-labelledby="desk-local">
-        <div class="section-head">
-          <h2 id="desk-local">City guides</h2>
-          <a class="section-more" href="/locations/">All {cities.length} cities →</a>
-        </div>
-        <p class="desk-block__blurb">
-          Two guides per metro, written from that market's own search demand
-          rather than a shared template.
-        </p>
-        <ul class="desk-block__list">
-          {GUIDE_ORDER.map((slug) => {
-            const t = GUIDE_TOPICS[slug];
-            return (
-              <li>
-                <a href="/locations/">{t.label} — published for all {cities.length} metros</a>
-                <span>/{'{city}'}/{slug}/</span>
-              </li>
-            );
-          })}
-        </ul>
-      </section>
     </div>
 
     <Newsletter location="topics-band" />

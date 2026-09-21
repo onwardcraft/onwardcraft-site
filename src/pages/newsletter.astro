@@ -5,12 +5,11 @@ import SiteFooter from '../components/SiteFooter.astro';
 import Newsletter from '../components/Newsletter.astro';
 import { SITE } from '../data/site.js';
 import { posts, PUBLISHED_ISO } from '../data/posts.js';
-import { cities } from '../data/cities.js';
 
 const canonical = `${SITE.url}/newsletter/`;
 const title = `The OnwardCraft Newsletter | ${SITE.name}`;
 const description =
-  'One SEO email every other week: what actually changed in search, the checklist to act on it, and the new city guides. Free, no pitch — we sell nothing.';
+  'One SEO email every other week: what actually changed in search and the checklist to act on it. Free, no pitch — we sell nothing.';
 
 const WHAT_YOU_GET = [
   {
@@ -22,8 +21,8 @@ const WHAT_YOU_GET = [
     p: 'Every issue ends with a single concrete task — a profile field to fix, a page to merge, a query to check. Fifteen minutes, not a project plan.',
   },
   {
-    h: 'New city guides as they publish',
-    p: `We are working through ${cities.length} US metros. When your market's guide is updated, you hear about it.`,
+    h: 'The source, every time',
+    p: 'Every issue links the checklist, the benchmark or the guide it came from, so you can act on it the same week.',
   },
   {
     h: 'Nothing else',
@@ -64,7 +63,7 @@ const schema = [
           <h1>One SEO email. Every other week.</h1>
           <p class="nl-hero__dek">
             What actually changed in search, what to do about it, and the new
-            city guides as they publish. Free, and the only thing this site
+            guides as they publish. Free, and the only thing this site
             ever asks you for.
           </p>
           <ul class="nl-hero__facts">
