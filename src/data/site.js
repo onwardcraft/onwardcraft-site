@@ -16,7 +16,9 @@ export const SITE = {
   language: 'en',
   email: 'getonwardcraft@gmail.com',
   // FormSubmit.co AJAX endpoint — the newsletter is the single site-wide CTA.
-  newsletterEndpoint: 'https://formsubmit.co/ajax/getonwardcraft@gmail.com',
+  newsletterEndpoint: 'https://formsubmit.co/ajax/ritiknamdevblog@gmail.com',
+  // Non-AJAX endpoint for plain HTML form posts (contact page).
+  contactEndpoint: 'https://formsubmit.co/ritiknamdevblog@gmail.com',
   founded: '2026',
 };
 
