@@ -10,6 +10,8 @@ export interface Props {
   schema?: object | object[];
   /** Article pages get a slightly narrower measure and no hero rule. */
   variant?: 'default' | 'article';
+  /** e.g. 'noindex, follow' for held pages. Omitted = indexable. */
+  robots?: string;
 }
 const {
   title = `${SITE.name} — ${SITE.tagline}`,
@@ -18,6 +20,7 @@ const {
   ogType = 'website',
   ogImage = `${SITE.url}/og-image.png`,
   schema,
+  robots,
 } = Astro.props;
 
 const pathname = Astro.url.pathname;
@@ -52,10 +55,8 @@ const orgSchema = {
   knowsAbout: [
     'Search Engine Optimization',
     'Local SEO',
-    'Small Business Marketing',
-    'Web Design',
-    'Conversion Rate Optimization',
-    'Content Marketing',
+    'Technical SEO',
+    'Google Business Profile',
   ],
   ...(sameAs.length > 0 ? { sameAs } : {}),
 };
@@ -102,6 +103,7 @@ const allSchemas = [orgSchema, websiteSchema, blogSchema, deskSchema, ...pageSch
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
+    {robots && <meta name="robots" content={robots} />}
 
     <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonicalUrl} />

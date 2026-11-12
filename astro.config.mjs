@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import { HELD_SLUGS } from './src/data/posts.js';
 
 export default defineConfig({
   output: 'static',
@@ -11,6 +12,8 @@ export default defineConfig({
     // Omitting it lets Google judge freshness per page from its own crawl history.
     sitemap({
       entryLimit: 10000,
+      // Held (noindex) studies stay out of the sitemap.
+      filter: (page) => !HELD_SLUGS.some((s) => page.includes(`/blog/${s}/`)),
     }),
   ],
 });

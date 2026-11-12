@@ -76,7 +76,8 @@ const schema = [
       </div>
     </header>
 
-    <section class="container cat-body">
+    <section class="container cat-body" aria-labelledby="cat-list-h">
+      <h2 id="cat-list-h" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap">All {name} articles</h2>
       <div class="cat-grid">
         {items.map((p) => <StoryCard post={p} />)}
       </div>

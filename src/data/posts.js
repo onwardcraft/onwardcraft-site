@@ -36,7 +36,7 @@ export const posts = [
   },
   {
     slug: "google-business-profile-guide",
-    title: "Google Business Profile Optimization: The Complete 2025 Guide for Service-Area Businesses",
+    title: "Google Business Profile Guide for Service-Area Businesses",
     excerpt: "Complete guide to optimizing your Google Business Profile for service-area businesses. Includes category strategy by trade, photo tips, review generation...",
     category: "Local SEO",
     date: PUBLISHED_LABEL,
@@ -136,8 +136,8 @@ export const posts = [
   },
   {
     slug: "local-seo-experts-service-area-tips",
-    title: "30 Local SEO Experts Share Their Best Tip for Service-Area Businesses",
-    excerpt: "30 local SEO experts share their best tip for service-area businesses. Includes GBP, reviews, citations, and more.",
+    title: "30 Local SEO Tips for Service-Area Businesses (GBP to Links)",
+    excerpt: "30 practical local SEO tips for service-area businesses: Google Business Profile, reviews, citations, on-page, content, technical SEO and links.",
     category: "Local SEO",
     date: PUBLISHED_LABEL,
     isoDate: PUBLISHED_ISO,
@@ -203,6 +203,8 @@ export const posts = [
     isoDate: PUBLISHED_ISO,
     readTime: "29 min read",
     featured: false,
+    // HELD 2026-11-12: original-research claims with no dataset in the repo. noindex until the data is published.
+    held: true,
   },
   {
     slug: "contractor-gbp-study",
@@ -213,6 +215,8 @@ export const posts = [
     isoDate: PUBLISHED_ISO,
     readTime: "35 min read",
     featured: false,
+    // HELD 2026-11-12: original-research claims with no dataset in the repo. noindex until the data is published.
+    held: true,
   },
   {
     slug: "google-business-profile-categories-study",
@@ -223,6 +227,8 @@ export const posts = [
     isoDate: PUBLISHED_ISO,
     readTime: "20 min read",
     featured: false,
+    // HELD 2026-11-12: original-research claims with no dataset in the repo. noindex until the data is published.
+    held: true,
   },
   {
     slug: "website-speed-lead-generation-study",
@@ -233,6 +239,8 @@ export const posts = [
     isoDate: PUBLISHED_ISO,
     readTime: "18 min read",
     featured: false,
+    // HELD 2026-11-12: original-research claims with no dataset in the repo. noindex until the data is published.
+    held: true,
   },
   {
     slug: "how-much-does-seo-cost",
@@ -304,6 +312,10 @@ export function categorySlug(category) {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 }
+
+// Studies whose underlying dataset is not published. They stay readable but
+// carry noindex,follow and are left out of the sitemap until the data ships.
+export const HELD_SLUGS = posts.filter((p) => p.held).map((p) => p.slug);
 
 export function getPost(slug) {
   return posts.find((p) => p.slug === slug);

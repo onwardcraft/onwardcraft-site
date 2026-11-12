@@ -55,9 +55,10 @@ const breadcrumbSchema = {
 ---
 
 <Layout
-  title={`${displayTitle} | ${SITE.name}`}
+  title={`${displayTitle} | ${SITE.name}`.length > 60 ? displayTitle : `${displayTitle} | ${SITE.name}`}
   description={description}
   canonical={canonical}
+  robots={record?.held ? 'noindex, follow' : undefined}
   ogType="article"
   schema={breadcrumbSchema}
 >
@@ -96,6 +97,10 @@ const breadcrumbSchema = {
               {readTime && <><span aria-hidden="true">·</span><span>{readTime}</span></>}
             </div>
           </header>
+
+          {record?.held && (
+            <p class="article__dek" role="note"><strong>Editor's note:</strong> the dataset behind this study has not been published, so its figures cannot be independently checked. Treat them as unverified until the data is released.</p>
+          )}
 
           <div class="prose" set:html={contentHtml}>
             {!contentHtml && <slot />}

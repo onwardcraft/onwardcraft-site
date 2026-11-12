@@ -28,6 +28,20 @@ Content-Signal: search=yes,ai-input=yes,ai-train=yes
 Allow: /
 Disallow: /cdn-cgi/
 
+# Search and AI retrieval crawlers, named so they keep access if the wildcard tightens.
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: PerplexityBot
+User-agent: Claude-SearchBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: CCBot
+Allow: /
+Disallow: /cdn-cgi/
+
 Sitemap: https://onwardcraft.com/sitemap.xml
 
 # Editorial feed and the plain-text summary of the publication for AI clients.
