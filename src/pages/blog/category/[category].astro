@@ -21,7 +21,7 @@ const others = getCategories().filter((c) => c.slug !== slug);
 
 const title = `${name} — ${items.length} Articles | ${SITE.name}`;
 const description = section
-  ? `${section.blurb} ${items.length} articles from the ${name} desk at OnwardCraft.`
+  ? `${section.blurb} ${items.length} articles on this desk.`
   : `Every OnwardCraft article filed under ${name} — ${items.length} guides and studies.`;
 const canonical = `${SITE.url}/blog/category/${slug}/`;
 
