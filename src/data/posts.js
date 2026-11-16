@@ -65,6 +65,16 @@ export const posts = [
     featured: false,
   },
   {
+    slug: "google-business-profile-suspended",
+    title: "Google Business Profile Suspended? How to Fix It and Appeal",
+    excerpt: "Why Google suspends Business Profiles, what to fix before you appeal, the evidence Google accepts, and why a new profile makes it worse.",
+    category: "Local SEO",
+    date: "November 16, 2026",
+    isoDate: "2026-11-16",
+    readTime: "12 min read",
+    featured: false,
+  },
+  {
     slug: "gbp-optimization-checklist",
     title: "The GBP Optimization Checklist: 30 Steps to Rank Higher on Google Maps",
     excerpt: "Complete 30-step Google Business Profile optimization checklist. Includes categories, photos, posts, reviews, and advanced tactics for contractors.",

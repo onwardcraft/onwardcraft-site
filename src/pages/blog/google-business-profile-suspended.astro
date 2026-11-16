@@ -1,0 +1,211 @@
+---
+import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
+
+const title = 'Google Business Profile Suspended? How to Fix It and Appeal';
+const description = 'Why Google suspends Business Profiles, what to check before you appeal, the evidence Google accepts, and why a new profile makes it worse.';
+const url = 'https://onwardcraft.com/blog/google-business-profile-suspended/';
+
+const faqs = [
+  {
+    q: 'Why was my Google Business Profile suspended?',
+    a: 'Google says it may suspend or disable Business Profiles that do not follow its guidelines for representing a business. The usual causes are a business name with extra keywords or a city added, an address the business does not operate from (such as a virtual office or a P.O. box), duplicate profiles for one location, and fake or incentivised reviews. The appeals tool shows the reason for the decision and links to the policy that was applied.',
+  },
+  {
+    q: 'How do I appeal a suspended Google Business Profile?',
+    a: 'Fix the profile so it follows the guidelines, then open the Google Business Profile appeals tool while signed in to the Google account that owns the profile. Select the profile and the decision, attach evidence such as a business registration, licence, tax certificate or utility bill whose name and address match the profile, explain why it should be reinstated, and submit. Google says an appeal can only be submitted once, and it replies by email.',
+  },
+  {
+    q: 'Should I create a new Google Business Profile if mine is suspended?',
+    a: 'No. Google states plainly that you should not create a new Business Profile for the same business. Its guidelines also allow only one profile per business location, so a second profile is itself a guideline violation and leaves the original problem unresolved.',
+  },
+  {
+    q: 'What evidence helps a Google Business Profile appeal?',
+    a: 'Google lists official business registration, a business licence, tax certificates and business utility bills for electricity, phone, water or internet. It advises checking that the business name and address on every document match the profile being appealed. Evidence that shows a different name or address weakens the appeal rather than helping it.',
+  },
+  {
+    q: 'What if my Google Business Profile appeal is denied?',
+    a: 'Google says that only if a reinstatement request is denied, it may be able to carry out an additional review, and you can submit new evidence that was not included with the first appeal. Use that second chance for documents that genuinely prove the business is real and operates where the profile says it does, not for a longer explanation.',
+  },
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "image": "https://onwardcraft.com/og-image.png",
+    "author": { "@type": "Organization", "name": "OnwardCraft" },
+    "publisher": { "@type": "Organization", "name": "OnwardCraft", "logo": { "@type": "ImageObject", "url": "https://onwardcraft.com/logo.png" } },
+    "datePublished": "2026-11-16",
+    "dateModified": "2026-11-16",
+    "mainEntityOfPage": { "@type": "WebPage", "@id": url }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+  }
+];
+---
+
+<BlogPostLayout
+  title={title}
+  description={description}
+  category='Local SEO'
+  date='November 16, 2026'
+  readTime='12 min read'
+  tags={['Google Business Profile', 'Suspension', 'Local SEO', 'Appeals']}
+  schema={schema}
+>
+
+<p class="lead">A suspended Google Business Profile is fixed in a set order. Find the guideline Google says you broke, correct the profile so it complies, gather documents whose name and address match the profile exactly, and submit one appeal through Google's appeals tool. Do not create a replacement profile. Google tells business owners not to, and a second profile is itself a guideline violation.</p>
+
+<p>Most of what goes wrong after a suspension happens in the first hour. The owner panics, opens a new profile, edits the name three times, or files an appeal before fixing anything. Each of those makes reinstatement harder. Everything below is based on Google's own help documentation, linked in each section and checked on 16 November 2026, because the suspension process is Google's process and second-hand advice about it goes out of date quickly.</p>
+
+<p>If your profile is live and you want to keep it that way, the <a href="/blog/google-business-profile-guide/">Google Business Profile guide for service-area businesses</a> and the <a href="/blog/gbp-optimization-checklist/">GBP optimization checklist</a> cover the setup side. This page is for the day it has already happened.</p>
+
+<hr>
+
+<h2>What a Google Business Profile Suspension Actually Means</h2>
+
+<p>Google's help page <a href="https://support.google.com/business/answer/4569145" target="_blank" rel="noopener noreferrer">Fix suspended or disabled profiles</a> says Google "may suspend or disable Business Profiles that don't follow our guidelines." The guidelines in question are the <a href="https://support.google.com/business/answer/3038177" target="_blank" rel="noopener noreferrer">Guidelines for representing your business on Google</a>, which open by saying that following them is how you "make sure your Business Profile won't be suspended."</p>
+
+<p>Google describes several different things that can be removed, and they are not the same problem:</p>
+
+<ul>
+<li><strong>The profile itself.</strong> The public cannot see it, and the owner and managers cannot act on it. If it is reinstated, the owner and managers are reinstated with it.</li>
+<li><strong>The owner's Google account.</strong> Google removes every location that account owns. Reinstating the account reinstates those locations.</li>
+<li><strong>A manager's Google account.</strong> The manager is suspended on the profiles they manage, but the locations themselves are not affected.</li>
+</ul>
+
+<p>There is also a separate penalty for reviews. Google's page on <a href="https://support.google.com/business/answer/14114287" target="_blank" rel="noopener noreferrer">Business Profile restrictions for policy violations</a> says that a business found to have broken the Fake Engagement policy may be blocked from receiving new reviews for a set period, have its existing reviews unpublished for a set period, or show customers a warning that fake reviews were removed. That is a restriction, not a suspension, and it has its own appeal.</p>
+
+<p>Work out which of these you are dealing with before doing anything else. The appeals tool tells you: Google says it shows the date of the decision, the reason, a link to the policy that was violated, whether the decision can be appealed, and its current status.</p>
+
+<hr>
+
+<h2>The Guideline Breaches That Most Often Trigger a Suspension</h2>
+
+<p>Google does not publish a ranked list of suspension causes, so treat the order below as a working checklist, not a statistic. Each item is a rule Google states in its guidelines, and each is something home service profiles get wrong regularly.</p>
+
+<h3>1. Extra words in the business name</h3>
+<p>The guidelines say the name should reflect "your business's real-world name, as used consistently on your storefront, website, stationery, and as known to customers," and that "including unnecessary information in your business name isn't permitted, and could result in the suspension of your Business Profile." Google's examples of what the name must not include are marketing taglines, store codes, trademark symbols, fully capitalised words, opening hours, phone numbers or web addresses, service or product information, and location information.</p>
+<p>For a contractor that means "Smith Plumbing" is acceptable and "Smith Plumbing | 24/7 Emergency Plumber Denver" is not. If the trading name genuinely contains a service word, it needs to match the signage, invoices and registration. Google says that to keep special characters or legal terms such as LLC in the name, you must be able to show real-world proof such as signage, business cards or invoices.</p>
+
+<h3>2. An address the business does not operate from</h3>
+<p>Google requires a "precise, accurate address and/or service area" and says P.O. boxes and mailboxes at remote locations are not acceptable. It is explicit that a rented mailing address the business does not operate from, which it calls a virtual office, "isn't eligible for a Business Profile." A co-working desk is allowed only if the office has clear signage, receives customers during business hours and is staffed by your own team during those hours.</p>
+
+<h3>3. A service-area business showing an address it should hide</h3>
+<p>Most home service companies travel to the customer. Google says these service-area businesses "should have one profile for the central office or location with a designated service area," and cannot list a virtual office unless it is staffed during business hours. A plumber working from home who displays the home address as if customers visit it, or who adds a storefront that does not exist, is misrepresenting the business. Hybrid businesses that do receive customers, such as a shop with a showroom that also does call-outs, may show the address and a service area, but only if the location is staffed and can receive customers during its stated hours.</p>
+
+<h3>4. More than one profile for the same location</h3>
+<p>The guidelines say there "should only be one profile per business," and "do not create more than one page for each location of your business, either in a single account or multiple accounts." Duplicate profiles often appear by accident, for example when a previous marketing agency created one and the owner later created another. Find them and remove the duplicate rather than leaving both.</p>
+
+<h3>5. Fake or incentivised reviews</h3>
+<p>Google says it takes "fake and/or incentivized reviews and ratings on businesses very seriously." Buying reviews, having staff review the business, or offering customers a discount in exchange for a review can lead to review restrictions as well as the removal of the reviews. If you run a review programme, read <a href="/blog/review-generation-strategies-contractors/">review generation strategies for contractors</a> and make sure every request goes to every customer, not only the happy ones, and offers nothing in return.</p>
+
+<h3>6. Links and promotions in the description</h3>
+<p>The business description must not contain links of any type, and must not focus on special promotions, prices or sales. These are less likely to cause a suspension on their own, but they are quick to fix while you are cleaning the profile up before an appeal.</p>
+
+<hr>
+
+<h2>What to Do in the First Hour (and What Not to Do)</h2>
+
+<p>The instinct after a suspension is to act quickly. The useful actions are mostly checks, and the harmful ones are mostly edits made in a hurry.</p>
+
+<table>
+<thead>
+<tr><th>Do</th><th>Do not</th></tr>
+</thead>
+<tbody>
+<tr><td>Open the appeals tool and read the stated reason and the linked policy.</td><td>Create a new profile for the same business. Google says not to.</td></tr>
+<tr><td>Compare the name, address, service area and categories against the guidelines, line by line.</td><td>Submit an appeal before the profile complies. Google says an appeal can only be submitted once.</td></tr>
+<tr><td>Check who else has owner or manager access, and whether any of those accounts has been removed.</td><td>Keep editing the name or address while the appeal is under review.</td></tr>
+<tr><td>Gather documents that show the same name and address the profile uses.</td><td>Upload documents that show a different trading name or a different address.</td></tr>
+<tr><td>Search Maps for duplicate listings of the same location.</td><td>Ask someone to post reviews to "prove" the business is real.</td></tr>
+</tbody>
+</table>
+
+<p>The second row is the expensive one. Because Google allows one appeal per decision, an appeal filed while the name still carries a keyword is an appeal wasted.</p>
+
+<hr>
+
+<h2>How to Submit the Appeal, Step by Step</h2>
+
+<p>This follows Google's own instructions on <a href="https://support.google.com/business/answer/4569145" target="_blank" rel="noopener noreferrer">Fix suspended or disabled profiles</a>.</p>
+
+<ol>
+<li><strong>Fix the profile first.</strong> Google's first instruction is to make sure the profile follows all the guidelines before submitting.</li>
+<li><strong>Open the Google Business Profile appeals tool</strong> and sign in with the Google account linked to the profile. If you are signed in with the wrong account, switch accounts. This is common when a former employee or agency created the profile.</li>
+<li><strong>Select the profile, then the decision you are appealing.</strong> Read the reason and the policy link the tool shows.</li>
+<li><strong>Attach evidence.</strong> Google lists official business registration, a business licence, tax certificates, and business utility bills for electricity, phone, water or internet. You can attach several files.</li>
+<li><strong>Write a short explanation</strong> in the text box: what the profile represents, what you changed, and what each document proves. Plain facts work better than a long argument.</li>
+<li><strong>Confirm and submit.</strong> Tick the box confirming the evidence is attached and select Submit appeal. Google says it reviews the appeal and emails the decision.</li>
+</ol>
+
+<p>You can check progress in the same tool. Google lists the statuses as Submitted, Approved, Not Approved, Can't be appealed, and Eligible for appeal.</p>
+
+<div class="cta-box">
+<h3>Before you appeal, check the evidence matches</h3>
+<p>Google's tip is specific: for any document you submit, check that the business name and address match the profile you are appealing. A licence in the owner's personal name or a bill sent to a home address the profile does not show is the most common way a sound appeal turns into a weak one.</p>
+</div>
+
+<hr>
+
+<h2>When the Whole Account Is Restricted</h2>
+
+<p>If the Google account itself is restricted, Google says the profiles it manages are suspended and you will not be able to create or claim other profiles. The order of the fix changes. First appeal the account restriction from your Google account's My accounts page, where you can also track it. Once the restriction is lifted, appeal each Business Profile suspension separately.</p>
+
+<p>Agencies and multi-location businesses that manage more than ten profiles can request bulk reinstatement. Google's instructions are to attach a spreadsheet listing the Business Profile ID of every suspended location, along with supporting documents, and to make sure the name and address on each document match exactly.</p>
+
+<hr>
+
+<h2>If the Appeal Is Denied</h2>
+
+<p>Google says that only if a reinstatement request is denied, it may be able to do an additional review, and you can submit evidence that was not included in the original appeal. Treat that as the last real chance. Ask what a reviewer would need to believe the business is genuine and operates where the profile says it does, and supply documents that prove it. A longer explanation without new evidence rarely changes the answer.</p>
+
+<p>Businesses in a European Economic Area member state may have additional redress options, according to the same Google page.</p>
+
+<p>If the profile is reinstated but something is still wrong, for example missing reviews or an address that has moved, Google directs owners to contact Google Business Profile Help.</p>
+
+<hr>
+
+<h2>How to Keep It From Happening Again</h2>
+
+<p>Every cause above comes down to the profile saying something about the business that is not true in the real world. The prevention is the same: make the profile match the business, then keep it matching.</p>
+
+<ul>
+<li><strong>Keep the name identical to the signage and registration.</strong> Put services in the categories, the services list and on the website, not in the name. The <a href="/blog/gbp-optimization-checklist/">GBP optimization checklist</a> shows where each of those belongs.</li>
+<li><strong>Keep one profile per real location,</strong> and keep a written record of who has owner and manager access.</li>
+<li><strong>Keep the name, address and phone number consistent across the web.</strong> Directory listings with old addresses make it harder to prove where the business is. The <a href="/blog/citation-building-guide-contractors/">citation building guide</a> covers the clean-up.</li>
+<li><strong>Change major details deliberately.</strong> A move, a rebrand or a new phone number should be changed everywhere at once, with documents that show the new details.</li>
+<li><strong>Run a review programme that asks every customer and offers nothing in return.</strong></li>
+</ul>
+
+<p>For the wider picture of how the profile fits into local rankings, read the <a href="/blog/local-seo-guide/">complete local SEO guide for home service businesses</a> and the list of <a href="/blog/local-seo-mistakes-contractors/">local SEO mistakes contractors make</a>.</p>
+
+<hr>
+
+<h2>Frequently Asked Questions</h2>
+
+{faqs.map((f) => (
+  <>
+    <h3>{f.q}</h3>
+    <p>{f.a}</p>
+  </>
+))}
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/google-business-profile-guide/">Google Business Profile Guide for Service-Area Businesses</a></li>
+<li><a href="/blog/gbp-optimization-checklist/">The GBP Optimization Checklist: 30 Steps to Rank Higher on Google Maps</a></li>
+<li><a href="/blog/review-generation-strategies-contractors/">Review Generation Strategies for Home Service Businesses</a></li>
+</ul>
+<div class="cta-box">
+<h3>Get the next guide by email</h3>
+<p>One SEO email every other week: what changed in search and the single thing worth doing about it. Free, and we have nothing to sell you.</p>
+<a href="/newsletter/">Subscribe to the newsletter</a>
+</div>
+</BlogPostLayout>
