@@ -1,0 +1,135 @@
+---
+import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
+
+const title = 'SEO for Plumbers: How to Get Found on Google and Maps';
+const description = "SEO for plumbers based on Google's own rules: Business Profile setup for a service-area business, service pages, Plumber schema and reviews.";
+const url = 'https://onwardcraft.com/blog/seo-for-plumbers/';
+
+const faqs = [
+  {
+    q: 'How do plumbers rank higher on Google Maps?',
+    a: 'Google says local results are based mainly on relevance, distance and prominence. A plumber improves relevance with an accurate, complete Business Profile (correct primary category, services and service area) and clear service pages, and improves prominence with genuine reviews and a business that is well known locally. Google states there is no way to pay for a better local ranking.',
+  },
+  {
+    q: 'Should a plumber show their home address on Google?',
+    a: "Not if customers do not visit it. Google's Business Profile guidelines say service-area businesses should set a service area and not show an address where they do not receive customers. A virtual office or P.O. box is not eligible.",
+  },
+  {
+    q: "Can I put 'emergency plumber' and my city in my business name?",
+    a: "Only if that is the real-world name on your signage and registration. Google's guidelines say adding unnecessary information such as service or location details to the business name isn't permitted and could lead to suspension.",
+  },
+  {
+    q: 'Is there schema markup for plumbers?',
+    a: "Yes. Schema.org has a Plumber type, a subtype of LocalBusiness, and Google's LocalBusiness structured data documentation says to use the most specific subtype possible. Name and address are the required properties for eligibility.",
+  },
+  {
+    q: 'How long does SEO take for a plumbing company?',
+    a: "Google's SEO Starter Guide says some changes take effect in a few hours and others could take several months. No one can guarantee a timeline or a position.",
+  }
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "image": "https://onwardcraft.com/og-image.png",
+    "author": { "@type": "Organization", "name": "OnwardCraft" },
+    "publisher": { "@type": "Organization", "name": "OnwardCraft", "logo": { "@type": "ImageObject", "url": "https://onwardcraft.com/logo.png" } },
+    "datePublished": "2026-11-16",
+    "dateModified": "2026-11-16",
+    "mainEntityOfPage": { "@type": "WebPage", "@id": url }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+  }
+];
+---
+
+<BlogPostLayout
+  title={title}
+  description={description}
+  category='Local SEO'
+  date='November 16, 2026'
+  readTime='9 min read'
+  tags={['SEO', 'Plumbers', 'Local SEO', 'Google Business Profile']}
+  schema={schema}
+>
+
+<p class="lead">SEO for plumbers comes down to three things Google documents: a Google Business Profile set up correctly for a service-area business, a website with a clear page for each plumbing service, and genuine reviews. Google says local results depend mainly on relevance, distance and prominence, and that a better local ranking cannot be bought. This guide follows Google's own help pages, checked on 16 November 2026.</p>
+
+<p>For the general picture across all trades, start with the <a href="/blog/local-seo-guide/">complete local SEO guide for home service businesses</a> or the shorter <a href="/blog/seo-for-small-business/">SEO for small business</a> overview. This page covers what is specific to plumbing.</p>
+
+<hr>
+
+<h2>How Google Ranks Plumbers in Local Results</h2>
+<p>Google's page <a href="https://support.google.com/business/answer/7091" target="_blank" rel="noopener noreferrer">Tips to improve your local ranking on Google</a> says local results are based mainly on relevance ("how well a Business Profile matches what someone is searching for"), distance ("how far each business is from the customer who's searching") and prominence ("how well-known a business is"). It adds: "There's no way to request or pay for a better local ranking on Google."</p>
+<p>Distance is set by where the searcher is, so the work goes into relevance and prominence.</p>
+
+<hr>
+
+<h2>Set Up the Business Profile as a Service-Area Business</h2>
+<p>Most plumbers travel to the customer. The <a href="https://support.google.com/business/answer/3038177" target="_blank" rel="noopener noreferrer">Guidelines for representing your business on Google</a> say service-area businesses should have one profile for the central office with a designated service area, and should not show an address where they do not serve customers in person. P.O. boxes and virtual offices are not eligible.</p>
+<ul>
+<li><strong>Name:</strong> the real name on the van, invoices and registration. Google says adding service or location information to the name isn't permitted and could result in suspension. "Smith Plumbing" is fine; "Smith Plumbing 24/7 Emergency Plumber Austin" is not, unless that is genuinely the registered trading name.</li>
+<li><strong>Category:</strong> choose the primary category that describes the core business, then add others that genuinely apply. The <a href="/blog/google-business-profile-guide/">Google Business Profile guide</a> covers category choice by trade.</li>
+<li><strong>Hours:</strong> only list 24-hour availability if someone actually answers and dispatches at those hours.</li>
+<li><strong>Keep it current:</strong> Google's ranking tips list verifying the business, keeping address, hours, category and attributes current, replying to reviews and adding photos and videos.</li>
+</ul>
+<p>If the profile has already been suspended, follow <a href="/blog/google-business-profile-suspended/">how to fix a suspended Google Business Profile</a> before changing anything else.</p>
+
+<hr>
+
+<h2>Build One Page Per Plumbing Service</h2>
+<p>Relevance on the website comes from saying clearly what you do. A homeowner searching for water heater installation should land on a page about water heater installation, not a general home page. Google's <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener noreferrer">SEO Starter Guide</a> says a good title is "unique to the page, clear and concise, and accurately describes the contents of the page," and that content should be "helpful, reliable, and people-first."</p>
+<p>A typical plumbing site needs separate pages for the services you actually offer, for example drain cleaning, leak repair, water heater work, sewer line work and emergency call-outs. On each, state what the job involves, which areas you cover, and how to book. Do not create a page for a service you do not perform, and avoid cloning the same page for every town with only the name changed.</p>
+
+<hr>
+
+<h2>Add Plumber Structured Data</h2>
+<p>Schema.org defines a <a href="https://schema.org/Plumber" target="_blank" rel="noopener noreferrer">Plumber</a> type under LocalBusiness. Google's <a href="https://developers.google.com/search/docs/appearance/structured-data/local-business" target="_blank" rel="noopener noreferrer">LocalBusiness structured data documentation</a> says to "use the most specific LocalBusiness sub-type possible," and lists <code>name</code> and <code>address</code> as required properties. Make the name, address and phone in the markup identical to the Business Profile. The <a href="/blog/schema-markup-checklist/">schema markup checklist</a> has examples.</p>
+
+<hr>
+
+<h2>Reviews and Prominence</h2>
+<p>Google's local ranking page says prominence is "based on info like how many websites link to your business and how many reviews you have," and that "more reviews and positive ratings can help your business's local ranking." For a plumber that means asking every customer for a review after the job, replying to reviews, and keeping directory listings accurate. Do not buy reviews or offer discounts for them; Google prohibits fake and incentivised reviews. See <a href="/blog/review-generation-strategies-contractors/">review generation strategies for contractors</a> and the <a href="/blog/citation-sources-for-contractors/">citation sources list</a>.</p>
+
+<hr>
+
+<h2>A Simple Order of Work</h2>
+<ol>
+<li>Verify and clean up the Business Profile: real name, service area, correct categories, true hours.</li>
+<li>Build or fix one page per service with a unique title and description.</li>
+<li>Add Plumber structured data that matches the profile.</li>
+<li>Start asking every customer for a review and reply to each one.</li>
+<li>Correct the business details in the main directories.</li>
+<li>Make one change at a time and wait a few weeks before judging it, as Google's Starter Guide suggests.</li>
+</ol>
+
+<hr>
+
+<h2>Frequently Asked Questions</h2>
+
+{faqs.map((f) => (
+  <>
+    <h3>{f.q}</h3>
+    <p>{f.a}</p>
+  </>
+))}
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/local-seo-tips-contractors/">27 Local SEO Tips for Contractors</a></li>
+<li><a href="/blog/google-business-profile-guide/">Google Business Profile Guide for Service-Area Businesses</a></li>
+<li><a href="/blog/seo-for-small-business/">SEO for Small Business: Where to Start and What to Skip</a></li>
+</ul>
+<div class="cta-box">
+<h3>Get the next guide by email</h3>
+<p>One SEO email every other week: what changed in search and the single thing worth doing about it. Free, and we have nothing to sell you.</p>
+<a href="/newsletter/">Subscribe to the newsletter</a>
+</div>
+</BlogPostLayout>

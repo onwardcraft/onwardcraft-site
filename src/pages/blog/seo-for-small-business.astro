@@ -1,0 +1,147 @@
+---
+import BlogPostLayout from '../../layouts/BlogPostLayout.astro';
+
+const title = 'SEO for Small Business: Where to Start and What to Skip';
+const description = "SEO for small businesses using Google's own guidance: the Business Profile, local ranking factors, page basics, and the tactics that waste money.";
+const url = 'https://onwardcraft.com/blog/seo-for-small-business/';
+
+const faqs = [
+  {
+    q: 'Can a small business do its own SEO?',
+    a: "Yes. Google's SEO Starter Guide is written for people who own or manage a website, and it says there are no secrets that will automatically rank a site first. The basics it describes, such as clear page titles, useful content and descriptive URLs, plus a verified and accurate Google Business Profile, are things an owner can do without hiring anyone.",
+  },
+  {
+    q: 'How long does SEO take for a small business?',
+    a: "Google's SEO Starter Guide says some changes might take effect in a few hours and others could take several months, and suggests waiting a few weeks before judging whether a change had an effect. Nobody can promise a date, because Google does not.",
+  },
+  {
+    q: 'Can I pay Google to rank higher in local results?',
+    a: "No. Google's Business Profile help states that there's no way to request or pay for a better local ranking. Ads are sold separately and labelled as ads; they do not change the organic local ranking.",
+  },
+  {
+    q: 'What matters most for local small business rankings?',
+    a: 'Google says local results are based mainly on relevance, distance and prominence. Distance is outside your control, so the work goes into relevance (an accurate, complete profile and website) and prominence (how well known the business is, including reviews and links).',
+  },
+  {
+    q: 'Do meta keywords help small business SEO?',
+    a: "No. Google's SEO Starter Guide says Google Search doesn't use the keywords meta tag. Time is better spent on unique titles and meta descriptions for each page.",
+  }
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": title,
+    "description": description,
+    "image": "https://onwardcraft.com/og-image.png",
+    "author": { "@type": "Organization", "name": "OnwardCraft" },
+    "publisher": { "@type": "Organization", "name": "OnwardCraft", "logo": { "@type": "ImageObject", "url": "https://onwardcraft.com/logo.png" } },
+    "datePublished": "2026-11-16",
+    "dateModified": "2026-11-16",
+    "mainEntityOfPage": { "@type": "WebPage", "@id": url }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } }))
+  }
+];
+---
+
+<BlogPostLayout
+  title={title}
+  description={description}
+  category='SEO'
+  date='November 16, 2026'
+  readTime='9 min read'
+  tags={['SEO', 'Small Business', 'Local SEO', 'Google Business Profile']}
+  schema={schema}
+>
+
+<p class="lead">SEO for a small business starts with two things Google documents openly: a verified, accurate Google Business Profile, and a website whose pages clearly say what you do and where. Google says local results depend mainly on relevance, distance and prominence, and that you cannot pay for a better local ranking. Everything below sticks to what Google itself publishes, checked on 16 November 2026, so you can tell useful work from paid noise.</p>
+
+<p>This page is the short version for owners. If you run a trade business, the <a href="/blog/local-seo-guide/">complete local SEO guide for home service businesses</a> goes much deeper, and <a href="/blog/diy-seo-vs-hiring-an-agency-pros-and-cons/">DIY SEO vs hiring an agency</a> helps you decide who should do the work.</p>
+
+<hr>
+
+<h2>How Google Decides Which Local Businesses to Show</h2>
+
+<p>Google's help page <a href="https://support.google.com/business/answer/7091" target="_blank" rel="noopener noreferrer">Tips to improve your local ranking on Google</a> names three main factors:</p>
+<ul>
+<li><strong>Relevance:</strong> "how well a Business Profile matches what someone is searching for."</li>
+<li><strong>Distance:</strong> "how far each business is from the customer who's searching."</li>
+<li><strong>Prominence:</strong> "how well-known a business is."</li>
+</ul>
+<p>The same page says: "There's no way to request or pay for a better local ranking on Google." Any seller who promises a guaranteed position in the map results is promising something Google says is not for sale.</p>
+
+<hr>
+
+<h2>Step 1: Set Up the Google Business Profile Properly</h2>
+
+<p>Google's own tips for improving local ranking are short. Verify the business, keep the address, hours, category and attributes current, reply to reviews, and add photos and videos. Each of these is free.</p>
+<p>The profile also has rules. The <a href="https://support.google.com/business/answer/3038177" target="_blank" rel="noopener noreferrer">Guidelines for representing your business on Google</a> say the business name must be the real-world name, with no added keywords or locations, and that a business which travels to customers should set a service area rather than list an address customers cannot visit. Breaking these rules can get a profile suspended; if that has happened, see <a href="/blog/google-business-profile-suspended/">how to fix a suspended Google Business Profile</a>. For the full setup, use the <a href="/blog/gbp-optimization-checklist/">GBP optimization checklist</a>.</p>
+
+<hr>
+
+<h2>Step 2: Get the Website Basics Right</h2>
+
+<p>Google's <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide" target="_blank" rel="noopener noreferrer">SEO Starter Guide</a> covers the on-site basics. The points that matter most for a small site:</p>
+<table>
+<thead><tr><th>Element</th><th>What Google says</th></tr></thead>
+<tbody>
+<tr><td>Page titles</td><td>"A good title is unique to the page, clear and concise, and accurately describes the contents of the page."</td></tr>
+<tr><td>Meta descriptions</td><td>"Short, unique to one particular page, and includes the most relevant points of the page."</td></tr>
+<tr><td>URLs</td><td>Include "words in the URL that may be useful for users."</td></tr>
+<tr><td>Content</td><td>Should be "helpful, reliable, and people-first."</td></tr>
+<tr><td>Images</td><td>Alt text should explain "the relationship between the image and your content."</td></tr>
+<tr><td>Links</td><td>"The vast majority of the new pages Google finds every day are through links."</td></tr>
+<tr><td>Meta keywords</td><td>Google Search "doesn't use the keywords meta tag."</td></tr>
+</tbody>
+</table>
+<p>In practice: one page per main service, each with its own title and description, the areas you serve stated in plain words, and the same business name, address and phone number as the Business Profile. The <a href="/blog/technical-seo-checklist-home-service/">technical SEO checklist</a> covers speed, indexing and structured data.</p>
+
+<hr>
+
+<h2>Step 3: Earn Prominence</h2>
+
+<p>Prominence is the factor you build over time. Google's local ranking page says prominence is "based on info like how many websites link to your business and how many reviews you have," and that "more reviews and positive ratings can help your business's local ranking." That points to three ordinary habits: ask every customer for a review, list the business accurately in the main directories (the <a href="/blog/citation-building-guide-contractors/">citation building guide</a> explains how), and do things locally that people would naturally write about and link to.</p>
+
+<hr>
+
+<h2>What to Skip</h2>
+<ul>
+<li><strong>Guaranteed rankings.</strong> Google says local ranking cannot be bought, and its Starter Guide says there are no secrets that automatically rank a site first.</li>
+<li><strong>Keywords stuffed into the business name.</strong> It breaks the Business Profile guidelines.</li>
+<li><strong>Meta keyword tags.</strong> Google does not use them.</li>
+<li><strong>Bought or incentivised reviews.</strong> Google's guidelines prohibit them and can restrict a profile that uses them.</li>
+<li><strong>Dozens of near-identical city pages.</strong> Content should be people-first, not a template with the town name swapped.</li>
+</ul>
+<p>If you do hire help, <a href="/blog/how-much-does-seo-cost/">how much SEO costs</a> and <a href="/blog/how-to-choose-the-right-seo-agency/">how to choose an SEO agency</a> explain what to ask before you sign.</p>
+
+<p>On timing, the Starter Guide is candid: "Some changes might take effect in a few hours, others could take several months." Make one change at a time and give it a few weeks before you judge it.</p>
+
+<hr>
+
+<h2>Frequently Asked Questions</h2>
+
+{faqs.map((f) => (
+  <>
+    <h3>{f.q}</h3>
+    <p>{f.a}</p>
+  </>
+))}
+
+<hr />
+<h2>Related Articles</h2>
+<ul class="bullet-list">
+<li><a href="/blog/local-seo-guide/">The Complete Local SEO Guide for Home Service Businesses</a></li>
+<li><a href="/blog/diy-seo-vs-hiring-an-agency-pros-and-cons/">DIY SEO vs Hiring an Agency</a></li>
+<li><a href="/blog/seo-for-plumbers/">SEO for Plumbers: How to Get Found on Google and Maps</a></li>
+</ul>
+<div class="cta-box">
+<h3>Get the next guide by email</h3>
+<p>One SEO email every other week: what changed in search and the single thing worth doing about it. Free, and we have nothing to sell you.</p>
+<a href="/newsletter/">Subscribe to the newsletter</a>
+</div>
+</BlogPostLayout>
