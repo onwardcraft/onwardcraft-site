@@ -1,5 +1,6 @@
 ---
 import { SITE, AUTHOR } from '../data/site.js';
+import { yearTitle, yearDescription } from '../lib/seo-year.mjs';
 
 export interface Props {
   title?: string;
@@ -25,6 +26,8 @@ const {
 
 const pathname = Astro.url.pathname;
 const canonicalPath = pathname === '/' ? '/' : pathname.endsWith('/') ? pathname : pathname + '/';
+const yTitle = yearTitle(title, pathname);
+const yDesc = yearDescription(description, pathname);
 const canonicalUrl = canonical || `${SITE.url}${canonicalPath}`;
 
 // Sitewide structured data. This site is a publication, so the root entity is
@@ -100,15 +103,15 @@ const allSchemas = [orgSchema, websiteSchema, blogSchema, deskSchema, ...pageSch
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title}</title>
-    <meta name="description" content={description} />
+    <title>{yTitle}</title>
+    <meta name="description" content={yDesc} />
     <link rel="canonical" href={canonicalUrl} />
     {robots && <meta name="robots" content={robots} />}
 
     <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonicalUrl} />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
+    <meta property="og:title" content={yTitle} />
+    <meta property="og:description" content={yDesc} />
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -118,8 +121,8 @@ const allSchemas = [orgSchema, websiteSchema, blogSchema, deskSchema, ...pageSch
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content={canonicalUrl} />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
+    <meta name="twitter:title" content={yTitle} />
+    <meta name="twitter:description" content={yDesc} />
     <meta name="twitter:image" content={ogImage} />
     <meta name="twitter:image:alt" content={`${SITE.name} — ${SITE.tagline}`} />
 
